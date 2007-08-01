@@ -1,26 +1,60 @@
 
 local NextItem
 local current = 1
+local _, class = UnitClass("player")
 
-local actions = {'ACCEPT', 'COMPLETE', 'TURNIN', 'ACCEPT', 'ACCEPT', 'TURNIN', 'ACCEPT', 'TURNIN', 'ACCEPT', 'ACCEPT', 'ACCEPT', 'ACCEPT', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'TURNIN', 'TURNIN', 'TURNIN', 'TURNIN', 'ACCEPT', 'TURNIN', 'ACCEPT', 'COMPLETE', 'COMPLETE', 'TURNIN', 'ACCEPT', 'COMPLETE', 'TURNIN', 'TURNIN', 'TURNIN', 'RUN'}
-local quests = {'Reclaiming Sunstrider Isle', 'Reclaiming Sunstrider Isle', 'Reclaiming Sunstrider Isle', 'Unfortunate Measures', 'YOUR CLASS QUEST', 'YOUR CLASS QUEST', 'Well Watcher Solanian', 'Well Watcher Solanian', 'The Shrine of Dath\'Remar', 'Solanian\'s Belongings', 'A Fistful of Slivers', 'Thirst Unending', 'Thirst Unending', 'A Fistful of Slivers', 'Unfortunate Measures', 'Solanian\'s Belongings', 'Thirst Unending', 'A Fistful of Slivers', 'Unfortunate Measures', 'Solanian\'s Belongings', 'Report to Lanthan Perilon', 'Report to Lanthan Perilon', 'Aggression', 'Aggression', 'The Shrine of Dath\'Remar', 'Aggression', 'Felendren the Banished', 'Felendren the Banished', 'Felendren the Banished', 'Tainted Arcane Sliver', 'The Shrine of Dath\'Remar', 'Ruins of Silvermoon'}
-local notes = {nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 'You should find an item while doing this quest which starts "Tainted Arcane Sliver"', nil, nil, nil, nil}
-local ourquests = {}
-for i,v in ipairs(quests) do
-	if actions[i] == "ACCEPT" then ourquests[v] = true end
+local A, C, T = "ACCEPT", "COMPLETE", "TURNIN"
+local itemstartedquests = {["Tainted Arcane Sliver"] = 20483}
+local questnames = {
+	"Reclaiming Sunstrider Isle",
+	"Unfortunate Measures",
+	"YOUR CLASS QUEST",
+	"Well Watcher Solanian",
+	"The Shrine of Dath'Remar",
+	"Solanian's Belongings",
+	"A Fistful of Slivers",
+	"Thirst Unending",
+	"Report to Lanthan Perilon",
+	"Aggression",
+	"Felendren the Banished",
+	"Tainted Arcane Sliver",
+	"Ruins of Silvermoon"
+}
+local questorder = {1, 1, 1, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8, 7, 2, 6, 8, 7, 2, 6, 9, 9, 10, 10, 5, 10, 11, 11, 11, 12, 5, 13}
+local actions    = {A, C, T, A, A, T, A, T, A, A, A, A, C, C, C, C, T, T, T, T, A, T,  A,  C, C,  T,  A,  C,  T,  T, T, 'RUN'}
+local notes = {[28] = 'You should find an item while doing this quest which starts "Tainted Arcane Sliver"'}
+local quests = setmetatable({}, {__index = function(t,i)
+	local v = questorder[i] and questnames[questorder[i]]
+	t[i] = v
+	return v
+end})
+
+if class == "WARLOCK" then
+	questnames[3] = "Warlock Training"
+	questnames[14] = "Windows to the Source"
+	table.insert(questorder, 7, 14)
+	table.insert(actions,    7,  A)
+	table.insert(questorder, 29, 14)
+	table.insert(actions,    29,  C)
+	table.insert(questorder, 32, 14)
+	table.insert(actions,    32,  T)
+
 end
 
+local ourquests = {}
+for i,v in pairs(questnames) do ourquests[v] = true end
+
 local icons = setmetatable({
-	ACCEPT = "Interface\\Icons\\Spell_ChargePositive",
+	ACCEPT = "Interface\\GossipFrame\\AvailableQuestIcon",
 	COMPLETE = "Interface\\Icons\\Ability_DualWield",
-	TURNIN = "Interface\\Icons\\Spell_ChargeNegative",
+	TURNIN = "Interface\\GossipFrame\\ActiveQuestIcon",
 	RUN = "Interface\\Icons\\Ability_Rogue_Sprint",
 	MAP = "Interface\\Icons\\Ability_Spy",
 	FLY = "Interface\\Icons\\Ability_Druid_FlightForm",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 local f = CreateFrame("Button", nil, UIParent)
-f:SetPoint("CENTER")
+f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, 10)
 f:SetHeight(32)
 f:EnableMouse(true)
 f:RegisterForDrag("LeftButton")
@@ -89,7 +123,8 @@ local function SetText(i)
 		local j = i
 		repeat
 			local qi = GetQuestLogIndexByName("  "..quests[j])
-			if qi then AddQuestWatch(qi) end
+			if qi and select(7, GetQuestLogTitle(qi)) == 1 then RemoveQuestWatch(qi)
+			elseif qi then AddQuestWatch(qi) end
 			j = j + 1
 		until not actions[j] or actions[j] ~= "COMPLETE"
 		QuestLog_Update()
@@ -115,8 +150,6 @@ local function SetText(i)
 	end
 end
 
-SetText(1)
-
 function NextItem()
 	current = current + 1
 	if current > #actions then
@@ -125,6 +158,8 @@ function NextItem()
 		SetText(current)
 	end
 end
+
+SetText(1)
 
 f:SetScript("OnClick", function(self, btn)
 	if btn == "RightButton" then
@@ -142,6 +177,7 @@ f:SetScript("OnDragStop", function(self)
 	self:StopMovingOrSizing()
 end)
 
+local hadquest
 f:SetScript("OnEvent", function(self, event, a1)
 	if event == "CHAT_MSG_SYSTEM" then
 		local _, _, quest = a1:find("Quest accepted: (.*)")
@@ -149,8 +185,26 @@ f:SetScript("OnEvent", function(self, event, a1)
 
 		local _, _, questc = a1:find("(.*) completed.")
 		if questc and actions[current] == "TURNIN" and quests[current] == questc then return NextItem() end
+
+	elseif event == "QUEST_COMPLETE" then
+		if actions[current] == "TURNIN" and GetQuestLogIndexByName("  "..quests[current]) then hadquest = quests[current]
+		else hadquest = nil end
+
+	elseif event == "UNIT_QUEST_LOG_UPDATE" and a1 == "player" then
+		if hadquest == quests[current] and not GetQuestLogIndexByName("  "..quests[current]) then NextItem() end
+		hadquest = nil
+
 	else
 		if actions[current] ~= "COMPLETE" then return end
+		local i = current
+		repeat
+			local qi = GetQuestLogIndexByName("  "..quests[i])
+			if qi and select(7, GetQuestLogTitle(qi)) == 1 then RemoveQuestWatch(qi) end
+			i = i + 1
+		until actions[i] ~= "COMPLETE"
+		QuestLog_Update()
+		QuestWatch_Update()
+
 		local i = GetQuestLogIndexByName("  "..quests[current])
 		if i and select(7, GetQuestLogTitle(i)) == 1 then return NextItem() end
 
@@ -171,13 +225,17 @@ end)
 f:RegisterEvent("CHAT_MSG_SYSTEM")
 f:RegisterEvent("QUEST_LOG_UPDATE")
 f:RegisterEvent("QUEST_WATCH_UPDATE")
+f:RegisterEvent("QUEST_COMPLETE")
+f:RegisterEvent("UNIT_QUEST_LOG_UPDATE")
 
 local notlisted = CreateFrame("Frame", nil, QuestFrame)
 notlisted:SetWidth(32)
 notlisted:SetHeight(32)
 notlisted:SetPoint("TOPLEFT", 70, -45)
 notlisted:RegisterEvent("QUEST_DETAIL")
-notlisted:SetScript("OnEvent", function(self)
+notlisted:RegisterEvent("QUEST_COMPLETE")
+notlisted:SetScript("OnEvent", function(self, event)
+	if event == "QUEST_COMPLETE" then return self:Hide() end
 	local quest = GetTitleText()
 	if quest and ourquests[quest] then self:Hide()
 	else self:Show() end
