@@ -1,0 +1,11 @@
+## Interface: 20100
+
+## Title: Tour Guide
+## Notes: Powerleveling guide framework
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Category: Quest
+
+## OptionalDeps: Dongle, Optionhouse
+
+TourGuide.lua
