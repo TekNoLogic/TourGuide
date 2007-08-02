@@ -9,3 +9,8 @@
 ## OptionalDeps: Dongle, Optionhouse
 
 TourGuide.lua
+StatusFrame.lua
+UnlistedQuest.lua
+QuestTracking.lua
+
+01_05_Eversong.lua
