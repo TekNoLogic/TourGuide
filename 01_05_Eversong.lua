@@ -50,5 +50,3 @@ TourGuide.quests = quests
 TourGuide.actions = actions
 TourGuide.notes = notes
 
-
-TourGuide:SetText(1)

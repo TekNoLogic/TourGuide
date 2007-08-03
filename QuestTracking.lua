@@ -4,16 +4,21 @@ local TourGuide = TourGuide
 local hadquest
 
 
+TourGuide.turnedin = {}
+
 local f = CreateFrame("Frame")
 f:SetScript("OnEvent", function(self, event, ...) if self[event] then self[event](TourGuide, event, ...) end end)
 
 
 function f:CHAT_MSG_SYSTEM(event, a1)
 	local _, _, quest = a1:find("Quest accepted: (.*)")
-	if quest and self.actions[self.current] == "ACCEPT" and self.quests[self.current] == quest then return self:NextItem() end
+	if quest and self.actions[self.current] == "ACCEPT" and self.quests[self.current] == quest then return self:UpdateStatusFrame() end
 
 	local _, _, questc = a1:find("(.*) completed.")
-	if questc and self.actions[self.current] == "TURNIN" and self.quests[self.current] == questc then return self:NextItem() end
+	if questc and self.actions[self.current] == "TURNIN" and self.quests[self.current] == questc then
+		self.turnedin[questc] = true
+		return self:UpdateStatusFrame()
+	end
 end
 
 
@@ -26,7 +31,7 @@ end
 function f:UNIT_QUEST_LOG_UPDATE(event, unit)
 	if unit ~= "player" then return end
 
-	if hadquest == self.quests[self.current] and not GetQuestLogIndexByName("  "..self.quests[self.current]) then self:NextItem() end
+	if hadquest == self.quests[self.current] and not GetQuestLogIndexByName("  "..self.quests[self.current]) then self:UpdateStatusFrame() end
 	hadquest = nil
 end
 
@@ -43,7 +48,7 @@ function f:QUEST_WATCH_UPDATE(event)
 	QuestWatch_Update()
 
 	local i = GetQuestLogIndexByName("  "..self.quests[self.current])
-	if i and select(7, GetQuestLogTitle(i)) == 1 then return self:NextItem() end
+	if i and select(7, GetQuestLogTitle(i)) == 1 then return self:UpdateStatusFrame() end
 end
 
 
@@ -59,7 +64,7 @@ function f:QUEST_LOG_UPDATE(event)
 	QuestWatch_Update()
 
 	local i = GetQuestLogIndexByName("  "..self.quests[self.current])
-	if i and select(7, GetQuestLogTitle(i)) == 1 then return self:NextItem() end
+	if i and select(7, GetQuestLogTitle(i)) == 1 then return self:UpdateStatusFrame() end
 
 	if self.actions[self.current] == "COMPLETE" then
 		local qi = GetQuestLogIndexByName("  "..self.quests[self.current])
@@ -69,7 +74,7 @@ function f:QUEST_LOG_UPDATE(event)
 			QuestWatch_Update()
 		end
 	elseif self.actions[self.current] == "TURNIN" then
-		if not GetQuestLogIndexByName("  "..self.quests[self.current]) then return self:NextItem() end
+		if not GetQuestLogIndexByName("  "..self.quests[self.current]) then return self:UpdateStatusFrame() end
 	end
 end
 

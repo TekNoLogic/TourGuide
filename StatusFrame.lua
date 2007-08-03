@@ -1,8 +1,9 @@
 
 
 local TourGuide = TourGuide
+local OptionHouse = DongleStub("OptionHouse-1.0")
 
-local NextItem
+
 TourGuide.current = 1
 
 
@@ -55,38 +56,11 @@ f2:SetScript("OnUpdate", function(self, el)
 end)
 
 function TourGuide:SetText(i)
-	-- Un-watch the last item if it's completed
-	if i > 1 and self.actions[i-1] == "COMPLETE" then
-		local qi = GetQuestLogIndexByName("  "..self.quests[i-1])
-		if qi and select(7, GetQuestLogTitle(qi)) == 1 then
-			RemoveQuestWatch(qi)
-			QuestLog_Update()
-			QuestWatch_Update()
-		end
-	end
+	self.current = i
+	local newtext = self.quests[i]..(self.notes[i] and " [?]" or "")
 
-	-- Watch the next quests to complete, or skip if this quest is complete
-	if self.actions[i] == "COMPLETE" then
-		local qi = GetQuestLogIndexByName("  "..self.quests[i])
-		if qi and select(7, GetQuestLogTitle(qi)) == 1 then return self:NextItem() end
-
-		local j = i
-		repeat
-			local qi = GetQuestLogIndexByName("  "..self.quests[j])
-			if qi and select(7, GetQuestLogTitle(qi)) == 1 then RemoveQuestWatch(qi)
-			elseif qi then AddQuestWatch(qi) end
-			j = j + 1
-		until not self.actions[j] or self.actions[j] ~= "COMPLETE"
-		QuestLog_Update()
-		QuestWatch_Update()
-	end
-
-	-- Skip if we have the quest we're supposted to accept
-	if self.actions[i] == "ACCEPT" and GetQuestLogIndexByName("  "..self.quests[i]) then return self:NextItem() end
-
-	if i > 1 then
+	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[self.actions[i]] then
 		oldsize = f:GetWidth()
-		newsize = 44 + text:GetWidth()
 		icon:SetAlpha(0)
 		text:SetAlpha(0)
 		elapsed = 0
@@ -98,27 +72,58 @@ function TourGuide:SetText(i)
 	end
 
 	icon:SetTexture(self.icons[self.actions[i]])
-	text:SetText(self.quests[i]..(self.notes[i] and " [?]" or ""))
+	text:SetText(newtext)
 	if i == 1 then f:SetWidth(44 + text:GetWidth()) end
+	newsize = 44 + text:GetWidth()
 end
 
 
-function TourGuide:NextItem()
-	self.current = self.current + 1
-	if self.current > #self.actions then
-		self.current = #self.actions
-	else
-		self:SetText(self.current)
+function TourGuide:UpdateStatusFrame()
+	local breakout
+	local nextstep
+
+	for i in ipairs(self.actions) do
+		local name = self.quests[i]
+		if not self.turnedin[name] and not nextstep then
+			local action, name, note, logi, complete, itemstarted = self:GetObjectiveInfo(i)
+			if not nextstep and (not logi or (action == "TURNIN" or action == "COMPLETE" and not complete)) then nextstep = i end
+
+			if action == "COMPLETE" and logi and complete then RemoveQuestWatch(logi) -- Un-watch if completed quest
+			elseif action == "COMPLETE" and logi then
+				local j = i
+				repeat
+					action, _, _, logi, complete = self:GetObjectiveInfo(j)
+					if action == "COMPLETE" and logi and not complete then AddQuestWatch(logi) -- Watch if we're in a 'COMPLETE' block
+					elseif action == "COMPLETE" and logi then RemoveQuestWatch(logi) end -- or unwatch if done
+					j = j + 1
+				until action ~= "COMPLETE"
+			end
+		end
 	end
+
+	QuestLog_Update()
+	QuestWatch_Update()
+
+	if nextstep then self:SetText(nextstep)
+	else self:SetText(1) end
 end
 
 
 f:SetScript("OnClick", function(self, btn)
 	if btn == "RightButton" then
-		TourGuide.current = TourGuide.current - 1
-		TourGuide.current = TourGuide.current == 0 and 1 or TourGuide.current
-		TourGuide:SetText(TourGuide.current)
-	else TourGuide:NextItem() end
+		OptionHouse:Open("Tour Guide", "Eversong Woods")
+	else
+		if IsShiftKeyDown() then
+			TourGuide.turnedin[TourGuide.quests[TourGuide.current]] = true
+			TourGuide:UpdateStatusFrame()
+			TourGuide:UpdateOHPanel()
+		else
+			local i = TourGuide:GetQuestLogIndexByName()
+			if not i then return end
+			SelectQuestLogEntry(i)
+			ShowUIPanel(QuestLogFrame)
+		end
+	end
 end)
 
 

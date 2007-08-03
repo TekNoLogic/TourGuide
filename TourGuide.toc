@@ -8,8 +8,12 @@
 
 ## OptionalDeps: Dongle, Optionhouse
 
+Dongle.lua
+OptionHouse.lua
+
 TourGuide.lua
 StatusFrame.lua
+OHFrame.lua
 UnlistedQuest.lua
 QuestTracking.lua
 
