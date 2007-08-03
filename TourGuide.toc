@@ -10,6 +10,7 @@
 
 Dongle.lua
 OptionHouse.lua
+WidgetWarlock.lua
 
 TourGuide.lua
 StatusFrame.lua

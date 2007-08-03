@@ -9,6 +9,7 @@ TourGuide.icons = setmetatable({
 	RUN = "Interface\\Icons\\Ability_Rogue_Sprint",
 	MAP = "Interface\\Icons\\Ability_Spy",
 	FLY = "Interface\\Icons\\Ability_Druid_FlightForm",
+	TRAIN = "Interface\\GossipFrame\\trainerGossipIcon",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
@@ -37,6 +38,6 @@ function TourGuide:GetObjectiveInfo(i)
 end
 
 
-function TourGuide:Initialize()
+function TourGuide:Enable()
 	self:UpdateStatusFrame()
 end

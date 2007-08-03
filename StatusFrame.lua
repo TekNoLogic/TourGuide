@@ -2,9 +2,7 @@
 
 local TourGuide = TourGuide
 local OptionHouse = DongleStub("OptionHouse-1.0")
-
-
-TourGuide.current = 1
+local ww = WidgetWarlock
 
 
 local f = CreateFrame("Button", nil, UIParent)
@@ -15,28 +13,24 @@ f:RegisterForDrag("LeftButton")
 f:RegisterForClicks("anyUp")
 f:SetMovable(true)
 f:SetClampedToScreen(true)
-f:SetBackdrop({bgFile = "Interface\\ChatFrame\\ChatFrameBackground", edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 16, insets = {left = 4, right = 4, top = 4, bottom = 4}})
+f:SetBackdrop(ww.TooltipBorderBG)
 f:SetBackdropColor(0,0,0,0.3)
 f:SetBackdropBorderColor(0,0,0,0.7)
 
-local icon = f:CreateTexture()
-icon:SetWidth(24)
-icon:SetHeight(24)
-icon:SetPoint("LEFT", 4, 0)
-
-local text = f:CreateFontString(nil, nil, "GameFontNormal")
+local check = ww.SummonCheckBox(20, f, "LEFT", 8, 0)
+local icon = ww.SummonTexture(f, 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
+local text = ww.SummonFontString(f, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
 text:SetPoint("LEFT", icon, "RIGHT", 4, 0)
 
 local f2 = CreateFrame("Frame", nil, UIParent)
 f2:SetHeight(32)
 f2:SetWidth(100)
-local text2 = f2:CreateFontString(nil, nil, "GameFontNormal")
-local icon2 = f2:CreateTexture()
-icon2:SetWidth(24)
-icon2:SetHeight(24)
-icon2:SetPoint("LEFT", 4, 0)
-text2:SetPoint("LEFT", icon2, "RIGHT", 4, 0)
+local text2 = ww.SummonFontString(f2, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
+local icon2 = ww.SummonTexture(f2, 24, 24, nil, "RIGHT", text2, "LEFT", -4, 0)
+local check2 = ww.SummonCheckBox(20, f2, "RIGHT", icon2, "LEFT", -4, 0)
+check2:SetChecked(true)
 f2:Hide()
+
 
 local elapsed, oldsize, newsize
 f2:SetScript("OnUpdate", function(self, el)
@@ -47,7 +41,7 @@ f2:SetScript("OnUpdate", function(self, el)
 		text:SetAlpha(1)
 		f:SetWidth(newsize)
 	else
-		self:SetPoint("LEFT", f, "LEFT", 0, elapsed*40)
+		self:SetPoint("RIGHT", f, "RIGHT", 0, elapsed*40)
 		self:SetAlpha(1 - elapsed)
 		text:SetAlpha(elapsed)
 		icon:SetAlpha(elapsed)
@@ -64,7 +58,7 @@ function TourGuide:SetText(i)
 		icon:SetAlpha(0)
 		text:SetAlpha(0)
 		elapsed = 0
-		f2:SetPoint("LEFT", f, "LEFT", 0, 0)
+		f2:SetPoint("RIGHT", f, "RIGHT", 0, 0)
 		f2:SetAlpha(1)
 		icon2:SetTexture(icon:GetTexture())
 		text2:SetText(text:GetText())
@@ -73,13 +67,13 @@ function TourGuide:SetText(i)
 
 	icon:SetTexture(self.icons[self.actions[i]])
 	text:SetText(newtext)
-	if i == 1 then f:SetWidth(44 + text:GetWidth()) end
-	newsize = 44 + text:GetWidth()
+	check:SetChecked(false)
+	if i == 1 then f:SetWidth(72 + text:GetWidth()) end
+	newsize = 72 + text:GetWidth()
 end
 
 
 function TourGuide:UpdateStatusFrame()
-	local breakout
 	local nextstep
 
 	for i in ipairs(self.actions) do
@@ -104,8 +98,7 @@ function TourGuide:UpdateStatusFrame()
 	QuestLog_Update()
 	QuestWatch_Update()
 
-	if nextstep then self:SetText(nextstep)
-	else self:SetText(1) end
+	self:SetText(nextstep or 1)
 end
 
 
@@ -113,17 +106,18 @@ f:SetScript("OnClick", function(self, btn)
 	if btn == "RightButton" then
 		OptionHouse:Open("Tour Guide", "Eversong Woods")
 	else
-		if IsShiftKeyDown() then
-			TourGuide.turnedin[TourGuide.quests[TourGuide.current]] = true
-			TourGuide:UpdateStatusFrame()
-			TourGuide:UpdateOHPanel()
-		else
-			local i = TourGuide:GetQuestLogIndexByName()
-			if not i then return end
-			SelectQuestLogEntry(i)
-			ShowUIPanel(QuestLogFrame)
-		end
+		local i = TourGuide:GetQuestLogIndexByName()
+		if not i then return end
+		SelectQuestLogEntry(i)
+		ShowUIPanel(QuestLogFrame)
 	end
+end)
+
+
+check:SetScript("OnClick", function(self, btn)
+	TourGuide.turnedin[TourGuide.quests[TourGuide.current]] = true
+	TourGuide:UpdateStatusFrame()
+	TourGuide:UpdateOHPanel()
 end)
 
 

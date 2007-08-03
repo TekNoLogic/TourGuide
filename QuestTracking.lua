@@ -52,8 +52,21 @@ function f:QUEST_WATCH_UPDATE(event)
 end
 
 
+local turninquest
+function f:QUEST_FINISHED()
+	if self.actions[self.current] == "TURNIN" and GetQuestLogIndexByName("  "..self.quests[self.current]) then turninquest = self.quests[self.current]
+	else turninquest = nil end
+end
+
+
 function f:QUEST_LOG_UPDATE(event)
+	if self.actions[self.current] == "ACCEPT" then return self:UpdateStatusFrame() end
+	if self.actions[self.current] == "TURNIN" and turninquest == self.quests[self.current] and not GetQuestLogIndexByName("  "..turninquest) then
+		TourGuide.turnedin[turninquest] = true
+		return self:UpdateStatusFrame()
+	end
 	if self.actions[self.current] ~= "COMPLETE" then return end
+
 	local i = self.current
 	repeat
 		local qi = GetQuestLogIndexByName("  "..self.quests[i])
@@ -80,23 +93,4 @@ end
 
 
 for i in pairs(f) do f:RegisterEvent(i) end
-
-
---~ local f2 = CreateFrame("Frame")
---~ f2:RegisterEvent("QUEST_LOG_UPDATE")
---~ f2:RegisterEvent("QUEST_WATCH_UPDATE")
---~ f2:RegisterEvent("UNIT_QUEST_LOG_UPDATE")
---~ f2:RegisterEvent("QUEST_COMPLETE")
---~ f2:RegisterEvent("QUEST_FINISHED")
---~ f2:RegisterEvent("QUEST_UPDATE")
---~ f2:RegisterEvent("QUEST_ACCEPT")
---~ f2:RegisterEvent("PLAYER_LOGIN")
-
---~ f2:SetScript("OnEvent", function(self, event)
---~ 	local hasquest = GetQuestLogIndexByName("  Report to Lanthan Perilon")
---~ 	ChatFrame1:AddMessage(event.." -- "..(hasquest and "Has quest" or "No quest"))
---~ end)
-
---~ QUEST_FINISHED - has 1
---~ QUEST_LOG_UPDATE - doesn't have 1
 
