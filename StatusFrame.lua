@@ -51,9 +51,11 @@ end)
 
 function TourGuide:SetText(i)
 	self.current = i
-	local newtext = self.quests[i]..(self.notes[i] and " [?]" or "")
+	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(i)
 
-	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[self.actions[i]] then
+	local newtext = (quest or"???")..(note and " [?]" or "")
+
+	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[action] then
 		oldsize = f:GetWidth()
 		icon:SetAlpha(0)
 		text:SetAlpha(0)
@@ -65,7 +67,7 @@ function TourGuide:SetText(i)
 		f2:Show()
 	end
 
-	icon:SetTexture(self.icons[self.actions[i]])
+	icon:SetTexture(self.icons[action])
 	text:SetText(newtext)
 	check:SetChecked(false)
 	if i == 1 then f:SetWidth(72 + text:GetWidth()) end
@@ -79,11 +81,18 @@ function TourGuide:UpdateStatusFrame()
 	for i in ipairs(self.actions) do
 		local name = self.quests[i]
 		if not self.turnedin[name] and not nextstep then
-			local action, name, note, logi, complete, itemstarted = self:GetObjectiveInfo(i)
-			if not nextstep and (not logi or (action == "TURNIN" or action == "COMPLETE" and not complete)) then nextstep = i end
+			local action, name, note, logi, complete, hasitem = self:GetObjectiveInfo(i)
+			if not nextstep then
+				local incomplete
+				if action == "ITEM" then incomplete = hasitem
+				elseif action == "TURNIN" then incomplete = true
+				elseif action == "COMPLETE" then incomplete = not complete
+				else incomplete = not logi end
+				if incomplete then nextstep = i end
+			end
 
-			if action == "COMPLETE" and logi and complete then RemoveQuestWatch(logi) -- Un-watch if completed quest
-			elseif action == "COMPLETE" and logi then
+--~ 			if action == "COMPLETE" and logi and complete then RemoveQuestWatch(logi) -- Un-watch if completed quest
+			if action == "COMPLETE" and logi then
 				local j = i
 				repeat
 					action, _, _, logi, complete = self:GetObjectiveInfo(j)
@@ -115,13 +124,20 @@ end)
 
 
 check:SetScript("OnClick", function(self, btn)
-	TourGuide.turnedin[TourGuide.quests[TourGuide.current]] = true
-	TourGuide:UpdateStatusFrame()
-	TourGuide:UpdateOHPanel()
+	TourGuide:SetTurnedIn(TourGuide.current, true)
 end)
 
 
 f:SetScript("OnDragStart", function(self) self:StartMoving() end)
 f:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
 
+
+f:SetScript("OnLeave", function() GameTooltip:Hide() end)
+f:SetScript("OnEnter", function(self)
+	local tip = TourGuide.notes[TourGuide.current]
+	if not tip then return end
+
+ 	GameTooltip:SetOwner(self, "ANCHOR_LEFT")
+	GameTooltip:SetText(tip)
+end)
 

@@ -43,14 +43,15 @@ function TourGuide:CreateOHPanel()
 		local check = ww.SummonCheckBox(ROWHEIGHT, row, "TOPLEFT", ROWOFFSET, 0)
 		local icon = ww.SummonTexture(row, ROWHEIGHT, ROWHEIGHT, nil, "TOPLEFT", check, "TOPRIGHT", ROWOFFSET, 0)
 		local text = ww.SummonFontString(row, nil, nil, "GameFontNormal", nil, "LEFT", icon, "RIGHT", ROWOFFSET, 0)
+		local detail = ww.SummonFontString(row, nil, nil, "GameFontNormal", nil, "RIGHT", -ROWOFFSET, 0)
+		detail:SetPoint("LEFT", text, "RIGHT", ROWOFFSET*3, 0)
+		detail:SetJustifyH("RIGHT")
+		detail:SetTextColor(240/255, 121/255, 2/255)
 
-		check:SetScript("OnClick", function(f)
-			self.turnedin[text:GetText()] = f:GetChecked()
-			self:UpdateOHPanel()
-			self:UpdateStatusFrame()
-		end)
+		check:SetScript("OnClick", function(f) self:SetTurnedIn(row.i, f:GetChecked()) end)
 
 		row.text = text
+		row.detail = detail
 		row.status = status
 		row.check = check
 		row.icon = icon
@@ -75,11 +76,13 @@ end
 function TourGuide:UpdateOHPanel()
 	if not self.OHFrame or not self.OHFrame:IsVisible() then return end
 	for i,row in ipairs(self.OHFrame.rows) do
-		local action, name, note, logi, complete, itemstarted = self:GetObjectiveInfo(i+offset)
-		local checked = self.turnedin[name] or (action == "ACCEPT" and logi) or (action == "COMPLETE" and complete)
+		row.i = i + offset
+		local action, name, note, logi, complete, itemstarted, turnedin = self:GetObjectiveInfo(i + offset)
+		local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete
 
 		row.icon:SetTexture(self.icons[action])
 		row.text:SetText(name)
+		row.detail:SetText(note)
 		row.check:SetChecked(checked)
 	end
 end

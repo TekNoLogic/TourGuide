@@ -19,3 +19,5 @@ UnlistedQuest.lua
 QuestTracking.lua
 
 01_05_Eversong.lua
+##05_06_Eversong.lua
+##06_09_Eversong.lua
