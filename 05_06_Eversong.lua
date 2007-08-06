@@ -100,10 +100,10 @@ C Pelt Collection
 R Fairbreeze Village
 T Pelt Collection
 T Situation at Sunsail Anchorage
-T Ranger Sareyn
 A Missing in the Ghostlands
+B [Bundle of Fireworks] |N|From the General goods vendor, for "The Party Never Ends"|
+T Ranger Sareyn |N|To the East along the road (47,71)|
 A Defending Fairbreeze Village
-N Stop at the General goods vendor |N|Buy [Bundle of Fireworks] for "The Party Never Ends"|
 C Swift Discipline |N|Meledor (44,60) and Ralen (45,56)|
 T Swift Discipline
 N You should be level 10 now |N|Time to do your class's level 10 quests!|
@@ -116,7 +116,7 @@ C Defending Fairbreeze Village |N|Southern half of the Dead Scar|
 A Powering our Defenses |N|At the runestone (42,85)|
 C Powering our Defenses |N|At the East runestone (55,84)|
 R Silvermoon City
-N Buy [Suntouched Special Reserve] |N|Vinemaster Suntouched (80,58), for "The Party Never Ends"|
+B [Suntouched Special Reserve] |N|Vinemaster Suntouched (80,58), for "The Party Never Ends"|
 R Train (Level 10)
 T The Magister's Apprentice |N|Out of the city, follow the road East (67,57)|
 A Deactivating the Spire
@@ -138,6 +138,7 @@ A Zul'Marosh |N|(70,72)|
 C Zul'Marosh |N|Across the lake|
 T Zul'Marosh
 R Farstrider Retreat
+B [Springpaw Appetizers] |N|From Zalene Firstlight (60,63), for "The Party Never Ends"|
 T The Spearcrafter's Hammer
 T Amani Encroachment
 I Amani Invasion |I|23249|
@@ -157,14 +158,6 @@ C Whitebark's Memory |N|Bury the pendant (37,86) and fight his spirit to low hea
 T Whitebark's Memory
 T Powering our Defenses
 ]]
-
-
-
---~ 69) Then go to 34.80 and turn in "" ... accept ""
---~ 70) Go do "A somber Task".  While you are doing it, make sure you kill Old Whitebark, he drops Old Whitebark's Pendant which starts "Old Whitebark's Pendant"
---~ 71) Once they are done, go turn in "A somber Task" and "Old Whitebark's Pendant" ... accept ""
---~ 72) Then go do "Whitebark's Memory" (Once he gets to a low health, just talk to him to turn it in)
---~ 73) Go turn in "" at 44.85
 
 
 TourGuide:ParseObjectives(questsequence)

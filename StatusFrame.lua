@@ -157,7 +157,8 @@ f:SetScript("OnEnter", function(self)
 	local tip = TourGuide.notes[TourGuide.current]
 	if not tip then return end
 
- 	GameTooltip:SetOwner(self, "ANCHOR_LEFT")
-	GameTooltip:SetText(tip)
+ 	GameTooltip:SetOwner(self, "ANCHOR_NONE")
+	GameTooltip:SetPoint("TOPRIGHT", self, "TOPLEFT")
+	GameTooltip:SetText(tip, nil, nil, nil, nil, true)
 end)
 

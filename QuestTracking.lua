@@ -4,8 +4,8 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.TrackEvents = {"CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_FINISHED", "QUEST_LOG_UPDATE", "ZONE_CHANGED",
-	"ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED"}
+TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_FINISHED", "QUEST_LOG_UPDATE",
+	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED"}
 
 
 function TourGuide:ZONE_CHANGED(...)
@@ -33,8 +33,6 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	if not text then return end
 
 	if quest == text then return self:SetTurnedIn() end
-
---~ 	self.cachedturnins[text] = true
 
 	local i = 1
 	repeat
@@ -87,4 +85,13 @@ function TourGuide:QUEST_LOG_UPDATE(event)
 	elseif action == "COMPLETE" and complete then return self:UpdateStatusFrame() end
 end
 
+
+function TourGuide:CHAT_MSG_LOOT(event, msg)
+	local action, quest = self:GetCurrentObjectiveInfo()
+
+	if action == "BUY" then
+		local _, _, name = msg:find("^You receive item: .*(%[.+%])")
+		if name and name == quest then return self:SetTurnedIn() end
+	end
+end
 

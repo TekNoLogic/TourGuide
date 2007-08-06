@@ -14,6 +14,7 @@ TourGuide.icons = setmetatable({
 	NOTE = "Interface\\Icons\\INV_Misc_Note_01",
 	GRIND = "Interface\\Icons\\INV_Stone_GrindingStone_05",
 	ITEM = "Interface\\Icons\\INV_Misc_Bag_08",
+	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
@@ -29,6 +30,7 @@ local actiontypes = {
 	I = "ITEM",
 	F = "FLY",
 	N = "NOTE",
+	B = "BUY",
 }
 
 
