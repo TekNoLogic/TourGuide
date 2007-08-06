@@ -21,7 +21,6 @@ UnlistedQuest.lua
 QuestTracking.lua
 
 ##01_05_SunstriderIsle.lua
-05_06_Eversong.lua
-##05_13_Eversong.lua
+05_13_Eversong.lua
 
 ##A66_67_BladesEdge.lua
