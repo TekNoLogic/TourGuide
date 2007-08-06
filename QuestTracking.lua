@@ -4,93 +4,79 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.turnedin = {}
-
-local f = CreateFrame("Frame")
-f:SetScript("OnEvent", function(self, event, ...) if self[event] then self[event](TourGuide, event, ...) end end)
+TourGuide.TrackEvents = {"CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_FINISHED", "QUEST_LOG_UPDATE", "ZONE_CHANGED",
+	"ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED"}
 
 
-function f:CHAT_MSG_SYSTEM(event, a1)
-	local _, _, quest = a1:find("Quest accepted: (.*)")
-	if quest and self.actions[self.current] == "ACCEPT" and self.quests[self.current] == quest then return self:UpdateStatusFrame() end
+function TourGuide:ZONE_CHANGED(...)
+	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
+	if (action == "RUN" or action == "FLY" or action == "HEARTH") and GetSubZoneText() == quest then self:SetTurnedIn() end
+end
+TourGuide.ZONE_CHANGED_INDOORS = TourGuide.ZONE_CHANGED
+TourGuide.MINIMAP_ZONE_CHANGED = TourGuide.ZONE_CHANGED
 
-	local _, _, questc = a1:find("(.*) completed.")
-	if questc and self.actions[self.current] == "TURNIN" and self.quests[self.current] == questc then
-		self.turnedin[questc] = true
-		return self:UpdateStatusFrame()
+
+function TourGuide:CHAT_MSG_SYSTEM(event, msg)
+	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
+
+	if action == "SETHEARTH" then
+		local _, _, loc = msg:find("(.*) is now your home.")
+		if loc and loc == quest then return self:SetTurnedIn() end
+	end
+
+	if action == "ACCEPT" then
+		local _, _, text = msg:find("Quest accepted: (.*)")
+		if text and quest == text then return self:UpdateStatusFrame() end
+	end
+
+	if action == "TURNIN" or action == "ITEM" then
+		local _, _, text = msg:find("(.*) completed.")
+		if not text then return end
+
+		if quest == text then return self:SetTurnedIn() end
+
+		self.cachedturnins[text] = true
+		self:UpdateStatusFrame()
 	end
 end
 
 
-function f:QUEST_COMPLETE(event)
-	if self.actions[self.current] == "TURNIN" and GetQuestLogIndexByName("  "..self.quests[self.current]) then hadquest = self.quests[self.current]
+function TourGuide:QUEST_COMPLETE(event)
+	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
+	if action == "TURNIN" and logi then hadquest = quest
 	else hadquest = nil end
 end
 
 
-function f:UNIT_QUEST_LOG_UPDATE(event, unit)
+function TourGuide:UNIT_QUEST_LOG_UPDATE(event, unit)
 	if unit ~= "player" then return end
 
-	if hadquest == self.quests[self.current] and not GetQuestLogIndexByName("  "..self.quests[self.current]) then self:UpdateStatusFrame() end
+	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
+	if hadquest == quest and not logi then self:UpdateStatusFrame() end
 	hadquest = nil
 end
 
 
-function f:QUEST_WATCH_UPDATE(event)
-	if self.actions[self.current] ~= "COMPLETE" then return end
-	local i = self.current
-	repeat
-		local qi = GetQuestLogIndexByName("  "..self.quests[i])
-		if qi and select(7, GetQuestLogTitle(qi)) == 1 then RemoveQuestWatch(qi) end
-		i = i + 1
-	until self.actions[i] ~= "COMPLETE"
-	QuestLog_Update()
-	QuestWatch_Update()
-
-	local i = GetQuestLogIndexByName("  "..self.quests[self.current])
-	if i and select(7, GetQuestLogTitle(i)) == 1 then return self:UpdateStatusFrame() end
+function TourGuide:QUEST_WATCH_UPDATE(event)
+	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
+	if action == "COMPLETE" then self:UpdateStatusFrame() end
 end
 
 
 local turninquest
-function f:QUEST_FINISHED()
-	if self.actions[self.current] == "TURNIN" and GetQuestLogIndexByName("  "..self.quests[self.current]) then turninquest = self.quests[self.current]
+function TourGuide:QUEST_FINISHED()
+	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
+	if action == "TURNIN" and logi then turninquest = quest
 	else turninquest = nil end
 end
 
 
-function f:QUEST_LOG_UPDATE(event)
-	if self.actions[self.current] == "ACCEPT" then return self:UpdateStatusFrame() end
-	if self.actions[self.current] == "TURNIN" and turninquest == self.quests[self.current] and not GetQuestLogIndexByName("  "..turninquest) then
-		TourGuide.turnedin[turninquest] = true
-		return self:UpdateStatusFrame()
-	end
-	if self.actions[self.current] ~= "COMPLETE" then return end
+function TourGuide:QUEST_LOG_UPDATE(event)
+	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
 
-	local i = self.current
-	repeat
-		local qi = GetQuestLogIndexByName("  "..self.quests[i])
-		if qi and select(7, GetQuestLogTitle(qi)) == 1 then RemoveQuestWatch(qi) end
-		i = i + 1
-	until self.actions[i] ~= "COMPLETE"
-	QuestLog_Update()
-	QuestWatch_Update()
-
-	local i = GetQuestLogIndexByName("  "..self.quests[self.current])
-	if i and select(7, GetQuestLogTitle(i)) == 1 then return self:UpdateStatusFrame() end
-
-	if self.actions[self.current] == "COMPLETE" then
-		local qi = GetQuestLogIndexByName("  "..self.quests[self.current])
-		if qi then
-			AddQuestWatch(qi)
-			QuestLog_Update()
-			QuestWatch_Update()
-		end
-	elseif self.actions[self.current] == "TURNIN" then
-		if not GetQuestLogIndexByName("  "..self.quests[self.current]) then return self:UpdateStatusFrame() end
-	end
+	if action == "ACCEPT" then return self:UpdateStatusFrame()
+	elseif action == "TURNIN" and turninquest == quest and not logi then return self:SetTurnedIn()
+	elseif action == "COMPLETE" and complete then return self:UpdateStatusFrame() end
 end
 
-
-for i in pairs(f) do f:RegisterEvent(i) end
 

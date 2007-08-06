@@ -1,7 +1,6 @@
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
 
-
 TourGuide.icons = setmetatable({
 	ACCEPT = "Interface\\GossipFrame\\AvailableQuestIcon",
 	COMPLETE = "Interface\\Icons\\Ability_DualWield",
@@ -10,8 +9,9 @@ TourGuide.icons = setmetatable({
 	MAP = "Interface\\Icons\\Ability_Spy",
 	FLY = "Interface\\Icons\\Ability_Druid_FlightForm",
 	TRAIN = "Interface\\GossipFrame\\trainerGossipIcon",
-	SETHOME = "Interface\\Icons\\Spell_Holy_ElunesGrace",
+	SETHEARTH = "Interface\\Icons\\Spell_Holy_ElunesGrace",
 	HEARTH = "Interface\\Icons\\INV_Misc_Rune_01",
+	NOTE = "Interface\\Icons\\INV_Misc_Note_01",
 	GRIND = "Interface\\Icons\\INV_Stone_GrindingStone_05",
 	ITEM = "Interface\\Icons\\INV_Misc_Bag_08",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
@@ -23,14 +23,30 @@ local actiontypes = {
 	T = "TURNIN",
 	R = "RUN",
 	t = "TRAIN",
-	h = "SETHOME",
 	H = "HEARTH",
+	h = "SETHEARTH",
 	G = "GRIND",
 	I = "ITEM",
+	F = "FLY",
+	N = "NOTE",
 }
 
 
+function TourGuide:Initialize()
+	self.db = self:InitializeDB("TourGuideAlphaDB", {
+		char = {
+			turnedin = {},
+			cachedturnins = {},
+		}
+	})
+	self.turnedin = self.db.char.turnedin
+	self.cachedturnins = self.db.char.cachedturnins
+end
+
+
 function TourGuide:Enable()
+	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
+	self.TrackEvents = nil
 	self:UpdateStatusFrame()
 end
 
@@ -68,22 +84,26 @@ function TourGuide:GetObjectiveInfo(i)
 	local action, quest, note = self.actions[i], self.quests[i], self.notes[i]
 	if not action then return end
 
-
 	local logi, complete = self:GetQuestDetails(quest)
 	local hasitem = action == "ITEM" and self.questitems[i] and FindBagSlot(self.questitems[i])
 
-	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest]
+	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest
 end
 
 
 local function ParseQuests(...)
+	local uniqueid = 1
 	local actions, notes, quests, items = {}, {}, {}, {}
 
 	for i=1,select("#", ...) do
 		local text = select(i, ...)
 		local _, _, action, quest = text:find("^(%a) ([^|]*)")
-		local _, _, detailtype, detail = string.find(text, "|(.)|([^|]+)|")
+		local _, _, detailtype, detail = string.find(text, "|(.)|([^|]+)|?")
 		quest = quest:trim()
+		if not (action == "I" or action == "A" or action =="C" or action =="T") then
+			quest = quest.."@"..uniqueid.."@"
+			uniqueid = uniqueid + 1
+		end
 
 		actions[i], quests[i] = actiontypes[action], quest
 		if detailtype == "N" then notes[i] = detail end
@@ -100,7 +120,11 @@ end
 
 
 function TourGuide:SetTurnedIn(i, value)
+	if not i then
+		i = self.current
+		value = true
+	end
+
 	self.turnedin[self.quests[i]] = value
-	self:UpdateOHPanel()
 	self:UpdateStatusFrame()
 end

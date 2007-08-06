@@ -103,11 +103,48 @@ function TourGuide:UpdateStatusFrame()
 			end
 		end
 	end
-
 	QuestLog_Update()
 	QuestWatch_Update()
 
+	if nextstep and next(self.cachedturnins) then -- Find and mark a turned in quest that's not the current objective
+		local i = nextstep
+		local action, quest, note, logi, complete, hasitem, turnedin, fullquestname
+
+		repeat
+			action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
+			if action == "TURNIN" and self.cachedturnins[quest] then
+				self.cachedturnins[quest] = nil
+				self.turnedin[fullquestname] = true
+			end
+			i = i + 1
+		until not action
+	end
+
 	self:SetText(nextstep or 1)
+	self.current = nextstep or 1
+	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(nextstep or 1)
+
+	local newtext = (quest or"???")..(note and " [?]" or "")
+
+	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[action] then
+		oldsize = f:GetWidth()
+		icon:SetAlpha(0)
+		text:SetAlpha(0)
+		elapsed = 0
+		f2:SetPoint("RIGHT", f, "RIGHT", 0, 0)
+		f2:SetAlpha(1)
+		icon2:SetTexture(icon:GetTexture())
+		text2:SetText(text:GetText())
+		f2:Show()
+	end
+
+	icon:SetTexture(self.icons[action])
+	text:SetText(newtext)
+	check:SetChecked(false)
+	if not f2:IsVisible() then f:SetWidth(72 + text:GetWidth()) end
+	newsize = 72 + text:GetWidth()
+
+	self:UpdateOHPanel()
 end
 
 
@@ -123,9 +160,7 @@ f:SetScript("OnClick", function(self, btn)
 end)
 
 
-check:SetScript("OnClick", function(self, btn)
-	TourGuide:SetTurnedIn(TourGuide.current, true)
-end)
+check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
 
 
 f:SetScript("OnDragStart", function(self) self:StartMoving() end)
