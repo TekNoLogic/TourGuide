@@ -91,7 +91,6 @@ function TourGuide:UpdateStatusFrame()
 				if incomplete then nextstep = i end
 			end
 
---~ 			if action == "COMPLETE" and logi and complete then RemoveQuestWatch(logi) -- Un-watch if completed quest
 			if action == "COMPLETE" and logi then
 				local j = i
 				repeat
@@ -105,20 +104,6 @@ function TourGuide:UpdateStatusFrame()
 	end
 	QuestLog_Update()
 	QuestWatch_Update()
-
-	if nextstep and next(self.cachedturnins) then -- Find and mark a turned in quest that's not the current objective
-		local i = nextstep
-		local action, quest, note, logi, complete, hasitem, turnedin, fullquestname
-
-		repeat
-			action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
-			if action == "TURNIN" and self.cachedturnins[quest] then
-				self.cachedturnins[quest] = nil
-				self.turnedin[fullquestname] = true
-			end
-			i = i + 1
-		until not action
-	end
 
 	self:SetText(nextstep or 1)
 	self.current = nextstep or 1

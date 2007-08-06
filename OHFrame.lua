@@ -77,7 +77,7 @@ function TourGuide:UpdateOHPanel()
 	if not self.OHFrame or not self.OHFrame:IsVisible() then return end
 	for i,row in ipairs(self.OHFrame.rows) do
 		row.i = i + offset
-		local action, name, note, logi, complete, itemstarted, turnedin = self:GetObjectiveInfo(i + offset)
+		local action, name, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i + offset)
 		local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete
 
 		row.icon:SetTexture(self.icons[action])

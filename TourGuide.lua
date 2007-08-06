@@ -91,30 +91,57 @@ function TourGuide:GetObjectiveInfo(i)
 end
 
 
+local isdebugging = false
+local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "Our"}
+local accepts, turnins, completes = {}, {}, {}
 local function ParseQuests(...)
 	local uniqueid = 1
 	local actions, notes, quests, items = {}, {}, {}, {}
 
 	for i=1,select("#", ...) do
 		local text = select(i, ...)
-		local _, _, action, quest = text:find("^(%a) ([^|]*)")
-		local _, _, detailtype, detail = string.find(text, "|(.)|([^|]+)|?")
-		quest = quest:trim()
-		if not (action == "I" or action == "A" or action =="C" or action =="T") then
-			quest = quest.."@"..uniqueid.."@"
-			uniqueid = uniqueid + 1
-		end
+		if text ~= "" then
+			local _, _, action, quest = text:find("^(%a) ([^|]*)")
+			local _, _, detailtype, detail = string.find(text, "|(.)|([^|]+)|?")
+			quest = quest:trim()
+			if not (action == "I" or action == "A" or action =="C" or action =="T") then
+				quest = quest.."@"..uniqueid.."@"
+				uniqueid = uniqueid + 1
+			end
 
-		actions[i], quests[i] = actiontypes[action], quest
-		if detailtype == "N" then notes[i] = detail end
-		if action == "I" then items[i] = select(3, string.find(text, "|I|(%d+)|")) end
+			actions[i], quests[i] = actiontypes[action], quest
+			if detailtype == "N" then notes[i] = detail end
+			if action == "I" then items[i] = select(3, string.find(text, "|I|(%d+)|")) end
+
+			-- Debuggery
+			if isdebugging and action == "A" then accepts[quest] = true
+			elseif isdebugging and action == "T" then turnins[quest] = true
+			elseif isdebugging and action == "C" then completes[quest] = true end
+
+			if isdebugging and (action == "A" or action == "C" or action == "T") then
+				-- Catch bad Title Case
+				for _,word in pairs(titlematches) do
+					if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
+						TourGuide:PrintF("%s %s -- Contains bad title case", action, quest)
+					end
+				end
+			end
+		end
+	end
+
+	-- More debug
+	if isdebugging then
+		for quest in pairs(accepts) do if not turnins[quest] then TourGuide:PrintF("Quest has no 'turnin' objective: %s", quest) end end
+		for quest in pairs(turnins) do if not accepts[quest] then TourGuide:PrintF("Quest has no 'accept' objective: %s", quest) end end
+		for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:PrintF("Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
 	end
 
 	return actions, notes, quests, items
 end
 
 
-function TourGuide:ParseObjectives(text)
+function TourGuide:ParseObjectives(text, showdebug)
+	isdebugging = showdebug
 	self.actions, self.notes, self.quests, self.questitems = ParseQuests(string.split("\n", text))
 end
 

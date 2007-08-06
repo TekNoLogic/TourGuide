@@ -49,7 +49,7 @@ T Roadside Ambush |N|To the north|
 A Soaked Pages
 C Soaked Pages |N|The Grimoire is in the water just south west of that bridge|
 T Soaked Pages
-A Taking The Fall
+A Taking the Fall
 R Falconwing Square
 I Incriminating Documents |I|20765|
 A The Dwarven Spy
@@ -57,12 +57,12 @@ t Train (Level 6) |N|Train level 8 if you can|
 C The Dwarven Spy |N|Near North Sanctum|
 T The Dwarven Spy |N|Falconwing Square|
 t Train (Level 8)
-A The Dead Scar |N|To the East|
+A The Dead Scar |N|To the Southeast (50,51)|
 C The Dead Scar |N|Slightly to the South|
 T The Dead Scar
-T Taking The Fall |N|Stillwhisper Pond to the East|
+T Taking the Fall |N|Stillwhisper Pond to the East|
 A Swift Discipline
-R Farstrider Retreat |N|To the Southeast|
+R Farstrider Retreat |N|Follow the road East then South|
 A Amani Encroachment
 A The Spearcrafter's Hammer
 A The Magister's Apprentice
@@ -74,9 +74,98 @@ A Unexpected Results
 C Unexpected Results
 T Unexpected Results
 A Research Notes
-G Until level 9]]
+G Until level 9
+H Fairbreeze Village
+A The Scorched Grove
+A Ranger Sareyn
+T Research Notes
+A Saltheril's Haven
+N Kill any cats you come across for "Pelt Collection"
+R Saltheril's Haven |N|To the west|
+T Saltheril's Haven
+A The Party Never Ends
+G Grind your way west to the shore
+C The Ring of Mmmrrrggglll |N|Use you racial to stop Mmmrrrggglll from healing himself!|
+C Grimscale Pirates!
+T The Ring of Mmmrrrggglll
+R Sunsail Anchorage |N|To the South|
+C Lost Armaments
+C Situation at Sunsail Anchorage
+T Lost Armaments
+T Grimscale Pirates!
+A Wretched Ringleader
+C Wretched Ringleader |N|The mob is at the very top of building at Sunsail Anchorage.  Focus fire on him, grab his head and run out of there!|
+T Wretched Ringleader
+C Pelt Collection
+R Fairbreeze Village
+T Pelt Collection
+T Situation at Sunsail Anchorage
+T Ranger Sareyn
+A Missing in the Ghostlands
+A Defending Fairbreeze Village
+N Stop at the General goods vendor |N|Buy [Bundle of Fireworks] for "The Party Never Ends"|
+C Swift Discipline |N|Meledor (44,60) and Ralen (45,56)|
+T Swift Discipline
+N You should be level 10 now |N|Time to do your class's level 10 quests!|
+T Missing in the Ghostlands
+A The Fallen Courier
+C The Fallen Courier
+T The Fallen Courier
+A Delivery to Tranquillien
+C Defending Fairbreeze Village |N|Southern half of the Dead Scar|
+A Powering our Defenses |N|At the runestone (42,85)|
+C Powering our Defenses |N|At the East runestone (55,84)|
+R Silvermoon City
+N Buy [Suntouched Special Reserve] |N|Vinemaster Suntouched (80,58), for "The Party Never Ends"|
+R Train (Level 10)
+T The Magister's Apprentice |N|Out of the city, follow the road East (67,57)|
+A Deactivating the Spire
+A Where's Wyllithen?
+C Deactivating the Spire |N|Keep an eye out for Magister Duskwither's Journal on your way up.|
+A Abandoned Investigations
+T Where's Wyllithen? |N|To tho North (68,46)|
+A Cleaning up the Grounds
+C Cleaning up the Grounds
+T Cleaning up the Grounds
+T Deactivating the Spire
+A Word from the Spire
+R Farstrider Retreat
+T Word from the Spire
+T Abandoned Investigations
+C Amani Encroachment |N|To the south|
+C The Spearcrafter's Hammer
+A Zul'Marosh |N|(70,72)|
+C Zul'Marosh |N|Across the lake|
+T Zul'Marosh
+R Farstrider Retreat
+T The Spearcrafter's Hammer
+T Amani Encroachment
+I Amani Invasion |I|23249|
+A Warning Fairbreeze Village
+H Fairbreeze Village
+T Warning Fairbreeze Village
+T Defending Fairbreeze Village |N|(46,71)|
+T The Party Never Ends |N|The quest reward item, [Saltheril's Haven Party Invitation], just allows you to pick up the party goods on the tables at the party.|
+T The Scorched Grove |N|(34,80)|
+A A Somber Task
+C A Somber Task |N|Make sure you kill Old Whitebark for his pendant|
+A Old Whitebark's Pendant |N|Started by the item, of course|
+T A Somber Task
+T Old Whitebark's Pendant
+A Whitebark's Memory
+C Whitebark's Memory |N|Bury the pendant (37,86) and fight his spirit to low health|
+T Whitebark's Memory
+T Powering our Defenses
+]]
 
 
-TourGuide.itemstartedquests = {}
+
+--~ 69) Then go to 34.80 and turn in "" ... accept ""
+--~ 70) Go do "A somber Task".  While you are doing it, make sure you kill Old Whitebark, he drops Old Whitebark's Pendant which starts "Old Whitebark's Pendant"
+--~ 71) Once they are done, go turn in "A somber Task" and "Old Whitebark's Pendant" ... accept ""
+--~ 72) Then go do "Whitebark's Memory" (Once he gets to a low health, just talk to him to turn it in)
+--~ 73) Go turn in "" at 44.85
+
+
 TourGuide:ParseObjectives(questsequence)
 

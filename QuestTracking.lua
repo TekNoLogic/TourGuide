@@ -29,21 +29,28 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 		if text and quest == text then return self:UpdateStatusFrame() end
 	end
 
-	if action == "TURNIN" or action == "ITEM" then
-		local _, _, text = msg:find("(.*) completed.")
-		if not text then return end
+	local _, _, text = msg:find("(.*) completed.")
+	if not text then return end
 
-		if quest == text then return self:SetTurnedIn() end
+	if quest == text then return self:SetTurnedIn() end
 
-		self.cachedturnins[text] = true
-		self:UpdateStatusFrame()
-	end
+--~ 	self.cachedturnins[text] = true
+
+	local i = 1
+	repeat
+		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
+		if action == "ACCEPT" and not turnedin and text == quest then
+			self.turnedin[fullquestname] = true
+			return self:UpdateStatusFrame()
+		end
+		i = i + 1
+	until not action
 end
 
 
 function TourGuide:QUEST_COMPLETE(event)
 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if action == "TURNIN" and logi then hadquest = quest
+	if (action == "TURNIN" or action == "ITEM") and logi then hadquest = quest
 	else hadquest = nil end
 end
 
@@ -52,7 +59,8 @@ function TourGuide:UNIT_QUEST_LOG_UPDATE(event, unit)
 	if unit ~= "player" then return end
 
 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if hadquest == quest and not logi then self:UpdateStatusFrame() end
+	if hadquest == quest and not logi and action == "ITEM" then self:SetTurnedIn()
+	elseif hadquest == quest and not logi then self:UpdateStatusFrame() end
 	hadquest = nil
 end
 

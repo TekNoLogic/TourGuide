@@ -7,21 +7,21 @@ C Killing the Crawlers |N|In the cave, of course|
 R Sylvanaar |N|North out of the cave|
 A The Den Mother |N|On a wanted poster|
 T No Time for Curiosity |N|First building on the left|
-A The Enroaching Wilderness |N|Outside the building near the stone and benches|
+A The Encroaching Wilderness |N|Outside the building near the stone and benches|
 T Killing the Crawlers |N|Next building to the North|
 A The Bloodmaul Ogres
 A Malaise |N|North again|
 A Into the Draenethyst Mine |N|In the 'long' building|
 A Strange Brew
-N Set hearth at Sylvanaar
+h Sylvanaar
 N Grab flight point |N|North end of town|
-C The Enroaching Wilderness |N|South of town|
+C The Encroaching Wilderness |N|South of town|
 C Malaise |N|West at Veil Lashh (35,73)|
 T Malaise |N|Find a book up in the trees, bridge at (34,76)|
 A Scratches
 C Scratches |N|Use the feathers on the purple circle|
 R Sylvanaar
-T The Enroaching Wilderness
+T The Encroaching Wilderness
 A Marauding Wolves
 T Scratches
 C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way|
@@ -57,7 +57,7 @@ C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gath
 C Ridgespine Menace |N|Stealth spiders near the spikes|
 C Cutting Your Teeth |N|Most of the daggermaws are North of Death’s Door.  If you don’t have that uncovered, it’s the canyon you just got thrown over|
 R Singing Ridge |N|Or run to Toshley's and get tossed over|
-C What Comes First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into|
+C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into|
 C Crystal Clear |N|On your way back to Toshley's|
 R Toshley's Station
 T Crystal Clear
@@ -65,7 +65,7 @@ T Ride the Lightning
 A Trapping the Light Fantastic
 A Gauging the Resonant Frequency
 T Test Flight: The Singing Ridge
-T Ridgespire Menace
+T Ridgespine Menace
 A More than a Pound of Flesh
 T Cutting Your Teeth
 T What Came First, the Drake or the Egg?
@@ -77,7 +77,7 @@ T Gauging the Resonant Frequency
 R Razaan's Landing |N|Rally can send you here|
 C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can keep grabbing the orbs in a row|
 C More than a Pound of Flesh
-T Trapping the Light Fanatic
+T Trapping the Light Fantastic
 A Show Them Gnome Mercy!
 T More than a Pound of Flesh
 T Test Flight: Razaan's Landing
@@ -97,61 +97,124 @@ C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the blood
 R Bladespire Hold |N|Follow the road North|
 A The Trappings of a Vindicator |N|Vuuleen in a cage (43,51)|
 C Getting the Bladespire Tanked |N|Kill them after they get drunk|
-C The Bladespire Ogres]]
+C The Bladespire Ogres
+C The Trappings of a Vindicator |N|Droggam (39,53), Mugdorg (42,57).  Pull the non-elite guards first, then drop a brew to pull the boss without the elite guards.  Drop the brew in the doorway, not to far away|
+T The Trappings of a Vindicator
+A Gorr'Dim, Your Time Has Come...
+C Gorr'Dim, Your Time Has Come... |N|Gorr'Dim (40,49).  Same pull strategy as the last two bosses|
+T Gorr'Dim, Your Time Has Come... |N|Skip "Planting the Banner"|
+H Sylvanaar
+T Getting the Bladespire Tanked
+T The Bladespire Ogres
+T A Dire Situation
+F Toshley's Station
+A Test Flight: Ruuan Weald
+C Test Flight: Ruuan Weald |N|Make sure to use the weather vane in mid-air!|
+N Grab flight point
+A A Time for Negotiation...
+A Creating the Pendant
+T Test Flight: Ruuan Weald |N|To the south|
+A Culling the Wild |N|To the North|
+A A Date with Dorgok |N|To the West|
+A Crush the Bloodmaul Camp!
+A Little Embers |N|Further West|
+A From the Ashes
+N You should be ~75% to 67 now
+C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven|
+C A Time for Negotiation... |N|Keep an eye out for Overseer Nuaar, a neutral Draenei.  He walks around the camps here.|
+A Damaged Mask |N|Go south then east up the path from town, then go north once you are up top and kill the fel corrupters, the mages that walk in pairs, they will drop a damaged mask.  Kill until you get the item, they are easy kills|
+C Culling the Wild
+C Little Embers |N|At Skald (70,23), this is a tough area to get in and out unless you have good fire resist
+C From the Ashes |N|Soil at (71,22), (71,20), (71,18)
+R Evergrove
+T Damaged Mask
+A Mystery Mask
+T Mystery Mask
+A Felsworn Gas Mask
+T A Time for Negotiation... |N|Tree Warden at the center moonwell|
+A ...and a Time for Action
+A Poaching from Poachers
+T Creating the Pendant
+A Whispers of the Raven God
+T Culling the Wild
+T Little Embers
+T From the Ashes
+N You're probably honored with the Cenarion Expedition by now
+R Forge Camp: Anger |N|(73,41)|
+T Felsworn Gas Mask |N|Put on the gas mask you idjut!|
+A Deceive thy Enemy
+C Deceive thy Enemy
+T Deceive thy Enemy
+N Skip "You're Fired!" unless there are people around to help you
+N You should now be 67 or very close to it.
+N You can destroy the mask you're wearing now and the mystery mask
+C Poaching from Poachers |N|Back down, Northwest of Evergrove|
+C ...and a Time for Action
+R Bloodmaul Camp |N|Follow the road north (57,27)|
+C Crush the Bloodmaul Camp!
+C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
+R Evergrove |N|Or hearth to Sylvanaar and fly to Evergrove|
+T A Date with Dorgok
+A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok
+T Favor of the Gronn
+A Pay the Baron a Visit
+T Crush the Bloodmaul Camp!
+T ...and a Time for Action
+I Did You Get The Note? |I|10719|
+A Wyrmskull Watcher
+T Poaching from Poachers
+A Whelps of the Wyrmcult
+N You damn well better be 67 by now |N|If not 10% into it!|
+R Circle of Blood |N|Follow path Southwest from town, down and to the West (53,41)|
+T Pay the Baron a Visit
+A Into the Churning Gulch
+C Into the Churning Gulch |N|To the Southwest (48,43)|
+T Into the Churning Gulch
+A Goodnight, Gronn
+C Goodnight, Gronn |N|Head back East to Grulloc (59,47).  Use the sleeping powder on him and grab the sack. He wakes up when you take the bag so use the powder again. Be careful, 2-3 hits and you're dead|
+T Goodnight, Gronn
+A It's a Trap!
+R Evergrove
+T It's a Trap!
+A Gorgrom the Dragon-Eater
+A Slaughter at Boulder'mok
+T Wyrmskull Watcher |N|West over the Wyrmskull Bridge|
+A Longtail is the Lynchpin
+C Longtail is the Lynchpin |N|Through the cave!|
+T Longtail is the Lynchpin
+A Meeting at the Blackwing Coven
+C Whispers of the Raven God |N|Exit the cave, grind on arakkoa until you get their buff, then visit each totem in order (40,17), (42,22), (41,19), (40,23)|
+C Slaughter at Boulder'mok
+C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap|
+R Blackwing Coven |N|To the South (31,32)|
+N Kill Wyrmcults and collect 5 [Costume Scraps] |N|For "Meeting at the Blackwing Coven".  This place sucks, it’s pretty tough.  Beware when they’re low on life, they may try to cast some type of black blessing which turns them into a dragonkin with about 50% life and they start fireballing and doing fire nova.|
+C Whelps of the Wyrmcult |N|Go in the cave and use the blackwhelp net on the dragon whelps in here.  You can get right next to eggs and they will hatch one for you to capture|
+C Meeting at the Blackwing Coven |N|Head to the back of the cave and put on the costume|
+H Sylvanaar
+F Evergrove
+T Whelps of the Wyrmcult
+T Meeting at the Blackwing Coven
+A Maxnar Must Die!
+I The Truth Unorbed |I|31489|
+A Treebole Must Know
+T Whispers of the Raven God
+T Gorgrom the Dragon-Eater
+A Baron Sablemane Has Requested Your Presence
+T Slaughter at Boulder'mok
+N You should be roughly 30% through 67
+R Raven's Wood |N|Run back across wyrmskull bridge and through the tunnel.  As you exit the tunnel go left up the path (37,22)|
+T Treebole Must Know
+A Exorcising the Trees
+C Exorcising the Trees |N|Kill Dire Ravens for 5 feathers, also collect 5 orbs off the ground. If you're grouped with someone only one person needs to collect these.  Combine the items, get in range of a Leafbeard and use one.  Kill the Koi-Koi Spirit, don't kill the leafbeard|
+T Exorcising the Trees
+R Blackwing Coven |N|Southwest (32,33)|
+C Maxnar Must Die! |N|In the same cave as before, deeper in (33,36)|
+H Sylvanaar |N|Die and spirit rez at Sylvanaar if your stone isn't up|
+F Evergrove
+T Maxnar Must Die!
+R Circle of Blood |N|(53,41)|
+T Baron Sablemane Has Requested Your Presence |N|Skip "Massacre at Gruul's Lair" unless you get some friends to help.|]]
 
 
-
---~ 49) Droggam is in the building at 39,53 and has 4 guards, 2 elite 2 non-elite. Pull the non-elites, then lay
---~ a mug of the brew in the doorway, on the green part, make sure you don't do it too far, and he'll
---~ come out without the 2 elites since they're sober guards they don't drink. This is for "The Trappings of
---~ a Vindicator" If you run out of the beers, remember your keg has some charges in it
---~ 50) At the hut at 42,57 is Mugdorg for the 2nd part of "The Trappings of a Vindicator" same thing as the
---~ last boss, pull the non-elites, pull boss with a beer
---~ 51) Go back to Vuuleen at 44,51 and turn in "The Trappings of a Vindicator" accept "Gorr'Dim, Your Time
---~ Has Come..."
---~ 52) Go west to the big hut at 40,49 and you'll see Gorr'Dim now same as before, pull the 2 non elites, use
---~ brew to pull the boss then go back to Vuuleen and turn it in and SKIP "Planting the Banner"
---~ 53) Hearth to Sylvanaar
---~ 54) Go straight across from the Inn to Borgrim and turn in "Getting the Bladespire Tanked"
---~ 55) Exit and go left to Skyshadow and turn in "The Bladespire Ogres" then down over the edge to Rina
---~ Moonspring, turn in "A Dire Situation"
---~ 56) Fly to Toshley's and go to Tally and accept "Test Flight: Ruuan Weald" then speak to Rally then use
---~ the spinning nether-weather vane while you're flying through the air to be a super ninja =D
---~ 57) As soon as you land in Evergrove, grab the FP. If you forget to use the weather vane, fly back and do
---~ it again
---~ 58) Near the moonwell talk to Tree Warden Chawn and accept "A Time For Negotiation..." then to Timeon
---~ and accept "Creating the Pendant"
---~ 59) Go south to O'Mally Zapnabber and turn in "Test Flight: Ruuan Weald"
---~ 60) Go north to the Dryad Faradrella and accept "Culling the Wild" then west to the 2 npcs, and accept "A
---~ Date with Dorgok" and "Crush the Bloodmaul Camp!" then go more west to the treant Mosswood and
---~ accept "Little Embers" and "From the Ashes"
---~ 61) You should be 70-75% to 67 now
---~ 62) While out here keep an eye out for Overseer Nuaar, he's a yellow named Draenei. Talk to him for "A
---~ Time for Negotiation..." you should find him while out here, he walks around the camps here
---~ 63) Go NE to Veil Ruuan and kill the arakkoa for Ruuan'ok Claws, once you have 6 go to the green
---~ summoning circle surrounded by water and basalisks at 64,33 and use the claws to summon the
---~ harbinger of the raven and kill him for "Creating the Pendant"
---~ 64) Go south then east up the path from town, then go north once you are up top and kill the fel
---~ corrupters, the mages that walk in pairs they should drop a damaged mask item which starts
---~ "Damaged Mask" kill them until it drops for you, they're very easy to kill, the daggermaw are raptors,
---~ and the scalewings are serpents for "Culling the Wild"
---~ 65) Go up to Skald (this is a tough area so get in and out unless you have good fire resist) at 70,23 and
---~ kill the imps for "Little Embers" also look for mounds of fertile volcanic soil for "From the Ashes" and
---~ plant a seed in it. If it was used it will look like trees out here so you can spot it. The southern soil is
---~ at 71,22 the central soil is at 71,20 and the northern just ahead at 71,18
---~ 66) Go back to Evergrove
---~ 67) Go to O'Mally Zapnabber and turn in "Damaged Mask" accept "Mystery Mask" then hand it in to
---~ Antelarion the old dryad who circles town and accept "Felsworn Gas Mask"
---~ 68) Go to the center moonwell to the Tree Warden and turn in "A Time for Negotiation..." accept "...and A
---~ Time For Action" then beside him accept "Poaching from Poachers" then go to Timeon and turn in
---~ "Creating the Pendant" accept "Whispers of the Raven God"
---~ 69) Go to the dryad and turn in "Culling the Wild" then west to Mosswood the treant and turn in "Little
---~ Embers" and "From the Ashes"
---~ 70) You probably have hit honored with the Cenarion Expedition by now too
---~ 71) Go back up the east ramp to Forge Camp: Anger at 73,41 and put on the gas mask and you'll see the
---~ communicator right near the front and turn in "Felsworn Gas Mask" accept "Deceive thy Enemy"
-
-
-TourGuide.itemstartedquests = {}
 TourGuide:ParseObjectives(questsequence)
 

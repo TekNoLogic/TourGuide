@@ -79,9 +79,5 @@ I Tainted Arcane Sliver |I|20483|
 R Dawning Lane]]
 
 
-local itemstartedquests = {["Tainted Arcane Sliver"] = 20483}
-
-
-TourGuide.itemstartedquests = itemstartedquests
 TourGuide:ParseObjectives(questsequence)
 
