@@ -150,7 +150,7 @@ end
 
 f:SetScript("OnClick", function(self, btn)
 	if btn == "RightButton" then
-		OptionHouse:Open("Tour Guide", "Eversong Woods")
+		OptionHouse:Open("Tour Guide", "Objectives")
 	else
 		local i = TourGuide:GetQuestLogIndexByName()
 		if not i then return end

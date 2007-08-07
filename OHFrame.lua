@@ -1,9 +1,7 @@
 
 
 local TourGuide = TourGuide
-local OptionHouse = DongleStub("OptionHouse-1.0")
 local ww = WidgetWarlock
-WidgetWarlock = nil
 
 
 local ROWHEIGHT = 26
@@ -12,12 +10,6 @@ local NUMROWS = math.floor(305/(ROWHEIGHT+4))
 
 
 local offset = 0
-
-local L = {
-	Accepted = "Accepted",
-	Complete = "|cffF07902Complete",
-	Finished = "|cff00ff00Finished",
-}
 
 
 local function OnShow()
@@ -28,9 +20,7 @@ local function OnShow()
 end
 
 
-function TourGuide:CreateOHPanel()
-	local self = TourGuide
-
+function TourGuide:CreateObjectivePanel()
 	local frame = ww.SummonOptionHouseBaseFrame()
 
 	frame.rows = {}
@@ -52,7 +42,6 @@ function TourGuide:CreateOHPanel()
 
 		row.text = text
 		row.detail = detail
-		row.status = status
 		row.check = check
 		row.icon = icon
 		frame.rows[i] = row
@@ -88,8 +77,4 @@ function TourGuide:UpdateOHPanel()
 end
 
 
-local _, title = GetAddOnInfo("TourGuide")
-local author, version = GetAddOnMetadata("TourGuide", "Author"), GetAddOnMetadata("TourGuide", "Version")
-local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
-oh:RegisterCategory("Eversong Woods", TourGuide.CreateOHPanel)
 

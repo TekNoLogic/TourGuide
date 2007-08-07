@@ -1,4 +1,7 @@
 
+local OptionHouse = DongleStub("OptionHouse-1.0")
+
+
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
 TourGuide.guides = {}
 TourGuide.guidelist = {}
@@ -54,6 +57,12 @@ end
 
 
 function TourGuide:Enable()
+	local _, title = GetAddOnInfo("TourGuide")
+	local author, version = GetAddOnMetadata("TourGuide", "Author"), GetAddOnMetadata("TourGuide", "Version")
+	local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
+	oh:RegisterCategory("Guides", TourGuide, "CreateGuidesPanel")
+	oh:RegisterCategory("Objectives", TourGuide, "CreateObjectivePanel")
+
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self.TrackEvents = nil
 	self:UpdateStatusFrame()

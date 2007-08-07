@@ -17,6 +17,7 @@ WidgetWarlock.lua
 TourGuide.lua
 StatusFrame.lua
 OHFrame.lua
+OHGuides.lua
 UnlistedQuest.lua
 QuestTracking.lua
 
