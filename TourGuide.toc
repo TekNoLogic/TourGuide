@@ -21,7 +21,7 @@ OHGuides.lua
 UnlistedQuest.lua
 QuestTracking.lua
 
-01_05_SunstriderIsle.lua
-05_13_Eversong.lua
+Joana_Horde\01_05_SunstriderIsle.lua
+Joana_Horde\05_13_Eversong.lua
 
-A66_67_BladesEdge.lua
+BrianKopp_Alliance\66_67_BladesEdge.lua

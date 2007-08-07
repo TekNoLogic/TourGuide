@@ -2,6 +2,9 @@
 local OptionHouse = DongleStub("OptionHouse-1.0")
 
 
+local myfaction = UnitFactionGroup("player")
+
+
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
 TourGuide.guides = {}
 TourGuide.guidelist = {}
@@ -69,7 +72,8 @@ function TourGuide:Enable()
 end
 
 
-function TourGuide:RegisterGuide(name, nextzone, sequencefunc)
+function TourGuide:RegisterGuide(name, nextzone, faction, sequencefunc)
+	if faction ~= myfaction then return end
 	self.guides[name] = sequencefunc
 	self.nextzones[name] = nextzone
 	table.insert(self.guidelist, name)

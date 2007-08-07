@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Eversong Woods (5-13)", nil, function()
+TourGuide:RegisterGuide("Eversong Woods (5-13)", nil, "Horde", function()
 return [[T Aiding the Outrunners
 A Slain by the Wretched
 T Slain by the Wretched

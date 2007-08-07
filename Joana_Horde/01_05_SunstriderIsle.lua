@@ -1,6 +1,6 @@
 
 
-TourGuide:RegisterGuide("Sunstrider Isle (1-5)", "Eversong Woods (5-13)", function()
+TourGuide:RegisterGuide("Sunstrider Isle (1-5)", "Eversong Woods (5-13)", "Horde", function()
 
 local _, class = UnitClass("player")
 return class == "WARLOCK" and
