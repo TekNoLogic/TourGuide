@@ -1,6 +1,6 @@
 
-local questsequence =
-[[F Orebor Harborage
+TourGuide:RegisterGuide("Blade's Edge Mountains", nil, function()
+return [[F Orebor Harborage
 A No Time for Curiosity
 A Killing the Crawlers |N|Up the stairs outside the cave|
 C Killing the Crawlers |N|In the cave, of course|
@@ -214,7 +214,5 @@ F Evergrove
 T Maxnar Must Die!
 R Circle of Blood |N|(53,41)|
 T Baron Sablemane Has Requested Your Presence |N|Skip "Massacre at Gruul's Lair" unless you get some friends to help.|]]
-
-
-TourGuide:ParseObjectives(questsequence)
+end)
 

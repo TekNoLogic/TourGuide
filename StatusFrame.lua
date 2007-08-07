@@ -105,9 +105,24 @@ function TourGuide:UpdateStatusFrame()
 	QuestLog_Update()
 	QuestWatch_Update()
 
-	self:SetText(nextstep or 1)
-	self.current = nextstep or 1
-	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(nextstep or 1)
+	if not nextstep and self.nextzones[self.db.char.currentguide] then
+		self:LoadGuide()
+		return self:UpdateStatusFrame()
+	end
+
+	if not nextstep then return end
+
+	self:SetText(nextstep)
+	self.current = nextstep
+	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(nextstep)
+
+	-- TomTom coord mapping
+	if note and TomTom then
+		for x,y in note:gmatch("%(([%d.]+),([%d.]+)%)") do
+			TomTom:AddWaypoint(tonumber(x), tonumber(y), quest)
+		end
+	end
+
 
 	local newtext = (quest or"???")..(note and " [?]" or "")
 

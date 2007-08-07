@@ -1,6 +1,6 @@
 
-local questsequence =
-[[T Aiding the Outrunners
+TourGuide:RegisterGuide("Eversong Woods (5-13)", nil, function()
+return [[T Aiding the Outrunners
 A Slain by the Wretched
 T Slain by the Wretched
 A Package Recovery
@@ -104,8 +104,6 @@ A Missing in the Ghostlands
 B [Bundle of Fireworks] |N|From the General goods vendor, for "The Party Never Ends"|
 T Ranger Sareyn |N|To the East along the road (47,71)|
 A Defending Fairbreeze Village
-C Swift Discipline |N|Meledor (44,60) and Ralen (45,56)|
-T Swift Discipline
 N You should be level 10 now |N|Time to do your class's level 10 quests!|
 T Missing in the Ghostlands
 A The Fallen Courier
@@ -115,10 +113,13 @@ A Delivery to Tranquillien
 C Defending Fairbreeze Village |N|Southern half of the Dead Scar|
 A Powering our Defenses |N|At the runestone (42,85)|
 C Powering our Defenses |N|At the East runestone (55,84)|
+C Swift Discipline |N|North of Fairbreeze Village along the road.  Meledor (44,60) and Ralen (45,56)|
+T Swift Discipline
 R Silvermoon City
 B [Suntouched Special Reserve] |N|Vinemaster Suntouched (80,58), for "The Party Never Ends"|
-R Train (Level 10)
-T The Magister's Apprentice |N|Out of the city, follow the road East (67,57)|
+t Train (Level 10)
+R Eversong Woods
+T The Magister's Apprentice |N|Follow the road East (67,57)|
 A Deactivating the Spire
 A Where's Wyllithen?
 C Deactivating the Spire |N|Keep an eye out for Magister Duskwither's Journal on your way up.|
@@ -146,6 +147,7 @@ A Warning Fairbreeze Village
 H Fairbreeze Village
 T Warning Fairbreeze Village
 T Defending Fairbreeze Village |N|(46,71)|
+B [Bundle of Fireworks] |N|From the General goods vendor, for "The Party Never Ends"|
 T The Party Never Ends |N|The quest reward item, [Saltheril's Haven Party Invitation], just allows you to pick up the party goods on the tables at the party.|
 T The Scorched Grove |N|(34,80)|
 A A Somber Task
@@ -158,7 +160,5 @@ C Whitebark's Memory |N|Bury the pendant (37,86) and fight his spirit to low hea
 T Whitebark's Memory
 T Powering our Defenses
 ]]
-
-
-TourGuide:ParseObjectives(questsequence)
+end)
 

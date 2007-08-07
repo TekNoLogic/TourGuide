@@ -1,8 +1,9 @@
 
-local TourGuide = TourGuide
-local _, class = UnitClass("player")
 
-local questsequence = class == "WARLOCK" and
+TourGuide:RegisterGuide("Sunstrider Isle (1-5)", "Eversong Woods (5-13)", function()
+
+local _, class = UnitClass("player")
+return class == "WARLOCK" and
 [[A Reclaiming Sunstrider Isle
 C Reclaiming Sunstrider Isle
 T Reclaiming Sunstrider Isle
@@ -77,7 +78,8 @@ T Felendren the Banished
 A Aiding the Outrunners
 I Tainted Arcane Sliver |I|20483|
 R Dawning Lane]]
+end)
 
 
-TourGuide:ParseObjectives(questsequence)
+
 

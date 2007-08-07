@@ -5,15 +5,16 @@ local hadquest
 
 
 TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_FINISHED", "QUEST_LOG_UPDATE",
-	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED"}
+	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA"}
 
 
 function TourGuide:ZONE_CHANGED(...)
 	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
-	if (action == "RUN" or action == "FLY" or action == "HEARTH") and GetSubZoneText() == quest then self:SetTurnedIn() end
+	if (action == "RUN" or action == "FLY" or action == "HEARTH") and (GetSubZoneText() == quest or GetZoneText() == quest) then self:SetTurnedIn() end
 end
 TourGuide.ZONE_CHANGED_INDOORS = TourGuide.ZONE_CHANGED
 TourGuide.MINIMAP_ZONE_CHANGED = TourGuide.ZONE_CHANGED
+TourGuide.ZONE_CHANGED_NEW_AREA = TourGuide.ZONE_CHANGED
 
 
 function TourGuide:CHAT_MSG_SYSTEM(event, msg)

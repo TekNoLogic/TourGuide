@@ -1,5 +1,9 @@
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
+TourGuide.guides = {}
+TourGuide.guidelist = {}
+TourGuide.nextzones = {}
+
 
 TourGuide.icons = setmetatable({
 	ACCEPT = "Interface\\GossipFrame\\AvailableQuestIcon",
@@ -37,12 +41,15 @@ local actiontypes = {
 function TourGuide:Initialize()
 	self.db = self:InitializeDB("TourGuideAlphaDB", {
 		char = {
+			currentguide = self.guidelist[1],
 			turnedin = {},
 			cachedturnins = {},
 		}
 	})
 	self.turnedin = self.db.char.turnedin
 	self.cachedturnins = self.db.char.cachedturnins
+
+	self:LoadGuide(self.db.char.currentguide)
 end
 
 
@@ -50,6 +57,27 @@ function TourGuide:Enable()
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self.TrackEvents = nil
 	self:UpdateStatusFrame()
+end
+
+
+function TourGuide:RegisterGuide(name, nextzone, sequencefunc)
+	self.guides[name] = sequencefunc
+	self.nextzones[name] = nextzone
+	table.insert(self.guidelist, name)
+end
+
+
+function TourGuide:LoadGuide(name)
+	name = name or self.nextzones[self.db.char.currentguide]
+	if not name then return end
+
+	-- Clean out old completed objectives, to avoid conflicts
+	if name ~= self.db.char.currentguide then
+		for i,quest in ipairs(self.quests) do self.turnedin[quest] = nil end
+	end
+
+	self.db.char.currentguide = name
+	self:ParseObjectives(self.guides[name](), showdebug)
 end
 
 
