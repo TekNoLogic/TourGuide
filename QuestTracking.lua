@@ -27,7 +27,7 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 
 	if action == "ACCEPT" then
 		local _, _, text = msg:find("Quest accepted: (.*)")
-		if text and quest == text then return self:UpdateStatusFrame() end
+		if text and quest:gsub("%s%(Part %d+%)", "") == text then return self:UpdateStatusFrame() end
 	end
 
 	local _, _, text = msg:find("(.*) completed.")
@@ -38,7 +38,7 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	local i = 1
 	repeat
 		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
-		if action == "ACCEPT" and not turnedin and text == quest then
+		if action == "ACCEPT" and not turnedin and text == quest:gsub("%s%(Part %d+%)", "") then
 			self.turnedin[fullquestname] = true
 			return self:UpdateStatusFrame()
 		end
@@ -65,8 +65,7 @@ end
 
 
 function TourGuide:QUEST_WATCH_UPDATE(event)
-	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if action == "COMPLETE" then self:UpdateStatusFrame() end
+	if self:GetCurrentObjectiveInfo() == "COMPLETE" then self:UpdateStatusFrame() end
 end
 
 

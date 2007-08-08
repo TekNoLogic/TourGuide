@@ -62,12 +62,24 @@ function TourGuide:CreateObjectivePanel()
 end
 
 
+local accepted = {}
 function TourGuide:UpdateOHPanel()
 	if not self.OHFrame or not self.OHFrame:IsVisible() then return end
+
+	for i in pairs(accepted) do accepted[i] = nil end
+
 	for i,row in ipairs(self.OHFrame.rows) do
 		row.i = i + offset
 		local action, name, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i + offset)
+		local shortname = name:gsub("%s%(Part %d+%)", "")
+		logi = not turnedin and (accepted[name] or not accepted[shortname]) and logi
+		complete = not turnedin and (accepted[name] or not accepted[shortname]) and complete
 		local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete
+
+		if action == "ACCEPT" and logi then
+			accepted[name] = true
+			accepted[shortname] = true
+		end
 
 		row.icon:SetTexture(self.icons[action])
 		row.text:SetText(name)

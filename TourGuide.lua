@@ -95,13 +95,16 @@ end
 
 
 function TourGuide:GetQuestLogIndexByName(name)
-	name = name or self.quests[self.current]
+	name = name or self.quests[self.current]:gsub("%s%(Part %d+%)", "")
 	for i=1,GetNumQuestLogEntries() do
 		if GetQuestLogTitle(i) == name then return i end
 	end
 end
 
 function TourGuide:GetQuestDetails(name)
+	if not name then return end
+	name = name:gsub("%s%(Part %d+%)", "")
+
 	local i = self:GetQuestLogIndexByName(name)
 	local complete = i and select(7, GetQuestLogTitle(i)) == 1
 	return i, complete

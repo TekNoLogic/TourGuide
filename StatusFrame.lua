@@ -153,8 +153,7 @@ f:SetScript("OnClick", function(self, btn)
 		OptionHouse:Open("Tour Guide", "Objectives")
 	else
 		local i = TourGuide:GetQuestLogIndexByName()
-		if not i then return end
-		SelectQuestLogEntry(i)
+		if i then SelectQuestLogEntry(i) end
 		ShowUIPanel(QuestLogFrame)
 	end
 end)
