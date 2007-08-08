@@ -138,17 +138,20 @@ end
 
 
 local isdebugging = false
+local myclass = UnitClass("player")
 local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "Our"}
 local accepts, turnins, completes = {}, {}, {}
 local function ParseQuests(...)
 	local uniqueid = 1
 	local actions, notes, quests, items = {}, {}, {}, {}
+	local i = 1
 
-	for i=1,select("#", ...) do
-		local text = select(i, ...)
-		if text ~= "" then
+	for j=1,select("#", ...) do
+		local text = select(j, ...)
+		local _, _, class = text:find("|C|([^|]+)|")
+
+		if text ~= "" and (not class or class == myclass) then
 			local _, _, action, quest = text:find("^(%a) ([^|]*)")
-			local _, _, detailtype, detail = string.find(text, "|(.)|([^|]+)|?")
 			quest = quest:trim()
 			if not (action == "I" or action == "A" or action =="C" or action =="T") then
 				quest = quest.."@"..uniqueid.."@"
@@ -156,8 +159,14 @@ local function ParseQuests(...)
 			end
 
 			actions[i], quests[i] = actiontypes[action], quest
-			if detailtype == "N" then notes[i] = detail end
-			if action == "I" then items[i] = select(3, string.find(text, "|I|(%d+)|")) end
+
+			local _, _, note = string.find(text, "|N|([^|]+)|")
+			if note then notes[i] = note end
+
+			local _, _, item = string.find(text, "|I|(%d+)|")
+			if item then items[i] = item end
+
+			i = i + 1
 
 			-- Debuggery
 			if isdebugging and action == "A" then accepts[quest] = true
@@ -172,6 +181,8 @@ local function ParseQuests(...)
 					end
 				end
 			end
+			local _, _, comment = string.find(text, "(|.|[^|]+)$")
+			if comment then TourGuide:Print("Unclosed comment: ".. comment) end
 		end
 	end
 
