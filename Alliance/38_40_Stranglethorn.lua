@@ -7,7 +7,7 @@ A Scaring Shaky |N|In the building next to the upside down half boat|
 h Booty Bay
 A Venture Company Mining
 T The Rumormonger |N|Upstairs|
-A Dream Dust In the Swamp
+A Dream Dust in the Swamp
 A Skullsplitter Tusks
 T Sunken Treasure (Part 4) |N|Skip the next part|
 
@@ -18,14 +18,14 @@ C Water Elementals |N|On the island (20,23)|
 G Grind to level 39 |N|These elementals or raptors and basalisks around (33,39)|
 G Grind east, past the road |N|To (41,41)|
 C Venture Company Mining
-C Skullsplitter Tusks |N|In the camps around (42,37)
+C Skullsplitter Tusks |N|In the camps around (42,37)|
 C Panther Mastery (Part 4) |N|Bhag'thera is anywhere between just north of Mosh’ogg (49,25) to just north of the ZG entrance (48,17)|
 
 H Booty Bay
 T Venture Company Mining
 T Skullsplitter Tusks |N|Upstairs|
 T Water Elementals |N|Skip next part|
-T Some assembly required
+T Some Assembly Required
 A Excelsior
 
 T The Bloodsail Buccaneers (Part 1) |N|Run out of BB, then West.  Letter on a barrel in the pirate camp (27,69)|

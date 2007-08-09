@@ -9,7 +9,9 @@ local ROWOFFSET = 4
 local NUMROWS = math.floor(305/(ROWHEIGHT+4))
 
 
-local offset = 0
+local offset, elapsed = 0, 0
+local rows = {}
+local frame, fader
 
 
 local function OnShow()
@@ -17,16 +19,29 @@ local function OnShow()
 	if offset < 0 then offset = 0
 	elseif (offset + NUMROWS) > #TourGuide.actions then offset = #TourGuide.actions - NUMROWS end
 	TourGuide:UpdateOHPanel()
+
+	frame:SetAlpha(0)
+	elapsed = 0
+	fader:Show()
 end
 
 
 function TourGuide:CreateObjectivePanel()
-	local frame = ww.SummonOptionHouseBaseFrame()
+	fader = CreateFrame("Frame")
+	fader:Hide()
+	fader:SetScript("OnUpdate", function(self, elap)
+		elapsed = elapsed + elap
+		if elapsed > 1 then
+			self:Hide()
+			frame:SetAlpha(1)
+		else frame:SetAlpha(elapsed) end
+	end)
 
-	frame.rows = {}
+	frame = ww.SummonOptionHouseBaseFrame()
+
 	for i=1,NUMROWS do
 		local row = CreateFrame("Button", nil, frame)
-		row:SetPoint("TOPLEFT", i == 1 and frame or frame.rows[i-1], i == 1 and "TOPLEFT" or "BOTTOMLEFT", 0, -ROWOFFSET)
+		row:SetPoint("TOPLEFT", i == 1 and frame or rows[i-1], i == 1 and "TOPLEFT" or "BOTTOMLEFT", 0, -ROWOFFSET)
 		row:SetWidth(630)
 		row:SetHeight(ROWHEIGHT)
 
@@ -44,18 +59,17 @@ function TourGuide:CreateObjectivePanel()
 		row.detail = detail
 		row.check = check
 		row.icon = icon
-		frame.rows[i] = row
+		rows[i] = row
 	end
 
 	frame:EnableMouseWheel()
 	frame:SetScript("OnMouseWheel", function(f, val)
 		offset = offset - val
-		if offset < 0 then offset = 0
-		elseif (offset + NUMROWS) > #self.actions then offset = #self.actions - NUMROWS end
+		if (offset + NUMROWS) > #self.actions then offset = #self.actions - NUMROWS end
+		if offset < 0 then offset = 0 end
 		self:UpdateOHPanel()
 	end)
 
-	self.OHFrame = frame
 	frame:SetScript("OnShow", OnShow)
 	OnShow()
 	return frame
@@ -64,27 +78,43 @@ end
 
 local accepted = {}
 function TourGuide:UpdateOHPanel()
-	if not self.OHFrame or not self.OHFrame:IsVisible() then return end
+	if not frame or not frame:IsVisible() then return end
 
 	for i in pairs(accepted) do accepted[i] = nil end
 
-	for i,row in ipairs(self.OHFrame.rows) do
+	for i=1,offset-1 do
+		local action, name, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i + offset)
+		if name then
+			local shortname = name:gsub("%s%(Part %d+%)", "")
+			if action == "ACCEPT" and not turnedin and (accepted[name] or not accepted[shortname]) then
+				accepted[name] = true
+				accepted[shortname] = true
+			end
+		end
+	end
+
+	for i,row in ipairs(rows) do
 		row.i = i + offset
 		local action, name, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i + offset)
-		local shortname = name:gsub("%s%(Part %d+%)", "")
-		logi = not turnedin and (accepted[name] or not accepted[shortname]) and logi
-		complete = not turnedin and (accepted[name] or not accepted[shortname]) and complete
-		local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete
+		if not name then row:Hide()
+		else
+			row:Show()
 
-		if action == "ACCEPT" and logi then
-			accepted[name] = true
-			accepted[shortname] = true
+			local shortname = name:gsub("%s%(Part %d+%)", "")
+			logi = not turnedin and (accepted[name] or not accepted[shortname]) and logi
+			complete = not turnedin and (accepted[name] or not accepted[shortname]) and complete
+			local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete
+
+			if action == "ACCEPT" and logi then
+				accepted[name] = true
+				accepted[shortname] = true
+			end
+
+			row.icon:SetTexture(self.icons[action])
+			row.text:SetText(name)
+			row.detail:SetText(note)
+			row.check:SetChecked(checked)
 		end
-
-		row.icon:SetTexture(self.icons[action])
-		row.text:SetText(name)
-		row.detail:SetText(note)
-		row.check:SetChecked(checked)
 	end
 end
 

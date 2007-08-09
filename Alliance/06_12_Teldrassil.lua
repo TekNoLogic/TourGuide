@@ -38,7 +38,7 @@ T Gnarlpine Corruption |N|In the tower|
 A The Relics of Wakening
 T The Emerald Dreamcatcher
 A Ferocitas the Dream Eater
-r Train (Level 8)
+t Train (Level 8)
 
 C Seek Redemption!
 T Seek Redemption!

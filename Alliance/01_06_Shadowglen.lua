@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Shadownglen (1-6)", "Teldrassil (6-12)", "Alliance", function()
+TourGuide:RegisterGuide("Shadowglen (1-6)", "Teldrassil (6-12)", "Alliance", function()
 return [[
 A The Balance of Nature (Part 1)
 C The Balance of Nature (Part 1)

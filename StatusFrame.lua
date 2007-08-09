@@ -105,10 +105,7 @@ function TourGuide:UpdateStatusFrame()
 	QuestLog_Update()
 	QuestWatch_Update()
 
-	if not nextstep and self.nextzones[self.db.char.currentguide] then
-		self:LoadGuide()
-		return self:UpdateStatusFrame()
-	end
+	if not nextstep and self:LoadNextGuide() then return self:UpdateStatusFrame() end
 
 	if not nextstep then return end
 

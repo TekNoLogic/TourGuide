@@ -23,6 +23,15 @@ QuestTracking.lua
 
 Horde\01_05_SunstriderIsle.lua
 Horde\05_13_Eversong.lua
+Horde\26_27_Ashenvale.lua
+Horde\27_StonetalonMountains.lua
+Horde\27_29_ThousandNeedles.lua
+##Horde\29_30_HillsbradFoothills.lua
+##Horde\30_30_ArathiHighlands.lua
+##Horde\30_31_StranglethornVale.lua
+##Horde\31_32_ThousandNeedles.lua
+##Horde\32_34_Desolace.lua
+##Horde\34_36_StranglethornVale.lua
 
 Alliance\01_06_Shadowglen.lua
 Alliance\06_12_Teldrassil.lua

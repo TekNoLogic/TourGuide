@@ -3,6 +3,7 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 
 
 local myfaction = UnitFactionGroup("player")
+local showdebug = true
 
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
@@ -25,6 +26,7 @@ TourGuide.icons = setmetatable({
 	GRIND = "Interface\\Icons\\INV_Stone_GrindingStone_05",
 	ITEM = "Interface\\Icons\\INV_Misc_Bag_08",
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
+	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental"
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
@@ -48,7 +50,6 @@ local actiontypes = {
 function TourGuide:Initialize()
 	self.db = self:InitializeDB("TourGuideAlphaDB", {
 		char = {
-			currentguide = self.guidelist[1],
 			turnedin = {},
 			cachedturnins = {},
 		}
@@ -56,6 +57,7 @@ function TourGuide:Initialize()
 	self.turnedin = self.db.char.turnedin
 	self.cachedturnins = self.db.char.cachedturnins
 
+	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
 	self:LoadGuide(self.db.char.currentguide)
 end
 
@@ -82,21 +84,30 @@ end
 
 
 function TourGuide:LoadGuide(name)
-	name = name or self.nextzones[self.db.char.currentguide]
 	if not name then return end
 
-	-- Clean out old completed objectives, to avoid conflicts
-	if name ~= self.db.char.currentguide then
-		for i,quest in ipairs(self.quests) do self.turnedin[quest] = nil end
-	end
+	self.db.char.currentguide = name
+	if not self.guides[name] then self.db.char.currentguide = self.guidelist[1] end
+	self:ParseObjectives(self.guides[self.db.char.currentguide](), showdebug)
+end
+
+
+function TourGuide:LoadNextGuide()
+	local name = self.nextzones[self.db.char.currentguide]
+	if not name then return end
+
+	for i,quest in ipairs(self.quests) do self.turnedin[quest] = nil end -- Clean out old completed objectives, to avoid conflicts
 
 	self.db.char.currentguide = name
 	self:ParseObjectives(self.guides[name](), showdebug)
+	self:UpdateGuidesPanel()
+	return true
 end
 
 
 function TourGuide:GetQuestLogIndexByName(name)
-	name = name or self.quests[self.current]:gsub("%s%(Part %d+%)", "")
+	name = name or self.quests[self.current]
+	name = name:gsub("%s%(Part %d+%)", "")
 	for i=1,GetNumQuestLogEntries() do
 		if GetQuestLogTitle(i) == name then return i end
 	end
@@ -104,7 +115,6 @@ end
 
 function TourGuide:GetQuestDetails(name)
 	if not name then return end
-	name = name:gsub("%s%(Part %d+%)", "")
 
 	local i = self:GetQuestLogIndexByName(name)
 	local complete = i and select(7, GetQuestLogTitle(i)) == 1
@@ -141,8 +151,8 @@ end
 local isdebugging = false
 local myclass = UnitClass("player")
 local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "Our"}
-local accepts, turnins, completes = {}, {}, {}
 local function ParseQuests(...)
+	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
 	local actions, notes, quests, items = {}, {}, {}, {}
 	local i = 1
@@ -153,6 +163,7 @@ local function ParseQuests(...)
 
 		if text ~= "" and (not class or class == myclass) then
 			local _, _, action, quest = text:find("^(%a) ([^|]*)")
+			assert(actiontypes[action], "Unknown action: "..text)
 			quest = quest:trim()
 			if not (action == "I" or action == "A" or action =="C" or action =="T") then
 				quest = quest.."@"..uniqueid.."@"
