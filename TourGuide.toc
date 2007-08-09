@@ -21,10 +21,10 @@ OHGuides.lua
 UnlistedQuest.lua
 QuestTracking.lua
 
-Joana_Horde\01_05_SunstriderIsle.lua
-Joana_Horde\05_13_Eversong.lua
+Horde\01_05_SunstriderIsle.lua
+Horde\05_13_Eversong.lua
 
-BrianKopp_Alliance\01_06_Shadowglen.lua
-BrianKopp_Alliance\06_12_Teldrassil.lua
-BrianKopp_Alliance\38_40_Stranglethorn.lua
-BrianKopp_Alliance\66_67_BladesEdge.lua
+Alliance\01_06_Shadowglen.lua
+Alliance\06_12_Teldrassil.lua
+Alliance\38_40_Stranglethorn.lua
+Alliance\66_67_BladesEdge.lua
