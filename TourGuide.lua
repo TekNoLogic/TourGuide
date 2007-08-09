@@ -41,6 +41,7 @@ local actiontypes = {
 	F = "FLY",
 	N = "NOTE",
 	B = "BUY",
+	b = "BOAT",
 }
 
 

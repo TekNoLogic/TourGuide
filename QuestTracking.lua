@@ -10,7 +10,7 @@ TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "
 
 function TourGuide:ZONE_CHANGED(...)
 	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
-	if (action == "RUN" or action == "FLY" or action == "HEARTH") and (GetSubZoneText() == quest or GetZoneText() == quest) then self:SetTurnedIn() end
+	if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == quest or GetZoneText() == quest) then self:SetTurnedIn() end
 end
 TourGuide.ZONE_CHANGED_INDOORS = TourGuide.ZONE_CHANGED
 TourGuide.MINIMAP_ZONE_CHANGED = TourGuide.ZONE_CHANGED
