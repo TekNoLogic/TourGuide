@@ -14,6 +14,7 @@ Dongle.lua
 OptionHouse.lua
 WidgetWarlock.lua
 
+OHDebug.lua
 TourGuide.lua
 StatusFrame.lua
 OHFrame.lua

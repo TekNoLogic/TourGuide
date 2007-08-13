@@ -3,10 +3,11 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 
 
 local myfaction = UnitFactionGroup("player")
-local showdebug = true
-
+local debugframe, debugfunc = TourGuideOHDebugFrame, TourGuideOHDebugFunc
+TourGuideOHDebugFrame, TourGuideOHDebugFunc = nil, nil
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
+TourGuide:EnableDebug(1, debugframe)
 TourGuide.guides = {}
 TourGuide.guidelist = {}
 TourGuide.nextzones = {}
@@ -26,7 +27,8 @@ TourGuide.icons = setmetatable({
 	GRIND = "Interface\\Icons\\INV_Stone_GrindingStone_05",
 	ITEM = "Interface\\Icons\\INV_Misc_Bag_08",
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
-	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental"
+	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
+	GETFLIGHTPOINT = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
@@ -41,6 +43,7 @@ local actiontypes = {
 	G = "GRIND",
 	I = "ITEM",
 	F = "FLY",
+	f = "GETFLIGHTPOINT",
 	N = "NOTE",
 	B = "BUY",
 	b = "BOAT",
@@ -68,6 +71,7 @@ function TourGuide:Enable()
 	local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
 	oh:RegisterCategory("Guides", TourGuide, "CreateGuidesPanel")
 	oh:RegisterCategory("Objectives", TourGuide, "CreateObjectivePanel")
+	oh:RegisterCategory("Debug", debugfunc)
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self.TrackEvents = nil
@@ -88,7 +92,8 @@ function TourGuide:LoadGuide(name)
 
 	self.db.char.currentguide = name
 	if not self.guides[name] then self.db.char.currentguide = self.guidelist[1] end
-	self:ParseObjectives(self.guides[self.db.char.currentguide](), showdebug)
+	self:DebugF(1, "Loading guide: %s", name)
+	self:ParseObjectives(self.guides[self.db.char.currentguide]())
 end
 
 
@@ -98,8 +103,7 @@ function TourGuide:LoadNextGuide()
 
 	for i,quest in ipairs(self.quests) do self.turnedin[quest] = nil end -- Clean out old completed objectives, to avoid conflicts
 
-	self.db.char.currentguide = name
-	self:ParseObjectives(self.guides[name](), showdebug)
+	self:LoadGuide(name)
 	self:UpdateGuidesPanel()
 	return true
 end
@@ -148,9 +152,8 @@ function TourGuide:GetObjectiveInfo(i)
 end
 
 
-local isdebugging = false
 local myclass = UnitClass("player")
-local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "Our"}
+local titlematches = {"For", "A", "The", "Or", "In", "Then", "From"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
@@ -181,36 +184,33 @@ local function ParseQuests(...)
 			i = i + 1
 
 			-- Debuggery
-			if isdebugging and action == "A" then accepts[quest] = true
-			elseif isdebugging and action == "T" then turnins[quest] = true
-			elseif isdebugging and action == "C" then completes[quest] = true end
+			if action == "A" then accepts[quest] = true
+			elseif action == "T" then turnins[quest] = true
+			elseif action == "C" then completes[quest] = true end
 
-			if isdebugging and (action == "A" or action == "C" or action == "T") then
+			if action == "A" or action == "C" or action == "T" then
 				-- Catch bad Title Case
 				for _,word in pairs(titlematches) do
 					if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
-						TourGuide:PrintF("%s %s -- Contains bad title case", action, quest)
+						TourGuide:DebugF(1, "%s %s -- Contains bad title case", action, quest)
 					end
 				end
 			end
 			local _, _, comment = string.find(text, "(|.|[^|]+)$")
-			if comment then TourGuide:Print("Unclosed comment: ".. comment) end
+			if comment then TourGuide:Debug(1, "Unclosed comment: ".. comment) end
 		end
 	end
 
 	-- More debug
-	if isdebugging then
-		for quest in pairs(accepts) do if not turnins[quest] then TourGuide:PrintF("Quest has no 'turnin' objective: %s", quest) end end
-		for quest in pairs(turnins) do if not accepts[quest] then TourGuide:PrintF("Quest has no 'accept' objective: %s", quest) end end
-		for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:PrintF("Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
-	end
+	for quest in pairs(accepts) do if not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'turnin' objective: %s", quest) end end
+	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
+	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
 
 	return actions, notes, quests, items
 end
 
 
-function TourGuide:ParseObjectives(text, showdebug)
-	isdebugging = showdebug
+function TourGuide:ParseObjectives(text)
 	self.actions, self.notes, self.quests, self.questitems = ParseQuests(string.split("\n", text))
 end
 
@@ -221,6 +221,9 @@ function TourGuide:SetTurnedIn(i, value)
 		value = true
 	end
 
+	if value then value = true else value = nil end -- Cleanup to minimize savedvar data
+
 	self.turnedin[self.quests[i]] = value
+	self:DebugF(1, "Set turned in %q = %s", self.quests[i], tostring(value))
 	self:UpdateStatusFrame()
 end

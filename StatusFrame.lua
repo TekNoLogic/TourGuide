@@ -75,6 +75,7 @@ function TourGuide:SetText(i)
 end
 
 
+local mapped = {}
 function TourGuide:UpdateStatusFrame()
 	local nextstep
 
@@ -113,8 +114,10 @@ function TourGuide:UpdateStatusFrame()
 	self.current = nextstep
 	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(nextstep)
 
+
 	-- TomTom coord mapping
-	if note and TomTom then
+	if note and TomTom and not mapped[action..quest] then
+		mapped[action..quest] = true
 		for x,y in note:gmatch("%(([%d.]+),([%d.]+)%)") do
 			TomTom:AddWaypoint(tonumber(x), tonumber(y), quest)
 		end

@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Blade's Edge Mountains (66-68)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-68)", "Alliance", function()
 return [[F Orebor Harborage
 A No Time for Curiosity
 A Killing the Crawlers |N|Up the stairs outside the cave|
@@ -19,8 +19,7 @@ C The Encroaching Wilderness |N|South of town|
 C Malaise |N|West at Veil Lashh (35,73)|
 T Malaise |N|Find a book up in the trees, bridge at (34,76)|
 A Scratches
-C Scratches |N|Use the feathers on the purple circle|
-R Sylvanaar
+C Scratches |N|Use the feathers on the purple circle, return to town|
 T The Encroaching Wilderness
 A Marauding Wolves
 T Scratches
@@ -85,7 +84,6 @@ R Razaan's Landing |N|Rally can send you here, again|
 C Show Them Gnome Mercy! |N|Kill about 4 of the Razaani by the portal in the center of the village (66,44) and Nexus-Prince Razaan will appear. Kill him and loot the quest item|
 R Toshley's Station
 T Show Them Gnome Mercy!
-N Don't get rid of the Power Converter
 F Sylvanaar
 T The Den Mother
 T Marauding Wolves
@@ -97,11 +95,11 @@ C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the blood
 R Bladespire Hold |N|Follow the road North|
 A The Trappings of a Vindicator |N|Vuuleen in a cage (43,51)|
 C Getting the Bladespire Tanked |N|Kill them after they get drunk|
-C The Bladespire Ogres
 C The Trappings of a Vindicator |N|Droggam (39,53), Mugdorg (42,57).  Pull the non-elite guards first, then drop a brew to pull the boss without the elite guards.  Drop the brew in the doorway, not to far away|
 T The Trappings of a Vindicator
 A Gorr'Dim, Your Time Has Come...
 C Gorr'Dim, Your Time Has Come... |N|Gorr'Dim (40,49).  Same pull strategy as the last two bosses|
+C The Bladespire Ogres
 T Gorr'Dim, Your Time Has Come... |N|Skip "Planting the Banner"|
 H Sylvanaar
 T Getting the Bladespire Tanked
@@ -110,22 +108,22 @@ T A Dire Situation
 F Toshley's Station
 A Test Flight: Ruuan Weald
 C Test Flight: Ruuan Weald |N|Make sure to use the weather vane in mid-air!|
-N Grab flight point
-A A Time for Negotiation...
+f Grab flight point
+A A Time for Negotiation... |N|Tree Warden at the center moonwell|
 A Creating the Pendant
-T Test Flight: Ruuan Weald |N|To the south|
-A Culling the Wild |N|To the North|
-A A Date with Dorgok |N|To the West|
+T Test Flight: Ruuan Weald |N|South edge of town|
+A Culling the Wild |N|North edge of town|
+A A Date with Dorgok |N|West edge of town|
 A Crush the Bloodmaul Camp!
-A Little Embers |N|Further West|
+A Little Embers |N|West edge of town|
 A From the Ashes
 N You should be ~75% to 67 now
 C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven|
 C A Time for Negotiation... |N|Keep an eye out for Overseer Nuaar, a neutral Draenei.  He walks around the camps here.|
-A Damaged Mask |N|Go south then east up the path from town, then go north once you are up top and kill the fel corrupters, the mages that walk in pairs, they will drop a damaged mask.  Kill until you get the item, they are easy kills|
-C Culling the Wild
-C Little Embers |N|At Skald (70,23), this is a tough area to get in and out unless you have good fire resist
-C From the Ashes |N|Soil at (71,22), (71,20), (71,18)
+C Culling the Wild |N|Go south of town then east up the path. Work your way north as you kill the quest mobs|
+C From the Ashes |N|Soil at (71,22), (71,20), (71,18), this can be a tough area if you have good fire resist|
+C Little Embers
+A Damaged Mask |N|If you don't have the item in your bag, kill Fel Corrupters until you get it.|
 R Evergrove
 T Damaged Mask
 A Mystery Mask
@@ -140,27 +138,27 @@ T Culling the Wild
 T Little Embers
 T From the Ashes
 N You're probably honored with the Cenarion Expedition by now
-R Forge Camp: Anger |N|(73,41)|
-T Felsworn Gas Mask |N|Put on the gas mask you idjut!|
+R Forge Camp: Anger |N|Back up the hill (73,41)|
+T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator (73,40)|
 A Deceive thy Enemy
 C Deceive thy Enemy
 T Deceive thy Enemy
 N Skip "You're Fired!" unless there are people around to help you
 N You should now be 67 or very close to it.
-N You can destroy the mask you're wearing now and the mystery mask
 C Poaching from Poachers |N|Back down, Northwest of Evergrove|
 C ...and a Time for Action
+A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]|
 R Bloodmaul Camp |N|Follow the road north (57,27)|
 C Crush the Bloodmaul Camp!
 C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
 R Evergrove |N|Or hearth to Sylvanaar and fly to Evergrove|
 T A Date with Dorgok
-A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok
+A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok|
 T Favor of the Gronn
 A Pay the Baron a Visit
 T Crush the Bloodmaul Camp!
 T ...and a Time for Action
-I Did You Get The Note? |I|10719|
+T Did You Get The Note?
 A Wyrmskull Watcher
 T Poaching from Poachers
 A Whelps of the Wyrmcult
