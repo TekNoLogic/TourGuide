@@ -1,10 +1,8 @@
 
-TourGuide:RegisterGuide("Netherstorm (67-68)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Netherstorm (67-69)", nil, "Alliance", function()
 return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
 A Off To Area 52 |N|On Gyro-Plank Bridge|
-N At the fork head left into the Ruins of Enkaar
-A Recharging the Batteries
 
 R Area 52 |N|Back down the road (32,62)
 f Grab the flight point |N|To the left outside the city|
@@ -15,7 +13,9 @@ h Area 52
 A Distraction at Manaforge B'naar
 A The Archmage's Staff
 
-A Mark V is Alive! |N|North out of town, west of the ruins (31,56)
+R Ruins of Enkaar |N|To the north  (31,56), follow the road then take the north fork|
+A Recharging the Batteries
+A Mark V is Alive!
 C Mark V is Alive!
 C You're Hired!
 C Recharging the Batteries |N|To the north.  Take phase hunters down to about 25% life, use the battery recharging blaster on them, then kill them|
@@ -132,53 +132,65 @@ C Capturing the Phylactery |N|Across from the barn at Chapel Yard, the middle ou
 T Capturing the Phylactery
 N Skip "Destroy Naberious!" |N|Unless you want a group|
 
+C Potential Energy Source |N|West at Manaforge Coruu (51,83)|
+C The Sigil of Krasus |N|Spellbinder Maryana, wandering around outside|
+T Sigil of Krasus |N|Use the archmage's staff|
+A Krasus's Compendium
 
+T Potential Energy Source |N|Back at the tower|
+A Building A Perimeter
+C Krasus's Compendium |N|Chapter 3 in the house south of the tower (58,87), Chapter 1 in the house on the other side (58,89), Chapter 2 in the house 2 doors down (57,89)|
+T Krasus's Compendium |N|Use the staff again|
+A Unlocking the Compendium
 
+C Building a Perimeter |N|Use the rune activator at the 3 runes: East (59,85), Northwest (57,82) and West (54,86)
+T Building a Perimeter |N|Back at the tower
+A Torching Sunfury Hold
+A The Sunfury Garrison
+
+C Torching Sunfury Hold |N|North at Sunfury Hold (56,81).  Kill flamekeepers to get a torch, then torch tests and ballistas.  You can torch the same tent and ballista many times, they respawn fast.|
+C The Sunfury Garrison
+C Unlocking the Compendium |N|Kill Spellweaver Marathelle around the lowest platform (56,78).|
+T Unlocking the Compendium |N|Use the staff, you should know this by now|
+A Summoner Kanthin's Prize
+
+C Summoner Kanthin's Prize |N|Over the bridge to the north at Manaforge Duro (59,62).  Look for the water elemental|
+T Summoner Kanthin's Prize
+A Ar'kelos the Guardian
+
+T Torching Sunfury Hold |N|Back at the town square|
+T The Sunfury Garrison
+A Down With Daellis
+
+C Ar'kelos the Guardian |N|At the tower entrance|
+T Ar'kelos the Guardian |N|Top of the tower|
+N Skip Finding the Keymaster |N|Unless you get a group|
+
+C Down With Daellis |N|On the path west of Manaforge Duro (57,65)|
+T Down With Daellis |N|Back at the tower|
+
+R Cosmowrench |N|East of Manaforge Duro (65,66)|
+f Grab flight point
+A Bloody Imp-ossible!
+C Bloody Imp-ossible! |N|Summon the imp and kill warp chasers.  You must be in melee range when they die.|
+T Bloody Imp-ossible!
+
+F Area 52
+A Pick Your Part
+T Consortium Crystal Collection
+A A Heap of Ethereals
+T Measuring Warp Energies
+T B'naar Console Transcription
+A Shutting Down Manaforge B'naar
+
+F Shattrath City
+t Train (Level 68) |N|Port to a city, of course|
+
+H Area 52
+N You should now be about 45-50% to 69
 ]]
 
 
---~ 56) Go west to Manaforge Coruu at 51,83 and look for the energy isolation cubes for "Potential Energy
---~ Source" also keep an eye out for Spellbinder Maryana for "The Sigil of Krasus" she wanders around and is
---~ outside. Once you have the Sigil of Krasus use the staff and Vargoth will appear, turn it in and accept
---~ "Krasus's Compendium"
---~ 57) Go back to the towar to Morran and turn in "Potential Energy Source" accept "Building A Perimeter"
---~ 58) Go to the house just south of the tower at 58,87 and grab chapter 3. Chapter 1 is in the house on the
---~ other side at 58,89. Chapter 2 is in the house 2 doors down at 57,89. Once you have all 3 use the staff
---~ again and Vargoth will appear, turn it in and accept "Unlocking the Compendium"
---~ 59) Go east to 59,85 and you'll see the east Kirin'Var Rune. Now use the rune activation device for "Building a
---~ Perimeter" do the same thing for the NW rune at 57,82 and the western ruin at 54,86
---~ 60) Go to the tower and turn it in then accept "Torching Sunfury Hold" then from Dieworth accept "The
---~ Sunfury Garrison"
---~ 61) Go north into Sunfury Hold at 56,81 and kill the archers for "The Sunfury Garrison" and kill the
---~ flamekeepers for a torch to use to burn the ballista's and tents for "Torching Sunfury Hold" you can sit at
---~ the same tent and ballista until you get it 4 times, just have to wait a few seconds in between
---~ 62) Spellweaver Marathelle walks around the lowest platform at 56,78 kill her for the Oculus (D2 fans?) for
---~ "Unlocking the Compendium" now use the staff to summon Vargoth and turn it in and accept "Summoner
---~ Kanthin's Prize"
---~ 63) Go over the bridge north to Manaforge Duro at 59,62 for "Summoner Kanthin's Prize" he's easy to spot
---~ because he has a water elemental pet called Glacius. Once you do this use the staff again to summon
---~ Vargoth and turn it in and accept "Ar'kelos the Guardian"
---~ 64) Go back down to the town square tower to Morran and turn in "Torching Sunfury Hold" then next to him
---~ turn in "The Sunfury Garrison" accept "Down With Daellis" then go in the tower and slay Ar'kelos at the
---~ entrance for "Ar'kelos the Guardian" then go up top to Vargoth and turn it in SKIP "Finding the
---~ Keymaster" unless you get a group
---~ 65) Go back up to Manaforge Duro to the west side of it at 57,65 and you'll see Daelis Dawnstrike running up
---~ and down the path. Kill him for "Down With Daellis"
---~ 66) Run back down to the tower and turn it in then go back up east of Manaforge Duro to Cosmowrench at
---~ 65,66 and grab the FP outside then go inside and accept "Bloody Imp-ossible!"
---~ 67) Now go just outside of town and look for warp chasers. Use the crystal to summon Zeppit to help you
---~ collect the blood. You have to be in melee range when the warp chaser dies or he will not grab the blood,
---~ so any ranged classes have to get in close for the kill
---~ 68) Once you got all the blood, go turn it in
---~ 69) Fly to Area 52, we're going to get skills then hearth back rather than hearthing now and wasting time
---~ flying back from skills
---~ 70) You'll see Papa Wheeler as you enter, accept "Pick Your Part"
---~ 71) Outside the inn talk to Khay'ji and turn in "Consortium Crystal Collection" accept "A Heap of Ethereals"
---~ 72) Go in the Inn to Orelis and turn in "Measuring Warp Energies" then next to him turn in "B'naar Console
---~ Transcription" accept "Shutting Down Manaforge B'naar"
---~ 73) Fly to Shattrath and take the portal to the town of your choice and get your skills and then hearth back to
---~ Area 52
---~ 74) You should now be about 45-50% to 69
 --~ 75) Go out the west entrance and follow it to Manaforge B'naar and go inside to the south part and you'll find
 --~ Overseer Theredis who you need to kill for the access crystal then use it on the control console on the
 --~ other side of the room and click begin emergency shutdown for "Shutting Down Manaforge B'naar" now

@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-68)", "Alliance", function()
+TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-69)", "Alliance", function()
 return [[F Orebor Harborage
 A No Time for Curiosity
 A Killing the Crawlers |N|Up the stairs outside the cave|
@@ -172,22 +172,27 @@ A Goodnight, Gronn
 C Goodnight, Gronn |N|Head back East to Grulloc (59,47).  Use the sleeping powder on him and grab the sack. He wakes up when you take the bag so use the powder again. Be careful, 2-3 hits and you're dead|
 T Goodnight, Gronn
 A It's a Trap!
+
 R Evergrove
 T It's a Trap!
 A Gorgrom the Dragon-Eater
 A Slaughter at Boulder'mok
+
 T Wyrmskull Watcher |N|West over the Wyrmskull Bridge|
 A Longtail is the Lynchpin
-C Longtail is the Lynchpin |N|Through the cave!|
+C Longtail is the Lynchpin |N|Through the cave, near the end|
 T Longtail is the Lynchpin
 A Meeting at the Blackwing Coven
+
 C Whispers of the Raven God |N|Exit the cave, grind on arakkoa until you get their buff, then visit each totem in order (40,17), (42,22), (41,19), (40,23)|
 C Slaughter at Boulder'mok
 C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap|
+
 R Blackwing Coven |N|To the South (31,32)|
 N Kill Wyrmcults and collect 5 [Costume Scraps] |N|For "Meeting at the Blackwing Coven".  This place sucks, it’s pretty tough.  Beware when they’re low on life, they may try to cast some type of black blessing which turns them into a dragonkin with about 50% life and they start fireballing and doing fire nova.|
 C Whelps of the Wyrmcult |N|Go in the cave and use the blackwhelp net on the dragon whelps in here.  You can get right next to eggs and they will hatch one for you to capture|
 C Meeting at the Blackwing Coven |N|Head to the back of the cave and put on the costume|
+
 H Sylvanaar
 F Evergrove
 T Whelps of the Wyrmcult
@@ -200,16 +205,20 @@ T Gorgrom the Dragon-Eater
 A Baron Sablemane Has Requested Your Presence
 T Slaughter at Boulder'mok
 N You should be roughly 30% through 67
+
 R Raven's Wood |N|Run back across wyrmskull bridge and through the tunnel.  As you exit the tunnel go left up the path (37,22)|
 T Treebole Must Know
 A Exorcising the Trees
 C Exorcising the Trees |N|Kill Dire Ravens for 5 feathers, also collect 5 orbs off the ground. If you're grouped with someone only one person needs to collect these.  Combine the items, get in range of a Leafbeard and use one.  Kill the Koi-Koi Spirit, don't kill the leafbeard|
 T Exorcising the Trees
+
 R Blackwing Coven |N|Southwest (32,33)|
 C Maxnar Must Die! |N|In the same cave as before, deeper in (33,36)|
+
 H Sylvanaar |N|Die and spirit rez at Sylvanaar if your stone isn't up|
 F Evergrove
 T Maxnar Must Die!
+
 R Circle of Blood |N|(53,41)|
 T Baron Sablemane Has Requested Your Presence |N|Skip "Massacre at Gruul's Lair" unless you get some friends to help.|]]
 end)
