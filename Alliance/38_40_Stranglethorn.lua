@@ -1,11 +1,11 @@
 
-TourGuide:RegisterGuide("Stranglethorn Vale (38-40)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Stranglethorn Vale (38-40)", "Badlands (40-41)", "Alliance", function()
 return [[
 b Booty Bay
-A The Bloodsail Buccaneers (Part 1)
+A The Bloodsail Buccaneers (Part 1) |N|(28,76)|
 A Scaring Shaky |N|In the building next to the upside down half boat|
 h Booty Bay
-A Venture Company Mining
+A Venture Company Mining |N|Near the innkeeper (27,77)|
 T The Rumormonger |N|Upstairs|
 A Dream Dust in the Swamp
 A Skullsplitter Tusks

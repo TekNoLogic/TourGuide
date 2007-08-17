@@ -124,6 +124,7 @@ C Culling the Wild |N|Go south of town then east up the path. Work your way nort
 C From the Ashes |N|Soil at (71,22), (71,20), (71,18), this can be a tough area if you have good fire resist|
 C Little Embers
 A Damaged Mask |N|If you don't have the item in your bag, kill Fel Corrupters until you get it.|
+
 R Evergrove
 T Damaged Mask
 A Mystery Mask
@@ -138,6 +139,7 @@ T Culling the Wild
 T Little Embers
 T From the Ashes
 N You're probably honored with the Cenarion Expedition by now
+
 R Forge Camp: Anger |N|Back up the hill (73,41)|
 T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator (73,40)|
 A Deceive thy Enemy
@@ -145,12 +147,14 @@ C Deceive thy Enemy
 T Deceive thy Enemy
 N Skip "You're Fired!" unless there are people around to help you
 N You should now be 67 or very close to it.
+
 C Poaching from Poachers |N|Back down, Northwest of Evergrove|
 C ...and a Time for Action
 A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]|
 R Bloodmaul Camp |N|Follow the road north (57,27)|
 C Crush the Bloodmaul Camp!
 C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
+
 R Evergrove |N|Or hearth to Sylvanaar and fly to Evergrove|
 T A Date with Dorgok
 A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok|
@@ -163,6 +167,7 @@ A Wyrmskull Watcher
 T Poaching from Poachers
 A Whelps of the Wyrmcult
 N You damn well better be 67 by now |N|If not 10% into it!|
+
 R Circle of Blood |N|Follow path Southwest from town, down and to the West (53,41)|
 T Pay the Baron a Visit
 A Into the Churning Gulch

@@ -81,6 +81,7 @@ R Farstrider Retreat |N|Follow the road East then South|
 A Amani Encroachment
 A The Spearcrafter's Hammer
 A The Magister's Apprentice
+
 T The Wayward Apprentice |N|To the Southwest|
 A Corrupted Soil
 C Corrupted Soil
@@ -90,19 +91,23 @@ C Unexpected Results
 T Unexpected Results
 A Research Notes
 G Until level 9
+
 H Fairbreeze Village
 A The Scorched Grove
 A Ranger Sareyn
 T Research Notes
 A Saltheril's Haven
+
 N Kill any cats you come across for "Pelt Collection"
 R Saltheril's Haven |N|To the west|
 T Saltheril's Haven
 A The Party Never Ends
+
 G Grind your way west to the shore
 C The Ring of Mmmrrrggglll |N|Use your racial to stop Mmmrrrggglll from healing himself!|
 C Grimscale Pirates!
 T The Ring of Mmmrrrggglll
+
 R Sunsail Anchorage |N|To the South|
 C Lost Armaments
 C Situation at Sunsail Anchorage
@@ -112,13 +117,14 @@ A Wretched Ringleader
 C Wretched Ringleader |N|The mob is at the very top of building at Sunsail Anchorage.  Focus fire on him, grab his head and run out of there!|
 T Wretched Ringleader
 C Pelt Collection
+
 R Fairbreeze Village
 T Pelt Collection
 T Situation at Sunsail Anchorage
 A Missing in the Ghostlands
-B [Bundle of Fireworks] |N|From the General goods vendor, for "The Party Never Ends"|
 T Ranger Sareyn |N|To the East along the road (47,71)|
 A Defending Fairbreeze Village
+
 N You should be level 10 now |N|Time to do your class's level 10 quests!|
 T Missing in the Ghostlands
 A The Fallen Courier
@@ -130,9 +136,11 @@ A Powering our Defenses |N|At the runestone (42,85)|
 C Powering our Defenses |N|At the East runestone (55,84)|
 C Swift Discipline |N|North of Fairbreeze Village along the road.  Meledor (44,60) and Ralen (45,56)|
 T Swift Discipline
+
 R Silvermoon City
 B [Suntouched Special Reserve] |N|Vinemaster Suntouched (80,58), for "The Party Never Ends"|
 t Train (Level 10)
+
 R Eversong Woods
 T The Magister's Apprentice |N|Follow the road East (67,57)|
 A Deactivating the Spire
@@ -145,24 +153,28 @@ C Cleaning up the Grounds
 T Cleaning up the Grounds
 T Deactivating the Spire
 A Word from the Spire
+
 R Farstrider Retreat
 T Word from the Spire
 T Abandoned Investigations
-C Amani Encroachment |N|To the south|
-C The Spearcrafter's Hammer
-A Zul'Marosh |N|(70,72)|
-C Zul'Marosh |N|Across the lake|
+C The Spearcrafter's Hammer |N|To the southeast (70,72)|
+A Zul'Marosh
+C Zul'Marosh |N|Across the lake, upstairs in the hut (62, 80)|
 T Zul'Marosh
+C Amani Encroachment
+
 R Farstrider Retreat
 B [Springpaw Appetizers] |N|From Zalene Firstlight (60,63), for "The Party Never Ends"|
 T The Spearcrafter's Hammer
 T Amani Encroachment
 I Amani Invasion |I|23249|
 A Warning Fairbreeze Village
+
 H Fairbreeze Village
 T Warning Fairbreeze Village
-T Defending Fairbreeze Village |N|(46,71)|
 B [Bundle of Fireworks] |N|From the General goods vendor, for "The Party Never Ends"|
+T Defending Fairbreeze Village |N|(47,72)|
+
 T The Party Never Ends |N|The quest reward item, [Saltheril's Haven Party Invitation], just allows you to pick up the party goods on the tables at the party.|
 T The Scorched Grove |N|(34,80)|
 A A Somber Task

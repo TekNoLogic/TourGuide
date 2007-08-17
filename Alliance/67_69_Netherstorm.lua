@@ -19,7 +19,6 @@ A Mark V is Alive!
 C Mark V is Alive!
 C You're Hired!
 C Recharging the Batteries |N|To the north.  Take phase hunters down to about 25% life, use the battery recharging blaster on them, then kill them|
-T You're Hired
 T Mark V is Alive!
 T Recharging the Batteries
 C Securing the Shaleskin Shale
@@ -31,9 +30,9 @@ T You're Hired!
 A Invaluable Asset Zapping
 A Report to Engineering
 T Report to Engineering |N|To the south|
-A Essence For the Engines
+A Essence for the Engines
 
-C Essence For the Engines |N|North, near the glowing trenches|
+C Essence for the Engines |N|North, near the glowing trenches|
 C That Little Extra Kick |N|Around the rocks, near the shaleskin flayers|
 
 R Area 52

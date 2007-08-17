@@ -30,17 +30,3 @@ end
 
 TourGuideOHDebugFrame = f
 
-
-function TourGuideOHDebugFunc()
-	f:SetParent(OptionHouseOptionsFrame)
-	f:SetFrameStrata(OptionHouseOptionsFrame:GetFrameStrata())
-	f:SetFrameLevel(OptionHouseOptionsFrame:GetFrameLevel())
-	f:ClearAllPoints()
-	f:SetWidth(630)
-	f:SetHeight(305)
-	f:SetPoint("TOPLEFT", 190, -103)
-	f:Show()
-
-	return f
-end
-

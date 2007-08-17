@@ -3,8 +3,8 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 
 
 local myfaction = UnitFactionGroup("player")
-local debugframe, debugfunc = TourGuideOHDebugFrame, TourGuideOHDebugFunc
-TourGuideOHDebugFrame, TourGuideOHDebugFunc = nil, nil
+local debugframe = TourGuideOHDebugFrame
+TourGuideOHDebugFrame = nil
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
 TourGuide:EnableDebug(1, debugframe)
@@ -71,7 +71,7 @@ function TourGuide:Enable()
 	local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
 	oh:RegisterCategory("Guides", TourGuide, "CreateGuidesPanel")
 	oh:RegisterCategory("Objectives", TourGuide, "CreateObjectivePanel")
-	oh:RegisterCategory("Debug", debugfunc)
+	oh:RegisterCategory("Debug", function() return debugframe end)
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self.TrackEvents = nil
