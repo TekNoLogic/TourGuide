@@ -24,6 +24,7 @@ QuestTracking.lua
 
 Horde\01_05_SunstriderIsle.lua
 Horde\05_13_Eversong.lua
+Horde\13_20_Ghostlands.lua
 Horde\26_27_Ashenvale.lua
 Horde\27_StonetalonMountains.lua
 Horde\27_29_ThousandNeedles.lua

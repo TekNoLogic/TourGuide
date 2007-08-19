@@ -43,7 +43,7 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	if not text then return end
 
 	if quest:gsub("%s%(Part %d+%)", "") == text then
-		self:DebugF(1, "Detected qiuest turnin %q", quest)
+		self:DebugF(1, "Detected quest turnin %q", quest)
 		return self:SetTurnedIn()
 	end
 
@@ -114,3 +114,12 @@ function TourGuide:CHAT_MSG_LOOT(event, msg)
 	end
 end
 
+
+function TourGuide:UI_INFO_MESSAGE(event, msg)
+	local action, quest = self:GetCurrentObjectiveInfo()
+
+	if msg == ERR_NEWTAXIPATH and action == "GETFLIGHTPOINT" then
+		self:Debug(1, "Discovered flight point")
+		self:SetTurnedIn()
+	end
+end

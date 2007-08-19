@@ -10,13 +10,13 @@ A Securing the Shaleskin Shale |N|You may have to wait for him to respawn|
 T Off To Area 52
 A You're Hired!
 h Area 52
-T Report to Spymaster Thalodien |N|Scryers|
+T Report to Spymaster Thalodien |N|Scryers| |O|
 A Manaforge B'naar |N|Scryers|
-T Assist Exarch Orelis |N|Aldor|
+T Assist Exarch Orelis |N|Aldor| |O|
 A Distraction at Manaforge B'naar |N|Aldor|
 A The Archmage's Staff
 
-R Ruins of Enkaar |N|To the north  (31,56), follow the road then take the north fork|
+R Ruins of Enkaar |N|To the north (31,56), follow the road then take the north fork|
 A Recharging the Batteries
 A Mark V is Alive!
 C Mark V is Alive!
@@ -43,8 +43,8 @@ T That Little Extra Kick
 T Essence for the Engines
 A Elemental Power Extraction
 
-C Manaforge B'naar |N|Scryers, West out of town, then southwest|
-C Distraction at Manaforge B'naar |N|Aldor, West out of town, then southwest|
+C Manaforge B'naar |N|Scryers, West out of town, then southwest| |O|
+C Distraction at Manaforge B'naar |N|Aldor, West out of town, then southwest| |O|
 C Elemental Power Extraction |N|South at the Crumbling Waste (32,78).  Use the power extractor on the Sundered rumblers and warp aberrations then kill them.|
 C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (41,74), (41,72), (40,73), (42,72)|
 C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of the ruins|
@@ -55,11 +55,12 @@ A Dr. Boom!
 T Elemental Power Extraction
 T The Archmage's Staff
 A Rebuilding the Staff
-T Distraction at Manaforge B'naar
+T Distraction at Manaforge B'naar |O|
+T Manaforge B'naar |O|
 A Measuring Warp Energies
 A Assisting the Consortium |N|Aldor|
 A Naaru Technology |N|Aldor|
-T Assisting the Consortium
+T Assisting the Consortium |O|
 A Consortium Crystal Collection
 
 C Dr. Boom! |N|Northeast of town at Camp of Boom (34,60).  Run in, bomb him, and run out.  Repeat till dead.| |U|29429|
@@ -72,7 +73,7 @@ T Dr. Boom!
 N You should be roughly 75% to 68
 
 C Measuring Warp Energies |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)|
-T Naaru Technology |N|At the console inside the building|
+T Naaru Technology |N|At the console inside the building| |O|
 A B'naar Console Transcription |N|Aldor|
 C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
 A Needs More Cowbell |N|From Thadell in Town Square (57,85)|
@@ -183,7 +184,7 @@ A Pick Your Part
 T Consortium Crystal Collection
 A A Heap of Ethereals
 T Measuring Warp Energies
-T B'naar Console Transcription
+T B'naar Console Transcription |O|
 A Shutting Down Manaforge B'naar
 
 F Shattrath City

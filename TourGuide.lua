@@ -148,16 +148,16 @@ function TourGuide:GetObjectiveInfo(i)
 	local logi, complete = self:GetQuestDetails(quest)
 	local hasitem = action == "ITEM" and self.questitems[i] and FindBagSlot(self.questitems[i])
 
-	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest
+	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest, self.useitems[i], self.optional[i]
 end
 
 
 local myclass = UnitClass("player")
-local titlematches = {"For", "A", "The", "Or", "In", "Then", "From"}
+local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
-	local actions, notes, quests, items = {}, {}, {}, {}
+	local actions, notes, quests, items, useitems, optionals = {}, {}, {}, {}, {}, {}
 	local i = 1
 
 	for j=1,select("#", ...) do
@@ -180,6 +180,11 @@ local function ParseQuests(...)
 
 			local _, _, item = string.find(text, "|I|(%d+)|")
 			if item then items[i] = item end
+
+			local _, _, useitem = string.find(text, "|U|(%d+)|")
+			if useitem then useitems[i] = useitem end
+
+			if string.find(text, "|O|") then optionals[i] = true end
 
 			i = i + 1
 
@@ -206,12 +211,12 @@ local function ParseQuests(...)
 	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
 	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
 
-	return actions, notes, quests, items
+	return actions, notes, quests, items, useitems, optionals
 end
 
 
 function TourGuide:ParseObjectives(text)
-	self.actions, self.notes, self.quests, self.questitems = ParseQuests(string.split("\n", text))
+	self.actions, self.notes, self.quests, self.questitems, self.useitems, self.optional = ParseQuests(string.split("\n", text))
 end
 
 

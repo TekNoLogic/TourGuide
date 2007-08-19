@@ -22,6 +22,15 @@ local icon = ww.SummonTexture(f, 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
 local text = ww.SummonFontString(f, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
 text:SetPoint("LEFT", icon, "RIGHT", 4, 0)
 
+local item = CreateFrame("Button", nil, f, "SecureActionButtonTemplate")
+item:SetHeight(24)
+item:SetWidth(24)
+item:SetPoint("BOTTOMLEFT", QuestWatchFrame, "TOPRIGHT", 0, 10)
+item:RegisterForClicks("anyUp")
+local itemicon = ww.SummonTexture(item, 24, 24, "Interface\\Icons\\INV_Misc_Bag_08")
+itemicon:SetAllPoints(item)
+item:Hide()
+
 local f2 = CreateFrame("Frame", nil, UIParent)
 f2:SetHeight(32)
 f2:SetWidth(100)
@@ -82,12 +91,13 @@ function TourGuide:UpdateStatusFrame()
 	for i in ipairs(self.actions) do
 		local name = self.quests[i]
 		if not self.turnedin[name] and not nextstep then
-			local action, name, note, logi, complete, hasitem = self:GetObjectiveInfo(i)
+			local action, name, note, logi, complete, hasitem, turnedin, quest, useitem, optional = self:GetObjectiveInfo(i)
 			if not nextstep then
 				local incomplete
 				if action == "ITEM" then incomplete = hasitem
-				elseif action == "TURNIN" then incomplete = true
-				elseif action == "COMPLETE" then incomplete = not complete
+				elseif action == "ACCEPT" then incomplete = (not optional or hasitem) and not logi
+				elseif action == "TURNIN" then incomplete = not optional
+				elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 				else incomplete = not logi end
 				if incomplete then nextstep = i end
 			end
@@ -112,7 +122,7 @@ function TourGuide:UpdateStatusFrame()
 
 	self:SetText(nextstep)
 	self.current = nextstep
-	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(nextstep)
+	local action, quest, note, logi, complete, hasitem, turnedin, fullquest, useitem, optional = self:GetObjectiveInfo(nextstep)
 
 
 	-- TomTom coord mapping
@@ -124,7 +134,7 @@ function TourGuide:UpdateStatusFrame()
 	end
 
 
-	local newtext = (quest or"???")..(note and " [?]" or "")
+	local newtext = (quest or "???")..(note and " [?]" or "")
 
 	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[action] then
 		oldsize = f:GetWidth()
@@ -143,6 +153,14 @@ function TourGuide:UpdateStatusFrame()
 	check:SetChecked(false)
 	if not f2:IsVisible() then f:SetWidth(72 + text:GetWidth()) end
 	newsize = 72 + text:GetWidth()
+
+	local tex = useitem and select(10, GetItemInfo(tonumber(useitem)))
+	if tex then
+		itemicon:SetTexture(tex)
+		item:SetAttribute("type1", "item")
+		item:SetAttribute("item1", "item:"..useitem)
+		item:Show()
+	else item:Hide() end
 
 	self:UpdateOHPanel()
 end
@@ -175,4 +193,5 @@ f:SetScript("OnEnter", function(self)
 	GameTooltip:SetPoint("TOPRIGHT", self, "TOPLEFT")
 	GameTooltip:SetText(tip, nil, nil, nil, nil, true)
 end)
+
 

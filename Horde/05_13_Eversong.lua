@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Eversong Woods (5-13)", nil, "Horde", function()
+TourGuide:RegisterGuide("Eversong Woods (5-13)", "Ghostlands (13-20)", "Horde", function()
 return [[
 R Dawning Lane
 T Aiding the Outrunners
@@ -45,7 +45,7 @@ C Fish Heads, Fish Heads...
 T Fish Heads, Fish Heads...
 A The Ring of Mmmrrrggglll
 A Grimscale Pirates! |N|South of West Sanctum (36,67)|
-I Captain Kelisendra's Lost Rutters |I|21776|
+A Captain Kelisendra's Lost Rutters |I|21776| |O|
 A Lost Armaments
 
 R Fairbreeze Village |N|Follow the road East|
@@ -61,7 +61,7 @@ T Soaked Pages
 A Taking the Fall
 
 R Falconwing Square
-I Incriminating Documents |I|20765|
+A Incriminating Documents |I|20765| |O|
 A The Dwarven Spy
 t Train (Level 6) |N|Train level 8 if you can|
 
@@ -167,7 +167,7 @@ R Farstrider Retreat
 B [Springpaw Appetizers] |N|From Zalene Firstlight (60,63), for "The Party Never Ends"|
 T The Spearcrafter's Hammer
 T Amani Encroachment
-I Amani Invasion |I|23249|
+A Amani Invasion |I|23249| |O|
 A Warning Fairbreeze Village
 
 H Fairbreeze Village

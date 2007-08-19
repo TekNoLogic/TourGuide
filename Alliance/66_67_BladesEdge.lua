@@ -203,7 +203,7 @@ F Evergrove
 T Whelps of the Wyrmcult
 T Meeting at the Blackwing Coven
 A Maxnar Must Die!
-I The Truth Unorbed |I|31489|
+A The Truth Unorbed |I|31489| |O|
 A Treebole Must Know
 T Whispers of the Raven God
 T Gorgrom the Dragon-Eater
