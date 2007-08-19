@@ -27,20 +27,10 @@ function WidgetWarlock.SummonCheckBox(size, parent, ...)
 end
 
 
-function WidgetWarlock.SummonOptionHouseBaseFrame(frametype)
-	local frame = CreateFrame(frametype or "Frame", nil, OptionHouseOptionsFrame)
-	frame:SetWidth(630)
-	frame:SetHeight(305)
-	frame:SetPoint("TOPLEFT", 190, -103)
-	return frame
-end
-
-
-
 function WidgetWarlock.SummonTexture(parent, w, h, texture, ...)
 	local tex = parent:CreateTexture()
-	tex:SetWidth(w)
-	tex:SetHeight(h)
+	if w then tex:SetWidth(w) end
+	if h then tex:SetHeight(h) end
 	tex:SetTexture(texture)
 	if select(1, ...) then tex:SetPoint(...) end
 	return tex
@@ -52,4 +42,30 @@ function WidgetWarlock.SummonFontString(parent, a1, a2, inherit, text, ...)
 	fs:SetText(text)
 	if select(1, ...) then fs:SetPoint(...) end
 	return fs
+end
+
+
+-----------------------
+--      Fade In      --
+-----------------------
+
+local fadetimes = setmetatable({}, {__index = function() return 1 end})
+local elapsed = setmetatable({}, {__index = function() return 0 end})
+
+
+function WidgetWarlock.SetFadeTime(frame, time)
+	assert(frame, "No frame passed")
+	assert(type(time) == "number", "Time must be a number")
+	assert(time > 0, "Time must be positive")
+	fadetimes[frame] = time
+end
+
+
+function WidgetWarlock.FadeIn(frame, elap)
+	elapsed[frame] = elapsed[frame] + elap
+	if elapsed[frame] > fadetimes[frame] then
+		frame:SetScript("OnUpdate", nil)
+		frame:SetAlpha(1)
+		elapsed[frame] = 0
+	else frame:SetAlpha(elapsed[frame]/fadetimes[frame]) end
 end

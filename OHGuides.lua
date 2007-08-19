@@ -10,17 +10,16 @@ local ROWHEIGHT = 22
 local NUMROWS = math.floor(305/(ROWHEIGHT))
 
 
-local offset, elapsed = 0, 0
+local offset = 0
 local rows = {}
-local frame, fader
+local frame
 
 
-local function OnShow()
+local function OnShow(self)
 	TourGuide:UpdateGuidesPanel()
 
-	frame:SetAlpha(0)
-	elapsed = 0
-	fader:Show()
+	self:SetAlpha(0)
+	self:SetScript("OnUpdate", ww.FadeIn)
 end
 
 
@@ -36,32 +35,21 @@ end
 
 
 function TourGuide:CreateGuidesPanel()
-	fader = CreateFrame("Frame")
-	fader:Hide()
-	fader:SetScript("OnUpdate", function(self, elap)
-		elapsed = elapsed + elap
-		if elapsed > 1 then
-			self:Hide()
-			frame:SetAlpha(1)
-		else frame:SetAlpha(elapsed) end
-	end)
-
-	frame = ww.SummonOptionHouseBaseFrame()
-	local w = frame:GetWidth()
+	frame = CreateFrame("Frame", nil, UIParent)
 
 	rows = {}
 	for i=1,NUMROWS*2 do
 		local anchor, point
-		if i == 1 then anchor, point = frame, "TOPLEFT"
-		elseif i <= NUMROWS then anchor, point = rows[i-1], "BOTTOMLEFT"
-		else anchor, point = rows[i-NUMROWS], "TOPRIGHT" end
+		if i == 1 then anchor, point, point2 = frame, "TOPLEFT", "CENTER"
+		elseif i <= NUMROWS then anchor, point, point2 = rows[i-1], "BOTTOMLEFT", "CENTER"
+		else anchor, point, point2 = rows[i-NUMROWS], "TOPRIGHT", "RIGHT" end
 
 		local row = CreateFrame("CheckButton", nil, frame)
 		row:SetPoint("TOPLEFT", anchor, point)
-		row:SetWidth(w/2)
+		row:SetPoint("RIGHT", frame, point2)
 		row:SetHeight(ROWHEIGHT)
 
-		local highlight = ww.SummonTexture(row, w/2, ROWHEIGHT, "Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		local highlight = ww.SummonTexture(row, nil, nil, "Interface\\HelpFrame\\HelpFrameButton-Highlight")
 		highlight:SetTexCoord(0, 1, 0, 0.578125)
 		highlight:SetAllPoints()
 		row:SetHighlightTexture(highlight)
@@ -84,7 +72,8 @@ function TourGuide:CreateGuidesPanel()
 --~ 	end)
 
 	frame:SetScript("OnShow", OnShow)
-	OnShow()
+	ww.SetFadeTime(frame, 0.5)
+	OnShow(frame)
 	return frame
 end
 

@@ -9,35 +9,24 @@ local ROWOFFSET = 4
 local NUMROWS = math.floor(305/(ROWHEIGHT+4))
 
 
-local offset, elapsed = 0, 0
+local offset = 0
 local rows = {}
-local frame, fader
+local frame
 
 
-local function OnShow()
+local function OnShow(self)
 	offset = TourGuide.current - NUMROWS/2 - 1
 	if offset < 0 then offset = 0
 	elseif (offset + NUMROWS) > #TourGuide.actions then offset = #TourGuide.actions - NUMROWS end
 	TourGuide:UpdateOHPanel()
 
-	frame:SetAlpha(0)
-	elapsed = 0
-	fader:Show()
+	self:SetAlpha(0)
+	self:SetScript("OnUpdate", ww.FadeIn)
 end
 
 
 function TourGuide:CreateObjectivePanel()
-	fader = CreateFrame("Frame")
-	fader:Hide()
-	fader:SetScript("OnUpdate", function(self, elap)
-		elapsed = elapsed + elap
-		if elapsed > 1 then
-			self:Hide()
-			frame:SetAlpha(1)
-		else frame:SetAlpha(elapsed) end
-	end)
-
-	frame = ww.SummonOptionHouseBaseFrame()
+	frame = CreateFrame("Frame", nil, UIParent)
 
 	for i=1,NUMROWS do
 		local row = CreateFrame("Button", nil, frame)
@@ -71,7 +60,8 @@ function TourGuide:CreateObjectivePanel()
 	end)
 
 	frame:SetScript("OnShow", OnShow)
-	OnShow()
+	ww.SetFadeTime(frame, 0.5)
+	OnShow(frame)
 	return frame
 end
 

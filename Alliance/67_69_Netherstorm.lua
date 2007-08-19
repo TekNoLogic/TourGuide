@@ -4,13 +4,16 @@ return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
 A Off To Area 52 |N|On Gyro-Plank Bridge|
 
-R Area 52 |N|Back down the road (32,62)
+R Area 52 |N|Back down the road (32,62)|
 f Grab the flight point |N|To the left outside the city|
 A Securing the Shaleskin Shale |N|You may have to wait for him to respawn|
 T Off To Area 52
 A You're Hired!
 h Area 52
-A Distraction at Manaforge B'naar
+T Report to Spymaster Thalodien |N|Scryers|
+A Manaforge B'naar |N|Scryers|
+T Assist Exarch Orelis |N|Aldor|
+A Distraction at Manaforge B'naar |N|Aldor|
 A The Archmage's Staff
 
 R Ruins of Enkaar |N|To the north  (31,56), follow the road then take the north fork|
@@ -40,10 +43,11 @@ T That Little Extra Kick
 T Essence for the Engines
 A Elemental Power Extraction
 
-C Distraction at Manaforge B'naar |N|West out of town, then southwest|
+C Manaforge B'naar |N|Scryers, West out of town, then southwest|
+C Distraction at Manaforge B'naar |N|Aldor, West out of town, then southwest|
 C Elemental Power Extraction |N|South at the Crumbling Waste (32,78).  Use the power extractor on the Sundered rumblers and warp aberrations then kill them.|
-C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (37,71)|
-C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of town|
+C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (41,74), (41,72), (40,73), (42,72)|
+C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of the ruins|
 
 R Area 52
 T Invaluable Asset Zapping
@@ -53,13 +57,13 @@ T The Archmage's Staff
 A Rebuilding the Staff
 T Distraction at Manaforge B'naar
 A Measuring Warp Energies
-A Assisting the Consortium
-A Naaru Technology
+A Assisting the Consortium |N|Aldor|
+A Naaru Technology |N|Aldor|
 T Assisting the Consortium
 A Consortium Crystal Collection
 
-C Dr. Boom! |N|Northeast of town at Camp of Boom (34,60).  Run in, bomb him, and run out.  Repeat till dead.|
-C Rebuilding the Staff |N|Back at Ruins of Enkaat
+C Dr. Boom! |N|Northeast of town at Camp of Boom (34,60).  Run in, bomb him, and run out.  Repeat till dead.| |U|29429|
+C Rebuilding the Staff |N|Back north at Ruins of Enkaat|
 
 R Area 52
 T Rebuilding the Staff
@@ -69,9 +73,9 @@ N You should be roughly 75% to 68
 
 C Measuring Warp Energies |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)|
 T Naaru Technology |N|At the console inside the building|
-A B'naar Console Transcription
-C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)
-A Needs More Cowbell |N|From Thadell in Town Square (57,85)
+A B'naar Console Transcription |N|Aldor|
+C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
+A Needs More Cowbell |N|From Thadell in Town Square (57,85)|
 A Indispensable Tools
 A Malevolent Remants |N|By the tower|
 T Curse of the Violet Tower |N|Use Archmage Vargoth's Staff at the top of the tower|
@@ -79,7 +83,6 @@ A The Sigil of Krasus
 A The Unending Invasion |N|Back down the tower|
 A A Fate Worse Than Death
 
-C Malevolent Remnants
 N Kill Abjurist Belmara |N|South of the tower|
 A Abjurist Belmara |N|From the tome she dropped|
 N Kill Battle-Mage Dathric |N|Inside the town hall building (60,87)|
@@ -104,6 +107,7 @@ C Cohlien Frostweaver |N|Two more houses up (55,87). Use the footlocker|
 C The Unending Invasion |N|Fragment is right in front of the house (56,87)|
 C Abjurist Belmara |N|Use the bookshelf in the next house (55,86)|
 C A Fate Worse Than Death
+C Malevolent Remnants
 
 T The Unending Invasion |N|Back up by the tower|
 A Potential Energy Source
@@ -119,10 +123,10 @@ C The Annals of Kirin'Var |N|Kill Battle-Mage Dathric again in the town hall (60
 C Master Smith Rhonsus |N|Kill Rhonsus at the blacksmith house (60,87)|
 
 T The Annals of Kirin'Var |N|Back at the tower|
-A Searching For Evidence
+A Searching for Evidence
 T Master Smith Rhonsus |N|At the barn|
 N You should be 68 now or very close
-T Searching For Evidence |N|At the necromantic focus at Bessy's barn (60,78)
+T Searching for Evidence |N|At the necromantic focus at Bessy's barn (60,78)|
 A A Lingering Suspicion
 C A Lingering Suspicion |N|Kill ghosts in the chapel yard|
 T A Lingering Suspicion
@@ -133,17 +137,17 @@ N Skip "Destroy Naberious!" |N|Unless you want a group|
 
 C Potential Energy Source |N|West at Manaforge Coruu (51,83)|
 C The Sigil of Krasus |N|Spellbinder Maryana, wandering around outside|
-T Sigil of Krasus |N|Use the archmage's staff|
+T The Sigil of Krasus |N|Use the archmage's staff|
 A Krasus's Compendium
 
 T Potential Energy Source |N|Back at the tower|
-A Building A Perimeter
+A Building a Perimeter
 C Krasus's Compendium |N|Chapter 3 in the house south of the tower (58,87), Chapter 1 in the house on the other side (58,89), Chapter 2 in the house 2 doors down (57,89)|
 T Krasus's Compendium |N|Use the staff again|
 A Unlocking the Compendium
 
-C Building a Perimeter |N|Use the rune activator at the 3 runes: East (59,85), Northwest (57,82) and West (54,86)
-T Building a Perimeter |N|Back at the tower
+C Building a Perimeter |N|Use the rune activator at the 3 runes: East (59,85), Northwest (57,82) and West (54,86)|
+T Building a Perimeter |N|Back at the tower|
 A Torching Sunfury Hold
 A The Sunfury Garrison
 
