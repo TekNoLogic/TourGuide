@@ -10,24 +10,24 @@ T Return to Arcanist Vandril
 A Suncrown Village
 A Tomber's Supplies
 A Goods from Silvermoon City
-A The Plagued Coast
-h Tranquillien
 f Grab the flight point
 T Goods from Silvermoon City
+h Tranquillien
+A The Plagued Coast
 
 A Suncrown Village |N|Northeast|
-A Anok'Suten |N|(57,14)|
+A Anok'suten |N|(57,14)|
 C Suncrown Village
-C Anok'Suten
+C Anok'suten
 A Dealing with Zeb'Sora |N|To the east (69,15)|
 A Forgotten Rituals |N|On the island (72,19)|
 
-R Farstrider Enclave |N|To the south (72,73)|
+R Farstrider Enclave |N|To the south (72,32|
 A Bearers of the Plague
 A Spirits of the Drowned
 
 N Swim north |N|Work on "Spirits of the Drowned" and "Forgotten Rituals" along the way|
-C Dealing with Zeb'Sora |N|East side of the lake|
+C Dealing with Zeb'Sora |N|East side of the lake (74,12)|
 T Dealing with Zeb'Sora
 A Report to Captain Helios
 C Forgotten Rituals
@@ -51,7 +51,7 @@ A Down the Dead Scar
 A Investigate An'daroth
 A Trouble at the Underlight Mines
 T Suncrown Village
-T Anok'Suten
+T Anok'suten
 A Goldenmist Village
 
 C Down the Dead Scar |N|To the west|
@@ -68,8 +68,8 @@ C Trouble at the Underlight Mines
 C Underlight Ore Samples
 
 R Tranquillien
+T Down the Dead Scar
 T Trouble at the Underlight Mines
-T Underlight Ore Samples
 T Culinary Crunch
 T Tomber's Supplies
 T Investigate An'daroth
@@ -83,7 +83,6 @@ A Retaking Windrunner Spire
 A Troll Juju
 A Spinal Dust
 A Rotting Hearts
-A Wanted: Knucklerot and Luzran |N|On a wanted poster by the inn|
 A Windrunner Village
 
 C Into Occupied Territory |N|(12,25)|
@@ -91,57 +90,116 @@ C Windrunner Village |N|(18,43)|
 C Retaking Windrunner Spire |N|(16,60)|
 A The Lady's Necklace |I|22597|
 
+H Tranquillien
+T Retaking Windrunner Spire
+T Into Occupied Territory
+T Windrunner Village
+A Deliver the Plans to An'telas
+A Journey to Undercity
+
+R Sanctum of the Sun |N|To the southeast (55,48)|
+T Underlight Ore Samples
+A The Farstrider Enclave
+
+N Kill Ghostclaw Lynxes you come across |N|For "Bearers of the Plague"|
+T Deliver the Plans to An'telas |N|(60,35)|
+A Deactivate An'owyn
+
+R Farstrider Enclave
+T Curbing the Plague
+T The Farstrider Enclave
+A Attack on Zeb'Tela
+A Shadowpine Weaponry
+A A Little Dash of Seasoning
+A The Traitor's Shadow
+A Bring Me Kel'gash's Head! |N|On a wanted poster.  This is an elite quest that requires a group!|
+
+T The Traitor's Shadow |N|At the dusty journal in the building at the top of the ramp|
+A Hints of the Past
+C Attack on Zeb'Tela
+T Attack on Zeb'Tela
+A Assault on Zeb'Nowa
+T Hints of the Past
+A Report To Magister Kaendris
+
+C Troll Juju
+C Investigate the Amani Catacombs
+A Escape from the Catacombs
+C Escape from the Catacombs
+
+R Zeb'Nowa |N|South|
+C Shadowpine Weaponry
+C Assault on Zeb'Nowa
+C A Little Dash of Seasoning |N|Fish rack (68,57), raw meat rack (65,66), smoked meat rack (62,74)|
+C Bring Me Kel'gash's Head! |N|He's elite, if you can't solo him get a group or come back later (65,79)| |O|
+C Deactivate An'owyn
+
+R Farstrider Enclave
+T Escape from the Catacombs
+T Bring Me Kel'gash's Head! |O|
+T Assault on Zeb'Nowa
+T A Little Dash of Seasoning
+T Shadowpine Weaponry
+T Deactivate An'owyn |N|(60,35)|
+
+R Sanctum of the Sun
+T Report To Magister Kaendris
+A The Twin Ziggurats
+A War on Deatholme
+A Clearing the Way |N|(46,56)|
+C Clearing the Way
+T Clearing the Way
+
+C Spinal Dust
+C Rotting Hearts
+C The Twin Ziggurats
+C War on Deatholme
+
+H Tranquillien
+T Troll Juju
+T Investigate the Amani Catacombs
+T Rotting Hearts
+T Spinal Dust
+
+R Sanctum of the Sun
+T War on Deatholme
+T The Twin Ziggurats
+A The Traitor's Destruction
+A Dar'Khan's Lieutenants
+A A Restorative Draught
+
+R Tranquillien
+T A Restorative Draught
+A Captives at Deatholme
+
+R Deatholme
+U Drink up! |U|22779|
+U Drink up! |U|22778|
+C Captives at Deatholme |N|Enith is in the crypt (32,73), Varnis (40,83), Vedoran (32,89)|
+C Dar'Khan's Lieutenants |N|Jurion is in the crypt (32,73), Borgoth (40,83), Masophet (36,88), Mirdoran (37,79)|
+C The Traitor's Destruction |N|He's a tough elite, so if you don't have a group you can skip this| |O|
+G Grind until ~15% to 20 |N|That's 3 "bubbles"|
+
+R Sanctum of the Sun |N|Or die and spirit rez|
+T The Traitor's Destruction |O|
+A Hero of the Sin'dorei |N|If you finished "The Traitor's Destruction"|
+T Dar'Khan's Lieutenants
+T Captives at Deatholme
+
+R Tranquillien
+A Fly to Silvermoon City
+F Silvermoon City
+t Train (First Aid)
+t Train (Level 20)
+T Fly to Silvermoon City |N|(53,71)|
+T Hero of the Sin'dorei |N|(53,20)| |O|
+
+R Undercity |N|Teleport an the sunspire (49,14)|
+
 ]]
 end)
 
-
-
---~ 05) Once all that is done hearth to Tranquillien, Turn in ALL quest there ... accept ALL new quests (which include: "Deliver the Plans to An'telas" "Journey to Undercity")
---~ 06) Then go south-east to Sanctum of the Sun at 55.48 and turn in "Underlight Ore Samples" ... accept "The Farstrider Enclave"
---~ 07) Then go to An'telas (killing Ghostclaw Lynx's along the way for this quest "Bearers of the Plague") at 60.35 and turn in "Deliver the Plans to An'telas" ... accept "Deactivate An'owyn"
---~ 08) Go to Farstrider Enclave and turn in "Curbing the Plague" and "The Farstrider Enclave" ... accept ALL new quests (which include:  "Attack on Zeb'Tela" "Shadowpine Weaponry" "A Little Dash of Seasoning" "The Traitor's Shadow" and "Bring Me Kel'gash's Head!" [wanted poster])
---~ 09) Then go do the following:
---~ 10) "The Traitor's Shadow" (there is a dusty journal in the building at the top of the ramp, turn that in there and accept "Hints of the Past")
---~ 11) "Attack on Zeb'Tela" along with the first half of "Shadowpine Weaponry" (the axes and maces)
---~ 12) Go turn in "Attack on Zeb'Tela" ... accept "Assault on Zeb'Nowa".  Turn in "Hints of the Past" ... accept "Report To Magister Kaendris"
---~ 13) Then go do "Troll Juju" along with "Investigate the Amani Catacombs"
---~ 14) While there accept and do "Escape from the Catacombs"
---~ 15) Then turn in "Escape from the Catacombs" once you get back to Farstrider Enclave.
---~ 16) Go down south to Zeb'Nowa and do the following quests:
---~ 17) "Shadowpine Weaponry" (the claws and staves)
---~ 18) "Assault on Zeb'Nowa"
---~ 19) "A Little Dash of Seasoning"  (fish rack is at 68.57, raw meat rack is at 65.66, smoked meat rack is at 62.74)
---~ 20) "Bring Me Kel'gash's Head!" (Elite) (he's at 65.79, I'm usually able to solo him at level 18, either find a group to help you kill him or you could come back later at like LVL 19/20 and try again, there is no follow up quest to it, so it can be skipped)
---~ 21) Then go do "Deactivate An'owyn"
---~ 22) Go to Farstrider Enclave and turn in ALL quests.
---~ 23) Go turn in "Deactivate An'owyn" at 60.35
---~ 24) Go to Sanctum of the Sun and turn in "Report To Magister Kaendris" ... accept "The Twin Ziggurats" and "War on Deatholme"
---~ 25) Go to 46.56 and accept "Clearing the Way"
---~ 26) Go do "Clearing the Way".  Then turn it in.
---~ 27) Then go do:
---~ 28) "Spinal Dust"
---~ 29) "Rotting Hearts"
---~ 30) "The Twin Ziggurats"
---~ 31) "War on Deatholme"
---~ 32) Once they are all done, Hearth to Tranquillien and turn in all quests (which include: "Troll Juju" "Investigate the Amani Catacombs" "Rotting Hearts" and "Spinal Dust")
---~ 33) Go to the Sanctum of the Sun and turn in "War on Deatholme" and "The Twin Ziggurats" ... accept "The Traitor's Destruction" "Dar'Khan's Lieutenants" and "A Restorative Draught"
---~ 34) Then go back to Tranquillien and turn in "A Restorative Draught" ... accept "Captives at Deatholme"
---~ 35) Then go to Deatholme and do:  (be sure to drink the 2 quest reward items before entering it, which are Scourgebane Draught and Scourgebane Infusion)
---~ 36) "Captives at Deatholme"  (Enith=32.73 [in the crypt],   Varnis=40.83,  Vedoran=32.89)
---~ 37) "Dar'Khan's Lieutenants"  (Jurion=32.73 [in the crypt],  Borgoth=40.83,  Masophet=36.88,  Mirdoran=37.79)
---~ 38) "The Traitor's Destruction"  (Elite) (this is almost impossbile to solo, so either find a group to help you, or it will have to be skipped)
---~ 39) Now keep grinding until you are at LEAST 3 bars away from 20.
---~ 40) Then die on purpose (or attempt to kill Dar'Khan while doing it),
---~ 41) Then release spirit
---~ 42) Then go to the Sanctum of the Sun and turn in "The Traitor's Destruction" (if you did it ... accept "Friend of the Sin'dorei")  "Dar'Khan's Lieutenants" and "Captives at Deatholme"
---~ 43) Run to Tranquillien
---~ 44) Fly to Silvermoon City
---~ 45) Build up first aid
---~ 46) Get new spells/abilities
---~ 47) Go turn in "Friend of the Sin'dorei"  (at 53.20)  ... accept "Envoy to the Horde"
---~ 48) Teleport to the Undercity!  (at 49.14)
---~ 49) Now, it comes down to a path of choice from here on out, you could either go to Hillsbrad Foothills, or to Stonetalon Mountains/Southern Barrens.  I choose Stonetalon Mountains/Southern Barrens because it would be away from the Alliance, so you can focus on faster leveling, if your more of a PVP type you could go to Hillsbrad instead (that is if you are on a PVP server of course).  I also feel there are more quests to do in in Kalimdor rather than Eastern Kingdoms.  So my guide will continue on at The Barrens...
---~ 50) I SKIP "Journey to Undercity" and "Envoy to the Horde" (only do this if you are going to do Hillsbrad instead)
 --~ 51) Then get on the zeppelin to go to Orgrimmar
 --~ 52) Get FP in Orgrimmar
 --~ 53) Then run all the way to the XRs (Crossroads) in the Barrens...
+
