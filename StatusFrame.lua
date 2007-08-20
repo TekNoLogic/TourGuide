@@ -195,3 +195,7 @@ f:SetScript("OnEnter", function(self)
 end)
 
 
+item:HookScript("OnClick", function()
+	if self:GetCurrentObjectiveInfo() == "USE" then self:SetTurnedIn() end
+end)
+

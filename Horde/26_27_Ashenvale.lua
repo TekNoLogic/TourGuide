@@ -20,12 +20,16 @@ C The Sacred Flame |N|Get a phial from killing a dryad at (61,52) and fill it at
 
 H Splintertree Post
 T Stonetalon Standstill
-A The Befouled Element |I|16408| |O|
+A The Befouled Element |U|16408| |O|
+T The Befouled Element |O|
 A Je'neu of the Earthern Ring
 T Torek's Assault
-A Sharptalon's Claw |I|16305| |O|
-A Ursangous's Paw |I|16305| |O|
-A Shadumbra's Head |I|16304| |O|
+A Sharptalon's Claw |U|16305| |O|
+A Ursangous's Paw |U|16305| |O|
+A Shadumbra's Head |U|16304| |O|
+T Sharptalon's Claw |O|
+T Ursangous's Paw |O|
+T Shadumbra's Head |O|
 A The Hunt Completed
 T The Hunt Completed
 
@@ -48,7 +52,8 @@ C Destroy the Legion
 R Splintertree Post |N|Don't hearth|
 T Satyr Horns
 T Destroy the Legion
-A Diabolical Plans |I|23797| |O|
+A Diabolical Plans |U|23797| |O|
+T Diabolical Plans |O|
 ]]
 end)
 

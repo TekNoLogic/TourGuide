@@ -45,7 +45,8 @@ C Fish Heads, Fish Heads...
 T Fish Heads, Fish Heads...
 A The Ring of Mmmrrrggglll
 A Grimscale Pirates! |N|South of West Sanctum (36,67)|
-A Captain Kelisendra's Lost Rutters |I|21776| |O|
+A Captain Kelisendra's Lost Rutters |U|21776| |O|
+T Captain Kelisendra's Lost Rutters |O|
 A Lost Armaments
 
 R Fairbreeze Village |N|Follow the road East|
@@ -61,7 +62,8 @@ T Soaked Pages
 A Taking the Fall
 
 R Falconwing Square
-A Incriminating Documents |I|20765| |O|
+A Incriminating Documents |U|20765| |O|
+C Incriminating Documents |O|
 A The Dwarven Spy
 t Train (Level 6) |N|Train level 8 if you can|
 
@@ -167,7 +169,8 @@ R Farstrider Retreat
 B [Springpaw Appetizers] |N|From Zalene Firstlight (60,63), for "The Party Never Ends"|
 T The Spearcrafter's Hammer
 T Amani Encroachment
-A Amani Invasion |I|23249| |O|
+A Amani Invasion |U|23249| |O|
+T Amani Invasion |O|
 A Warning Fairbreeze Village
 
 H Fairbreeze Village

@@ -25,7 +25,7 @@ TourGuide.icons = setmetatable({
 	HEARTH = "Interface\\Icons\\INV_Misc_Rune_01",
 	NOTE = "Interface\\Icons\\INV_Misc_Note_01",
 	GRIND = "Interface\\Icons\\INV_Stone_GrindingStone_05",
-	ITEM = "Interface\\Icons\\INV_Misc_Bag_08",
+	USE = "Interface\\Icons\\INV_Misc_Bag_08",
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
 	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	GETFLIGHTPOINT = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
@@ -41,12 +41,12 @@ local actiontypes = {
 	H = "HEARTH",
 	h = "SETHEARTH",
 	G = "GRIND",
-	I = "ITEM",
 	F = "FLY",
 	f = "GETFLIGHTPOINT",
 	N = "NOTE",
 	B = "BUY",
 	b = "BOAT",
+	U = "USE",
 }
 
 

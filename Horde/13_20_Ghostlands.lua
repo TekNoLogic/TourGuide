@@ -88,7 +88,7 @@ A Windrunner Village
 C Into Occupied Territory |N|(12,25)|
 C Windrunner Village |N|(18,43)|
 C Retaking Windrunner Spire |N|(16,60)|
-A The Lady's Necklace |I|22597|
+A The Lady's Necklace |U|22597|
 
 H Tranquillien
 T Retaking Windrunner Spire

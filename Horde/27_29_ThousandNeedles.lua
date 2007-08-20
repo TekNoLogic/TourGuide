@@ -50,7 +50,8 @@ C A Dip in the Moonwell |N|Control console is at (9,18) If you have a pet you wi
 G Grind to level 29 |N|If you're not already.  Also, kill Galak Messenger if you've not yet.|
 C Hypercapacitor Gizmo |N|Cage is at (22,24)|
 
-A Assassination Plot |I|12564|
+A Assassination Plot |U|12564|
+T Assassination Plot
 T Hypercapacitor Gizmo
 T A Dip in the Moonwell
 A Testing the Tonic
