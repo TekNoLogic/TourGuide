@@ -48,34 +48,25 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	end
 
 	self:Debug(1, "Detected early turnin, searching for quest...")
-	local i = self.current + 1
-	repeat
-		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
-		if action == "TURNIN" and not turnedin and text == quest:gsub("%s%(Part %d+%)", "") then
-			self:DebugF(1, "Saving early quest turnin %q", quest)
-			return self:SetTurnedIn(i, true)
-		end
-		i = i + 1
-	until not action
-	self:DebugF(1, "Quest %q not found!", text)
+	self:CompleteQuest(text)
 end
 
 
 function TourGuide:QUEST_COMPLETE(event)
-	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if (action == "TURNIN" or action == "ITEM") and logi then hadquest = quest
-	else hadquest = nil end
+	self:DebugF(1, "Quest Complete %q", GetTitleText())
+--~ 	hadquest = GetTitleText()
+--~ 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
+--~ 	if (action == "TURNIN" or action == "ITEM") and logi then hadquest = quest
+--~ 	else hadquest = nil end
 end
 
 
 function TourGuide:UNIT_QUEST_LOG_UPDATE(event, unit)
 	if unit ~= "player" or not hadquest then return end
+	self:Debug(1, "Unit quest log update")
 
 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if hadquest == quest and action == "ITEM" and not logi then
-		self:DebugF(1, "Chain turnin detected, %q - %q", action, quest)
-		self:SetTurnedIn()
-	elseif hadquest == quest and not logi then
+	if hadquest == quest and not logi then
 		self:DebugF(1, "Chain turnin detected, %q - %q", action, quest)
 		self:UpdateStatusFrame()
 	end
@@ -90,18 +81,31 @@ end
 
 local turninquest
 function TourGuide:QUEST_FINISHED()
-	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if action == "TURNIN" and logi then turninquest = quest
-	else turninquest = nil end
+	local quest = GetTitleText()
+	self:DebugF(1, "Quest Finished %q", quest)
+	if self:GetQuestLogIndexByName(quest) then
+		self:DebugF(1, "Player has quest %q, turning in?", quest)
+		turninquest = quest
+	end
+--~ 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
+--~ 	if action == "TURNIN" and logi then turninquest = quest
+--~ 	else turninquest = nil end
 end
 
 
 function TourGuide:QUEST_LOG_UPDATE(event)
+	self:Debug(1, "Quest log update")
 	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
+	local questturnedin = turninquest and not self:GetQuestLogIndexByName(turninquest)
+	if turninquest then self:DebugF(1, "Turned in quest %q", turninquest) end
 
-	if action == "ACCEPT" then return self:UpdateStatusFrame()
-	elseif action == "TURNIN" and turninquest == quest and not logi then return self:SetTurnedIn()
-	elseif action == "COMPLETE" and complete then return self:UpdateStatusFrame() end
+	if questturnedin then
+		self:Debug(1, "Detected early chain quest turnin, searching for quest...")
+		self:CompleteQuest(turninquest)
+	elseif action == "ACCEPT" then self:UpdateStatusFrame()
+	elseif action == "TURNIN" and turninquest == quest and not logi then self:SetTurnedIn()
+	elseif action == "COMPLETE" and complete then self:UpdateStatusFrame() end
+	turninquest = nil
 end
 
 

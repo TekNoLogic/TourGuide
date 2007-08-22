@@ -8,13 +8,12 @@
 
 ## SavedVariables: TourGuideAlphaDB
 
-## OptionalDeps: Dongle, Optionhouse, TomTom
+## OptionalDeps: Dongle, Optionhouse, TomTom, tekErr
 
 Dongle.lua
 OptionHouse.lua
 WidgetWarlock.lua
 
-OHDebug.lua
 TourGuide.lua
 StatusFrame.lua
 OHFrame.lua

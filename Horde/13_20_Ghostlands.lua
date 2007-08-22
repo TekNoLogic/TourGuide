@@ -55,15 +55,15 @@ T Anok'suten
 A Goldenmist Village
 
 C Down the Dead Scar |N|To the west|
-C Salvaging the Past
-C Culinary Crunch
+C Salvaging the Past |N|Around (34,34)|
 C Tomber's Supplies |N|In a cart (33,26)|
-C Investigate An'daroth
+C Investigate An'daroth |N|Around (37,15)|
 C Goldenmist Village
-C The Plagued Coast
-C Curbing the Plague
+C The Plagued Coast |N|On the coast west of Goldenmist Village|
+C Curbing the Plague |N|Down the coast (24,38)|
+C Culinary Crunch |N|Kill more spiders if you didn't get enough|
 
-A Underlight Ore Samples |N|Grind mobs on your way (31,48|
+A Underlight Ore Samples |N|Grind mobs on your way (31,48)|
 C Trouble at the Underlight Mines
 C Underlight Ore Samples
 
@@ -73,7 +73,6 @@ T Trouble at the Underlight Mines
 T Culinary Crunch
 T Tomber's Supplies
 T Investigate An'daroth
-T Curbing the Plague
 T Salvaging the Past
 T Goldenmist Village
 T The Plagued Coast

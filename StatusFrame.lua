@@ -6,7 +6,7 @@ local ww = WidgetWarlock
 
 
 local f = CreateFrame("Button", nil, UIParent)
-f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, 10)
+f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, -15)
 f:SetHeight(32)
 f:EnableMouse(true)
 f:RegisterForDrag("LeftButton")

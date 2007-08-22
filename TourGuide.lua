@@ -3,11 +3,9 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 
 
 local myfaction = UnitFactionGroup("player")
-local debugframe = TourGuideOHDebugFrame
-TourGuideOHDebugFrame = nil
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
-TourGuide:EnableDebug(1, debugframe)
+if tekDebug then TourGuide:EnableDebug(1, tekDebug:GetFrame("TourGuide")) end
 TourGuide.guides = {}
 TourGuide.guidelist = {}
 TourGuide.nextzones = {}
@@ -71,7 +69,6 @@ function TourGuide:Enable()
 	local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
 	oh:RegisterCategory("Guides", TourGuide, "CreateGuidesPanel")
 	oh:RegisterCategory("Objectives", TourGuide, "CreateObjectivePanel")
-	oh:RegisterCategory("Debug", function() return debugframe end)
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self.TrackEvents = nil
@@ -231,4 +228,18 @@ function TourGuide:SetTurnedIn(i, value)
 	self.turnedin[self.quests[i]] = value
 	self:DebugF(1, "Set turned in %q = %s", self.quests[i], tostring(value))
 	self:UpdateStatusFrame()
+end
+
+
+function TourGuide:CompleteQuest(name)
+	local i = self.current + 1
+	repeat
+		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
+		if action == "TURNIN" and not turnedin and name == quest:gsub("%s%(Part %d+%)", "") then
+			self:DebugF(1, "Saving early quest turnin %q", quest)
+			return self:SetTurnedIn(i, true)
+		end
+		i = i + 1
+	until not action
+	self:DebugF(1, "Quest %q not found!", name)
 end
