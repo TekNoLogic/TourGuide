@@ -154,11 +154,11 @@ end
   Begin Library Implementation
 ---------------------------------------------------------------------------]]
 local major = "OptionHouse-1.0"
-local minor = tonumber(string.match("$Revision: 526 $", "(%d+)") or 1)
+local minor = tonumber(string.match("$Revision: 581 $", "(%d+)") or 1)
 
 assert(DongleStub, string.format("%s requires DongleStub.", major))
 
-if not DongleStub:IsNewerVersion(major, minor) then return end
+if( not DongleStub:IsNewerVersion(major, minor) ) then return end
 
 local L = {
 	["ERROR_NO_FRAME"] = "No frame returned for the addon \"%s\", category \"%s\", sub category \"%s\".",
@@ -167,11 +167,10 @@ local L = {
 	["BAD_ARGUMENT"] = "bad argument #%d to '%s' (%s expected, got %s)",
 	["MUST_CALL"] = "You must call '%s' from an OptionHouse addon object.",
 	["ADDON_ALREADYREG"] = "The addon '%s' is already registered with OptionHouse.",
-	["UNKNOWN_TAB"] = "No tab with the id %d exists, only %d tabs are registered.",
-	["CATEGORY_ALREADYREG"] = "A category named '%s' already exists in '%s'",
+	["UNKNOWN_TAB"] = "Cannot open tab #%d, only %d tabs are registered.",
+	["CATEGORY_ALREADYREG"] = "The category '%s' already exists in '%s'",
 	["NO_CATEGORYEXISTS"] = "No category named '%s' in '%s' exists.",
 	["NO_SUBCATEXISTS"] = "No sub-category '%s' exists in '%s' for the addon '%s'.",
-	["FRAME_DRAGGING"] = "Left Click + Drag to move.\nRight click to reset position.",
 	["NO_PARENTCAT"] = "No parent category named '%s' exists in %s'",
 	["SUBCATEGORY_ALREADYREG"] = "The sub-category named '%s' already exists in the category '%s' for '%s'",
 	["OPTION_HOUSE"] = "Option House",
@@ -180,28 +179,28 @@ local L = {
 	["ADDON_OPTIONS"] = "Addons",
 	["VERSION"] = "Version: %s",
 	["AUTHOR"] = "Author: %s",
-	["TOTAL_CATEGORIES"] = "Categories: %d",
 	["TOTAL_SUBCATEGORIES"] = "Sub Categories: %d",
 	["TAB_MANAGEMENT"] = "Management",
 	["TAB_PERFORMANCE"] = "Performance",
+	["UNKNOWN_FRAMETYPE"] = "Unknown frame type requested '%s', only 'main', 'perf', 'addon', 'config' are supported.",
 }
 
 local function assert(level,condition,message)
-	if not condition then
+	if( not condition ) then
 		error(message,level)
 	end
 end
 
 local function argcheck(value, num, ...)
-	if type(num) ~= "number" then
+	if( type(num) ~= "number" ) then
 		error(L["BAD_ARGUMENT"]:format(2, "argcheck", "number", type(num)), 1)
 	end
 
 	for i=1,select("#", ...) do
-		if type(value) == select(i, ...) then return end
+		if( type(value) == select(i, ...) ) then return end
 	end
 
-	local types = strjoin(", ", ...)
+	local types = string.join(", ", ...)
 	local name = string.match(debugstack(2,2,0), ": in function [`<](.-)['>]")
 	error(L["BAD_ARGUMENT"]:format(num, name, types, type(value)), 3)
 end
@@ -211,8 +210,55 @@ local OptionHouse = {}
 local tabfunctions = {}
 local methods = {"RegisterCategory", "RegisterSubCategory", "RemoveCategory", "RemoveSubCategory"}
 local addons = {}
+local regFrames = {}
 local evtFrame
 local frame
+
+-- TABS
+local function resizeTab(tab)
+	local textWidth = tab:GetFontString():GetWidth()
+	
+	tab.middleActive:SetWidth(textWidth)
+	tab.middleInactive:SetWidth(textWidth)
+	
+	tab:SetWidth((2 * tab.leftActive:GetWidth()) + textWidth)
+	tab.highlightTexture:SetWidth(textWidth + 20)
+end
+
+local function tabSelected(tab)
+	tab:SetTextColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b)
+	tab.highlightTexture:Hide()
+	
+	tab.leftActive:Show()
+	tab.middleActive:Show()
+	tab.rightActive:Show()
+	
+	tab.leftInactive:Hide()
+	tab.middleInactive:Hide()
+	tab.rightInactive:Hide()
+end
+
+local function tabDeselected(tab)
+	tab:SetTextColor(NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b)
+	tab.highlightTexture:Show()
+	
+	tab.leftInactive:Show()
+	tab.middleInactive:Show()
+	tab.rightInactive:Show()
+
+	tab.leftActive:Hide()
+	tab.middleActive:Hide()
+	tab.rightActive:Hide()
+end
+
+local function setTab(id)
+	if( frame.selectedTab ) then
+		tabDeselected(frame.tabs[frame.selectedTab])
+	end
+	
+	frame.selectedTab = id
+	tabSelected(frame.tabs[id])
+end
 
 local function tabOnClick(self)
 	local id
@@ -222,33 +268,33 @@ local function tabOnClick(self)
 		id = self
 	end
 
-	PanelTemplates_SetTab(frame, id)
+	setTab(id)
 
-	for tabID, tab in pairs( tabfunctions ) do
+	for tabID, tab in pairs(tabfunctions) do
 		if( tabID == id ) then
-			if( type( tab.func ) == "function" ) then
+			if( type(tab.func) == "function" ) then
 				tab.func()
 			else
 				tab.handler[tab.func](tab.handler)
 			end
 
 			if( tab.type == "browse" ) then
-				OptionHouseFrameTopLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopLeft")
-				OptionHouseFrameTop:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Top")
-				OptionHouseFrameTopRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopRight")
-				OptionHouseFrameBotLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotLeft")
-				OptionHouseFrameBot:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Bot")
-				OptionHouseFrameBotRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotRight")
+				frame.topLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopLeft")
+				frame.top:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Top")
+				frame.topRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopRight")
+				frame.bottomLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotLeft")
+				frame.bottom:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Bot")
+				frame.bottomRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotRight")
 			elseif( tab.type == "bid" ) then
-				OptionHouseFrameTopLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-TopLeft")
-				OptionHouseFrameTop:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-Top")
-				OptionHouseFrameTopRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-TopRight")
-				OptionHouseFrameBotLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-BotLeft")
-				OptionHouseFrameBot:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-Bot")
-				OptionHouseFrameBotRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-BotRight")
+				frame.topLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-TopLeft")
+				frame.top:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-Top")
+				frame.topRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-TopRight")
+				frame.bottomLeft:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-BotLeft")
+				frame.bottom:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-Bot")
+				frame.bottomRight:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Bid-BotRight")
 			end
 
-		elseif( type( tab.func ) == "function" ) then
+		elseif( type(tab.func) == "function" ) then
 			tab.func(true)
 		else
 			tab.handler[tab.func](tab.handler, true)
@@ -257,27 +303,221 @@ local function tabOnClick(self)
 end
 
 local function createTab(text, id)
-	local tab = getglobal("OptionHouseFrameTab" .. id)
+	local tab = frame.tabs[id]
 	if( not tab ) then
-		tab = CreateFrame("Button", "OptionHouseFrameTab" .. id, frame, "CharacterFrameTabButtonTemplate" )
+		tab = CreateFrame("Button", nil, frame)
+		tab:SetHighlightFontObject(GameFontHighlightSmall)
+		tab:SetTextFontObject(GameFontNormalSmall)
+		tab:SetHighlightTexture("Interface\\PaperDollInfoFrame\\UI-Character-Tab-Highlight")
+		tab:SetText(text)
+		tab:SetWidth(115)
+		tab:SetHeight(32)
+		tab:SetID(id)
+		tab:SetScript("OnClick", tabOnClick)
+		tab:GetFontString():SetPoint("CENTER", 0, 2)
+		
+		tab.highlightTexture = tab:GetHighlightTexture()
+		tab.highlightTexture:ClearAllPoints()
+		tab.highlightTexture:SetPoint("CENTER", tab:GetFontString(), 0, 0)
+		tab.highlightTexture:SetBlendMode("ADD")
+		
+		-- TAB SELECTED TEXTURES
+		tab.leftActive = tab:CreateTexture(nil, "ARTWORK")
+		tab.leftActive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ActiveTab")
+		tab.leftActive:SetHeight(32)
+		tab.leftActive:SetWidth(20)
+		tab.leftActive:SetPoint("TOPLEFT", tab, "TOPLEFT")
+		tab.leftActive:SetTexCoord(0, 0.15625, 0, 1.0)
+
+		tab.middleActive = tab:CreateTexture(nil, "ARTWORK")
+		tab.middleActive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ActiveTab")
+		tab.middleActive:SetHeight(32)
+		tab.middleActive:SetWidth(20)
+		tab.middleActive:SetPoint("LEFT", tab.leftActive, "RIGHT")
+		tab.middleActive:SetTexCoord(0.15625, 0.84375, 0, 1.0)
+
+		tab.rightActive = tab:CreateTexture(nil, "ARTWORK")
+		tab.rightActive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ActiveTab")
+		tab.rightActive:SetHeight(32)
+		tab.rightActive:SetWidth(20)
+		tab.rightActive:SetPoint("LEFT", tab.middleActive, "RIGHT")
+		tab.rightActive:SetTexCoord(0.84375, 1.0, 0, 1.0)
+		
+		-- TAB DESELECTED TEXTURES
+		tab.leftInactive = tab:CreateTexture(nil, "ARTWORK")
+		tab.leftInactive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-InActiveTab")
+		tab.leftInactive:SetHeight(32)
+		tab.leftInactive:SetWidth(20)
+		tab.leftInactive:SetPoint("TOPLEFT", tab, "TOPLEFT")
+		tab.leftInactive:SetTexCoord(0, 0.15625, 0, 1.0)
+
+		tab.middleInactive = tab:CreateTexture(nil, "ARTWORK")
+		tab.middleInactive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-InActiveTab")
+		tab.middleInactive:SetHeight(32)
+		tab.middleInactive:SetWidth(20)
+		tab.middleInactive:SetPoint("LEFT", tab.leftInactive, "RIGHT")
+		tab.middleInactive:SetTexCoord(0.15625, 0.84375, 0, 1.0)
+
+		tab.rightInactive = tab:CreateTexture(nil, "ARTWORK")
+		tab.rightInactive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-InActiveTab")
+		tab.rightInactive:SetHeight(32)
+		tab.rightInactive:SetWidth(20)
+		tab.rightInactive:SetPoint("LEFT", tab.middleInactive, "RIGHT")
+		tab.rightInactive:SetTexCoord(0.84375, 1.0, 0, 1.0)
+
 		frame.totalTabs = frame.totalTabs + 1
+		frame.tabs[id] = tab
 	end
 
-	tab:SetID(id)
-	tab:SetScript("OnClick", tabOnClick)
 	tab:SetText(text)
 	tab:Show()
-
-	PanelTemplates_TabResize(0, tab)
-	PanelTemplates_SetNumTabs(frame, id)
-
+	
+	tabDeselected(tab)
+	resizeTab(tab)
+	
 	if( id == 1 ) then
 		tab:SetPoint("TOPLEFT", frame, "BOTTOMLEFT", 15, 11)
 	else
-		tab:SetPoint("TOPLEFT", "OptionHouseFrameTab" .. id-1, "TOPRIGHT", -8, 0 )
+		tab:SetPoint("TOPLEFT", frame.tabs[id - 1], "TOPRIGHT", -8, 0)
 	end
 end
 
+-- SCROLL FRAME
+local function onVerticalScroll(self, offset)
+	offset = ceil(offset)
+
+	self.bar:SetValue(offset)
+	self.offset = ceil((offset / self.displayNum))
+	
+	if( self.offset < 0 ) then
+		self.offset = 0
+	end
+
+	local min, max = self.bar:GetMinMaxValues()
+
+	if( min == offset ) then
+		self.up:Disable()
+	else
+		self.up:Enable()
+	end
+
+	if( max == offset ) then
+		self.down:Disable()
+	else
+		self.down:Enable()	
+	end
+
+	self.updateFunc()
+end
+
+local function onMouseWheel(self, offset)
+	if( offset > 0 ) then
+		self.bar:SetValue(self.bar:GetValue() - (self.bar:GetHeight() / 2))
+	else
+		self.bar:SetValue(self.bar:GetValue() + (self.bar:GetHeight() / 2))
+	end
+end
+
+local function onParentMouseWheel(self, offset)
+	onMouseWheel(self.scroll, offset)
+end
+
+local function updateScroll(scroll, totalRows)
+	local max = (totalRows - scroll.displayNum) * scroll.displayNum
+	
+	-- Macs are unhappy if max is less then the min
+	if( max < 0 ) then
+		max = 0
+	end
+
+	scroll.bar:SetMinMaxValues(0, max)
+
+	if( totalRows > scroll.displayNum ) then
+		scroll:Show()
+		scroll.bar:Show()
+		scroll.up:Show()
+		scroll.down:Show()
+		scroll.bar:GetThumbTexture():Show()
+	else
+		scroll:Hide()
+		scroll.bar:Hide()
+		scroll.up:Hide()
+		scroll.down:Hide()
+		scroll.bar:GetThumbTexture():Hide()
+	end
+end
+
+local function createScrollFrame(frame, displayNum, onScroll)
+	frame:EnableMouseWheel(true)
+	frame:SetScript("OnMouseWheel", onParentMouseWheel)
+	
+	frame.scroll = CreateFrame("ScrollFrame", nil, frame)
+	frame.scroll:EnableMouseWheel(true)
+	frame.scroll:SetWidth(16)
+	frame.scroll:SetHeight(270)
+	frame.scroll:SetScript("OnVerticalScroll", onVerticalScroll)
+	frame.scroll:SetScript("OnMouseWheel", onMouseWheel)
+
+	frame.scroll.offset = 0
+	frame.scroll.displayNum = displayNum
+	frame.scroll.updateFunc = onScroll
+	
+	-- Actual bar for scrolling
+	frame.scroll.bar = CreateFrame("Slider", nil, frame.scroll)
+	frame.scroll.bar:SetValueStep(frame.scroll.displayNum)
+	frame.scroll.bar:SetMinMaxValues(0, 0)
+	frame.scroll.bar:SetValue(0)
+	frame.scroll.bar:SetWidth(16)
+	frame.scroll.bar:SetScript("OnValueChanged", function(self, offset)
+		self:GetParent():SetVerticalScroll(offset)
+	end)
+	frame.scroll.bar:SetPoint("TOPLEFT", frame.scroll, "TOPRIGHT", 6, -16)
+	frame.scroll.bar:SetPoint("BOTTOMLEFT", frame.scroll, "BOTTOMRIGHT", 6, -16)
+
+	-- Up/Down buttons
+	frame.scroll.up = CreateFrame("Button", nil, frame.scroll.bar, "UIPanelScrollUpButtonTemplate")
+	frame.scroll.up:ClearAllPoints()
+	frame.scroll.up:SetPoint( "BOTTOM", frame.scroll.bar, "TOP" )
+	frame.scroll.up:SetScript("OnClick", function(self)
+		local parent = self:GetParent()
+		parent:SetValue(parent:GetValue() - (parent:GetHeight() / 2))
+		PlaySound("UChatScrollButton")
+	end)
+
+	frame.scroll.down = CreateFrame("Button", nil, frame.scroll.bar, "UIPanelScrollDownButtonTemplate")
+	frame.scroll.down:ClearAllPoints()
+	frame.scroll.down:SetPoint( "TOP", frame.scroll.bar, "BOTTOM" )
+	frame.scroll.down:SetScript("OnClick", function(self)
+		local parent = self:GetParent()
+		parent:SetValue(parent:GetValue() + (parent:GetHeight() / 2))
+		PlaySound("UChatScrollButton")
+	end)
+	
+	-- That square thingy that shows where the bar is
+	frame.scroll.bar:SetThumbTexture("Interface\\Buttons\\UI-ScrollBar-Knob")
+	local thumb = frame.scroll.bar:GetThumbTexture()
+
+	thumb:SetHeight(16)
+	thumb:SetWidth(16)
+	thumb:SetTexCoord(0.25, 0.75, 0.25, 0.75)
+
+	-- Border graphic
+	frame.scroll.barUpTexture = frame.scroll:CreateTexture(nil, "BACKGROUND")
+	frame.scroll.barUpTexture:SetWidth(31)
+	frame.scroll.barUpTexture:SetHeight(256)
+	frame.scroll.barUpTexture:SetPoint("TOPLEFT", frame.scroll.up, "TOPLEFT", -7, 5)
+	frame.scroll.barUpTexture:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ScrollBar")
+	frame.scroll.barUpTexture:SetTexCoord(0, 0.484375, 0, 1.0)
+
+	frame.scroll.barDownTexture = frame.scroll:CreateTexture(nil, "BACKGROUND")
+	frame.scroll.barDownTexture:SetWidth(31)
+	frame.scroll.barDownTexture:SetHeight(106)
+	frame.scroll.barDownTexture:SetPoint("BOTTOMLEFT", frame.scroll.down, "BOTTOMLEFT", -7, -3)
+	frame.scroll.barDownTexture:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ScrollBar")
+	frame.scroll.barDownTexture:SetTexCoord(0.515625, 1.0, 0, 0.4140625)
+end
+
+-- SEARCH INPUt
 local function focusGained(self)
 	if( self.searchText ) then
 		self.searchText = nil
@@ -295,21 +535,19 @@ local function focusLost(self)
 end
 
 local function createSearchInput(frame, onChange)
-	local input = CreateFrame("EditBox", frame:GetName() .. "Search", frame, "InputBoxTemplate")
-	input:SetHeight(19)
-	input:SetWidth(150)
-	input:SetAutoFocus(false)
-	input:ClearAllPoints()
-	input:SetPoint("CENTER", frame, "BOTTOMLEFT", 100, 25)
+	frame.search = CreateFrame("EditBox", nil, frame, "InputBoxTemplate")
+	frame.search:SetHeight(19)
+	frame.search:SetWidth(150)
+	frame.search:SetAutoFocus(false)
+	frame.search:ClearAllPoints()
+	frame.search:SetPoint("CENTER", frame, "BOTTOMLEFT", 100, 25)
 
-	input.searchText = true
-	input:SetText(L["SEARCH"])
-	input:SetTextColor(0.90, 0.90, 0.90, 0.80)
-	input:SetScript("OnTextChanged", onChange)
-	input:SetScript("OnEditFocusGained", focusGained)
-	input:SetScript("OnEditFocusLost", focusLost)
-
-	return input
+	frame.search.searchText = true
+	frame.search:SetText(L["SEARCH"])
+	frame.search:SetTextColor(0.90, 0.90, 0.90, 0.80)
+	frame.search:SetScript("OnTextChanged", onChange)
+	frame.search:SetScript("OnEditFocusGained", focusGained)
+	frame.search:SetScript("OnEditFocusLost", focusLost)
 end
 
 -- ADDON CONFIGURATION
@@ -334,14 +572,14 @@ end
 
 -- Adds the actual row, will attempt to reuse the current row if able to
 local function addCategoryRow(type, name, tooltip, data, parent, addon)
-	local frame = OptionHouseOptionsFrame
+	local frame = regFrames.addon
 	for i=1, #(frame.categories) do
 		-- Match type/name first
 		if( frame.categories[i].type == type and frame.categories[i].name == name ) then
 			-- Then make sure it's correct addons parent, if it's a category
-			if( ( parent and frame.categories[i].parent and frame.categories[i].parent == parent ) or ( not parent and not frame.categories[i].parent ) ) then
+			if( (parent and frame.categories[i].parent and frame.categories[i].parent == parent) or (not parent and not frame.categories[i].parent) ) then
 				-- Now make sure it's the correct addon if it's a sub category
-				if( ( addon and frame.categories[i].addon and frame.categories[i].addon == addon ) or ( not addon and not frame.categories[i].addon ) ) then
+				if( (addon and frame.categories[i].addon and frame.categories[i].addon == addon) or (not addon and not frame.categories[i].addon) ) then
 					frame.categories[i].tooltip = tooltip
 					frame.categories[i].data = data
 					return
@@ -350,34 +588,43 @@ local function addCategoryRow(type, name, tooltip, data, parent, addon)
 		end
 	end
 
-	table.insert(frame.categories, { name = name, type = type, tooltip = tooltip, data = data, parent = parent, addon = addon } )
+	table.insert(frame.categories, {name = name, type = type, tooltip = tooltip, data = data, parent = parent, addon = addon} )
 	frame.resortList = true
+end
+
+-- This removes the entire addon, we don't use this unless
+-- we're removing the last category
+local function removeAddonListing(addon)
+	local frame = regFrames.addon
+	for i=#(frame.categories), 1, -1 do
+		if( frame.categories[i].addon == addon ) then
+			table.remove(frame.categories, i)
+		end
+	end
 end
 
 -- Remove a specific category and/or sub category listing
 -- without needing to recreate the entire list
 local function removeCategoryListing(addon, name)
-	local frame = OptionHouseOptionsFrame
-	for i=1, #(frame.categories) do
+	local frame = regFrames.addon
+	for i=#(frame.categories), 1, -1 do
 		-- Remove the category requested
-		if( frame.categories[i]['type'] == "category" and frame.categories[i].name == name and frame.categories[i].addon == addon ) then
+		if( frame.categories[i].type == "category" and frame.categories[i].name == name and frame.categories[i].addon == addon ) then
 			table.remove(frame.categories, i)
 
 		-- Remove all of it's sub categories
-		elseif( frame.categories[i]['type'] == "subcat" and frame.categories[i].parent == name and frame.categories[i].addon == addon ) then
+		elseif( frame.categories[i].type == "subcat" and frame.categories[i].parent == name and frame.categories[i].addon == addon ) then
 			table.remove(frame.categories, i)
 		end
 	end
 end
 
 local function removeSubCategoryListing(addon, parentCat, name)
-	local categories = OptionHouseOptionsFrame.categories
-	for i=1, #(categories) do
-		local cat = categories[i]
+	local frame = regFrames.addon
+	for i=#(frame.categories), 1, -1 do
 		-- Remove the specific sub category
-		if( cat and cat['type'] == "subcat" and cat.name == name and cat.parent == parentCat and cat.addon == addon ) then
-			table.remove(categories, i)
-			i = i - 1
+		if( frame.categories[i].type == "subcat" and frame.categories[i].name == name and frame.categories[i].parent == parentCat and frame.categories[i].addon == addon ) then
+			table.remove(frame.categories, i)
 		end
 	end
 end
@@ -386,7 +633,7 @@ end
 -- so we can update a single addon out of the entire list
 -- if it's categories/sub categories get changed, or a new ones added
 local function addCategoryListing(name, addon)
-	local tooltip = addon.title or name
+	local tooltip = "|cffffffff" .. (addon.title or name) .. "|r"
 	local data
 
 	if( addon.version ) then
@@ -409,7 +656,7 @@ local function addCategoryListing(name, addon)
 	else
 		for catName, cat in pairs(addon.categories) do
 			cat.parentCat = catName
-			addCategoryRow("category", catName, cat.totalSubs > 0 and string.format(L["TOTAL_SUBCATEGORIES"], cat.totalSubs), cat, name)
+			addCategoryRow("category", catName, cat.totalSubs > 0 and string.format(L["TOTAL_SUBCATEGORIES"], cat.totalSubs), cat, name, name)
 
 			for subCatName, subCat in pairs(cat.sub) do
 				subCat.parentCat = catName
@@ -418,16 +665,18 @@ local function addCategoryListing(name, addon)
 		end
 	end
 
-	if( not data ) then data = {} end
+	if( not data ) then
+		data = {}
+	end
+
 	data.orderID = string.lower(name)
 
-	addCategoryRow("addon", name, addon.version and addon.author and tooltip, data)
+	addCategoryRow("addon", name, (addon.version or addon.author) and tooltip, data, nil, name)
 end
 
 -- Recreates the entire listing
 local function createCategoryListing()
-	local frame = OptionHouseOptionsFrame
-	frame.categories = {}
+	regFrames.addon.categories = {}
 
 	for name, addon in pairs(addons) do
 		addCategoryListing(name, addon)
@@ -436,23 +685,26 @@ end
 
 -- Displays the actual button
 local function displayCategoryRow(type, text, data, tooltip, highlighted)
-	local frame = OptionHouseOptionsFrame
+	local frame = regFrames.addon
+	
+	-- We have to let this run completely
+	-- so we know how many rows we have total
 	frame.totalRows = frame.totalRows + 1
 	if( frame.totalRows <= frame.offset or frame.rowID >= 15 ) then
 		return
 	end
-
+	
 	frame.rowID = frame.rowID + 1
 
-	local button = OptionHouseOptionsFrame.buttons[frame.rowID]
-	local line = OptionHouseOptionsFrame.lines[frame.rowID]
+	local button = frame.buttons[frame.rowID]
+	local line = frame.lines[frame.rowID]
 
 	if( highlighted ) then
 		button:LockHighlight()
 	else
 		button:UnlockHighlight()
 	end
-
+	
 	if( type == "addon" ) then
 		button:SetText(text)
 		button:GetFontString():SetPoint("LEFT", button, "LEFT", 4, 0)
@@ -481,13 +733,14 @@ local function displayCategoryRow(type, text, data, tooltip, highlighted)
 end
 
 local function updateConfigList()
-	local frame = OptionHouseOptionsFrame
-	frame.offset = FauxScrollFrame_GetOffset(frame.scroll)
+	local frame = regFrames.addon
+	frame.offset = frame.scroll.offset
 	frame.rowID = 0
 	frame.totalRows = 0
 
-	local searchBy = string.trim(string.lower(OptionHouseOptionsFrameSearch:GetText()))
-	if( searchBy == "" or OptionHouseOptionsFrameSearch.searchText ) then
+	local lastID
+	local searchBy = string.trim(string.lower(frame.search:GetText()))
+	if( searchBy == "" or frame.search.searchText ) then
 		searchBy = nil
 	end
 
@@ -503,7 +756,7 @@ local function updateConfigList()
 	-- Resort list if needed
 	if( frame.resortList ) then
 		table.sort(frame.categories, sortCategories)
-		frame.resortList = true
+		frame.resortList = nil
 	end
 
 	-- Now display
@@ -544,8 +797,8 @@ local function updateConfigList()
 			end
 		end
 	end
-
-	FauxScrollFrame_Update(frame.scroll, frame.totalRows, 15, 20)
+		
+	updateScroll(frame.scroll, frame.totalRows)
 
 	for i=1, 15 do
 		if( frame.totalRows > 15 ) then
@@ -563,7 +816,7 @@ local function updateConfigList()
 end
 
 local function openConfigFrame(data)
-	local frame = OptionHouseOptionsFrame
+	local frame = regFrames.addon
 
 	-- Clicking on an addon with multiple categories or sub categories will cause no data
 	if( not data ) then
@@ -600,7 +853,7 @@ local function openConfigFrame(data)
 		if( data.frame:GetHeight() > 305 or data.frame:GetHeight() == 0 ) then
 			data.frame:SetHeight(305)
 		end
-
+			
 		data.frame:SetParent(frame)
 		data.frame:SetFrameStrata("HIGH")
 
@@ -620,7 +873,6 @@ local function openConfigFrame(data)
 
 			-- Remove the handler/func and save the frame for next time
 			if( category ) then
-				data.frame.time = GetTime()
 				category.handler = nil
 				category.func = nil
 				category.frame = data.frame
@@ -640,7 +892,7 @@ local function openConfigFrame(data)
 end
 
 local function expandConfigList(self)
-	local frame = OptionHouseOptionsFrame
+	local frame = regFrames.addon
 
 	if( self.type == "addon" ) then
 		if( frame.selectedAddon == self.catText ) then
@@ -678,26 +930,27 @@ local function expandConfigList(self)
 end
 
 
-local function addonConfigTab(hide)
-	local name = "OptionHouseOptionsFrame"
-	local frame = getglobal(name)
-
+local function createAddonFrame(hide)
+	local frame = regFrames.addon
+	
 	if( frame and hide ) then
 		frame:Hide()
 		return
 	elseif( hide ) then
 		return
 	elseif( not frame ) then
-		frame = CreateFrame("Frame", name, OptionHouseFrame)
+		frame = CreateFrame("Frame", nil, regFrames.main)
 		frame:SetFrameStrata("MEDIUM")
-		frame:SetAllPoints(OptionHouseFrame)
+		frame:SetAllPoints(regFrames.main)
+		
+		regFrames.addon = frame
 
 		frame.buttons = {}
 		frame.lines = {}
 		for i=1, 15 do
-			local button = CreateFrame("Button", name.."FilterButton"..i, frame)
+			local button = CreateFrame("Button", nil, frame)
 			frame.buttons[i] = button
-
+			
 			button:SetHighlightFontObject(GameFontHighlightSmall)
 			button:SetTextFontObject(GameFontNormalSmall)
 			button:SetScript("OnClick", expandConfigList)
@@ -713,43 +966,26 @@ local function addonConfigTab(hide)
 			button:GetHighlightTexture():SetBlendMode("ADD")
 
 			-- For sub categories only
-			local line = button:CreateTexture(name.."FilterButton"..i.."Line", "BACKGROUND")
+			local line = button:CreateTexture(nil, "BACKGROUND")
 			frame.lines[i] = line
 
 			line:SetWidth(7)
 			line:SetHeight(20)
 			line:SetPoint("LEFT", 13, 0)
-			line:SetTexture( "Interface\\AuctionFrame\\UI-AuctionFrame-FilterLines" )
+			line:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-FilterLines")
 			line:SetTexCoord(0, 0.4375, 0, 0.625)
 
 			if( i > 1 ) then
-				button:SetPoint("TOPLEFT", name.."FilterButton"..i - 1, "BOTTOMLEFT", 0, 0)
+				button:SetPoint("TOPLEFT", frame.buttons[i - 1], "BOTTOMLEFT", 0, 0)
 			else
 				button:SetPoint("TOPLEFT", 23, -105)
 			end
 		end
-
-		frame.scroll = CreateFrame("ScrollFrame", name.."FilterScrollFrame", frame, "FauxScrollFrameTemplate")
-		frame.scroll:SetWidth(160)
-		frame.scroll:SetHeight(305)
+		
+		createScrollFrame(frame, 15, updateConfigList)
 		frame.scroll:SetPoint("TOPRIGHT", frame, "TOPLEFT", 158, -105)
-		frame.scroll:SetScript("OnVerticalScroll", function()
-			FauxScrollFrame_OnVerticalScroll(20, updateConfigList)
-		end )
-
-		local texture = frame.scroll:CreateTexture(name.."FilterScrollFrameScrollUp", "ARTWORK")
-		texture:SetWidth(31)
-		texture:SetHeight(256)
-		texture:SetPoint("TOPLEFT", frame.scroll, "TOPRIGHT", -2, 5 )
-		texture:SetTexCoord(0, 0.484375, 0, 1.0)
-
-		local texture = frame.scroll:CreateTexture(name.."FilterScrollFrameScrollDown", "ARTWORK")
-		texture:SetWidth(31)
-		texture:SetHeight(256)
-		texture:SetPoint("BOTTOMLEFT", frame.scroll, "BOTTOMRIGHT", -2, -2 )
-		texture:SetTexCoord(0.515625, 1.0, 0, 0.4140625)
-
-		createSearchInput(frame, updateConfigList )
+		
+		createSearchInput(frame, updateConfigList)
 		createCategoryListing()
 	end
 
@@ -764,26 +1000,36 @@ local function addonConfigTab(hide)
 	end
 
 	updateConfigList()
-	frame:Show()
+	ShowUIPanel(frame)
 end
 
 local function createOHFrame()
-	local name = "OptionHouseFrame"
-
-	if( getglobal(name) ) then
+	if( regFrames.main ) then
 		return
 	end
 
-	table.insert(UISpecialFrames, name)
-
-	frame = CreateFrame("Frame", name, UIParent)
+	frame = CreateFrame("Frame", nil, UIParent)
 	frame:CreateTitleRegion()
 	frame:SetClampedToScreen(true)
+	frame:SetMovable(false)
 	frame:SetFrameStrata("MEDIUM")
 	frame:SetWidth(832)
 	frame:SetHeight(447)
 	frame:SetPoint("TOPLEFT", 0, -104)
 	frame.totalTabs = 0
+	frame.tabs = {}
+	
+	regFrames.main = frame
+
+	-- If we don't hide it ourself, the panel layout becomes messed up
+	frame:Hide()
+
+	frame:SetAttribute("UIPanelLayout-defined", true)
+	frame:SetAttribute("UIPanelLayout-enabled", true)
+--~ 	frame:SetAttribute("UIPanelLayout-area", "doublewide") -- This is broken in the Blizzy code ><  Slouken's been sent a fix
+	frame:SetAttribute("UIPanelLayout-area", "left")
+	frame:SetAttribute("UIPanelLayout-whileDead", true)
+	table.insert(UISpecialFrames, name)
 
 	local title = frame:GetTitleRegion()
 	title:SetWidth(757)
@@ -793,94 +1039,56 @@ local function createOHFrame()
 	-- Embedded version wont include the icon cause authors are more whiny then users
 	-- Also, we want to use different methods of frame dragging
 	if( not IsAddOnLoaded("OptionHouse") ) then
-		local texture = frame:CreateTexture(name.."PortraitTexture", "OVERLAY")
+		local texture = frame:CreateTexture(nil, "OVERLAY")
 		texture:SetWidth(57)
 		texture:SetHeight(57)
 		texture:SetPoint("TOPLEFT", 9, -7)
 		SetPortraitTexture(texture, "player")
-
-		frame:EnableMouse(true)
 	else
-		local texture = frame:CreateTexture(name.."PortraitTexture", "OVERLAY")
+		local texture = frame:CreateTexture(nil, "OVERLAY")
 		texture:SetWidth(128)
 		texture:SetHeight(128)
 		texture:SetPoint("TOPLEFT", 9, -2)
 		texture:SetTexture("Interface\\AddOns\\OptionHouse\\GnomePortrait")
-
-		frame:EnableMouse(false)
-		frame:SetMovable(not OptionHouseDB.locked)
-
-		if( OptionHouseDB.position ) then
-			frame:SetPoint("TOPLEFT", nil, "BOTTOMLEFT", OptionHouseDB.position.x, OptionHouseDB.position.y)
-		end
-
-		-- This goes in the entire bar where "Option House" title text is
-		local mover = CreateFrame("Button", name .. "Dragger", frame)
-		mover:SetPoint("TOP", 25, -15)
-		mover:SetHeight(19)
-		mover:SetWidth(730)
-		--mover.tooltip = L["FRAME_DRAGGING"]
-		mover:SetScript("OnLeave", hideTooltip)
-		mover:SetScript("OnEnter", showTooltip)
-		mover:SetScript("OnMouseUp", function(self)
-			local parent = self:GetParent()
-			parent:StopMovingOrSizing()
-			OptionHouseDB.position = {x = parent:GetLeft(), y = parent:GetTop()}
-		end)
-		mover:SetScript("OnMouseDown", function(self, mouse)
-			local parent = self:GetParent()
-			if( mouse == "LeftButton" and parent:IsMovable() ) then
-				parent:StartMoving()
-			elseif( mouse == "RightButton" ) then
-				OptionHouseDB.position = nil
-				parent:ClearAllPoints()
-				parent:SetPoint("TOPLEFT", 0, -104)
-			end
-		end)
 	end
 
-	local title = frame:CreateFontString(name.."Title", "OVERLAY")
+	local title = frame:CreateFontString(nil, "OVERLAY")
 	title:SetFontObject(GameFontNormal)
 	title:SetPoint("TOP", 0, -18)
 	title:SetText(L["OPTION_HOUSE"])
 
-	local texture = frame:CreateTexture(name.."TopLeft", "ARTWORK")
-	texture:SetWidth(256)
-	texture:SetHeight(256)
-	texture:SetPoint("TOPLEFT", 0, 0)
-	texture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopLeft")
+	frame.topLeft = frame:CreateTexture(nil, "ARTWORK")
+	frame.topLeft:SetWidth(256)
+	frame.topLeft:SetHeight(256)
+	frame.topLeft:SetPoint("TOPLEFT", 0, 0)
 
-	local texture = frame:CreateTexture(name.."Top", "ARTWORK")
-	texture:SetWidth(320)
-	texture:SetHeight(256)
-	texture:SetPoint("TOPLEFT", 256, 0)
-	texture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Top")
+	frame.top = frame:CreateTexture(nil, "ARTWORK")
+	frame.top:SetWidth(320)
+	frame.top:SetHeight(256)
+	frame.top:SetPoint("TOPLEFT", 256, 0)
 
-	local texture = frame:CreateTexture(name.."TopRight", "ARTWORK")
-	texture:SetWidth(256)
-	texture:SetHeight(256)
-	texture:SetPoint("TOPLEFT", name.."Top", "TOPRIGHT", 0, 0)
-	texture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-TopRight")
+	frame.topRight = frame:CreateTexture(nil, "ARTWORK")
+	frame.topRight:SetWidth(256)
+	frame.topRight:SetHeight(256)
+	frame.topRight:SetPoint("TOPLEFT", frame.top, "TOPRIGHT", 0, 0)
 
-	local texture = frame:CreateTexture(name.."BotLeft", "ARTWORK")
-	texture:SetWidth(256)
-	texture:SetHeight(256)
-	texture:SetPoint("TOPLEFT", 0, -256)
-	texture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotLeft")
+	frame.bottomLeft = frame:CreateTexture(nil, "ARTWORK")
+	frame.bottomLeft:SetWidth(256)
+	frame.bottomLeft:SetHeight(256)
+	frame.bottomLeft:SetPoint("TOPLEFT", 0, -256)
 
-	local texture = frame:CreateTexture(name.."Bot", "ARTWORK")
-	texture:SetWidth(320)
-	texture:SetHeight(256)
-	texture:SetPoint("TOPLEFT", 256, -256)
-	texture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Bot")
+	frame.bottom = frame:CreateTexture(nil, "ARTWORK")
+	frame.bottom:SetWidth(320)
+	frame.bottom:SetHeight(256)
+	frame.bottom:SetPoint("TOPLEFT", 256, -256)
 
-	local texture = frame:CreateTexture(name.."BotRight", "ARTWORK")
-	texture:SetWidth(256)
-	texture:SetHeight(256)
-	texture:SetPoint("TOPLEFT", name.."Bot", "TOPRIGHT", 0, 0)
-	texture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-BotRight")
-
-	local tabs = {{func = addonConfigTab, text = L["ADDON_OPTIONS"], type = "browse"}}
+	frame.bottomRight = frame:CreateTexture(nil, "ARTWORK")
+	frame.bottomRight:SetWidth(256)
+	frame.bottomRight:SetHeight(256)
+	frame.bottomRight:SetPoint("TOPLEFT", frame.bottom, "TOPRIGHT", 0, 0)
+	
+	-- Make sure the configuration tab is first
+	local tabs = {{func = createAddonFrame, text = L["ADDON_OPTIONS"], type = "browse"}}
 	createTab(L["ADDON_OPTIONS"], 1)
 
 	for id, tab in pairs(tabfunctions) do
@@ -890,8 +1098,7 @@ local function createOHFrame()
 
 	tabfunctions = tabs
 
-
-	local button = CreateFrame("Button", name.."CloseButton", frame, "UIPanelCloseButton")
+	local button = CreateFrame("Button", nil, frame, "UIPanelCloseButton")
 	button:SetPoint("TOPRIGHT", 3, -8)
 	button:SetScript("OnClick", function()
 		HideUIPanel(frame)
@@ -901,7 +1108,15 @@ end
 -- PRIVATE API's
 -- These are only to be used for the standalone OptionHouse modules
 function OptionHouse:CreateSearchInput(frame, onChange)
-	return createSearchInput(frame, onChange)
+	createSearchInput(frame, onChange)
+end
+
+function OptionHouse:UpdateScroll(scroll, totalRows)
+	updateScroll(scroll, totalRows)
+end
+
+function OptionHouse:CreateScrollFrame(frame, displayNum, onScroll)
+	createScrollFrame(frame, displayNum, onScroll)
 end
 
 function OptionHouse.RegisterTab(self, text, func, type)
@@ -930,7 +1145,7 @@ function OptionHouse.UnregisterTab(self, text)
 		if( tabfunctions[i] ) then
 			createTab(tabfunctions[i].text, i)
 		else
-			getglobal("OptionHouseFrameTab" .. i):Hide()
+			frame.tabs[i]:Hide()
 		end
 	end
 end
@@ -943,7 +1158,20 @@ function OptionHouse.GetAddOnData(self, name)
 	return addons[name].title, addons[name].author, addons[name].version
 end
 
+function OptionHouse.RegisterFrame(self, type, frame)
+	if( type ~= "addon" and type ~= "manage" and type ~= "perf" and type ~= "main" ) then return end
+	regFrames[type] = frame
+end
+
 -- PUBLIC API's
+function OptionHouse:GetFrame(type)
+	if( type ~= "addon" and type ~= "manage" and type ~= "perf" and type ~= "main" ) then
+		error(string.format(L["UNKNOWN_FRAMETYPE"], type), 3)
+	end
+
+	return regFrames[type]
+end
+
 function OptionHouse:Open(addonName, parentCat, childCat)
 	argcheck(addonName, 1, "string", "nil")
 	argcheck(parentCat, 2, "string", "nil")
@@ -953,7 +1181,7 @@ function OptionHouse:Open(addonName, parentCat, childCat)
 	tabOnClick(1)
 
 	if( not addonName ) then
-		frame:Show()
+		ShowUIPanel(frame)
 		return
 	end
 
@@ -961,16 +1189,16 @@ function OptionHouse:Open(addonName, parentCat, childCat)
 	-- to auto open to a page
 	for name, addon in pairs(addons) do
 		if( name == addonName ) then
-			OptionHouseOptionsFrame.selectedAddon = addonName
+			regFrames.addon.selectedAddon = addonName
 			for catName, cat in pairs(addon.categories) do
 				if( catName == parentCat ) then
-					OptionHouseOptionsFrame.selectedCategory = catName
+					regFrames.addon.selectedCategory = catName
 					-- Searching for a sub cat
 					if( subCat and cat.totalSubs > 0 ) then
 						for subCatName, subCat in pairs(cat.sub) do
 							-- Found sub cat, open it
 							if( subCatName == childCat ) then
-								OptionHouseOptionsFrame.selectedSubCat = subCatName
+								regFrames.addon.selectedSubCat = subCatName
 								openConfigFrame(subCat)
 								break
 							end
@@ -989,7 +1217,7 @@ function OptionHouse:Open(addonName, parentCat, childCat)
 
 	-- Now expand anything that was selected
 	updateConfigList()
-	frame:Show()
+	ShowUIPanel(frame)
 end
 
 function OptionHouse:OpenTab(id)
@@ -998,10 +1226,10 @@ function OptionHouse:OpenTab(id)
 
 	createOHFrame()
 	tabOnClick(id)
-	frame:Show()
+	ShowUIPanel(frame)
 end
 
-function OptionHouse:RegisterAddOn( name, title, author, version )
+function OptionHouse:RegisterAddOn(name, title, author, version)
 	argcheck(name, 1, "string")
 	argcheck(title, 2, "string", "nil")
 	argcheck(author, 3, "string", "nil")
@@ -1016,7 +1244,7 @@ function OptionHouse:RegisterAddOn( name, title, author, version )
 		addons[name].obj[method] = OptionHouse[method]
 	end
 
-	if( OptionHouseOptionsFrame ) then
+	if( regFrames.addon ) then
 		addCategoryListing(name, addons[name])
 		updateConfigList()
 	end
@@ -1024,7 +1252,7 @@ function OptionHouse:RegisterAddOn( name, title, author, version )
 	return addons[name].obj
 end
 
-function OptionHouse.RegisterCategory( addon, name, handler, func, noCache )
+function OptionHouse.RegisterCategory(addon, name, handler, func, noCache)
 	argcheck(name, 2, "string")
 	argcheck(handler, 3, "string", "function", "table")
 	argcheck(func, 4, "string", "function", "nil")
@@ -1037,13 +1265,13 @@ function OptionHouse.RegisterCategory( addon, name, handler, func, noCache )
 	addons[addon.name].totalCats = addons[addon.name].totalCats + 1
 	addons[addon.name].categories[name] = {func = func, handler = handler, noCache = noCache, sub = {}, orderID = addons[addon.name].totalCats, totalSubs = 0}
 
-	if( OptionHouseOptionsFrame ) then
+	if( regFrames.addon ) then
 		addCategoryListing(addon.name, addons[addon.name])
 		updateConfigList()
 	end
 end
 
-function OptionHouse.RegisterSubCategory( addon, parentCat, name, handler, func, noCache )
+function OptionHouse.RegisterSubCategory(addon, parentCat, name, handler, func, noCache)
 	argcheck(parentCat, 2, "string")
 	argcheck(name, 3, "string")
 	argcheck(handler, 4, "string", "function", "table")
@@ -1058,29 +1286,33 @@ function OptionHouse.RegisterSubCategory( addon, parentCat, name, handler, func,
 	addons[addon.name].categories[parentCat].totalSubs = addons[addon.name].categories[parentCat].totalSubs + 1
 	addons[addon.name].categories[parentCat].sub[name] = {handler = handler, func = func, noCache = noCache, orderID = addons[addon.name].categories[parentCat].totalSubs}
 
-	if( OptionHouseOptionsFrame ) then
+	if( regFrames.addon ) then
 		addCategoryListing(addon.name, addons[addon.name])
 		updateConfigList()
 	end
 end
 
--- I'll improve the Remove* to only remove the category from the listing instead of
--- recreating the entire list
-function OptionHouse.RemoveCategory( addon, name )
+function OptionHouse.RemoveCategory(addon, name)
 	argcheck(name, 2, "string")
 	assert(3, addons[addon.name], string.format(L["MUST_CALL"], addon.name))
-	assert(3, not addons[addon.name].categories[name], string.format(L["NO_CATEGORYEXISTS"], name, addon.name))
+	assert(3, addons[addon.name].categories[name], string.format(L["NO_CATEGORYEXISTS"], name, addon.name))
 
 	addons[addon.name].totalCats = addons[addon.name].totalCats - 1
+	addons[addon.name].totalSubs = addons[addon.name].totalSubs - addons[addon.name].categories[name].totalSubs
 	addons[addon.name].categories[name] = nil
-
-	if( OptionHouseOptionsFrame ) then
-		removeCategoryListing(addon.name, name)
+		
+	if( regFrames.addon ) then
+		if( addons[addon.name].totalCats == 0 ) then
+			removeAddonListing(addon.name)
+		else
+			removeCategoryListing(addon.name, name)
+		end
+		
 		updateConfigList()
 	end
 end
 
-function OptionHouse.RemoveSubCategory( addon, parentCat, name )
+function OptionHouse.RemoveSubCategory(addon, parentCat, name)
 	argcheck(parentCat, 2, "string")
 	argcheck(name, 2, "string")
 	assert(3, addons[addon.name], string.format(L["MUST_CALL"], addon.name))
@@ -1091,14 +1323,21 @@ function OptionHouse.RemoveSubCategory( addon, parentCat, name )
 	addons[addon.name].categories[parentCat].totalSubs = addons[addon.name].categories[parentCat].totalSubs - 1
 	addons[addon.name].categories[parentCat].sub[name] = nil
 
-	if( OptionHouseOptionsFrame ) then
-		removeSubCategoryListing(addon.name, parentCat, name)
+	if( regFrames.addon ) then
+		-- If this means we only have no more sub categories
+		-- and only one category we need to change how it works
+		if( addons[addon.name].totalSubs == 0 and addons[addon.name].totalCats == 1 ) then
+			removeAddonListing(addon.name)
+			addCategoryListing(addon.name, addons[addon.name])
+		else
+			removeSubCategoryListing(addon.name, parentCat, name)
+		end
+
 		updateConfigList()
 	end
 end
 
 function OptionHouse:GetVersion() return major, minor end
-
 
 local function Activate(self, old)
 	if( old ) then
@@ -1111,10 +1350,10 @@ local function Activate(self, old)
 		evtFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
 		evtFrame:SetScript("OnEvent",function()
 			if( frame and frame:IsShown() ) then
-				frame:Hide()
+				HideUIPanel(frame)
 				DEFAULT_CHAT_FRAME:AddMessage(L["ENTERED_COMBAT"])
 			end
-		end )
+		end)
 
 		-- Make sure it hasn't been created already.
 		-- don't have to upgrade the referance because it just uses the slash command
@@ -1140,7 +1379,7 @@ local function Activate(self, old)
 	self.addons = addons
 	self.evtFrame = evtFrame
 	self.tabfunctions = tabfunctions
-
+		
 	-- Upgrade functions to point towards the latest revision
 	for name, addon in pairs(addons) do
 		for _, method in pairs(methods) do
@@ -1150,7 +1389,9 @@ local function Activate(self, old)
 
 	SLASH_OPTHOUSE1 = "/opthouse"
 	SLASH_OPTHOUSE2 = "/oh"
-	SlashCmdList["OPTHOUSE"] = OptionHouse.Open
+	SlashCmdList["OPTHOUSE"] = function(...)
+		OptionHouse.Open(OptionHouse, ...)
+	end
 end
 
 OptionHouse = DongleStub:Register(OptionHouse, Activate)
