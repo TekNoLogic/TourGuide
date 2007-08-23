@@ -22,10 +22,10 @@ local icon = ww.SummonTexture(f, 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
 local text = ww.SummonFontString(f, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
 text:SetPoint("LEFT", icon, "RIGHT", 4, 0)
 
-local item = CreateFrame("Button", nil, f, "SecureActionButtonTemplate")
+local item = CreateFrame("Button", nil, UIParent, "SecureActionButtonTemplate")
 item:SetHeight(24)
 item:SetWidth(24)
-item:SetPoint("BOTTOMLEFT", QuestWatchFrame, "TOPRIGHT", 0, 10)
+item:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, 18)
 item:RegisterForClicks("anyUp")
 local itemicon = ww.SummonTexture(item, 24, 24, "Interface\\Icons\\INV_Misc_Bag_08")
 itemicon:SetAllPoints(item)
@@ -92,10 +92,11 @@ function TourGuide:UpdateStatusFrame()
 		local name = self.quests[i]
 		if not self.turnedin[name] and not nextstep then
 			local action, name, note, logi, complete, hasitem, turnedin, quest, useitem, optional = self:GetObjectiveInfo(i)
+			local hasuseitem = useitem and self:FindBagSlot(useitem)
 			if not nextstep then
 				local incomplete
 				if action == "ITEM" then incomplete = hasitem
-				elseif action == "ACCEPT" then incomplete = (not optional or hasitem) and not logi
+				elseif action == "ACCEPT" then incomplete = (not optional or hasitem or hasuseitem) and not logi
 				elseif action == "TURNIN" then incomplete = not optional
 				elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 				else incomplete = not logi end

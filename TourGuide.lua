@@ -123,7 +123,7 @@ function TourGuide:GetQuestDetails(name)
 end
 
 
-local function FindBagSlot(itemid)
+function TourGuide:FindBagSlot(itemid)
 	for bag=0,4 do
 		for slot=1,GetContainerNumSlots(bag) do
 			local item = GetContainerItemLink(bag, slot)
@@ -143,7 +143,7 @@ function TourGuide:GetObjectiveInfo(i)
 	if not action then return end
 
 	local logi, complete = self:GetQuestDetails(quest)
-	local hasitem = action == "ITEM" and self.questitems[i] and FindBagSlot(self.questitems[i])
+	local hasitem = action == "ITEM" and self.questitems[i] and self:FindBagSlot(self.questitems[i])
 
 	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest, self.useitems[i], self.optional[i]
 end

@@ -84,23 +84,21 @@ A Spinal Dust
 A Rotting Hearts
 A Windrunner Village
 
-C Into Occupied Territory |N|(12,25)|
+C Into Occupied Territory |N|In tents (14,27), (13,25), and on the boat (11,22)|
 C Windrunner Village |N|(18,43)|
 C Retaking Windrunner Spire |N|(16,60)|
-A The Lady's Necklace |U|22597|
+A The Lady's Necklace |U|22597| |O|
 
 H Tranquillien
 T Retaking Windrunner Spire
 T Into Occupied Territory
 T Windrunner Village
 A Deliver the Plans to An'telas
-A Journey to Undercity
 
 R Sanctum of the Sun |N|To the southeast (55,48)|
 T Underlight Ore Samples
 A The Farstrider Enclave
 
-N Kill Ghostclaw Lynxes you come across |N|For "Bearers of the Plague"|
 T Deliver the Plans to An'telas |N|(60,35)|
 A Deactivate An'owyn
 
@@ -113,7 +111,7 @@ A A Little Dash of Seasoning
 A The Traitor's Shadow
 A Bring Me Kel'gash's Head! |N|On a wanted poster.  This is an elite quest that requires a group!|
 
-T The Traitor's Shadow |N|At the dusty journal in the building at the top of the ramp|
+T The Traitor's Shadow |N|At the dusty journal in the building at the top of the ramp (80,18)|
 A Hints of the Past
 C Attack on Zeb'Tela
 T Attack on Zeb'Tela
