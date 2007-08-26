@@ -53,13 +53,14 @@ function TourGuide:Initialize()
 		char = {
 			turnedin = {},
 			cachedturnins = {},
-		}
+		},
 	})
 	self.turnedin = self.db.char.turnedin
 	self.cachedturnins = self.db.char.cachedturnins
 
 	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
 	self:LoadGuide(self.db.char.currentguide)
+	self:PositionStatusFrame()
 end
 
 

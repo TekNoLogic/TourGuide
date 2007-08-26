@@ -5,14 +5,20 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 local ww = WidgetWarlock
 
 
+local function GetQuadrant(frame)
+	local x,y = frame:GetCenter()
+	if not x or not y then return "BOTTOMLEFT", "BOTTOM", "LEFT" end
+	local hhalf = (x > UIParent:GetWidth()/2) and "RIGHT" or "LEFT"
+	local vhalf = (y > UIParent:GetHeight()/2) and "TOP" or "BOTTOM"
+	return vhalf..hhalf, vhalf, hhalf
+end
+
+
 local f = CreateFrame("Button", nil, UIParent)
 f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, -15)
 f:SetHeight(32)
 f:EnableMouse(true)
-f:RegisterForDrag("LeftButton")
 f:RegisterForClicks("anyUp")
-f:SetMovable(true)
-f:SetClampedToScreen(true)
 f:SetBackdrop(ww.TooltipBorderBG)
 f:SetBackdropColor(0,0,0,0.3)
 f:SetBackdropBorderColor(0,0,0,0.7)
@@ -32,6 +38,7 @@ itemicon:SetAllPoints(item)
 item:Hide()
 
 local f2 = CreateFrame("Frame", nil, UIParent)
+local f2anchor = "RIGHT"
 f2:SetHeight(32)
 f2:SetWidth(100)
 local text2 = ww.SummonFontString(f2, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
@@ -50,13 +57,22 @@ f2:SetScript("OnUpdate", function(self, el)
 		text:SetAlpha(1)
 		f:SetWidth(newsize)
 	else
-		self:SetPoint("RIGHT", f, "RIGHT", 0, elapsed*40)
+		self:SetPoint(f2anchor, f, f2anchor, 0, elapsed*40)
 		self:SetAlpha(1 - elapsed)
 		text:SetAlpha(elapsed)
 		icon:SetAlpha(elapsed)
 		f:SetWidth(oldsize + (newsize-oldsize)*elapsed)
 	end
 end)
+
+
+function TourGuide:PositionStatusFrame()
+	if not self.db.profile.statusframepoint then return end
+
+	f:ClearAllPoints()
+	f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
+end
+
 
 function TourGuide:SetText(i)
 	self.current = i
@@ -69,7 +85,10 @@ function TourGuide:SetText(i)
 		icon:SetAlpha(0)
 		text:SetAlpha(0)
 		elapsed = 0
-		f2:SetPoint("RIGHT", f, "RIGHT", 0, 0)
+		f2:SetWidth(f:GetWidth())
+		f2anchor = select(3, GetQuadrant(f))
+		f2:ClearAllPoints()
+		f2:SetPoint(f2anchor, f, f2anchor, 0, 0)
 		f2:SetAlpha(1)
 		icon2:SetTexture(icon:GetTexture())
 		text2:SetText(text:GetText())
@@ -142,7 +161,10 @@ function TourGuide:UpdateStatusFrame()
 		icon:SetAlpha(0)
 		text:SetAlpha(0)
 		elapsed = 0
-		f2:SetPoint("RIGHT", f, "RIGHT", 0, 0)
+		f2:SetWidth(f:GetWidth())
+		f2anchor = select(3, GetQuadrant(f))
+		f2:ClearAllPoints()
+		f2:SetPoint(f2anchor, f,f2anchor, 0, 0)
 		f2:SetAlpha(1)
 		icon2:SetTexture(icon:GetTexture())
 		text2:SetText(text:GetText())
@@ -181,22 +203,51 @@ end)
 check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
 
 
-f:SetScript("OnDragStart", function(self) self:StartMoving() end)
-f:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
+item:HookScript("OnClick", function()
+	if self:GetCurrentObjectiveInfo() == "USE" then self:SetTurnedIn() end
+end)
 
 
-f:SetScript("OnLeave", function() GameTooltip:Hide() end)
-f:SetScript("OnEnter", function(self)
+local function ShowTooltip(self)
 	local tip = TourGuide.notes[TourGuide.current]
 	if not tip then return end
 
  	GameTooltip:SetOwner(self, "ANCHOR_NONE")
-	GameTooltip:SetPoint("TOPRIGHT", self, "TOPLEFT")
+	local quad, vhalf, hhalf = GetQuadrant(self)
+	local anchpoint = vhalf..(hhalf == "LEFT" and "RIGHT" or "LEFT")
+	TourGuide:Debug(10, "Setting tooltip anchor", anchpoint, quad, hhalf, vhalf)
+	GameTooltip:SetPoint(quad, self, anchpoint)
 	GameTooltip:SetText(tip, nil, nil, nil, nil, true)
+end
+
+
+f:SetScript("OnLeave", function() GameTooltip:Hide() end)
+f:SetScript("OnEnter", ShowTooltip)
+
+
+local function GetUIParentAnchor(frame)
+	local w, h, x, y = UIParent:GetWidth(), UIParent:GetHeight(), frame:GetCenter()
+	local hhalf, vhalf = (x > w/2) and "RIGHT" or "LEFT", (y > h/2) and "TOP" or "BOTTOM"
+	local dx = hhalf == "RIGHT" and math.floor(frame:GetRight() + 0.5) - w or math.floor(frame:GetLeft() + 0.5)
+	local dy = vhalf == "TOP" and math.floor(frame:GetTop() + 0.5) - h or math.floor(frame:GetBottom() + 0.5)
+
+	return vhalf..hhalf, dx, dy
+end
+
+
+f:RegisterForDrag("LeftButton")
+f:SetMovable(true)
+f:SetClampedToScreen(true)
+f:SetScript("OnDragStart", function(frame)
+	GameTooltip:Hide()
+	frame:StartMoving()
 end)
-
-
-item:HookScript("OnClick", function()
-	if self:GetCurrentObjectiveInfo() == "USE" then self:SetTurnedIn() end
+f:SetScript("OnDragStop", function(frame)
+	frame:StopMovingOrSizing()
+	TourGuide:Debug(1, "Status frame moved", GetUIParentAnchor(frame))
+	TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey = GetUIParentAnchor(frame)
+	frame:ClearAllPoints()
+	frame:SetPoint(TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey)
+	ShowTooltip(frame)
 end)
 
