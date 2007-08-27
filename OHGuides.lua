@@ -49,13 +49,13 @@ function TourGuide:CreateGuidesPanel()
 		row:SetPoint("RIGHT", frame, point2)
 		row:SetHeight(ROWHEIGHT)
 
-		local highlight = ww.SummonTexture(row, nil, nil, "Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		local highlight = ww.SummonTexture(row, nil, nil, nil, "Interface\\HelpFrame\\HelpFrameButton-Highlight")
 		highlight:SetTexCoord(0, 1, 0, 0.578125)
 		highlight:SetAllPoints()
 		row:SetHighlightTexture(highlight)
 		row:SetCheckedTexture(highlight)
 
-		local text = ww.SummonFontString(row, nil, nil, "GameFontNormal", nil, "LEFT", 6, 0)
+		local text = ww.SummonFontString(row, nil, "GameFontNormal", nil, "LEFT", 6, 0)
 
 		row:SetScript("OnClick", OnClick)
 

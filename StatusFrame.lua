@@ -17,23 +17,27 @@ end
 local f = CreateFrame("Button", nil, UIParent)
 f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, -15)
 f:SetHeight(32)
+f:SetFrameStrata("LOW")
 f:EnableMouse(true)
 f:RegisterForClicks("anyUp")
 f:SetBackdrop(ww.TooltipBorderBG)
 f:SetBackdropColor(0,0,0,0.3)
 f:SetBackdropBorderColor(0,0,0,0.7)
 
+TourGuide:Debug(1, "Frame strata", f:GetFrameStrata())
+
 local check = ww.SummonCheckBox(20, f, "LEFT", 8, 0)
-local icon = ww.SummonTexture(f, 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
-local text = ww.SummonFontString(f, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
+local icon = ww.SummonTexture(f, "ARTWORK", 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
+local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormal", nil, "RIGHT", -12, 0)
 text:SetPoint("LEFT", icon, "RIGHT", 4, 0)
 
 local item = CreateFrame("Button", nil, UIParent, "SecureActionButtonTemplate")
-item:SetHeight(24)
-item:SetWidth(24)
+item:SetFrameStrata("LOW")
+item:SetHeight(36)
+item:SetWidth(36)
 item:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, 18)
 item:RegisterForClicks("anyUp")
-local itemicon = ww.SummonTexture(item, 24, 24, "Interface\\Icons\\INV_Misc_Bag_08")
+local itemicon = ww.SummonTexture(item, "ARTWORK", 24, 24, "Interface\\Icons\\INV_Misc_Bag_08")
 itemicon:SetAllPoints(item)
 item:Hide()
 
@@ -41,8 +45,8 @@ local f2 = CreateFrame("Frame", nil, UIParent)
 local f2anchor = "RIGHT"
 f2:SetHeight(32)
 f2:SetWidth(100)
-local text2 = ww.SummonFontString(f2, nil, nil, "GameFontNormal", nil, "RIGHT", -12, 0)
-local icon2 = ww.SummonTexture(f2, 24, 24, nil, "RIGHT", text2, "LEFT", -4, 0)
+local text2 = ww.SummonFontString(f2, "OVERLAY", "GameFontNormal", nil, "RIGHT", -12, 0)
+local icon2 = ww.SummonTexture(f2, "ARTWORK", 24, 24, nil, "RIGHT", text2, "LEFT", -4, 0)
 local check2 = ww.SummonCheckBox(20, f2, "RIGHT", icon2, "LEFT", -4, 0)
 check2:SetChecked(true)
 f2:Hide()
@@ -67,10 +71,15 @@ end)
 
 
 function TourGuide:PositionStatusFrame()
-	if not self.db.profile.statusframepoint then return end
+	if self.db.profile.statusframepoint then
+		f:ClearAllPoints()
+		f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
+	end
 
-	f:ClearAllPoints()
-	f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
+	if self.db.profile.itemframepoint then
+		item:ClearAllPoints()
+		item:SetPoint(self.db.profile.itemframepoint, self.db.profile.itemframex, self.db.profile.itemframey)
+	end
 end
 
 
@@ -249,5 +258,16 @@ f:SetScript("OnDragStop", function(frame)
 	frame:ClearAllPoints()
 	frame:SetPoint(TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey)
 	ShowTooltip(frame)
+end)
+
+
+item:RegisterForDrag("LeftButton")
+item:SetMovable(true)
+item:SetClampedToScreen(true)
+item:SetScript("OnDragStart", item.StartMoving)
+item:SetScript("OnDragStop", function(frame)
+	frame:StopMovingOrSizing()
+	TourGuide:Debug(1, "Item frame moved", GetUIParentAnchor(frame))
+	TourGuide.db.profile.itemframepoint, TourGuide.db.profile.itemframex, TourGuide.db.profile.itemframey = GetUIParentAnchor(frame)
 end)
 

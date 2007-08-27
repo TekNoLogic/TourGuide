@@ -27,8 +27,8 @@ function WidgetWarlock.SummonCheckBox(size, parent, ...)
 end
 
 
-function WidgetWarlock.SummonTexture(parent, w, h, texture, ...)
-	local tex = parent:CreateTexture()
+function WidgetWarlock.SummonTexture(parent, layer, w, h, texture, ...)
+	local tex = parent:CreateTexture(nil, layer)
 	if w then tex:SetWidth(w) end
 	if h then tex:SetHeight(h) end
 	tex:SetTexture(texture)
@@ -37,8 +37,8 @@ function WidgetWarlock.SummonTexture(parent, w, h, texture, ...)
 end
 
 
-function WidgetWarlock.SummonFontString(parent, a1, a2, inherit, text, ...)
-	local fs = parent:CreateFontString(a1, a2, inherit)
+function WidgetWarlock.SummonFontString(parent, layer, inherit, text, ...)
+	local fs = parent:CreateFontString(nil, layer, inherit)
 	fs:SetText(text)
 	if select(1, ...) then fs:SetPoint(...) end
 	return fs
