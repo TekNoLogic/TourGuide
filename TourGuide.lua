@@ -5,7 +5,7 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 local myfaction = UnitFactionGroup("player")
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
-if tekDebug then TourGuide:EnableDebug(1, tekDebug:GetFrame("TourGuide")) end
+if tekDebug then TourGuide:EnableDebug(10, tekDebug:GetFrame("TourGuide")) end
 TourGuide.guides = {}
 TourGuide.guidelist = {}
 TourGuide.nextzones = {}
@@ -233,7 +233,7 @@ end
 
 
 function TourGuide:CompleteQuest(name)
-	local i = self.current + 1
+	local i = self.current
 	repeat
 		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
 		if action == "TURNIN" and not turnedin and name == quest:gsub("%s%(Part %d+%)", "") then

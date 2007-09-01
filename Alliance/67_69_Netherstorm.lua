@@ -72,7 +72,7 @@ A Curse of the Violet Tower
 T Dr. Boom!
 N You should be roughly 75% to 68
 
-C Measuring Warp Energies |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)|
+C Measuring Warp Energies |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)| |U|29324|
 T Naaru Technology |N|At the console inside the building| |O|
 A B'naar Console Transcription |N|Aldor|
 C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
@@ -176,7 +176,7 @@ T Down With Daellis |N|Back at the tower|
 R Cosmowrench |N|East of Manaforge Duro (65,66)|
 f Grab flight point
 A Bloody Imp-ossible!
-C Bloody Imp-ossible! |N|Summon the imp and kill warp chasers.  You must be in melee range when they die.|
+C Bloody Imp-ossible! |N|Summon the imp and kill warp chasers.  You must be in melee range when they die.| |U|31815|
 T Bloody Imp-ossible!
 
 F Area 52

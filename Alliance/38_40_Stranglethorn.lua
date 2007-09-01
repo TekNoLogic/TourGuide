@@ -39,7 +39,7 @@ T The Bloodsail Buccaneers (Part 2) |N|Along the lower dock|
 A The Bloodsail Buccaneers (Part 3)
 T Return to MacKinley |N|In the house across from the half ship|
 A Voodoo Dues
-A Up To Snuff |N|Upstairs in the inn|
+A Up to Snuff |N|Upstairs in the inn|
 T The Bloodsail Buccaneers (Part 3)
 A The Bloodsail Buccaneers (Part 4)
 N Buy pages from the AH |N|Buy any pages you don't have.  You need these pages: 1, 4, 6, 8, 10, 11, 14, 16, 18, 20, 21, 24, 25, 26, 27|

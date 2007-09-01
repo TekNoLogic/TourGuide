@@ -52,8 +52,14 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 end
 
 
+local turninquest
 function TourGuide:QUEST_COMPLETE(event)
-	self:DebugF(1, "Quest Complete %q", GetTitleText())
+	local quest = GetTitleText()
+	self:Debug(10, "QUEST_COMPLETE", quest)
+	if self:GetQuestLogIndexByName(quest) then
+		self:DebugF(1, "Player has quest %q, turning in?", quest)
+		turninquest = quest
+	end
 --~ 	hadquest = GetTitleText()
 --~ 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
 --~ 	if (action == "TURNIN" or action == "ITEM") and logi then hadquest = quest
@@ -63,7 +69,7 @@ end
 
 function TourGuide:UNIT_QUEST_LOG_UPDATE(event, unit)
 	if unit ~= "player" or not hadquest then return end
-	self:Debug(1, "Unit quest log update")
+	self:Debug(10, "UNIT_QUEST_LOG_UPDATE")
 
 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
 	if hadquest == quest and not logi then
@@ -79,14 +85,13 @@ function TourGuide:QUEST_WATCH_UPDATE(event)
 end
 
 
-local turninquest
 function TourGuide:QUEST_FINISHED()
 	local quest = GetTitleText()
-	self:DebugF(1, "Quest Finished %q", quest)
-	if self:GetQuestLogIndexByName(quest) then
-		self:DebugF(1, "Player has quest %q, turning in?", quest)
-		turninquest = quest
-	end
+	self:Debug(10, "QUEST_FINISHED", quest)
+--~ 	if self:GetQuestLogIndexByName(quest) then
+--~ 		self:DebugF(1, "Player has quest %q, turning in?", quest)
+--~ 		turninquest = quest
+--~ 	end
 --~ 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
 --~ 	if action == "TURNIN" and logi then turninquest = quest
 --~ 	else turninquest = nil end
@@ -94,10 +99,10 @@ end
 
 
 function TourGuide:QUEST_LOG_UPDATE(event)
-	self:Debug(1, "Quest log update")
+	self:Debug(10, "QUEST_LOG_UPDATE")
 	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
 	local questturnedin = turninquest and not self:GetQuestLogIndexByName(turninquest)
-	if turninquest then self:DebugF(1, "Turned in quest %q", turninquest) end
+	if turninquest then self:DebugF(1, "Turnin quest %q (%s)", turninquest, tostring(not self:GetQuestLogIndexByName(turninquest))) end
 
 	if questturnedin then
 		self:Debug(1, "Detected early chain quest turnin, searching for quest...")

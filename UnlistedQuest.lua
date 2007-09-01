@@ -4,7 +4,7 @@ local TourGuide = TourGuide
 
 function TourGuide:IsQuestAcceptable(name)
 	for i,v in pairs(self.actions) do
-		if (v == "ACCEPT" or v == "COMPLETE" or v == "ITEM") and self.quests[i]:gsub("%s%(Part %d+%)", "") == name then return true end
+		if (v == "ACCEPT" or v == "COMPLETE") and self.quests[i]:gsub("%s%(Part %d+%)", "") == name then return true end
 	end
 end
 

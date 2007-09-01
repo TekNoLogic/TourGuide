@@ -123,9 +123,8 @@ function TourGuide:UpdateStatusFrame()
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
 			if not nextstep then
 				local incomplete
-				if action == "ITEM" then incomplete = hasitem
-				elseif action == "ACCEPT" then incomplete = (not optional or hasitem or hasuseitem) and not logi
-				elseif action == "TURNIN" then incomplete = not optional
+				if action == "ACCEPT" then incomplete = (not optional or hasitem or hasuseitem) and not logi
+				elseif action == "TURNIN" then incomplete = not optional or logi
 				elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 				else incomplete = not logi end
 				if incomplete then nextstep = i end
