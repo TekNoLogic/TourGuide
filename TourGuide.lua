@@ -5,7 +5,7 @@ local OptionHouse = DongleStub("OptionHouse-1.0")
 local myfaction = UnitFactionGroup("player")
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
-if tekDebug then TourGuide:EnableDebug(10, tekDebug:GetFrame("TourGuide")) end
+if tekDebug then TourGuide:EnableDebug(11, tekDebug:GetFrame("TourGuide")) end
 TourGuide.guides = {}
 TourGuide.guidelist = {}
 TourGuide.nextzones = {}
@@ -145,8 +145,11 @@ function TourGuide:GetObjectiveInfo(i)
 
 	local logi, complete = self:GetQuestDetails(quest)
 	local hasitem = action == "ITEM" and self.questitems[i] and self:FindBagSlot(self.questitems[i])
+	local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)x?(%d*)")
+	lootqty = tonumber(lootqty) or 1
 
-	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest, self.useitems[i], self.optional[i]
+	self:Debug(11, "GetObjectiveInfo", self.lootitems[i], lootitem, lootqty)
+	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest, self.useitems[i], self.optional[i], lootitem, lootqty
 end
 
 
@@ -155,7 +158,7 @@ local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
-	local actions, notes, quests, items, useitems, optionals = {}, {}, {}, {}, {}, {}
+	local actions, notes, quests, items, useitems, optionals, lootitems = {}, {}, {}, {}, {}, {}, {}
 	local i = 1
 
 	for j=1,select("#", ...) do
@@ -166,7 +169,7 @@ local function ParseQuests(...)
 			local _, _, action, quest = text:find("^(%a) ([^|]*)")
 			assert(actiontypes[action], "Unknown action: "..text)
 			quest = quest:trim()
-			if not (action == "I" or action == "A" or action =="C" or action =="T") then
+			if not (action == "A" or action =="C" or action =="T") then
 				quest = quest.."@"..uniqueid.."@"
 				uniqueid = uniqueid + 1
 			end
@@ -181,6 +184,9 @@ local function ParseQuests(...)
 
 			local _, _, useitem = string.find(text, "|U|(%d+)|")
 			if useitem then useitems[i] = useitem end
+
+			local _, _, lootitem = string.find(text, "|L|(%d+%s?%d*)|")
+			if lootitem then lootitems[i] = lootitem end
 
 			if string.find(text, "|O|") then optionals[i] = true end
 
@@ -209,12 +215,12 @@ local function ParseQuests(...)
 	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
 	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
 
-	return actions, notes, quests, items, useitems, optionals
+	return actions, notes, quests, items, useitems, optionals, lootitems
 end
 
 
 function TourGuide:ParseObjectives(text)
-	self.actions, self.notes, self.quests, self.questitems, self.useitems, self.optional = ParseQuests(string.split("\n", text))
+	self.actions, self.notes, self.quests, self.questitems, self.useitems, self.optional, self.lootitems = ParseQuests(string.split("\n", text))
 end
 
 
