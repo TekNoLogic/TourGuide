@@ -43,6 +43,7 @@ Horde\23_25_Stonetalon_Mountains.lua
 Horde\25_25_Southern_Barrens.lua
 Horde\25_26_Thousand_Needles.lua
 
+Horde\50_51_Blasted_Lands.lua
 Horde\51_52_UnGoro_Crater.lua
 Horde\52_53_Azshara.lua
 Horde\52_53_Burning_Steppes.lua
