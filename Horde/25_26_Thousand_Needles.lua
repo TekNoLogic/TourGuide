@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - Thousand Needles (25-26)", "Joana's - ", "Horde", function()
+TourGuide:RegisterGuide("Joana's - Thousand Needles (25-26)", "Joana's - Ashenvale (26-27)", "Horde", function()
     return [[
 R Freewind Post
 T Message to Freewind Post
@@ -8,26 +8,29 @@ A A Different Approach
 A Alien Egg
 A Wind Rider
 f Freewind Post
+
 C Pacify the Centaur
-C Test of Faith |N|(the cave at (52,43))|
+A Test of Faith |N|Cave Northeast of Freewind Post (52,43)|
+C Test of Faith |N|*WALK* off the platform, do *NOT* jump.|
+T Test of Faith |N|Do not accept "Test of Endurance" unless you're a hardcore masochist|
 C A New Ore Sample
-C Alien Egg |N|(this egg has 3 possible spawn points, either at around: (52,56)"(45,63)"(41,60))|
-C A Different Approach
+C Alien Egg |N|Look for occamy nests Southeast of Freewind Post|
+C A Different Approach |N|Rock Elementals near the Shimmering Flats|
 G Level 26 |N|Or two bars from it|
+
 R Freewind Post
 T Pacify the Centaur
 A Grimtotem Spying
 T Alien Egg
 A Serpent Wild
+
 H Camp Taurajo
 A Washte Pawne |U|5103| |O|
 T A New Ore Sample
-F Thunder Buff |N|For training|
+
+F Thunder Bluff |N|For training|
+t Abilities/Spells
 T Melor Sends Word
 A Steelsnap |N|Hunter Rise|
-A The Sacred Flame
-F Ashenvale]]
+A The Sacred Flame |N|NPC is in the area connecting Elder and Hunter Rises|]]
 end)
-
-
-
