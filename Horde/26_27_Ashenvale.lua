@@ -1,6 +1,6 @@
-
-TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", function()
+local ashenvale_data = function()
 return [[
+R Splintertree Post
 h Splintertree Post
 A Stonetalon Standstill
 A Satyr Horns
@@ -34,7 +34,7 @@ A The Hunt Completed
 T The Hunt Completed
 
 F Zoram Strand
-T Je'neu of the Earthern Ring
+T Je'neu of the Earthen Ring
 A Between a Rock and a Thistlefur
 A Troll Charm
 
@@ -43,6 +43,11 @@ C Troll Charm |N|Cave is at back of the camp (38,30)|
 T Between a Rock and a Thistlefur
 T Troll Charm
 G Grind to 27 |N|If you're not already|
+
+N Stable Pet if you dont have Bite(R4) or Claw(R4) |C|Hunter|
+N Tame Ghostpaw Alpha for Bite(R4) |C|Hunter|
+N Tame Elder Ashenvale Bear for Claw(R4) |C|Hunter|
+N Retrieve Pet |C|Hunter|
 
 A Destroy the Legion
 C Ordanus |N|Fight to top room. Just kill Ordanus, loot the head then jump out of there.|
@@ -55,5 +60,7 @@ T Destroy the Legion
 A Diabolical Plans |U|23797| |O|
 T Diabolical Plans |O|
 ]]
-end)
+end
 
+TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", ashenvale_data)
+TourGuide:RegisterGuide("Joana's - Ashenvale (26-27)", "Joana's - Stonetalon Mountains (27)", "Horde", ashenvale_data)

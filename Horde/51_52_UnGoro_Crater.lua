@@ -35,24 +35,29 @@ T The Fare of Lar'korwi
 A The Scent of Lar'korwi
 C Bone-Bladed Weapons
 C The Scent of Lar'korwi
-A It's a Secret to Everybody |N|Click the bag in the water at (63,69)|
+A It's a Secret to Everybody (Part 1) |N|Click the bag in the water at (63,69) after getting the quest from the boat|
 C Alien Ecology
 C Bungle in the Jungle
 
 A Finding the Source |N|Near the Western Lakes (30,51)|
 A Volcanic Activity
-C Finding the Source |N|Path to hotspot starts at (51,42), the hotspot is at (50,46)|
-C Lost!
-
-R Marshal's Refuge
-T Chasing A-Me 01
-T Shizzle's Flyer
+C Finding the Source |N|The hotspot is at (50,46), the path to hotspot starts on the north face. (51,42)|
+C Volcanic Activity
+C Lost! |N|Jump down from the hotspot plateau to the second cave.|
 T Lost!
+A A Little Help from My Friends
+
+R Marshal's Refuge |N|Escort him to Marshal's Refuge, hotkey the Canteen|
+T Shizzle's Flyer
+T A Little Help from My Friends
+T Chasing A-Me 01
 T Beware of Pterrordax!
 T Roll the Bones
 T Alien Ecology
 T Expedition Salvation
 T Larion and Muigin
+T It's a Secret to Everybody (Part 1)
+A It's a Secret to Everybody (Part 2)
 T Crystals of Power
 A The Northern Pylon
 A The Eastern Pylon
@@ -68,14 +73,17 @@ C The Bait for Lar'korwi
 T The Bait for Lar'korwi
 T The Mighty U'cha
 
-T Finding the Source |N|Grind westward towards (30,51), kill oozes as you go|
+T Finding the Source |N|Grind westward towards (30.9,50.4), kill oozes as you go|
 A The New Springs
 C The Western Pylon |N|Pylon at (23,58)|
 
-R Marshal's Refuge |N|Kill more oozes along the way|
+R Marshal's Refuge |N|Kill more oozes along the way if you have less then 30 ooze samples, otherwise run to Silithus and get FP then fly back to Marshal's Refuge|
 
-N Turn in all quests
-N Make sure "Making Sense of It" is completed (in cave)
+C The Northern Pylon
+C The Eastern Pylon
+C The Western Pylon
+A Making Sense of It
+C Making Sense of It
 
 N Make sure you have at least 30 ooze samples for "... and a Batch of Ooze"
 
