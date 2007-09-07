@@ -192,97 +192,105 @@ t Train (Level 68) |N|Port to a city, of course|
 
 H Area 52
 N You should now be about 45-50% to 69
+
+C Shutting Down Manaforge B'naar |N|Kill Overseer Theredis inside the manaforge, talk to the console|
+C Pick Your Part |N|At The Heap (27,77)|
+C A Heap of Ethereals
+
+T Pick Your Part |N|Back at Area 52|
+A In A Scrap With The Legion
+A "Help Mama Wheeler
+T A Heap of Ethereals
+A Warp-Raider Nesaad
+T Shutting Down Manaforge B'naar
+A Shutting Down Manaforge Coruu
+A Attack on Manaforge Coruu
+
+C Warp-Raider Nesaad |N|Back at The Heap (27,80)|
+C Shutting Down Manaforge Coruu |N|East over the bridge (46,81).  Kill Overseer Seylanna (49,81) and use the console, like before.|
+C Attack on Manaforge Coruu
+
+A Drijya Needs Your Help |N|Northwest inside the dome (46,56)|
+T Help Mama Wheeler
+A One Demon's Trash...
+A Run a Diagnostic!
+A New Opportunities
+A Keeping Up Appearances
+T Drijya Needs Your Help |N|To the south, skip his escort quest unless you have help|
+
+C One Demon's Trash... |N|North at The Scrap Field (50,59)|
+C In A Scrap With The Legion
+C Run a Diagnostic! |N|A bit further north (48,55)|
+C Keeping Up Appearances |N|Run around in the dome killing lynx|
+C New Opportunities
+
+T One Demon's Trash...
+A Declawing Doomclaw
+T New Opportunities
+T Run a Diagnostic!
+A Deal With the Saboteurs
+T Keeping Up Appearances
+A The Dynamic Duo
+
+R Area 52
+T In A Scrap With The Legion
+T Warp-Raider Nesaad
+A Request For Assistance
+T Shutting Down Manaforge Coruu
+A Shutting Down Manaforge Duro
+T Attack on Manaforge Coruu
+A Sunfury Briefings
+
+R Midrealm Post
+T Request for Assistance
+A Rightful Repossession
+
+C Declawing Doomclaw |N|East from the dome (50,57)|
+C Shutting Down Manaforge Duro |N|East at Manaforge Duro.  You know the drill, kill Overseer Athanel (60,68)|
+C Rightful Repossession
+C Sunfury Briefings
+
+T Rightful Repossession
+A An Aucience with the Prince
+T Declawing Doomclaw
+A Warn Area 52!
+
+R Area 52
+T Warn Area 52!
+A Doctor Vomisa, PH.T.
+T Shutting Down Manaforge Duro |N|Skip "Shutting Down Manaforge Ara"|
+T Sunfury Briefings
+A Outside Assistance
+T Doctor Vomisa, PH.T. |N|East out of town at a little tent (37,63).  Skip You, Robot|
+
+C Deal With the Saboteurs |N|Crocs at the lake in the Eco-Dome (46,53)|
+A To the Stormspire |N|Back at Midrealm Post|
+N You should be ~80% to 69
+
+R Stormspire |N|Follow the road out to the bigger dome (41,32)|
+A Flora of the Eco-Domes
+T To the Stormspire
+A Diagnosis: Critical
+A Surveying the Ruins
+A The Minions of Culuthas
+A Fel Reavers, No Thanks!
+f Grab flight point
+T An Audience with the Prince
+A Triangulation Point One
+T The Dynamic Duo
+A Retrieving the Goods
+
+h Stormspire
+
+C Flora of the Eco-Domes |U|29818| |N|Use the modulator on the lashers, then kill them|
+C Diagnosis: Critical |N|At the generator to the northeast (47,27)|
+C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers are at (51,20), (54,22), (55,19)
+C The Minions of Culuthas
+C Fel Reavers, No Thanks! |N|West at Forge Camp: Oblivion (37,28), kill Mekgineers for 5 gas, use on one of the reavers (35,28), (36,25), (37,25). You only need to do this on ONE reaver!|
+
 ]]
 
 
---~ 75) Go out the west entrance and follow it to Manaforge B'naar and go inside to the south part and you'll find
---~ Overseer Theredis who you need to kill for the access crystal then use it on the control console on the
---~ other side of the room and click begin emergency shutdown for "Shutting Down Manaforge B'naar" now
---~ wait 2 minutes, Some technicians will come try to stop it but they are easy to kill
---~ 76) Go SE to The Heap at 27,77 and start killing the Zaxxis for "A Heap of Ethereals" and look around the
---~ camp for Ethereal Technology for "Pick Your Part"
---~ 77) Go back north to Area 52 and enter on the east side, go to Papa Wheeler and turn in "Pick Your Part"
---~ accept "In A Scrap With The Legion" and "Help Mama Wheeler"
---~ 78) Go to the Ethereal Khay'ji by the Inn and turn in "A Heap of Ethereals" accept "Warp-Raider Nesaad" and
---~ SKIP the other one unless you have more than 10 extra insignias
---~ 79) Go in the Inn to Karja and turn in "Shutting Down Manaforge B'naar" accept "Shutting Down Manaforge
---~ Coruu" then next to her from Orelis accept "Attack on Manaforge Coruu"
---~ 80) Go back down to The Heap to Warp-Raider Nesaad at 27,80 and kill him for "Warp-Raider Nesaad" he's
---~ fairly easy, he has 1 guard an another moving guard so you can pull him with just 1 add
---~ 81) Go east over the bridge to Manaforge Coruu at 46,81 and kill the Arcanists outside and Researchers inside
---~ for "Attack on Manaforge Coruu" while you're inside you'll find Overseer Seylanna at 49,81 who will drop
---~ the access crystal then go to the control console like before and hit begin shutdown and again wait 2
---~ minutes. Kill the techs that try to stop it
---~ 82) Go NW into Eco-Dome Midrealm to 46,56 which is the Midrealm Post
---~ 83) At Gahruj accept "Drijya Needs Your Help" then at Mama Wheeler turn in "Help Mama Wheeler" accept
---~ "One Demon's Trash..."
---~ 84) At Mehrdad accept "Run a Diagnostic!" and "New Opportunities" then at Shauly Pore (It's the We ee easle
---~ Buddddddy) accept "Keeping Up Appearances"
---~ 85) Go south to Drijya and turn in "Drijya Needs Your Help" SKIP his escort quest unless you get friends
---~ 86) Go north to The Scrap Field at 50,59 and kill the doomsmiths and engineers for "In A Scrap With The
---~ Legion" and look for fel reaver parts for "One Demon's Trash..."
---~ 87) Go a little bit north now to 48,55 and you'll see the diagnostic equipment for "Run a Diagnostic!"
---~ 88) Now Go around in the eco-dome killing the ripfang lynx for "Keeping Up Appearances" the drop rate is
---~ about 50% and also keep an eye out for Ivory Bells for "New Opportunities" they grow around the base of
---~ other trees and plants
---~ 89) Go back to Midrealm Post at 46,56 to Mama Wheeler and turn in "One Demon's Trash..." accept
---~ "Declawing Doomclaw"
---~ 90) Go to Mehrdad and turn in "New Opportunities" and "Run a Diagnostic!" accept "Deal With the Saboteurs"
---~ then go up to Shauly and turn in "Keeping Up Appearances" accept "The Dynamic Duo"
---~ 91) Go west to Area 52 and see Papa Wheeler and turn in "In A Scrap With The Legion" then go to Khay'ji and
---~ turn in "Warp-Raider Nesaad" accept "Request For Assistance"
---~ 92) Go in the Inn to Karja and turn in "Shutting Down Manaforge Coruu" accept "Shutting Down Manaforge
---~ Duro" at Orelis next to her, turn in "Attack on Manaforge Coruu" accept "Sunfury Briefings" and possibly
---~ friendly with The Sha'tar
---~ 93) Go back east to Midrealm Post turn in "Request for Assistance" accept "Rightful Repossession"
---~ 94) If you go through the eco-dome to the east side, you can exit above The Scrap Field and go all the way
---~ over to 50,57 where Doomclaw is, unless you want to grind through, for "Declawing Doomclaw" he's a big
---~ baby. He was hitting for about 150
---~ 95) Go east to Manaforge Duro and kill archers and centurions for the military briefing and the conjurers for
---~ the arcane briefing for "Sunfury Briefings" also look for the boxes of surveying equipment for "Rightful
---~ Repossession"
---~ 96) At the southern part of the building at 60,68 is Overseer Athanel who will drop the access crustal for
---~ "Shutting Down Manaforge Duro" then go to the control console like before, start the shutdown and wait 2
---~ minutes while keeping the technicians and protectors away from it
---~ 97) Go back west to the eco-dome to Midrealm Post and talk to Gahruj, turn in "Rightful Repossession" accept
---~ "An Aucience with the Prince"
---~ 98) At Mama Wheeler turn in "Declawing Doomclaw" accept "Warn Area 52!"
---~ 99) Go to Area 52 and as you enter speak with Fuselage and turn in "Warn Area 52!" accept "Doctor Vomisa,
---~ PH.T."
---~ 100) Go into the Inn to Karja and turn in "Shutting Down Manaforge Duro" SKIP "Shutting Down Manaforge
---~ Ara" then at Orelis turn in "Sunfury Briefings" accept "Outside Assistance"
---~ 101) Go east to the little tent at 37,63 and turn in "Doctor Vomisa, PH.T." SKIP "You, Robot" it's fun to try
---~ it out and possibly solo it but I don't think it's likely. Both the robot and Negatron (transformers ripoff?)
---~ have a ton of health
---~ 102) Go in the Eco-Dome to the lake at 46,53 and kill the crocolisks for "Deal With the Saboteurs" then run
---~ back to the midrealm post and turn it in to Mehrdad then accept "To the Stormspire"
---~ 103) Now we’ve done only about half of Netherstorm and we’ve done so many quests already. You should
---~ be about 80-85% to 69
---~ 104) Follow the road through the eco-dome and across the bridge into the bigger eco-dome up to 41,32
---~ which is Stormspire
---~ 105) At the bottom of the elevator is Aurine Moonblaze, accept "Flora of the Eco-Domes" then take the
---~ elevator up
---~ 106) Go ahead to Ghabar and turn in "To the Stormspire" accept "Diagnosis: Critical" then go left and in
---~ between the building and the ramp up is Zephyrion, accept "Surveying the Ruins" then from Nauthis
---~ accept "The Minions of Culuthas" and "Fel Reavers, No Thanks!"
---~ 107) Go up the ramp and to the left grab the FP then go in the building and talk to the hologram of
---~ Haramad and turn in "An Audience with the Prince" accept "Triangulation Point One"
---~ 108) Leave the building and go left to Audi the Needle and turn in "The Dynamic Duo" accept "Retrieving
---~ the Goods"
---~ 109) Go down and into the Inn and make it your home
---~ 110) Go down the elevator and get near the lashers and use the energy field modulator near them which
---~ will mutate them and then kill it for "Flora of the Eco-Domes"
---~ 111) Go NE to the Sutheron generator and use the diagnostic device for "Diagnosis: Critical"
---~ 112) Go a tiny bit NE, just outside the eco-dome, to the Ruins of Farahlon and start killing eyes and houds
---~ of Culuthas for "The Minions of Culuthas" also use the surveying markers at the draenei banners for
---~ "Surveying the Ruins" maker one is placed at 51,20 marker 2 is placed on the other side (not up higher)
---~ at 54,22 and marker 3 is placed higher up this side at 55,19
---~ 113) Go west into Forge Camp: Oblivion at 37,28 and start killing the Gan'arg Mekgineer for condensed
---~ nether gas, get 5 of them then go up to each of the Inactive Fel Reavers and turn in the quest to complete
---~ the shutdown for "Fel Reavers, No Thanks!" They are located at 35,28 36,25 and 37,25. Don’t be a noob
---~ like me the first time. I thought you only need 5 gases to shut down 5 reavers and after turning in one I
---~ noticed I needed 5 more, thinking I had to shut down all 5. After shutting down 3 I realized it was
---~ complete LOL
 --~ 114) Go down to Tuluman's Landing at 34,38 and at Kaylaan turn in "Outside Assistance" accept "A Dark
 --~ Pact" then go to Tuluman and accept "Dealing with the Foreman" then to Oazul and accept "Neutralizing
 --~ the Nethermancers"

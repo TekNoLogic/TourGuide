@@ -27,7 +27,7 @@ T Liquid Stone |O|
 
 N Tame a Ridge Stalker Patriarch |N|(20,53) For Dash and Prowl (Rank 2)| |C|Hunter|
 H Thelsamar |C|Hunter|
-N Switch back to your cat |N|Don't dismiss the Badlands cat!|
+N Switch back to your cat |N|Don't dismiss the Badlands cat!| |C|Hunter|
 R Badlands |C|Hunter|
 
 C Mirages |N|Grind your way to the crate in the northwest (66,21)|

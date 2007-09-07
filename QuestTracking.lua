@@ -4,7 +4,7 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_FINISHED", "QUEST_LOG_UPDATE",
+TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE",
 	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA"}
 
 
@@ -60,10 +60,6 @@ function TourGuide:QUEST_COMPLETE(event)
 		self:DebugF(1, "Player has quest %q, turning in?", quest)
 		turninquest = quest
 	end
---~ 	hadquest = GetTitleText()
---~ 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
---~ 	if (action == "TURNIN" or action == "ITEM") and logi then hadquest = quest
---~ 	else hadquest = nil end
 end
 
 
@@ -82,19 +78,6 @@ end
 
 function TourGuide:QUEST_WATCH_UPDATE(event)
 	if self:GetCurrentObjectiveInfo() == "COMPLETE" then self:UpdateStatusFrame() end
-end
-
-
-function TourGuide:QUEST_FINISHED()
-	local quest = GetTitleText()
-	self:Debug(10, "QUEST_FINISHED", quest)
---~ 	if self:GetQuestLogIndexByName(quest) then
---~ 		self:DebugF(1, "Player has quest %q, turning in?", quest)
---~ 		turninquest = quest
---~ 	end
---~ 	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
---~ 	if action == "TURNIN" and logi then turninquest = quest
---~ 	else turninquest = nil end
 end
 
 

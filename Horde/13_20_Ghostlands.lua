@@ -117,7 +117,7 @@ C Attack on Zeb'Tela
 T Attack on Zeb'Tela
 A Assault on Zeb'Nowa
 T Hints of the Past
-A Report To Magister Kaendris
+A Report to Magister Kaendris
 
 C Troll Juju
 C Investigate the Amani Catacombs
@@ -140,7 +140,7 @@ T Shadowpine Weaponry
 T Deactivate An'owyn |N|(60,35)|
 
 R Sanctum of the Sun
-T Report To Magister Kaendris
+T Report to Magister Kaendris
 A The Twin Ziggurats
 A War on Deatholme
 A Clearing the Way |N|(46,56)|
