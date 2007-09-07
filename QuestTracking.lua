@@ -4,7 +4,7 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "UNIT_QUEST_LOG_UPDATE", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE",
+TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE",
 	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA"}
 
 
@@ -44,11 +44,11 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 
 	if quest:gsub("%s%(Part %d+%)", "") == text then
 		self:DebugF(1, "Detected quest turnin %q", quest)
-		return self:SetTurnedIn()
+--~ 		return self:SetTurnedIn()
 	end
 
 	self:Debug(1, "Detected early turnin, searching for quest...")
-	self:CompleteQuest(text)
+--~ 	self:CompleteQuest(text)
 end
 
 
@@ -60,19 +60,6 @@ function TourGuide:QUEST_COMPLETE(event)
 		self:DebugF(1, "Player has quest %q, turning in?", quest)
 		turninquest = quest
 	end
-end
-
-
-function TourGuide:UNIT_QUEST_LOG_UPDATE(event, unit)
-	if unit ~= "player" or not hadquest then return end
-	self:Debug(10, "UNIT_QUEST_LOG_UPDATE")
-
-	local action, quest, note, logi, complete, hasitem, turnedin = self:GetCurrentObjectiveInfo()
-	if hadquest == quest and not logi then
-		self:DebugF(1, "Chain turnin detected, %q - %q", action, quest)
-		self:UpdateStatusFrame()
-	end
-	hadquest = nil
 end
 
 
@@ -89,9 +76,9 @@ function TourGuide:QUEST_LOG_UPDATE(event)
 
 	if questturnedin then
 		self:Debug(1, "Detected early chain quest turnin, searching for quest...")
-		self:CompleteQuest(turninquest)
+--~ 		self:CompleteQuest(turninquest)
 	elseif action == "ACCEPT" then self:UpdateStatusFrame()
-	elseif action == "TURNIN" and turninquest == quest and not logi then self:SetTurnedIn()
+--~ 	elseif action == "TURNIN" and turninquest == quest and not logi then self:SetTurnedIn()
 	elseif action == "COMPLETE" and complete then self:UpdateStatusFrame() end
 	turninquest = nil
 end
@@ -116,4 +103,14 @@ function TourGuide:UI_INFO_MESSAGE(event, msg)
 		self:Debug(1, "Discovered flight point")
 		self:SetTurnedIn()
 	end
+end
+
+
+local orig = GetQuestReward
+GetQuestReward = function(...)
+	local quest = GetTitleText()
+	TourGuide:Debug(10, "GetQuestReward", quest)
+	TourGuide:CompleteQuest(quest)
+
+	return orig(...)
 end

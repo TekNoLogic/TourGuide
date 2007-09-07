@@ -119,20 +119,20 @@ A Assault on Zeb'Nowa
 T Hints of the Past
 A Report to Magister Kaendris
 
-C Troll Juju
+C Troll Juju |N|West of the enclave (66,29).  Work your way to the questgiver inside in a cage (63,33)|
 C Investigate the Amani Catacombs
 A Escape from the Catacombs
 C Escape from the Catacombs
+T Escape from the Catacombs
 
-R Zeb'Nowa |N|South|
+R Zeb'Nowa |N|South (68,51)|
+C A Little Dash of Seasoning |N|Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75n)|
 C Shadowpine Weaponry
 C Assault on Zeb'Nowa
-C A Little Dash of Seasoning |N|Fish rack (68,57), raw meat rack (65,66), smoked meat rack (62,74)|
 C Bring Me Kel'gash's Head! |N|He's elite, if you can't solo him get a group or come back later (65,79)| |O|
 C Deactivate An'owyn
 
 R Farstrider Enclave
-T Escape from the Catacombs
 T Bring Me Kel'gash's Head! |O|
 T Assault on Zeb'Nowa
 T A Little Dash of Seasoning

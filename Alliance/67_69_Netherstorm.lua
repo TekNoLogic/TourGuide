@@ -199,14 +199,14 @@ C A Heap of Ethereals
 
 T Pick Your Part |N|Back at Area 52|
 A In A Scrap With The Legion
-A "Help Mama Wheeler
+A Help Mama Wheeler
 T A Heap of Ethereals
 A Warp-Raider Nesaad
 T Shutting Down Manaforge B'naar
 A Shutting Down Manaforge Coruu
 A Attack on Manaforge Coruu
 
-C Warp-Raider Nesaad |N|Back at The Heap (27,80)|
+C Warp-Raider Nesaad |N|Back at The Heap (28,80)|
 C Shutting Down Manaforge Coruu |N|East over the bridge (46,81).  Kill Overseer Seylanna (49,81) and use the console, like before.|
 C Attack on Manaforge Coruu
 
@@ -235,7 +235,7 @@ A The Dynamic Duo
 R Area 52
 T In A Scrap With The Legion
 T Warp-Raider Nesaad
-A Request For Assistance
+A Request for Assistance
 T Shutting Down Manaforge Coruu
 A Shutting Down Manaforge Duro
 T Attack on Manaforge Coruu
@@ -269,7 +269,8 @@ N You should be ~80% to 69
 
 R Stormspire |N|Follow the road out to the bigger dome (41,32)|
 A Flora of the Eco-Domes
-T To the Stormspire
+T Deal With the Saboteurs
+A To the Stormspire
 A Diagnosis: Critical
 A Surveying the Ruins
 A The Minions of Culuthas
