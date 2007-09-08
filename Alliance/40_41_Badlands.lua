@@ -1,14 +1,23 @@
 
 TourGuide:RegisterGuide("Badlands (40-41)", nil, "Alliance", function()
 return [[
+B [Frost Oil] |N|From AH|
+B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|
+B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
+B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
+A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)|
+
+N Upgrade your ammo! |C|Hunter|
+
 F Loch Modan
 N Stable your pet |C|Hunter|
 h Thelsamar
-A Badlands Reagent Run |N|In the house behind the Inn|
-A Find Agmond (65,65)
+A Badlands Reagent Run |N|In the house behind the Inn (37,49)|
+T Ironband Wants You! |N|Ironband's Excavation Site (65,65)|
+A Find Agmond
 
 R Badlands |N|(46,76)|
-A Fiery Blaze Enchantment |N|(42,52)|
+A Fiery Blaze Enchantments |N|(54,43)|
 A Mirages
 A A Dwarf and His Tools
 T Martek the Exiled |N|(42,52)|
@@ -17,20 +26,12 @@ A Barbecued Buzzard Wings
 A Pearl Diving
 
 N Kill any buzzards you see |N|For "Barbecued Buzzard Wings" and "Badlands Reagent Run"|
-A Study of the Elements: Rock (Part 1) |N|From Lotwil Veriatus (24,44)|
-A Coolant Heads Prevail |I|3829| |O|
-T Coolant Heads Prevail |O|
-A Gyro... What? |I|4389| |O|
-T Gyro... What? |O|
-A Liquid Stone |I|3823| |O|
-T Liquid Stone |O|
-
 N Tame a Ridge Stalker Patriarch |N|(20,53) For Dash and Prowl (Rank 2)| |C|Hunter|
 H Thelsamar |C|Hunter|
 N Switch back to your cat |N|Don't dismiss the Badlands cat!| |C|Hunter|
 R Badlands |C|Hunter|
 
-C Mirages |N|Grind your way to the crate in the northwest (66,21)|
+C Mirages |N|Grind your way to the crate in the northwest at Camp Kosh (66,21)|
 A A Sign of Hope (Part 1) |N|Grind your way to the dig site (53,29).  Note is on the right side of the dig (53,33)|
 C A Dwarf and His Tools |N|Kill the dwarfs|
 
@@ -43,8 +44,7 @@ A A Sign of Hope (Part 2)
 A Tremors of the Earth (Part 1) |N|From a blood elf to the southeast (61,54).  Grind along the way.|
 N Keep an eye out for the ogre pack |N|They spawn to the south of the questgiver (62,70).  They patrol down to the southwest side of the zone and back in a circle.  You should be able to pick Boss Tho'grun off the back of the pack easily|
 
-C Scrounging |N|To the south (62,70)|
-T Find Agmond |N|Grind to the dead dorf (50,62)|
+T Find Agmond |N|To the south to the Ogre camp (62,70), clear it, then grind to the dead dorf (50,62)|
 A Murdaloc
 C Murdaloc |N|To the south in the trogg camp|
 C Indurium
@@ -53,6 +53,14 @@ C Barbecued Buzzard Wings
 T Barbecued Buzzard Wings |N|Back at the neutral camp in the center of the zone (42,52)|
 T Indurium
 A News for Fizzle
+
+A Study of the Elements: Rock (Part 1) |N|From Lotwil Veriatus to the west (24,44)|
+A Coolant Heads Prevail |I|3829| |O|
+T Coolant Heads Prevail |O|
+A Gyro... What? |I|4389| |O|
+T Gyro... What? |O|
+A Liquid Stone |I|3823| |O|
+T Liquid Stone |O|
 
 C Study of the Elements: Rock (Part 1) |N|Kill Lesser Rock Elementals to the west near Kargath (18,41)|
 T Study of the Elements: Rock (Part 1) |N|(26,44)|

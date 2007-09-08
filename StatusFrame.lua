@@ -24,8 +24,6 @@ f:SetBackdrop(ww.TooltipBorderBG)
 f:SetBackdropColor(0,0,0,0.3)
 f:SetBackdropBorderColor(0,0,0,0.7)
 
-TourGuide:Debug(1, "Frame strata", f:GetFrameStrata())
-
 local check = ww.SummonCheckBox(20, f, "LEFT", 8, 0)
 local icon = ww.SummonTexture(f, "ARTWORK", 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
 local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormal", nil, "RIGHT", -12, 0)
@@ -232,7 +230,7 @@ local function ShowTooltip(self)
  	GameTooltip:SetOwner(self, "ANCHOR_NONE")
 	local quad, vhalf, hhalf = GetQuadrant(self)
 	local anchpoint = vhalf..(hhalf == "LEFT" and "RIGHT" or "LEFT")
-	TourGuide:Debug(10, "Setting tooltip anchor", anchpoint, quad, hhalf, vhalf)
+	TourGuide:Debug(11, "Setting tooltip anchor", anchpoint, quad, hhalf, vhalf)
 	GameTooltip:SetPoint(quad, self, anchpoint)
 	GameTooltip:SetText(tip, nil, nil, nil, nil, true)
 end

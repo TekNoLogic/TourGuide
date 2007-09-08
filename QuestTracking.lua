@@ -4,7 +4,7 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_COMPLETE", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE",
+TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE",
 	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA"}
 
 
@@ -38,28 +38,6 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 			return self:UpdateStatusFrame()
 		end
 	end
-
-	local _, _, text = msg:find("(.*) completed.")
-	if not text then return end
-
-	if quest:gsub("%s%(Part %d+%)", "") == text then
-		self:DebugF(1, "Detected quest turnin %q", quest)
---~ 		return self:SetTurnedIn()
-	end
-
-	self:Debug(1, "Detected early turnin, searching for quest...")
---~ 	self:CompleteQuest(text)
-end
-
-
-local turninquest
-function TourGuide:QUEST_COMPLETE(event)
-	local quest = GetTitleText()
-	self:Debug(10, "QUEST_COMPLETE", quest)
-	if self:GetQuestLogIndexByName(quest) then
-		self:DebugF(1, "Player has quest %q, turning in?", quest)
-		turninquest = quest
-	end
 end
 
 
@@ -71,16 +49,8 @@ end
 function TourGuide:QUEST_LOG_UPDATE(event)
 	self:Debug(10, "QUEST_LOG_UPDATE")
 	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
-	local questturnedin = turninquest and not self:GetQuestLogIndexByName(turninquest)
-	if turninquest then self:DebugF(1, "Turnin quest %q (%s)", turninquest, tostring(not self:GetQuestLogIndexByName(turninquest))) end
 
-	if questturnedin then
-		self:Debug(1, "Detected early chain quest turnin, searching for quest...")
---~ 		self:CompleteQuest(turninquest)
-	elseif action == "ACCEPT" then self:UpdateStatusFrame()
---~ 	elseif action == "TURNIN" and turninquest == quest and not logi then self:SetTurnedIn()
-	elseif action == "COMPLETE" and complete then self:UpdateStatusFrame() end
-	turninquest = nil
+	if action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
 end
 
 

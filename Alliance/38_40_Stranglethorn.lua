@@ -59,18 +59,7 @@ F Ironforge
 
 t Train (Level 40)
 B Mount
-B [Frost Oil] |N|From AH|
-B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|
-B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
-B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
-
-N Upgrade your ammo! |C|Hunter|
 ]]
-
---~ 35) Fly to Loch Modan Stable your pet and make Thelsamar your home
---~ 36) Go in the house behind the Inn, accept “Badlands Reagent Run”
---~ 37) Run to 65,65 and accept “Find Agmond”
---~ 38) Run down into Badlands at 46,76
 
 end)
 
