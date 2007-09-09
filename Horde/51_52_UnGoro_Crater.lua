@@ -106,10 +106,5 @@ t Train!
 H The Crossroads
 F Ratchet
 T Volcanic Activity
-T Marvon's Workshop
-
-F Kargath
-T Vivian Lagrave
-A Dreadmaul Rock
-A Rise of the Machines (Part 1)]]
+T Marvon's Workshop]]
 end)

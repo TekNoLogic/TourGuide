@@ -11,7 +11,6 @@
 ## OptionalDeps: Dongle, Optionhouse, TomTom, tekErr
 
 ## DefaultState: disabled
-
 Dongle.lua
 OptionHouse.lua
 WidgetWarlock.lua
@@ -45,8 +44,10 @@ Horde\25_26_Thousand_Needles.lua
 
 Horde\50_51_Blasted_Lands.lua
 Horde\51_52_UnGoro_Crater.lua
-Horde\52_53_Azshara.lua
 Horde\52_53_Burning_Steppes.lua
+Horde\52_53_Azshara.lua
+Horde\54_54_Felwood.lua
+Horde\54_55_Winterspring.lua
 
 Alliance\01_06_Shadowglen.lua
 Alliance\06_12_Teldrassil.lua
