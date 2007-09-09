@@ -11,6 +11,10 @@
 ## OptionalDeps: Dongle, Optionhouse, TomTom, tekErr
 
 ## DefaultState: disabled
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
 Dongle.lua
 OptionHouse.lua
 WidgetWarlock.lua
