@@ -72,6 +72,8 @@ function TourGuide:Enable()
 	oh:RegisterCategory("Objectives", TourGuide, "CreateObjectivePanel")
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
+	self:RegisterEvent("QUEST_COMPLETE", "UpdateStatusFrame")
+	self:RegisterEvent("QUEST_DETAIL", "UpdateStatusFrame")
 	self.TrackEvents = nil
 	self:UpdateStatusFrame()
 end
@@ -224,7 +226,7 @@ function TourGuide:ParseObjectives(text)
 end
 
 
-function TourGuide:SetTurnedIn(i, value)
+function TourGuide:SetTurnedIn(i, value, noupdate)
 	if not i then
 		i = self.current
 		value = true
@@ -234,17 +236,17 @@ function TourGuide:SetTurnedIn(i, value)
 
 	self.turnedin[self.quests[i]] = value
 	self:DebugF(1, "Set turned in %q = %s", self.quests[i], tostring(value))
-	self:UpdateStatusFrame()
+	if not noupdate then self:UpdateStatusFrame() end
 end
 
 
-function TourGuide:CompleteQuest(name)
+function TourGuide:CompleteQuest(name, noupdate)
 	local i = self.current
 	repeat
 		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
 		if action == "TURNIN" and not turnedin and name == quest:gsub("%s%(Part %d+%)", "") then
 			self:DebugF(1, "Saving early quest turnin %q", quest)
-			return self:SetTurnedIn(i, true)
+			return self:SetTurnedIn(i, true, noupdate)
 		end
 		i = i + 1
 	until not action

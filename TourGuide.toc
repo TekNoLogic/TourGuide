@@ -53,6 +53,10 @@ Horde\52_53_Azshara.lua
 Horde\54_54_Felwood.lua
 Horde\54_55_Winterspring.lua
 
+James_Alliance\41_42_Stranglethorn.lua
+James_Alliance\43_Tanaris.lua
+James_Alliance\43_45_Feralas.lua
+
 Alliance\01_06_Shadowglen.lua
 Alliance\06_12_Teldrassil.lua
 Alliance\38_40_Stranglethorn.lua

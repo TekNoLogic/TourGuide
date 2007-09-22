@@ -60,7 +60,7 @@ function TourGuide:CHAT_MSG_LOOT(event, msg)
 	self:Debug(10, event, msg:gsub("|","||"), action, quest, lootitem, lootqty, itemid, name)
 
 	if action == "BUY" and name and name == quest
-	or action == "NOTE" and lootitem and itemid == lootitem and (GetItemCount(lootitem) + 1) >= lootqty then
+	or (action == "BUY" or action == "NOTE") and lootitem and itemid == lootitem and (GetItemCount(lootitem) + 1) >= lootqty then
 		return self:SetTurnedIn()
 	end
 end
@@ -80,7 +80,7 @@ local orig = GetQuestReward
 GetQuestReward = function(...)
 	local quest = GetTitleText()
 	TourGuide:Debug(10, "GetQuestReward", quest)
-	TourGuide:CompleteQuest(quest)
+	TourGuide:CompleteQuest(quest, true)
 
 	return orig(...)
 end
