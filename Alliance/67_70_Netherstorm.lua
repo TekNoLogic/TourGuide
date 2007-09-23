@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Netherstorm (67-69)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Netherstorm (67-70)", nil, "Alliance", function()
 return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
 A Off To Area 52 |N|On Gyro-Plank Bridge|
@@ -251,26 +251,26 @@ C Rightful Repossession
 C Sunfury Briefings
 
 T Rightful Repossession
-A An Aucience with the Prince
+A An Audience with the Prince
 T Declawing Doomclaw
 A Warn Area 52!
 
 R Area 52
 T Warn Area 52!
-A Doctor Vomisa, PH.T.
+A Doctor Vomisa, Ph.T.
 T Shutting Down Manaforge Duro |N|Skip "Shutting Down Manaforge Ara"|
 T Sunfury Briefings
 A Outside Assistance
-T Doctor Vomisa, PH.T. |N|East out of town at a little tent (37,63).  Skip You, Robot|
+T Doctor Vomisa, Ph.T. |N|East out of town at a little tent (37,63).  Skip You, Robot|
 
 C Deal With the Saboteurs |N|Crocs at the lake in the Eco-Dome (46,53)|
 A To the Stormspire |N|Back at Midrealm Post|
 N You should be ~80% to 69
 
-R Stormspire |N|Follow the road out to the bigger dome (41,32)|
+R The Stormspire |N|Follow the road out to the bigger dome (41,32)|
 A Flora of the Eco-Domes
 T Deal With the Saboteurs
-A To the Stormspire
+T To the Stormspire
 A Diagnosis: Critical
 A Surveying the Ruins
 A The Minions of Culuthas
@@ -284,127 +284,131 @@ A Retrieving the Goods
 h Stormspire
 
 C Flora of the Eco-Domes |U|29818| |N|Use the modulator on the lashers, then kill them|
-C Diagnosis: Critical |N|At the generator to the northeast (47,27)|
-C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers are at (51,20), (54,22), (55,19)
+C Diagnosis: Critical |N|At the generator to the northeast (47,27)| |U|29803|
+C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers are at (51,20), (54,22), (55,19)| |U|29445|
 C The Minions of Culuthas
 C Fel Reavers, No Thanks! |N|West at Forge Camp: Oblivion (37,28), kill Mekgineers for 5 gas, use on one of the reavers (35,28), (36,25), (37,25). You only need to do this on ONE reaver!|
 
+T Outside Assistance |N|Tuluman's Landing (34,38)|
+A A Dark Pact
+A Dealing with the Foreman
+A Neutralizing the Nethermancers
+
+C Neutralizing the Nethermancers |N|At Manaforge Ara|
+C A Dark Pact |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
+T Dealing with the Foreman |N|In the Trelleum Mine (26,42)|
+A Dealing with the Overmaster
+C Dealing with the Overmaster |N|Down the tunnel, right then left|
+
+H Stormspire
+T Diagnosis: Critical
+A Testing the Prototype
+T Surveying the Ruins
+T The Minions of Culuthas
+T Fel Reavers, Not Thanks!
+A The Best Defense
+T Flora of the Eco-Domes |N|Bottom of the elevator|
+A Creatures of the Eco-Domes
+
+C Creatures of the Eco-Domes |N|Fight down to 20% and tag em| |U|29817|
+T Creatures of the Eco-Domes
+A When Nature Goes Too Far
+C When Nature Goes Too Far |N|At the lake to the northeast (44,28)|
+T When Nature Goes Too Far
+T A Dark Pact |N|At Tuluman's Landing (34,38)|
+A Aldor No More
+T Dealing with the Overmaster
+T Neutralizing the Nethermancers
+
+C The Best Defense |N|Northwest at Forge Base: Gehenna (39,21)|
+T Testing the Prototype |N|Northeast at Eco-Dome Farfield (44,14)|
+A All Clear!
+C All Clear!
+C Retrieving the Goods
+T All Clear!
+A Success!
+T Success! |N|Back up on the Starmspire|
+T The Best Defense
+A Teleport This!
+T Retrieving the Goods
+
+C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18), (44,20)|
+T Teleport This!
+
+F Area 52
+T Aldor No More
+H Stormspire
+A A Not-So-Modest Proposal |N|At Protectorate Watch Post (58,31)|
+A Electro-Shock Goodness!
+A The Ethereum
+A Recipe for Destruction
+A Captain Tyralius
+
+
 ]]
 
-
---~ 114) Go down to Tuluman's Landing at 34,38 and at Kaylaan turn in "Outside Assistance" accept "A Dark
---~ Pact" then go to Tuluman and accept "Dealing with the Foreman" then to Oazul and accept "Neutralizing
---~ the Nethermancers"
---~ 115) While around Ara you need to kill Gan'arg Warp-Tinkerers (near top outside and in cave), Daughters
---~ of Destiny (near nethermancers outside), and Mo'arg Warp-Masters (near top inside and outside and in
---~ cave) for "A Dark Pact" (you don’t need anything up here besides the Daughters) as well as
---~ Nethermancers for "Neutralizing the Nethermancers"
---~ 116) Once you get the daughters and the nethermancers, go down into the Trelleum Mine at 26,42 and at
---~ Foreman Sundown turn in "Dealing with the Foreman" accept "Dealing with the Overmaster" the
---~ overmaster is at the end of the tunnel. At the first fork you can only go right, at the second go left and
---~ he's at the end
---~ 117) Hearth back to The Stormspire
---~ 118) As you exit the Inn, go left towards the elevator and talk to Ghabar and turn in "Diagnosis: Critical"
---~ accept "Testing the Prototype"
---~ 119) Go between the left building and the up ramp to Zephyrion and turn in "Surveying the Ruins"
---~ 120) Beside him turn in "The Minions of Culuthas" and "Fel Reavers, Not Thanks!" accept "The Best
---~ Defense" and you should now be friendly with the Consortium.
---~ 121) Go down the elevator and talk to Aurine Moonblaze and turn in "Flora of the Eco-Domes" accept
---~ "Creatures of the Eco-Domes"
---~ 122) You should definitely be 69 by now and about 5-10% into it
---~ Netherstorm 69-70
---~ 123) Now similar to the last quest with mutating the lashers, you have to attack either Talbuk does or sires
---~ until they're 20% or less on life, then use the talbuk tagger on them for "Creatures of the Eco-Domes" It
---~ doesn’t kill them it just knocks them out but they won’t attack when they get back up. It’s possible to stay
---~ in the same camp of talbuks to finish this since you don’t kill them
---~ 124) Once you're done with this head back to Aurine Moonblaze near the elevator and turn it in and accept
---~ "When Nature Goes Too Far"
---~ 125) Go NE a tiny bit to the lake at 44,28 and kill Markaru, the big hydra, then go back near the elevator
---~ and turn it in
---~ 126) Go south to Tuluman's Landing at 34,38 and go to Kaylaan and turn in "A Dark Pact" accept "Aldor No
---~ More"
---~ 127) Go to Tuluman and turn in "Dealing with the Overmaster" then beside him turn in "Neutralizing the
---~ Nethermancers"
---~ 128) Go NW into Forge Base: Gehenna at 39,21 and start killing wrathbringers for "The Best Defense"
---~ 129) Go NE into Eco-Dome Farfield at 44,14 to Tashar and turn in "Testing the Prototype" accept "All
---~ Clear!" and start killing the raptors for it and collecting the dome generator segments for "Retrieving the
---~ Goods" they're just laying on the ground next to a few eggs, not really in a nest like you'd think that is
---~ guarded. Once you're done head back to Tashar at 44,14 and turn in "All Clear!" then wait for him to do
---~ his repairs and accept "Success!"
---~ 130) Run back down to Stormspire and up the elevator go to Ghabar and turn in "Success!"
---~ 131) Go between the left building and the upramp to Nauthis and turn in "The Best Defense" accept
---~ "Teleport This!" then go up the ramp to Audi the Needle and turn in "Retrieving the Goods"
---~ 132) Go back west to Forge Base: Gehenna and get near each teleporter and use the mental interference
---~ rod on the cyber-rage forgelords for "The Best Defense". The western teleporter is at 39,20 the central
---~ teleporter is at 41,18 and the eastern teleporter is at 44,20
---~ 133) Go back to Stormspire to Nauthis and turn it in
---~ 134) Fly to Area 52 and go in the Inn to Orelis and turn in "Aldor No More" then hearth back to Stormspire
---~ 135) You should be 25-30% to 70
---~ 136) Run NE through the Ruins of Farahlon over the bridge into Protectorate Watch Post at 58,31
---~ 137) As you enter talk to Wind Trader Marid and accept "A Not-So-Modest Proposal"
---~ 138) Up some more at Navuud accept "Electro-Shock Goodness!" then next to him from Ameer accept "The
---~ Ethereum"
---~ 139) Then up at Dabiri accept "Recipe for Destruction" then from Viridius, who walks around, accept
---~ "Captain Tyralius"
---~ 140) Drink Navuud’s Concoction and hit the void wastes to split them into globules for the first part of
---~ "Electro-Shock Goodness!" down in the staging grounds where we’re about to go
---~ 141) Go just south of here into the Ethereum Staging Grounds at 56,38 and start killing for "The
---~ Ethereum" Captain Zovax wanders around. Once you're done you have to use the transponder zeta at
---~ 56,38 and Ameer will appear. Turn it in and accept "Ethereum Data" then to the south a tiny bit at 55,39
---~ is the data cell, grab it and go turn it in to Ameer at the portal and accept "Potential For Brain Damage=
---~ High"
---~ 142) Now you have to kill the guys for their essence. Drink the essence and you have a 30 second buff to
---~ see the fish like relays floating around that you have to kill for the relay data. You should be able to get 1-
---~ 2 datas per essence you drink
---~ 143) Turn it back in to Ameer at the portal and accept "S-A-B-O-T-A-G-E" then kill an archon or overlord
---~ until you get a prepared ethereum wrapping then go back to the teleporter and turn it in and accept
---~ "Delivering the Message" and protect the demolitionist (easiest way is to either clear it first, or let stuff
---~ attack him. It does that thing where it chases him but doesn’t hit him) then go back to the teleporter and
---~ turn it in and SKIP the next part
---~ 144) Just a bit SW there is warden Icoshock, kill him for the key but don't use it on any of the prisons
---~ around him. They're duds. The real prison is just behind the Nexus-King Salhadaar at 53,41 open it for
---~ "Captain Tyralius"
---~ 145) Go east to 59,45 and speak with Araxes and accept "The Flesh Lies..." then enter the mine, Access
---~ Shaft Zeon and use the lighter on the withered corpses. Don't get too close or they spawn into parasitic
---~ fleshbeasts. As you enter the tunnel you can go left, keep left until you end up at 60,41 and you'll see Ya
---~ six and the power pack, accept "Arconus the Insatiable" and he’ll give you his hologram to help then grab
---~ the power pack for "A Not-So-Modest Proposal" then go back up towards the entrance and go deeper in,
---~ staying right until you hit the big room at 60,39 and kill Arconus the Insatiable then leave the cave and
---~ return to Araxes just outside at 59,45 and turn in "The Flesh Lies..."
---~ 146) Go up around Manaforge Ultris and drink Navuud's Concoction and hit the seeping sludges to split
---~ them into globules for the other part of "Electro-Shock Goodness!" also kill the unstable voidwraiths and
---~ the voidshriekers here for "Recipe for Destruction"
---~ 147) Go to 66,33 and you should get the complete message for "Triangulation Point One" if not use the
---~ triangualtion device and a hunters mark will appear where you have to stand
---~ 148) Go east into the Celestial Ridge and down the long path through the nether drakes and at the bottom
---~ at 70,39 you'll see the teleporter right as the ramp down ends. Use it and Marid will appear, turn in "A
---~ Not-So-Modest Proposal" accept "Getting Down to Business"
---~ 149) Now go around kill any of the nether drakes or dragons for their essence for this then turn it in at the
---~ Shrouded Figure just behind the teleporter at 70,38 and accept "Formal Introductions" then go a tiny bit
---~ north to 71,35 to Tyri and turn it in and accept "A Promising Start"
---~ 150) Now go around the ridge collecting nether dragonkin eggs laying around the crystals then go back to
---~ Tyri and turn it in and accept "Troublesome Distractions"
---~ 151) Ride back west to Protectorate Watch Post at 58,31 and talk to Dabiri next to the nether drake and
---~ turn in "Recipe for Destruction" and accept "On Nethery Wings" then find Viridius walking around and turn
---~ in "Captain Tyralius"
---~ 152) Go to Navuud and turn in "Electro-Shock Goodness!" then to Ameer and turn in "Arconus the
---~ Insatiable"
---~ 153) Go to Hazzin and turn in "Triangulation Point One" accept "Triangulation Point Two" then go to Marid
---~ and talk to him to lure him away and then kill him for "Troublesome Distractions". He has 2 68 guards but
---~ they drop easy
---~ 154) Talk to the nether drake now and he'll fly you up top of Ultris, as it spirals you up, keep tossing the
---~ mana bombs until the void conduit is destroyed. Pretty easy to kill if you spam the bombs. When you land
---~ turn in "On Nethery Wings" SKIP "Dimensius the All-Devouring"
---~ 155) Go east down into the Celestial Ridge again to Tyri at 71,35 and turn in "Troublesome Distractions"
---~ SKIP "Securing the Celestial Ridge"
---~ 156) Hearth to Stormspire then go SW into Manaforge Ara to 28,41 and you should get complete for
---~ "Triangulation Point Two" this spot is near the forge and around mobs so you probably have to run in and
---~ over it. Again I'm not sure if you need to have the mark on it to get the point but I think you do
---~ 157) Now go to Tuluman at Tuluman's Landing at 34,37 and turn it in and SKIP "Full Triangle"
---~ 158) Now head back to Stormspire
---~ 159) Now we go one of 2 places. If you want the skills you can train at 69 go to Shattrath and make it your
---~ home then portal to a town and hearth back. If not, or after getting skills, fly to Allerian Stronghold and
---~ east to the bridge at 71,50 and enter Shadowmoon Valley
+--[[
+|U|29737|
+140) Drink Navuud’s Concoction and hit the void wastes to split them into globules for the first part of
+"Electro-Shock Goodness!" down in the staging grounds where we’re about to go
+141) Go just south of here into the Ethereum Staging Grounds at 56,38 and start killing for "The
+Ethereum" Captain Zovax wanders around. Once you're done you have to use the transponder zeta at
+56,38 and Ameer will appear. Turn it in and accept "Ethereum Data" then to the south a tiny bit at 55,39
+is the data cell, grab it and go turn it in to Ameer at the portal and accept "Potential For Brain Damage=
+High"
+142) Now you have to kill the guys for their essence. Drink the essence and you have a 30 second buff to
+see the fish like relays floating around that you have to kill for the relay data. You should be able to get 1-
+2 datas per essence you drink
+143) Turn it back in to Ameer at the portal and accept "S-A-B-O-T-A-G-E" then kill an archon or overlord
+until you get a prepared ethereum wrapping then go back to the teleporter and turn it in and accept
+"Delivering the Message" and protect the demolitionist (easiest way is to either clear it first, or let stuff
+attack him. It does that thing where it chases him but doesn’t hit him) then go back to the teleporter and
+turn it in and SKIP the next part
+144) Just a bit SW there is warden Icoshock, kill him for the key but don't use it on any of the prisons
+around him. They're duds. The real prison is just behind the Nexus-King Salhadaar at 53,41 open it for
+"Captain Tyralius"
+145) Go east to 59,45 and speak with Araxes and accept "The Flesh Lies..." then enter the mine, Access
+Shaft Zeon and use the lighter on the withered corpses. Don't get too close or they spawn into parasitic
+fleshbeasts. As you enter the tunnel you can go left, keep left until you end up at 60,41 and you'll see Ya
+six and the power pack, accept "Arconus the Insatiable" and he’ll give you his hologram to help then grab
+the power pack for "A Not-So-Modest Proposal" then go back up towards the entrance and go deeper in,
+staying right until you hit the big room at 60,39 and kill Arconus the Insatiable then leave the cave and
+return to Araxes just outside at 59,45 and turn in "The Flesh Lies..."
+146) Go up around Manaforge Ultris and drink Navuud's Concoction and hit the seeping sludges to split
+them into globules for the other part of "Electro-Shock Goodness!" also kill the unstable voidwraiths and
+the voidshriekers here for "Recipe for Destruction"
+147) Go to 66,33 and you should get the complete message for "Triangulation Point One" if not use the
+triangualtion device and a hunters mark will appear where you have to stand
+148) Go east into the Celestial Ridge and down the long path through the nether drakes and at the bottom
+at 70,39 you'll see the teleporter right as the ramp down ends. Use it and Marid will appear, turn in "A
+Not-So-Modest Proposal" accept "Getting Down to Business"
+149) Now go around kill any of the nether drakes or dragons for their essence for this then turn it in at the
+Shrouded Figure just behind the teleporter at 70,38 and accept "Formal Introductions" then go a tiny bit
+north to 71,35 to Tyri and turn it in and accept "A Promising Start"
+150) Now go around the ridge collecting nether dragonkin eggs laying around the crystals then go back to
+Tyri and turn it in and accept "Troublesome Distractions"
+151) Ride back west to Protectorate Watch Post at 58,31 and talk to Dabiri next to the nether drake and
+turn in "Recipe for Destruction" and accept "On Nethery Wings" then find Viridius walking around and turn
+in "Captain Tyralius"
+152) Go to Navuud and turn in "Electro-Shock Goodness!" then to Ameer and turn in "Arconus the
+Insatiable"
+153) Go to Hazzin and turn in "Triangulation Point One" accept "Triangulation Point Two" then go to Marid
+and talk to him to lure him away and then kill him for "Troublesome Distractions". He has 2 68 guards but
+they drop easy
+154) Talk to the nether drake now and he'll fly you up top of Ultris, as it spirals you up, keep tossing the
+mana bombs until the void conduit is destroyed. Pretty easy to kill if you spam the bombs. When you land
+turn in "On Nethery Wings" SKIP "Dimensius the All-Devouring"
+155) Go east down into the Celestial Ridge again to Tyri at 71,35 and turn in "Troublesome Distractions"
+SKIP "Securing the Celestial Ridge"
+156) Hearth to Stormspire then go SW into Manaforge Ara to 28,41 and you should get complete for
+"Triangulation Point Two" this spot is near the forge and around mobs so you probably have to run in and
+over it. Again I'm not sure if you need to have the mark on it to get the point but I think you do
+157) Now go to Tuluman at Tuluman's Landing at 34,37 and turn it in and SKIP "Full Triangle"
+158) Now head back to Stormspire
+159) Now we go one of 2 places. If you want the skills you can train at 69 go to Shattrath and make it your
+home then portal to a town and hearth back. If not, or after getting skills, fly to Allerian Stronghold and
+east to the bridge at 71,50 and enter Shadowmoon Valley
+--]]
 
 end)
 
