@@ -219,7 +219,7 @@ check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
 
 
 item:HookScript("OnClick", function()
-	if self:GetCurrentObjectiveInfo() == "USE" then self:SetTurnedIn() end
+	if TourGuide:GetCurrentObjectiveInfo() == "USE" then TourGuide:SetTurnedIn() end
 end)
 
 

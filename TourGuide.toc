@@ -29,6 +29,13 @@ QuestTracking.lua
 Horde\01_05_SunstriderIsle.lua
 Horde\05_13_Eversong.lua
 Horde\13_20_Ghostlands.lua
+
+Horde\01_12_Durotar.lua
+Horde\12_15_Barrens.lua
+
+Horde\23_25_Stonetalon_Mountains.lua
+Horde\25_25_Southern_Barrens.lua
+Horde\25_26_Thousand_Needles.lua
 Horde\26_27_Ashenvale.lua
 Horde\27_StonetalonMountains.lua
 Horde\27_29_ThousandNeedles.lua
@@ -39,13 +46,6 @@ Horde\27_29_ThousandNeedles.lua
 ##Horde\32_34_Desolace.lua
 ##Horde\34_36_StranglethornVale.lua
 
-Horde\01_12_Durotar.lua
-Horde\12_15_Barrens.lua
-
-Horde\23_25_Stonetalon_Mountains.lua
-Horde\25_25_Southern_Barrens.lua
-Horde\25_26_Thousand_Needles.lua
-
 Horde\50_51_Blasted_Lands.lua
 Horde\51_52_UnGoro_Crater.lua
 Horde\52_53_Burning_Steppes.lua
@@ -53,13 +53,12 @@ Horde\52_53_Azshara.lua
 Horde\54_54_Felwood.lua
 Horde\54_55_Winterspring.lua
 
-James_Alliance\41_42_Stranglethorn.lua
-James_Alliance\43_Tanaris.lua
-James_Alliance\43_45_Feralas.lua
-
 Alliance\01_06_Shadowglen.lua
 Alliance\06_12_Teldrassil.lua
 Alliance\38_40_Stranglethorn.lua
 Alliance\40_41_Badlands.lua
+Alliance\41_42_Stranglethorn.lua
+Alliance\43_Tanaris.lua
+Alliance\43_45_Feralas.lua
 Alliance\66_67_BladesEdge.lua
-Alliance\67_69_Netherstorm.lua
+Alliance\67_70_Netherstorm.lua
