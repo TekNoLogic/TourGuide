@@ -1,3 +1,54 @@
+-- LibStub is a simple versioning stub meant for use in Libraries.  http://www.wowace.com/wiki/LibStub for more info
+-- LibStub is hereby placed in the Public Domain
+-- Credits: Kaelten, Cladhaire, ckknight, Mikk, Ammo, Nevcairiel, joshborke
+local LIBSTUB_MAJOR, LIBSTUB_MINOR = "LibStub", 2  -- NEVER MAKE THIS AN SVN REVISION! IT NEEDS TO BE USABLE IN ALL REPOS!
+local LibStub = _G[LIBSTUB_MAJOR]
+
+-- Check to see is this version of the stub is obsolete
+if not LibStub or LibStub.minor < LIBSTUB_MINOR then
+	LibStub = LibStub or {libs = {}, minors = {} }
+	_G[LIBSTUB_MAJOR] = LibStub
+	LibStub.minor = LIBSTUB_MINOR
+	
+	-- LibStub:NewLibrary(major, minor)
+	-- major (string) - the major version of the library
+	-- minor (string or number ) - the minor version of the library
+	-- 
+	-- returns nil if a newer or same version of the lib is already present
+	-- returns empty library object or old library object if upgrade is needed
+	function LibStub:NewLibrary(major, minor)
+		assert(type(major) == "string", "Bad argument #2 to `NewLibrary' (string expected)")
+		minor = assert(tonumber(strmatch(minor, "%d+")), "Minor version must either be a number or contain a number.")
+		
+		local oldminor = self.minors[major]
+		if oldminor and oldminor >= minor then return nil end
+		self.minors[major], self.libs[major] = minor, self.libs[major] or {}
+		return self.libs[major], oldminor
+	end
+	
+	-- LibStub:GetLibrary(major, [silent])
+	-- major (string) - the major version of the library
+	-- silent (boolean) - if true, library is optional, silently return nil if its not found
+	--
+	-- throws an error if the library can not be found (except silent is set)
+	-- returns the library object if found
+	function LibStub:GetLibrary(major, silent)
+		if not self.libs[major] and not silent then
+			error(("Cannot find a library instance of %q."):format(tostring(major)), 2)
+		end
+		return self.libs[major], self.minors[major]
+	end
+	
+	-- LibStub:IterateLibraries()
+	-- 
+	-- Returns an iterator for the currently registered libraries
+	function LibStub:IterateLibraries() 
+		return pairs(self.libs) 
+	end
+	
+	setmetatable(LibStub, { __call = LibStub.GetLibrary })
+end
+
 --[[-------------------------------------------------------------------------
   Copyright (c) 2006-2007, Dongle Development Team
   All rights reserved.
@@ -28,142 +79,21 @@
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ---------------------------------------------------------------------------]]
-local major = "DongleStub"
-local minor = tonumber(string.match("$Revision: 313 $", "(%d+)") or 1)
-
-local g = getfenv(0)
-
-if not g.DongleStub or g.DongleStub:IsNewerVersion(major, minor) then
-	local lib = setmetatable({}, {
-		__call = function(t,k) 
-			if type(t.versions) == "table" and t.versions[k] then 
-				return t.versions[k].instance
-			else
-				error("Cannot find a library with name '"..tostring(k).."'", 2)
-			end
-		end
-	})
-
-	function lib:IsNewerVersion(major, minor)
-		local versionData = self.versions and self.versions[major]
-
-		-- If DongleStub versions have differing major version names
-		-- such as DongleStub-Beta0 and DongleStub-1.0-RC2 then a second
-		-- instance will be loaded, with older logic.  This code attempts
-		-- to compensate for that by matching the major version against
-		-- "^DongleStub", and handling the version check correctly.
-
-		if major:match("^DongleStub") then
-			local oldmajor,oldminor = self:GetVersion()
-			if self.versions and self.versions[oldmajor] then
-				return minor > oldminor
-			else
-				return true
-			end
-		end
-
-		if not versionData then return true end
-		local oldmajor,oldminor = versionData.instance:GetVersion()
-		return minor > oldminor
-	end
-	
-	local function NilCopyTable(src, dest)
-		for k,v in pairs(dest) do dest[k] = nil end
-		for k,v in pairs(src) do dest[k] = v end
-	end
-
-	function lib:Register(newInstance, activate, deactivate)
-		assert(type(newInstance.GetVersion) == "function",
-			"Attempt to register a library with DongleStub that does not have a 'GetVersion' method.")
-
-		local major,minor = newInstance:GetVersion()
-		assert(type(major) == "string",
-			"Attempt to register a library with DongleStub that does not have a proper major version.")
-		assert(type(minor) == "number",
-			"Attempt to register a library with DongleStub that does not have a proper minor version.")
-
-		-- Generate a log of all library registrations
-		if not self.log then self.log = {} end
-		table.insert(self.log, string.format("Register: %s, %s", major, minor))
-
-		if not self:IsNewerVersion(major, minor) then return false end
-		if not self.versions then self.versions = {} end
-
-		local versionData = self.versions[major]
-		if not versionData then
-			-- New major version
-			versionData = {
-				["instance"] = newInstance,
-				["deactivate"] = deactivate,
-			}
-			
-			self.versions[major] = versionData
-			if type(activate) == "function" then
-				table.insert(self.log, string.format("Activate: %s, %s", major, minor))
-				activate(newInstance)
-			end
-			return newInstance
-		end
-		
-		local oldDeactivate = versionData.deactivate
-		local oldInstance = versionData.instance
-		
-		versionData.deactivate = deactivate
-		
-		local skipCopy
-		if type(activate) == "function" then
-			table.insert(self.log, string.format("Activate: %s, %s", major, minor))
-			skipCopy = activate(newInstance, oldInstance)
-		end
-
-		-- Deactivate the old libary if necessary
-		if type(oldDeactivate) == "function" then
-			local major, minor = oldInstance:GetVersion()
-			table.insert(self.log, string.format("Deactivate: %s, %s", major, minor))
-			oldDeactivate(oldInstance, newInstance)
-		end
-
-		-- Re-use the old table, and discard the new one
-		if not skipCopy then
-			NilCopyTable(newInstance, oldInstance)
-		end
-		return oldInstance
-	end
-
-	function lib:GetVersion() return major,minor end
-
-	local function Activate(new, old)
-		-- This code ensures that we'll move the versions table even
-		-- if the major version names are different, in the case of 
-		-- DongleStub
-		if not old then old = g.DongleStub end
-
-		if old then
-			new.versions = old.versions
-			new.log = old.log
-		end
-		g.DongleStub = new
-	end
-	
-	-- Actually trigger libary activation here
-	local stub = g.DongleStub or lib
-	lib = stub:Register(lib, Activate)
-end
 
 --[[-------------------------------------------------------------------------
   Begin Library Implementation
 ---------------------------------------------------------------------------]]
-local major = "OptionHouse-1.0"
-local minor = tonumber(string.match("$Revision: 581 $", "(%d+)") or 1)
+local major = "OptionHouse-1.1"
+local minor = tonumber(string.match("$Revision: 619 $", "(%d+)") or 1)
 
-assert(DongleStub, string.format("%s requires DongleStub.", major))
+assert(LibStub, string.format("%s requires LibStub.", major))
 
-if( not DongleStub:IsNewerVersion(major, minor) ) then return end
+local OHInstance, oldRevision = LibStub:NewLibrary(major, minor)
+if( not OHInstance ) then return end
 
 local L = {
 	["ERROR_NO_FRAME"] = "No frame returned for the addon \"%s\", category \"%s\", sub category \"%s\".",
 	["NO_FUNC_PASSED"] = "You must associate a function with a category.",
-	["IS_PRIVATEAPI"] = "You are trying to call a private api from a non-OptionHouse module.",
 	["BAD_ARGUMENT"] = "bad argument #%d to '%s' (%s expected, got %s)",
 	["MUST_CALL"] = "You must call '%s' from an OptionHouse addon object.",
 	["ADDON_ALREADYREG"] = "The addon '%s' is already registered with OptionHouse.",
@@ -173,6 +103,7 @@ local L = {
 	["NO_SUBCATEXISTS"] = "No sub-category '%s' exists in '%s' for the addon '%s'.",
 	["NO_PARENTCAT"] = "No parent category named '%s' exists in %s'",
 	["SUBCATEGORY_ALREADYREG"] = "The sub-category named '%s' already exists in the category '%s' for '%s'",
+	["UNKNOWN_FRAMETYPE"] = "Unknown frame type given '%s', only 'main', 'perf', 'addon', 'config' are supported.",
 	["OPTION_HOUSE"] = "Option House",
 	["ENTERED_COMBAT"] = "|cFF33FF99Option House|r: Configuration window closed due to entering combat.",
 	["SEARCH"] = "Search...",
@@ -182,7 +113,6 @@ local L = {
 	["TOTAL_SUBCATEGORIES"] = "Sub Categories: %d",
 	["TAB_MANAGEMENT"] = "Management",
 	["TAB_PERFORMANCE"] = "Performance",
-	["UNKNOWN_FRAMETYPE"] = "Unknown frame type requested '%s', only 'main', 'perf', 'addon', 'config' are supported.",
 }
 
 local function assert(level,condition,message)
@@ -217,10 +147,10 @@ local frame
 -- TABS
 local function resizeTab(tab)
 	local textWidth = tab:GetFontString():GetWidth()
-	
+
 	tab.middleActive:SetWidth(textWidth)
 	tab.middleInactive:SetWidth(textWidth)
-	
+
 	tab:SetWidth((2 * tab.leftActive:GetWidth()) + textWidth)
 	tab.highlightTexture:SetWidth(textWidth + 20)
 end
@@ -228,11 +158,11 @@ end
 local function tabSelected(tab)
 	tab:SetTextColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b)
 	tab.highlightTexture:Hide()
-	
+
 	tab.leftActive:Show()
 	tab.middleActive:Show()
 	tab.rightActive:Show()
-	
+
 	tab.leftInactive:Hide()
 	tab.middleInactive:Hide()
 	tab.rightInactive:Hide()
@@ -241,7 +171,7 @@ end
 local function tabDeselected(tab)
 	tab:SetTextColor(NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b)
 	tab.highlightTexture:Show()
-	
+
 	tab.leftInactive:Show()
 	tab.middleInactive:Show()
 	tab.rightInactive:Show()
@@ -255,7 +185,7 @@ local function setTab(id)
 	if( frame.selectedTab ) then
 		tabDeselected(frame.tabs[frame.selectedTab])
 	end
-	
+
 	frame.selectedTab = id
 	tabSelected(frame.tabs[id])
 end
@@ -315,12 +245,12 @@ local function createTab(text, id)
 		tab:SetID(id)
 		tab:SetScript("OnClick", tabOnClick)
 		tab:GetFontString():SetPoint("CENTER", 0, 2)
-		
+
 		tab.highlightTexture = tab:GetHighlightTexture()
 		tab.highlightTexture:ClearAllPoints()
 		tab.highlightTexture:SetPoint("CENTER", tab:GetFontString(), 0, 0)
 		tab.highlightTexture:SetBlendMode("ADD")
-		
+
 		-- TAB SELECTED TEXTURES
 		tab.leftActive = tab:CreateTexture(nil, "ARTWORK")
 		tab.leftActive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ActiveTab")
@@ -342,7 +272,7 @@ local function createTab(text, id)
 		tab.rightActive:SetWidth(20)
 		tab.rightActive:SetPoint("LEFT", tab.middleActive, "RIGHT")
 		tab.rightActive:SetTexCoord(0.84375, 1.0, 0, 1.0)
-		
+
 		-- TAB DESELECTED TEXTURES
 		tab.leftInactive = tab:CreateTexture(nil, "ARTWORK")
 		tab.leftInactive:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-InActiveTab")
@@ -371,10 +301,10 @@ local function createTab(text, id)
 
 	tab:SetText(text)
 	tab:Show()
-	
+
 	tabDeselected(tab)
 	resizeTab(tab)
-	
+
 	if( id == 1 ) then
 		tab:SetPoint("TOPLEFT", frame, "BOTTOMLEFT", 15, 11)
 	else
@@ -387,8 +317,8 @@ local function onVerticalScroll(self, offset)
 	offset = ceil(offset)
 
 	self.bar:SetValue(offset)
-	self.offset = ceil((offset / self.displayNum))
-	
+	self.offset = ceil(offset / self.displayNum)
+
 	if( self.offset < 0 ) then
 		self.offset = 0
 	end
@@ -404,13 +334,14 @@ local function onVerticalScroll(self, offset)
 	if( max == offset ) then
 		self.down:Disable()
 	else
-		self.down:Enable()	
+		self.down:Enable()
 	end
 
 	self.updateFunc()
 end
 
 local function onMouseWheel(self, offset)
+	if( self.scroll ) then self = self.scroll end
 	if( offset > 0 ) then
 		self.bar:SetValue(self.bar:GetValue() - (self.bar:GetHeight() / 2))
 	else
@@ -424,7 +355,7 @@ end
 
 local function updateScroll(scroll, totalRows)
 	local max = (totalRows - scroll.displayNum) * scroll.displayNum
-	
+
 	-- Macs are unhappy if max is less then the min
 	if( max < 0 ) then
 		max = 0
@@ -447,10 +378,26 @@ local function updateScroll(scroll, totalRows)
 	end
 end
 
+local function onValueChanged(self, offset)
+	self:GetParent():SetVerticalScroll(offset)
+end
+
+local function scrollButtonUp(self)
+	local parent = self:GetParent()
+	parent:SetValue(parent:GetValue() - (parent:GetHeight() / 2))
+	PlaySound("UChatScrollButton")
+end
+
+local function scrollButtonDown(self)
+	local parent = self:GetParent()
+	parent:SetValue(parent:GetValue() + (parent:GetHeight() / 2))
+	PlaySound("UChatScrollButton")
+end
+
 local function createScrollFrame(frame, displayNum, onScroll)
 	frame:EnableMouseWheel(true)
 	frame:SetScript("OnMouseWheel", onParentMouseWheel)
-	
+
 	frame.scroll = CreateFrame("ScrollFrame", nil, frame)
 	frame.scroll:EnableMouseWheel(true)
 	frame.scroll:SetWidth(16)
@@ -461,16 +408,14 @@ local function createScrollFrame(frame, displayNum, onScroll)
 	frame.scroll.offset = 0
 	frame.scroll.displayNum = displayNum
 	frame.scroll.updateFunc = onScroll
-	
+
 	-- Actual bar for scrolling
 	frame.scroll.bar = CreateFrame("Slider", nil, frame.scroll)
 	frame.scroll.bar:SetValueStep(frame.scroll.displayNum)
 	frame.scroll.bar:SetMinMaxValues(0, 0)
 	frame.scroll.bar:SetValue(0)
 	frame.scroll.bar:SetWidth(16)
-	frame.scroll.bar:SetScript("OnValueChanged", function(self, offset)
-		self:GetParent():SetVerticalScroll(offset)
-	end)
+	frame.scroll.bar:SetScript("OnValueChanged", onValueChanged)
 	frame.scroll.bar:SetPoint("TOPLEFT", frame.scroll, "TOPRIGHT", 6, -16)
 	frame.scroll.bar:SetPoint("BOTTOMLEFT", frame.scroll, "BOTTOMRIGHT", 6, -16)
 
@@ -478,21 +423,13 @@ local function createScrollFrame(frame, displayNum, onScroll)
 	frame.scroll.up = CreateFrame("Button", nil, frame.scroll.bar, "UIPanelScrollUpButtonTemplate")
 	frame.scroll.up:ClearAllPoints()
 	frame.scroll.up:SetPoint( "BOTTOM", frame.scroll.bar, "TOP" )
-	frame.scroll.up:SetScript("OnClick", function(self)
-		local parent = self:GetParent()
-		parent:SetValue(parent:GetValue() - (parent:GetHeight() / 2))
-		PlaySound("UChatScrollButton")
-	end)
+	frame.scroll.up:SetScript("OnClick", scrollButtonUp)
 
 	frame.scroll.down = CreateFrame("Button", nil, frame.scroll.bar, "UIPanelScrollDownButtonTemplate")
 	frame.scroll.down:ClearAllPoints()
 	frame.scroll.down:SetPoint( "TOP", frame.scroll.bar, "BOTTOM" )
-	frame.scroll.down:SetScript("OnClick", function(self)
-		local parent = self:GetParent()
-		parent:SetValue(parent:GetValue() + (parent:GetHeight() / 2))
-		PlaySound("UChatScrollButton")
-	end)
-	
+	frame.scroll.down:SetScript("OnClick", scrollButtonDown)
+
 	-- That square thingy that shows where the bar is
 	frame.scroll.bar:SetThumbTexture("Interface\\Buttons\\UI-ScrollBar-Knob")
 	local thumb = frame.scroll.bar:GetThumbTexture()
@@ -517,7 +454,7 @@ local function createScrollFrame(frame, displayNum, onScroll)
 	frame.scroll.barDownTexture:SetTexCoord(0.515625, 1.0, 0, 0.4140625)
 end
 
--- SEARCH INPUt
+-- SEARCH INPUT
 local function focusGained(self)
 	if( self.searchText ) then
 		self.searchText = nil
@@ -665,12 +602,6 @@ local function addCategoryListing(name, addon)
 		end
 	end
 
-	if( not data ) then
-		data = {}
-	end
-
-	data.orderID = string.lower(name)
-
 	addCategoryRow("addon", name, (addon.version or addon.author) and tooltip, data, nil, name)
 end
 
@@ -680,138 +611,6 @@ local function createCategoryListing()
 
 	for name, addon in pairs(addons) do
 		addCategoryListing(name, addon)
-	end
-end
-
--- Displays the actual button
-local function displayCategoryRow(type, text, data, tooltip, highlighted)
-	local frame = regFrames.addon
-	
-	-- We have to let this run completely
-	-- so we know how many rows we have total
-	frame.totalRows = frame.totalRows + 1
-	if( frame.totalRows <= frame.offset or frame.rowID >= 15 ) then
-		return
-	end
-	
-	frame.rowID = frame.rowID + 1
-
-	local button = frame.buttons[frame.rowID]
-	local line = frame.lines[frame.rowID]
-
-	if( highlighted ) then
-		button:LockHighlight()
-	else
-		button:UnlockHighlight()
-	end
-	
-	if( type == "addon" ) then
-		button:SetText(text)
-		button:GetFontString():SetPoint("LEFT", button, "LEFT", 4, 0)
-		button:GetNormalTexture():SetAlpha(1.0)
-		line:Hide()
-
-	elseif( type == "category" ) then
-		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE)
-		button:GetFontString():SetPoint("LEFT", button, "LEFT", 12, 0)
-		button:GetNormalTexture():SetAlpha(0.4)
-		line:Hide()
-
-	elseif( type == "subcat" ) then
-		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE)
-		button:GetFontString():SetPoint("LEFT", button, "LEFT", 20, 0)
-		button:GetNormalTexture():SetAlpha(0.0)
-		line:SetTexCoord(0, 0.4375, 0, 0.625)
-		line:Show()
-	end
-
-	button.tooltip = tooltip
-	button.data = data
-	button.type = type
-	button.catText = text
-	button:Show()
-end
-
-local function updateConfigList()
-	local frame = regFrames.addon
-	frame.offset = frame.scroll.offset
-	frame.rowID = 0
-	frame.totalRows = 0
-
-	local lastID
-	local searchBy = string.trim(string.lower(frame.search:GetText()))
-	if( searchBy == "" or frame.search.searchText ) then
-		searchBy = nil
-	end
-
-	-- Make sure stuff matches our search results
-	for id, row in pairs(frame.categories) do
-		if( searchBy and not string.match(string.lower(row.name), searchBy) ) then
-			frame.categories[id].hide = true
-		else
-			frame.categories[id].hide = nil
-		end
-	end
-
-	-- Resort list if needed
-	if( frame.resortList ) then
-		table.sort(frame.categories, sortCategories)
-		frame.resortList = nil
-	end
-
-	-- Now display
-	for _, addon in pairs(frame.categories) do
-		if( not addon.hide and addon.type == "addon" ) then
-			-- Total addons
-			if( addon.name == frame.selectedAddon ) then
-				displayCategoryRow(addon.type, addon.name, addon.data, addon.tooltip, true)
-
-				for _, cat in pairs(frame.categories) do
-					-- Show all the categories with the addon as the parent
-					if( not cat.hide and cat.parent == addon.name and cat.type == "category" ) then
-						-- Total categories of the selected addon
-						if( cat.name == frame.selectedCategory ) then
-							displayCategoryRow(cat.type, cat.name, cat.data, cat.tooltip, true)
-
-							local rowID
-							for _, subCat in pairs(frame.categories) do
-								-- We don't have to check type, because it's the only one that has .addon set
-								if( not subCat.hide and subCat.parent == cat.name and subCat.addon == addon.name ) then
-									-- Total sub categories of the selected addons selected category
-									displayCategoryRow(subCat.type, subCat.name, subCat.data, subCat.tooltip, subCat.name == frame.selectedSubCat)
-									lastID = frame.rowID
-								end
-							end
-
-							-- Turns the line from straight down to a curve at the end
-							if( lastID ) then
-								frame.lines[lastID]:SetTexCoord(0.4375, 0.875, 0, 0.625)
-							end
-						else
-							displayCategoryRow(cat.type, cat.name, cat.data, cat.tooltip)
-						end
-					end
-				end
-			else
-				displayCategoryRow(addon.type, addon.name, addon.data, addon.tooltip)
-			end
-		end
-	end
-		
-	updateScroll(frame.scroll, frame.totalRows)
-
-	for i=1, 15 do
-		if( frame.totalRows > 15 ) then
-			frame.buttons[i]:SetWidth(140)
-		else
-			frame.buttons[i]:SetWidth(156)
-		end
-
-		-- We have less then 15 rows used
-		-- and our index is equal or past our current
-		if( frame.rowID < 15 and i > frame.rowID ) then
-			frame.buttons[i]:Hide()
-		end
 	end
 end
 
@@ -853,9 +652,9 @@ local function openConfigFrame(data)
 		if( data.frame:GetHeight() > 305 or data.frame:GetHeight() == 0 ) then
 			data.frame:SetHeight(305)
 		end
-			
+
 		data.frame:SetParent(frame)
-		data.frame:SetFrameStrata("HIGH")
+		data.frame:SetFrameStrata("DIALOG")
 
 		if( not data.noCache ) then
 			local category
@@ -888,6 +687,177 @@ local function openConfigFrame(data)
 	if( data.frame and frame.selectedAddon ~= "" ) then
 		data.frame:Show()
 		frame.shownFrame = data.frame
+	end
+end
+
+-- Displays the actual button
+local function displayCategoryRow(type, text, data, tooltip, highlighted)
+	local frame = regFrames.addon
+
+	-- We have to let this run completely
+	-- so we know how many rows we have total
+	frame.totalRows = frame.totalRows + 1
+	if( frame.totalRows <= frame.scroll.offset or frame.rowID >= 15 ) then
+		return
+	end
+	
+	frame.rowID = frame.rowID + 1
+
+	local button = frame.buttons[frame.rowID]
+	local line = frame.lines[frame.rowID]
+
+	if( highlighted ) then
+		button:LockHighlight()
+	else
+		button:UnlockHighlight()
+	end
+
+	if( type == "addon" ) then
+		button:SetText(text)
+		button:GetFontString():SetPoint("LEFT", button, "LEFT", 4, 0)
+		button:GetNormalTexture():SetAlpha(1.0)
+		line:Hide()
+
+	elseif( type == "category" ) then
+		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE)
+		button:GetFontString():SetPoint("LEFT", button, "LEFT", 12, 0)
+		button:GetNormalTexture():SetAlpha(0.4)
+		line:Hide()
+
+	elseif( type == "subcat" ) then
+		button:SetText(HIGHLIGHT_FONT_COLOR_CODE..text..FONT_COLOR_CODE_CLOSE)
+		button:GetFontString():SetPoint("LEFT", button, "LEFT", 20, 0)
+		button:GetNormalTexture():SetAlpha(0.0)
+		line:SetTexCoord(0, 0.4375, 0, 0.625)
+		line:Show()
+	end
+	
+	button.fs = button:GetFontString()
+	button.tooltip = tooltip
+	button.data = data
+	button.type = type
+	button.catText = text
+	button:Show()
+end
+
+
+local function updateConfigList(openAlso)
+	local frame = regFrames.addon
+	frame.rowID = 0
+	frame.totalRows = 0
+
+	local lastID
+	local searchBy = string.trim(string.lower(frame.search:GetText()))
+	if( searchBy == "" or frame.search.searchText ) then
+		searchBy = nil
+	end
+
+	-- Make sure stuff matches our search results
+	for id, row in pairs(frame.categories) do
+		if( searchBy and not string.match(string.lower(row.name), searchBy) ) then
+			frame.categories[id].hide = true
+		else
+			frame.categories[id].hide = nil
+		end
+	end
+
+	-- Resort list if needed
+	if( frame.resortList ) then
+		table.sort(frame.categories, sortCategories)
+		frame.resortList = nil
+	end
+
+	-- Now display
+	local opened
+	for _, addon in pairs(frame.categories) do
+		if( not addon.hide and addon.type == "addon" ) then
+			-- Total addons
+			if( addon.name == frame.selectedAddon ) then
+				displayCategoryRow(addon.type, addon.name, addon.data, addon.tooltip, true)
+				for _, cat in pairs(frame.categories) do
+					-- Show all the categories with the addon as the parent
+					if( not cat.hide and cat.parent == addon.name and cat.type == "category" ) then
+						-- Total categories of the selected addon
+						if( cat.name == frame.selectedCategory ) then
+							displayCategoryRow(cat.type, cat.name, cat.data, cat.tooltip, true)
+
+							local rowID
+							for _, subCat in pairs(frame.categories) do
+								-- We don't have to check type, because it's the only one that has .addon set
+								if( not subCat.hide and subCat.parent == cat.name and subCat.addon == addon.name ) then
+									-- Total sub categories of the selected addons selected category
+									displayCategoryRow(subCat.type, subCat.name, subCat.data, subCat.tooltip, subCat.name == frame.selectedSubCat)
+									lastID = frame.rowID
+									
+									if( openAlso ) then
+										opened = subCat.data
+									end
+								end
+							end
+
+							-- Turns the line from straight down to a curve at the end
+							if( lastID ) then
+								frame.lines[lastID]:SetTexCoord(0.4375, 0.875, 0, 0.625)
+							end
+							
+							-- Okay open the category then
+							if( not opened and openAlso ) then
+								opened = cat.data
+							end
+						else
+							displayCategoryRow(cat.type, cat.name, cat.data, cat.tooltip)
+						end
+					end
+				end
+				
+				if( not opened and openAlso ) then
+					opened = addon.data
+				end
+			else
+				displayCategoryRow(addon.type, addon.name, addon.data, addon.tooltip)
+			end
+		end
+	end
+	
+	if( opened ) then
+		openConfigFrame(opened)
+	end
+
+	updateScroll(frame.scroll, frame.totalRows)
+
+	local wrapSize = 145
+	if( frame.totalRows > 15 ) then
+		wrapSize = 135
+	end
+
+	for i=1, 15 do
+		local button = frame.buttons[i]
+		if( frame.totalRows > 15 ) then
+			button:SetWidth(140)
+		else
+			button:SetWidth(156)
+		end
+		
+		if( button.fs ) then
+			local wrapAt = wrapSize
+			if( button.type == "category" ) then
+				wrapAt = wrapAt - 5
+			elseif( frame.buttons[i].type == "subcat" ) then
+				wrapAt = wrapAt - 10
+			end
+
+			if( button.fs:GetStringWidth() > wrapAt ) then
+				button.fs:SetWidth(wrapAt)
+			else
+				button.fs:SetWidth(button.fs:GetStringWidth())
+			end
+		end
+		
+		-- We have less then 15 rows used
+		-- and our index is equal or past our current
+		if( frame.rowID < 15 and i > frame.rowID ) then
+			button:Hide()
+		end
 	end
 end
 
@@ -932,7 +902,7 @@ end
 
 local function createAddonFrame(hide)
 	local frame = regFrames.addon
-	
+
 	if( frame and hide ) then
 		frame:Hide()
 		return
@@ -940,17 +910,18 @@ local function createAddonFrame(hide)
 		return
 	elseif( not frame ) then
 		frame = CreateFrame("Frame", nil, regFrames.main)
-		frame:SetFrameStrata("MEDIUM")
+		frame:SetFrameStrata("DIALOG")
 		frame:SetAllPoints(regFrames.main)
-		
+
 		regFrames.addon = frame
+		OptionHouseFrames.addon = frame
 
 		frame.buttons = {}
 		frame.lines = {}
 		for i=1, 15 do
 			local button = CreateFrame("Button", nil, frame)
 			frame.buttons[i] = button
-			
+
 			button:SetHighlightFontObject(GameFontHighlightSmall)
 			button:SetTextFontObject(GameFontNormalSmall)
 			button:SetScript("OnClick", expandConfigList)
@@ -981,10 +952,10 @@ local function createAddonFrame(hide)
 				button:SetPoint("TOPLEFT", 23, -105)
 			end
 		end
-		
+
 		createScrollFrame(frame, 15, updateConfigList)
 		frame.scroll:SetPoint("TOPRIGHT", frame, "TOPLEFT", 158, -105)
-		
+
 		createSearchInput(frame, updateConfigList)
 		createCategoryListing()
 	end
@@ -998,7 +969,7 @@ local function createAddonFrame(hide)
 	if( frame.shownFrame ) then
 		frame.shownFrame:Hide()
 	end
-
+	
 	updateConfigList()
 	ShowUIPanel(frame)
 end
@@ -1012,14 +983,15 @@ local function createOHFrame()
 	frame:CreateTitleRegion()
 	frame:SetClampedToScreen(true)
 	frame:SetMovable(false)
-	frame:SetFrameStrata("MEDIUM")
+	frame:SetFrameStrata("DIALOG")
 	frame:SetWidth(832)
 	frame:SetHeight(447)
 	frame:SetPoint("TOPLEFT", 0, -104)
 	frame.totalTabs = 0
 	frame.tabs = {}
-	
+
 	regFrames.main = frame
+	OptionHouseFrames.main = frame
 
 	-- If we don't hide it ourself, the panel layout becomes messed up
 	frame:Hide()
@@ -1037,7 +1009,6 @@ local function createOHFrame()
 	title:SetPoint("TOPLEFT", 75, -15)
 
 	-- Embedded version wont include the icon cause authors are more whiny then users
-	-- Also, we want to use different methods of frame dragging
 	if( not IsAddOnLoaded("OptionHouse") ) then
 		local texture = frame:CreateTexture(nil, "OVERLAY")
 		texture:SetWidth(57)
@@ -1086,7 +1057,7 @@ local function createOHFrame()
 	frame.bottomRight:SetWidth(256)
 	frame.bottomRight:SetHeight(256)
 	frame.bottomRight:SetPoint("TOPLEFT", frame.bottom, "TOPRIGHT", 0, 0)
-	
+
 	-- Make sure the configuration tab is first
 	local tabs = {{func = createAddonFrame, text = L["ADDON_OPTIONS"], type = "browse"}}
 	createTab(L["ADDON_OPTIONS"], 1)
@@ -1106,7 +1077,8 @@ local function createOHFrame()
 end
 
 -- PRIVATE API's
--- These are only to be used for the standalone OptionHouse modules
+-- While these aren't locked down to prevent being used
+-- You ARE using them are your own risk for future compatability
 function OptionHouse:CreateSearchInput(frame, onChange)
 	createSearchInput(frame, onChange)
 end
@@ -1159,8 +1131,12 @@ function OptionHouse.GetAddOnData(self, name)
 end
 
 function OptionHouse.RegisterFrame(self, type, frame)
-	if( type ~= "addon" and type ~= "manage" and type ~= "perf" and type ~= "main" ) then return end
+	if( type ~= "addon" and type ~= "manage" and type ~= "perf" and type ~= "main" ) then
+		error(string.format(L["UNKNOWN_FRAMETYPE"], type), 3)
+	end
+	
 	regFrames[type] = frame
+	OptionHouseFrames[type] = frame
 end
 
 -- PUBLIC API's
@@ -1184,39 +1160,12 @@ function OptionHouse:Open(addonName, parentCat, childCat)
 		ShowUIPanel(frame)
 		return
 	end
-
-	-- Cleanest method for getting the func/handler/ect
-	-- to auto open to a page
-	for name, addon in pairs(addons) do
-		if( name == addonName ) then
-			regFrames.addon.selectedAddon = addonName
-			for catName, cat in pairs(addon.categories) do
-				if( catName == parentCat ) then
-					regFrames.addon.selectedCategory = catName
-					-- Searching for a sub cat
-					if( subCat and cat.totalSubs > 0 ) then
-						for subCatName, subCat in pairs(cat.sub) do
-							-- Found sub cat, open it
-							if( subCatName == childCat ) then
-								regFrames.addon.selectedSubCat = subCatName
-								openConfigFrame(subCat)
-								break
-							end
-						end
-
-					-- Searching for a category not a sub cat
-					elseif( not subCat ) then
-						openConfigFrame(cat)
-					end
-					break
-				end
-			end
-			break
-		end
-	end
-
-	-- Now expand anything that was selected
-	updateConfigList()
+	
+	regFrames.addon.selectedAddon = addonName or ""
+	regFrames.addon.selectedCategory = parentCat or ""
+	regFrames.addon.selectedSubCat = childCat or ""
+	
+	updateConfigList(true)
 	ShowUIPanel(frame)
 end
 
@@ -1258,12 +1207,12 @@ function OptionHouse.RegisterCategory(addon, name, handler, func, noCache)
 	argcheck(func, 4, "string", "function", "nil")
 	argcheck(noCache, 5, "boolean", "number", "nil")
 	assert(3, handler or func, L["NO_FUNC_PASSED"])
-	assert(3, addons[addon.name], string.format(L["MUST_CALL"], addon.name))
+	assert(3, addons[addon.name], string.format(L["MUST_CALL"], "RegisterCategory"))
 	assert(3, addons[addon.name].categories, string.format(L["CATEGORY_ALREADYREG"], name, addon.name))
 
 	-- Category numbers are required so we know when to skip it because only one category/sub cat exists
 	addons[addon.name].totalCats = addons[addon.name].totalCats + 1
-	addons[addon.name].categories[name] = {func = func, handler = handler, noCache = noCache, sub = {}, orderID = addons[addon.name].totalCats, totalSubs = 0}
+	addons[addon.name].categories[name] = {func = func, handler = handler, noCache = noCache, sub = {}, totalSubs = 0}
 
 	if( regFrames.addon ) then
 		addCategoryListing(addon.name, addons[addon.name])
@@ -1278,13 +1227,13 @@ function OptionHouse.RegisterSubCategory(addon, parentCat, name, handler, func, 
 	argcheck(func, 5, "string", "function", "nil")
 	argcheck(noCache, 6, "boolean", "number", "nil")
 	assert(3, handler or func, L["NO_FUNC_PASSED"])
-	assert(3, addons[addon.name], string.format(L["MUST_CALL"], addon.name))
+	assert(3, addons[addon.name], string.format(L["MUST_CALL"], "RegisterSubCategory"))
 	assert(3, addons[addon.name].categories[parentCat], string.format(L["NO_PARENTCAT"], parentCat, addon.name))
 	assert(3, not addons[addon.name].categories[parentCat].sub[name], string.format(L["SUBCATEGORY_ALREADYREG"], name, parentCat, addon.name))
 
 	addons[addon.name].totalSubs = addons[addon.name].totalSubs + 1
 	addons[addon.name].categories[parentCat].totalSubs = addons[addon.name].categories[parentCat].totalSubs + 1
-	addons[addon.name].categories[parentCat].sub[name] = {handler = handler, func = func, noCache = noCache, orderID = addons[addon.name].categories[parentCat].totalSubs}
+	addons[addon.name].categories[parentCat].sub[name] = {handler = handler, func = func, noCache = noCache}
 
 	if( regFrames.addon ) then
 		addCategoryListing(addon.name, addons[addon.name])
@@ -1294,20 +1243,20 @@ end
 
 function OptionHouse.RemoveCategory(addon, name)
 	argcheck(name, 2, "string")
-	assert(3, addons[addon.name], string.format(L["MUST_CALL"], addon.name))
+	assert(3, addons[addon.name], string.format(L["MUST_CALL"], "RemoveCategory"))
 	assert(3, addons[addon.name].categories[name], string.format(L["NO_CATEGORYEXISTS"], name, addon.name))
 
 	addons[addon.name].totalCats = addons[addon.name].totalCats - 1
 	addons[addon.name].totalSubs = addons[addon.name].totalSubs - addons[addon.name].categories[name].totalSubs
 	addons[addon.name].categories[name] = nil
-		
+
 	if( regFrames.addon ) then
 		if( addons[addon.name].totalCats == 0 ) then
 			removeAddonListing(addon.name)
 		else
 			removeCategoryListing(addon.name, name)
 		end
-		
+
 		updateConfigList()
 	end
 end
@@ -1315,7 +1264,7 @@ end
 function OptionHouse.RemoveSubCategory(addon, parentCat, name)
 	argcheck(parentCat, 2, "string")
 	argcheck(name, 2, "string")
-	assert(3, addons[addon.name], string.format(L["MUST_CALL"], addon.name))
+	assert(3, addons[addon.name], string.format(L["MUST_CALL"], "RemoveSubCategory"))
 	assert(3, addons[addon.name].categories[parentCat], string.format(L["NO_PARENTCAT"], name, addon.name))
 	assert(3, addons[addon.name].categories[parentCat].sub[name], string.format(L["NO_SUBCATEXISTS"], name, parentCat, addon.name))
 
@@ -1339,17 +1288,18 @@ end
 
 function OptionHouse:GetVersion() return major, minor end
 
-local function Activate(self, old)
-	if( old ) then
-		addons = old.addons or addons
-		evtFrame = old.evtFrame or evtFrame
-		tabfunctions = old.tabfunctions or tabfunctions
+local function instanceLoaded()
+	if( oldRevision ) then
+		addons = OHInstance.addons or addons
+		evtFrame = OHInstance.evtFrame or evtFrame
+		tabfunctions = OHInstance.tabfunctions or tabfunctions		
 	else
 		-- Secure headers are supported so don't want the window stuck open in combat
 		evtFrame = CreateFrame("Frame")
 		evtFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
-		evtFrame:SetScript("OnEvent",function()
-			if( frame and frame:IsShown() ) then
+		evtFrame:RegisterEvent("ADDON_LOADED")
+		evtFrame:SetScript("OnEvent",function(self, event)
+			if( event == "PLAYER_REGEN_DISABLED" and frame and frame:IsShown() ) then
 				HideUIPanel(frame)
 				DEFAULT_CHAT_FRAME:AddMessage(L["ENTERED_COMBAT"])
 			end
@@ -1376,10 +1326,12 @@ local function Activate(self, old)
 		end
 	end
 
-	self.addons = addons
-	self.evtFrame = evtFrame
-	self.tabfunctions = tabfunctions
-		
+	OptionHouseFrames = OptionHouseFrames or {}
+
+	OptionHouse.addons = addons
+	OptionHouse.evtFrame = evtFrame
+	OptionHouse.tabfunctions = tabfunctions
+
 	-- Upgrade functions to point towards the latest revision
 	for name, addon in pairs(addons) do
 		for _, method in pairs(methods) do
@@ -1390,8 +1342,17 @@ local function Activate(self, old)
 	SLASH_OPTHOUSE1 = "/opthouse"
 	SLASH_OPTHOUSE2 = "/oh"
 	SlashCmdList["OPTHOUSE"] = function(...)
-		OptionHouse.Open(OptionHouse, ...)
+		if( select(1, ...) == "" ) then
+			OptionHouse:Open()
+		else
+			OptionHouse:Open(...)
+		end
+	end
+	
+	-- Now make it active
+	for k, v in pairs(OptionHouse) do
+		OHInstance[k] = v
 	end
 end
 
-OptionHouse = DongleStub:Register(OptionHouse, Activate)
+instanceLoaded()
