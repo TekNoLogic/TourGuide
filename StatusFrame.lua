@@ -1,7 +1,7 @@
 
 
 local TourGuide = TourGuide
-local OptionHouse = DongleStub("OptionHouse-1.0")
+local OptionHouse = LibStub("OptionHouse-1.1"))
 local ww = WidgetWarlock
 
 
