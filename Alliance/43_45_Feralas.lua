@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Feralas (43-45)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Feralas (43-45)", "Hinterlands (46-47)", "Alliance", function()
 return [[
 F Feathermoon Stronghold
 
@@ -64,8 +64,8 @@ T The Mark of Quality
 A Improved Quality
 T The High Wilderness
 T Freed from the Hive
-A A Hero’s Welcome
-T A Hero’s Welcome
+A A Hero's Welcome
+T A Hero's Welcome
 A Rise of the Silithid
 
 F Thalanaar

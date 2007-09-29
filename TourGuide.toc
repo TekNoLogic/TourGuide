@@ -55,10 +55,13 @@ Horde\54_55_Winterspring.lua
 
 Alliance\01_06_Shadowglen.lua
 Alliance\06_12_Teldrassil.lua
+
 Alliance\38_40_Stranglethorn.lua
 Alliance\40_41_Badlands.lua
 Alliance\41_42_Stranglethorn.lua
 Alliance\43_Tanaris.lua
 Alliance\43_45_Feralas.lua
+Alliance\46_47_Hinterlands.lua
+
 Alliance\66_67_BladesEdge.lua
 Alliance\67_70_Netherstorm.lua
