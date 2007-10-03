@@ -45,7 +45,7 @@ A Find OOX-22/FE! |O| |U|8705|
 C The Mark of Quality |N|Back on mainland, follow the road to the yeti cave (56,56).|
 T Find OOX-22/FE! |O| |N|At the back of the yeti cave.  Don't accept the escort!|
 C The High Wilderness |N|Shamans are to the south at the temple (59,73).  Brutes at Ruins of Isildien (62,54).  If you have issues finding warlocks, you should be shot.|
-A Freedom for All Creatures |N|Clear around the cage in the camp, then head up the path behind the camp (65,45)|
+A Freedom for All Creatures |N|Clear around the cage in the camp, then head up the path behind the camp (65.63,46.76)|
 C Freedom for All Creatures |N|Escort!|
 T Freedom for All Creatures
 A Doling Justice (Part 1)

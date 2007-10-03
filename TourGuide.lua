@@ -156,7 +156,7 @@ end
 
 
 local myclass = UnitClass("player")
-local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
+local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To", "A"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1

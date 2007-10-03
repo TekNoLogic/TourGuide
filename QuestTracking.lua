@@ -56,7 +56,7 @@ end
 
 function TourGuide:CHAT_MSG_LOOT(event, msg)
 	local action, quest, _, _, _, _, _, _, _, _, lootitem, lootqty = self:GetCurrentObjectiveInfo()
-	local _, _, itemid, name = msg:find("^You receive .*Hitem:(%d+).*(%[.+%])")
+	local _, _, itemid, name = msg:find("^You .*Hitem:(%d+).*(%[.+%])")
 	self:Debug(10, event, msg:gsub("|","||"), action, quest, lootitem, lootqty, itemid, name)
 
 	if action == "BUY" and name and name == quest

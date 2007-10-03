@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Hinterlands (46-47)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Hinterlands (46-47)", "Feralas (47)", "Alliance", function()
 return [[
 F Stormwind City
 T In Search of The Temple
