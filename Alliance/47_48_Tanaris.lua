@@ -7,13 +7,13 @@ h Gadgetzan
 A The Dunemaul Compound
 A Thistleshrub Valley
 C Rhapsody's Kalimdor Kocktail |N|Kill Rocs around the big skeletons (49,36), (44,39), (47,45)|
-T The Sunken Temple |N|(52,45)|
+T The Sunken Temple |N|(52.72,45.92)|
 A The Stone Circle
-A Gahz'Ridian
+A Gahz'ridian
 
 U Put on the helmet |U|9978|
-C The Dunemaul Compound |N|At the ogre camps (40,58) (47,65).  Collect stuff for "Gahz'Ridian" anytime it shows up on the minimap.|
-C Gahz'Ridian
+C The Dunemaul Compound |N|Kill Gor'marok in a small cave (41.11,57.31), then head to the ruins (47,66).  Collect stuff for "Gahz'ridian" anytime it shows up on the minimap.|
+C Gahz'ridian |N|Find large clusters of these in the ruins (40,73) (47,66) ()|
 G Grind on ogres |N|UNtil 10k from 48|
 
 T Seeing What Happens |O|
@@ -39,7 +39,7 @@ T In Good Taste
 A Sprinkle's Secret Ingredient
 T Noxious Lair Investigation
 A The Schrimshank Redemption
-T Gahz'Ridian |N|To the south (52,45)|
+T Gahz'ridian |N|To the south (52,45)|
 
 C The Schrimshank Redemption |N|Enter at (55,70), go to the bottom.  Take the north entrance, go right three times to the survey gear (55,71)|
 
