@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Tanaris (47-48)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Tanaris (47-48)", "Hinterlands (48)", "Alliance", function()
 return [[
 F Gadgetzan
 A The Thirsty Goblin
