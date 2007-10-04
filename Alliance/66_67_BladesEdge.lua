@@ -190,6 +190,7 @@ T Longtail is the Lynchpin
 A Meeting at the Blackwing Coven
 
 C Whispers of the Raven God |N|Exit the cave, grind on arakkoa until you get their buff, then visit each totem in order (40,17), (42,22), (41,19), (40,23)|
+A The Truth Unorbed |U|31489| |N|Grind on the Arakkoa till you get the item that starts this.|
 C Slaughter at Boulder'mok
 C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap|
 
@@ -203,7 +204,6 @@ F Evergrove
 T Whelps of the Wyrmcult
 T Meeting at the Blackwing Coven
 A Maxnar Must Die!
-A The Truth Unorbed |U|31489|
 T The Truth Unorbed
 A Treebole Must Know
 T Whispers of the Raven God
