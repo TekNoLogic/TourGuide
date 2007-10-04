@@ -236,7 +236,8 @@ function TourGuide:SetTurnedIn(i, value, noupdate)
 
 	self.turnedin[self.quests[i]] = value
 	self:DebugF(1, "Set turned in %q = %s", self.quests[i], tostring(value))
-	if not noupdate then self:UpdateStatusFrame() end
+	if not noupdate then self:UpdateStatusFrame()
+	else self.updatedelay = true end
 end
 
 

@@ -50,7 +50,7 @@ function TourGuide:QUEST_LOG_UPDATE(event)
 	self:Debug(10, "QUEST_LOG_UPDATE")
 	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
 
-	if action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
+	if self.updatedelay or action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
 end
 
 

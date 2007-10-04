@@ -197,6 +197,7 @@ function TourGuide:UpdateStatusFrame()
 	else item:Hide() end
 
 	self:UpdateOHPanel()
+	self.updatedelay = nil
 end
 
 
