@@ -14,17 +14,23 @@ A Call to Arms (Part 2)
 A Triage |N|(73.4,36.8)
 C Triage
 T Triage
-R Stones of Binding
-C To Steam From Thieves
-R Stones of Binding
-C Guile of the Raptor (Part 2)
-C Call to Arms (Part 2)
-C Foul Magics
-C Stones of Binding
+R Stones of Binding |N|(66.7,29.76)|
+C To SteaL From Thieves |N|(54.52,38.76)|
+R Stones of Binding |N|(52.05,50.69)|
+C Guile of the Raptor (Part 2) |N|(50.1,70.8)|
+C Call to Arms (Part 2) |N|(52.2,77.6)|
+C Foul Magics |N|(31.9,27.5)|
+C Stones of Binding |N|(25.47,30.15)|
+R Stromgarde Keep |N|(26.08,57.19)
+T Stones of Binding |N|(36.22,57.37)|
 H Hammerfall
 T Call to Arms (Part 2)
 T Foul Magics
-T Guile of the Raptor
+T Guile of the Raptor (Part 2)
+A Guile of the Raptor (Part 3)
+T Guile of the Raptor (Part 3)
+A Guile of the Raptor (Part 4)
+T Guile of the Raptor (Part 4)
 F Tarren Mill
 ]]
 end)
