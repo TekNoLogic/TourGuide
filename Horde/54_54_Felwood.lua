@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - Felwood (54-54)", "Joana's - Winterspring (54-55)", "Horde", function()
+TourGuide:RegisterGuide("Felwood (54-54)", "Winterspring (54-55)", "Horde", function()
     return [[
 F Splintertree Post
 R Felwood
@@ -17,3 +17,4 @@ C Cleansing Felwood
 C The Strength of Corruption
 A Deadwood of the North |N|But don't do it yet (64,8)|]]
 end)
+

@@ -1,4 +1,3 @@
-
 TourGuide:RegisterGuide("Thousand Needles (27-29)", nil, "Horde", function()
 return [[
 F Thousand Needles
@@ -71,7 +70,4 @@ F Undercity |N|Take zeppelin outside Orgrimmar|
 R Tarren Mill |N|in Hillsbrad Foothills. Go out undercity sewers its quicker.|
 ]]
 end)
-
-
-
 

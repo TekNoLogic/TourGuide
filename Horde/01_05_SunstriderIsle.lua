@@ -1,5 +1,3 @@
-
-
 TourGuide:RegisterGuide("Sunstrider Isle (1-5)", "Eversong Woods (5-13)", "Horde", function()
 
 return [[
@@ -51,7 +49,4 @@ A Tainted Arcane Sliver |I|20483| |O|
 T Tainted Arcane Sliver |O|
 ]]
 end)
-
-
-
 

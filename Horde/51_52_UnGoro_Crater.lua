@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - UnGoro Crater (51-52)", "Joana's - Burning Steppes (52-53)", "Horde", function()
+TourGuide:RegisterGuide("UnGoro Crater (51-52)", "Burning Steppes (52-53)", "Horde", function()
     return [[
 N Get a Mithril Casing if you want to escort the mechanical ape.
 R Un'Goro Crater
@@ -108,3 +108,4 @@ F Ratchet
 T Volcanic Activity
 T Marvon's Workshop]]
 end)
+

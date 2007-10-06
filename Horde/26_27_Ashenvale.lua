@@ -1,4 +1,4 @@
-local ashenvale_data = function()
+TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", function()
 return [[
 R Splintertree Post
 h Splintertree Post
@@ -62,5 +62,3 @@ T Diabolical Plans |O|
 ]]
 end
 
-TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", ashenvale_data)
-TourGuide:RegisterGuide("Joana's - Ashenvale (26-27)", "Joana's - Stonetalon Mountains (27)", "Horde", ashenvale_data)

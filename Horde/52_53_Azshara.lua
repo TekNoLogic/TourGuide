@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - Azshara (53-54)", "Joana's - Felwood (54-54)", "Horde", function()
+TourGuide:RegisterGuide("Azshara (53-54)", "Felwood (54-54)", "Horde", function()
     return [[
 H The Crossroads |N|Or whatever method is fastest to get to Orgrimmar|
 F Orgrimmar
@@ -32,3 +32,4 @@ H Orgrimmar
 T Bone-Bladed Weapons
 T Betrayed (Part 4)]]
 end)
+

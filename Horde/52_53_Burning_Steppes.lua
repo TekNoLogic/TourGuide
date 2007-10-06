@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - Burning Steppes (52-53)", "Joana's - Azshara (53-54)", "Horde", function()
+TourGuide:RegisterGuide("Burning Steppes (52-53)", "Azshara (53-54)", "Horde", function()
     return [[
 F Kargath
 T Vivian Lagrave

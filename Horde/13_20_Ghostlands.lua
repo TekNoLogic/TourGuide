@@ -1,4 +1,3 @@
-
 TourGuide:RegisterGuide("Ghostlands (13-20)", nil, "Horde", function()
 return [[
 R Tranquillien |N|Follow the road south|

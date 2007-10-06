@@ -1,4 +1,3 @@
-
 TourGuide:RegisterGuide("Stonetalon Mountains (27)", "Thousand Needles (27-29)", "Horde", function()
 return [[
 F Sun Rock Retreat
@@ -11,3 +10,4 @@ T The Sacred Flame (Part 1) |N|(54,51)|
 A The Sacred Flame (Part 2)
 ]]
 end)
+

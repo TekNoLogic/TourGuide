@@ -1,4 +1,3 @@
-
 TourGuide:RegisterGuide("Eversong Woods (5-13)", "Ghostlands (13-20)", "Horde", function()
 return [[
 R Dawning Lane

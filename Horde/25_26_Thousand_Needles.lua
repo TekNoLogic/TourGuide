@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - Thousand Needles (25-26)", "Joana's - Ashenvale (26-27)", "Horde", function()
+TourGuide:RegisterGuide("Thousand Needles (25-26)", "Ashenvale (26-27)", "Horde", function()
     return [[
 R Freewind Post
 T Message to Freewind Post
@@ -34,3 +34,4 @@ T Melor Sends Word
 A Steelsnap |N|Hunter Rise|
 A The Sacred Flame |N|NPC is in the area connecting Elder and Hunter Rises|]]
 end)
+

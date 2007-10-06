@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - Blasted Lands (50-51)", "Joana's - UnGoro Crater (51-52)", "Horde", function()
+TourGuide:RegisterGuide("Blasted Lands (50-51)", "UnGoro Crater (51-52)", "Horde", function()
     return [[
 R Blasted Lands
 A A Boar's Vitality |N|Bloodmage Drazial (50,14)|
@@ -36,3 +36,4 @@ A Noggenfogger Elixir
 T Noggenfogger Elixir
 T The Stone Circle |N|(52,46)|]]
 end)
+

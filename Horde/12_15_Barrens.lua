@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Joana's - The Barrens (12-20)", "Joana's - Stonetalon Mountains (15-16)", "Horde", function()
+TourGuide:RegisterGuide("The Barrens (12-20)", "Stonetalon Mountains (15-16)", "Horde", function()
     return [[
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens|
 A Crossroads Conscription
