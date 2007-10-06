@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Stranglethorn Vale (48-49)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Stranglethorn Vale (48-49)", "Blasted Lands (49-50)", "Alliance", function()
 return [[
 F Booty Bay |N|Hearth to IF if you can|
 h Booty Bay
@@ -23,22 +23,39 @@ T Cracking Maury's Foot |O|
 
 A Message in a Bottle (Part 1) |N|Open bottles on the shore east of Booty Bay, you know, the one with the pirates.|
 C The Captain's Chest |N|Kill Gorlash (36,69).  He's elite, so burn your cooldowns.|
-T Message in a Bottle (Part 1) |N|(38,80)  Skip the followup unless you've got help.|
+T Message in a Bottle (Part 1) |N|On the island (38.55,80.61)  Skip the followup unless you've got at least 3 people.|
 
 C The Bloodsail Buccaneers (Part 5) |N|To the south at the ships (33,87) (30,88).  One cap'n per ship, inside on the second level.  Also keep an eye out for "Cortello's Riddle", a scroll that starts a quest.|
 
 H Booty Bay |N|Or deathport|
 T The Captain's Chest
 T The Bloodsail Buccaneers (Part 5) |N|At the top of the inn|
+A Zanzil's Mixture and A Fool's Stout
+
+b Ratchet
+A Volcanic Activity |N|At the hut to the left as you exit the dock|
+C The Stone Circle |N|The chest outside the hut.|
+
+F Gadgetzan
+T Sprinkle's Secret Ingredient
+A Delivery For Marin
+T Delivery For Marin
+A Noggenfogger Elixir
+T Noggenfogger Elixir
+
+T Zanzil's Mixture and A Fool's Stout |N|Up at the racetrack in Shimmering Flats|
+A Get the Goblins Drunk
+T Get the Goblins Drunk
+A Report Back to Fizzlebub
+
+T The Stone Circle |N|South of Gadget at the ruins (52.7,45.9).  Skip the follow-up.|
+
+H Booty Bay
+T Report Back to Fizzlebub
 
 F Stormwind City
 T Rhapsody's Tale |N|Back in the dorf dist.  Don't take the follow-up.|
 B Mithril Casing |L|10561| |N|Off the AH, or find an engineer.|
-
-F Darkshire
-R Swamp of Sorrows
-T Cortello's Riddle (Part 1) |O| |N|Under a bridge on the left form of the road (22.6,48.0)|
-A Cortello's Riddle (Part 2) |O|
 ]]
 
 end)

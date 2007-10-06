@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Tanaris (47-48)", "Hinterlands (48)", "Alliance", function()
+TourGuide:RegisterGuide("Tanaris (47-48)", "Stranglethorn Vale (48-49)", "Alliance", function()
 return [[
 F Gadgetzan
 A The Thirsty Goblin
@@ -64,12 +64,24 @@ T Return to Ironforge |O| |N|In the Hall of Explorers|
 A A Future Task
 A Passing the Burden
 T A Future Task
-T Passing the Burden
+T Passing the Burden |N|In the Mystic Ward (31.20,4.70)|
 A Arcane Runes
 A An Easy Pickup
 T An Easy Pickup |N|In the Military Ward|
 A Signal for Pickup
 T Signal for Pickup
+
+F Aeire Peak |N|Hinterlands!|
+T The Newest Member of the Family |N|In the inn, downstairs|
+A Food for Baby
+T Rhapsody's Kalimdor Kocktail |N|Up at the camp (26,48)|
+A Rhapsody's Tale
+C Sprinkle's Secret Ingredient |N|Grind over to the lake, it is at the bottom (40,59)|
+C Food for Baby |N|Grind over to the east, kill stealth wolves|
+
+T Food for Baby |N|Back at the inn|
+A Becoming a Parent
+T Becoming a Parent
 ]]
 
 end)
