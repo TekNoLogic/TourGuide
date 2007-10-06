@@ -2,13 +2,13 @@ TourGuide:RegisterGuide('Alterac Mountains (37-37)', 'Thousand Needles (37-37)',
 	return [[
 A Prison Break In
 A Stone Tokens
-C Prison Break In |N|()|
+C Prison Break In |N|(21.18,83.72)|
 C Stone Tokens
 T Prison Break In
 T Stone Tokens
 A Dalaran Patrols
 A Bracers of Binding
-C Dalaran Patrols |N|()|
+C Dalaran Patrols |N|(15.4,77.0)|
 C Bracers of Binding
 T Dalaran Patrols
 T Bracers of Binding
