@@ -4,10 +4,11 @@ return [[
 A Washed Ashore (Part 1)
 T Flight to Auberdine
 A Return to Nessa 
+h Auberdine
 F Rut'theran Village
 T Return to Nessa
 F Auberdine
-A For Love Eternal |N|On the docks, west of Inn (35,43)|
+A For Love Eternal |N|On the docks, west of Inn (35.74,43.70)|
 A Buzzbox 827 |N|Inn, upstairs|
 A Cave Mushrooms
 A The Red Crystal
@@ -16,15 +17,15 @@ A Bashal'Aran (Part 1)
 A Tools of the Highborne
 A Plagued Lands |N|South over the bridge|
 A How Big a Threat? (Part 1) |N|Inside|
-C Washed Ashore (Part 1)
+C Washed Ashore (Part 1) |N|At the beach, South of Auberdine|
 C Buzzbox 827
-T Buzzbox 827 |N|(36,46)|
+T Buzzbox 827 |N|East of flightpath, right next to it|
 A Buzzbox 411
 T Washed Ashore (Part 1)
 A Washed Ashore (Part 2)
-C Washed Ashore (Part 2) |N|West of dock (31,46)|
-T Washed Ashore (Part 2)
+C Washed Ashore (Part 2) |N|Southwest of dock, Northeast of the small island (31.85,46.29)|
 C Buzzbox 411 |N|Threshers are in the sea|
+T Washed Ashore (Part 2)
 T Buzzbox 411 |N|(41,28)|
 A Buzzbox 323
 A Beached Sea Creature |N|Get the quest from the sea creature's corpse (42,32)|
