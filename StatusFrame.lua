@@ -113,6 +113,7 @@ end
 local mapped = {}
 function TourGuide:UpdateStatusFrame()
 	local nextstep
+	self.updatedelay = nil
 
 	for i in ipairs(self.actions) do
 		local name = self.quests[i]
@@ -197,7 +198,6 @@ function TourGuide:UpdateStatusFrame()
 	else item:Hide() end
 
 	self:UpdateOHPanel()
-	self.updatedelay = nil
 end
 
 
