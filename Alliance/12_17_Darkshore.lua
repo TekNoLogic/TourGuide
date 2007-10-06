@@ -5,7 +5,7 @@ A Washed Ashore (Part 1)
 T Flight to Auberdine
 A Return to Nessa 
 F Rut'theran Village
-C Return to Nessa
+T Return to Nessa
 F Auberdine
 A For Love Eternal |N|On the docks, west of Inn (35,43)|
 A Buzzbox 827 |N|Inn, upstairs|
@@ -31,6 +31,7 @@ A Beached Sea Creature |N|Get the quest from the sea creature's corpse (42,32)|
 T Bashal'Aran (Part 1) |N|Grind your way to (44,36)|
 A Bashal'Aran (Part 2)
 C Bashal'Aran (Part 2)
+T Bashal'Aran (Part 2)
 A Bashal'Aran (Part 3)
 C Bashal'Aran (Part 3)
 T Bashal'Aran (Part 3)
@@ -72,7 +73,7 @@ A Beached Sea Turtle |N|(44,20)|
 T Buzzbox 323 |N|(51,24)|
 A Buzzbox 525
 C Cave Mushrooms |N|Around (54,32), in the caves|
-C As Water Cascades |N|(47,48)|
+T As Water Cascades |N|(47,48)|
 A The Fragments Within
 C How Big a Threat? (Part 2) |N|Grind your way to (40,53)|
 A Beached Sea Turtle |N|(37,62)|
@@ -95,6 +96,7 @@ T The Cliffspring River
 N You should be level 15 now. If not, you haven't grinded like was told. Go grind until you are
 A The Blackwood Corrupted |N|Wanted poster infront of Inn|
 A WANTED: Murkdeep! |N|The same Wanted poster|
+T Cleansing the Infected
 A Tharnariun's Hope
 T How Big a Threat? (Part 2)
 A A Lost Master
@@ -118,6 +120,7 @@ A Beached Sea Creature |N|(53,18)|
 C Fruit of the Sea
 H Auberdine
 T Beached Sea Creature
+C WANTED: Murkdeep!
 T Fruit of the Sea
 T The Blackwood Corrupted
 T Tharnariun's Hope
@@ -127,3 +130,5 @@ R Ironforge
 ]]
 
 end)
+
+-- Remember to add R WANTED: Murkdeep! in 23_24_Darkshore
