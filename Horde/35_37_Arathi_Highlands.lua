@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide('Arathi Highlands (35-37)', nil, 'Horde', function()
+TourGuide:RegisterGuide('Arathi Highlands (35-37)', 'Alterac Mountains (37-37)', 'Horde', function()
 	return [[
 h Hammerfall
 A Call to Arms (Part 1)
