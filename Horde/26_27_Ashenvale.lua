@@ -60,5 +60,5 @@ T Destroy the Legion
 A Diabolical Plans |U|23797| |O|
 T Diabolical Plans |O|
 ]]
-end
+end)
 

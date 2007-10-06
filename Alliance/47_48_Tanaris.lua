@@ -14,7 +14,7 @@ A Gahz'ridian
 U Put on the helmet |U|9978|
 C The Dunemaul Compound |N|Kill Gor'marok in a small cave (41.11,57.31), then head to the ruins (47,66).  Collect stuff for "Gahz'ridian" anytime it shows up on the minimap.|
 C Gahz'ridian |N|Find large clusters of these in the ruins (40,73) (47,66) ()|
-G Grind on ogres |N|UNtil 10k from 48|
+G Grind on ogres |N|Until 10k from 48|
 
 T Seeing What Happens |O|
 A The Stone Watcher |O|

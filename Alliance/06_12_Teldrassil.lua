@@ -38,6 +38,7 @@ T Gnarlpine Corruption |N|In the tower|
 A The Relics of Wakening
 T The Emerald Dreamcatcher
 A Ferocitas the Dream Eater
+N Grind if you are not level 8 yet
 t Train (Level 8)
 
 C Seek Redemption!
@@ -60,8 +61,6 @@ A Druid of the Claw
 C Druid of the Claw
 C The Relics of Wakening
 T Druid of the Claw
-
-t Skinning |N|If you want, trainer is north of the road at (42,49)|
 
 C Crown of the Earth (Part 4) |N|South around (42,67)|
 
