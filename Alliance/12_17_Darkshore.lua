@@ -26,10 +26,11 @@ A Washed Ashore (Part 2)
 C Washed Ashore (Part 2) |N|Southwest of dock, Northeast of the small island (31.85,46.29)|
 C Buzzbox 411 |N|Threshers are in the sea|
 T Washed Ashore (Part 2)
-T Buzzbox 411 |N|(41,28)|
+T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head Northwest above the cove. Buzzbox is at the beach north of the cove (41.96,28.64)|
 A Buzzbox 323
-A Beached Sea Creature |N|Get the quest from the sea creature's corpse (42,32)|
-T Bashal'Aran (Part 1) |N|Grind your way to (44,36)|
+A Beached Sea Creature |N|South of the Buzzbox 411 at the cove is a Sea Creature Corpse (42.10,31.90)|
+R Bashal'Aran |N|Grind your way to Bashal'Aran (44.18,36.30)|
+T Bashal'Aran (Part 1)
 A Bashal'Aran (Part 2)
 C Bashal'Aran (Part 2)
 T Bashal'Aran (Part 2)
@@ -37,32 +38,34 @@ A Bashal'Aran (Part 3)
 C Bashal'Aran (Part 3)
 T Bashal'Aran (Part 3)
 A Bashal'Aran (Part 4)
-C The Red Crystal |N|Grind your way to (47,48)|
-C How Big a Threat? (Part 1) |N|Grind your way to (40,53)|
-R Ameth'Aran |N|NPC for next quest at (40,59)|
-A The Fall of Ameth'Aran |N|Complete it at (43,58) and (42,63)|
+C The Red Crystal |N|Grind your way to the mountains east of Auberdine (47.32,48.67)|
+C How Big a Threat? (Part 1) |N|Grind your way to Northwest of Ameth'Aran to the Blackwood camp (40.31,53.56)|
+R Twilight Vale |N|Follow the road south|
+A The Fall of Ameth'Aran |N|Continue going south until you see the NPC next to a tree (40.30,59.74)|
 C Tools of the Highborne
 C For Love Eternal
+C The Fall of Ameth'Aran |N|Look for the big white tablets on the ground (43.31,58.70) and (42.65,63.13)|
 C Bashal'Aran (Part 4) |N|(42,61)|
+C Plagued Lands |N|West from Ameth'Aran|
 T The Fall of Ameth'Aran
-N Tame a bear |C|Hunter|
 H Auberdine
 T Plagued Lands
-A Cleansing the Infected
+A Cleansing of the Infected
 T How Big a Threat? (Part 1)
 A How Big a Threat? (Part 2)
 A Thundris Windweaver
 A The Tower of Althalaxx (Part 1) |N|Upstairs|
 T Tools of the Highborne
-T Thundris Windweaver
+T Thundris Windweaver |N|Same NPC|
 A The Cliffspring River
 T The Red Crystal
 A As Water Cascades
 N Fill the [Empty Water Tube] in the Moonwell |L|14339|
 T For Love Eternal |N|West of Inn, at the dock|
+T Beached Sea Creature
 
 N You should be level 14 now. If not, grind until you are
-F Rut'theran Village
+F Rut'theran Village |N|Time has come to Train in Darnassus|
 R Darnassus
 t Train (Level 14)
 R Rut'theran Village
