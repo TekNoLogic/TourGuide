@@ -165,20 +165,11 @@ function TourGuide:GetObjectiveTag(tag, i)
 
 		return lootitem, lootqty
 	end
-
-	local action, quest, note, level = self.actions[i], self.quests[i], , self.levels[i]
-	if not action then return end
-
-	local logi, complete = self:GetQuestDetails(quest)
-	local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)x?(%d*)")
-	lootqty = tonumber(lootqty) or 1
-
-	return action, quest:gsub("@.*@", ""), note, logi, complete, self.turnedin[quest], quest, self.useitems[i], self.optional[i], lootitem, lootqty, level
 end
 
 
 local myclass = UnitClass("player")
-local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To", "A"}
+local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
