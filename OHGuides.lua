@@ -6,8 +6,8 @@ local ww = WidgetWarlock
 WidgetWarlock = nil
 
 
-local ROWHEIGHT = 21
-local NUMROWS = math.floor(305/(ROWHEIGHT))
+local NUMROWS, COLWIDTH = 16, 210
+local ROWHEIGHT = 305/NUMROWS
 
 
 local offset = 0
@@ -38,16 +38,16 @@ function TourGuide:CreateGuidesPanel()
 	frame = CreateFrame("Frame", nil, UIParent)
 
 	rows = {}
-	for i=1,NUMROWS*2 do
-		local anchor, point
-		if i == 1 then anchor, point, point2 = frame, "TOPLEFT", "CENTER"
-		elseif i <= NUMROWS then anchor, point, point2 = rows[i-1], "BOTTOMLEFT", "CENTER"
-		else anchor, point, point2 = rows[i-NUMROWS], "TOPRIGHT", "RIGHT" end
+	for i=1,NUMROWS*3 do
+		local anchor, point = rows[i-1], "BOTTOMLEFT"
+		if i == 1 then anchor, point = frame, "TOPLEFT"
+		elseif i == (NUMROWS + 1) then anchor, point = rows[1], "TOPRIGHT"
+		elseif i == (NUMROWS*2 + 1) then anchor, point = rows[NUMROWS + 1], "TOPRIGHT" end
 
 		local row = CreateFrame("CheckButton", nil, frame)
 		row:SetPoint("TOPLEFT", anchor, point)
-		row:SetPoint("RIGHT", frame, point2)
 		row:SetHeight(ROWHEIGHT)
+		row:SetWidth(COLWIDTH)
 
 		local highlight = ww.SummonTexture(row, nil, nil, nil, "Interface\\HelpFrame\\HelpFrameButton-Highlight")
 		highlight:SetTexCoord(0, 1, 0, 0.578125)
@@ -63,13 +63,13 @@ function TourGuide:CreateGuidesPanel()
 		rows[i] = row
 	end
 
---~ 	frame:EnableMouseWheel()
---~ 	frame:SetScript("OnMouseWheel", function(f, val)
---~ 		offset = offset - val*NUMROWS
---~ 		if (offset + NUMROWS*2) > #self.guidelist then offset = #self.guidelist - NUMROWS*2 end
---~ 		if offset < 0 then offset = 0 end
---~ 		self:UpdateGuidesPanel()
---~ 	end)
+	frame:EnableMouseWheel()
+	frame:SetScript("OnMouseWheel", function(f, val)
+		offset = offset - val*NUMROWS
+		if (offset + NUMROWS*2) > #self.guidelist then offset = offset - NUMROWS end
+		if offset < 0 then offset = 0 end
+		self:UpdateGuidesPanel()
+	end)
 
 	frame:SetScript("OnShow", OnShow)
 	ww.SetFadeTime(frame, 0.5)
@@ -83,7 +83,7 @@ function TourGuide:UpdateGuidesPanel()
 	for i,row in ipairs(rows) do
 		row.i = i + offset
 
-		local name = self.guidelist[i]
+		local name = self.guidelist[i + offset]
 
 		row.text:SetText(name)
 		row:SetChecked(self.db.char.currentguide == name)
