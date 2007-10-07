@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Teldrassil (6-12)", Darkshore (12-17), "Alliance", function()
+TourGuide:RegisterGuide("Teldrassil (6-12)", "Darkshore (12-17)", "Alliance", function()
 return [[
 A Zenn's Bidding |N|Along the road to Dolannar (60,56)|
 R Dolanaar
