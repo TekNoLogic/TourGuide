@@ -55,11 +55,11 @@ T Indurium
 A News for Fizzle
 
 A Study of the Elements: Rock (Part 1) |N|From Lotwil Veriatus to the west (24,44)|
-A Coolant Heads Prevail |I|3829| |O|
+A Coolant Heads Prevail |L|3829| |O|
 T Coolant Heads Prevail |O|
-A Gyro... What? |I|4389| |O|
+A Gyro... What? |L|4389| |O|
 T Gyro... What? |O|
-A Liquid Stone |I|3823| |O|
+A Liquid Stone |L|3823| |O|
 T Liquid Stone |O|
 
 C Study of the Elements: Rock (Part 1) |N|Kill Lesser Rock Elementals to the west near Kargath (18,41)|

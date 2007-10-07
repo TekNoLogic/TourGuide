@@ -14,17 +14,17 @@ A Verdant Sigil |C|Druid|
 
 A The Woodland Protector (Part 1)
 A A Good Friend
-T The Woodland Protector (Part 1) |N|(57,45)|
+T The Woodland Protector (Part 1) |N|Dryad to the southewest (57.77,45.20)|
 A The Woodland Protector (Part 2)
 C The Woodland Protector (Part 2)
 T The Woodland Protector (Part 2)
-A Webwood Venom |N|(57,41)|
+A Webwood Venom |N|At the base of the ramp (57.79,41.70)|
 
 T Encrypted Sigil |C|Rogue|
-T Etched Sigil |C|Hunter|
+T Etched Sigil |C|Hunter| |N|Up the ramp!|
 T Hallowed Sigil |C|Priest|
 T Simple Sigil |C|Warrior|
-T Verdant Sigil |C|Druid|
+T Verdant Sigil |C|Druid| |N|Up the ramp!|
 
 t Train (Level 2)
 
@@ -53,7 +53,7 @@ T Iverron's Antidote (Part 2)
 T Crown of the Earth (Part 1)
 A Crown of the Earth (Part 2)
 
-G Grind to level 6
+G Grind to level 6 |LV|6|
 t Train (Level 6)
 
 A Dolanaar Delivery |N|South out of Shadowglen (61,47)|

@@ -15,7 +15,7 @@ T Bracers of Binding
 F Undercity
 T To Steal From Thieves
 R Felicia Doan |N|(64.3,50.2)|
-B Soothing Spices |I|3713 3|
+B Soothing Spices |L|3713 3|
 b Orgrimmar
 F Crossroads
 h Crossroads

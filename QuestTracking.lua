@@ -4,7 +4,17 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "PLAYER_LEVEL_UP"}
+TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "PLAYER_LEVEL_UP", "ADDON_LOADED"}
+
+
+function TourGuide:ADDON_LOADED(event, addon)
+	if addon ~= "Blizzard_TrainerUI" then return end
+
+	self:UnregisterEvent("ADDON_LOADED")
+
+	local f = CreateFrame("Frame", nil, ClassTrainerFrame)
+	f:SetScript("OnShow", function() if self:GetObjectiveInfo() == "TRAIN" then self:SetTurnedIn() end end)
+end
 
 
 function TourGuide:PLAYER_LEVEL_UP(event, newlevel)
@@ -53,8 +63,8 @@ end
 
 
 function TourGuide:QUEST_LOG_UPDATE(event)
-	self:Debug(10, "QUEST_LOG_UPDATE")
 	local action, _, logi, complete = self:GetObjectiveInfo(), self:GetObjectiveStatus()
+	self:Debug(10, "QUEST_LOG_UPDATE", action, logi, complete)
 
 	if (self.updatedelay and not logi) or action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
 end

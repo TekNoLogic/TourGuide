@@ -45,7 +45,7 @@ T Windows to the Source |C|Warlock|
 T Felendren the Banished
 
 A Aiding the Outrunners
-A Tainted Arcane Sliver |I|20483| |O|
+A Tainted Arcane Sliver |L|20483| |O|
 T Tainted Arcane Sliver |O|
 ]]
 end)
