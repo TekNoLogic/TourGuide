@@ -4,12 +4,18 @@ local TourGuide = TourGuide
 local hadquest
 
 
-TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE",
-	"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA"}
+TourGuide.TrackEvents = {"CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "PLAYER_LEVEL_UP"}
 
 
-function TourGuide:ZONE_CHANGED(...)
-	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
+function TourGuide:PLAYER_LEVEL_UP(event, newlevel)
+	local level = self:GetObjectiveTag("LV")
+	self:Debug(1, "PLAYER_LEVEL_UP", newlevel, level)
+	if level and newlevel >= level then self:SetTurnedIn() end
+end
+
+
+function TourGuide:ZONE_CHANGED()
+	local action, quest = self:GetObjectiveInfo()
 	if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == quest or GetZoneText() == quest) then
 		self:DebugF(1, "Detected zone change %q - %q", action, quest)
 		self:SetTurnedIn()
@@ -21,7 +27,7 @@ TourGuide.ZONE_CHANGED_NEW_AREA = TourGuide.ZONE_CHANGED
 
 
 function TourGuide:CHAT_MSG_SYSTEM(event, msg)
-	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
+	local action, quest = self:GetObjectiveInfo()
 
 	if action == "SETHEARTH" then
 		local _, _, loc = msg:find("(.*) is now your home.")
@@ -42,20 +48,21 @@ end
 
 
 function TourGuide:QUEST_WATCH_UPDATE(event)
-	if self:GetCurrentObjectiveInfo() == "COMPLETE" then self:UpdateStatusFrame() end
+	if self:GetObjectiveInfo() == "COMPLETE" then self:UpdateStatusFrame() end
 end
 
 
 function TourGuide:QUEST_LOG_UPDATE(event)
 	self:Debug(10, "QUEST_LOG_UPDATE")
-	local action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetCurrentObjectiveInfo()
+	local action, _, logi, complete = self:GetObjectiveInfo(), self:GetObjectiveStatus()
 
 	if (self.updatedelay and not logi) or action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
 end
 
 
 function TourGuide:CHAT_MSG_LOOT(event, msg)
-	local action, quest, _, _, _, _, _, _, _, _, lootitem, lootqty = self:GetCurrentObjectiveInfo()
+	local action, quest = self:GetObjectiveInfo()
+	local lootitem, lootqty = self:GetObjectiveTag("L")
 	local _, _, itemid, name = msg:find("^You .*Hitem:(%d+).*(%[.+%])")
 	self:Debug(10, event, msg:gsub("|","||"), action, quest, lootitem, lootqty, itemid, name)
 
@@ -67,9 +74,7 @@ end
 
 
 function TourGuide:UI_INFO_MESSAGE(event, msg)
-	local action, quest = self:GetCurrentObjectiveInfo()
-
-	if msg == ERR_NEWTAXIPATH and action == "GETFLIGHTPOINT" then
+	if msg == ERR_NEWTAXIPATH and self:GetObjectiveInfo() == "GETFLIGHTPOINT" then
 		self:Debug(1, "Discovered flight point")
 		self:SetTurnedIn()
 	end

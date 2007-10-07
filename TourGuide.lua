@@ -136,22 +136,44 @@ function TourGuide:FindBagSlot(itemid)
 end
 
 
-function TourGuide:GetCurrentObjectiveInfo()
-	return self:GetObjectiveInfo(self.current)
+function TourGuide:GetObjectiveInfo(i)
+	i = i or self.current
+	if not self.actions[i] then return end
+
+	return self.actions[i], self.quests[i]:gsub("@.*@", ""), self.quests[i] -- Action, display name, full name
 end
 
 
-function TourGuide:GetObjectiveInfo(i)
-	local action, quest, note = self.actions[i], self.quests[i], self.notes[i]
+function TourGuide:GetObjectiveStatus(i)
+	i = i or self.current
+	if not self.actions[i] then return end
+
+	return self.turnedin[self.quests[i]], self:GetQuestDetails(self.quests[i]) -- turnedin, logi, complete
+end
+
+
+function TourGuide:GetObjectiveTag(tag, i)
+	self:Debug(11, "GetObjectiveTag", tag, i)
+	i = i or self.current
+	if tag == "LV" then return self.levels[i]
+	elseif tag == "N" then return self.notes[i]
+	elseif tag == "U" then return self.useitems[i]
+	elseif tag == "O" then return self.optional[i]
+	elseif tag == "L" then
+		local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)x?(%d*)")
+		lootqty = tonumber(lootqty) or 1
+
+		return lootitem, lootqty
+	end
+
+	local action, quest, note, level = self.actions[i], self.quests[i], , self.levels[i]
 	if not action then return end
 
 	local logi, complete = self:GetQuestDetails(quest)
-	local hasitem = action == "ITEM" and self.questitems[i] and self:FindBagSlot(self.questitems[i])
 	local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)x?(%d*)")
 	lootqty = tonumber(lootqty) or 1
 
-	self:Debug(11, "GetObjectiveInfo", self.lootitems[i], lootitem, lootqty)
-	return action, quest:gsub("@.*@", ""), note, logi, complete, hasitem, self.turnedin[quest], quest, self.useitems[i], self.optional[i], lootitem, lootqty
+	return action, quest:gsub("@.*@", ""), note, logi, complete, self.turnedin[quest], quest, self.useitems[i], self.optional[i], lootitem, lootqty, level
 end
 
 
@@ -160,7 +182,7 @@ local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To", "A"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
-	local actions, notes, quests, items, useitems, optionals, lootitems = {}, {}, {}, {}, {}, {}, {}
+	local actions, notes, quests, useitems, optionals, lootitems, levels = {}, {}, {}, {}, {}, {}, {}
 	local i = 1
 
 	for j=1,select("#", ...) do
@@ -181,8 +203,8 @@ local function ParseQuests(...)
 			local _, _, note = string.find(text, "|N|([^|]+)|")
 			if note then notes[i] = note end
 
-			local _, _, item = string.find(text, "|I|(%d+)|")
-			if item then items[i] = item end
+			local _, _, level = string.find(text, "|LV|(%d+)|")
+			if level then levels[i] = tonumber(level) end
 
 			local _, _, useitem = string.find(text, "|U|(%d+)|")
 			if useitem then useitems[i] = useitem end
@@ -217,12 +239,12 @@ local function ParseQuests(...)
 	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
 	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
 
-	return actions, notes, quests, items, useitems, optionals, lootitems
+	return actions, notes, quests, useitems, optionals, lootitems, levels
 end
 
 
 function TourGuide:ParseObjectives(text)
-	self.actions, self.notes, self.quests, self.questitems, self.useitems, self.optional, self.lootitems = ParseQuests(string.split("\n", text))
+	self.actions, self.notes, self.quests, self.useitems, self.optional, self.lootitems, self.levels = ParseQuests(string.split("\n", text))
 end
 
 
@@ -243,10 +265,11 @@ end
 
 function TourGuide:CompleteQuest(name, noupdate)
 	local i = self.current
+	local action, quest
 	repeat
-		action, quest, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i)
-		if action == "TURNIN" and not turnedin and name == quest:gsub("%s%(Part %d+%)", "") then
-			self:DebugF(1, "Saving early quest turnin %q", quest)
+		action, quest = self:GetObjectiveInfo(i)
+		if action == "TURNIN" and not self:GetObjectiveStatus(i) and name == quest:gsub("%s%(Part %d+%)", "") then
+			self:DebugF(1, "Saving quest turnin %q", quest)
 			return self:SetTurnedIn(i, true, noupdate)
 		end
 		i = i + 1

@@ -73,10 +73,10 @@ function TourGuide:UpdateOHPanel()
 	for i in pairs(accepted) do accepted[i] = nil end
 
 	for i=1,offset-1 do
-		local action, name, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i + offset)
+		local action, name = self:GetObjectiveInfo(i + offset)
 		if name then
 			local shortname = name:gsub("%s%(Part %d+%)", "")
-			if action == "ACCEPT" and not turnedin and (accepted[name] or not accepted[shortname]) then
+			if action == "ACCEPT" and not self:GetObjectiveStatus(i + offset) and (accepted[name] or not accepted[shortname]) then
 				accepted[name] = true
 				accepted[shortname] = true
 			end
@@ -85,9 +85,10 @@ function TourGuide:UpdateOHPanel()
 
 	for i,row in ipairs(rows) do
 		row.i = i + offset
-		local action, name, note, logi, complete, hasitem, turnedin, fullquestname = self:GetObjectiveInfo(i + offset)
+		local action, name = self:GetObjectiveInfo(i + offset)
 		if not name then row:Hide()
 		else
+			local turnedin, logi, complete = self:GetObjectiveStatus(i + offset)
 			row:Show()
 
 			local shortname = name:gsub("%s%(Part %d+%)", "")
@@ -102,7 +103,7 @@ function TourGuide:UpdateOHPanel()
 
 			row.icon:SetTexture(self.icons[action])
 			row.text:SetText(name)
-			row.detail:SetText(note)
+			row.detail:SetText(self:GetObjectiveTag("N", i + offset))
 			row.check:SetChecked(checked)
 		end
 	end

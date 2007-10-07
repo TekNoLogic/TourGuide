@@ -83,9 +83,9 @@ end
 
 function TourGuide:SetText(i)
 	self.current = i
-	local action, quest, note, logi, complete, hasitem = self:GetObjectiveInfo(i)
+	local action, quest = self:GetObjectiveInfo(i)
 
-	local newtext = (quest or"???")..(note and " [?]" or "")
+	local newtext = (quest or"???")..(self:GetObjectiveTag("N") and " [?]" or "")
 
 	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[action] then
 		oldsize = f:GetWidth()
@@ -118,14 +118,16 @@ function TourGuide:UpdateStatusFrame()
 	for i in ipairs(self.actions) do
 		local name = self.quests[i]
 		if not self.turnedin[name] and not nextstep then
-			local action, name, note, logi, complete, hasitem, turnedin, quest, useitem, optional, lootitem, lootqty = self:GetObjectiveInfo(i)
-			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, hasitem, turnedin, quest, useitem, optional, lootitem, lootqty)
+			local action, name, quest  = self:GetObjectiveInfo(i)
+			local turnedin, logi, complete = self:GetObjectiveStatus(i)
+			local note, useitem, optional, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("L", i)
+			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
 
 			if action == "NOTE" and not optional and lootitem and GetItemCount(lootitem) >= lootqty then return self:SetTurnedIn(i, true) end
 
 			local incomplete
-			if action == "ACCEPT" then incomplete = (not optional or hasitem or hasuseitem) and not logi
+			if action == "ACCEPT" then incomplete = (not optional or hasuseitem) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi and complete
 			elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 			elseif action == "NOTE" then incomplete = not optional or lootitem and GetItemCount(lootitem) >= lootqty
@@ -136,7 +138,8 @@ function TourGuide:UpdateStatusFrame()
 			if action == "COMPLETE" and logi then
 				local j = i
 				repeat
-					action, _, _, logi, complete = self:GetObjectiveInfo(j)
+					action = self:GetObjectiveInfo(j)
+					turnedin, logi, complete = self:GetObjectiveStatus(j)
 					if action == "COMPLETE" and logi and not complete then AddQuestWatch(logi) -- Watch if we're in a 'COMPLETE' block
 					elseif action == "COMPLETE" and logi then RemoveQuestWatch(logi) end -- or unwatch if done
 					j = j + 1
@@ -153,7 +156,9 @@ function TourGuide:UpdateStatusFrame()
 
 	self:SetText(nextstep)
 	self.current = nextstep
-	local action, quest, note, logi, complete, hasitem, turnedin, fullquest, useitem, optional = self:GetObjectiveInfo(nextstep)
+	local action, quest, fullquest = self:GetObjectiveInfo(nextstep)
+	local turnedin, logi, complete = self:GetObjectiveStatus(nextstep)
+	local note, useitem, optional = self:GetObjectiveTag("N", nextstep), self:GetObjectiveTag("U", nextstep), self:GetObjectiveTag("O", nextstep)
 
 
 	-- TomTom coord mapping
@@ -216,7 +221,7 @@ check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
 
 
 item:HookScript("OnClick", function()
-	if TourGuide:GetCurrentObjectiveInfo() == "USE" then TourGuide:SetTurnedIn() end
+	if TourGuide:GetObjectiveInfo() == "USE" then TourGuide:SetTurnedIn() end
 end)
 
 
