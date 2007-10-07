@@ -74,7 +74,7 @@ function TourGuide:CHAT_MSG_LOOT(event, msg)
 	local action, quest = self:GetObjectiveInfo()
 	local lootitem, lootqty = self:GetObjectiveTag("L")
 	local _, _, itemid, name = msg:find("^You .*Hitem:(%d+).*(%[.+%])")
-	self:Debug(10, event, msg:gsub("|","||"), action, quest, lootitem, lootqty, itemid, name)
+	self:Debug(10, event, action, quest, lootitem, lootqty, itemid, name)
 
 	if action == "BUY" and name and name == quest
 	or (action == "BUY" or action == "NOTE") and lootitem and itemid == lootitem and (GetItemCount(lootitem) + 1) >= lootqty then

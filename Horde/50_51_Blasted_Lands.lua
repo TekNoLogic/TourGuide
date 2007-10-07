@@ -13,11 +13,11 @@ A The Basilisk's Bite
 A Vulture's Vigor
 A Everything Counts In Large Amounts |U|10593| |N|Near the basilisks/felhounds (51,35)|
 A To Serve Kum'isha |U|8244| |N|Near the basilisks/felhounds (51,35)|
-N Collect [Vulture Gizzards]x14 |L|8396x14|
-N Collect [Basilisk Brain]x11 |L|8394x11|
-N Collect [Blasted Boar Lungs]x6 |L|8392x6|
-N Collect [Scorpok Pincers]x6 |L|8393x6|
-N Collect [Snickerfang Jowls]x5 |L|8391x5|
+N Collect [Vulture Gizzards]x14 |L|8396 14|
+N Collect [Basilisk Brain]x11 |L|8394 11|
+N Collect [Blasted Boar Lungs]x6 |L|8392 6|
+N Collect [Scorpok Pincers]x6 |L|8393 6|
+N Collect [Snickerfang Jowls]x5 |L|8391 5|
 T A Boar's Vitality
 T Snickerfang Jowls
 T The Decisive Striker

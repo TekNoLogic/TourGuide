@@ -1,4 +1,14 @@
 
+local bg = {
+	bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+	edgeSize = 16,
+	insets = {left = 5, right = 5, top = 5, bottom = 5},
+	tile = true, tileSize = 16,
+}
+
+local ICONSIZE, CHECKSIZE, GAP = 16, 16, 8
+local FIXEDWIDTH = ICONSIZE + CHECKSIZE + GAP*4 - 4
 
 local TourGuide = TourGuide
 local OptionHouse = LibStub("OptionHouse-1.1")
@@ -16,18 +26,18 @@ end
 
 local f = CreateFrame("Button", nil, UIParent)
 f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, -15)
-f:SetHeight(32)
+f:SetHeight(24)
 f:SetFrameStrata("LOW")
 f:EnableMouse(true)
 f:RegisterForClicks("anyUp")
-f:SetBackdrop(ww.TooltipBorderBG)
-f:SetBackdropColor(0,0,0,0.3)
-f:SetBackdropBorderColor(0,0,0,0.7)
+f:SetBackdrop(bg)
+f:SetBackdropColor(0.09, 0.09, 0.19, 0.5)
+f:SetBackdropBorderColor(0.5, 0.5, 0.5, 0.5)
 
-local check = ww.SummonCheckBox(20, f, "LEFT", 8, 0)
-local icon = ww.SummonTexture(f, "ARTWORK", 24, 24, nil, "LEFT", check, "RIGHT", 4, 0)
-local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormal", nil, "RIGHT", -12, 0)
-text:SetPoint("LEFT", icon, "RIGHT", 4, 0)
+local check = ww.SummonCheckBox(CHECKSIZE, f, "LEFT", GAP, 0)
+local icon = ww.SummonTexture(f, "ARTWORK", ICONSIZE, ICONSIZE, nil, "LEFT", check, "RIGHT", GAP-4, 0)
+local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormalSmall", nil, "RIGHT", -GAP-4, 0)
+text:SetPoint("LEFT", icon, "RIGHT", GAP-4, 0)
 
 local item = CreateFrame("Button", nil, UIParent, "SecureActionButtonTemplate")
 item:SetFrameStrata("LOW")
@@ -43,9 +53,9 @@ local f2 = CreateFrame("Frame", nil, UIParent)
 local f2anchor = "RIGHT"
 f2:SetHeight(32)
 f2:SetWidth(100)
-local text2 = ww.SummonFontString(f2, "OVERLAY", "GameFontNormal", nil, "RIGHT", -12, 0)
-local icon2 = ww.SummonTexture(f2, "ARTWORK", 24, 24, nil, "RIGHT", text2, "LEFT", -4, 0)
-local check2 = ww.SummonCheckBox(20, f2, "RIGHT", icon2, "LEFT", -4, 0)
+local text2 = ww.SummonFontString(f2, "OVERLAY", "GameFontNormalSmall", nil, "RIGHT", -GAP-4, 0)
+local icon2 = ww.SummonTexture(f2, "ARTWORK", ICONSIZE, ICONSIZE, nil, "RIGHT", text2, "LEFT", -GAP+4, 0)
+local check2 = ww.SummonCheckBox(CHECKSIZE, f2, "RIGHT", icon2, "LEFT", -GAP+4, 0)
 check2:SetChecked(true)
 f2:Hide()
 
@@ -105,8 +115,8 @@ function TourGuide:SetText(i)
 	icon:SetTexture(self.icons[action])
 	text:SetText(newtext)
 	check:SetChecked(false)
-	if i == 1 then f:SetWidth(72 + text:GetWidth()) end
-	newsize = 72 + text:GetWidth()
+	if i == 1 then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end
+	newsize = FIXEDWIDTH + text:GetWidth()
 end
 
 
@@ -118,12 +128,12 @@ function TourGuide:UpdateStatusFrame()
 	for i in ipairs(self.actions) do
 		local name = self.quests[i]
 		if not self.turnedin[name] and not nextstep then
-			local action, name, quest  = self:GetObjectiveInfo(i)
+			local action, name, quest = self:GetObjectiveInfo(i)
 			local turnedin, logi, complete = self:GetObjectiveStatus(i)
 			local note, useitem, optional, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("L", i)
 			local level = self:GetObjectiveTag("LV", i)
 			local needlevel = level and level > UnitLevel("player")
-			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, level, needlevel)
+			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0, level, needlevel)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
 
 			if action == "NOTE" and not optional and lootitem and GetItemCount(lootitem) >= lootqty then return self:SetTurnedIn(i, true) end
@@ -184,7 +194,7 @@ function TourGuide:UpdateStatusFrame()
 		f2:SetWidth(f:GetWidth())
 		f2anchor = select(3, GetQuadrant(f))
 		f2:ClearAllPoints()
-		f2:SetPoint(f2anchor, f,f2anchor, 0, 0)
+		f2:SetPoint(f2anchor, f, f2anchor, 0, 0)
 		f2:SetAlpha(1)
 		icon2:SetTexture(icon:GetTexture())
 		text2:SetText(text:GetText())
@@ -194,8 +204,8 @@ function TourGuide:UpdateStatusFrame()
 	icon:SetTexture(self.icons[action])
 	text:SetText(newtext)
 	check:SetChecked(false)
-	if not f2:IsVisible() then f:SetWidth(72 + text:GetWidth()) end
-	newsize = 72 + text:GetWidth()
+	if not f2:IsVisible() then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end
+	newsize = FIXEDWIDTH + text:GetWidth()
 
 	local tex = useitem and select(10, GetItemInfo(tonumber(useitem)))
 	if tex then
@@ -234,7 +244,7 @@ local function ShowTooltip(self)
 
  	GameTooltip:SetOwner(self, "ANCHOR_NONE")
 	local quad, vhalf, hhalf = GetQuadrant(self)
-	local anchpoint = vhalf..(hhalf == "LEFT" and "RIGHT" or "LEFT")
+	local anchpoint = (vhalf == "TOP" and "BOTTOM" or "TOP")..hhalf
 	TourGuide:Debug(11, "Setting tooltip anchor", anchpoint, quad, hhalf, vhalf)
 	GameTooltip:SetPoint(quad, self, anchpoint)
 	GameTooltip:SetText(tip, nil, nil, nil, nil, true)

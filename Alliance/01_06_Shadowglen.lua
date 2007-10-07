@@ -28,9 +28,9 @@ T Verdant Sigil |C|Druid| |N|Up the ramp!|
 
 t Train (Level 2)
 
-C The Balance of Nature (Part 2) |N|Mobs are around (60,35)|
-C Webwood Venom |N|Cave at (54,32)|
-C A Good Friend |N|Just west of the cave entrance|
+C The Balance of Nature (Part 2) |N|Mobs are to the northeast (60,35)|
+C Webwood Venom |N|To the northwest at Shadowthread Cave (57,33)|
+T A Good Friend |N|Just west of the cave entrance|
 A A Friend in Need
 T Webwood Venom
 A Webwood Egg

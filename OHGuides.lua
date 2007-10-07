@@ -6,7 +6,7 @@ local ww = WidgetWarlock
 WidgetWarlock = nil
 
 
-local ROWHEIGHT = 22
+local ROWHEIGHT = 21
 local NUMROWS = math.floor(305/(ROWHEIGHT))
 
 

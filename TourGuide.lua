@@ -160,7 +160,7 @@ function TourGuide:GetObjectiveTag(tag, i)
 	elseif tag == "U" then return self.useitems[i]
 	elseif tag == "O" then return self.optional[i]
 	elseif tag == "L" then
-		local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)x?(%d*)")
+		local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)%s?(%d*)")
 		lootqty = tonumber(lootqty) or 1
 
 		return lootitem, lootqty
