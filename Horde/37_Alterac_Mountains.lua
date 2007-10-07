@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide('Alterac Mountains (37-37)', 'Thousand Needles (37-37)', 'Horde', function()
+TourGuide:RegisterGuide('Alterac Mountains (37)', 'Thousand Needles (37)', 'Horde', function()
 	return [[
 A Prison Break In
 A Stone Tokens

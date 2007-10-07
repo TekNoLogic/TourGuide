@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Stonetalon Mountains (23-25)", "Southern Barrens (25-25)", "Horde", function()
+TourGuide:RegisterGuide("Stonetalon Mountains (23-25)", "Southern Barrens (25)", "Horde", function()
     return [[
 R Sun Rock Retreat
 A Cenarius' Legacy

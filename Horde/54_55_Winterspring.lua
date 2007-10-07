@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Winterspring (54-55)", 'Felwood (55-55)', "Horde", function()
+TourGuide:RegisterGuide("Winterspring (54-55)", nil, "Horde", function()
     return [[
 R Winterspring |N|Stealth, death-flop, grind (if you really really dont want Timbermaw goodies)|
 N TBC]]

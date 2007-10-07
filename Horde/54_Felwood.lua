@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Felwood (54-54)", "Winterspring (54-55)", "Horde", function()
+TourGuide:RegisterGuide("Felwood (54)", "Winterspring (54-55)", "Horde", function()
     return [[
 F Splintertree Post
 R Felwood

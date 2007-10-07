@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide('Thousand Needles (37-37)', 'Dustwallow March (37-38)', 'Horde', function()
+TourGuide:RegisterGuide('Thousand Needles (37)', 'Dustwallow March (37-38)', 'Horde', function()
 	return [[
 R The Shimmering Flats |N|(69.5,57.0)|
 T The Swarm Grows (Part 1) |N|(67.58,63.94)|
