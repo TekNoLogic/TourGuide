@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Redridge Mountains (18-20)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Redridge Mountains (18-20)", "Darkshore (20-21)", "Alliance", function()
 return [[
 A Encroaching Gnolls
 T Encroaching Gnolls |N|Follow the road east until you are at the bridge|

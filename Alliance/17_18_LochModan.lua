@@ -23,7 +23,8 @@ C A Hunter's Challenge
 T A Hunter's Challenge
 A Vyrin's Revenge (Part 1)
 G Grind level 18 |LV|18|
-t Train Level 18 in Farstrider Lodge, get level 18 pet skills too |C|Hunter|
+t Train in Farstrider Lodge (Level 18) |C|Hunter|
+t Train pet skills (Level 18) |C|Hunter|
 A Bingles' Missing Supplies |N|The NPC can be found at the easternmost shore of The Loch|
 C Crocolisk Hunting
 C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21,26.61), Hammer (51.78,24.09), Screwdriver (48.37,20.50), Wrench (48.73,30.10)|
