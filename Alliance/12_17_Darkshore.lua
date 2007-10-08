@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Darkshore (12-17)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
 
 A Washed Ashore (Part 1)

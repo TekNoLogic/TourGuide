@@ -12,8 +12,8 @@ T Ironband's Excavation
 A Gathering Idols
 A Excavation Progress Report
 C Gathering Idols
+T Gathering Idols
 R Farstrider Lodge |N|East of Excavation site|
-t Train Level 18, get level 18 pet skills too |C|Hunter|
 A Crocolisk Hunting
 A A Hunter's Boast
 C A Hunter's Boast
@@ -22,8 +22,10 @@ A A Hunter's Challenge
 C A Hunter's Challenge
 T A Hunter's Challenge
 A Vyrin's Revenge (Part 1)
+G Grind level 18 |LV|18|
+t Train Level 18 in Farstrider Lodge, get level 18 pet skills too |C|Hunter|
 A Bingles' Missing Supplies |N|The NPC can be found at the easternmost shore of The Loch|
-C Crocolishk Hunting
+C Crocolisk Hunting
 C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21,26.61), Hammer (51.78,24.09), Screwdriver (48.37,20.50), Wrench (48.73,30.10)|
 R Stonewrought Dam
 A A Dark Threat Looms (Part 1) |N|Middle of the dam|
@@ -41,8 +43,8 @@ A Vyrin's Revenge (Part 2)
 T Vyrin's Revenge (Part 2)
 T Bingles' Missing Supplies |N|Remember Bingles at the shore?|
 R Ironforge
-T Report to Ironforge
 f Grab flight point
+T Report to Ironforge |N|Hall of Explorers. Skip the next quest he tries to give you|
 R Stormwind City |N|Use the Deeprun Tram|
 T Stormpike's Order
 f Grab flight point
