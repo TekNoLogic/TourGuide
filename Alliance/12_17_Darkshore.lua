@@ -12,7 +12,7 @@ A For Love Eternal |N|On the docks, west of Inn|
 A Buzzbox 827 |N|Inn, upstairs|
 A Cave Mushrooms
 A The Red Crystal
-N Buy 3x 6 slot bags, or less if you have found bags
+B Buy 3x 6 slot bags, or less if you have found bags
 A Bashal'Aran (Part 1)
 A Tools of the Highborne
 A Plagued Lands |N|South over the bridge|
@@ -62,7 +62,7 @@ T Thundris Windweaver |N|Same NPC|
 A The Cliffspring River
 T The Red Crystal
 A As Water Cascades
-N Fill the [Empty Water Tube] in the Moonwell |L|14339|
+N Fill the [Empty Water Tube] in the Moonwell |U|14338| |L|14339|
 T For Love Eternal |N|West of Inn, at the dock|
 
 T Beached Sea Creature (Part 1)
@@ -78,7 +78,7 @@ C Buzzbox 323 |N|You might want to head north while doing this quest|
 A Beached Sea Turtle (Part 1) |N|Go north until you are at the beach, then go west|
 
 R Cliffspring River |N|Waterfall in northeast|
-C The Cliffspring River |N|Go under the bridge into the water to get the sample|
+C The Cliffspring River |N|Go under the bridge into the water to get the sample| |U|12350|
 T Buzzbox 323 |N|Buzzbox is on the other side of the bridge, left side|
 A Buzzbox 525
 R Cliffspring Falls |N|Follow the river to southeast|
@@ -122,7 +122,7 @@ N Fill the [Empty Cleansing Bowl] in the Moonwell |L|12347|
 G Grind until you are level 16 |LV|16|
 t Train in Darnassus (Level 16)
 
-C The Blackwood Corrupted |N|Blackwood camps are east of Bashal'Aran. Gather grain (50.65,34.99), nuts (51.83,33.56) and fruit (52.87,33.38). Use the [Filled Cleansing Bowl] near bonfire. Kill Xabraxxis when he spanws|
+C The Blackwood Corrupted |N|Blackwood camps are east of Bashal'Aran. Gather grain (50.65,34.99), nuts (51.83,33.56) and fruit (52.87,33.38). Use the [Filled Cleansing Bowl] near bonfire. Kill Xabraxxis when he spanws| |U|12347|
 C Tharnariun's Hope |N|To east between the two camps, up the hill is a cave. Kill the adds, run away and reset the Den Mother. Kill her after|
 T The Tower of Althalaxx (Part 1) |N|Go north, over the river until you are at the road to ruins. the NPC is next to two rocks|
 A The Tower of Althalaxx (Part 2)
