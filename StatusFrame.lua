@@ -108,11 +108,13 @@ function TourGuide:SetText(i)
 		f2:SetPoint(f2anchor, f, f2anchor, 0, 0)
 		f2:SetAlpha(1)
 		icon2:SetTexture(icon:GetTexture())
+		icon2:SetTexCoord(4/48, 44/48, 4/48, 44/48)
 		text2:SetText(text:GetText())
 		f2:Show()
 	end
 
 	icon:SetTexture(self.icons[action])
+	if action ~= "ACCEPT" and action ~= "TURNIN" then icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
 	text:SetText(newtext)
 	check:SetChecked(false)
 	if i == 1 then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end

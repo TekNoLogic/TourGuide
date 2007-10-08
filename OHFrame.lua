@@ -141,6 +141,7 @@ function TourGuide:UpdateOHPanel(value)
 			end
 
 			row.icon:SetTexture(self.icons[action])
+			if action ~= "ACCEPT" and action ~= "TURNIN" then row.icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
 			row.text:SetText(name)
 			row.detail:SetText(self:GetObjectiveTag("N", i + offset))
 			row.check:SetChecked(checked)
