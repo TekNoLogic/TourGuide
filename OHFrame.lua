@@ -16,7 +16,7 @@ local frame, scrollbar, upbutt, downbutt
 
 local function OnShow(self)
 	scrollbar:SetMinMaxValues(0, math.max(#TourGuide.actions - NUMROWS, 1))
-	scrollbar:SetValue(TourGuide.current - NUMROWS/2 - 1)
+	scrollbar:SetValue((TourGuide.current or 0) - NUMROWS/2 - 1)
 
 	if TourGuide.guidechanged then TourGuide:UpdateOHPanel() end
 

@@ -8,7 +8,7 @@
 
 ## SavedVariables: TourGuideAlphaDB
 
-## OptionalDeps: Dongle, Optionhouse, TomTom, tekErr
+## OptionalDeps: Dongle, Optionhouse, TomTom, tekDebug
 
 ## DefaultState: disabled
 
