@@ -14,8 +14,8 @@ R Searing Gorge |N|West edge of the zone (1,62)|
 
 A Caught! |N|At an outhouse (65.5,62.3)|
 A Suntara Stones (Part 1) |N|(63.8,60.9)|
-T Suntara Stones (Part 1) |N|Talk to the letter he dropped.|
-A Suntara Stones (Part 2)
+T Suntara Stones (Part 1)
+A Suntara Stones (Part 2) |N|Read the letter he dropped|
 
 C Caught!
 
