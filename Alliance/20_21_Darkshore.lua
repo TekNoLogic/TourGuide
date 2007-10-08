@@ -24,6 +24,7 @@ C WANTED: Murkdeep! |N|Clear the camp, after that there's 3 waves of murlocs. Mu
 R Grove of the Ancients
 T Return to Onu
 A Mathystra Relics
+G You might want to grind yourself to level 21 |LV|21|
 A The Sleeper Has Awaken |N|Escort. REMEMBER TO TAKE THE HORN FROM THE BOX!|
 C The Sleeper Has Awaken |N|Use the [Horn of Awakening] when he falls asleep. That happens quite alot...|
 ]]
