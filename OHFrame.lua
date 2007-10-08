@@ -11,11 +11,11 @@ local NUMROWS = math.floor(305/(ROWHEIGHT+4))
 
 local offset = 0
 local rows = {}
-local frame, scrollbar
+local frame, scrollbar, upbutt, downbutt
 
 
 local function OnShow(self)
-	scrollbar:SetMinMaxValues(1, math.max(#TourGuide.actions - NUMROWS, 1))
+	scrollbar:SetMinMaxValues(0, math.max(#TourGuide.actions - NUMROWS, 1))
 	scrollbar:SetValue(TourGuide.current - NUMROWS/2 - 1)
 
 	self:SetAlpha(0)
@@ -37,33 +37,20 @@ function TourGuide:CreateObjectivePanel()
 	frame = CreateFrame("Frame", nil, UIParent)
 	frame:SetFrameStrata("DIALOG")
 
-	scrollbar = CreateFrame("Slider", "TourGuideOHScroll", frame, "UIPanelScrollBarTemplate")
-	scrollbar:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 0, -16)
+	scrollbar, upbutt, downbutt = ww.ConjureScrollBar(frame, true)
+	scrollbar:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 0, -19)
 	scrollbar:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", 0, 16)
 	scrollbar:SetScript("OnValueChanged", function(f, val) self:UpdateOHPanel(val) end)
-	TourGuideOHScrollScrollUpButton:SetScript("OnClick", function(f)
-		scrollbar:SetValue(offset - NUMROWS)
+
+	upbutt:SetScript("OnClick", function(f)
+		scrollbar:SetValue(offset - NUMROWS + 1)
 		PlaySound("UChatScrollButton")
 	end)
 
-	TourGuideOHScrollScrollDownButton:SetScript("OnClick", function(f)
-		scrollbar:SetValue(offset + NUMROWS)
+	downbutt:SetScript("OnClick", function(f)
+		scrollbar:SetValue(offset + NUMROWS - 1)
 		PlaySound("UChatScrollButton")
 	end)
-
-	local uptext = scrollbar:CreateTexture(nil, "BACKGROUND")
-	uptext:SetWidth(31)
-	uptext:SetHeight(256)
-	uptext:SetPoint("TOPLEFT", TourGuideOHScrollScrollUpButton, "TOPLEFT", -7, 5)
-	uptext:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ScrollBar")
-	uptext:SetTexCoord(0, 0.484375, 0, 1.0)
-
-	local downtex = scrollbar:CreateTexture(nil, "BACKGROUND")
-	downtex:SetWidth(31)
-	downtex:SetHeight(106)
-	downtex:SetPoint("BOTTOMLEFT", TourGuideOHScrollScrollDownButton, "BOTTOMLEFT", -7, -3)
-	downtex:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ScrollBar")
-	downtex:SetTexCoord(0.515625, 1.0, 0, 0.4140625)
 
 	local function LevelCorrection(f) f:SetFrameLevel(frame:GetFrameLevel()+1); f:SetScript("OnShow", nil) end
 	for i=1,NUMROWS do
@@ -118,6 +105,9 @@ function TourGuide:UpdateOHPanel(value)
 	if value then offset = math.floor(value) end
 	if (offset + NUMROWS) > #self.actions then offset = #self.actions - NUMROWS end
 	if offset < 0 then offset = 0 end
+
+	if offset == 0 then upbutt:Disable() else upbutt:Enable() end
+	if offset == (#self.actions - NUMROWS) then downbutt:Disable() else downbutt:Enable() end
 
 	for i in pairs(accepted) do accepted[i] = nil end
 

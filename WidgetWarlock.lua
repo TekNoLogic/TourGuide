@@ -69,3 +69,43 @@ function WidgetWarlock.FadeIn(frame, elap)
 		elapsed[frame] = 0
 	else frame:SetAlpha(elapsed[frame]/fadetimes[frame]) end
 end
+
+
+--------------------------
+--      Scroll Bar      --
+--------------------------
+
+function WidgetWarlock.ConjureScrollBar(parent, hasborder)
+	local f = CreateFrame("Slider", nil, parent)
+	f:SetWidth(16)
+
+	local upbutt = CreateFrame("Button", nil, f, "UIPanelScrollUpButtonTemplate")
+	upbutt:SetPoint("BOTTOM", f, "TOP")
+
+	local downbutt = CreateFrame("Button", nil, f, "UIPanelScrollDownButtonTemplate")
+	downbutt:SetPoint("TOP", f, "BOTTOM")
+
+	f:SetThumbTexture("Interface\\Buttons\\UI-ScrollBar-Knob")
+	local thumb = f:GetThumbTexture()
+	thumb:SetHeight(16)
+	thumb:SetWidth(16)
+	thumb:SetTexCoord(0.25, 0.75, 0.25, 0.75)
+
+	if hasborder then
+		local uptext = f:CreateTexture(nil, "BACKGROUND")
+		uptext:SetWidth(31)
+		uptext:SetHeight(256)
+		uptext:SetPoint("TOPLEFT", upbutt, "TOPLEFT", -7, 5)
+		uptext:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ScrollBar")
+		uptext:SetTexCoord(0, 0.484375, 0, 1.0)
+
+		local downtex = f:CreateTexture(nil, "BACKGROUND")
+		downtex:SetWidth(31)
+		downtex:SetHeight(106)
+		downtex:SetPoint("BOTTOMLEFT", downbutt, "BOTTOMLEFT", -7, -3)
+		downtex:SetTexture("Interface\\PaperDollInfoFrame\\UI-Character-ScrollBar")
+		downtex:SetTexCoord(0.515625, 1.0, 0, 0.4140625)
+	end
+
+	return f, upbutt, downbutt
+end
