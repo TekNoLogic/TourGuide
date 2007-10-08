@@ -18,6 +18,8 @@ local function OnShow(self)
 	scrollbar:SetMinMaxValues(0, math.max(#TourGuide.actions - NUMROWS, 1))
 	scrollbar:SetValue(TourGuide.current - NUMROWS/2 - 1)
 
+	if TourGuide.guidechanged then TourGuide:UpdateOHPanel() end
+
 	self:SetAlpha(0)
 	self:SetScript("OnUpdate", ww.FadeIn)
 end
@@ -102,6 +104,7 @@ local accepted = {}
 function TourGuide:UpdateOHPanel(value)
 	if not frame or not frame:IsVisible() then return end
 
+	self.guidechanged = nil
 	if value then offset = math.floor(value) end
 	if (offset + NUMROWS) > #self.actions then offset = #self.actions - NUMROWS end
 	if offset < 0 then offset = 0 end
@@ -111,15 +114,10 @@ function TourGuide:UpdateOHPanel(value)
 
 	for i in pairs(accepted) do accepted[i] = nil end
 
-	for i=1,offset-1 do
-		local action, name = self:GetObjectiveInfo(i + offset)
-		if name then
-			local shortname = name:gsub("%s%(Part %d+%)", "")
-			if action == "ACCEPT" and not self:GetObjectiveStatus(i + offset) and (accepted[name] or not accepted[shortname]) then
-				accepted[name] = true
-				accepted[shortname] = true
-			end
-		end
+	for i in pairs(self.actions) do
+		local action, name = self:GetObjectiveInfo(i)
+		local _, _, quest, part = name:find("(.+)%s%(Part %d+%)")
+		if quest and not accepted[quest] and not self:GetObjectiveStatus(i) then accepted[quest] = name end
 	end
 
 	for i,row in ipairs(rows) do
@@ -131,14 +129,9 @@ function TourGuide:UpdateOHPanel(value)
 			row:Show()
 
 			local shortname = name:gsub("%s%(Part %d+%)", "")
-			logi = not turnedin and (accepted[name] or not accepted[shortname]) and logi
-			complete = not turnedin and (accepted[name] or not accepted[shortname]) and complete
+			logi = not turnedin and (not accepted[shortname] or (accepted[shortname] == name)) and logi
+			complete = not turnedin and (not accepted[shortname] or (accepted[shortname] == name)) and complete
 			local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete
-
-			if action == "ACCEPT" and logi then
-				accepted[name] = true
-				accepted[shortname] = true
-			end
 
 			row.icon:SetTexture(self.icons[action])
 			if action ~= "ACCEPT" and action ~= "TURNIN" then row.icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end

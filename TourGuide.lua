@@ -93,6 +93,7 @@ function TourGuide:LoadGuide(name)
 	self.db.char.currentguide = name
 	if not self.guides[name] then self.db.char.currentguide = self.guidelist[1] end
 	self:DebugF(1, "Loading guide: %s", name)
+	self.guidechanged = true
 	self:ParseObjectives(self.guides[self.db.char.currentguide]())
 end
 
