@@ -8,11 +8,11 @@ h Ironforge
 A Assisting Arch Druid Staghelm |N|From the innkeeper|
 B 15 Silk Cloth |L|4306 15| |N|If you don't already have them, that is|
 
-T Thelsamar
+F Thelsamar
 R Badlands
 R Searing Gorge |N|West edge of the zone (1,62)|
 
-A Caught! |N|At an outhouse (65.5,62.3)|
+A Caught! |N|At an outhouse (65.58,62.33)|
 A Suntara Stones (Part 1) |N|(63.8,60.9)|
 T Suntara Stones (Part 1)
 A Suntara Stones (Part 2) |N|Read the letter he dropped|
@@ -22,7 +22,7 @@ C Caught!
 T Caught! |N|Back at the outhouse|
 A Ledger from Tanaris
 N Get the ledger |N|He slips it under the door...| |L|11727|
-N Kill Margol the Rager |N|Wanders around southeast of the outhouse| |L|10000|
+N Kill Margol the Rager |N|Wanders around southeast of the outhouse (73,75)| |L|10000|
 A The Horn of the Beast |U|10000| |N|From the item he drops, of course|
 
 A Divine Retribution |N|North of the cauldren (39.0,38.9)|
@@ -30,42 +30,43 @@ C Divine Retribution |N|Talk to him a bit|
 T Divine Retribution
 A The Flawless Flame
 
-R Thorium Point |N|To the north (38,26)|
+R Thorium Point |N|Take the path to the west (32,33)|
 A STOLEN: Smithing Tuyere and Lookout's Spyglass |N|From the wanted sign|
 A JOB OPPORTUNITY: Culling the Competition |N|From the wanted sign|
 A Curse These Fat Fingers
 A Fiery Menace!
 A Incendosaurs? Whateverosaur is More Like It
 
-f Grab the flight point
 F Ironforge
-T Suntara Stones (Part 2) |N|(71,16)|
+T Suntara Stones (Part 2) |N|In the Hall of Explorers|
 A Dwarven Justice
 
 F Thelsamar
-T The Horn of the Beast |N|(18,83)|
+T The Horn of the Beast |N|Down in the Valley of Kings, by the locked gate (18.18,84.06)|
 A Proof of Deed
 
 H Ironforge
-T Proof of Deed |N|(69,11)|
+T Proof of Deed |N|In the Hall of Explorers|
 A At Last!
-A A Little Slime Goes A Long Way |N|In the Hall of Explorers museum (75,23)|
+A A Little Slime Goes a Long Way |N|In the Hall of Explorers museum (75.82,23.19)|
 
 F Thelsamar
-T At Last! |N|(18,83)|
+T At Last! |N|Valley of Kings again (18.18,84.06)|
+
+R Searing Gorge |N|Use your key!|
 N Kill glassweb spiders |N|All over the east side of the zone| |L|11725 20|
 C STOLEN: Smithing Tuyere and Lookout's Spyglass |N|Kill Dark Iron Steamsmiths and Lookouts|
 C Curse These Fat Fingers |N|All over the place, mostly above the cauldren|
 C The Flawless Flame |N|Kill elementals and golums|
+C Fiery Menace! |N|All over the western side of the zone|
 
 T The Flawless Flame
 A Forging the Shaft
-C Fiery Menace! |N|All over the western side of the zone|
 
 A The Key to Freedom |O| |U|11818|
 T The Key to Freedom |O| |N|Back at the outhouse!|
 
-T Dwarven Justice |N|Head down inot the cauldren (63,38}.  Enter the cave (41,54), find the Dying Archaeologist (41.2,25.7).  Kill DI Taskmasters and Slavers on the way, of course!|
+T Dwarven Justice |N|Head down into the cauldren.  Enter the second cave from the west end (41,54), find the Dying Archaeologist (41.2,25.7).  Kill DI Taskmasters and Slavers on the way, of course!|
 A Release Them
 C JOB OPPORTUNITY: Culling the Competition
 C Forging the Shaft
