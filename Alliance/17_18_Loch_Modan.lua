@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Loch Modan (17-18)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Loch Modan (17-18)", "Redridge Mountains (18-20)", "Alliance", function()
 return [[
 A Filthy Paws |N|Upstairs, inside the tower|
 A Stormpike's Order
