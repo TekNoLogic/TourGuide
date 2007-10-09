@@ -29,8 +29,8 @@ QuestTracking.lua
 Alliance\01_06_Shadowglen.lua
 Alliance\06_12_Teldrassil.lua
 Alliance\12_17_Darkshore.lua
-Alliance\17_18_LochModan.lua
-Alliance\18_20_RedridgeMtns.lua
+Alliance\17_18_Loch_Modan.lua
+Alliance\18_20_Redridge_Mountains.lua
 Alliance\20_21_Darkshore.lua
 Alliance\21_22_Ashenvale.lua
 
