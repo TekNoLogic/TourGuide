@@ -31,7 +31,7 @@ T Redridge Goulash
 T Delivering Daffodils |N|Inside the inn|
 C The Everstill Bridge |N|Camps are north of Lakeshire|
 T The Everstill Bridge
-G Grind until you are level 20 |LV|20|
+N Grind until you are level 20 for the next quest|LV|20|
 A Murloc Poachers |N|Man next to the shed|
 T Murloc Poachers
 H Auberdine
