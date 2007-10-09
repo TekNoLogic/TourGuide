@@ -1,7 +1,8 @@
-TourGuide:RegisterGuide("Darkshore (20-21)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Darkshore (20-21)", "Ashenvale (21-22)", "Alliance", function()
 return [[
 t Train in Darnassus (Level 20)
 t Train pet skills (Level 20) |C|Hunter|
+A Onward to Ashenvale |N|Northernmost building in Auberdine|
 R Grove of the Ancients |N|Get back to Auberdine and run south|
 T Onu
 A The Master's Glaive
