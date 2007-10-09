@@ -116,7 +116,6 @@ A WANTED: Murkdeep! |N|The Wanted poster infront of Inn|
 T Cleansing of the Infected
 A Tharnariun's Hope
 T How Big a Threat? (Part 2)
-A A Lost Master
 N Fill the [Empty Cleansing Bowl] in the Moonwell |L|12347|
 
 G Grind until you are level 16 |LV|16|
