@@ -37,6 +37,7 @@ Alliance\22_23_Stonetalon_Mountains.lua
 Alliance\23_24_Darkshore.lua
 Alliance\24_25_Ashenvale.lua
 Alliance\25_27_Wetlands.lua
+Alliance\27_28_Redridge_Mountains.lua
 
 Alliance\38_40_Stranglethorn.lua
 Alliance\40_41_Badlands.lua

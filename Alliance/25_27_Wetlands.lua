@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Wetlands (25-27)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Wetlands (25-27)", "Lakeshire (27-28)", "Alliance", function()
 return [[
 A Claws from the Deep
 A Young Crocolisk Skins
@@ -79,7 +79,7 @@ T Return the Statuette
 F Ironforge
 T An Old Colleague
 F Stormwind City
-T A Scroll from Mauren
+T A Scroll from Mauren |N|The Mage Quarter|
 F Lakeshire
 
 ]]
