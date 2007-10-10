@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Ashenvale (24-25)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Ashenvale (24-25)", "Wetlands (25-27)", "Alliance", function()
 return [[
 T Trek to Ashenvale
 T The Ruins of Stardust
