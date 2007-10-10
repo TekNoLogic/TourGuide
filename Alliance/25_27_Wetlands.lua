@@ -79,7 +79,7 @@ T Return the Statuette
 F Ironforge
 T An Old Colleague
 F Stormwind City
-T A Scroll From Mauren
+T A Scroll from Mauren
 F Lakeshire
 
 ]]
