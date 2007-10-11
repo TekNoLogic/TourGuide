@@ -33,29 +33,10 @@ T The Bloodsail Buccaneers (Part 5) |N|At the top of the inn|
 A Zanzil's Mixture and A Fool's Stout
 
 b Ratchet
+f Grab the flight point
 A Volcanic Activity |N|At the hut to the left as you exit the dock|
 C The Stone Circle |N|The chest outside the hut.|
 
-F Gadgetzan
-T Sprinkle's Secret Ingredient
-A Delivery For Marin
-T Delivery For Marin
-A Noggenfogger Elixir
-T Noggenfogger Elixir
-
-T Zanzil's Mixture and A Fool's Stout |N|Up at the racetrack in Shimmering Flats|
-A Get the Goblins Drunk
-T Get the Goblins Drunk
-A Report Back to Fizzlebub
-
-T The Stone Circle |N|South of Gadget at the ruins (52.7,45.9).  Skip the follow-up.|
-
-H Booty Bay
-T Report Back to Fizzlebub
-
-F Stormwind City
-T Rhapsody's Tale |N|Back in the dorf dist.  Don't take the follow-up.|
-B Mithril Casing |L|10561| |N|Off the AH, or find an engineer.|
 ]]
 
 end)

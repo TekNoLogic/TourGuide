@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Searing Gorge (50-51)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Searing Gorge (50-51)", "Kalimdor (51)", "Alliance", function()
 return [[
 F Ironforge
 t Train (Level 50)
@@ -20,7 +20,7 @@ A Suntara Stones (Part 2) |N|Read the letter he dropped|
 C Caught!
 
 T Caught! |N|Back at the outhouse|
-A Ledger from Tanaris
+A Ledger from Tanaris |N|You may want to skip this, it's a bit of runaround|
 N Get the ledger |N|He slips it under the door...| |L|11727|
 N Kill Margol the Rager |N|Wanders around southeast of the outhouse (73,75)| |L|10000|
 A The Horn of the Beast |U|10000| |N|From the item he drops, of course|
@@ -66,73 +66,47 @@ A Forging the Shaft
 A The Key to Freedom |O| |U|11818|
 T The Key to Freedom |O| |N|Back at the outhouse!|
 
-T Dwarven Justice |N|Head down into the cauldren.  Enter the second cave from the west end (41,54), find the Dying Archaeologist (41.2,25.7).  Kill DI Taskmasters and Slavers on the way, of course!|
+T Dwarven Justice |N|Head down into the cauldren.  Enter the second cave from the west end (41,54), find the Dying Archaeologist (41.19,25.72).  Kill DI Taskmasters and Slavers on the way, of course!|
 A Release Them
-C JOB OPPORTUNITY: Culling the Competition
+C JOB OPPORTUNITY: Culling the Competition |N|Keep working your way towards the exit|
 C Forging the Shaft
-C WANTED: Overseer Maltorius |O|
-C What the Flux? |O|
-C Incendosaurs? Whateverosaur is More Like It |N|(47,46) Grind here for a while if you want.|
+C Incendosaurs? Whateverosaur is More Like It |N|Jump dow after the bridge over the lava, you'll find dino in the big room to the north (51,36) Grind here for a while if you want.|
 
 R Thorium Point |N|Or deathport|
-T WANTED: Overseer Maltorius |O|
 T Curse These Fat Fingers
 T Fiery Menace!
 T Incendosaurs? Whateverosaur is More Like It
 T STOLEN: Smithing Tuyere and Lookout's Spyglass
 T JOB OPPORTUNITY: Culling the Competition
-T What The Flux? |O|
 
 T Forging the Shaft |N|(38,38)|
 A The Flame's Casing
 
+C Release Them |N|Run up the path to the east of the cave at the Twilight Hammer camp (24,32).  In the center of a lava pool is the Twilight Artifact (29.2,25.9)|
+A Prayer to Elune (Part 1) |N|From an NPC in a cage nearby (29.5,26.5)|
+T Prayer to Elune (Part 1)
+A Prayer to Elune (Part 2)
+C Prayer to Elune (Part 2)
+C The Flame's Casing |N|Keep killing Twilight Hammer guys|
+
+T The Flame's Casing
+A The Torch of Retribution (Part 1)
+T The Torch of Retribution (Part 1) |N|You have to wait a moment for him to create it|
+A The Torch of Retribution (Part 2)
+T The Torch of Retribution (Part 2) |N|Grab the torch he just made, duh.|
+A Squire Maltrake
+T Squire Maltrake
+A Set Them Ablaze!
+C Set Them Ablaze! |N|Light the brazier at each tower (33,53) (36,60) (44,61) (50,54)| |U|10515|
+T Release Them |N|Head back down to the Dying Archaeologist (41.2,25.7).  You can drop thru the hole if you want (35.15,43.18)Talk to the alter near him.  Don't accept teh followup unlessy ou have a group to help.|
+
+R Thorium Point |N|Or deathport|
+T Set Them Ablaze!
+A Trinkets... |N|Talk to the chest near him|
+T Trinkets... |N|Talk to the chest again|
+N Save the molt |N|You'll need it later|
+
 ]]
 
---[[
-
-42) Run over to the path up the mountain at 24,32
-43) Kill the elites 1 by 1 on your way up to the lava pit at 29,25 and clear the mobs around it, the
-idolators don’t chain link and don’t attack when you touch the rock in the center. Jump on the rock
-either with mount or jump in lava then on it. Open it for “Release Them”
-44) While killing these guys around the pool you should have found a Symbol of Ragnaros for “The
-Flame’s Casing” if not kill until you do
-45) Make sure you talk to the caged npc next to the lava, he gives you “Prayer to Elune pt.1” Listen to his
-short story and turn it in for “Prayer to Elune pt.2” Now you have to kill these for the Rag dropping
-and the Prayer of Elune, Easy drops
-46) Go down to 38,38 and turn in “The Flame’s Casing” accept “The Torch of Retribution pt.1” then turn it
-back in accept “The Torch of Retribution pt.2” then grab the torch in front of him and complete it and
-accept “Squire Maltrake” and turn that back in and accept “Set Them Ablaze!”
-47) Now equip the staff and run to each of the 4 towers at N: 33,53 W: 36,60 S: 44,61 E: 50,54 and
-either kill the guys downstairs, and run up and light the brazier, or just run in on your mount past the
-elite and light the brazier.
-48) When you get them all, look for a safe spot to jump down and go in the caves at 41,54 again and
-through the jail bar door at 37,44 and run to the room with the golem at 41,25 and touch the candle
-covered stone and turn in “Release Them” SKIP the next part unless you wanna do it with a group,
-it’s very tough you have to fight that golem and a dwarf both elites.
-49) Die on purpose so you end up at TP and go down to 39,39 and turn in “Set Them Ablaze!” watch the
-cutscene as he turns into a dragon
-50) Open the chest on the ground accept “Trinkets...” Then open it again and complete it. Open it and
-keep the Black Dragonflight Molt for later In the Burning Steppes.
-51) Fly to the Blasted Lands and run up into the Swamp of Sorrows
-52) Go to 81,91 and look for a named murloc Jarquia for "Ledger From Tanaris"
-53) Once you kill him hearth to IF then either get a portal to Darnassus or fly to Menethil then boat to
-Auberdine and fly to Darn
-54) Go to the top of the temple of the moon at 38,80 and turn in “Prayer to Elune pt.2”
-55) Go to the next section up here and turn in “Rise of the Silithid” accept “March of the Silithid”
-56) Go to 34,9 at the top of the tower and turn in “Assisting Arch Druid Staghelm” accept “Un'Goro Soil”
-57) Make Darnassus your home at 67,15
-58) Now either fly to Theramore or boat to Menethil then to Theramore
-59) Get first aid up to 290 if you haven’t for heavy runecloth bandages
-60) Go over to 54,55 to the wrecked ship and grab the overdue package for "Ledger From Tanaris"
-61) Go to the cave at 31,66 and touch the scroll in the back of the cave which turns in “Cortello's Riddle
-pt.2” accept “Cortello's Riddle pt.3”
-62) Aggro all the raptors and die so you end up at Theramore
-63) Fly to Gadgetzan
-64) Just as you enter Gadget, turn in "Ledger From Tanaris"
-65) Get your level 52 set gloves out of bank or mail for later
-66) Between the 2 North gates accept “Super Sticky”
-67) Go to the hut just west and turn in “March of the Silithid” accept “Bungle in the Jungle”
-68) Run down into the Un’Goro Crater at 26,52
---]]
 end)
 
