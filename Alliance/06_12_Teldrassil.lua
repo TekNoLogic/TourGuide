@@ -85,8 +85,21 @@ T Taming the Beast (Part 3) |C|Hunter|
 N Tame a Strigid Hunter |C|Hunter| |N|To get Claw (Rank 2) and Growl (Rank 2)|
 N Tame your pet |C|Hunter| |N|Elder Nightsaber (42,42) is nice|
 
+A Heeding the Call |C|Druid|
+
 R Darnassus
+
 T Training the Beast |C|Hunter| |N|(40,8)|
+
+T Heeding the Call |C|Druid| |N|Nortwest in Darnassus, Cenarion Enclave (33,8)|
+A Moonglade |C|Druid|
+T Moonglade |N| Teleport there, go into the house past the light armor salesmen| |C|Druid| 
+A Great Bear Spirit |C|Druid|
+T Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39,28)|
+A Back to Darnassus |C|Druid|
+T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade|
+A Body and Heart |C|Druid| 
+
 A Nessa Shadowsong |N|(70,45)|
 
 A Glowing Fruit |N|Out of town, to the south (42,76)|
