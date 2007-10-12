@@ -179,7 +179,7 @@ function TourGuide:UpdateStatusFrame()
 	-- TomTom coord mapping
 	if note and (TomTom or Cartographer_Waypoints) and not mapped[action..quest] then
 		mapped[action..quest] = true
-		for x,y in note:gmatch("%(([%d.]+),([%d.]+)%)") do
+		for x,y in note:gmatch("%(([%d.]+),%s?([%d.]+)%)") do
 			if TomTom then TomTom:AddWaypoint(tonumber(x), tonumber(y), quest)
 			elseif Cartographer_Waypoints then Cartographer_Waypoints:AddLHWaypoint(nil, nil, tonumber(x), tonumber(y), quest) end
 		end

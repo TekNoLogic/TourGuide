@@ -175,7 +175,7 @@ local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
 	local actions, notes, quests, useitems, optionals, lootitems, levels = {}, {}, {}, {}, {}, {}, {}
-	local i = 1
+	local i, haserrors = 1, false
 
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
@@ -218,11 +218,21 @@ local function ParseQuests(...)
 				for _,word in pairs(titlematches) do
 					if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
 						TourGuide:DebugF(1, "%s %s -- Contains bad title case", action, quest)
+						haserrors = true
 					end
 				end
+
+				if quest:find("[“”’]") then
+					TourGuide:DebugF(1, "%s %s -- Contains bad char", action, quest)
+					haserrors = true
+				end
 			end
-			local _, _, comment = string.find(text, "(|.|[^|]+)$")
-			if comment then TourGuide:Debug(1, "Unclosed comment: ".. comment) end
+
+			local _, _, comment = string.find(text, "(|[NLUC]V?|[^|]+)$") or string.find(text, "(|[NLUC]V?|[^|]+) |[NLUC]V?|")
+			if comment then
+				TourGuide:Debug(1, "Unclosed comment: ".. comment)
+				haserrors = true
+			end
 		end
 	end
 
@@ -230,6 +240,8 @@ local function ParseQuests(...)
 	for quest in pairs(accepts) do if not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'turnin' objective: %s", quest) end end
 	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
 	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
+
+	if haserrors and TourGuide:IsDebugEnabled() then TourGuide:Print("This guide contains errors") end
 
 	return actions, notes, quests, useitems, optionals, lootitems, levels
 end
