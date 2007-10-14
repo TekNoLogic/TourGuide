@@ -1,6 +1,6 @@
 
 
-TourGuide:RegisterGuide("Brian Kopp's - Hellfire Peninsula (60-62)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", nil, "Alliance", function()
 return [[
 F Nethergarde Keep
 B [Nethergarde Bitter] |N|From Bernie Heisten (63,16)|
@@ -138,9 +138,6 @@ T The Mastermind
 --~ guys with them, but once you kill the taskmaster they become friendly. This can be tough, but if you can
 --~ sap or sheep or something to one of the miners it’s a lot easier. Not too hard but it’s close. Also keep an
 --~ eye out for the Sha’naar Relics for “Sha’naar Relics”
---~ Copyright © 2007 Brian Kopp B&C Kopp Inc
---~ www.briankopp.com
---~ www.marsgamer.com
 --~ 48) Go in the SE corner of the camp up the path to a hut at 16,65 and accept "A Traitor Among Us" Now go
 --~ back down to the hut at 14,63 and open the chest and grab the key, make sure the 63 elite isn't around
 --~ then go back up and turn it in. Accept "The Dreghood Elders" then Go back down and free Morod at 13,60
@@ -202,9 +199,6 @@ T The Mastermind
 --~ 60) Now either hearth to Telhamat if your hearth is up, or get on the gryphon to shattered point then fly to
 --~ the Temple and run into the Inn, turn in "An Ambitious Plan"
 --~ 61) Start using the lfg tool and chat to look for a group for Hellfire Citadel Ramparts for that quest you picked
---~ Copyright © 2007 Brian Kopp B&C Kopp Inc
---~ www.briankopp.com
---~ www.marsgamer.com
 --~ up earlier. Plus they designed outlands as I explained, to make you do instances, or else you’re gonna hit
 --~ 63 ½ or so and get stuck grinding or instancing them. Try to do HFC before you leave town here for
 --~ quests. You could grind instead if you want
