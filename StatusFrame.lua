@@ -174,15 +174,12 @@ function TourGuide:UpdateStatusFrame()
 	local action, quest, fullquest = self:GetObjectiveInfo(nextstep)
 	local turnedin, logi, complete = self:GetObjectiveStatus(nextstep)
 	local note, useitem, optional = self:GetObjectiveTag("N", nextstep), self:GetObjectiveTag("U", nextstep), self:GetObjectiveTag("O", nextstep)
+	local zonename = self:GetObjectiveTag("Z", nextstep) or self.zonename
 
-
-	-- TomTom coord mapping
+	-- Mapping
 	if note and (TomTom or Cartographer_Waypoints) and not mapped[action..quest] then
 		mapped[action..quest] = true
-		for x,y in note:gmatch("%(([%d.]+),%s?([%d.]+)%)") do
-			if TomTom then TomTom:AddWaypoint(tonumber(x), tonumber(y), quest)
-			elseif Cartographer_Waypoints then Cartographer_Waypoints:AddLHWaypoint(nil, nil, tonumber(x), tonumber(y), quest) end
-		end
+		self:ParseAndMapCoords(note, quest, zonename) --, zone)
 	end
 
 

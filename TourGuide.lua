@@ -87,17 +87,6 @@ function TourGuide:RegisterGuide(name, nextzone, faction, sequencefunc)
 end
 
 
-function TourGuide:LoadGuide(name)
-	if not name then return end
-
-	self.db.char.currentguide = name
-	if not self.guides[name] then self.db.char.currentguide = self.guidelist[1] end
-	self:DebugF(1, "Loading guide: %s", name)
-	self.guidechanged = true
-	self:ParseObjectives(self.guides[self.db.char.currentguide]())
-end
-
-
 function TourGuide:LoadNextGuide()
 	local name = self.nextzones[self.db.char.currentguide]
 	if not name then return end
@@ -160,6 +149,7 @@ function TourGuide:GetObjectiveTag(tag, i)
 	elseif tag == "N" then return self.notes[i]
 	elseif tag == "U" then return self.useitems[i]
 	elseif tag == "O" then return self.optional[i]
+	elseif tag == "Z" then return self.zones[i]
 	elseif tag == "L" then
 		local _, _, lootitem, lootqty = string.find(self.lootitems[i] or "", "(%d+)%s?(%d*)")
 		lootqty = tonumber(lootqty) or 1
@@ -174,7 +164,7 @@ local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
-	local actions, notes, quests, useitems, optionals, lootitems, levels = {}, {}, {}, {}, {}, {}, {}
+	local actions, notes, quests, useitems, optionals, lootitems, levels, zones = {}, {}, {}, {}, {}, {}, {}, {}
 	local i, haserrors = 1, false
 
 	for j=1,select("#", ...) do
@@ -201,6 +191,9 @@ local function ParseQuests(...)
 			local _, _, useitem = string.find(text, "|U|(%d+)|")
 			if useitem then useitems[i] = useitem end
 
+			local _, _, zone = string.find(text, "|Z|([^|]+)|")
+			if zone then zones[i] = zone end
+
 			local _, _, lootitem = string.find(text, "|L|(%d+%s?%d*)|")
 			if lootitem then lootitems[i] = lootitem end
 
@@ -209,29 +202,31 @@ local function ParseQuests(...)
 			i = i + 1
 
 			-- Debuggery
-			if action == "A" then accepts[quest] = true
-			elseif action == "T" then turnins[quest] = true
-			elseif action == "C" then completes[quest] = true end
+			if not string.find(text, "|NODEBUG|") then
+				if action == "A" then accepts[quest] = true
+				elseif action == "T" then turnins[quest] = true
+				elseif action == "C" then completes[quest] = true end
 
-			if action == "A" or action == "C" or action == "T" then
-				-- Catch bad Title Case
-				for _,word in pairs(titlematches) do
-					if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
-						TourGuide:DebugF(1, "%s %s -- Contains bad title case", action, quest)
+				if action == "A" or action == "C" or action == "T" then
+					-- Catch bad Title Case
+					for _,word in pairs(titlematches) do
+						if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
+							TourGuide:DebugF(1, "%s %s -- Contains bad title case", action, quest)
+							haserrors = true
+						end
+					end
+
+					if quest:find("[“”’]") then
+						TourGuide:DebugF(1, "%s %s -- Contains bad char", action, quest)
 						haserrors = true
 					end
 				end
 
-				if quest:find("[“”’]") then
-					TourGuide:DebugF(1, "%s %s -- Contains bad char", action, quest)
+				local _, _, comment = string.find(text, "(|[NLUC]V?|[^|]+)$") or string.find(text, "(|[NLUC]V?|[^|]+) |[NLUC]V?|")
+				if comment then
+					TourGuide:Debug(1, "Unclosed comment: ".. comment)
 					haserrors = true
 				end
-			end
-
-			local _, _, comment = string.find(text, "(|[NLUC]V?|[^|]+)$") or string.find(text, "(|[NLUC]V?|[^|]+) |[NLUC]V?|")
-			if comment then
-				TourGuide:Debug(1, "Unclosed comment: ".. comment)
-				haserrors = true
 			end
 		end
 	end
@@ -243,12 +238,20 @@ local function ParseQuests(...)
 
 	if haserrors and TourGuide:IsDebugEnabled() then TourGuide:Print("This guide contains errors") end
 
-	return actions, notes, quests, useitems, optionals, lootitems, levels
+	return actions, notes, quests, useitems, optionals, lootitems, levels, zones
 end
 
 
-function TourGuide:ParseObjectives(text)
-	self.actions, self.notes, self.quests, self.useitems, self.optional, self.lootitems, self.levels = ParseQuests(string.split("\n", text))
+function TourGuide:LoadGuide(name)
+	if not name then return end
+
+	self.db.char.currentguide = name
+	if not self.guides[name] then self.db.char.currentguide = self.guidelist[1] end
+	self:DebugF(1, "Loading guide: %s", name)
+	self.guidechanged = true
+	local _, _, zonename = name:find("^(.*) %(.*%)$")
+	self.zonename = zonename
+	self.actions, self.notes, self.quests, self.useitems, self.optional, self.lootitems, self.levels, self.zones = ParseQuests(string.split("\n", self.guides[self.db.char.currentguide]()))
 end
 
 

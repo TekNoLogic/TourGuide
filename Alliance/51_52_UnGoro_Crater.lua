@@ -1,7 +1,7 @@
 
-TourGuide:RegisterGuide("Un'Goro Crater (51-52)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Azshara (52-53)", "Alliance", function()
 return [[
-R Un'Goro Crater |N|Southewest corner of the zone (26,52)|
+R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
 N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystal.  Also loot any dirt piles or sprouts you find.|
 
 A The Apes of Un'Goro |N|From a tauren at the bottom of the ramp entering the zone (71.69, 75.97)|
@@ -10,7 +10,7 @@ A The Fare of Lar'korwi |N|From a tauren at the bottom of the ramp entering the 
 A It's a Secret to Everybody (Part 1) |N|Find the wrecked raft (63.04, 68.54)|
 T It's a Secret to Everybody (Part 1) |N|Just underwater nearby|
 A It's a Secret to Everybody (Part 2)
-C The Fare of Lar'korwi |N|Find the Threshadon Carcass (68.8,56.7) amongst the raptors.|
+C The Fare of Lar'korwi |N|Find the Threshadon Carcass (68.8, 56.7) amongst the raptors.|
 
 T The Fare of Lar'korwi
 A The Scent of Lar'korwi
@@ -19,7 +19,7 @@ T The Scent of Lar'korwi
 A The Bait for Lar'korwi
 G Grind on raptors |N|Until you find [A Mangled Journal]| |L|11116|
 A Williden's Journal |U|11116|
-C The Bait for Lar'korwi |N|Use the meat and mixture at the flat rock behind the east pylon (79.9,49.9)| |U|11568|
+C The Bait for Lar'korwi |N|Use the meat and mixture at the flat rock behind the east pylon (79.9, 49.9)| |U|11568|
 
 N Find 7 Red power crystals |L|11186 7|
 N Find 7 Yellow power crystals |L|11188 7|
@@ -50,13 +50,13 @@ C The Northern Pylon |N|Along the north edge of the zone to the east (56,12).  K
 T Chasing A-Me 01 |N|East in the gorilla cave (63,17).  Skip the follow-up.|
 C The Apes of Un'Goro
 C Super Sticky |N|At the tarpits in the north half of the zone|
-N Find [Crate of Foodstuffs] |N|At the abandoned camp in the east side of the zone (68.5, 36.6)| |L|11113|
+N Find [Crate of Foodstuffs] |N|At the abandoned camp in the east side of the zone (68.52, 36.59)| |L|11113|
 C Shizzle's Flyer |N|Kill them dinos!|
 C The Eastern Pylon |N|To the east, of course (76,51)|
 T The Bait for Lar'korwi
 T The Apes of Un'Goro |N|Skip the follow-up|
 
-C Alien Ecology |N|Down in the Slithering Scar (50,77).  Head left inside to the big room, use the vial| |U|11132|
+C Alien Ecology |N|Down in the Slithering Scar (50,77).  Head left inside to the big room (48.62, 85.33), use the vial| |U|11132|
 N Kill bugs for [Gorishi Scent Gland] |L|11837|
 C Expedition Salvation |N|At the other camp (38.5, 66.0)|
 C The Western Pylon |N|(23,59)|
@@ -72,9 +72,9 @@ T Finding the Source
 A The New Springs
 
 T Lost! |N|In a cave (51,49)|
-A A Little Help From My Friends
-C A Little Help From My Friends |N|Use the canteen on him if he faints. Run back to Marshal's Refuge.| |U|11804|
-T A Little Help From My Friends
+A A Little Help From My Friends |NODEBUG|
+C A Little Help From My Friends |NODEBUG| |N|Use the canteen on him if he faints. Run back to Marshal's Refuge.| |U|11804|
+T A Little Help From My Friends |NODEBUG|
 T Beware of Pterrordax
 T Shizzle's Flyer
 T Muigin and Larion |N|Skip the follow-up|
