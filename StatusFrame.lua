@@ -140,6 +140,17 @@ function TourGuide:UpdateStatusFrame()
 
 			if action == "NOTE" and not optional and lootitem and GetItemCount(lootitem) >= lootqty then return self:SetTurnedIn(i, true) end
 
+			if action == "KILL" or action == "NOTE" then
+				local quest, questtext = self:GetObjectiveTag("Q", i), self:GetObjectiveTag("QO", i)
+				if quest and questtext then
+					local qi = self:GetQuestLogIndexByName(quest)
+					for lbi=1,GetNumQuestLeaderBoards(qi) do
+						self:Debug(1, quest, questtext, qi, GetQuestLogLeaderBoard(lbi, qi))
+						if GetQuestLogLeaderBoard(lbi, qi) == questtext then return self:SetTurnedIn(i, true) end
+					end
+				end
+			end
+
 			local incomplete
 			if action == "ACCEPT" then incomplete = (not optional or hasuseitem) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi and complete

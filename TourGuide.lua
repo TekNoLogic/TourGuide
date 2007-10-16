@@ -15,6 +15,7 @@ TourGuide.icons = setmetatable({
 	ACCEPT = "Interface\\GossipFrame\\AvailableQuestIcon",
 	COMPLETE = "Interface\\Icons\\Ability_DualWield",
 	TURNIN = "Interface\\GossipFrame\\ActiveQuestIcon",
+	KILL = "Interface\\Icons\\Ability_Creature_Cursed_02",
 	RUN = "Interface\\Icons\\Ability_Tracking",
 	MAP = "Interface\\Icons\\Ability_Spy",
 	FLY = "Interface\\Icons\\Ability_Druid_FlightForm",
@@ -34,6 +35,7 @@ local actiontypes = {
 	A = "ACCEPT",
 	C = "COMPLETE",
 	T = "TURNIN",
+	K = "KILL",
 	R = "RUN",
 	t = "TRAIN",
 	H = "HEARTH",
@@ -156,6 +158,11 @@ function TourGuide:GetObjectiveTag(tag, i)
 
 		return lootitem, lootqty
 	end
+
+	local tags = self.tags[i]
+	if not tags then return end
+	local found, _, value = tags:find("|"..tag.."|([^|]*)|?")
+	if found then return value or true end
 end
 
 
@@ -164,7 +171,7 @@ local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
-	local actions, notes, quests, useitems, optionals, lootitems, levels, zones = {}, {}, {}, {}, {}, {}, {}, {}
+	local actions, notes, quests, useitems, optionals, lootitems, levels, zones, tags = {}, {}, {}, {}, {}, {}, {}, {}, {}
 	local i, haserrors = 1, false
 
 	for j=1,select("#", ...) do
@@ -172,7 +179,7 @@ local function ParseQuests(...)
 		local _, _, class = text:find("|C|([^|]+)|")
 
 		if text ~= "" and (not class or class == myclass) then
-			local _, _, action, quest = text:find("^(%a) ([^|]*)")
+			local _, _, action, quest, tag = text:find("^(%a) ([^|]*)(.*)")
 			assert(actiontypes[action], "Unknown action: "..text)
 			quest = quest:trim()
 			if not (action == "A" or action =="C" or action =="T") then
@@ -180,7 +187,7 @@ local function ParseQuests(...)
 				uniqueid = uniqueid + 1
 			end
 
-			actions[i], quests[i] = actiontypes[action], quest
+			actions[i], quests[i], tags[i] = actiontypes[action], quest, tag
 
 			local _, _, note = string.find(text, "|N|([^|]+)|")
 			if note then notes[i] = note end
@@ -238,7 +245,7 @@ local function ParseQuests(...)
 
 	if haserrors and TourGuide:IsDebugEnabled() then TourGuide:Print("This guide contains errors") end
 
-	return actions, notes, quests, useitems, optionals, lootitems, levels, zones
+	return actions, notes, quests, useitems, optionals, lootitems, levels, zones, tags
 end
 
 
@@ -251,7 +258,7 @@ function TourGuide:LoadGuide(name)
 	self.guidechanged = true
 	local _, _, zonename = name:find("^(.*) %(.*%)$")
 	self.zonename = zonename
-	self.actions, self.notes, self.quests, self.useitems, self.optional, self.lootitems, self.levels, self.zones = ParseQuests(string.split("\n", self.guides[self.db.char.currentguide]()))
+	self.actions, self.notes, self.quests, self.useitems, self.optional, self.lootitems, self.levels, self.zones, self.tags = ParseQuests(string.split("\n", self.guides[self.db.char.currentguide]()))
 end
 
 
