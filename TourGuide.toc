@@ -20,6 +20,7 @@ OptionHouse.lua
 WidgetWarlock.lua
 
 TourGuide.lua
+Parser.lua
 Mapping.lua
 StatusFrame.lua
 OHFrame.lua

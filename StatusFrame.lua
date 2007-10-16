@@ -133,10 +133,13 @@ function TourGuide:UpdateStatusFrame()
 			local action, name, quest = self:GetObjectiveInfo(i)
 			local turnedin, logi, complete = self:GetObjectiveStatus(i)
 			local note, useitem, optional, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("L", i)
-			local level = self:GetObjectiveTag("LV", i)
+			local level = tonumber((self:GetObjectiveTag("LV", i)))
 			local needlevel = level and level > UnitLevel("player")
 			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0, level, needlevel)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
+
+			-- Test for completed objectives and mark them done
+			if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == name or GetZoneText() == name) then return self:SetTurnedIn(i, true) end
 
 			if action == "KILL" or action == "NOTE" then
 				if not optional and lootitem and GetItemCount(lootitem) >= lootqty then return self:SetTurnedIn(i, true) end
@@ -249,7 +252,7 @@ end)
 
 
 local function ShowTooltip(self)
-	local tip = TourGuide.notes[TourGuide.current]
+	local tip = TourGuide:GetObjectiveTag("N")
 	if not tip then return end
 
  	GameTooltip:SetOwner(self, "ANCHOR_NONE")

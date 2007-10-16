@@ -19,7 +19,7 @@ end
 
 
 function TourGuide:PLAYER_LEVEL_UP(event, newlevel)
-	local level = self:GetObjectiveTag("LV")
+	local level = tonumber((self:GetObjectiveTag("LV")))
 	self:Debug(1, "PLAYER_LEVEL_UP", newlevel, level)
 	if level and newlevel >= level then self:SetTurnedIn() end
 end
