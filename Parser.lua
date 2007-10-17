@@ -22,6 +22,8 @@ local actiontypes = {
 function TourGuide:GetObjectiveTag(tag, i)
 	self:Debug(11, "GetObjectiveTag", tag, i)
 	i = i or self.current
+	local tags = self.tags[i]
+	if not tags then return end
 
 	if tag == "O" then return tags:find("|O|")
 	elseif tag == "L" then
@@ -31,8 +33,7 @@ function TourGuide:GetObjectiveTag(tag, i)
 		return lootitem, lootqty
 	end
 
-	local tags = self.tags[i]
-	if tags then return select(3, tags:find("|"..tag.."|([^|]*)|?")) end
+	return select(3, tags:find("|"..tag.."|([^|]*)|?"))
 end
 
 
