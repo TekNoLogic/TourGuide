@@ -99,6 +99,7 @@ T Un'Goro Soil
 A Morrowgrain Research (Part 1) |N|Upstairs!|
 T Morrowgrain Research (Part 1) |N|Downstairs!|
 A Morrowgrain Research (Part 2)
+B Ichor of Undeath |L|7972| |C|Priest|
 
 A Moontouched Wildkin |N|Down in Rut'theran Village|
 ]]
