@@ -94,8 +94,8 @@ end
 function TourGuide:SetText(i)
 	self.current = i
 	local action, quest = self:GetObjectiveInfo(i)
-
-	local newtext = (quest or"???")..(self:GetObjectiveTag("N") and " [?]" or "")
+	local note = self:GetObjectiveTag("N")
+	local newtext = (quest or"???")..(note and " [?]" or "")
 
 	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[action] then
 		oldsize = f:GetWidth()
@@ -119,6 +119,8 @@ function TourGuide:SetText(i)
 	check:SetChecked(false)
 	if i == 1 then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end
 	newsize = FIXEDWIDTH + text:GetWidth()
+
+	if self.UpdateFubarPlugin then self.UpdateFubarPlugin(quest, self.icons[action], note) end
 end
 
 
