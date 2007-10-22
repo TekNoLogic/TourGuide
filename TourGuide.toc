@@ -58,6 +58,8 @@ Alliance\51_Kalimdor.lua
 Alliance\51_52_UnGoro_Crater.lua
 Alliance\52_53_Azshara.lua
 Alliance\53_54_Felwood.lua
+Alliance\54_Ungoro_Crater.lua
+Alliance\54_Felwood.lua
 
 Alliance\66_67_BladesEdge.lua
 Alliance\67_70_Netherstorm.lua
