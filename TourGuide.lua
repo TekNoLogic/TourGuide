@@ -141,6 +141,11 @@ end
 
 
 function TourGuide:CompleteQuest(name, noupdate)
+	if not self.current then
+		self:DebugF(1, "Cannot complete %q, no guide loaded", name)
+		return
+	end
+
 	local i = self.current
 	local action, quest
 	repeat
