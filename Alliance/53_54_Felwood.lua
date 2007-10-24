@@ -50,16 +50,24 @@ A Speak to Salfa
 
 R Winterspring |N|Thru the cave!|
 T Speak to Salfa
-T The New Springs |N|To the south (31,45)|
+A Winterfall Activity
+T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring|
 A Strange Sources
 T It's a Secret to Everybody (Part 3)
-A The Videre Elixir
+A The Videre Elixir (Part 1)
 A Threat of the Winterfall
 
 R Moonglade |N|Back thru the tunnel, go north at the middle|
 f Grab flight point |N|Follow the road east a bit (48,67)| |Z|Moonglade|
 
-F Feralas |N|Hearth first if you want to cut a few minutes off your flight|
+F Emerald Sanctuary
+T Further Corruption
+T Flute of Xavaric
+A Felbound Ancients
+T Verifying the Corruption
+T Cleansing Felwood |N|South along the road|
+
+F Feralas
 A Jonespyre's Request
 T Jonespyre's Request
 A The Mystery of Morrowgrain
@@ -68,30 +76,23 @@ T The Mystery of Morrowgrain
 N Stable your pet |C|Hunter|
 N Tame an Ironfur Patriarch |C|Hunter| |N|On the mainland, 48+.  You're after Claw (Rank 7)|
 
-C The Videre Elixir |N|Buy some "bait" from Gregan Brewspewer at the Twin Colossals (45.1, 25.5).  Take the road north to Ruins of Ravenwind, find Miblon Snartooth (44.6, 10.2), drop the bait, and grab the Evoroot.  Take it back to Gregan.|
+C The Videre Elixir (Part 1) |N|Buy some "bait" from Gregan Brewspewer at the Twin Colossals (45.1, 25.5).  Take the road north to Ruins of Ravenwind, find Miblon Snartooth (44.6, 10.2), drop the bait, and grab the Evoroot.| |Z|Feralas| |U|11141|
+T The Videre Elixir (Part 1) |N|Back at Gregan.|
 
 H Astranaar
 N Get your pet back |C|Hunter|
-F Emerald Sanctuary
-T Further Corruption
-T Flute of Xavaric
-A Felbound Ancients
-T Verifying the Corruption
-T Cleansing Felwood |N|South along the road|
-
 F Talonbranch Glade
 t Train |C|Druid|
 t Train |C|Hunter|
 
 R Winterspring
-A Winterfall Activity
-T The Videre Elixir
+T The Videre Elixir (Part 2)
 A Meet at the Grave
 
 R Everlook |N|Follow the road east.|
-F Ratchet |N|Flight point is northeast outside the town wall (62,36)| |Z|Winterspring|
+F Ratchet |N|Flight point is northeast outside the town wall (62.32, 36.61)| |Z|Winterspring|
 T Volcanic Activity
-T Seeking Spiritual Aid |N|To the south on the coast (65,43)| |Z|The Barrens|
+T Seeking Spiritual Aid |N|To the south at the Tidus Stair (65.80, 43.76)| |Z|The Barrens|
 A Cleansed Water Returns to Felwood
 ]]
 end)
