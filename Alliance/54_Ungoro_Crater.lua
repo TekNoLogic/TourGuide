@@ -1,7 +1,5 @@
 
 TourGuide:RegisterGuide("Un'Goro Crater (54)", "Felwood (54)", "Alliance", function()
---A The New Frontier (Part 1) |N|From Courier Hammerfall.  He walks counter-clockwise around the outer and inner rings of IF.  Run CCW around the outside and you should find him.|
-
 return [[
 F Ironforge
 T A Little Slime Goes a Long Way (Part 1) |N|In the Hall of Explorers|
