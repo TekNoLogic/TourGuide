@@ -62,6 +62,8 @@ Alliance\54_Ungoro_Crater.lua
 Alliance\54_Felwood.lua
 Alliance\54_55_Winterspring.lua
 
+Alliance\62_63_Zangarmarsh.lua
+
 Alliance\66_67_BladesEdge.lua
 Alliance\67_70_Netherstorm.lua
 
