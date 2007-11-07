@@ -72,6 +72,7 @@ Horde\01_05_SunstriderIsle.lua
 Horde\05_13_Eversong.lua
 Horde\13_20_Ghostlands.lua
 
+Horde\01_12_Mulgore.lua
 Horde\01_12_Durotar.lua
 Horde\12_15_Barrens.lua
 
