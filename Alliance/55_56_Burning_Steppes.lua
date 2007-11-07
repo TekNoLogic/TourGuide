@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Burning Steppes (55-56)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Burning Steppes (55-56)", "Silithus (56)", "Alliance", function()
 return [[
 F City of Ironforge
 h City of Ironforge
@@ -32,12 +32,8 @@ C FIFTY! YEP! |N|Kill orcs at Blackrock Stronghold (43,46) or Pillar of Ash (49,
 C Broodling Essence |N|Dragons to the northeast.  Use the device on them, then kill them. Get help if you can.| |U|12284|
 C Dragonkin Menace |N|Get help if you can.|
 
-A A Taste of Flame |N|In the cave (94,31)|
+A A Taste of Flame |N|In the cave at Slither Rock (94,31)|
 T A Taste of Flame |N|Skip the follow-up|
-
-T Tablet of the Seven |N|Back at Flame Crest to the north (65,23)|
-T Broodling Essence
-A Felnok Steelspring
 
 T FIFTY! YEP! |N| Back at Morgan's Vigil (84,68)|
 T Gor'tesh the Brute Lord
@@ -53,7 +49,7 @@ T The True Masters (Part 1) |N|In the town hall (29,44)| |Z|Redridge Mountains|
 A The True Masters (Part 2)
 
 F Stormwind City
-T The True Masters (Part 2) |N|In Stormwind Keep (78,18)|
+T The True Masters (Part 2) |N|In Stormwind Keep (78,18)| |Z|Stormwind City|
 A The True Masters (Part 3)
 T The True Masters (Part 3)
 A The True Masters (Part 4)
@@ -65,8 +61,16 @@ A The True Masters (Part 5)
 F Burning Steppes
 T The True Masters (Part 5)
 A The True Masters (Part 6)
-C The True Masters (Part 6) |N|In a cave to the north (84,68)|
+
+T Tablet of the Seven |N|Back at Flame Crest to the north (65,23)|
+T Broodling Essence
+A Felnok Steelspring
+C The True Masters (Part 6) |N|Talk to Ragged John|
+
 T The True Masters (Part 6) |N|Skip the follow-up|
+H City of Ironforge
+T The Smoldering Ruins of Thaurissan (Part 2) |N|In the throne room|
+
 ]]
 
 end)
