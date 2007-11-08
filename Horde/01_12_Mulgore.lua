@@ -57,15 +57,18 @@ A Mazzranache
 A Poison Water
 T Rite of Vision (Part 1)
 A Rite of Vision (Part 2)
+A Kyle's Gone Missing! |N|North of town, by the bridge|
 
 N Kill and loot... |N|Kill any Swoops you see, also loot acorns under trees|
-C Sharing the Land
+C Sharing the Land |N|To the south by the cliffs|
 C Poison Water
 
 T Sharing the Land
 T Poison Water
 A Winterhoof Cleansing
-C Winterhoof Cleansing
+N Cook your ass off! |N|If you plan on leveling cooking (why wouldn't you?) buy the skill, 40x Simple Flour and 40x Mild Spices (about 3.5s total).  Cook up bread before you cook any meat that dropped.|
+C Kyle's Gone Missing! |N|Find the dog running around the village and feed him |U|33009|
+C Winterhoof Cleansing |N|South of town at the well (53.55, 66.42)| |U|5411|
 C Rite of Vision (Part 2) |N|Grab the well stones|
 
 T Winterhoof Cleansing
@@ -74,11 +77,12 @@ A Dwarven Digging
 T Rite of Vision (Part 2)
 A Rite of Vision (Part 3)
 U Drink up! |U|4823|
-T Rite of Vision (Part 3) |N|Follow the vision, or just run to the cave he's leading you to (34,36)|
+T Kyle's Gone Missing! |N|As you pass by, don't worry you can catch up.|
+T Rite of Vision (Part 3) |N|Follow the vision, or just run to the cave he's leading you to (32.68, 36.06)|
 A Rite of Wisdom
 
-C Thunderhorn Totem |N|To the south|
-C Dwarven Digging |N|Kill the dorfs for their tools, then find the forge in the camp and break them.|
+C Thunderhorn Totem |N|All over the plains south of Bluff|
+C Dwarven Digging |N|Kill the dorfs for their tools, then find the forge in the camp and break them.| |U|4702|
 C Swoop Hunting
 C Mazzranache
 
@@ -88,7 +92,7 @@ T Swoop Hunting
 T Mazzranache
 
 A Thunderhorn Cleansing
-C Thunderhorn Cleansing
+C Thunderhorn Cleansing |U|5415|
 T Thunderhorn Cleansing
 A Wildmane Totem
 
@@ -124,7 +128,7 @@ R Thunder Bluff
 A Preparation for Ceremony
 T Training the Beast |C|Hunter| |N|Over on Hunter Rise (to the south)|
 
-C Wildmane Cleansing |N|North of Bluff|
+C Wildmane Cleansing |N|North of Bluff| |U|5416|
 C The Hunter's Way
 A A Sacred Burial |N|East at Red Rocks Amphitheatre|
 C A Sacred Burial
