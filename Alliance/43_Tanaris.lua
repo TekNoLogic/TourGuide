@@ -10,7 +10,15 @@ T Tran'Rek |N|Don't accept the follow-up|
 A Gadgetzan Water Survey |N|Southwest side of town on a hill|
 
 N Turnin quests in Shimmering flats |N|If you have them.|
+T Rumors for Kravel |N|Up at the race track in shimmerinng flats (77,77)| |Z|Thousand Needles|
+A Back to Booty Bay
+T News for Fizzle
+A Keeping Pace
+T Keeping Pace |N|Talk to Zamek (79,77), then talk to the plans from Rizzle's house (77,77) when he runs outside.| |Z|Thousand Needles|
+A Rizzle's Schematics
+T Rizzle's Schematics
 
+H Gadgetzan
 R Steamwheedle Port
 A WANTED: Caliph Scorpidsting
 T Stoley's Debt
@@ -27,11 +35,9 @@ C Stoley's Shipment |N|On the second floor of the house (72,46)|
 C Southsea Shakedown
 C Pirate Hats Ahoy!
 
-N Drops
-
+N Treasure Map... |N|If you got all three parts of the map, combine then and complete "Cuergo's Gold"|
 
 H Gadgetzan
-
 T Water Pouch Bounty
 T Wastewander Justice
 A More Wastewander Justice
@@ -44,6 +50,8 @@ C More Wastewander Justice |N|(60,35)|
 
 T Stoley's Shipment |N|Back at Steamwheedle Port|
 A Deliver to MacKinley
+A Ship Schedules |O| |U|9250|
+T Ship Schedules |O|
 T WANTED: Andre Firebeard
 T Southsea Shakedown
 T Pirate Hats Ahoy!
@@ -53,23 +61,5 @@ T More Wastewander Justice
 A Handle With Care
 
 ]]
-
---[[
-
-6) Go to The Shimmering Flats to 77,77 and turn in “Rumors for Kravel” accept “Back to Booty Bay”
-7) Just beside him turn in “News for Fizzle”
-8) Go to 80,75 and accept “Keeping Pace” do it by talking with zamek just south of here, has a blue ? on
-his head. Don’t follow him, run to rizzles house at 77,77 and when he leaves grab the unguarded
-plans which turns in “Keeping Pace” accept “Rizzle's Schematics” turn it in at 80,75
-9) Hearth to Gadget
-
-
-16) You may get some drops of Pirate's Footlocker which can hold Ship Schedule and the upper middle
-and lower map fragments which starts “Cuergo’s Gold” and “Ship Schedules” only do them if you find
-them. If I don’t find them all I skip them or sell what I have.
-
-
-
---]]
 end)
 
