@@ -10,7 +10,7 @@ B 15 Silk Cloth |L|4306 15| |N|If you don't already have them, that is|
 
 F Thelsamar
 R Badlands
-R Searing Gorge |N|West edge of the zone (1,62)|
+R Searing Gorge |N|West edge of the zone (1,62)| |Z|Badlands|
 
 A Caught! |N|At an outhouse (65.58,62.33)|
 A Suntara Stones (Part 1) |N|(63.8,60.9)|
@@ -42,16 +42,16 @@ T Suntara Stones (Part 2) |N|In the Hall of Explorers|
 A Dwarven Justice
 
 F Thelsamar
-T The Horn of the Beast |N|Down in the Valley of Kings, by the locked gate (18.18,84.06)|
+T The Horn of the Beast |N|Down in the Valley of Kings, by the locked gate (18.18,84.06)| |Z|Loch Modan|
 A Proof of Deed
 
 H Ironforge
 T Proof of Deed |N|In the Hall of Explorers|
 A At Last!
-A A Little Slime Goes a Long Way |N|In the Hall of Explorers museum (75.82,23.19)|
+A A Little Slime Goes a Long Way |N|In the Hall of Explorers museum (75.82,23.19)| |Z|City of Ironforge|
 
 F Thelsamar
-T At Last! |N|Valley of Kings again (18.18,84.06)|
+T At Last! |N|Valley of Kings again (18.18,84.06)| |Z|Loch Modan|
 
 R Searing Gorge |N|Use your key!|
 N Kill glassweb spiders |N|All over the east side of the zone| |L|11725 20|

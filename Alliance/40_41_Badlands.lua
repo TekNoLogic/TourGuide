@@ -5,15 +5,15 @@ B [Frost Oil] |N|From AH|
 B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|
 B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
 B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
-A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)|
+A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)| |Z|City of Ironforge|
 
 N Upgrade your ammo! |C|Hunter|
 
 F Loch Modan
 N Stable your pet |C|Hunter|
 h Thelsamar
-A Badlands Reagent Run |N|In the house behind the Inn (37,49)|
-T Ironband Wants You! |N|Ironband's Excavation Site (65,65)|
+A Badlands Reagent Run |N|In the house behind the Inn (37,49)| |Z|Loch Modan|
+T Ironband Wants You! |N|Ironband's Excavation Site (65,65)| |Z|Loch Modan|
 A Find Agmond
 
 R Badlands |N|(46,76)|
@@ -90,14 +90,9 @@ T Fiery Blaze Enchantment |O|
 H Thelsamar
 T Badlands Reagent Run
 A Badlands Reagent Run II
-T Murdaloc |N|Ironband's Excavation Site (65,65)|
+T Murdaloc |N|Ironband's Excavation Site (65,65)| |Z|Loch Modan|
 A Agmond's Fate
 
 ]]
-
-
---~ 32) Fly to Duskwood, make it your home. Fly to SW Go to 64,20 and accept "In Search of The Temple"
---~ 33) Fly back to Duskwood, Run into Swamp of Sorrows
-
 end)
 

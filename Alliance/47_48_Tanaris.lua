@@ -64,7 +64,7 @@ T Return to Ironforge |O| |N|In the Hall of Explorers|
 A A Future Task
 A Passing the Burden
 T A Future Task
-T Passing the Burden |N|In the Mystic Ward (31.20,4.70)|
+T Passing the Burden |N|In the Mystic Ward (31.20,4.70)| |Z|City of Ironforge|
 A Arcane Runes
 A An Easy Pickup
 T An Easy Pickup |N|In the Military Ward|
@@ -74,9 +74,9 @@ T Signal for Pickup
 F Aeire Peak |N|Hinterlands!|
 T The Newest Member of the Family |N|In the inn, downstairs|
 A Food for Baby
-T Rhapsody's Kalimdor Kocktail |N|Up at the camp (26,48)|
+T Rhapsody's Kalimdor Kocktail |N|Up at the camp (26,48)| |N|The Hinterlands|
 A Rhapsody's Tale
-C Sprinkle's Secret Ingredient |N|Grind over to the lake, it is at the bottom (40,59)|
+C Sprinkle's Secret Ingredient |N|Grind over to the lake, it is at the bottom (40,59)| |N|The Hinterlands|
 C Food for Baby |N|Grind over to the east, kill stealth wolves|
 
 T Food for Baby |N|Back at the inn|

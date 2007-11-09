@@ -5,7 +5,7 @@ N Do you want to grind? |N|This Blasted Lands guide may appear short, but it is 
 
 F Darkshire
 R Swamp of Sorrows
-T Cortello's Riddle (Part 1) |O| |N|Under a bridge on the left form of the road (22.6,48.0)|
+T Cortello's Riddle (Part 1) |O| |N|Under a bridge on the left form of the road (22.6,48.0)| |Z|Swamp of Sorrows|
 A Cortello's Riddle (Part 2) |O|
 
 R Blasted Lands
