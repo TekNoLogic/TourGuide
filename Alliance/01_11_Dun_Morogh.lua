@@ -4,7 +4,15 @@ A Dwarven Outfitters
 C Dwarven Outfitters
 T Dwarven Outfitters
 
-N Accept the quest with "Memorandum" or "Rune" in the title.
+A Encrypted Rune |C|Rogue|
+A Etched Rune |C|Hunter|
+A Hallowed Rune |C|Priest|
+A Simple Rune |C|Warrior|
+A Consecrated Rune |C|Paladin|
+A Tainted Memorandum |C|Warlock|
+A Glyphic Memorandum |C|Mage|
+A Encrypted Memorandum |C|Rogue|
+A Simple Memorandum |C|Warrior|
 
 A Coldridge Valley Mail Delivery (Part 1)
 A A New Threat
