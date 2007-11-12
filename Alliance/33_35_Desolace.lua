@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Desolace (33-35)", nil, "Alliance", function()
 return [[
-F Stonetalon Peak
+F Stonetalon Peak |N|Fly to Menethil Harbor, boat to Auberdine, then fly down.|
 A Reclaiming the Charred Vale
 C Reclaiming the Charred Vale |N|South in the Charred Vale (32,66)| |Z|Stonetalon Mountains|
 
@@ -57,6 +57,7 @@ C Book of the Ancients |N|Clear the area around the statue, then talk to it and 
 T Book of the Ancients |N|Back on shore at the tower|
 
 C Reagents for Reclaimers Inc. (Part 2) |N|Get the last few reagents you need, you should have most by now.|
+
 H Nijel's Point
 
 N Stable your pet |C|Hunter|
@@ -70,14 +71,11 @@ T Return to Vahlarriel
 
 R Feralas |N|Follow the road to the southwest edge of the zone (43,98)|
 R Feathermoon Stronghold |N|Follow the road until the path down to the docks.  Take the boat if it's there, or swim due west|
-
 F Ratchet
-
 T Goblin Sponsorship (Part 1)
 A Goblin Sponsorship (Part 2)
 T Wharfmaster Dizzywig |N|On the dock|
 A Parts for Kravel
-
 ]]
 
 end)
