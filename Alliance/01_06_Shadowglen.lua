@@ -48,7 +48,7 @@ T Tenaron's Summons |N|Up the ramp|
 A Crown of the Earth (Part 1)
 T Iverron's Antidote (Part 1)
 A Iverron's Antidote (Part 2)
-C Crown of the Earth (Part 1) |N|(59,39)|
+C Crown of the Earth (Part 1) |N|Moonwell north of Aldrassil (59.93,33.07)|
 T Iverron's Antidote (Part 2)
 T Crown of the Earth (Part 1)
 A Crown of the Earth (Part 2)
