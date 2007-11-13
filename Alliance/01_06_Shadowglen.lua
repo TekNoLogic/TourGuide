@@ -26,7 +26,7 @@ T Hallowed Sigil |C|Priest|
 T Simple Sigil |C|Warrior|
 T Verdant Sigil |C|Druid| |N|Up the ramp!|
 
-t Train (Level 2)
+t Train (Level 2) |N|Notice! There are no reminders to train levels after this. Remember to do so after even levels|
 
 C The Balance of Nature (Part 2) |N|Mobs are to the northeast (60,35)|
 C Webwood Venom |N|To the northwest at Shadowthread Cave (57,33)|
@@ -35,7 +35,6 @@ A A Friend in Need
 T Webwood Venom
 A Webwood Egg
 
-t Train (Level 4)
 T The Balance of Nature (Part 2)
 T A Friend in Need
 A Iverron's Antidote (Part 1)
@@ -52,9 +51,6 @@ C Crown of the Earth (Part 1) |N|Moonwell north of Aldrassil (59.93,33.07)|
 T Iverron's Antidote (Part 2)
 T Crown of the Earth (Part 1)
 A Crown of the Earth (Part 2)
-
-G Grind to level 6 |LV|6|
-t Train (Level 6)
 
 A Dolanaar Delivery |N|South out of Shadowglen (61,47)|
 A Zenn's Bidding |N|Along the road to Dolannar (60,56)|

@@ -25,7 +25,7 @@ end
 
 
 local f = CreateFrame("Button", nil, UIParent)
-f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", 0, -15)
+f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
 f:SetHeight(24)
 f:SetFrameStrata("LOW")
 f:EnableMouse(true)
