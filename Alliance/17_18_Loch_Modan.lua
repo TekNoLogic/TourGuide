@@ -22,9 +22,6 @@ A A Hunter's Challenge
 C A Hunter's Challenge
 T A Hunter's Challenge
 A Vyrin's Revenge (Part 1)
-G Grind level 18 |LV|18|
-t Train in Farstrider Lodge (Level 18) |C|Hunter|
-t Train pet skills (Level 18) |C|Hunter|
 A Bingles' Missing Supplies |N|The NPC can be found at the easternmost shore of The Loch|
 C Crocolisk Hunting
 C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21,26.61), Hammer (51.78,24.09), Screwdriver (48.37,20.50), Wrench (48.73,30.10)|
@@ -36,7 +33,7 @@ T A Dark Threat Looms (Part 2)
 R Thelsamar
 T Excavation Progress Report
 A Report to Ironforge
-C Vyrin's Revenge (Part 1) |N|Cave top of the mountain south of Thelsamar. Use Immolation Trap and Fear|
+C Vyrin's Revenge (Part 1) |N|Cave top of the mountain south of Thelsamar|
 R Farstrider Lodge
 T Crocolisk Hunting
 T Vyrin's Revenge (Part 1)
