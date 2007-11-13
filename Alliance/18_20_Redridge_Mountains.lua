@@ -7,7 +7,7 @@ f Grab flight point
 A Blackrock Menace |N|At the other side of the bridge|
 A The Lost Tools
 A Hilary's Necklace |N|Little boy standing on the dock|
-A Selling Fish |N|Man next the the shed|
+A Selling Fish |N|Man next to the shed|
 A A Free Lunch |N|Inside the inn|
 A Redridge Goulash |N|West of Lakeshire, inside the big house|
 N Collect 5x [Great Goretusk Snout] |N|Boars are west of the questgiver. Watch out the Bellygrub!| |L|2296 5|
@@ -23,16 +23,15 @@ T A Free Lunch |N|Return to the guard at Three Corners, South of Lakeshire|
 A Visit the Herbalist
 N Collect 5x [Crisp Spider Meat] |N|Spiders around the Three Corners| |L|1081 5|
 C Assessing the Threat
-N Collect 5x [Tough Condor Meat] |N|Condors are west from the gnollcamps| |L|1080 5|
+N Collect 5x [Tough Condor Meat] |N|Condors are east from the gnollcamps| |L|1080 5|
 T Assessing the Threat |N|South of Lakeshire, next the the bridge|
 T Visit the Herbalist |N|West of Lakeshire|
 A Delivering Daffodils
 T Redridge Goulash
 T Delivering Daffodils |N|Inside the inn|
 C The Everstill Bridge |N|Camps are north of Lakeshire|
-T The Everstill Bridge
-N Grind until you are level 20 for the next quest|LV|20|
-A Murloc Poachers |N|Man next to the shed|
+T The Everstill Bridge |N|Make sure you are missing 1550xp from level 20 before you return this!|
+A Murloc Poachers |N|Man next to the shed. This quest requires level 20!|
 T Murloc Poachers
 H Auberdine
 ]]
