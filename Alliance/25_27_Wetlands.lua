@@ -12,13 +12,13 @@ A The Absent Minded Prospector (Part 5)
 B [Flagon of Mead]
 T The Third Fleet
 A The Cursed Crew
-A In Search of The Excavation Team (Part 1)
+A In Search of The Excavation Team (Part 1) |NODEBUG|
 C Young Crocolisk Skins
 C Claws from the Deep
 R Whelgar's Excavation Site
 N Run up the ramp and grab the fossil thats inside the cave |L|5234 1|
-T In Search of The Excavation Team (Part 1)
-A In Search of The Excavation Team (Part 2)
+T In Search of The Excavation Team (Part 1) |NODEBUG|
+A In Search of The Excavation Team (Part 2) |NODEBUG|
 A Uncovering the Past
 A Ormer's Revenge (Part 1)
 C Ormer's Revenge (Part 1)
@@ -42,7 +42,7 @@ T Tramping Paws
 A Fire Taboo
 C Fire Taboo |N|Camps start from north of Greenwarden and continue to the west over the road|
 T Fire Taboo
-A Blisters on The Land |N|Do this while you do other quests. The questmobs are stealthed and can't be found unless you go near them|
+A Blisters on The Land |N|Do this while you do other quests. The questmobs are stealthed and can't be found unless you go near them| |NODEBUG|
 H Deepwater Tavern
 
 T The Absent Minded Prospector (Part 5) |N|Inn, upstairs|
@@ -53,8 +53,7 @@ T Young Crocolisk Skins
 A Apprentice's Duties
 T Claws from the Deep
 A Reclaiming Goods
-T In Search of The Excavation Team (Part 2)
-t Train in Ironforge (Level 26)
+T In Search of The Excavation Team (Part 2) |NODEBUG|
 F Menethil Harbor
 A Fall of Dun Modr |N|NPC on his back infront of castle|
 T Reclaiming Goods |N|Damaged Crate at the murloc camp north of Menethil Harbor (13.51,41.37)|
@@ -68,8 +67,8 @@ C Apprentice's Duties
 R Ironbeard's Tomb
 C Digging Through the Ooze
 T Fall of Dun Modr |N|North of the zone|
-C Blisters on The Land
-T Blisters on The Land
+C Blisters on The Land |NODEBUG|
+T Blisters on The Land |NODEBUG|
 H Deepwater Tavern
 T The Cursed Crew
 A Lifting the Curse
