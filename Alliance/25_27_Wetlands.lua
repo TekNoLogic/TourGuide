@@ -79,7 +79,7 @@ F Ironforge
 T An Old Colleague
 F Stormwind City
 T A Scroll from Mauren |N|The Mage Quarter|
-F Lakeshire
+F Redridge Mountains
 
 ]]
 end)
