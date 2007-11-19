@@ -41,6 +41,7 @@ Alliance\23_24_Darkshore.lua
 Alliance\24_25_Ashenvale.lua
 Alliance\25_27_Wetlands.lua
 Alliance\27_28_Redridge_Mountains.lua
+Alliance\28_29_Duskwood.lua
 Alliance\29_30_Ashenvale.lua
 Alliance\30_31_Wetlands.lua
 Alliance\31_32_Hillsbrad_Foothills.lua
