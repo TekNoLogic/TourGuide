@@ -22,12 +22,9 @@ A Securing the Supply Lines
 h Cenarion Hold
 A Deadly Desert Venom
 
-C Securing the Supply Lines |N|North-northeast of town|
+C The Twilight Mystery |N|Far to the west (22,9).  Kill stuff along the way for other quests.  Avoid the hive and the silithid mobs.|
 C Deadly Desert Venom
-
-T Wasteland |N|Northwest at TODO (81,18)|
-A The Spirits of Southwind
-C The Twilight Mystery |N|Far to the west (22,9)|
+C Securing the Supply Lines
 
 H Cenarion Hold
 T Deadly Desert Venom
@@ -37,11 +34,13 @@ A Stepping Up Security
 T The Twilight Mystery
 A The Deserter
 
-C The Spirits of Southwind |N|TODO (62,53)|
-C Securing the Supply Lines
-C Noggle's Last Hope |N|Flayers and Stalkers around the cave (67,69) and the hive (43,72)|
-T The Deserter |N|In a cave (67,69)|
+T Wasteland |N|Take the road northwest to Valor's Rest (81,18)|
+A The Spirits of Southwind
+C The Spirits of Southwind |N|Follow the road southwest until you're almost back at the hold, then south to Southwind (62,53).  Stick to the outskirts, working your way around to the south side of the outpost.|
+T The Deserter |N|In a cave (67,69).  Kill stuff along the way, of course.|
 A The Twilight Lexicon
+C Noggle's Last Hope |N|Work your way counter-clockwise from the cave around Hive'Regal.  You can find lots of mobs around the south of the zone and near the road south of Cenarion Hold.|
+C Stepping Up Security
 
 H Cenarion Hold |N|Or deathport|
 T Noggle's Last Hope
@@ -56,10 +55,10 @@ K Twilight Keeper Exeter |N|(16,87)|
 T The Twilight Lexicon |N|In that cave again (67,69)|
 A A Terrible Purpose
 
-T The Spirits of Southwind |N|(81,18)|
+T The Spirits of Southwind |N|At Valor's Rest|
 A Hive in the Tower
 C Hive in the Tower |N|In the tower (61,52).  Watch out for the spawns when you enter.  Loot the pod, kill and loot one of the spawns, and get the hell out of there!|
-T Hive in the Tower |N|(81,18)|
+T Hive in the Tower |N|At Valor's Rest|
 A Umber, Archivist
 
 H Cenarion Hold
