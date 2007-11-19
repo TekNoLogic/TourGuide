@@ -12,17 +12,17 @@ T An Unwelcome Guest
 
 C Blackrock Menace |N|Follow the road north to Render's Camp|
 C Blackrock Bounty
-A Missing In Action |N|Escort in the cave (28.39,12.56)|
-C Missing In Action
+A Missing In Action |N|Escort in the cave (28.39,12.56)| |NODEBUG|
+C Missing In Action |NODEBUG|
 
-T Missing In Action
+T Missing In Action |NODEBUG|
 T Blackrock Menace
 T Blackrock Bounty
 
 C Solomon's Law
 C Wanted: Lieutenant Fangore
 
-H Lakeshire
+H Lakeshire Inn
 T Solomon's Law
 T Wanted: Lieutenant Fangore
 ]]
