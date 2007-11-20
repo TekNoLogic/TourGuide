@@ -47,17 +47,17 @@ T Noggle's Last Hope
 A Noggle's Lost Satchel
 T Stepping Up Security
 
-K Twilight Keeper Manya |N|(29,35)|
-K Twilight Keeper Havanuth |N|(41,41)|
+K Twilight Keeper Manya |N|Far west at the Twilight Post (29,35).  Patrols along the east side.  Pull her back so you don't get links if she fears.| |L|20394|
+K Twilight Keeper Havanuth |N|East at Twilight Base Camp (41,41).  Patrols along the northeast side.| |L|20396|
 C Noggle's Lost Satchel |N|South on the hill behind the camp (44.6,91.3).  Sneak in when Deathclasp is away.|
-K Twilight Keeper Exeter |N|(16,87)|
+K Twilight Keeper Exeter |N|Southwest side of Twilight Outpost (16,87).  Follow the mountains along the south edge of the camp to avoid aggro.| |L|20395|
 
 T The Twilight Lexicon |N|In that cave again (67,69)|
 A A Terrible Purpose
 
 T The Spirits of Southwind |N|At Valor's Rest|
 A Hive in the Tower
-C Hive in the Tower |N|In the tower (61,52).  Watch out for the spawns when you enter.  Loot the pod, kill and loot one of the spawns, and get the hell out of there!|
+C Hive in the Tower |N|In the tower (61,52).  Watch out for the spawns when you enter.  Loot the pod, kill and loot one of the spawns, and get the hell out of there!  After you get the encrusted object, you can drop the goo.|
 T Hive in the Tower |N|At Valor's Rest|
 A Umber, Archivist
 
