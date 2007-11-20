@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Silithus (56)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Silithus (56)", "Western Plaguelands (56-57)", "Alliance", function()
 return [[
 F Gadgetzan
 h Gadgetzan
