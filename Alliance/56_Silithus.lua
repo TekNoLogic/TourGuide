@@ -65,10 +65,12 @@ H Cenarion Hold
 T Noggle's Lost Satchel
 T A Terrible Purpose
 
+]]
+end)
+
+--[[
 F Moonglade
 T Umber, Archivist |N|TODO (44,35)| |Z|Moonglade|
 A Uncovering Past Secrets
 T Uncovering Past Secrets |N|(51,44)| |Z|Moonglade|
 ]]
-end)
-

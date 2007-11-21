@@ -4,31 +4,31 @@ return [[
 F City of Ironforge
 h City of Ironforge
 
-A A Call To Arms: The Plaguelands! |N|From Courier Hammerfall, he patrols all over the city.|
+A A Call to Arms: The Plaguelands! |N|From Courier Hammerfall, he patrols all over the city.|
 
 F Southshore
 R Western Plaguelands |N|Follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp|
 A A Plague Upon Thee (Part 1)
 f Grab flight point
 A The Mark of the Lightbringer |N|From Anchorite Truuen.  He may not be in the camp if he's out doing the escort quest.|
-T A Call To Arms: The Plaguelands!
-A Clear The Way
+T A Call to Arms: The Plaguelands!
+A Clear the Way
 T The Everlook Report
 N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |L|12846|
 
-C Clear The Way |N|To the northeast|
-T Clear The Way
+C Clear the Way |N|To the northeast at Sorrow Hill|
+T Clear the Way
 A All Along the Watchtowers
 A The Scourge Cauldrons
 T The Scourge Cauldrons
 A Target: Felstone Field
 
-C All Along the Watchtowers |U|12815| |N|Mark each tower, you can get close enough to mark without aggroing mobs inside if you are careful. (47,71) (40,71) (42,66) (44,63)|
+C All Along the Watchtowers |U|12815| |N|Mark each tower in Andorhal, you can get close enough to mark without aggroing mobs inside if you are careful. (47,71) (40,71) (42,66) (44,63)|
 C Target: Felstone Field |N|To the northwest at Felstone Field (37,56).  Kill Cauldron Lord Bilemaw for the key, then talk to the cauldren.|
 T Target: Felstone Field |N|Talk to the cauldren|
 A Return to Chillwind Camp (Part 1)
 
-A Better Late Than Never (Part 1) |N|In the northern-most house on the northeast side of the field (38,54), upstairs|
+A Better Late Than Never (Part 1) |N|In the house on the northeast side of the field (38,54), upstairs|
 T Better Late Than Never (Part 1) |N|Next door in the barn, talk to the box (38.8, 55.2)|
 A Better Late Than Never (Part 2)
 
