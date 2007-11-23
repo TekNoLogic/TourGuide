@@ -4,7 +4,7 @@ F Astranaar |N|Fly to Menethil Harbor then take the boat to Auberdine.|
 A A Helping Hand
 h Astranaar
 
-R Forest Song |N|(86,44)|
+R Forest Song |N|Easternmost part of Ashenvale, Northeast from Satyrnaar|
 T A Helping Hand
 A A Shameful Waste
 A Vile Satyr! Dryads in Danger!

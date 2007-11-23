@@ -64,7 +64,6 @@ A Reclaimers' Business in Desolace |N|From Roetten Stonehammer who walks around 
 F Stormwind City |N|Take the Deep Run Tram if you don't have the flight point.|
 T Reassignment |Z|Stormwind City| |N|In Stormwind Keep. (73.7,17.6)|
 T Cleansing the Eye |Z|Stormwind City| |N|In Stormwind Cathedral. (39,27)|
-t Train (Level 32)
 B Bolt of Woolen Cloth |L|2997| |N|Buy from AH or a Tailor.|
 B Hillman's Cloak |L|3719| |N|Buy from AH or a Leatherworker.|
 
