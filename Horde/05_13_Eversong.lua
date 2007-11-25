@@ -62,7 +62,7 @@ A Taking the Fall
 
 R Falconwing Square
 A Incriminating Documents |U|20765| |O|
-C Incriminating Documents |O|
+T Incriminating Documents |O|
 A The Dwarven Spy
 t Train (Level 6) |N|Train level 8 if you can|
 
