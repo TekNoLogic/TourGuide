@@ -98,6 +98,11 @@ Horde\26_27_Ashenvale.lua
 Horde\27_StonetalonMountains.lua
 Horde\27_29_ThousandNeedles.lua
 
+Horde\44_46_Feralas.lua
+Horde\46_Azshara.lua
+Horde\46_47_Hinterlands.lua
+Horde\47_StranglethornVale.lua
+
 Horde\50_51_Blasted_Lands.lua
 Horde\51_52_UnGoro_Crater.lua
 Horde\52_53_Burning_Steppes.lua

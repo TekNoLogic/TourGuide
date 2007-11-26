@@ -1,26 +1,21 @@
 TourGuide:RegisterGuide("Feralas (44-46)", "Azshara (46)", "Horde", function()
 return [[
 R Camp Mojache
-
 A A New Cloak's Sheen
 A The Ogres of Feralas (Part 1)
 A Gordunni Cobalt
 A War on the Woodpaw
 A The Mark of Quality
 A A Strange Request
-
-f Camp Mojache
 h Camp Mojache
 
-C War on the Woodpaw |N|North of Camp Mojache around (71,37)|
+C War on the Woodpaw |N|North of Camp Mojache (71,37)|
 C Gordunni Cobalt |N|North of Camp Mojache, up the path by the waterfall (75,31)|
 C The Ogres of Feralas (Part 1)
 A The Gordunni Scroll |N|From the scrolls lying around on the floor|
-C A New Cloak's Sheen |N|West of Camp Mojache, on the North side of the path (70,47)|
+C A New Cloak's Sheen |N|West of Camp Mojache, on the north side of the path (70,47)|
 
-R Camp Mojache
-
-T War on the Woodpaw
+T War on the Woodpaw |N|Back at Camp Mojache|
 T Gordunni Cobalt
 T The Ogres of Feralas (Part 1)
 T The Gordunni Scroll
@@ -39,6 +34,7 @@ T Woodpaw Investigation
 A The Battle Plans
 
 C A Grim Discovery (Part 1) |N|West of Camp Mojache (66,46)|
+
 H Camp Mojache
 T The Battle Plans
 T A Grim Discovery (Part 1)
@@ -54,9 +50,7 @@ C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)|
 C Dark Ceremony |N|In the ruins to the south (59,68)|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)|
 
-R Camp Mojache
-
-T Stinglasher
+T Stinglasher |N|Back at Camp Mojache|
 T Zukk'ash Infestation
 T The Ogres of Feralas (Part 2)
 T Dark Ceremony
@@ -67,12 +61,8 @@ A The Gordunni Orb
 
 F Orgrimmar
 
-N Get 120 Silk cloth from bank or mailbox |L|4338 120|
-N Get 120 Mageweave from bank or mailbox |L|4306 120|
-
+N Donate cloth |N|Turn in 120 [Silk Cloth] and 120 [Mageweave Cloth] at Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
 T Zukk'ash Report |N|In The Drag (56,46)| |Z|Orgrimmar|
-T A Donation of Silk |N|Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
-T A Donation of Mageweave
 
 A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4,36.9)| |Z|Orgrimmar|
 T Ripple Recovery (Part 1) |N|The other guy in the same building|
@@ -90,31 +80,18 @@ A Service to the Horde
 T Service to the Horde
 
 T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar|
-A A Donation of Silk
-T A Donation of Silk
-A A Donation of Mageweave
-T A Donation of Mageweave
-
-N This is a good time for Trolls and Orcs to buy a mount if you haven't done so already
 
 H Camp Mojache
 T Return to Witch Doctor Uzer'i
 A Natural Materials
 A Testing the Vessel
 
-K Sprite Darters |Q|Natural Materials| |QO|Encrusted Minerals: 6/6| |N|Sprite Darters west of Camp Mojache (68,48)|
-C Natural Materials |N|Hippogryphs SW of Dire Maul (54,72)|
-A Find OOX-22/FE! |N|If the beacon dropped|
-T Find OOX-22/FE! |N|In the yeti cave (53.4,55.7), skip the escort quest|
-G Grind on Gordunni Ogres until lvl 46 |LV|46|
+C Natural Materials |N|Sprite Darters west of Camp Mojache (68,48), Hippogryphs southwest of Dire Maul (54,72)|
+A Find OOX-22/FE! |U|8705| |O|
+T Find OOX-22/FE! |N|In the yeti cave (53.4,55.7), skip the escort quest| |O|
 
 H Camp Mojache
 T Natural Materials
 A The Sunken Temple
-
-F Thunder Bluff
-
-T Deadmire |N|Hunter Rise (61,80)| |Z|Thunder Bluff|
-t Train (Level 46)
 ]]
 end)
