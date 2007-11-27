@@ -75,6 +75,7 @@ Alliance\54_55_Winterspring.lua
 Alliance\55_56_Burning_Steppes.lua
 Alliance\56_Silithus.lua
 Alliance\56_57_Western_Plaguelands.lua
+Alliance\57_58_Eastern_Plaguelands.lua
 
 Alliance\62_63_Zangarmarsh.lua
 

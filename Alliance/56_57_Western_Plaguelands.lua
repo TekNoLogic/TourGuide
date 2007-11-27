@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Western Plaguelands (56-57)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Western Plaguelands (56-57)", "Eastern Plaguelands (57-58)", "Alliance", function()
 return [[
 F City of Ironforge
 h City of Ironforge
@@ -43,16 +43,16 @@ C Target: Dalson's Tears |N|To the north at Dalson's Tears (46,52).  Kill Cauldr
 T Target: Dalson's Tears |N|Talk to the cauldren|
 A Return to Chillwind Camp (Part 2)
 
-N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book|
-K Wandering Skeleton |N|Behind the barn, looking for the outhouse key| |L|12738|
+N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|
+K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |L|12738|
 K Farmer Dalson |N|Open the outhouse, get his key| |L|12739|
-N Open cabinet |N|Locked cabinet upstairs in the house.  "Locked Away"|
+N Open cabinet |N|Locked cabinet upstairs in the house.|
 
 T Return to Chillwind Camp (Part 2)
 A Target: Writhing Haunt
 
 F Stormwind City |N|Hearth to IF to cut a little time off|
-T Better Late Than Never (Part 2) |N|(48,30)|
+T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (48,30)|
 A Good Natured Emma
 T Good Natured Emma |N|She patrols between the cathedral and trade district|
 A Good Luck Charm
@@ -66,34 +66,38 @@ F Western Plaguelands
 T Flint Shadowmore
 A The Eastern Plagues
 
-]]
+T Good Luck Charm |N|At the house at Felstone Field (38,54)|
+A Two Halves Become One
+C Two Halves Become One |N|Go out in the field and kill the Jabbering Ghoul (only one with a pitchfork), then combine the pieces.|
+T Two Halves Become One
 
---[[
-31) Go back to Felstone field to the house upstairs at 38,54 and turn in “Good Luck Charm” accept “Two
-Halves Become One” Go outside and look for a jabbering ghoul. You can’t miss him he carry’s a
-pitchfork. Keep clearing in front of the house until you find him. This will give you a good time to get
-those skeletal fragments
-32) Combine the halves and go back upstairs and turn in “Two Halves Become One”
-33) Go SE to 53,65 to Writhing Haunt, kill Cauldron Lord Razarch for his cauldron key. Then go right click
-the cauldron and turn in “Target: Writhing Haunt” accept “Return to Chillwind Camp”
-34) In the house at 54,65 accept “The Wildlife Suffers Too pt.1” now go north of the haunt and kill the
-diseased wolves. Don’t go any farther east to find these just go north, maybe NW some.
-35) Go back to 54,65 and turn in “The Wildlife Suffers Too pt.1” accept “The Wildlife Suffers Too pt.2”
-36) Go back to Chillwind Camp at 42,84 anc turn in “Return to Chillwind Camp” accept “Target: Gahrron's
-Withering”
-37) Go just north of the Writhing Haunt between the mountains on the map at, 52,56 and kill diseased
-grizzleys on your way down to 62,58 for “The Wildlife Suffers Too pt.2”
-38) Go NE to 62,58 to Gahrron’s Withering, kill Cauldron Lord Soulwrath for his cauldron key. Then go
-right click the cauldron and turn in “Target: Gahrron's Withering” accept “Return to Chillwind Camp”
-39) Go back to 54,65 and turn in “The Wildlife Suffers Too pt.2” accept “Glyphed Oaken Branch”
-40) If you haven’t finished “Skeletal Fragments” yet go to the crypt at 54,79 and kill the skeletons until
-you have 15 fragments
-41) Go back to Chillwind Camp at 42,84 and turn in “Return to Chillwind Camp”
-42) Turn around to the guy in front of the tent, and complete the quest “Mission Accomplished!” no link
-for it cuz it’s not a quest again lol. Now see that running back and forth seemed out of the way but
-there was a huge xp boost at the end, and nice xp throughout.
-43) To your right turn in “Skeletal Fragments” SKIP the next part unless you want to start on your scholo
-key.
-44) Run east to 70,50 and enter the Eastern Plaguelands (EPL)]]
+C Target: Writhing Haunt |N|To the southeast at Writhing Haunt (53,65).  Kill Cauldron Lord Razarch for the key, then talk to the cauldren.|
+T Target: Writhing Haunt |N|Talk to the cauldren|
+A Return to Chillwind Camp (Part 3)
+
+A The Wildlife Suffers Too (Part 1) |N|In the house by the field (54,65)|
+C The Wildlife Suffers Too (Part 1) |N|To the north, between the Felstone and Dalson's Fields, and north of Dalson's Field.|
+T The Wildlife Suffers Too (Part 1)
+A The Wildlife Suffers Too (Part 2)
+
+T Return to Chillwind Camp (Part 3) |N|Back at Chillwind Camp|
+A Target: Gahrron's Withering
+
+C The Wildlife Suffers Too (Part 2) |N|East, between Writhing Haunt and Gahrron's Withering (52,56)|
+
+C Target: Gahrron's Withering |N|To the east at Writhing Haunt (62,58).  Kill Cauldron Lord Soulwrath for the key, then talk to the cauldren.|
+T Target: Gahrron's Withering |N|Talk to the cauldren|
+A Return to Chillwind Camp (Part 4)
+
+T The Wildlife Suffers Too (Part 2)
+A Glyphed Oaken Branch
+
+T Return to Chillwind Camp (Part 4) |N|Back at Chillwind Camp, of course.|
+N Mission Accomplished! |N|Talk to Commander Ashlam Valorfist|
+T Skeletal Fragments |N|Skip the follow-up unles you want to do the questline for the scholo key.|
+
+]]
+--~ C Skeletal Fragments |N|Grind on undead at the Crypt (54,79)|
+
 end)
 
