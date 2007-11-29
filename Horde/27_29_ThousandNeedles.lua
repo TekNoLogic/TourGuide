@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Thousand Needles (27-29)", nil, "Horde", function()
+TourGuide:RegisterGuide("Thousand Needles (27-29)", "Hillsbrad Foothills (29-30)", "Horde", function()
 return [[
 F Thousand Needles
 T The Sacred Flame (Part 2)
@@ -67,7 +67,6 @@ T Testing the Tonic
 F Orgrimmar
 h Orgrimmar
 F Undercity |N|Take zeppelin outside Orgrimmar|
-R Tarren Mill |N|in Hillsbrad Foothills. Go out undercity sewers its quicker.|
+R Hillsbrad Foothills |N|Pass trough Undercity sewers to skip part of the walk.|
 ]]
 end)
-
