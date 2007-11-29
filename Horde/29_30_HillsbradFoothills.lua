@@ -26,7 +26,7 @@ C Elixir of Pain |N|Go on the plateaus and kill mountain lions level 32-34|
 C Helcular's Revenge (Part 2) |N|Charge the Flame of Uzel|
 C Frostmaw |N| If you fail you can try again at level 37 since you won't turn this in until level 43|
 
-T Helcular's Revenge (Part 2) |N|Drive rod into Helcular's grave at the Southshore graveyard|
+T Helcular's Revenge (Part 2) |N|Drive rod into Helcular's grave at the Southshore graveyard at (52.7,53.3)|
 R Tarren Mill
 T Elixir of Pain
 A The Hammer May Fall

@@ -70,3 +70,4 @@ F Undercity |N|Take zeppelin outside Orgrimmar|
 R Hillsbrad Foothills |N|Pass trough Undercity sewers to skip part of the walk.|
 ]]
 end)
+

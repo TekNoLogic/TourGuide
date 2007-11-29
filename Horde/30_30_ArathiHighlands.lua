@@ -1,7 +1,7 @@
 TourGuide:RegisterGuide("Arathi Highlands (30)", "Stranglethorn Vale (30-31)", "Horde", function()
 return [[
 
-C The Hammer May Fall
+C The Hammer May Fall |N|Around and inside the cave near (35,42)|
 R Hammerfall |N|Northeast corner of map at (73,36)|
 A Hammerfall
 T Hammerfall
@@ -15,7 +15,7 @@ T Raising Spirits (Part 2)
 A Raising Spirits (Part 3)
 T Raising Spirits (Part 3) |N|Skip Guile of the Raptor|
 H Orgrimmar
-F Grom'Gol |N|Ride zeppelin to Grom'Gol|
+F Grom'Gol Base Camp|N|Ride zeppelin to Grom'Gol|
 
 ]]
 end)

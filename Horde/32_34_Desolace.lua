@@ -1,24 +1,24 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
-R Thunder Axe Fortess |N|Located at (55,24)|
+R Thunder Axe Fortres |N|Located at (55,24)|
 N Kill mobs |N|Kill mobs till you get Flayed Demon Skin| |L|20310|
 A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin|
 A Kodo Roundup |N|Starts at (60.8,61.9) from Smeed Scrabblescrew|
-N Begin Kodo Roundup quest |N|You can finish this later, just start this while you go Ghost Walker Post|
+N Begin Kodo Roundup quest |N|You can finish this later, just start this while you go Ghost Walker Post| |Q|Kodo Roundup| |QO|Kodos Tamed 1/5|
 
 R Ghost Walker Post |N|(56,59)|
 T The Kolkar of Desolace |N|To Felgur Twocuts at (56.2,59.5)|
 A Khan Dez'hepah
 
 A Gelkis Alliance |N|Skip Magram Alliance|
-T Alliance Relations (Part 2)
+T Alliance Relations (Part 2)|N|To Takata Steelblade at (52.6,54.3)|
 A Alliance Relations (Part 3)
 A Befouled by Satyr
 
 T The Corrupter (Part 1)
 A The Corrupter (Part 2)
 T Alliance Relations (Part 3)
-A The Burning of Spirits
+A The Burning Spirits
 
 C Befouled by Satyr |N|(75,22)|
 C The Corrupter (Part 2) |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker|
@@ -46,7 +46,7 @@ N Collect 10 Shellfish |N|From the Shellfish traps in the water to the west of S
 T Fish in a Bucket |N|To Jinar'Zillen the npc on the docks. You have to turn in this twice.|
 
 N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
-A Claim Rachmore's Treasure! |N|from the chest/wrecked boat along the shore. (36.1,30.4) The silver key is dropped by a Drysnap and the golden key is dropped by a Slitherblade.|
+A Claim Rackmore's Treasure! |N|from the chest/wrecked boat along the shore. (36.1,30.4) The silver key is dropped by a Drysnap and the golden key is dropped by a Slitherblade.|
 A Sceptre of Light |N|From Azore Aldamort on the hill (38.9,27.1)
 
 C The Burning Spirits |N|You can accomplish this togheter with the two following quests at Thunder Axe Fortress (54,29)|
