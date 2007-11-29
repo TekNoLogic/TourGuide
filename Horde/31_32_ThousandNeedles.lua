@@ -1,31 +1,36 @@
-local questsequence =
-[[A Hemet Nesingwary
+TourGuide:RegisterGuide("Thousand Needles (31-32)", "Desolace (32-34)", "Horde", function()
+return [[
+H Orgrimmar
+F The Crossroads
+A The Swarm Grows (Part 1) |N|From Korran, west of windrider (51.1, 29.6)| |Z|The Barrens|
+A The Kolkar of Desolace |N|West of Crossroads in the bunkers (45.3, 28.4)| |Z|The Barrens|
+
+R Shimmering Flats |N|Run back to Crossroads and fly down to Thousand Needles|
+A Hemet Nesingwary Jr. |N|From Kravel Koalbeard (77.8, 77.2)|
+A Delivery to the Gnomes (Part 1)
 A Wharfmaster Dizzywig
 A A Bump in the Road
 A Hardened Shells
 A Load Lightening
 A Rocket Car Parts
 A Salt Flat Venom
-C A Bump in the Road |N|All five quests should be easy to complete together|
+
+C A Bump in the Road
 C Hardened Shells
 C Load Lightening
 C Rocket Car Parts
 C Salt Flat Venom
+
 T A Bump in the Road
 T Hardened Shells
 T Load Lightening
 T Rocket Car Parts
-T Salt Flat Venom
-A Goblin Sponsorship
+T Salt Flat Venom |N|Skip the follow-up|
+
+A Goblin Sponsorship (Part 1)
 A Martek the Exiled
-N Grind to 32 |N|If you're not already|
-H Orgrimmar
-T The Swarm Grows |N|Valley of Honor|
-A The Swarm Grows
-A Alliance Relations |N|from Craven Drok in the Cleft of Shadow|
-T Alliance Relations |N|Near west gate of Orgimmar past Valley of Spirits
-F Stonetalon Mountains
-R Desolace]]
 
-
-TourGuide:ParseObjectives(questsequence, true)
+R Gadgetzan
+f Grab flight point
+]]
+end)

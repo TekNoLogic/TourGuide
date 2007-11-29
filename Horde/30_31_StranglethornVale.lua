@@ -1,34 +1,36 @@
-local questsequence =
-[[N Get the Flightpath
-R Nesingwarys Expedition |N|(35,10)|
+TourGuide:RegisterGuide("Stranglethorn Vale (30-31)", "Thousand Needles (31-32)", "Horde", function()
+return [[
+F Grom'Gol Base Camp |N|Hearth to Orgrimmar and ride zeppelin to Grom'Gol|
+f Grab flight point
+
+R Nesingwary's Expedition |N|Follow the road north, look for a little camp by the river (35,10)|
 A Welcome to the Jungle
 T Welcome to the Jungle
-A Tiger Mastery
-A Panther Mastery
-A Raptor Mastery
-C Tiger Mastery |N|Young Stranglethorn Tigers (35,10)|
-C Panther Mastery |N|Young Panthers (39,9)|
-T Panther Mastery
-A Panther Mastery
-T Tiger Mastery
-A Tiger Mastery
-C Panther Mastery |N|Panthers (35,10)|
-c Tiger Mastery |N|Stranglethorn Tigers (35,10)
-C Raptor Mastery |N|Stranglethorn Raptors (25,15)|
-T Raptor Mastery
-A Raptor Mastery
-T Panther Mastery
-A Panther Mastery
-T Tiger Mastery
-A Tiger Mastery
-N Grind to 31 |N|if you're not already|
-H Orgrimmar
-F The Crossroads
-A The Swarm Grows |N|From a troll to the west of windrider|
-A The Kolkar of Descolace |N|west of Crossroads in the bunkers|
-R The Crossroads
-F Thousand Needles
-R Shimmering Flats]]
 
+A Tiger Mastery (Part 1)
+A Panther Mastery (Part 1)
+A Raptor Mastery (Part 1)
 
-TourGuide:ParseObjectives(questsequence, true)
+C Tiger Mastery (Part 1) |N|Near the camp, slightly to the east|
+C Panther Mastery (Part 1) |N|Near camp and to the north|
+
+T Panther Mastery (Part 1)
+A Panther Mastery (Part 2)
+
+T Tiger Mastery (Part 1)
+A Tiger Mastery (Part 2)
+
+C Panther Mastery (Part 2) |N|West of camp|
+C Tiger Mastery (Part 2) |N|Northwest and northeast of the camp|
+C Raptor Mastery (Part 1) |N|East near the ruins (28,14)|
+
+T Raptor Mastery (Part 1)
+A Raptor Mastery (Part 2)
+
+T Panther Mastery (Part 2)
+A Panther Mastery (Part 3)
+
+T Tiger Mastery (Part 2)
+A Tiger Mastery (Part 3)
+]]
+end)
