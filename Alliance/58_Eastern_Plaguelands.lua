@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Eastern Plaguelands (58)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Eastern Plaguelands (58)", "Western Plaguelands (58-59)", "Alliance", function()
 return [[
 T Demon Dogs |N|On the west edge of the zone|
 T Blood Tinged Skies
@@ -29,7 +29,5 @@ C Defenders of Darrowshire |N|Kill cannibal ghouls, gibbering ghouls and disease
 T Defenders of Darrowshire |N|Back at Light’s Hope Chapel|
 T Villains of Darrowshire
 ]]
-
---~ T Skeletal Fragments --WPL
 end)
 
