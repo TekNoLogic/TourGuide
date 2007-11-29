@@ -1,35 +1,31 @@
 TourGuide:RegisterGuide("Hillsbrad Foothills (29-30)", "Arathi Highlands (30)", "Horde", function()
 return [[
-A Time to Strike |N|You get this at Southpoint Tower (20,47) as soon as you enter Hilsbrad|
-R Tarren Mill
+F Orgrimmar
+h Orgrimmar
 
+R Hillsbrad Foothills |N|Take the zeppelin outside Orgrimmar to Undercity.  Run down thru Silverpine.|
+A Time to Strike |N|You get this at Southpoint Tower (20,47) as soon as you enter Hillsbrad|
+
+R Tarren Mill
 T Time to Strike
-f Tarren Mill
-A Helcular's Revenge (Part 1) |N|From Novice Thaivand at (63,19)|
+f Grab flight point
+A Helcular's Revenge (Part 1) |N|From Novice Thaivand (63,19)|
 A Elixir of Pain
 
-C Helcular's Revenge (Part 1) |N|Do this while grinding on yetis (46,32)|
-G Grind to 30 |N|Same yetis| |L|3708|
+C Helcular's Revenge (Part 1) |N|In the yeti cave (46,32)|
 
-H Orgrimmar |N|When you are 30 AND have Helcular's Rod|
-t Train (Level 30)
-R Undercity
-F Tarren Mill
-
-T Helcular's Revenge (Part 1)
+T Helcular's Revenge (Part 1) |N|Back in Tarren Mill|
 A Helcular's Revenge (Part 2)
-K Begin Helcular's Revenge (Part 2) |N|Charge Flame of Azel inside yeti cave at (46,31)| |Q|Helcular's Revenge| |QO|Flame of Azel charged 1/1|
-K Continue Helcular's Revenge (Part 2) |N|Charge Flame of Veraz| |Q|Helcular's Revenge| |QO|Flame of Veraz charged 1/1|
+N Flame of Azel (Part 2) |N|Charge Flame of Azel inside yeti cave at (46,31)| |Q|Helcular's Revenge| |QO|Flame of Azel charged 1/1|
+N Flame of Veraz |N|Charge Flame of Veraz| |Q|Helcular's Revenge| |QO|Flame of Veraz charged 1/1|
 
 R Alterac Mountains
-C Elixir of Pain |N|Go on the plateaus and kill mountain lions level 32-34|
-C Helcular's Revenge (Part 2) |N|Charge the Flame of Uzel|
-C Frostmaw |N| If you fail you can try again at level 37 since you won't turn this in until level 43|
+C Elixir of Pain |N|Kill mountain lions on the plateaus along the north edge of the zone.|
+C Helcular's Revenge (Part 2) |N|Charge the Flame of Uzel in the Growless Cave (37,68)|
+C Frostmaw |N|If you fail you can try again at level 37 since you won't turn this in until level 43|
 
-T Helcular's Revenge (Part 2) |N|Drive rod into Helcular's grave at the Southshore graveyard at (52.7,53.3)|
-R Tarren Mill
-T Elixir of Pain
+T Helcular's Revenge (Part 2) |N|Drive rod into Helcular's grave at the Southshore graveyard (52.7, 53.3)|
+T Elixir of Pain |N|Back in Tarren Mill|
 A The Hammer May Fall
-R Arathi Highlands
 ]]
 end)

@@ -1,52 +1,57 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
-R Thunder Axe Fortres |N|Located at (55,24)|
+H Orgrimmar
+T The Swarm Grows (Part 1) |N|Valley of Honor (75,34)|
+A The Swarm Grows (Part 2)
+A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)|
+T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)|
+A Alliance Relations (Part 2)
+
+R Desolace |N|Fly to Stonetalon Mountains and run south|
+
+R Thunder Axe Fortess |N|West of the road (55,24).|
 N Kill mobs |N|Kill mobs till you get Flayed Demon Skin| |L|20310|
-A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin|
-A Kodo Roundup |N|Starts at (60.8,61.9) from Smeed Scrabblescrew|
-N Begin Kodo Roundup quest |N|You can finish this later, just start this while you go Ghost Walker Post| |Q|Kodo Roundup| |QO|Kodos Tamed 1/5|
+A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin| |U|20310|
+A Kodo Roundup |N|From Smeed Scrabblescrew (60.8,61.9)|
 
-R Ghost Walker Post |N|(56,59)|
-T The Kolkar of Desolace |N|To Felgur Twocuts at (56.2,59.5)|
+R Ghost Walker Post |N|Follow the road northwest from Scrabblescrew's hut (56,59)|
+T The Kolkar of Desolace
 A Khan Dez'hepah
-
+A Centaur Bounty
 A Gelkis Alliance |N|Skip Magram Alliance|
-T Alliance Relations (Part 2)|N|To Takata Steelblade at (52.6,54.3)|
+T Alliance Relations (Part 2)
 A Alliance Relations (Part 3)
 A Befouled by Satyr
-
 T The Corrupter (Part 1)
 A The Corrupter (Part 2)
 T Alliance Relations (Part 3)
-A The Burning Spirits
+A The Burning of Spirits
 
 C Befouled by Satyr |N|(75,22)|
 C The Corrupter (Part 2) |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker|
-C Khan Dez'hepah |N|(73,48)|
-C Gelkis Alliance |N|(68,71)|
-R Ghost Walker Post |N|at (56,59)|
+C Khan Dez'hepah |N|In the Magram village (73,48)|
+C Gelkis Alliance |N|Kill Magram centaurs until you gain Gelkis (Friendly)|
 
-T Khan Dez'hepah
-A Centaur Bounty
+T Khan Dez'hepah |N|Back at Ghost Walker Post|
 T Befouled by Satyr
 T The Corrupter (Part 2)
 A The Corrupter (Part 3)
 T Gelkis Alliance |N|To Uthek the Wise at (36.3,79.2)|
 A Stealing Supplies
-R Shadowprey Village |N|at (24,71)|
 
+R Shadowprey Village |N|Follow the road west, down on the shore (24,71)|
 A Hunting in Stranglethorn
 A Hand of Iruxos
 A Clam Bait
 A Other Fish to Fry
 h Shadowprey Village
-f Shadowprey Village
+f Grab flight point |N|Out on the pier|
 
 N Collect 10 Shellfish |N|From the Shellfish traps in the water to the west of Shadowprey Village| |L|13545 10|
 T Fish in a Bucket |N|To Jinar'Zillen the npc on the docks. You have to turn in this twice.|
 
 N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
-A Claim Rackmore's Treasure! |N|from the chest/wrecked boat along the shore. (36.1,30.4) The silver key is dropped by a Drysnap and the golden key is dropped by a Slitherblade.|
+A Claim Rackmore's Treasure! |N|from the chest/wrecked boat along the shore (36.1, 30.4). The silver key is dropped by a Drysnap and the golden key is dropped by a Slitherblade.|
 A Sceptre of Light |N|From Azore Aldamort on the hill (38.9,27.1)
 
 C The Burning Spirits |N|You can accomplish this togheter with the two following quests at Thunder Axe Fortress (54,29)|
