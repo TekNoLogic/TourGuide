@@ -78,12 +78,12 @@ Alliance\56_57_Western_Plaguelands.lua
 Alliance\57_58_Eastern_Plaguelands.lua
 Alliance\58_Western_Plaguelands.lua
 Alliance\58_Eastern_Plaguelands.lua
+Alliance\58_59_Western_Plaguelands.lua
 
 Alliance\62_63_Zangarmarsh.lua
 
 Alliance\66_67_BladesEdge.lua
 Alliance\67_70_Netherstorm.lua
-
 
 ######  Horde  ######
 Horde\01_05_SunstriderIsle.lua
