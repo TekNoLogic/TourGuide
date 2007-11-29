@@ -16,7 +16,7 @@ T Call to Arms (Part 1) |N|Back at Hammerfall|
 A Call to Arms (Part 2)
 
 N Get Cresting Key |N|From Stone of East Binding (66,29)| |Q|Stones of Binding| |QO|Cresting Key: 1/1|
-C To Steal From Thieves |N|At Dabyrie Farmstead (54,40)|
+C To Steal From Thieves |N|At Dabyrie Farmstead (54,40)| |NODEBUG|
 N Get Thundering Key |N|From Stone of Outer Binding (52,50)| |Q|Stones of Binding| |QO|Thundering Key: 1/1|
 
 C Call to Arms (Part 2) |N|Ogre mound near Thandol Span (50,75)|

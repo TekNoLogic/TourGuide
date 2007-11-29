@@ -77,7 +77,7 @@ T Bloody Bone Necklaces
 T The Vile Reef
 
 F Undercity |N|Take Zeppelin|
-A To Steal From Thieves |N|In the center of Undercity|
+A To Steal From Thieves |N|In the center of Undercity| |NODEBUG|
 T A Donation of Silk |N|60 Silk Cloth at (71,28)| |Z|Undercity|
 ]]
 end)
