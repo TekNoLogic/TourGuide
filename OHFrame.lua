@@ -1,6 +1,7 @@
 
 
 local TourGuide = TourGuide
+local L = TourGuide.Locale
 local ww = WidgetWarlock
 
 
@@ -116,7 +117,7 @@ function TourGuide:UpdateOHPanel(value)
 
 	for i in pairs(self.actions) do
 		local action, name = self:GetObjectiveInfo(i)
-		local _, _, quest, part = name:find("(.+)%s%(Part %d+%)")
+		local _, _, quest, part = name:find(L.PART_FIND)
 		if quest and not accepted[quest] and not self:GetObjectiveStatus(i) then accepted[quest] = name end
 	end
 
@@ -128,7 +129,7 @@ function TourGuide:UpdateOHPanel(value)
 			local turnedin, logi, complete = self:GetObjectiveStatus(i + offset)
 			row:Show()
 
-			local shortname = name:gsub("%s%(Part %d+%)", "")
+			local shortname = name:gsub(L.PART_GSUB, "")
 			logi = not turnedin and (not accepted[shortname] or (accepted[shortname] == name)) and logi
 			complete = not turnedin and (not accepted[shortname] or (accepted[shortname] == name)) and complete
 			local checked = turnedin or action == "ACCEPT" and logi or action == "COMPLETE" and complete

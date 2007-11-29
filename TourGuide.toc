@@ -19,6 +19,7 @@ Dongle.lua
 OptionHouse.lua
 WidgetWarlock.lua
 
+Locale.lua
 TourGuide.lua
 Parser.lua
 Mapping.lua

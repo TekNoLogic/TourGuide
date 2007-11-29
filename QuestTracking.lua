@@ -1,6 +1,7 @@
 
 
 local TourGuide = TourGuide
+local L = TourGuide.Locale
 local hadquest
 
 
@@ -41,7 +42,7 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	local action, quest = self:GetObjectiveInfo()
 
 	if action == "SETHEARTH" then
-		local _, _, loc = msg:find("(.*) is now your home.")
+		local _, _, loc = msg:find(L["(.*) is now your home."])
 		if loc and loc == quest then
 			self:DebugF(1, "Detected setting hearth to %q", loc)
 			return self:SetTurnedIn()
@@ -49,8 +50,8 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	end
 
 	if action == "ACCEPT" then
-		local _, _, text = msg:find("Quest accepted: (.*)")
-		if text and quest:gsub("%s%(Part %d+%)", "") == text then
+		local _, _, text = msg:find(L["Quest accepted: (.*)"])
+		if text and quest:gsub(L.PART_GSUB, "") == text then
 			self:DebugF(1, "Detected quest accept %q", quest)
 			return self:UpdateStatusFrame()
 		end
@@ -84,7 +85,7 @@ end
 function TourGuide:CHAT_MSG_LOOT(event, msg)
 	local action, quest = self:GetObjectiveInfo()
 	local lootitem, lootqty = self:GetObjectiveTag("L")
-	local _, _, itemid, name = msg:find("^You .*Hitem:(%d+).*(%[.+%])")
+	local _, _, itemid, name = msg:find(L["^You .*Hitem:(%d+).*(%[.+%])"])
 	self:Debug(10, event, action, quest, lootitem, lootqty, itemid, name)
 
 	if action == "BUY" and name and name == quest

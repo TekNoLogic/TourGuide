@@ -3,12 +3,15 @@ local OptionHouse = LibStub("OptionHouse-1.1")
 
 
 local myfaction = UnitFactionGroup("player")
+local L = TOURGUIDE_LOCALE
+TOURGUIDE_LOCALE = nil
 
 TourGuide = DongleStub("Dongle-1.0"):New("TourGuide")
 if tekDebug then TourGuide:EnableDebug(10, tekDebug:GetFrame("TourGuide")) end
 TourGuide.guides = {}
 TourGuide.guidelist = {}
 TourGuide.nextzones = {}
+TourGuide.Locale = L
 
 
 TourGuide.icons = setmetatable({
@@ -84,7 +87,7 @@ end
 
 function TourGuide:GetQuestLogIndexByName(name)
 	name = name or self.quests[self.current]
-	name = name:gsub("%s%(Part %d+%)", "")
+	name = name:gsub(L.PART_GSUB, "")
 	for i=1,GetNumQuestLogEntries() do
 		if GetQuestLogTitle(i) == name then return i end
 	end
@@ -150,7 +153,7 @@ function TourGuide:CompleteQuest(name, noupdate)
 	local action, quest
 	repeat
 		action, quest = self:GetObjectiveInfo(i)
-		if action == "TURNIN" and not self:GetObjectiveStatus(i) and name == quest:gsub("%s%(Part %d+%)", "") then
+		if action == "TURNIN" and not self:GetObjectiveStatus(i) and name == quest:gsub(L.PART_GSUB, "") then
 			self:DebugF(1, "Saving quest turnin %q", quest)
 			return self:SetTurnedIn(i, true, noupdate)
 		end

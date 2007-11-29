@@ -1,4 +1,5 @@
 
+local L = TourGuide.Locale
 
 local zonei, zonec = {}, {}
 for ci,c in pairs{GetMapContinents()} do
@@ -23,7 +24,7 @@ end
 
 
 function TourGuide:ParseAndMapCoords(note, desc, zone)
-	for x,y in note:gmatch("%(([%d.]+),%s?([%d.]+)%)") do MapPoint(zone, tonumber(x), tonumber(y), desc) end
+	for x,y in note:gmatch(L.COORD_MATCH) do MapPoint(zone, tonumber(x), tonumber(y), desc) end
 end
 
 
