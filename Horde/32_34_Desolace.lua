@@ -1,10 +1,10 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
 H Orgrimmar
-T The Swarm Grows (Part 1) |N|Valley of Honor (75,34)|
+T The Swarm Grows (Part 1) |N|Valley of Honor (75,34)| |Z|Orgrimmar|
 A The Swarm Grows (Part 2)
-A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)|
-T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)|
+A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)| |Z|Orgrimmar|
+T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)| |Z|Orgrimmar|
 A Alliance Relations (Part 2)
 
 R Desolace |N|Fly to Stonetalon Mountains and run south|
@@ -12,7 +12,7 @@ R Desolace |N|Fly to Stonetalon Mountains and run south|
 R Thunder Axe Fortess |N|West of the road (55,24).|
 N Kill mobs |N|Kill mobs till you get Flayed Demon Skin| |L|20310|
 A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin| |U|20310|
-A Kodo Roundup |N|From Smeed Scrabblescrew (60.8,61.9)|
+A Kodo Roundup |N|From Smeed Scrabblescrew (60.8, 61.9)|
 
 R Ghost Walker Post |N|Follow the road northwest from Scrabblescrew's hut (56,59)|
 T The Kolkar of Desolace
@@ -36,7 +36,7 @@ T Khan Dez'hepah |N|Back at Ghost Walker Post|
 T Befouled by Satyr
 T The Corrupter (Part 2)
 A The Corrupter (Part 3)
-T Gelkis Alliance |N|To Uthek the Wise at (36.3,79.2)|
+T Gelkis Alliance |N|To Uthek the Wise at (36.3, 79.2)|
 A Stealing Supplies
 
 R Shadowprey Village |N|Follow the road west, down on the shore (24,71)|
@@ -51,70 +51,71 @@ N Collect 10 Shellfish |N|From the Shellfish traps in the water to the west of S
 T Fish in a Bucket |N|To Jinar'Zillen the npc on the docks. You have to turn in this twice.|
 
 N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
-A Claim Rackmore's Treasure! |N|from the chest/wrecked boat along the shore (36.1, 30.4). The silver key is dropped by a Drysnap and the golden key is dropped by a Slitherblade.|
-A Sceptre of Light |N|From Azore Aldamort on the hill (38.9,27.1)
+A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1)
 
-C The Burning Spirits |N|You can accomplish this togheter with the two following quests at Thunder Axe Fortress (54,29)|
+C The Burning Spirits |N|In Thunder Axe Fortress (54,29)|
 C Sceptre of Light
 C Hand of Iruxos
 
-T Sceptre of Light |N|Grinding along the way till you arrive at (38.9,27.2)|
+T Sceptre of Light
 A Book of the Ancients
+A Claim Rackmore's Treasure! |N|From the chest/wrecked boat along the shore (36.1, 30.4).|
 
-C Other Fish to Fry |N|Do this and the following four quest in the water to the west|
+C Other Fish to Fry
 C Clam Bait
-C Book of the Ancients |N|at (27,6)|
 C The Corrupter (Part 3) |N|Collect an Oracle Crystal from a Slitherblade Oracle|
-C Claim Rachmore's Treasure! |N|The silver key is dropped by a drysnap and the golden key is dropped by a Slitherblade.|
+C Claim Rackmore's Treasure! |N|Kill Drysnap Pincers and Crawlers for the silver key, Slitherblade Naga for the golden key.|
 
-T Claim Rachmor's Treasure! |N|The treasure chest is on the large northern island (29,8)|
-T Book of the Ancients |N|at (38,27)|
+T Claim Rackmore's Treasure! |N|Find the chest behind a tree on Ranazjar Isle (30.0, 8.7)|
+C Book of the Ancients |N|Clear the area around the statue, then talk to it and kill the naga that spawns.|
+T Book of the Ancients |N|Back on shore at the tower|
 
-A Bone Collector |N|Grind along the way to Bibbly F'utzbuckle (62,38)|
+A Bone Collector |N|From Bibbly F'utzbuckle at Kormek's Hut (62,38)|
 
-R Ghost Walker Post
-A Catch of the Day
+A Catch of the Day |N|At Ghost Walker Post|
 T Catch of the Day
 T The Burning Spirits
 T The Corrupter (Part 3)
-A The Corrunpter (Part 4)
-T The Corrupter (Part 4) |N|Skip last part of The Corrupter|
+A The Corrupter (Part 4)
+T The Corrupter (Part 4) |N|Skip last follow-up|
 
-C Bone Collector |N|In the Kodo Graveyard (51,58)|
-C Centaur Bounty |N| (56,59)|
-C Stealing Supplies |N|(70,74)|
-T Centaur Bounty |N| (56,59)|
-T Bone Collecter |N| (62,38)|
+C Bone Collector |N|In the Kodo Graveyard|
+C Stealing Supplies |N|In the Magram village (70,74)|
+C Centaur Bounty
+
+T Centaur Bounty
+T Bone Collecter
+
 H Shadowprey Village
+
 N Stable pet |C|Hunter|
+
 T Hand of Iruxos
 T Other Fish to Fry
 T Clam Bait
-G Grind to 34 |N|if you're not already| |LV|34|
-T Stealing Supplies |N|at (36,79) Skip Ongeku|
-N Tame Scorpashi Lasher |N|Tame a Scorpashi Lasher (lvl 34) near (36,77) and learn Claw rank 5| |C|Hunter|
+T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up|
+
+N Learn Claw (Rank 5) |N|Tame a Lv34 Scorpashi Lasher (36,77)| |C|Hunter|
 
 F Camp Taurajo
 R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|
 
-A Suspicous Hoofprints |N|Click on hoofprints outside the inn on ground (29.7,47.7)|
-A Lieutenant Paval Reethe |N|Laying on the planks on the ground (29.8,48.2)|
+A Suspicous Hoofprints |N|Click on hoofprints outside the inn on ground (29.7, 47.7)| |Z|Dustwallow Marsh|
+A Lieutenant Paval Reethe |N|Laying on the planks on the ground (29.8, 48.2)| |Z|Dustwallow Marsh|
 A The Black Shield (Part 1) |N|On top of fireplace|
-R Brakenwall Village |N|North along the road (35,29)
 
+R Brakenwall Village |N|North along the road (35,29)| |Z|Dustwallow Marsh|
 T Suspicious Hoofprints
 T Lieutenant Paval Reethe
 T The Black Shield (Part 1)
 A The Black Shield (Part 2)
-T The Black Shield (Part 2) |N| Don't accept The Black Shield (Part 3) at the moment|
-F Ratchet
+T The Black Shield (Part 2) |N|Skip the follow-up|
 
+F Ratchet
 T Goblin Sponsorship (Part 1)
 A Goblin Sponoship (Part 2)
 T Wharfmaster Dizzywig
 A Parts for Kravel
-b Booty Bay |N|While waiting for the boat you can improve your First Aid skill|
-
 ]]
 end)
 

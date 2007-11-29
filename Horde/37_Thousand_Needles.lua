@@ -1,14 +1,20 @@
 TourGuide:RegisterGuide("Thousand Needles (37)", "Dustwallow March (37-38)", "Horde", function()
 return [[
+F Orgrimmar |N|Take the zeppelin, dur!|
+T Alliance Relations |N|Keldran in the Valley of Spirits (21,53)|
+F Crossroads
+h Crossroads
+F Freewind Post
 
 N Stable Pet |C|Hunter|
-R The Shimmering Flats
-T The Swarm Grows (Part 2)
+
+T The Swarm Grows (Part 2) |N|In The Shimmering Flats|
 A The Swarm Grows (Part 3)
 
-N Get Bite rank 5 |N|Tame a turtle in Shimmering Flats and use the  Fungus food as feed| |C|Hunter|
+N Get Bite (Rank 5) |N|Tame a turtle in Shimmering Flats and use feed him those mushrooms you bought.| |C|Hunter|
+N Keep the turtle |C|Hunter|
 
-T Delivery to the Gnomes (Part 1) |N|at (77,76)|
+T Delivery to the Gnomes (Part 1) |N|At the Mirage Raceway (77,76)|
 A Delivery to the Gnomes (Part 2)
 T Delivery to the Gnomes (Part 2)
 
@@ -20,17 +26,15 @@ T The Eighteenth Pilot
 
 A Razzeric's Tweaking
 A The Rumormonger
-N |N|Keep the turtle| |C|Hunter|
 
-C The Swarm Grows (Part 1)
-C Parts of the Swarm |N| From an item drop (71,85)|
-T The Swarm Grows (Part 1) |N|(67,63)|
+A Parts of the Swarm (Part 1) |U|5877| |N|Kill silithid to the south until the item drops to start this.|
+C The Swarm Grows (Part 3) |N|You must kill the Drones in order for the Invaders to spawn.|
+C Parts of the Swarm (Part 1)
+T The Swarm Grows (Part 3)
+
 H Crossroads
-
-N |N|Now, if you want, you can abbandon the turtle| |C|Hunter|
+N Abandon the turtle |N|If you want to| |C|Hunter|
 
 T Parts of the Swarm (Part 1)
 A Parts of the Swarm (Part 2)
-F Dustwallow Marsh
-
 ]]end)

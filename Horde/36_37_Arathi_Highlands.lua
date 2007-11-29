@@ -6,25 +6,25 @@ T Trollbane |N|Skip the follow-up|
 A Call to Arms (Part 1)
 A Foul Magics
 A Guile of the Raptor (Part 1)
-C Call to Arms (Part 1) |N|Grinding while you arrive at (60,72)|
-A The Princess Trapped |N|Grinding while you arrive at (62,33)|
-C The Princess Trapped |N|(78,37)|
-T The Princess Trapped |N|There is a tree in the cave that show where the pat is|
+C Call to Arms (Part 1) |N|South of Hammerfall (60,72)|
+A The Princess Trapped |N|At the Shards of Myzrael west of Hammerfall (62.5, 33.8)|
+C The Princess Trapped |N|In the cave southeast of Hammerfall (78,37)|
+T The Princess Trapped |N|In the back of the cave, up on a ledge (84.3, 30.9)|
 A Stones of Binding
 
 T Call to Arms (Part 1) |N|Back at Hammerfall|
 A Call to Arms (Part 2)
 
-N Begin Stones of Binding |N|Get the key at (66,29)| |Q|Stones of Binding| |QO|Cresting Key: 1/1|
-C To Steal From Thieves |N|at (54,40)|
-N Continue Stones of Binding |N|Get the second key at (52,50)| |Q|Stones of Binding| |QO|Thundering Key: 1/1|
+N Get Cresting Key |N|From Stone of East Binding (66,29)| |Q|Stones of Binding| |QO|Cresting Key: 1/1|
+C To Steal From Thieves |N|At Dabyrie Farmstead (54,40)|
+N Get Thundering Key |N|From Stone of Outer Binding (52,50)| |Q|Stones of Binding| |QO|Thundering Key: 1/1|
 
-C Call to Arms (Part 2) |N|Do this quest and Guile of the Raptor at (50,75)|
+C Call to Arms (Part 2) |N|Ogre mound near Thandol Span (50,75)|
 C Guile of the Raptor (Part 1)
 
-C Foul Magics |N|at (31,28)|
-C Stones of Binding |N|at (25,31)|
-T Stones of Binding |N|In Stromgarde Keep|
+C Foul Magics |N|At Northfold Manor (31,28)|
+C Stones of Binding |N|From Stone of West Binding (25,31)|
+T Stones of Binding |N|At Stone of Inner Binding (36.2, 57.5)|
 
 H Hammerfall
 T Call to Arms (Part 2)
