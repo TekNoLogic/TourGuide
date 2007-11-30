@@ -5,8 +5,7 @@ return [[
 F Nethergarde Keep
 B [Nethergarde Bitter] |N|From Bernie Heisten (63,16)|
 
-R The Dark Portal |N|(58,55)|
-A Through the Dark Portal
+A Through the Dark Portal |N|In front of the Dark Portal (58,55)|
 
 R Hellfire Peninsula |N|Through the portal you moron!|
 T Through the Dark Portal
@@ -18,7 +17,6 @@ F Honor Hold
 T Journey to Honor Hold
 A Force Commander Danath
 h Honor Hold
-N Upgrade your consumables!
 T Force Commander Danath |N|In the keep (56,65)|
 A The Legion Reborn
 A Know Your Enemy
