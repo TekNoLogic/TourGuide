@@ -15,9 +15,9 @@ C A Land Filled with Hatred |N|Further north at the Haldarr Encampment(19,61)|
 T Spiritual Unrest
 T A Land Filled with Hatred
 
-N Get Beth’Amara Rubbing |N|In the Ruins of Eldarath (36.86,53.20)| |L|10563|
-N Get Markri Rubbing |N|In the Temple of Zin-Malor (39.28,55.51)| |L|10565|
-N Get Jin’yael Rubbing |N|In the Temple of Zin-Malor (39.55,50.09)| |L|10564|
+N Get Beth'Amara Rubbing |N|In the Ruins of Eldarath (36.86, 53.20)| |L|10563|
+N Get Markri Rubbing |N|In the Temple of Zin-Malor (39.28, 55.51)| |L|10565|
+N Get Jin'yael Rubbing |N|In the Temple of Zin-Malor (39.55, 50.09)| |L|10564|
 
 T The Hunter's Charm |C|Hunter| |N|(42.38,42.69)|
 A Courser Antlers |C|Hunter|
@@ -31,13 +31,13 @@ T Kim'jael Indeed!
 A Kim'jael's "Missing" Equipment
 
 C Courser Antlers |C|Hunter|
-T Courser Antlers |C|Hunter| |N|(42.38,42.69)|
+T Courser Antlers |C|Hunter| |N|(42.38, 42.69)|
 A Wavethrashing |C|Hunter|
 C Wavethrashing |C|Hunter| |N|Down in teh water, of course (87,26)| |C|Hunter|
 T Wavethrashing |C|Hunter| |N|Skip the next part if you don't plan on doing Sunken Temple|
 
 C Of Coursers We Know |C|Priest|
-T Of Coursers We Know |C|Priest| |N|(42.38,42.69)|
+T Of Coursers We Know |C|Priest| |N|(42.38, 42.69)|
 A The Ichor of Undeath
 T The Ichor of Undeath |N|Skip the next part if you don't plan on doing Sunken Temple|
 

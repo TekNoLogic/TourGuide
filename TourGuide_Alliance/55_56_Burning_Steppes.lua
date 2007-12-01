@@ -42,7 +42,7 @@ T Dragonkin Menace
 A The True Masters (Part 1)
 
 C Ogre Head On A Stick = Party |NODEBUG| |N|Up on the ogre mountain (84,68)|
-T Ogre Head On A Stick = Party
+T Ogre Head On A Stick = Party |NODEBUG|
 
 F Lakeshire
 T The True Masters (Part 1) |N|In the town hall (29,44)| |Z|Redridge Mountains|

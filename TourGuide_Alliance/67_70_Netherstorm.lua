@@ -2,12 +2,12 @@
 TourGuide:RegisterGuide("Netherstorm (67-70)", nil, "Alliance", function()
 return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
-A Off To Area 52 |N|On Gyro-Plank Bridge|
+A Off To Area 52 |N|On Gyro-Plank Bridge| |NODEBUG|
 
 R Area 52 |N|Back down the road (32,62)|
 f Grab the flight point |N|To the left outside the city|
 A Securing the Shaleskin Shale |N|You may have to wait for him to respawn|
-T Off To Area 52
+T Off To Area 52 |NODEBUG|
 A You're Hired!
 h Area 52
 T Report to Spymaster Thalodien |N|Scryers| |O|
@@ -198,7 +198,7 @@ C Pick Your Part |N|At The Heap (27,77)|
 C A Heap of Ethereals
 
 T Pick Your Part |N|Back at Area 52|
-A In A Scrap With The Legion
+A In A Scrap With The Legion |NODEBUG|
 A Help Mama Wheeler
 T A Heap of Ethereals
 A Warp-Raider Nesaad
@@ -219,7 +219,7 @@ A Keeping Up Appearances
 T Drijya Needs Your Help |N|To the south, skip his escort quest unless you have help|
 
 C One Demon's Trash... |N|North at The Scrap Field (50,59)|
-C In A Scrap With The Legion
+C In A Scrap With The Legion |NODEBUG|
 C Run a Diagnostic! |N|A bit further north (48,55)|
 C Keeping Up Appearances |N|Run around in the dome killing lynx|
 C New Opportunities
@@ -233,7 +233,7 @@ T Keeping Up Appearances
 A The Dynamic Duo
 
 R Area 52
-T In A Scrap With The Legion
+T In A Scrap With The Legion |NODEBUG|
 T Warp-Raider Nesaad
 A Request for Assistance
 T Shutting Down Manaforge Coruu

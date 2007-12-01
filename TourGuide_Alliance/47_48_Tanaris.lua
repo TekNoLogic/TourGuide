@@ -51,7 +51,7 @@ A Insect Part Analysis (Part 2)
 T Insect Part Analysis (Part 2)
 A Rise of the Silithid
 
-T An Orphan Looking For a Home |N|Up at the raceway in Shimmering Flats|
+T An Orphan Looking For a Home |N|Up at the raceway in Shimmering Flats| |NODEBUG|
 A A Short Incubation
 T A Short Incubation
 N The next quest is timed!

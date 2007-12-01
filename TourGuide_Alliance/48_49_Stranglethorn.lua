@@ -30,7 +30,7 @@ C The Bloodsail Buccaneers (Part 5) |N|To the south at the ships (33,87) (30,88)
 H Booty Bay |N|Or deathport|
 T The Captain's Chest
 T The Bloodsail Buccaneers (Part 5) |N|At the top of the inn|
-A Zanzil's Mixture and A Fool's Stout
+A Zanzil's Mixture and a Fool's Stout
 
 b Ratchet
 f Grab the flight point

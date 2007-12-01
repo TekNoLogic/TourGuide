@@ -19,7 +19,7 @@ G Grind to level 39 |N|These elementals or raptors and basalisks around (33,39)|
 G Grind east, past the road |N|To (41,41)|
 C Venture Company Mining
 C Skullsplitter Tusks |N|In the camps around (42,37)|
-C Panther Mastery (Part 4) |N|Bhag'thera is anywhere between just north of Mosh’ogg (49,25) to just north of the ZG entrance (48,17)|
+C Panther Mastery (Part 4) |N|Bhag'thera is anywhere between just north of Mosh'ogg (49,25) to just north of the ZG entrance (48,17)|
 
 H Booty Bay
 T Venture Company Mining

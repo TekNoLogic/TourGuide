@@ -2,13 +2,13 @@
 TourGuide:RegisterGuide("The Hinterlands (46-47)", "Feralas (47)", "Alliance", function()
 return [[
 F Stormwind City
-T In Search of The Temple
-A To The Hinterlands
+T In Search of The Temple |NODEBUG|
+A To The Hinterlands |NODEBUG|
 t Train (Level 46)
 
 F Southshore
 R The Hinterlands |N|Path is behind Durnholde Keep (84,33), look for two gryphons.| |Z|Hillsbrad Foothills|
-T To The Hinterlands |N|Up the big-ass hill (11,46)|
+T To The Hinterlands |N|Up the big-ass hill (11,46)| |NODEBUG|
 A Gryphon Master Talonaxe
 f Get flight point
 T Gryphon Master Talonaxe

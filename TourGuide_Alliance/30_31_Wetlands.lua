@@ -16,6 +16,6 @@ A The Thandol Span (Part 3)
 R Arathi Highlands |N|Go north.|
 C The Thandol Span (Part 3) |Z|Arathi Highlands| |N|Across the little bridge (48,88)|
 T The Thandol Span (Part 3)
-A Plea To The Alliance
+A Plea To The Alliance |NODEBUG|
 ]]
 end)

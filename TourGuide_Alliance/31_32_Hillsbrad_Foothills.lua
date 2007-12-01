@@ -2,7 +2,7 @@ TourGuide:RegisterGuide("Hillsbrad Foothills (31-32)", "Arathi Highlands (32-33)
 return [[
 R Refuge Pointe |N|In Arathi Highlands (44.5,49.3)| |Z|Arathi Highlands|
 f Grab flight point!
-T Plea To The Alliance
+T Plea To The Alliance |NODEBUG|
 
 R Southshore |N|In Hillsbrad Foothills (50.8,51.2)|
 f Grab flight point!

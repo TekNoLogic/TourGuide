@@ -56,7 +56,7 @@ A Doling Justice (Part 2)
 T The Woodpaw Gnolls |N|(73,56)|
 A The Writhing Deep
 A Thalanaar Delivery |U|11463|
-T The Writhing Deep |N|Grind to the hive (73,63).  Go inside, take the southern tunnel and stay right.  Turnin at the Zukk’Ash Pod|
+T The Writhing Deep |N|Grind to the hive (73,63).  Go inside, take the southern tunnel and stay right.  Turnin at the Zukk'Ash Pod|
 A Freed from the Hive
 
 H Feathermoon Stronghold

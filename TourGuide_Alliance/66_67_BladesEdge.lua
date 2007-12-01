@@ -54,7 +54,7 @@ A What Came First, the Drake or the Egg? |N|In the inn|
 C Test Flight: The Singing Ridge |N|Sign the waiver in your bag, talk to Rally again|
 C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gather the glands|
 C Ridgespine Menace |N|Stealth spiders near the spikes|
-C Cutting Your Teeth |N|Most of the daggermaws are North of Death’s Door.  If you don’t have that uncovered, it’s the canyon you just got thrown over|
+C Cutting Your Teeth |N|Most of the daggermaws are North of Death's Door.  If you don't have that uncovered, it's the canyon you just got thrown over|
 R Singing Ridge |N|Or run to Toshley's and get tossed over|
 C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into|
 C Crystal Clear |N|On your way back to Toshley's|
@@ -150,7 +150,7 @@ N You should now be 67 or very close to it.
 
 C Poaching from Poachers |N|Back down, Northwest of Evergrove|
 C ...and a Time for Action
-A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]|
+A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]| |NODEBUG|
 R Bloodmaul Camp |N|Follow the road north (57,27)|
 C Crush the Bloodmaul Camp!
 C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
@@ -162,7 +162,7 @@ T Favor of the Gronn
 A Pay the Baron a Visit
 T Crush the Bloodmaul Camp!
 T ...and a Time for Action
-T Did You Get The Note?
+T Did You Get The Note? |NODEBUG|
 A Wyrmskull Watcher
 T Poaching from Poachers
 A Whelps of the Wyrmcult
@@ -195,7 +195,7 @@ C Slaughter at Boulder'mok
 C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap|
 
 R Blackwing Coven |N|To the South (31,32)|
-N Kill Wyrmcults and collect 5 [Costume Scraps] |N|For "Meeting at the Blackwing Coven".  This place sucks, it’s pretty tough.  Beware when they’re low on life, they may try to cast some type of black blessing which turns them into a dragonkin with about 50% life and they start fireballing and doing fire nova.|
+N Kill Wyrmcults and collect 5 [Costume Scraps] |N|For "Meeting at the Blackwing Coven".  This place sucks, it's pretty tough.  Beware when they're low on life, they may try to cast some type of black blessing which turns them into a dragonkin with about 50% life and they start fireballing and doing fire nova.|
 C Whelps of the Wyrmcult |N|Go in the cave and use the blackwhelp net on the dragon whelps in here.  You can get right next to eggs and they will hatch one for you to capture|
 C Meeting at the Blackwing Coven |N|Head to the back of the cave and put on the costume|
 
