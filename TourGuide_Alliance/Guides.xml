@@ -49,6 +49,7 @@
 	<Script file="58_Eastern_Plaguelands.lua"/>
 	<Script file="58_59_Western_Plaguelands.lua"/>
 
+	<Script file="60_62_Hellfire_Peninsula.lua"/>
 	<Script file="62_63_Zangarmarsh.lua"/>
 
 	<Script file="66_67_BladesEdge.lua"/>

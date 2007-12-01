@@ -3,9 +3,9 @@
 TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", nil, "Alliance", function()
 return [[
 F Nethergarde Keep
-B [Nethergarde Bitter] |N|From Bernie Heisten (63,16)|
+B [Nethergarde Bitter] |N|From Bernie Heisten (63,16)| |L|23848| |Z|Blasted Lands|
 
-A Through the Dark Portal |N|In front of the Dark Portal (58,55)|
+A Through the Dark Portal |N|In front of the Dark Portal (58,55)| |Z|Blasted Lands|
 
 R Hellfire Peninsula |N|Through the portal you moron!|
 T Through the Dark Portal
@@ -19,27 +19,27 @@ A Force Commander Danath
 h Honor Hold
 T Force Commander Danath |N|In the keep (56,65)|
 A The Legion Reborn
-A Know Your Enemy
+A Know your Enemy
 
-T Know Your Enemy |N|Follow the road west to the tower (50,60)|
+T Know your Enemy |N|Follow the road west to the tower (50.91, 60.23)|
 A Fel Orc Scavengers
-A Waste not, Want not
+A Waste Not, Want Not
 
-T The Legion Reborn |N|Road east of Honor Hold (61,60)
+T The Legion Reborn |N|Road east of Honor Hold (61,60)|
 A The Path of Anguish
 
-C Waste not, Want not |N|Directly north, look for seige machines (59,49)|
+C Waste Not, Want Not |N|Directly north, look for seige machines (57,53)|
 C Fel Orc Scavengers
 C The Path of Anguish |N|Follow the road east (68,56).  Watch out for Fel Reavers!|
 
 T The Path of Anguish
 A Expedition Point
-T Expedition Point |N|To the east (71,62)
+T Expedition Point |N|To the east (71,62)|
 A Disrupt Their Reinforcements
 C Disrupt Their Reinforcements |N|Northeast.  Kill till you get 4 runes then blow up Portal Kaalez (72,58).  Do the same for Portal Grimh (71,55)|
 T Disrupt Their Reinforcements
 A Mission: The Murketh and Shaadraz Gateways
-C Mission: The Murketh and Shaadraz Gateways |N|Get a flight from Wing Commander Dabir'ee, blow shit up!|
+C Mission: The Murketh and Shaadraz Gateways |N|Get a flight from Wing Commander Dabir'ee, blow shit up!| |U|TODO|
 T Mission: The Murketh and Shaadraz Gateways
 A Shatter Point
 
@@ -48,10 +48,10 @@ T Shatter Point
 A Wing Commander Gryphongar
 T Wing Commander Gryphongar |N|In the half-tower|
 A Mission: The Abyssal Shelf
-A Go to the Front
 
-C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow, blow more shit up|
+C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow, blow more shit up| |U|28132|
 T Mission: The Abyssal Shelf
+A Go to the Front
 
 F Force Camp Front
 T Go to the Front |N|Skip "Forge Base Mageddon" unless you want a group|
