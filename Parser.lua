@@ -37,8 +37,49 @@ function TourGuide:GetObjectiveTag(tag, i)
 end
 
 
-local myclass = UnitClass("player")
+local function DumpQuestDebug(accepts, turnins, completes)
+	for quest in pairs(accepts) do if not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'turnin' objective: %s", quest) end end
+	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
+	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
+end
+
+
 local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
+local function DebugQuestObjective(text, action, quest, accepts, turnins, completes)
+	local haserrors
+
+	if string.find(text, "|NODEBUG|") then return end
+
+	if action == "A" then accepts[quest] = true
+	elseif action == "T" then turnins[quest] = true
+	elseif action == "C" then completes[quest] = true end
+
+	if action == "A" or action == "C" or action == "T" then
+		-- Catch bad Title Case
+		for _,word in pairs(titlematches) do
+			if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
+				TourGuide:DebugF(1, "%s %s -- Contains bad title case", action, quest)
+				haserrors = true
+			end
+		end
+	end
+
+	if text:find("[“”’]") then
+		TourGuide:DebugF(1, "%s %s -- Contains bad char", action, quest)
+		haserrors = true
+	end
+
+	local _, _, comment = string.find(text, "(|[NLUC]V?|[^|]+)$") or string.find(text, "(|[NLUC]V?|[^|]+) |[NLUC]V?|")
+	if comment then
+		TourGuide:Debug(1, "Unclosed comment: ".. comment)
+		haserrors = true
+	end
+
+	return haserrors
+end
+
+
+local myclass = UnitClass("player")
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
@@ -62,40 +103,11 @@ local function ParseQuests(...)
 
 			i = i + 1
 
-			-- Debuggery
-			if not string.find(text, "|NODEBUG|") then
-				if action == "A" then accepts[quest] = true
-				elseif action == "T" then turnins[quest] = true
-				elseif action == "C" then completes[quest] = true end
-
-				if action == "A" or action == "C" or action == "T" then
-					-- Catch bad Title Case
-					for _,word in pairs(titlematches) do
-						if quest:find("[^:]%s"..word.."%s") or quest:find("[^:]%s"..word.."$") or quest:find("[^:]%s"..word.."@") then
-							TourGuide:DebugF(1, "%s %s -- Contains bad title case", action, quest)
-							haserrors = true
-						end
-					end
-
-					if text:find("[“”’]") then
-						TourGuide:DebugF(1, "%s %s -- Contains bad char", action, quest)
-						haserrors = true
-					end
-				end
-
-				local _, _, comment = string.find(text, "(|[NLUC]V?|[^|]+)$") or string.find(text, "(|[NLUC]V?|[^|]+) |[NLUC]V?|")
-				if comment then
-					TourGuide:Debug(1, "Unclosed comment: ".. comment)
-					haserrors = true
-				end
-			end
+			haserrors = haserrors or DebugQuestObjective(text, action, quest, accepts, turnins, completes)
 		end
 	end
 
-	-- More debug
-	for quest in pairs(accepts) do if not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'turnin' objective: %s", quest) end end
-	for quest in pairs(turnins) do if not accepts[quest] then TourGuide:DebugF(1, "Quest has no 'accept' objective: %s", quest) end end
-	for quest in pairs(completes) do if not accepts[quest] and not turnins[quest] then TourGuide:DebugF(1, "Quest has no 'accept' and 'turnin' objectives: %s", quest) end end
+	DumpQuestDebug(accepts, turnins, completes)
 
 	if haserrors and TourGuide:IsDebugEnabled() then TourGuide:Print("This guide contains errors") end
 
@@ -113,6 +125,41 @@ function TourGuide:LoadGuide(name)
 	local _, _, zonename = name:find("^(.*) %(.*%)$")
 	self.zonename = zonename
 	self.actions, self.quests, self.tags = ParseQuests(string.split("\n", self.guides[self.db.char.currentguide]()))
+end
+
+
+function TourGuide:DebugAllGuides(dumpquests)
+	local accepts, turnins, completes = {}, {}, {}
+	local function DebugParse(...)
+		local uniqueid, haserrors = 1
+
+		for j=1,select("#", ...) do
+			local text = select(j, ...)
+
+			if text ~= "" then
+				local _, _, action, quest, tag = text:find("^(%a) ([^|]*)(.*)")
+				if not actiontypes[action] then TourGuide:Debug(1, "Unknown action: "..text) end
+				quest = quest:trim()
+				if not (action == "A" or action =="C" or action =="T") then
+					quest = quest.."@"..uniqueid.."@"
+					uniqueid = uniqueid + 1
+				end
+
+				haserrors = DebugQuestObjective(text, action, quest, accepts, turnins, completes) or haserrors
+			end
+		end
+
+		return haserrors
+	end
+
+	for i,name in ipairs(self.guidelist) do
+		if DebugParse(string.split("\n", self.guides[name]())) then
+			self:DebugF(1, "Errors in guide: %s", name)
+			self:Debug(1, "---------------------------")
+		end
+	end
+
+	if dumpquests then DumpQuestDebug(accepts, turnins, completes) end
 end
 
 
