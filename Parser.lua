@@ -77,7 +77,7 @@ local function ParseQuests(...)
 						end
 					end
 
-					if quest:find("[“”’]") then
+					if text:find("[“”’]") then
 						TourGuide:DebugF(1, "%s %s -- Contains bad char", action, quest)
 						haserrors = true
 					end
