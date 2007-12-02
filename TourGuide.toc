@@ -24,6 +24,7 @@ TourGuide.lua
 Parser.lua
 Mapping.lua
 StatusFrame.lua
+OHConfig.lua
 OHFrame.lua
 OHGuides.lua
 UnlistedQuest.lua

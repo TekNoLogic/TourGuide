@@ -55,8 +55,9 @@ function TourGuide:Enable()
 	local _, title = GetAddOnInfo("TourGuide")
 	local author, version = GetAddOnMetadata("TourGuide", "Author"), GetAddOnMetadata("TourGuide", "Version")
 	local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
-	oh:RegisterCategory("Guides", TourGuide, "CreateGuidesPanel")
-	oh:RegisterCategory("Objectives", TourGuide, "CreateObjectivePanel")
+	oh:RegisterCategory("Guides", self, "CreateGuidesPanel")
+	oh:RegisterCategory("Objectives", self, "CreateObjectivePanel")
+	oh:RegisterCategory("Config", self, "CreateConfigPanel")
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self:RegisterEvent("QUEST_COMPLETE", "UpdateStatusFrame")
