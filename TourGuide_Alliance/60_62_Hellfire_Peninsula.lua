@@ -125,7 +125,7 @@ T Atonement
 A Sha'naar Relics
 
 A Missing Missive |O| |U|23338|
-T Missing Missive |N|Southwest at the Cenarion Post (15,52)|
+T Missing Missive |N|Southwest at the Cenarion Post (15,52)| |O|
 
 C Cruel Taskmasters |N|South at The Ruins of Sha'naar.  Focus on the taskmasters, the adds won't attack after you kill them.|
 C Sha'naar Relics
