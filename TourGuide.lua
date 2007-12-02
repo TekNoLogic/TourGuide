@@ -39,6 +39,7 @@ function TourGuide:Initialize()
 		char = {
 			turnedin = {},
 			cachedturnins = {},
+			trackquests = true,
 		},
 	})
 	self.turnedin = self.db.char.turnedin

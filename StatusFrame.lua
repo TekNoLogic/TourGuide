@@ -166,7 +166,7 @@ function TourGuide:UpdateStatusFrame()
 
 			if incomplete then nextstep = i end
 
-			if action == "COMPLETE" and logi then
+			if action == "COMPLETE" and logi and self.db.char.trackquests then
 				local j = i
 				repeat
 					action = self:GetObjectiveInfo(j)
