@@ -14,8 +14,11 @@ function TourGuide:CreateConfigPanel()
 	qtrack:SetScript("OnClick", function() self.db.char.trackquests = not self.db.char.trackquests end)
 
 
-	local function OnShow(frame)
+	local function OnShow(f)
 		qtrack:SetChecked(self.db.char.trackquests)
+
+		f:SetAlpha(0)
+		f:SetScript("OnUpdate", ww.FadeIn)
 	end
 
 	frame:SetScript("OnShow", OnShow)
