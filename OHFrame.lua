@@ -136,6 +136,7 @@ function TourGuide:UpdateOHPanel(value)
 		if not name then row:Hide()
 		else
 			local turnedin, logi, complete = self:GetObjectiveStatus(i + offset)
+			local optional = self:GetObjectiveTag("O", i + offset)
 			row:Show()
 
 			local shortname = name:gsub(L.PART_GSUB, "")
@@ -145,9 +146,18 @@ function TourGuide:UpdateOHPanel(value)
 
 			row.icon:SetTexture(self.icons[action])
 			if action ~= "ACCEPT" and action ~= "TURNIN" then row.icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
-			row.text:SetText(name)
+			row.text:SetText(name..(optional and " |cff808080(Optional)" or ""))
 			row.detail:SetText(self:GetObjectiveTag("N", i + offset))
 			row.check:SetChecked(checked)
+
+			if TourGuide.current > (i + offset) and optional and not checked then
+				row.text:SetTextColor(0.5, 0.5, 0.5)
+				row.check:SetChecked(true)
+				row.check:Disable()
+			else
+				row.text:SetTextColor(1, 0.82, 0)
+				row.check:Enable()
+			end
 		end
 	end
 end
