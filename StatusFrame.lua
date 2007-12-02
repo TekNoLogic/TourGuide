@@ -124,7 +124,7 @@ function TourGuide:SetText(i)
 end
 
 
-local mapped = {}
+local lastmapped, lastmappedaction
 function TourGuide:UpdateStatusFrame()
 	local nextstep
 	self.updatedelay = nil
@@ -193,8 +193,9 @@ function TourGuide:UpdateStatusFrame()
 	local zonename = self:GetObjectiveTag("Z", nextstep) or self.zonename
 
 	-- Mapping
-	if note and (TomTom or Cartographer_Waypoints) and not mapped[action..quest] then
-		mapped[action..quest] = true
+	if note and (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
+		self:PurgeWaypoints(lastmapped)
+		lastmappedaction, lastmapped = action, quest
 		self:ParseAndMapCoords(note, quest, zonename) --, zone)
 	end
 
