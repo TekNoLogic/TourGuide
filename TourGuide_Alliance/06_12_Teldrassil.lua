@@ -4,34 +4,33 @@ A Zenn's Bidding |N|Along the road to Dolannar (60,56)|
 R Dolanaar
 h Dolanaar
 T Dolanaar Delivery
-T Crown of the Earth (Part 2)
+T Crown of the Earth (Part 2) |N|South of the inn by the moonwell|
 A Crown of the Earth (Part 3)
-A Denalan's Earth |N|At the tower|
+A Denalan's Earth |N|In front of the tower|
 A A Troubling Breeze |N|In the tower|
 t First Aid |N|In the tower|
 A The Emerald Dreamcatcher |N|In the tower|
 A Twisted Hatred |N|In the tower|
 
 C Zenn's Bidding |N|East of Dolanaar|
-C Crown of the Earth (Part 3) |N|Moonwell is East of Dolanaar (63.36,59.09)|
-T A Troubling Breeze |N|East in Starbreeze Village(66,58)|
+C Crown of the Earth (Part 3) |N|Moonwell is East of Dolanaar (63.37, 58.12)| |U|5619|
+T A Troubling Breeze |N|East in Starbreeze Village (66,58)|
 A Gnarlpine Corruption
-C The Emerald Dreamcatcher |N|East of the questgiver in a house is a Dresser (68.01,59.66)|
+C The Emerald Dreamcatcher |N|East of the questgiver in a house is a Dresser (68.01, 59.66)|
 T Zenn's Bidding
-A Seek Redemption! |N|At the tower at Dolanaar|
+A Seek Redemption! |N|In front of the tower at Dolanaar|
 N Keep an eye out for Fel Cones |N|Needed for "Seek Redemption!".  Found at the bases of trees|
 
-T Denalan's Earth |N|South at the lake (60,68)|
+T Denalan's Earth |N|South at the lake (60.90, 68.49)|
 A Timberling Seeds
 A Timberling Sprouts
 C Timberling Seeds
 C Timberling Sprouts
 T Timberling Seeds
-T Timberling Sprouts
 A Rellian Greenspyre
+T Timberling Sprouts
 
-R Dolanaar
-T Crown of the Earth (Part 3)
+T Crown of the Earth (Part 3) |N|Back in Dolanaar|
 A Crown of the Earth (Part 4)
 T Gnarlpine Corruption |N|In the tower|
 A The Relics of Wakening
@@ -39,8 +38,8 @@ T The Emerald Dreamcatcher
 A Ferocitas the Dream Eater |N|
 
 C Seek Redemption!
-T Seek Redemption!
-C Ferocitas the Dream Eater |N|North of Starbreeze (68,53)|
+T Seek Redemption! |N|East at Zenn Foulhoof|
+C Ferocitas the Dream Eater |N|North of Starbreeze.  Kill Ferocitas (69.37, 53,41) and open the necklace he drops for the jewel.| |U|8049|
 
 R Dolanaar |N|Or die and use spirit ressurrection|
 C Twisted Hatred |N|North of town (54,52).  You can also wait until you're 10 to do this.|
@@ -85,18 +84,18 @@ A Heeding the Call |C|Druid|
 R Darnassus
 
 T Rellian Greenspyre
-A Tumors 
+A Tumors
 
 T Training the Beast |C|Hunter| |N|(40,8)|
 
 T Heeding the Call |C|Druid| |N|Nortwest in Darnassus, Cenarion Enclave (33,8)|
 A Moonglade |C|Druid|
-T Moonglade |N| Teleport there, go into the house past the light armor salesmen| |C|Druid| 
+T Moonglade |N| Teleport there, go into the house past the light armor salesmen| |C|Druid|
 A Great Bear Spirit |C|Druid|
 T Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39,28)|
 A Back to Darnassus |C|Druid|
 T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade|
-A Body and Heart |C|Druid| 
+A Body and Heart |C|Druid|
 R Rut'theran Village |N|The portal west of the bank| |C|Druid|
 F Auberdine |C|Druid|
 C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid|
