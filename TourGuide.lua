@@ -91,7 +91,8 @@ function TourGuide:GetQuestLogIndexByName(name)
 	name = name or self.quests[self.current]
 	name = name:gsub(L.PART_GSUB, "")
 	for i=1,GetNumQuestLogEntries() do
-		if GetQuestLogTitle(i) == name then return i end
+		local title, _, _, _, isHeader = GetQuestLogTitle(i)
+		if not isHeader and title == name then return i end
 	end
 end
 
