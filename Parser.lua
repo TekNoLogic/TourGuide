@@ -79,7 +79,7 @@ local function DebugQuestObjective(text, action, quest, accepts, turnins, comple
 end
 
 
-local myclass = UnitClass("player")
+local myclass, myrace = UnitClass("player"), UnitRace("player")
 local function ParseQuests(...)
 	local accepts, turnins, completes = {}, {}, {}
 	local uniqueid = 1
@@ -89,8 +89,9 @@ local function ParseQuests(...)
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
 		local _, _, class = text:find("|C|([^|]+)|")
+		local _, _, race = text:find("|R|([^|]+)|")
 
-		if text ~= "" and (not class or class == myclass) then
+		if text ~= "" and (not class or class == myclass) and (not race or race == myrace) then
 			local _, _, action, quest, tag = text:find("^(%a) ([^|]*)(.*)")
 			assert(actiontypes[action], "Unknown action: "..text)
 			quest = quest:trim()
