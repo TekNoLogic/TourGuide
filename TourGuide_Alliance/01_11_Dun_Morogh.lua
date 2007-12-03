@@ -1,5 +1,35 @@
-TourGuide:RegisterGuide("Dun Morogh (3-11)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Dun Morogh (1-11)", nil, "Alliance", function()
 return [[
+A Dwarven Outfitters
+C Dwarven Outfitters
+T Dwarven Outfitters
+
+A Encrypted Rune |C|Rogue| |R|Dwarf|
+A Etched Rune |C|Hunter| |R|Dwarf|
+A Hallowed Rune |C|Priest| |R|Dwarf|
+A Simple Rune |C|Warrior| |R|Dwarf|
+A Consecrated Rune |C|Paladin| |R|Dwarf|
+
+A Tainted Memorandum |C|Warlock| |R|Gnome|
+A Glyphic Memorandum |C|Mage| |R|Gnome|
+A Encrypted Memorandum |C|Rogue| |R|Gnome|
+A Simple Memorandum |C|Warrior| |R|Gnome|
+
+A Coldridge Valley Mail Delivery (Part 1)
+A A New Threat
+C A New Threat
+T A New Threat
+
+T Tainted Memorandum |C|Warlock| |R|Dwarf|
+T Glyphic Memorandum |C|Mage| |R|Dwarf|
+T Encrypted Memorandum |C|Rogue| |R|Dwarf|
+T Simple Memorandum |C|Warrior| |R|Dwarf|
+
+T Tainted Memorandum |C|Warlock| |R|Gnome|
+T Glyphic Memorandum |C|Mage| |R|Gnome|
+T Encrypted Memorandum |C|Rogue| |R|Gnome|
+T Simple Memorandum |C|Warrior| |R|Gnome|
+
 A A Refugee's Quandary
 
 T Coldridge Valley Mail Delivery (Part 1)
