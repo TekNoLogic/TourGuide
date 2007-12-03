@@ -60,6 +60,8 @@ function TourGuide:ParseAndMapCoords(note, desc, zone)
 		end
 	end
 
+	if not note then return end
+
 	for x,y in note:gmatch(L.COORD_MATCH) do MapPoint(zone, tonumber(x), tonumber(y), desc) end
 end
 

@@ -193,7 +193,7 @@ function TourGuide:UpdateStatusFrame()
 	local zonename = self:GetObjectiveTag("Z", nextstep) or self.zonename
 
 	-- Mapping
-	if note and (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
+	if (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
 		lastmappedaction, lastmapped = action, quest
 		self:ParseAndMapCoords(note, quest, zonename) --, zone)
 	end
