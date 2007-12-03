@@ -125,6 +125,9 @@ function TourGuide:LoadGuide(name)
 	local _, _, zonename = name:find("^(.*) %(.*%)$")
 	self.zonename = zonename
 	self.actions, self.quests, self.tags = ParseQuests(string.split("\n", self.guides[self.db.char.currentguide]()))
+
+	if not self.db.char.turnins[name] then self.db.char.turnins[name] = {} end
+	self.turnedin = self.db.char.turnins[name]
 end
 
 
