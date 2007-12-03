@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Teldrassil (6-12)", "Darkshore (12-17)", "Alliance", function()
+TourGuide:RegisterGuide("Teldrassil (1-12)", "Darkshore (12-17)", "Alliance", function()
 return [[
 A The Balance of Nature (Part 1)
 C The Balance of Nature (Part 1)
@@ -94,8 +94,7 @@ C Seek Redemption!
 T Seek Redemption! |N|East at Zenn Foulhoof|
 C Ferocitas the Dream Eater |N|North of Starbreeze.  Kill Ferocitas (69.37, 53,41) and open the necklace he drops for the jewel.| |U|8049|
 
-R Dolanaar |N|Or die and use spirit ressurrection|
-C Twisted Hatred |N|North of town (52.83, 50.19).  You can also wait until you're 10 to do this.|
+C Twisted Hatred |N|North of Dolanaar (52.83, 50.19).  You can also wait until you're 10 to do this.|
 T Ferocitas the Dream Eater
 T Twisted Hatred
 
@@ -158,43 +157,34 @@ T Body and Heart |C|Druid|
 
 A Nessa Shadowsong |N|From Mydrannul (70.67, 45.37) on your way out of Darnassus.| |R|Night Elf|
 
-A The Glowing Fruit |N|Out of town, to the south (42,76)|
-C Ursal the Mauler |N|West of the glowing tree|
+A The Glowing Fruit |N|Out of town, south of the Pools of Arlithrien, just outside Gnarlpine Hold (42.61, 76.11)|
+C Ursal the Mauler |N|West of the glowing tree (39,80)|
 
 C Tumors |N|Elementals at the river east of The Oracle Glade (42,42)|
-C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade| |U|18152|
+C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade (38.44, 34.08)| |U|18152|
 A The Enchanted Glade
-C The Enchanted Glade |N|Harpys southwest of The Oracle Glade|
+C The Enchanted Glade |N|Harpys west of The Oracle Glade|
 T The Enchanted Glade
 A Teldrassil
 
-R Darnassus
-T Tumors
+T Tumors |N|Back in Cenarion Enclave, Darnassus|
 A Return to Denalan
-T Teldrassil |N|Atop the tower|
-A Grove of the Ancients
 
 H Dolanaar
-T Crown of the Earth (Part 5)
+T Crown of the Earth (Part 5) |N|Down by the moonwell again|
 A Crown of the Earth (Part 6)
 T Ursal the Mauler
 
-T Return to Denalan |N|South at the lake|
+T Return to Denalan |N|South at the lake (60.90, 68.49)|
 A Oakenscowl
 T The Glowing Fruit
 
-C Oakenscowl |N|Go along the river to the west until you find the cave|
+C Oakenscowl |N|Go along the river to the west until you find the cave (53.75, 75.10)|
 T Oakenscowl
 
-R Darnassus
-T Crown of the Earth (Part 6) |N|Turn it in at the boss of Darnassus, Atop of the tower|
-
-R Rut'theran Village |N|Run thru the portal west of the bank|
-T Nessa Shadowsong
-A The Bounty of Teldrassil
-T The Bounty of Teldrassil |N|At the hippogryph master|
-A Flight to Auberdine
-F Auberdine
+T Crown of the Earth (Part 6) |N|Turn it at Cenarion Enclave, Darnassus, at the top of the tower|
+T Teldrassil
+A Grove of the Ancients
 ]]
 end)
 

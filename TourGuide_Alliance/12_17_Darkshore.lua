@@ -1,13 +1,21 @@
 TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
+R Rut'theran Village |N|Run thru the portal west of the bank (30.52, 41.44)|
+T Nessa Shadowsong |R|Night Elf|
+A The Bounty of Teldrassil |R|Night Elf|
+T The Bounty of Teldrassil |N|At the hippogryph master| |R|Night Elf|
+A Flight to Auberdine |R|Night Elf|
 
-A Washed Ashore (Part 1)
-T Flight to Auberdine
-A Return to Nessa 
-h Auberdine
-F Rut'theran Village
-T Return to Nessa
 F Auberdine
+A Washed Ashore (Part 1)
+T Flight to Auberdine |R|Night Elf|
+A Return to Nessa |R|Night Elf|
+h Auberdine
+
+F Rut'theran Village |R|Night Elf|
+T Return to Nessa |R|Night Elf|
+F Auberdine |R|Night Elf|
+
 A For Love Eternal |N|On the docks, west of Inn|
 A Buzzbox 827 |N|Inn, upstairs|
 A Cave Mushrooms
@@ -16,20 +24,21 @@ A Bashal'Aran (Part 1) |N|Big house at north|
 A Tools of the Highborne
 A Plagued Lands |N|Southeast over the bridge|
 A How Big a Threat? (Part 1) |N|Inside|
-C Washed Ashore (Part 1) |N|On the beach, south of Auberdine|
+
+C Washed Ashore (Part 1) |N|On the beach, south of Auberdine (36.42, 50.86)|
 C Buzzbox 827
-T Buzzbox 827 |N|East of flightpath, right next to it|
+T Buzzbox 827 |N|Near the Auberdine flight platform (36.66, 46.25)|
 A Buzzbox 411
 T Washed Ashore (Part 1)
 A Washed Ashore (Part 2)
-C Washed Ashore (Part 2) |N|Southwest of dock, northeast of the small island. Underwater|
+C Washed Ashore (Part 2) |N|Run out onto the dock and jump off the south pier (the one that goes to Menethil).  Find the turtle northeast of the small island, underwater (61.82, 46.28)|
 C Buzzbox 411 |N|Threshers are in the sea|
 T Washed Ashore (Part 2)
-T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head northwest above the cove. Buzzbox is on the beach north of the cove (41.96,28.62)|
+T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head northwest above the cove. Buzzbox is on the beach north of the cove (41.96, 28.62)|
 A Buzzbox 323
 
 A Beached Sea Creature (Part 1) |N|South of the Buzzbox 411 at the cove|
-N Beached Sea Creatures / Beached Sea Turtles |N|Notice! You will see many Beached Sea Creatures and Beached Sea Turtles on the beach while doing Darkshore! Gather them all if possible!|
+N Beached Creatures... |N|Notice! You will see many Beached Sea Creatures and Beached Sea Turtles on the beach while doing Darkshore! Gather them all if possible!|
 
 R Bashal'Aran |N|Grind your way to Bashal'Aran|
 T Bashal'Aran (Part 1)
@@ -42,6 +51,7 @@ T Bashal'Aran (Part 3)
 A Bashal'Aran (Part 4)
 C The Red Crystal |N|Grind your way to the mountains east of Auberdine|
 C How Big a Threat? (Part 1) |N|Grind your way to northwest from Ameth'Aran to the Blackwood camp (47.32,48.67)|
+
 R Twilight Vale |N|Follow the road south|
 A The Fall of Ameth'Aran
 C Tools of the Highborne
@@ -88,7 +98,6 @@ C Buzzbox 525 |N|Head southwest to the road, bears are at the other side of the 
 T Buzzbox 525 |N|Go back to the road, Buzzbox is next to two wooden fences and a fallen tree that has small path under it leading to the digsite|
 
 H Auberdine
-
 A Fruit of the Sea |N|West from flightpath|
 T Cave Mushrooms
 A Onu
@@ -110,10 +119,12 @@ C The Tower of Althalaxx (Part 2) |N|Mobs around the tower, not inside|
 T The Tower of Althalaxx (Part 2)
 A The Tower of Althalaxx (Part 3)
 C Fruit of the Sea
+
 H Auberdine
 T Fruit of the Sea
 T The Blackwood Corrupted
 T Tharnariun's Hope
+
 b Menethil Harbor
 f Grab flight point
 R Algaz Station |N|In Loch Modan. Watch out the big bad highlevel mobs on the way. Good luck!|
