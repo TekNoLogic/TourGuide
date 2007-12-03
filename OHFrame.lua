@@ -17,12 +17,11 @@ local frame, scrollbar, upbutt, downbutt, title
 
 local function OnShow(self)
 	local newval = math.max(0, (TourGuide.current or 0) - NUMROWS/2 - 1)
-	local forceupdate = TourGuide.guidechanged or (scrollbar:GetValue() == newval) or scrollbar:GetValue() > (#TourGuide.actions - NUMROWS*3/2)
 
 	scrollbar:SetMinMaxValues(0, math.max(#TourGuide.actions - NUMROWS, 1))
 	scrollbar:SetValue(newval)
 
-	if forceupdate then TourGuide:UpdateOHPanel() end
+	TourGuide:UpdateOHPanel()
 
 	self:SetAlpha(0)
 	self:SetScript("OnUpdate", ww.FadeIn)
