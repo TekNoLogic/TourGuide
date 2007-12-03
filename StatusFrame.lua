@@ -194,7 +194,6 @@ function TourGuide:UpdateStatusFrame()
 
 	-- Mapping
 	if note and (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
-		self:PurgeWaypoints(lastmapped)
 		lastmappedaction, lastmapped = action, quest
 		self:ParseAndMapCoords(note, quest, zonename) --, zone)
 	end
