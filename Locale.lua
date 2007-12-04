@@ -7,7 +7,7 @@ local loc = GetLocale()
 --      Engrish      --
 -----------------------
 
-local engrish = GetLocale(), {
+local engrish = {
 	PART_GSUB = "%s%(Part %d+%)",
 	PART_FIND = "(.+)%s%(Part %d+%)",
 
