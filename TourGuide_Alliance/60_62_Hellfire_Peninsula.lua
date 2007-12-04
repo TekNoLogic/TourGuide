@@ -53,24 +53,23 @@ C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow, blow more shit up
 T Mission: The Abyssal Shelf
 A Go to the Front
 
-F Force Camp Front
-T Go to the Front |N|Skip "Forge Base Mageddon" unless you want a group|
+T Go to the Front |N|Fly to honor point to turn this in.  Skip "Forge Base Mageddon" unless you want a group|
 
 F Honor Hold |N|Fly back to Shatter Point, then HH... or hearth|
 A The Longbeards |N|From the innkeeper|
 A An Old Gift
 A The Path of Glory |N|Up in the keep|
-A Weaken the Ramparts
+A Weaken the Ramparts |N|If you plan on running Hellfire Ramparts|
 T Waste Not, Want Not |N|At the west tower|
 A Laying Waste to the Unwanted
 T Fel Orc Scavengers
 A Ill Omens
 A Unyielding Souls
 
-A This Caves-a-Rockin |N|At the mine under HH|
+A When This Mine's a-Rockin' |N|At the mine under HH|
 A A Job for an Intelligent Man
-C This Caves-a-Rockin |N|Inside, of course|
-T This Caves-a-Rockin
+C When This Mine's a-Rockin' |N|Inside, of course|
+T When This Mine's a-Rockin'
 A The Mastermind
 C The Mastermind |N|Inside, at the bottom|
 T The Mastermind
@@ -80,16 +79,16 @@ C A Job for an Intelligent Man |N|Southewest in the canyon (45,63)|
 A Ravager Egg Roundup |N|South at the crashed zeppelin (49,74)|
 A In Case of Emergency...
 
+N Debris... |N|Collect any debris you come across for "In Case of Emergency..."|
 C An Old Gift |N|Oon the step of the abandoned building south of the armory (54.9, 86.8)|
 C Unyielding Souls
-C In Case of Emergency... |N|Collect debris all over the area to the east|
 C Ill Omens |N|Kill orcs to the southeast at Zeth'gor (67,75)|
 
-T Ill Omens |N|Back at Expedition Point|
+T Ill Omens |N|Back at Expedition Point (70.97, 63.36)|
 A Cursed Talismans
 
 C The Path of Glory |N|Along the road between Hellfire Citadel and the Dark Portal|
-C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58,46) (55,46) (53,47) (52,47)| |U|26002|
+C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58.77, 46.80) (56.02, 46.67) (53.48, 47.14) (53.00, 47.11)| |U|26002|
 
 T Laying Waste to the Unwanted |N|Back at the tower east of Honor Hold|
 T Unyielding Souls
@@ -133,6 +132,8 @@ C Sha'naar Relics
 ]]
 
 --[[
+Save for "As smooth as butter":
+C In Case of Emergency... |N|Collect debris all over the area to the east|
 
 48) Go in the SE corner of the camp up the path to a hut at 16,65 and accept "A Traitor Among Us" Now go
 back down to the hut at 14,63 and open the chest and grab the key, make sure the 63 elite isn't around
