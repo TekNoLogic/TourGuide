@@ -12,7 +12,7 @@ local NUMROWS = math.floor(305/(ROWHEIGHT+4))
 
 local offset = 0
 local rows = {}
-local frame, scrollbar, upbutt, downbutt, title
+local frame, scrollbar, upbutt, downbutt, title, completed
 
 
 local function OnShow(self)
@@ -45,6 +45,8 @@ function TourGuide:CreateObjectivePanel()
 	title = ww.SummonFontString(frame, nil, "SubZoneTextFont", nil, "BOTTOM", frame, "TOP", 0, 10)
 	local fontname, fontheight, fontflags = title:GetFont()
 	title:SetFont(fontname, 18, fontflags)
+
+	completed = ww.SummonFontString(frame, nil, "NumberFontNormalLarge", nil, "BOTTOMRIGHT", frame, "TOPRIGHT", 0, 10)
 
 	scrollbar, upbutt, downbutt = ww.ConjureScrollBar(frame, true)
 	scrollbar:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 0, -19)
@@ -112,6 +114,8 @@ function TourGuide:UpdateOHPanel(value)
 	if not frame or not frame:IsVisible() then return end
 
 	title:SetText(self.db.char.currentguide or "No Guide Loaded")
+	local r,g,b = self.ColorGradient((self.current-1)/#self.actions)
+	completed:SetText(string.format("|cff%02x%02x%02x%d%%", r*255, g*255, b*255, (self.current-1)/#self.actions*100))
 
 	self.guidechanged = nil
 	if value then offset = math.floor(value) end

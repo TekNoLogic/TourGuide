@@ -40,6 +40,7 @@ function TourGuide:Initialize()
 			turnedin = {},
 			cachedturnins = {},
 			trackquests = true,
+			completion = {}
 		},
 	})
 	self.turnedin = self.db.char.turnedin
@@ -164,3 +165,18 @@ function TourGuide:CompleteQuest(name, noupdate)
 	until not action
 	self:DebugF(1, "Quest %q not found!", name)
 end
+
+
+---------------------------------
+--      Utility Functions      --
+---------------------------------
+
+function TourGuide.ColorGradient(perc)
+	if perc >= 1 then return 0,1,0
+	elseif perc <= 0 then return 1,0,0 end
+
+	local segment, relperc = math.modf(perc*2)
+	local r1, g1, b1, r2, g2, b2 = select((segment*3)+1, 1,0,0, 1,0.82,0, 0,1,0)
+	return r1 + (r2-r1)*relperc, g1 + (g2-g1)*relperc, b1 + (b2-b1)*relperc
+end
+

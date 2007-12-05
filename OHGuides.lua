@@ -24,12 +24,12 @@ end
 
 
 local function OnClick(self)
-	local text = self.text:GetText()
+	local text = self.guide
 	if not text then self:SetChecked(false)
 	else
 		TourGuide:LoadGuide(text)
-		TourGuide:UpdateGuidesPanel()
 		TourGuide:UpdateStatusFrame()
+		TourGuide:UpdateGuidesPanel()
 	end
 end
 
@@ -55,7 +55,7 @@ function TourGuide:CreateGuidesPanel()
 		row:SetHighlightTexture(highlight)
 		row:SetCheckedTexture(highlight)
 
-		local text = ww.SummonFontString(row, nil, "GameFontNormal", nil, "LEFT", 6, 0)
+		local text = ww.SummonFontString(row, nil, "GameFontWhite", nil, "LEFT", 6, 0)
 
 		row:SetScript("OnClick", OnClick)
 
@@ -84,8 +84,12 @@ function TourGuide:UpdateGuidesPanel()
 		row.i = i + offset
 
 		local name = self.guidelist[i + offset]
+		local complete = self.db.char.currentguide == name and (self.current-1)/#self.actions or self.db.char.completion[name]
+		row.guide = name
 
-		row.text:SetText(name)
+		local r,g,b = self.ColorGradient(complete or 0)
+		local text = complete and complete == 1 and name.." [Done]" or complete and complete ~= 0 and string.format("%s |cff%02x%02x%02x[%d%%]", name, r*255, g*255, b*255, complete*100) or name
+		row.text:SetText(text)
 		row:SetChecked(self.db.char.currentguide == name)
 	end
 end

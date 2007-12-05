@@ -119,8 +119,9 @@ end
 function TourGuide:LoadGuide(name)
 	if not name then return end
 
-	self.db.char.currentguide = name
-	if not self.guides[name] then self.db.char.currentguide = self.guidelist[1] end
+	if self.actions then self.db.char.completion[self.db.char.currentguide] = (self.current-1)/#self.actions end
+
+	self.db.char.currentguide = self.guides[name] and name or self.guidelist[1]
 	self:DebugF(1, "Loading guide: %s", name)
 	self.guidechanged = true
 	local _, _, zonename = name:find("^(.*) %(.*%)$")
