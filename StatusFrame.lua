@@ -126,6 +126,14 @@ end
 
 local lastmapped, lastmappedaction
 function TourGuide:UpdateStatusFrame()
+	self:Debug(1, "UpdateStatusFrame", self.current)
+
+	if self.updatedelay then
+		local _, logi = self:GetObjectiveStatus(self.updatedelay)
+		self:Debug(1, "Delayed update", self.updatedelay, logi)
+		if logi then return end
+	end
+
 	local nextstep
 	self.updatedelay = nil
 
@@ -191,6 +199,7 @@ function TourGuide:UpdateStatusFrame()
 	local turnedin, logi, complete = self:GetObjectiveStatus(nextstep)
 	local note, useitem, optional = self:GetObjectiveTag("N", nextstep), self:GetObjectiveTag("U", nextstep), self:GetObjectiveTag("O", nextstep)
 	local zonename = self:GetObjectiveTag("Z", nextstep) or self.zonename
+	self:DebugF(1, "Progressing to objective \"%s %s\"", action, quest)
 
 	-- Mapping
 	if (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
