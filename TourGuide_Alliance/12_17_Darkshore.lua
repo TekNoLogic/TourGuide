@@ -32,16 +32,14 @@ A Buzzbox 411
 T Washed Ashore (Part 1)
 A Washed Ashore (Part 2)
 C Washed Ashore (Part 2) |N|Run out onto the dock and jump off the south pier (the one that goes to Menethil).  Find the turtle northeast of the small island, underwater (61.82, 46.28)|
-C Buzzbox 411 |N|Threshers are in the sea|
+C Buzzbox 411 |N|Threshers are in the sea, north of the pier|
 T Washed Ashore (Part 2)
 T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head northwest above the cove. Buzzbox is on the beach north of the cove (41.96, 28.62)|
 A Buzzbox 323
 
-A Beached Sea Creature (Part 1) |N|South of the Buzzbox 411 at the cove|
-N Beached Creatures... |N|Notice! You will see many Beached Sea Creatures and Beached Sea Turtles on the beach while doing Darkshore! Gather them all if possible!|
+N Beached Creatures... |L|12242| |N|You will see many Beached Sea Creatures and Beached Sea Turtles on the beach while doing Darkshore! Gather them all if possible!  The first is South of the Buzzbox 411 at the cove.  Don't forget to turn these in whenever you're in Auberdine.|
 
-R Bashal'Aran |N|Grind your way to Bashal'Aran|
-T Bashal'Aran (Part 1)
+T Bashal'Aran (Part 1) |N|Grind your way south to Bashal'Aran (44.18, 36.30)|
 A Bashal'Aran (Part 2)
 C Bashal'Aran (Part 2)
 T Bashal'Aran (Part 2)
@@ -49,41 +47,39 @@ A Bashal'Aran (Part 3)
 C Bashal'Aran (Part 3)
 T Bashal'Aran (Part 3)
 A Bashal'Aran (Part 4)
-C The Red Crystal |N|Grind your way to the mountains east of Auberdine|
-C How Big a Threat? (Part 1) |N|Grind your way to northwest from Ameth'Aran to the Blackwood camp (47.32,48.67)|
+C The Red Crystal |N|Grind your way to the mountains east of Auberdine (47.32, 48.70)|
+C How Big a Threat? (Part 1) |N|Grind your way west to the furblog camp by the road south of Auberdine (40.35, 53.46)|
 
-R Twilight Vale |N|Follow the road south|
-A The Fall of Ameth'Aran
+A The Fall of Ameth'Aran |N|Follow the road south to Twilight Vale|
+C The Fall of Ameth'Aran |N|Look for the big white tablets on the ground (43.31, 58.70) (42.65, 63.13)|
+C For Love Eternal |N|Patrols around near the southern tablet|
+C Bashal'Aran (Part 4) |N|Also near the southern tablet in a gazebo (42.37, 61.85)|
 C Tools of the Highborne
-C For Love Eternal
-C The Fall of Ameth'Aran |N|Look for the big white tablets on the ground (43.31,58.70) and (42.65,63.13)|
-C Bashal'Aran (Part 4)
-C Plagued Lands |N|West from Ameth'Aran|
+C Plagued Lands |N|Find a Rabid Thistle Bear (try to the east) and use the "hope" on it.| |U|7586|
 T The Fall of Ameth'Aran
+
 H Auberdine
-T Plagued Lands |N|Next to the house east in Auberdine|
+T Plagued Lands |N|Next to the house as you enter Auberdine|
 A Cleansing of the Infected
 T How Big a Threat? (Part 1)
 A How Big a Threat? (Part 2)
-A Thundris Windweaver |N|Same NPC|
+A Thundris Windweaver
 A The Tower of Althalaxx (Part 1) |N|Upstairs|
-T Tools of the Highborne |N|The big house northwest|
-T Thundris Windweaver |N|Same NPC|
+T Tools of the Highborne |N|In the lodge to the northwest|
+T Thundris Windweaver
 A The Cliffspring River
 T The Red Crystal
 A As Water Cascades
 N Fill the [Empty Water Tube] in the Moonwell |U|14338| |L|14339|
-T For Love Eternal |N|West of Inn, at the dock|
+T For Love Eternal |N|Out on the pier|
 
-T Beached Sea Creature (Part 1)
+T Beached Sea Creature@1@
 
-R Bashal'Aran |N|Follow the road north out of Auberdine|
-T Bashal'Aran (Part 4)
+T Bashal'Aran (Part 4) |N|Follow the road north out of Auberdine|
 C Cleansing of the Infected |N|You might want to head north while doing this quest|
 C Buzzbox 323 |N|You might want to head north while doing this quest|
 
-R Cliffspring River |N|Waterfall in east|
-C The Cliffspring River |N|Go under the bridge into the water to get the sample| |U|12350|
+C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water to get the sample| |U|12350|
 T Buzzbox 323 |N|Buzzbox is on the other side of the bridge, left side|
 A Buzzbox 525
 R Cliffspring Falls |N|Follow the river to southeast|
