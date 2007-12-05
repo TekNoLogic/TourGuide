@@ -129,58 +129,75 @@ T Missing Missive |N|Southwest at the Cenarion Post (15,52)| |O|
 C Cruel Taskmasters |N|South at The Ruins of Sha'naar.  Focus on the taskmasters, the adds won't attack after you kill them.|
 C Sha'naar Relics
 
+A Naladu |N|From Akoru the Firecaller near (15.6, 58.7)|
+T Naladu |N|(16.2, 65.0)|
+A A Traitor Among Us
+C A Traitor Among Us |N|Get the key in the hut to the TODO (14.3, 63.4).  Make sure the elite isn't there!|
+T A Traitor Among Us
+A The Dreghood Elders
+C The Dreghood Elders |N|Free the elders, Morod (13,60) and Aylaan (13,58) to the west, Akoru (15,58) to the east.|
+T The Dreghood Elders
+A Arzeth's Demise
+C Arzeth's Demise |U|26513| |N|Use the staff on Arzeth and kill him.|
+T Arzeth's Demise
+
+T The Longbeards |N|To the southeast (23,72)|
+A The Arakkoa Threat
+A Rampaging Ravagers
+A Gaining Mirren's Trust
+T Gaining Mirren's Trust
+A The Finest Down
+
+C Rampaging Ravagers |N|To the northwest at TODO|
+T Rampaging Ravagers
+
+C The Finest Down |N|To the southeast of the Longbeards.  Loot the nests, kill the hatchling.|
+C The Arakkoa Threat
+K Avruu |L|23580| |N|To the southeast (25,76)|
+A Avruu’s Orb |U|23580|
+C Avruu’s Orb |N|Talk to the alter to the TODO (29,81).|
+T Avruu’s Orb
+
+T The Finest Down |N|Back at the Longbeards' Camp|
+T The Arakkoa Threat
+
+C Deadly Predators |N|East of Haal'eshi valley (34,62).  Work your way thru the cave.|
+C Ravager Egg Roundup |N|Southwest of the cave exit along the Razorthorn Trail (39,86)|
+
+T Ravager Egg Roundup |N|Back at the crashed zeppelin (49,74)|
+A Helboar, the Other White Meat
+
+C Helboar, the Other White Meat |N|Kill boars to the east between the zeppelin and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268|
+C In Case of Emergency...
+
+T In Case of Emergency... |N|Back at the crashed zeppelin|
+A Voidwalkers Gone Wild
+T Helboar, the Other White Meat |N|Skip the follow-up|
+
+C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Commander Thalvos (54,83) in the Expedition Armory|
+C Voidwalkers Gone Wild |N|West of the armory|
+T Voidwalkers Gone Wild |N|Yet again, back at the zeppy|
+
+H Temple of Telhamat
+T Sha'naar Relics
+A The Seer's Relic
+A Helping the Cenarion Post
+A An Ambitious Plan
+
+T Deadly Predators |N|South of town|
+T Cruel Taskmasters
+
+C The Seer's Relic |N|Go back to Sedai's corpse and use the relic on it.  Sit back, grab some popcorn, and enjoy the show!| |U|23645|
+C Cleansing the Waters |N|Use the vial on Aggonar's corpse in the norther part of the Pools of Aggonar (40,31)|
+
+T The Seer's Relic |N|Back at the temple|
+T Cleansing the Waters
+
+F Honor Hold
+T Looking to the Leadership |N|At the tower to the west|
 ]]
 
 --[[
-Save for "As smooth as butter":
-C In Case of Emergency... |N|Collect debris all over the area to the east|
-
-48) Go in the SE corner of the camp up the path to a hut at 16,65 and accept "A Traitor Among Us" Now go
-back down to the hut at 14,63 and open the chest and grab the key, make sure the 63 elite isn't around
-then go back up and turn it in. Accept "The Dreghood Elders" then Go back down and free Morod at 13,60
-in the tent, Aylaan in the tent at 13,58 both are on the west side of the ruins. Finally free Akoru at 15,58
-in the tent on the east side of the ruins. Go to the tent in the back of the ruins and turn in "The Dreghood
-Elders" accept "Arzeth's Demise" Go back down and use the Staff of the Dreghood Elders on the 63 elite to
-remove his elite status and kill him, then run back up to tent and turn in "Arzeth's Demise"
-49) Go SE to 23,72 turn in "The Longbeards" accept "The Arakkoa Threat" "Rampaging Ravagers" and
-"Gaining Mirren's Trust" You should be friendly now and already have the bitter for it, then turn it back in
-and accept "The Finest Down"
-50) Just NW of the longbeards you'll see a big thorny area full of ravagers, kill 10 quillfang ravagers for
-"Rampaging Ravagers" then go back to the Longbeard camp at 23,72 and turn it in
-51) Just SE of the longbeard camp is a valley, kill 6 Haal'eshi Talonguards and 4 Windwalkers for "The Arakkoa
-Threat" Also look for Kaliri Nests which will spawn a hatchling which drop the feathers for "The Finest
-Down" At about 25,76 there is a path above the valley, go up there and kill Avruu and he will drop
-“Avruu’s Orb” go farther back, you should see a purple house at 29,81, out front is an orb touch it and a
-63 elemental spawns, you have to fight him to 40% life to free him, I think some classes will have trouble
-with this, my rogue did just fine, don’t be afraid to try for a group if you can’t do it alone
-52) Mount and run back up to the Longbeards camp Turn in "The Finest Down" and "The Arakkoa Threat"
-53) Go east of the Haal'eshi valley and you'll see stonescythe whelps and stonescythe alphas. Alphas are more
-in higher ground and in the cave at 34,62 for "Deadly Predators"
-54) You're gonna exit the Stonescythe area right into the Southern Rampart at 42,68
-55) Go down SW from here into Razorthorn Trail at 39,86 and start collecting ravager eggs for "Ravager Egg
-Roundup"
-56) Go NE to the zeppelin crash site at 49,74 and turn in "Ravager Egg Roundup" accept "Helboar, the Other
-White Meat" and turn in "In Case of Emergency..." accept "Voidwalkers Gone Wild"
-57) You should be 61 now or really close to it. If you’re not it’s no biggy, theres nothing for a tiny bit that
-needs you to be 61
-Hellfire Peninsula 61-62
-You will find the deranged helboars all around the zeppelin and to the east of the crash site. The creation
-of the purified meat is about 50/50. Then go further south of the zeppelin to 47,80 in the warp fields and
-kill the voidwalkers. While killing the voidwalkers, go east to the Expedition Armory to 54,83 and kill
-Thalvos and to the north a tiny bit to 53,81 and kill Xintor for "Looking to the Leadership" Real easy ones
-to kill. Once you have it all, run back up to the zeppelin and turn in "Helboar, the Other White Meat" SKIP
-"Smooth as Butter" it’s just too low of a drop rate, then turn in "Voidwalkers Gone Wild"
-59) Hearth back to Telhamat
-60) Turn in "Sha'naar Relics" accept "The Seer's Relic" and "Helping the Cenarion Post" Turn around and
-accept "An Ambitious Plan". Go south of town, turn in "Deadly Predators" and "Cruel Taskmasters"
-61) Go east to 26,37 Sedai's Corpse and use the Seer's Relic on it. Then go to the northern part of the Pools
-of Aggonar at 40,31 and you will spawn Aggonar, he's 63, kinda rough but not too hard.
-62) If you’re racing for time, die so you end up at the temple, otherwise run back
-63) Run back up into the Inn, turn in "The Seer's Relic" and "Cleansing the Waters"
-64) Fly to HH
-65) Leave town by the west entrance and head straight for the tower below and turn in "Looking to the
-Leadership"
-66) You should be 61 now for sure, you’re probably past 61 a bit at this point
 67) Go back down to the Warp fields around 50,83 and get an uncontrolled voidwalker to about 25% life and
 use the crystal on it and grab the red crystal it drops for "An Ambitious Plan" then head to the east
 towards Zeth’Gor at 67,75
