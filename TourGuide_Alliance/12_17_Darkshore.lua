@@ -76,47 +76,53 @@ T For Love Eternal |N|Out on the pier|
 T Beached Sea Creature@1@
 
 T Bashal'Aran (Part 4) |N|Follow the road north out of Auberdine|
-C Cleansing of the Infected |N|You might want to head north while doing this quest|
-C Buzzbox 323 |N|You might want to head north while doing this quest|
+C Cleansing of the Infected |N|To the northeast|
+N Beached Sea Turtle |N|(44.17, 20.65)| |L|12292|
+C Buzzbox 323 |N|Both Moonstalkers and Moonstalker Runts drop this item.|
 
 C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water to get the sample| |U|12350|
 T Buzzbox 323 |N|Buzzbox is on the other side of the bridge, left side|
 A Buzzbox 525
-R Cliffspring Falls |N|Follow the river to southeast|
-C Cave Mushrooms |N|In the cave above waterfall|
-T As Water Cascades |N|Follow the mountainline southwest until you are at the red crystal|
+C Cave Mushrooms |N|Follow the east shore of the river south to the waterfall.  Enter the cave above waterfall.|
+T As Water Cascades |N|Back at the red crystal (47.32, 48.70)|
 A The Fragments Within
 C How Big a Threat? (Part 2) |N|Grind your way west across the road to Blackwood camp|
+N Beached Sea Turtle |N|To the west on the shore (37.14, 62.17)| |L|12289|
+N Beached Sea Creature |N|Further south down the shore (36.05, 70.78)| |L|12242|
 
-R Grove of the Ancients
-T Grove of the Ancients
+T Grove of the Ancients |N|East at Grove of the Ancients (43,76), of course|
 C Buzzbox 525 |N|Head southwest to the road, bears are at the other side of the road|
-T Buzzbox 525 |N|Go back to the road, Buzzbox is next to two wooden fences and a fallen tree that has small path under it leading to the digsite|
+T Buzzbox 525 |N|Back on the road, near the path to the digsite, opposite the white bear Grimclaw (41.42, 80.59).|
+N Beached Sea Creature |N|On the shore northwest of the dig site (32.75, 80.69)| |L|12242 2|
 
 H Auberdine
-A Fruit of the Sea |N|West from flightpath|
+T Beached Sea Creature@2@
+T Beached Sea Turtle@1@
+A Fruit of the Sea |N|On the shore below the flightpath|
+A WANTED: Murkdeep! |N|The Wanted poster infront of Inn|
 T Cave Mushrooms
 A Onu
 T The Fragments Within
 A The Absent Minded Prospector |N|North over the bridge|
 T The Cliffspring River
 A The Blackwood Corrupted
-A WANTED: Murkdeep! |N|The Wanted poster infront of Inn|
 T Cleansing of the Infected
 A Tharnariun's Hope
 T How Big a Threat? (Part 2)
 N Fill the [Empty Cleansing Bowl] in the Moonwell |U|12346| |L|12347|
 
-C The Blackwood Corrupted |N|Blackwood camps are east of Bashal'Aran. Gather grain (50.65,34.99), nuts (51.83,33.56) and fruit (52.87,33.38). Use the [Filled Cleansing Bowl] near bonfire. Kill Xabraxxis when he spanws| |U|12347|
-C Tharnariun's Hope |N|To east between the two camps, up the hill is a cave. Kill the adds, run away and reset the Den Mother. Kill her after|
+C The Blackwood Corrupted |N|Blackwood camps are east of Bashal'Aran. Gather grain (50.65, 34.99), nuts (51.83, 33.56) and fruit (52.87, 33.38). Use the cleansing bowl near the bonfire. Kill Xabraxxis when he spawns.| |U|12347|
+C Tharnariun's Hope |N|To east between the two camps, up the hill is a cave. Kill the adds, run away and reset the Den Mother.  Return and kill her.|
 T The Tower of Althalaxx (Part 1) |N|Go north, over the river until you are at the road to ruins. the NPC is next to two rocks|
 A The Tower of Althalaxx (Part 2)
 C The Tower of Althalaxx (Part 2) |N|Mobs around the tower, not inside|
 T The Tower of Althalaxx (Part 2)
 A The Tower of Althalaxx (Part 3)
+N Beached Sea Creature |N|(53,18)| |L|12242|
 C Fruit of the Sea
 
 H Auberdine
+T Beached Sea Creature@3@
 T Fruit of the Sea
 T The Blackwood Corrupted
 T Tharnariun's Hope
