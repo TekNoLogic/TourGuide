@@ -112,7 +112,7 @@ A Return to Obadei
 T Return to Obadei
 A Makuru's Vengeance
 
-C Makuru's Vengeance |N|Kill orcs north of the corpse at Mag'Har Post (29,33)|
+C Makuru's Vengeance |N|Kill orcs north of the corpse at Mag'Har Grounds (29,33).  Only the grunts drop these so focus on them.  You can find them in groups around the huts and bonfires.|
 C The Pools of Aggonar |N|East at the Pools of Aggonar (38,44)|
 
 H Temple of Telhamat
@@ -154,9 +154,9 @@ T Rampaging Ravagers
 C The Finest Down |N|To the southeast of the Longbeards.  Loot the nests, kill the hatchling.|
 C The Arakkoa Threat
 K Avruu |L|23580| |N|To the southeast (25,76)|
-A Avruu’s Orb |U|23580|
-C Avruu’s Orb |N|Talk to the alter to the TODO (29,81).|
-T Avruu’s Orb
+A Avruu's Orb |U|23580|
+C Avruu's Orb |N|Talk to the alter to the TODO (29,81).|
+T Avruu's Orb
 
 T The Finest Down |N|Back at the Longbeards' Camp|
 T The Arakkoa Threat
@@ -195,55 +195,28 @@ T Cleansing the Waters
 
 F Honor Hold
 T Looking to the Leadership |N|At the tower to the west|
-]]
 
---[[
-67) Go back down to the Warp fields around 50,83 and get an uncontrolled voidwalker to about 25% life and
-use the crystal on it and grab the red crystal it drops for "An Ambitious Plan" then head to the east
-towards Zeth’Gor at 67,75
-68) Go up into Zeth’Gor to the east at 64,74 and kill the Grunts, Necrolytes, and shamans for "Cursed
-Talismans" I hit the 25% through 61 mark while doing this. Kinda bad drop rate but a good grind spot
-while doing a quest.
-57) Once you’re done turn it back in at Expedition point to the NE at 70,63 accept "Warlord of the Bleeding
-Hollow"
-58) Go back up into Zeth'Gor to the back into the big building at 69,76 and go to the center and kill Warlord
-Morkh for "Warlord of the Bleeding Hollow" then go back to Expedition Point at 70,63 and turn it in.
-59) Unfortunately that quest chain ends there, but it’s a good xp grind getting the talismans, even though you
-lose 250 rep for doing it, at least in beta so it may be a bug.
-60) Now either hearth to Telhamat if your hearth is up, or get on the gryphon to shattered point then fly to
-the Temple and run into the Inn, turn in "An Ambitious Plan"
-61) Start using the lfg tool and chat to look for a group for Hellfire Citadel Ramparts for that quest you picked
-up earlier. Plus they designed outlands as I explained, to make you do instances, or else you’re gonna hit
-63 ½ or so and get stuck grinding or instancing them. Try to do HFC before you leave town here for
-quests. You could grind instead if you want
-62) Vazruden, the guy who gets off the last dragon, in ramparts will drop a letter called Ominous Letter which
-starts "Dark Tidings"
-63) Go back into HH up in the main castle and turn in "Weaken the Ramparts" accept "Heart of Rage" and
-"The Blood is Life" then turn in "Dark Tidings" you should now be close to 50% to 62.
-64) Now you can either go and do the Blood Furnace (which is easier than ramparts) or you can finish up the
-rest of HFP before you attempt it. I say do it later if you want because running 2 instances can suck, but
-as you seen ramparts was pretty short
-65) Enter the wall on the West side of HFC, there are some stairs at 45,58 and follow it up to the entrance
-66) The blood is very easy to get and the investigation is complete when you enter that bottom circle at the
-end. Take a look below you too, to see a huge demon for the shattered halls. He’s who keeps talking.
-67) Now leave by the green tunnel and run back to HH, to the big castle up top and turn in "Heart of Rage" to
-Danath Trollbane, then turn in "The Blood is Life" to Gunny.
-68) From Telhamat run down SW to Cenarion Post at 15,52 and accept "The Cenarion Expedition" "Keep
-Thornpoint Hill Clear!" and turn in "Helping the Cenarion Post" to Thiah Redmane and accept "Demonic
-Contamination" SKIP "Colossal Menace" unless you want to do it with a group
-69) Go east of here and start killing Hulking Helboars. There all around HFP but there is a lot to the east. Once
-you're done head back West to Cenarion Post and turn it in then accept "Testing the Antidote" then go
-back east, find a helboar and use the antidote on him and he’ll turn into dreadtusk, just kill him then go
-back and turn it in
-70) Go just west now to Thornpoint Hill and start killing ravagers for "Keep Thornpoint Hill Clear!" make sure
-you're at full health before each one. They have some wierd thorn protection and seem to break stuns
-early. Go back to Cenarion Point and turn it in
-71) Now overall you should be at least 90% through 61 if you’re not already 62 which you should be after
-grinding or doing HFC.
-72) You’ll want to go back to SW to get your new skills. Make sure you go before you head to Zangarmarsh
-because there is no flightpath right at the start of this zone. Once you’re done with your skills, hearth to
-Telhamat
-73) Run all the way west, through the ravagers, into Zangarmarsh
+C An Ambitious Plan |N|Go down to the Warp Fields (50,83), attack an uncontrolled voidwalker, use the crystal on it when it's ~25% HP| |U|23417|
+C Cursed Talismans |N|Kill orcs at Zeth’Gor (64,74)|
+
+T Cursed Talismans |N|At Expedition Point (70,63)|
+A Warlord of the Bleeding Hollow
+C Warlord of the Bleeding Hollow |N|In the big building in Zeth'Gor (69,76)|
+T Warlord of the Bleeding Hollow |N|Back at Expedition Point|
+
+H Temple of Telhamat
+T An Ambitious Plan
+
+A The Cenarion Expedition |N|Down on at Cenarion Post (15,52)|
+A Keep Thornpoint Hill Clear!
+T Helping the Cenarion Post
+A Demonic Contamination
+C Demonic Contamination |N|Hulking Helboars to the east|
+A Testing the Antidote
+C Testing the Antidote |N|Use the antidote on a Helboar, then kill it| |U|23337|
+T Testing the Antidote
+C Keep Thornpoint Hill Clear! |N|West at Thornpoint Hill, naturally|
+T Keep Thornpoint Hill Clear!
 ]]
 end)
 
