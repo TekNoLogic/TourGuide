@@ -41,7 +41,7 @@ T The Boar Hunter
 T Coldridge Valley Mail Delivery (Part 2)
 A The Troll Cave
 A Scalding Mornbrew Delivery
-T Scalding Mornbrew Delivery |N|Run back to Anvilmar (28.8,66.4)|
+T Scalding Mornbrew Delivery |N|Run back to Anvilmar (28.8, 66.4)|
 A Bring Back the Mug
 t Train (Level 4)
 
@@ -51,16 +51,16 @@ C Beginnings |N|(27.5,80)| |C|Warlock|
 T Beginnings |C|Warlock|
 
 T Bring Back the Mug
-C A Refugee's Quandary |N|Bucket (26.3,79.3), Chest (22.8,78), Box(20.9,76.1)|
+C A Refugee's Quandary |N|At the troll camps to the southwest.  Bucket (26.3, 79.3), Chest (22.8, 78), Box (20.9, 76.1)|
 C The Troll Cave
 T The Troll Cave
 A The Stolen Journal
 C The Stolen Journal |N|Back of the cave, lower level (31,80)|
-T The Stolen Journal |N|Fight your way out of the cave.|
+T The Stolen Journal
 A Senir's Observations (Part 1)
 
 T A Refugee's Quandary |N|Back in Anvilmar.|
-T Senir's Observations (Part 1) |N|East of Anvilmar (33.5,71.8)|
+T Senir's Observations (Part 1) |N|East of Anvilmar (33.5, 71.8)|
 A Senir's Observations (Part 2)
 A Supplies to Tannok
 
@@ -73,25 +73,25 @@ A Tools for Steelgrill
 
 T In Favor of the Light |C|Priest|
 A Garments of the Light |C|Priest|
-C Garments of the Light |N|South of town (45.8,54.6)| |C|Priest|
+C Garments of the Light |N|South of town (45.8, 54.6)| |C|Priest|
 T Garments of the Light |C|Priest|
 
-T Tools for Steelgrill |N|Northeast of Kharanos (50.4,49.1)|
+T Tools for Steelgrill |N|Northeast of Kharanos (50.4, 49.1)|
 A Ammo for Rumbleshot
 A The Grizzled Den
 A Stocking Jetsteam
 t Train (Level 6)
 
-C Ammo for Rumbleshot |N|Open the crate (44.1,56.9)|
-C The Grizzled Den |N|South of Kharanos (42.5, 54.4)|
-T Ammo for Rumbleshot |N|South of Kharanos (40.7,65.1)|
+C Ammo for Rumbleshot |N|Open the crate (44.1, 56.9)|
+C The Grizzled Den |N|Southwest of Kharanos (42.5, 54.4)|
+T Ammo for Rumbleshot |N|South of Kharanos (40.7, 65.1)|
 
-R Brewnall Village |N|Go northwest (30.3,46.3)|
+R Brewnall Village |N|Go northwest, near the frozen lake (30.3, 46.3)|
 A The Perfect Stout
 A Bitter Rivals
 C The Perfect Stout |N|Northeast across the lake (38,36)|
 
-C Stocking Jetsteam |N|Go southeast towards Kharanos to find more mobs.| |L|769 4|
+C Stocking Jetsteam |N|Go southeast towards Kharanos to find more mobs.|
 K Boars |N|For [Crag Boar Rib] x6.| |L|2886 6|
 
 T The Grizzled Den |N|At Steelgrill's Depot, east of Kharanos.|
@@ -104,11 +104,10 @@ T Bitter Rivals |N|Give the Thunder Ale to Jarven downstairs, then talk to the b
 A Return to Marleth
 T Beer Basted Boar Ribs
 A Frostmane Hold |N|He's a little south of the inn.|
-A Operation Recombobulation |N|In a house a bit northwest of the inn (45.8,49.4)|
+A Operation Recombobulation |N|In a house a bit northwest of the inn (45.8, 49.4)|
 t Train (Level 8)
 
-R Brewnall Village
-T Evershine
+T Evershine |N|At Brewnall Village|
 A A Favor for Evershine
 T The Perfect Stout
 A Shimmer Stout
@@ -147,49 +146,49 @@ A Road to Salvation |C|Rogue|
 A Muren Stormpike |C|Warrior|
 
 R Ironforge
-T The Reports |Z|Ironforge| |N|The High Seat (39.6,57.1)|
+T The Reports |Z|Ironforge| |N|The High Seat (39.6, 57.1)|
 
 T Training the Beast |C|Hunter|
 
 T Speak with Bink |C|Mage|
 A Mage-tastic Gizmonitor |C|Mage|
 R Dun Morogh |C|Mage|
-C Mage-tastic Gizmonitor |N|(27.7,36.4)| |C|Mage|
+C Mage-tastic Gizmonitor |N|(27.7, 36.4)| |C|Mage|
 T Mage-tastic Gizmonitor |C|Mage|
 
 T Road to Salvation |C|Rogue|
 A Simple Subterfugin' |C|Rogue|
 R Dun Morogh |C|Rogue|
-T Simple Subterfugin' |N|(25.2,44.4)| |C|Rogue|
+T Simple Subterfugin' |N|(25.2, 44.4)| |C|Rogue|
 A Onin's Report |C|Rogue|
 T Onin's Report |C|Rogue|
 
 T Muren Stormpike |C|Warrior|
 A Vejrek's Head |C|Warrior|
 R Dun Morogh |C|Warrior|
-C Vejrek's Head |N|(27.7,57.7)| |C|Warrior|
+C Vejrek's Head |N|(27.7, 57.7)| |C|Warrior|
 T Vejrek's Head |C|Warrior|
 A Tormus Deepforge |C|Warrior|
 T Tormus Deepforge |C|Warrior|
 A Ironabnd's Compound |C|Warrior|
 R Dun Morogh |C|Warrior|
-C Ironband's Compound |N|(77.9,62.2)| |C|Warrior|
+C Ironband's Compound |N|(77.9, 62.2)| |C|Warrior|
 T Ironband's Compound |C|Warrior|
 
-A Those Blasted Troggs! |N|At Gol'Bolar Quarry, East of Kharanos (69.1,56.3)|
+A Those Blasted Troggs! |N|East of Kharanos at Gol'Bolar Quarry(69.1,56.3)|
 A The Public Servant
-C Those Blasted Troggs! |N|Kill towards the cave.|
 C The Public Servant |N|Inside the cave.|
+C Those Blasted Troggs!
 T Those Blasted Troggs!
 T The Public Servant
 
-A The Lost Pilot |N|Northeast through a tunnel (83.8,39.2)|
-T The Lost Pilot |N|A bit northwest, talk to the corpse (79.7,36.2)|
+A The Lost Pilot |N|Northeast through a tunnel (83.8, 39.2)|
+T The Lost Pilot |N|A bit northwest, talk to the corpse (79.7, 36.2)|
 A A Pilot's Revenge
-C A Pilot's Revenge |N|(78.5,37.6)|
+C A Pilot's Revenge |N|(78.5, 37.6)|
 T A Pilot's Revenge
 
-T Shimmer Stout |N|Southwest through a tunnel (86.3,48.9)|
+T Shimmer Stout |N|Southwest through a tunnel (86.3, 48.9)|
 A Stout to Kadrell
 ]]
 end)
