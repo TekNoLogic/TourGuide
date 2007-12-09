@@ -126,43 +126,43 @@ A Sha'naar Relics
 A Missing Missive |O| |U|23338|
 T Missing Missive |N|Southwest at the Cenarion Post (15,52)| |O|
 
-C Cruel Taskmasters |N|South at The Ruins of Sha'naar.  Focus on the taskmasters, the adds won't attack after you kill them.|
-C Sha'naar Relics
-
-A Naladu |N|From Akoru the Firecaller near (15.6, 58.7)|
-T Naladu |N|(16.2, 65.0)|
+A Naladu ||N|South at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.|
+T Naladu |N|Up the stairs, in a hut to the southeast (16.2, 65.0).  Watch out for the elite.|
 A A Traitor Among Us
-C A Traitor Among Us |N|Get the key in the hut to the TODO (14.3, 63.4).  Make sure the elite isn't there!|
+C A Traitor Among Us |N|Get the key in the hut back at the top of the stairs (14.3, 63.4).|
 T A Traitor Among Us
 A The Dreghood Elders
-C The Dreghood Elders |N|Free the elders, Morod (13,60) and Aylaan (13,58) to the west, Akoru (15,58) to the east.|
+C The Dreghood Elders |N|Free the elders, Morod (13.12, 61.02) and Aylaan (13.00, 58.43) to the west, Akoru (15.58, 58.74) to the east.|
 T The Dreghood Elders
 A Arzeth's Demise
-C Arzeth's Demise |U|26513| |N|Use the staff on Arzeth and kill him.|
+C Arzeth's Demise |U|29513| |N|Use the staff on Arzeth and kill him.|
 T Arzeth's Demise
 
-T The Longbeards |N|To the southeast (23,72)|
+C Cruel Taskmasters
+C Sha'naar Relics
+
+T The Longbeards |N|To the southeast between the ravagers and the arakkoa (23,72)|
 A The Arakkoa Threat
 A Rampaging Ravagers
 A Gaining Mirren's Trust
 T Gaining Mirren's Trust
 A The Finest Down
 
-C Rampaging Ravagers |N|To the northwest at TODO|
+C Rampaging Ravagers |N|To the northwest, you only need the green ones.|
 T Rampaging Ravagers
 
-C The Finest Down |N|To the southeast of the Longbeards.  Loot the nests, kill the hatchling.|
-C The Arakkoa Threat
-K Avruu |L|23580| |N|To the southeast (25,76)|
+K Avruu |L|23580| |N|To the southeast of the Longbeards (25,76)|
 A Avruu's Orb |U|23580|
-C Avruu's Orb |N|Talk to the alter to the TODO (29,81).|
+C Avruu's Orb |N|Talk to the orb to the south (29,81).|
 T Avruu's Orb
+C The Finest Down |N|Loot the nests, kill the hatchling.|
+C The Arakkoa Threat
 
 T The Finest Down |N|Back at the Longbeards' Camp|
 T The Arakkoa Threat
 
-C Deadly Predators |N|East of Haal'eshi valley (34,62).  Work your way thru the cave.|
-C Ravager Egg Roundup |N|Southwest of the cave exit along the Razorthorn Trail (39,86)|
+C Deadly Predators |N|To the northeast in the Great Fissure|
+C Ravager Egg Roundup |N|Southwest along the Razorthorn Trail (39,86)|
 
 T Ravager Egg Roundup |N|Back at the crashed zeppelin (49,74)|
 A Helboar, the Other White Meat
@@ -197,7 +197,7 @@ F Honor Hold
 T Looking to the Leadership |N|At the tower to the west|
 
 C An Ambitious Plan |N|Go down to the Warp Fields (50,83), attack an uncontrolled voidwalker, use the crystal on it when it's ~25% HP| |U|23417|
-C Cursed Talismans |N|Kill orcs at Zeth’Gor (64,74)|
+C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)|
 
 T Cursed Talismans |N|At Expedition Point (70,63)|
 A Warlord of the Bleeding Hollow
