@@ -2,11 +2,9 @@
 TourGuide:RegisterGuide("Terokkar Forest (64-65 Aldor)", nil, "Alliance", function()
 return [[
 A A'dal |N|You're looking for a Haggard War Veteran, he should be fairly easy to find.|
-f Get the flightpoint |N|On the northwest side of the main ring.|
-
 T A'dal
 A City of Light
-A Rather Be Fishin' |N|You can accept this and the next while doing the walk-around for City of Light. Seth is at the ruined infirmary (63.95, 15.50). Don't get the other quest unless you can solo (or find a group for) a 63 elite that's immune to fear and periodically stuns you.| |Z|Shattrath City|
+A Rather Be Fishin' |N|You can accept this and the next while doing the walk-around for City of Light. Seth is at the ruined infirmary (63.95, 15.50).| |Z|Shattrath City|
 A The Eyes of Skettis |Z|Shattrath City| |N|Rilak is in Lower City, just before the guardian turns to take you back up to the main ring (52.56, 20.98)|
 T City of Light
 A Allegiance to the Aldor
@@ -35,10 +33,10 @@ A Wind Trader Lathrai
 
 N Rep tokens... |N|Save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
 
-N Western Altar |N|Use the Blessed Vial at the Western Altar (48.11, 14.52).| |Q|Restoring the Light| |QO|Western Altar: 1/1| |U|TODO|
-N Northern Altar |N|Use the Blessed Vial at the Northern Altar (50.66, 16.55).| |Q|Restoring the Light| |QO|Northern Altar: 1/1| |U|TODO|
+N Western Altar |N|Use the Blessed Vial at the Western Altar (48.11, 14.52).| |Q|Restoring the Light| |QO|Western Altar: 1/1| |U|25817|
+N Northern Altar |N|Use the Blessed Vial at the Northern Altar (50.66, 16.55).| |Q|Restoring the Light| |QO|Northern Altar: 1/1| |U|25817|
 N Eye of Veil Reskk |N|Get the Eye of Veil Reskk from the tree hut near the north altar (49.90, 16.52).| |Q|The Eyes of Skettis| |QO|Eye of Veil Reskk: 1/1|
-N Eastern Altar |N|Use the Blessed Vial at the Eastern Altar (49.25, 20.32).| |Q|Restoring the Light| |QO|Eastern Altar: 1/1| |U|TODO|
+N Eastern Altar |N|Use the Blessed Vial at the Eastern Altar (49.25, 20.32).| |Q|Restoring the Light| |QO|Eastern Altar: 1/1| |U|25817|
 N Eye of Veil Shienor |N|Get the Eye of Veil Shienor from the tree hut in Veil Shienor (57.90, 23.12).| |Q|The Eyes of Skettis| |QO|Eye of Veil Shienor: 1/1|
 
 H Aldor Rise

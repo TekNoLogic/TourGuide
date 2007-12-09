@@ -6,7 +6,7 @@ A Windroc Mastery (Part 1)
 A Clefthoof Mastery (Part 1)
 A Talbuk Mastery (Part 1)
 
-N Powder, Tusks and Wind... |N|If you're not already friendly with Consortium from Mana Tombs, you can collect Elekk tusks for rep and xp. Keep any Oshu'gun Crystal Powder you find for rewards later. Also, kill any air elementals you come across until a Howling Wind drops.|
+N Rep tokens... |N|If you're not already friendly with Consortium you can collect Elekk tusks and Oshu'gun Crystal Fragments for rep, and xp for the first turnin. Keep any Oshu'gun Crystal Powder you find for rewards later.  Obsidian Warbeads from the ogres in the zone can be turned it for Kurenai or Consortium rep.|
 
 C Windroc Mastery (Part 1) |N|There's a camp of these southwest of Nesingwary, as well as northwest.|
 C Talbuk Mastery (Part 1) |N|Just north of Nesingwary.|
@@ -20,6 +20,7 @@ A Windroc Mastery (Part 2)
 A Clefthoof Mastery (Part 2)
 A Talbuk Mastery (Part 2)
 
+A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest|
 T The Howling Wind
 A Murkblood Corruptors
 A The Underneath
@@ -33,13 +34,10 @@ C A Rare Bean
 C Clefthoof Mastery (Part 2) |N|West again, south of the Laughing Skull Ruins.|
 C Muck Diving |N|Southwest, the water around Halaa.|
 
-N Oshu'gun Crystal Powder |N|If Halaa is under Alliance control, you can turn in your powder for tokens. Easiest item to get is an 18-slot bag, needs 160 powder.|
-
 C Murkblood Corruptors |N|At Sunspring Post (31,43).|
 
 A Matters of Security |N|At the Consortium Outpost, straight south of Sunspring (31,57).|
 A Stealing from Thieves
-N Ivory |N|If you're not already friendly with the Consortium, you can turn in your ivory now.|
 
 C Matters of Security
 C Stealing from Thieves
@@ -62,7 +60,6 @@ A The Throne of the Elements
 A Stopping the Spread
 A Solving the Problem
 h Telaar
-f Telaar
 
 A I Must Have Them! |N|Kill any air elementals you happen across, but don't go hunting them just yet. Wazat is just east of Telaar (61,67).|
 
@@ -76,17 +73,13 @@ T Wanted: Giselda the Crone
 T Do My Eyes Decieve Me
 A Not On My Watch!
 
-C Windroc Mastery (Part 2) |N|NW of Telaar (47,63).|
+C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63).|
 
 T Gava'xi
 
-C Solving the Problem |N|Back to Sunspring Post (31,43). Also torch any corpses you come across.|
-C Stopping the Spread
-
+C Stopping the Spread |N|Back to Sunspring Post (31,43). Torch corpses you come across.| |U|24560|
+C Solving the Problem
 C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31).|
-
-N The Ring of Blood |N|If you can find a good group, the Ring of Blood is easy money.|
-
 C Wanted: Zorbo the Advisor |N|At the Laughing Skull Ruins (43,21)|
 
 T Murkblood Corruptors
@@ -96,7 +89,6 @@ A Agitated Spirits of Skysong
 T Muck Diving
 T The Tortured Earth
 A Eating Damnation
-
 
 C Eating Damnation |N|To the west of the throne, on the edge of the mountains.|
 C Agitated Spirits of Skysong |N|Skysong Lake. Duh?|
@@ -109,8 +101,6 @@ A Blessing of Incineratus
 T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
-
-N Big Game Hunting... |N|If you have a group, feel free to accept and do the follow-up quests. They are not soloable.|
 
 C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.|
 
@@ -125,9 +115,8 @@ T Stopping the Spread
 T Wanted: Zorbo the Advisor
 T Fierce Enemies
 T The Ravaged Caravan
-
 T I Must Have Them!
-N Egging yourself on ...|N|If you're a) brave b) stupid(ly skillful, of course) c) over-level or d) have a group, you can take the followup. You have to fight a 66 elite though.|
+
 C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71).|
 
 T Not On My Watch!
@@ -151,7 +140,6 @@ T Corki's Gone Missing Again!
 A Corki's Ransom
 T The Twin Clefts of Nagrand
 A Diplomatic Measures
-
 T Diplomatic Measures
 A Armaments for Deception
 A Ruthless Cunning
@@ -163,7 +151,6 @@ T Ruthless Cunning
 T Armaments for Deception
 A Returning the Favor
 A Body of Evidence
-
 T The Spirit Polluted
 T Shattering the Veil
 
@@ -171,13 +158,10 @@ C Returning the Favor
 C Body of Evidence
 
 H Telaar
-
 T Returning the Favor
 T Body of Evidence
 A Message to Telaar
-
 T Message to Telaar
-
 ]]
 
 end)
