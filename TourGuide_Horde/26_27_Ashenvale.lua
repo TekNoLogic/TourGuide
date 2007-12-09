@@ -22,7 +22,7 @@ H Splintertree Post
 T Stonetalon Standstill
 A The Befouled Element |U|16408| |O|
 T The Befouled Element |O|
-A Je'neu of the Earthern Ring
+A Je'neu of the Earthen Ring
 T Torek's Assault
 A Sharptalon's Claw |U|16305| |O|
 A Ursangous's Paw |U|16305| |O|
