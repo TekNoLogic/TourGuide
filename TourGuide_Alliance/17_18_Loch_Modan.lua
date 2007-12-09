@@ -1,5 +1,8 @@
 TourGuide:RegisterGuide("Loch Modan (17-18)", "Redridge Mountains (18-20)", "Alliance", function()
 return [[
+R Loch Modan |N|Boat to Menethil Harbor, grab the flight point there, then run thru Wetlands to Loch.|
+R Algaz Station |N|In Loch Modan. Watch out the big bad highlevel mobs on the way. Good luck!|
+
 A Filthy Paws |N|Upstairs, inside the tower|
 A Stormpike's Order
 C Filthy Paws |N|In the mine west of the tower|

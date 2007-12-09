@@ -37,7 +37,7 @@ T Washed Ashore (Part 2)
 T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head northwest above the cove. Buzzbox is on the beach north of the cove (41.96, 28.62)|
 A Buzzbox 323
 
-N Beached Creatures... |L|12242| |N|You will see many Beached Sea Creatures and Beached Sea Turtles on the beach while doing Darkshore! Gather them all if possible!  The first is South of the Buzzbox 411 at the cove.  Don't forget to turn these in whenever you're in Auberdine.|
+N Beached Creatures... |L|12242| |N|You will see many Beached Sea Creatures and Beached Sea Turtles on the beach while doing Darkshore! Gather them all if possible!  The first is south of the Buzzbox 411 at the cove.  Don't forget to turn these in whenever you're in Auberdine.|
 
 T Bashal'Aran (Part 1) |N|Grind your way south to Bashal'Aran (44.18, 36.30)|
 A Bashal'Aran (Part 2)
@@ -112,24 +112,20 @@ T How Big a Threat? (Part 2)
 N Fill the [Empty Cleansing Bowl] in the Moonwell |U|12346| |L|12347|
 
 C The Blackwood Corrupted |N|Blackwood camps are east of Bashal'Aran. Gather grain (50.65, 34.99), nuts (51.83, 33.56) and fruit (52.87, 33.38). Use the cleansing bowl near the bonfire. Kill Xabraxxis when he spawns.| |U|12347|
-C Tharnariun's Hope |N|To east between the two camps, up the hill is a cave. Kill the adds, run away and reset the Den Mother.  Return and kill her.|
-T The Tower of Althalaxx (Part 1) |N|Go north, over the river until you are at the road to ruins. the NPC is next to two rocks|
+C Tharnariun's Hope |N|To south between the two camps, up the hill is a cave (51.55, 37.50). Kill the adds, run away and reset the Den Mother.  Return and kill her.|
+T The Tower of Althalaxx (Part 1) |N|Go north, over the river until you are at the road to ruins. the NPC is next to two rocks (55.00, 24.89).|
 A The Tower of Althalaxx (Part 2)
 C The Tower of Althalaxx (Part 2) |N|Mobs around the tower, not inside|
 T The Tower of Althalaxx (Part 2)
 A The Tower of Althalaxx (Part 3)
-N Beached Sea Creature |N|(53,18)| |L|12242|
-C Fruit of the Sea
+N Beached Sea Turtle |N|To the northwest on the shore (53.15, 18.13)| |L|12289|
+C Fruit of the Sea |N|Kill Encrusted Tide Crawlers between here and the river to the west, or Reef Crawlers west of the river.  DOES NOT DROP from Raging Reef Crawler to the north.|
 
 H Auberdine
-T Beached Sea Creature@3@
+T Beached Sea Turtle@2@
 T Fruit of the Sea
 T The Blackwood Corrupted
 T Tharnariun's Hope
-
-b Menethil Harbor
-f Grab flight point
-R Algaz Station |N|In Loch Modan. Watch out the big bad highlevel mobs on the way. Good luck!|
 
 ]]
 
