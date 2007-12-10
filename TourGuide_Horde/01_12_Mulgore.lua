@@ -19,13 +19,13 @@ T Rune-Inscribed Note |C|Shaman|
 T Verdant Note |C|Druid|
 t Train (Level 2)
 
-T A Humble Task (Part 1) |N|Down at the well|
+T A Humble Task (Part 1) |N|Southeast at the well (50,81)|
 A A Humble Task (Part 2)
 C A Humble Task (Part 2)
 T A Humble Task (Part 2)
 A Rites of the Earthmother (Part 1)
 C The Hunt Continues
-T Rites of the Earthmother (Part 1)
+T Rites of the Earthmother (Part 1) |N|South of Camp Narache (42.59, 92.13)|
 A Rite of Strength
 T The Hunt Continues |N|Back at camp|
 A The Battleboars
@@ -96,13 +96,14 @@ C Thunderhorn Cleansing |U|5415|
 T Thunderhorn Cleansing
 A Wildmane Totem
 
-A The Ravaged Caravan |N|To the east|
-C The Ravaged Caravan |N|To the north|
-T The Ravaged Caravan
+A The Ravaged Caravan (Part 1) |N|To the east|
+T The Ravaged Caravan (Part 1) |N|To the north|
+A The Ravaged Caravan (Part 2)
+T The Ravaged Caravan (Part 2) |N|Back down on the road|
 A The Venture Co.
 A Supervisor Fizsprocket
 
-C Dangers of the Windfury |N|To the east, near the zone border.|
+C Dangers of the Windfury |N|To the east, south of the road (64,70).|
 C Wildmane Totem
 
 T Wildmane Totem |N|Back at Bloodhoof Village|
@@ -122,11 +123,25 @@ T Taming the Beast (Part 3) |C|Hunter|
 N Tame a Prarie Wolf Alpha |C|Hunter| |N|For Bite (Rank 2).  Keep it for your main pet unless you find The Rake.|
 A Training the Beast |C|Hunter|
 
+A Heeding the Call |C|Druid|
+
 A The Hunter's Way
 
 R Thunder Bluff
 A Preparation for Ceremony
 T Training the Beast |C|Hunter| |N|Over on Hunter Rise (to the south)|
+
+T Heeding the Call |C|Druid|
+A Moonglade |C|Druid|
+T Moonglade |C|Druid| |N|Teleport you twit!|
+A Great Bear Spirit |C|Druid|
+C Great Bear Spirit |C|Druid| |N|To the west (39.15, 27.78)| |Z|Moonglade|
+T Great Bear Spirit |C|Druid|
+A Back to Thunder Bluff |C|Druid|
+T Back to Thunder Bluff |C|Druid|
+A Body and Heart |C|Druid|
+C Body and Heart |C|Druid| |N|On the edge of the Barrens, just as you leave Mulgore, south of the road behind the hut (42.00, 60.89).  Use the dust, kill the boomkin, talk to him.| |U|15710|
+T Body and Heart |C|Druid| |N|Run east to Camp Taurajo and fly to Bluff|
 
 C Wildmane Cleansing |N|North of Bluff| |U|5416|
 C The Hunter's Way
@@ -147,7 +162,7 @@ T Rites of the Earthmother (Part 3)
 A The Barrens Oases |N|From the Archdruid|
 
 H Bloodhoof Village
-A The Demon Scarred Cloak |O| |U|4854
+A The Demon Scarred Cloak |O| |U|4854|
 T The Demon Scarred Cloak |O|
 T Dangers of the Windfury
 T Wildmane Cleansing
@@ -156,29 +171,6 @@ C Supervisor Fizsprocket |N|In the cave|
 C The Venture Co.
 T The Venture Co.
 T Supervisor Fizsprocket
-
-R The Barrens
-R Camp Taurajo |N|Stay on the road|
-A Journey to the Crossroads
-f Grab flight point
-
-R The Crossroads |N|Take the road north|
-T The Barrens Oases
-T Journey to the Crossroads
-T Sergra Darkthornz
-
-A A Bundle of Hides
-T A Bundle of Hides
-A Ride to Thunder Bluff
-F Thunder Bluff
-T Ride to Thunder Bluff
-A Tal the Wind Rider Master
-T Tal the Wind Rider Master
-A Return to Jahan
-F The Crossroads
-T Return to Jahan
-
-t Bows |C|Hunter| |N|Run all the way to Orgrimmar and get this from the weapon trainer.  Fly back to Crossroads|
 ]]
 
 end)

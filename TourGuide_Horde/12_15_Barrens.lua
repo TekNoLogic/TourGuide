@@ -1,7 +1,32 @@
 TourGuide:RegisterGuide("The Barrens (12-20)", "Stonetalon Mountains (15-16)", "Horde", function()
     return [[
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens|
-A Crossroads Conscription
+R The Barrens
+R Camp Taurajo |N|Stay on the road| |R|Tauren|
+A Journey to the Crossroads |R|Tauren|
+f Grab flight point |R|Tauren|
+
+R The Crossroads |N|Take the road north| |R|Tauren|
+T The Barrens Oases |R|Tauren|
+T Journey to the Crossroads |R|Tauren|
+T Sergra Darkthornz |R|Tauren|
+
+A A Bundle of Hides |R|Tauren|
+T A Bundle of Hides |R|Tauren|
+A Ride to Thunder Bluff |R|Tauren|
+F Thunder Bluff |R|Tauren|
+T Ride to Thunder Bluff |R|Tauren|
+A Tal the Wind Rider Master |R|Tauren|
+T Tal the Wind Rider Master |R|Tauren|
+A Return to Jahan |R|Tauren|
+F The Crossroads |R|Tauren|
+T Return to Jahan |R|Tauren|
+
+t Bows |C|Hunter| |R|Tauren| |N|Run all the way to Orgrimmar and get this from the weapon trainer.  Fly back to Crossroads|
+
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc|
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll|
+A Crossroads Conscription |R|Orc|
+A Crossroads Conscription |R|Troll|
 T Ak'Zeloth |N|Skip "The Demon Seed"|
 
 N Tame a Savannah Huntress while running to the Crossroads |C|Hunter|
