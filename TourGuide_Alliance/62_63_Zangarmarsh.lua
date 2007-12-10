@@ -1,15 +1,15 @@
 
 TourGuide:RegisterGuide("Zangarmarsh (62-63)", nil, "Alliance", function()
 return [[
-A The Cenarion Expedition |Z|Hellfire Peninsula| |N|From Amythiel Mistwalker (16,52) in Hellfire, the small Cenarion outpost just south of the main path west.|
-
 R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!|
 A The Umbrafen Tribe
 A Plants of Zangarmarsh
-A A Warm Welcome |N|From Warden Hamoot on top of the tower.|
 A The Dying Balance |N|Inside the inn.|
 T The Cenarion Expedition |N| Back of the inn.|
 A Disturbance at Umbrafen Lake
+A Warden Hamoot
+T Warden Hamoot |N|On top of the tower.|
+A A Warm Welcome
 
 N Rep items... |N|Keep any Fertile Spores and Unidentified Plant Parts you find.  Turn the plant parts in to the night elf in the Refuge every chance you get, they only last till honored.  If you get any Uncatalogued Species you should hold on to them until after you reach honored.|
 C The Dying Balance |N|Boglash patrols south-west of Cenarion Refuge (82,72).|
@@ -23,7 +23,6 @@ A Safeguarding the Watchers |N|Right behind you|
 T The Dying Balance |N|Inside the inn|
 T Escape from Umbrafen
 
-C A Warm Welcome |N|The naga around the east side of the Lagoon (64,64) have claws, unlike most of the other naga in Zangarmarsh.|
 C Disturbance at Umbrafen Lake |N|Run by the pump on the southwest side of the lake (70,81).|
 C A Damp, Dark Place |N|Funggor Cavern is south of Umbrafen Lake (74,91).  Ikeyen's belongings are on a rock at the back of the cave (70.6, 97.9).|
 C Safeguarding the Watchers |N|At the bottom of the cave. It's labeled a group quest, but Klaq is soloable if you clear the adds first.|
@@ -193,3 +192,6 @@ T Messenger to the Feralfen
 ]]
 
 end)
+-- Needs a better place, grinding blow and we kill plenty of naga in this zone...
+-- C A Warm Welcome |N|The naga around the east side of the Lagoon (64,64) have claws, unlike most of the other naga in Zangarmarsh.|
+
