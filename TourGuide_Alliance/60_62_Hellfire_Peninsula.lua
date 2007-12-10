@@ -1,6 +1,6 @@
 
 
-TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", "Zangarmarsh (62-63)", "Alliance", function()
 return [[
 F Nethergarde Keep
 B [Nethergarde Bitter] |N|From Bernie Heisten (63,16)| |L|23848| |Z|Blasted Lands|
@@ -86,6 +86,7 @@ C Ill Omens |N|Kill orcs to the southeast at Zeth'gor (67,75)|
 
 T Ill Omens |N|Back at Expedition Point (70.97, 63.36)|
 A Cursed Talismans
+A Zeth'Gor Must Burn!
 
 C The Path of Glory |N|Along the road between Hellfire Citadel and the Dark Portal|
 C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58.77, 46.80) (56.02, 46.67) (53.48, 47.14) (53.00, 47.11)| |U|26002|
@@ -151,7 +152,7 @@ A The Finest Down
 C Rampaging Ravagers |N|To the northwest, you only need the green ones.|
 T Rampaging Ravagers
 
-K Avruu |L|23580| |N|To the southeast of the Longbeards (25,76)|
+K Avruu |L|23580| |N|To the southeast of the Longbeards (25,76).  He patrols around the ledge above the middle of the valley|
 A Avruu's Orb |U|23580|
 C Avruu's Orb |N|Talk to the orb to the south (29,81).|
 T Avruu's Orb
@@ -161,63 +162,87 @@ C The Arakkoa Threat
 T The Finest Down |N|Back at the Longbeards' Camp|
 T The Arakkoa Threat
 
-C Deadly Predators |N|To the northeast in the Great Fissure|
+C Deadly Predators |N|To the southeast in the Great Fissure|
 C Ravager Egg Roundup |N|Southwest along the Razorthorn Trail (39,86)|
 
 T Ravager Egg Roundup |N|Back at the crashed zeppelin (49,74)|
 A Helboar, the Other White Meat
 
-C Helboar, the Other White Meat |N|Kill boars to the east between the zeppelin and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268|
+C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Commander Thalvos (54.78, 83.68) in the Expedition Armory|
+C Helboar, the Other White Meat |N|Kill boars to the east between the armory and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268|
+
+N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1|
+N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1|
+N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Markd: 1/1| |N|On the hill above the forge (70,71)|
+
+C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)|
 C In Case of Emergency...
 
-T In Case of Emergency... |N|Back at the crashed zeppelin|
-A Voidwalkers Gone Wild
-T Helboar, the Other White Meat |N|Skip the follow-up|
+T Cursed Talismans |N|At Expedition Point (70,63)|
+A Warlord of the Bleeding Hollow
 
-C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Commander Thalvos (54,83) in the Expedition Armory|
-C Voidwalkers Gone Wild |N|West of the armory|
-T Voidwalkers Gone Wild |N|Yet again, back at the zeppy|
+C Zeth'Gor Must Burn! |N|Northern Tower (68,67), Southern Tower (66,76), Forge Tower (70,69), Foothill Tower (70,71)| |U|31739|
+C Warlord of the Bleeding Hollow |N|In the big building in Zeth'Gor (69,76)|
+
+T Warlord of the Bleeding Hollow |N|Back at Expedition Point|
+A Return to Honor Hold
+T Zeth'Gor Must Burn!
 
 H Temple of Telhamat
 T Sha'naar Relics
 A The Seer's Relic
-A Helping the Cenarion Post
 A An Ambitious Plan
-
 T Deadly Predators |N|South of town|
 T Cruel Taskmasters
 
 C The Seer's Relic |N|Go back to Sedai's corpse and use the relic on it.  Sit back, grab some popcorn, and enjoy the show!| |U|23645|
-C Cleansing the Waters |N|Use the vial on Aggonar's corpse in the norther part of the Pools of Aggonar (40,31)|
+C Cleansing the Waters |N|Use the vial on Aggonar's corpse in the northern part of the Pools of Aggonar (40,31)| |U|23361|
 
 T The Seer's Relic |N|Back at the temple|
 T Cleansing the Waters
 
 F Honor Hold
+T Return to Honor Hold
+A Fel Spirits
+A Digging for Prayer Beads
+C Digging for Prayer Beads |N|Buy a Silken Thread From the tailor upstairs in the inn, a Maiden's Anguish from the reagent vendor in the tower, then a dog treat in the court yard.  Give it to the dog, follow it around...|
+T Digging for Prayer Beads
 T Looking to the Leadership |N|At the tower to the west|
 
-C An Ambitious Plan |N|Go down to the Warp Fields (50,83), attack an uncontrolled voidwalker, use the crystal on it when it's ~25% HP| |U|23417|
-C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)|
+T In Case of Emergency... |N|Back at the crashed zeppelin|
+A Voidwalkers Gone Wild
+T Helboar, the Other White Meat |N|Skip the follow-up|
 
-T Cursed Talismans |N|At Expedition Point (70,63)|
-A Warlord of the Bleeding Hollow
-C Warlord of the Bleeding Hollow |N|In the big building in Zeth'Gor (69,76)|
-T Warlord of the Bleeding Hollow |N|Back at Expedition Point|
+C An Ambitious Plan |N|Go down to the Warp Fields (50,83), attack an uncontrolled voidwalker, use the crystal on it when it's ~25% HP| |U|23417|
+C Voidwalkers Gone Wild |N|West of the armory|
+
+T Voidwalkers Gone Wild |N|Yet again, back at the zeppy|
+
+C Fel Spirits |N|West of the crashed zepplin at Gor'gaz Outpost (45,76).  Use the relic, kill orcs near it.| |U|31772|
+T Fel Spirits |N|Back up in the Honor Hold inn|
+A The Exorcism of Colonel Jules
+C The Exorcism of Colonel Jules |N|Help the priest out, this is a fun one!  You can use the beads to banish spirits.| |U|31828|
+T The Exorcism of Colonel Jules
 
 H Temple of Telhamat
 T An Ambitious Plan
+A Helping the Cenarion Post
 
-A The Cenarion Expedition |N|Down on at Cenarion Post (15,52)|
-A Keep Thornpoint Hill Clear!
+A The Cenarion Expedition |N|Down at Cenarion Post (15,52)|
+A Keep Thornfang Hill Clear!
 T Helping the Cenarion Post
 A Demonic Contamination
 C Demonic Contamination |N|Hulking Helboars to the east|
 A Testing the Antidote
 C Testing the Antidote |N|Use the antidote on a Helboar, then kill it| |U|23337|
 T Testing the Antidote
-C Keep Thornpoint Hill Clear! |N|West at Thornpoint Hill, naturally|
-T Keep Thornpoint Hill Clear!
+C Keep Thornfang Hill Clear! |N|West at Thornfang Hill, naturally|
+T Keep Thornfang Hill Clear!
+
+A Crimson Crystal Clue |U|29476| |O|
+T Crimson Crystal Clue |O|
+A The Earthbinder |O| |L|10349|
+T The Earthbinder |O|
 ]]
 end)
-
 
