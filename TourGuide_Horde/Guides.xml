@@ -3,6 +3,7 @@
 	<Script file="05_13_Eversong.lua"/>
 	<Script file="13_20_Ghostlands.lua"/>
 
+	<Script file="01_12_TirisfalGlades.lua"/>
 	<Script file="01_12_Mulgore.lua"/>
 	<Script file="01_12_Durotar.lua"/>
 	<Script file="12_15_Barrens.lua"/>
