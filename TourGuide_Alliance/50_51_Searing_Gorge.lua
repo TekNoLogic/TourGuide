@@ -70,7 +70,7 @@ T Dwarven Justice |N|Head down into the cauldren.  Enter the second cave from th
 A Release Them
 C JOB OPPORTUNITY: Culling the Competition |N|Keep working your way towards the exit|
 C Forging the Shaft
-C Incendosaurs? Whateverosaur is More Like It |N|Jump dow after the bridge over the lava, you'll find dino in the big room to the north (51,36) Grind here for a while if you want.|
+C Incendosaurs? Whateverosaur is More Like It |N|Jump down after the bridge over the lava, you'll find dino in the big room to the north (51,36) Grind here for a while if you want.|
 
 R Thorium Point |N|Or deathport|
 T Curse These Fat Fingers
@@ -98,7 +98,7 @@ A Squire Maltrake
 T Squire Maltrake
 A Set Them Ablaze!
 C Set Them Ablaze! |N|Light the brazier at each tower (33,53) (36,60) (44,61) (50,54)| |U|10515|
-T Release Them |N|Head back down to the Dying Archaeologist (41.2,25.7).  You can drop thru the hole if you want (35.15,43.18)Talk to the alter near him.  Don't accept teh followup unlessy ou have a group to help.|
+T Release Them |N|Head back down to the Dying Archaeologist (41.2,25.7).  You can drop through the hole if you want (35.15,43.18).  Talk to the alter near him.  Don't accept the followup unless you have a group to help.|
 
 R Thorium Point |N|Or deathport|
 T Set Them Ablaze!

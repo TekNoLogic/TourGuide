@@ -1,14 +1,13 @@
 
-TourGuide:RegisterGuide("Felwood (53-54)", "Un'goro Crater (54)", "Alliance", function()
+TourGuide:RegisterGuide("Felwood (53-54)", "Un'Goro Crater (54)", "Alliance", function()
 return [[
 F Astranaar
 h Astranaar
 
-R Felwood |N|Head east out of town.  At the fork near the retreat head north out of the zone (55,31)| |Z|Ashenzale|
+R Felwood |N|Head east out of town.  At the fork near the retreat head north out of the zone (55.75, 29.50)| |Z|Ashenvale|
 A Cleansing Felwood |N|On the north side of the road (54,86)|
 
 R Emerald Sanctuary |N|Just ahead, north of the road (51,81)|
-f Get flight point
 A Forces of Jaedenar
 A The Corruption of the Jadefire
 A Verifying the Corruption
@@ -16,7 +15,7 @@ A Verifying the Corruption
 A Timbermaw Ally |N|Down by the road (51,85)|
 C Timbermaw Ally |N|Just to the southwest|
 T Timbermaw Ally
-A Speak to Nafian
+A Speak to Nafien
 
 U Open your ooze containers |U|11912|
 K Kill Cursed Oozes |N| Follow the road north to the Ruins of Constellas (40,69).  Use the vials after you kill and loot.| |U|11914| |Q|A Little Slime Goes a Long Way| |QO|Filled Cursed Ooze Jar: 6/6|
@@ -28,7 +27,7 @@ T Forces of Jaedenar
 A Collection of the Corrupt Water
 T The Corruption of the Jadefire
 A Further Corruption
-C Collection of the Corrupt Water |N|Fill the vial at the corrupted moonwell in Jaedenar (51,82)| |U|12922|
+C Collection of the Corrupt Water |N|Fill the vial at the corrupted moonwell in Jaedenar (35.25, 59.75)| |U|12922|
 
 T Collection of the Corrupt Water
 A Seeking Spiritual Aid
@@ -41,8 +40,7 @@ C Flute of Xavaric
 C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)|
 
 R Talonbranch Glade |N|At the northeast edge of the zone, south of the road (62,24)|
-f Grab the flight point
-T Speak to Nafian |N|North, at the end of the road (64.8,8.2)|
+T Speak to Nafien |N|North, at the end of the road (64.8,8.2)|
 A Deadwood of the North
 C Deadwood of the North
 T Deadwood of the North
@@ -67,7 +65,7 @@ A Felbound Ancients
 T Verifying the Corruption
 T Cleansing Felwood |N|South along the road|
 
-F Feralas
+F Feathermoon Stronghold |N|Feralas|
 A Jonespyre's Request
 T Jonespyre's Request
 A The Mystery of Morrowgrain

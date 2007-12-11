@@ -4,8 +4,6 @@ return [[
 A Cenarion Aid
 
 F Azshara |N|Fly to Forest Song or Astranaar and run east if you don't have the FP|
-
-f Grab the flight point |N|(11,77)|
 A Spiritual Unrest
 A A Land Filled with Hatred
 
@@ -38,18 +36,18 @@ T Wavethrashing |C|Hunter| |N|Skip the next part if you don't plan on doing Sunk
 
 C Of Coursers We Know |C|Priest|
 T Of Coursers We Know |C|Priest| |N|(42.38, 42.69)|
-A The Ichor of Undeath
-T The Ichor of Undeath |N|Skip the next part if you don't plan on doing Sunken Temple|
+A The Ichor of Undeath |C|Priest|
+T The Ichor of Undeath |C|Priest| |N|Skip the next part if you don't plan on doing Sunken Temple|
 
 C Kim'jael's "Missing" Equipment |N|Kill naga in the ruins (37,52)|
 C Arcane Runes |N|Get Sael'hai Rubbing (42.32, 64.22)|
 T Arcane Runes |N|Use your flare gun at the helipad in the far southeastern edge of the zone (77.85, 91.38)|
 A Return to Tymor
 
-T Kim'jael's "Missing" Equipment |N|Back up north
+T Kim'jael's "Missing" Equipment |N|Back up north|
 
 H Darnassus
-T Morrowgrain Research (Part 2) |N|Save 10 soil for later|
+T Morrowgrain Research (Part 2) |N|Save 10 soil and 15 Morrowgrain for later|
 ]]
 
 end)
