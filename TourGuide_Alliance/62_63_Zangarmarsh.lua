@@ -33,7 +33,6 @@ A As the Crow Flies
 C As the Crow Flies |N|Use the amulet.| |U|25465|
 T As the Crow Flies
 A Balance Must Be Preserved
-T A Warm Welcome |N|To Warden Hamoot on top of the tower.|
 T Safeguarding the Watchers |N|Over the river near the moonwell.|
 T A Damp, Dark Place
 T Saving the Sporeloks
@@ -41,12 +40,11 @@ A Blessings of the Ancients |N|You should be friendly with the Cenarion Expediti
 C Blessings of the Ancients
 T Blessings of the Ancients
 
-N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled|
-N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled|
+N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
+N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
 R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
 A The Dead Mire
 A The Fate of Tuurem
-f Grab flight point |N|Upstairs to your left as you run in. Don't fall over the edge.|
 A The Boha'mu Ruins
 A The Orebor Haborage
 A Unfinished Business
@@ -86,7 +84,7 @@ T Too Many Mouths to Feed
 A Diaphanous Wings
 
 N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
-N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled|
+N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).|
 C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (45,68).|
 
@@ -116,13 +114,11 @@ A A Question of Gluttony
 C A Question of Gluttony |N|East of the watchpost, look for green glowing things on the ground.|
 T A Question of Gluttony
 A Familiar Fungi
-N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled|
+N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
 C Now That We're Friends... |N|These naga are all around the west side of Marshlight Lake.|
 T Now That We're Friends...
 
 R Orebor Harborage |N|Northwest of Serpent Lake.|
-f Grab the flight point
-
 A Secrets of the Daggerfen
 T The Orebor Harborage
 A Ango'Rosh Encroachment
@@ -194,4 +190,5 @@ T Messenger to the Feralfen
 end)
 -- Needs a better place, grinding blow and we kill plenty of naga in this zone...
 -- C A Warm Welcome |N|The naga around the east side of the Lagoon (64,64) have claws, unlike most of the other naga in Zangarmarsh.|
+-- T A Warm Welcome |N|To Warden Hamoot on top of the tower.|
 
