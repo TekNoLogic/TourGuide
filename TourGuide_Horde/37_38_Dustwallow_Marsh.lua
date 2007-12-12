@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Dustwallow March (37-38)", nil, "Horde", function()
+TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", nil, "Horde", function()
 return [[
 F Dustwallow Marsh
 A Theramore Spies
