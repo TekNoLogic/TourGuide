@@ -45,8 +45,8 @@ N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63
 R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
 A The Dead Mire
 A The Fate of Tuurem
+A The Orebor Harborage
 A The Boha'mu Ruins
-A The Orebor Haborage
 A Unfinished Business
 A Fulgor Spores
 A Menacing Marshfangs
@@ -67,7 +67,7 @@ A An Unnatural Drought
 T Menacing Marshfangs
 
 A Umbrafen Eel Filets
-C Too Many Mouths to Feed |N|Mire Hydras are all around the edge of Umbrafen Lake. Kill any Eels you see too.|
+C Too Many Mouths to Feed |N|Mire Hydras are all around the edge of Umbrafen Lake. Kill any Eels you see too. Don't forget to use your water breathing potion!| |U|25539|
 C Umbrafen Eel Filets |N|Umbrafen Lake has eels? Who'da thunk it?|
 
 A What's Wrong at Cenarion Thicket? |N|From Lethyn Moonfire in Cenarion Refuge.|
