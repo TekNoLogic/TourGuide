@@ -68,7 +68,7 @@ T Menacing Marshfangs
 
 A Umbrafen Eel Filets
 C Too Many Mouths to Feed |N|Mire Hydras are all around the edge of Umbrafen Lake. Kill any Eels you see too. Don't forget to use your water breathing potion!| |U|25539|
-C Umbrafen Eel Filets |N|Umbrafen Lake has eels? Who'da thunk it?|
+C Umbrafen Eel Filets |N|Umbrafen Lake has eels? Who'da thunk it?  Droprate kinda blows on these, you might want to just drop this quest.|
 
 A What's Wrong at Cenarion Thicket? |N|From Lethyn Moonfire in Cenarion Refuge.|
 A Watcher Leesa'oh
