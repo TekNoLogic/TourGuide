@@ -42,6 +42,7 @@ T Blessings of the Ancients
 
 N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
 N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
+
 R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
 A The Dead Mire
 A The Fate of Tuurem
@@ -86,32 +87,34 @@ A Diaphanous Wings
 N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
 N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).|
-C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (45,68).|
+C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (45,68).  Just run in and out, don't hang around with the elite.|
 
 K "Count" Ungula |N|To the west, typically found south of Zabra'Jin (33,59).| |L|25459|
 A The Count of the Marshes |U|25459|
 T Watcher Leesa'oh |N|The Cenarion Watchpost is on the road south toward Nagrand. (23,66)|
-T The Count of the Marshes
 A Observing the Sporelings
+T The Count of the Marshes
 
-A The Sporeling's Plight |N|From Fahssn, west of the watchpost (19,64).|
+A The Sporelings' Plight |N|From Fahssn, west of the watchpost (19,64).|
 A Natural Enemies
-T Natural Enemies
 C Observing the Sporelings |N|You need to go a bit deeper into the Spawning Glen for this (13,62).|
-C The Sporeling's Plight |N|All over the Spwaning Glen.|
-T The Sporeling's Plight
+C The Sporelings' Plight |N|All over the Spwaning Glen.|
+C Natural Enemies
+T The Sporelings' Plight
+T Natural Enemies
 A Sporeggar
 T Sporeggar |N|Just north-east of the Spawning Glen (19,51)|
 A Glowcap Mushrooms
+C Glowcap Mushrooms
 T Glowcap Mushrooms
 A Fertile Spores
-T Fortile Spores
+T Fertile Spores |N|If you don't have the spores for this don't worry.  Just mark it off and turn them in any time you have enough, this is a repeatable.|
 N Friendly - Sporeggar |N|Complete every repeatable you can until you're friendly.  You can turn in Glowcaps, Bog Lord Tendrils and Mature Spore sacs.  All these repeats end once you're friendly, so use them while you can!|
 A Now That We're Friends...
 
 T Observing the Sporelings |N|At the watchpost.|
 A A Question of Gluttony
-C A Question of Gluttony |N|East of the watchpost, look for green glowing things on the ground.|
+C A Question of Gluttony |N|East of the watchpost, look for green glowing things on the ground.  Be wary of the giants that wander in from the west, they'll get you good!|
 T A Question of Gluttony
 A Familiar Fungi
 N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
@@ -160,7 +163,6 @@ T Lines of Communication
 T The Terror of Marshlight Lake
 C Maktu's Revenge |N|Mragesh is on the westernmost island in Serpent Lake. (41,41)|
 T Stealing Back the Mushrooms |N|Getting tired of running to the watchpost yet?|
-N Underbog |N|If you're planning to do Underbog, now would be a good time to grab the three quests in Sporeggar.|
 T Maktu's Revenge
 
 F Telredor
@@ -173,7 +175,7 @@ C Idols of the Feralfen |N|On the ground at Feralfen Village (46,60).|
 
 T Balance Must Be Preserved |N|Back at Cenarion Refuge|
 A Drain Schematics |U|24330| |N|You should have gotten an item from the naga.| |O|
-N The drain chain... |N|This is an optional chain, but you have the item so you should do it.  You just have to run out to the Cenarion outpost in Hellfire and back.  Free EXP and a little jogging for your chubby ass.  The follow-up will send you into Coilfang instances.|
+N The drain chain... |N|This is an optional chain, but you have the item so you should do it.  You just have to run out to the Cenarion outpost in Hellfire and back.  Free EXP and a little jogging for your chubby ass.  The follow-up will send you into Coilfang instances.| |L|24330| |O|
 T Drain Schematics |O|
 C Withered Flesh |N|In the Dead Mire, north of the Refuge|
 
