@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Durotar (1-12)", "The Barrens (12-20)", "Horde", function()
+TourGuide:RegisterGuide("Durotar (1-12)", "The Barrens (12-15)", "Horde", function()
     return [[
 A Your Place in the World
 T Your Place in the World
@@ -134,9 +134,9 @@ A Burning Shadows |U|4903| |O|
 T Hidden Enemies (Part 2) |N|And back to Thrall! Don't accept Part 3.|
 
 H Razor Hill
-t First Aid
-t Spells
-A Conscript of the Horde |N|Just outside the western entrance of Razor Hill (50.9,43.6)|
-R The Barrens]]
+t Train (First Aid)
+t Train (Level 12)
+A Conscript of the Horde |N|Just outside the western entrance of Razor Hill (50.9, 43.6)|
+]]
 end)
 

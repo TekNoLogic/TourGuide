@@ -1,6 +1,12 @@
-TourGuide:RegisterGuide("The Barrens (12-20)", "Stonetalon Mountains (15-16)", "Horde", function()
-    return [[
+
+TourGuide:RegisterGuide("The Barrens (12-15)", "Stonetalon Mountains (15-16)", "Horde", function()
+return [[
+N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity and port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
+R Razor Hill |R|Undead|
+A Conscript of the Horde |R|Undead|
+
 R The Barrens
+
 R Camp Taurajo |N|Stay on the road| |R|Tauren|
 A Journey to the Crossroads |R|Tauren|
 f Grab flight point |R|Tauren|
@@ -25,13 +31,18 @@ t Bows |C|Hunter| |R|Tauren| |N|Run all the way to Orgrimmar and get this from t
 
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc|
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll|
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Undead|
 A Crossroads Conscription |R|Orc|
 A Crossroads Conscription |R|Troll|
-T Ak'Zeloth |N|Skip "The Demon Seed"|
+A Crossroads Conscription |R|Undead|
+T Ak'Zeloth |N|Skip the follow-up| |R|Orc|
+T Ak'Zeloth |N|Skip the follow-up| |R|Troll|
 
 N Tame a Savannah Huntress while running to the Crossroads |C|Hunter|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)|
-T Crossroads Conscription
+T Crossroads Conscription |R|Orc|
+T Crossroads Conscription |R|Troll|
+T Crossroads Conscription |R|Undead|
 A Plainstrider Menace
 A The Forgotten Pools
 A Raptor Thieves
@@ -192,6 +203,7 @@ R Ratchet
 T The Guns of Northwatch
 T Free From the Hold
 H The Crossroads
-T Stolen Silver]]
+T Stolen Silver
+]]
 end)
 

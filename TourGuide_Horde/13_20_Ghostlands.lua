@@ -1,5 +1,25 @@
 TourGuide:RegisterGuide("Ghostlands (13-20)", nil, "Horde", function()
 return [[
+A The Fallen Courier |R|Orc| |N|On the Eversong/Ghostlands boundry|
+C The Fallen Courier |R|Orc|
+T The Fallen Courier |R|Orc|
+A Delivery to Tranquillien |R|Orc|
+
+A The Fallen Courier |R|Troll| |N|On the Eversong/Ghostlands boundry|
+C The Fallen Courier |R|Troll|
+T The Fallen Courier |R|Troll|
+A Delivery to Tranquillien |R|Troll|
+
+A The Fallen Courier |R|Tauren| |N|On the Eversong/Ghostlands boundry|
+C The Fallen Courier |R|Tauren|
+T The Fallen Courier |R|Tauren|
+A Delivery to Tranquillien |R|Tauren|
+
+A The Fallen Courier |R|Undead| |N|On the Eversong/Ghostlands boundry|
+C The Fallen Courier |R|Undead|
+T The Fallen Courier |R|Undead|
+A Delivery to Tranquillien |R|Undead|
+
 R Tranquillien |N|Follow the road south|
 T Delivery to Tranquillien
 A The Forsaken
@@ -8,9 +28,9 @@ A Return to Arcanist Vandril
 T Return to Arcanist Vandril
 A Suncrown Village
 A Tomber's Supplies
-A Goods from Silvermoon City
+A Goods from Silvermoon City |R|Blood Elf|
 f Grab the flight point
-T Goods from Silvermoon City
+T Goods from Silvermoon City |R|Blood Elf|
 h Tranquillien
 A The Plagued Coast
 
@@ -125,7 +145,7 @@ C Escape from the Catacombs
 T Escape from the Catacombs
 
 R Zeb'Nowa |N|South (68,51)|
-C A Little Dash of Seasoning |N|Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75n)|
+C A Little Dash of Seasoning |N|Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75)|
 C Shadowpine Weaponry
 C Assault on Zeb'Nowa
 C Bring Me Kel'gash's Head! |N|He's elite, if you can't solo him get a group or come back later (65,79)| |O|
@@ -183,14 +203,14 @@ T Dar'Khan's Lieutenants
 T Captives at Deatholme
 
 R Tranquillien
-A Fly to Silvermoon City
+A Fly to Silvermoon City |R|Blood Elf|
 F Silvermoon City
 t Train (First Aid)
 t Train (Level 20)
-T Fly to Silvermoon City |N|(53,71)|
+T Fly to Silvermoon City |N|(53,71)| |R|Blood Elf|
 T Hero of the Sin'dorei |N|(53,20)| |O|
 
-R Undercity |N|Teleport an the sunspire (49,14)|
+R Undercity |N|Teleport at the sunspire (49,14)|
 
 ]]
 end)
