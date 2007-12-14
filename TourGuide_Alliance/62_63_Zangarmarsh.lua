@@ -119,6 +119,7 @@ T A Question of Gluttony
 A Familiar Fungi
 N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
 C Now That We're Friends... |N|These naga are all around the west side of Marshlight Lake.|
+C A Warm Welcome |N|If you have a significant number of claws to get, turn in "Now That We're Friends..." and get the repeat quest so you can earn Sporeggar rep at the same time.|
 T Now That We're Friends...
 
 R Orebor Harborage |N|Northwest of Serpent Lake.|
@@ -144,6 +145,7 @@ A Natural Armor |N|From the armor merchant, Maktu.|
 A Stinger Venom |N|From Puluu in the hut near the front of town.|
 A Lines of Communication
 A The Terror of Marshlight Lake
+A Drain Schematics |U|24330| |N|You should have gotten an item from the naga.| |O|
 C Drain Schematics |O| |N|You need to go to the centre of Serpent Lake.|
 C Natural Armor |N|Fenclaw Thrashers are around the pipes in the center of Serpent Lake.|
 C Lines of Communication |N|Marshfang Slicers are all around Zabra'Jin, the Horde town southwest of Serpent Lake. Don't tangle with the guards.|
@@ -174,9 +176,9 @@ h Telredor
 C Idols of the Feralfen |N|On the ground at Feralfen Village (46,60).|
 
 T Balance Must Be Preserved |N|Back at Cenarion Refuge|
-A Drain Schematics |U|24330| |N|You should have gotten an item from the naga.| |O|
 N The drain chain... |N|This is an optional chain, but you have the item so you should do it.  You just have to run out to the Cenarion outpost in Hellfire and back.  Free EXP and a little jogging for your chubby ass.  The follow-up will send you into Coilfang instances.| |L|24330| |O|
 T Drain Schematics |O|
+T A Warm Welcome |N|To Warden Hamoot on top of the tower.|
 C Withered Flesh |N|In the Dead Mire, north of the Refuge|
 
 T Withered Flesh |N|Up on Telredor|
@@ -191,6 +193,6 @@ T Messenger to the Feralfen
 
 end)
 -- Needs a better place, grinding blow and we kill plenty of naga in this zone...
--- C A Warm Welcome |N|The naga around the east side of the Lagoon (64,64) have claws, unlike most of the other naga in Zangarmarsh.|
--- T A Warm Welcome |N|To Warden Hamoot on top of the tower.|
+
+--
 
