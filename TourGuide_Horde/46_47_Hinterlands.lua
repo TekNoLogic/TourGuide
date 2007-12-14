@@ -44,8 +44,6 @@ T Stalking the Stalkers
 T Hunt the Savages
 T Avenging the Fallen
 
-t Train First Aid |N|Fly to Hammerfall and train if you need to|
-
 F Tarren Mill
 T Venom Bottles
 A Undamaged Venom Sac

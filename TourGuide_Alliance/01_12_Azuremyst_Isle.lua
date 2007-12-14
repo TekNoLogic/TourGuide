@@ -3,7 +3,7 @@ return [[
 A You Survived!
 T You Survived!
 A Replenishing the Healing Crystals
-A Volatile Mutations	
+A Volatile Mutations
 C Volatile Mutations
 C Replenishing the Healing Crystals
 T Volatile Mutations
@@ -13,7 +13,6 @@ T Replenishing the Healing Crystals
 A Urgent Delivery!
 T Urgent Delivery!
 A Rescue the Survivors!
-t Train (level 2)
 A Shaman Training |C|Shaman|
 T Shaman Training |C|Shaman|
 A Spare Parts
@@ -30,7 +29,6 @@ C Inoculation |N|Southeast of Crash Site|
 C Spare Parts
 H Ammen Vale
 T Healing the Lake
-t Train (level 4)
 A Call of Earth (Part 1) |C|Shaman|
 T Spare Parts
 A Inoculation
@@ -67,8 +65,6 @@ A Medicinal Purpose
 T Travel to Azure Watch
 T Word from Azure Watch
 h Azure Watch
-t First Aid
-t Train (Level 6)
 
 R Odesyus' Landing |N|The beach south of Azure Watch|
 A Cookie's Jumbo Gumbo
@@ -113,14 +109,13 @@ T Learning The Language
 A Totem of Coo |N|No need to follow the NPC, point will be shown later|
 T Strange Findings
 A Nightstalker Clean Up, Isle 2...
-t Train (level 8)
 C The Great Moongraze Hunt (Part 2) |N|North of Azure Watch|
 T Totem of Coo |N|On top the the cliifs north of Azure Watch (55,41)|
 A Totem of Tikti
 T Totem of Tikti |N|Jump to northeast with your wings, run over water to (64,39)|
 A Totem of Yor
 T Totem of Yor |N|*** Enter description here (63,47)|
-A Totem of Vark 
+A Totem of Vark
 T Totem of Vark |N|Follow the NPC|
 A The Prophecy of Akida
 C The Prophecy of Akida
@@ -149,7 +144,6 @@ R Azure Watch
 T Nightstalker Clean Up, Isle 2...
 T Deliver Them From Evil...
 N Grind until you are level 10 |LV|10|
-t Train (level 10)
 A Coming of Age
 A Call of Fire (Part 1) |C|Shaman|
 R Exodar

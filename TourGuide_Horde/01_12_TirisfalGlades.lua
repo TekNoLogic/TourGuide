@@ -15,7 +15,6 @@ A Encrypted Scroll |C|Rogue|
 A Tainted Scroll |C|Warlock|
 T Encrypted Scroll |C|Rogue|
 T Tainted Scroll |C|Warlock|
-t Train (Level 2)
 
 C The Damned
 C Rattling the Rattlecages
@@ -51,7 +50,6 @@ T Vital Intelligence
 A At War With The Scarlet Crusade (Part 1)
 T A Rogue's Deal (Part 1)
 h Gallows' End Tavern
-t Train (Level 4)
 A A New Plague (Part 1)|N|Near the herbalism trainer|
 
 C A New Plague (Part 1)
@@ -95,7 +93,6 @@ A A New Plague (Part 3)
 T Graverobbers
 A Forsaken Duties
 A The Prodigal Lich
-t Train (Level 8)
 
 C The Mills Overrun |N|At Agamand Mills|
 C The Haunted Mills
@@ -118,7 +115,6 @@ C Rear Guard Patrol |N|At the farm further east down the road (75,60).|
 T Rear Guard Patrol
 T Return To The Magistrate
 T The Chill of Death |N|Buy the coarse thread off the vendor|
-t Train (Level 10)
 
 R Undercity
 T The Prodigal Lich |N|In the magic quarter|
@@ -158,7 +154,6 @@ T At War With The Scarlet Crusade (Part 4) |N|Back in Brill|
 C The Family Crypt |N|At Agamand Mills|
 T The Family Crypt
 T The Prodigal Lich Returns |N|Back in Undercity|
-t Train (Level 12)
 F Orgrimmar
 f Grab flight point
 ]]

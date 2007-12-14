@@ -94,7 +94,6 @@ T Bungle in the Jungle |N|Skip the follow-up|
 T Super Sticky
 
 H Darnassus
-t Train (Level 52)
 T Un'Goro Soil
 A Morrowgrain Research (Part 1) |N|Upstairs!|
 T Morrowgrain Research (Part 1) |N|Downstairs!|

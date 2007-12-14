@@ -22,7 +22,6 @@ TourGuide.icons = setmetatable({
 	RUN = "Interface\\Icons\\Ability_Tracking",
 	MAP = "Interface\\Icons\\Ability_Spy",
 	FLY = "Interface\\Icons\\Ability_Druid_FlightForm",
-	TRAIN = "Interface\\GossipFrame\\trainerGossipIcon",
 	SETHEARTH = "Interface\\AddOns\\TourGuide\\resting.tga",
 	HEARTH = "Interface\\Icons\\INV_Misc_Rune_01",
 	NOTE = "Interface\\Icons\\INV_Misc_Note_01",

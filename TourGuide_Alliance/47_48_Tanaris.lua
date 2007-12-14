@@ -59,7 +59,6 @@ A The Newest Member of the Family
 
 F Ironforge |N|Fly to Theramore, boat to Menethil, fly to IF|
 h Ironforge
-t Train (Level 48)
 T Return to Ironforge |O| |N|In the Hall of Explorers|
 A A Future Task
 A Passing the Burden

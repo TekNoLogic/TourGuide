@@ -188,7 +188,6 @@ T B'naar Console Transcription |O|
 A Shutting Down Manaforge B'naar
 
 F Shattrath City
-t Train (Level 68) |N|Port to a city, of course|
 
 H Area 52
 N You should now be about 45-50% to 69

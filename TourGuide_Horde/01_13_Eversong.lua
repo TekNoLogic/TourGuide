@@ -9,8 +9,6 @@ A Warlock Training |C|Warlock|
 T Warlock Training |C|Warlock|
 A Windows to the Source |C|Warlock|
 
-t Train (Level 2)
-
 A Well Watcher Solanian
 T Well Watcher Solanian
 A The Shrine of Dath'Remar
@@ -32,7 +30,6 @@ C Solanian's Belongings |N|South near a crystal, Southwest near a pond, West nea
 
 T Thirst Unending
 T A Fistful of Slivers
-t Train (Level 4)
 T The Shrine of Dath'Remar
 T Solanian's Belongings
 T Aggression
@@ -61,7 +58,6 @@ A Unstable Mana Crystals
 A Wanted: Thaelis the Hungerer |N|On a wanted poster (48,46)|
 T Completing the Delivery
 h Falconwing Square
-t Train First Aid |N|Upstairs in the inn|
 
 C Major Malfunction
 C Unstable Mana Crystals
@@ -72,7 +68,6 @@ T Unstable Mana Crystals
 T Wanted: Thaelis the Hungerer
 A Delivery to the North Sanctum
 A Darnassian Intrusions
-t Train (Level 6) |N|If you can|
 
 R North Sanctum
 A Roadside Ambush |N|Down the path (45,56)|
@@ -111,12 +106,8 @@ R Falconwing Square
 A Incriminating Documents |U|20765| |O|
 T Incriminating Documents |O|
 A The Dwarven Spy
-t Train (Level 6)
-
 C The Dwarven Spy |N|Near North Sanctum|
-
 T The Dwarven Spy |N|Back at Falconwing Square|
-t Train (Level 8)
 
 A The Dead Scar |N|To the Southeast (50,51)|
 C The Dead Scar |N|Slightly to the South|
@@ -181,7 +172,6 @@ T Swift Discipline
 
 R Silvermoon City
 B [Suntouched Special Reserve] |N|Vinemaster Suntouched (80,58), for "The Party Never Ends"|
-t Train (Level 10)
 
 R Eversong Woods
 T The Magister's Apprentice |N|Follow the road East (67,57)|

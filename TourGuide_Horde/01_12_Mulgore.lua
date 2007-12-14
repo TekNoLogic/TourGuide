@@ -17,7 +17,6 @@ T Etched Note |C|Hunter|
 T Simple Note |C|Warrior|
 T Rune-Inscribed Note |C|Shaman|
 T Verdant Note |C|Druid|
-t Train (Level 2)
 
 T A Humble Task (Part 1) |N|Southeast at the well (50,81)|
 A A Humble Task (Part 2)

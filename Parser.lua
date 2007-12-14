@@ -6,7 +6,6 @@ local actiontypes = {
 	T = "TURNIN",
 	K = "KILL",
 	R = "RUN",
-	t = "TRAIN",
 	H = "HEARTH",
 	h = "SETHEARTH",
 	G = "GRIND",

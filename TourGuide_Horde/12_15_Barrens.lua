@@ -27,8 +27,6 @@ A Return to Jahan |R|Tauren|
 F The Crossroads |R|Tauren|
 T Return to Jahan |R|Tauren|
 
-t Bows |C|Hunter| |R|Tauren| |N|Run all the way to Orgrimmar and get this from the weapon trainer.  Fly back to Crossroads|
-
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc|
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll|
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Undead|
@@ -126,13 +124,9 @@ f Camp Taurajo
 N Get "Melor Sends Word" if needed.
 R Mulgore
 R Thunder Bluff |N|Thunder Bluff (37.0,31.8)|
-t Weapon Master |N|(40,62)|
-t Class Training
 T Apothecary Zamah |N|Cave below Spirit Rise (22.9,20.9)|
-t First Aid |N|First Aid Trainer (29.6,21.3)|
-f Thunder Bluff
 A The Sacred Flame (Part 1) |N|(55.1,53.1)|
-H The Crossroads
+F The Crossroads
 T Lost in Battle
 C Prowlers of the Barrens |N|(37,20)|
 C Harpy Lieutenants |N|Kill Witchwing Slayer's - Northwest Barrens (38,14)|
@@ -188,7 +182,6 @@ T Consumed by Hatred
 T Altered Beings
 A Egg Hunt
 F Orgrimmar
-t Level 20
 A The Ashenvale Hunt
 H The Crossroads
 F Ratchet

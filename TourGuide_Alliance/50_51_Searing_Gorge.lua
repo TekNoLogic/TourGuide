@@ -2,7 +2,6 @@
 TourGuide:RegisterGuide("Searing Gorge (50-51)", "Kalimdor (51)", "Alliance", function()
 return [[
 F Ironforge
-t Train (Level 50)
 A The Hunter's Charm |C|Hunter|
 h Ironforge
 A Assisting Arch Druid Staghelm |N|From the innkeeper|

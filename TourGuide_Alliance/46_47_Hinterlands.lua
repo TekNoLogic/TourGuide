@@ -4,7 +4,6 @@ return [[
 F Stormwind City
 T In Search of The Temple |NODEBUG|
 A To The Hinterlands |NODEBUG|
-t Train (Level 46)
 
 F Southshore
 R The Hinterlands |N|Path is behind Durnholde Keep (84,33), look for two gryphons.| |Z|Hillsbrad Foothills|

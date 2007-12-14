@@ -204,8 +204,6 @@ T Captives at Deatholme
 R Tranquillien
 A Fly to Silvermoon City |R|Blood Elf|
 F Silvermoon City
-t Train (First Aid)
-t Train (Level 20)
 T Fly to Silvermoon City |N|(53,71)| |R|Blood Elf|
 T Hero of the Sin'dorei |N|(53,20)| |O|
 

@@ -79,7 +79,6 @@ A Feralas: A History |N|From the green book|
 T Feralas: A History
 A The Borrower
 
-t Train (Level 44)
 T Rise of the Silithid |N|In the temple of the moon, upstairs (39,86)| |Z|Darnassus|
 T Doling Justice (Part 2)
 

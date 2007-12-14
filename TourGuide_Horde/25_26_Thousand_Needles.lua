@@ -29,7 +29,6 @@ A Washte Pawne |U|5103| |O|
 T A New Ore Sample
 
 F Thunder Bluff |N|For training|
-t Abilities/Spells
 T Melor Sends Word
 A Steelsnap |N|Hunter Rise|
 A The Sacred Flame |N|NPC is in the area connecting Elder and Hunter Rises|]]

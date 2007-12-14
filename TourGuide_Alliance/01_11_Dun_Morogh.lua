@@ -43,7 +43,6 @@ A The Troll Cave
 A Scalding Mornbrew Delivery
 T Scalding Mornbrew Delivery |N|Run back to Anvilmar (28.8, 66.4)|
 A Bring Back the Mug
-t Train (Level 4)
 
 A In Favor of the Light |C|Priest|
 A Beginnings |C|Warlock|
@@ -80,7 +79,6 @@ T Tools for Steelgrill |N|Northeast of Kharanos (50.4, 49.1)|
 A Ammo for Rumbleshot
 A The Grizzled Den
 A Stocking Jetsteam
-t Train (Level 6)
 
 C Ammo for Rumbleshot |N|Open the crate (44.1, 56.9)|
 C The Grizzled Den |N|Southwest of Kharanos (42.5, 54.4)|
@@ -105,7 +103,6 @@ A Return to Marleth
 T Beer Basted Boar Ribs
 A Frostmane Hold |N|He's a little south of the inn.|
 A Operation Recombobulation |N|In a house a bit northwest of the inn (45.8, 49.4)|
-t Train (Level 8)
 
 T Evershine |N|At Brewnall Village|
 A A Favor for Evershine
@@ -128,7 +125,6 @@ T Frostmane Hold
 A The Reports
 T Operation Recombobulation
 T Return to Bellowfiz |N|Northeast of Kharanos.|
-t Train (Level 10)
 
 A Taming the Beast (Part 1) |C|Hunter|
 C Taming the Beast (Part 1) |C|Hunter|

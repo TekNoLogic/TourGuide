@@ -89,8 +89,6 @@ N Make sure you have at least 30 ooze samples for "... and a Batch of Ooze"
 
 R Silithus
 R Cenarion Hold
-f Cenarion Hold
-
 F Gadgetzan
 T Super Sticky
 T Bungle in the Jungle
@@ -101,7 +99,6 @@ A Un'goro Soil
 T Un'goro Soil
 A Morrowgrain Research
 T Morrowgrain Research
-t Train!
 
 H The Crossroads
 F Ratchet

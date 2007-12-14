@@ -12,12 +12,9 @@ A Skullsplitter Tusks
 T Sunken Treasure (Part 4) |N|Skip the next part|
 
 C Raptor Mastery (Part 3) |N|Around (33,39)|
-C Some Assembly Required |N|Kill Snapjaw Crocolisks from the stream (38,30) to the lake (41,19)|
 C Water Elementals |N|On the island (20,23)|
-
-G Grind to level 39 |N|These elementals or raptors and basalisks around (33,39)|
-G Grind east, past the road |N|To (41,41)|
-C Venture Company Mining
+C Some Assembly Required |N|Kill Snapjaw Crocolisks from the stream (38,30) to the lake (41,19)|
+C Venture Company Mining |N|East past the road (41,41)|
 C Skullsplitter Tusks |N|In the camps around (42,37)|
 C Panther Mastery (Part 4) |N|Bhag'thera is anywhere between just north of Mosh'ogg (49,25) to just north of the ZG entrance (48,17)|
 
@@ -51,14 +48,10 @@ T Panther Mastery (Part 4)
 A Raptor Mastery (Part 4)
 A The Green Hills of Stranglethorn
 T The Green Hills of Stranglethorn
-G Grind to level 40 |N|You should have less than 25% to go|
 
 H Booty Bay
 T Excelsior
 F Ironforge
-
-t Train (Level 40)
-B Mount
 ]]
 
 end)

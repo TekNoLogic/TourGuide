@@ -25,8 +25,6 @@ T Hallowed Sigil |C|Priest|
 T Simple Sigil |C|Warrior|
 T Verdant Sigil |C|Druid| |N|Up the ramp!|
 
-t Train (Level 2) |N|Notice! There are no reminders to train levels after this. Remember to do so after even levels|
-
 C The Balance of Nature (Part 2) |N|Mobs are to the northeast (60,35)|
 C Webwood Venom |N|To the northwest at Shadowthread Cave (57,33)|
 T A Good Friend |N|Just west of the cave entrance|
@@ -61,7 +59,6 @@ T Crown of the Earth (Part 2) |N|South of the inn by the moonwell|
 A Crown of the Earth (Part 3)
 A Denalan's Earth |N|In front of the tower|
 A A Troubling Breeze |N|In the tower|
-t First Aid |N|In the tower|
 A The Emerald Dreamcatcher |N|In the tower|
 A Twisted Hatred |N|In the tower|
 

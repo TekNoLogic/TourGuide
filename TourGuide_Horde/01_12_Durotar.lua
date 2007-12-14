@@ -49,13 +49,11 @@ A Practical Prey
 R Razor Hill |N|Follow the road north.|
 T Report to Orgnil
 A Dark Storms
-t Train (Level 6)
 A Vanquish the Betrayers
 A Encroachment
 A Break a Few Eggs
 T A Peon's Burden
 h Razor Hill
-t First Aid
 A Carry Your Weight |N|From watch tower northwest of town (49,40)|
 C Vanquish the Betrayers
 N If you have Benedict's Key, open the box on the ramparts upstairs from him.
@@ -70,7 +68,6 @@ C From the Wreckage |N|Helps if you have water breathing|
 N Do the first half of "Encroachment"
 
 T From the Wreckage
-t Train (Level 8)
 C Thwarting Kolkar Aggression |N|West of Sen'jin, each little camp has an item to pickup. (48,79)|
 C Break a Few Eggs |N|Kill Tigers if you see them.|
 C Practical Prey
@@ -93,7 +90,6 @@ T Winds in the Desert
 A Securing the Lines
 
 T Encroachment |N|Back at Razor Hill|
-t Train (Level 10)
 N Do Pet Quests |C|Hunter|
 N Train Encrusted Surf Crawler at (57,16)|C|Hunter|
 A Need for a Cure |N|Troll hidden in rocks to the west of Orgrimmar (41.5,18.6)|
@@ -129,8 +125,6 @@ A Burning Shadows |U|4903| |O|
 T Hidden Enemies (Part 2) |N|And back to Thrall! Skip the follow-up.|
 
 H Razor Hill
-t Train (First Aid)
-t Train (Level 12)
 A Conscript of the Horde |N|Just outside the western entrance of Razor Hill (50.9, 43.6)|
 ]]
 end)

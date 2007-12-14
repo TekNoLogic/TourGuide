@@ -80,8 +80,6 @@ T The Videre Elixir (Part 1) |N|Back at Gregan.|
 H Astranaar
 N Get your pet back |C|Hunter|
 F Talonbranch Glade
-t Train |C|Druid|
-t Train |C|Hunter|
 
 R Winterspring
 T The Videre Elixir (Part 2)

@@ -46,7 +46,6 @@ C Elune's Tear |N|At the puddle northeast of Astranaar|
 T Raene's Cleansing (Part 3) |N|East of the puddle|
 A Raene's Cleansing (Part 4)
 R Silverwind Refuge |N|South, a house next to the lake. Grind your way unless you are level 22|
-t Train level 22 |C|Hunter|
 C An Aggressive Defense |N|Camp northeast of Silverwind Refuge|
 H Astranaar |N|Or just run there if heartstone is on cooldown|
 T An Aggressive Defense
