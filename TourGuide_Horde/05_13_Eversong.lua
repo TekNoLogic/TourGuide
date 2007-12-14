@@ -64,12 +64,11 @@ R Falconwing Square
 A Incriminating Documents |U|20765| |O|
 T Incriminating Documents |O|
 A The Dwarven Spy
-t Train (Level 6) |N|Train level 8 if you can|
+t Train (Level 6)
 
 C The Dwarven Spy |N|Near North Sanctum|
 
-R Falconwing Square
-T The Dwarven Spy |N|Falconwing Square|
+T The Dwarven Spy |N|Back at Falconwing Square|
 t Train (Level 8)
 
 A The Dead Scar |N|To the Southeast (50,51)|
@@ -91,7 +90,6 @@ A Unexpected Results
 C Unexpected Results
 T Unexpected Results
 A Research Notes
-G Until level 9
 
 H Fairbreeze Village
 A The Scorched Grove
@@ -104,13 +102,11 @@ R Saltheril's Haven |N|To the west|
 T Saltheril's Haven
 A The Party Never Ends
 
-G Grind your way west to the shore
-C The Ring of Mmmrrrggglll |N|Use your racial to stop Mmmrrrggglll from healing himself!|
+C The Ring of Mmmrrrggglll |N|Over on the shore of course.  Use your racial to stop Mmmrrrggglll from healing himself!|
 C Grimscale Pirates!
 T The Ring of Mmmrrrggglll
 
-R Sunsail Anchorage |N|To the South|
-C Lost Armaments
+C Lost Armaments |N|To the South at Sunsail Anchorage|
 C Situation at Sunsail Anchorage
 T Lost Armaments
 T Grimscale Pirates!
@@ -119,14 +115,12 @@ C Wretched Ringleader |N|The mob is at the very top of building at Sunsail Ancho
 T Wretched Ringleader
 C Pelt Collection
 
-R Fairbreeze Village
-T Pelt Collection
+T Pelt Collection |N|Back at Fairbreeze Village|
 T Situation at Sunsail Anchorage
 A Missing in the Ghostlands
 T Ranger Sareyn |N|To the East along the road (47,71)|
 A Defending Fairbreeze Village
 
-N You should be level 10 now |N|Time to do your class's level 10 quests!|
 T Missing in the Ghostlands
 A The Fallen Courier
 C The Fallen Courier
@@ -164,9 +158,8 @@ C Zul'Marosh |N|Across the lake, upstairs in the hut (62, 80)|
 T Zul'Marosh
 C Amani Encroachment
 
-R Farstrider Retreat
+T The Spearcrafter's Hammer |N|Back at Farstrider Retreat|
 B [Springpaw Appetizers] |N|From Zalene Firstlight (60,63), for "The Party Never Ends"|
-T The Spearcrafter's Hammer
 T Amani Encroachment
 A Amani Invasion |U|23249| |O|
 T Amani Invasion |O|

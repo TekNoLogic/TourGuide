@@ -175,8 +175,7 @@ C Altered Beings |N|(55,42)|
 C The Angry Scytheclaws |N|(51,46)|
 C Raptor Horns
 C Consumed by Hatred |N|(51,54)|
-G Camp Taurajo
-A Weapons of Choice
+A Weapons of Choice |N|At Camp Taurajo|
 T Tribes at War
 A Blood Shards of Agamaggan
 T Blood Shards of Agamaggan

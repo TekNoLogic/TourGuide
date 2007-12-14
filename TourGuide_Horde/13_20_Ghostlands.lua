@@ -194,7 +194,6 @@ U Drink up! |U|22778|
 C Captives at Deatholme |N|Enith is in the crypt (32,73), Varnis (40,83), Vedoran (32,89)|
 C Dar'Khan's Lieutenants |N|Jurion is in the crypt (32,73), Borgoth (40,83), Masophet (36,88), Mirdoran (37,79)|
 C The Traitor's Destruction |N|He's a tough elite, so if you don't have a group you can skip this| |O|
-G Grind until ~15% to 20 |N|That's 3 "bubbles"|
 
 R Sanctum of the Sun |N|Or die and spirit rez|
 T The Traitor's Destruction |O|
