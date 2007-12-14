@@ -27,7 +27,6 @@ T Betrayed (Part 3)
 A Betrayed (Part 4)
 T Wavethrashing |C|Hunter|
 T Kim'jael's "Missing" Equipment
-G Grind Blood Elves to Level 54
 H Orgrimmar
 T Bone-Bladed Weapons
 T Betrayed (Part 4)]]

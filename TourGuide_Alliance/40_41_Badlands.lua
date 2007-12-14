@@ -84,8 +84,8 @@ T This Is Going to Be Hard (Part 3)
 
 T Scrounging |N|(53,43)|
 T Tremors of the Earth (Part 1) |N|(61,54) Skip part 2|
-G Level 41 |N|Kill whelps in the ravine to the east|
-T Fiery Blaze Enchantment |O|
+C Fiery Blaze Enchantment |N|Kill whelps in the ravine to the east.  Droprate kind sucks, you may want to skip this.|
+T Fiery Blaze Enchantment
 
 H Thelsamar
 T Badlands Reagent Run

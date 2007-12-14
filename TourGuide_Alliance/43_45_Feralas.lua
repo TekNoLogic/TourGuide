@@ -22,7 +22,6 @@ A Against the Hatecrest (Part 2)
 C Against the Hatecrest (Part 2) |N|Kill naga back at the ruins|
 T Against the Hatecrest (Part 2)
 A Against Lord Shalzaru
-G Level 44 |N|South thru the ruins, across the water, in a cave (26,67).|
 C Against Lord Shalzaru |N|South thru the ruins, across the water, in a cave (26,67).  He is level 47, so he might be hard to solo.|
 
 R Feathermoon Stronghold |N|Or die and rez there|

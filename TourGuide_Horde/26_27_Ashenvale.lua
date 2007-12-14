@@ -42,7 +42,6 @@ C Between a Rock and a Thistlefur
 C Troll Charm |N|Cave is at back of the camp (38,30)|
 T Between a Rock and a Thistlefur
 T Troll Charm
-G Grind to 27 |N|If you're not already|
 
 N Stable Pet if you dont have Bite(R4) or Claw(R4) |C|Hunter|
 N Tame Ghostpaw Alpha for Bite(R4) |C|Hunter|

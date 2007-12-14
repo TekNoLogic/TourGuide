@@ -169,7 +169,6 @@ function TourGuide:UpdateStatusFrame()
 			elseif action == "TURNIN" then incomplete = not optional or logi and complete
 			elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or lootitem and GetItemCount(lootitem) >= lootqty or needlevel
-			elseif action == "GRIND" then incomplete = needlevel
 			else incomplete = not logi end
 
 			if incomplete then nextstep = i end

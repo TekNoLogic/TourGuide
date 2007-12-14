@@ -17,8 +17,7 @@ A The Scent of Lar'korwi
 C The Scent of Lar'korwi |N|Find the egg nests and stand on them (60,72) (62,65) (63,77) (67,73) (67,67) (58,78) (70,61)|
 T The Scent of Lar'korwi
 A The Bait for Lar'korwi
-G Grind on raptors |N|Until you find [A Mangled Journal]| |L|11116|
-A Williden's Journal |U|11116|
+A Williden's Journal |U|11116| |N|Kill raptors until the journal drops to start this quest|
 
 N Find 7 Red power crystals |L|11186 7|
 N Find 7 Yellow power crystals |L|11188 7|

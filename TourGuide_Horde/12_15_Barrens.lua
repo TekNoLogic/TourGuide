@@ -103,8 +103,7 @@ R Stonetalon Mountains
 C Kill Grundig Darkcloud |N|Grimtotem camp north of the little troll village (73,86)|
 T Kill Grundig Darkcloud
 
-G Grind to the Kolkar quest guy |N|West of XR (45.4,28.4)|
-T Kolkar Leaders
+T Kolkar Leaders |N|West of XR (45.4,28.4)|
 A Verog the Dervish
 C Centaur Bracers
 C Raptor Thieves

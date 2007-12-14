@@ -16,7 +16,6 @@ T Test of Faith |N|Do not accept "Test of Endurance" unless you're a hardcore ma
 C A New Ore Sample
 C Alien Egg |N|Look for occamy nests Southeast of Freewind Post|
 C A Different Approach |N|Rock Elementals near the Shimmering Flats|
-G Level 26 |N|Or two bars from it|
 
 R Freewind Post
 T Pacify the Centaur

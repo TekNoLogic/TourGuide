@@ -43,8 +43,6 @@ C Raptor Mastery (Part 3) |N|To the northwest across the road (34,37).|
 C Panther Mastery (Part 3) |N|Shadowmaw Panther are stealth, but you can find a lot to the northeast (36,35).|
 
 C Skullsplitter Tusks |N|To the east at Ziata'Jai Ruins (42,36).  Clear that camp, then hit Balia'mah Ruins (45,33) to the northeast and then Zul'Mamwe (47,38) to the southeast.  Repeat!|
-G Level 42 |N|Keep looping through the troll ruins|
-
 C Goblin Sponsorship (Part 4) |O| |N|Follow the road north to the Venture Co. Base at Lake Nezferiti, go to the oil rig (42,18). Go on top of it, kill Foreman Cozzle, loot his key. Jump down and go to the small house next to the lumber mill, open the chest and get the Fuel Regulator Blueprints.|
 C Kurzen's Mystery |N|First scroll is in a tablet named "Moon Over the Vale" in the Bal'lal Ruins (29,20).  Second is in a tablet named "Gri"lek the Wanderer", west of Bal'lal Ruins underwater (24,22).  Third and Fourth are in the Ruins of Zul'Kunda (21,10).  Third is in "Fall of Gurubashi" (23,12).  Fourth is in "The Emperor's Tomb" (25,9)|
 

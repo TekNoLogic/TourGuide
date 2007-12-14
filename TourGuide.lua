@@ -25,7 +25,6 @@ TourGuide.icons = setmetatable({
 	SETHEARTH = "Interface\\AddOns\\TourGuide\\resting.tga",
 	HEARTH = "Interface\\Icons\\INV_Misc_Rune_01",
 	NOTE = "Interface\\Icons\\INV_Misc_Note_01",
-	GRIND = "Interface\\Icons\\INV_Stone_GrindingStone_05",
 	USE = "Interface\\Icons\\INV_Misc_Bag_08",
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
 	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
