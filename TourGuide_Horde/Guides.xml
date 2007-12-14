@@ -1,6 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="01_05_SunstriderIsle.lua"/>
-	<Script file="05_13_Eversong.lua"/>
+	<Script file="01_13_Eversong.lua"/>
 	<Script file="13_20_Ghostlands.lua"/>
 
 	<Script file="01_12_TirisfalGlades.lua"/>
