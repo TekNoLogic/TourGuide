@@ -5,10 +5,10 @@ h Orgrimmar
 t Abilities/Spells
 
 R Hillsbrad Foothills |N|Take the zeppelin outside Orgrimmar to Undercity.  Run down thru Silverpine.|
-A Time to Strike |N|You get this at Southpoint Tower (20,47) as soon as you enter Hillsbrad|
+A Time To Strike |N|You get this at Southpoint Tower (20,47) as soon as you enter Hillsbrad|
 
 R Tarren Mill
-T Time to Strike
+T Time To Strike
 f Grab flight point
 A Regthar Deathgate
 A The Hammer May Fall

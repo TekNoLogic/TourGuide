@@ -22,12 +22,15 @@ A Grimtotem Spying
 T Alien Egg
 A Serpent Wild
 
+H Moonglade |C|Druid|
+t Abilities |C|Druid|
 H Camp Taurajo
 A Washte Pawne |U|5103| |O|
 T Enraged Thunder Lizards
 T A New Ore Sample
 A Cry of the Thunderhawk
 C Cry of the Thunderhawk
+T Cry of the Thunderhawk |N|Skip next one|
 
 F Thunder Bluff |N|For training|
 T Melor Sends Word |N|At (61,80) Hunter Rise|
