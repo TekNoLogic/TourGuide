@@ -26,7 +26,8 @@
 	<Script file="36_37_Arathi_Highlands.lua"/>
 	<Script file="37_Alterac_Mountains.lua"/>
 	<Script file="37_Thousand_Needles.lua"/>
-	<Script file="37_38_Dustwallow_Marsh.lua"/>
+	<Script file="37_38_Dustwallow_March.lua"/>
+	<Script file="39_40_Stranglethorn_Vale.lua"/>
 
 	<Script file="44_46_Feralas.lua"/>
 	<Script file="46_Azshara.lua"/>
