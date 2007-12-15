@@ -151,19 +151,22 @@ T Familiar Fungi |N|At the watchpost, west of the Spawning Glen (23,66).|
 A Stealing Back the Mushrooms
 T The Count of the Marshes
 C Stinger Venom |N|Every side of Marshlight Lake except the east side.|
+C Diaphanous Wings
 C The Terror of Marshlight Lake |N|Terrorclaw is on the southern-most island in Marshlight Lake, west and a bit south of the pump (22,45). He also fears, so be aware.|
 C Overlord Gorefist |N|Far northwest of the zone, the little island with a bridge to it (18,9).|
 C Stealing Back the Mushrooms
 
-H Orebor Harborage
-T Overlord Gorefist
+T Overlord Gorefist |N|Back at Orebor Harborage|
 T Natural Armor
 A Maktu's Revenge
 T Stinger Venom
 T Lines of Communication
 T The Terror of Marshlight Lake
+
 C Maktu's Revenge |N|Mragesh is on the westernmost island in Serpent Lake. (41,41)|
 T Stealing Back the Mushrooms |N|Getting tired of running to the watchpost yet?|
+
+H Orebor Harborage
 T Maktu's Revenge
 
 F Telredor
