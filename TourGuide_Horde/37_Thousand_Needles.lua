@@ -25,6 +25,7 @@ A The Eighteenth Pilot
 T The Eighteenth Pilot
 
 A Razzeric's Tweaking
+T Encrusted Tail Fins
 A The Rumormonger
 
 A Parts of the Swarm (Part 1) |U|5877| |N|Kill silithid to the south until the item drops to start this.|
@@ -32,6 +33,9 @@ C The Swarm Grows (Part 3) |N|You must kill the Drones in order for the Invaders
 C Parts of the Swarm (Part 1)
 T The Swarm Grows (Part 3)
 
+G Should be level 38 |LV|38|
+H Moonglade |C|Druid|
+t Abilities |C|Druid|
 H Crossroads
 N Abandon the turtle |N|If you want to| |C|Hunter|
 

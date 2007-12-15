@@ -3,6 +3,7 @@ return [[
 H Orgrimmar
 F The Crossroads
 A The Swarm Grows (Part 1) |N|From Korran, west of windrider (51.1, 29.6)| |Z|The Barrens|
+T Regthar Deathgate |N|West of Crossroads in the bunkers (45.3, 28.4)|
 A The Kolkar of Desolace |N|West of Crossroads in the bunkers (45.3, 28.4)| |Z|The Barrens|
 
 R Shimmering Flats |N|Run back to Crossroads and fly down to Thousand Needles|
@@ -29,6 +30,7 @@ T Salt Flat Venom |N|Skip the follow-up|
 
 A Goblin Sponsorship (Part 1)
 A Martek the Exiled
+A Encrusted Tail Fins |N|Nonelite again!|
 
 R Gadgetzan
 f Grab flight point

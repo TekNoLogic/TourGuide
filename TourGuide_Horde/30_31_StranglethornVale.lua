@@ -21,7 +21,7 @@ T Tiger Mastery (Part 1)
 A Tiger Mastery (Part 2)
 
 C Panther Mastery (Part 2) |N|West of camp|
-C Tiger Mastery (Part 2) |N|Northwest and northeast of the camp|
+C Tiger Mastery (Part 2) |N|Northwest and northeast of the camp (35,10)|
 C Raptor Mastery (Part 1) |N|East near the ruins (28,14)|
 
 T Raptor Mastery (Part 1)

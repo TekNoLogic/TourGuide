@@ -6,6 +6,7 @@ A The Swarm Grows (Part 2)
 A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)| |Z|Orgrimmar|
 T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)| |Z|Orgrimmar|
 A Alliance Relations (Part 2)
+N Save Cloth for Cloth Donations Quests
 
 R Desolace |N|Fly to Stonetalon Mountains and run south|
 
@@ -47,9 +48,6 @@ A Other Fish to Fry
 h Shadowprey Village
 f Grab flight point |N|Out on the pier|
 
-N Collect 10 Shellfish |N|From the Shellfish traps in the water to the west of Shadowprey Village| |L|13545 10|
-T Fish in a Bucket |N|To Jinar'Zillen the npc on the docks. You have to turn in this twice.|
-
 N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
 A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1)
 
@@ -80,7 +78,7 @@ A The Corrupter (Part 4)
 T The Corrupter (Part 4) |N|Skip last follow-up|
 
 C Bone Collector |N|In the Kodo Graveyard|
-C Stealing Supplies |N|In the Magram village (70,74)|
+C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)|
 C Centaur Bounty
 
 T Centaur Bounty
@@ -110,6 +108,7 @@ T Lieutenant Paval Reethe
 T The Black Shield (Part 1)
 A The Black Shield (Part 2)
 T The Black Shield (Part 2) |N|Skip the follow-up|
+N Buy 3 first aid books
 
 F Ratchet
 T Goblin Sponsorship (Part 1)
