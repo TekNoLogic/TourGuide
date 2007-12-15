@@ -33,10 +33,14 @@
 	<Script file="46_47_Hinterlands.lua"/>
 	<Script file="47_StranglethornVale.lua"/>
 
-	<Script file="50_51_Blasted_Lands.lua"/>
-	<Script file="51_52_UnGoro_Crater.lua"/>
-	<Script file="52_53_Burning_Steppes.lua"/>
-	<Script file="52_53_Azshara.lua"/>
-	<Script file="54_Felwood.lua"/>
+  <Script file="50_51_Hinterlands.lua"/>
+	<Script file="51_53_UnGoro_Crater.lua"/>
+	<Script file="53_54_Burning_Steppes.lua"/>
+	<Script file="54_54_Felwood.lua"/>
 	<Script file="54_55_Winterspring.lua"/>
+  <Script file="55_55_Felwood.lua"/>
+  <Script file="56_56_Western_Plaguelands.lua"/>
+  <Script file="56_57_Eastern_Plaguelands.lua"/>
+  <Script file="57_59_Western_Plaguelands.lua"/>
+  <Script file="59_60_Hellfire_Penninsula.lua"/>
 </Ui>
