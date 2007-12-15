@@ -144,21 +144,22 @@ T Body and Heart |C|Druid| |N|Run east to Camp Taurajo and fly to Bluff|
 
 C Wildmane Cleansing |N|North of Bluff| |U|5416|
 C The Hunter's Way
-A A Sacred Burial |N|East at Red Rocks Amphitheatre|
+A A Sacred Burial |N|East at Red Rocks Amphitheatre (59.83, 25.60)|
+T Rite of Wisdom |N|To the north, in the middle of the graveyard|
+A Journey into Thunder Bluff
 C A Sacred Burial
-C Rite of Wisdom
 T A Sacred Burial
-C Preparation for Ceremony |N|Harpies to the north/west|
+C Preparation for Ceremony |N|Harpies to the north.  You can also find a bunch west of Bluff.|
 
 T Preparation for Ceremony |N|Back on Bluff|
-T The Hunter's Way
-A Sergra Darkthornz
-T Rite of Wisdom
+T The Hunter's Way |N|On Hunter Rise (61.48, 80.86)|
+A Sergra Darkthorn
+T Journey into Thunder Bluff
 A Rites of the Earthmother (Part 3)
 
-C Rites of the Earthmother (Part 3) |N|North/east of Bluff.  If you cannot find him, he spawns at (49,19)|
+C Rites of the Earthmother (Part 3) |N|East of Bluff.  If you cannot find him, he spawns at (49,19) and patrols clockwise.  He goes north to (52,10) and south to (54,35)|
 T Rites of the Earthmother (Part 3)
-A The Barrens Oases |N|From the Archdruid|
+A The Barrens Oases |N|From the Archdruid on Elder Rise (78.61, 28.52)|
 
 H Bloodhoof Village
 A The Demon Scarred Cloak |O| |U|4854|
