@@ -1,8 +1,9 @@
-TourGuide:RegisterGuide("Tanaris (44-45)", nil, "Horde", function()
+TourGuide:RegisterGuide("Tanaris (44-45)", "Feralas (45-46)", "Horde", function()
 return [[
+R Gadgetzan
 A WANTED: Caliph Scorpidsting
 A WANTED: Andre Firebeard
-T Tran'Rek
+T Tran'rek
 A Gadgetzan Water Survey
 A Wastewander Justice
 A Water Pouch Bounty

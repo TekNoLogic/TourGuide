@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Feralas (44-46)", "Azshara (46)", "Horde", function()
+TourGuide:RegisterGuide("Feralas (45-46)", "Azshara (46-47)", "Horde", function()
 return [[
 R Camp Mojache
 A A New Cloak's Sheen
@@ -7,6 +7,7 @@ A Gordunni Cobalt
 A War on the Woodpaw
 A The Mark of Quality
 A A Strange Request
+f Camp Mojache |N|Get FP|
 h Camp Mojache
 
 C War on the Woodpaw |N|North of Camp Mojache (71,37)|
@@ -47,9 +48,11 @@ C Stinglasher |N|Both in the hive area south of Camp Mojache (74,62)|
 C Zukk'ash Infestation
 C Screecher Spirits |N|South of Dire Maul (55,56)|
 C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)|
+N Pick up a Hippograph Egg |N|Around (55,76) in nests|
 C Dark Ceremony |N|In the ruins to the south (59,68)|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)|
 
+R Camp Mojache |N|Go back to camp|
 T Stinglasher |N|Back at Camp Mojache|
 T Zukk'ash Infestation
 T The Ogres of Feralas (Part 2)
@@ -58,10 +61,11 @@ T The Mark of Quality
 
 A Zukk'ash Report
 A The Gordunni Orb
+A The Sunken Temple
 
 F Orgrimmar
+h Orgrimmar
 
-N Donate cloth |N|Turn in 120 [Silk Cloth] and 120 [Mageweave Cloth] at Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
 T Zukk'ash Report |N|In The Drag (56,46)| |Z|Orgrimmar|
 
 A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4,36.9)| |Z|Orgrimmar|
@@ -80,18 +84,8 @@ A Service to the Horde
 T Service to the Horde
 
 T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar|
+N Donate cloth |N|Turn in 120 [Silk Cloth] and 120 [Mageweave Cloth] at Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
 
-H Camp Mojache
-T Return to Witch Doctor Uzer'i
-A Natural Materials
-A Testing the Vessel
-
-C Natural Materials |N|Sprite Darters west of Camp Mojache (68,48), Hippogryphs southwest of Dire Maul (54,72)|
-A Find OOX-22/FE! |U|8705| |O|
-T Find OOX-22/FE! |N|In the yeti cave (53.4,55.7), skip the escort quest| |O|
-
-H Camp Mojache
-T Natural Materials
-A The Sunken Temple
+F Splintertree Post |N|Ashenvale|
 ]]
 end)

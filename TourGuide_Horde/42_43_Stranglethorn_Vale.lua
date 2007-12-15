@@ -1,17 +1,17 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (42-43)", "Dustwallow Marsh (43-44)", "Horde", function()
 return [[
 T Dream Dust in the Swamp
-A Tran'Rek
+A Tran'rek
 A Rumors for Kravel
 A The Bloodsail Buccaneers (Part 3)
 A Up to Snuff
+h Booty Bay
 A Venture Company Mining
 A Zanzil's Secret
 A Akiris by the Bundle
 A Voodoo Dues
 A Stoley's Debt
 A Keep An Eye Out
-h Booty Bay
 C The Bloodsail Buccaneers (Part 3) |N|Along the Shore (31,80)|
 C Up to Snuff
 C Keep An Eye Out
@@ -28,7 +28,7 @@ R Grom'gol Base Camp
 T Mok'thardin's Enchantment (Part 4)
 C Big Game Hunter |N|Can you solo? He's at (38,35)|
 T Big Game Hunter |N|Run up there|
-H Booty Bay
+H The Salty Sailor Tavern |N|Booty Bay|
 
 T Venture Company Mining
 T Zanzil's Secret

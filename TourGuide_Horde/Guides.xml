@@ -28,10 +28,16 @@
 	<Script file="37_Thousand_Needles.lua"/>
 	<Script file="37_38_Dustwallow_Marsh.lua"/>
 
-	<Script file="44_46_Feralas.lua"/>
-	<Script file="46_Azshara.lua"/>
-	<Script file="46_47_Hinterlands.lua"/>
-	<Script file="47_StranglethornVale.lua"/>
+	<Script file="40_41_Badlands.lua"/>
+	<Script file="41_42_Swamp_of_Sorrows.lua"/>
+	<Script file="42_43_Stranglethorn_Vale.lua"/>
+	<Script file="43_44_Dustwallow_Marsh.lua"/>
+	<Script file="44_45_Tanaris.lua"/>
+	<Script file="45_46_Feralas.lua"/>
+	<Script file="46_47_Azshara.lua"/>
+  <Script file="47_48_Searing_Gorge.lua"/>
+  <Script file="48_49_Swamp_of_Sorrows.lua"/>
+  <Script file="49_50_Tanaris.lua"/>
 
 	<Script file="50_51_Blasted_Lands.lua"/>
 	<Script file="51_52_UnGoro_Crater.lua"/>

@@ -25,7 +25,7 @@ C The Essence of Enmity
 C Banner of the Stonemaul |N|Banner is in the cave at (38,69)|
 C Army of the Black Dragon
 
-r Mudsprocket
+R Mudsprocket
 T Catch a Dragon by the Tail
 T Banner of the Stonemaul
 T The Essence of Enmity

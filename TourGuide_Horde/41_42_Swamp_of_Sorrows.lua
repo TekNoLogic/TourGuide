@@ -19,7 +19,7 @@ C Dream Dust in the Swamp |N|Kill Scalebane Dragons|
 C Draenethyst Crystals |N| (62,22) along with little morsels|
 C Little Morsels |N| (62,22)|
 
-T Draenythyst Crystals |N|Turn in at (25,31)|
+T Draenethyst Crystals |N|Turn in at (25,31)|
 H Stonard
 T Little Morsels
 T Pool of Tears
