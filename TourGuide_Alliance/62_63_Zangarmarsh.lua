@@ -89,11 +89,8 @@ N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).|
 C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (45,68).  Just run in and out, don't hang around with the elite.|
 
-K "Count" Ungula |N|To the west, typically found south of Zabra'Jin (33,59).| |L|25459|
-A The Count of the Marshes |U|25459|
 T Watcher Leesa'oh |N|The Cenarion Watchpost is on the road south toward Nagrand. (23,66)|
 A Observing the Sporelings
-T The Count of the Marshes
 
 A The Sporelings' Plight |N|From Fahssn, west of the watchpost (19,64).|
 A Natural Enemies
@@ -125,17 +122,17 @@ T Now That We're Friends...
 R Orebor Harborage |N|Northwest of Serpent Lake.|
 A Secrets of the Daggerfen
 T The Orebor Harborage
-A Ango'Rosh Encroachment
+A Ango'rosh Encroachment
 A Daggerfen Deviance
 A Wanted: Chieftain Mummaki |N|Off a signpost outside the inn.|
-C Ango'Rosh Encroachment |N|The Hewn Bog is just southwest of Orebor.|
+C Ango'rosh Encroachment |N|The Hewn Bog is just southwest of Orebor.|
 C Familiar Fungi
 C Wanted: Chieftain Mummaki |N|In the tower (24,27)|
 C Secrets of the Daggerfen |N|The manual is at the top of the tower (24,27). The vial is a random spawn at the three camps (look on your map).|
 C Daggerfen Deviance
 
 T Secrets of the Daggerfen |N|Back at Orebor Harborage|
-T Ango'Rosh Encroachment
+T Ango'rosh Encroachment
 A Overlord Gorefist
 T Daggerfen Deviance
 T Wanted: Chieftain Mummaki
@@ -148,9 +145,11 @@ A The Terror of Marshlight Lake
 A Drain Schematics |U|24330| |N|You should have gotten an item from the naga.| |O|
 C Drain Schematics |O| |N|You need to go to the centre of Serpent Lake.|
 C Natural Armor |N|Fenclaw Thrashers are around the pipes in the center of Serpent Lake.|
-C Lines of Communication |N|Marshfang Slicers are all around Zabra'Jin, the Horde town southwest of Serpent Lake. Don't tangle with the guards.|
+C Lines of Communication |N|Marshfang Slicers are south of Zabra'Jin, the Horde town southwest of Serpent Lake. Don't tangle with the guards.  You can find more to the west as well.|
+A The Count of the Marshes |U|25459| |N|Kill "Count" Ungula if you didn't, back south of Zabra'Jin (33,59).|
 T Familiar Fungi |N|At the watchpost, west of the Spawning Glen (23,66).|
 A Stealing Back the Mushrooms
+T The Count of the Marshes
 C Stinger Venom |N|Every side of Marshlight Lake except the east side.|
 C The Terror of Marshlight Lake |N|Terrorclaw is on the southern-most island in Marshlight Lake, west and a bit south of the pump (22,45). He also fears, so be aware.|
 C Overlord Gorefist |N|Far northwest of the zone, the little island with a bridge to it (18,9).|
