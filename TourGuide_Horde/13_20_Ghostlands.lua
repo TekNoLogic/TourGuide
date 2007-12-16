@@ -1,21 +1,29 @@
 TourGuide:RegisterGuide("Ghostlands (13-20)", nil, "Horde", function()
 return [[
-A The Fallen Courier |R|Orc| |N|On the Eversong/Ghostlands boundry|
+A Missing in the Ghostlands |R|Orc| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods|
+T Missing in the Ghostlands |R|Orc| |N|On the Eversong/Ghostlands boundry|
+A The Fallen Courier |R|Orc|
 C The Fallen Courier |R|Orc|
 T The Fallen Courier |R|Orc|
 A Delivery to Tranquillien |R|Orc|
 
-A The Fallen Courier |R|Troll| |N|On the Eversong/Ghostlands boundry|
+A Missing in the Ghostlands |R|Troll| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods|
+T Missing in the Ghostlands |R|Troll| |N|On the Eversong/Ghostlands boundry|
+A The Fallen Courier |R|Troll|
 C The Fallen Courier |R|Troll|
 T The Fallen Courier |R|Troll|
 A Delivery to Tranquillien |R|Troll|
 
-A The Fallen Courier |R|Tauren| |N|On the Eversong/Ghostlands boundry|
+A Missing in the Ghostlands |R|Tauren| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods|
+T Missing in the Ghostlands |R|Tauren| |N|On the Eversong/Ghostlands boundry|
+A The Fallen Courier |R|Tauren|
 C The Fallen Courier |R|Tauren|
 T The Fallen Courier |R|Tauren|
 A Delivery to Tranquillien |R|Tauren|
 
-A The Fallen Courier |R|Undead| |N|On the Eversong/Ghostlands boundry|
+A Missing in the Ghostlands |R|Undead| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods|
+T Missing in the Ghostlands |R|Undead| |N|On the Eversong/Ghostlands boundry|
+A The Fallen Courier |R|Undead|
 C The Fallen Courier |R|Undead|
 T The Fallen Courier |R|Undead|
 A Delivery to Tranquillien |R|Undead|
@@ -29,7 +37,6 @@ T Return to Arcanist Vandril
 A Suncrown Village
 A Tomber's Supplies
 A Goods from Silvermoon City |R|Blood Elf|
-f Grab the flight point
 T Goods from Silvermoon City |R|Blood Elf|
 h Tranquillien
 A The Plagued Coast
@@ -45,8 +52,7 @@ R Farstrider Enclave |N|To the south (72,32|
 A Bearers of the Plague
 A Spirits of the Drowned
 
-N Swim north |N|Work on "Spirits of the Drowned" and "Forgotten Rituals" along the way|
-C Dealing with Zeb'Sora |N|East side of the lake (74,12)|
+C Dealing with Zeb'Sora |N|East side of the lake (74,12).  Work on "Spirits of the Drowned" and "Forgotten Rituals" as you swim over.|
 T Dealing with Zeb'Sora
 A Report to Captain Helios
 C Forgotten Rituals
@@ -57,8 +63,7 @@ T Vanquishing Aquantion
 C Spirits of the Drowned
 C Bearers of the Plague
 
-R Farstrider Enclave
-T Report to Captain Helios
+T Report to Captain Helios |N|Back at Farstrider Enclave|
 T Spirits of the Drowned
 T Bearers of the Plague
 A Curbing the Plague
@@ -86,8 +91,7 @@ A Underlight Ore Samples |N|Grind mobs on your way (31,48)|
 C Trouble at the Underlight Mines
 C Underlight Ore Samples
 
-R Tranquillien
-T Down the Dead Scar
+T Down the Dead Scar |N|Back at Tranquillien|
 T Trouble at the Underlight Mines
 T Culinary Crunch
 T Tomber's Supplies
@@ -121,8 +125,7 @@ A The Farstrider Enclave
 T Deliver the Plans to An'telas |N|(60,35)|
 A Deactivate An'owyn
 
-R Farstrider Enclave
-T Curbing the Plague
+T Curbing the Plague |N|Back at Farstrider Enclave|
 T The Farstrider Enclave
 A Attack on Zeb'Tela
 A Shadowpine Weaponry
@@ -144,22 +147,19 @@ A Escape from the Catacombs
 C Escape from the Catacombs
 T Escape from the Catacombs
 
-R Zeb'Nowa |N|South (68,51)|
-C A Little Dash of Seasoning |N|Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75)|
+C A Little Dash of Seasoning |N|South at Zeb'Nowa.  Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75)|
 C Shadowpine Weaponry
 C Assault on Zeb'Nowa
 C Bring Me Kel'gash's Head! |N|He's elite, if you can't solo him get a group or come back later (65,79)| |O|
 C Deactivate An'owyn
 
-R Farstrider Enclave
-T Bring Me Kel'gash's Head! |O|
-T Assault on Zeb'Nowa
+T Bring Me Kel'gash's Head! |O| |N|Back at Farstrider Enclave|
+T Assault on Zeb'Nowa |N|Back at Farstrider Enclave|
 T A Little Dash of Seasoning
 T Shadowpine Weaponry
 T Deactivate An'owyn |N|(60,35)|
 
-R Sanctum of the Sun
-T Report to Magister Kaendris
+T Report to Magister Kaendris |N|Back at Sanctum of the Sun|
 A The Twin Ziggurats
 A War on Deatholme
 A Clearing the Way |N|(46,56)|
@@ -177,15 +177,13 @@ T Investigate the Amani Catacombs
 T Rotting Hearts
 T Spinal Dust
 
-R Sanctum of the Sun
-T War on Deatholme
+T War on Deatholme |N|Back at Sanctum of the Sun|
 T The Twin Ziggurats
 A The Traitor's Destruction
 A Dar'Khan's Lieutenants
 A A Restorative Draught
 
-R Tranquillien
-T A Restorative Draught
+T A Restorative Draught |N|Back at Tranquillien|
 A Captives at Deatholme
 
 R Deatholme
@@ -195,20 +193,16 @@ C Captives at Deatholme |N|Enith is in the crypt (32,73), Varnis (40,83), Vedora
 C Dar'Khan's Lieutenants |N|Jurion is in the crypt (32,73), Borgoth (40,83), Masophet (36,88), Mirdoran (37,79)|
 C The Traitor's Destruction |N|He's a tough elite, so if you don't have a group you can skip this| |O|
 
-R Sanctum of the Sun |N|Or die and spirit rez|
+T Dar'Khan's Lieutenants |N|Back at Sanctum of the Sun, deathport if you want|
+T Captives at Deatholme
 T The Traitor's Destruction |O|
 A Hero of the Sin'dorei |N|If you finished "The Traitor's Destruction"|
-T Dar'Khan's Lieutenants
-T Captives at Deatholme
 
-R Tranquillien
-A Fly to Silvermoon City |R|Blood Elf|
-F Silvermoon City
-T Fly to Silvermoon City |N|(53,71)| |R|Blood Elf|
+A Fly to Silvermoon City |R|Blood Elf| |N|Back at Tranquillien|
+T Fly to Silvermoon City |N|Fly to Silvermoon, duh! (53,71)| |Z|Silvermoon City| |R|Blood Elf|
 T Hero of the Sin'dorei |N|(53,20)| |O|
 
-R Undercity |N|Teleport at the sunspire (49,14)|
-
+R Undercity |N|Teleport at the sunspire in Silvermoon City (49,14)| |Z|Silvermoon City|
 ]]
 end)
 
