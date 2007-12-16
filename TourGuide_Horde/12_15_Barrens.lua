@@ -1,7 +1,6 @@
 
 TourGuide:RegisterGuide("The Barrens (12-15)", "Stonetalon Mountains (15-16)", "Horde", function()
 return [[
-N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity and port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
 R Razor Hill |R|Undead|
 A Conscript of the Horde |R|Undead|
 
@@ -9,23 +8,21 @@ R The Barrens
 
 R Camp Taurajo |N|Stay on the road| |R|Tauren|
 A Journey to the Crossroads |R|Tauren|
-f Grab flight point |R|Tauren|
 
 R The Crossroads |N|Take the road north| |R|Tauren|
 T The Barrens Oases |R|Tauren|
 T Journey to the Crossroads |R|Tauren|
-T Sergra Darkthornz |R|Tauren|
+T Sergra Darkthorn |R|Tauren|
 
-A A Bundle of Hides |R|Tauren|
+A A Bundle of Hides |R|Tauren| |N|At the north edge of Crossroad, in the forge (51.19, 29.11)|
 T A Bundle of Hides |R|Tauren|
 A Ride to Thunder Bluff |R|Tauren|
 F Thunder Bluff |R|Tauren|
-T Ride to Thunder Bluff |R|Tauren|
+T Ride to Thunder Bluff |R|Tauren| |N|Fly to Thunder Bluff.  At the base of the windrider totem (45.65, 55.90)|
 A Tal the Wind Rider Master |R|Tauren|
 T Tal the Wind Rider Master |R|Tauren|
 A Return to Jahan |R|Tauren|
-F The Crossroads |R|Tauren|
-T Return to Jahan |R|Tauren|
+T Return to Jahan |R|Tauren| |N|Fly back to Crossroads!|
 
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc|
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll|
@@ -36,11 +33,17 @@ A Crossroads Conscription |R|Undead|
 T Ak'Zeloth |N|Skip the follow-up| |R|Orc|
 T Ak'Zeloth |N|Skip the follow-up| |R|Troll|
 
-N Tame a Savannah Huntress while running to the Crossroads |C|Hunter|
-R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)|
+N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc|
+N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Troll|
+R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc|
+R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Troll|
+R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Undead|
 T Crossroads Conscription |R|Orc|
 T Crossroads Conscription |R|Troll|
 T Crossroads Conscription |R|Undead|
+
+N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity from Orgrimmar, then port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
+
 A Plainstrider Menace
 A The Forgotten Pools
 A Raptor Thieves
@@ -48,7 +51,6 @@ h The Crossroads
 A Disrupt the Attacks
 A Supplies for the Crossroads
 A Harpy Raiders |N|On the watch tower|
-f The Crossroads
 A Wharfmaster Dizzywig
 A Fungal Spores
 C Disrupt the Attacks |N|East of XR, north of the mountain. Kill Plainstriders and Raptors as you see them. (54,26)|

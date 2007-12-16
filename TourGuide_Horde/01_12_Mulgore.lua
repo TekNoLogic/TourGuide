@@ -167,7 +167,7 @@ T The Demon Scarred Cloak |O|
 T Dangers of the Windfury
 T Wildmane Cleansing
 
-C Supervisor Fizsprocket |N|In the cave|
+C Supervisor Fizsprocket |N|In the mine to the east of the Ravaged Caravan (61,47)|
 C The Venture Co.
 T The Venture Co.
 T Supervisor Fizsprocket
