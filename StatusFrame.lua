@@ -124,7 +124,7 @@ function TourGuide:SetText(i)
 end
 
 
-local lastmapped, lastmappedaction
+local lastmapped, lastmappedaction, tex, uitem
 function TourGuide:UpdateStatusFrame()
 	self:Debug(1, "UpdateStatusFrame", self.current)
 
@@ -230,15 +230,24 @@ function TourGuide:UpdateStatusFrame()
 	if not f2:IsVisible() then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end
 	newsize = FIXEDWIDTH + text:GetWidth()
 
-	local tex = useitem and select(10, GetItemInfo(tonumber(useitem)))
+	tex = useitem and select(10, GetItemInfo(tonumber(useitem)))
+	uitem = useitem
+	if InCombatLockdown() then self:RegisterEvent("PLAYER_REGEN_ENABLED")
+	else self:PLAYER_REGEN_ENABLED() end
+
+	self:UpdateOHPanel()
+end
+
+
+function TourGuide:PLAYER_REGEN_ENABLED()
 	if tex then
 		itemicon:SetTexture(tex)
 		item:SetAttribute("type1", "item")
-		item:SetAttribute("item1", "item:"..useitem)
+		item:SetAttribute("item1", "item:"..uitem)
 		item:Show()
+		tex = nil
 	else item:Hide() end
-
-	self:UpdateOHPanel()
+	self:UnregisterEvent("PLAYER_REGEN_ENABLED")
 end
 
 

@@ -153,9 +153,9 @@ function TourGuide:UpdateOHPanel(value)
 			row.detail:SetText(self:GetObjectiveTag("N", i + offset))
 			row.check:SetChecked(checked)
 
-			if TourGuide.current > (i + offset) and optional and not checked then
+			if (TourGuide.current > (i + offset)) and optional and not checked then
 				row.text:SetTextColor(0.5, 0.5, 0.5)
-				row.check:SetChecked(true)
+--~ 				row.check:SetChecked(true)
 				row.check:Disable()
 			else
 				row.text:SetTextColor(1, 0.82, 0)
