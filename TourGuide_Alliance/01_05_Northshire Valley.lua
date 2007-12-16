@@ -1,7 +1,8 @@
-TourGuide:RegisterGuide("Northshire Valley (1-5)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Northshire Valley (1-5)", "Elwynn Forest (5-11)", "Alliance", function()
 return [[
 A A Threat Within
 T A Threat Within
+A Kobold Camp Cleanup |N|Save your Refreshing Spring Water for later| |C|Warrior| |C|Paladin| |C|Rogue| |C|Warlock|
 A Kobold Camp Cleanup
 A Wolves Across the Border
 
@@ -31,7 +32,7 @@ A The Stolen Tome |C|Warlock|
 
 C Investigate Echo Ridge |N|Northeast of the Abbey (51.25, 37.25)|
 C The Stolen Tome |N|The book is on the ground next to the tent (56.7, 44.0)| |C|Warlock|
-C Brotherhood of Thieves |N|East of Abbey across bridge|
+C Brotherhood of Thieves |N|East of Abbey accross bridge|
 
 T The Stolen Tome |C|Warlock|
 T Brotherhood of Thieves
@@ -48,13 +49,13 @@ T Skirmish at Echo Ridge
 A Report to Goldshire
 A In Favor of the Light |C|Priest|
 
-C Milly's Harvest |N|In the Farm to the southeast|
+C Milly's Harvest |N|In the Farm to the Southeast|
 C Bounty on Garrick Padfoot |N|At the small wooden shed behind the farm (57.50, 48.25)|
 
 T Milly's Harvest
 A Grape Manifest
 T Bounty on Garrick Padfoot
-T Grape Manifest |N|To Brother Neals upstairs in the Abbey|
-A Rest and Relaxation |N|Along the road south out of the abbey|
+T Grape Manifest
+A Rest and Relaxation |N|Along the road south out of Valley|
 ]]
 end)
