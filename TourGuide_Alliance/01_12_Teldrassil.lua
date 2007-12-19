@@ -89,7 +89,7 @@ A Ferocitas the Dream Eater |N|
 
 C Seek Redemption!
 T Seek Redemption! |N|East at Zenn Foulhoof|
-C Ferocitas the Dream Eater |N|North of Starbreeze.  Kill Ferocitas (69.37, 53,41) and open the necklace he drops for the jewel.| |U|8049|
+C Ferocitas the Dream Eater |N|North of Starbreeze.  Kill Ferocitas (69.37, 53.41) and open the necklace he drops for the jewel.| |U|8049|
 
 C Twisted Hatred |N|North of Dolanaar (52.83, 50.19).  You can also wait until you're 10 to do this.|
 T Ferocitas the Dream Eater
@@ -133,26 +133,26 @@ N Tame your pet |C|Hunter| |N|Elder Nightsaber (42,42) is nice|
 A Heeding the Call |C|Druid|
 
 R Darnassus
-T Rellian Greenspyre |N|At Cenarion Enclave (38.17, 21.65)|
+T Rellian Greenspyre |N|At Cenarion Enclave (38.17, 21.65)| |Z|Darnassus|
 A Tumors
 
 T Training the Beast |C|Hunter| |N|(40,8)|
 
-T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)|
+T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)| |Z|Darnassus|
 A Moonglade |C|Druid|
 T Moonglade |N|Teleport there, go into the house past the light armor salesmen| |C|Druid|
 A Great Bear Spirit |C|Druid|
-T Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39,28)|
+T Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39,28)| |Z|Moonglade|
 A Back to Darnassus |C|Druid|
 T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade|
 A Body and Heart |C|Druid|
 R Rut'theran Village |N|The portal west of the bank| |C|Druid|
 F Auberdine |C|Druid|
-C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid|
+C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid| |Z|Darkshore|
 F Darnassus |C|Druid|
 T Body and Heart |C|Druid|
 
-A Nessa Shadowsong |N|From Mydrannul (70.67, 45.37) on your way out of Darnassus.| |R|Night Elf|
+A Nessa Shadowsong |N|From Mydrannul (70.67, 45.37) on your way out of Darnassus.| |R|Night Elf| |Z|Darnassus|
 
 A The Glowing Fruit |N|Out of town, south of the Pools of Arlithrien, just outside Gnarlpine Hold (42.61, 76.11)|
 C Ursal the Mauler |N|West of the glowing tree (39,80)|

@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
-R Rut'theran Village |N|Run thru the portal west of the bank (30.52, 41.44)|
+R Rut'theran Village |N|Run thru the portal west of the bank (30.52, 41.44)| |Z|Teldrassil|
 T Nessa Shadowsong |R|Night Elf|
 A The Bounty of Teldrassil |R|Night Elf|
 T The Bounty of Teldrassil |N|At the hippogryph master| |R|Night Elf|
@@ -31,7 +31,7 @@ T Buzzbox 827 |N|Near the Auberdine flight platform (36.66, 46.25)|
 A Buzzbox 411
 T Washed Ashore (Part 1)
 A Washed Ashore (Part 2)
-C Washed Ashore (Part 2) |N|Run out onto the dock and jump off the south pier (the one that goes to Menethil).  Find the turtle northeast of the small island, underwater (61.82, 46.28)|
+C Washed Ashore (Part 2) |N|Run out onto the dock and jump off the south pier (the one that goes to Menethil).  Find the turtle northeast of the small island, underwater (31.82, 46.28)|
 C Buzzbox 411 |N|Threshers are in the sea, north of the pier|
 T Washed Ashore (Part 2)
 T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head northwest above the cove. Buzzbox is on the beach north of the cove (41.96, 28.62)|
