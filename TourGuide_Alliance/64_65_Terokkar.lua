@@ -10,20 +10,19 @@ T City of Light
 A Allegiance to the Aldor
 T Allegiance to the Aldor
 A Ishanah
-A Marks of Kil'jaeden |N|Up on Aldor Rise.|
 T Ishanah
 A Restoring the Light
 h Shattrath City |N|As you leave the temple the inn is to your right.|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.|
-T What's Wrong at Cenarion Thicket
+T What's Wrong at Cenarion Thicket?
 A Strange Energy
 A Clues in the Thicket
 A It's Watching You!
 C Clues in the Thicket |N|The clue you're after is in the inn.|
 C It's Watching You! |N|Up the tower|
 T It's Watching You!
-C Strange Energy
+C Strange Energy |N|Kill the moths in the thicket, and the ones south of the road|
 T Strange Energy
 T Clues in the Thicket
 A By Any Means Necessary
@@ -33,11 +32,8 @@ A Wind Trader Lathrai
 
 N Rep tokens... |N|Save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
 
-N Western Altar |N|Use the Blessed Vial at the Western Altar (48.11, 14.52).| |Q|Restoring the Light| |QO|Western Altar: 1/1| |U|25817|
-N Northern Altar |N|Use the Blessed Vial at the Northern Altar (50.66, 16.55).| |Q|Restoring the Light| |QO|Northern Altar: 1/1| |U|25817|
-N Eye of Veil Reskk |N|Get the Eye of Veil Reskk from the tree hut near the north altar (49.90, 16.52).| |Q|The Eyes of Skettis| |QO|Eye of Veil Reskk: 1/1|
-N Eastern Altar |N|Use the Blessed Vial at the Eastern Altar (49.25, 20.32).| |Q|Restoring the Light| |QO|Eastern Altar: 1/1| |U|25817|
-N Eye of Veil Shienor |N|Get the Eye of Veil Shienor from the tree hut in Veil Shienor (57.90, 23.12).| |Q|The Eyes of Skettis| |QO|Eye of Veil Shienor: 1/1|
+C Restoring the Light |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.|
+C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).|
 
 H Aldor Rise
 T Restoring the Light
@@ -47,30 +43,32 @@ T Rather Be Fishin' |N|Skip the follow-up.|
 T Wind Trader Lathrai
 A A Personal Favor
 
-C Marks of Kil'jaeden |N|Marks drop off the Cabal mobs around the Shadow Tomb in the Bone Wastes (30,52).|
-A Cabal Orders |N|The item that starts this quest drops from Cabal Skirmishers and Spellweavers. Keep killing them until you get it.| |U|TODO|
-T Cabal Orders |N|The Refugee Caravan is somewhat east of the Shadow Tomb (38,50).|
+A Before Darkness Falls |N|Follow the road out of Shattrath south to the Refugee Caravan (38,50).|
+C Before Darkness Falls |N|South around the Shadow Stair (39.61, 56.25)|
+A Cabal Orders |N|The item that starts this quest drops from Cabal Skirmishers, Spell-weavers and Initiates. Keep killing them until you get it.| |U|31707|
+T Cabal Orders |N|Back at the caravan|
+T Before Darkness Falls
 A The Shadow Tomb
-A Before Darkness Falls
 T Seek Out Kirrik
 A Veil Skith: Darkstone of Terokk
 A Missing Friends
 A The Infested Protectors
-C The Infested Protectors |N|Kill the infested/rotting treants in the Bone Wastes, then kill the mites that spawn from them.|
 
-C Veil Skith: Darkstone of Terokk |N|Veil Skith, south of Shattrath (30,41).|
+C The Infested Protectors |N|Kill the infested/rotting treants around the edges of the Bone Wastes, then kill the mites that spawn from them.|
+C Veil Skith: Darkstone of Terokk |N|Veil Skith, south of Shattrath (30.77, 42.03).| |U|31610|
 C A Personal Favor
 C Missing Friends |N|Kill Arakkoa, collect keys, free kids.|
+C The Shadow Tomb |N|The three items are in the three "wings" of the Shadow Tomb (30.95, 52.67).|
 
-C The Shadow Tomb |N|The three items are in the three "wings" of the tomb.|
-C Before Darkness Falls |N|Outside of Auchindoun, southwest of the Shadow Tomb (37,57)|
+A Escaping the Tomb
+C Escaping the Tomb
 
+T Escaping the Tomb |N|Back at the caravan|
 T The Infested Protectors
 T Veil Skith: Darkstone of Terokk
 A Veil Rhaze: Unliving Evil
 T Missing Friends
 T The Shadow Tomb
-T Before Darkness Falls
 
 C Veil Rhaze: Unliving Evil |N|West of the caravan (26,53).|
 
@@ -86,9 +84,9 @@ C Digging Through Bones
 T Digging Through Bones
 A Fumping |N|Again group, but this one isn't elite.|
 
-C An Improper Burial |N|Just east of the base camp.|
+C An Improper Burial |N|Just east of the base camp.| |U|31769|
 C The Dread Relic |N|The Derelict Caravan is east of the base camp (43.94, 76.50).|
-C Fumping |N|Recommended you do the Fumping a bit east of the caravan, since the mobs around here are neutral (46,78).|
+C Fumping |N|Recommended you do the Fumping a bit east of the caravan, since the mobs around here are neutral (46,78).| |U|31810|
 
 A For the Fallen |N|Vindicator Haylen is northwest of the Netherweb Ridge (49.71, 76.18).|
 C Taken in the Night
@@ -99,9 +97,9 @@ T Taken in the Night |N|Back at the base camp.|
 T Fumping
 T The Dread Relic
 T An Improper Burial
-A A Hero is Needed
-C A Hero is Needed
-T A Hero is Needed
+A A Hero Is Needed |NODEBUG|
+C A Hero Is Needed |NODEBUG|
+T A Hero Is Needed |NODEBUG|
 A The Fallen Exarch
 C The Fallen Exarch |N|The west side of Auchindoun (35,66).|
 T The Fallen Exarch
@@ -134,7 +132,6 @@ A The Skettis Offensive |N|This quest is tricky. Bring a friend if you can.|
 T The Skettis Offensive
 T A Personal Favor
 A Investigate Tuurem
-T Marks of Kil'jaeden |N|Up on Aldor Rise.|
 
 H Allerian Stronghold
 N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground). Also kill Warp Stalkers and Timber Worgs as you run across them.|

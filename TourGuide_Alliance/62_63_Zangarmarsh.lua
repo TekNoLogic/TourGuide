@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Zangarmarsh (62-63)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Zangarmarsh (62-63)", "Terokkar Forest (64-65 Aldor)", "Alliance", function()
 return [[
 R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!|
 A The Umbrafen Tribe
@@ -189,8 +189,8 @@ A Gathering the Reagents
 C Gathering the Reagents |N|You want to kill normal Spore Bats, not the greater or lesser.|
 T Gathering the Reagents
 A Messenger to the Feralfen
-C Messenger to the Feralfen |N|Feralfen Village is in the southern hills of Zangarmarsh (43,69).|
-T Messenger to the Feralfen
+C Messenger to the Feralfen |N|Go to the Boha'mu Ruins (44.12, 69.45), drink the elixir and talk to Elder Kuruti.| |U|24428|
+T Messenger to the Feralfen |N|Back at Telredor|
 ]]
 
 end)
