@@ -114,10 +114,11 @@ local function ParseQuests(...)
 end
 
 
-function TourGuide:LoadGuide(name)
+function TourGuide:LoadGuide(name, complete)
 	if not name then return end
 
-	if self.actions then self.db.char.completion[self.db.char.currentguide] = (self.current-1)/#self.actions end
+	if complete then self.db.char.completion[self.db.char.currentguide] = 1
+	elseif self.actions then self.db.char.completion[self.db.char.currentguide] = (self.current-1)/#self.actions end
 
 	self.db.char.currentguide = self.guides[name] and name or self.guidelist[1]
 	self:DebugF(1, "Loading guide: %s", name)

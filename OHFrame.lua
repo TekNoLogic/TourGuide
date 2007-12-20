@@ -161,6 +161,8 @@ function TourGuide:UpdateOHPanel(value)
 				row.text:SetTextColor(1, 0.82, 0)
 				row.check:Enable()
 			end
+
+			if self.db.char.currentguide == "No Guide" then row.check:Disable() end
 		end
 	end
 end

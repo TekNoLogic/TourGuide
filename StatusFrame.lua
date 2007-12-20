@@ -117,6 +117,8 @@ function TourGuide:SetText(i)
 	if action ~= "ACCEPT" and action ~= "TURNIN" then icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
 	text:SetText(newtext)
 	check:SetChecked(false)
+	check:SetButtonState("NORMAL")
+	if self.db.char.currentguide == "No Guide" then check:Disable() else check:Enable() end
 	if i == 1 then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end
 	newsize = FIXEDWIDTH + text:GetWidth()
 
@@ -252,12 +254,15 @@ end
 
 
 f:SetScript("OnClick", function(self, btn)
-	if btn == "RightButton" then
-		OptionHouse:Open("Tour Guide", "Objectives")
+	if TourGuide.db.char.currentguide == "No Guide" then OptionHouse:Open("Tour Guide", "Guides")
 	else
-		local i = TourGuide:GetQuestLogIndexByName()
-		if i then SelectQuestLogEntry(i) end
-		ShowUIPanel(QuestLogFrame)
+		if btn == "RightButton" then
+			OptionHouse:Open("Tour Guide", "Objectives")
+		else
+			local i = TourGuide:GetQuestLogIndexByName()
+			if i then SelectQuestLogEntry(i) end
+			ShowUIPanel(QuestLogFrame)
+		end
 	end
 end)
 

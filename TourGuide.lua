@@ -39,7 +39,8 @@ function TourGuide:Initialize()
 			turnins = {},
 			cachedturnins = {},
 			trackquests = true,
-			completion = {}
+			completion = {},
+			currentguide = "No Guide",
 		},
 	})
 	if self.db.char.turnedin then self.db.char.turnedin = nil end -- Purge old table if present
@@ -76,12 +77,7 @@ end
 
 
 function TourGuide:LoadNextGuide()
-	local name = self.nextzones[self.db.char.currentguide]
-	if not name then return end
-
---~ 	for i,quest in ipairs(self.quests) do self.turnedin[quest] = nil end -- Clean out old completed objectives, to avoid conflicts
-
-	self:LoadGuide(name)
+	self:LoadGuide(self.nextzones[self.db.char.currentguide] or "No Guide", true)
 	self:UpdateGuidesPanel()
 	return true
 end
