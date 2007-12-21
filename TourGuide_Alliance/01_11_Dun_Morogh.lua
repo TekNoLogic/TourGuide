@@ -141,8 +141,8 @@ A Speak with Bink |C|Mage|
 A Road to Salvation |C|Rogue|
 A Muren Stormpike |C|Warrior|
 
-R Ironforge
-T The Reports |Z|Ironforge| |N|The High Seat (39.6, 57.1)|
+R City of Ironforge
+T The Reports |Z|City of Ironforge| |N|The High Seat (39.6, 57.1)|
 
 T Training the Beast |C|Hunter|
 

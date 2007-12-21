@@ -75,7 +75,7 @@ A Lifting the Curse
 T Digging Through the Ooze
 T Apprentice's Duties
 T Return the Statuette
-F Ironforge
+F City of Ironforge
 T An Old Colleague
 F Stormwind City
 T A Scroll from Mauren |N|The Mage Quarter|

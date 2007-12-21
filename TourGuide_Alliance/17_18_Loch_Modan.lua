@@ -43,7 +43,7 @@ T Vyrin's Revenge (Part 1)
 A Vyrin's Revenge (Part 2)
 T Vyrin's Revenge (Part 2)
 T Bingles' Missing Supplies |N|Remember Bingles at the shore?|
-R Ironforge
+R City of Ironforge
 f Grab flight point
 T Report to Ironforge |N|Hall of Explorers. Skip the next quest he tries to give you|
 R Stormwind City |N|Use the Deeprun Tram|

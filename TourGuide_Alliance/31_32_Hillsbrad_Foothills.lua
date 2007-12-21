@@ -56,8 +56,8 @@ F Menethil Harbor
 T The Eye of Paleth
 A Cleansing the Eye
 
-F Ironforge
-T Letter to Stormpike |Z|Ironforge| |N|Hall of Explorers (72,15)|
+F City of Ironforge
+T Letter to Stormpike |Z|City of Ironforge| |N|Hall of Explorers (72,15)|
 A Further Mysteries
 A Reclaimers' Business in Desolace |N|From Roetten Stonehammer who walks around nearby.|
 

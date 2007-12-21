@@ -51,7 +51,7 @@ T The Green Hills of Stranglethorn
 
 H Booty Bay
 T Excelsior
-F Ironforge
+F City of Ironforge
 ]]
 
 end)

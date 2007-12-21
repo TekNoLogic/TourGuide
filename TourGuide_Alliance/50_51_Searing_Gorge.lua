@@ -1,9 +1,9 @@
 
 TourGuide:RegisterGuide("Searing Gorge (50-51)", "Kalimdor (51)", "Alliance", function()
 return [[
-F Ironforge
+F City of Ironforge
 A The Hunter's Charm |C|Hunter|
-h Ironforge
+h City of Ironforge
 A Assisting Arch Druid Staghelm |N|From the innkeeper|
 B 15 Silk Cloth |L|4306 15| |N|If you don't already have them, that is|
 
@@ -36,7 +36,7 @@ A Curse These Fat Fingers
 A Fiery Menace!
 A Incendosaurs? Whateverosaur is More Like It
 
-F Ironforge
+F City of Ironforge
 T Suntara Stones (Part 2) |N|In the Hall of Explorers|
 A Dwarven Justice
 
@@ -44,7 +44,7 @@ F Thelsamar
 T The Horn of the Beast |N|Down in the Valley of Kings, by the locked gate (18.18,84.06)| |Z|Loch Modan|
 A Proof of Deed
 
-H Ironforge
+H City of Ironforge
 T Proof of Deed |N|In the Hall of Explorers|
 A At Last!
 A A Little Slime Goes a Long Way |N|In the Hall of Explorers museum (75.82,23.19)| |Z|City of Ironforge|

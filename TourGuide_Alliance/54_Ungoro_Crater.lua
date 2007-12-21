@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Un'Goro Crater (54)", "Felwood (54)", "Alliance", function()
 return [[
-F Ironforge
+F City of Ironforge
 T A Little Slime Goes a Long Way (Part 1) |N|In the Hall of Explorers|
 A A Little Slime Goes a Long Way (Part 2)
 T Return to Tymor |N|In the Mystic Ward|
