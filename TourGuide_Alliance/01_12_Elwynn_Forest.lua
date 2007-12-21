@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Elwynn Forest (1-11)", "Darkshore (12-17)", "Alliance", function()
+TourGuide:RegisterGuide("Elwynn Forest (1-12)", "Darkshore (12-17)", "Alliance", function()
 return [[
 A A Threat Within
 T A Threat Within
