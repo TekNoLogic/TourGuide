@@ -11,7 +11,7 @@ A The Thirsty Goblin
 A Noxious Lair Investigation
 A Super Sticky
 A Thistleshrub Valley
-A The Dunemaul compound
+A The Dunemaul Compound
 T The Sunken Temple |N|at (52,45)|
 A The Stone Circle
 A Gahz'ridian
@@ -22,6 +22,8 @@ C Noxious Lair Investigation |N|At (34,47)|
 C Thistleshrub Valley |N|(28,65) with next one|
 C The Thirsty Goblin |N|At (28,65)|
 C Tooga's Quest |N|Long escort quest ends at Torta (66,25)|
+T Tooga's Quest
+T Screecher Spirits
 
 R Gadgetzan
 T The Thirsty Goblin

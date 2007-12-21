@@ -43,6 +43,7 @@ A Squire Maltrake
 T Squire Maltrake
 A Set Them Ablaze!
 C Set Them Ablaze! |N|north=(33,54) south=(44,61) east=(50,54) west=(35,60)|
+T Set Them Ablaze!
 A Trinkets... |N|click on the chest on the ground (38,38)|
 T Trinkets... |N|Click on the chest again|
 N Keep the Black Dragonflight Molt in your inventory as you will need for a later quest

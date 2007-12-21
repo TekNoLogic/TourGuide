@@ -8,7 +8,7 @@ A Gadgetzan Water Survey
 A Wastewander Justice
 A Water Pouch Bounty
 h Gadgetzan
-R Shimmering Flats
+R Mirage Raceway |N|Shimmering Flats|
 T Rumors for Kravel
 T News for Fizzle
 T Razzeric's Tweaking
@@ -50,6 +50,8 @@ A Deliver to MacKinley
 C More Wastewander Justice |N|At (59,37)|
 C WANTED: Caliph Scorpidsting  |N|At (59,37)|
 H Gadgetzan
+T More Wastewander Justice
+T WANTED: Caliph Scorpidsting
 N Save all Wastewander Water Pouches
 F Freewind Post
 R Feralas

@@ -5,6 +5,7 @@ A Army of the Black Dragon
 A Overlord Mok'Morokk's Concern
 A Questioning Reethe |N|Down at (40,36)|
 C Questioning Reethe
+T Questioning Reethe
 F Mudsprocket
 A Bloodfen Feathers
 A WANTED: Goreclaw the Ravenous
@@ -36,7 +37,6 @@ A Challenge to the Black Flight
 C Challenge to the Black Flight |N|At (53,76)|
 T Challenge to the Black Flight
 F Brackenwall Village
-T Questioning Reethe
 T Army of the Black Dragon
 T Overlord Mok'Morokk's Concern
 T Identifying the Brood

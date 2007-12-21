@@ -77,7 +77,6 @@ T A Grim Discovery (Part 2)
 A Betrayed
 
 T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar|
-A Return to Witch Doctor Uzer'i
 
 T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar|
 A Service to the Horde

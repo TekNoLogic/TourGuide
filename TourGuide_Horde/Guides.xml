@@ -35,6 +35,7 @@
 	<Script file="44_45_Tanaris.lua"/>
 	<Script file="45_46_Feralas.lua"/>
 	<Script file="46_47_Azshara.lua"/>
+	<Script file="47_StranglethornVale.lua"/>
   <Script file="47_48_Searing_Gorge.lua"/>
   <Script file="48_49_Swamp_of_Sorrows.lua"/>
   <Script file="49_50_Tanaris.lua"/>
