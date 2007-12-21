@@ -9,10 +9,11 @@ A Hameya's Plea |N|From the scroll on the ground at (27,85)|
 N Grind down to Darrowshire while working on Blood Tinged Skies, Demon Dogs, Carrion Grubbage |N|(36,90)|
 T Sister Pamela |N|At Darrowshire (36,90)|
 A Pamela's Doll
-C Pamela's Doll |N|Three parts, one in each building|
+C Pamela's Doll |N|Three parts in closest building|
+T Pamela's Doll
 A Auntie Marlene
 A Uncle Carlin
-C Blood Tinged Skies
+C Blood Tinged Skies |N|Finish it this time|
 N Dogs Make sure you kill 20 Plaguehound Runts for Demon Dogs
 R Light's Hope Chapel |N|At (81,60)|
 A Zaeldarr the Outcast
@@ -30,7 +31,7 @@ C Un-Life's Little Annoyances
 C A Plague Upon Thee (Part 1) |N|Done at Plaguewood up North|
 A Augustus' Receipt Book |N|From hut at (13,34)|
 C Augustus' Receipt Book |N|Book is upstairs in the inn at (15,33)|
-C The Restless Souls |N|Egan is in the hut at (13,34)|
+T The Restless Souls |N|Egan is in the hut at (13,34)|
 T Augustus' Receipt Book
 N Grind/stealth through the cave, not easy!!
 T Demon Dogs
@@ -47,6 +48,6 @@ T Better Late Than Never
 A The Jeremiah Blues
 T The Jeremiah Blues |N|Right underneath the bank|
 A Good Luck Charm
-R Bulwark
+R The Bulwark
 ]]
 end)

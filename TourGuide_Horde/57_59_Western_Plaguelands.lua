@@ -4,10 +4,11 @@ T Return to the Bulwark
 T A Plague Upon Thee (Part 1)
 A A Plague Upon Thee (Part 2)
 A Mission Accomplished
-C Mission Accomplished
-T Good Luck Charm
-A Two Halves Become One |N|The lady in the house at (37,56)|
+T Mission Accomplished
+T Good Luck Charm  |N|The lady in the house at (37,56)|
+A Two Halves Become One
 C Two Halves Become One |N| Just kill a jabbering ghoul in Felstone Field|
+T Two Halves Become One |N| combine the two halves of the pendant first|
 T A Plague Upon Thee (Part 2) |N| All done at (48,31)|
 A A Plague Upon Thee (Part 3)
 A Unfinished Business (Part 1) |N| At (51,28)|
@@ -42,7 +43,7 @@ A Counting Out Time
 A Brother Carlin
 C Counting Out Time
 T Counting Out Time
-R Bulwark
+R The Bulwark
 T A Plague Upon Thee (Part 3)
 T The So-Called Mark of the Lightbringer
 A Defiling Uther's Tomb
@@ -55,6 +56,7 @@ R Andorhal
 C Skeletal Fragments
 C Defiling Uther's Tomb |N| At (51,82) you need to equip the quest item at the tomb|
 N When you are 58 and have 30 Bone Fragments return to Bulwark
+R The Bulwark
 T Defiling Uther's Tomb
 T Skeletal Fragments
 R Undercity

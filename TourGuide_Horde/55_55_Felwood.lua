@@ -5,7 +5,7 @@ F Emerald Sanctuary
 T Verifying the Corruption
 T Forces of Jaedenar
 A Collection of the Corrupt Water
-T Cleansing Felwood
+T Cleansing Felwood |N| (46,83)|
 N Get a cenarion beacon for Salve Via Hunting from NPC at (46,83)
 C A Husband's Last Battle
 C Timbermaw Ally |N| Around (48,94)|
@@ -20,7 +20,7 @@ A Corrupted Sabers
 
 F Emerald Sanctuary
 T Collection of the Corrupt Water |N| Skip the follow up|
-T Salve Via Hunting |N|(46,83)|
+T Salve via Hunting |N|(46,83)|
 C Corrupted Sabers |N|(32,66)|
 T Corrupted Sabers |N| First talk to the cat|
 
@@ -37,12 +37,12 @@ T Speak to Salfa
 T Mystery Goo |N|(31,45) in Winterspring, Skip the follow up|
 H Everlook
 
-F Orgimmar
+F Orgrimmar
 A A Call to Arms: The Plaguelands |N| Get from Warcaller Gorlach (can also get in UC if you can't find him)|
 b Undercity
-C A Sample of Slime...
-C ... and a Batch of Ooze  
+T A Sample of Slime...
+T ... and a Batch of Ooze  
 h Undercity
-R Bulwark
+R The Bulwark
 ]]
 end)

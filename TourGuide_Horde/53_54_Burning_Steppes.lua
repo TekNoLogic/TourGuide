@@ -4,9 +4,8 @@ A Broodling Essence
 A Tablet of the Seven
 C Broodling Essence |N| To the East, grind on the dragon whelps|
 A A Taste of Flame |N| In the cave (94,31)|
-C A Taste of Flame
 T A Taste of Flame
-C Dreadmaul Rock |N| At (79,45)|
+T Dreadmaul Rock |N| At (79,45)|
 C Krom'Grul |N| He has two spawn points in either cave|
 C The Rise of the Machines (Part 1)
 C Tablet of the Seven |N| Loc: (54,40)|
@@ -22,7 +21,7 @@ C The Rise of the Machines (Part 2)
 T The Rise of the Machines (Part 2) |N|In the Badlands (25,44)| |Z|Badlands|
 H The Crossroads
 F Orgrimmar
-T Bone-Bladed Weapons |N|(52,34)|
+T Bone-Bladed Weapons |N|(52,34)| |Z|Orgrimmar|
 F Splintertree Post
 R Felwood
 ]]

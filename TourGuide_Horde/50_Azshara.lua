@@ -31,6 +31,6 @@ T Seeping Corruption (Part 2)
 A A Sample of Slime...
 A ... and a Batch of Ooze
 F Tarren Mill
-R Hinterlands |N|Entrance at (86,30)| |Z|Hillsbrad Foothills|
+R The Hinterlands |N|Entrance at (86,30)| |Z|Hillsbrad Foothills|
 ]]
 end)
