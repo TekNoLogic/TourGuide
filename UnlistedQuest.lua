@@ -15,7 +15,7 @@ notlisted:SetFrameStrata("DIALOG")
 notlisted:SetWidth(32)
 notlisted:SetHeight(32)
 notlisted:SetPoint("TOPLEFT", 70, -45)
-
+notlisted:Hide()
 
 notlisted:RegisterEvent("QUEST_DETAIL")
 notlisted:RegisterEvent("QUEST_COMPLETE")
