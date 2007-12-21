@@ -182,6 +182,12 @@ T Oakenscowl
 T Crown of the Earth (Part 6) |N|Turn it at Cenarion Enclave, Darnassus, at the top of the tower|
 T Teldrassil
 A Grove of the Ancients
+
+R Rut'theran Village |N|Run thru the portal west of the bank (30.52, 41.44)| |Z|Teldrassil| |R|Night Elf|
+T Nessa Shadowsong |R|Night Elf|
+A The Bounty of Teldrassil |R|Night Elf|
+T The Bounty of Teldrassil |N|At the hippogryph master| |R|Night Elf|
+A Flight to Auberdine |R|Night Elf|
 ]]
 end)
 

@@ -1,11 +1,5 @@
 TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
-R Rut'theran Village |N|Run thru the portal west of the bank (30.52, 41.44)| |Z|Teldrassil|
-T Nessa Shadowsong |R|Night Elf|
-A The Bounty of Teldrassil |R|Night Elf|
-T The Bounty of Teldrassil |N|At the hippogryph master| |R|Night Elf|
-A Flight to Auberdine |R|Night Elf|
-
 F Auberdine
 A Washed Ashore (Part 1)
 T Flight to Auberdine |R|Night Elf|

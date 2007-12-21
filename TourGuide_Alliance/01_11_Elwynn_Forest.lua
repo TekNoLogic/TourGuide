@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Elwynn Forest (1-11)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Elwynn Forest (1-11)", "Darkshore (12-17)", "Alliance", function()
 return [[
 A A Threat Within
 T A Threat Within
@@ -38,6 +38,7 @@ C Brotherhood of Thieves |N|East of the abbey across bridge|
 T The Stolen Tome |C|Warlock|
 T Brotherhood of Thieves
 A Milly Osworth
+A Bounty on Garrick Padfoot
 T Investigate Echo Ridge
 A Skirmish at Echo Ridge
 T Milly Osworth
@@ -81,94 +82,116 @@ A Speak with Gramma |N|Back to Farm House|
 T Speak with Gramma
 A Note to William
 
-T Note to William |N|Back at the Goldshire inn|
-A Collecting Kelp
-C Collecting Kelp |N|To the east around the Crystal Lake|
-T Collecting Kelp
-A The Escape
-
 T Back to Billy
 A Goldtooth
-T The Escape |N|At the Maclure Vineyards (43.1, 89.6)|
 
-C Goldtooth |N|Deep inside the Fargodeep Mine (41.60, 77.90).  Take the upper entrance to the mine for faster access.|
+C Goldtooth |N|Deep inside the Fargodeep Mine (41.60, 77.90).  Take the upper entrance to the mine then head left in the first room.|
 C Gold Dust Exchange
 C Kobold Candles
 C The Fargodeep Mine
 
-T Goldtooth
-T Gold Dust Exchange |N|Back to Goldshire|
+H Goldshire
+T Note to William
+A Collecting Kelp
+T Gold Dust Exchange |N|Back in Goldshire|
 A A Fishy Peril
-T The Fargodeep Mine
-A The Jasperlode Mine
 T A Fishy Peril
 A Further Concerns
+T The Fargodeep Mine
+A The Jasperlode Mine
 T Kobold Candles
 A Shipment to Stormwind
 
-C The Jasperlode Mine |N|North half way between Goldshire and Logging Camp (60.5, 50.1)|
-T Further Concerns |N|Along Road East of Goldshire (73.9, 72.2)|
+C Collecting Kelp |N|To the east around the Crystal Lake|
+
+T Further Concerns |N|Take the road east to the bridge (73.9, 72.2)|
 A Find the Lost Guards
 A Protect the Frontier
 
-A Red Linen Goods |N|East you'll see a road to the north (79.5, 68.7)|
-A A Bundle of Trouble |N|At the Logging Camp (81.4, 66.1)|
+A Red Linen Goods |N|To the northeast at Eastvale Logging Camp (79.5, 68.7)|
+A A Bundle of Trouble
 
-T Find the Lost Guards |N|Half-eaten body west side of the Rivers mouth to the north. (72.7, 60.3)|
+C The Jasperlode Mine |N|To the northwest (60.5, 50.1).  You only need to run in halfway or so, then hightail it out!|
+
+T Find the Lost Guards |N|Northwest on the southren shore of Stone Cairn Lake (72.7, 60.3)|
 A Discover Rolf's Fate
-C A Bundle of Trouble |N|North of Lumber Camp|
-
-T Discover Rolf's Fate |N|North of Logging Camp in the middle of a murloc village (79.8, 55.6)|
+T Discover Rolf's Fate |N|On the east shore of Stone Cairn Lake in the middle of a murloc village (79.8, 55.6).  Approach from the east for best results.|
 A Report to Thomas
+
+C A Bundle of Trouble |N|North of the camp|
 C Protect the Frontier
 
 T A Bundle of Trouble
-T Report to Thomas
+T Report to Thomas |N|Back down by the bridge|
 A Deliver Thomas' Report
 T Protect the Frontier
 
-H Goldshire
+C Princess Must Die!|N|At the Brackwell Pumpkin Patch (69,79)|
+C Red Linen Goods
+
+A Bounty on Murlocs |N|Back by the bridge|
+C Bounty on Murlocs |N|Back up by the lake|
+
+T Red Linen Goods
+T Bounty on Murlocs
+
+H Lion's Pride Inn
+A Speak with Jennea |C|Mage|
+A Seek out SI: 7 |C|Rogue|
+A Gakin's Summons |C|Warlock|
+T Collecting Kelp
+A The Escape
 T Deliver Thomas' Report
-A Cloth and Leather Armor
 T The Jasperlode Mine
-
-N YOU BE 10???
-
-R Stormwind City |N|Follow the road northwest|
-A Wine Shop Advert
-A Harlan Needs a Resupply
-T Harlan Needs a Resupply
-A Package for Thurman
-T Wine Shop Advert
-T Package for Thurman
-
-H Goldshire
-N 53 min on hearth |N|22:19|
-
-
-A Speak with Jennea |N|In the Goldshire inn| |C|Mage|
-A Seek out SI: 7 |N|In the Goldshire inn| |C|Rogue|
-A Gakin's Summons |N|In the Goldshire inn| |C|Warlock|
+A Westbrook Garrison Needs Help!
+A Elmore's Task
 A A Warrior's Training |C|Warrior|
 
-T Shipment to Stormwind |N|In the Trade District, Stormwind| |C|Mage|
-T Shipment to Stormwind |N|In the Trade District, Stormwind| |C|Rogue|
-T Shipment to Stormwind |N|In the Trade District, Stormwind| |C|Warlock|
-T Shipment to Stormwind |N|In the Trade District, Stormwind| |C|Warrior|
+T The Escape |N|Back at the Maclure Vineyards|
+T Goldtooth |N|Back at the Stonefield Farm|
+T Princess Must Die!
+
+T Westbrook Garrison Needs Help! |N|Follow the road west until you're almost to Westfall|
+A Riverpaw Gnoll Bounty
+C Riverpaw Gnoll Bounty
+T Riverpaw Gnoll Bounty
+A The Collector |U|1307| |O|
+T The Collector |O|
+
+R Westfall
+A Furlbrow's Deed |U|1972| |O|
+T Furlbrow's Deed |O|
+A Report to Gryan Stoutmantle
+A Westfall Stew
+T Westfall Stew |N|Follow the road south to Saldean's Farm (56.41, 30.53)| |Z|Westfall|
+T Report to Gryan Stoutmantle |N|South at Sentinel Hill, in front of the tower|
+A A Swift Message |N|Inside the tower|
+T A Swift Message
+A Continue to Stormwind
+
+F Stormwind City
+T Shipment to Stormwind |N|In the Trade District (56,64)| |Z|Stormwind City|
+A Wine Shop Advert |N|In front of the Apothecary.  He won't have a '!' because this is a "Low Level" quest... but hey, free EXP|
+A Harlan Needs a Resupply |N|North of Weller's Arsenal (55.10, 56.22)| |Z|Stormwind City|
+h Stormwind City
+T Wine Shop Advert |N|Outside the Trade District along the Canals (52.41, 67.65)| |Z|Stormwind City|
+T Harlan Needs a Resupply |N|Also along the Canals, to the north (49.58, 55.64)| |Z|Stormwind City|
+A Package for Thurman |N|Same person, again she won't have a '!'|
+T Package for Thurman |N|In the Mage Quarter at Larson Clothiers (42.48, 76.28)| |Z|Stormwind City|
 
 T Speak with Jennea |N|In Mage Quarter, Stormwind| |C|Mage|
 A Mirror Lake |C|Mage|
-R Elwynn Forest |C|Mage|
-C Mirror Lake |N|Fill Flask at Mirror Lake (28.6, 61.4)| |U|7207| |C|Mage|
-T Mirror Lake |N|In Mage Quarter, Stormwind| |C|Mage|
-
-T Seek out SI: 7 |N|In Old Town, Stormwind| |C|Rogue|
-A Snatch and Grab |C|Rogue|
 
 T Gakin's Summons |N|In Mage Quarter, Stormwind| |C|Warlock|
 A Surena Caledon |C|Warlock|
 
-T A Warrior's Training |N|In Old Town, Stormwind| |C|Warrior|
+T Continue to Stormwind |N|In Old Town at Limited Immunity (74.2, 47.38)| |Z|Stormwind City|
+A Dungar Longdrink
+
+T Seek out SI: 7 |C|Rogue|
+A Snatch and Grab |C|Rogue|
+
+T A Warrior's Training |C|Warrior|
 A Bartleby the Drunk |C|Warrior|
 T Bartleby the Drunk |C|Warrior|
 A Beat Bartleby |C|Warrior|
@@ -177,52 +200,58 @@ A Bartleby's Mug |C|Warrior|
 T Bartleby's Mug |C|Warrior|
 A Marshal Haggard |C|Warrior|
 
-H Goldshire |C|Mage|
-H Goldshire |C|Rogue|
-H Goldshire |C|Warlock|
-H Goldshire |C|Warrior|
+T Dungar Longdrink |N|Back at the flight point|
+A Return to Lewis
+F Westfall
+T Return to Lewis
+F Stormwind City
 
+C Mirror Lake |N|Directly south of Stormwind at Mirror Lake (28.6, 61.4)| |U|7207| |C|Mage|
 C Snatch and Grab |N|Sap & Pickpocket the Dockmaster at Jerod's Landing (48,87)| |C|Rogue|
+C Surena Caledon |N|In the house at the Brackwell Pumpkin Patch (71,80)| |C|Warlock|
 
-T Marshal Haggard |N|In Logging Camp (84.6, 69.4)| |C|Warrior|
+T Marshal Haggard |N|At the Eastvale Logging Camp (84.6, 69.4)| |C|Warrior|
 A Dead-tooth Jack |C|Warrior|
+C Dead-tooth Jack |N|To the southeast (89.2, 78.7)| |C|Warrior|
+T Dead-tooth Jack |C|Warrior|
 
-A Furlbrow's Deed |U|1972| |O|
-C Princess Must Die!|N|Pumpkin Patch farm (69,79)|
-C Surena Caledon |N|In House at Pumpkin Patch (71,80)| |C|Warlock|
-C Red Linen Goods |N|Brackwell Pumpkin Patch (69,79)|
-
-A Bounty on Murlocs |N|Guard Thomas (73.9, 72.2)|
-C Bounty on Murlocs |N|North (76.75, 58.75)|
-
-T Cloth and Leather Armor
-T Red Linen Goods
-T Bounty on Murlocs
-
-T Snatch and Grab |N|SW Old Town| |C|Rogue|
-T Surena Caledon |N|SW Mage Quarter| |C|Warlock|
+H Stormwind City
+T Mirror Lake |C|Mage|
+T Snatch and Grab |C|Rogue|
+T Surena Caledon |C|Warlock|
 A The Binding |C|Warlock|
 C The Binding |N|Summoning circle downstairs| |U|6928| |C|Warlock|
 T The Binding |C|Warlock|
-C Dead-tooth Jack |N|Get his Key! Camp (89.2, 78.7)| |C|Warrior|
-T Dead-tooth Jack |N|Back to Logging Camp| |C|Warrior|
 
-H Goldshire
-T Princess Must Die! |N|Farm far west (34.6, 84.4)|
+T Elmore's Task |N|In the Dwarven District (51,12)| |Z|Stormwind City|
+A Stormpike's Delivery
+R Deeprun Tram
+A Deeprun Rat Roundup |N|At the Ironforge end of the tram|
+C Deeprun Rat Roundup |U|17117|
+T Deeprun Rat Roundup
 
-A Westbrook Garrison Needs Help!
-T Westbrook Garrison Needs Help! |N|Along the road west of Goldshire (24.3, 74.6)|
-A Riverpaw Gnoll Bounty
-A Wanted:  "Hogger" |N|Poster in front of Garrison (24.50, 74.70)|
+R City of Ironforge
+f Grab flight point |N|In the center of town at the Forge (55.55, 47.76)| |Z|City of Ironforge|
 
-C Wanted:  "Hogger" |N|South of Westbrook Garrison (27,88)|
-C Riverpaw Gnoll Bounty
+R Dun Morogh
+A The Public Servant |N|Follow the road east to the Gol'Bolar Quarry (68,55)| |Z|Dun Morogh|
+A Those Blasted Troggs!
+C The Public Servant |N|Down below, in the cave|
+C Those Blasted Troggs!
+T The Public Servant
+T Those Blasted Troggs!
 
-A The Collector |U|1307| |O|
-T Riverpaw Gnoll Bounty
-T The Collector |O|
-T Wanted:  "Hogger"
-A Report to Gryan Stoutmantle
-A Elmore's Task
+R Loch Modan |N|Take the road east, then south (80.0, 52.5)| |Z|Dun Morogh|
+A In Defense of the King's Lands
+A The Trogg Threat |N|In the tower|
+f Grab flight point |N|Up at Thelsamar (33,50)| |Z|Loch Modan|
+C In Defense of the King's Lands |N|To the west (27,53)| |Z|Loch Modan|
+C The Trogg Threat
+T In Defense of the King's Lands
+T The Trogg Threat
+T Stormpike's Delivery |N|Follow the road north to Algaz Station (24,18)| |Z|Loch Modan|
+
+R Darkshore |N|Follow the road to the Wetlands, then west to Menethil Harbor.  Take the north boat to Auberdine.  Don't forget to get the flight point in Menethil Harbor.  Fun trick: if you die, run all the way to the boat as a ghost, you can spirit heal on the other side.  Gravyard is northeast of Auberdine (41.91, 36.45)| |Z|Darkshore|
 ]]
 end)
+
