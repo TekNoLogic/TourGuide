@@ -42,10 +42,10 @@ h Tranquillien
 A The Plagued Coast
 
 A Suncrown Village |N|Northeast|
-A Anok'suten |N|(57,14)|
+A Anok'suten |N|Take the road north, then east to Suncrown Village (57,14)|
 C Suncrown Village
 C Anok'suten
-A Dealing with Zeb'Sora |N|To the east (69,15)|
+A Dealing with Zeb'Sora |N|To the east on the coast of Lake Elrendar (69,15)|
 A Forgotten Rituals |N|On the island (72,19)|
 
 R Farstrider Enclave |N|To the south (72,32|
@@ -58,7 +58,7 @@ A Report to Captain Helios
 C Forgotten Rituals
 T Forgotten Rituals
 A Vanquishing Aquantion
-C Vanquishing Aquantion |N|(71,14)|
+C Vanquishing Aquantion |N|In the center of Lake Elrendar (71,14)|
 T Vanquishing Aquantion
 C Spirits of the Drowned
 C Bearers of the Plague
@@ -75,13 +75,13 @@ A Down the Dead Scar
 A Investigate An'daroth
 A Trouble at the Underlight Mines
 T Suncrown Village
-T Anok'suten
 A Goldenmist Village
+T Anok'suten
 
-C Down the Dead Scar |N|To the west|
-C Salvaging the Past |N|Around (34,34)|
-C Tomber's Supplies |N|In a cart (33,26)|
-C Investigate An'daroth |N|Around (37,15)|
+C Down the Dead Scar |N|To the west in the scar, south of the road|
+C Salvaging the Past |N|On the west side of the scar at Sanctum of the Moon (34,34)|
+C Tomber's Supplies |N|In a cart north of Sanctum of the Moon (33.60, 26.52)|
+C Investigate An'daroth |N|North at An'daroth (37,15)|
 C Goldenmist Village
 C The Plagued Coast |N|On the coast west of Goldenmist Village|
 C Curbing the Plague |N|Down the coast (24,38)|
