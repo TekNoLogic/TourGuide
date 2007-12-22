@@ -5,7 +5,7 @@ R Algaz Station |N|In Loch Modan. Watch out the big bad highlevel mobs on the wa
 
 A Filthy Paws |N|Upstairs, inside the tower|
 A Stormpike's Order
-C Filthy Paws |N|In the mine west of the tower|
+C Filthy Paws |N|In the mine east of the tower|
 T Filthy Paws
 R Thelsamar
 f Grab flight point
