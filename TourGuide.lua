@@ -1,5 +1,6 @@
 
 local OptionHouse = LibStub("OptionHouse-1.1")
+local Astrolabe = DongleStub("Astrolabe-0.4")
 
 
 local myfaction = UnitFactionGroup("player")
@@ -175,3 +176,17 @@ function TourGuide.ColorGradient(perc)
 	return r1 + (r2-r1)*relperc, g1 + (g2-g1)*relperc, b1 + (b2-b1)*relperc
 end
 
+
+function TourGuide:DumpLoc()
+	if IsShiftKeyDown() then
+		self:Print(self.db.global.savedpoints or "No saved points")
+	elseif IsControlKeyDown() then
+		self.db.global.savedpoints = nil
+		self:Print("Saved points cleared")
+	else
+		local _, _, x, y = Astrolabe:GetCurrentPlayerPosition()
+		local s = string.format("%s, %s, (%.2f, %.2f) -- %s %s", GetZoneText(), GetSubZoneText(), x*100, y*100, self:GetObjectiveInfo())
+		self.db.global.savedpoints = (self.db.global.savedpoints or "") .. s .. "\n"
+		self:Print(s)
+	end
+end
