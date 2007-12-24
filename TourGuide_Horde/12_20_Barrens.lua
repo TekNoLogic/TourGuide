@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("The Barrens (12-15)", "Stonetalon Mountains (15-16)", "Horde", function()
+TourGuide:RegisterGuide("The Barrens (12-20)", nil, "Horde", function()
 return [[
 R Razor Hill |R|Undead|
 A Conscript of the Horde |R|Undead|
@@ -116,13 +116,13 @@ T The Zhevra
 A Prowlers of the Barrens
 T The Forgotten Pools
 A The Stagnant Oasis
-N Turn in quests, grab new ones...
+A Apothecary Zamah
 C Apothecary Zamah |N|Run to Thunder Bluff|
 C Lost in Battle |N|South of Crossroads after the bridge (49.3,50.4)|
 R Camp Taurajo
 A Tribes at War
 f Camp Taurajo
-N Get "Melor Sends Word" if needed.
+A Melor Sends Word
 R Mulgore
 R Thunder Bluff |N|Thunder Bluff (37.0,31.8)|
 T Apothecary Zamah |N|Cave below Spirit Rise (22.9,20.9)|
@@ -155,7 +155,6 @@ A Stolen Silver
 A Report to Kadrak
 A Serena Bloodfeather
 T Harpy Lieutenants
-N Accept New Quests
 T Centaur Bracers
 T Verog the Dervish
 C Serena Bloodfeather |N|Serena Bloodfeather - Northwest Barrens (38,11)|
@@ -170,13 +169,13 @@ C Altered Beings |N|(55,42)|
 C The Angry Scytheclaws |N|(51,46)|
 C Raptor Horns
 C Consumed by Hatred |N|(51,54)|
+C Tribes at War
 A Weapons of Choice |N|At Camp Taurajo|
 T Tribes at War
 A Blood Shards of Agamaggan
 T Blood Shards of Agamaggan
 A Betrayal from Within (Part 1)
 T Spirit of the Wind |N|10 Blood Shards, repeatable|
-N Grind to one bar from Level 20 (or group for Wailing Caverns)
 T The Angry Scytheclaws
 A Jorn Skyseer
 T Consumed by Hatred
@@ -197,6 +196,8 @@ T The Guns of Northwatch
 T Free From the Hold
 H The Crossroads
 T Stolen Silver
+
 ]]
 end)
+
 

@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Tirisfal Glades (1-12)", "The Barrens (12-15)", "Horde", function()
+TourGuide:RegisterGuide("Tirisfal Glades (1-12)", "The Barrens (12-20)", "Horde", function()
 return [[
 A Rude Awakening |N|The guy right outside of the starting crypt|
 T Rude Awakening |N|Right down the hill|

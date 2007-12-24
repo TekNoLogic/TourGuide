@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Durotar (1-12)", "The Barrens (12-15)", "Horde", function()
+TourGuide:RegisterGuide("Durotar (1-12)", "The Barrens (12-20)", "Horde", function()
     return [[
 A Your Place in the World
 T Your Place in the World

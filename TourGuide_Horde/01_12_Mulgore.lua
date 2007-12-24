@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Mulgore (1-12)", "The Barrens (12-15)", "Horde", function()
+TourGuide:RegisterGuide("Mulgore (1-12)", "The Barrens (12-20)", "Horde", function()
 
 return [[
 A The Hunt Begins
