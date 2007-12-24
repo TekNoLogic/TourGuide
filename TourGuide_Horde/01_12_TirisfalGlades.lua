@@ -154,7 +154,10 @@ T At War With The Scarlet Crusade (Part 4) |N|Back in Brill|
 C The Family Crypt |N|At Agamand Mills|
 T The Family Crypt
 T The Prodigal Lich Returns |N|Back in Undercity|
-F Orgrimmar
+
+N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, port to Silvermoon from the device in the ruins above Undercity, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
+
+F Orgrimmar |N|Take the zepplin outside Undercity|
 f Grab flight point
 ]]
 end)
