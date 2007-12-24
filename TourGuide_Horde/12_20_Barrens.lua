@@ -45,34 +45,33 @@ T Crossroads Conscription |R|Undead|
 N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity from Orgrimmar, then port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
 
 A Plainstrider Menace
-A The Forgotten Pools
 A Raptor Thieves
 h The Crossroads
 A Disrupt the Attacks
-A Supplies for the Crossroads
-A Harpy Raiders |N|On the watch tower|
-A Wharfmaster Dizzywig
-A Fungal Spores
-C Disrupt the Attacks |N|East of XR, north of the mountain. Kill Plainstriders and Raptors as you see them. (54,26)|
+
+N Kill crap... |N|Kill any raptors you come across for "Raptor Thieves" and plainstriders for "Plainstrider Menace"|
+C Disrupt the Attacks |N|East of the Crossroads, north of the mountain (54,26)|
 T Disrupt the Attacks
 A The Disruption Ends
-C The Disruption Ends |N|East of XR, north of the mountain (56,26) Keep an eye out for boxes of Supplies.|
+A Supplies for the Crossroads
+A Wharfmaster Dizzywig
+C The Disruption Ends |N|East of the Crossroads, north of the mountain (56,26) Keep an eye out for boxes of Supplies.|
 C Supplies for the Crossroads
 C Plainstrider Menace
-C Raptor Thieves
 
 R Ratchet
 A Chen's Empty Keg |U|4926| |O|
-A Raptor Horns
+T Chen's Empty Keg |O|
 A WANTED: Baron Longshore |N|From the sign outside the bank|
 A Samophlange (Part 1)
-f Ratchet
 A Southsea Freebooters |N|From Gazlowe|
 T Wharfmaster Dizzywig
 A Miner's Fortune
 A The Guns of Northwatch
+
 C Southsea Freebooters
 C WANTED: Baron Longshore
+
 T Southsea Freebooters
 A The Missing Shipment (Part 1)
 T WANTED: Baron Longshore
@@ -80,45 +79,52 @@ T The Missing Shipment (Part 1)
 A The Missing Shipment (Part 2)
 T The Missing Shipment (Part 2)
 A Stolen Booty
+A Raptor Horns
 C Stolen Booty
+
 H The Crossroads
 T Supplies for the Crossroads
 T The Disruption Ends
 T Plainstrider Menace
 A The Zhevra
-T Raptor Thieves
+A The Forgotten Pools
+A Harpy Raiders |N|Up on the watch tower|
+A Fungal Spores
+
+N Kill Zhevra... |N|Kill any you come across for "The Zhevra"|
 
 A Kolkar Leaders |N|Run west of the Crossroads (45.4,28.4)|
 A Centaur Bracers
-C Kolkar Leaders |N|Barak is at (43,24). Do "The Zhevra", "Raptor Thieves", "The Forgotten Pools" and "Centaur Bracers" as seen.|
+
+C Kolkar Leaders |N|Barak is at (43,24)|
 C Fungal Spores
 C The Forgotten Pools
 C Harpy Raiders |N|Northwest corner of the Barrens (38,17)|
 
-T Kolkar Leaders |N|West of XR (45.4,28.4)|
+T Kolkar Leaders |N|West of the Crossroads (45.4, 28.4)|
 A Verog the Dervish
+
 C Centaur Bracers
-C Raptor Thieves
 C The Zhevra
-R The Crossroads
-T Fungal Spores
+
 T The Zhevra
 A Prowlers of the Barrens
 T The Forgotten Pools
-A The Stagnant Oasis
+T Fungal Spores
 A Apothecary Zamah
-C Apothecary Zamah |N|Run to Thunder Bluff|
-C Lost in Battle |N|South of Crossroads after the bridge (49.3,50.4)|
+
 R Camp Taurajo
 A Tribes at War
-f Camp Taurajo
-A Melor Sends Word
-R Mulgore
-R Thunder Bluff |N|Thunder Bluff (37.0,31.8)|
-T Apothecary Zamah |N|Cave below Spirit Rise (22.9,20.9)|
-A The Sacred Flame (Part 1) |N|(55.1,53.1)|
+
+R Thunder Bluff |N|Take the road west into Mulgore, then north at Bloodhoof Village|
+T Apothecary Zamah |N|Cave below Spirit Rise (22.9, 20.9)| |Z|Thunder Bluff|
+A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff|
+
 F The Crossroads
-T Lost in Battle
+A The Stagnant Oasis
+T Harpy Raiders
+A Harpy Lieutenants
+
 C Prowlers of the Barrens |N|(37,20)|
 C Harpy Lieutenants |N|Kill Witchwing Slayer's - Northwest Barrens (38,14)|
 T Samophlange (Part 1)
@@ -128,66 +134,94 @@ A Samophlange (Part 3)
 C Samophlange (Part 3) |N|Tinkerer is in the hut on the hill|
 T Samophlange (Part 3)
 A Samophlange (Part 4)
+
+A Ignition
 C Ignition
+T Ignition
+A The Escape
 C The Escape
 C Miner's Fortune
 C The Stagnant Oasis
 C Verog the Dervish
+
 R Ratchet
+T The Escape
 T Miner's Fortune
 T Samophlange (Part 4)
+A The Guns of Northwatch
+
 F The Crossroads
 T The Stagnant Oasis
 A Altered Beings
 T Prowlers of the Barrens
 A Echeyakee
-A Stolen Silver
-A Report to Kadrak
-A Serena Bloodfeather
 T Harpy Lieutenants
+A Serena Bloodfeather
 T Centaur Bracers
 T Verog the Dervish
+
 C Serena Bloodfeather |N|Serena Bloodfeather - Northwest Barrens (38,11)|
 C Echeyakee
+C Raptor Thieves
+
 H The Crossroads
+T Raptor Thieves
+A Stolen Silver
 T Echeyakee
 A The Angry Scytheclaws
 T Serena Bloodfeather
 A Letter to Jin'Zil
 A Consumed by Hatred
+A Lost in Battle
+
 C Altered Beings |N|(55,42)|
 C The Angry Scytheclaws |N|(51,46)|
 C Raptor Horns
+C Lost in Battle |N|South of the bridge, in a hut north of the road (49.3, 50.4)|
 C Consumed by Hatred |N|(51,54)|
 C Tribes at War
-A Weapons of Choice |N|At Camp Taurajo|
+C Stolen Silver
+C The Guns of Northwatch
+A Free From the Hold |N|Escort quest|
+C Free From the Hold
+
+T The Guns of Northwatch |N|Back in Ratchet|
+T Free From the Hold
+T Raptor Horns
+A Deepmoss Spider Eggs
+A Ziz Fizziks
+
+F Orgrimmar
+A The Ashenvale Hunt
+
+F Camp Taurajo
+A Weapons of Choice
 T Tribes at War
 A Blood Shards of Agamaggan
 T Blood Shards of Agamaggan
 A Betrayal from Within (Part 1)
-T Spirit of the Wind |N|10 Blood Shards, repeatable|
+A Melor Sends Word
+
+F The Crossroads
+T Stolen Silver
+A Report to Kadrak
 T The Angry Scytheclaws
 A Jorn Skyseer
+T Lost in Battle
 T Consumed by Hatred
 T Altered Beings
 A Egg Hunt
-F Orgrimmar
-A The Ashenvale Hunt
-H The Crossroads
-F Ratchet
-T Raptor Horns
-A Deepmoss Spider Eggs
-A Ziz Fizziks
-C The Guns of Northwatch
-C Stolen Silver
-C Free From the Hold |N|Escort Quest|
-R Ratchet
-T The Guns of Northwatch
-T Free From the Hold
-H The Crossroads
-T Stolen Silver
-
 ]]
 end)
 
+--[[
+The Barrens Oases
+The Forgotten Pools
+The Stagnant Oasis
+Altered Beings
+Hamuul Runetotem
+Nara Wildmane
+Leaders of the Fang
 
+
+]]
