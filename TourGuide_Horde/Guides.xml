@@ -7,6 +7,9 @@
 	<Script file="01_12_Durotar.lua"/>
 	<Script file="12_20_Barrens.lua"/>
 
+	<Script file="20_Barrens.lua"/>
+	<Script file="20_21_Stonetalon_Mountains.lua"/>
+
 	<Script file="23_25_Stonetalon_Mountains.lua"/>
 	<Script file="25_Southern_Barrens.lua"/>
 	<Script file="25_26_Thousand_Needles.lua"/>

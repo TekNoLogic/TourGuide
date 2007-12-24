@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("The Barrens (12-20)", nil, "Horde", function()
+TourGuide:RegisterGuide("The Barrens (12-20)", "Stonetalon Mountains (20-21)", "Horde", function()
 return [[
 R Razor Hill |R|Undead|
 A Conscript of the Horde |R|Undead|
@@ -94,16 +94,6 @@ C Kolkar Leaders |N|Barak is at (43,24). Do "The Zhevra", "Raptor Thieves", "The
 C Fungal Spores
 C The Forgotten Pools
 C Harpy Raiders |N|Northwest corner of the Barrens (38,17)|
-R Honor's Stand |N|West of Crossroads|
-A Goblin Invaders
-A Avenge My Village
-R Stonetalon Mountains
-C Avenge My Village
-T Avenge My Village
-A Kill Grundig Darkcloud
-R Stonetalon Mountains
-C Kill Grundig Darkcloud |N|Grimtotem camp north of the little troll village (73,86)|
-T Kill Grundig Darkcloud
 
 T Kolkar Leaders |N|West of XR (45.4,28.4)|
 A Verog the Dervish

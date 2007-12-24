@@ -1,4 +1,5 @@
-TourGuide:RegisterGuide("Ghostlands (13-20)", nil, "Horde", function()
+
+TourGuide:RegisterGuide("Ghostlands (13-20)", "The Barrens (20)", "Horde", function()
 return [[
 A Missing in the Ghostlands |R|Orc| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods|
 T Missing in the Ghostlands |R|Orc| |N|On the Eversong/Ghostlands boundry|
@@ -198,7 +199,4 @@ R Undercity |N|Teleport at the sunspire in Silvermoon City (49,14)| |Z|Silvermoo
 ]]
 end)
 
---~ 51) Then get on the zeppelin to go to Orgrimmar
---~ 52) Get FP in Orgrimmar
---~ 53) Then run all the way to the XRs (Crossroads) in the Barrens...
 
