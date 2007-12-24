@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Nagrand (65-66)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Nagrand (65-66)", "Blade's Edge Mountains (66-67)", "Alliance", function()
 return [[
 R Nesingwary's Camp |N|In the east of the zone (71,40).|
 A Windroc Mastery (Part 1)

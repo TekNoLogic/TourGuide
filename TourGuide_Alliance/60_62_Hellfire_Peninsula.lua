@@ -59,7 +59,6 @@ F Honor Hold |N|Fly back to Shatter Point, then HH... or hearth|
 A The Longbeards |N|From the innkeeper|
 A An Old Gift
 A The Path of Glory |N|Up in the keep|
-A Weaken the Ramparts |N|If you plan on running Hellfire Ramparts|
 T Waste Not, Want Not |N|At the west tower|
 A Laying Waste to the Unwanted
 T Fel Orc Scavengers
@@ -233,6 +232,7 @@ A Keep Thornfang Hill Clear!
 T Helping the Cenarion Post
 A Demonic Contamination
 C Demonic Contamination |N|Hulking Helboars to the east|
+T Demonic Contamination
 A Testing the Antidote
 C Testing the Antidote |N|Use the antidote on a Helboar, then kill it| |U|23337|
 T Testing the Antidote

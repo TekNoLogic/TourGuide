@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-69)", "Alliance", function()
+TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-70)", "Alliance", function()
 return [[F Orebor Harborage
 A No Time for Curiosity
 A Killing the Crawlers |N|Up the stairs outside the cave|

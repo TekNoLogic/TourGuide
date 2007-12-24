@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Terokkar Forest (64-65 Aldor)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Terokkar Forest (64-65 Aldor)", "Nagrand (65-66)", "Alliance", function()
 return [[
 A A'dal |N|You're looking for a Haggard War Veteran, he should be fairly easy to find.|
 T A'dal
@@ -109,9 +109,11 @@ A Veil Shalas: Signal Fires
 A The Tomb of Lights
 C The Tomb of Lights
 A Skywing |N|Just outside Veil Shalas (54,72). If you don't see him, just move on.|
+C Skywing
 C Veil Shalas: Signal Fires |N|Veil Shalas is on the southeast side of the bone wastes (55,66). The signal fires are all around the treehuts. If you did Skywing you should've cleared three of them already, the last one is in the north set of huts.|
 T Veil Shalas: Signal Fires
 A Return to Shattrath
+T The Tomb of Lights
 
 R Allerian Stronghold |N|Well east of the caravan (55,54).|
 h Allerian Stronghold |N|The inn is on the left as you come in.|
@@ -128,7 +130,9 @@ A Magical Disturbances
 
 F Shattrath City
 T Return to Shattrath
+T Skywing
 A The Skettis Offensive |N|This quest is tricky. Bring a friend if you can.|
+C The Skettis Offensive
 T The Skettis Offensive
 T A Personal Favor
 A Investigate Tuurem

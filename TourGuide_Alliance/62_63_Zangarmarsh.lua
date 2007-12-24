@@ -3,7 +3,6 @@ TourGuide:RegisterGuide("Zangarmarsh (62-63)", "Terokkar Forest (64-65 Aldor)", 
 return [[
 R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!|
 A The Umbrafen Tribe
-A Plants of Zangarmarsh
 A The Dying Balance |N|Inside the inn.|
 T The Cenarion Expedition |N| Back of the inn.|
 A Disturbance at Umbrafen Lake
