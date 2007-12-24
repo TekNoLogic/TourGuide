@@ -46,11 +46,16 @@ local titlematches = {"For", "A", "The", "Or", "In", "Then", "From", "To"}
 local function DebugQuestObjective(text, action, quest, accepts, turnins, completes)
 	local haserrors
 
-	if string.find(text, "|NODEBUG|") then return end
+	if (action == "A" and accepts[quest] or action == "T" and turnins[quest] or action == "C" and completes[quest]) and not string.find(text, "|NODEBUG|") then
+		TourGuide:DebugF(1, "%s %s -- Duplicate objective", action, quest)
+		haserrors = true
+	end
 
 	if action == "A" then accepts[quest] = true
 	elseif action == "T" then turnins[quest] = true
 	elseif action == "C" then completes[quest] = true end
+
+	if string.find(text, "|NODEBUG|") then return haserrors end
 
 	if action == "A" or action == "C" or action == "T" then
 		-- Catch bad Title Case
@@ -132,7 +137,7 @@ function TourGuide:LoadGuide(name, complete)
 end
 
 
-function TourGuide:DebugAllGuides(dumpquests)
+function TourGuide:DebugGuideSequence(dumpquests)
 	local accepts, turnins, completes = {}, {}, {}
 	local function DebugParse(...)
 		local uniqueid, haserrors = 1
@@ -156,14 +161,22 @@ function TourGuide:DebugAllGuides(dumpquests)
 		return haserrors
 	end
 
-	for i,name in ipairs(self.guidelist) do
+	self:Debug(1, "------ Begin Full Debug ------")
+
+	local name = self.db.char.currentguide
+	repeat
 		if DebugParse(string.split("\n", self.guides[name]())) then
 			self:DebugF(1, "Errors in guide: %s", name)
 			self:Debug(1, "---------------------------")
 		end
-	end
+		name = self.nextzones[name]
+	until not name
 
-	if dumpquests then DumpQuestDebug(accepts, turnins, completes) end
+	if dumpquests then
+		self:Debug(1, "------ Quest Continuity Debug ------")
+		DumpQuestDebug(accepts, turnins, completes)
+	end
+	self:Debug(1, "------ End Full Debug ------")
 end
 
 

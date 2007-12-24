@@ -42,6 +42,31 @@ function TourGuide:CreateObjectivePanel()
 	frame = CreateFrame("Frame", nil, UIParent)
 	frame:SetFrameStrata("DIALOG")
 
+	if tekDebug then
+		local b = CreateFrame("Button", nil, frame)
+		b:SetPoint("TOPRIGHT", frame, "BOTTOMRIGHT", 4, -3)
+		b:SetWidth(80) b:SetHeight(22)
+
+		-- Fonts --
+		b:SetDisabledFontObject(GameFontDisable)
+		b:SetHighlightFontObject(GameFontHighlight)
+		b:SetTextFontObject(GameFontNormal)
+
+		-- Textures --
+		b:SetNormalTexture("Interface\\Buttons\\UI-Panel-Button-Up")
+		b:SetPushedTexture("Interface\\Buttons\\UI-Panel-Button-Down")
+		b:SetHighlightTexture("Interface\\Buttons\\UI-Panel-Button-Highlight")
+		b:SetDisabledTexture("Interface\\Buttons\\UI-Panel-Button-Disabled")
+		b:GetNormalTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+		b:GetPushedTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+		b:GetHighlightTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+		b:GetDisabledTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+		b:GetHighlightTexture():SetBlendMode("ADD")
+
+		b:SetText("Debug All")
+		b:SetScript("OnClick", function() self:DebugGuideSequence(true) LibStub("OptionHouse-1.1"):Open("tekDebug", "TourGuide") end)
+	end
+
 	title = ww.SummonFontString(frame, nil, "SubZoneTextFont", nil, "BOTTOM", frame, "TOP", 0, 10)
 	local fontname, fontheight, fontflags = title:GetFont()
 	title:SetFont(fontname, 18, fontflags)
