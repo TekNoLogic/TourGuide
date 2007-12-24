@@ -41,7 +41,6 @@ T Goods from Silvermoon City |R|Blood Elf|
 h Tranquillien
 A The Plagued Coast
 
-A Suncrown Village |N|Northeast|
 A Anok'suten |N|Take the road north, then east to Suncrown Village (57,14)|
 C Suncrown Village
 C Anok'suten
@@ -82,9 +81,9 @@ C Down the Dead Scar |N|To the west in the scar, south of the road|
 C Salvaging the Past |N|On the west side of the scar at Sanctum of the Moon (34,34)|
 C Tomber's Supplies |N|In a cart north of Sanctum of the Moon (33.60, 26.52)|
 C Investigate An'daroth |N|North at An'daroth (37,15)|
-C Goldenmist Village
+C Goldenmist Village |N|Follow the road west to Goldenmist Village (28.79, 19.96)|
 C The Plagued Coast |N|On the coast west of Goldenmist Village|
-C Curbing the Plague |N|Down the coast (24,38)|
+C Curbing the Plague |N|On the south bank of the creek between meh and bah (24,38)|
 C Culinary Crunch |N|Kill more spiders if you didn't get enough|
 
 A Underlight Ore Samples |N|Grind mobs on your way (31,48)|
@@ -98,6 +97,7 @@ T Tomber's Supplies
 T Investigate An'daroth
 T Salvaging the Past
 T Goldenmist Village
+A Windrunner Village
 T The Plagued Coast
 A Into Occupied Territory
 A Investigate the Amani Catacombs
@@ -105,16 +105,16 @@ A Retaking Windrunner Spire
 A Troll Juju
 A Spinal Dust
 A Rotting Hearts
-A Windrunner Village
 
-C Into Occupied Territory |N|In tents (14,27), (13,25), and on the boat (11,22)|
-C Windrunner Village |N|(18,43)|
-C Retaking Windrunner Spire |N|(16,60)|
-A The Lady's Necklace |U|22597| |O|
+C Into Occupied Territory |N|On the island southwest of Goldenmist Village (13,25)|
+C Windrunner Village |N|On the mainland, south of the creek (18,43)|
+C Retaking Windrunner Spire |N|South of Windrunner Village (16.72, 57.77)|
 
 H Tranquillien
 T Retaking Windrunner Spire
 T Into Occupied Territory
+A The Lady's Necklace |U|22597| |O|
+T The Lady's Necklace |O|
 T Windrunner Village
 A Deliver the Plans to An'telas
 
@@ -122,16 +122,15 @@ R Sanctum of the Sun |N|To the southeast (55,48)|
 T Underlight Ore Samples
 A The Farstrider Enclave
 
-T Deliver the Plans to An'telas |N|(60,35)|
+T Deliver the Plans to An'telas |N|Follow the road to the east north to An'telas (60.28, 35.69)|
 A Deactivate An'owyn
 
 T Curbing the Plague |N|Back at Farstrider Enclave|
-T The Farstrider Enclave
 A Attack on Zeb'Tela
 A Shadowpine Weaponry
 A A Little Dash of Seasoning
+T The Farstrider Enclave
 A The Traitor's Shadow
-A Bring Me Kel'gash's Head! |N|On a wanted poster.  This is an elite quest that requires a group!|
 
 T The Traitor's Shadow |N|At the dusty journal in the building at the top of the ramp (80,18)|
 A Hints of the Past
@@ -150,10 +149,8 @@ T Escape from the Catacombs
 C A Little Dash of Seasoning |N|South at Zeb'Nowa.  Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75)|
 C Shadowpine Weaponry
 C Assault on Zeb'Nowa
-C Bring Me Kel'gash's Head! |N|He's elite, if you can't solo him get a group or come back later (65,79)| |O|
 C Deactivate An'owyn
 
-T Bring Me Kel'gash's Head! |O| |N|Back at Farstrider Enclave|
 T Assault on Zeb'Nowa |N|Back at Farstrider Enclave|
 T A Little Dash of Seasoning
 T Shadowpine Weaponry
@@ -179,7 +176,6 @@ T Spinal Dust
 
 T War on Deatholme |N|Back at Sanctum of the Sun|
 T The Twin Ziggurats
-A The Traitor's Destruction
 A Dar'Khan's Lieutenants
 A A Restorative Draught
 
@@ -191,16 +187,12 @@ U Drink up! |U|22779|
 U Drink up! |U|22778|
 C Captives at Deatholme |N|Enith is in the crypt (32,73), Varnis (40,83), Vedoran (32,89)|
 C Dar'Khan's Lieutenants |N|Jurion is in the crypt (32,73), Borgoth (40,83), Masophet (36,88), Mirdoran (37,79)|
-C The Traitor's Destruction |N|He's a tough elite, so if you don't have a group you can skip this| |O|
 
 T Dar'Khan's Lieutenants |N|Back at Sanctum of the Sun, deathport if you want|
 T Captives at Deatholme
-T The Traitor's Destruction |O|
-A Hero of the Sin'dorei |N|If you finished "The Traitor's Destruction"|
 
 A Fly to Silvermoon City |R|Blood Elf| |N|Back at Tranquillien|
 T Fly to Silvermoon City |N|Fly to Silvermoon, duh! (53,71)| |Z|Silvermoon City| |R|Blood Elf|
-T Hero of the Sin'dorei |N|(53,20)| |O|
 
 R Undercity |N|Teleport at the sunspire in Silvermoon City (49,14)| |Z|Silvermoon City|
 ]]
