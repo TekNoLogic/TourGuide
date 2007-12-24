@@ -24,23 +24,23 @@ T Tal the Wind Rider Master |R|Tauren|
 A Return to Jahan |R|Tauren|
 T Return to Jahan |R|Tauren| |N|Fly back to Crossroads!|
 
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc|
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll|
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Undead|
-A Crossroads Conscription |R|Orc|
-A Crossroads Conscription |R|Troll|
-A Crossroads Conscription |R|Undead|
-T Ak'Zeloth |N|Skip the follow-up| |R|Orc|
-T Ak'Zeloth |N|Skip the follow-up| |R|Troll|
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc| |NODEBUG|
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll| |NODEBUG|
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Undead| |NODEBUG|
+A Crossroads Conscription |R|Orc| |NODEBUG|
+A Crossroads Conscription |R|Troll| |NODEBUG|
+A Crossroads Conscription |R|Undead| |NODEBUG|
+T Ak'Zeloth |N|Skip the follow-up| |R|Orc| |NODEBUG|
+T Ak'Zeloth |N|Skip the follow-up| |R|Troll| |NODEBUG|
 
 N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc|
 N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Troll|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Troll|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Undead|
-T Crossroads Conscription |R|Orc|
-T Crossroads Conscription |R|Troll|
-T Crossroads Conscription |R|Undead|
+T Crossroads Conscription |R|Orc| |NODEBUG|
+T Crossroads Conscription |R|Troll| |NODEBUG|
+T Crossroads Conscription |R|Undead| |NODEBUG|
 
 N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity from Orgrimmar, then port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
 
@@ -67,7 +67,6 @@ A Samophlange (Part 1)
 A Southsea Freebooters |N|From Gazlowe|
 T Wharfmaster Dizzywig
 A Miner's Fortune
-A The Guns of Northwatch
 
 C Southsea Freebooters
 C WANTED: Baron Longshore
@@ -145,6 +144,7 @@ C The Stagnant Oasis
 C Verog the Dervish
 
 R Ratchet
+T Stolen Booty
 T The Escape
 T Miner's Fortune
 T Samophlange (Part 4)
@@ -182,11 +182,11 @@ C Consumed by Hatred |N|(51,54)|
 C Tribes at War
 C Stolen Silver
 C The Guns of Northwatch
-A Free From the Hold |N|Escort quest|
-C Free From the Hold
+A Free From the Hold |N|Escort quest| |NODEBUG|
+C Free From the Hold |NODEBUG|
 
 T The Guns of Northwatch |N|Back in Ratchet|
-T Free From the Hold
+T Free From the Hold |NODEBUG|
 T Raptor Horns
 A Deepmoss Spider Eggs
 A Ziz Fizziks
