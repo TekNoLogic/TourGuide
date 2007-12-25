@@ -84,7 +84,7 @@ C Tomber's Supplies |N|In a cart north of Sanctum of the Moon (33.60, 26.52)|
 C Investigate An'daroth |N|North at An'daroth (37,15)|
 C Goldenmist Village |N|Follow the road west to Goldenmist Village (28.79, 19.96)|
 C The Plagued Coast |N|On the coast west of Goldenmist Village|
-C Curbing the Plague |N|On the south bank of the creek between meh and bah (24,38)|
+C Curbing the Plague |N|On the south bank of the creek between Windrunner Village and the Sanctum of the Moon (24,38)|
 C Culinary Crunch |N|Kill more spiders if you didn't get enough|
 
 A Underlight Ore Samples |N|Grind mobs on your way (31,48)|
@@ -133,9 +133,11 @@ A A Little Dash of Seasoning
 T The Farstrider Enclave
 A The Traitor's Shadow
 
-T The Traitor's Shadow |N|At the dusty journal in the building at the top of the ramp (80,18)|
+T The Traitor's Shadow |N|At Dawnstar Spire, the dusty journal in the building at the top of the ramp (80,18)|
 A Hints of the Past
-C Attack on Zeb'Tela
+C Attack on Zeb'Tela |N|Due east of Farstrider Enclave|
+N Axes and Maces |N|Keep killin them trolls!| |Q|Shadowpine Weaponry| |QO|Headhunter Axe: 3/3|
+N Maces |N|Keep killin them trolls!| |Q|Shadowpine Weaponry| |QO|Shadowcaster Mace: 3/3|
 T Attack on Zeb'Tela
 A Assault on Zeb'Nowa
 T Hints of the Past
