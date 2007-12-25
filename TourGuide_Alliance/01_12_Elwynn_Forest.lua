@@ -90,7 +90,7 @@ C Gold Dust Exchange
 C Kobold Candles
 C The Fargodeep Mine
 
-H Goldshire
+H Lion's Pride Inn
 T Note to William
 A Collecting Kelp
 T Gold Dust Exchange |N|Back in Goldshire|
@@ -111,6 +111,7 @@ A Protect the Frontier
 A Red Linen Goods |N|To the northeast at Eastvale Logging Camp (79.5, 68.7)|
 A A Bundle of Trouble
 
+N Kill any bears you find
 C The Jasperlode Mine |N|To the northwest (60.5, 50.1).  You only need to run in halfway or so, then hightail it out!|
 
 T Find the Lost Guards |N|Northwest on the southren shore of Stone Cairn Lake (72.7, 60.3)|
