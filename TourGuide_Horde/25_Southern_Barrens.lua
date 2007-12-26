@@ -1,5 +1,5 @@
-TourGuide:RegisterGuide("Southern Barrens (25)", "Thousand Needles (25-26)", "Horde", function()
-    return [[
+TourGuide:RegisterGuide("The Barrens (25)", "Thousand Needles (25-26)", "Horde", function()
+return [[
 F Camp Taurajo
 A Enraged Thunder Lizards
 h Camp Taurajo

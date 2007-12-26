@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Stonetalon Mountains (20-21)", nil, "Horde", function()
+TourGuide:RegisterGuide("Stonetalon Mountains (20-21)", "Ashenvale (21-22)", "Horde", function()
 return [[
 R Honor's Stand |N|Take the road west out of the Crossroads to the edge of Stonetalon Mountains|
 A Goblin Invaders

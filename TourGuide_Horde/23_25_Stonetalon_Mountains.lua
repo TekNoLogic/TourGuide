@@ -1,6 +1,6 @@
-TourGuide:RegisterGuide("Stonetalon Mountains (23-25)", "Southern Barrens (25)", "Horde", function()
+TourGuide:RegisterGuide("Stonetalon Mountains (23-25)", "The Barrens (25)", "Horde", function()
     return [[
-R Sun Rock Retreat
+F Sun Rock Retreat
 A Cenarius' Legacy
 T Boulderslide Ravine |N|Skip "Earthen Arise"|
 A Elemental War

@@ -195,7 +195,6 @@ F Orgrimmar
 A The Ashenvale Hunt
 
 F Camp Taurajo
-A Weapons of Choice
 T Tribes at War
 A Blood Shards of Agamaggan
 T Blood Shards of Agamaggan
