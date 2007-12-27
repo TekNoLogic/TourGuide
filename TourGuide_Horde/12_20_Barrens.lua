@@ -192,7 +192,7 @@ A Deepmoss Spider Eggs
 A Ziz Fizziks
 
 F Orgrimmar
-A The Ashenvale Hunt
+A The Ashenvale Hunt |N|Don't skip this quest, you need it for quests later!|
 
 F Camp Taurajo
 T Tribes at War

@@ -5,17 +5,17 @@ h Splintertree Post
 A Stonetalon Standstill
 A Satyr Horns
 A Ashenvale Outrunners |N|Started by Kuray'bin (71,68)|
-T The Ashenvale Hunt
+T The Ashenvale Hunt |N|Don't skip this or the quest items won't drop!  Go to Orgrimmar and grab it if you don't have it.|
 
-N Kill Sharptalon |N|Spawns around (74,70). Bringing him to 1/3 health than dragging him over to the guards should help.|
+K Sharptalon |N|Spawns around (74,70). Bringing him to 1/3 health than dragging him over to the guards should help.|
 C Ashenvale Outrunners
 T Ashenvale Outrunners
 
 A Torek's Assault |N|Started by Torek (68,75)|
 C Torek's Assault
 C Stonetalon Standstill |N|Also find and kill Tideress he drops an item which starts The Befouled Element|
-N Kill Ursangous |N|Spawns around (42,67), for the Ashenvale Hunt|
-N Kill Shadumbra |N|Spawns around (56,54), for the Ashenvale Hunt|
+K Ursangous |N|Spawns around (42,67), for "The Ashenvale Hunt"|
+K Shadumbra |N|Spawns around (56,54), for "The Ashenvale Hunt"|
 C The Sacred Flame |N|Get a phial from killing a dryad at (61,52) and fill it at the moonwell at (60,72)|
 
 H Splintertree Post

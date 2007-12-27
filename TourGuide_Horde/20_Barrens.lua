@@ -3,7 +3,7 @@ TourGuide:RegisterGuide("The Barrens (20)", "Stonetalon Mountains (20-21)", "Hor
 return [[
 F Orgrimmar
 f Grab flight point
-A The Ashenvale Hunt
+A The Ashenvale Hunt |N|Don't skip this quest, you need it for quests later!|
 
 R The Crossroads
 h The Crossroads
