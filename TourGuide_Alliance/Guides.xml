@@ -58,4 +58,5 @@
 	<Script file="65_66_Nagrand.lua"/>
 	<Script file="66_67_BladesEdge.lua"/>
 	<Script file="67_70_Netherstorm.lua"/>
+	<Script file="70_Shadowmoon_Valley_Aldor.lua"/>
 </Ui>

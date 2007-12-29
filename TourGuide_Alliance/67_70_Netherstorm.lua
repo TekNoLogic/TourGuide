@@ -1,11 +1,10 @@
 
-TourGuide:RegisterGuide("Netherstorm (67-70)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Netherstorm (67-70)", "Shadowmoon Valley (70 Aldor)", "Alliance", function()
 return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
 A Off To Area 52 |N|On Gyro-Plank Bridge| |NODEBUG|
 
 R Area 52 |N|Back down the road (32,62)|
-f Grab the flight point |N|To the left outside the city|
 A Securing the Shaleskin Shale |N|You may have to wait for him to respawn|
 T Off To Area 52 |NODEBUG|
 A You're Hired!
@@ -16,8 +15,7 @@ T Assist Exarch Orelis |N|Aldor| |O|
 A Distraction at Manaforge B'naar |N|Aldor|
 A The Archmage's Staff
 
-R Ruins of Enkaar |N|To the north (31,56), follow the road then take the north fork|
-A Recharging the Batteries
+A Recharging the Batteries |N|To the north at Ruins of Enkaar (31,56), follow the road then take the north fork.|
 A Mark V is Alive!
 C Mark V is Alive!
 C You're Hired!
@@ -26,8 +24,7 @@ T Mark V is Alive!
 T Recharging the Batteries
 C Securing the Shaleskin Shale
 
-R Area 52
-T Securing the Shaleskin Shale
+T Securing the Shaleskin Shale |N|Back at Area 52|
 A That Little Extra Kick
 T You're Hired!
 A Invaluable Asset Zapping
@@ -38,8 +35,7 @@ A Essence for the Engines
 C Essence for the Engines |N|North, near the glowing trenches|
 C That Little Extra Kick |N|Around the rocks, near the shaleskin flayers|
 
-R Area 52
-T That Little Extra Kick
+T That Little Extra Kick |N|Back at Area 52|
 T Essence for the Engines
 A Elemental Power Extraction
 
@@ -49,8 +45,7 @@ C Elemental Power Extraction |N|South at the Crumbling Waste (32,78).  Use the p
 C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (41,74), (41,72), (40,73), (42,72)|
 C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of the ruins|
 
-R Area 52
-T Invaluable Asset Zapping
+T Invaluable Asset Zapping |N|Back at Area 52|
 A Dr. Boom!
 T Elemental Power Extraction
 T The Archmage's Staff
@@ -66,11 +61,9 @@ A Consortium Crystal Collection
 C Dr. Boom! |N|Northeast of town at Camp of Boom (34,60).  Run in, bomb him, and run out.  Repeat till dead.| |U|29429|
 C Rebuilding the Staff |N|Back north at Ruins of Enkaat|
 
-R Area 52
-T Rebuilding the Staff
+T Rebuilding the Staff |N|Back at Area 52|
 A Curse of the Violet Tower
 T Dr. Boom!
-N You should be roughly 75% to 68
 
 C Measuring Warp Energies |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)| |U|29324|
 T Naaru Technology |N|At the console inside the building| |O|
@@ -84,18 +77,17 @@ A The Sigil of Krasus
 A The Unending Invasion |N|Back down the tower|
 A A Fate Worse Than Death
 
-N Kill Abjurist Belmara |N|South of the tower|
+K Abjurist Belmara |N|South of the tower|
 A Abjurist Belmara |N|From the tome she dropped|
-N Kill Battle-Mage Dathric |N|Inside the town hall building (60,87)|
+K Battle-Mage Dathric |N|Inside the town hall building (60,87)|
 A Battle-Mage Dathric |N|Again, from the dropped item|
 C Indispensable Tools |N|Kill the apprentices at the blacksmith house (60,85)|
-N Kill Conjurer Luminrath
+K Conjurer Luminrath
 A Conjurer Luminrath |N|Yet another item-started quest|
-N Kill Cohlien Frostweaver |N|Little gnome, what do we do with gnomes? Oh yes, we KILL THEM!|
+K Cohlien Frostweaver |N|Little gnome, what do we do with gnomes? Oh yes, we KILL THEM!|
 A Cohlien Frostweaver |N|Do these item-started quests ever end?|
 
-N Clear the path over the bridge to...
-T Needs More Cowbell
+T Needs More Cowbell |N|Clear the path over the bridge on your way|
 A When the Cows Come Home
 C When the Cows Come Home |N|Stay back and let Bessy get hit first each time, so that she stops and gives you time to kill things|
 T When the Cows Come Home
@@ -126,15 +118,13 @@ C Master Smith Rhonsus |N|Kill Rhonsus at the blacksmith house (60,87)|
 T The Annals of Kirin'Var |N|Back at the tower|
 A Searching for Evidence
 T Master Smith Rhonsus |N|At the barn|
-N You should be 68 now or very close
 T Searching for Evidence |N|At the necromantic focus at Bessy's barn (60,78)|
 A A Lingering Suspicion
 C A Lingering Suspicion |N|Kill ghosts in the chapel yard|
 T A Lingering Suspicion
 A Capturing the Phylactery
 C Capturing the Phylactery |N|Across from the barn at Chapel Yard, the middle outhouse|
-T Capturing the Phylactery
-N Skip "Destroy Naberious!" |N|Unless you want a group|
+T Capturing the Phylactery |N|Skip the follow-up|
 
 C Potential Energy Source |N|West at Manaforge Coruu (51,83)|
 C The Sigil of Krasus |N|Spellbinder Maryana, wandering around outside|
@@ -167,14 +157,12 @@ T The Sunfury Garrison
 A Down With Daellis
 
 C Ar'kelos the Guardian |N|At the tower entrance|
-T Ar'kelos the Guardian |N|Top of the tower|
-N Skip Finding the Keymaster |N|Unless you get a group|
+T Ar'kelos the Guardian |N|Top of the tower, skip the follow-up|
 
 C Down With Daellis |N|On the path west of Manaforge Duro (57,65)|
 T Down With Daellis |N|Back at the tower|
 
 R Cosmowrench |N|East of Manaforge Duro (65,66)|
-f Grab flight point
 A Bloody Imp-ossible!
 C Bloody Imp-ossible! |N|Summon the imp and kill warp chasers.  You must be in melee range when they die.| |U|31815|
 T Bloody Imp-ossible!
@@ -186,11 +174,6 @@ A A Heap of Ethereals
 T Measuring Warp Energies
 T B'naar Console Transcription |O|
 A Shutting Down Manaforge B'naar
-
-F Shattrath City
-
-H Area 52
-N You should now be about 45-50% to 69
 
 C Shutting Down Manaforge B'naar |N|Kill Overseer Theredis inside the manaforge, talk to the console|
 C Pick Your Part |N|At The Heap (27,77)|
@@ -231,8 +214,7 @@ A Deal With the Saboteurs
 T Keeping Up Appearances
 A The Dynamic Duo
 
-R Area 52
-T In A Scrap With The Legion |NODEBUG|
+T In A Scrap With The Legion |NODEBUG| |N|Back at Area 52|
 T Warp-Raider Nesaad
 A Request for Assistance
 T Shutting Down Manaforge Coruu
@@ -254,17 +236,15 @@ A An Audience with the Prince
 T Declawing Doomclaw
 A Warn Area 52!
 
-R Area 52
-T Warn Area 52!
+T Warn Area 52! |N|Back at Area 52, duh|
 A Doctor Vomisa, Ph.T.
-T Shutting Down Manaforge Duro |N|Skip "Shutting Down Manaforge Ara"|
+T Shutting Down Manaforge Duro |N|Skip the follow-up|
 T Sunfury Briefings
 A Outside Assistance
-T Doctor Vomisa, Ph.T. |N|East out of town at a little tent (37,63).  Skip You, Robot|
+T Doctor Vomisa, Ph.T. |N|East out of town at a little tent (37,63).  Skip the follow-up|
 
 C Deal With the Saboteurs |N|Crocs at the lake in the Eco-Dome (46,53)|
 A To the Stormspire |N|Back at Midrealm Post|
-N You should be ~80% to 69
 
 R The Stormspire |N|Follow the road out to the bigger dome (41,32)|
 A Flora of the Eco-Domes
@@ -274,7 +254,6 @@ A Diagnosis: Critical
 A Surveying the Ruins
 A The Minions of Culuthas
 A Fel Reavers, No Thanks!
-f Grab flight point
 T An Audience with the Prince
 A Triangulation Point One
 T The Dynamic Duo
@@ -293,18 +272,18 @@ A A Dark Pact
 A Dealing with the Foreman
 A Neutralizing the Nethermancers
 
-C Neutralizing the Nethermancers |N|At Manaforge Ara|
-C A Dark Pact |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
-T Dealing with the Foreman |N|In the Trelleum Mine (26,42)|
+T Dealing with the Foreman |N|In the Trelleum Mine at Manaforge Ara (26.38, 43.95)|
 A Dealing with the Overmaster
-C Dealing with the Overmaster |N|Down the tunnel, right then left|
+C Dealing with the Overmaster |N|Down the tunnel, right then left (26.82, 35.94)|
+C Neutralizing the Nethermancers |N|Outside the mine|
+C A Dark Pact |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
 
 H Stormspire
 T Diagnosis: Critical
 A Testing the Prototype
 T Surveying the Ruins
 T The Minions of Culuthas
-T Fel Reavers, Not Thanks!
+T Fel Reavers, No Thanks!
 A The Best Defense
 T Flora of the Eco-Domes |N|Bottom of the elevator|
 A Creatures of the Eco-Domes
@@ -331,83 +310,78 @@ T The Best Defense
 A Teleport This!
 T Retrieving the Goods
 
-C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18), (44,20)|
+C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18), (44,20)| |U|31678|
 T Teleport This!
 
 F Area 52
 T Aldor No More
 H Stormspire
+A Seek Out Ameer
 A A Not-So-Modest Proposal |N|At Protectorate Watch Post (58,31)|
 A Electro-Shock Goodness!
+T Seek Out Ameer
 A The Ethereum
 A Recipe for Destruction
 A Captain Tyralius
 
+U Drink the concoction |U|29737|
+K Void Wastes |Q|Electro-Shock Goodness!| |QO|Void Waste Globule slain: 30/30|
+C The Ethereum |N|South (56,38)|
+T The Ethereum |N|At the transponder (56.80, 38.70)|
+A Ethereum Data
+C Ethereum Data |N|South (55.80, 39.93)|
+T Ethereum Data
+A Potential for Brain Damage = High
+C Potential for Brain Damage = High |N|Kill Ethereums, drink the essence they drop, then kill the Data Wyrmlings| |U|29482|
+T Potential for Brain Damage = High
+A S-A-B-O-T-A-G-E
+C S-A-B-O-T-A-G-E |N|Kill Ethereum Archons and Ethereum Overlords|
+T S-A-B-O-T-A-G-E
+A Delivering the Message
+C Delivering the Message
+T Delivering the Message |N|Skip the follow-up|
 
+C Captain Tyralius |N|Kill Warden Icoshock to the southwest for his key, then open the prison behind Nexus-King Salhadaar (53,41)|
+A The Flesh Lies... |N|East (59,45)|
+C The Flesh Lies... |N|In the mine, Access Shaft Zeon.  Keep left as you enter.  Use the lighter on the corpses, but don't get too close.| |U|29473|
+A Arconus the Insatiable |N|(60,41)|
+C A Not-So-Modest Proposal
+C Arconus the Insatiable |N|Go back out to the entrance, then head in staying right.  Kill Arconus in the big room (60,39)|
+T The Flesh Lies... |N|Back outside|
+
+U Drink the concoction |U|29737|
+C Electro-Shock Goodness!
+C Recipe for Destruction |N|Voidshriekers and Voidwraiths around and inside and around the manaforge|
+C Triangulation Point One |N|Use the device then find the mark (66,33)| |U|28962|
+
+T A Not-So-Modest Proposal |N|To the east at Celestial Ridge.  Find the holograph (71.1, 39.0)|
+A Getting Down to Business |N|You can't do this quest if you've got high Netherwing faction|
+C Getting Down to Business
+T Getting Down to Business |N|Behind the holograph (70,38)|
+A Formal Introductions |N|You can't do this quest if you've got high Netherwing faction|
+T Formal Introductions |N|North (71,35)|
+A A Promising Start |N|You can't do this quest if you've got high Netherwing faction|
+C A Promising Start
+T A Promising Start
+A Troublesome Distractions |N|You can't do this quest if you've got high Netherwing faction|
+
+T Recipe for Destruction |N|West at Protectorate Watch Post (58,31)|
+A On Nethery Wings
+T Captain Tyralius
+T Electro-Shock Goodness!
+T Arconus the Insatiable
+T Triangulation Point One
+A Triangulation Point Two
+
+C Troublesome Distractions |N|Lure Marid away and kill him|
+C On Nethery Wings |N|Talk to the netherdrake and take a ride. Spam the bomb when you are over the manaforge.| |U|29778|
+T On Nethery Wings |N|Skip the follow-up|
+
+T Troublesome Distractions |N|Back at Celestial Ridge, skip the follow-up|
+
+H Stormspire
+C Triangulation Point Two |N|Use the device and find the mark near Manaforge Ara (28,41)| |U|29018|
+T Triangulation Point Two |N|Skip the follow-up|
 ]]
-
---[[
-|U|29737|
-140) Drink Navuud’s Concoction and hit the void wastes to split them into globules for the first part of
-"Electro-Shock Goodness!" down in the staging grounds where we’re about to go
-141) Go just south of here into the Ethereum Staging Grounds at 56,38 and start killing for "The
-Ethereum" Captain Zovax wanders around. Once you're done you have to use the transponder zeta at
-56,38 and Ameer will appear. Turn it in and accept "Ethereum Data" then to the south a tiny bit at 55,39
-is the data cell, grab it and go turn it in to Ameer at the portal and accept "Potential For Brain Damage=
-High"
-142) Now you have to kill the guys for their essence. Drink the essence and you have a 30 second buff to
-see the fish like relays floating around that you have to kill for the relay data. You should be able to get 1-
-2 datas per essence you drink
-143) Turn it back in to Ameer at the portal and accept "S-A-B-O-T-A-G-E" then kill an archon or overlord
-until you get a prepared ethereum wrapping then go back to the teleporter and turn it in and accept
-"Delivering the Message" and protect the demolitionist (easiest way is to either clear it first, or let stuff
-attack him. It does that thing where it chases him but doesn’t hit him) then go back to the teleporter and
-turn it in and SKIP the next part
-144) Just a bit SW there is warden Icoshock, kill him for the key but don't use it on any of the prisons
-around him. They're duds. The real prison is just behind the Nexus-King Salhadaar at 53,41 open it for
-"Captain Tyralius"
-145) Go east to 59,45 and speak with Araxes and accept "The Flesh Lies..." then enter the mine, Access
-Shaft Zeon and use the lighter on the withered corpses. Don't get too close or they spawn into parasitic
-fleshbeasts. As you enter the tunnel you can go left, keep left until you end up at 60,41 and you'll see Ya
-six and the power pack, accept "Arconus the Insatiable" and he’ll give you his hologram to help then grab
-the power pack for "A Not-So-Modest Proposal" then go back up towards the entrance and go deeper in,
-staying right until you hit the big room at 60,39 and kill Arconus the Insatiable then leave the cave and
-return to Araxes just outside at 59,45 and turn in "The Flesh Lies..."
-146) Go up around Manaforge Ultris and drink Navuud's Concoction and hit the seeping sludges to split
-them into globules for the other part of "Electro-Shock Goodness!" also kill the unstable voidwraiths and
-the voidshriekers here for "Recipe for Destruction"
-147) Go to 66,33 and you should get the complete message for "Triangulation Point One" if not use the
-triangualtion device and a hunters mark will appear where you have to stand
-148) Go east into the Celestial Ridge and down the long path through the nether drakes and at the bottom
-at 70,39 you'll see the teleporter right as the ramp down ends. Use it and Marid will appear, turn in "A
-Not-So-Modest Proposal" accept "Getting Down to Business"
-149) Now go around kill any of the nether drakes or dragons for their essence for this then turn it in at the
-Shrouded Figure just behind the teleporter at 70,38 and accept "Formal Introductions" then go a tiny bit
-north to 71,35 to Tyri and turn it in and accept "A Promising Start"
-150) Now go around the ridge collecting nether dragonkin eggs laying around the crystals then go back to
-Tyri and turn it in and accept "Troublesome Distractions"
-151) Ride back west to Protectorate Watch Post at 58,31 and talk to Dabiri next to the nether drake and
-turn in "Recipe for Destruction" and accept "On Nethery Wings" then find Viridius walking around and turn
-in "Captain Tyralius"
-152) Go to Navuud and turn in "Electro-Shock Goodness!" then to Ameer and turn in "Arconus the
-Insatiable"
-153) Go to Hazzin and turn in "Triangulation Point One" accept "Triangulation Point Two" then go to Marid
-and talk to him to lure him away and then kill him for "Troublesome Distractions". He has 2 68 guards but
-they drop easy
-154) Talk to the nether drake now and he'll fly you up top of Ultris, as it spirals you up, keep tossing the
-mana bombs until the void conduit is destroyed. Pretty easy to kill if you spam the bombs. When you land
-turn in "On Nethery Wings" SKIP "Dimensius the All-Devouring"
-155) Go east down into the Celestial Ridge again to Tyri at 71,35 and turn in "Troublesome Distractions"
-SKIP "Securing the Celestial Ridge"
-156) Hearth to Stormspire then go SW into Manaforge Ara to 28,41 and you should get complete for
-"Triangulation Point Two" this spot is near the forge and around mobs so you probably have to run in and
-over it. Again I'm not sure if you need to have the mark on it to get the point but I think you do
-157) Now go to Tuluman at Tuluman's Landing at 34,37 and turn it in and SKIP "Full Triangle"
-158) Now head back to Stormspire
-159) Now we go one of 2 places. If you want the skills you can train at 69 go to Shattrath and make it your
-home then portal to a town and hearth back. If not, or after getting skills, fly to Allerian Stronghold and
-east to the bridge at 71,50 and enter Shadowmoon Valley
---]]
-
 end)
 
