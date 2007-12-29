@@ -156,8 +156,6 @@ T Westbrook Garrison Needs Help! |N|Follow the road west until you're almost to 
 A Riverpaw Gnoll Bounty
 C Riverpaw Gnoll Bounty
 T Riverpaw Gnoll Bounty
-A The Collector |U|1307| |O|
-T The Collector |O|
 
 R Westfall
 A Furlbrow's Deed |U|1972| |O|
@@ -166,9 +164,9 @@ A Report to Gryan Stoutmantle
 A Westfall Stew
 T Westfall Stew |N|Follow the road south to Saldean's Farm (56.41, 30.53)| |Z|Westfall|
 T Report to Gryan Stoutmantle |N|South at Sentinel Hill, in front of the tower|
-A A Swift Message |N|Inside the tower|
-T A Swift Message
-A Continue to Stormwind
+A A Swift Message |N|Inside the tower| |R|Human|
+T A Swift Message |R|Human|
+A Continue to Stormwind |R|Human|
 
 F Stormwind City
 T Shipment to Stormwind |N|In the Trade District (56,64)| |Z|Stormwind City|
@@ -186,8 +184,8 @@ A Mirror Lake |C|Mage|
 T Gakin's Summons |N|In Mage Quarter, Stormwind| |C|Warlock|
 A Surena Caledon |C|Warlock|
 
-T Continue to Stormwind |N|In Old Town at Limited Immunity (74.2, 47.38)| |Z|Stormwind City|
-A Dungar Longdrink
+T Continue to Stormwind |N|In Old Town at Limited Immunity (74.2, 47.38)| |Z|Stormwind City| |R|Human|
+A Dungar Longdrink |R|Human|
 
 T Seek out SI: 7 |C|Rogue|
 A Snatch and Grab |C|Rogue|
@@ -201,11 +199,14 @@ A Bartleby's Mug |C|Warrior|
 T Bartleby's Mug |C|Warrior|
 A Marshal Haggard |C|Warrior|
 
-T Dungar Longdrink |N|Back at the flight point|
-A Return to Lewis
-F Westfall
-T Return to Lewis
-F Stormwind City
+A The Collector |U|1307| |O|
+T The Collector |O| |N|Down in Goldshire|
+
+T Dungar Longdrink |N|Back at the flight point| |R|Human|
+A Return to Lewis |R|Human|
+F Westfall |R|Human|
+T Return to Lewis |R|Human|
+F Stormwind City |R|Human|
 
 C Mirror Lake |N|Directly south of Stormwind at Mirror Lake (28.6, 61.4)| |U|7207| |C|Mage|
 C Snatch and Grab |N|Sap & Pickpocket the Dockmaster at Jerod's Landing (48,87)| |C|Rogue|

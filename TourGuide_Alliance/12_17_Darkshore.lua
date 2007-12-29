@@ -12,8 +12,6 @@ F Auberdine |R|Night Elf|
 
 A For Love Eternal |N|On the docks, west of Inn|
 A Buzzbox 827 |N|Inn, upstairs|
-A Cave Mushrooms
-A The Red Crystal
 A Bashal'Aran (Part 1) |N|Big house at north|
 A Tools of the Highborne
 A Plagued Lands |N|Southeast over the bridge|
@@ -26,8 +24,9 @@ A Buzzbox 411
 T Washed Ashore (Part 1)
 A Washed Ashore (Part 2)
 C Washed Ashore (Part 2) |N|Run out onto the dock and jump off the south pier (the one that goes to Menethil).  Find the turtle northeast of the small island, underwater (31.82, 46.28)|
-C Buzzbox 411 |N|Threshers are in the sea, north of the pier|
+C Buzzbox 411 |N|Threshers are in the sea around the pier|
 T Washed Ashore (Part 2)
+A The Red Crystal
 T Buzzbox 411 |N|Follow the road north out of Auberdine. When you reach Bashal'Aran, head northwest above the cove. Buzzbox is on the beach north of the cove (41.96, 28.62)|
 A Buzzbox 323
 
@@ -41,8 +40,8 @@ A Bashal'Aran (Part 3)
 C Bashal'Aran (Part 3)
 T Bashal'Aran (Part 3)
 A Bashal'Aran (Part 4)
-C The Red Crystal |N|Grind your way to the mountains east of Auberdine (47.32, 48.70)|
-C How Big a Threat? (Part 1) |N|Grind your way west to the furblog camp by the road south of Auberdine (40.35, 53.46)|
+C The Red Crystal |N|In the mountains east of Auberdine (47.32, 48.70)|
+C How Big a Threat? (Part 1) |N|West at the furblog camp by the road south of Auberdine (40.35, 53.46)|
 
 A The Fall of Ameth'Aran |N|Follow the road south to Twilight Vale|
 C The Fall of Ameth'Aran |N|Look for the big white tablets on the ground (43.31, 58.70) (42.65, 63.13)|
@@ -65,13 +64,13 @@ A The Cliffspring River
 T The Red Crystal
 A As Water Cascades
 N Fill the [Empty Water Tube] in the Moonwell |U|14338| |L|14339|
+A Cave Mushrooms
 T For Love Eternal |N|Out on the pier|
-
 T Beached Sea Creature@1@
 
 T Bashal'Aran (Part 4) |N|Follow the road north out of Auberdine|
-C Cleansing of the Infected |N|To the northeast|
-N Beached Sea Turtle |N|(44.17, 20.65)| |L|12292|
+C Cleansing of the Infected |N|To the northeast, there are many more bears south of the road than north of it.|
+N Beached Sea Turtle |N|North on the coast (44.17, 20.65)| |L|12292|
 C Buzzbox 323 |N|Both Moonstalkers and Moonstalker Runts drop this item.|
 
 C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water to get the sample| |U|12350|
