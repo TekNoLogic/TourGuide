@@ -57,7 +57,7 @@ T Asghar's Totem
 A The Rod of Lianthe
 
 K Overseer Ripsaw |N|Back at Legion Hold.  Near the fel reaver (22,35)| |L|30756|
-C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22,35), Power Core is underwater (26,41).|
+C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22,35), Power Core is underwater at the Fetid Pool (26,41).|
 
 T Setting Up the Bomb |N|Back at Wildhammer Stronghold|
 A Blast the Infernals!
