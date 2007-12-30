@@ -23,15 +23,7 @@ T Enraged Spirits of Fire and Earth
 A Enraged Spirits of Water
 C Enraged Spirits of Water |N|Kill water elementals to the northeast at Coilskar Point (48,24).  Use the totem, same as before.| |U|30094|
 
-T Find the Deserter |N|Patrols along the road to the west (35,39)|
-A Asghar's Totem
-
 C The Sketh'lon Wreckage |N|Northeast at the Sketh'lon Wreckage (37,30)|
-C Asghar's Totem |N|Kill Asghar (40,31)|
-
-T Asghar's Totem
-A The Rod of Lianthe
-
 C Put On Yer Kneepads... |N|Southwest at the Magma Fields (32,39)|
 C Spleendid!
 C A Ghost in the Machine
@@ -58,6 +50,13 @@ T Enraged Spirits of Water |N|Back at the Altar of Damnation|
 A Enraged Spirits of Air
 
 C The Second Course... |N|East under the bridge where you killed water elementals|
+
+T Find the Deserter |N|Patrols along the road to the west (35,39)|
+A Asghar's Totem
+C Asghar's Totem |N|Kill Asghar (40,31)|
+
+T Asghar's Totem
+A The Rod of Lianthe
 
 C Setting Up the Bomb |N|Back at Legion Hold.  Armor Plating is near the fel reaver (22,35), Power Core is underwater (26,41).|
 
