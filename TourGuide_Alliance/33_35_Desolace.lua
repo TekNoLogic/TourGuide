@@ -6,7 +6,7 @@ A Reclaiming the Charred Vale
 C Reclaiming the Charred Vale |N|South in the Charred Vale (32,66)| |Z|Stonetalon Mountains|
 
 R Desolace |N|South, naturally|
-R Nijel's Point |N|Along the norther edge of Desolace (64,10)|
+R Nijel's Point |N|Along the northern edge of Desolace (64,10)|
 A Vahlarriel's Search (Part 1)
 A Centaur Bounty
 T Reclaimers' Business in Desolace
