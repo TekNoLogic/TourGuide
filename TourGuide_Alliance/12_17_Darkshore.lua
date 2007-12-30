@@ -1,10 +1,6 @@
 TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
-f Auberdine |R|Human|
-f Auberdine |R|Dwarf|
-F Auberdine |R|Night Elf|
-f Auberdine |R|Gnome|
-f Auberdine |R|Draenei|
+B Auberdine |N|Or fly from Teldrassil|
 
 A Washed Ashore (Part 1)
 T Flight to Auberdine |R|Night Elf|
@@ -81,7 +77,7 @@ C Buzzbox 323 |N|Both Moonstalkers and Moonstalker Runts drop this item.|
 C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water to get the sample| |U|12350|
 T Buzzbox 323 |N|Buzzbox is on the other side of the bridge, left side|
 A Buzzbox 525
-C Cave Mushrooms |N|Follow the east shore of the river south to the waterfall.  Enter the cave above waterfall.(55,33)|
+C Cave Mushrooms |N|Follow the east shore of the river south to the waterfall.  Enter the cave above waterfall (55,33).|
 T As Water Cascades |N|Back at the red crystal (47.32, 48.70)|
 A The Fragments Within
 C How Big a Threat? (Part 2) |N|Grind your way west across the road to Blackwood camp|
