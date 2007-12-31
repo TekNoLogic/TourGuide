@@ -1,6 +1,7 @@
-TourGuide:RegisterGuide("Feralas (44-46)", "Azshara (46)", "Horde", function()
+TourGuide:RegisterGuide("Feralas (45-46)", "Azshara (46-47)", "Horde", function()
 return [[
-R Camp Mojache
+F Freewind Post
+R Camp Mojache |N|South in Feralas|
 A A New Cloak's Sheen
 A The Ogres of Feralas (Part 1)
 A Gordunni Cobalt
@@ -38,7 +39,6 @@ C A Grim Discovery (Part 1) |N|West of Camp Mojache (66,46)|
 H Camp Mojache
 T The Battle Plans
 T A Grim Discovery (Part 1)
-
 A A Grim Discovery (Part 2)
 A Stinglasher
 A Zukk'ash Infestation
@@ -47,6 +47,7 @@ C Stinglasher |N|Both in the hive area south of Camp Mojache (74,62)|
 C Zukk'ash Infestation
 C Screecher Spirits |N|South of Dire Maul (55,56)|
 C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)|
+N Pick up a Hippograph Egg |N|Around (55,76) in nests|
 C Dark Ceremony |N|In the ruins to the south (59,68)|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)|
 
@@ -58,40 +59,22 @@ T The Mark of Quality
 
 A Zukk'ash Report
 A The Gordunni Orb
+A The Sunken Temple
 
 F Orgrimmar
-
-N Donate cloth |N|Turn in 120 [Silk Cloth] and 120 [Mageweave Cloth] at Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
+h Orgrimmar
 T Zukk'ash Report |N|In The Drag (56,46)| |Z|Orgrimmar|
-
 A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4,36.9)| |Z|Orgrimmar|
 T Ripple Recovery (Part 1) |N|The other guy in the same building|
 A Ripple Recovery (Part 2)
-
 T Parts of the Swarm |N|At Belgrom Rockmaul in the Valley of Honor (75,34)| |Z|Orgrimmar|
 T A Grim Discovery (Part 2)
 A Betrayed
-
 T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar|
-A Return to Witch Doctor Uzer'i
-
 T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar|
 A Service to the Horde
 T Service to the Horde
-
 T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar|
-
-H Camp Mojache
-T Return to Witch Doctor Uzer'i
-A Natural Materials
-A Testing the Vessel
-
-C Natural Materials |N|Sprite Darters west of Camp Mojache (68,48), Hippogryphs southwest of Dire Maul (54,72)|
-A Find OOX-22/FE! |U|8705| |O|
-T Find OOX-22/FE! |N|In the yeti cave (53.4,55.7), skip the escort quest| |O|
-
-H Camp Mojache
-T Natural Materials
-A The Sunken Temple
+N Donate cloth |N|Turn in 120 [Silk Cloth] and 120 [Mageweave Cloth] at Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
 ]]
 end)

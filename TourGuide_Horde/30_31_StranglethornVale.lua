@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (30-31)", "Thousand Needles (31-32)", "Horde", function()
 return [[
-F Grom'Gol Base Camp |N|Hearth to Orgrimmar and ride zeppelin to Grom'Gol|
+F Grom'gol Base Camp |N|Hearth to Orgrimmar and ride zeppelin to Grom'Gol|
 f Grab flight point
 
 R Nesingwary's Expedition |N|Follow the road north, look for a little camp by the river (35,10)|

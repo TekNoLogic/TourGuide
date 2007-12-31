@@ -9,7 +9,7 @@ A Alliance Relations (Part 2)
 
 R Desolace |N|Fly to Stonetalon Mountains and run south|
 
-R Thunder Axe Fortess |N|West of the road (55,24).|
+R Thunder Axe Fortress |N|West of the road (55,24).|
 N Kill mobs |N|Kill mobs till you get Flayed Demon Skin| |L|20310|
 A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin| |U|20310|
 A Kodo Roundup |N|From Smeed Scrabblescrew (60.8, 61.9)|
@@ -17,7 +17,6 @@ A Kodo Roundup |N|From Smeed Scrabblescrew (60.8, 61.9)|
 R Ghost Walker Post |N|Follow the road northwest from Scrabblescrew's hut (56,59)|
 T The Kolkar of Desolace
 A Khan Dez'hepah
-A Centaur Bounty
 A Gelkis Alliance |N|Skip Magram Alliance|
 T Alliance Relations (Part 2)
 A Alliance Relations (Part 3)
@@ -31,8 +30,11 @@ C Befouled by Satyr |N|(75,22)|
 C The Corrupter (Part 2) |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker|
 C Khan Dez'hepah |N|In the Magram village (73,48)|
 C Gelkis Alliance |N|Kill Magram centaurs until you gain Gelkis (Friendly)|
+C Kodo Roundup
+T Kodo Roundup
 
 T Khan Dez'hepah |N|Back at Ghost Walker Post|
+A Centaur Bounty
 T Befouled by Satyr
 T The Corrupter (Part 2)
 A The Corrupter (Part 3)
@@ -42,18 +44,15 @@ A Stealing Supplies
 R Shadowprey Village |N|Follow the road west, down on the shore (24,71)|
 A Hunting in Stranglethorn
 A Hand of Iruxos
-A Clam Bait
-A Other Fish to Fry
 h Shadowprey Village
+A Other Fish to Fry
+A Clam Bait
 f Grab flight point |N|Out on the pier|
-
-N Collect 10 Shellfish |N|From the Shellfish traps in the water to the west of Shadowprey Village| |L|13545 10|
-T Fish in a Bucket |N|To Jinar'Zillen the npc on the docks. You have to turn in this twice.|
 
 N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
 A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1)
 
-C The Burning Spirits |N|In Thunder Axe Fortress (54,29)|
+C The Burning of Spirits |N|In Thunder Axe Fortress (54,29)|
 C Sceptre of Light
 C Hand of Iruxos
 
@@ -72,19 +71,17 @@ T Book of the Ancients |N|Back on shore at the tower|
 
 A Bone Collector |N|From Bibbly F'utzbuckle at Kormek's Hut (62,38)|
 
-A Catch of the Day |N|At Ghost Walker Post|
-T Catch of the Day
-T The Burning Spirits
+T The Burning of Spirits
 T The Corrupter (Part 3)
 A The Corrupter (Part 4)
 T The Corrupter (Part 4) |N|Skip last follow-up|
 
 C Bone Collector |N|In the Kodo Graveyard|
-C Stealing Supplies |N|In the Magram village (70,74)|
+C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)|
 C Centaur Bounty
 
 T Centaur Bounty
-T Bone Collecter
+T Bone Collector
 
 H Shadowprey Village
 
@@ -100,11 +97,11 @@ N Learn Claw (Rank 5) |N|Tame a Lv34 Scorpashi Lasher (36,77)| |C|Hunter|
 F Camp Taurajo
 R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|
 
-A Suspicous Hoofprints |N|Click on hoofprints outside the inn on ground (29.7, 47.7)| |Z|Dustwallow Marsh|
+A Suspicious Hoofprints |N|Click on hoofprints outside the inn on ground (29.7, 47.7)| |Z|Dustwallow Marsh|
 A Lieutenant Paval Reethe |N|Laying on the planks on the ground (29.8, 48.2)| |Z|Dustwallow Marsh|
 A The Black Shield (Part 1) |N|On top of fireplace|
 
-R Brakenwall Village |N|North along the road (35,29)| |Z|Dustwallow Marsh|
+R Brackenwall Village |N|North along the road (35,29)| |Z|Dustwallow Marsh|
 T Suspicious Hoofprints
 T Lieutenant Paval Reethe
 T The Black Shield (Part 1)
@@ -113,7 +110,7 @@ T The Black Shield (Part 2) |N|Skip the follow-up|
 
 F Ratchet
 T Goblin Sponsorship (Part 1)
-A Goblin Sponoship (Part 2)
+A Goblin Sponsorship (Part 2)
 T Wharfmaster Dizzywig
 A Parts for Kravel
 ]]

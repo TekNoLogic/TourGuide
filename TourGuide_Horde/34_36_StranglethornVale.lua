@@ -40,10 +40,11 @@ A The Defense of Grom'gol (Part 2)
 T Bloodscalp Insight
 A An Unusual Patron
 
-C Headhunting
+C Headhunting |N|(21,14) with Bloody Bone Necklaces|
 C Bloody Bone Necklaces
 C An Unusual Patron |N|The Altar is on the island of water elementals (19,22)|
 C The Vile Reef |N|The tablet is outside the wall of the underwater city you can avoid the elite murlocs (24,24)|
+C Encrusted Tail Fins |N|(24,24)|
 
 T Tiger Mastery (Part 3) |N|Back at Nesingwary's Expedition|
 A Tiger Mastery (Part 4)
