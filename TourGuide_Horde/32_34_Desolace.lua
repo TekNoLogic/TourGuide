@@ -1,14 +1,11 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
-H Moonglade |C|Druid|
-t Training for level 32 |C|Druid|
 H Orgrimmar
 T The Swarm Grows (Part 1) |N|Valley of Honor (75,34)| |Z|Orgrimmar|
 A The Swarm Grows (Part 2)
 A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)| |Z|Orgrimmar|
 T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)| |Z|Orgrimmar|
 A Alliance Relations (Part 2)
-N Save Cloth for Cloth Donations Quests
 
 R Desolace |N|Fly to Stonetalon Mountains and run south|
 
@@ -86,8 +83,6 @@ C Centaur Bounty
 T Centaur Bounty
 T Bone Collector
 
-H Moonglade |C|Druid|
-t Training |C|Druid|
 H Shadowprey Village
 
 N Stable pet |C|Hunter|
@@ -112,7 +107,6 @@ T Lieutenant Paval Reethe
 T The Black Shield (Part 1)
 A The Black Shield (Part 2)
 T The Black Shield (Part 2) |N|Skip the follow-up|
-N Buy 3 first aid books
 
 F Ratchet
 T Goblin Sponsorship (Part 1)

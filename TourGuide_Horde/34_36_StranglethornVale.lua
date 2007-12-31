@@ -39,13 +39,13 @@ T The Defense of Grom'gol (Part 1)
 A The Defense of Grom'gol (Part 2)
 T Bloodscalp Insight
 A An Unusual Patron
-G Grind Level 35, buy new water! |LV|35|
 
 C Headhunting |N|(21,14) with Bloody Bone Necklaces|
 C Bloody Bone Necklaces
 C An Unusual Patron |N|The Altar is on the island of water elementals (19,22)|
 C The Vile Reef |N|The tablet is outside the wall of the underwater city you can avoid the elite murlocs (24,24)|
 C Encrusted Tail Fins |N|(24,24)|
+
 T Tiger Mastery (Part 3) |N|Back at Nesingwary's Expedition|
 A Tiger Mastery (Part 4)
 T Raptor Mastery (Part 2)
@@ -76,7 +76,6 @@ T Mok'thardin's Enchantment
 T Headhunting
 T Bloody Bone Necklaces
 T The Vile Reef
-G Level 36.. hit moonglade on next hearth |LV|36|
 
 F Undercity |N|Take Zeppelin|
 A To Steal From Thieves |N|In the center of Undercity| |NODEBUG|
