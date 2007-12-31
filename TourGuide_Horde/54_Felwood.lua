@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Felwood (54-54)", "Winterspring (54-55)", "Horde", function()
+TourGuide:RegisterGuide("Felwood (54)", "Winterspring (54-55)", "Horde", function()
 return [[
 A Timbermaw Ally |N|(50,85) Talk to the NPC he will give it to you|
 A Forces of Jaedenar |N|At Emerald Sanctuary (51,82)|

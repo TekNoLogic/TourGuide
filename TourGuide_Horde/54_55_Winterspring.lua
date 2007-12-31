@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Winterspring (54-55)", "Felwood (55-55)", "Horde", function()
+TourGuide:RegisterGuide("Winterspring (54-55)", "Felwood (55)", "Horde", function()
     return [[
 A Winterfall Activity |N|Just outside the cave|
 T The New Springs |N|Donova Snowden (31,45)|

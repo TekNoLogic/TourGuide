@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Western Plaguelands (56-56)", "Eastern Plaguelands (56-57)", "Horde", function()
+TourGuide:RegisterGuide("Western Plaguelands (56)", "Eastern Plaguelands (56-57)", "Horde", function()
 return [[
 T A Call To Arms: The Plaguelands!
 A Scarlet Diversions

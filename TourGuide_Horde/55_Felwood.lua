@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Felwood (55-55)", "Western Plaguelands (56-56)", "Horde", function()
+TourGuide:RegisterGuide("Felwood (55)", "Western Plaguelands (56)", "Horde", function()
 return [[
 T Wild Guardians |N| Skip follow up quest|
 F Emerald Sanctuary
@@ -41,7 +41,7 @@ F Orgrimmar
 A A Call to Arms: The Plaguelands |N| Get from Warcaller Gorlach (can also get in UC if you can't find him)|
 b Undercity
 T A Sample of Slime...
-T ... and a Batch of Ooze  
+T ... and a Batch of Ooze
 h Undercity
 R The Bulwark
 ]]
