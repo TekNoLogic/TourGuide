@@ -1,14 +1,6 @@
 TourGuide:RegisterGuide("Winterspring (54-55)", "Felwood (55)", "Horde", function()
 return [[
-R Winterspring |N|East thru the cave|
-T Speak to Salfa |N|Just outside the cave|
-A Winterfall Activity
-T The New Springs |N|Donova Snowden (31,45)|
-T It's a Secret to Everybody
-A Strange Sources
-A Threat of the Winterfall
-
-R Everlook |N|(61,38)|
+R Everlook |N|Follow the road east.|
 A Are We There, Yeti? (Part 1)
 A The Everlook Report
 A Duke Nicholas Zverenhoff
@@ -47,5 +39,31 @@ C Are We There, Yeti? (Part 2) |N|pristine horns (66,43)|
 
 H Everlook
 T Are We There, Yeti? (Part 2)
+
+F Bloodvenom Post
+T Wild Guardians |N|Skip the follow-up|
+
+T A Husband's Last Battle |N|Back at Bloodvenom Post|
+T Well of Corruption
+A Corrupted Sabers
+
+F Emerald Sanctuary
+T Collection of the Corrupt Water |N|Skip the follow-up|
+T Further Corruption
+T Flute of Xavaric
+T Verifying the Corruption
+T Cleansing Felwood |N|South along the road|
+
+C Corrupted Sabers |N|(32,66)| |Z|Felwood|
+T Corrupted Sabers |N|First talk to the cat|
+
+T Falling to Corruption |N|The cauldron at (60,5)| |Z|Felwood|
+A Mystery Goo
+
+R Winterspring
+T Winterfall Activity
+T Mystery Goo |N|(31,45) in Winterspring, skip the follow-up| |Z|Winterspring|
+
+H Everlook
 ]]
 end)
