@@ -102,12 +102,11 @@ N Rune of Nesting |N|Head down into the Ban'ethil Barrow Den (44,57).  At the fi
 N Black Feather Quill |N|Across the other bridge (43.70, 61.22).| |Q|The Relics of Wakening| |QO|Black Feather Quill: 1/1|
 A The Sleeping Druid |N|Jump down and take the passage to the west, run across the bridge to Oben Rageclaw (44.94, 61,60).|
 N Sapphire of Sky |N|Jump down and go south (44.70, 62.44).| |Q|The Relics of Wakening| |QO|Sapphire of Sky: 1/1|
-C The Sleeping Druid |N|Kill shamans|
+C The Relics of Wakening |N|The Raven Claw Talisman is north in the next room (the one with Rageclaw's body).  Run up onto the center pilar, take the bridge to the right and follow the path around to the left (45.65, 57.44).|
+C The Sleeping Druid |N|If the item didn't drop while you are collecting the relics, skip this and "Druid of the Claw"|
 T The Sleeping Druid
 A Druid of the Claw
-C Druid of the Claw |N|Jump down and run north.  Rageclaw's body patrols around this room in a circle.  Target his body and use the charm.| |U|8149|
-N Raven Claw Talisman |N|On the ledge overlooking this room.  Run up onto the center pilar, take the bridge to the right and follow the path around to the left (45.65, 57.44).| |Q|The Relics of Wakening| |QO|Raven Claw Talisman: 1/1|
-C The Relics of Wakening
+C Druid of the Claw |N|Back in the room to the north.  Kill him, target his body and use the charm.| |U|8149|
 T Druid of the Claw
 
 C Crown of the Earth (Part 4) |N|Moonwell at the Pools of Arlithrien (42.42, 67.08)| |U|5621|
