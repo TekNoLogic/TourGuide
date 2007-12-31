@@ -1,5 +1,7 @@
-TourGuide:RegisterGuide("Searing Gorge (47-58)", "Swamp of Sorrows (48-49)", "Horde", function()
+TourGuide:RegisterGuide("Searing Gorge (47-48)", "Swamp of Sorrows (48-49)", "Horde", function()
 return [[
+F Kargath
+R Searing Gorge |N|West!|
 A Caught! |N|Guy in the outhouse southeast of map (65,62)|
 T Caught!
 A Ledger from Tanaris
@@ -20,8 +22,10 @@ C Fiery Menace! |N|West side of zone|
 C Curse These Fat Fingers |N|Just south of Thorium Point|
 C STOLEN: Smithing Tuyere and Lookout's Spyglass |N|Just south of Thoriun Point|
 C The Flawless Flame
+
 T The Flawless Flame |N|At Kalaran Windblade (39,38)|
 A Forging the Shaft
+
 C Forging the Shaft |N|Dark Iron taskmasters and slavers of the cauldron (64,61)|
 C JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev quest|
 C WANTED: Overseer Maltorius
@@ -29,6 +33,7 @@ C What the Flux?
 C Incendosaurs? Whateverosaur is More Like It
 U The Key to Freedom |U|11818|
 T The Key to Freedom |N|At the outhouse (65,62)|
+
 T Forging the Shaft |N|Kalaran Windblade (39,38)|
 A The Flame's Casing
 C The Flame's Casing |N|Around (24,36) kill til item drops|
@@ -57,9 +62,8 @@ T JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev q
 T WANTED: Overseer Maltorius
 T What the Flux?
 T Incendosaurs? Whateverosaur is More Like It
+
 R Burning Steppes |N|You have to go through Black Rock Mountain, SW of map|
-N Discover some areas
 f Get the FP |N|at (65,25)|
-F Stonard |N|Swamp of Sorrows|
 ]]
 end)

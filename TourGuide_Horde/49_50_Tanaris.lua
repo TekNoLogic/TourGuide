@@ -1,5 +1,6 @@
 TourGuide:RegisterGuide( "Tanaris (49-50)", "Azshara (50)", "Horde", function()
 return [[
+F Gadgetzan |N|Tanaris|
 A The Super Egg-O-Matic |N|Machine in Gadgetzan|
 T The Super Egg-O-Matic |N|Egg from feralas|
 h Gadgetzan
@@ -21,12 +22,13 @@ C Gahz'ridian
 C Noxious Lair Investigation |N|At (34,47)|
 C Thistleshrub Valley |N|(28,65) with next one|
 C The Thirsty Goblin |N|At (28,65)|
+
+A Tooga's Quest
 C Tooga's Quest |N|Long escort quest ends at Torta (66,25)|
 T Tooga's Quest
 T Screecher Spirits
 
-R Gadgetzan
-T The Thirsty Goblin
+T The Thirsty Goblin |N|Back at Gadgetzan|
 A In Good Taste
 T In Good Taste
 A Sprinkle's Secret Ingredient
@@ -37,21 +39,17 @@ A The Scrimshank Redemption
 
 T Gahz'ridian |N|At (52,45)|
 C The Scrimshank Redemption |N|Cave at (53,70), keep making rights|
-U Find OOX-17/TN! |U|8623|
-T Find OOX-17/TN! |O|Need item| |L|8623|
+A Find OOX-17/TN! |U|8623| |N|Skip this escort if you never got the beacon|
+T Find OOX-17/TN!
 A Rescue OOX-17/TN!
 C Rescue OOX-17/TN!
-H Gadgetzan
 
+H Gadgetzan
 T The Scrimshank Redemption
 A Insect Part Analysis (Part 1)
 T Insect Part Analysis (Part 1)
 A Insect Part Analysis (Part 2)
 T Insect Part Analysis (Part 2)
 A Rise of the Silithid
-
-F Orgrimmar
-h Orgrimmar
-F Azshara
 ]]
 end)
