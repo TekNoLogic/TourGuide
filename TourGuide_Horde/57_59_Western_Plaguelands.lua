@@ -1,6 +1,7 @@
 TourGuide:RegisterGuide("Western Plaguelands (57-59)", "Hellfire Pennisula (59-60)", "Horde", function()
 return [[
-T Return to the Bulwark
+R The Bulwark
+T Return to the Bulwark (Part 4)
 T A Plague Upon Thee (Part 1)
 A A Plague Upon Thee (Part 2)
 A Mission Accomplished
@@ -29,36 +30,38 @@ T The Wildlife Suffers Too (Part 2) |N| Skip the continuation|
 T Auntie Marlene |N|In the house at (49,78)|
 A A Strange Historian
 C A Strange Historian |N| The Ring is out in the graveyard|
+
 R Andorhal
 N Do All Along the Watchtowers while working your way to the inn (39,66)|
 T A Strange Historian |N|At Chromie up the stairs in the inn at (39,68)|
 A The Annals of Darrowshire
 A A Matter of Time
+
 C All Along the Watchtowers
 C The Annals of Darrowshire |N| The book is in (42,67)|
 C A Matter of Time |N|(47,62)|
+
 T A Matter of Time
 T The Annals of Darrowshire
 A Counting Out Time
 A Brother Carlin
 C Counting Out Time
 T Counting Out Time
-R The Bulwark
-T A Plague Upon Thee (Part 3)
+
+T A Plague Upon Thee (Part 3) |N|Back at the Bulwark|
 T The So-Called Mark of the Lightbringer
 A Defiling Uther's Tomb
 T All Along the Watchtowers
 A Scholomance
 T Scholomance
 A Skeletal Fragments
-B Enriched Manna Biscuits
-R Andorhal
+
 C Skeletal Fragments
 C Defiling Uther's Tomb |N| At (51,82) you need to equip the quest item at the tomb|
-N When you are 58 and have 30 Bone Fragments return to Bulwark
-R The Bulwark
-T Defiling Uther's Tomb
+
+T Defiling Uther's Tomb |N|Back at The Bulwark|
 T Skeletal Fragments
+
 R Undercity
 F Light's Hope Chapel
 T Zaeldarr the Outcast
@@ -66,9 +69,5 @@ T Defenders of Darrowshire
 T Brother Carlin
 A Bonescythe Digs
 T Bonescythe Digs
-F Hammerfall
-N Build up first aid
-H Undercity
-
 ]]
 end)

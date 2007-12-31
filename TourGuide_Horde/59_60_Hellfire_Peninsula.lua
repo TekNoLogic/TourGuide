@@ -1,5 +1,6 @@
 TourGuide:RegisterGuide("Hellfire Peninsula (59-60)", nil, "Horde", function()
 return [[
+H Undercity
 A Through the Dark Portal |N|Warlord Dar'toon right outside the big portal|
 T Through the Dark Portal |N|Just down the steps to the right|
 A Arrival in Outland
@@ -10,6 +11,5 @@ A Report to Nazgrel
 T Report to Nazgrel |N|Inside big building|
 A Eradicate the Burning Legion
 h Thrallmar
-G Grind to level 60 on Wrathguards |N|(72,56)| |LV|60|
 ]]
 end)
