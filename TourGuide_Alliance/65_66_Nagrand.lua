@@ -22,7 +22,7 @@ A Talbuk Mastery (Part 2)
 
 A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest|
 T The Howling Wind
-A Murkblood Corruptors
+A Murkblood Corrupters
 A The Underneath
 A A Rare Bean
 A Muck Diving
@@ -34,7 +34,7 @@ C A Rare Bean
 C Clefthoof Mastery (Part 2) |N|West again, south of the Laughing Skull Ruins.|
 C Muck Diving |N|Southwest, the water around Halaa.|
 
-C Murkblood Corruptors |N|At Sunspring Post (31,43).|
+C Murkblood Corrupters |N|At Sunspring Post (31,43).|
 
 A Matters of Security |N|At the Consortium Outpost, straight south of Sunspring (31,57).|
 A Stealing from Thieves
@@ -82,7 +82,7 @@ C Solving the Problem
 C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31).|
 C Wanted: Zorbo the Advisor |N|At the Laughing Skull Ruins (43,21)|
 
-T Murkblood Corruptors
+T Murkblood Corrupters
 T The Throne of the Elements
 T A Rare Bean
 A Agitated Spirits of Skysong
