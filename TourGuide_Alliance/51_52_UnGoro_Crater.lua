@@ -2,10 +2,10 @@
 TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Azshara (52-53)", "Alliance", function()
 return [[
 R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
-N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystal.  Also loot any dirt piles or sprouts you find.|
+N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystals.  Also loot any dirt piles or sprouts you find.|
 
-A The Apes of Un'Goro |N|From a tauren at the bottom of the ramp entering the zone (71.69, 75.97)|
-A The Fare of Lar'korwi |N|From a tauren at the bottom of the ramp entering the zone|
+A The Apes of Un'Goro |N|Tauren on the hill to the left of the ramp from Tanaris (69,77)|
+A The Fare of Lar'korwi
 
 A It's a Secret to Everybody (Part 1) |N|Find the wrecked raft (63.04, 68.54)|
 T It's a Secret to Everybody (Part 1) |N|Just underwater nearby|
@@ -35,7 +35,7 @@ T Williden's Journal
 A Expedition Salvation
 T It's a Secret to Everybody (Part 2)
 A It's a Secret to Everybody (Part 3)
-f Grab the flight point
+f Get flight point |N|Up on the hill, easy to miss|
 A Crystals of Power |N|In the back of the cave|
 T Crystals of Power
 A The Northern Pylon
@@ -102,6 +102,4 @@ B Ichor of Undeath |L|7972| |C|Priest|
 
 A Moontouched Wildkin |N|Down in Rut'theran Village|
 ]]
-
 end)
-
