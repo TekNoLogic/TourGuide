@@ -151,6 +151,10 @@ C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to
 F Darnassus |C|Druid|
 T Body and Heart |C|Druid|
 
+A The Temple of the Moon |N|Behind the bank, near the portal to Rut'theran Village|
+T The Temple of the Moon |N|Due south of the bank|
+A Tears of the Moon
+
 A Nessa Shadowsong |N|From Mydrannul (70.67, 45.37) on your way out of Darnassus.| |R|Night Elf| |Z|Darnassus|
 
 A The Glowing Fruit |N|Out of town, south of the Pools of Arlithrien, just outside Gnarlpine Hold (42.61, 76.11)|
@@ -159,12 +163,23 @@ C Ursal the Mauler |N|West of the glowing tree (39,80)|
 C Tumors |N|Elementals at the river east of The Oracle Glade (42,42)|
 C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade (38.44, 34.08)| |U|18152|
 A The Enchanted Glade
-C The Enchanted Glade |N|Harpys west of The Oracle Glade|
+
+A Mist |N|Find the saber to the west, past the harpies (31.5, 31.6)|
+C The Enchanted Glade
+C Mist |N|Lead the cat back to the Oracle Glade|
+
+T Mist
 T The Enchanted Glade
 A Teldrassil
 
+C Tears of the Moon |N|North, near the edge of the tree|
+
 T Tumors |N|Back in Cenarion Enclave, Darnassus|
 A Return to Denalan
+T Tears of the Moon
+A Sathrah's Sacrifice
+C Sathrah's Sacrifice |N|Use the item down in the fountain| |U|8155|
+T Sathrah's Sacrifice
 
 H Dolanaar
 T Crown of the Earth (Part 5) |N|Down by the moonwell again|
