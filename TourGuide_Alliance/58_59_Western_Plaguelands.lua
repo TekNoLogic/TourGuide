@@ -30,15 +30,4 @@ C Tomb of the Lightbringer |N|Escort quest!|
 T Tomb of the Lightbringer |N|Back at Chillwind Camp|
 
 ]]
-
---[[
-16) Hearth to IF
-17) Go to the throne room at 43,52 and accept “An Earnest Proposition” (pick your class from the list)
-You have to have your classes tier 0 bracers in order to do this quest. You can buy it on AH
-18) Fly to Menethil and boat to Auberdine, fly to Darnassus
-19) Go to 35,8 on the 2nd floor and turn in “Glyphed Oaken Branch”
-20) You should be 59, fly to Winterspring
-]]
-
 end)
-

@@ -19,7 +19,6 @@ A Uncle Carlin
 K Plaguehounds |Q|Demon Dogs| |QO|Plaguehound Runt slain: 20/20| |N|All over the southwestern section of the zone|
 C Blood Tinged Skies
 
-
 T Uncle Carlin |N|East at Light's Hope Chapel (81,58)|
 A Defenders of Darrowshire
 T Duke Nicholas Zverenhoff
@@ -29,6 +28,4 @@ N Free Spirits... |N|Kill any cannibal ghouls, gibbering ghouls and diseased fla
 C Demon Dogs |N|Plaguehounds near Light's Hope to the east, Frenzied Plaguehound in the north half of the zone.|
 C A Plague Upon Thee (Part 1) |N|Find termite mounds all around the northern part of the zone.|
 ]]
-
 end)
-
