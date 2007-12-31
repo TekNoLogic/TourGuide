@@ -199,6 +199,19 @@ A Bartleby's Mug |C|Warrior|
 T Bartleby's Mug |C|Warrior|
 A Marshal Haggard |C|Warrior|
 
+N Get a Tome of Divinity |L|6775| |N|Go see Duthorian Rall in the Cathedral of Light| |C|Paladin|
+A The Tome of Divinity (Part 1) |C|Paladin| |U|6775|
+T The Tome of Divinity (Part 1) |C|Paladin|
+A The Tome of Divinity (Part 2) |C|Paladin|
+T The Tome of Divinity (Part 2) |C|Paladin| |N|In Trade District|
+A The Tome of Divinity (Part 3) |C|Paladin|
+T The Tome of Divinity (Part 3) |C|Paladin|
+A The Tome of Divinity (Part 4) |C|Paladin|
+T The Tome of Divinity (Part 4) |C|Paladin| |N|In the Cathedral of Light|
+A The Tome of Divinity (Part 5) |C|Paladin|
+T The Tome of Divinity (Part 5) |C|Paladin|
+A The Tome of Divinity (Part 6) |C|Paladin|
+
 T Dungar Longdrink |N|Back at the flight point| |R|Human|
 A Return to Lewis |R|Human|
 F Westfall |R|Human|
@@ -217,6 +230,10 @@ A Dead-tooth Jack |C|Warrior|
 C Dead-tooth Jack |N|To the southeast (89.2, 78.7)| |C|Warrior|
 T Dead-tooth Jack |C|Warrior|
 
+T The Tome of Divinity (Part 6) |N|West side of the island on Stonecaire Lake in Elwynn Forest (72.6, 51.5)| |U|6866| |C|Paladin|
+A The Tome of Divinity (Part 7) |C|Paladin|
+C The Tome of Divinity (Part 7) |N|Center of island in Stonecaire Lake in Elwynn Forest| |C|Paladin|
+
 H Stormwind City
 T Mirror Lake |C|Mage|
 T Snatch and Grab |C|Rogue|
@@ -224,6 +241,9 @@ T Surena Caledon |C|Warlock|
 A The Binding |C|Warlock|
 C The Binding |N|Summoning circle downstairs| |U|6928| |C|Warlock|
 T The Binding |C|Warlock|
+T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin|
+A The Tome of Divinity (Part 8) |C|Paladin|
+T The Tome of Divinity (Part 8) |C|Paladin|
 
 T Elmore's Task |N|In the Dwarven District (51.7, 12.1)| |Z|Stormwind City|
 A Stormpike's Delivery
