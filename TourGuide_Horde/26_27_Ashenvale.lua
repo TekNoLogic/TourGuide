@@ -41,8 +41,8 @@ A Troll Charm
 
 C Between a Rock and a Thistlefur |N|At around (34,37)|
 C Troll Charm |N|Cave is at back of the camp (38,30)|
-A Freedom to Ruul |O|Optional Escort|
-C Freedom to Ruul |N|Escort|
+A Freedom to Ruul |N|Escort, skip it if you want|
+C Freedom to Ruul
 T Between a Rock and a Thistlefur
 T Troll Charm
 
@@ -53,14 +53,12 @@ N Retrieve Pet |C|Hunter|
 
 H Splintertree Post
 T Freedom to Ruul
-G Grind to 27 |LV|27|
 A Destroy the Legion
-C Ordanus |N|(61,52) Fight to top room. Just kill Ordanus, loot the head then jump out of there.|
-C Satyr Horns |N|(80,52)Most annoying quest ever if you can't remove curse.|
-C Destroy the Legion |N|(82,69)Find item Diabolical Plans|
+C Ordanus |N|Fight to top room (61,52). Just kill Ordanus, loot the head then jump out of there.|
+C Satyr Horns |N|(80,52)|
+C Destroy the Legion |N|Find item Diabolical Plans (82,69)|
 
-R Splintertree Post |N|Don't hearth|
-T Satyr Horns
+T Satyr Horns |N|Back at Splintertree Post|
 T Destroy the Legion
 A Diabolical Plans |U|23797| |O|
 T Diabolical Plans |O|

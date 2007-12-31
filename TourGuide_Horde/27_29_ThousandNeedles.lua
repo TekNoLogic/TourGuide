@@ -19,8 +19,6 @@ C A Different Approach |N|Around (8,14)|
 
 H Sun Rock Retreat
 F Thunder Bluff
-
-t Abilities/Spells
 T Steelsnap |N|Hunter Rise|
 A Frostmaw
 T Sacred Fire |N|Elder Rise|
@@ -48,13 +46,12 @@ K Galak Messenger |L|12564|
 
 A Assassination Plot |U|12564|
 T Assassination Plot |N|Back at Whitereach Post|
-T Hypercapacitor Gizmo |N|Keel mobs around cage (22,24)|
+T Hypercapacitor Gizmo |N|Kill mobs around cage (22,24)|
 T A Dip in the Moonwell
 A Testing the Tonic
 A Protect Kanati Greycloud
 C Protect Kanati Greycloud
 T Protect Kanati Greycloud
-G Grind til <4 Bars to 30
 
 H Freewind Post
 T Free at Last

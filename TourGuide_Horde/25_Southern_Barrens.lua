@@ -4,7 +4,7 @@ F Camp Taurajo
 T Ishamuhale
 A Enraged Thunder Lizards
 h Camp Taurajo
-A A New Ore Sample |N|Need level 25 to get this|
+A A New Ore Sample
 C Enraged Thunder Lizards
 N Find Mob Washte Pawne |N|Around (43,80)|
 C Revenge of Gann (Part 2) |N|Dwarf area (47,85)|

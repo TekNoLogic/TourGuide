@@ -2,7 +2,7 @@ TourGuide:RegisterGuide("Stonetalon Mountains (23-25)", "Southern Barrens (25)",
     return [[
 R Sun Rock Retreat
 A Cenarius' Legacy
-T Boulderslide Ravine |N|Skip "Earthen Arise"|
+T Boulderslide Ravine |N|Skip the follow-up|
 A Elemental War
 A Harpies Threaten
 h Sun Rock Retreat
@@ -24,10 +24,9 @@ T Jin'Zil's Forest Magic |N|Turn in at (74,97)|
 T Shredding Machines |N|Turn in at near Barrens (35,27)|
 
 H Sun Rock Retreat
-C New Life |N|Charred Vale with next two (32,67)|
-C Elemental War |N|Charred Vale|
-C Harpies Threaten |N|Charred Vale|
-G Grind til <5 bubs from 25 |LV|25|
+C New Life |N|West in the Charred Vale (32,67)|
+C Elemental War
+C Harpies Threaten
 T New Life
 T Elemental War
 T Harpies Threaten
