@@ -144,10 +144,11 @@ function TourGuide:UpdateStatusFrame()
 		if not self.turnedin[name] and not nextstep then
 			local action, name, quest = self:GetObjectiveInfo(i)
 			local turnedin, logi, complete = self:GetObjectiveStatus(i)
-			local note, useitem, optional, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("L", i)
+			local note, useitem, optional, prereq, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("PRE", i), self:GetObjectiveTag("L", i)
 			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
 			local haslootitem = lootitem and GetItemCount(lootitem) >= lootqty
+			local prereqturnedin = prereq and self.turnedin[prereq]
 
 			-- Test for completed objectives and mark them done
 			if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == name or GetZoneText() == name) then return self:SetTurnedIn(i, true) end
@@ -166,7 +167,7 @@ function TourGuide:UpdateStatusFrame()
 			end
 
 			local incomplete
-			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem) and not logi
+			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem or prereqturnedin) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi and complete
 			elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or haslootitem
