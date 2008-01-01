@@ -149,12 +149,13 @@ function TourGuide:UpdateStatusFrame()
 			local needlevel = level and level > UnitLevel("player")
 			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0, level, needlevel)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
+			local haslootitem = lootitem and GetItemCount(lootitem) >= lootqty
 
 			-- Test for completed objectives and mark them done
 			if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == name or GetZoneText() == name) then return self:SetTurnedIn(i, true) end
 
 			if action == "KILL" or action == "NOTE" then
-				if not optional and lootitem and GetItemCount(lootitem) >= lootqty then return self:SetTurnedIn(i, true) end
+				if not optional and haslootitem then return self:SetTurnedIn(i, true) end
 
 				local quest, questtext = self:GetObjectiveTag("Q", i), self:GetObjectiveTag("QO", i)
 				if quest and questtext then
@@ -167,10 +168,10 @@ function TourGuide:UpdateStatusFrame()
 			end
 
 			local incomplete
-			if action == "ACCEPT" then incomplete = (not optional or hasuseitem) and not logi
+			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi and complete
 			elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
-			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or lootitem and GetItemCount(lootitem) >= lootqty or needlevel
+			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or haslootitem or needlevel
 			else incomplete = not logi end
 
 			if incomplete then nextstep = i end
