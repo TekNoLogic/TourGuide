@@ -75,7 +75,6 @@ R Odesyus' Landing
 T A Small Start
 A I've Got A Plant
 T Cookie's Jumbo Gumbo
-N Grind to level 7 if you aren't yet, you need it to accept next quests |LV|7|
 A Reclaiming the Ruins
 A Precious and Fragile Things Need Special Handling
 C The Great Moongraze Hunt (Part 1)
@@ -143,7 +142,6 @@ A Deliver Them From Evil...
 R Azure Watch
 T Nightstalker Clean Up, Isle 2...
 T Deliver Them From Evil...
-N Grind until you are level 10 |LV|10|
 A Coming of Age
 A Call of Fire (Part 1) |C|Shaman|
 R Exodar

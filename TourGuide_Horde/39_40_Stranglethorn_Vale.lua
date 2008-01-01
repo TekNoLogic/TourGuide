@@ -35,7 +35,6 @@ F Grom'gol Base Camp
 T Mok'thardin's Enchantment (Part 3)
 A Mok'thardin's Enchantment (Part 4)
 h Grom'gol Base Camp
-G Level 40 by now |LV|40|
 H Moonglade |C|Druid|
 t Abilities |C|Druid|
 F Thunder Bluff |C|Druid|

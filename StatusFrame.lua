@@ -145,9 +145,7 @@ function TourGuide:UpdateStatusFrame()
 			local action, name, quest = self:GetObjectiveInfo(i)
 			local turnedin, logi, complete = self:GetObjectiveStatus(i)
 			local note, useitem, optional, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("L", i)
-			local level = tonumber((self:GetObjectiveTag("LV", i)))
-			local needlevel = level and level > UnitLevel("player")
-			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0, level, needlevel)
+			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
 			local haslootitem = lootitem and GetItemCount(lootitem) >= lootqty
 
@@ -171,7 +169,7 @@ function TourGuide:UpdateStatusFrame()
 			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi and complete
 			elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
-			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or haslootitem or needlevel
+			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or haslootitem
 			else incomplete = not logi end
 
 			if incomplete then nextstep = i end
