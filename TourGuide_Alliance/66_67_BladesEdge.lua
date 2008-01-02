@@ -1,9 +1,11 @@
 
 TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-70)", "Alliance", function()
-return [[F Orebor Harborage
+return [[
+F Orebor Harborage
 A No Time for Curiosity
 A Killing the Crawlers |N|Up the stairs outside the cave|
 C Killing the Crawlers |N|In the cave, of course|
+
 R Sylvanaar |N|North out of the cave|
 A The Den Mother |N|On a wanted poster|
 T No Time for Curiosity |N|First building on the left|
@@ -14,7 +16,7 @@ A Malaise |N|North again|
 A Into the Draenethyst Mine |N|In the 'long' building|
 A Strange Brew
 h Sylvanaar
-N Grab flight point |N|North end of town|
+
 C The Encroaching Wilderness |N|South of town|
 C Malaise |N|West at Veil Lashh (35,73)|
 T Malaise |N|Find a book up in the trees, bridge at (34,76)|
@@ -27,6 +29,7 @@ C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres an
 C Strange Brew |N|Get 5 extra brews|
 C The Bloodmaul Ogres
 N Make sure you have 5 extra brews!
+
 R Sylvanaar
 T The Bloodmaul Ogres
 A The Bladespire Ogres
@@ -35,6 +38,7 @@ A Getting the Bladespire Tanked
 T Into the Draenethyst Mine
 C Marauding Wolves |N|East over the bridge near the Horde outpost (41,65)|
 C The Den Mother |N|Down in the cave at (52,74)|
+
 R Toshley's Station |N|(60,69)|
 A Crystal Clear
 A Picking Up Some Power Converters
@@ -45,6 +49,7 @@ T Test Flight: The Zephyrium Capacitorium
 A Test Flight: The Singing Ridge
 R Bladespire Outpost |N|To the North (57,60)|
 C Picking Up Some Power Converters |N|Click the power converters, use the magneto collector on the electromental that comes out, then kill it|
+
 R Toshley's Station
 T Picking Up Some Power Converters
 A Ride the Lightning
@@ -58,6 +63,7 @@ C Cutting Your Teeth |N|Most of the daggermaws are North of Death's Door.  If yo
 R Singing Ridge |N|Or run to Toshley's and get tossed over|
 C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into|
 C Crystal Clear |N|On your way back to Toshley's|
+
 R Toshley's Station
 T Crystal Clear
 T Ride the Lightning
@@ -70,9 +76,11 @@ T Cutting Your Teeth
 T What Came First, the Drake or the Egg?
 A Test Flight: Razaan's Landing
 N Don't turn in the Test Flight quest!
+
 R Singing Ridge
 C Gauging the Resonant Frequency |N|Clear an area and lay down the scanners in a star pattern.  Stand in the center of the star|
 T Gauging the Resonant Frequency
+
 R Razaan's Landing |N|Rally can send you here|
 C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can keep grabbing the orbs in a row|
 C More than a Pound of Flesh
@@ -117,7 +125,7 @@ A A Date with Dorgok |N|West edge of town|
 A Crush the Bloodmaul Camp!
 A Little Embers |N|West edge of town|
 A From the Ashes
-N You should be ~75% to 67 now
+
 C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven|
 C A Time for Negotiation... |N|Keep an eye out for Overseer Nuaar, a neutral Draenei.  He walks around the camps here.|
 C Culling the Wild |N|Go south of town then east up the path. Work your way north as you kill the quest mobs|
@@ -226,6 +234,6 @@ F Evergrove
 T Maxnar Must Die!
 
 R Circle of Blood |N|(53,41)|
-T Baron Sablemane Has Requested Your Presence |N|Skip "Massacre at Gruul's Lair" unless you get some friends to help.|]]
+T Baron Sablemane Has Requested Your Presence |N|Skip "Massacre at Gruul's Lair" unless you get some friends to help.|
+]]
 end)
-
