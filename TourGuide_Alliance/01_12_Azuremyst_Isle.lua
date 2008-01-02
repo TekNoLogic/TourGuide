@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Azuremyst Isle (1-12)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Azuremyst Isle (1-12)", "Bloodmyst Isle (12-20)", "Alliance", function()
 return [[
 A You Survived!
 T You Survived!
@@ -17,7 +17,7 @@ A Shaman Training |C|Shaman|
 T Shaman Training |C|Shaman|
 A Spare Parts
 A Inoculation
-C Rescue the Survivors! |N|Find a Draenei Survivor, use your spell Gift of Naaru on him|
+C Rescue the Survivors! |N|Find a Draenei Survivor, use your spell Gift of the Naaru on him|
 C Botanical Legwork |N|South of Ammen Fields|
 C What Must Be Done...
 T Botanical Legwork
@@ -31,7 +31,7 @@ H Ammen Vale
 T Healing the Lake
 A Call of Earth (Part 1) |C|Shaman|
 T Spare Parts
-A Inoculation
+T Inoculation
 A The Missing Scout
 T Call of Earth (Part 1) |N|Northwest of Crash Site (71,40)| |C|Shaman|
 A Call of Earth (Part 2) |C|Shaman|
@@ -52,8 +52,8 @@ T Blood Elf Plans
 A The Emitter
 T The Emitter
 A Travel to Azure Watch
-R ChangeMeZone |N|*** You need to change this to match the zone for next NPC (66,53)|
-A Word from Azure Watch
+
+A Word from Azure Watch |N|Run out of Ammen Vale to the west, this NPC is just before the river ford on the way over (64,54)|
 A Red Snapper - Very Tasty!
 C Red Snapper - Very Tasty!
 T Red Snapper - Very Tasty!
@@ -70,32 +70,33 @@ R Odesyus' Landing |N|The beach south of Azure Watch|
 A Cookie's Jumbo Gumbo
 A A Small Start
 C Cookie's Jumbo Gumbo
-C A Small Start |N|Go east and Insert coords here for Map and Compass please :)|
+C A Small Start |N|Go east along the shore to the Venture Camp (59,67)|
 R Odesyus' Landing
 T A Small Start
-A I've Got A Plant
+A I've Got a Plant
 T Cookie's Jumbo Gumbo
+
 N Grind to level 7 if you aren't yet, you need it to accept next quests |LV|7|
 A Reclaiming the Ruins
 A Precious and Fragile Things Need Special Handling
 C The Great Moongraze Hunt (Part 1)
 C Medicinal Purpose
-C I've Got A Plant |N|Hollowed out tree north of Odesyus' Landing (48,62), leafs around the ground|
+C I've Got a Plant |N|Hollowed out tree north of Odesyus' Landing (48,62), leaves around the ground|
 R Azure Watch
 T Medicinal Purpose
 A An Alternative Alternative
 T The Great Moongraze Hunt (Part 1)
 A The Great Moongraze Hunt (Part 2)
 C An Alternative Alternative
-N Kill all Infected Nightstalker Runts for a Questitem |L|23678 1|
-A Strante Findings |N|Item in your inventory|
+N Kill all Infected Nightstalker Runts for a Quest item |L|23678 1|
+A Strange Findings |N|Item in your inventory|
 R Wrathscale Point
 C Reclaiming the Ruins
 C Precious and Fragile Things Need Special Handling
-N Kill naga's until they drop a Quest |L|23759 1|
+N Kill nagas until they drop the quest item |L|23759 1|
 A Rune Covered Tablet |N|Item in your inventory|
 R Odesyus' Landing
-T I've Got A Plant
+T I've Got a Plant
 A Tree's Company
 T Rune Covered Tablet
 A Warlord Sriss'tiz |N|After the NPC's stop talking|
@@ -103,9 +104,9 @@ T Reclaiming the Ruins
 T Precious and Fragile Things Need Special Handling
 R Azure Watch
 A The Missing Fisherman
-A Learning The Language
-C Learning The Language |N|Read to book in your inventory|
-T Learning The Language
+A Learning the Language
+C Learning the Language |N|Read the book in your inventory|
+T Learning the Language
 A Totem of Coo |N|No need to follow the NPC, point will be shown later|
 T Strange Findings
 A Nightstalker Clean Up, Isle 2...
@@ -114,7 +115,7 @@ T Totem of Coo |N|On top the the cliifs north of Azure Watch (55,41)|
 A Totem of Tikti
 T Totem of Tikti |N|Jump to northeast with your wings, run over water to (64,39)|
 A Totem of Yor
-T Totem of Yor |N|*** Enter description here (63,47)|
+T Totem of Yor |N|Swim down the river to the south (63,68)|
 A Totem of Vark
 T Totem of Vark |N|Follow the NPC|
 A The Prophecy of Akida
@@ -122,9 +123,9 @@ C The Prophecy of Akida
 C Nightstalker Clean Up, Isle 2...
 R Tides' Hollow
 C Warlord Sriss'tiz |N|In the cave, at lower level|
-R TheIslandInSouthwest |N|Go to the beach with a flag (18,83)|
-N Use [Tree Disguide Kit] |U|23792|
-C The Missing Fisherman |N|At the dock (28,82)|
+R Traitor's Cove |N|Go to the beach with a flag (18,83)|
+N Use [Tree Disguise Kit] |U|23792|
+T The Missing Fisherman |N|At the dock (16,92)|
 A All That Remains
 C All That Remains
 T All That Remains
@@ -143,16 +144,19 @@ A Deliver Them From Evil...
 R Azure Watch
 T Nightstalker Clean Up, Isle 2...
 T Deliver Them From Evil...
+
+A Strength of One |C|Warrior|
 N Grind until you are level 10 |LV|10|
 A Coming of Age
 A Call of Fire (Part 1) |C|Shaman|
-R Exodar
+R The Exodar
 T Coming of Age
 A Elekks Are Serious Business
 R Stillpine Hold
 A Beasts of the Apocalypse!
 A Murlocs... Why Here? Why Now?
 T Stillpine Hold
+C Strength of One |C|Warrior|
 C Beasts of the Apocalypse! |N|Northeast of Stillpine Hold|
 T Call of Fire (Part 1) |N|Go further northeast| |C|Shaman|
 A Call of Fire (Part 2) |C|Shaman|
@@ -160,53 +164,52 @@ R Stillpine Hold
 T Beasts of the Apocalypse!
 A Chieftain Oomooroo
 A Search Stillpine Hold
-N Kill mobs until you get the questitem for your Shamanquest |L|23733 1| |C|Shaman|
+N Kill mobs until you get the questitem for your Shaman quest |L|23733 1| |C|Shaman|
 C Chieftain Oomooroo
 T Search Stillpine Hold |N|There's a red crystal in the cave you need to touch|
 A Blood Crystals |N|Spawns 2 owlkins|
 T Blood Crystals
 T Chieftain Oomooroo
-A The Kurken is Lurkin
-C The Kurken is Lurkin |Kill the 2 headed dog next to the red crystal, in the cave|
-T The Kurken is Lurkin
+A The Kurken is Lurkin'
+C The Kurken is Lurkin' |Kill the 2 headed dog next to the red crystal, in the cave|
+T The Kurken is Lurkin'
 A The Kurken's Hide
 C The Kurken's Hide
 T Call of Fire (Part 2) |C|Shaman|
 A Call of Fure (Part 3) |C|Shaman|
-C Murlocs... Why Here? Why Now? |N|*** Westshore. Describe it better|
+C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (30,29)|
 N Kill the named Murloc called Murgurgula to get a quest |L|23850 1|
 A Gurf's Dignity
 R Stillpine Hold
 T Murlocs... Why Here? Why Now?
 T Gurf's Dignity
-R Kessel's Crossing |N|The second island north of Azuremyth Isle|
+A Warn Your People |N|From the Chief.|
+R Kessel's Crossing |N|The second island north of Azuremyst Isle|
 A A Favorite Treat
 T Elekks Are Serious Business
 A Alien Predators
 A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places|
-C The Kessel Run |N|Talk to High Chieftain Stillpine at Stillpine Hold (46,20), SomeoneSomeone at Azure Watch (47,50), SomeoneSomeone at Odesyus' Landing (46,70)|
+C The Kessel Run |N|Talk to High Chieftain Stillpine at Stillpine Hold (46,20), Exarch Menelaous at Azure Watch (47,50) and Admiral Odesyus at Odesyus' Landing (46,70)|
 R Kessel's Crossing
+A Declaration of Power
 T The Kessel Run
 
-A Declaration of Power |C|Shaman|
-R Use the elekk and ride to the island southwest of Azuremyst Isle |N|*** Replace this with the name and description :D (11,82)| |C|Shaman|
+R Silvermyst Isle |N|Run to the small island to the southwest of Azuremyst Isle (11,82)| |C|Shaman|
 C Call of Fire (Part 3) |N|Wickerman Effigy (11,82)| |C|Shaman|
 U Orb of Returning |C|Shaman|
 T Call of Fire (Part 3) |C|Shaman|
 A Call of Fire (Part 4) |C|Shaman|
-H Azure Watch
+H Azure Watch |C|Shaman|
 T Call of Fire (Part 4) |C|Shaman|
 A Call of Fire (Part 5) |C|Shaman|
-R Exodar
+R The Exodar |C|Shaman|
 T Call of Fire (Part 5) |C|Shaman|
 
-R Kessel's Crossing |C|Shaman|
-N You need to select the next island (12-20 Bloodmyst Isle) manually now! |N|You need to continue questing in that island in order to get your Totem-quests done| |C|Shaman|
-B Auberdine |C|Warrior|
-B Auberdine |C|Paladin|
-B Auberdine |C|Hunter|
-B Auberdine |C|Priest|
-B Auberdine |C|Mage|
+H Azure Watch |C|Warrior|
+T Strength of One |C|Warrior|
+A Behomat |C|Warrior|
+R The Exodar
+T Behomat |C|Warrior|
 
 ]]
 end)
