@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Shadowmoon Valley (70 Aldor)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Shadowmoon Valley (70)", nil, "Alliance", function()
 return [[
 F Allerian Stronghold |N|Terokkar Forest|
 R Wildhammer Stronghold |N|East across the bridge, follow the road southeast in Shadowmoon Valley (39,53)|
