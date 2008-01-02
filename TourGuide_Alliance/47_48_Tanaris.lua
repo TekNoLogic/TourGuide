@@ -13,12 +13,12 @@ A Gahz'ridian
 
 U Put on the helmet |U|9978|
 C The Dunemaul Compound |N|Kill Gor'marok in a small cave (41.11,57.31), then head to the ruins (47,66).  Collect stuff for "Gahz'ridian" anytime it shows up on the minimap.|
-C Gahz'ridian |N|Find large clusters of these in the ruins (40,73) (47,66) ()|
+C Gahz'ridian |N|Find large clusters of these in the ruins (40,73) (47,66)|
 
 T Seeing What Happens |O|
-A The Stone Watcher |O|
-T The Stone Watcher
-A Return to Ironforge |O|
+A The Stone Watcher |O| |PRE|Seeing What Happens|
+T The Stone Watcher |O|
+A Return to Ironforge |O| |PRE|The Stone Watcher|
 
 C Thistleshrub Valley |N|To the west (29,66)|
 C The Thirsty Goblin

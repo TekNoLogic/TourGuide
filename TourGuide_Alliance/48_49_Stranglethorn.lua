@@ -19,11 +19,11 @@ T Big Game Hunter |N|At Nessingway's Camp|
 
 H Booty Bay
 T Stranglethorn Fever
-T Cracking Maury's Foot |O|
+T Cracking Maury's Foot
 
 A Message in a Bottle (Part 1) |N|Open bottles on the shore east of Booty Bay, you know, the one with the pirates.|
 C The Captain's Chest |N|Kill Gorlash (36,69).  He's elite, so burn your cooldowns.|
-T Message in a Bottle (Part 1) |N|On the island (38.55,80.61)  Skip the followup unless you've got at least 3 people.|
+T Message in a Bottle (Part 1) |N|On the island (38.55,80.61)  Skip the follow-up unless you've got at least 3 people.|
 
 C The Bloodsail Buccaneers (Part 5) |N|To the south at the ships (33,87) (30,88).  One cap'n per ship, inside on the second level.  Also keep an eye out for "Cortello's Riddle", a scroll that starts a quest.|
 
@@ -31,6 +31,7 @@ H Booty Bay |N|Or deathport|
 T The Captain's Chest
 T The Bloodsail Buccaneers (Part 5) |N|At the top of the inn|
 A Zanzil's Mixture and a Fool's Stout
+A Cortello's Riddle (Part 1) |O| |U|2554|
 
 b Ratchet
 f Grab the flight point

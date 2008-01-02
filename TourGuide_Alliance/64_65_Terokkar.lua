@@ -1,19 +1,27 @@
 
-TourGuide:RegisterGuide("Terokkar Forest (64-65 Aldor)", "Nagrand (65-66)", "Alliance", function()
+TourGuide:RegisterGuide("Terokkar Forest (64-65)", "Nagrand (65-66)", "Alliance", function()
 return [[
-N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  If you choose Scryers then you will have to substitute their quests for the aldor quests in this guide (Scryer guides are on the to do list).|
 A A'dal |N|You're looking for a Haggard War Veteran, he should be fairly easy to find near the center of the city|
 T A'dal
 A City of Light
 A Rather Be Fishin' |N|You can accept this and the next while doing the walk-around for City of Light. Seth is at the ruined infirmary (63.95, 15.50).| |Z|Shattrath City|
 A The Eyes of Skettis |Z|Shattrath City| |N|Rilak is in Lower City, just before the guardian turns to take you back up to the main ring (52.56, 20.98)|
 T City of Light
-A Allegiance to the Aldor
-T Allegiance to the Aldor
-A Ishanah
-T Ishanah
-A Restoring the Light
-h Shattrath City |N|As you leave the temple the inn is to your right|
+N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  Select the appropriate quest from Khadgar once you've decided.|
+
+T Allegiance to the Aldor |O|
+A Ishanah |O| |PRE|Allegiance to the Aldor|
+T Ishanah |O|
+A Restoring the Light |O| |PRE|Ishanah|
+
+T Allegiance to the Scryers |O|
+A Voren'thal the Seer |O| |PRE|Allegiance to the Scryers|
+T Voren'thal the Seer |O|
+A Losing Gracefully |O| |PRE|Voren'thal the Seer|
+
+h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
+
+C Losing Gracefully |O|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.|
 T What's Wrong at Cenarion Thicket?
@@ -33,11 +41,11 @@ A Wind Trader Lathrai
 
 N Rep tokens... |N|Save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
 
-C Restoring the Light |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.|
+C Restoring the Light |O| |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.|
 C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).|
 
-H Aldor Rise
-T Restoring the Light
+H Shattrath City
+T Restoring the Light |O|
 T The Eyes of Skettis |N|Back to Rilak in Lower City|
 A Seek Out Kirrik
 T Rather Be Fishin' |N|Skip the follow-up|

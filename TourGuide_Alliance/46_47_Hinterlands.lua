@@ -49,9 +49,9 @@ C The Altar of Zul |N|Just run up the alter (48,68)|
 C Favored of Elune?
 
 A Find OOX-09/HL |U|8704| |O|
-T Find OOX-09/HL |N|(49,37)|
-A Rescue OOX-09/HL
-C Rescue OOX-09/HL
+T Find OOX-09/HL |O| |N|(49,37)|
+A Rescue OOX-09/HL |O| |PRE|Find OOX-09/HL|
+C Rescue OOX-09/HL |O|
 
 H Aerie Peak
 N Turn in any more necklaces

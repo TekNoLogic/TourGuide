@@ -29,7 +29,6 @@ A Look To The Stars (Part 3) |NODEBUG|
 C The Night Watch (Part 1)
 K Skeletons for 10x Skeleton Fingers |L|2378 10|
 C Look To The Stars (Part 3) |N|Insane Ghoul inside the chapel| |NODEBUG|
-A An Old History Book |O| |U|2794|
 C Worgen in the Woods (Part 3) |N|(73,73)|
 
 H Darkshire |N|Or run since it is not far.|
@@ -90,5 +89,6 @@ T Inquire at the Inn
 
 A An Old History Book |U|2794| |O|
 T An Old History Book |N|Turn in to the Stormwind Library.| |O|
+A Southshore |O| |PRE|An Old History Book|
 ]]
 end)
