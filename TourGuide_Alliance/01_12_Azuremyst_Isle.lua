@@ -185,13 +185,10 @@ T Murlocs... Why Here? Why Now?
 T Gurf's Dignity
 A Warn Your People |N|From the Chief.|
 R Kessel's Crossing |N|The second island north of Azuremyst Isle|
-A A Favorite Treat
 T Elekks Are Serious Business
-A Alien Predators
 A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places|
-C The Kessel Run |N|Talk to High Chieftain Stillpine at Stillpine Hold (46,20), Exarch Menelaous at Azure Watch (47,50) and Admiral Odesyus at Odesyus' Landing (46,70)|
-R Kessel's Crossing
-A Declaration of Power
+C The Kessel Run |N|Talk to High Chieftain Stillpine at Stillpine Hold (46,20), Exarch Menelaous at Azure Watch (47,50) and Admiral Odesyus at Odesyus' Landing (46,70) then head back to Kessel. Turn in Warn Your People to the Exarch while you're there.|
+T Warn Your People
 T The Kessel Run
 
 R Silvermyst Isle |N|Run to the small island to the southwest of Azuremyst Isle (11,82)| |C|Shaman|
@@ -208,7 +205,7 @@ T Call of Fire (Part 5) |C|Shaman|
 H Azure Watch |C|Warrior|
 T Strength of One |C|Warrior|
 A Behomat |C|Warrior|
-R The Exodar
+R The Exodar |C|Warrior|
 T Behomat |C|Warrior|
 
 ]]
