@@ -4,15 +4,17 @@ T The Sleeper Has Awaken |N|You need to talk to the NPC in Maestra's Post before
 T The Tower of Althalaxx (Part 3)
 A The Tower of Althalaxx (Part 4)
 A Bathran's Hair
+C Heartswood |N|Heartswood in Ashenvale (31.5, 31.5)| |L|6912| |C|Warlock|
 C The Tower of Althalaxx (Part 4) |N|Northeast of Maestra's Post|
-C Bathran's Hair |N|Plant bundles at (31,21)
+C Bathran's Hair |N|Plant bundles at (31,21)|
 T The Tower of Althalaxx (Part 4)
 A The Tower of Althalaxx (Part 5)
 T Bathran's Hair
 A Orendil's Cure
 T Therylune's Escape |N|Southwest from Maestra's Post, across the road to the ruins|
-R Astranaar
+R Astranaar |N|Follow road east|
 f Grab the flight point |N|Northwest entrance of Astranaar|
+T Journey to Astranaar
 A The Zoram Strand
 A On Guard in Stonetalon (Part 1)
 A Journey to Stonetalon Peak
@@ -22,8 +24,9 @@ A Culling the Threat
 h Astranaar
 N Stable your pet |C|Hunter|
 T Orendil's Cure
-A Elune's Tear
-R The Zoram Strand
+A Elune's Tear |N|Wait for it!|
+R The Zoram Strand |N|Follow path west of Maestra's Post (15,20)|
+
 A The Ancient Statuette |N|NPC at the small camp south of The Zoram Strand|
 N Tame Clattering Crawler |C|Hunter| |N|Make sure it's lvl20 so you'll get Claw Rank 3. Teach Growl Rank 3|
 C The Zoram Strand
@@ -54,7 +57,5 @@ A The Ruins of Stardust
 R The Ruins of Stardust |N|South of Astranaar|
 C The Ruins of Stardust |N|Grab Stardust covered bushes|
 R The Talondeep Path
-
 ]]
-
 end)

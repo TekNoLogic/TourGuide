@@ -32,15 +32,15 @@ A Ormer's Revenge (Part 3)
 T Uncovering the Past
 C Ormer's Revenge (Part 3)
 T Ormer's Revenge (Part 3)
-R Angerfang Encampment
+R Angerfang Encampment |N|East of Excavation Site (42.9, 41.1)|
 C War Banners
 A Daily Delivery |N|Crossroad north from Angerfang Encampment|
-T The Greenwarden |N|East of the crossroad, across the small river|
+T The Greenwarden |N|East of the crossroad, across the small river (56.3, 40.3)|
 A Tramping Paws
-C Tramping Paws |N|Camps are located south of Greenwarden|
+C Tramping Paws |N|Camps are located south of Greenwarden (55.8, 73.7)|
 T Tramping Paws
 A Fire Taboo
-C Fire Taboo |N|Camps start from north of Greenwarden and continue to the west over the road|
+C Fire Taboo |N|Camps start on East side of road that heads North|
 T Fire Taboo
 A Blisters on The Land |N|Do this while you do other quests. The questmobs are stealthed and can't be found unless you go near them| |NODEBUG|
 H Deepwater Tavern
@@ -54,7 +54,7 @@ A Apprentice's Duties
 T Claws from the Deep
 A Reclaiming Goods
 T In Search of The Excavation Team (Part 2) |NODEBUG|
-F Menethil Harbor
+R Menethil Harbor
 A Fall of Dun Modr |N|NPC on his back infront of castle|
 T Reclaiming Goods |N|Damaged Crate at the murloc camp north of Menethil Harbor (13.51,41.37)|
 A The Search Continues
@@ -63,11 +63,11 @@ A Search More Hovels
 T Search More Hovels |N|Half-buried Barrel at the next murloc camp to the north (13.93,34.81)|
 A Return the Statuette
 C The Cursed Crew |N|Ships north from the murloc camps|
-C Apprentice's Duties
+C Apprentice's Duties |N|north from the murloc camps and east of Menethil Harbor (19,59)(21,23)|
+C Blisters on The Land |N|Just run around in the water they are invisable| |NODEBUG|
 R Ironbeard's Tomb
 C Digging Through the Ooze
 T Fall of Dun Modr |N|North of the zone|
-C Blisters on The Land |NODEBUG|
 T Blisters on The Land |NODEBUG|
 H Deepwater Tavern
 T The Cursed Crew
@@ -77,9 +77,23 @@ T Apprentice's Duties
 T Return the Statuette
 F City of Ironforge
 T An Old Colleague
-F Stormwind City
+R Stormwind City
 T A Scroll from Mauren |N|The Mage Quarter|
-F Redridge Mountains
 
+T Heartswood |N|Warlock Trainer in the Mage Quarter| |C|Warlock|
+A The Binding |C|Warlock|
+C The Binding |U|6913| |C|Warlock|
+T The Binding |C|Warlock|
+
+A The Missing Diplomat (Part 1) |N|From Boy Thomas running around in the Cathedral|
+T The Missing Diplomat (Part 1) |N|In Stormwind Keep (77.7, 23.5)| |Z|Stormwind City|
+A The Missing Diplomat (Part 2)
+T The Missing Diplomat (Part 2) |N|Stormwind Entrance (73,78)| |Z|Stormwind City|
+A The Missing Diplomat (Part 3)
+T The Missing Diplomat (Part 3) |N|Trade District (60,64)| |Z|Stormwind City|
+A The Missing Diplomat (Part 4)
+
+B 1x [Bronze Tube] |N|Engineer vendor sells this sometimes AH is your best bet, save it for later| |L|4371 1|
+F Redridge Mountains
 ]]
 end)

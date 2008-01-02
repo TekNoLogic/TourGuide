@@ -1,5 +1,6 @@
 TourGuide:RegisterGuide("Darkshore (20-21)", "Ashenvale (21-22)", "Alliance", function()
 return [[
+A Journey to Astranaar |N|On the dock|
 A Onward to Ashenvale |N|Northernmost building in Auberdine|
 R Grove of the Ancients |N|Get back to Auberdine and run south|
 T Onu
@@ -21,6 +22,6 @@ R Grove of the Ancients
 T Return to Onu
 A Mathystra Relics
 A The Sleeper Has Awakened |N|Escort. REMEMBER TO TAKE THE HORN FROM THE BOX NEXT OF HIM!|
-C The Sleeper Has Awakened |N|Use the [Horn of Awakening] when he falls asleep. That happens quite alot...| |U|13536|
+C The Sleeper Has Awakened |N|Use the [Horn of Awakening] when he falls asleep. That happens quite alot... Stay of main road lots eazyer| |U|13536|
 ]]
 end)

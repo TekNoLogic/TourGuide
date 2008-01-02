@@ -1,6 +1,16 @@
 TourGuide:RegisterGuide("Ashenvale (29-30)", "Wetlands (30-31)", "Alliance", function()
 return [[
-F Astranaar |N|Fly to Menethil Harbor then take the boat to Auberdine.|
+R City of Ironforge
+F Menethil Harbor
+T The Missing Diplomat (Part 10) |N|Menethil Harbor Inn|
+A The Missing Diplomat (Part 11)
+C The Missing Diplomat (Part 11) |N|Fight him|
+T The Missing Diplomat (Part 11)
+A The Missing Diplomat (Part 12) |N|The guy you just faught close to inn entrance|
+T The Missing Diplomat (Part 12)
+A The Missing Diplomat (Part 13) |C|Warlock|
+
+F Astranaar |N|Take the boat to Auberdine then fly|
 A A Helping Hand
 h Astranaar
 
@@ -9,7 +19,7 @@ T A Helping Hand
 A A Shameful Waste
 A Vile Satyr! Dryads in Danger!
 A Destroy the Legion
-A The Howling vale
+A The Howling Vale
 A Agents of Destruction |N|Ignore her other quest, unless you plan to visit WSG.|
 A Reclaiming Felfire Hill |N|From Gnarl the Ancient of War, he paths around the camp.|
 T Kayneth Stillwind
@@ -36,9 +46,9 @@ C A Shameful Waste
 C Destroy the Legion |N|Go southwest (81,67)|
 C Reclaiming Felfire Hill
 C Forsaken Diseases |N|Go southwest across the river (75,71)|
-C Fallen Sky Lake |N|Kill the Oracle (66,81)|
+C Fallen Sky Lake |N|Kill the Oracle (66.65, 82.16)|
 
-R Night Run |N|North of Fallen Sky Lake. (65,55)|
+R Night Run |N|North of Fallen Sky Lake. (64.80, 43.80)|
 C The Tower of Althalaxx |N|Right click on the ground below the pink crystal.|
 C Raene's Cleansing |N|Kill treants for the key and open the box. (54,35)|
 C The Howling Vale |N|Click on the book. (50,39)|

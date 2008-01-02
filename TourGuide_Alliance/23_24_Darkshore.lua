@@ -8,7 +8,7 @@ A A Lost Master (Part 1)|N|In the last house|
 R Darnassus
 T The Absent Minded Prospector (Part 3) |N|On the west side of Temple of the Moon, outside|
 A The Absent Minded Prospector (Part 4)
-R Ruins of Mathystra
+R Ruins of Mathystra |N|Northeast of Auberdine, end of road|
 C Mathystra Relics
 A Gyromast's Retrieval |N|Standing on a stone at the beach north of ruins|
 C Gyromast's Retrieval |N|Reef Crawlers drop the bottom, Forestriders drop the top and Murlocs drop the middle|
@@ -26,8 +26,7 @@ A Escape Through Force
 C Escape Through Force
 H Auberdine
 T Escape Through Force
-A Trek to Ashenvale
+A Trek to Ashenvale |N|Wait for it!|
 F Astranaar
-
 ]]
 end)

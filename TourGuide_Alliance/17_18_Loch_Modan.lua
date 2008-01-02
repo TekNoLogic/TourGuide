@@ -38,16 +38,19 @@ A A Dark Threat Looms (Part 1) |N|Middle of the dam|
 T A Dark Threat Looms (Part 1) |N|Barrel at the east of dam|
 A A Dark Threat Looms (Part 2)
 T A Dark Threat Looms (Part 2)
+
 R Thelsamar
 T Excavation Progress Report
 A Report to Ironforge
 C Vyrin's Revenge (Part 1) |N|Cave top of the mountain south of Thelsamar (39.7, 66.6)|
+
 R Farstrider Lodge
 T Crocolisk Hunting
 T Vyrin's Revenge (Part 1)
 A Vyrin's Revenge (Part 2)
 T Vyrin's Revenge (Part 2)
 T Bingles' Missing Supplies |N|Remember Bingles at the shore?|
+
 F City of Ironforge |R|Human|
 F City of Ironforge |R|Dwarf|
 R City of Ironforge |R|Night Elf|
@@ -56,6 +59,7 @@ F City of Ironforge |R|Gnome|
 R City of Ironforge |R|Draenei|
 f Grab flight point |R|Draenei|
 T Report to Ironforge |N|Hall of Explorers. Skip the next quest he tries to give you|
+
 R Stormwind City |N|Use the Deeprun Tram|
 T Stormpike's Order
 f Grab flight point |R|Dwarf|
