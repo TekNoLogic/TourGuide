@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Dustwallow March (37-38)", "Stranglethorn Vale (39-40)", "Horde", function()
+TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (39-40)", "Horde", function()
 return [[
 F Thunder Bluff
 T Frostmaw |N|(61,80)|
@@ -49,7 +49,7 @@ T The Lost Report
 T Hungry!
 
 T Check Up on Tabetha |N|New quest, At (45,57)|
-A Help Mudsprocket
+A Help for Mudsprocket
 A The Grimtotem Weapon
 A The Reagent Thief
 A Direhorn Raiders |N|Just outside of hut|
@@ -78,7 +78,7 @@ T The Grimtotem Weapon
 T The Reagent Thief
 
 T Delivery for Drazzit |N|At Mudsprocket (41,73)|
-T Help Mudsprocket
+T Help for Mudsprocket
 
 F Brackenwall Village
 A The Severed Head |N|At Jarl's cabin (55,25)|
