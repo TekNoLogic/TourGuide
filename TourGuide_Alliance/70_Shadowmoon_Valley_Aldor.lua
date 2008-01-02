@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Shadowmoon Valley (70 Aldor)", nil, "Alliance", function()
 return [[
-F Allerian Stronghold
+F Allerian Stronghold |N|Terokkar Forest|
 R Wildhammer Stronghold |N|East across the bridge, follow the road southeast in Shadowmoon Valley (39,53)|
 
 A Besieged!
@@ -24,13 +24,12 @@ A Enraged Spirits of Water
 C Enraged Spirits of Water |N|Kill water elementals to the northeast at Coilskar Point (48,24).  Use the totem, same as before.| |U|30094|
 
 C The Sketh'lon Wreckage |N|Northeast at the Sketh'lon Wreckage (37,30)|
-C Spleendid! |N|Near any of the green lava cracks on the west side of Hand of Gul'dan|
+C Spleendid! |N|Near any of the green lava cracks on the west side of the Hand of Gul'dan|
 C A Ghost in the Machine
 
 C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638|
 
-H Wildhammer Stronghold
-T A Ghost in the Machine
+T A Ghost in the Machine |N|Back at Wildhammer Stronghold|
 A Harbingers of Shadowmoon
 T Spleendid!
 A The Second Course...
@@ -57,7 +56,7 @@ T Asghar's Totem
 A The Rod of Lianthe
 
 K Overseer Ripsaw |N|Back at Legion Hold.  Near the fel reaver (22,35)| |L|30756|
-C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22,35), Power Core is underwater at the Fetid Pool (26,41).|
+C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22.21, 35.59), Power Core is underwater at the Fetid Pool (26.29, 41.24).|
 
 T Setting Up the Bomb |N|Back at Wildhammer Stronghold|
 A Blast the Infernals!
@@ -66,44 +65,45 @@ A The Main Course!
 A Illidari-Bane Shard |U|30756|
 T Illidari-Bane Shard
 
-C Blast the Infernals! |N|Again at Legion Hold.  Find the green circle near the infernal ranks (22,39), use the bomb.| |U|30614|
+C Blast the Infernals! |N|Again at Legion Hold.  Find the green circle near the infernal ranks (22.63, 39.93), use the bomb.| |U|30614|
 
-H Wildhammer Stronghold
-T Blast the Infernals!
+T Blast the Infernals! |N|Back at Wildhammer Stronghold|
 A The Deathforge
 
-C The Rod of Lianthe |N|Kill Blood Elves at Eclipse Point to the southeast for the key.  Strongbox is east of the elite (47,71).|
+C The Rod of Lianthe |N|Kill Blood Elves at Eclipse Point to the southeast for the key.  Strongbox is east of the elite (47.53, 71.66).|
 C Enraged Spirits of Air |N|Take the road east to the Netherwing Fields, drop totem, kill air elementals.| |U|30094|
 
-T Teron Gorefiend - Lore and Legend |N|South (58,70)|
+A The Ashtongue Tribe |N|ALDOR ONLY!  North at the Altar of Sha'tar (62,30)|
+A The Ashtongue Broken |N|SCRYER ONLY  West at the Sanctum of the Stars (54,58)|
+A Tablets of Baa'ri
+A Karabor Training Grounds
+
+T Teron Gorefiend - Lore and Legend |N|South at the Altar of Shadows (58,70)|
 A Divination: Gorefiend's Cloak
 A Divination: Gorefiend's Truncheon
 
-C The Main Course! |N|Kill Felspine the Greater north of the Warden's Cage (56,43)|
+C The Main Course! |N|Kill Felspine the Greater north of the Warden's Cage (56.26, 42.10)|
 U Put on your Spectrecles |U|30719|
 N Keep an eye out... |N|Watch the main road around the Hand of Gul'dan for Ghostrider of Karabor.  If you see them kill one for "Divination: Gorefiend's Truncheon".  You need your Spectrecles to see them!|
 C Divination: Gorefiend's Cloak |N|Kill Clerics of Karabor in front of the Black Temple|
 
-A Tablets of Baa'ri |N|North at the Altar of Sha'tar (61,30)|
-A The Ashtongue Tribe
-A Karabor Training Grounds
-
-C The Ashtongue Tribe |N|South at the Ruins of Baa'ri|
+C The Ashtongue Tribe |O| |N|At the Ruins of Baa'ri|
+C The Ashtongue Broken |O| |N|At the Ruins of Baa'ri|
 C Tablets of Baa'ri
 C Karabor Training Ground |N|Inside the Black Temple, take the first right (68,50).  Kill Demon Hunter Supplicants and Initiates, try to catch them after a duel when they are low on HP.|
 
-T Tablets of Baa'ri |N|Back at the Altar of Sha'tar|
+A The Ashtongue Tribe |O| |N|Back at the Altar of Sha'tar|
+A The Ashtongue Broken |O| |N|Back at the Sanctum of the Stars|
 A Oronu the Elder
-T The Ashtongue Tribe
-T Karabor Training Grounds
+A Tablets of Baa'ri
+A Karabor Training Grounds
+A A Necessary Distraction
 
-F Wildhammer Stronghold
-T The Main Course!
+T The Main Course! |N|Back at Wildhammer Stronghold|
 T Enraged Spirits of Air |N|Back at the Altar of Damnation|
 A Oronok Torn-heart
 
-F Altar of Sha'tar
-T Oronok Torn-heart |N|To the west, above the mine|
+T Oronok Torn-heart |N|To the west of the Altar of Sha'tar, above the mine (53.92, 23.49)|
 A I Was A Lot Of Things...
 C I Was A Lot Of Things... |N|(52,15)|
 T I Was A Lot Of Things...
@@ -117,7 +117,7 @@ A Grom'tor, Son of Oronok
 A Ar'tor, Son of Oronok
 A Borak, Son of Oronok
 
-T The Deathforge |N|North at Deathforge Tower (40,41)|
+T The Deathforge |N|North at Deathforge Tower (40.44, 41.26)|
 A Minions of the Shadow Council
 C Minions of the Shadow Council |N|(38,35)|
 T Minions of the Shadow Council
@@ -150,7 +150,7 @@ A The Cipher of Damnation - The Second Fragment Recovered
 
 T Gaining Access
 A Invasion Point: Cataclysm
-T Invasion Point: Cataclysm
+T Invasion Point: Cataclysm |N|Take the teleporter (25.5, 36.3)|
 A The Art of Fel Reaver Maintenance
 
 T Grom'tor, Son of Oronok
@@ -196,28 +196,29 @@ A Thwart the Dark Conclave
 C Thwart the Dark Conclave |N|Use quest item at (41,60) after clearing out all the enemies.|
 T Thwart the Dark Conclave
 
-T The Cipher of Damnation - The First Fragment Recovered
-T The Cipher of Damnation - The Second Fragment Recovered
+C A Necessary Distraction |N|Same area as "Karabor Training Ground".  Kill Summoners and Warlocks until the scroll drops, then use it on Azaloth.  Best not kill the mobs near him, or he'll come after you!| |U|30811|
 
-C Oronu the Elder
+C Oronu the Elder |N|(57,32)|
 T Oronu the Elder
 A The Ashtongue Corruptors
-C The Ashtongue Corruptors
+C The Ashtongue Corruptors |N|Haalum: (57,73) Eykenen: (51,52) Uylaru: (48,39) Lakaan: (49,23)|
 T The Ashtongue Corruptors
 A The Warden's Cage
-T The Warden's Cage
+T The Warden's Cage |N|(57,49) In the hole|
 A Proof of Allegiance
-C Proof of Allegiance
+C Proof of Allegiance |N|Pull Zandras down and kill him|
 T Proof of Allegiance
 A Akama
-T Akama
+T Akama |N|Drop in the water|
 
 C Put On Yer Kneepads...
-C Divination: Gorefiend's Truncheon
+C Divination: Gorefiend's Truncheon |N|Ghostriders of Karabor circling The Hand of Gul'dan|
 
 T Put On Yer Kneepads...
 T Divination: Gorefiend's Truncheon
 T Divination: Gorefiend's Cloak
+T A Necessary Distraction
+T The Cipher of Damnation - The First Fragment Recovered
+T The Cipher of Damnation - The Second Fragment Recovered
 ]]
 end)
-
