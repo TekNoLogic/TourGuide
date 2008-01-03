@@ -90,13 +90,13 @@ C Divination: Gorefiend's Cloak |N|Kill Clerics of Karabor in front of the Black
 C The Ashtongue Tribe |O| |N|At the Ruins of Baa'ri|
 C The Ashtongue Broken |O| |N|At the Ruins of Baa'ri|
 C Tablets of Baa'ri
-C Karabor Training Ground |N|Inside the Black Temple, take the first right (68,50).  Kill Demon Hunter Supplicants and Initiates, try to catch them after a duel when they are low on HP.|
+C Karabor Training Grounds |N|Inside the Black Temple, take the first right (68,50).  Kill Demon Hunter Supplicants and Initiates, try to catch them after a duel when they are low on HP.|
 
-A The Ashtongue Tribe |O| |N|Back at the Altar of Sha'tar|
-A The Ashtongue Broken |O| |N|Back at the Sanctum of the Stars|
+T The Ashtongue Tribe |O| |N|Back at the Altar of Sha'tar|
+T The Ashtongue Broken |O| |N|Back at the Sanctum of the Stars|
 A Oronu the Elder
-A Tablets of Baa'ri
-A Karabor Training Grounds
+T Tablets of Baa'ri
+T Karabor Training Grounds
 A A Necessary Distraction
 
 T The Main Course! |N|Back at Wildhammer Stronghold|
@@ -104,9 +104,9 @@ T Enraged Spirits of Air |N|Back at the Altar of Damnation|
 A Oronok Torn-heart
 
 T Oronok Torn-heart |N|To the west of the Altar of Sha'tar, above the mine (53.92, 23.49)|
-A I Was A Lot Of Things...
-C I Was A Lot Of Things... |N|(52,15)|
-T I Was A Lot Of Things...
+A I Was A Lot Of Things... |NODEBUG|
+C I Was A Lot Of Things... |NODEBUG| |N|(52,15)|
+T I Was A Lot Of Things... |NODEBUG|
 A A Lesson Learned
 C A Lesson Learned |N|(57,20)|
 T A Lesson Learned
@@ -146,7 +146,7 @@ T Lohn'goron, Bow of the Torn-heart
 A The Cipher of Damnation - Ar'tor's Charge
 C The Cipher of Damnation - Ar'tor's Charge
 T The Cipher of Damnation - Ar'tor's Charge
-A The Cipher of Damnation - The Second Fragment Recovered
+A The Cipher of Damnation - The Second Fragment Recovered |NODEBUG|
 
 T Gaining Access
 A Invasion Point: Cataclysm
@@ -157,7 +157,7 @@ T Grom'tor, Son of Oronok
 A The Cipher of Damnation - Grom'tor's Charge
 C The Cipher of Damnation - Grom'tor's Charge
 T The Cipher of Damnation - Grom'tor's Charge
-A The Cipher of Damnation - The First Fragment Recovered
+A The Cipher of Damnation - The First Fragment Recovered |NODEBUG|
 
 C The Art of Fel Reaver Maintenance |N|(39,19). Use key on the Strongbox located nearby.|
 T The Art of Fel Reaver Maintenance
@@ -177,9 +177,9 @@ A The Bundle of Bloodthistle
 
 H Wildhammer Stronghold
 T The Bundle of Bloodthistle
-A To Catch A Thistlehead
-C To Catch A Thistlehead
-T To Catch A Thistlehead
+A To Catch A Thistlehead |NODEBUG|
+C To Catch A Thistlehead |NODEBUG|
+T To Catch A Thistlehead |NODEBUG|
 A The Shadowmoon Shuffle
 C The Shadowmoon Shuffle
 T The Shadowmoon Shuffle
@@ -196,7 +196,7 @@ A Thwart the Dark Conclave
 C Thwart the Dark Conclave |N|Use quest item at (41,60) after clearing out all the enemies.|
 T Thwart the Dark Conclave
 
-C A Necessary Distraction |N|Same area as "Karabor Training Ground".  Kill Summoners and Warlocks until the scroll drops, then use it on Azaloth.  Best not kill the mobs near him, or he'll come after you!| |U|30811|
+C A Necessary Distraction |N|Same area as "Karabor Training Grounds".  Kill Summoners and Warlocks until the scroll drops, then use it on Azaloth.  Best not kill the mobs near him, or he'll come after you!| |U|30811|
 
 C Oronu the Elder |N|(57,32)|
 T Oronu the Elder
@@ -218,7 +218,7 @@ T Put On Yer Kneepads...
 T Divination: Gorefiend's Truncheon
 T Divination: Gorefiend's Cloak
 T A Necessary Distraction
-T The Cipher of Damnation - The First Fragment Recovered
-T The Cipher of Damnation - The Second Fragment Recovered
+T The Cipher of Damnation - The First Fragment Recovered |NODEBUG|
+T The Cipher of Damnation - The Second Fragment Recovered |NODEBUG|
 ]]
 end)
