@@ -107,7 +107,7 @@ local function ParseQuests(...)
 
 			i = i + 1
 
-			haserrors = haserrors or DebugQuestObjective(text, action, quest, accepts, turnins, completes)
+			haserrors = DebugQuestObjective(text, action, quest, accepts, turnins, completes) or haserrors
 		end
 	end
 
