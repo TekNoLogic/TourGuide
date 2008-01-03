@@ -116,6 +116,7 @@ T Retaking Windrunner Spire
 T Into Occupied Territory
 A The Lady's Necklace |U|22597| |O|
 T The Lady's Necklace |O|
+A Journey to Undercity |O| |PRE|The Lady's Necklace|
 T Windrunner Village
 A Deliver the Plans to An'telas
 
@@ -157,19 +158,19 @@ C Deactivate An'owyn
 T Assault on Zeb'Nowa |N|Back at Farstrider Enclave|
 T A Little Dash of Seasoning
 T Shadowpine Weaponry
-T Deactivate An'owyn |N|(60,35)|
+T Deactivate An'owyn |N|Back at An'telas (60.30, 35.78)|
 
 T Report to Magister Kaendris |N|Back at Sanctum of the Sun|
 A The Twin Ziggurats
 A War on Deatholme
-A Clearing the Way |N|(46,56)|
-C Clearing the Way
+A Clearing the Way |N|South of Tranquillien at the Andilien Estate (46.50, 56.50)|
+C Clearing the Way |N|To the south|
 T Clearing the Way
 
-C Spinal Dust
-C Rotting Hearts
-C The Twin Ziggurats
-C War on Deatholme
+C The Twin Ziggurats |N|South of Tranquillien on either side of the Dead Scar (40.37, 49.83) (34.31, 47.80)|
+C War on Deatholme |N|Grind your way south to Deathholm (35,73)|
+C Spinal Dust |N|You can skip this if you do not want a spell power buff item|
+C Rotting Hearts |N|You can skip this if you do not want a melee attack power buff item|
 
 H Tranquillien
 T Troll Juju
@@ -198,6 +199,7 @@ A Fly to Silvermoon City |R|Blood Elf| |N|Back at Tranquillien|
 T Fly to Silvermoon City |N|Fly to Silvermoon, duh! (53,71)| |Z|Silvermoon City| |R|Blood Elf|
 
 R Undercity |N|Teleport at the sunspire in Silvermoon City (49,14)| |Z|Silvermoon City|
+T Journey to Undercity |O| |N|Turn in at Sylvanas in the Royal Quarter (57.6, 91.6).  Make sure you have music turned on and enjoy the performance!|
 ]]
 end)
 
