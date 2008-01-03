@@ -10,6 +10,7 @@ A Hilary's Necklace |N|Little boy standing on the dock|
 A Selling Fish |N|Man next to the shed|
 A A Free Lunch |N|Inside the inn|
 A Redridge Goulash |N|West of Lakeshire, inside the big house|
+
 N Collect 5x [Great Goretusk Snout] |N|Boars are west of the questgiver. Watch out the Bellygrub!| |L|2296 5|
 C Hilary's Necklace |N|Glinting Mud, underwater|
 C The Lost Tools |N|Box is east of the bridge, underwater|
@@ -31,8 +32,21 @@ T Redridge Goulash
 T Delivering Daffodils |N|Inside the inn|
 C The Everstill Bridge |N|Camps are north of Lakeshire|
 T The Everstill Bridge |N|Make sure you are missing 1550xp from level 20 before you return this!|
+
 A Murloc Poachers |N|Man next to the shed. This quest requires level 20!|
+C Murloc Poachers |N|Northern part of Lake Everstill (40,45) (56,53)|
 T Murloc Poachers
+
+A Messenger to Stormwind (Part 1) |N|In the town hall|
+F Stormwind City
+T Messenger to Stormwind (Part 1) |N|At the entrance to Stormwind|
+A Messenger to Stormwind (Part 2) 
+
+A Devourer of Souls |N|Mage Quarter in Stormwind| |C|Warlock|
+b Theramore Isle |N|Fly to Menethil Harbor, take the boat on the south dock| |C|Warlock|
+T Devourer of Souls |N|Follow the road to the Barrens (49.3, 57.1) | |C|Warlock| |Z|The Barrens|
+A Heartswood |N|In the Barrens| |C|Warlock|
+
 H Auberdine
 ]]
 end)

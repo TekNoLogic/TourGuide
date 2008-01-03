@@ -4,11 +4,10 @@ return [[
 N Do you want to grind? |N|This Blasted Lands guide may appear short, but it is a BUNCH of grinding.  If you do not want to do this, skip ahead to "Searing Gorge (50-51)."|
 
 F Darkshire
-R Swamp of Sorrows
-T Cortello's Riddle (Part 1) |O| |N|Under a bridge on the left form of the road (22.6,48.0)| |Z|Swamp of Sorrows|
-A Cortello's Riddle (Part 2) |O|
+T Cortello's Riddle (Part 1) |O| |N|Run east into Swamp of Sorrows.  Under a bridge on the left fork of the road (22.6,48.0)| |Z|Swamp of Sorrows|
+A Cortello's Riddle (Part 2) |O| |PRE|Cortello's Riddle (Part 1)|
 
-R Blasted Lands
+R Blasted Lands |N|Run east into Swamp of Sorrows, then south.|
 
 A The Basilisk's Bite |N|From the Blood Elves near the zone entrance (50.7,14.3)|
 A Vulture's Vigor

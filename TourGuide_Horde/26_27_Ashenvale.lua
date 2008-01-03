@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", function()
 return [[
-R Splintertree Post
+F Splintertree Post
 h Splintertree Post
 A Stonetalon Standstill
 A Satyr Horns
@@ -36,11 +36,15 @@ T The Hunt Completed
 
 F Zoram'gar Outpost
 T Je'neu of the Earthen Ring
+A Vorsha the Lasher
+C Vorsha the Lasher |N|On Island|
 A Between a Rock and a Thistlefur
-A Troll Charm 
+A Troll Charm
 
 C Between a Rock and a Thistlefur |N|Camp begins west of Astranaar at (31.18,45.31) and goes north north|
 C Troll Charm |N|The cave is at the back of the thistlefur camp at (38.55,30.61)|
+A Freedom to Ruul |N|Escort, skip it if you want|
+C Freedom to Ruul
 T Between a Rock and a Thistlefur
 T Troll Charm
 
@@ -54,13 +58,14 @@ N Tame Ghostpaw Alpha for Bite(R4) |C|Hunter|
 N Tame Elder Ashenvale Bear for Claw(R4) |C|Hunter|
 N Retrieve Pet |C|Hunter|
 
+H Splintertree Post
+T Freedom to Ruul
 A Destroy the Legion
 C Ordanus |N|Fight to the top of the tower at (62.07,51.03). Just kill Ordanus, then loot the head and jump out of there.|
-C Satyr Horns |N|Most annoying quest ever if you can't remove curse.|
-C Destroy the Legion
+C Satyr Horns |N|(80,52)|
+C Destroy the Legion |N|Find item Diabolical Plans (82,69)|
 
-R Splintertree Post |N|Don't hearth|
-T Satyr Horns
+T Satyr Horns |N|Back at Splintertree Post|
 T Destroy the Legion
 A Diabolical Plans |U|23797| |O|
 T Diabolical Plans |O|

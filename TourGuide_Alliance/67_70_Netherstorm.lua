@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Netherstorm (67-70)", "Shadowmoon Valley (70 Aldor)", "Alliance", function()
+TourGuide:RegisterGuide("Netherstorm (67-70)", "Shadowmoon Valley (70)", "Alliance", function()
 return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
 A Off To Area 52 |N|On Gyro-Plank Bridge| |NODEBUG|
@@ -9,10 +9,7 @@ A Securing the Shaleskin Shale |N|You may have to wait for him to respawn|
 T Off To Area 52 |NODEBUG|
 A You're Hired!
 h Area 52
-T Report to Spymaster Thalodien |N|Scryers| |O|
-A Manaforge B'naar |N|Scryers|
-T Assist Exarch Orelis |N|Aldor| |O|
-A Distraction at Manaforge B'naar |N|Aldor|
+N Manaforge B'naar |N|Grab the Aldor or Scryer quest, whichever faction you picked.|
 A The Archmage's Staff
 
 A Recharging the Batteries |N|To the north at Ruins of Enkaar (31,56), follow the road then take the north fork.|
@@ -39,8 +36,8 @@ T That Little Extra Kick |N|Back at Area 52|
 T Essence for the Engines
 A Elemental Power Extraction
 
-C Manaforge B'naar |N|Scryers, West out of town, then southwest| |O|
-C Distraction at Manaforge B'naar |N|Aldor, West out of town, then southwest| |O|
+C Manaforge B'naar |N|West out of town, then southwest| |O|
+C Distraction at Manaforge B'naar |N|West out of town, then southwest| |O|
 C Elemental Power Extraction |N|South at the Crumbling Waste (32,78).  Use the power extractor on the Sundered rumblers and warp aberrations then kill them.|
 C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (41,74), (41,72), (40,73), (42,72)|
 C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of the ruins|
@@ -52,10 +49,10 @@ T The Archmage's Staff
 A Rebuilding the Staff
 T Distraction at Manaforge B'naar |O|
 T Manaforge B'naar |O|
-A Measuring Warp Energies
-A Assisting the Consortium |N|Aldor|
-A Naaru Technology |N|Aldor|
-T Assisting the Consortium |O|
+A Measuring Warp Energies |O| |PRE|Distraction at Manaforge B'naar|
+A Assisting the Consortium
+A Naaru Technology |O| |PRE|Distraction at Manaforge B'naar|
+T Assisting the Consortium
 A Consortium Crystal Collection
 
 C Dr. Boom! |N|Northeast of town at Camp of Boom (34,60).  Run in, bomb him, and run out.  Repeat till dead.| |U|29429|
@@ -65,9 +62,9 @@ T Rebuilding the Staff |N|Back at Area 52|
 A Curse of the Violet Tower
 T Dr. Boom!
 
-C Measuring Warp Energies |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)| |U|29324|
+C Measuring Warp Energies |O| |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)| |U|29324|
 T Naaru Technology |N|At the console inside the building| |O|
-A B'naar Console Transcription |N|Aldor|
+A B'naar Console Transcription |O| |PRE|Distraction at Manaforge B'naar|
 C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
 A Needs More Cowbell |N|From Thadell in Town Square (57,85)|
 A Indispensable Tools
@@ -171,11 +168,11 @@ F Area 52
 A Pick Your Part
 T Consortium Crystal Collection
 A A Heap of Ethereals
-T Measuring Warp Energies
+T Measuring Warp Energies |O|
 T B'naar Console Transcription |O|
-A Shutting Down Manaforge B'naar
+A Shutting Down Manaforge B'naar |O| |PRE|Distraction at Manaforge B'naar|
 
-C Shutting Down Manaforge B'naar |N|Kill Overseer Theredis inside the manaforge, talk to the console|
+C Shutting Down Manaforge B'naar |O| |N|Kill Overseer Theredis inside the manaforge, talk to the console|
 C Pick Your Part |N|At The Heap (27,77)|
 C A Heap of Ethereals
 
@@ -184,13 +181,13 @@ A In A Scrap With The Legion |NODEBUG|
 A Help Mama Wheeler
 T A Heap of Ethereals
 A Warp-Raider Nesaad
-T Shutting Down Manaforge B'naar
-A Shutting Down Manaforge Coruu
-A Attack on Manaforge Coruu
+T Shutting Down Manaforge B'naar |O|
+A Shutting Down Manaforge Coruu |O| |PRE|Distraction at Manaforge B'naar|
+A Attack on Manaforge Coruu |O| |PRE|Distraction at Manaforge B'naar|
 
 C Warp-Raider Nesaad |N|Back at The Heap (28,80)|
-C Shutting Down Manaforge Coruu |N|East over the bridge (46,81).  Kill Overseer Seylanna (49,81) and use the console, like before.|
-C Attack on Manaforge Coruu
+C Shutting Down Manaforge Coruu |O| |N|East over the bridge (46,81).  Kill Overseer Seylanna (49,81) and use the console, like before.|
+C Attack on Manaforge Coruu |O|
 
 A Drijya Needs Your Help |N|Northwest inside the dome (46,56)|
 T Help Mama Wheeler
@@ -217,19 +214,19 @@ A The Dynamic Duo
 T In A Scrap With The Legion |NODEBUG| |N|Back at Area 52|
 T Warp-Raider Nesaad
 A Request for Assistance
-T Shutting Down Manaforge Coruu
-A Shutting Down Manaforge Duro
-T Attack on Manaforge Coruu
-A Sunfury Briefings
+T Shutting Down Manaforge Coruu |O|
+A Shutting Down Manaforge Duro |O| |PRE|Distraction at Manaforge B'naar|
+T Attack on Manaforge Coruu |O|
+A Sunfury Briefings |O| |PRE|Distraction at Manaforge B'naar|
 
 R Midrealm Post
 T Request for Assistance
 A Rightful Repossession
 
 C Declawing Doomclaw |N|East from the dome (50,57)|
-C Shutting Down Manaforge Duro |N|East at Manaforge Duro.  You know the drill, kill Overseer Athanel (60,68)|
+C Shutting Down Manaforge Duro |O| |N|East at Manaforge Duro.  You know the drill, kill Overseer Athanel (60,68)|
 C Rightful Repossession
-C Sunfury Briefings
+C Sunfury Briefings |O|
 
 T Rightful Repossession
 A An Audience with the Prince
@@ -238,9 +235,9 @@ A Warn Area 52!
 
 T Warn Area 52! |N|Back at Area 52, duh|
 A Doctor Vomisa, Ph.T.
-T Shutting Down Manaforge Duro |N|Skip the follow-up|
-T Sunfury Briefings
-A Outside Assistance
+T Shutting Down Manaforge Duro |O| |N|Skip the follow-up|
+T Sunfury Briefings |O|
+A Outside Assistance |O| |PRE|Distraction at Manaforge B'naar|
 T Doctor Vomisa, Ph.T. |N|East out of town at a little tent (37,63).  Skip the follow-up|
 
 C Deal With the Saboteurs |N|Crocs at the lake in the Eco-Dome (46,53)|
@@ -267,8 +264,8 @@ C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers
 C The Minions of Culuthas
 C Fel Reavers, No Thanks! |N|West at Forge Camp: Oblivion (37,28), kill Mekgineers for 5 gas, use on one of the reavers (35,28), (36,25), (37,25). You only need to do this on ONE reaver!|
 
-T Outside Assistance |N|Tuluman's Landing (34,38)|
-A A Dark Pact
+T Outside Assistance |O| |N|Tuluman's Landing (34,38)|
+A A Dark Pact |O| |PRE|Distraction at Manaforge B'naar|
 A Dealing with the Foreman
 A Neutralizing the Nethermancers
 
@@ -276,7 +273,7 @@ T Dealing with the Foreman |N|In the Trelleum Mine at Manaforge Ara (26.38, 43.9
 A Dealing with the Overmaster
 C Dealing with the Overmaster |N|Down the tunnel, right then left (26.82, 35.94)|
 C Neutralizing the Nethermancers |N|Outside the mine|
-C A Dark Pact |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
+C A Dark Pact |O| |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
 
 H Stormspire
 T Diagnosis: Critical
@@ -293,8 +290,8 @@ T Creatures of the Eco-Domes
 A When Nature Goes Too Far
 C When Nature Goes Too Far |N|At the lake to the northeast (44,28)|
 T When Nature Goes Too Far
-T A Dark Pact |N|At Tuluman's Landing (34,38)|
-A Aldor No More
+T A Dark Pact |O| |N|At Tuluman's Landing (34,38)|
+A Aldor No More |O| |PRE|Distraction at Manaforge B'naar|
 T Dealing with the Overmaster
 T Neutralizing the Nethermancers
 
@@ -314,7 +311,7 @@ C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18)
 T Teleport This!
 
 F Area 52
-T Aldor No More
+T Aldor No More |O|
 H Stormspire
 A Seek Out Ameer
 A A Not-So-Modest Proposal |N|At Protectorate Watch Post (58,31)|

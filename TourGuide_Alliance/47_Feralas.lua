@@ -15,7 +15,6 @@ T Zapped Giants
 T Fuel for the Zapping
 
 A An Orphan Looking For a Home |N|At the grimtotem camp (65.9,45.6), path at (65.63,46.76)| |NODEBUG|
-C Homing Robot OOX-22/FE |N|Back in the yeti cave (56,56)|
 N Rhapsody's Kalimdor Kocktail |N|Grind your way to Rage Scar Hold (51,31) killing Ironfur bears and Groddoc apes| |L|6258 3|
 N Rhapsody's Kalimdor Kocktail |N|Grind your way to Rage Scar Hold (51,31) killing Groddoc apes| |L|6259 3|
 C Improved Quality

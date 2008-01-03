@@ -3,23 +3,17 @@ return [[
 F Tarren Mill
 A Prison Break In |N|From Magus Wordeen Voidglare (60,20)| |Z|Hillsbrad Foothills| |NODEBUG|
 A Stone Tokens |N|From Keeper Bel'varil|
+A The Crown of Will
+C Frostmaw |N|(37,69) up north|
+C The Crown of Will |N|At Ruins of Alterac (40,50)|
 
 C Stone Tokens |N|At Dalaran (20,85)| |Z|Hillsbrad Foothills|
-C Prison Break In |NODEBUG|
-T Prison Break In |NODEBUG|
+C Prison Break In |N|At (20,85)|
+T Prison Break In
 T Stone Tokens
-
-A Dalaran Patrols
-A Bracers of Binding
-C Dalaran Patrols |N|Go to Dalaran again|
-C Bracers of Binding
-
-T Dalaran Patrols
-T Bracers of Binding
+T The Crown of Will |N|Skip part 2|
 
 F Undercity
 T To Steal From Thieves |NODEBUG|
-B Soothing Spices x3 |L|3713 3| |N|From Felicia Doan in the center of Undercity|
-B Red-speckled Mushroom x5 |N|From Tawny Grisette in the center of Undercity. You will need this later| |C|Hunter| |L|4605 5|
 ]]
 end)

@@ -5,7 +5,7 @@ A Worth Its Weight in Gold
 A Northfold Manor
 C Northfold Manor |N|Go Northwest.|
 T Northfold Manor
-T Hints of a New Plague? |N|West of Refuge Pointe (60.1,53.8)|
+T Hints of a New Plague? |N|East of Refuge Pointe (60.1,53.8)|
 C Worth Its Weight in Gold |N|Go Southeast.|
 A MacKreel's Moonshine |N|Jump from bridge to the platform (43.2,92.6)|
 

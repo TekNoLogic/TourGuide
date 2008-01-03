@@ -54,9 +54,9 @@
 
 	<Script file="60_62_Hellfire_Peninsula.lua"/>
 	<Script file="62_63_Zangarmarsh.lua"/>
-	<Script file="64_65_Terokkar_Aldor.lua"/>
+	<Script file="64_65_Terokkar.lua"/>
 	<Script file="65_66_Nagrand.lua"/>
 	<Script file="66_67_BladesEdge.lua"/>
 	<Script file="67_70_Netherstorm.lua"/>
-	<Script file="70_Shadowmoon_Valley_Aldor.lua"/>
+	<Script file="70_Shadowmoon_Valley.lua"/>
 </Ui>

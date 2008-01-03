@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Azshara (52-53)", "Alliance", function()
+TourGuide:RegisterGuide( "Un'Goro Crater (51-53)", "Burning Steppes (53-54)", "Horde", function()
 return [[
 R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
 N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystals.  Also loot any dirt piles or sprouts you find.|
@@ -26,7 +26,6 @@ N Find 7 Blue power crystals |L|11184 7|
 
 A Chasing A-Me 01 |N|At the entrance to Marshal's Refuge (46,13)|
 A Shizzle's Flyer
-A Muigin and Larion
 A Lost! |N|On a sign|
 A Beware of Pterrordax
 A Roll the Bones
@@ -35,6 +34,7 @@ T Williden's Journal
 A Expedition Salvation
 T It's a Secret to Everybody (Part 2)
 A It's a Secret to Everybody (Part 3)
+A Larion and Muigin |N|Hidden on the north side of the valley|
 f Get flight point |N|Up on the hill, easy to miss|
 A Crystals of Power |N|In the back of the cave|
 T Crystals of Power
@@ -49,7 +49,7 @@ T Chasing A-Me 01 |N|East in the gorilla cave (63,17).  Skip the follow-up.|
 C The Apes of Un'Goro
 C Super Sticky |N|At the tarpits in the north half of the zone|
 N Find [Crate of Foodstuffs] |N|At the abandoned camp in the east side of the zone (68.52, 36.59)| |L|11113|
-C Muigin and Larion |N|Kill lasher around the camp area.  Also kill any diemetradons or pterrordaxes you come across|
+C Larion and Muigin |N|Kill lasher around the camp area.  Also kill any diemetradons or pterrordaxes you come across|
 C The Eastern Pylon |N|To the east, of course (76,51)|
 C The Bait for Lar'korwi |N|Use the meat and mixture at the flat rock behind the east pylon (79.9, 49.9)| |U|11568|
 T The Bait for Lar'korwi
@@ -60,6 +60,7 @@ N Kill bugs for [Gorishi Scent Gland] |L|11837|
 C Expedition Salvation |N|At the other camp (38.5, 66.0)|
 C The Western Pylon |N|(23,59)|
 A Finding the Source |N|From a goblin near the hot springs (30.9, 50.4)|
+C Bone-Bladed Weapons
 
 C Roll the Bones |N|Scattered all over the west half of the zone and drop from diemetradons.  Kill pterrordaxes over here too.|
 C Beware of Pterrordax |N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.  Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.|
@@ -73,10 +74,10 @@ C A Little Help From My Friends |NODEBUG| |N|Use the canteen on him if he faints
 T A Little Help From My Friends |NODEBUG|
 T Beware of Pterrordax
 T Shizzle's Flyer
-T Muigin and Larion |N|Skip the follow-up|
 T Roll the Bones
 T Alien Ecology
 T Expedition Salvation
+T Larion and Muigin
 T The Northern Pylon
 T The Eastern Pylon
 T The Western Pylon
@@ -86,20 +87,33 @@ T Making Sense of It
 T Finding the Source |N|Back at the hot springs (30.9, 50.4)|
 A The New Springs
 
+K Oozes |L|12235 30|
+
 R Silithus |N|Take the path up out of the crater in the northwest corner of the zone (29,22)|
 R Cenarion Hold |N|Follow the road|
 F Gadgetzan |N|FP is up the big hill|
 T Bungle in the Jungle |N|Skip the follow-up|
 T Super Sticky
 
-H Darnassus
+H Thunder Bluff
+A Un'Goro Soil |N|On Elder Rise|
 T Un'Goro Soil
-A Morrowgrain Research (Part 1) |N|Upstairs!|
-T Morrowgrain Research (Part 1) |N|Downstairs!|
-A Morrowgrain Research (Part 2)
-N Morrowgrain... |N|Use the Evergreen Pouch whenever it's cooldown is up until you get all your Morrowgrain.|
-B Ichor of Undeath |L|7972| |C|Priest|
+A Morrowgrain Research
+T Morrowgrain Research
 
-A Moontouched Wildkin |N|Down in Rut'theran Village|
+F The Crossroads
+h The Crossroads
+
+F Ratchet
+T Volcanic Activity
+T Marvon's Workshop
+
+b Booty Bay
+T Whiskey Slim's Lost Grog
+
+F Kargath
+T Vivian Lagrave
+A Dreadmaul Rock
+A The Rise of the Machines (Part 1)
 ]]
 end)

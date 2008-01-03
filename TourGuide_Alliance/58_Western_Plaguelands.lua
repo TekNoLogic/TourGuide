@@ -26,6 +26,4 @@ C Skeletal Fragments |N|Kill undead all over Andorhal.|
 
 T Counting Out Time |N|Back at the inn|
 ]]
-
 end)
-

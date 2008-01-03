@@ -178,7 +178,8 @@ end
 
 function TourGuide:DumpLoc()
 	if IsShiftKeyDown() then
-		self:Print(self.db.global.savedpoints or "No saved points")
+		if not self.db.global.savedpoints then self:Print("No saved points")
+		else for t in string.gmatch(self.db.global.savedpoints, "([^\n]+)") do self:Print(t) end end
 	elseif IsControlKeyDown() then
 		self.db.global.savedpoints = nil
 		self:Print("Saved points cleared")

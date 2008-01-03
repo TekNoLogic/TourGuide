@@ -7,7 +7,7 @@ T Plea To The Alliance |NODEBUG|
 R Southshore |N|In Hillsbrad Foothills (50.8,51.2)|
 f Grab flight point!
 h Southshore
-T Southshore
+T Southshore |O|
 A Missing Crystals
 A Down the Coast
 A Soothing Turtle Bisque

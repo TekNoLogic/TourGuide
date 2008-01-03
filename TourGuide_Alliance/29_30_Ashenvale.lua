@@ -60,5 +60,8 @@ T Forsaken Diseases
 
 A Diabolical Plans |U|23777| |O|
 T Diabolical Plans |O|
+A Never Again! |O| |PRE|Diabolical Plans|
+C Never Again! |O|
+T Never Again! |O|
 ]]
 end)

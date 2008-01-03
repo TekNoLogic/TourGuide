@@ -21,7 +21,7 @@ A Villains of Darrowshire
 T Zaeldarr the Outcast |N|Down by the corpse pit|
 
 C Villains of Darrowshire |N|Sword is north of Corin's Crossing down in the Infectis Scar (53.84, 65.78).  Skull is in Blackwood Lake (51,49)|
-C Of Lost Honor |N|Find the flag in teh lake at Northdale (71.28, 33.97)|
+C Of Lost Honor |N|Find the flag in the lake at Northdale (71.28, 33.97)|
 
 T Troubled Spirits of Kel'Theril |N|Northwest of Northpass Tower (53.43, 22.01).  Skip the follow-up.|
 C Defenders of Darrowshire |N|Kill cannibal ghouls, gibbering ghouls and diseased flayers in Plaguewood, talk to the ghosts that spawn.|

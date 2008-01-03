@@ -102,12 +102,11 @@ N Rune of Nesting |N|Head down into the Ban'ethil Barrow Den (44,57).  At the fi
 N Black Feather Quill |N|Across the other bridge (43.70, 61.22).| |Q|The Relics of Wakening| |QO|Black Feather Quill: 1/1|
 A The Sleeping Druid |N|Jump down and take the passage to the west, run across the bridge to Oben Rageclaw (44.94, 61,60).|
 N Sapphire of Sky |N|Jump down and go south (44.70, 62.44).| |Q|The Relics of Wakening| |QO|Sapphire of Sky: 1/1|
-C The Sleeping Druid |N|Kill shamans|
+C The Relics of Wakening |N|The Raven Claw Talisman is north in the next room (the one with Rageclaw's body).  Run up onto the center pilar, take the bridge to the right and follow the path around to the left (45.65, 57.44).|
+C The Sleeping Druid |N|If the item didn't drop while you are collecting the relics, skip this and "Druid of the Claw"|
 T The Sleeping Druid
 A Druid of the Claw
-C Druid of the Claw |N|Jump down and run north.  Rageclaw's body patrols around this room in a circle.  Target his body and use the charm.| |U|8149|
-N Raven Claw Talisman |N|On the ledge overlooking this room.  Run up onto the center pilar, take the bridge to the right and follow the path around to the left (45.65, 57.44).| |Q|The Relics of Wakening| |QO|Raven Claw Talisman: 1/1|
-C The Relics of Wakening
+C Druid of the Claw |N|Back in the room to the north.  Kill him, target his body and use the charm.| |U|8149|
 T Druid of the Claw
 
 C Crown of the Earth (Part 4) |N|Moonwell at the Pools of Arlithrien (42.42, 67.08)| |U|5621|
@@ -152,6 +151,10 @@ C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to
 F Darnassus |C|Druid|
 T Body and Heart |C|Druid|
 
+A The Temple of the Moon |N|Behind the bank, near the portal to Rut'theran Village|
+T The Temple of the Moon |N|Due south of the bank|
+A Tears of the Moon
+
 A Nessa Shadowsong |N|From Mydrannul (70.67, 45.37) on your way out of Darnassus.| |R|Night Elf| |Z|Darnassus|
 
 A The Glowing Fruit |N|Out of town, south of the Pools of Arlithrien, just outside Gnarlpine Hold (42.61, 76.11)|
@@ -160,12 +163,23 @@ C Ursal the Mauler |N|West of the glowing tree (39,80)|
 C Tumors |N|Elementals at the river east of The Oracle Glade (42,42)|
 C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade (38.44, 34.08)| |U|18152|
 A The Enchanted Glade
-C The Enchanted Glade |N|Harpys west of The Oracle Glade|
+
+A Mist |N|Find the saber to the west, past the harpies (31.5, 31.6)|
+C The Enchanted Glade
+C Mist |N|Lead the cat back to the Oracle Glade|
+
+T Mist
 T The Enchanted Glade
 A Teldrassil
 
+C Tears of the Moon |N|North, near the edge of the tree|
+
 T Tumors |N|Back in Cenarion Enclave, Darnassus|
 A Return to Denalan
+T Tears of the Moon
+A Sathrah's Sacrifice
+C Sathrah's Sacrifice |N|Use the item down in the fountain| |U|8155|
+T Sathrah's Sacrifice
 
 H Dolanaar
 T Crown of the Earth (Part 5) |N|Down by the moonwell again|

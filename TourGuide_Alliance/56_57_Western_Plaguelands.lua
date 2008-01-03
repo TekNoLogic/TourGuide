@@ -3,13 +3,11 @@ TourGuide:RegisterGuide("Western Plaguelands (56-57)", "Eastern Plaguelands (57-
 return [[
 F City of Ironforge
 h City of Ironforge
-
 A A Call to Arms: The Plaguelands! |N|From Courier Hammerfall, he patrols all over the city.|
 
 F Southshore
 R Western Plaguelands |N|Follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp|
 A A Plague Upon Thee (Part 1)
-f Grab flight point
 A The Mark of the Lightbringer |N|From Anchorite Truuen.  He may not be in the camp if he's out doing the escort quest.|
 T A Call to Arms: The Plaguelands!
 A Clear the Way
@@ -90,14 +88,9 @@ T Target: Gahrron's Withering |N|Talk to the cauldren|
 A Return to Chillwind Camp (Part 4)
 
 T The Wildlife Suffers Too (Part 2)
-A Glyphed Oaken Branch
 
 T Return to Chillwind Camp (Part 4) |N|Back at Chillwind Camp, of course.|
 N Mission Accomplished! |N|Talk to Commander Ashlam Valorfist|
-T Skeletal Fragments |N|Skip the follow-up unles you want to do the questline for the scholo key.|
-
+T Skeletal Fragments
 ]]
---~ C Skeletal Fragments |N|Grind on undead at the Crypt (54,79)|
-
 end)
-

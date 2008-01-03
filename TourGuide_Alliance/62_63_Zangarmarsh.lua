@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Zangarmarsh (62-63)", "Terokkar Forest (64-65 Aldor)", "Alliance", function()
+TourGuide:RegisterGuide("Zangarmarsh (62-63)", "Terokkar Forest (64-65)", "Alliance", function()
 return [[
 R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!|
 A The Umbrafen Tribe
@@ -162,7 +162,7 @@ T Stinger Venom
 T Lines of Communication
 T The Terror of Marshlight Lake
 
-C Maktu's Revenge |N|Mragesh is on the westernmost island in Serpent Lake. (41,41)|
+C Maktu's Revenge |N|Mragesh is on the westernmost island in Serpent Lake (41,41)|
 T Stealing Back the Mushrooms |N|Getting tired of running to the watchpost yet?|
 
 H Orebor Harborage
@@ -174,13 +174,16 @@ A Idols of the Feralfen
 T Blacksting's Bane
 T Diaphanous Wings
 h Telredor
-C Idols of the Feralfen |N|On the ground at Feralfen Village (46,60).|
+C Idols of the Feralfen |N|On the ground at Feralfen Village (46,60)|
 
 T Balance Must Be Preserved |N|Back at Cenarion Refuge|
-N The drain chain... |N|This is an optional chain, but you have the item so you should do it.  You just have to run out to the Cenarion outpost in Hellfire and back.  Free EXP and a little jogging for your chubby ass.  The follow-up will send you into Coilfang instances.| |L|24330| |O|
 T Drain Schematics |O|
-T A Warm Welcome |N|To Warden Hamoot on top of the tower.|
-C Withered Flesh |N|In the Dead Mire, north of the Refuge|
+A Warning the Cenarion Circle |O| |PRE|Drain Schematics|
+T Warning the Cenarion Circle |O| |N|East in Hellfire, at Cenarion Post|
+A Return to the Marsh |O| |PRE|Warning the Cenarion Circle|
+T Return to the Marsh |O| |N|Back at the Refuge, of course.|
+T A Warm Welcome |N|Warden Hamoot on top of the tower|
+C Withered Flesh |N|In the Dead Mire, north of the Refuge.|
 
 T Withered Flesh |N|Up on Telredor|
 T Idols of the Feralfen
@@ -191,9 +194,5 @@ A Messenger to the Feralfen
 C Messenger to the Feralfen |N|Go to the Boha'mu Ruins (44.12, 69.45), drink the elixir and talk to Elder Kuruti.| |U|24428|
 T Messenger to the Feralfen |N|Back at Telredor|
 ]]
-
 end)
--- Needs a better place, grinding blow and we kill plenty of naga in this zone...
-
---
 

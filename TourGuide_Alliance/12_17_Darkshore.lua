@@ -1,6 +1,7 @@
 TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
-F Auberdine
+B Auberdine |N|Or fly from Teldrassil|
+
 A Washed Ashore (Part 1)
 T Flight to Auberdine |R|Night Elf|
 A Return to Nessa |R|Night Elf|
@@ -76,14 +77,14 @@ C Buzzbox 323 |N|Both Moonstalkers and Moonstalker Runts drop this item.|
 C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water to get the sample| |U|12350|
 T Buzzbox 323 |N|Buzzbox is on the other side of the bridge, left side|
 A Buzzbox 525
-C Cave Mushrooms |N|Follow the east shore of the river south to the waterfall.  Enter the cave above waterfall.|
+C Cave Mushrooms |N|Follow the east shore of the river south to the waterfall.  Enter the cave above waterfall (55,33).|
 T As Water Cascades |N|Back at the red crystal (47.32, 48.70)|
 A The Fragments Within
 C How Big a Threat? (Part 2) |N|Grind your way west across the road to Blackwood camp|
 N Beached Sea Turtle |N|To the west on the shore (37.14, 62.17)| |L|12289|
 N Beached Sea Creature |N|Further south down the shore (36.05, 70.78)| |L|12242|
 
-T Grove of the Ancients |N|East at Grove of the Ancients (43,76), of course|
+T Grove of the Ancients |N|East at Grove of the Ancients (43,76), of course| |R|Night Elf|
 C Buzzbox 525 |N|Head southwest to the road, bears are at the other side of the road|
 T Buzzbox 525 |N|Back on the road, near the path to the digsite, opposite the white bear Grimclaw (41.42, 80.59).|
 N Beached Sea Creature |N|On the shore northwest of the dig site (32.75, 80.69)| |L|12242 2|
@@ -121,5 +122,4 @@ T The Blackwood Corrupted
 T Tharnariun's Hope
 
 ]]
-
 end)

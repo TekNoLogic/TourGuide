@@ -178,19 +178,19 @@ T Harlan Needs a Resupply |N|Also along the Canals, to the north (49.58, 55.64)|
 A Package for Thurman |N|Same person, again she won't have a '!'|
 T Package for Thurman |N|In the Mage Quarter at Larson Clothiers (42.48, 76.28)| |Z|Stormwind City|
 
-T Speak with Jennea |N|In Mage Quarter, Stormwind| |C|Mage|
+T Speak with Jennea |N|In the Mage Quarter| |C|Mage|
 A Mirror Lake |C|Mage|
 
-T Gakin's Summons |N|In Mage Quarter, Stormwind| |C|Warlock|
+T Gakin's Summons |N|In the Mage Quarter| |C|Warlock|
 A Surena Caledon |C|Warlock|
 
 T Continue to Stormwind |N|In Old Town at Limited Immunity (74.2, 47.38)| |Z|Stormwind City| |R|Human|
 A Dungar Longdrink |R|Human|
 
-T Seek out SI: 7 |C|Rogue|
+T Seek out SI: 7 |N|In Old Town| |C|Rogue|
 A Snatch and Grab |C|Rogue|
 
-T A Warrior's Training |C|Warrior|
+T A Warrior's Training |N|In Old Town| |C|Warrior|
 A Bartleby the Drunk |C|Warrior|
 T Bartleby the Drunk |C|Warrior|
 A Beat Bartleby |C|Warrior|
@@ -199,14 +199,27 @@ A Bartleby's Mug |C|Warrior|
 T Bartleby's Mug |C|Warrior|
 A Marshal Haggard |C|Warrior|
 
-A The Collector |U|1307| |O|
-T The Collector |O| |N|Down in Goldshire|
+N Get a Tome of Divinity |L|6775| |N|Go see Duthorian Rall in the Cathedral of Light| |C|Paladin|
+A The Tome of Divinity (Part 1) |C|Paladin| |U|6775|
+T The Tome of Divinity (Part 1) |C|Paladin|
+A The Tome of Divinity (Part 2) |C|Paladin|
+T The Tome of Divinity (Part 2) |C|Paladin| |N|In Trade District|
+A The Tome of Divinity (Part 3) |C|Paladin|
+T The Tome of Divinity (Part 3) |C|Paladin|
+A The Tome of Divinity (Part 4) |C|Paladin|
+T The Tome of Divinity (Part 4) |C|Paladin| |N|In the Cathedral of Light|
+A The Tome of Divinity (Part 5) |C|Paladin|
+T The Tome of Divinity (Part 5) |C|Paladin|
+A The Tome of Divinity (Part 6) |C|Paladin|
 
 T Dungar Longdrink |N|Back at the flight point| |R|Human|
 A Return to Lewis |R|Human|
 F Westfall |R|Human|
 T Return to Lewis |R|Human|
 F Stormwind City |R|Human|
+
+A The Collector |U|1307| |O|
+T The Collector |O| |N|In Goldshire|
 
 C Mirror Lake |N|Directly south of Stormwind at Mirror Lake (28.6, 61.4)| |U|7207| |C|Mage|
 C Snatch and Grab |N|Sap & Pickpocket the Dockmaster at Jerod's Landing (48,87)| |C|Rogue|
@@ -217,6 +230,10 @@ A Dead-tooth Jack |C|Warrior|
 C Dead-tooth Jack |N|To the southeast (89.2, 78.7)| |C|Warrior|
 T Dead-tooth Jack |C|Warrior|
 
+T The Tome of Divinity (Part 6) |N|West side of the island on Stonecaire Lake in Elwynn Forest (72.6, 51.5)| |U|6866| |C|Paladin|
+A The Tome of Divinity (Part 7) |C|Paladin|
+C The Tome of Divinity (Part 7) |N|Center of island in Stonecaire Lake in Elwynn Forest| |C|Paladin|
+
 H Stormwind City
 T Mirror Lake |C|Mage|
 T Snatch and Grab |C|Rogue|
@@ -224,8 +241,11 @@ T Surena Caledon |C|Warlock|
 A The Binding |C|Warlock|
 C The Binding |N|Summoning circle downstairs| |U|6928| |C|Warlock|
 T The Binding |C|Warlock|
+T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin|
+A The Tome of Divinity (Part 8) |C|Paladin|
+T The Tome of Divinity (Part 8) |C|Paladin|
 
-T Elmore's Task |N|In the Dwarven District (51,12)| |Z|Stormwind City|
+T Elmore's Task |N|In the Dwarven District (51.7, 12.1)| |Z|Stormwind City|
 A Stormpike's Delivery
 R Deeprun Tram
 A Deeprun Rat Roundup |N|At the Ironforge end of the tram|
@@ -246,14 +266,13 @@ T Those Blasted Troggs!
 R Loch Modan |N|Take the road east, then south (80.0, 52.5)| |Z|Dun Morogh|
 A In Defense of the King's Lands
 A The Trogg Threat |N|In the tower|
-f Grab flight point |N|Up at Thelsamar (33,50)| |Z|Loch Modan|
+f Grab flight point |N|Up at Thelsamar (33.90, 50.00)| |Z|Loch Modan|
 C In Defense of the King's Lands |N|To the west (27,53)| |Z|Loch Modan|
 C The Trogg Threat
 T In Defense of the King's Lands
 T The Trogg Threat
-T Stormpike's Delivery |N|Follow the road north to Algaz Station (24,18)| |Z|Loch Modan|
+T Stormpike's Delivery |N|Follow the road north to Algaz Station (24.7, 18.3)| |Z|Loch Modan|
 
 R Darkshore |N|Follow the road to the Wetlands, then west to Menethil Harbor.  Take the north boat to Auberdine.  Don't forget to get the flight point in Menethil Harbor.  Fun trick: if you die, run all the way to the boat as a ghost, you can spirit heal on the other side.  Gravyard is northeast of Auberdine (41.91, 36.45)| |Z|Darkshore|
 ]]
 end)
-
