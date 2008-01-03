@@ -94,7 +94,7 @@ C Eating Damnation |N|To the west of the throne, on the edge of the mountains.|
 C Agitated Spirits of Skysong |N|Skysong Lake. Duh?|
 
 T Eating Damnation
-A Shattering The Veil
+A Shattering the Veil
 T Agitated Spirits of Skysong
 A Blessing of Incineratus
 
