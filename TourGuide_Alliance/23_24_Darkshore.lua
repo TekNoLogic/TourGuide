@@ -20,8 +20,8 @@ T Gyromast's Revenge
 R Auberdine
 T A Lost Master (Part 1)
 A A Lost Master (Part 2)
-R Wildbend River
-T A Lost Master (Part 2)
+T Mathystra Relics |N|At Grove of the Ancients|
+T A Lost Master (Part 2) |N|In the cave to the south|
 A Escape Through Force
 C Escape Through Force
 H Auberdine
