@@ -1,7 +1,9 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="01_11_Dun_Morogh.lua"/>
 	<Script file="01_12_Elwynn_Forest.lua"/>
+
 	<Script file="01_12_Azuremyst_Isle.lua"/>
+	<Script file="12_20_Bloodmyst_Isle.lua"/>
 
 	<Script file="01_12_Teldrassil.lua"/>
 	<Script file="12_17_Darkshore.lua"/>
