@@ -13,7 +13,9 @@ A Blood Feeders |N|At Malaka'Jin (71,95)|
 T Letter to Jin'Zil |O|
 A Jin'Zil's Forest Magic
 
-C Blood Feeders |N|(54,76)|
+A Arachnophobia |N|From a sign outside Sishir Canyon (59.1, 75.8)|
+C Arachnophobia |N|(52.20, 73.90)|
+C Blood Feeders
 C Deepmoss Spider Eggs |O|
 
 T Ziz Fizziks |N|In a hut at Windshear Crag (60,63)|
@@ -26,6 +28,7 @@ T Super Reaper 6000
 A Further Instructions
 
 R Sun Rock Retreat |N|(46,59)|
+T Arachnophobia
 A Boulderslide Ravine
 C Boulderslide Ravine |N|(61,92)|
 
