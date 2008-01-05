@@ -19,13 +19,13 @@ T A Helping Hand
 A A Shameful Waste
 A Vile Satyr! Dryads in Danger!
 A Destroy the Legion
-A The Howling Vale
+A The Howling vale
 A Agents of Destruction |N|Ignore her other quest, unless you plan to visit WSG.|
 A Reclaiming Felfire Hill |N|From Gnarl the Ancient of War, he paths around the camp.|
 T Kayneth Stillwind
 A Forsaken Diseases
 A The Lost Chalice
-f Grab flight point |N|Up on the hill (85,43).|
+f Grab flight point |N|Up on the hill (85,43)|
 T Vile Satyr! Dryads in Danger! |N|To the west of Forest Song (78,45)|
 A The Branch of Cenarius
 
@@ -71,7 +71,7 @@ T Forsaken Diseases
 A Diabolical Plans |U|23777| |O|
 T Diabolical Plans |O|
 A Never Again! |O| |PRE|Diabolical Plans|
-C Never Again! |O|
+C Never Again! |O| |N|To the south Gorgannon (90.0, 76.8) Diathorus (78.9, 84.7) Light marks the paths|
 T Never Again! |O|
 ]]
 end)
