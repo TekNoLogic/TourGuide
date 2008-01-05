@@ -115,6 +115,7 @@ function TourGuide:SetText(i)
 
 	icon:SetTexture(self.icons[action])
 	if action ~= "ACCEPT" and action ~= "TURNIN" then icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
+	if self:GetObjectiveTag("T") then f:SetBackdropColor(0.09, 0.5, 0.19, 0.5) else f:SetBackdropColor(0.09, 0.09, 0.19, 0.5) end
 	text:SetText(newtext)
 	check:SetChecked(false)
 	check:SetButtonState("NORMAL")

@@ -5,9 +5,9 @@ local L = TourGuide.Locale
 local ww = WidgetWarlock
 
 
-local ROWHEIGHT = 26
-local ROWOFFSET = 4
-local NUMROWS = math.floor(305/(ROWHEIGHT+4))
+local ROWHEIGHT = 30
+local ROWOFFSET = 6
+local NUMROWS = math.floor(305/ROWHEIGHT)
 
 
 local offset = 0
@@ -89,18 +89,20 @@ function TourGuide:CreateObjectivePanel()
 	end)
 
 	local function LevelCorrection(f) f:SetFrameLevel(frame:GetFrameLevel()+1); f:SetScript("OnShow", nil) end
+	local bg = {bgFile = "Interface/Tooltips/UI-Tooltip-Background"}
 	for i=1,NUMROWS do
 		local row = CreateFrame("Button", nil, frame)
-		row:SetPoint("TOPLEFT", i == 1 and frame or rows[i-1], i == 1 and "TOPLEFT" or "BOTTOMLEFT", 0, -ROWOFFSET)
-		row:SetWidth(630)
+		row:SetPoint("TOPLEFT", i == 1 and frame or rows[i-1], i == 1 and "TOPLEFT" or "BOTTOMLEFT", 0, i == 1 and -3 or 0)
+		row:SetWidth(630-20)
 		row:SetHeight(ROWHEIGHT)
+		row:SetBackdrop(bg)
 
-		local check = ww.SummonCheckBox(ROWHEIGHT, row, "TOPLEFT", ROWOFFSET, 0)
-		local icon = ww.SummonTexture(row, nil, ROWHEIGHT, ROWHEIGHT, nil, "TOPLEFT", check, "TOPRIGHT", ROWOFFSET, 0)
+		local check = ww.SummonCheckBox(ROWHEIGHT-ROWOFFSET, row, "LEFT", ROWOFFSET, 0)
+		local icon = ww.SummonTexture(row, nil, ROWHEIGHT-ROWOFFSET, ROWHEIGHT-ROWOFFSET, nil, "LEFT", check, "RIGHT", ROWOFFSET, 0)
 		local text = ww.SummonFontString(row, nil, "GameFontNormal", nil, "LEFT", icon, "RIGHT", ROWOFFSET, 0)
 
 		local detailhover = CreateFrame("Button", nil, frame)
-		detailhover:SetHeight(ROWHEIGHT)
+		detailhover:SetHeight(ROWHEIGHT-ROWOFFSET)
 		detailhover:SetPoint("LEFT", text, "RIGHT", ROWOFFSET*3, 0)
 		detailhover:SetPoint("RIGHT", scrollbar, "LEFT", -ROWOFFSET-7, 0)
 		detailhover:SetScript("OnEnter", ShowTooltip)
@@ -164,8 +166,10 @@ function TourGuide:UpdateOHPanel(value)
 		if not name then row:Hide()
 		else
 			local turnedin, logi, complete = self:GetObjectiveStatus(i + offset)
-			local optional = self:GetObjectiveTag("O", i + offset)
+			local optional, intown = self:GetObjectiveTag("O", i + offset), self:GetObjectiveTag("T", i + offset)
 			row:Show()
+
+			if intown then row:SetBackdropColor(0,0.5,0,0.5) else row:SetBackdropColor(0,0,0,0) end
 
 			local shortname = name:gsub(L.PART_GSUB, "")
 			logi = not turnedin and (not accepted[shortname] or (accepted[shortname] == name)) and logi

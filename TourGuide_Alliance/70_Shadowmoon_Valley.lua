@@ -8,12 +8,12 @@ A Besieged!
 C Besieged!
 T Besieged!
 A To Legion Hold
-A The Sketh'lon Wreckage
-A A Ghost in the Machine
-h Wildhammer Stronghold
-A The Hand of Gul'dan
-A Put On Yer Kneepads...
-A Spleendid!
+A The Sketh'lon Wreckage |T|
+A A Ghost in the Machine |T|
+h Wildhammer Stronghold |T|
+A The Hand of Gul'dan |T|
+A Put On Yer Kneepads... |T|
+A Spleendid! |T|
 
 N Kill crap... |N|Kill any Felboars, Vilewing Chimaeras and Scorchshell Pincers you come across for "Put On Yer Kneepads..."  Also loot any [Ever-burning Ash] you see, and kill Diemetradons for "Spleendid!"|
 T The Hand of Gul'dan |N|Northeast at the Altar of Damnation (42,45)|
@@ -29,17 +29,17 @@ C A Ghost in the Machine
 
 C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638|
 
-T A Ghost in the Machine |N|Back at Wildhammer Stronghold|
-A Harbingers of Shadowmoon
-T Spleendid!
-A The Second Course...
+T A Ghost in the Machine |N|Back at Wildhammer Stronghold| |T|
+A Harbingers of Shadowmoon |T|
+T Spleendid! |T|
+A The Second Course... |T|
 
-U Put on your Spectrecles |U|30719|
-C Harbingers of Shadowmoon |N|You don't have to leave the stronghold!|
-T Harbingers of Shadowmoon
-A Teron Gorefiend - Lore and Legend
-T The Sketh'lon Wreckage
-A Find the Deserter
+U Put on your Spectrecles |U|30719| |T|
+C Harbingers of Shadowmoon |N|You don't have to leave the stronghold!| |T|
+T Harbingers of Shadowmoon |T|
+A Teron Gorefiend - Lore and Legend |T|
+T The Sketh'lon Wreckage |T|
+A Find the Deserter |T|
 T To Legion Hold
 A Setting Up the Bomb
 
@@ -60,10 +60,10 @@ C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22.21, 35.59), Po
 
 T Setting Up the Bomb |N|Back at Wildhammer Stronghold|
 A Blast the Infernals!
-T The Second Course...
-A The Main Course!
-A Illidari-Bane Shard |U|30756|
-T Illidari-Bane Shard
+T The Second Course... |T|
+A The Main Course! |T|
+A Illidari-Bane Shard |U|30756| |T|
+T Illidari-Bane Shard |T|
 
 C Blast the Infernals! |N|Again at Legion Hold.  Find the green circle near the infernal ranks (22.63, 39.93), use the bomb.| |U|30614|
 
@@ -73,10 +73,10 @@ A The Deathforge
 C The Rod of Lianthe |N|Kill Blood Elves at Eclipse Point to the southeast for the key.  Strongbox is east of the elite (47.53, 71.66).|
 C Enraged Spirits of Air |N|Take the road east to the Netherwing Fields, drop totem, kill air elementals.| |U|30094|
 
-A The Ashtongue Tribe |N|ALDOR ONLY!  North at the Altar of Sha'tar (62,30)|
-A The Ashtongue Broken |N|SCRYER ONLY  West at the Sanctum of the Stars (54,58)|
-A Tablets of Baa'ri
-A Karabor Training Grounds
+A The Ashtongue Tribe |N|ALDOR ONLY!  North at the Altar of Sha'tar (62,30)| |T|
+A The Ashtongue Broken |N|SCRYER ONLY  West at the Sanctum of the Stars (54,58)| |T|
+A Tablets of Baa'ri |T|
+A Karabor Training Grounds |T|
 
 T Teron Gorefiend - Lore and Legend |N|South at the Altar of Shadows (58,70)|
 A Divination: Gorefiend's Cloak
@@ -92,14 +92,14 @@ C The Ashtongue Broken |O| |N|At the Ruins of Baa'ri|
 C Tablets of Baa'ri
 C Karabor Training Grounds |N|Inside the Black Temple, take the first right (68,50).  Kill Demon Hunter Supplicants and Initiates, try to catch them after a duel when they are low on HP.|
 
-T The Ashtongue Tribe |O| |N|Back at the Altar of Sha'tar|
-T The Ashtongue Broken |O| |N|Back at the Sanctum of the Stars|
-A Oronu the Elder
-T Tablets of Baa'ri
-T Karabor Training Grounds
-A A Necessary Distraction
+T The Ashtongue Tribe |O| |N|Back at the Altar of Sha'tar| |T|
+T The Ashtongue Broken |O| |N|Back at the Sanctum of the Stars| |T|
+A Oronu the Elder |T|
+T Tablets of Baa'ri |T|
+T Karabor Training Grounds |T|
+A A Necessary Distraction |T|
 
-T The Main Course! |N|Back at Wildhammer Stronghold|
+T The Main Course! |N|Back at Wildhammer Stronghold| |T|
 T Enraged Spirits of Air |N|Back at the Altar of Damnation|
 A Oronok Torn-heart
 
@@ -172,8 +172,8 @@ A Of Thistleheads and Eggs...
 C Of Thistleheads and Eggs...
 
 F Shattrath City
-T Of Thistleheads and Eggs... |N|In Lower City|
-A The Bundle of Bloodthistle
+T Of Thistleheads and Eggs... |N|In Lower City| |T|
+A The Bundle of Bloodthistle |T|
 
 H Wildhammer Stronghold
 T The Bundle of Bloodthistle
@@ -217,7 +217,7 @@ C Divination: Gorefiend's Truncheon |N|Ghostriders of Karabor circling The Hand 
 T Put On Yer Kneepads...
 T Divination: Gorefiend's Truncheon
 T Divination: Gorefiend's Cloak
-T A Necessary Distraction
+T A Necessary Distraction |T|
 T The Cipher of Damnation - The First Fragment Recovered |NODEBUG|
 T The Cipher of Damnation - The Second Fragment Recovered |NODEBUG|
 ]]

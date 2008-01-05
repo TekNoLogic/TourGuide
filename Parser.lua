@@ -24,6 +24,7 @@ function TourGuide:GetObjectiveTag(tag, i)
 	if not tags then return end
 
 	if tag == "O" then return tags:find("|O|")
+	elseif tag == "T" then return tags:find("|T|")
 	elseif tag == "L" then
 		local _, _, lootitem, lootqty = tags:find("|L|(%d+)%s?(%d*)|")
 		lootqty = tonumber(lootqty) or 1
