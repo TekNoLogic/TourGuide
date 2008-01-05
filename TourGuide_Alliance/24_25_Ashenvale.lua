@@ -1,28 +1,27 @@
 TourGuide:RegisterGuide("Ashenvale (24-25)", "Wetlands (25-27)", "Alliance", function()
 return [[
+F Astranaar
 T Pridewings of Stonetalon
 A Kayneth Stillwind
 T Trek to Ashenvale
 T The Ruins of Stardust
 A Fallen Sky Lake
-R Fire Scar Shrine |N|Southwest from Astranaar. Kill all mobs on the way|
-C The Tower of Althalaxx (Part 5)
-C Culling the Threat |N|North from Astranaar|
-R Maestra's Post
-T The Tower of Althalaxx (Part 5)
+
+C The Tower of Althalaxx (Part 5) |N|Southwest of Astranaar at Fire Scar Shrine (25.3, 60.6)|
+C Culling the Threat |N|North from Astranaar (35.0, 33.5)|
+
+T The Tower of Althalaxx (Part 5) |N|Back at Maestra's Post|
 A The Tower of Althalaxx (Part 6)
-A Supplies to Auberdine |N|Escort|
-R Maestra's Post
-T Supplies to Auberdine
-R Astranaar
-T Culling the Threat
-R Silverwind Refuge
-A Elemental Bracers
-N Collect 5x [Intact Elemental Bracers] |N|From the elementals in the lake south of Silverwind Refuge |L|12220 5|
+
+A Supplies to Auberdine |N|Escort.  As with all oldworld escorts it kinda sucks a fat one.  If you fail, abandon it.|
+C Supplies to Auberdine
+T Supplies to Auberdine |N|Back at Maestra's Post|
+
+T Culling the Threat |N|Back at Astranaar|
+
+A Elemental Bracers |N|At Silverwind Refuge|
+K Befouled Water Elemental |N|In the lake south of Silverwind Refuge.  Need [Intact Elemental Bracers] x5 for "Elemental Bracers"| |L|12220 5|
 C Elemental Bracers |U|5456|
 T Elemental Bracers
-H Auberdine
-b Menethil Harbor
-
 ]]
 end)

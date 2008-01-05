@@ -1,9 +1,11 @@
 TourGuide:RegisterGuide("Lakeshire (27-28)", "Duskwood (28-29)", "Alliance", function()
 return [[
+F Redridge Mountains
 A Blackrock Bounty
 A Blackrock Menace
-A Solomon's Law |N|Townhall|
-A Wanted: Lieutenant Fangore |N|Poster infront of inn|
+T Messenger to Stormwind (Part 2)
+A Solomon's Law |N|In the town hall|
+A Wanted: Lieutenant Fangore |N|Poster in front of the inn|
 h Lakeshire
 
 A An Unwelcome Guest |N|West of lakeshire|
