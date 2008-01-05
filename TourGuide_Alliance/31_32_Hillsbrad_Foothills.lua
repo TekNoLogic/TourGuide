@@ -72,6 +72,10 @@ T Cleansing the Eye |Z|Stormwind City| |N|In Stormwind Cathedral. (39,27)|
 A Brother Anton |N|Down stairs in Stormwind Cathedral|
 B Bolt of Woolen Cloth |L|2997| |N|Buy from AH or a Tailor.|
 B Hillman's Cloak |L|3719| |N|Buy from AH or a Leatherworker.|
+B Swiftness Potion |L|2459| |N|Buy from AH or a Alchemist. You'll need it to jump to MacKreel's Moonshine| |C|Paladin|
+B Swiftness Potion |L|2459| |N|Buy from AH or a Alchemist. You'll need it to jump to MacKreel's Moonshine| |C|Priest|
+B Swiftness Potion |L|2459| |N|Buy from AH or a Alchemist. You'll need it to jump to MacKreel's Moonshine| |C|Warlock|
+B Swiftness Potion |L|2459| |N|Buy from AH or a Alchemist. You'll need it to jump to MacKreel's Moonshine| |C|Warrior|
 
 H Southshore |N|Or fly back if on cooldown.|
 T Bartolo's Yeti Fur Cloak
