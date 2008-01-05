@@ -102,12 +102,12 @@ T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
 
-C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.|
+C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.| |U|24467|
 
 T Blessing of Incineratus
 A The Spirit Polluted
 C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.|
-C Shattering the Veil |N|These earth elementals are south of Oshu'gun.|
+C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501|
 
 H Telaar
 T Solving the Problem
@@ -144,7 +144,7 @@ T Diplomatic Measures
 A Armaments for Deception
 A Ruthless Cunning
 
-C Ruthless Cunning
+C Ruthless Cunning |U|25552|
 C Armaments for Deception
 
 T Ruthless Cunning
@@ -154,8 +154,8 @@ A Body of Evidence
 T The Spirit Polluted
 T Shattering the Veil
 
-C Returning the Favor
-C Body of Evidence
+C Returning the Favor |U|25555|
+C Body of Evidence |U|25658|
 
 H Telaar
 T Returning the Favor
