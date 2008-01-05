@@ -168,7 +168,7 @@ function TourGuide:UpdateStatusFrame()
 
 			local incomplete
 			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem or prereqturnedin) and not logi
-			elseif action == "TURNIN" then incomplete = not optional or logi and complete
+			elseif action == "TURNIN" then incomplete = not optional or logi
 			elseif action == "COMPLETE" then incomplete = not complete and (not optional or logi)
 			elseif action == "NOTE" or action == "KILL" then incomplete = not optional or haslootitem
 			else incomplete = not logi end
