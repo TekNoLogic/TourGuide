@@ -68,7 +68,7 @@ A B'naar Console Transcription |O| |PRE|Distraction at Manaforge B'naar|
 C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
 A Needs More Cowbell |N|From Thadell in Town Square (57,85)|
 A Indispensable Tools
-A Malevolent Remants |N|By the tower|
+A Malevolent Remnants |N|By the tower|
 T Curse of the Violet Tower |N|Use Archmage Vargoth's Staff at the top of the tower|
 A The Sigil of Krasus
 A The Unending Invasion |N|Back down the tower|

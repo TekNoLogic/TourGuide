@@ -5,7 +5,6 @@ A A'dal |N|You're looking for a Haggard War Veteran, he should be fairly easy to
 T A'dal
 A City of Light
 A Rather Be Fishin' |N|You can accept this and the next while doing the walk-around for City of Light. Seth is at the ruined infirmary (63.95, 15.50).| |Z|Shattrath City|
-A The Eyes of Skettis |Z|Shattrath City| |N|Rilak is in Lower City, just before the guardian turns to take you back up to the main ring (52.56, 20.98)|
 T City of Light
 N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  Select the appropriate quest from Khadgar once you've decided.|
 
