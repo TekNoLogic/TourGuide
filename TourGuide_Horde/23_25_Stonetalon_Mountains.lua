@@ -1,11 +1,11 @@
 TourGuide:RegisterGuide("Stonetalon Mountains (23-25)", "The Barrens (25)", "Horde", function()
     return [[
 F Sun Rock Retreat
-A Cenarius' Legacy
-T Boulderslide Ravine |N|Skip the follow-up|
-A Elemental War
-A Harpies Threaten
-h Sun Rock Retreat
+A Cenarius' Legacy |T|
+T Boulderslide Ravine |N|Skip the follow-up| |T|
+A Elemental War |T|
+A Harpies Threaten |T|
+h Sun Rock Retreat |T|
 A Cycle of Rebirth |N|Pick up seeds around (48,41)|
 C Cycle of Rebirth
 C Cenarius' Legacy |N|Done around (35,14)|
@@ -27,9 +27,10 @@ H Sun Rock Retreat
 C New Life |N|West in the Charred Vale (32,67)|
 C Elemental War
 C Harpies Threaten
-T New Life
-T Elemental War
-T Harpies Threaten
-A Calling in the Reserves]]
+T New Life |T|
+T Elemental War |T|
+T Harpies Threaten |T|
+A Calling in the Reserves |T|
+]]
 end)
 

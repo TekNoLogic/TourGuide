@@ -30,17 +30,17 @@ T The Fallen Courier |R|Undead| |NODEBUG|
 A Delivery to Tranquillien |R|Undead| |NODEBUG|
 
 R Tranquillien |N|Follow the road south|
-T Delivery to Tranquillien
-A The Forsaken
-T The Forsaken
-A Return to Arcanist Vandril
-T Return to Arcanist Vandril
-A Suncrown Village
-A Tomber's Supplies
-A Goods from Silvermoon City |R|Blood Elf|
-T Goods from Silvermoon City |R|Blood Elf|
-h Tranquillien
-A The Plagued Coast
+T Delivery to Tranquillien |T|
+A The Forsaken |T|
+T The Forsaken |T|
+A Return to Arcanist Vandril |T|
+T Return to Arcanist Vandril |T|
+A Suncrown Village |T|
+A Tomber's Supplies |T|
+A Goods from Silvermoon City |R|Blood Elf| |T|
+T Goods from Silvermoon City |R|Blood Elf| |T|
+h Tranquillien |T|
+A The Plagued Coast |T|
 
 A Anok'suten |N|Take the road north, then east to Suncrown Village (57,14)|
 C Suncrown Village
@@ -69,14 +69,14 @@ T Bearers of the Plague
 A Curbing the Plague
 
 H Tranquillien
-A Culinary Crunch
-A Salvaging the Past
-A Down the Dead Scar
-A Investigate An'daroth
-A Trouble at the Underlight Mines
-T Suncrown Village
-A Goldenmist Village
-T Anok'suten
+A Culinary Crunch |T|
+A Salvaging the Past |T|
+A Down the Dead Scar |T|
+A Investigate An'daroth |T|
+A Trouble at the Underlight Mines |T|
+T Suncrown Village |T|
+A Goldenmist Village |T|
+T Anok'suten |T|
 
 C Down the Dead Scar |N|To the west in the scar, south of the road|
 C Salvaging the Past |N|On the west side of the scar at Sanctum of the Moon (34,34)|
@@ -91,34 +91,34 @@ A Underlight Ore Samples |N|Grind mobs on your way (31,48)|
 C Trouble at the Underlight Mines
 C Underlight Ore Samples
 
-T Down the Dead Scar |N|Back at Tranquillien|
-T Trouble at the Underlight Mines
-T Culinary Crunch
-T Tomber's Supplies
-T Investigate An'daroth
-T Salvaging the Past
-T Goldenmist Village
-A Windrunner Village
-T The Plagued Coast
-A Into Occupied Territory
-A Investigate the Amani Catacombs
-A Retaking Windrunner Spire
-A Troll Juju
-A Spinal Dust
-A Rotting Hearts
+T Down the Dead Scar |N|Back at Tranquillien| |T|
+T Trouble at the Underlight Mines |T|
+T Culinary Crunch |T|
+T Tomber's Supplies |T|
+T Investigate An'daroth |T|
+T Salvaging the Past |T|
+T Goldenmist Village |T|
+A Windrunner Village |T|
+T The Plagued Coast |T|
+A Into Occupied Territory |T|
+A Investigate the Amani Catacombs |T|
+A Retaking Windrunner Spire |T|
+A Troll Juju |T|
+A Spinal Dust |T|
+A Rotting Hearts |T|
 
 C Into Occupied Territory |N|On the island southwest of Goldenmist Village (13,25)|
 C Windrunner Village |N|On the mainland, south of the creek (18,43)|
 C Retaking Windrunner Spire |N|South of Windrunner Village (16.72, 57.77)|
 
 H Tranquillien
-T Retaking Windrunner Spire
-T Into Occupied Territory
-A The Lady's Necklace |U|22597| |O|
-T The Lady's Necklace |O|
-A Journey to Undercity |O| |PRE|The Lady's Necklace|
-T Windrunner Village
-A Deliver the Plans to An'telas
+T Retaking Windrunner Spire |T|
+T Into Occupied Territory |T|
+A The Lady's Necklace |U|22597| |O| |T|
+T The Lady's Necklace |O| |T|
+A Journey to Undercity |O| |PRE|The Lady's Necklace| |T|
+T Windrunner Village |T|
+A Deliver the Plans to An'telas |T|
 
 R Sanctum of the Sun |N|To the southeast (55,48)|
 T Underlight Ore Samples
@@ -173,18 +173,18 @@ C Spinal Dust |N|You can skip this if you do not want a spell power buff item|
 C Rotting Hearts |N|You can skip this if you do not want a melee attack power buff item|
 
 H Tranquillien
-T Troll Juju
-T Investigate the Amani Catacombs
-T Rotting Hearts
-T Spinal Dust
+T Troll Juju |T|
+T Investigate the Amani Catacombs |T|
+T Rotting Hearts |T|
+T Spinal Dust |T|
 
 T War on Deatholme |N|Back at Sanctum of the Sun|
 T The Twin Ziggurats
 A Dar'Khan's Lieutenants
 A A Restorative Draught
 
-T A Restorative Draught |N|Back at Tranquillien|
-A Captives at Deatholme
+T A Restorative Draught |N|Back at Tranquillien| |T|
+A Captives at Deatholme |T|
 
 R Deatholme
 U Drink up! |U|22779|
@@ -196,10 +196,10 @@ T Dar'Khan's Lieutenants |N|Back at Sanctum of the Sun, deathport if you want|
 T Captives at Deatholme
 
 A Fly to Silvermoon City |R|Blood Elf| |N|Back at Tranquillien|
-T Fly to Silvermoon City |N|Fly to Silvermoon, duh! (53,71)| |Z|Silvermoon City| |R|Blood Elf|
+T Fly to Silvermoon City |N|Fly to Silvermoon, duh! (53,71)| |Z|Silvermoon City| |R|Blood Elf| |T|
 
 R Undercity |N|Teleport at the sunspire in Silvermoon City (49,14)| |Z|Silvermoon City|
-T Journey to Undercity |O| |N|Turn in at Sylvanas in the Royal Quarter (57.6, 91.6).  Make sure you have music turned on and enjoy the performance!|
+T Journey to Undercity |O| |N|Turn in at Sylvanas in the Royal Quarter (57.6, 91.6).  Make sure you have music turned on and enjoy the performance!| |T| |Z|Undercity|
 ]]
 end)
 
