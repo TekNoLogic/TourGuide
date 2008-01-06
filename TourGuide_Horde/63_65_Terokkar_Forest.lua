@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Terokkar Forest (64-65)", "Nagrand (65-66)", "Alliance", function()
+TourGuide:RegisterGuide("Terokkar Forest (63-65)", "Nagrand (65-67)", "Horde", function()
 return [[
 A A'dal |N|You're looking for a Haggard War Veteran, he should be fairly easy to find near the center of the city|
 T A'dal
@@ -38,20 +38,20 @@ C By Any Means Necessary |N|Empoor travels the road between Tuurem and Shattrath
 T By Any Means Necessary
 A Wind Trader Lathrai
 
-R Allerian Stronghold
-A Wanted: Bonelashers Dead! |N|Off the wanted poster outside the town hall|
-A Olemba Seeds
-A Speak with Private Weeks
-A Thin the Flock
+R Stonebreaker Hold |N|(48,45)|
+T News from Zangarmarsh
 A Stymying the Arakkoa
-A Secrets of the Arakkoa
-A Unruly Neighbors
-A Timber Worg Tails
-T The Fate of Tuurem
+A Surrender to the Horde
+A Speak with Scout Neftis
+A Arakkoa War Path
+A An Unwelcome Presence
 A Magical Disturbances
+A Olemba Seed Oil
+A Vestments of the Wolf Spirit
+A Wanted: Bonelashers Dead! |N|Wanted Poster|
 
-F Shattrath City |N|Flight point is just east of the water wheel|
-T Secrets of the Arakkoa
+F Shattrath City 
+T Surrender to the Horde
 A The Eyes of Skettis
 T Wind Trader Lathrai
 A A Personal Favor
@@ -69,7 +69,7 @@ C Missing Friends |N|Kill Arakkoa, collect keys, free kids.|
 K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |Q|Stymying the Arakkoa| |QO|Ashkaz slain: 1/1|
 C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).|
 C Restoring the Light |O| |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.|
-C Thin the Flock
+C Arakkoa War Path
 
 H Shattrath City
 T Restoring the Light |O|
@@ -79,66 +79,67 @@ T Rather Be Fishin' |N|Skip the follow-up|
 T A Personal Favor
 A Investigate Tuurem
 
-F Allerian Stronghold
-h Allerian Stronghold
-C Unruly Neighbors |N|East of Allerian Stronghold at the Bonechewer Ruins (66,53)|
+F Stonebreaker Hold
+h Stonebreaker Hold
+C An Unwelcome Presence |N|East at the Bonechewer Ruins (66,53)|
 C Magical Disturbances
-C Timber Worg Tails
+C Vestments of the Wolf Spirit
 
-T Unruly Neighbors |N|North of the ruins at Allerian Post (69,44).|
+T An Unwelcome Presence |N|At Stonebreaker Camp (63,42)|
 A The Firewing Liaison
-A Thinning the Ranks
+A What Happens in Terokkar Stays in Terokkar
 C The Firewing Liaison |N|Lisaile Fireweaver is inside the only building in the ruins that has a roof (67.89, 53.33)|
-A Fel Orc Plans |N|On the ground inside the same building|
-C Thinning the Ranks
-T The Firewing Liaison |N|Back up at Allerian Post (69.73, 44.27)|
-T Thinning the Ranks
+A An Unseen Hand |N|On the ground inside the same building|
+C What Happens in Terokkar Stays in Terokkar
+T The Firewing Liaison |N|Back at Stonebreaker Camp|
+T What Happens in Terokkar Stays in Terokkar
 
 K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |Q|Stymying the Arakkoa| |QO|Ayit slain: 1/1|
 C Investigate Tuurem |N|The Sealed Box is in one of the huts in Tuurem (54.00, 30.00)|
 T Investigate Tuurem
 A What Are These Things?
 
-C Olemba Seeds
+C Olemba Seed Oil
 
-T Speak with Private Weeks |N|Just north of Grangol'var Village (40.46, 36.16)|
+T Speak with Scout Neftis |N|(39,43)|
 A Who Are They?
 C Who Are They? |N|Shadowy Hunters are bad news, stay away from them.  Initiate (39, 39.68), Laborer (38.09, 41.09), Advisor (40,39) inside the building.|
 T Who Are They?
 A Kill the Shadow Council!
 C Kill the Shadow Council! |N|(40,39) Shadowmaster Grieve in big building|
 
-H Allerian Stronghold
+H Stonebreaker Hold
 T What Are These Things?
-A Report to the Allerian Post
+A Report to Stonebreaker Camp
 T Stymying the Arakkoa
-T Timber Worg Tails
-T Fel Orc Plans
-A The Elusive Ironjaw
-T Olemba Seeds
-A Vessels of Power
 T Kill the Shadow Council!
-T Thin the Flock
+T Arakkoa War Path
 T Magical Disturbances
+T An Unseen Hand
+T Olemba Seed Oil
+A And Now, the Moment of Truth
+C And Now, the Moment of Truth |N|Grek is next to Wanted Poster|
+T Vestments of the Wolf Spirit
+A Patriarch Ironjaw
 
-T Report to the Allerian Post
+T Report to Stonebreaker Camp |N|(63,42)|
 A Attack on Firewing Point
-C The Elusive Ironjaw |N|Should be just north of the post (67,35)|
+C Patriarch Ironjaw |N|(67,35)|
 A Escape from Firewing Point! |N|Escort Isla Starmane from inside the main building at Firewing Point (73,36)|
 C Escape from Firewing Point!
 C Attack on Firewing Point
 
-T Attack on Firewing Point |N|Back to the Post|
+T Attack on Firewing Point |N|Back at Stonebreaker Camp|
 A The Final Code
 C The Final Code |N|Inside the same building you found the escort in, just keep going up.|
 
-C Vessels of Power |N|Inside Tuurem, some of them are fake.  You can find a lot on the outskirts, so you don't have to fight a bunch.|
-
-T The Final Code |N|Back to the Stronghold|
+T The Final Code |N|Back at Stonebreaker Hold|
 A Letting Earthbinder Tavgren Know
 T Escape from Firewing Point!
-T Vessels of Power
-T The Elusive Ironjaw
+T Patriarch Ironjaw
+A Welcoming the Wolf Spirit
+C Welcoming the Wolf Spirit
+T Welcoming the Wolf Spirit
 
 F Shattrath City
 T Letting Earthbinder Tavgren Know |N|Back at Cenarion Thicket|
@@ -231,6 +232,8 @@ T Skywing
 A The Skettis Offensive |N|This quest is tricky, bring a friend if you can.|
 C The Skettis Offensive
 T The Skettis Offensive
-T Wanted: Bonelashers Dead! |N|Back at Allerian Stronghold|
+T Wanted: Bonelashers Dead! |N|Back at Stonebreaker Hold|
+
+R Nagrand |N|Go West out of the Aldor Terrace|
 ]]
 end)

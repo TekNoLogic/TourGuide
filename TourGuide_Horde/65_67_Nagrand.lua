@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Nagrand (65-66)", "Blade's Edge Mountains (66-67)", "Alliance", function()
+TourGuide:RegisterGuide("Nagrand (65-67)", "Blade's Edge Mountains (67-68)", "Horde", function()
 return [[
 R Nesingwary's Camp |N|In the east of the zone (71,40).|
 A Windroc Mastery (Part 1)
@@ -29,12 +29,25 @@ A Muck Diving
 T The Underneath
 A The Tortured Earth
 
+R Garadar
+h Garadar
+A Missing Mag'hari Procession
+A The Throne of the Elements
+A The Impotent Leader
+A Vile Idolatry
+A The Missing War Party
+A Murkblood Leaders...
+A Wanted: Giselda the Crone |N|Poster|
+A Wanted: Zorbo the Advisor |N|Poster|
+A The Consortium Needs You! |N|(51,34)|
+
 C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
 C A Rare Bean
 C Clefthoof Mastery (Part 2) |N|West again, south of the Laughing Skull Ruins.|
 C Muck Diving |N|Southwest, the water around Halaa.|
 
 A Matters of Security |N|At the Consortium Outpost, straight south of Sunspring (31,57).|
+T The Consortium Needs You!
 A Stealing from Thieves
 C Matters of Security
 C Stealing from Thieves
@@ -44,32 +57,32 @@ A Gava'xi
 C Gava'xi
 T Gava'xi
 
-R Telaar |N|The main Alliance base in Nagrand is in the south center of the zone (50,70).|
-A The Ravaged Caravan |N|Huntress Kima walks around Telaar.|
-A Wanted: Giselda the Crone |N|Off a signpost (54,70)|
-A Wanted: Zorbo the Advisor
-A Fierce Enemies
-T A Message to Telaar
-A Do My Eyes Deceive Me |N|From Huntress Bintook.|
-A The Throne of the Elements
-A Stopping the Spread
-A Solving the Problem
-h Telaar
 
-A I Must Have Them! |N|Kill any air elementals you happen across, but don't go hunting them just yet. Wazat is just east of Telaar (61,67).|
+A I Must Have Them! |N|Kill any air elementals you happen across, but don't go hunting them just yet. Wazat is to the south, east of Telaar (61,67).|
 
-C The Tortured Earth |N|At the hill just east of Telaar (64,70).|
-C Do My Eyes Deceive Me
+C The Tortured Earth |N|All over the eastern part of the zone|
 
 C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)|
 
+R Mag'hari Procession |N|(32,36)|
+T The Missing War Party
+A Once Were Warriors
+T Missing Mag'hari Procession
+A War on the Warmaul
+A Finding the Survivors
 
-C Stopping the Spread |N|At Sunspring Post (31,43). Torch corpses you come across.| |U|24560|
-C Solving the Problem
+C Vile Idolatry |N|At Sunspring Post (31,43)|
+C Murkblood Leaders... |N|Kill Ortor (30,42)|
+C Once Were Warriors
 C Murkblood Corrupters
 
-C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)|
+C War on the Warmaul |N|Warmaul Hill is in the northwest of the zone (29,31)|
+C Finding the Survivors
 
+T War on the Warmaul |N|Back at the Mag'hari Procession|
+T Finding the Survivors
+T Once Were Warriors
+A He Will Walk The Earth...
 
 T Murkblood Corrupters
 T The Throne of the Elements
@@ -87,6 +100,17 @@ A Shattering the Veil
 T Agitated Spirits of Skysong
 A Blessing of Incineratus
 
+C Windroc Mastery (Part 2) |N|Southeast of Halaa (47,57)|
+
+R Terokkar Forest |N|Go via the southeast path|
+T The Impotent Leader |N|(19,60)| |Z|Terokkar Forest|
+A Don't Kill the Fat One
+C Don't Kill the Fat One
+T Don't Kill the Fat One
+A Success!
+T Success! |N|(19,60) Kilrath| |Z|Terokkar Forest|
+A Because Kilrath is a Coward
+
 T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
@@ -98,37 +122,30 @@ A The Spirit Polluted
 C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.|
 C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501|
 
-H Telaar
-T Solving the Problem
-T Stopping the Spread
-T Fierce Enemies
-T The Ravaged Caravan
-T I Must Have Them!
-T Do My Eyes Deceive Me
-A Not On My Watch!
+H Garadar
+T Because Kilrath is a Coward
+A Message in a Battle
+A Standards and Practices
+T Vile Idolatry
+T Murkblood Leaders...
+T He Will Walk The Earth...
 
-C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71).|
+T I Must Have Them! |N|Back at Wazat (61,67)|
 
-T Not On My Watch!
-A Mo'mor the Breaker
-T Mo'mor the Breaker
-A The Ruins of Burning Blade
 
-A HELP! |N|Corki is in a cage in the Burning Blade Ruins (72,70).|
-C The Ruins of Burning Blade
-C HELP! |N|The key should have dropped off an ogre by now. If not, grind until you get it.|
+C Message in a Battle |N|(73,69)|
+C Standards and Practices |N|Burn 1: (72,69) 2: (74,70) 3: (75,68)|
 
-T HELP!
-A Corki's Gone Missing Again!
-T The Ruins of Burning Blade
-A The Twin Clefts of Nagrand
+T Message in a Battle |N|Back at Garadar|
+T Standards and Practices
+A An Audacious Advance
+A Bleeding Hollow Supply Crates
 
-C Corki's Gone Missing Again! |N|Corki is in a cage at the back of Northwind Cleft (39,27).|
-C The Twin Clefts of Nagrand
+C An Audacious Advance |N|(49,56) or (40,33)|
+C Bleeding Hollow Supply Crates
 
-T Corki's Gone Missing Again!
-A Corki's Ransom
-T The Twin Clefts of Nagrand
+T An Audacious Advance |N|Back at Garadar|
+T Bleeding Hollow Supply Crates
 A Diplomatic Measures
 
 T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
@@ -151,13 +168,15 @@ C Returning the Favor |U|25555|
 C Body of Evidence |U|25658|
 C Wanted: Zorbo the Advisor |N|(46,18)|
 
-H Telaar
+H Garadar
 T Wanted: Giselda the Crone
 T Wanted: Zorbo the Advisor
 
 T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
 T Body of Evidence
-A Message to Telaar
-T Message to Telaar
+A Message to Garadar
+T Message to Garadar
+
+F Swamprat Post |N|Zangarmarsh|
 ]]
 end)

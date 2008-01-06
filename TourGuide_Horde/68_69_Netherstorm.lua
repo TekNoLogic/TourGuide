@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Netherstorm (67-70)", "Shadowmoon Valley (70)", "Alliance", function()
+TourGuide:RegisterGuide("Netherstorm (68-69)", "Shadowmoon Valley (69-70)", "Horde", function()
 return [[
 R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
 A Off To Area 52 |N|On Gyro-Plank Bridge| |NODEBUG|
@@ -376,5 +376,8 @@ T A Dark Pact |O| |N|At Tuluman's Landing (34,38)|
 T Triangulation Point Two |N|Skip the follow-up|
 T Dealing with the Overmaster
 T Neutralizing the Nethermancers
+
+F Stonebreaker Hold |N|Terokkar Forest|
+R Shadowmoon Valley
 ]]
 end)
