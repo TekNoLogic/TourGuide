@@ -54,7 +54,8 @@ A Messenger to Stormwind (Part 2)
 
 A Devourer of Souls |N|Mage Quarter in Stormwind| |C|Warlock|
 b Theramore Isle |N|Fly to Menethil Harbor, take the boat on the south dock| |C|Warlock|
-T Devourer of Souls |N|Follow the road to the Barrens (49.3, 57.1) | |C|Warlock| |Z|The Barrens|
-A Heartswood |N|In the Barrens| |C|Warlock|
+T Devourer of Souls |N|Follow the road west into the Barrens, then north (49.3, 57.1) | |C|Warlock| |Z|The Barrens|
+A Heartswood |C|Warlock|
+f Get the Ratchet flightpoint |N|You'll need it later.  Take the road north, then east from the Crossroads (62,37)| |C|Warlock| |Z|The Barrens|
 ]]
 end)
