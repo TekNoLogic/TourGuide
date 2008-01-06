@@ -1,31 +1,25 @@
 TourGuide:RegisterGuide("Zangarmarsh (61-63)", "Terokkar Forest (63-65)", "Horde", function()
 return [[
-
 R Cenarion Refuge |N|(78,64)|
 A The Umbrafen Tribe
 A Plants of Zangarmarsh
 A The Dying Balance
 A Disturbance at Umbrafen Lake
 A Warden Hamoot
-A Leader of the Darkcrest |N|Wanted Poster|
 A Leader of the Bloodscale |N|Wanted Poster|
-h Cenarion Refuge |N|Make it your home!|
+h Cenarion Refuge
 T The Cenarion Expedition
 T Warden Hamoot
 A A Warm Welcome
 C Arelion's Mistrsse |N|Buy The Cenarion Spirit from Innkeeper, Coryth Stoktron|
 
-R Shattrath City |N|Run south down the road|
+R Shattrath City |N|Run south down the road| TODO: must we do this now?
 R Orgrimmar |N|Port!|
 T Messenger to Thrall |N|Valley of Wisdom|
 A Envoy to the Mag'har |N|Wait for thrall to finish his talking to get it|
-t Train |N|If you can here, i.e. if you're not a druid|
-H Moonglade |C|Druid|
-t Train Level 62 |C|Druid|
 H Cenarion Refuge
 
 R Swamprat Post |N|(85,54)|
-f Get FP
 T Report to Zurai
 A Thick Hydra Scales
 A Menacing Marshfangs
@@ -36,15 +30,14 @@ C The Dying Balance |N|Kill Boglash south of Cenarion Refuge|
 C The Umbrafen Tribe |N|(82,83).. Kataru is up top in (85,90)|
 A Escape from Umbrafen |N|(83,85)|
 C Escape from Umbrafen
-C There's No Explanation for Fashion |N|All over, do along with others|
+C There's No Explanation for Fashion |N|All over|
 C Menacing Marshfangs |N|Rippers on the way south|
-C No More Mushrooms! |N|Umbrafen Eel in the lake SW of Cenarion|
+C No More Mushrooms! |N|Umbrafen Eel in the lake southwest of the refuge|
 C Thick Hydra Scales |N|Around edge of lake|
 C Disturbance at Umbrafen Lake |N|(70,80)|
 C Plants of Zangarmarsh
 
-R Cenarion Refuge |N|(78,64)|
-T The Dying Balance
+T The Dying Balance |N|Back at Cenarion Refuge|
 T Disturbance at Umbrafen Lake
 T Escape from Umbrafen
 T Plants of Zangarmarsh
@@ -56,25 +49,25 @@ A As the Crow Flies
 C As the Crow Flies
 T As the Crow Flies
 A Balance Must Be Preserved
-C Saving the Sporeloks |N|(74,92)Cave down south +2 Qs|
-C Safeguarding the Watchers
-C A Damp, Dark Place |N|(70,97) Belongings on ground|
-N Balance Must Be Preserved |N|(70,80)Controls|
-A Drain Schematics |N|Item drop from Steam Pump Overseer (70,80)|
-C Leader of the Darkcrest |N|(65,68) NEED GROUP or 70 to help|
-N Balance Must Be Preserved |N|(63,64)Controls|
+
+C A Damp, Dark Place |N|Funggor Cavern is south of Umbrafen Lake (74,91).  Ikeyen's belongings are on a rock at the back of the cave (70.6, 97.9).|
+C Safeguarding the Watchers |N|At the bottom of the cave. It's labeled a group quest, but Klaq is soloable if you clear the adds first.|
+C Saving the Sporeloks
+
+N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
+N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
+
 H Cenarion Refuge
 T Saving the Sporeloks
 T A Damp, Dark Place
 T Safeguarding the Watchers
-A Blessings of the Ancients
 A What's Wrong at Cenarion Thicket?
 A Watcher Leesa'oh
-C Blessings of the Ancients |N|Right around there|
+A Blessings of the Ancients |N|You should be friendly with the Cenarion Expedition by now.|
+C Blessings of the Ancients
 T Blessings of the Ancients
 
-R Swamprat Post |N|(85,54)|
-T Thick Hydra Scales
+T Thick Hydra Scales |N|Back at Swamprat Post|
 T Menacing Marshfangs
 T There's No Explanation for Fashion
 T No More Mushrooms!
@@ -87,11 +80,10 @@ C A Job Undone |N|(78,45) Kill Sporewing|
 T Searching for Scout Jyoba |N|(80,36)|
 A Jyoba's Report |N|Dropped by Withered Giant|
 A Withered Basidium |N|starts from item drop Withered Basidium|
-N Balance Must Be Preserved |N|(61,41) Serpent Lake Controls|
+N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
 C Leader of the Bloodscale |N|(64,41) NEED GROUP or 70 to help|
 
 R Zabra'jin |N|(31,51)|
-f Get Flight Path
 T Report to Shadow Hunter Denjai
 A Stinging the Stingers
 A Angling to Beat the Competition
@@ -99,39 +91,41 @@ A WANTED: Boss Grog'ak |N|Poster|
 A Wanted: Chieftain Mummaki |N|Poster|
 A Spirits of the Feralfen
 A Burstcap Mushrooms, Mon!
-N Collect 10 Glowcap Mushrooms while you're out 'n about
-C Spirits of the Feralfen |N|(46,62)|
-C Nothin' Says Lovin' Like a Big Stinger |N|(49,59)Kill Blacksting|
 
-R Cenarion Watchpost |N|(23,66)|
-T Watcher Leesa'oh
+N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
+C Spirits of the Feralfen |N|(46,62)|
+C Nothin' Says Lovin' Like a Big Stinger |N|Blacksting is just north of Feralfen Village (49,59).|
+
+T Watcher Leesa'oh |N|The Cenarion Watchpost is on the road south toward Nagrand. (23,66)|
 A Observing the Sporelings
-A The Sporelings' Plight |N|(19,62)|
+
+A The Sporelings' Plight |N|From Fahssn, west of the watchpost (19,64).|
 A Natural Enemies
-C The Sporelings' Plight |N|(14,62)Spawning Glen|
+C Observing the Sporelings |N|You need to go a bit deeper into the Spawning Glen for this (13,62).|
+C The Sporelings' Plight |N|All over the Spwaning Glen.|
 C Natural Enemies
-C Observing the Sporelings
-T The Sporelings' Plight |N|(19,62)|
+T The Sporelings' Plight
 T Natural Enemies
-A Sporeggar |N|Need to be neutral with Sporeggar to get it|
-T Observing the Sporelings |N|(23,66)|
+A Sporeggar
+T Sporeggar |N|Just north-east of the Spawning Glen (19,51)|
+A Glowcap Mushrooms
+C Glowcap Mushrooms
+T Glowcap Mushrooms
+A Fertile Spores
+T Fertile Spores |N|If you don't have the spores for this don't worry.  Just mark it off and turn them in any time you have enough, this is a repeatable.|
+N Friendly - Sporeggar |N|Complete every repeatable you can until you're friendly.  You can turn in Glowcaps, Bog Lord Tendrils and Mature Spore sacs.  All these repeats end once you're friendly, so use them while you can!|
+A Now That We're Friends...
+
+T Observing the Sporelings |N|At the watchpost.|
 A A Question of Gluttony
-C A Question of Gluttony |N|Just East|
-T A Question of Gluttony |N|(23,66)|
+C A Question of Gluttony |N|East of the watchpost, look for green glowing things on the ground.  Be wary of the giants that wander in from the west, they'll get you good!|
+T A Question of Gluttony
 A Familiar Fungi
 
-R Sporeggar |N|(19,52)|
-T Sporeggar
-A Glowcap Mushrooms
-A Fertile Spores
-A The Count of the Marshes |N|(32,58)Kill Count Ungula, starts this quest from a drop|
 C Stinging the Stingers |N|Around Sporeggar, Kill Marshlight Bleeders|
 C Burstcap Mushrooms, Mon! |N|Mushrooms are right around Zabra'jin|
-C Glowcap Mushrooms |N|All over, mostly on left side of Zangar|
-C Fertile Spores |N|Spore Bats|
 
-R Zabra'jin |N|(31,51)|
-T Stinging the Stingers
+T Stinging the Stingers |N|Back at Zabra'jin|
 T Spirits of the Feralfen
 T Burstcap Mushrooms, Mon!
 A The Sharpest Blades
@@ -140,30 +134,28 @@ A A Spirit Ally?
 C A Spirit Ally? |N|(44,66)Plant totem, kill serpent that comes|
 T A Spirit Ally? |N|(31,51)|
 
-R Sporeggar |N|(19,52)|
-T Glowcap Mushrooms
-T Fertile Spores
-A Now That We're Friends... |N|Need Friendly with Sporeggar- grind if you're not|
-C The Sharpest Blades |N|(32,58) Kill Marshfang Slicers|
-C Balance Must Be Preserved |N|(24,44)Controls at Lake|
+C The Sharpest Blades |N|Marshfang Slicers are south of Zabra'Jin. You can find more to the west as well.|
+A The Count of the Marshes |U|25459| |N|Kill "Count" Ungula if you didn't, back south of Zabra'Jin (33,59).|
+
+N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
 C Now That We're Friends...
 C A Warm Welcome
-C WANTED: Boss Grog'ak |N|(34,34)With +1 Quest|
+C WANTED: Boss Grog'ak |N|(34,34)|
 C Familiar Fungi
-C Angling to Beat the Competition |N|(50,41)Middle of Coilfang Reservoir- Fenclaw Thrashers|
-C Drain Schematics |N|(50,41)|
+A Drain Schematics |U|24330| |N|You should have gotten an item from the naga.| |O|
+C Drain Schematics |O| |N|You need to go to the centre of Serpent Lake.|
+C Angling to Beat the Competition |N|Fenclaw Thrashers are around the pipes in the center of Serpent Lake.|
+
 H Cenarion Refuge
 T Balance Must Be Preserved
-T Drain Schematics
-A Warning the Cenarion Circle
+T Drain Schematics |O|
+A Warning the Cenarion Circle |O| |PRE|Drain Schematics|
 T A Warm Welcome
-T Leader of the Darkcrest
 T Leader of the Bloodscale
 
-R Cenarion Post |N|(16,52)Back to Hellfire| |Z|Hellfire Peninsula|
-T Warning the Cenarion Circle
-A Return to the Marsh
-T Envoy to the Mag'har |N|(32,27)Run up north to Mag'har area| |Z|Hellfire Peninsula|
+T Warning the Cenarion Circle |O| |N|East in Hellfire, at Cenarion Post|
+A Return to the Marsh |O| |PRE|Warning the Cenarion Circle|
+T Envoy to the Mag'har |N|(32,27)Run up north to Mag'har area| |Z|Hellfire Peninsula| TODO
 A A Debilitating Sickness
 C A Debilitating Sickness |N|(34,64)Mushroom is in the cave| |Z|Hellfire Peninsula|
 T A Debilitating Sickness |N|(32,27)Mag'har area| |Z|Hellfire Peninsula|
@@ -172,16 +164,16 @@ C Administering the Salve |N|Around Mag'har|
 T Administering the Salve
 C Arelion's Mistress |N|(27,60) at Falcon Watch in middle of lower part| |Z|Hellfire Peninsula|
 T Arelion's Mistress
+
 F Swamprat Post
 T A Job Undone
 T Withered Basidium
 T Nothin' Says Lovin' Like a Big Stinger
 T Jyoba's Report
 
-R Cenarion Refuge |N|(78,64)|
-T Return to the Marsh
-R Swamprat Post |N|(85,54)|
-F Zabra'jin
+T Return to the Marsh |O| |N|Back at the Refuge, of course.|
+
+F Zabra'jin |N|Run to Swamprat Post and fly|
 h Zabra'jin
 T Angling to Beat the Competition
 T The Sharpest Blades
@@ -195,14 +187,13 @@ T Familiar Fungi
 T The Count of the Marshes
 A Stealing Back the Mushrooms
 C The Biggest of Them All |N|(42,41) Kill Mragesh|
-C Pursuing Terrorclaw |N|(22,46) Kill Terrorclaw|
+C Pursuing Terrorclaw |N|Terrorclaw is on the southern-most island in Marshlight Lake, west and a bit south of the pump (22,45). He also fears, so be aware.|
 C Impending Attack |N|(19,27)Plans are up in the outpost on the floor|
 C Wanted: Chieftain Mummaki |N|(24,26)He's up in the building|
 C Have You Ever Seen One of These? |N|(26,22)|
 
-R Zabra'jin |N|(31,51)|
-T The Biggest of Them All
-T Pursuing Terrorclaw 
+T The Biggest of Them All |N|Back at Zabra'jin|
+T Pursuing Terrorclaw
 T Have You Ever Seen One of These?
 T Impending Attack
 T Wanted: Chieftain Mummaki
@@ -212,16 +203,12 @@ A Message to the Daggerfen
 R Sporeggar |N|(19,52)|
 T Now That We're Friends...
 C Message to the Daggerfen |N|(24,24)|
-C Us or Them |N|(18,7)At the Island, +1 Quest|
+C Us or Them |N|Far northwest of the zone, the little island with a bridge to it (18,9).|
 C Stealing Back the Mushrooms
-H Zabra'jin
 
+H Zabra'jin
 T Message to the Daggerfen
 T Us or Them
-R Cenarion Watchpost |N|(23,66)|
-T Stealing Back the Mushrooms
-R Zabra'jin |N|(31,51)|
-F Swamprat Post
-R Cenarion Thicket |N|Terokkar Forest|
+T Stealing Back the Mushrooms |N|Back at Cenarion Watchpost|
 ]]
 end)
