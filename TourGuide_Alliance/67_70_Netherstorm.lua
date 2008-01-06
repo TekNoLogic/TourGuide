@@ -68,7 +68,7 @@ A B'naar Console Transcription |O| |PRE|Distraction at Manaforge B'naar|
 C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
 A Needs More Cowbell |N|From Thadell in Town Square (57,85)|
 A Indispensable Tools
-A Malevolent Remants |N|By the tower|
+A Malevolent Remnants |N|By the tower|
 T Curse of the Violet Tower |N|Use Archmage Vargoth's Staff at the top of the tower|
 A The Sigil of Krasus
 A The Unending Invasion |N|Back down the tower|
@@ -264,17 +264,6 @@ C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers
 C The Minions of Culuthas
 C Fel Reavers, No Thanks! |N|West at Forge Camp: Oblivion (37,28), kill Mekgineers for 5 gas, use on one of the reavers (35,28), (36,25), (37,25). You only need to do this on ONE reaver!|
 
-T Outside Assistance |O| |N|Tuluman's Landing (34,38)|
-A A Dark Pact |O| |PRE|Distraction at Manaforge B'naar|
-A Dealing with the Foreman
-A Neutralizing the Nethermancers
-
-T Dealing with the Foreman |N|In the Trelleum Mine at Manaforge Ara (26.38, 43.95)|
-A Dealing with the Overmaster
-C Dealing with the Overmaster |N|Down the tunnel, right then left (26.82, 35.94)|
-C Neutralizing the Nethermancers |N|Outside the mine|
-C A Dark Pact |O| |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
-
 H Stormspire
 T Diagnosis: Critical
 A Testing the Prototype
@@ -290,10 +279,6 @@ T Creatures of the Eco-Domes
 A When Nature Goes Too Far
 C When Nature Goes Too Far |N|At the lake to the northeast (44,28)|
 T When Nature Goes Too Far
-T A Dark Pact |O| |N|At Tuluman's Landing (34,38)|
-A Aldor No More |O| |PRE|Distraction at Manaforge B'naar|
-T Dealing with the Overmaster
-T Neutralizing the Nethermancers
 
 C The Best Defense |N|Northwest at Forge Base: Gehenna (39,21)|
 T Testing the Prototype |N|Northeast at Eco-Dome Farfield (44,14)|
@@ -310,8 +295,6 @@ T Retrieving the Goods
 C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18), (44,20)| |U|31678|
 T Teleport This!
 
-F Area 52
-T Aldor No More |O|
 H Stormspire
 A Seek Out Ameer
 A A Not-So-Modest Proposal |N|At Protectorate Watch Post (58,31)|
@@ -377,8 +360,21 @@ T On Nethery Wings |N|Skip the follow-up|
 T Troublesome Distractions |N|Back at Celestial Ridge, skip the follow-up|
 
 H Stormspire
+T Outside Assistance |O| |N|Tuluman's Landing (34,38)|
+A A Dark Pact |O| |PRE|Distraction at Manaforge B'naar|
+A Dealing with the Foreman
+A Neutralizing the Nethermancers
+
+T Dealing with the Foreman |N|In the Trelleum Mine at Manaforge Ara (26.38, 43.95)|
+A Dealing with the Overmaster
+C Dealing with the Overmaster |N|Down the tunnel, right then left (26.82, 35.94)|
+C Neutralizing the Nethermancers |N|Outside the mine|
+C A Dark Pact |O| |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
+
 C Triangulation Point Two |N|Use the device and find the mark near Manaforge Ara (28,41)| |U|29018|
+T A Dark Pact |O| |N|At Tuluman's Landing (34,38)|
 T Triangulation Point Two |N|Skip the follow-up|
+T Dealing with the Overmaster
+T Neutralizing the Nethermancers
 ]]
 end)
-

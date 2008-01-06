@@ -1,359 +1,383 @@
+
 TourGuide:RegisterGuide("Netherstorm (68-69)", "Shadowmoon Valley (69-70)", "Horde", function()
 return [[
-A Off To Area 52 |N|(21,55)At Gyro-Plank Bridge|
+R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
+A Off To Area 52 |N|On Gyro-Plank Bridge| |NODEBUG|
 
-R Area 52 |N|(32,62)|
-f Get FP |N|(33,63)Outside of Town|
-h Area 52 |N|Make it your Home|
-T Off To Area 52
+R Area 52 |N|Back down the road (32,62)|
+A Securing the Shaleskin Shale |N|You may have to wait for him to respawn|
+T Off To Area 52 |NODEBUG|
 A You're Hired!
-A Consortium Crystal Collection
+h Area 52
+N Manaforge B'naar |N|Grab the Aldor or Scryer quest, whichever faction you picked.|
 A The Archmage's Staff
-A Securing the Shaleskin Shale
-A Wanted: Annihilator Servo!
-A Breaking Down Netherock
 
-C The Archmage's Staff |N|(40,72) For the brazier|
-C Consortium Crystal Collection |N|If Ekkorash doesn't drop it, Pentatharon does at (42,72)|
-R Area 52 |N|(32,62)|
-T Consortium Crystal Collection
-A A Heap of Ethereals
-T The Archmage's Staff
-A Rebuilding the Staff
-A Pick Your Part
-
-R Ruins of Enkaat |N|(31,56)|
-A Recharging the Batteries
-A Mark V is Alive! |N|Escort|
-C Mark V is Alive! |N|While doing this, do +2 Quests|
-C Rebuilding the Staff
+A Recharging the Batteries |N|To the north at Ruins of Enkaar (31,56), follow the road then take the north fork.|
+A Mark V is Alive!
+C Mark V is Alive!
 C You're Hired!
+C Recharging the Batteries |N|To the north.  Take phase hunters down to about 25% life, use the battery recharging blaster on them, then kill them|
 T Mark V is Alive!
-C Recharging the Batteries |N|Use blaster when they emote low on health|
 T Recharging the Batteries
+C Securing the Shaleskin Shale
 
-R Area 52 |N|(32,62)|
+T Securing the Shaleskin Shale |N|Back at Area 52|
+A That Little Extra Kick
 T You're Hired!
 A Invaluable Asset Zapping
 A Report to Engineering
-T Report to Engineering
+T Report to Engineering |N|To the south|
 A Essence for the Engines
-T Rebuilding the Staff
-A Curse of the Violet Tower
-T Curse of the Violet Tower |N|Use Staff to summon him|
-A The Sigil of Krasus
-C Securing the Shaleskin Shale |N|Along with +1 Quest|
-C Essence for the Engines |N|Mana Wraiths|
-C A Heap of Ethereals |N|(30,77) +1 Quest|
-C Pick Your Part
-C Wanted: Annihilator Servo! |N|Manaforge, Need Group or 70 Help|
 
-R Area 52 |N|(32,62)|
+C Essence for the Engines |N|North, near the glowing trenches|
+C That Little Extra Kick |N|Around the rocks, near the shaleskin flayers|
+
+T That Little Extra Kick |N|Back at Area 52|
 T Essence for the Engines
-T Pick Your Part
-T Wanted: Annihilator Servo!
-T A Heap of Ethereals
-T Securing the Shaleskin Shale
 A Elemental Power Extraction
-A In A Scrap With The Legion
-A Help Mama Wheeler
-A Warp-Raider Nesaad
-A That Little Extra Kick
-N Every time you see Nether Ray, kill for That Little Extra Kick, don't finish yet
-C Invaluable Asset Zapping |N|(39,75)|
-C Elemental Power Extraction |N|Use it on warp Aberrations and Sundered Rumblers, and click on blue thing on corpse|
-C Breaking Down Netherock |N|(25,80) NEED GROUP or 70 Help|
-C Warp-Raider Nesaad |N|(28,79)|
 
-H Area 52
-T Warp-Raider Nesaad
-T Elemental Power Extraction
-T Invaluable Asset Zapping |N|(34,68)|
-T Breaking Down Netherock
-A Request for Assistance
+C Manaforge B'naar |N|West out of town, then southwest| |O|
+C Distraction at Manaforge B'naar |N|West out of town, then southwest| |O|
+C Elemental Power Extraction |N|South at the Crumbling Waste (32,78).  Use the power extractor on the Sundered rumblers and warp aberrations then kill them.|
+C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (41,74), (41,72), (40,73), (42,72)|
+C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of the ruins|
+
+T Invaluable Asset Zapping |N|Back at Area 52|
 A Dr. Boom!
-C Dr. Boom! |N|Use Item on him from afar|
+T Elemental Power Extraction
+T The Archmage's Staff
+A Rebuilding the Staff
+T Distraction at Manaforge B'naar |O|
+T Manaforge B'naar |O|
+A Measuring Warp Energies |O| |PRE|Distraction at Manaforge B'naar|
+A Assisting the Consortium
+A Naaru Technology |O| |PRE|Distraction at Manaforge B'naar|
+T Assisting the Consortium
+A Consortium Crystal Collection
+
+C Dr. Boom! |N|Northeast of town at Camp of Boom (34,60).  Run in, bomb him, and run out.  Repeat till dead.| |U|29429|
+C Rebuilding the Staff |N|Back north at Ruins of Enkaat|
+
+T Rebuilding the Staff |N|Back at Area 52|
+A Curse of the Violet Tower
 T Dr. Boom!
 
-R Manaforge Coruu |N|(50,83)|
-C The Sigil of Krasus |N|(50,83) Kill Spellbinder Maryana|
-T The Sigil of Krasus |N|Use Staff|
-A Krasus's Compendium
-
-R Town Square |N|(57,85)|
-A Needs More Cowbell
+C Measuring Warp Energies |O| |N|Use the orb where the pipes go into the ground in this order: North (25,59), West (20,67), South (20,71), East (28,72)| |U|29324|
+T Naaru Technology |N|At the console inside the building| |O|
+A B'naar Console Transcription |O| |PRE|Distraction at Manaforge B'naar|
+C Consortium Crystal Collection |N|Kill Pentatharon at Arklon Ruins (41,73)|
+A Needs More Cowbell |N|From Thadell in Town Square (57,85)|
 A Indispensable Tools
+A Malevolent Remnants |N|By the tower|
+T Curse of the Violet Tower |N|Use Archmage Vargoth's Staff at the top of the tower|
+A The Sigil of Krasus
+A The Unending Invasion |N|Back down the tower|
 A A Fate Worse Than Death
-A Malevolent Remnants
-A The Unending Invasion
-T Needs More Cowbell |N|(59,78) Turn in at Bessy|
-A When the Cows Come Home |N|Escort|
-C When the Cows Come Home
-T When the Cows Come Home
-C Krasus's Compendium |N|Ch1: (58,89) Ch2: (57,89) Ch3: (58,87)|
-T Krasus's Compendium |N|Use Staff|
-A Unlocking the Compendium
-C Malevolent Remnants
-C Indispensable Tools |N|Drops from Kirin'Var Apprentice, east of town|
-A Cohlien Frostweaver |N|Drops from the dude|
-A Abjurist Belmara |N|Drops from the dude|
-A Conjurer Luminrath |N|Drops from the dude|
 
-R Town Square |N|(57,85)|
+K Abjurist Belmara |N|South of the tower|
+A Abjurist Belmara |N|From the tome she dropped|
+K Battle-Mage Dathric |N|Inside the town hall building (60,87)|
+A Battle-Mage Dathric |N|Again, from the dropped item|
+C Indispensable Tools |N|Kill the apprentices at the blacksmith house (60,85)|
+K Conjurer Luminrath
+A Conjurer Luminrath |N|Yet another item-started quest|
+K Cohlien Frostweaver |N|Little gnome, what do we do with gnomes? Oh yes, we KILL THEM!|
+A Cohlien Frostweaver |N|Do these item-started quests ever end?|
+
+T Needs More Cowbell |N|Clear the path over the bridge on your way|
+A When the Cows Come Home
+C When the Cows Come Home |N|Stay back and let Bessy get hit first each time, so that she stops and gives you time to kill things|
+T When the Cows Come Home
 T Indispensable Tools
 A Master Smith Rhonsus
+
+C Battle-Mage Dathric |N|To the west, First house on the left (56,86).  Use the weapon rack inside|
+C Conjurer Luminrath |N|Two houses up, a broken house (56,87), use the dresser|
+C Cohlien Frostweaver |N|Two more houses up (55,87). Use the footlocker|
+C The Unending Invasion |N|Fragment is right in front of the house (56,87)|
+C Abjurist Belmara |N|Use the bookshelf in the next house (55,86)|
+C A Fate Worse Than Death
+C Malevolent Remnants
+
+T The Unending Invasion |N|Back up by the tower|
+A Potential Energy Source
+T A Fate Worse Than Death
 T Malevolent Remnants
-A The Sunfury Garrison
 A The Annals of Kirin'Var
-C The Annals of Kirin'Var |N|(60,87) Town Hall, Kill Dathric|
-A Battle-Mage Dathric |N|Drops from the dude|
-C Master Smith Rhonsus |N|(60,85)|
-T Master Smith Rhonsus
-T The Annals of Kirin'Var
+T Battle-Mage Dathric
+T Conjurer Luminrath
+T Cohlien Frostweaver
+T Abjurist Belmara
+
+C The Annals of Kirin'Var |N|Kill Battle-Mage Dathric again in the town hall (60,87)|
+C Master Smith Rhonsus |N|Kill Rhonsus at the blacksmith house (60,87)|
+
+T The Annals of Kirin'Var |N|Back at the tower|
 A Searching for Evidence
-C Searching for Evidence |N|(60,78)|
-T Searching for Evidence
+T Master Smith Rhonsus |N|At the barn|
+T Searching for Evidence |N|At the necromantic focus at Bessy's barn (60,78)|
 A A Lingering Suspicion
-C A Lingering Suspicion
-R Town Square |N|(57,85)|
+C A Lingering Suspicion |N|Kill ghosts in the chapel yard|
 T A Lingering Suspicion
 A Capturing the Phylactery
-C Capturing the Phylactery |N|(59,80) Click on the middle outhouse|
-R Town Square |N|(57,85)|
-T Capturing the Phylactery
-A Destroy Naberius!
-C Destroy Naberius! |N|(62,79) NEED GROUP or 70 help|
-T Destroy Naberius!
+C Capturing the Phylactery |N|Across from the barn at Chapel Yard, the middle outhouse|
+T Capturing the Phylactery |N|Skip the follow-up|
 
-C The Unending Invasion |N|(55,87) Mana bomb fragment clicky clicky|
-C A Fate Worse Than Death
-C Cohlien Frostweaver |N|(55,87) Footlocker|
-C Battle-Mage Dathric |N|(56,86) Weapon Rack|
-C Abjurist Belmara |N|(55,86) Bookshelf|
-C Conjurer Luminrath |N|(56,87)|
+C Potential Energy Source |N|West at Manaforge Coruu (51,83)|
+C The Sigil of Krasus |N|Spellbinder Maryana, wandering around outside|
+T The Sigil of Krasus |N|Use the archmage's staff|
+A Krasus's Compendium
 
-R Town Square |N|(57,85)|
-T Cohlien Frostweaver
-T Battle-Mage Dathric
-T Abjurist Belmara
-T Conjurer Luminrath
-T A Fate Worse Than Death
-T The Unending Invasion
-A Potential Energy Source
-A Torching Sunfury Hold
-
-C Potential Energy Source |N|(50,84)Manaforge Coruu|
-R Town Square |N|(57,85)|
-T Potential Energy Source
+T Potential Energy Source |N|Back at the tower|
 A Building a Perimeter
-C Building a Perimeter |N|East: (59,85) North: (57,82) West: (54,86)|
-C Unlocking the Compendium |N|(56,80) +2 Quests|
-C Torching Sunfury Hold
+C Krasus's Compendium |N|Chapter 3 in the house south of the tower (58,87), Chapter 1 in the house on the other side (58,89), Chapter 2 in the house 2 doors down (57,89)|
+T Krasus's Compendium |N|Use the staff again|
+A Unlocking the Compendium
+
+C Building a Perimeter |N|Use the rune activator at the 3 runes: East (59,85), Northwest (57,82) and West (54,86)|
+T Building a Perimeter |N|Back at the tower|
+A Torching Sunfury Hold
+A The Sunfury Garrison
+
+C Torching Sunfury Hold |N|North at Sunfury Hold (56,81).  Kill flamekeepers to get a torch, then torch tests and ballistas.  You can torch the same tent and ballista many times, they respawn fast.|
 C The Sunfury Garrison
-T Unlocking the Compendium |N|Use Staff|
+C Unlocking the Compendium |N|Kill Spellweaver Marathelle around the lowest platform (56,78).|
+T Unlocking the Compendium |N|Use the staff, you should know this by now|
 A Summoner Kanthin's Prize
 
-R Town Square |N|(57,85)|
-T Building a Perimeter
-T Torching Sunfury Hold
-T The Sunfury Garrison
-A Down With Daellis
-C Down With Daellis |N|(56,66)|
-C Summoner Kanthin's Prize |N|(59,62) May be in different spots|
-T Summoner Kanthin's Prize |N|Use Staff|
+C Summoner Kanthin's Prize |N|Over the bridge to the north at Manaforge Duro (59,62).  Look for the water elemental|
+T Summoner Kanthin's Prize
 A Ar'kelos the Guardian
 
-R Town Square |N|(57,85)|
-T Down With Daellis
-C Ar'kelos the Guardian |N|(58,86) Talk to the guy at the top of tower|
-T Ar'kelos the Guardian
-A Finding the Keymaster
-C Finding the Keymaster |N|(52,68) NEED GROUP or 70 help|
-T Finding the Keymaster |N|Use crystal at top of the Violet Tower|
-A Capturing the Keystone
-H Moonglade |N|If leveled| |C|Druid|
-t Train
-H Area 52
+T Torching Sunfury Hold |N|Back at the town square|
+T The Sunfury Garrison
+A Down With Daellis
 
-R Midrealm Post |N|(46,56)|
-T Request for Assistance
+C Ar'kelos the Guardian |N|At the tower entrance|
+T Ar'kelos the Guardian |N|Top of the tower, skip the follow-up|
+
+C Down With Daellis |N|On the path west of Manaforge Duro (57,65)|
+T Down With Daellis |N|Back at the tower|
+
+R Cosmowrench |N|East of Manaforge Duro (65,66)|
+A Bloody Imp-ossible!
+C Bloody Imp-ossible! |N|Summon the imp and kill warp chasers.  You must be in melee range when they die.| |U|31815|
+T Bloody Imp-ossible!
+
+F Area 52
+A Pick Your Part
+T Consortium Crystal Collection
+A A Heap of Ethereals
+T Measuring Warp Energies |O|
+T B'naar Console Transcription |O|
+A Shutting Down Manaforge B'naar |O| |PRE|Distraction at Manaforge B'naar|
+
+C Shutting Down Manaforge B'naar |O| |N|Kill Overseer Theredis inside the manaforge, talk to the console|
+C Pick Your Part |N|At The Heap (27,77)|
+C A Heap of Ethereals
+
+T Pick Your Part |N|Back at Area 52|
+A In A Scrap With The Legion |NODEBUG|
+A Help Mama Wheeler
+T A Heap of Ethereals
+A Warp-Raider Nesaad
+T Shutting Down Manaforge B'naar |O|
+A Shutting Down Manaforge Coruu |O| |PRE|Distraction at Manaforge B'naar|
+A Attack on Manaforge Coruu |O| |PRE|Distraction at Manaforge B'naar|
+
+C Warp-Raider Nesaad |N|Back at The Heap (28,80)|
+C Shutting Down Manaforge Coruu |O| |N|East over the bridge (46,81).  Kill Overseer Seylanna (49,81) and use the console, like before.|
+C Attack on Manaforge Coruu |O|
+
+A Drijya Needs Your Help |N|Northwest inside the dome (46,56)|
 T Help Mama Wheeler
-A Drijya Needs Your Help
-A Rightful Repossession
 A One Demon's Trash...
 A Run a Diagnostic!
 A New Opportunities
 A Keeping Up Appearances
-T Drijya Needs Your Help |N|(48,63)|
-A Sabotage the Warp-Gate |N|Need Group or Level 70|
-C Sabotage the Warp-Gate
-C Rightful Repossession |N|(58,65)  Manaforge Duro|
-C One Demon's Trash... |N|(50,58) Scrap Field +1 Quest|
-C In A Scrap With The Legion
+T Drijya Needs Your Help |N|To the south, skip his escort quest unless you have help|
 
-R Midrealm Post |N|(46,56)|
-T Rightful Repossession
+C One Demon's Trash... |N|North at The Scrap Field (50,59)|
+C In A Scrap With The Legion |NODEBUG|
+C Run a Diagnostic! |N|A bit further north (48,55)|
+C Keeping Up Appearances |N|Run around in the dome killing lynx|
+C New Opportunities
+
 T One Demon's Trash...
-T Sabotage the Warp-Gate
-A An Audience with the Prince
 A Declawing Doomclaw
-C Declawing Doomclaw |N|(50,58)|
-T Declawing Doomclaw
-A Warn Area 52!
-C Run a Diagnostic! |N|(48,54)|
+T New Opportunities
 T Run a Diagnostic!
 A Deal With the Saboteurs
-C Deal With the Saboteurs |N|Around lake +2 Quests|
-C New Opportunities
-C Keeping Up Appearances
-T Deal With the Saboteurs
-T New Opportunities
 T Keeping Up Appearances
-A To the Stormspire
 A The Dynamic Duo
 
-R The Stormspire |N|(42,33)|
-A Flora of the Eco-Domes |N|Bottom of elevator|
-C Flora of the Eco-Domes
-T Flora of the Eco-Domes
-A Creatures of the Eco-Domes
-C Creatures of the Eco-Domes
-T Creatures of the Eco-Domes
-A When Nature Goes Too Far
-C When Nature Goes Too Far |N|(44,28) Kill hydra|
-T When Nature Goes Too Far
-f Get FP in Stormspire |N|(45,34) Go up|
-h The Stormspire |N|make it your home!|
-T An Audience with the Prince |N|(45,35)|
-A Triangulation Point One
-T The Dynamic Duo
-A Retrieving the Goods
+T In A Scrap With The Legion |NODEBUG| |N|Back at Area 52|
+T Warp-Raider Nesaad
+A Request for Assistance
+T Shutting Down Manaforge Coruu |O|
+A Shutting Down Manaforge Duro |O| |PRE|Distraction at Manaforge B'naar|
+T Attack on Manaforge Coruu |O|
+A Sunfury Briefings |O| |PRE|Distraction at Manaforge B'naar|
+
+R Midrealm Post
+T Request for Assistance
+A Rightful Repossession
+
+C Declawing Doomclaw |N|East from the dome (50,57)|
+C Shutting Down Manaforge Duro |O| |N|East at Manaforge Duro.  You know the drill, kill Overseer Athanel (60,68)|
+C Rightful Repossession
+C Sunfury Briefings |O|
+
+T Rightful Repossession
+A An Audience with the Prince
+T Declawing Doomclaw
+A Warn Area 52!
+
+T Warn Area 52! |N|Back at Area 52, duh|
+A Doctor Vomisa, Ph.T.
+T Shutting Down Manaforge Duro |O| |N|Skip the follow-up|
+T Sunfury Briefings |O|
+A Outside Assistance |O| |PRE|Distraction at Manaforge B'naar|
+T Doctor Vomisa, Ph.T. |N|East out of town at a little tent (37,63).  Skip the follow-up|
+
+C Deal With the Saboteurs |N|Crocs at the lake in the Eco-Dome (46,53)|
+A To the Stormspire |N|Back at Midrealm Post|
+
+R The Stormspire |N|Follow the road out to the bigger dome (41,32)|
+A Flora of the Eco-Domes
+T Deal With the Saboteurs
 T To the Stormspire
 A Diagnosis: Critical
 A Surveying the Ruins
 A The Minions of Culuthas
 A Fel Reavers, No Thanks!
-A In Search of Farahlite
-C Diagnosis: Critical |N|(47,26)|
-H The Stormspire
+T An Audience with the Prince
+A Triangulation Point One
+T The Dynamic Duo
+A Retrieving the Goods
+
+h Stormspire
+
+C Flora of the Eco-Domes |U|29818| |N|Use the modulator on the lashers, then kill them|
+C Diagnosis: Critical |N|At the generator to the northeast (47,27)| |U|29803|
+C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers are at (51,20), (54,22), (55,19)| |U|29445|
+C The Minions of Culuthas
+C Fel Reavers, No Thanks! |N|West at Forge Camp: Oblivion (37,28), kill Mekgineers for 5 gas, use on one of the reavers (35,28), (36,25), (37,25). You only need to do this on ONE reaver!|
+
+H Stormspire
 T Diagnosis: Critical
 A Testing the Prototype
-C Fel Reavers, No Thanks! |N|(36,26) Forge Base: Oblivion|
+T Surveying the Ruins
+T The Minions of Culuthas
+T Fel Reavers, No Thanks!
+A The Best Defense
+T Flora of the Eco-Domes |N|Bottom of the elevator|
+A Creatures of the Eco-Domes
 
-R Eco-Dome Farfield |N|(45,14)|
-T Testing the Prototype
+C Creatures of the Eco-Domes |N|Fight down to 20% and tag em| |U|29817|
+T Creatures of the Eco-Domes
+A When Nature Goes Too Far
+C When Nature Goes Too Far |N|At the lake to the northeast (44,28)|
+T When Nature Goes Too Far
+
+C The Best Defense |N|Northwest at Forge Base: Gehenna (39,21)|
+T Testing the Prototype |N|Northeast at Eco-Dome Farfield (44,14)|
 A All Clear!
-C Retrieving the Goods |N|(45,12) +1 Quest|
 C All Clear!
+C Retrieving the Goods
 T All Clear!
 A Success!
-C In Search of Farahlite |N|(48,17) NEED GROUP or Level 70 help|
-C The Minions of Culuthas |N|(53,22) +1 Quest|
-C Surveying the Ruins |N|One: (51,20) Two: (54,22) Three: (55,19)|
+T Success! |N|Back up on the Starmspire|
+T The Best Defense
+A Teleport This!
+T Retrieving the Goods
 
-R Protectorate Watch Post |N|(58,31)|
-A A Not-So-Modest Proposal
+C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18), (44,20)| |U|31678|
+T Teleport This!
+
+H Stormspire
+A Seek Out Ameer
+A A Not-So-Modest Proposal |N|At Protectorate Watch Post (58,31)|
 A Electro-Shock Goodness!
-A The Etherium
-A Captain Tyralius
+T Seek Out Ameer
+A The Ethereum
 A Recipe for Destruction
-A The Flesh Lies... |N|(59,45) Run around mountain edge|
-C The Flesh Lies... |N|(60,45) Go in the cave, make lefts|
-C A Not-So-Modest Proposal |N|Power Pack is next to the agent|
-A Arconus the Insatiable |N|From Agent Ya-six|
-C Arconus the Insatiable |N|Make lefts from Agent|
-T The Flesh Lies...
-C Triangulation Point One |N|(66,33) Use Quest item|
-T A Not-So-Modest Proposal |N|(71,38)|
-A Getting Down to Business
+A Captain Tyralius
+
+U Drink the concoction |U|29737|
+K Void Wastes |Q|Electro-Shock Goodness!| |QO|Void Waste Globule slain: 30/30|
+C The Ethereum |N|South (56,38)|
+T The Ethereum |N|At the transponder (56.80, 38.70)|
+A Ethereum Data
+C Ethereum Data |N|South (55.80, 39.93)|
+T Ethereum Data
+A Potential for Brain Damage = High
+C Potential for Brain Damage = High |N|Kill Ethereums, drink the essence they drop, then kill the Data Wyrmlings| |U|29482|
+T Potential for Brain Damage = High
+A S-A-B-O-T-A-G-E
+C S-A-B-O-T-A-G-E |N|Kill Ethereum Archons and Ethereum Overlords|
+T S-A-B-O-T-A-G-E
+A Delivering the Message
+C Delivering the Message
+T Delivering the Message |N|Skip the follow-up|
+
+C Captain Tyralius |N|Kill Warden Icoshock to the southwest for his key, then open the prison behind Nexus-King Salhadaar (53,41)|
+A The Flesh Lies... |N|East (59,45)|
+C The Flesh Lies... |N|In the mine, Access Shaft Zeon.  Keep left as you enter.  Use the lighter on the corpses, but don't get too close.| |U|29473|
+A Arconus the Insatiable |N|(60,41)|
+C A Not-So-Modest Proposal
+C Arconus the Insatiable |N|Go back out to the entrance, then head in staying right.  Kill Arconus in the big room (60,39)|
+T The Flesh Lies... |N|Back outside|
+
+U Drink the concoction |U|29737|
+C Electro-Shock Goodness!
+C Recipe for Destruction |N|Voidshriekers and Voidwraiths around and inside and around the manaforge|
+C Triangulation Point One |N|Use the device then find the mark (66,33)| |U|28962|
+
+T A Not-So-Modest Proposal |N|To the east at Celestial Ridge.  Find the holograph (71.1, 39.0)|
+A Getting Down to Business |N|You can't do this quest if you've got high Netherwing faction|
 C Getting Down to Business
-T Getting Down to Business |N|(71,38) At Shrouded figure|
-A Formal Introductions
-T Formal Introductions
-A A Promising Start
+T Getting Down to Business |N|Behind the holograph (70,38)|
+A Formal Introductions |N|You can't do this quest if you've got high Netherwing faction|
+T Formal Introductions |N|North (71,35)|
+A A Promising Start |N|You can't do this quest if you've got high Netherwing faction|
 C A Promising Start
 T A Promising Start
-A Troublesome Distractions
+A Troublesome Distractions |N|You can't do this quest if you've got high Netherwing faction|
 
-R Protectorate Watch Post |N|(58,31)|
+T Recipe for Destruction |N|West at Protectorate Watch Post (58,31)|
+A On Nethery Wings
+T Captain Tyralius
+T Electro-Shock Goodness!
 T Arconus the Insatiable
 T Triangulation Point One
 A Triangulation Point Two
-C Troublesome Distractions |N|Talk to him, then kill him!|
-T Troublesome Distractions |N|(71,35)|
-A Securing the Celestial Ridge
-C Securing the Celestial Ridge |N|(72,43) Might need group|
 
-R Protectorate Watch Post |N|(58,31)|
-T Securing the Celestial Ridge
-C Electro-Shock Goodness |N|Around ultris, Finish this before Recipe for Destruction|
-T Electro-Shock Goodness!
-C Recipe for Destruction |N|Around Manaforge Ultris|
-T Recipe for Destruction
-A On Nethery Wings
-C On Nethery Wings |N|Use Nether drake or mount, keep spamming Phase Disruptor|
-T On Nethery Wings
-A Dimensius the All-Devouring
-C Dimensius the All-Devouring |N|NEED GROUP or Level 70 help|
-T Dimensius the All-Devouring
+C Troublesome Distractions |N|Lure Marid away and kill him|
+C On Nethery Wings |N|Talk to the netherdrake and take a ride. Spam the bomb when you are over the manaforge.| |U|29778|
+T On Nethery Wings |N|Skip the follow-up|
 
-R Etherium Staging Grounds |N|(55,39)|
-C Captain Tyralius |N|(55,40) for Warden Icoshock, Cage at (54,41)|
-C Escape from the Staging Grounds |N|(57,37)May need group?|
+T Troublesome Distractions |N|Back at Celestial Ridge, skip the follow-up|
 
-R Protectorate Watch Post |N|(58,31)|
-T Escape from the Staging Grounds
-T Captain Tyralius
-
-R Cosmowrench |N|(65,66)|
-f get FP
-A Bloody Imp-ossible!
-C Bloody Imp-ossible! |N|Use Crystal item to summon an imp, then kill Warp Chasers|
-T Bloody Imp-ossible!
-H The Stormspire
-
-T Success!
-T The Minions of Culuthas
-T Fel Reavers, No Thanks!
-T Surveying the Ruins
-T Retrieving the Goods
-T In Search of Farahlite
-A The Best Defense
-C The Best Defense |N|(40,21) Forge Base: Gehenna|
-
-R Tuluman's Landing |N|(34,37)|
+H Stormspire
+T Outside Assistance |O| |N|Tuluman's Landing (34,38)|
+A A Dark Pact |O| |PRE|Distraction at Manaforge B'naar|
 A Dealing with the Foreman
 A Neutralizing the Nethermancers
-T Dealing with the Foreman |N|(26,42) In the cave|
-A Dealing with the Overmaster
-C Dealing with the Overmaster |N|At end of cave|
-C Neutralizing the Nethermancers |N|(28,42) Around Manaforge Ara|
-C Triangulation Point Two |N|(28,41) Use item|
 
-R Tuluman's Landing |N|(34,37)|
-T Triangulation Point Two
+T Dealing with the Foreman |N|In the Trelleum Mine at Manaforge Ara (26.38, 43.95)|
+A Dealing with the Overmaster
+C Dealing with the Overmaster |N|Down the tunnel, right then left (26.82, 35.94)|
+C Neutralizing the Nethermancers |N|Outside the mine|
+C A Dark Pact |O| |N|Gan'arg Warp-Tinkerers and Daughters of Destiny near Manaforge Ara|
+
+C Triangulation Point Two |N|Use the device and find the mark near Manaforge Ara (28,41)| |U|29018|
+T A Dark Pact |O| |N|At Tuluman's Landing (34,38)|
+T Triangulation Point Two |N|Skip the follow-up|
 T Dealing with the Overmaster
 T Neutralizing the Nethermancers
-A Full Triangle
-H The Stormspire
-T The Best Defense
-A Teleport This!
-C Full Triangle |N|NEED GROUP or LEVEL 70 Help|
-T Full Triangle
-C Teleport This! |N|At Forge Base: Gehenna|
-T Teleport This! |N|At Stormspire|
-
-F Area 52
-T In a Scrap With The Legion
-T Warn Area 52!
-A Doctor Vomisa, Ph.T.
-T Doctor Vomisa, Ph.T.
-A You, Robot |N|Need a Group of at least 2 other Level 70s|
-C You, Robot
-T You, Robot
 
 F Stonebreaker Hold |N|Terokkar Forest|
 R Shadowmoon Valley
-
 ]]
 end)
