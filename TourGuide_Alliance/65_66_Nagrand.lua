@@ -29,31 +29,26 @@ A Muck Diving
 T The Underneath
 A The Tortured Earth
 
-C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for A Rare Bean too - it really blends in, but it's in this area.|
+C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
 C A Rare Bean
 C Clefthoof Mastery (Part 2) |N|West again, south of the Laughing Skull Ruins.|
 C Muck Diving |N|Southwest, the water around Halaa.|
 
-C Murkblood Corrupters |N|At Sunspring Post (31,43).|
-
 A Matters of Security |N|At the Consortium Outpost, straight south of Sunspring (31,57).|
 A Stealing from Thieves
-
 C Matters of Security
 C Stealing from Thieves
-
 T Matters of Security
 T Stealing from Thieves
-
 A Gava'xi
 C Gava'xi
 T Gava'xi
 
 R Telaar |N|The main Alliance base in Nagrand is in the south center of the zone (50,70).|
 A The Ravaged Caravan |N|Huntress Kima walks around Telaar.|
-A Wanted: Giselda the Crone |N|Off the signpost beside Warden Iolol (54,70).|
+A Wanted: Giselda the Crone |N|Off a signpost (54,70)|
 A Wanted: Zorbo the Advisor
-A Fierce Enemies |N|From Warden Iolol.|
+A Fierce Enemies
 T A Message to Telaar
 A Do My Eyes Deceive Me |N|From Huntress Bintook.|
 A The Throne of the Elements
@@ -64,23 +59,17 @@ h Telaar
 A I Must Have Them! |N|Kill any air elementals you happen across, but don't go hunting them just yet. Wazat is just east of Telaar (61,67).|
 
 C The Tortured Earth |N|At the hill just east of Telaar (64,70).|
-C Do My Eyes Decieve Me
+C Do My Eyes Deceive Me
 
-C Wanted: Giselda the Crone |N|Kil'Sorrow Fortress is in the far south-east of Nagrand (69,81).|
+C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)|
 
-H Telaar
-T Wanted: Giselda the Crone
-T Do My Eyes Decieve Me
-A Not On My Watch!
 
-C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63).|
-
-T Gava'xi
-
-C Stopping the Spread |N|Back to Sunspring Post (31,43). Torch corpses you come across.| |U|24560|
+C Stopping the Spread |N|At Sunspring Post (31,43). Torch corpses you come across.| |U|24560|
 C Solving the Problem
-C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31).|
-C Wanted: Zorbo the Advisor |N|At the Laughing Skull Ruins (43,21)|
+C Murkblood Corrupters
+
+C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)|
+
 
 T Murkblood Corrupters
 T The Throne of the Elements
@@ -102,20 +91,21 @@ T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
 
-C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.|
+C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.| |U|24467|
 
 T Blessing of Incineratus
 A The Spirit Polluted
 C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.|
-C Shattering the Veil |N|These earth elementals are south of Oshu'gun.|
+C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501|
 
 H Telaar
 T Solving the Problem
 T Stopping the Spread
-T Wanted: Zorbo the Advisor
 T Fierce Enemies
 T The Ravaged Caravan
 T I Must Have Them!
+T Do My Eyes Deceive Me
+A Not On My Watch!
 
 C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71).|
 
@@ -140,28 +130,34 @@ T Corki's Gone Missing Again!
 A Corki's Ransom
 T The Twin Clefts of Nagrand
 A Diplomatic Measures
-T Diplomatic Measures
+
+T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
 A Armaments for Deception
 A Ruthless Cunning
 
-C Ruthless Cunning
+C Ruthless Cunning |U|25552|
 C Armaments for Deception
+C Wanted: Giselda the Crone
 
 T Ruthless Cunning
 T Armaments for Deception
 A Returning the Favor
 A Body of Evidence
-T The Spirit Polluted
+
+T The Spirit Polluted |N|Back at Throne of the Elements|
 T Shattering the Veil
 
-C Returning the Favor
-C Body of Evidence
+C Returning the Favor |U|25555|
+C Body of Evidence |U|25658|
+C Wanted: Zorbo the Advisor |N|(46,18)|
 
 H Telaar
-T Returning the Favor
+T Wanted: Giselda the Crone
+T Wanted: Zorbo the Advisor
+
+T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
 T Body of Evidence
 A Message to Telaar
 T Message to Telaar
 ]]
-
 end)
