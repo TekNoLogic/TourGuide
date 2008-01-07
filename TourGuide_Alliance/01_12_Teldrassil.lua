@@ -158,24 +158,22 @@ A Tears of the Moon
 A Nessa Shadowsong |N|From Mydrannul (70.67, 45.37) on your way out of Darnassus.| |R|Night Elf| |Z|Darnassus|
 
 A The Glowing Fruit |N|Out of town, south of the Pools of Arlithrien, just outside Gnarlpine Hold (42.61, 76.11)|
-C Ursal the Mauler |N|West of the glowing tree (39, 80)|
+C Ursal the Mauler |N|West of the glowing tree (39,80)|
 
-C Tumors |N|Elementals at the river east of The Oracle Glade (42, 42)|
+C Tumors |N|Elementals at the river east of The Oracle Glade (42,42)|
 C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade (38.44, 34.08)| |U|18152|
 A The Enchanted Glade
 
 A Mist |N|Find the saber to the west, past the harpies (31.5, 31.6)|
+A The Shimmering Frond |N|Slightly northeast of where you found Mist (34.7, 28.8)|
 C The Enchanted Glade
 C Mist |N|Lead the cat back to the Oracle Glade|
-A The Shimmering Frond |N|(34.7, 28.8)|
 
 T Mist
 T The Enchanted Glade
 A Teldrassil
 
-C Tears of the Moon |N|North or northeast, near the edge of the tree (39, 25), (41, 25), (47, 25)|
-K Blackmoss the Fetid |N|Rare spawn. Skip it, if it isn't to be seen at the river.|
-A The Moss-twined Heart |N|From the heart Blackmoss dropped.|
+C Tears of the Moon |N|North-northeast, near the edge of the tree.  Spawns in a few different spots (39,25) (41,25) (47,25)|
 
 T Tumors |N|Back in Cenarion Enclave, Darnassus|
 A Return to Denalan
@@ -193,7 +191,8 @@ T Return to Denalan |N|South at the lake (60.90, 68.49)|
 A Oakenscowl
 T The Glowing Fruit
 T The Shimmering Frond
-T The Moss-twined Heart |N|If you killed Blackmoss the Fetid|
+A The Moss-twined Heart |O| |U|927|
+T The Moss-twined Heart |O|
 
 C Oakenscowl |N|Go along the river to the west until you find the cave (53.75, 75.10)|
 T Oakenscowl
