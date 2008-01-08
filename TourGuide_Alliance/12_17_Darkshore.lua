@@ -1,6 +1,7 @@
+
 TourGuide:RegisterGuide("Darkshore (12-17)", "Loch Modan (17-18)", "Alliance", function()
 return [[
-B Auberdine |N|Or fly from Teldrassil|
+b Auberdine |N|Or fly from Teldrassil|
 
 A Washed Ashore (Part 1)
 T Flight to Auberdine |R|Night Elf|
@@ -113,13 +114,12 @@ C The Tower of Althalaxx (Part 2) |N|Mobs around the tower, not inside|
 T The Tower of Althalaxx (Part 2)
 A The Tower of Althalaxx (Part 3)
 N Beached Sea Turtle |N|To the northwest on the shore (53.15, 18.13)| |L|12289|
-C Fruit of the Sea |N|Kill Encrusted Tide Crawlers between here and the river to the west, or Reef Crawlers west of the river.  DOES NOT DROP from Raging Reef Crawler to the north.|
+C Fruit of the Sea |N|Kill Encrusted Tide Crawlers between here and the river to the west, or Reef Crawlers west of the river.  DOES NOT DROP from Raging Reef Crawlers to the north.|
 
 H Auberdine
 T Beached Sea Turtle@2@
 T Fruit of the Sea
 T The Blackwood Corrupted
 T Tharnariun's Hope
-
 ]]
 end)
