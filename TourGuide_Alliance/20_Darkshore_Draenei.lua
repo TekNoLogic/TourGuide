@@ -47,13 +47,13 @@ T The Master's Glaive |N|Use the [Phial of Scrying]| |U|5251|
 A The Twilight Camp
 T The Twilight Camp |N|Click the Twilight Tome in the middle of island|
 A Return to Onu
-A Therylune's Escape |N|Escort near the Twilight Tome, southeast from it at the same island|
+A Therylune's Escape |N|Escort near the Twilight Tome, southeast from it at the same island (45.26, 33.75).|
 C Therylune's Escape
 
 T The Absent Minded Prospector (Part 1) |N|West from The Twilight Camp at Remtravel's Excavation|
 A The Absent Minded Prospector (Part 2) |N|Pain in the ass escort around the excavation.  You might want to just abandon this (and skip the follow-up quests in the upcoming guides).|
 C The Absent Minded Prospector (Part 2)
-C WANTED: Murkdeep! |N|Clear the camp, after that there's 3 waves of murlocs. Murkdeep is in the last wave.|
+C WANTED: Murkdeep! |N|Follow the shore north to the murloc camp (35.56, 76.65).  Clear the camp, after that there's 3 waves of murlocs.  Murkdeep is in the last wave.|
 
 T Return to Onu |N|Back at Grove of the Ancients|
 A Mathystra Relics

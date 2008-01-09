@@ -9,10 +9,12 @@ A The Missing Diplomat (Part 12) |N|At the guy you just fought|
 T The Missing Diplomat (Part 12)
 
 F Astranaar |N|Take the boat to Auberdine then fly down|
+A Kayneth Stillwind
 A A Helping Hand
 h Astranaar
 
 R Forest Song |N|Easternmost part of Ashenvale, Northeast from Satyrnaar|
+T Kayneth Stillwind
 T A Helping Hand
 A A Shameful Waste
 A Vile Satyr! Dryads in Danger!
@@ -47,16 +49,16 @@ C Forsaken Diseases |N|Go southwest across the river (75,71)|
 C Fallen Sky Lake |N|Kill the Oracle (66.65, 82.16)|
 
 C The Tower of Althalaxx (Part 6) |N|North of Fallen Sky Lake at Night Run (64.80, 43.80).  Right click on the ground below the pink crystal.|
-C Raene's Cleansing |N|Kill treants for the key and open the box. (54,35)|
-C The Howling Vale |N|Click on the book. (50,39)|
-T Raene's Cleansing |N|Go south. (53,46)|
+C Raene's Cleansing |N|Kill treants for the key and open the box (54,35)|
+C The Howling Vale |N|Click on the book (50,39)|
+T Raene's Cleansing |N|Go south (53,46)|
 
 H Astranaar
 T Fallen Sky Lake
 
 T The Tower of Althalaxx (Part 6) |N|Back at Maestra's Post, skip the follow-up.|
 
-F Forest Song |N|Run to Astranaar then fly.|
+F Forest Song |N|Run to Astranaar then fly|
 T A Shameful Waste
 T Reclaiming Felfire Hill
 T Destroy the Legion

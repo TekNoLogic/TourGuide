@@ -6,27 +6,27 @@ A The Tower of Althalaxx (Part 4)
 A Bathran's Hair
 
 C Heartswood |N|Heartswood in Ashenvale (31.5, 31.5)| |L|6912| |C|Warlock|
-C The Tower of Althalaxx (Part 4) |N|Northeast of Maestra's Post|
-C Bathran's Hair |N|Plant bundles at (31,21)|
+C The Tower of Althalaxx (Part 4) |N|Northeast at the Ruins of Ordil'Aran|
+C Bathran's Hair |N|North at Bathran's Haunt.  Look for little brown plant bundles.|
 
 T The Tower of Althalaxx (Part 4)
 A The Tower of Althalaxx (Part 5)
 T Bathran's Hair
 A Orendil's Cure
-T Therylune's Escape |N|Southwest from Maestra's Post, across the road to the ruins|
+T Therylune's Escape |N|South from Maestra's Post at the Shrine of Aessina|
 
-R Astranaar |N|Follow road east|
-T Journey to Astranaar
-A The Zoram Strand
-A On Guard in Stonetalon (Part 1)
-A Journey to Stonetalon Peak
-T Onward to Ashenvale |N|Inside the Inn|
-A Raene's Cleansing (Part 1)
-A Culling the Threat
-h Astranaar
-N Stable your pet |C|Hunter|
-T Orendil's Cure
-A Elune's Tear
+R Astranaar |N|Follow the road east|
+T Journey to Astranaar |T|
+A The Zoram Strand |T|
+A On Guard in Stonetalon (Part 1) |T|
+A Journey to Stonetalon Peak |T|
+T Onward to Ashenvale |N|Inside the Inn| |T|
+A Raene's Cleansing (Part 1) |T|
+A Culling the Threat |T|
+h Astranaar |T|
+N Stable your pet |C|Hunter| |T|
+T Orendil's Cure |T|
+A Elune's Tear |T|
 
 A The Ancient Statuette |N|NPC at the small camp south of The Zoram Strand (14.8, 31.2)|
 
@@ -44,22 +44,21 @@ A Raene's Cleansing (Part 2)
 C Raene's Cleansing (Part 2) |N|Kill the murlocs to get the item|
 
 H Astranaar
-T The Zoram Strand
-A Pridewings of Stonetalon
-T Raene's Cleansing (Part 2)
-A Raene's Cleansing (Part 3)
-A An Aggressive Defense
-N Unstable your pet |C|Hunter|
+T The Zoram Strand |T|
+A Pridewings of Stonetalon |T|
+T Raene's Cleansing (Part 2) |T|
+A Raene's Cleansing (Part 3) |T|
+A An Aggressive Defense |T|
+N Unstable your pet |C|Hunter| |T|
 C Elune's Tear |N|At the puddle northeast of Astranaar|
 T Raene's Cleansing (Part 3) |N|East of the puddle|
 A Raene's Cleansing (Part 4)
 
 C An Aggressive Defense |N|Camp northeast of Silverwind Refuge|
 
-H Astranaar
-T An Aggressive Defense
-T Elune's Tear |N|East of Inn|
-A The Ruins of Stardust
-C The Ruins of Stardust |N|South of Astranaar.  Grab Stardust covered bushes|
+T An Aggressive Defense |T| |N|Back at Astranaar|
+T Elune's Tear |N|East of Inn| |T|
+A The Ruins of Stardust |T|
+C The Ruins of Stardust |N|South of Astranaar.  Grab Stardust covered bushes| |T|
 ]]
 end)
