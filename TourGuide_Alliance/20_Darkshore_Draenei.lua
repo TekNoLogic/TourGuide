@@ -53,7 +53,7 @@ C Therylune's Escape
 T The Absent Minded Prospector (Part 1) |N|West from The Twilight Camp at Remtravel's Excavation|
 A The Absent Minded Prospector (Part 2) |N|Pain in the ass escort around the excavation.  You might want to just abandon this (and skip the follow-up quests in the upcoming guides).|
 C The Absent Minded Prospector (Part 2)
-C WANTED: Murkdeep! |N|Follow the shore north to the murloc camp (35.56, 76.65).  Clear the camp, after that there's 3 waves of murlocs.  Murkdeep is in the last wave.|
+C WANTED: Murkdeep! |N|Follow the shore north to the murloc camp (36.56, 76.65).  Clear the camp, after that there's 3 waves of murlocs.  Murkdeep is in the last wave.|
 
 T Return to Onu |N|Back at Grove of the Ancients|
 A Mathystra Relics
