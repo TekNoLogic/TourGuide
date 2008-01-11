@@ -62,7 +62,7 @@ A Missing Friends |N|Follow the road out of Shattrath south to the Refugee Carav
 A Veil Skith: Darkstone of Terokk
 
 C Veil Skith: Darkstone of Terokk |N|Veil Skith, south of Shattrath (30.77, 42.03).| |U|31610|
-K Urdak |N|Kill Urdak at Veil Skith for "Stymying the Arrakoa" - he's in the trees (29,42)| |Q|Stymying the Arakkoa| |QO|Urdak slain: 1/1|
+K Urdak |N|Kill Urdak at Veil Skith for "Stymying the Arrakoa" - he's in the trees (31.81, 42.33)| |Q|Stymying the Arakkoa| |QO|Urdak slain: 1/1|
 C A Personal Favor
 C Missing Friends |N|Kill Arakkoa, collect keys, free kids.|
 
@@ -103,10 +103,10 @@ C Olemba Seeds
 
 T Speak with Private Weeks |N|Just north of Grangol'var Village (40.46, 36.16)|
 A Who Are They?
-C Who Are They? |N|Shadowy Hunters are bad news, stay away from them.  Initiate (39, 39.68), Laborer (38.09, 41.09), Advisor (40,39) inside the building.|
+C Who Are They? |N|Shadowy Hunters are bad news, stay away from them.  Initiate (39.06, 39.68), Laborer (38.09, 41.09), Advisor (40.29, 39.05) inside the building.|
 T Who Are They?
 A Kill the Shadow Council!
-C Kill the Shadow Council! |N|(40,39) Shadowmaster Grieve in big building|
+C Kill the Shadow Council! |N|Kill Shadowmaster Grieve in main building (40.09, 38.82)|
 
 H Allerian Stronghold
 T What Are These Things?
@@ -124,7 +124,7 @@ T Magical Disturbances
 T Report to the Allerian Post
 A Attack on Firewing Point
 C The Elusive Ironjaw |N|Should be just north of the post (67,35)|
-A Escape from Firewing Point! |N|Escort Isla Starmane from inside the main building at Firewing Point (73,36)|
+A Escape from Firewing Point! |N|Escort Isla Starmane from inside the main building at Firewing Point (73.9, 35.2)|
 C Escape from Firewing Point!
 C Attack on Firewing Point
 

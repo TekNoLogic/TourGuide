@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Nagrand (65-66)", "Blade's Edge Mountains (66-67)", "Alliance", function()
 return [[
-R Nesingwary's Camp |N|In the east of the zone (71,40).|
+R Nesingwary Safari |N|In the northeast corner of the zone (71,40)|
 A Windroc Mastery (Part 1)
 A Clefthoof Mastery (Part 1)
 A Talbuk Mastery (Part 1)
@@ -21,7 +21,7 @@ A Clefthoof Mastery (Part 2)
 A Talbuk Mastery (Part 2)
 
 A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest|
-T The Howling Wind
+T The Howling Wind |N|North of Garadar (the horde town) across the lake at the Throne of the Elements (60,22)|
 A Murkblood Corrupters
 A The Underneath
 A A Rare Bean
@@ -29,34 +29,37 @@ A Muck Diving
 T The Underneath
 A The Tortured Earth
 
-C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
+C Talbuk Mastery (Part 2) |N|West of the Throne of Elements.  Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
 C A Rare Bean
-C Clefthoof Mastery (Part 2) |N|West again, south of the Laughing Skull Ruins.|
-C Muck Diving |N|Southwest, the water around Halaa.|
+A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8).  Be careful not to tangle with the guards and patrols.|
+C Clefthoof Mastery (Part 2) |N|South and west of Garadar|
 
-A Matters of Security |N|At the Consortium Outpost, straight south of Sunspring (31,57).|
+R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the horde.  Watch out for the patrols on the main road.|
+A Matters of Security
+T The Consortium Needs You!
 A Stealing from Thieves
-C Matters of Security
-C Stealing from Thieves
-T Matters of Security
-T Stealing from Thieves
 A Gava'xi
-C Gava'xi
+C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)|
+C Stealing from Thieves
+C Matters of Security
+T Matters of Security |N|Back at Aeris Landing|
+T Stealing from Thieves
 T Gava'xi
 
-R Telaar |N|The main Alliance base in Nagrand is in the south center of the zone (50,70).|
-A The Ravaged Caravan |N|Huntress Kima walks around Telaar.|
+R Telaar |N|Follow the road east from Aeris Landing|
+A The Ravaged Caravan |N|Huntress Kima patrols around Telaar|
 A Wanted: Giselda the Crone |N|Off a signpost (54,70)|
 A Wanted: Zorbo the Advisor
 A Fierce Enemies
 T A Message to Telaar
-A Do My Eyes Deceive Me |N|From Huntress Bintook.|
+A Do My Eyes Deceive Me
 A The Throne of the Elements
 A Stopping the Spread
 A Solving the Problem
 h Telaar
 
-A I Must Have Them! |N|Kill any air elementals you happen across, but don't go hunting them just yet. Wazat is just east of Telaar (61,67).|
+A I Must Have Them! |N|From a goblin east of Telaar (61,67)|
+N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!"|
 
 C The Tortured Earth |N|At the hill just east of Telaar (64,70).|
 C Do My Eyes Deceive Me
@@ -75,7 +78,6 @@ T Murkblood Corrupters
 T The Throne of the Elements
 T A Rare Bean
 A Agitated Spirits of Skysong
-T Muck Diving
 T The Tortured Earth
 A Eating Damnation
 
@@ -103,7 +105,6 @@ T Solving the Problem
 T Stopping the Spread
 T Fierce Enemies
 T The Ravaged Caravan
-T I Must Have Them!
 T Do My Eyes Deceive Me
 A Not On My Watch!
 
@@ -125,6 +126,7 @@ A The Twin Clefts of Nagrand
 
 C Corki's Gone Missing Again! |N|Corki is in a cage at the back of Northwind Cleft (39,27).|
 C The Twin Clefts of Nagrand
+C Muck Diving |N|In the water around Halaa|
 
 T Corki's Gone Missing Again!
 A Corki's Ransom
@@ -146,14 +148,19 @@ A Body of Evidence
 
 T The Spirit Polluted |N|Back at Throne of the Elements|
 T Shattering the Veil
+T Muck Diving
 
 C Returning the Favor |U|25555|
 C Body of Evidence |U|25658|
 C Wanted: Zorbo the Advisor |N|(46,18)|
 
+C I Must Have Them! |N|Kill air elementals all over the zone|
+
 H Telaar
 T Wanted: Giselda the Crone
 T Wanted: Zorbo the Advisor
+
+T I Must Have Them! |N|Back east of Telaar (61,67)|
 
 T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
 T Body of Evidence

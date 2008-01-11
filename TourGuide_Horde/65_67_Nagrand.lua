@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Nagrand (65-67)", "Blade's Edge Mountains (67-68)", "Horde", function()
 return [[
-R Nesingwary's Camp |N|In the east of the zone (71,40).|
+R Nesingwary Safari |N|In the northeast corner of the zone (71,40)|
 A Windroc Mastery (Part 1)
 A Clefthoof Mastery (Part 1)
 A Talbuk Mastery (Part 1)
@@ -21,7 +21,7 @@ A Clefthoof Mastery (Part 2)
 A Talbuk Mastery (Part 2)
 
 A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest|
-T The Howling Wind
+T The Howling Wind |N|North of Garadar across the lake at the Throne of the Elements (60,22)|
 A Murkblood Corrupters
 A The Underneath
 A A Rare Bean
@@ -43,22 +43,24 @@ A The Consortium Needs You! |N|(51,34)|
 
 C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
 C A Rare Bean
-C Clefthoof Mastery (Part 2) |N|West again, south of the Laughing Skull Ruins.|
-C Muck Diving |N|Southwest, the water around Halaa.|
+A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)|
+C Clefthoof Mastery (Part 2) |N|South and west of Garadar|
 
-A Matters of Security |N|At the Consortium Outpost, straight south of Sunspring (31,57).|
+R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the alliance.  Watch out for the patrols on the main road.|
+A Matters of Security
 T The Consortium Needs You!
 A Stealing from Thieves
-C Matters of Security
-C Stealing from Thieves
-T Matters of Security
-T Stealing from Thieves
 A Gava'xi
-C Gava'xi
+C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)|
+C Stealing from Thieves
+C Matters of Security
+T Matters of Security |N|Back at Aeris Landing|
+T Stealing from Thieves
 T Gava'xi
 
 
-A I Must Have Them! |N|Kill any air elementals you happen across, but don't go hunting them just yet. Wazat is to the south, east of Telaar (61,67).|
+A I Must Have Them! |N|From a goblin east of Telaar (61,67)|
+N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!"|
 
 C The Tortured Earth |N|All over the eastern part of the zone|
 
@@ -88,7 +90,6 @@ T Murkblood Corrupters
 T The Throne of the Elements
 T A Rare Bean
 A Agitated Spirits of Skysong
-T Muck Diving
 T The Tortured Earth
 A Eating Damnation
 
@@ -99,8 +100,6 @@ T Eating Damnation
 A Shattering the Veil
 T Agitated Spirits of Skysong
 A Blessing of Incineratus
-
-C Windroc Mastery (Part 2) |N|Southeast of Halaa (47,57)|
 
 R Terokkar Forest |N|Go via the southeast path|
 T The Impotent Leader |N|(19,60)| |Z|Terokkar Forest|
@@ -143,6 +142,7 @@ A Bleeding Hollow Supply Crates
 
 C An Audacious Advance |N|(49,56) or (40,33)|
 C Bleeding Hollow Supply Crates
+C Muck Diving |N|In the water around Halaa|
 
 T An Audacious Advance |N|Back at Garadar|
 T Bleeding Hollow Supply Crates
@@ -163,20 +163,23 @@ A Body of Evidence
 
 T The Spirit Polluted |N|Back at Throne of the Elements|
 T Shattering the Veil
+T Muck Diving
 
 C Returning the Favor |U|25555|
 C Body of Evidence |U|25658|
 C Wanted: Zorbo the Advisor |N|(46,18)|
 
+C I Must Have Them! |N|Kill air elementals all over the zone|
+
 H Garadar
 T Wanted: Giselda the Crone
 T Wanted: Zorbo the Advisor
+
+T I Must Have Them! |N|Back east of Telaar (61,67)|
 
 T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
 T Body of Evidence
 A Message to Garadar
 T Message to Garadar
-
-F Swamprat Post |N|Zangarmarsh|
 ]]
 end)

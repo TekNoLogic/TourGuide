@@ -1,6 +1,7 @@
 
 TourGuide:RegisterGuide("Blade's Edge Mountains (67-68)", "Netherstorm (68-69)", "Horde", function()
 return [[
+F Swamprat Post |N|Zangarmarsh|
 R Blades' Run |N|(68,32)| |Z|Zangarmarsh|
 A Killing the Crawlers |N|NPC next to cave|
 C Killing the Crawlers
@@ -17,7 +18,7 @@ C Felling an Ancient Tree |N|(37,76) Stronglimb wanders path|
 
 R Bloodmaul Ravine |N|(44,72)|
 A They Stole Me Hookah and Me Brews! |N|(44,72)|
-C They Stole Me Hookah and Me Brews! 
+C They Stole Me Hookah and Me Brews!
 T They Stole Me Hookah and Me Brews! |N|(44,72)|
 A Bladespire Kegger
 C The Bladespire Threat |N|Along with kegger (40,55), item should drop to start next quest|
@@ -126,7 +127,7 @@ T The Stones of Vekh'nir
 T The Softest Wings
 T Silkwing Cocoons
 A Understanding the Mok'Nathal
-A Trial and Error 
+A Trial and Error
 C Trial and Error |N|Farm cyrstals at (77,76), Ogres at (71,75)|
 C Understanding the Mok'Nathal |N|Vekh is in cave at (69,72)|
 
@@ -222,8 +223,8 @@ T Felsworn Gas Mask
 A Deceive thy Enemy
 C Deceive thy Enemy
 A You're Fired |N|Need group for this
-C You're Fired 
-T You're Fired 
+C You're Fired
+T You're Fired
 T Treebold Must Know |N|Turns in at (37,23)|
 A Exorcising the Trees
 C Exorcising the Trees |N|Read quest carefully|
