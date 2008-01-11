@@ -150,10 +150,10 @@ A Escape from the Catacombs
 C Escape from the Catacombs
 T Escape from the Catacombs
 
-C A Little Dash of Seasoning |N|South at Zeb'Nowa.  Fish rack (68,57), raw meat rack (65,66), smoked meat rack (63,75)|
+C A Little Dash of Seasoning |N|South at Zeb'Nowa.  Fish rack (68.28, 57.89), raw meat rack (65,66), smoked meat rack (63,75)|
 C Shadowpine Weaponry
 C Assault on Zeb'Nowa
-C Deactivate An'owyn
+C Deactivate An'owyn |N|West of Zeb'nowa, south of the road (58.33, 64.78).|
 
 T Assault on Zeb'Nowa |N|Back at Farstrider Enclave|
 T A Little Dash of Seasoning
