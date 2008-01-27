@@ -39,11 +39,10 @@ A The Missing War Party
 A Murkblood Leaders...
 A Wanted: Giselda the Crone |N|Poster|
 A Wanted: Zorbo the Advisor |N|Poster|
-A The Consortium Needs You! |N|(51,34)|
+A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)|
 
 C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
 C A Rare Bean
-A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)|
 C Clefthoof Mastery (Part 2) |N|South and west of Garadar|
 
 R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the alliance.  Watch out for the patrols on the main road.|
@@ -94,7 +93,7 @@ T The Tortured Earth
 A Eating Damnation
 
 C Eating Damnation |N|To the west of the throne, on the edge of the mountains.|
-C Agitated Spirits of Skysong |N|Skysong Lake. Duh?|
+C Agitated Spirits of Skysong |N|In Skysong Lake, directly south of the throne.|
 
 T Eating Damnation
 A Shattering the Veil
@@ -114,7 +113,7 @@ T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
 
-C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.| |U|24467|
+C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467|
 
 T Blessing of Incineratus
 A The Spirit Polluted

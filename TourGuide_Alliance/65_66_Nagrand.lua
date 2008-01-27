@@ -59,10 +59,20 @@ A Solving the Problem
 h Telaar
 
 A I Must Have Them! |N|From a goblin east of Telaar (61,67)|
-N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!"|
+N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!" and rock elementals for "The Tortured Earth"|
 
-C The Tortured Earth |N|At the hill just east of Telaar (64,70).|
 C Do My Eyes Deceive Me
+
+T Do My Eyes Deceive Me
+A Not On My Watch!
+
+C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71)|
+C The Tortured Earth |N|Around the orge hill|
+
+T Not On My Watch!
+A Mo'mor the Breaker
+T Mo'mor the Breaker
+A The Ruins of Burning Blade
 
 C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)|
 
@@ -82,7 +92,7 @@ T The Tortured Earth
 A Eating Damnation
 
 C Eating Damnation |N|To the west of the throne, on the edge of the mountains.|
-C Agitated Spirits of Skysong |N|Skysong Lake. Duh?|
+C Agitated Spirits of Skysong |N|In Skysong Lake, directly south of the throne.|
 
 T Eating Damnation
 A Shattering the Veil
@@ -93,7 +103,7 @@ T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
 
-C Blessing of Incineratus |N|Windyreed Village is south of the Throne of Elements (71,51). To fire the big hut you need to be close to it's center pole.| |U|24467|
+C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467|
 
 T Blessing of Incineratus
 A The Spirit Polluted
@@ -103,17 +113,7 @@ C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501
 H Telaar
 T Solving the Problem
 T Stopping the Spread
-T Fierce Enemies
 T The Ravaged Caravan
-T Do My Eyes Deceive Me
-A Not On My Watch!
-
-C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71).|
-
-T Not On My Watch!
-A Mo'mor the Breaker
-T Mo'mor the Breaker
-A The Ruins of Burning Blade
 
 A HELP! |N|Corki is in a cage in the Burning Blade Ruins (72,70).|
 C The Ruins of Burning Blade
@@ -159,6 +159,7 @@ C I Must Have Them! |N|Kill air elementals all over the zone|
 H Telaar
 T Wanted: Giselda the Crone
 T Wanted: Zorbo the Advisor
+T Fierce Enemies
 
 T I Must Have Them! |N|Back east of Telaar (61,67)|
 
