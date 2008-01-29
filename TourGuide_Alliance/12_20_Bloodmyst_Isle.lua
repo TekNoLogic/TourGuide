@@ -17,9 +17,8 @@ N Warn Odesyus' Landing |Q|The Kessel Run| |QO|Admiral Odesyus Warned: 1/1|
 
 T The Kessel Run |N|Back up at Kessel's Crossing|
 A Declaration of Power
-
-A A Favorite Treat
 A Alien Predators
+A A Favorite Treat
 
 N Sand Pears |N|Grab any Sand Pears you come across for "A Favorite Treat"|
 
@@ -37,57 +36,64 @@ A Report to Exarch Admetius
 T A Favorite Treat
 
 R Blood Watch |N|Take the road north|
-A Beds, Bandages, and Beyond
-h Blood Watch
-T Beds, Bandages, and Beyond
-A On the Wings of a Hippogryph
+A Beds, Bandages, and Beyond |N|In the inn| |T|
+h Blood Watch |T|
+A Know Thine Enemy |T|
+A Catch and Release |T|
+A Constrictor Vines |T|
+A The Bear Necessities |T|
+A Mac'Aree Mushroom Menagerie |T|
+
+T Beds, Bandages, and Beyond |N|North at the flightmaster| |T|
+A On the Wings of a Hippogryph |T|
 F The Exodar
-T On the Wings of a Hippogryph |N|Turn in to Nurguni in the central area at the bottom of the ramp|
-A Hippogryph Master Stephanos
-T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar|
-T Behomat |C|Warrior|
-T Hippogryph Master Stephanos
-A Return to Topher Loaal
+T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T|
+A Hippogryph Master Stephanos |T|
+T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T|
+T Behomat |C|Warrior| |T|
+T Hippogryph Master Stephanos |T|
+A Return to Topher Loaal |T|
 F Blood Watch
-T Return to Topher Loaal
-A What Argus Means to Me
-T What Argus Means to Me
-A Blood Watch
+T Return to Topher Loaal |T|
+
+T Report to Exarch Admetius |T|
+A What Argus Means to Me |T|
+A Learning from the Crystals |T|
+T Saving Princess Stillpine |T|
+T What Argus Means to Me |T|
+A Blood Watch |T|
 
 C Blood Watch |N|Northwest at Bladewood (46,45)|
 
-T Blood Watch |N|Back at Blood Watch|
-A Know Thine Enemy
-A Catch and Release
-T Report to Exarch Admetius
-A Learning from the Crystals
-T Saving Princess Stillpine
-A Mac'Aree Mushroom Menagerie
+T Blood Watch |N|Back at Blood Watch| |T|
+A Intercepting the Message |T|
 
-N Find an Aquatic Stinkhorn |N|Head south to the river north of Kessel's Crossing.  The fish drop it also!| |L|24041|
-C Catch and Release |N|On the shore west of the southern outlet to the stream.  Get close and tag the scouts, but don't get into combat.| |U|23995|
-C Learning from the Crystals |N|Use the pick on the crystal west of Kessel's Crossing (58.09, 83.51)| |U|23875|
+N Find an Aquatic Stinkhorn |N|Head southeast to the stream.  The fish drop it also!| |L|24041|
+C Learning from the Crystals |N|Use the pick on the crystal south of the stream at the Impact Site (58.09, 83.51)| |U|23875|
+C Catch and Release |N|Follow the stream southwest to the waterfall, then further southwest to the Blacksilt Shore (52,90).  Get close and tag the scouts, but don't get into combat.| |U|23995|
 
-T Catch and Release |N|Back at Blood Watch|
-A Victims of Corruption
-A Cruelfin's Necklace |O| |U|23870|
-T Cruelfin's Necklace |O|
-T Learning from the Crystals
-A The Missing Survey Team
+T Catch and Release |N|Back at Blood Watch| |T|
+A Victims of Corruption |T|
+A Cruelfin's Necklace |O| |U|23870| |T|
+T Cruelfin's Necklace |O| |T|
+T Learning from the Crystals |T|
+A The Missing Survey Team |T|
 
 N Shrooms... |N|Keep an eye out for the mushrooms needed for "Mac'Aree Mushroom Menagerie"|
 
-C Victims of Corruption |N|Southwest at Middenvale (51,73)|
-K Tzerak |N|Head to Nazzivian (42.06, 74.37) to the southwest and look for a summoning circle.  If he isn't there look to the north.| |L|23900|
+K Tzerak |N|Head to Nazzivian to the southwest and look for a summoning circle (38.43, 82.01).  If he isn't there look to the north, he's resummoned 5 minutes after he's killed, and he'll yell when he is summoned.| |L|23900|
 A Signs of the Legion |U|23900| |N|Use Tzerak's Armor Place|
 C Know Thine Enemy |N|Click on the Nazzivus Monument Glyphs (36.52, 71.50) to create a rubbing|
 C Signs of the Legion
 
 N Find a Fel Cone Fungus |N|Around Nazzivian| |L|24043|
 
-T Victims of Corruption |N|Back at Blood Watch|
-T Know Thine Enemy
-T Signs of the Legion
+C Victims of Corruption |N|Northeast at Middenvale (51,73)|
+
+T Victims of Corruption |N|Back at Blood Watch| |T|
+T Know Thine Enemy |T|
+T Signs of the Legion |T|
+A Containing the Threat |T|
 
 T The Missing Survey Team |N|Northeast at the Ruins of Loreth'Aran.  Find the Draenei Cartographer (61.15, 48.39)|
 A Salvaging the Data
@@ -96,41 +102,36 @@ N Find a Ruinous Polyspore |L|24042|
 
 N Find a Blood Mushroom |N|All over between the Ruins of Loreth'Aran and Nazzivian| |L|24040|
 
-T Salvaging the Data |N|Back at Blood Watch|
-A The Second Sample
-A Intercepting the Message
-T Mac'Aree Mushroom Menagerie
+T Salvaging the Data |N|Back at Blood Watch| |T|
+A The Second Sample |T|
+T Mac'Aree Mushroom Menagerie |T|
+A Ysera's Tears |T|
 
 C The Second Sample |N|Use the pick to collect a sample from the crystals near Bladewood (45.61, 47.82)| |U|23876|
 C Intercepting the Message |N|Kill Sunhawk Spies|
 
-T Intercepting the Message |N|Back at Blood Watch|
-A Translations...
-T Translations...
-A Audience with the Prophet
+T Intercepting the Message |N|Back at Blood Watch| |T|
+A Translations... |T|
+T Translations... |T|
+A Audience with the Prophet |T|
 F The Exodar
-T Audience with the Prophet |N|In the Vault of Lights (39.99, 60.69)| |Z|The Exodar|
-A Truth or Fiction
+T Audience with the Prophet |N|In the Vault of Lights (32.84, 54.49)| |Z|The Exodar| |T|
+A Truth or Fiction |T|
 F Blood Watch
-T Truth or Fiction
-A I Shoot Magic Into the Darkness
+T Truth or Fiction |T|
+A I Shoot Magic Into the Darkness |T|
 
-T The Second Sample
-A The Final Sample
-A Constrictor Vines
-A The Bear Necessities
-A Containing the Threat
-A WANTED: Deathclaw
-A Culling the Flutterers
+T The Second Sample |T|
+A The Final Sample |T|
+A WANTED: Deathclaw |T|
 
-N Kill crap... |N|Kill any Royal Blue Flutterers, Elder Brown Bears and Mutated Constrictors you come across for "Culling the Flutterers", "The Bear Necessities" and "Constrictor Vines"|
+A The Missing Expedition |T|
+N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  You cannot get this quest if you did not do the Admiral's quests in Azuremyst.| |T|
+N You've got mail... |N|Retrieve a letter from the Admiral| |L|24132| |T|
+A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T|
+A Explorers' League, Is That Something for Gnomes? |T|
 
-A The Missing Expedition
-N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch|
-N You've got mail... |N|Retrieve a letter from the Admiral| |L|24132|
-A The Bloodcurse Legacy |U|24132| |N|Read the letter|
-A Ysera's Tears
-A Explorers' League, Is That Something for Gnomes?
+N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"|
 
 C The Final Sample |N|Northwest at Axxarien.  Use the pick on the Axxarien Crystal (40,30)| |U|23877|
 C Containing the Threat |N|Zevrax is near the crystal (41.6, 29.8)|
@@ -259,3 +260,5 @@ T Newfound Allies |N|Follow the road west from the flight master to the shore|
 A The Way to Auberdine
 ]]
 end)
+
+--~ A Culling the Flutterers |T| TODO: Need to get bears or vines first
