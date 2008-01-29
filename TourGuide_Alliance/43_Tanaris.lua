@@ -6,7 +6,7 @@ A Wastewander Justice
 A Water Pouch Bounty
 h Gadgetzan
 A WANTED: Andre Firebeard |N|Wanted sign in front of the cage|
-T Tran'Rek |N|Don't accept the follow-up|
+T Tran'rek |N|Don't accept the follow-up|
 A Gadgetzan Water Survey |N|Southwest side of town on a hill|
 
 N Turnin quests in Shimmering flats |N|If you have them.|

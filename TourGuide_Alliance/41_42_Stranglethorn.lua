@@ -8,7 +8,7 @@ F Booty Bay
 h Booty bay
 A Goblin Sponsorship |N|From Baron Revilgaz in the Inn (Top Floor)|
 A Skullsplitter Tusks |N|From Kebok in the inn (2nd Floor).|
-A Tran'Rek |N|From Krazek in the Inn (2nd Floor)|
+A Tran'rek |N|From Krazek in the Inn (2nd Floor)|
 A Zanzil's Secret |N|From Crank Fizzlebub in the Inn.|
 A Akiris by the Bundle (Part 1) |N|From Privateer Bloads next to the Bank.|
 A The Bloodsail Buccaneers (Part 1) |N|From First Mate Crazz just past the "Old Port Authority" building (First big building when getting off the Boat).|
