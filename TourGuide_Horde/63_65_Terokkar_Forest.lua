@@ -58,13 +58,11 @@ A A Personal Favor
 
 N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground).  Also kill Warp Stalkers and Timber Worgs as you run across them.  And lastly, save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
 
-A Missing Friends |N|Follow the road out of Shattrath south to the Refugee Caravan (38,50)|
-A Veil Skith: Darkstone of Terokk
+A Veil Skith: Darkstone of Terokk |N|Follow the road out of Shattrath south to the Refugee Caravan (38,50)|
 
 C Veil Skith: Darkstone of Terokk |N|Veil Skith, south of Shattrath (30.77, 42.03).| |U|31610|
 K Urdak |N|Kill Urdak at Veil Skith for "Stymying the Arrakoa" - he's in the trees (31.81, 42.33)| |Q|Stymying the Arakkoa| |QO|Urdak slain: 1/1|
 C A Personal Favor
-C Missing Friends |N|Kill Arakkoa, collect keys, free kids.|
 
 K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |Q|Stymying the Arakkoa| |QO|Ashkaz slain: 1/1|
 C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).|
@@ -151,7 +149,9 @@ T Before Darkness Falls
 A The Shadow Tomb
 T Seek Out Kirrik
 A The Infested Protectors
+A Missing Friends
 
+C Missing Friends |N|North at Veil Skith.  You should have keys from your last visit here.  If not kill arakkoa for them.|
 C The Infested Protectors |N|Kill the infested/rotting treants around the edges of the Bone Wastes, then kill the mites that spawn from them.|
 C The Shadow Tomb |N|The three items are in the three "wings" of the Shadow Tomb (30.95, 52.67)|
 
