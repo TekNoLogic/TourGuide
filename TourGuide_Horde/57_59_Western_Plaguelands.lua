@@ -12,8 +12,6 @@ A Two Halves Become One
 C Two Halves Become One |N|Go out in the field and kill the Jabbering Ghoul (only one with a pitchfork), then combine the pieces.|
 T Two Halves Become One
 
-T Unfinished Business (Part 2) |N|(51,28)|
-
 T A Plague Upon Thee (Part 2) |N|(47,32)|
 A A Plague Upon Thee (Part 3)
 
