@@ -126,9 +126,8 @@ A The Final Sample |T|
 A WANTED: Deathclaw |T|
 
 A The Missing Expedition |T|
-N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  You cannot get this quest if you did not do the Admiral's quests in Azuremyst.| |T|
-N You've got mail... |N|Retrieve a letter from the Admiral| |L|24132| |T|
-A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T|
+N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  Then check your mail for a quest-starting item.  You cannot get this quest if you did not do Admiral Odesyus' quests in Azuremyst.| |T| |L|24132|
+A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T| |O|
 A Explorers' League, Is That Something for Gnomes? |T|
 
 N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"|
@@ -159,16 +158,16 @@ T Restoring Sanctity |N|Back on Wyrmscar Island|
 A Into the Dream
 C Into the Dream
 T Into the Dream
-T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.|
-A The Bloodcursed Naga
-C The Bloodcursed Naga
-T The Bloodcursed Naga
-A The Hopeless Ones...
-C The Hopeless Ones...
-T The Hopeless Ones...
-A Ending the Bloodcurse
-C Ending the Bloodcurse |N|On Bloodcurse Isle to the southeast.  Fight your way to the top of the island, destroy the Statue of Queen Azshara (85.7, 54.3), and kill Atoph the Bloodcursed.|
-T Ending the Bloodcurse
+T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O|
+A The Bloodcursed Naga |O| |PRE|The Bloodcurse Legacy|
+C The Bloodcursed Naga |O|
+T The Bloodcursed Naga |O|
+A The Hopeless Ones... |O| |PRE|The Bloodcursed Naga|
+C The Hopeless Ones... |O|
+T The Hopeless Ones... |O|
+A Ending the Bloodcurse |O| |PRE|The Hopeless Ones...|
+C Ending the Bloodcurse |O| |N|On Bloodcurse Isle to the southeast.  Fight your way to the top of the island, destroy the Statue of Queen Azshara (85.7, 54.3), and kill Atoph the Bloodcursed.|
+T Ending the Bloodcurse |O|
 
 C Ysera's Tears
 
