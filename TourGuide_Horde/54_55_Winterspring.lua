@@ -49,10 +49,8 @@ A Corrupted Sabers
 
 F Emerald Sanctuary
 T Collection of the Corrupt Water |N|Skip the follow-up|
-T Further Corruption
-T Flute of Xavaric
 T Verifying the Corruption
-T Cleansing Felwood |N|South along the road|
+T Cleansing Felwood |N|North along the road|
 
 C Corrupted Sabers |N|(32,66)| |Z|Felwood|
 T Corrupted Sabers |N|First talk to the cat|
