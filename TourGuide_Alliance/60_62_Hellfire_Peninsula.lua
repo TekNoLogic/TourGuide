@@ -90,7 +90,7 @@ A Zeth'Gor Must Burn!
 C The Path of Glory |N|Along the road between Hellfire Citadel and the Dark Portal|
 C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58.77, 46.80) (56.02, 46.67) (53.48, 47.14) (53.00, 47.11)| |U|26002|
 
-T Laying Waste to the Unwanted |N|Back at the tower east of Honor Hold|
+T Laying Waste to the Unwanted |N|Back at the tower west of Honor Hold|
 T Unyielding Souls
 A Looking to the Leadership
 T A Job for an Intelligent Man |N|Over by the mine|
