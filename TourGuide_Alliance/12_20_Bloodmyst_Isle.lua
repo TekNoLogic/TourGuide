@@ -133,9 +133,6 @@ A Explorers' League, Is That Something for Gnomes? |T|
 
 N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"|
 
-C The Final Sample |N|Northwest at Axxarien.  Use the pick on the Axxarien Crystal (40,30)| |U|23877|
-C Containing the Threat |N|Zevrax is near the crystal (41.6, 29.8)|
-
 T Explorers' League, Is That Something for Gnomes? |N|Look for a Clopper Wizbang in a turtle shell to the northeast (42.07, 21.19)|
 A Pilfered Equipment
 A Artifacts of the Blacksilt
@@ -144,6 +141,11 @@ C Artifacts of the Blacksilt |N|Kill Blacksilt Seers for the Idols and the other
 T Pilfered Equipment
 T Artifacts of the Blacksilt
 A A Map to Where? |N|Use the Weathered Treasure Map| |U|23837|
+
+C The Bear Necessities
+C Constrictor Vines
+
+C I Shoot Magic Into the Darkness |N|Follow the shore east to the Warp Piston (50.55, 20.32)|
 
 N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
 
@@ -171,21 +173,19 @@ T Ending the Bloodcurse
 C Ysera's Tears
 
 H Blood Watch
-T Containing the Threat
+T The Bear Necessities
+T Constrictor Vines
+A Culling the Flutterers
 T Ysera's Tears
-T The Final Sample
 A Fouled Water Spirits
 A Oh, the Tangled Webs They Weave
 T Deciphering the Book
 A Nolkai's Words
-
-T Nolkai's Words |N|Back at Ruins of Loreth'Aran.  Look for a mound of dirt (61.22, 49.73).|
-
-C I Shoot Magic Into the Darkness |N|Follow the shore north to the Warp Piston (50.55, 20.32)|
-
-T I Shoot Magic Into the Darkness |N|Back at Blood Watch|
+T I Shoot Magic Into the Darkness
 A The Cryo-Core
 A Searching for Galaen
+
+N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling the Flutterers"|
 
 T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.|
 A Galaen's Fate
@@ -200,7 +200,12 @@ A Matis the Cruel
 T Galaen's Fate
 A Talk to the Hand
 
-C Matis the Cruel |N|Take the road north out of town.  Matis patrols from the fork south of the Warp Pistol west to the Vector Coil along the road.  Fire your flare gun when you spot him for some help.| |U|24278|
+T Nolkai's Words |N|Back at Ruins of Loreth'Aran.  Look for a mound of dirt (61.22, 49.73).|
+
+C The Final Sample |N|Northwest at Axxarien.  Use the pick on the Axxarien Crystal (41.13, 30.99)| |U|23877|
+C Containing the Threat |N|Zevrax is near the crystal (41.6, 29.8)|
+
+C Matis the Cruel |N|Matis patrols from the fork south of the Warp Pistol west to the Vector Coil along the road.  Fire your flare gun when you spot him for some help.| |U|24278|
 
 T Talk to the Hand |N|At Vindicator's Rest, north of the road before the Vector Coil|
 A Cutting a Path
@@ -215,9 +220,11 @@ T They're Alive! Maybe...
 
 C Fouled Water Spirits |N|Work your way east to the waterfall|
 C Don't Drink the Water |N|Jump off the waterfall to the northeast.  Use the vial at the base (34,33).| |U|24318|
-C WANTED: Deathclaw |N|Head NW towards the coast and look for Deathclaw (37.5, 30.0)|
+C WANTED: Deathclaw |N|Head northeast towards the coast and look for Deathclaw (37.5, 30.0)|
 
 H Blood Watch
+T Containing the Threat
+T The Final Sample
 T Matis the Cruel
 T The Missing Expedition
 T Don't Drink the Water
@@ -240,8 +247,6 @@ T Cutting a Path
 T Fouled Water Spirits
 
 C Culling the Flutterers
-C The Bear Necessities
-C Constrictor Vines
 
 T The Sun Gate |N|Back at Blood Watch|
 A What We Know... |R|Draenei|
@@ -250,8 +255,6 @@ A What We Don't Know... |R|Draenei|
 C What We Don't Know... |R|Draenei| |N|Talk to the Captured Sunhawk Agent (54.4, 54.3)|
 T What We Don't Know... |R|Draenei| |N|Skip the follow-up questchain unless you have help|
 T Critters of the Void
-T The Bear Necessities
-T Constrictor Vines
 T Culling the Flutterers
 A Newfound Allies
 
@@ -260,5 +263,3 @@ T Newfound Allies |N|Follow the road west from the flight master to the shore|
 A The Way to Auberdine
 ]]
 end)
-
---~ A Culling the Flutterers |T| TODO: Need to get bears or vines first
