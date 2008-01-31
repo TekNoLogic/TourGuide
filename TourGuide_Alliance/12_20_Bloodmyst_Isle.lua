@@ -144,9 +144,7 @@ A A Map to Where? |N|Use the Weathered Treasure Map| |U|23837|
 C The Bear Necessities
 C Constrictor Vines
 
-C I Shoot Magic Into the Darkness |N|Follow the shore east to the Warp Piston (50.55, 20.32)|
-
-N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
+C I Shoot Magic Into the Darkness |N|Follow the shore east to the Warp Piston (51.09, 18.94)|
 
 A Restoring Sanctity |N|On Wyrmscar Island, to the northeast of the main isle (65,25).  Prince Toreth wanders around the southern part of the island, near the tower.|
 
@@ -154,8 +152,64 @@ C Restoring Sanctity |N|Amongst the owlkin at Ragefeather Ridge (60,36), back on
 T A Map to Where? |N|Southeast at the Ruins of Loreth'Aran.  Look for a Battered Ancient Book near one of the columns (61.18, 41.81).|
 A Deciphering the Book
 
+T Deciphering the Book |T| |N|Back at Blood Watch|
+A Nolkai's Words |T|
+T I Shoot Magic Into the Darkness |T|
+A The Cryo-Core |T|
+T The Bear Necessities |T|
+T Constrictor Vines |T|
+A Culling the Flutterers |T|
+A Searching for Galaen |T|
+
+N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling the Flutterers"|
+
+T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.|
+A Galaen's Fate
+A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.|
+C Galaen's Fate
+C The Cryo-Core
+
+T Galaen's Fate |T| |N|Back at Blood Watch| |T|
+T The Cryo-Core
+T Galaen's Journal - The Fate of Vindicator Saruan |T|
+A Matis the Cruel |T|
+A Don't Drink the Water |T|
+A Talk to the Hand |T|
+A What We Know... |R|Draenei| |T|
+T What We Know... |R|Draenei| |T|
+A What We Don't Know... |R|Draenei| |T|
+C What We Don't Know... |R|Draenei| |T| |N|Talk to the Captured Sunhawk Agent (54.4, 54.3)|
+T What We Don't Know... |R|Draenei| |T|
+A Vindicator's Rest |R|Draenei| |T|
+A Fouled Water Spirits |T|
+A Oh, the Tangled Webs They Weave |T|
+
+C The Final Sample |N|Northwest at Axxarien.  Use the pick on the Axxarien Crystal (41.13, 30.99)| |U|23877|
+C Containing the Threat |N|Zevrax is near the crystal (41.6, 29.8)|
+
+C Matis the Cruel |N|Matis patrols from the fork south of the Warp Pistol west to the Vector Coil along the road.  Fire your flare gun when you spot him for some help.| |U|24278|
+
+T Talk to the Hand |N|At Vindicator's Rest, north of the road before the Vector Coil.|
+A Cutting a Path
+A Critters of the Void
+T Vindicator's Rest |R|Draenei|
+
+N Kill more crap... |N|Kill any Mutated Tanglers and Enraged Ravagers you come across for "Oh, the Tangled Webs They Weave" and "Cutting a Path"|
+
+A They're Alive! Maybe... |N|To the northwest, near Amberweb Pass (24.6, 35.2)|
+C They're Alive! Maybe... |N|Make your way to the top of the pass, destroying the cocoons along the way.  Hit them from range to avoid aggro if it's not a Researcher.|
+C The Missing Expedition |N|Zarakh is at the top of pass|
+T They're Alive! Maybe...
+
+C Fouled Water Spirits |N|Work your way east to the waterfall|
+C Don't Drink the Water |N|Jump off the waterfall to the northeast.  Use the vial at the base (34,33).| |U|24318|
+C WANTED: Deathclaw |N|Head northeast towards the coast and look for Deathclaw (37.5, 30.0)|
+
+T Nolkai's Words |N|Back at Ruins of Loreth'Aran.  Look for a mound of dirt (61.22, 49.73).|
+
 T Restoring Sanctity |N|Back on Wyrmscar Island|
 A Into the Dream
+N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
 C Into the Dream
 T Into the Dream
 T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O|
@@ -172,68 +226,19 @@ T Ending the Bloodcurse |O|
 C Ysera's Tears
 
 H Blood Watch
-T The Bear Necessities
-T Constrictor Vines
-A Culling the Flutterers
-T Ysera's Tears
-A Fouled Water Spirits
-A Oh, the Tangled Webs They Weave
-T Deciphering the Book
-A Nolkai's Words
-T I Shoot Magic Into the Darkness
-A The Cryo-Core
-A Searching for Galaen
-
-N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling the Flutterers"|
-
-T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.|
-A Galaen's Fate
-A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.|
-C Galaen's Fate
-C The Cryo-Core
-
-T The Cryo-Core |N|Back at Blood Watch|
-A Don't Drink the Water
-T Galaen's Journal - The Fate of Vindicator Saruan
-A Matis the Cruel
-T Galaen's Fate
-A Talk to the Hand
-
-T Nolkai's Words |N|Back at Ruins of Loreth'Aran.  Look for a mound of dirt (61.22, 49.73).|
-
-C The Final Sample |N|Northwest at Axxarien.  Use the pick on the Axxarien Crystal (41.13, 30.99)| |U|23877|
-C Containing the Threat |N|Zevrax is near the crystal (41.6, 29.8)|
-
-C Matis the Cruel |N|Matis patrols from the fork south of the Warp Pistol west to the Vector Coil along the road.  Fire your flare gun when you spot him for some help.| |U|24278|
-
-T Talk to the Hand |N|At Vindicator's Rest, north of the road before the Vector Coil|
-A Cutting a Path
-A Critters of the Void
-
-N Kill more crap... |N|Kill any Mutated Tanglers and Enraged Ravagers you come across for "Oh, the Tangled Webs They Weave" and "Cutting a Path"|
-
-A They're Alive! Maybe... |N|To the northwest, near Amberweb Pass (24.6, 35.2)|
-C They're Alive! Maybe... |N|Make your way to the top of the pass, destroying the cocoons along the way.  Hit them from range to avoid aggro if it's not a Researcher.|
-C The Missing Expedition |N|Zarakh is at the top of pass|
-T They're Alive! Maybe...
-
-C Fouled Water Spirits |N|Work your way east to the waterfall|
-C Don't Drink the Water |N|Jump off the waterfall to the northeast.  Use the vial at the base (34,33).| |U|24318|
-C WANTED: Deathclaw |N|Head northeast towards the coast and look for Deathclaw (37.5, 30.0)|
-
-H Blood Watch
-T Containing the Threat
-T The Final Sample
-T Matis the Cruel
-T The Missing Expedition
-T Don't Drink the Water
-A Limits of Physical Exhaustion
-T WANTED: Deathclaw
+T Containing the Threat |T|
+T The Final Sample |T|
+T Matis the Cruel |T|
+T The Missing Expedition |T|
+T Don't Drink the Water |T|
+A Limits of Physical Exhaustion |T|
+T WANTED: Deathclaw |T|
+T Ysera's Tears |T|
 
 C Limits of Physical Exhaustion |N|South of Vindicator's Rest|
 
-T Limits of Physical Exhaustion |N|Back at Blood Watch|
-A The Sun Gate
+T Limits of Physical Exhaustion |N|Back at Blood Watch| |T|
+A The Sun Gate |T|
 
 C The Sun Gate |N|Back at the Sun Gate, of course.|
 C Critters of the Void
@@ -247,15 +252,10 @@ T Fouled Water Spirits
 
 C Culling the Flutterers
 
-T The Sun Gate |N|Back at Blood Watch|
-A What We Know... |R|Draenei|
-T What We Know... |R|Draenei|
-A What We Don't Know... |R|Draenei|
-C What We Don't Know... |R|Draenei| |N|Talk to the Captured Sunhawk Agent (54.4, 54.3)|
-T What We Don't Know... |R|Draenei| |N|Skip the follow-up questchain unless you have help|
-T Critters of the Void
-T Culling the Flutterers
-A Newfound Allies
+T The Sun Gate |N|Back at Blood Watch| |T|
+T Critters of the Void |T|
+T Culling the Flutterers |T|
+A Newfound Allies |T|
 
 F The Exodar
 T Newfound Allies |N|Follow the road west from the flight master to the shore|
