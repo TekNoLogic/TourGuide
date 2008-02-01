@@ -2,83 +2,84 @@
 TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-70)", "Alliance", function()
 return [[
 F Orebor Harborage
-A No Time for Curiosity
-A Killing the Crawlers |N|Up the stairs outside the cave|
+A No Time for Curiosity |T|
+A Killing the Crawlers |N|Up the stairs outside the cave| |T|
 C Killing the Crawlers |N|In the cave, of course|
 
 R Sylvanaar |N|North out of the cave|
-A The Den Mother |N|On a wanted poster|
-T No Time for Curiosity |N|First building on the left|
-A The Encroaching Wilderness |N|Outside the building near the stone and benches|
-T Killing the Crawlers |N|Next building to the North|
-A The Bloodmaul Ogres
-A Malaise |N|North again|
-A Into the Draenethyst Mine |N|In the 'long' building|
-A Strange Brew
-h Sylvanaar
+A The Den Mother |N|On a wanted poster| |T|
+T No Time for Curiosity |N|First building on the left| |T|
+A The Encroaching Wilderness |N|Outside the building near the stone and benches| |T|
+T Killing the Crawlers |N|Next building to the North| |T|
+A The Bloodmaul Ogres |T|
+A Malaise |N|North again| |T|
+A Into the Draenethyst Mine |N|In the 'long' building| |T|
+A Strange Brew |T|
+h Sylvanaar |T|
 
 C The Encroaching Wilderness |N|South of town|
 C Malaise |N|West at Veil Lashh (35,73)|
-T Malaise |N|Find a book up in the trees, bridge at (34,76)|
+T Malaise |N|Find a book up in the trees|
 A Scratches
-C Scratches |N|Use the feathers on the purple circle, return to town|
-T The Encroaching Wilderness
-A Marauding Wolves
-T Scratches
-C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way|
+C Scratches |N|Use the feathers on the purple rune circle, then run back to the questgiver in town.| |U|30530|
+
+T The Encroaching Wilderness |T| |N|Back in Sylvanaar|
+A Marauding Wolves |T|
+T Scratches |T|
+
+C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way.|
 C Strange Brew |N|Get 5 extra brews|
 C The Bloodmaul Ogres
 N Make sure you have 5 extra brews!
 
-R Sylvanaar
-T The Bloodmaul Ogres
-A The Bladespire Ogres
-T Strange Brew
-A Getting the Bladespire Tanked
-T Into the Draenethyst Mine
+T The Bloodmaul Ogres |N|Back at Sylvanaar| |T|
+A The Bladespire Ogres |T|
+T Strange Brew |T|
+A Getting the Bladespire Tanked |T|
+T Into the Draenethyst Mine |T|
+
 C Marauding Wolves |N|East over the bridge near the Horde outpost (41,65)|
 C The Den Mother |N|Down in the cave at (52,74)|
 
-R Toshley's Station |N|(60,69)|
-A Crystal Clear
-A Picking Up Some Power Converters
+R Toshley's Station |N|Up the hill to the east (60,69)|
+A Crystal Clear |T|
+A Picking Up Some Power Converters |T|
 N Grab flight point |N|To the East|
-A Test Flight: The Zephyrium Capacitorium
+A Test Flight: The Zephyrium Capacitorium |T|
 C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally, your flight will zap you and then throw you far away, down the hill near R-3D0, you won't get hurt|
-T Test Flight: The Zephyrium Capacitorium
-A Test Flight: The Singing Ridge
-R Bladespire Outpost |N|To the North (57,60)|
-C Picking Up Some Power Converters |N|Click the power converters, use the magneto collector on the electromental that comes out, then kill it|
+T Test Flight: The Zephyrium Capacitorium |T|
+A Test Flight: The Singing Ridge |T|
 
-R Toshley's Station
-T Picking Up Some Power Converters
-A Ride the Lightning
-A Ridgespine Menace
-A Cutting Your Teeth
-A What Came First, the Drake or the Egg? |N|In the inn|
-C Test Flight: The Singing Ridge |N|Sign the waiver in your bag, talk to Rally again|
-C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gather the glands|
+C Picking Up Some Power Converters |N|North at Bladespire Outpost (57,60).  Click the power converters, use the magneto collector on the electromental that comes out, then kill it.| |U|30656|
+
+T Picking Up Some Power Converters |T| |N|Back at Toshley's Station|
+A Ride the Lightning |T|
+A Ridgespine Menace |T|
+A Cutting Your Teeth |T|
+A What Came First, the Drake or the Egg? |N|In the inn| |T|
+
+C Test Flight: The Singing Ridge |N|Sign the waiver in your bag, talk to Rally again| |U|30540|
+C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gather the glands| |U|30818|
 C Ridgespine Menace |N|Stealth spiders near the spikes|
-C Cutting Your Teeth |N|Most of the daggermaws are North of Death's Door.  If you don't have that uncovered, it's the canyon you just got thrown over|
+C Cutting Your Teeth |N|Most of the daggermaws are North of Death's Door.  If you don't have that uncovered, it's the canyon you just got thrown over.|
+
 R Singing Ridge |N|Or run to Toshley's and get tossed over|
 C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into|
 C Crystal Clear |N|On your way back to Toshley's|
 
-R Toshley's Station
-T Crystal Clear
-T Ride the Lightning
-A Trapping the Light Fantastic
-A Gauging the Resonant Frequency
-T Test Flight: The Singing Ridge
-T Ridgespine Menace
-A More than a Pound of Flesh
-T Cutting Your Teeth
-T What Came First, the Drake or the Egg?
-A Test Flight: Razaan's Landing
-N Don't turn in the Test Flight quest!
+T Crystal Clear |T| |N|Back at Toshley's Station|
+T Ride the Lightning |T|
+A Trapping the Light Fantastic |T|
+A Gauging the Resonant Frequency |T|
+T Test Flight: The Singing Ridge |T|
+T Ridgespine Menace |T|
+A More than a Pound of Flesh |T|
+T Cutting Your Teeth |T|
+T What Came First, the Drake or the Egg? |T|
+A Test Flight: Razaan's Landing |T|
+N Don't turn in the Test Flight quest! |T|
 
-R Singing Ridge
-C Gauging the Resonant Frequency |N|Clear an area and lay down the scanners in a star pattern.  Stand in the center of the star|
+C Gauging the Resonant Frequency |N|Clear an area to the south and lay down the scanners in a star pattern.  Stand in the center of the star|
 T Gauging the Resonant Frequency
 
 R Razaan's Landing |N|Rally can send you here|

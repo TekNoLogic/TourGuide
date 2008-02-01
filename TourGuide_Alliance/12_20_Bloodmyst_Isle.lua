@@ -174,13 +174,13 @@ T The Cryo-Core
 T Galaen's Journal - The Fate of Vindicator Saruan |T|
 A Matis the Cruel |T|
 A Don't Drink the Water |T|
-A Talk to the Hand |T|
 A What We Know... |R|Draenei| |T|
 T What We Know... |R|Draenei| |T|
 A What We Don't Know... |R|Draenei| |T|
 C What We Don't Know... |R|Draenei| |T| |N|Talk to the Captured Sunhawk Agent (54.4, 54.3)|
 T What We Don't Know... |R|Draenei| |T|
 A Vindicator's Rest |R|Draenei| |T|
+A Talk to the Hand |T|
 A Fouled Water Spirits |T|
 A Oh, the Tangled Webs They Weave |T|
 
