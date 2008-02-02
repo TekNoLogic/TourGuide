@@ -165,13 +165,13 @@ N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling
 
 T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.|
 A Galaen's Fate
-A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.|
+A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.| |NODEBUG|
 C Galaen's Fate
 C The Cryo-Core
 
 T Galaen's Fate |T| |N|Back at Blood Watch| |T|
 T The Cryo-Core
-T Galaen's Journal - The Fate of Vindicator Saruan |T|
+T Galaen's Journal - The Fate of Vindicator Saruan |T| |NODEBUG|
 A Matis the Cruel |T|
 A Don't Drink the Water |T|
 A What We Know... |R|Draenei| |T|
@@ -192,7 +192,7 @@ C Matis the Cruel |N|Matis patrols from the fork south of the Warp Pistol west t
 T Talk to the Hand |N|At Vindicator's Rest, north of the road before the Vector Coil.|
 A Cutting a Path
 A Critters of the Void
-T Vindicator's Rest |R|Draenei|
+T Vindicator's Rest |R|Draenei| |N|Skip the follow-up unless you've got help|
 
 N Kill more crap... |N|Kill any Mutated Tanglers and Enraged Ravagers you come across for "Oh, the Tangled Webs They Weave" and "Cutting a Path"|
 
@@ -203,7 +203,7 @@ T They're Alive! Maybe...
 
 C Fouled Water Spirits |N|Work your way east to the waterfall|
 C Don't Drink the Water |N|Jump off the waterfall to the northeast.  Use the vial at the base (34,33).| |U|24318|
-C WANTED: Deathclaw |N|Head northeast towards the coast and look for Deathclaw (37.5, 30.0)|
+C WANTED: Deathclaw |N|Deathclaw is just northeast of the waterfall (37.5, 30.0)|
 
 T Nolkai's Words |N|Back at Ruins of Loreth'Aran.  Look for a mound of dirt (61.22, 49.73).|
 
@@ -211,15 +211,16 @@ T Restoring Sanctity |N|Back on Wyrmscar Island|
 A Into the Dream
 N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
 C Into the Dream
-T Into the Dream
 T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O|
 A The Bloodcursed Naga |O| |PRE|The Bloodcurse Legacy|
 C The Bloodcursed Naga |O|
 T The Bloodcursed Naga |O|
 A The Hopeless Ones... |O| |PRE|The Bloodcursed Naga|
-C The Hopeless Ones... |O|
+C The Hopeless Ones... |O| |N|Swim out past the boat then down onto a deeper shelf (87,16).  Kill Bloodcursed Voyagers.|
+N Refresh The Captain's Kiss |N|Talk to the turnin NPC and have him recast the spell on you, it'll help for traveling to the next part.|
 T The Hopeless Ones... |O|
 A Ending the Bloodcurse |O| |PRE|The Hopeless Ones...|
+T Into the Dream |N|Skip the follow-up unless you've got help|
 C Ending the Bloodcurse |O| |N|On Bloodcurse Isle to the southeast.  Fight your way to the top of the island, destroy the Statue of Queen Azshara (85.7, 54.3), and kill Atoph the Bloodcursed.|
 T Ending the Bloodcurse |O|
 
@@ -227,12 +228,12 @@ C Ysera's Tears
 
 H Blood Watch
 T Containing the Threat |T|
-T The Final Sample |T|
-T Matis the Cruel |T|
 T The Missing Expedition |T|
+T WANTED: Deathclaw |T|
+T The Final Sample |T|
 T Don't Drink the Water |T|
 A Limits of Physical Exhaustion |T|
-T WANTED: Deathclaw |T|
+T Matis the Cruel |T|
 T Ysera's Tears |T|
 
 C Limits of Physical Exhaustion |N|South of Vindicator's Rest|
@@ -249,6 +250,8 @@ C Cutting a Path
 T Oh, the Tangled Webs They Weave |N|Back at Vindicator's Rest|
 T Cutting a Path
 T Fouled Water Spirits
+
+N Try to "End their world"... |N|It's worth trying this quest once, if you fail just abandon it.  Make sure you grab "Clearing the Way" first, as you'll likely complete it along the way.  If you're a healing class try to let him tank mobs and heal him if needed.|
 
 C Culling the Flutterers
 
