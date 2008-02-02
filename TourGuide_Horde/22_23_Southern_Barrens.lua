@@ -13,6 +13,7 @@ A Weapons of Choice |T|
 C Egg Hunt
 C Betrayal from Within (Part 1)
 C Weapons of Choice
+A Gann's Reclamation
 C Gann's Reclamation
 T Gann's Reclamation
 A Revenge of Gann (Part 1)
