@@ -1,31 +1,22 @@
 
 TourGuide:RegisterGuide("Desolace (33-35)", nil, "Alliance", function()
 return [[
-F Stonetalon Peak |N|Fly to Menethil Harbor, boat to Auberdine, then fly down.|
-A Reclaiming the Charred Vale
-C Reclaiming the Charred Vale |N|South in the Charred Vale (32,66)| |Z|Stonetalon Mountains|
-
-R Desolace |N|South, naturally|
-R Nijel's Point |N|Along the northern edge of Desolace (64,10)|
-A Vahlarriel's Search (Part 1)
-A Centaur Bounty
-T Reclaimers' Business in Desolace
-A Reagents for Reclaimers Inc. (Part 1)
-A The Karnitol Shipwreck (Part 1)
-h Nijel's Point
-
-F Stonetalon Peak
-T Reclaiming the Charred Vale |N|Skip the follow-up|
-H Nijel's Point
+R Nijel's Point |N|Along the northern edge of Desolace (64,10).  If you don't know the way, fly to Stonetalon Peak and run south thru the Charred Vale|
+A Vahlarriel's Search (Part 1) |T|
+A Centaur Bounty |T|
+T Reclaimers' Business in Desolace |T|
+A Reagents for Reclaimers Inc. (Part 1) |T|
+A The Karnitol Shipwreck (Part 1) |T|
+h Nijel's Point |T|
 
 T Vahlarriel's Search (Part 1) |N|Find the chest in the broken down caravan to the west (56,17)|
 A Vahlarriel's Search (Part 2)
 C Reagents for Reclaimers Inc. (Part 1) |N|Kill Hatefury satyrs to the east at Sargeron (75,20)|
 
-T Vahlarriel's Search (Part 2) |N|Back in Nijel's Point|
-A Vahlarriel's Search (Part 3)
-T Reagents for Reclaimers Inc. (Part 1)
-A Reagents for Reclaimers Inc. (Part 2)
+T Vahlarriel's Search (Part 2) |N|Back in Nijel's Point| |T|
+A Vahlarriel's Search (Part 3) |T|
+T Reagents for Reclaimers Inc. (Part 1) |T|
+A Reagents for Reclaimers Inc. (Part 2) |T|
 
 N Kill crap... |N|Kill any Scorpashi and Aged Kodo you come across|
 A Bone Collector |N|To the south along the road at Kormek's Hut (62,38)|
@@ -60,22 +51,22 @@ C Reagents for Reclaimers Inc. (Part 2) |N|Get the last few reagents you need, y
 
 H Nijel's Point
 
-N Stable your pet |C|Hunter|
+N Stable your pet |C|Hunter| |T|
 N Tame Scorpashi |N|Find a lv34, for Claw (Rank 5).  Found all around the Kodo Graveyard (58,50)| |C|Hunter|
 N Keep this pet if you want |N|Otherwise get your pet out of stable| |C|Hunter|
 
-T Reagents for Reclaimers Inc. (Part 2) |N|Skip the follow-up|
-T The Karnitol Shipwreck (Part 2) |N|Skip the follow-up|
-T Centaur Bounty
-T Return to Vahlarriel
+T Reagents for Reclaimers Inc. (Part 2) |N|Skip the follow-up| |T|
+T The Karnitol Shipwreck (Part 2) |N|Skip the follow-up| |T|
+T Centaur Bounty |T|
+T Return to Vahlarriel |T|
 
 R Feralas |N|Follow the road to the southwest edge of the zone (43,98)|
 R Feathermoon Stronghold |N|Follow the road until the path down to the docks.  Take the boat if it's there, or swim due west|
 F Ratchet
-T Goblin Sponsorship (Part 1)
-A Goblin Sponsorship (Part 2)
-T Wharfmaster Dizzywig |N|On the dock|
-A Parts for Kravel
+T Goblin Sponsorship (Part 1) |T|
+A Goblin Sponsorship (Part 2) |T|
+T Wharfmaster Dizzywig |N|On the dock| |T|
+A Parts for Kravel |T|
 ]]
 
 end)
