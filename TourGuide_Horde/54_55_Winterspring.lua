@@ -57,6 +57,8 @@ T Corrupted Sabers |N|First talk to the cat|
 
 T Falling to Corruption |N|The cauldron at (60,5)| |Z|Felwood|
 A Mystery Goo
+A Deadwood Ritual Totem |O| |U|20741|
+T Deadwood Ritual Totem |O| |N|Turn-in at a furblog halfway thru the hold|
 
 R Winterspring
 T Winterfall Activity
