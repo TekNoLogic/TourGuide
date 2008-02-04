@@ -56,7 +56,6 @@ C The Absent Minded Prospector (Part 2)
 C WANTED: Murkdeep! |N|Follow the shore north to the murloc camp (36.56, 76.65).  Clear the camp, after that there's 3 waves of murlocs.  Murkdeep is in the last wave.|
 
 T Return to Onu |N|Back at Grove of the Ancients|
-A Mathystra Relics
 A The Sleeper Has Awakened |N|Escort quest|
 N Get his horn |N|In the box near where he was sleeping| |L|13536|
 C The Sleeper Has Awakened |N|Escort him south.  Use the [Horn of Awakening] when he falls asleep.| |U|13536|

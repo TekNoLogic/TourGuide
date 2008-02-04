@@ -51,10 +51,32 @@ A Raene's Cleansing (Part 4)
 
 C An Aggressive Defense |N|Camp northeast of Silverwind Refuge|
 
+A Elemental Bracers |N|At Silverwind Refuge|
+K Befouled Water Elemental |N|In the lake south of Silverwind Refuge.  Need [Intact Elemental Bracers] x5 for "Elemental Bracers"| |L|12220 5|
+C Elemental Bracers |U|5456|
+T Elemental Bracers
+
 T Elune's Tear |T| |N|Back at Astranaar|
 A The Ruins of Stardust |T|
 T An Aggressive Defense |T|
-C The Ruins of Stardust |N|Due south of Astranaar, on an island yet again.| |T|
+
+C The Ruins of Stardust |N|Due south of Astranaar, on an island yet again.|
 C Call of Water (Part 4) |C|Shaman| |U|23749| |N|Use the bag at the fountain in the center of the island (33.54, 67.45)|
+
+T The Ruins of Stardust |T| |N|Back in Astranaar|
+A Fallen Sky Lake |T|
+A Culling the Threat |T|
+
+C The Tower of Althalaxx (Part 5) |N|Southwest of Astranaar at Fire Scar Shrine (25.3, 60.6)|
+C Culling the Threat |N|North from Astranaar (35.0, 33.5)|
+
+T The Tower of Althalaxx (Part 5) |N|Back at Maestra's Post|
+A The Tower of Althalaxx (Part 6)
+
+A Supplies to Auberdine |N|Escort.  As with all oldworld escorts it kinda sucks a fat one.  If you fail, abandon it.|
+C Supplies to Auberdine
+T Supplies to Auberdine |N|Back at Maestra's Post|
+
+T Culling the Threat |N|Back at Astranaar| |T|
 ]]
 end)

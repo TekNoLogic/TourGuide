@@ -1,10 +1,16 @@
 TourGuide:RegisterGuide("Wetlands (25-27)", "Lakeshire (27-28)", "Alliance", function()
 return [[
-H Auberdine
+F Auberdine
+T WANTED: Murkdeep! |T|
+T The Absent Minded Prospector (Part 2) |T|
+A The Absent Minded Prospector (Part 3) |T|
+T The Absent Minded Prospector (Part 3) |N|Outside the Temple of the Moon, Darnassus|
+A The Absent Minded Prospector (Part 4)
+
 b Menethil Harbor
 A Claws from the Deep
 A Young Crocolisk Skins
-A War Banners |N|Up the keep|
+A War Banners |N|Up in the keep|
 A Digging Through the Ooze
 A The Third Fleet
 A The Greenwarden
