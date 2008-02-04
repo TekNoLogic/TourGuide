@@ -4,23 +4,24 @@ F Auberdine
 T WANTED: Murkdeep! |T|
 T The Absent Minded Prospector (Part 2) |T|
 A The Absent Minded Prospector (Part 3) |T|
-T The Absent Minded Prospector (Part 3) |N|Outside the Temple of the Moon, Darnassus|
+T The Absent Minded Prospector (Part 3) |N|Outside the Temple of the Moon, Darnassus (31.41, 84.18)| |Z|Darnassus|
 A The Absent Minded Prospector (Part 4)
 
 b Menethil Harbor
-A Claws from the Deep
-A Young Crocolisk Skins
-A War Banners |N|Up in the keep|
-A Digging Through the Ooze
-A The Third Fleet
-A The Greenwarden
-h Deepwater Tavern
-T The Absent Minded Prospector (Part 4)
-A The Absent Minded Prospector (Part 5)
-B [Flagon of Mead]
-T The Third Fleet
-A The Cursed Crew
-A In Search of The Excavation Team (Part 1) |NODEBUG|
+A Claws from the Deep |T|
+A Young Crocolisk Skins |T|
+A War Banners |N|Up in the keep| |T|
+A Digging Through the Ooze |T|
+A The Third Fleet |T|
+A The Greenwarden |T|
+h Deepwater Tavern |T|
+C The Third Fleet |N|Buy a flagon of mead from the innkeeper| |T|
+T The Absent Minded Prospector (Part 4) |T| |N|Upstairs in the inn|
+A The Absent Minded Prospector (Part 5) |T|
+T The Third Fleet |T|
+A The Cursed Crew |T|
+A In Search of The Excavation Team (Part 1) |NODEBUG| |T|
+
 C Young Crocolisk Skins
 C Claws from the Deep
 
@@ -41,7 +42,7 @@ T Uncovering the Past
 C Ormer's Revenge (Part 3)
 T Ormer's Revenge (Part 3)
 
-C The Absent Minded Prospector (Part 5) |N|Keep killing raptors if you never got the [Stone of Relu]|
+C The Absent Minded Prospector (Part 5) |N|Keep killing raptors|
 
 C War Banners |N|East of Excavation Site (42.9, 41.1)|
 A Daily Delivery |N|North of the Angerfang Encampment|
