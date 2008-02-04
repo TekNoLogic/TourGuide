@@ -1,8 +1,6 @@
 TourGuide:RegisterGuide("Ashenvale (24-25)", "Wetlands (25-27)", "Alliance", function()
 return [[
 F Astranaar
-T Pridewings of Stonetalon |T|
-A Kayneth Stillwind |T|
 T Trek to Ashenvale |T|
 A Culling the Threat |T|
 T The Ruins of Stardust |T|
@@ -19,6 +17,7 @@ C Supplies to Auberdine
 T Supplies to Auberdine |N|Back at Maestra's Post|
 
 T Culling the Threat |N|Back at Astranaar| |T|
+A Kayneth Stillwind |T|
 
 A Elemental Bracers |N|At Silverwind Refuge|
 K Befouled Water Elemental |N|In the lake south of Silverwind Refuge.  Need [Intact Elemental Bracers] x5 for "Elemental Bracers"| |L|12220 5|

@@ -14,7 +14,6 @@
 
 	<Script file="20_21_Darkshore.lua"/>
 	<Script file="21_22_Ashenvale.lua"/>
-	<Script file="22_23_Stonetalon_Mountains.lua"/>
 	<Script file="23_24_Darkshore.lua"/>
 	<Script file="24_25_Ashenvale.lua"/>
 	<Script file="25_27_Wetlands.lua"/>

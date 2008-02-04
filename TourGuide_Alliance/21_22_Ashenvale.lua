@@ -18,8 +18,6 @@ T Therylune's Escape |N|South from Maestra's Post at the Shrine of Aessina (22.6
 R Astranaar |N|Follow the road east|
 T Journey to Astranaar |T|
 A The Zoram Strand |T|
-A On Guard in Stonetalon (Part 1) |T|
-A Journey to Stonetalon Peak |T|
 T Onward to Ashenvale |N|Inside the Inn| |T|
 A Raene's Cleansing (Part 1) |T|
 h Astranaar |T|
@@ -45,7 +43,6 @@ H Astranaar
 T Raene's Cleansing (Part 2) |T|
 A Raene's Cleansing (Part 3) |T|
 T The Zoram Strand |T|
-A Pridewings of Stonetalon |T|
 A An Aggressive Defense |T|
 N Unstable your pet |C|Hunter| |T|
 C Elune's Tear |N|Northeast at Iris Lake, on the island (46,46).|
@@ -54,9 +51,9 @@ A Raene's Cleansing (Part 4)
 
 C An Aggressive Defense |N|Camp northeast of Silverwind Refuge|
 
-T An Aggressive Defense |T| |N|Back at Astranaar|
-T Elune's Tear |T|
+T Elune's Tear |T| |N|Back at Astranaar|
 A The Ruins of Stardust |T|
+T An Aggressive Defense |T|
 C The Ruins of Stardust |N|Due south of Astranaar, on an island yet again.| |T|
 C Call of Water (Part 4) |C|Shaman| |U|23749| |N|Use the bag at the fountain in the center of the island (33.54, 67.45)|
 ]]

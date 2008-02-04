@@ -82,11 +82,7 @@ T Digging Through the Ooze
 T Apprentice's Duties
 T Return the Statuette
 
-F City of Ironforge
-T An Old Colleague
-
 F Stormwind City
-T A Scroll from Mauren |N|The Mage Quarter|
 
 T Heartswood |N|Warlock Trainer in the Mage Quarter| |C|Warlock|
 A The Binding |C|Warlock|
