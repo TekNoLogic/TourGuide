@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Darkshore (20-21)", "Ashenvale (21-22)", "Alliance", function()
+TourGuide:RegisterGuide("Darkshore (20-21)", "Ashenvale (22-24)", "Alliance", function()
 return [[
 H Auberdine
 A Journey to Astranaar |N|On the dock|

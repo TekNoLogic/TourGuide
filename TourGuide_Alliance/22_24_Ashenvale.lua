@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Ashenvale (21-22)", "Stonetalon Mountains (22-23)", "Alliance", function()
+TourGuide:RegisterGuide("Ashenvale (22-24)", "Wetlands (25-27)", "Alliance", function()
 return [[
 T The Sleeper Has Awakened |N|You need to talk to the NPC in Maestra's Post before quest completes|
 T The Tower of Althalaxx (Part 3)

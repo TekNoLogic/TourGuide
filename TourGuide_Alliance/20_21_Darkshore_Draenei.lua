@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Darkshore (20-21 Draenei)", "Ashenvale (21-22)", "Alliance", function()
+TourGuide:RegisterGuide("Darkshore (20-21 Draenei)", "Ashenvale (22-24)", "Alliance", function()
 return [[
 b Darkshore
 A Journey to Astranaar
