@@ -30,7 +30,7 @@ T Scratches |T|
 C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way.|
 C Strange Brew |N|Get 5 extra brews|
 C The Bloodmaul Ogres
-N Make sure you have 5 extra brews!
+N Make sure you have 5 extra brews! |L|29443 16|
 
 T The Bloodmaul Ogres |N|Back at Sylvanaar| |T|
 A The Bladespire Ogres |T|
@@ -38,13 +38,12 @@ T Strange Brew |T|
 A Getting the Bladespire Tanked |T|
 T Into the Draenethyst Mine |T|
 
-C Marauding Wolves |N|East over the bridge near the Horde outpost (41,65)|
+C Marauding Wolves |N|East over the bridge near the Horde outpost (50,65)|
 C The Den Mother |N|Down in the cave at (52,74)|
 
 R Toshley's Station |N|Up the hill to the east (60,69)|
 A Crystal Clear |T|
 A Picking Up Some Power Converters |T|
-N Grab flight point |N|To the East|
 A Test Flight: The Zephyrium Capacitorium |T|
 C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally, your flight will zap you and then throw you far away, down the hill near R-3D0, you won't get hurt|
 T Test Flight: The Zephyrium Capacitorium |T|
@@ -89,35 +88,38 @@ T Trapping the Light Fantastic
 A Show Them Gnome Mercy!
 T More than a Pound of Flesh
 T Test Flight: Razaan's Landing
+
 R Razaan's Landing |N|Rally can send you here, again|
 C Show Them Gnome Mercy! |N|Kill about 4 of the Razaani by the portal in the center of the village (66,44) and Nexus-Prince Razaan will appear. Kill him and loot the quest item|
-R Toshley's Station
-T Show Them Gnome Mercy!
+
+T Show Them Gnome Mercy! |T| |N|Back at Toshley's Station|
+
 F Sylvanaar
-T The Den Mother
-T Marauding Wolves
-A Protecting Our Own
+T The Den Mother |T|
+T Marauding Wolves |T|
+A Protecting Our Own |T|
 C Protecting Our Own |N|South of town, look for grove seedlings on the ground and click them|
-T Protecting Our Own
-A A Dire Situation
+T Protecting Our Own |T|
+A A Dire Situation |T|
+
 C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the bloodmaul wolves|
-R Bladespire Hold |N|Follow the road North|
-A The Trappings of a Vindicator |N|Vuuleen in a cage (43,51)|
-C Getting the Bladespire Tanked |N|Kill them after they get drunk|
-C The Trappings of a Vindicator |N|Droggam (39,53), Mugdorg (42,57).  Pull the non-elite guards first, then drop a brew to pull the boss without the elite guards.  Drop the brew in the doorway, not to far away|
+
+A The Trappings of a Vindicator |N|Follow the road north to Bladespire Hold.  Vuuleen in a cage (43,51)|
+C Getting the Bladespire Tanked |N|Drop a brew, let em drink, kill 'em| |U|30353|
+C The Trappings of a Vindicator |N|Droggam (39,53), Mugdorg (42,57).  Pull the non-elite guards first, then drop a brew in the doorway to pull the boss without the elite guards.| |U|30353|
 T The Trappings of a Vindicator
 A Gorr'Dim, Your Time Has Come...
-C Gorr'Dim, Your Time Has Come... |N|Gorr'Dim (40,49).  Same pull strategy as the last two bosses|
+C Gorr'Dim, Your Time Has Come... |N|Gorr'Dim (40,49).  Same pull strategy as the last two bosses.| |U|30353|
 C The Bladespire Ogres
 T Gorr'Dim, Your Time Has Come... |N|Skip "Planting the Banner"|
+
 H Sylvanaar
-T Getting the Bladespire Tanked
-T The Bladespire Ogres
-T A Dire Situation
-F Toshley's Station
-A Test Flight: Ruuan Weald
+T Getting the Bladespire Tanked |T|
+T The Bladespire Ogres |T|
+T A Dire Situation |T|
+
+A Test Flight: Ruuan Weald |T| |N|Back at Toshley's Station|
 C Test Flight: Ruuan Weald |N|Make sure to use the weather vane in mid-air!|
-f Grab flight point
 A A Time for Negotiation... |N|Tree Warden at the center moonwell|
 A Creating the Pendant
 T Test Flight: Ruuan Weald |N|South edge of town|
@@ -134,48 +136,43 @@ C From the Ashes |N|Soil at (71,22), (71,20), (71,18), this can be a tough area 
 C Little Embers
 A Damaged Mask |N|If you don't have the item in your bag, kill Fel Corrupters until you get it.|
 
-R Evergrove
-T Damaged Mask
-A Mystery Mask
-T Mystery Mask
-A Felsworn Gas Mask
-T A Time for Negotiation... |N|Tree Warden at the center moonwell|
-A ...and a Time for Action
-A Poaching from Poachers
-T Creating the Pendant
-A Whispers of the Raven God
-T Culling the Wild
-T Little Embers
-T From the Ashes
-N You're probably honored with the Cenarion Expedition by now
+T Damaged Mask |T| |N|Back in Evergrove|
+A Mystery Mask |T|
+T Mystery Mask |T|
+A Felsworn Gas Mask |T|
+T A Time for Negotiation... |T| |N|Tree Warden at the center moonwell|
+A ...and a Time for Action |T|
+A Poaching from Poachers |T|
+T Creating the Pendant |T|
+A Whispers of the Raven God |T|
+T Culling the Wild |T|
+T Little Embers |T|
+T From the Ashes |T|
 
 R Forge Camp: Anger |N|Back up the hill (73,41)|
 T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator (73,40)|
 A Deceive thy Enemy
 C Deceive thy Enemy
-T Deceive thy Enemy
-N Skip "You're Fired!" unless there are people around to help you
-N You should now be 67 or very close to it.
+T Deceive thy Enemy |N|Skip the follow-up|
 
-C Poaching from Poachers |N|Back down, Northwest of Evergrove|
+C Poaching from Poachers |N|Back down, northwest of Evergrove|
 C ...and a Time for Action
 A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]| |NODEBUG|
 R Bloodmaul Camp |N|Follow the road north (57,27)|
 C Crush the Bloodmaul Camp!
 C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
 
-R Evergrove |N|Or hearth to Sylvanaar and fly to Evergrove|
-T A Date with Dorgok
-A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok|
-T Favor of the Gronn
-A Pay the Baron a Visit
-T Crush the Bloodmaul Camp!
-T ...and a Time for Action
-T Did You Get The Note? |NODEBUG|
-A Wyrmskull Watcher
-T Poaching from Poachers
-A Whelps of the Wyrmcult
-N You damn well better be 67 by now |N|If not 10% into it!|
+R  |N|Or hearth to Sylvanaar and fly to Evergrove|
+T A Date with Dorgok |N|Back in Evergrove| |T|
+A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok| |T|
+T Favor of the Gronn |T|
+A Pay the Baron a Visit |T|
+T Crush the Bloodmaul Camp! |T|
+T ...and a Time for Action |T|
+T Did You Get The Note? |NODEBUG| |T|
+A Wyrmskull Watcher |T|
+T Poaching from Poachers |T|
+A Whelps of the Wyrmcult |T|
 
 R Circle of Blood |N|Follow path Southwest from town, down and to the West (53,41)|
 T Pay the Baron a Visit
