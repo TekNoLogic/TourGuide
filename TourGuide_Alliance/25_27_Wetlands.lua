@@ -20,52 +20,53 @@ T The Absent Minded Prospector (Part 4) |T| |N|Upstairs in the inn|
 A The Absent Minded Prospector (Part 5) |T|
 T The Third Fleet |T|
 A The Cursed Crew |T|
-A In Search of The Excavation Team (Part 1) |NODEBUG| |T|
+A In Search of The Excavation Team (Part 1) |NODEBUG| |N|On your way out of town|
 
-C Young Crocolisk Skins
 C Claws from the Deep
+C Young Crocolisk Skins
 
 T In Search of The Excavation Team (Part 1) |NODEBUG| |N|At Whelgar's Excavation Site (38.8, 52.3)|
 A In Search of The Excavation Team (Part 2) |NODEBUG|
-A Uncovering the Past
 A Ormer's Revenge (Part 1)
 N Get the fossil |L|5234| |N|For "The Absent Minded Prospector (Part 5)"|
 
-C Ormer's Revenge (Part 1)
+C Ormer's Revenge (Part 1) |N|Outside the excavation site to the west (30,45)|
 T Ormer's Revenge (Part 1)
 A Ormer's Revenge (Part 2)
+A Uncovering the Past
+N Keep an eye out for relics
 C Ormer's Revenge (Part 2)
-C Uncovering the Past
 T Ormer's Revenge (Part 2)
 A Ormer's Revenge (Part 3)
 T Uncovering the Past
 C Ormer's Revenge (Part 3)
+C Uncovering the Past
 T Ormer's Revenge (Part 3)
 
 C The Absent Minded Prospector (Part 5) |N|Keep killing raptors|
 
 C War Banners |N|East of Excavation Site (42.9, 41.1)|
-A Daily Delivery |N|North of the Angerfang Encampment|
-T The Greenwarden |N|East of the crossroads, across the small river (56.3, 40.3)|
+A Daily Delivery |N|North of the Angerfang Encampment at the fork in the road (49.88, 39.42)|
+T The Greenwarden |N|East of the fork (56.3, 40.3)|
 A Tramping Paws
-C Tramping Paws |N|Camps are located south of Greenwarden (55.8, 73.7)|
+C Tramping Paws |N|Camps south of Greenwarden (55.8, 73.7)|
 T Tramping Paws
 A Fire Taboo
-C Fire Taboo |N|Camps starts on the east side of road and heads north|
+C Fire Taboo |N|Camps start on the east side of road and head north|
 T Fire Taboo
 A Blisters on The Land |N|Do this while you do other quests. The questmobs are stealthed and can't be found unless you go near them| |NODEBUG|
 
 H Deepwater Tavern
-T The Absent Minded Prospector (Part 5) |N|Inn, upstairs|
-T War Banners |N|In the keep|
-A Nek'rosh's Gambit
-T Daily Delivery
-T Young Crocolisk Skins
-A Apprentice's Duties
-T Claws from the Deep
-A Reclaiming Goods
-T In Search of The Excavation Team (Part 2) |NODEBUG|
-A Fall of Dun Modr |N|In front of the keep|
+T The Absent Minded Prospector (Part 5) |N|Inn, upstairs| |T|
+T Claws from the Deep |T|
+A Reclaiming Goods |T|
+T Young Crocolisk Skins |T|
+T Daily Delivery |T|
+A Apprentice's Duties |T|
+A Fall of Dun Modr |N|In front of the keep| |T|
+T War Banners |N|In the keep| |T|
+A Nek'rosh's Gambit |T|
+T In Search of The Excavation Team (Part 2) |NODEBUG| |N|On your way out of town|
 
 T Reclaiming Goods |N|Damaged Crate at the murloc camp north of Menethil Harbor (13.51, 41.37)|
 A The Search Continues
@@ -83,11 +84,11 @@ T Fall of Dun Modr |N|North edge of the zone|
 T Blisters on The Land |NODEBUG|
 
 H Deepwater Tavern
-T The Cursed Crew
-A Lifting the Curse
-T Digging Through the Ooze
-T Apprentice's Duties
-T Return the Statuette
+T The Cursed Crew |T|
+A Lifting the Curse |T|
+T Digging Through the Ooze |T|
+T Apprentice's Duties |T|
+T Return the Statuette |T|
 
 F Stormwind City
 
