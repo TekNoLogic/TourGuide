@@ -1,10 +1,21 @@
 TourGuide:RegisterGuide("Duskwood (28-29)", "Ashenvale (29-30)", "Alliance", function()
 return [[
-R Darkshire
+F Stormwind City
+A The Missing Diplomat (Part 1) |T| |N|From altar boy Thomas in the Cathedral|
+T The Missing Diplomat (Part 1) |T| |N|In Stormwind Keep (77.7, 23.5)| |Z|Stormwind City|
+A The Missing Diplomat (Part 2) |T|
+T The Missing Diplomat (Part 2) |T| |N|Stormwind Entrance (73,78)| |Z|Stormwind City|
+A The Missing Diplomat (Part 3) |T|
+T The Missing Diplomat (Part 3) |T| |N|Trade District (60,64)| |Z|Stormwind City|
+A The Missing Diplomat (Part 4) |T|
+
+B [Bronze Tube] |N|Engineering vendor sells this sometimes, but auction or an engineer are your best bets.| |L|4371|
+
+R Darkshire |N|Usually faster to fly to Redridge and take the road southwest|
 T The Missing Diplomat (Part 4) |N|North of Darkshire walking along the road|
 A The Missing Diplomat (Part 5)
 A Look To The Stars (Part 1) |N|Southeast from flight point in the house| |NODEBUG|
-C Look To The Stars (Part 1) |N|If you don't have have a tube, Herble Baubbletump sells them in limited supply.  Auction or an engineer are your best bets, however.| |L|4371|
+C Look To The Stars (Part 1) |N|If you don't have have a tube, Herble Baubbletump sells them in limited supply.|
 T Look To The Stars (Part 1) |NODEBUG|
 A Look To The Stars (Part 2) |NODEBUG|
 A Worgen in the Woods (Part 1)

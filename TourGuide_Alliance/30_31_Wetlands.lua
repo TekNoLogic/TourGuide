@@ -18,12 +18,21 @@ b Theramore Isle |C|Warlock| |N|Fly to Menethil and boat over|
 N Tattered Manuscript |N|In cave east of the Great Lift in Thousand Needles (43.5, 32.7)| |L|6997| |C|Warlock| |Z|Thousand Needles|
 H Menethil Harbor |C|Warlock|
 
+A Fall of Dun Modr |N|In front of the keep| |T|
+
 C Lifting the Curse |N|Kill the Captain for the key, walk up the rudder to reach him (14,24)|
 T Lifting the Curse |N|Open the box on bottom floor of the boat, it's underwater.|
 A The Eye of Paleth
 T Nek'rosh's Gambit |N|Talk to the catapault (47.5, 46.9).  Skip the follow-up.|
 
-A The Thandol Span (Part 1) |N|At Dun Modr (51,21)|
+T Fall of Dun Modr |N|At Dun Modr (51,21)|
+A The Dark Iron War
+A A Grim Task
+
+C A Grim Task |N|Look for a dorf with a voidwalker.  If he isn't in the area near the questgiver check at the camp to the east (60, 27).|
+C The Dark Iron War
+
+A The Thandol Span (Part 1)
 T The Thandol Span (Part 1) |N|Go down the stairs to the right. There are two elites, but they can be soloed one by one (51.2, 8.0)|
 A The Thandol Span (Part 2)
 T The Thandol Span (Part 2)
