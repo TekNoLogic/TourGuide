@@ -58,10 +58,7 @@ A A Personal Favor
 
 N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground).  Also kill Warp Stalkers and Timber Worgs as you run across them.  And lastly, save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
 
-A Veil Skith: Darkstone of Terokk |N|Follow the road out of Shattrath south to the Refugee Caravan (38,50)|
-
-C Veil Skith: Darkstone of Terokk |N|Veil Skith, south of Shattrath (30.77, 42.03).| |U|31610|
-K Urdak |N|Kill Urdak at Veil Skith for "Stymying the Arrakoa" - he's in the trees (31.81, 42.33)| |Q|Stymying the Arakkoa| |QO|Urdak slain: 1/1|
+K Urdak |N|Head south out of Shattrath to Veil Skith.  Kill Urdak up in the trees (31.81, 42.33) for "Stymying the Arrakoa"| |Q|Stymying the Arakkoa| |QO|Urdak slain: 1/1|
 C A Personal Favor
 
 K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |Q|Stymying the Arakkoa| |QO|Ashkaz slain: 1/1|
@@ -141,7 +138,7 @@ T Welcoming the Wolf Spirit
 
 F Shattrath City
 T Letting Earthbinder Tavgren Know |N|Back at Cenarion Thicket|
-A Before Darkness Falls |N|Back at the Refugee Caravan (38,50)|
+A Before Darkness Falls |N|Follow the road from Shattrath south to the Refugee Caravan (38,50)|
 C Before Darkness Falls |N|South around the Shadow Stair (39.61, 56.25)|
 A Cabal Orders |N|The item that starts this quest drops from Cabal Skirmishers, Spell-weavers and Initiates.  Keep killing them until you get it.| |U|31707|
 T Cabal Orders |N|Back at the caravan|
@@ -150,8 +147,10 @@ A The Shadow Tomb
 T Seek Out Kirrik
 A The Infested Protectors
 A Missing Friends
+A Veil Skith: Darkstone of Terokk
 
-C Missing Friends |N|North at Veil Skith.  You should have keys from your last visit here.  If not kill arakkoa for them.|
+C Veil Skith: Darkstone of Terokk |N|North at Veil Skith (30.77, 42.03).| |U|31610|
+C Missing Friends |N|You should have keys from your last visit here, if not kill arakkoa for them.|
 C The Infested Protectors |N|Kill the infested/rotting treants around the edges of the Bone Wastes, then kill the mites that spawn from them.|
 C The Shadow Tomb |N|The three items are in the three "wings" of the Shadow Tomb (30.95, 52.67)|
 
