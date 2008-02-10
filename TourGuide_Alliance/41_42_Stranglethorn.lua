@@ -32,10 +32,10 @@ T The Bloodsail Buccaneers (Part 3) |N|At Fleet Master Seahorn on the 2nd Floor 
 A The Bloodsail Buccaneers (Part 4)
 T Return to MacKinley |N|At "Sea Wolf" MacKinley in the house right next to the Inn.|
 A Voodoo Dues
-A Keep an Eye Out |N|From Dizzy One-Eye near the Booty Bay blacksmith (Left when entering Booty Bay from the tunnel).|
+A Keep An Eye Out |N|From Dizzy One-Eye near the Booty Bay blacksmith (Left when entering Booty Bay from the tunnel).| |NODEBUG|
 
 C The Bloodsail Buccaneers (Part 4) |N|From the Booty Bay exit head east to the coast, then south.  Items can be found at the two camps (30,81) (27,83), and in a rowboat (28,83).|
-C Keep an Eye Out |N|Kill Bloodsails|
+C Keep An Eye Out |N|Kill Bloodsails| |NODEBUG|
 C Up to Snuff |N| Kill Bloodsails|
 
 C Venture Company Mining |N|From the Booty Bay exit take the road north beyond Gurubashi Arena (39,41).  Kill Venture Co. Goblins|
@@ -57,7 +57,7 @@ T Skullsplitter Tusks |N|At Kebok, 2nd floor of the Inn.|
 T Goblin Sponsorship (Part 4) |N|At Baron Revilgaz, 2nd Floor of the Inn.|
 A Goblin Sponsorship (Part 5)
 T The Bloodsail Buccaneers |N|At Fleet Master Seahorn, 2nd Floor of the Inn.|
-T Keep an Eye Out |N|At Dizzy One-Eye to the right of the Blacksmith.|
+T Keep An Eye Out |N|At Dizzy One-Eye to the right of the Blacksmith.| |NODEBUG|
 
 C Voodoo Dues |N|Run north to Ruins of Jubuwal (33,51), kill Jon-Jon the Crow and Maury "Club Foot" Wilkins.  Run south a tad (33,53) and then east to Ruins of Aboraz (40,57), kill Chucky "Ten Thumbs"|
 C Zanzil's Secret |N|Kill the trolls, but avoid Zanzil|
