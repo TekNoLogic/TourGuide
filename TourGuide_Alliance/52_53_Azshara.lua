@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Azshara (52-53)", "Felwood (53-54)", "Alliance", function()
 return [[
-A Cenarion Aid
+A Cenarion Aid |C|Priest|
 
 F Azshara |N|Fly to Forest Song or Astranaar and run east if you don't have the FP|
 A Spiritual Unrest
