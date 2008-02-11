@@ -21,7 +21,7 @@ A Well of Corruption
 A A Husband's Last Battle
 A Wild Guardians
 
-K Cursed Oozes |N|Follow the road north to the Ruins of Constellas (40,69).  Get 30... what fun.| |L|12230 30|
+K Cursed Oozes |N|Follow the road south to the Ruins of Constellas (40,69).  Get 30... what fun.| |L|12230 30|
 C Well of Corruption |N|To the west at the far west end of the ruins (32,66)|
 C Forces of Jaedenar |N|To the west, outside the caves (37,59)|
 
