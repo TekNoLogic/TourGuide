@@ -81,7 +81,6 @@ A The Borrower
 T Rise of the Silithid |N|In the temple of the moon, upstairs (39,86)| |Z|Darnassus|
 T Doling Justice (Part 2)
 
-B [Elixir of Fortitude] x2 |L|3825 2|
 H Feathermoon Stronghold
 F Gadgetzan
 T The Borrower

@@ -1,6 +1,8 @@
 
 TourGuide:RegisterGuide("Tanaris (47-48)", "Stranglethorn Vale (48-49)", "Alliance", function()
 return [[
+B [Elixir of Fortitude] x2 |L|3825 2| |N|From the auction house or find yourself an alchemist|
+
 F Gadgetzan
 A The Thirsty Goblin
 h Gadgetzan
