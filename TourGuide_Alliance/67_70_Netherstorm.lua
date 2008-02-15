@@ -296,10 +296,8 @@ C Teleport This! |N|Back at Forge Base: Gehenna, teleporters at (39,20), (41,18)
 T Teleport This!
 
 H Stormspire
-A Seek Out Ameer
 A A Not-So-Modest Proposal |N|At Protectorate Watch Post (58,31)|
 A Electro-Shock Goodness!
-T Seek Out Ameer
 A The Ethereum
 A Recipe for Destruction
 A Captain Tyralius
