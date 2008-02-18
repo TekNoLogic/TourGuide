@@ -45,7 +45,7 @@ R Toshley's Station |N|Up the hill to the east (60,69)|
 A Crystal Clear |T|
 A Picking Up Some Power Converters |T|
 A Test Flight: The Zephyrium Capacitorium |T|
-C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally, your flight will zap you and then throw you far away, down the hill near R-3D0, you won't get hurt|
+C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally, your flight will zap you and then throw you far away, down the hill near R-3D0, you won't get hurt.|
 T Test Flight: The Zephyrium Capacitorium |T|
 A Test Flight: The Singing Ridge |T|
 
@@ -57,13 +57,13 @@ A Ridgespine Menace |T|
 A Cutting Your Teeth |T|
 A What Came First, the Drake or the Egg? |N|In the inn| |T|
 
-C Test Flight: The Singing Ridge |N|Sign the waiver in your bag, talk to Rally again| |U|30540|
-C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gather the glands| |U|30818|
+C Test Flight: The Singing Ridge |N|Sign the waiver in your bag, talk to Rally again.| |U|30540|
+C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gather the glands.| |U|30818|
 C Ridgespine Menace |N|Stealth spiders near the spikes|
 C Cutting Your Teeth |N|Most of the daggermaws are North of Death's Door.  If you don't have that uncovered, it's the canyon you just got thrown over.|
 
 R Singing Ridge |N|Or run to Toshley's and get tossed over|
-C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into|
+C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into.  BIG NOTE: you can re-use the modulator many times to get the mob you need.| |U|30742|
 C Crystal Clear |N|On your way back to Toshley's|
 
 T Crystal Clear |T| |N|Back at Toshley's Station|
@@ -78,11 +78,11 @@ T What Came First, the Drake or the Egg? |T|
 A Test Flight: Razaan's Landing |T|
 N Don't turn in the Test Flight quest! |T|
 
-C Gauging the Resonant Frequency |N|Clear an area to the south and lay down the scanners in a star pattern.  Stand in the center of the star|
+C Gauging the Resonant Frequency |N|Clear an area to the south and lay down the scanners in a star pattern.  Stand in the center of the star.| |U|30701|
 T Gauging the Resonant Frequency
 
 R Razaan's Landing |N|Rally can send you here|
-C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can keep grabbing the orbs in a row|
+C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can keep grabbing the orbs in a row| |U|30852|
 C More than a Pound of Flesh
 T Trapping the Light Fantastic
 A Show Them Gnome Mercy!
@@ -90,7 +90,7 @@ T More than a Pound of Flesh
 T Test Flight: Razaan's Landing
 
 R Razaan's Landing |N|Rally can send you here, again|
-C Show Them Gnome Mercy! |N|Kill about 4 of the Razaani by the portal in the center of the village (66,44) and Nexus-Prince Razaan will appear. Kill him and loot the quest item|
+C Show Them Gnome Mercy! |N|Kill about 4 of the Razaani by the portal in the center of the village (66,44) and Nexus-Prince Razaan will appear. Kill him and loot the quest item.|
 
 T Show Them Gnome Mercy! |T| |N|Back at Toshley's Station|
 
@@ -98,11 +98,11 @@ F Sylvanaar
 T The Den Mother |T|
 T Marauding Wolves |T|
 A Protecting Our Own |T|
-C Protecting Our Own |N|South of town, look for grove seedlings on the ground and click them|
+C Protecting Our Own |N|South of town, look for grove seedlings on the ground and click them.|
 T Protecting Our Own |T|
 A A Dire Situation |T|
 
-C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the bloodmaul wolves|
+C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the bloodmaul wolves.|
 
 A The Trappings of a Vindicator |N|Follow the road north to Bladespire Hold.  Vuuleen in a cage (43,51)|
 C Getting the Bladespire Tanked |N|Drop a brew, let em drink, kill 'em| |U|30353|
