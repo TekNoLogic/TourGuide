@@ -51,7 +51,6 @@ A The Ravaged Caravan |N|Huntress Kima patrols around Telaar|
 A Wanted: Giselda the Crone |N|Off a signpost (54,70)|
 A Wanted: Zorbo the Advisor
 A Fierce Enemies
-T A Message to Telaar
 A Do My Eyes Deceive Me
 A The Throne of the Elements
 A Stopping the Spread
