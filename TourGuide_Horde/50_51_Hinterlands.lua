@@ -1,4 +1,5 @@
-TourGuide:RegisterGuide( "Hinterlands (50-51)", "Un'Goro Crater (51-53)", "Horde", function()
+
+TourGuide:RegisterGuide("The Hinterlands (50-51)", "Un'Goro Crater (51-53)", "Horde", function()
 return [[
 F Tarren Mill
 R The Hinterlands |N|Entrance at (86,30)| |Z|Hillsbrad Foothills|

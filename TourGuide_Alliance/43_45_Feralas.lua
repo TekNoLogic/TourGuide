@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Feralas (43-45)", "Hinterlands (46-47)", "Alliance", function()
+TourGuide:RegisterGuide("Feralas (43-45)", "The Hinterlands (46-47)", "Alliance", function()
 return [[
 F Feathermoon Stronghold
 
