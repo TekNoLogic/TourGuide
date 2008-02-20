@@ -82,17 +82,17 @@ C Gauging the Resonant Frequency |N|Clear an area to the south and lay down the 
 T Gauging the Resonant Frequency
 
 R Razaan's Landing |N|Rally can send you here|
-C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can keep grabbing the orbs in a row| |U|30852|
-C More than a Pound of Flesh
-T Trapping the Light Fantastic
-A Show Them Gnome Mercy!
-T More than a Pound of Flesh
-T Test Flight: Razaan's Landing
+N Kill flesh beasts... |N|Kill any Fiendling Flesh Beasts you come across for "More than a Pound of Flesh"|
+C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can finish this quickly.| |U|30852|
+T Trapping the Light Fantastic |T|
+A Show Them Gnome Mercy! |T|
+T Test Flight: Razaan's Landing |T|
 
-R Razaan's Landing |N|Rally can send you here, again|
-C Show Them Gnome Mercy! |N|Kill about 4 of the Razaani by the portal in the center of the village (66,44) and Nexus-Prince Razaan will appear. Kill him and loot the quest item.|
+C Show Them Gnome Mercy! |N|Once again, take the "flight" to Razaan's Landing.  Kill the ethereals near the center portal (66,44) until Nexus-Prince Razaan appears.  You can check your progress on the "meter" next to the portal.|
+C More than a Pound of Flesh
 
 T Show Them Gnome Mercy! |T| |N|Back at Toshley's Station|
+T More than a Pound of Flesh |T|
 
 F Sylvanaar
 T The Den Mother |T|
@@ -120,14 +120,14 @@ T A Dire Situation |T|
 
 A Test Flight: Ruuan Weald |T| |N|Back at Toshley's Station|
 C Test Flight: Ruuan Weald |N|Make sure to use the weather vane in mid-air!|
-A A Time for Negotiation... |N|Tree Warden at the center moonwell|
-A Creating the Pendant
-T Test Flight: Ruuan Weald |N|South edge of town|
-A Culling the Wild |N|North edge of town|
-A A Date with Dorgok |N|West edge of town|
-A Crush the Bloodmaul Camp!
-A Little Embers |N|West edge of town|
-A From the Ashes
+A A Time for Negotiation... |T| |N|Tree Warden at the center moonwell|
+A Creating the Pendant |T|
+T Test Flight: Ruuan Weald |T| |N|South edge of town|
+A Culling the Wild |T| |N|North edge of town|
+A A Date with Dorgok |T| |N|West edge of town|
+A Crush the Bloodmaul Camp! |T|
+A Little Embers |T| |N|West edge of town|
+A From the Ashes |T|
 
 C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven|
 C A Time for Negotiation... |N|Keep an eye out for Overseer Nuaar, a neutral Draenei.  He walks around the camps here.|
@@ -149,8 +149,7 @@ T Culling the Wild |T|
 T Little Embers |T|
 T From the Ashes |T|
 
-R Forge Camp: Anger |N|Back up the hill (73,41)|
-T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator (73,40)|
+T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator up the hill at Forge Camp: Anger (73,40)|
 A Deceive thy Enemy
 C Deceive thy Enemy
 T Deceive thy Enemy |N|Skip the follow-up|
@@ -162,7 +161,6 @@ R Bloodmaul Camp |N|Follow the road north (57,27)|
 C Crush the Bloodmaul Camp!
 C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
 
-R  |N|Or hearth to Sylvanaar and fly to Evergrove|
 T A Date with Dorgok |N|Back in Evergrove| |T|
 A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok| |T|
 T Favor of the Gronn |T|
@@ -184,10 +182,9 @@ C Goodnight, Gronn |N|Head back East to Grulloc (59,47).  Use the sleeping powde
 T Goodnight, Gronn
 A It's a Trap!
 
-R Evergrove
-T It's a Trap!
-A Gorgrom the Dragon-Eater
-A Slaughter at Boulder'mok
+T It's a Trap! |T| |N|Back at Evergrove|
+A Gorgrom the Dragon-Eater |T|
+A Slaughter at Boulder'mok |T|
 
 T Wyrmskull Watcher |N|West over the Wyrmskull Bridge|
 A Longtail is the Lynchpin
@@ -198,7 +195,7 @@ A Meeting at the Blackwing Coven
 C Whispers of the Raven God |N|Exit the cave, grind on arakkoa until you get their buff, then visit each totem in order (40,17), (42,22), (41,19), (40,23)|
 A The Truth Unorbed |U|31489| |N|Grind on the Arakkoa till you get the item that starts this.|
 C Slaughter at Boulder'mok
-C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap|
+C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap.|
 
 R Blackwing Coven |N|To the South (31,32)|
 N Kill Wyrmcults and collect 5 [Costume Scraps] |N|For "Meeting at the Blackwing Coven".  This place sucks, it's pretty tough.  Beware when they're low on life, they may try to cast some type of black blessing which turns them into a dragonkin with about 50% life and they start fireballing and doing fire nova.|
@@ -206,17 +203,15 @@ C Whelps of the Wyrmcult |N|Go in the cave and use the blackwhelp net on the dra
 C Meeting at the Blackwing Coven |N|Head to the back of the cave and put on the costume|
 
 H Sylvanaar
-F Evergrove
-T Whelps of the Wyrmcult
-T Meeting at the Blackwing Coven
-A Maxnar Must Die!
-T The Truth Unorbed
-A Treebole Must Know
-T Whispers of the Raven God
-T Gorgrom the Dragon-Eater
-A Baron Sablemane Has Requested Your Presence
-T Slaughter at Boulder'mok
-N You should be roughly 30% through 67
+T Whelps of the Wyrmcult |N|Back at Evergrove| |T|
+T Meeting at the Blackwing Coven |T|
+A Maxnar Must Die! |T|
+T The Truth Unorbed |T|
+A Treebole Must Know |T|
+T Whispers of the Raven God |T|
+T Gorgrom the Dragon-Eater |T|
+A Baron Sablemane Has Requested Your Presence |T|
+T Slaughter at Boulder'mok |T|
 
 R Raven's Wood |N|Run back across wyrmskull bridge and through the tunnel.  As you exit the tunnel go left up the path (37,22)|
 T Treebole Must Know
@@ -224,14 +219,11 @@ A Exorcising the Trees
 C Exorcising the Trees |N|Kill Dire Ravens for 5 feathers, also collect 5 orbs off the ground. If you're grouped with someone only one person needs to collect these.  Combine the items, get in range of a Leafbeard and use one.  Kill the Koi-Koi Spirit, don't kill the leafbeard|
 T Exorcising the Trees
 
-R Blackwing Coven |N|Southwest (32,33)|
 C Maxnar Must Die! |N|In the same cave as before, deeper in (33,36)|
 
 H Sylvanaar |N|Die and spirit rez at Sylvanaar if your stone isn't up|
-F Evergrove
-T Maxnar Must Die!
+T Maxnar Must Die! |T| |N|Back in Evergrove|
 
-R Circle of Blood |N|(53,41)|
-T Baron Sablemane Has Requested Your Presence |N|Skip "Massacre at Gruul's Lair" unless you get some friends to help.|
+T Baron Sablemane Has Requested Your Presence |N|Back at the Circle of Blood.  Skip "Massacre at Gruul's Lair" unless you get some friends to help.|
 ]]
 end)
