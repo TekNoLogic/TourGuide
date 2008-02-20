@@ -26,7 +26,7 @@ N Find 7 Blue power crystals |L|11184 7|
 
 A Chasing A-Me 01 |N|At the entrance to Marshal's Refuge (46,13)|
 A Shizzle's Flyer
-A Lost! |N|On a sign|
+A Lost! |N|Near the sign|
 A Beware of Pterrordax
 A Roll the Bones
 A Alien Ecology
