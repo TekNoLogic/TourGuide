@@ -9,7 +9,7 @@ T The Binding |C|Warlock|
 
 F Redridge Mountains
 A Blackrock Bounty
-A Blackrock Menace
+A Blackrock Menace |N|From Marshal Marris across the bridge, he probably won't have an ! over his head.|
 T Messenger to Stormwind (Part 2) |O|
 A Solomon's Law |N|In the town hall|
 A Wanted: Lieutenant Fangore |N|Poster in front of the inn|
@@ -19,7 +19,7 @@ A An Unwelcome Guest |N|West of lakeshire|
 C An Unwelcome Guest
 T An Unwelcome Guest
 
-C Blackrock Menace |N|Follow the road north to Render's Camp|
+C Blackrock Menace |N|Follow the road north to Render's Camp (36,10)|
 C Blackrock Bounty
 A Missing In Action |N|Escort in the cave (28.39, 12.56)| |NODEBUG|
 C Missing In Action |NODEBUG|
