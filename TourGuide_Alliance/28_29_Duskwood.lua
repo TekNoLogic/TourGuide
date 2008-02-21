@@ -47,7 +47,7 @@ A The Night Watch (Part 2)
 T Worgen in the Woods (Part 3)
 A Worgen in the Woods (Part 4)
 T Worgen in the Woods (Part 4)
-T Look To The Stars (Part 3) |N|Southeast of Darkshire, in a shack (79.8, 80.0)| |NODEBUG|
+T Look To The Stars (Part 3) |N|Southeast of Darkshire, in a shack (79.8, 47.9)| |NODEBUG|
 A Look To The Stars (Part 4) |NODEBUG|
 
 C Look To The Stars (Part 4) |N|At Vol'Gol Ogre Mound, in a cave (34,77)| |NODEBUG|
