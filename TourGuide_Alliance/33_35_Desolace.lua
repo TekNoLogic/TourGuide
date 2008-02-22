@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Desolace (33-35)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Desolace (33-34)", "Thousand Needles (34-35)",  "Alliance", function()
 return [[
 R Nijel's Point |N|Along the northern edge of Desolace (64,10).  If you don't know the way, fly to Stonetalon Peak and run south thru the Charred Vale|
 A Vahlarriel's Search (Part 1) |T|
@@ -59,15 +59,5 @@ T Reagents for Reclaimers Inc. (Part 2) |N|Skip the follow-up| |T|
 T The Karnitol Shipwreck (Part 2) |N|Skip the follow-up| |T|
 T Centaur Bounty |T|
 T Return to Vahlarriel |T|
-
-R Feralas |N|Follow the road to the southwest edge of the zone (43,98)|
-R Feathermoon Stronghold |N|Follow the road until the path down to the docks.  Take the boat if it's there, or swim due west|
-F Ratchet
-T Goblin Sponsorship (Part 1) |T|
-A Goblin Sponsorship (Part 2) |T|
-T Wharfmaster Dizzywig |N|On the dock| |T|
-A Parts for Kravel |T|
 ]]
-
 end)
-
