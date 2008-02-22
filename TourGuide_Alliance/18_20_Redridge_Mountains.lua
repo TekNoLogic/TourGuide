@@ -52,6 +52,18 @@ F Stormwind City
 T Messenger to Stormwind (Part 1) |N|At the entrance to Stormwind|
 A Messenger to Stormwind (Part 2)
 
+A The Tome of Valor (Part 1) |N|You must Speak with Duthorian Rall in the Cathedral of Light and he will give you the Tome of Valor, use it to start the quest.| |C|Paladin|
+T The Tome of Valor (Part 1) |C|Paladin|
+A The Tome of Valor (Part 2) |C|Paladin|
+
+F Sentinel Hill |C|Paladin|
+T The Tome of Valor (Part 2) |N|Southwest of Moonbrook (41.3, 88.5)| |C|Paladin| |Z|Westfall|
+A The Tome of Valor (Part 3) |C|Paladin|
+C The Tome of Valor (Part 3) |C|Paladin|
+T The Tome of Valor (Part 3) |C|Paladin|
+A The Tome of Valor (Part 4) |C|Paladin|
+T The Tome of Valor (Part 4) |N|Back in the Cathedral of Light, Stormwind| |C|Paladin|
+
 A Devourer of Souls |N|Mage Quarter in Stormwind| |C|Warlock|
 b Theramore Isle |N|Fly to Menethil Harbor, take the boat on the south dock| |C|Warlock|
 T Devourer of Souls |N|Follow the road west into the Barrens, then north (49.3, 57.1) | |C|Warlock| |Z|The Barrens|
