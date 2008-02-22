@@ -28,8 +28,8 @@ T Missing In Action |NODEBUG|
 T Blackrock Menace
 T Blackrock Bounty
 
+C Wanted: Lieutenant Fangore |N|Far east, in a gnoll camp in Galardell Valley (79,39)|
 C Solomon's Law
-C Wanted: Lieutenant Fangore
 
 H Lakeshire Inn
 T Solomon's Law
