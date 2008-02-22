@@ -151,9 +151,9 @@ T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (7
 A Armaments for Deception
 A Ruthless Cunning
 
+C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552|
+C Armaments for Deception |N|Many boxes spawn on the east side of the main building, and respawn faster than the mobs there do.| |U|25552|
 C Ruthless Cunning |U|25552|
-C Armaments for Deception
-C Wanted: Giselda the Crone
 
 T Ruthless Cunning
 T Armaments for Deception
@@ -164,9 +164,9 @@ T The Spirit Polluted |N|Back at Throne of the Elements|
 T Shattering the Veil
 T Muck Diving
 
+C Body of Evidence |U|25658| |N|Use the blanket on the pyre in the Laughing Skull Courtyard (46.56, 24.55).  Make sure you hang around until the orges finish, and don't forget to stick banners in the mobs you kill.|
+C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555|
 C Returning the Favor |U|25555|
-C Body of Evidence |U|25658|
-C Wanted: Zorbo the Advisor |N|(46,18)|
 
 C I Must Have Them! |N|Kill air elementals all over the zone|
 
