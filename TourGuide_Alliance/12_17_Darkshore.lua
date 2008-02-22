@@ -75,7 +75,7 @@ C Cleansing of the Infected |N|To the northeast, there are many more bears south
 N Beached Sea Turtle |N|North on the coast (44.17, 20.65)| |L|12292|
 C Buzzbox 323 |N|Both Moonstalkers and Moonstalker Runts drop this item.|
 
-C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water to get the sample| |U|12350|
+C The Cliffspring River |N|Follow the road east to the Cliffspring River.  Go under the bridge into the water at waterfall to get the sample| |U|12350|
 T Buzzbox 323 |N|Buzzbox is on the other side of the bridge, left side|
 A Buzzbox 525
 C Cave Mushrooms |N|Follow the east shore of the river south to the waterfall.  Enter the cave above waterfall (55,33).|
@@ -86,7 +86,7 @@ N Beached Sea Turtle |N|To the west on the shore (37.14, 62.17)| |L|12289|
 N Beached Sea Creature |N|Further south down the shore (36.05, 70.78)| |L|12242|
 
 T Grove of the Ancients |N|East at Grove of the Ancients (43,76), of course| |R|Night Elf|
-C Buzzbox 525 |N|Head southwest to the road, bears are at the other side of the road|
+C Buzzbox 525 |N|Head south across the road from the Grove of the Ancients, kill Grizzled Thistle Bears|
 T Buzzbox 525 |N|Back on the road, near the path to the digsite, opposite the white bear Grimclaw (41.42, 80.59).|
 N Beached Sea Creature |N|On the shore northwest of the dig site (32.75, 80.69)| |L|12242 2|
 

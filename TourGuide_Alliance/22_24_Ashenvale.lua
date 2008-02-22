@@ -6,8 +6,8 @@ A The Tower of Althalaxx (Part 4)
 A Bathran's Hair
 
 C Heartswood |N|Heartswood in Ashenvale (31.5, 31.5)| |L|6912| |C|Warlock|
-C The Tower of Althalaxx (Part 4) |N|Northeast at the Ruins of Ordil'Aran|
-C Bathran's Hair |N|North at Bathran's Haunt.  Look for little brown plant bundles.|
+C The Tower of Althalaxx (Part 4) |N|Northeast of Maestra's Post at the Ruins of Ordil'Aran|
+C Bathran's Hair |N|North at Bathran's Haunt (31,21).  Look for little brown plant bundles.|
 
 T The Tower of Althalaxx (Part 4)
 A The Tower of Althalaxx (Part 5)

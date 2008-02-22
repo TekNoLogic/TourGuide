@@ -1,4 +1,3 @@
-
 TourGuide:RegisterGuide("Bloodmyst Isle (12-20)", "Darkshore (20-21 Draenei)", "Alliance", function()
 return [[
 R Kessel's Crossing |N|On Bloodmyst Isle to the north (63.1, 87.6)|
@@ -6,14 +5,14 @@ T Elekks Are Serious Business
 A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places.|
 
 N Warn Stillpine Hold |Q|The Kessel Run| |QO|High Chief Stillpine Warned: 1/1|
-N Warn Azure Watch |Q|The Kessel Run| |QO|Exarch Menelaous Warned: 1/1|
+N Warn Azure Watch |Q|The Kessel Run| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|
 T Warn Your People
 T Call of Fire (Part 4) |C|Shaman|
 A Call of Fire (Part 5) |C|Shaman|
 T Strength of One |C|Warrior|
 A Behomat |C|Warrior|
 
-N Warn Odesyus' Landing |Q|The Kessel Run| |QO|Admiral Odesyus Warned: 1/1|
+N Warn Odesyus' Landing |Q|The Kessel Run| |QO|Admiral Odesyus Warned: 1/1| |N|Admiral Odesyus, in Odesyus' landing.|
 
 T The Kessel Run |N|Back up at Kessel's Crossing|
 A Declaration of Power
@@ -98,8 +97,8 @@ A Containing the Threat |T|
 T The Missing Survey Team |N|Northeast at the Ruins of Loreth'Aran.  Find the Draenei Cartographer (61.15, 48.39)|
 A Salvaging the Data
 C Salvaging the Data
-N Find a Ruinous Polyspore |L|24042|
 
+N Find a Ruinous Polyspore |L|24042|
 N Find a Blood Mushroom |N|All over between the Ruins of Loreth'Aran and Nazzivian| |L|24040|
 
 T Salvaging the Data |N|Back at Blood Watch| |T|

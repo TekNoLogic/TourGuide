@@ -30,8 +30,8 @@ C A Hunter's Challenge
 T A Hunter's Challenge
 A Vyrin's Revenge (Part 1)
 A Bingles' Missing Supplies |N|The NPC can be found at the easternmost shore of The Loch (63.5, 47.9)|
-C Crocolisk Hunting
-C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21,26.61), Hammer (51.78,24.09), Screwdriver (48.37,20.50), Wrench (48.73,30.10)|
+C Crocolisk Hunting |N|Lots on the islands (55,55) (54,40)|
+C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21, 26.61), Hammer (51.78, 24.09), Screwdriver (48.37, 20.50), Wrench (48.73, 30.10)|
 
 A A Dark Threat Looms (Part 1) |N|Middle of the Stonewrought Dam|
 T A Dark Threat Looms (Part 1) |N|Barrel at the east of dam|

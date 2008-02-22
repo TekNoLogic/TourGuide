@@ -205,7 +205,7 @@ T The Kurken's Hide
 T Call of Fire (Part 2) |C|Shaman|
 A Call of Fure (Part 3) |C|Shaman|
 
-C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (30,29)|
+C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (33.5, 22.0)|
 C Control |N|Keep killing murlocs until a Quel'dorei Magewraith appears| |C|Mage|
 
 T Murlocs... Why Here? Why Now? |N|Back at Stillpine Hold|

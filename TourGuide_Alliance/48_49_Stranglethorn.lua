@@ -13,7 +13,7 @@ T Rescue OOX-22/FE! |O| |N|On the second level of the docks. Just up the ramp ne
 A The Captain's Chest
 
 C Stranglethorn Fever |N|Kill gorillas around (34,63), turn in 10 fangs to the troll in the cave (35,60).  Defend him against the 3 waves.  In the last wave, kill Mokk first in case you die.|
-C Big Game Hunter |N|Kill King Bangalash (38,34)|
+C Big Game Hunter |N|Kill King Bangalash (38.2, 34.9)|
 C Cracking Maury's Foot |N|Kill ogres at their mound (48,25).  This item is a low drop rate, so you may want to abandon the quest if it doesn't drop.|
 T Big Game Hunter |N|At Nessingway's Camp|
 
