@@ -102,14 +102,14 @@ C Protecting Our Own |N|South of town, look for grove seedlings on the ground an
 T Protecting Our Own |T|
 A A Dire Situation |T|
 
-C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the bloodmaul wolves.|
+C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the bloodmaul wolves.| |U|30251|
 
-A The Trappings of a Vindicator |N|Follow the road north to Bladespire Hold.  Vuuleen in a cage (43,51)|
-C Getting the Bladespire Tanked |N|Drop a brew, let em drink, kill 'em| |U|30353|
-C The Trappings of a Vindicator |N|Droggam (39,53), Mugdorg (42,57).  Pull the non-elite guards first, then drop a brew in the doorway to pull the boss without the elite guards.| |U|30353|
+A The Trappings of a Vindicator |N|Follow the road north to Bladespire Hold.  Vuuleen in a cage (44.07, 51.84)|
+C The Trappings of a Vindicator |N|Mugdorg in the big building to the southwest (42,57), Droggam in the big building to the west (39,53).  Pull the non-elite guards first, then drop a brew between the doorway and the fire to pull the boss without the elite guards.| |U|30353|
 T The Trappings of a Vindicator
 A Gorr'Dim, Your Time Has Come...
-C Gorr'Dim, Your Time Has Come... |N|Gorr'Dim (40,49).  Same pull strategy as the last two bosses.| |U|30353|
+C Gorr'Dim, Your Time Has Come... |N|Gorr'Dim in the big building to the northwest (40,49).  Same pull strategy as the last two bosses.| |U|30353|
+C Getting the Bladespire Tanked |N|Drop a brew, let em drink, kill 'em| |U|30353|
 C The Bladespire Ogres
 T Gorr'Dim, Your Time Has Come... |N|Skip "Planting the Banner"|
 
@@ -119,7 +119,7 @@ T The Bladespire Ogres |T|
 T A Dire Situation |T|
 
 A Test Flight: Ruuan Weald |T| |N|Back at Toshley's Station|
-C Test Flight: Ruuan Weald |N|Make sure to use the weather vane in mid-air!|
+C Test Flight: Ruuan Weald |N|Make sure to use the weather vane in mid-air!| |U|31124|
 A A Time for Negotiation... |T| |N|Tree Warden at the center moonwell|
 A Creating the Pendant |T|
 T Test Flight: Ruuan Weald |T| |N|South edge of town|
@@ -129,12 +129,12 @@ A Crush the Bloodmaul Camp! |T|
 A Little Embers |T| |N|West edge of town|
 A From the Ashes |T|
 
-C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven|
+C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven| |U|30704|
 C A Time for Negotiation... |N|Keep an eye out for Overseer Nuaar, a neutral Draenei.  He walks around the camps here.|
 C Culling the Wild |N|Go south of town then east up the path. Work your way north as you kill the quest mobs|
-C From the Ashes |N|Soil at (71,22), (71,20), (71,18), this can be a tough area if you have good fire resist|
+C From the Ashes |N|Plant your seeds... Southern Soil (71.66, 22.35), Central Soil (71.65, 20.34), Northern Soil (71.57, 18.51), this can be a tough area if you have good fire resist|
 C Little Embers
-A Damaged Mask |N|If you don't have the item in your bag, kill Fel Corrupters until you get it.|
+A Damaged Mask |N|If you don't have the item in your bag, kill Fel Corrupters until you get it.| |U|31384|
 
 T Damaged Mask |T| |N|Back in Evergrove|
 A Mystery Mask |T|
@@ -149,14 +149,14 @@ T Culling the Wild |T|
 T Little Embers |T|
 T From the Ashes |T|
 
-T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator up the hill at Forge Camp: Anger (73,40)|
+T Felsworn Gas Mask |N|Put on the gas mask you idjut! Talk to the communicator up the hill at Forge Camp: Anger (73.23, 40.06)| |U|31366|
 A Deceive thy Enemy
 C Deceive thy Enemy
 T Deceive thy Enemy |N|Skip the follow-up|
 
 C Poaching from Poachers |N|Back down, northwest of Evergrove|
 C ...and a Time for Action
-A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]| |NODEBUG|
+A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]| |NODEBUG| |U|31120|
 R Bloodmaul Camp |N|Follow the road north (57,27)|
 C Crush the Bloodmaul Camp!
 C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
