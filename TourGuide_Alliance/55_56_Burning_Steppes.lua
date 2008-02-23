@@ -41,7 +41,7 @@ A Ogre Head On A Stick = Party |NODEBUG|
 T Dragonkin Menace
 A The True Masters (Part 1)
 
-C Ogre Head On A Stick = Party |NODEBUG| |N|Up on the ogre mountain (84,68)|
+C Ogre Head On A Stick = Party |NODEBUG| |N|Up on the ogre mountain (81.0, 46.8)|
 T Ogre Head On A Stick = Party |NODEBUG|
 
 F Lakeshire
