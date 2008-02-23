@@ -51,7 +51,7 @@ A Winterfall Activity
 T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring|
 A Strange Sources
 T It's a Secret to Everybody (Part 3)
-A The Videre Elixir (Part 1)
+A The Videre Elixir
 A Threat of the Winterfall
 
 R Moonglade |N|Back thru the tunnel, go north at the middle|
@@ -75,15 +75,18 @@ T The Mystery of Morrowgrain
 N Stable your pet |C|Hunter|
 N Tame an Ironfur Patriarch |C|Hunter| |N|On the mainland, 48+.  You're after Claw (Rank 7)|
 
-C The Videre Elixir (Part 1) |N|Buy some "bait" from Gregan Brewspewer at the Twin Colossals (45.1, 25.5).  Take the road north to Ruins of Ravenwind, find Miblon Snartooth (44.6, 10.2), drop the bait, and grab the Evoroot.| |Z|Feralas| |U|11141|
-T The Videre Elixir (Part 1) |N|Back at Gregan.|
+B Bait |N|From Gregan Brewspewer at the Twin Colossals (45.1, 25.5)| |L|11141|
+U Distract Miblon Snartooth |N|Take the road north to Ruins of Ravenwind (44.6, 10.2).  Drop the bait in front of him. |U|11141|
+N GRab an Evoroot |L|11242|
+N Return to Gregan |N|Give him the
+C The Videre Elixir |N|Return to Gregan and give him the root|
 
 H Astranaar
 N Get your pet back |C|Hunter|
 F Talonbranch Glade
 
 R Winterspring
-T The Videre Elixir (Part 2)
+T The Videre Elixir
 A Meet at the Grave
 
 R Everlook |N|Follow the road east.|
