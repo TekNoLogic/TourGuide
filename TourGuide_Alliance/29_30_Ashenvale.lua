@@ -70,6 +70,6 @@ A Diabolical Plans |U|23777| |O| |T|
 T Diabolical Plans |O| |T|
 A Never Again! |O| |PRE|Diabolical Plans| |T|
 C Never Again! |O| |N|To the south.  Gorgannon (90.0, 76.8) Diathorus (78.9, 84.7) Light marks the paths|
-T Never Again! |O| |T|
+T Never Again! |O| |T| |N|Back in Forest Song|
 ]]
 end)
