@@ -18,7 +18,7 @@ A Selling Fish |N|Man next to the shed|
 A A Free Lunch |N|Inside the inn|
 A Redridge Goulash |N|West of Lakeshire, inside the big house|
 
-K Great Goretusks |N|Need [Great Goretusk Snout] x5 for "Redridge Goulash"| |L|2296 5|
+K Great Goretusks |N|West of the lake, need [Great Goretusk Snout] x5 for "Redridge Goulash"| |L|2296 5|
 C Hilary's Necklace |N|Glinting Mud, underwater|
 C The Lost Tools |N|Box is east of the bridge, underwater|
 C Selling Fish |N|Kill the murlocks|
@@ -68,6 +68,6 @@ A Devourer of Souls |N|Mage Quarter in Stormwind| |C|Warlock|
 b Theramore Isle |N|Fly to Menethil Harbor, take the boat on the south dock| |C|Warlock|
 T Devourer of Souls |N|Follow the road west into the Barrens, then north (49.3, 57.1) | |C|Warlock| |Z|The Barrens|
 A Heartswood |C|Warlock|
-f Get the Ratchet flightpoint |N|You'll need it later.  Take the road north, then east from the Crossroads (62,37)| |C|Warlock| |Z|The Barrens|
+f Get the Ratchet flightpoint |N|You'll need it later.  Take the road north, then east before the Crossroads (62,37)| |C|Warlock| |Z|The Barrens|
 ]]
 end)
