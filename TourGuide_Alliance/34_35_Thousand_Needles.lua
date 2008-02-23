@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Thousand Needles (34-35)", "Stranglethorn Vale (36-40)",  "Alliance", function()
+TourGuide:RegisterGuide("Thousand Needles (34-35)", "Stranglethorn Vale (36-37)",  "Alliance", function()
 return [[
 R Feralas |N|Follow the road to the southwest edge of the zone (43,98)|
 R Feathermoon Stronghold |N|Follow the road until the path down to the docks.  Take the boat if it's there, or swim due west.|

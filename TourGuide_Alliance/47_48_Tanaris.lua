@@ -42,7 +42,7 @@ T Noxious Lair Investigation
 A The Scrimshank Redemption
 T Gahz'ridian |N|To the south (52,45)|
 
-C The Scrimshank Redemption |N|To the south at The Gaping Chasm (55,70), go to the bottom.  Take the southewest entrance, hang left until you get to the gear (55.96,71.17)|
+C The Scrimshank Redemption |N|To the south at The Gaping Chasm (55,70), go to the bottom.  Take the southewest entrance, hang left until you get to the gear (55.96, 71.17)|
 
 H Gadgetzan |N|Or deathport|
 T The Scrimshank Redemption
@@ -52,7 +52,8 @@ A Insect Part Analysis (Part 2)
 T Insect Part Analysis (Part 2)
 A Rise of the Silithid
 
-T An Orphan Looking For a Home |N|Up at the raceway in Shimmering Flats| |NODEBUG|
+T Safety First (Part 2) |N|Up at the raceway in Shimmering Flats| |NODEBUG|
+T An Orphan Looking For a Home
 A A Short Incubation
 T A Short Incubation
 N The next quest is timed!

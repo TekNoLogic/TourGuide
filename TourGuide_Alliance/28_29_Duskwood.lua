@@ -88,7 +88,8 @@ C The Totem of Infliction
 T Sven's Camp |N|Camp to the west (8,34)|
 A The Shadowy Figure
 
-H Scarlet Raven Tavern
+R Stranglethorn Vale |N|Take the road east towards Darkshire, but head south at the fork in the center of the zone.|
+F Darkshire |N|There is a flight point at the Rebel Camp along the north edge of STV (38.1, 3.8)|
 T Zombie Juice
 T The Night Watch (Part 3)
 T The Totem of Infliction
