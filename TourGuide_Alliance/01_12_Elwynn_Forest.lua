@@ -238,9 +238,9 @@ H Stormwind City
 T Mirror Lake |C|Mage|
 T Snatch and Grab |C|Rogue|
 T Surena Caledon |C|Warlock|
-A The Binding |C|Warlock|
-C The Binding |N|Summoning circle downstairs| |U|6928| |C|Warlock|
-T The Binding |C|Warlock|
+A The Binding |NODEBUG| |C|Warlock|
+C The Binding |NODEBUG| |C|Warlock| |N|Summoning circle downstairs| |U|6928|
+T The Binding |NODEBUG| |C|Warlock|
 T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin|
 A The Tome of Divinity (Part 8) |C|Paladin|
 T The Tome of Divinity (Part 8) |C|Paladin|

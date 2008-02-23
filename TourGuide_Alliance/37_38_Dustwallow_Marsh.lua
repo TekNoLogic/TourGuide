@@ -15,7 +15,7 @@ C Thresher Oil |N|In the water around the lighthouse|
 T Thresher Oil
 A Dastardly Denizens of the Deep
 T Dastardly Denizens of the Deep |N|Back on the dock (70.01, 50.81)|
-A Is It Real?
+A Is it Real?
 
 A Traitors Among Us
 C Traitors Among Us |N|Talk to the Deserter Agitators, you may have to fight some.|

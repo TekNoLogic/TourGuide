@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Badlands (40-41)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Badlands (40-41)", "Stranglethorn Vale (41-42)", "Alliance", function()
 return [[
 B [Frost Oil] |N|From AH|
 B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|

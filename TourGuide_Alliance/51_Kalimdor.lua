@@ -9,7 +9,7 @@ N Kill Jarquia |N|A murloc on the coast of Swamp of Sorrows.  For "Ledger From T
 
 F Darnassus |N|You probably want to hearth to IF|
 T Prayer to Elune (Part 2) |N|Upstairs in the Temple of the Moon|
-T Rise of the Silithid
+T Rise of the Silithid |NODEBUG|
 A March of the Silithid
 T Assisting Arch Druid Staghelm |N|In a tower in the Cenarion Enclave (34.8, 8.7)| |Z|Darnassus|
 A Un'Goro Soil

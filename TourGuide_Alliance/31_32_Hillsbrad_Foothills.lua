@@ -84,8 +84,8 @@ C Tome of the Cabal (Part 3) |Kill Dragonmaw Bonewarders and Shadowwarders to th
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly down|
 T In Search of Menara Voidrender |C|Warlock|
 T Tome of the Cabal (Part 3) |C|Warlock|
-A The Binding |N|Ratchet (62.6, 35.5)| |C|Warlock|
-C The Binding |U|6999| |C|Warlock|
-T The Binding |C|Warlock|
+A The Binding |C|Warlock| |NODEBUG| |N|Ratchet (62.6, 35.5)|
+C The Binding |C|Warlock| |NODEBUG| |U|6999|
+T The Binding |C|Warlock| |NODEBUG|
 ]]
 end)

@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Arathi Highlands (32-33)", "Desolace (33-35)", "Alliance", function()
+TourGuide:RegisterGuide("Arathi Highlands (32-33)", "Desolace (33-34)", "Alliance", function()
 return [[
 H Southshore |N|If you can or fly to Theramore Isle and take boat to Menethil Harbor| |C|Warlock|
 F Refuge Pointe

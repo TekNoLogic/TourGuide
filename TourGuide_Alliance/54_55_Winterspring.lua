@@ -41,8 +41,8 @@ T Winterfall Activity |N|Back up at the entrance to Timbermaw Hold|
 R Felwood
 T Falling to Corruption |N|Talk to the cauldren in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood|
 A Mystery Goo
-A Deadwood Ritual Totem |O| |U|20741|
-T Deadwood Ritual Totem |O| |N|Turn-in at a furblog halfway thru the hold|
+A Deadwood Ritual Totem |NODEBUG| |O| |U|20741|
+T Deadwood Ritual Totem |NODEBUG| |O| |N|Turn-in at a furblog halfway thru the hold|
 
 F Darnassus
 T Moontouched Wildkin

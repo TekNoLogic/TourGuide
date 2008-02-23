@@ -65,7 +65,7 @@ T The High Wilderness
 T Freed from the Hive
 A A Hero's Welcome
 T A Hero's Welcome
-A Rise of the Silithid
+A Rise of the Silithid |NODEBUG|
 
 F Thalanaar
 T Thalanaar Delivery
@@ -78,7 +78,7 @@ A Feralas: A History |N|From the green book|
 T Feralas: A History
 A The Borrower
 
-T Rise of the Silithid |N|In the temple of the moon, upstairs (39,86)| |Z|Darnassus|
+T Rise of the Silithid |N|In the temple of the moon, upstairs (39,86)| |Z|Darnassus| |NODEBUG|
 T Doling Justice (Part 2)
 
 H Feathermoon Stronghold

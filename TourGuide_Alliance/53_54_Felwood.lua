@@ -42,8 +42,8 @@ A Deadwood of the North
 C Deadwood of the North
 T Deadwood of the North
 A Speak to Salfa
-A Deadwood Ritual Totem |O| |U|20741|
-T Deadwood Ritual Totem |O| |N|Turn-in at a furblog halfway thru the hold|
+A Deadwood Ritual Totem |NODEBUG| |O| |U|20741|
+T Deadwood Ritual Totem |NODEBUG| |O| |N|Turn-in at a furblog halfway thru the hold|
 
 R Winterspring |N|Thru the cave!|
 T Speak to Salfa

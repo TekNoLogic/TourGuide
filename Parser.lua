@@ -164,19 +164,23 @@ function TourGuide:DebugGuideSequence(dumpquests)
 
 	self:Debug(1, "------ Begin Full Debug ------")
 
-	local name = self.db.char.currentguide
+	local name, lastzone = self.db.char.currentguide
 	repeat
-		if DebugParse(string.split("\n", self.guides[name]())) then
+		if not self.guides[name] then
+			self:DebugF(1, "Cannot find guide %q", name)
+			name, lastzone = nil, name
+		elseif DebugParse(string.split("\n", self.guides[name]())) then
 			self:DebugF(1, "Errors in guide: %s", name)
 			self:Debug(1, "---------------------------")
 		end
-		name = self.nextzones[name]
+		name, lastzone = self.nextzones[name], name
 	until not name
 
 	if dumpquests then
 		self:Debug(1, "------ Quest Continuity Debug ------")
 		DumpQuestDebug(accepts, turnins, completes)
 	end
+	self:Debug(1, "Last zone loaded:", lastzone)
 	self:Debug(1, "------ End Full Debug ------")
 end
 

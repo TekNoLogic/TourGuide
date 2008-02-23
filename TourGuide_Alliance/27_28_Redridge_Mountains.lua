@@ -3,9 +3,9 @@ return [[
 F Stormwind City
 
 T Heartswood |N|Warlock Trainer in the Mage Quarter| |C|Warlock|
-A The Binding |C|Warlock|
-C The Binding |U|6913| |C|Warlock|
-T The Binding |C|Warlock|
+A The Binding |C|Warlock| |NODEBUG|
+C The Binding |C|Warlock| |NODEBUG| |U|6913|
+T The Binding |C|Warlock| |NODEBUG|
 
 F Redridge Mountains
 A Blackrock Bounty

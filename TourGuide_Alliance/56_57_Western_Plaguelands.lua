@@ -91,6 +91,5 @@ T The Wildlife Suffers Too (Part 2)
 
 T Return to Chillwind Camp (Part 4) |N|Back at Chillwind Camp, of course.|
 N Mission Accomplished! |N|Talk to Commander Ashlam Valorfist|
-T Skeletal Fragments
 ]]
 end)

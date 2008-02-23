@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Stranglethorn Vale (41-42)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Stranglethorn Vale (41-42)", "Feralas (43-45)", "Alliance", function()
 return [[
 F Stormwind City
 A In Search of The Temple |N|In the Dwarven District (63,24)| |Z|Stormwind City| |NODEBUG|

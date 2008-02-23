@@ -50,10 +50,10 @@ A Insect Part Analysis (Part 1)
 T Insect Part Analysis (Part 1)
 A Insect Part Analysis (Part 2)
 T Insect Part Analysis (Part 2)
-A Rise of the Silithid
+A Rise of the Silithid |NODEBUG|
 
 T Safety First (Part 2) |N|Up at the raceway in Shimmering Flats| |NODEBUG|
-T An Orphan Looking For a Home
+T An Orphan Looking For a Home |NODEBUG|
 A A Short Incubation
 T A Short Incubation
 N The next quest is timed!

@@ -14,8 +14,8 @@ B [Bronze Tube] |N|Engineering vendor sells this sometimes, but auction or an en
 R Darkshire |N|Usually faster to fly to Redridge and take the road southwest|
 T The Missing Diplomat (Part 4) |N|North of Darkshire walking along the road|
 A The Missing Diplomat (Part 5)
-A Look To The Stars (Part 1) |N|Southeast from flight point in the house| |NODEBUG|
-C Look To The Stars (Part 1) |N|If you don't have have a tube, Herble Baubbletump sells them in limited supply.|
+A Look To The Stars (Part 1) |NODEBUG| |N|Southeast from flight point in the house| |NODEBUG|
+C Look To The Stars (Part 1) |NODEBUG| |N|If you don't have have a tube, Herble Baubbletump sells them in limited supply.|
 T Look To The Stars (Part 1) |NODEBUG|
 A Look To The Stars (Part 2) |NODEBUG|
 A Worgen in the Woods (Part 1)
@@ -112,6 +112,5 @@ T An Old History Book |N|Turn in to the Stormwind Library.| |O|
 A Southshore |O| |PRE|An Old History Book|
 T The Missing Diplomat (Part 9) |N|Trade District (60,64)| |Z|Stormwind City|
 A The Missing Diplomat (Part 10)
-A Seeking Strahad |N|In the Mage Quarter, requires level 30.| |C|Warlock|
 ]]
 end)
