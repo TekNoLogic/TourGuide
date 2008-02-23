@@ -34,7 +34,7 @@ A They Call Him Smiling Jim
 A Tabetha's Farm
 T They Call Him Smiling Jim |N|Inside the keep|
 A Inspecting the Ruins
-h Theramore
+h Theramore Isle
 A Mission to Mudsprocket
 
 A Defias in Dustwallow? |N|Follow the road out of town to the tower (59,40)|
@@ -114,83 +114,121 @@ T Corrosion Prevention
 T Secure the Cargo!
 A Delivery for Drazzit
 
+T Is it Real? |N|On an island to the southeast (58.72, 60.18)|
+A Nat's Bargain
+C Nat's Bargain |N|Head to the ship wreckage to the southwest (57,63) and use the fish paste.| |U|33166|
+T Nat's Bargain
+A Oh, It's Real
+
+R Mudsprocket |N|Back on the mainland to the southwest (42.31, 72.94)|
+T Delivery for Drazzit
+T Mission to Mudsprocket
+A WANTED: Goreclaw the Ravenous
+A Catch a Dragon By the Tail
+A Bloodfen Feathers
+
+N Wyrmtail... |N|Loot any Wyrmtail you come across for "Catch a Dragon By the Tail"|
+C Bloodfen Feathers |N|Northwest of town at the Bloodfen Burrow|
+C WANTED: Goreclaw the Ravenous |N|In front of the cave (33.52, 65.76)|
+
+T WANTED: Goreclaw the Ravenous |N|Back at Mudsprocket|
+T Bloodfen Feathers
+A Banner of the Stonemaul
+A The Essence of Enmity
+
+C Banner of the Stonemaul |N|Follow the road northwest to the Den of Flames (39,66).  Stay left unti you find the Stonemaul Clan Banner (38.13, 69.37).  Make sure you use the totem on the dragonkin after you kill them for "The Essence of Enmity".| |U|33088|
+C The Essence of Enmity |U|33088| |N|Kill dragonkin, use the totem on their corpses.|
+
+T Banner of the Stonemaul |N|Back at Mudsprocket|
+T The Essence of Enmity
+A Spirits of Stonemaul Hold
+
+C Spirits of Stonemaul Hold |N|North at Stonemaul Ruins, talk to the bones.|
+
+T Spirits of Stonemaul Hold
+A Challenge to the Black Flight
+
+C Challenge to the Black Flight |N|East outside the entrance to Onyxia's Lair.  Plant the banner and kill the dragon.  If you can't plant the banner, back out of the cave.| |U|33095|
+C Catch a Dragon By the Tail
+
+T Challenge to the Black Flight |N|Back at Mudsprocket|
+T Catch a Dragon By the Tail
+
+T Oh, It's Real |N|Back in Theramore|
+A Take Down Tethyr!
+C Take Down Tethyr! |N|Use the cannons on the pier, be careful of his water blasts.|
+T Take Down Tethyr!
+T Suspicious Hoofprints
+T Lieutenant Paval Reethe (Part 1)
+A Lieutenant Paval Reethe (Part 2)
+T The Black Shield (Part 1)
+A The Black Shield (Part 2)
+T Lieutenant Paval Reethe (Part 2)
+A Daelin's Men
+T Daelin's Men
+A The Deserters (Part 1)
+T Stinky's Escape |N|In the inn|
+T The Orc Report |N|Near the entrance to town|
+A Captain Vimes
+T The Black Shield (Part 2) |N|At the smithy's|
+A The Black Shield (Part 3)
+T The Black Shield (Part 3)
+T Captain Vimes
+
+T Jarl Needs Eyes |N|Northwest at Swamplight Manor (55,26)|
+A Jarl Needs a Blade
+
+C Jarl Needs a Blade |N|Head north to the beach (58.09, 17.78)|
+C Hungry! |N|Kill murlocs along the coast or on the islands|
+
+T Renn McGill |N|On the southeast island (63.68, 17.03)|
+A Secondhand Diving Gear
+C Secondhand Diving Gear
+T Secondhand Diving Gear
+A Recover the Cargo!
+U Open the supplies |U|33045|
+U Put on the Diving Gear |U|33040|
+C Recover the Cargo! |N|Find burning wreckage on the water's surface, dive down below it and use the Salvage Kit on the debris.| |U|33044|
+T Recover the Cargo!
+A Jaina Must Know
+
+T Jarl Needs a Blade
+T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)|
+T The Deserters (Part 1) |N|Beat down Balos Jacken at Lost Point Tower to the south (35,53) until he'll talk to you|
+A The Deserters (Part 2)
+
+H Theramore Isle
+T The Deserters (Part 2)
+A A Grim Connection
+T Jaina Must Know
+A Survey Alcaz Island
+C Survey Alcaz Island |N|Head down to the apprentice gryphon master and take the flight... DON'T SWIM OUT TO THE ISLAND!|
+T Survey Alcaz Island
+A Warn Bolvar!
+T Warn Bolvar! |N|Jiana can port you to Stormwind.  Bolvar is in the Keep of course (78.23, 18.38)| |Z|Stormwind City|
+A Return to Jaina
+T Return to Jaina |N|Malin in the Mage Quarter (39,81) can port your back|
+
+T A Grim Connection |N|Take the road northwest out of town to North Point tower|
+A Confirming the Suspicion
+A Arms of the Grimtotems
+
+C Arms of the Grimtotems
+C Confirming the Suspicion |N|Collect 4 notes, then combine them| |U|33050|
+
+T Confirming the Suspicion |N|Back at the tower|
+T Arms of the Grimtotems
+A Tabetha's Assistance
+
+T Tabetha's Assistance |N|At her farm, of course (45,57)|
+A Raze Direhorn Post!
+C Raze Direhorn Post! |N|Burn the tents to the north of the farm.  North Tent (46,45), Northeast Tent (47,46), East Tent (47,48)| |U|33072|
+T Raze Direhorn Post!
+A Justice for the Hyals
+
+T Justice for the Hyals |N|Back in Theramore.  Run down to Mudsprocket and fly up.|
+A Peace at Last
+C Peace at Last |N|Just outside Theramore at the graveyard|
+T Peace at Last
 ]]
 end)
-
---[[
-49) Go SE through the mountains, you should see the path, and you will see a few islands. Go to the one with the tent at 58,60 and at Nat Pagle turn in "Is it Real?" accept "Nat's Bargain"
-50) Go west towards the sunken ship and clear a little spot near it. Use Pagle's Fish Paste and a shark will come out. Just kill it and go back to Pat and turn it in and accept "Oh, It's Real"
-51) Go back through the mountains the way you came follow the road west to 40,61 and then go south into Mudsprocket
-52) Grab the FP to the left of the entrance
-53) Enter the left building and go to Drazzit Dripvalve and turn in "Delivery for Drazzit" and "Mission to Mudsprocket"
-54) On the wanted sign accept "WANTED: Goreclaw the Ravenous"
-55) From Gizzix Grimegurgle accept "Catch a Dragon By the Tail"
-56) Go inside the Inn to Brogg and accept "Bloodfen Feathers"
-57) Run NW, may be safest to take the road close to it, to Bloodfen Burrow at 31,66 and kill the raptors for feathers for "Bloodfen Feathers" and then in front of the cave kill Goreclaw the Ravenous for "WANTED: Goreclaw the Ravenous"
-58) Go east into the Stonemaul Ruins and on the east side it should say you're in the Dragonmurk, or you can go just east of Mudsprocket, around 48,66 where you want to collect wyrmtail plants for "Catch a Dragon By the Tail"
-59) Go back to Mudsprocket
-60) Go to Drazzit on the left and turn in "WANTED: Goreclaw the Ravenous"
-61) Outside at Gizzix turn in "Catch a Dragon By the Tail"
-62) Go in the Inn to Brogg and turn in "Bloodfen Feathers" accept "Banner of the Stonemaul" and "The Essence of Enmity"
-63) Follow the road NW to The Den of Flames at 39,66 and make your way to the back of the cave keeping left the whole time. Kill the dragonkin along the way and use Brogg's Totem on their dead bodies for "The Essence of Enmity" and once you get to the back of the cave grab the stonemaul clan banner for "Banner of the Stonemaul"
-64) Go back to Mudsprocket
-65) Go in the Inn to Brogg and turn in "Banner of the Stonemaul" and "The Essence of Enmity" accept "Spirits of Stonemaul Hold"
-66) Go NE to the Stonemaul Ruins and click on the ogre bones lying all over. When you do a ghost ogre will come out that you need to kill
-67) Go back to Mudsprocket to Brogg and turn it in and accept "Challenge to the Black Flight"
-68) Go east to Onyxia's Lair entrance at 52,75 and plant the stonemaul banner. Kill the 41 dragon Smolderwing who appears
-69) Go back to Brogg and turn it in for a nice xp reward
-70) You should be about 10% through 41
-71) Fly to Theramore
-72) Go east on the docks to Major Mills and turn in "Oh, It's Real" accept "Take Down Tethyr!"
-73) Now Tethyr is going to appear in a moment. Marksmen are going to line all 3 sides of the dock. Your job is to use the mortars that are positioned on each side of the docks. It's fastest and easiest to go back and forth between the one closest to where you start the quest and the one to the north in case you get blown back by Tethyrs blast. After going back and forth a few times he'll die and everyone will cheer. Turn it back in
-74) Turn around to Captain Vimes and turn in “Suspicious Hoofprints” “Lieutenant Paval Reethe pt.1” accept “Lieutenant Paval Reethe pt.2” and turn in “The Black Shield pt.1” accept “The Black Shield pt.2”
-75) Turn around to Tesoran and turn in “Lieutenant Paval Reethe pt.2” accept “Daelin's Men” then turn around to Captain Vimes again and turn it in and accept “The Deserters pt.1”
-76) Go into the Inn to Morgan Stern and turn in “Stinky's Escape”
-77) Go towards the town entrance to Aden and turn in “The Orc Report” accept “Captain Vimes”
-78) Go west to the blacksmith house at 64,50 to Caz Twosprocket and turn in “The Black Shield pt.2” accept “The Black Shield pt.3”
-79) Go back to Captain Vimes and turn in “The Black Shield pt.3” and “Captain Vimes”
-81) Run up NW to Swamplight Manor to Jarl at 55,26 and turn in “Jarl Needs eyes” accept “Jarl Needs A Blade”
-82) Go NE to 57,20 and on the walkway to the beach kill Razorspine for his sword
-83) Follow the path out to the beach and kill the murlocs for their heads for “Hungry!”
-84) Once you have all the heads go to the east of the little island in the water at 63,17 to Ren McGill and turn in "Renn McGill" accept "Secondhand Diving Gear"
-85) Go onto the Island near the tents and pick up the tools and diving gear and then turn it back in to Ren and accept "Recover the Cargo!"
-86) Now this is pretty easy. There are floating boards in the ocean that mark the cargo below. Swim down and mine it with the salvage kit. You may want to put on the deepdive helmet for water breathing
-87) Once you’re done go back to Ren and turn it in and accept "Jaina Must Know"
-88) Go back to Jarl and turn in “Jarl Needs A Blade”
-89) Go SW to Mudcrush Durtfeet at 35,38 turn in “Hungry!”
-90) Go south to the Lost Point Tower at 35,53 and attack Balos Jacken, at 25% life he’ll become friendly and you can turn in “The Deserters pt.1” and accept “The Deserters pt.2”
-91) Hearth to Theramore
-92) Go into the castle behind the Inn and go upstairs to Captain Vimes and turn in “The Deserters pt.2” accept "A Grim Connection"
-93) Go to the top of the tower in the middle of town to Jaina and turn in "Jaina Must Know" accept "Survey Alcaz Island"
-94) Go down to the FP and talk to Cassa, the apprentice gryphon master, and take a flight
-95) Now for a little relaxing. Sit back and watch where you’re taken to. The island looks pretty neat
-96) Go back up to the tower to Jaina and turn it in and accept "Warn Bolvar!" but don't ask her to make you a portal just yet unless you want to use the free trip to Stormwind to get your mount and train
-97) You should be about 75-80% to 42
-98) Go NW to the second tower at 46,23 to Captain Darill and turn in "A Grim Connection" accept "Confirming the Suspicion” and "Arms of the Grimtotems"
-99) Go NW to the Grimtotem camp at 45,18 and kill the elders and get 4 notes to combine for "Confirming the Suspicion” and pick up armaments lying around the camp for "Arms of the Grimtotems"
-100) Go back SW to Darill in the tower and turn them both in and accept "Tabetha's Assistance"
-101) Run down to Tabetha's Farm at 45,57 and turn it in and accept "Raze Direhorn Post!"
-102) Go north to 46,51 and torch all 3 tents. You really don't have to kill anything if you go in from the east side and torch them from the back
-103) Go back to Tabetha and turn it in and accept "Justice for the Hyals"
-104) Run to Mudsprocket
-105) Fly to Theramore
-106) Go up to Captain Vimes and turn in "Justice for the Hyals" accept "Peace at Last"
-107) Go just outside of Theramore to the graveyard on the right and lay the wreath down
-108) Go back to Vimes and turn it in and finally get a close on the story of Shady Rest Inn
-109) You should be 42 now
-110) Fly to Gadgetzan
-111) Run up to the Shimmering Flats to Razzeric in the Mirage Raceway at 80,76 and turn in “Razzeric's Tweaking” accept “Safety First pt.1”
-112) Go back to Gadget and turn it in to Shreev on the NW side of town and accept “Safety First pt.2”
-113) Go back into the Shimmering Flats to the Mirage Raceway again to Razzeric and turn it in
-114) Draenei and Night Elves who still need their mount and skills should probably fly and get it before hearthing to Theramore
-115) Hearth to Theramore
-116) Go up to the tower to Jaina and have her port you to Stormwind and when you get there turn in "Warn Bolvar!" accept "Return to Jaina"
-117) Go get your mount and train
-118) Once you're ready go to the Mage Quarter of Stormwind to Malin at 39,81 and have him port you back to Theramore
-119) When you get there turn in "Return to Jaina"
-120) You should be about 20% through 42
-121) Fly to Rachet
-122) Take the boat to Booty Bay
--------------------------------
-
-]]
