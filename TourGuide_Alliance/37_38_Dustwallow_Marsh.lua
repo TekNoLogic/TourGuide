@@ -1,7 +1,13 @@
 
 TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (38-40)", "Alliance", function()
 return [[
-F Theramore Isle |N|Boat to Ratchet and fly down|
+b Ratchet
+T Goblin Sponsorship (Part 5)
+A The Eighteenth Pilot
+T The Eighteenth Pilot |N|Fly down to Gadgetzan and run up to the raceway|
+A Razzeric's Tweaking
+
+F Theramore Isle |N|Run back down to Gadgetzan and fly up|
 A This Old Lighthouse
 T This Old Lighthouse |N|On the lighthouse island northeast of Theramore (72.06, 47.02)|
 A Thresher Oil
