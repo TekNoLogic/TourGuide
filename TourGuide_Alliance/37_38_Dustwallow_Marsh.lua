@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (38-40)", "Alliance", function()
 return [[
 A This Old Lighthouse
 T This Old Lighthouse |N|On the lighthouse island northeast of Theramore (72.06, 47.02)|
