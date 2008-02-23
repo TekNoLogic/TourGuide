@@ -1,7 +1,9 @@
 
 TourGuide:RegisterGuide("Desolace (33-34)", "Thousand Needles (34-35)",  "Alliance", function()
 return [[
-R Nijel's Point |N|Along the northern edge of Desolace (64,10).  If you don't know the way, fly to Stonetalon Peak and run south thru the Charred Vale|
+b Theramore Isle |N|Fly to Menethil Harbor and take the boat on the southern pier|
+F Astranaar
+R Nijel's Point |N|From Astranaar run south thru the Talondeep Path, southwest thru Windshear Crag to the road, northwest along the road to Mirkfallon Lake, then southwest thru the Charred Veil into Desolace.  Nijel's Point is along the northern edge of Desolace (64,10).  |
 A Vahlarriel's Search (Part 1) |T|
 A Centaur Bounty |T|
 T Reclaimers' Business in Desolace |T|
