@@ -34,10 +34,14 @@ A They Call Him Smiling Jim
 A Tabetha's Farm
 T They Call Him Smiling Jim |N|Inside the keep|
 A Inspecting the Ruins
+T The Missing Diplomat (Part 13)
+A The Missing Diplomat (Part 14)
 h Theramore Isle
 A Mission to Mudsprocket
 
-A Defias in Dustwallow? |N|Follow the road out of town to the tower (59,40)|
+T The Missing Diplomat (Part 14) |N|Inside the tower along road northwest of Theramore (59.7, 41.1).  If he is not there just wait, he'll be back.|
+A The Missing Diplomat (Part 15)
+A Defias in Dustwallow?
 C Defias in Dustwallow? |N|Kill Garn Mathers on the island to the northeast (63.40, 28.12)|
 T Defias in Dustwallow? |N|Back at the tower|
 A Renn McGill
@@ -61,6 +65,13 @@ C Cleansing Witch Hill |N|Plant the torch at the end of the dock and kill the ba
 T Cleansing Witch Hill
 
 A Raptor Captor |N|Follow the road northwest to North Point Tower (46.65, 23.12)|
+T The Missing Diplomat (Part 15)
+A The Missing Diplomat (Part 16)
+C The Missing Diplomat (Part 16)
+T The Missing Diplomat (Part 16)
+A The Missing Diplomat (Part 17) |N|If Jiana ports away, you can find her in the tower at the center of Theramore Isle|
+T The Missing Diplomat (Part 17)
+
 C Raptor Captor |U|33069| |N|Fight raptors to the north of the tower down to low health, then use the rope on them.|
 
 A Stinky's Escape |N|In the area near the raptors (46.78, 17.00)|
