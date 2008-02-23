@@ -46,7 +46,7 @@ C Reclaiming Felfire Hill
 C Forsaken Diseases |N|Go southwest across the river (75,71)|
 C Fallen Sky Lake |N|Kill the Oracle (66.65, 82.16)|
 
-C The Tower of Althalaxx (Part 6) |N|North of Fallen Sky Lake at Night Run (64.80, 43.80).  Right click on the ground below the pink crystal.|
+C The Tower of Althalaxx (Part 6) |N|Follow the road northwest from Fallen Sky Lake past Raynewood Retreat (64.80, 43.80), then double back along the ridge east of the road to the crystal in Night Run (67,54).|
 C Raene's Cleansing |N|Kill treants for the key and open the box (54,35)|
 C The Howling Vale |N|Click on the book (50,39)|
 T Raene's Cleansing |N|Go south (53,46)|
