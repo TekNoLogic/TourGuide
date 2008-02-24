@@ -97,7 +97,7 @@ function TourGuide:CreateObjectivePanel()
 		b:SetScript("OnClick", function() frame:Hide(); self:DebugGuideSequence(true) LibStub("OptionHouse-1.1"):Open("tekDebug", "TourGuide") end)
 	end
 
-	title = ww.SummonFontString(frame, nil, "SubZoneTextFont", nil, "BOTTOM", frame, "TOP", 0, 10)
+	title = ww.SummonFontString(frame, nil, "SubZoneTextFont", nil, "BOTTOM", frame, "TOP")
 	local fontname, fontheight, fontflags = title:GetFont()
 	title:SetFont(fontname, 18, fontflags)
 
