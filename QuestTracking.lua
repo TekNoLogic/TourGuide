@@ -43,9 +43,10 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 
 	if action == "SETHEARTH" then
 		local _, _, loc = msg:find(L["(.*) is now your home."])
-		if loc and loc == quest then
+		if loc then
 			self:DebugF(1, "Detected setting hearth to %q", loc)
-			return self:SetTurnedIn()
+			self.db.char.hearth = loc
+			return loc == quest and self:SetTurnedIn()
 		end
 	end
 
