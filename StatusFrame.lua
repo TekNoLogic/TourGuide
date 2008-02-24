@@ -152,7 +152,8 @@ function TourGuide:UpdateStatusFrame()
 			local prereqturnedin = prereq and self.turnedin[prereq]
 
 			-- Test for completed objectives and mark them done
-			if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == name or GetZoneText() == name) then return self:SetTurnedIn(i, true) end
+			local zonetext, subzonetext, subzonetag = GetZoneText(), GetSubZoneText(), self:GetObjectiveTag("SZ")
+			if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (subzonetext == name or subzonetext == subzonetag or zonetext == name or zonetext == subzonetag) then return self:SetTurnedIn(i, true) end
 
 			if action == "KILL" or action == "NOTE" then
 				if not optional and haslootitem then return self:SetTurnedIn(i, true) end

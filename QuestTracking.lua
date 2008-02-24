@@ -26,9 +26,9 @@ function TourGuide:PLAYER_LEVEL_UP(event, newlevel)
 end
 
 
-function TourGuide:ZONE_CHANGED()
-	local action, quest = self:GetObjectiveInfo()
-	if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (GetSubZoneText() == quest or GetZoneText() == quest) then
+function TourGuide:ZONE_CHANGED(...)
+	local zonetext, subzonetext, subzonetag, action, quest = GetZoneText(), GetSubZoneText(), self:GetObjectiveTag("SZ"), self:GetObjectiveInfo()
+	if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (subzonetext == quest or subzonetext == subzonetag or zonetext == quest or zonetext == subzonetag) then
 		self:DebugF(1, "Detected zone change %q - %q", action, quest)
 		self:SetTurnedIn()
 	end
