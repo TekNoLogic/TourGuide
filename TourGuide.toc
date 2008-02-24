@@ -16,7 +16,6 @@
 ## X-LoadOn-Always: delayed
 
 Dongle.lua
-OptionHouse.lua
 WidgetWarlock.lua
 
 Locale.lua

@@ -11,7 +11,6 @@ local ICONSIZE, CHECKSIZE, GAP = 16, 16, 8
 local FIXEDWIDTH = ICONSIZE + CHECKSIZE + GAP*4 - 4
 
 local TourGuide = TourGuide
-local OptionHouse = LibStub("OptionHouse-1.1")
 local ww = WidgetWarlock
 
 
@@ -259,7 +258,7 @@ end
 
 
 f:SetScript("OnClick", function(self, btn)
-	if TourGuide.db.char.currentguide == "No Guide" then OptionHouse:Open("Tour Guide", "Guides")
+	if TourGuide.db.char.currentguide == "No Guide" then InterfaceOptionsFrame_OpenToFrame(TourGuide.guidespanel)
 	else
 		if btn == "RightButton" then
 			if TourGuide.objectiveframe:IsVisible() then
