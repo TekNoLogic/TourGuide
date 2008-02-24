@@ -1,11 +1,7 @@
 
 
 local TourGuide = TourGuide
-local ww = WidgetWarlock
-WidgetWarlock = nil
-
-
-local NUMROWS, GAP, ROWHEIGHT = 20, 4, 20
+local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 18, 17, 8, 16
 local offset, rows = 0, {}
 
 
@@ -15,13 +11,8 @@ frame.name = "Guides"
 frame.parent = "Tour Guide"
 frame:Hide()
 frame:SetScript("OnShow", function()
-	local function HideTooltip() GameTooltip:Hide() end
-	local function ShowTooltip(f)
-		if TourGuide.db.char.completion[f.guide] ~= 1 then return end
+	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", "This panel lets you choose a guide to load.  Upon completion the next guide wil load automatically.  Completed guides can be reset by shift-clicking.")
 
-		GameTooltip:SetOwner(f, "ANCHOR_RIGHT")
-		GameTooltip:SetText("This guide has been completed.  Shift-click to reset it.", nil, nil, nil, nil, true)
-	end
 	local function OnClick(self)
 		if IsShiftKeyDown() then
 			TourGuide.db.char.completion[self.guide] = nil
@@ -38,32 +29,28 @@ frame:SetScript("OnShow", function()
 			end
 		end
 	end
-
-
 	rows = {}
 	for i=1,NUMROWS do
-		local anchor, point = rows[i-1], "BOTTOMLEFT"
-		if i == 1 then anchor, point = frame, "TOPLEFT" end
-
 		local row = CreateFrame("CheckButton", nil, frame)
-		if i == 1 then row:SetPoint("TOP", frame, 0, -GAP)
+		if i == 1 then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP)
 		else row:SetPoint("TOP", rows[i-1], "BOTTOM") end
-		row:SetPoint("LEFT", frame, GAP, 0)
-		row:SetPoint("RIGHT", frame, -GAP, 0)
+		row:SetPoint("LEFT", frame, EDGEGAP, 0)
+		row:SetPoint("RIGHT", frame, -EDGEGAP, 0)
 		row:SetHeight(ROWHEIGHT)
 
-		local highlight = ww.SummonTexture(row, nil, nil, nil, "Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		local highlight = row:CreateTexture()
+		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
 		highlight:SetTexCoord(0, 1, 0, 0.578125)
 		highlight:SetAllPoints()
 		row:SetHighlightTexture(highlight)
 		row:SetCheckedTexture(highlight)
 
-		local text = ww.SummonFontString(row, nil, "GameFontWhite", nil, "LEFT", GAP, 0)
-		local complete = ww.SummonFontString(row, nil, "GameFontWhite", nil, "RIGHT", -GAP, 0)
+		local text = row:CreateFontString(nil, nil, "GameFontWhite")
+		text:SetPoint("LEFT", GAP, 0)
+		local complete = row:CreateFontString(nil, nil, "GameFontWhite")
+		complete:SetPoint("RIGHT", -GAP, 0)
 
 		row:SetScript("OnClick", OnClick)
-		row:SetScript("OnEnter", ShowTooltip)
-		row:SetScript("OnLeave", HideTooltip)
 
 		row.text = text
 		row.complete = complete
@@ -79,6 +66,7 @@ frame:SetScript("OnShow", function()
 	end)
 
 
+	local fadein = LibStub("tekKonfig-FadeIn").FadeIn
 	local function newoffset()
 		for i,name in ipairs(TourGuide.guidelist) do
 			if name == TourGuide.db.char.currentguide then return i - (NUMROWS/2) - 1 end
@@ -89,19 +77,15 @@ frame:SetScript("OnShow", function()
 		if offset >= (#TourGuide.guidelist - NUMROWS) then offset = #TourGuide.guidelist - NUMROWS - 1 end
 		if offset < 0 then offset = 0 end
 		TourGuide:UpdateGuidesPanel()
-
-		self:SetAlpha(0)
-		self:SetScript("OnUpdate", ww.FadeIn)
+		fadein(self)
 	end
-
 	frame:SetScript("OnShow", OnShow)
-	ww.SetFadeTime(frame, 0.5)
 	OnShow(frame)
 end)
 
 
 function TourGuide:UpdateGuidesPanel()
-	if not frame or not frame:IsVisible() then return end
+	if not frame:IsVisible() then return end
 	for i,row in ipairs(rows) do
 		row.i = i + offset + 1
 

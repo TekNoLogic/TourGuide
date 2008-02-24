@@ -242,6 +242,7 @@ function TourGuide:UpdateStatusFrame()
 	else self:PLAYER_REGEN_ENABLED() end
 
 	self:UpdateOHPanel()
+	self:UpdateGuidesPanel()
 end
 
 
