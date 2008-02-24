@@ -59,12 +59,14 @@ frame:SetScript("OnShow", function()
 		row:SetCheckedTexture(highlight)
 
 		local text = ww.SummonFontString(row, nil, "GameFontWhite", nil, "LEFT", GAP, 0)
+		local complete = ww.SummonFontString(row, nil, "GameFontWhite", nil, "RIGHT", -GAP, 0)
 
 		row:SetScript("OnClick", OnClick)
 		row:SetScript("OnEnter", ShowTooltip)
 		row:SetScript("OnLeave", HideTooltip)
 
 		row.text = text
+		row.complete = complete
 		rows[i] = row
 	end
 
@@ -77,7 +79,15 @@ frame:SetScript("OnShow", function()
 	end)
 
 
+	local function newoffset()
+		for i,name in ipairs(TourGuide.guidelist) do
+			if name == TourGuide.db.char.currentguide then return i - (NUMROWS/2) - 1 end
+		end
+	end
 	local function OnShow(self)
+		offset = newoffset()
+		if offset >= (#TourGuide.guidelist - NUMROWS) then offset = #TourGuide.guidelist - NUMROWS - 1 end
+		if offset < 0 then offset = 0 end
 		TourGuide:UpdateGuidesPanel()
 
 		self:SetAlpha(0)
@@ -96,13 +106,14 @@ function TourGuide:UpdateGuidesPanel()
 		row.i = i + offset + 1
 
 		local name = self.guidelist[i + offset + 1]
-		local complete = self.db.char.currentguide == name and (self.current-1)/#self.actions or self.db.char.completion[name]
+		row.text:SetText(name)
 		row.guide = name
-
-		local r,g,b = self.ColorGradient(complete or 0)
-		local text = complete and complete ~= 0 and string.format("%s |cff%02x%02x%02x[%d%%]", name, r*255, g*255, b*255, complete*100) or name
-		row.text:SetText(text)
 		row:SetChecked(self.db.char.currentguide == name)
+
+		local complete = self.db.char.currentguide == name and (self.current-1)/#self.actions or self.db.char.completion[name]
+		local r,g,b = self.ColorGradient(complete or 0)
+		local completetext = complete and complete ~= 0 and string.format("|cff%02x%02x%02x%d%% complete", r*255, g*255, b*255, complete*100)
+		row.complete:SetText(completetext)
 	end
 end
 
