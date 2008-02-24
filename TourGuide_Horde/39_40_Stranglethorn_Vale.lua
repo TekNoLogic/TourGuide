@@ -25,7 +25,7 @@ T Panther Mastery (Part 3)
 T Raptor Mastery (Part 3)
 A Raptor Mastery (Part 4) |N|Tethis, don't do it yet|
 
-H The Salty Sailor Tavern
+H Booty Bay |SZ|The Salty Sailor Tavern|
 T The Bloodsail Buccaneers (Part 1)|N|NW of BB at (27,69) click on the note|
 A The Bloodsail Buccaneers (Part 2)
 

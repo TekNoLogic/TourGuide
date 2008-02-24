@@ -18,7 +18,7 @@ C Venture Company Mining |N|East past the road (41,41)|
 C Skullsplitter Tusks |N|In the camps around (42,37)|
 C Panther Mastery (Part 4) |N|Bhag'thera is anywhere between just north of Mosh'ogg (49,25) to just north of the ZG entrance (48,17)|
 
-H Booty Bay
+H Booty Bay |SZ|The Salty Sailor Tavern|
 T Venture Company Mining
 T Skullsplitter Tusks |N|Upstairs|
 T Water Elementals |N|Skip next part|
@@ -49,7 +49,7 @@ A Raptor Mastery (Part 4)
 A The Green Hills of Stranglethorn
 T The Green Hills of Stranglethorn
 
-H Booty Bay
+H Booty Bay |SZ|The Salty Sailor Tavern|
 T Excelsior
 F City of Ironforge
 ]]

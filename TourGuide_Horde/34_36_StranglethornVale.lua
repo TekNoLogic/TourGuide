@@ -62,7 +62,7 @@ C The Defense of Grom'gol (Part 2) |N|Southeast of Grom'gol at the Mizjah Ruins 
 T Panther Mastery (Part 3) |N|Back at Nessingwary's, of course.|
 A Panther Mastery (Part 4)
 
-H Booty Bay
+H Booty Bay |SZ|The Salty Sailor Tavern|
 T Singing Blue Shards
 T Hostile Takeover
 T Bloodscalp Ears

@@ -62,7 +62,7 @@ T A Rogue's Deal (Part 2)
 C Fields of Grief (Part 1) |N|At the farm above Deathknell (35,50)|
 C At War With The Scarlet Crusade (Part 1)
 
-H Gallows' End Tavern
+H Brill |SZ|Gallows' End Tavern|
 A Deaths in the Family
 A The Haunted Mills
 A The Chill of Death
@@ -98,7 +98,7 @@ C The Mills Overrun |N|At Agamand Mills|
 C The Haunted Mills
 C Deaths in the Family
 
-H Gallows' End Tavern
+H Brill |SZ|Gallows' End Tavern|
 T Deaths in the Family
 T The Haunted Mills
 A Speak with Sevren
@@ -133,7 +133,7 @@ C The Lich's Identity |N|Book on the island (67,42)|
 C At War With The Scarlet Crusade (Part 3)
 C A New Plague (Part 3)
 
-H Gallows' End Tavern
+H Brill |SZ|Gallows' End Tavern|
 T At War With The Scarlet Crusade (Part 3)
 A At War With The Scarlet Crusade (Part 4)
 T A New Plague (Part 3)

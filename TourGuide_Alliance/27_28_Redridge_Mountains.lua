@@ -31,7 +31,7 @@ T Blackrock Bounty
 C Wanted: Lieutenant Fangore |N|Far east, in a gnoll camp in Galardell Valley (79,39)|
 C Solomon's Law
 
-H Lakeshire Inn
+H Lakeshire |SZ|Lakeshire Inn|
 T Solomon's Law
 T Wanted: Lieutenant Fangore
 ]]

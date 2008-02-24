@@ -31,7 +31,7 @@ T Mok'thardin's Enchantment (Part 4) |N|Back at Grom'gol Base Camp|
 C Big Game Hunter |N|Can you solo? He's at (38,35)|
 T Big Game Hunter |N|Run up there|
 
-H The Salty Sailor Tavern |N|Booty Bay|
+H Booty Bay |SZ|The Salty Sailor Tavern|
 T Venture Company Mining
 T Zanzil's Secret
 T Up to Snuff

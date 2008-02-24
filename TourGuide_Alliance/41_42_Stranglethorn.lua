@@ -50,7 +50,7 @@ T Panther Mastery (Part 3) |N|Back at Nessingwary's Camp (35,10)|
 T Raptor Mastery (Part 3)
 T Kurzen's Mystery |N|North at the rebel camp|
 
-H Booty Bay
+H Booty Bay |SZ|The Salty Sailor Tavern|
 T Venture Company Mining |N|At Crank Fizzlebub in the Inn.|
 T Up to Snuff |N|At Deeg on the 2nd Floor of the Inn.|
 T Skullsplitter Tusks |N|At Kebok, 2nd floor of the Inn.|

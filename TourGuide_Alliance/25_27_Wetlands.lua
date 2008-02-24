@@ -57,7 +57,7 @@ C Young Crocolisk Skins
 T Fire Taboo
 A Blisters on The Land |NODEBUG|
 
-H Deepwater Tavern
+H Menethil Harbor |SZ|Deepwater Tavern|
 T The Absent Minded Prospector (Part 5) |N|Inn, upstairs| |T|
 T Claws from the Deep |T|
 A Reclaiming Goods |T|
@@ -84,7 +84,7 @@ C Digging Through the Ooze |N|Around Ironbeard's Tomb (44,25)|
 
 T Blisters on The Land |NODEBUG|
 
-H Deepwater Tavern
+H Menethil Harbor |SZ|Deepwater Tavern|
 T The Cursed Crew |T|
 A Lifting the Curse |T|
 T Digging Through the Ooze |T|

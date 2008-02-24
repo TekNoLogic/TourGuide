@@ -90,7 +90,7 @@ C Gold Dust Exchange
 C Kobold Candles
 C The Fargodeep Mine
 
-H Lion's Pride Inn
+H Goldshire |SZ|Lion's Pride Inn|
 T Note to William
 A Collecting Kelp
 T Gold Dust Exchange |N|Back in Goldshire|
@@ -136,7 +136,7 @@ C Bounty on Murlocs |N|Back up by the lake|
 T Red Linen Goods
 T Bounty on Murlocs
 
-H Lion's Pride Inn
+H Goldshire |SZ|Lion's Pride Inn|
 A Speak with Jennea |C|Mage|
 A Seek out SI: 7 |C|Rogue|
 A Gakin's Summons |C|Warlock|

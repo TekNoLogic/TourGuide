@@ -16,7 +16,7 @@ A Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock|
 
 b Theramore Isle |C|Warlock| |N|Fly to Menethil and boat over|
 N Tattered Manuscript |N|In cave east of the Great Lift in Thousand Needles (43.5, 32.7)| |L|6997| |C|Warlock| |Z|Thousand Needles|
-H Menethil Harbor |C|Warlock|
+H Menethil Harbor |C|Warlock| |SZ|Deepwater Tavern|
 
 A Fall of Dun Modr |N|In front of the keep| |T|
 
