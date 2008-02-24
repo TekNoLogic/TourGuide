@@ -12,7 +12,26 @@ local NUMROWS = math.floor(305/ROWHEIGHT)
 
 local offset = 0
 local rows = {}
-local frame, scrollbar, upbutt, downbutt, title, completed
+local scrollbar, upbutt, downbutt, title, completed
+
+
+local frame = CreateFrame("Frame", "TourGuideObjectives", UIParent)
+TourGuide.objectiveframe = frame
+frame:SetFrameStrata("DIALOG")
+frame:SetWidth(630) frame:SetHeight(305+28)
+frame:SetPoint("TOPRIGHT", TourGuide.statusframe, "BOTTOMRIGHT")
+frame:SetBackdrop({
+	bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+	edgeSize = 16,
+	insets = {left = 5, right = 5, top = 5, bottom = 5},
+	tile = true, tileSize = 16,
+})
+frame:SetBackdropColor(0.09, 0.09, 0.19, 1)
+frame:SetBackdropBorderColor(0.5, 0.5, 0.5, 0.5)
+frame:Hide()
+frame:SetScript("OnShow", function() TourGuide:CreateObjectivePanel() end)
+table.insert(UISpecialFrames, "TourGuideObjectives")
 
 
 local function OnShow(self)
@@ -38,44 +57,55 @@ local function ShowTooltip(f)
 end
 
 
+local function CreateButton(parent, ...)
+	local b = CreateFrame("Button", nil, parent)
+	if select("#", ...) > 0 then b:SetPoint(...) end
+	b:SetWidth(80) b:SetHeight(22)
+
+	-- Fonts --
+	b:SetDisabledFontObject(GameFontDisable)
+	b:SetHighlightFontObject(GameFontHighlight)
+	b:SetTextFontObject(GameFontNormal)
+
+	-- Textures --
+	b:SetNormalTexture("Interface\\Buttons\\UI-Panel-Button-Up")
+	b:SetPushedTexture("Interface\\Buttons\\UI-Panel-Button-Down")
+	b:SetHighlightTexture("Interface\\Buttons\\UI-Panel-Button-Highlight")
+	b:SetDisabledTexture("Interface\\Buttons\\UI-Panel-Button-Disabled")
+	b:GetNormalTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+	b:GetPushedTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+	b:GetHighlightTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+	b:GetDisabledTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+	b:GetHighlightTexture():SetBlendMode("ADD")
+
+	return b
+end
+
+
 function TourGuide:CreateObjectivePanel()
-	frame = CreateFrame("Frame", nil, UIParent)
-	frame:SetFrameStrata("DIALOG")
+	local guidebutton = CreateButton(frame, "BOTTOMRIGHT", -6, 6)
+	guidebutton:SetText("Guides")
+	guidebutton:SetScript("OnClick", function() frame:Hide(); LibStub("OptionHouse-1.1"):Open("Tour Guide", "Guides") end)
+
+	local configbutton = CreateButton(frame, "RIGHT", guidebutton, "LEFT")
+	configbutton:SetText("Config")
+	configbutton:SetScript("OnClick", function() frame:Hide(); LibStub("OptionHouse-1.1"):Open("Tour Guide", "Config") end)
 
 	if tekDebug then
-		local b = CreateFrame("Button", nil, frame)
-		b:SetPoint("TOPRIGHT", frame, "BOTTOMRIGHT", 4, -3)
-		b:SetWidth(80) b:SetHeight(22)
-
-		-- Fonts --
-		b:SetDisabledFontObject(GameFontDisable)
-		b:SetHighlightFontObject(GameFontHighlight)
-		b:SetTextFontObject(GameFontNormal)
-
-		-- Textures --
-		b:SetNormalTexture("Interface\\Buttons\\UI-Panel-Button-Up")
-		b:SetPushedTexture("Interface\\Buttons\\UI-Panel-Button-Down")
-		b:SetHighlightTexture("Interface\\Buttons\\UI-Panel-Button-Highlight")
-		b:SetDisabledTexture("Interface\\Buttons\\UI-Panel-Button-Disabled")
-		b:GetNormalTexture():SetTexCoord(0, 0.625, 0, 0.6875)
-		b:GetPushedTexture():SetTexCoord(0, 0.625, 0, 0.6875)
-		b:GetHighlightTexture():SetTexCoord(0, 0.625, 0, 0.6875)
-		b:GetDisabledTexture():SetTexCoord(0, 0.625, 0, 0.6875)
-		b:GetHighlightTexture():SetBlendMode("ADD")
-
+		local b = CreateButton(frame, "RIGHT", configbutton, "LEFT")
 		b:SetText("Debug All")
-		b:SetScript("OnClick", function() self:DebugGuideSequence(true) LibStub("OptionHouse-1.1"):Open("tekDebug", "TourGuide") end)
+		b:SetScript("OnClick", function() frame:Hide(); self:DebugGuideSequence(true) LibStub("OptionHouse-1.1"):Open("tekDebug", "TourGuide") end)
 	end
 
 	title = ww.SummonFontString(frame, nil, "SubZoneTextFont", nil, "BOTTOM", frame, "TOP", 0, 10)
 	local fontname, fontheight, fontflags = title:GetFont()
 	title:SetFont(fontname, 18, fontflags)
 
-	completed = ww.SummonFontString(frame, nil, "NumberFontNormalLarge", nil, "BOTTOMRIGHT", frame, "TOPRIGHT", 0, 10)
+	completed = ww.SummonFontString(frame, nil, "NumberFontNormalLarge", nil, "BOTTOMLEFT", 10, 10)
 
-	scrollbar, upbutt, downbutt = ww.ConjureScrollBar(frame, true)
-	scrollbar:SetPoint("TOPRIGHT", frame, "TOPRIGHT", 0, -19)
-	scrollbar:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", 0, 16)
+	scrollbar, upbutt, downbutt = ww.ConjureScrollBar(frame)
+	scrollbar:SetPoint("TOPRIGHT", frame, -7, -21)
+	scrollbar:SetPoint("BOTTOM", frame, 0, 22+22)
 	scrollbar:SetScript("OnValueChanged", function(f, val) self:UpdateOHPanel(val) end)
 
 	upbutt:SetScript("OnClick", function(f)
@@ -88,12 +118,11 @@ function TourGuide:CreateObjectivePanel()
 		PlaySound("UChatScrollButton")
 	end)
 
-	local function LevelCorrection(f) f:SetFrameLevel(frame:GetFrameLevel()+1); f:SetScript("OnShow", nil) end
 	local bg = {bgFile = "Interface/Tooltips/UI-Tooltip-Background"}
 	for i=1,NUMROWS do
 		local row = CreateFrame("Button", nil, frame)
 		row:SetPoint("TOPLEFT", i == 1 and frame or rows[i-1], i == 1 and "TOPLEFT" or "BOTTOMLEFT", 0, i == 1 and -3 or 0)
-		row:SetWidth(630-20)
+		row:SetWidth(630-24)
 		row:SetHeight(ROWHEIGHT)
 		row:SetBackdrop(bg)
 
@@ -101,13 +130,12 @@ function TourGuide:CreateObjectivePanel()
 		local icon = ww.SummonTexture(row, nil, ROWHEIGHT-ROWOFFSET, ROWHEIGHT-ROWOFFSET, nil, "LEFT", check, "RIGHT", ROWOFFSET, 0)
 		local text = ww.SummonFontString(row, nil, "GameFontNormal", nil, "LEFT", icon, "RIGHT", ROWOFFSET, 0)
 
-		local detailhover = CreateFrame("Button", nil, frame)
+		local detailhover = CreateFrame("Button", nil, row)
 		detailhover:SetHeight(ROWHEIGHT-ROWOFFSET)
 		detailhover:SetPoint("LEFT", text, "RIGHT", ROWOFFSET*3, 0)
-		detailhover:SetPoint("RIGHT", scrollbar, "LEFT", -ROWOFFSET-7, 0)
+		detailhover:SetPoint("RIGHT", scrollbar, "LEFT", -ROWOFFSET, 0)
 		detailhover:SetScript("OnEnter", ShowTooltip)
 		detailhover:SetScript("OnLeave", HideTooltip)
-		detailhover:SetScript("OnShow", LevelCorrection)
 
 		local detail = ww.SummonFontString(detailhover, nil, "GameFontNormal", nil)
 		detail:SetAllPoints(detailhover)
@@ -142,7 +170,7 @@ function TourGuide:UpdateOHPanel(value)
 
 	title:SetText(self.db.char.currentguide or "No Guide Loaded")
 	local r,g,b = self.ColorGradient((self.current-1)/#self.actions)
-	completed:SetText(string.format("|cff%02x%02x%02x%d%%", r*255, g*255, b*255, (self.current-1)/#self.actions*100))
+	completed:SetText(string.format("|cff%02x%02x%02x%d%% complete", r*255, g*255, b*255, (self.current-1)/#self.actions*100))
 
 	self.guidechanged = nil
 	if value then offset = math.floor(value) end

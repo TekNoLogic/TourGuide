@@ -25,6 +25,7 @@ end
 
 
 local f = CreateFrame("Button", nil, UIParent)
+TourGuide.statusframe = f
 f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
 f:SetHeight(24)
 f:SetFrameStrata("LOW")
@@ -261,7 +262,15 @@ f:SetScript("OnClick", function(self, btn)
 	if TourGuide.db.char.currentguide == "No Guide" then OptionHouse:Open("Tour Guide", "Guides")
 	else
 		if btn == "RightButton" then
-			OptionHouse:Open("Tour Guide", "Objectives")
+			if TourGuide.objectiveframe:IsVisible() then
+				HideUIPanel(TourGuide.objectiveframe)
+			else
+				local quad, vhalf, hhalf = GetQuadrant(self)
+				local anchpoint = (vhalf == "TOP" and "BOTTOM" or "TOP")..hhalf
+				TourGuide.objectiveframe:ClearAllPoints()
+				TourGuide.objectiveframe:SetPoint(quad, self, anchpoint)
+				ShowUIPanel(TourGuide.objectiveframe)
+			end
 		else
 			local i = TourGuide:GetQuestLogIndexByName()
 			if i then SelectQuestLogEntry(i) end
@@ -310,6 +319,7 @@ f:RegisterForDrag("LeftButton")
 f:SetMovable(true)
 f:SetClampedToScreen(true)
 f:SetScript("OnDragStart", function(frame)
+	if TourGuide.objectiveframe:IsVisible() then HideUIPanel(TourGuide.objectiveframe) end
 	GameTooltip:Hide()
 	frame:StartMoving()
 end)

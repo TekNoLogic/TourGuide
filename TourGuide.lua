@@ -58,7 +58,6 @@ function TourGuide:Enable()
 	local author, version = GetAddOnMetadata("TourGuide", "Author"), GetAddOnMetadata("TourGuide", "Version")
 	local oh = OptionHouse:RegisterAddOn("Tour Guide", title, author, version)
 	oh:RegisterCategory("Guides", self, "CreateGuidesPanel")
-	oh:RegisterCategory("Objectives", self, "CreateObjectivePanel")
 	oh:RegisterCategory("Config", self, "CreateConfigPanel")
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
