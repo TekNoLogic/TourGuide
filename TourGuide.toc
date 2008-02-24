@@ -24,9 +24,9 @@ TourGuide.lua
 Parser.lua
 Mapping.lua
 StatusFrame.lua
-OHConfig.lua
-OHFrame.lua
-OHGuides.lua
+Config.lua
+ObjectivesFrame.lua
+GuideList.lua
 UnlistedQuest.lua
 QuestTracking.lua
 
