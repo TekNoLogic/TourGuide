@@ -41,13 +41,11 @@ TourGuide.ZONE_CHANGED_NEW_AREA = TourGuide.ZONE_CHANGED
 function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 	local action, quest = self:GetObjectiveInfo()
 
-	if action == "SETHEARTH" then
-		local _, _, loc = msg:find(L["(.*) is now your home."])
-		if loc then
-			self:DebugF(1, "Detected setting hearth to %q", loc)
-			self.db.char.hearth = loc
-			return loc == quest and self:SetTurnedIn()
-		end
+	local _, _, loc = msg:find(L["(.*) is now your home."])
+	if loc then
+		self:DebugF(1, "Detected setting hearth to %q", loc)
+		self.db.char.hearth = loc
+		return action == "SETHEARTH" and loc == quest and self:SetTurnedIn()
 	end
 
 	if action == "ACCEPT" then
