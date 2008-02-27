@@ -16,10 +16,10 @@
 ## X-LoadOn-Always: delayed
 
 Dongle.lua
-
 tekKonfigHeading.lua
 tekKonfigCheckbox.lua
 tekKonfigFadeIn.lua
+WidgetWarlock.lua
 
 Locale.lua
 TourGuide.lua
