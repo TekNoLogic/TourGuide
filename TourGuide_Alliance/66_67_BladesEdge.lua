@@ -157,12 +157,12 @@ T Deceive thy Enemy |N|Skip the follow-up|
 C Poaching from Poachers |N|Back down, northwest of Evergrove|
 C ...and a Time for Action
 A Did You Get The Note? |N|Keep killing these mobs until you get the [Meeting Note]| |NODEBUG| |U|31120|
-R Bloodmaul Camp |N|Follow the road north (57,27)|
+
+C A Date with Dorgok |N|Follow the road north to the Bloodmaul Camp.  Dorgok is in the top of the building (55,24).|
 C Crush the Bloodmaul Camp!
-C A Date with Dorgok |N|Top of the tower (55,24).  He should drop [Gorgrom's Favor] also|
 
 T A Date with Dorgok |N|Back in Evergrove| |T|
-A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok| |T|
+A Favor of the Gronn |N|Started by [Gorgrom's Favor] which dropped from Dorgok| |T| |U|31363|
 T Favor of the Gronn |T|
 A Pay the Baron a Visit |T|
 T Crush the Bloodmaul Camp! |T|
@@ -172,13 +172,12 @@ A Wyrmskull Watcher |T|
 T Poaching from Poachers |T|
 A Whelps of the Wyrmcult |T|
 
-R Circle of Blood |N|Follow path Southwest from town, down and to the West (53,41)|
-T Pay the Baron a Visit
+T Pay the Baron a Visit |N|Follow path Southwest from town, down and west to the Circle of Blood (53,41)|
 A Into the Churning Gulch
 C Into the Churning Gulch |N|To the Southwest (48,43)|
 T Into the Churning Gulch
 A Goodnight, Gronn
-C Goodnight, Gronn |N|Head back East to Grulloc (59,47).  Use the sleeping powder on him and grab the sack. He wakes up when you take the bag so use the powder again. Be careful, 2-3 hits and you're dead|
+C Goodnight, Gronn |N|Head back east to Grulloc (59,47).  Use the sleeping powder on him and grab the sack. He wakes up when you take the bag so use the powder again. Be careful, 2-3 hits and you're dead| |U|31403|
 T Goodnight, Gronn
 A It's a Trap!
 
@@ -190,22 +189,16 @@ T Wyrmskull Watcher |N|West over the Wyrmskull Bridge|
 A Longtail is the Lynchpin
 C Longtail is the Lynchpin |N|Through the cave, near the end|
 T Longtail is the Lynchpin
-A Meeting at the Blackwing Coven
 
-C Whispers of the Raven God |N|Exit the cave, grind on arakkoa until you get their buff, then visit each totem in order (40,17), (42,22), (41,19), (40,23)|
-A The Truth Unorbed |U|31489| |N|Grind on the Arakkoa till you get the item that starts this.|
+C Whispers of the Raven God |N|Exit the cave, grind on arakkoa until you get their buff, then visit each totem (40,17), (42,22), (41,19), (40,23).  The first and second totems are in the treehouses.|
+A The Truth Unorbed |U|31489| |N|Kill Arakkoa until you get the item that starts this.|
 C Slaughter at Boulder'mok
-C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap.|
+C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the trap, place the totems after the elite dies in the trap.| |U|31754|
 
-R Blackwing Coven |N|To the South (31,32)|
-N Kill Wyrmcults and collect 5 [Costume Scraps] |N|For "Meeting at the Blackwing Coven".  This place sucks, it's pretty tough.  Beware when they're low on life, they may try to cast some type of black blessing which turns them into a dragonkin with about 50% life and they start fireballing and doing fire nova.|
-C Whelps of the Wyrmcult |N|Go in the cave and use the blackwhelp net on the dragon whelps in here.  You can get right next to eggs and they will hatch one for you to capture|
-C Meeting at the Blackwing Coven |N|Head to the back of the cave and put on the costume|
+C Whelps of the Wyrmcult |N|At Blackwing Coven to the south (31,32).  Use the net on the dragon whelps in the cave.  You can get right next to eggs and they will hatch one for you to capture.| |U|31129|
 
 H Sylvanaar
 T Whelps of the Wyrmcult |N|Back at Evergrove| |T|
-T Meeting at the Blackwing Coven |T|
-A Maxnar Must Die! |T|
 T The Truth Unorbed |T|
 A Treebole Must Know |T|
 T Whispers of the Raven God |T|
@@ -213,17 +206,10 @@ T Gorgrom the Dragon-Eater |T|
 A Baron Sablemane Has Requested Your Presence |T|
 T Slaughter at Boulder'mok |T|
 
-R Raven's Wood |N|Run back across wyrmskull bridge and through the tunnel.  As you exit the tunnel go left up the path (37,22)|
-T Treebole Must Know
+T Treebole Must Know |N|Run back across wyrmskull bridge and through the tunnel.  As you exit the tunnel go left up the path to Raven's Wood (37,22)|
 A Exorcising the Trees
-C Exorcising the Trees |N|Kill Dire Ravens for 5 feathers, also collect 5 orbs off the ground. If you're grouped with someone only one person needs to collect these.  Combine the items, get in range of a Leafbeard and use one.  Kill the Koi-Koi Spirit, don't kill the leafbeard|
+C Exorcising the Trees |N|Kill Dire Ravens for 5 feathers, also collect 5 orbs near the tents in the arakkoa village. If you're grouped with someone only one person needs to collect these.  Combine the items, get in range of a Leafbeard and use one.  Kill the Koi-Koi Spirit, don't kill the leafbeard| |U|31518|
 T Exorcising the Trees
-
-C Maxnar Must Die! |N|In the same cave as before, deeper in (33,36)|
-
-H Sylvanaar |N|Die and spirit rez at Sylvanaar if your stone isn't up|
-T Maxnar Must Die! |T| |N|Back in Evergrove|
-
 T Baron Sablemane Has Requested Your Presence |N|Back at the Circle of Blood.  Skip "Massacre at Gruul's Lair" unless you get some friends to help.|
 ]]
 end)
