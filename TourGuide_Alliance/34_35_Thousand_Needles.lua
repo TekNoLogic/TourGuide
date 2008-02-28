@@ -14,12 +14,12 @@ A Wharfmaster Dizzywig
 A Salt Flat Venom
 A Hardened Shells
 A Rocket Car Parts
-A Bump in the Road
+A A Bump in the Road
 
 C Load Lightening |N|North part of the flats. There's a nest at (87.55, 65.50)|
 C Salt Flat Venom |N|North part of the flats. There's a nest at (71.65, 73.23)|
 C Hardened Shells |N|North part of the flats. There's a nest at (82.40, 55.10)|
-C Bump in the Road |N|North part of the flats.|
+C A Bump in the Road |N|North part of the flats.|
 
 T Load Lightening
 A Goblin Sponsorship (Part 1) |N|Speak to Pozzik|
@@ -27,7 +27,7 @@ T Salt Flat Venom
 T Hardened Shells
 A Martek the Exiled
 T Rocket Car Parts
-T Bump in the Road
+T A Bump in the Road
 
 R Gadgetzan |N|Run to the far south and run up and over mountain|
 f Grab flight point
