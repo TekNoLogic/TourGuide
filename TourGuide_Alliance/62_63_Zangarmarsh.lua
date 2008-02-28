@@ -54,7 +54,7 @@ A Too Many Mouths to Feed
 h Telredor
 
 N Shrooms and Rippers... |N|While near Telredor, keep an eye out for Fulgor Spores, bright green mushrooms. Also, kill any Marshfang Rippers you come across.|
-C The Dead Mire |N|You're after a pile of dirt in the middle of the Dead Mire (80,43)|
+C The Dead Mire |N|You're after a pile of dirt in the middle of the Dead Mire (80.7, 43.5)|
 C Unfinished Business |N|Sporewing is along the south edge of the Mire (76,45)|
 C Fulgor Spores |N|Bright green mushrooms all around the base of Telredor|
 C Menacing Marshfangs
