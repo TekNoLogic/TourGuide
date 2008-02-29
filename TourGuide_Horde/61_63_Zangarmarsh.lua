@@ -11,7 +11,7 @@ h Cenarion Refuge
 T The Cenarion Expedition
 T Warden Hamoot
 A A Warm Welcome
-C Arelion's Mistrsse |N|Buy The Cenarion Spirit from Innkeeper, Coryth Stoktron|
+C Arelion's Mistress |N|Buy The Cenarion Spirit from Innkeeper, Coryth Stoktron|
 
 R Shattrath City |N|Run south down the road| TODO: must we do this now?
 R Orgrimmar |N|Port!|
