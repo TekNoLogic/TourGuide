@@ -51,7 +51,7 @@
 	<Script file="56_Western_Plaguelands.lua"/>
 	<Script file="56_57_Eastern_Plaguelands.lua"/>
 	<Script file="57_59_Western_Plaguelands.lua"/>
-	<Script file="59_60_Hellfire_Penninsula.lua"/>
+	<Script file="59_60_Hellfire_Peninsula.lua"/>
 
 	<Script file="60_61_Hellfire_Peninsula.lua"/>
 	<Script file="61_63_Zangarmarsh.lua"/>
