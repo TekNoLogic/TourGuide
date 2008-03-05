@@ -114,24 +114,12 @@ end
 
 
 function TourGuide:CRAFT_SHOW()
-	local isPetTraining = CraftIsPetTraining()
-	if ( isPetTraining == 1 ) then
-		-- cycle through Pet skills, I hope...
-		TourGuide.petskills = {}
-		local numCrafts = GetNumCrafts()
-		local index
-		for index = 1, numCrafts, 1 do
-			local craftName, craftRank = GetCraftInfo(index)
-			local fullSkillName = ""
-			if ( craftRank == "" ) then
-				fullSkillName = craftName
-			else
-				fullSkillName = craftName .. " (" .. craftRank .. ")"
-			end
-			TourGuide.petskills[index] = fullSkillName
-		end
-		self:UpdateStatusFrame()
+	if not CraftIsPetTraining() then return end
+	for i=1,GetNumCrafts() do
+		local name, rank = GetCraftInfo(i)
+		self.db.char.petskills[name.. (rank == "" and "" or (" (" .. rank .. ")"))] = true
 	end
+	if self:GetObjectiveInfo() == "PET" then self:UpdateStatusFrame() end
 end
 
 
