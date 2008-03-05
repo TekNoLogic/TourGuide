@@ -27,7 +27,7 @@ A Broodling Essence
 C Tablet of the Seven |N|Talk to the dorf statue (54,40)|
 C The Smoldering Ruins of Thaurissan (Part 2) |N|Poke the relics around this area.|
 C Gor'tesh the Brute Lord |N|At Pillar of Ash (40,55)|
-C FIFTY! YEP! |N|Kill orcs at Blackrock Stronghold (43,46) or Pillar of Ash (49,55)|
+C FIFTY! YEP! |N|Kill orcs at Blackrock Stronghold (43,36) or Pillar of Ash (49,55)|
 
 C Broodling Essence |N|Dragons to the northeast.  Use the device on them, then kill them. Get help if you can.| |U|12284|
 C Dragonkin Menace |N|Get help if you can.|
@@ -45,12 +45,13 @@ C Ogre Head On A Stick = Party |NODEBUG| |N|Up on the ogre mountain (81.0, 46.8)
 T Ogre Head On A Stick = Party |NODEBUG|
 
 F Lakeshire
-T The True Masters (Part 1) |N|In the town hall (29,44)| |Z|Redridge Mountains|
+T The True Masters (Part 1) |N|In the town hall (30.0, 44.45)| |Z|Redridge Mountains|
 A The True Masters (Part 2)
 
 F Stormwind City
 T The True Masters (Part 2) |N|In Stormwind Keep (78,18)| |Z|Stormwind City|
 A The True Masters (Part 3)
+C The True Masters (Part 3) |N|Speak to Lady Katrana Prestor|
 T The True Masters (Part 3)
 A The True Masters (Part 4)
 
