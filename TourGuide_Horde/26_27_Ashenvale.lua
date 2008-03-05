@@ -53,8 +53,8 @@ H Splintertree Post
 T Freedom to Ruul
 
 N Stable Pet |C|Hunter|
-N Tame a Ghostpaw Alpha |N|For Bite (Rank 4)| |C|Hunter|
-N Tame an Elder Ashenvale Bear |N|For Claw (Rank 4)| |C|Hunter|
+P Bite (Rank 4) |C|Hunter| |N|Tame a Ghostpaw Alpha|
+P Claw (Rank 4) |C|Hunter| |N|Tame an Elder Ashenvale Bear|
 N Retrieve Pet |C|Hunter|
 
 H Splintertree Post

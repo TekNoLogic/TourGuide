@@ -54,7 +54,7 @@ C Reagents for Reclaimers Inc. (Part 2) |N|Get the last few reagents you need, y
 H Nijel's Point
 
 N Stable your pet |C|Hunter| |T|
-N Tame Scorpashi |N|Find a lv34, for Claw (Rank 5).  Found all around the Kodo Graveyard (58,50)| |C|Hunter|
+P Claw (Rank 5) |N|Tame a Scorpashi, level 34.  Found all around the Kodo Graveyard (58,50)| |C|Hunter|
 N Keep this pet if you want |N|Otherwise get your pet out of stable| |C|Hunter|
 
 T Reagents for Reclaimers Inc. (Part 2) |N|Skip the follow-up| |T|

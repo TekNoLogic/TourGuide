@@ -27,7 +27,9 @@ A Barbecued Buzzard Wings
 A Pearl Diving
 
 N Kill any buzzards you see |N|For "Barbecued Buzzard Wings" and "Badlands Reagent Run"|
-N Tame a Ridge Stalker Patriarch |N|(20,53) For Dash and Prowl (Rank 2)| |C|Hunter|
+
+P Dash (Rank 2) |C|Hunter| |N|Tame a Ridge Stalker Patriarch (20,53)|
+P Prowl (Rank 2)| |C|Hunter|
 H Thelsamar |C|Hunter|
 N Switch back to your cat |N|Don't dismiss the Badlands cat!| |C|Hunter|
 R Badlands |C|Hunter|

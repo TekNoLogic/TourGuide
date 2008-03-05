@@ -22,7 +22,7 @@ A Trollbane
 A Bloody Bone Necklaces
 A The Vile Reef
 
-N Get Dash (Rank 1) |N|You need to tame a Stranglethorn Tiger (29,11)| |C|Hunter|
+P Dash (Rank 1) |N|Tame a Stranglethorn Tiger (29,11)| |C|Hunter|
 
 N Save all Pages |N|Save all Green Hills of Stranglethorn pages|
 C Singing Blue Shards |N|From Basilisk on the coast far to the north (25,19)|

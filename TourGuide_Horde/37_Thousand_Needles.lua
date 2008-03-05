@@ -11,7 +11,7 @@ N Stable Pet |C|Hunter|
 T The Swarm Grows (Part 2) |N|In The Shimmering Flats|
 A The Swarm Grows (Part 3)
 
-N Get Bite (Rank 5) |N|Tame a turtle in Shimmering Flats and use feed him those mushrooms you bought.| |C|Hunter|
+P Bite (Rank 5) |N|Tame a turtle in Shimmering Flats and feed him those mushrooms you bought.| |C|Hunter|
 N Keep the turtle |C|Hunter|
 
 T Delivery to the Gnomes (Part 1) |N|At the Mirage Raceway (77,76)|

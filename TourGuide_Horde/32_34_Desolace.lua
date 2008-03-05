@@ -92,7 +92,7 @@ T Other Fish to Fry
 T Clam Bait
 T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up|
 
-N Learn Claw (Rank 5) |N|Tame a Lv34 Scorpashi Lasher (36,77)| |C|Hunter|
+P Claw (Rank 5) |N|Tame a Scorpashi Lasher, level 34 (36,77)| |C|Hunter|
 
 F Camp Taurajo
 R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|

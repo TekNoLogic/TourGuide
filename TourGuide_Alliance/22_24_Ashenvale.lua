@@ -27,7 +27,7 @@ A Elune's Tear |T|
 
 A The Ancient Statuette |N|NPC at the small camp south of the Zoram Strand (14.8, 31.2)|
 
-N Tame Clattering Crawler |C|Hunter| |N|Make sure it's lvl20 so you'll get Claw (Rank 3).  Teach Growl (Rank 3)|
+P Claw (Rank 3) |C|Hunter| |N|Tame a Clattering Crawler, level 20.  Teach it Growl (Rank 3)|
 
 C The Ancient Statuette |N|Follow the shoreline north until you find the statue near the small rowboat (14.20, 20.64)|
 T The Ancient Statuette

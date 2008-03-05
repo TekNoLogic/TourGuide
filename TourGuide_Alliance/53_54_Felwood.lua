@@ -73,7 +73,7 @@ A The Mystery of Morrowgrain
 T The Mystery of Morrowgrain
 
 N Stable your pet |C|Hunter|
-N Tame an Ironfur Patriarch |C|Hunter| |N|On the mainland, 48+.  You're after Claw (Rank 7)|
+P Claw (Rank 7) |N|Tame an Ironfur Patriarch, level 48+.  You can find them on the mainland.| |C|Hunter|
 
 B Bait |N|From Gregan Brewspewer at the Twin Colossals (45.1, 25.5)| |L|11141|
 U Distract Miblon Snartooth |N|Take the road north to Ruins of Ravenwind (44.6, 10.2).  Drop the bait in front of him. |U|11141|
