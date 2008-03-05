@@ -167,6 +167,18 @@ function TourGuide:UpdateStatusFrame()
 				end
 			end
 
+			-- Test for known Pet Skills against the table of known pet skills (if we've got one)
+			if ( action == "PET") then
+				if ( #TourGuide.petskills > 0 ) then
+					local index
+					for index = 1, #TourGuide.petskills, 1 do
+						if ( name == TourGuide.petskills[index] ) then
+							return self:SetTurnedIn(i, true)
+						end
+					end
+				end
+			end
+
 			local incomplete
 			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem or prereqturnedin) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi

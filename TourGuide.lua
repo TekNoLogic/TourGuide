@@ -11,6 +11,7 @@ if tekDebug then TourGuide:EnableDebug(10, tekDebug:GetFrame("TourGuide")) end
 TourGuide.guides = {}
 TourGuide.guidelist = {}
 TourGuide.nextzones = {}
+TourGuide.petskills = {}
 TourGuide.Locale = L
 
 
@@ -29,6 +30,7 @@ TourGuide.icons = setmetatable({
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
 	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	GETFLIGHTPOINT = "Interface\\Icons\\Ability_Hunter_EagleEye",
+	PET = "Interface\\Icons\\Ability_Hunter_BeastCall02",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
