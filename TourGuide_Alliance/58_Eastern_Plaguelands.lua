@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Eastern Plaguelands (58)", "Western Plaguelands (58-59)", "Alliance", function()
 return [[
-T Demon Dogs |N|On the west edge of the zone|
+T Demon Dogs |N|On the northwest edge of the zone (7,43)|
 T Blood Tinged Skies
 T Carrion Grubbage
 A Redemption
@@ -9,7 +9,7 @@ C Redemption |N|Blah blah blah... he talks to much.|
 T Redemption
 A Of Forgotten Memories
 
-C Of Forgotten Memories |N|South at the Undercroft (28,86).  Talk to the grave and Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.|
+C Of Forgotten Memories |N|South at the Undercroft (28.40, 86.85).  Talk to the grave behind the crypt. Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.|
 C Zaeldarr the Outcast |N|(27,85)|
 A Hameya's Plea |N|From the scroll near Zaeldarr|
 
@@ -28,6 +28,9 @@ C Defenders of Darrowshire |N|Kill cannibal ghouls, gibbering ghouls and disease
 
 T Defenders of Darrowshire |N|Back at Light's Hope Chapel|
 T Villains of Darrowshire
+
+H Stormwind City
+T The Blightcaller Cometh |N|In Stormwind Keep.  Skip the follow-up|
 ]]
 end)
 

@@ -4,11 +4,10 @@ return [[
 F Western Plaguelands
 T The Eastern Plagues
 A The Blightcaller Cometh
-T The Blightcaller Cometh |N|In Stormwind Keep.  Skip the follow-up.  You can turn this in the next time you're in town, you have no other reason to go to Stormwind right now.|
 
 T Auntie Marlene |N|House in Sorrow Hill (49,78)|
 A A Strange Historian
-C A Strange Historian |N|Gravestone just north of the house (49,76)|
+C A Strange Historian |N|Gravestone just north of the house (49.65, 76.75)|
 T A Strange Historian |N|In the inn in Andorhal (39.43, 66.81)|
 A The Annals of Darrowshire
 A A Matter of Time

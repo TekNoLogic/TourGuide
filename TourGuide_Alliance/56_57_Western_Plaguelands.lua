@@ -1,9 +1,9 @@
 
 TourGuide:RegisterGuide("Western Plaguelands (56-57)", "Eastern Plaguelands (57-58)", "Alliance", function()
 return [[
-F City of Ironforge
-h City of Ironforge
-A A Call to Arms: The Plaguelands! |N|From Courier Hammerfall, he patrols all over the city.|
+F Stormwind City
+h Stormwind City
+A A Call to Arms: The Plaguelands! |N|From Crier Goodman, he patrols all over the city.|
 
 F Southshore
 R Western Plaguelands |N|Follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp|
@@ -49,13 +49,13 @@ N Open cabinet |N|Locked cabinet upstairs in the house.|
 T Return to Chillwind Camp (Part 2)
 A Target: Writhing Haunt
 
-F Stormwind City |N|Hearth to IF to cut a little time off|
-T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (48,30)|
+H Stormwind City
+T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (48,30)| |Z|Stormwind City|
 A Good Natured Emma
 T Good Natured Emma |N|She patrols between the cathedral and trade district|
 A Good Luck Charm
-A The First and the Last |N|In Stormwind Keep (78,17)|
-T The First and the Last |N|(75,59)|
+A The First and the Last |N|In Stormwind Keep (78,17)| |Z|Stormwind City|
+T The First and the Last |N|Old Town (75.75, 59.85)| |Z|Stormwind City|
 A Honor the Dead
 T Honor the Dead
 A Flint Shadowmore
@@ -73,7 +73,7 @@ C Target: Writhing Haunt |N|To the southeast at Writhing Haunt (53,65).  Kill Ca
 T Target: Writhing Haunt |N|Talk to the cauldren|
 A Return to Chillwind Camp (Part 3)
 
-A The Wildlife Suffers Too (Part 1) |N|In the house by the field (54,65)|
+A The Wildlife Suffers Too (Part 1) |N|In the house by the field (53.70, 64.65)|
 C The Wildlife Suffers Too (Part 1) |N|To the north, between the Felstone and Dalson's Fields, and north of Dalson's Field.|
 T The Wildlife Suffers Too (Part 1)
 A The Wildlife Suffers Too (Part 2)
