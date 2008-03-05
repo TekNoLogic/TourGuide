@@ -6,10 +6,10 @@ h Gadgetzan
 N Scare Sprinkle |N|Northwest side of town, use the Yeti| |U|12928| |Q|Are We There, Yeti?| |QO|Scare Sprinkle: 1/1|
 
 U Open Eridan's Supplies |U|11617|
-C Aquementas |N|Down in the pirate cove, behind the settlement is a stone circle (70,49).  Use the book.| |U|11169| |Z|Tanaris|
+C Aquementas |N|Down in the pirate cove, behind the settlement is a stone circle (70.45, 49.95).  Use the book.| |U|11169| |Z|Tanaris|
 
 H Gadgetzan
-F Un'goro Crater
+F Un'Goro Crater
 N Scare Quixxil |U|12928| |Q|Are We There, Yeti?| |QO|Scare Quixxil: 1/1|
 T Aquementas |N|In the cave|
 A Linken's Adventure
@@ -34,7 +34,7 @@ A Stepping Up Security
 T The Twilight Mystery
 A The Deserter
 
-T Wasteland |N|Take the road northwest to Valor's Rest (81,18)|
+T Wasteland |N|Take the road northwest to Valor's Rest (81.8, 18.3)|
 A The Spirits of Southwind
 C The Spirits of Southwind |N|Follow the road southwest until you're almost back at the hold, then south to Southwind (62,53).  Stick to the outskirts, working your way around to the south side of the outpost.|
 T The Deserter |N|In a cave (67,69).  Kill stuff along the way, of course.|
@@ -52,7 +52,7 @@ K Twilight Keeper Havanuth |N|East at Twilight Base Camp (41,41).  Patrols along
 C Noggle's Lost Satchel |N|South on the hill behind the camp (44.6,91.3).  Sneak in when Deathclasp is away.|
 K Twilight Keeper Exeter |N|Southwest side of Twilight Outpost (16,87).  Follow the mountains along the south edge of the camp to avoid aggro.| |L|20395|
 
-T The Twilight Lexicon |N|In that cave again (67,69)|
+T The Twilight Lexicon |N|In that cave again (67.20, 69.75)|
 A A Terrible Purpose
 
 T The Spirits of Southwind |N|At Valor's Rest|
