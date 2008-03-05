@@ -1,6 +1,7 @@
 
 TourGuide:RegisterGuide("Badlands (40-41)", "Stranglethorn Vale (41-42)", "Alliance", function()
 return [[
+F City of Ironforge
 B [Frost Oil] |N|From AH|
 B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|
 B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
@@ -39,7 +40,6 @@ T Mirages |N|Grind your way back (53,43)|
 A Scrounging
 T A Dwarf and His Tools
 T A Sign of Hope (Part 1)
-A A Sign of Hope (Part 2)
 
 A Tremors of the Earth (Part 1) |N|From a blood elf to the southeast (61,54).  Grind along the way.|
 N Keep an eye out for the ogre pack |N|They spawn to the south of the questgiver (62,70).  They patrol down to the southwest side of the zone and back in a circle.  You should be able to pick Boss Tho'grun off the back of the pack easily|
