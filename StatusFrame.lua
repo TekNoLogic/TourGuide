@@ -171,6 +171,8 @@ function TourGuide:UpdateStatusFrame()
 				end
 			end
 
+			if action == "PET" and self.db.char.petskills[name] then return self:SetTurnedIn(i, true) end
+
 			local incomplete
 			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem or prereqturnedin) and not logi
 			elseif action == "TURNIN" then incomplete = not optional or logi

@@ -14,6 +14,7 @@ local actiontypes = {
 	B = "BUY",
 	b = "BOAT",
 	U = "USE",
+	P = "PET",
 }
 
 
