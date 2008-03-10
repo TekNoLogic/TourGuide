@@ -23,9 +23,9 @@ T Enraged Spirits of Fire and Earth
 A Enraged Spirits of Water
 C Enraged Spirits of Water |N|Kill water elementals to the northeast at Coilskar Point (48,24).  Use the totem, same as before.| |U|30094|
 
-C The Sketh'lon Wreckage |N|Northeast at the Sketh'lon Wreckage (37,30)|
-C Spleendid! |N|Near any of the green lava cracks on the west side of the Hand of Gul'dan|
-C A Ghost in the Machine
+C The Sketh'lon Wreckage |N|West at the Sketh'lon Wreckage (37,30)|
+C Spleendid! |N|At the green lava lake in front of Legion Hold (30,38)|
+C A Ghost in the Machine |N|Same lake as "Spleendid!".  You can also find some to the east at a laval crevase.|
 
 C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638|
 
@@ -50,7 +50,7 @@ C The Second Course... |N|East under the bridge where you killed water elemental
 
 T Find the Deserter |N|Patrols along the road to the west (35,39)|
 A Asghar's Totem
-C Asghar's Totem |N|Kill Asghar (40,31)|
+C Asghar's Totem |N|Kill Asghar at the Sketh'lon Wreckage (40,31)|
 
 T Asghar's Totem
 A The Rod of Lianthe
@@ -71,26 +71,26 @@ T Blast the Infernals! |N|Back at Wildhammer Stronghold|
 A The Deathforge
 
 C The Rod of Lianthe |N|Kill Blood Elves at Eclipse Point to the southeast for the key.  Strongbox is east of the elite (47.53, 71.66).|
-C Enraged Spirits of Air |N|Take the road east to the Netherwing Fields, drop totem, kill air elementals.| |U|30094|
+C Enraged Spirits of Air |N|Take the road east to the Netherwing Fields, drop totem, kill air elementals. Work your way south from the fields towards the Altar of Shadows.| |U|30094|
+
+T Teron Gorefiend - Lore and Legend |N|South at the Altar of Shadows (58,70)|
+A Divination: Gorefiend's Cloak
+A Divination: Gorefiend's Truncheon
 
 A The Ashtongue Tribe |N|ALDOR ONLY!  North at the Altar of Sha'tar (62,30)| |T|
 A The Ashtongue Broken |N|SCRYER ONLY  West at the Sanctum of the Stars (54,58)| |T|
 A Tablets of Baa'ri |T|
 A Karabor Training Grounds |T|
 
-T Teron Gorefiend - Lore and Legend |N|South at the Altar of Shadows (58,70)|
-A Divination: Gorefiend's Cloak
-A Divination: Gorefiend's Truncheon
-
 C The Main Course! |N|Kill Felspine the Greater north of the Warden's Cage (56.26, 42.10)|
-U Put on your Spectrecles |U|30719|
+U Put on your Spectrecles |U|30721|
 N Keep an eye out... |N|Watch the main road around the Hand of Gul'dan for Ghostrider of Karabor.  If you see them kill one for "Divination: Gorefiend's Truncheon".  You need your Spectrecles to see them!|
 C Divination: Gorefiend's Cloak |N|Kill Clerics of Karabor in front of the Black Temple|
 
 C The Ashtongue Tribe |O| |N|At the Ruins of Baa'ri|
 C The Ashtongue Broken |O| |N|At the Ruins of Baa'ri|
 C Tablets of Baa'ri
-C Karabor Training Grounds |N|Inside the Black Temple, take the first right (68,50).  Kill Demon Hunter Supplicants and Initiates, try to catch them after a duel when they are low on HP.|
+C Karabor Training Grounds |N|Inside the Black Temple, take the first right (68,50).  Kill Demon Hunter Supplicants and Initiates, try to catch them after a duel when they are low on HP, they link like mad.  Also watch out for the elite that wanders thru the area.|
 
 T The Ashtongue Tribe |O| |N|Back at the Altar of Sha'tar| |T|
 T The Ashtongue Broken |O| |N|Back at the Sanctum of the Stars| |T|
@@ -105,35 +105,37 @@ A Oronok Torn-heart
 
 T Oronok Torn-heart |N|To the west of the Altar of Sha'tar, above the mine (53.92, 23.49)|
 A I Was A Lot Of Things... |NODEBUG|
-C I Was A Lot Of Things... |NODEBUG| |N|(52,15)|
+C I Was A Lot Of Things... |NODEBUG| |N|Find tuber mounds around the area to the north (51,17), use the whistle.  You have to clear the flayers in the area and keep them from attacking the boars.  It's best to just keep a small area clear.| |U|30462|
 T I Was A Lot Of Things... |NODEBUG|
 A A Lesson Learned
-C A Lesson Learned |N|(57,20)|
+C A Lesson Learned |N|East of the boars (56,17)|
 T A Lesson Learned
 A The Cipher of Damnation - Truth and History
-C The Cipher of Damnation - Truth and History
+C The Cipher of Damnation - Truth and History |N|Listen to his story|
 T The Cipher of Damnation - Truth and History
 A Grom'tor, Son of Oronok
 A Ar'tor, Son of Oronok
 A Borak, Son of Oronok
 
-T The Deathforge |N|North at Deathforge Tower (40.44, 41.26)|
+T The Rod of Lianthe |N|Patrolling along the road to the west|
+A Sketh'lon Feathers
+
+T The Deathforge |N|East at Deathforge Tower (40.44, 41.26)|
 A Minions of the Shadow Council
-C Minions of the Shadow Council |N|(38,35)|
+C Minions of the Shadow Council |N|Head down into the Deathforge.  The entrance is north of the tower (38,35)|
 T Minions of the Shadow Council
 A The Summoning Chamber
 A The Fate of Flanis
-C The Summoning Chamber |N|Kill Summoner Skartax in a cave located at (40,39), then kill Infernal Oversoul.|
-C The Fate of Flanis |N|Enter a cave located at (40,38) then head to (34,39) (dead dwarf)|
+C The Fate of Flanis |N|Take the north entrance (40,38), fight your way to the dead dorf way at the back of the cave (34.65, 39.91)|
+K Tinkerers and Smiths |N|Looking for an Elemental Displacer| |L|30672|
+C The Summoning Chamber |N|From the bridge, jump down to the northwest (carefully), kill Summoner Skartax, use the displacer, and kill Infernal Oversoul.| |U|30672|
 T The Summoning Chamber
 T The Fate of Flanis
 A Bring Down the Warbringer!
-C Bring Down the Warbringer! |N|(39,40) (39,45)|
+C Bring Down the Warbringer! |N|Take the north entrance again, over the bridge, find the door on the left (39,45).|
 T Bring Down the Warbringer!
 A Gaining Access
 
-T The Rod of Lianthe |N|West along the road|
-A Sketh'lon Feathers
 C Gaining Access |N|(22,35)|
 
 T Ar'tor, Son of Oronok
