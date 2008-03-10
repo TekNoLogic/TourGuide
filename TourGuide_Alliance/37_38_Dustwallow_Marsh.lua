@@ -27,16 +27,16 @@ A Discrediting the Deserters
 C Discrediting the Deserters |N|Hand out pamphlets to the guards|
 T Discrediting the Deserters
 A The End of the Deserters
-C The End of the Deserters |N|Out on an island to the southeast (76.58, 56.86).|
+C The End of the Deserters |N|Out on boat to the southeast (76.58, 56.86).  Downstairs in the captain's quarters.|
 T The End of the Deserters |N|Back in Theremore, of course.|
 
-A They Call Him Smiling Jim
+h Theramore Isle
+A They Call Him Smiling Jim |N|From Guard Byron|
 A Tabetha's Farm
 T They Call Him Smiling Jim |N|Inside the keep|
 A Inspecting the Ruins
 T The Missing Diplomat (Part 13)
 A The Missing Diplomat (Part 14)
-h Theramore Isle
 A Mission to Mudsprocket
 
 T The Missing Diplomat (Part 14) |N|Inside the tower along road northwest of Theramore (59.7, 41.1).  If he is not there just wait, he'll be back.|
@@ -68,9 +68,7 @@ A Raptor Captor |N|Follow the road northwest to North Point Tower (46.65, 23.12)
 T The Missing Diplomat (Part 15)
 A The Missing Diplomat (Part 16)
 C The Missing Diplomat (Part 16)
-T The Missing Diplomat (Part 16)
-A The Missing Diplomat (Part 17) |N|If Jiana ports away, you can find her in the tower at the center of Theramore Isle|
-T The Missing Diplomat (Part 17)
+T The Missing Diplomat (Part 16) |N|If Jiana ports away, you can find her in the tower at the center of Theramore Isle|
 
 C Raptor Captor |U|33069| |N|Fight raptors to the north of the tower down to low health, then use the rope on them.|
 
@@ -89,8 +87,8 @@ C Jarl Needs Eyes |N|Kill spiders to the southwest at Darkmist Cavern (35,21).|
 T Prisoners of the Grimtotems
 T Unleash the Raptors
 
-A Hungry! |N|Follow the road south until you are south of Brackenwall Village.|
-T Inspecting the Ruins |N|At the Shady Rest Inn (56.45, 31.78).|
+A Hungry! |N|Follow the road south until you are south of Brackenwall Village (35.1, 38.2).|
+T Inspecting the Ruins |N|At the Shady Rest Inn (29.6, 47.5).|
 A Suspicious Hoofprints |N|In front of the inn|
 A Lieutenant Paval Reethe (Part 1) |N|From a badge on the ground in the inn.|
 A The Black Shield (Part 1) |N|From the shield above the fireplace.|
@@ -135,10 +133,10 @@ R Mudsprocket |N|Back on the mainland to the southwest (42.31, 72.94)|
 T Delivery for Drazzit
 T Mission to Mudsprocket
 A WANTED: Goreclaw the Ravenous
-A Catch a Dragon By the Tail
+A Catch a Dragon by the Tail
 A Bloodfen Feathers
 
-N Wyrmtail... |N|Loot any Wyrmtail you come across for "Catch a Dragon By the Tail"|
+N Wyrmtail... |N|Loot any Wyrmtail you come across for "Catch a Dragon by the Tail"|
 C Bloodfen Feathers |N|Northwest of town at the Bloodfen Burrow|
 C WANTED: Goreclaw the Ravenous |N|In front of the cave (33.52, 65.76)|
 
@@ -160,10 +158,10 @@ T Spirits of Stonemaul Hold
 A Challenge to the Black Flight
 
 C Challenge to the Black Flight |N|East outside the entrance to Onyxia's Lair.  Plant the banner and kill the dragon.  If you can't plant the banner, back out of the cave.| |U|33095|
-C Catch a Dragon By the Tail
+C Catch a Dragon by the Tail
 
 T Challenge to the Black Flight |N|Back at Mudsprocket|
-T Catch a Dragon By the Tail
+T Catch a Dragon by the Tail
 
 T Oh, It's Real |N|Back in Theramore|
 A Take Down Tethyr!
