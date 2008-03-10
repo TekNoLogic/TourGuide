@@ -20,7 +20,7 @@ A Losing Gracefully |O| |PRE|Voren'thal the Seer|
 
 h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
 
-C Losing Gracefully |O|
+T Losing Gracefully |O|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.|
 T What's Wrong at Cenarion Thicket?

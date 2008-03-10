@@ -128,7 +128,6 @@ C The Twin Clefts of Nagrand
 C Muck Diving |N|In the water around Halaa|
 
 T Corki's Gone Missing Again!
-A Corki's Ransom
 T The Twin Clefts of Nagrand
 A Diplomatic Measures
 
