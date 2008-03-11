@@ -64,7 +64,7 @@ T A Shameful Waste |T|
 T Reclaiming Felfire Hill |T|
 T The Howling Vale |T|
 T Agents of Destruction |T|
-A Diabolical Plans |U|23777| |T| |N|Kill infernals, lashers and felguards until you get the item to start this.  Don't worry about completing "Destroy the Legion" right now, you'll be back.|
+A Diabolical Plans |U|23777| |T|
 T Diabolical Plans |T|
 A Never Again! |T|
 T Satyr Slaying! |T|
