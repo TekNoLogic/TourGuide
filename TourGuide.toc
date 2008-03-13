@@ -10,8 +10,6 @@
 
 ## OptionalDeps: Dongle, Optionhouse, TomTom, tekDebug
 
-## DefaultState: disabled
-
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 
