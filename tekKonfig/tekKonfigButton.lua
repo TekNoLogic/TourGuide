@@ -1,5 +1,5 @@
 
-local lib, oldminor = LibStub:NewLibrary("tekKonfig-Button", 1)
+local lib, oldminor = LibStub:NewLibrary("tekKonfig-Button", 2)
 if not lib then return end
 
 
@@ -41,5 +41,13 @@ function lib.new(parent, ...)
 	butt:SetScript("OnEnter", ShowTooltip)
 	butt:SetScript("OnLeave", HideTooltip)
 
+	return butt
+end
+
+
+function lib.new_small(parent, ...)
+	local butt = lib.new(parent, ...)
+	butt:SetHighlightFontObject(GameFontHighlightSmall)
+	butt:SetTextFontObject(GameFontNormalSmall)
 	return butt
 end
