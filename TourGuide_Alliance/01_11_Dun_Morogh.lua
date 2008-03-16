@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Dun Morogh (1-11)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Dun Morogh (1-11)", "Darkshore (12-17)", "Alliance", function()
 return [[
 A Dwarven Outfitters
 C Dwarven Outfitters
