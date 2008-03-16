@@ -25,6 +25,7 @@ Parser.lua
 Mapping.lua
 StatusFrame.lua
 Config.lua
+Help.lua
 ObjectivesFrame.lua
 GuideList.lua
 UnlistedQuest.lua
