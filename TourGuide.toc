@@ -4,6 +4,8 @@
 ## Notes: Powerleveling guide framework
 ## Author: Tekkub Stoutwrithe
 ## Version: Alpha
+## X-Website: http://www.tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Quest
 
 ## SavedVariables: TourGuideAlphaDB
