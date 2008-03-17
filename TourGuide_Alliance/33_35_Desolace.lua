@@ -31,7 +31,7 @@ C Bone Collector |N|Loot the kodo bones lying around the graveyard|
 A Sceptre of Light |N|At the tower near the ocean to the northwest (38.9, 27.2)|
 T Vahlarriel's Search (Part 3) |N|Turn this in to Dalinda Malem in the main building at the center of Thunder Axe Fortress (54,26)|
 A Search for Tyranis
-C Sceptre of Light |N|Kill Burning Blade Seers|
+C Sceptre of Light |N|Kill the Burning Blade Seer at the top of the watchtower just outside (55.23, 30.13)|
 C Search for Tyranis |N|Found inside the building west (53.0,29.0)|
 T Search for Tyranis |N|Back in the other building.  Follow-up is an escort so be ready.|
 A Return to Vahlarriel |N|Dalinda may ignore mobs, so don't attack anything unless she attacks or is attacked|
