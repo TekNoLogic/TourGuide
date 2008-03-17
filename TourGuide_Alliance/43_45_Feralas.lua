@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Feralas (43-45)", "The Hinterlands (46-47)", "Alliance", function()
 return [[
-F Feathermoon Stronghold
+R Feathermoon Stronghold |N|Fly to Desolace and run southwest into Feralas (43,98).  Follow the road until the path down to the docks.  Take the boat if it's there, or swim due west.| |Z|Desolace|
 
 A The Mark of Quality
 A The Ruins of Solarsal
@@ -54,7 +54,6 @@ A Doling Justice (Part 2)
 
 T The Woodpaw Gnolls |N|(73,56)|
 A The Writhing Deep
-A Thalanaar Delivery |U|11463|
 T The Writhing Deep |N|Grind to the hive (73,63).  Go inside, take the southern tunnel and stay right.  Turnin at the Zukk'Ash Pod|
 A Freed from the Hive
 
@@ -66,9 +65,6 @@ T Freed from the Hive
 A A Hero's Welcome
 T A Hero's Welcome
 A Rise of the Silithid |NODEBUG|
-
-F Thalanaar
-T Thalanaar Delivery
 
 F Rut'theran Village |N|Darnassus you dingus|
 T Handle With Care

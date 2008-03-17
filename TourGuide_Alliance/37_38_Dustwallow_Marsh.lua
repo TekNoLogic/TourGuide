@@ -1,13 +1,7 @@
 
 TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (38-40)", "Alliance", function()
 return [[
-b Ratchet
-T Goblin Sponsorship (Part 5)
-A The Eighteenth Pilot
-T The Eighteenth Pilot |N|Fly down to Gadgetzan and run up to the raceway|
-A Razzeric's Tweaking
-
-F Theramore Isle |N|Run back down to Gadgetzan and fly up|
+F Theramore Isle |N|Boat to Ratchet, fly down|
 A This Old Lighthouse
 T This Old Lighthouse |N|On the lighthouse island northeast of Theramore (72.06, 47.02)|
 A Thresher Oil
@@ -115,7 +109,6 @@ T The Zeppelin Crash |N|To the east at Beezil's Wreck (54,56).|
 A Corrosion Prevention
 A Secure the Cargo!
 
-C Razzeric's Tweaking |N|On the east side of the zepplin.  TODO: part of Gobbie Sponsorship chain, need to complete them first.|
 C Corrosion Prevention |U|33108| |N|Make sure you have the "Energized" buff and use the [Ooze Buster] on the slimes.  Note that there is a bug with this quest which may allow you to complete it without leaving the questgiver: target a nearby ooze, use the buster... while it is channelling target a different ooze (at any range).|
 C Secure the Cargo!
 

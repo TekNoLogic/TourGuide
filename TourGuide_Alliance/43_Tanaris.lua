@@ -17,13 +17,8 @@ A Keeping Pace
 T Keeping Pace |N|Talk to Zamek (79,77), then talk to the plans from Rizzle's house (77,77) when he runs outside.| |Z|Thousand Needles|
 A Rizzle's Schematics
 T Rizzle's Schematics
-T Razzeric's Tweaking
-A Safety First (Part 1)
 
 H Gadgetzan
-T Safety First (Part 1)
-A Safety First (Part 2)
-
 R Steamwheedle Port
 A WANTED: Caliph Scorpidsting
 T Stoley's Debt

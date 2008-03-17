@@ -21,8 +21,7 @@ R Badlands |N|(46,76)|
 A Fiery Blaze Enchantments |N|(54,43)|
 A Mirages
 A A Dwarf and His Tools
-T Martek the Exiled |N|(42,52)|
-A Indurium
+A Indurium |N|(42,52)|
 A Barbecued Buzzard Wings
 A Pearl Diving
 
