@@ -1,5 +1,5 @@
 
-local lib, oldminor = LibStub:NewLibrary("tekKonfig-Slider", 1)
+local lib, oldminor = LibStub:NewLibrary("tekKonfig-Slider", 2)
 if not lib then return end
 
 
@@ -40,15 +40,15 @@ function lib.new(parent, label, lowvalue, highvalue, ...)
 	slider:SetThumbTexture("Interface\\Buttons\\UI-SliderBar-Button-Horizontal") -- Dim: 32x32... can't find API to set this?
 	slider:SetBackdrop(HorizontalSliderBG)
 
-	local text = slider:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+	local text = slider:CreateFontString(nil, "ARTWORK", "GameFontNormal")
 	text:SetPoint("BOTTOM", slider, "TOP")
 	text:SetText(label)
 
-	local low = slider:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+	local low = slider:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 	low:SetPoint("TOPLEFT", slider, "BOTTOMLEFT", -4, 3)
 	low:SetText(lowvalue)
 
-	local high = slider:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+	local high = slider:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 	high:SetPoint("TOPRIGHT", slider, "BOTTOMRIGHT", 4, 3)
 	high:SetText(highvalue)
 
