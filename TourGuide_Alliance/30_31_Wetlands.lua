@@ -29,18 +29,20 @@ T Fall of Dun Modr |N|At Dun Modr (51,21)|
 A The Dark Iron War
 A A Grim Task
 
-C A Grim Task |N|Look for a dorf with a voidwalker.  If he isn't in the area near the questgiver check at the camp to the east (60, 27).|
-C The Dark Iron War
-
 A The Thandol Span (Part 1)
-T The Thandol Span (Part 1) |N|Go down the stairs to the right. There are two elites, but they can be soloed one by one (51.2, 8.0)|
+T The Thandol Span (Part 1) |N|Head out to the middle of Thandol Span, head down the stairs to the right (51.2, 8.0).|
 A The Thandol Span (Part 2)
-T The Thandol Span (Part 2)
+T The Thandol Span (Part 2) |N|Back at Dun Modr|
 A The Thandol Span (Part 3)
 
-R Arathi Highlands |N|Go north|
-C The Thandol Span (Part 3) |Z|Arathi Highlands| |N|Across the little bridge (48,88)|
-T The Thandol Span (Part 3)
+C A Grim Task |N|Look for a dorf with a voidwalker.  If he isn't in the area near the questgiver check at the camp to the east (60, 27).  If you don't find him, abandon this.|
+C The Dark Iron War
+
+T A Grim Task
+T The Dark Iron War
+
+C The Thandol Span (Part 3) |Z|Arathi Highlands| |N|Across Thandol Span, then across the small bridge to the east (48,88)|
+T The Thandol Span (Part 3) |N|Back at Dun Modr|
 A Plea To The Alliance |NODEBUG|
 ]]
 end)

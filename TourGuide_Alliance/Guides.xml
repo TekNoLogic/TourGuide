@@ -21,7 +21,6 @@
 
 	<Script file="30_31_Wetlands.lua"/>
 	<Script file="31_32_Hillsbrad_Foothills.lua"/>
-	<Script file="32_33_Arathi_Highlands.lua"/>
 	<Script file="33_35_Desolace.lua"/>
 	<Script file="34_35_Thousand_Needles.lua"/>
 	<Script file="36-37_Stranglethorn.lua"/>
