@@ -2,39 +2,40 @@
 TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (38-40)", "Alliance", function()
 return [[
 F Theramore Isle |N|Boat to Ratchet, fly down|
-A This Old Lighthouse
+A This Old Lighthouse |T|
 T This Old Lighthouse |N|On the lighthouse island northeast of Theramore (72.06, 47.02)|
 A Thresher Oil
 C Thresher Oil |N|In the water around the lighthouse|
 T Thresher Oil
 A Dastardly Denizens of the Deep
-T Dastardly Denizens of the Deep |N|Back on the dock (70.01, 50.81)|
-A Is it Real?
+T Dastardly Denizens of the Deep |N|Back on the dock (70.01, 50.81)| |T|
+A Is it Real? |T|
 
-A Traitors Among Us
-C Traitors Among Us |N|Talk to the Deserter Agitators, you may have to fight some.|
-T Traitors Among Us
-A Propaganda War
-C Propaganda War |N|In the ship at the south dock, downstairs in the captian's quarters|
-T Propaganda War
-A Discrediting the Deserters
-C Discrediting the Deserters |N|Hand out pamphlets to the guards|
-T Discrediting the Deserters
-A The End of the Deserters
+A Traitors Among Us |T|
+C Traitors Among Us |N|Talk to the Deserter Agitators, you may have to fight some.| |T|
+T Traitors Among Us |T|
+A Propaganda War |T|
+C Propaganda War |N|In the ship at the south dock, downstairs in the captian's quarters| |T|
+T Propaganda War |T|
+A Discrediting the Deserters |T|
+C Discrediting the Deserters |N|Hand out pamphlets to the guards| |T|
+T Discrediting the Deserters |T|
+A The End of the Deserters |T|
 C The End of the Deserters |N|Out on boat to the southeast (76.58, 56.86).  Downstairs in the captain's quarters.|
-T The End of the Deserters |N|Back in Theremore, of course.|
+T The End of the Deserters |N|Back in Theremore, of course.| |T|
 
-h Theramore Isle
-A They Call Him Smiling Jim |N|From Guard Byron|
-A Tabetha's Farm
-T They Call Him Smiling Jim |N|Inside the keep|
-A Inspecting the Ruins
-T The Missing Diplomat (Part 13)
-A The Missing Diplomat (Part 14)
-A Mission to Mudsprocket
+h Theramore Isle |T|
+A They Call Him Smiling Jim |N|From Guard Byron| |T|
+A Tabetha's Farm |T|
+T They Call Him Smiling Jim |N|Inside the keep| |T|
+A Inspecting the Ruins |T|
+T The Missing Diplomat (Part 13) |T|
+A The Missing Diplomat (Part 14) |T|
+A A Disturbing Development |T|
 
 T The Missing Diplomat (Part 14) |N|Inside the tower along road northwest of Theramore (59.7, 41.1).  If he is not there just wait, he'll be back.|
 A The Missing Diplomat (Part 15)
+T A Disturbing Development
 A Defias in Dustwallow?
 C Defias in Dustwallow? |N|Kill Garn Mathers on the island to the northeast (63.40, 28.12)|
 T Defias in Dustwallow? |N|Back at the tower|
@@ -62,7 +63,7 @@ A Raptor Captor |N|Follow the road northwest to North Point Tower (46.65, 23.12)
 T The Missing Diplomat (Part 15)
 A The Missing Diplomat (Part 16)
 C The Missing Diplomat (Part 16)
-T The Missing Diplomat (Part 16) |N|If Jiana ports away, you can find her in the tower at the center of Theramore Isle|
+T The Missing Diplomat (Part 16)
 
 C Raptor Captor |U|33069| |N|Fight raptors to the north of the tower down to low health, then use the rope on them.|
 
@@ -73,28 +74,28 @@ T Raptor Captor
 A Prisoners of the Grimtotems
 A Unleash the Raptors
 
-C Prisoners of the Grimtotems |N|Northwest in Blackhoof Village (45,18).  Kill Grimtotems for keys.|
+C Prisoners of the Grimtotems |N|Northwest in Blackhoof Village (41,12).  Kill Grimtotems for keys.|
 C Unleash the Raptors |U|33070| |N|Place the bait near the windmill in the center of town (42,12)|
 
 C Jarl Needs Eyes |N|Kill spiders to the southwest at Darkmist Cavern (35,21).|
 
-T Prisoners of the Grimtotems
+T Prisoners of the Grimtotems |N|Back at the tower|
 T Unleash the Raptors
 
 A Hungry! |N|Follow the road south until you are south of Brackenwall Village (35.1, 38.2).|
 T Inspecting the Ruins |N|At the Shady Rest Inn (29.6, 47.5).|
-A Suspicious Hoofprints |N|In front of the inn|
-A Lieutenant Paval Reethe (Part 1) |N|From a badge on the ground in the inn.|
-A The Black Shield (Part 1) |N|From the shield above the fireplace.|
+A Suspicious Hoofprints
+A Lieutenant Paval Reethe (Part 1)
+A The Black Shield (Part 1)
 
-A Direhorn Raiders |N|Southeast at Tabetha's Farm (45,57).|
+A Direhorn Raiders |N|Follow the road south, then east to Tabetha's Farm (46.04, 57.17).|
 A The Zeppelin Crash
 T Tabetha's Farm
 A The Grimtotem Weapon
 A The Reagent Thief
 
 C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.  If you have a pet you may not want to use it, you won't get creadit if the croc is not targetting you when it dies.| |U|33101|
-C The Reagent Thief |N|Kill them spiders|
+C The Reagent Thief |N|Kill spiders southeast of the farm (48,62)|
 
 C Direhorn Raiders |N|Kill Grimtotems north of the farm|
 K Apothecary Cylla |L|33114|
@@ -118,64 +119,63 @@ A Delivery for Drazzit
 
 T Is it Real? |N|On an island to the southeast (58.72, 60.18)|
 A Nat's Bargain
-C Nat's Bargain |N|Head to the ship wreckage to the southwest (57,63) and use the fish paste.| |U|33166|
+C Nat's Bargain |N|Head to the ship wreckage to the southwest (57,63), use the fish paste, swim around until you're attacked by the shark.  You may have to use the paste more than once.| |U|33166|
 T Nat's Bargain
 A Oh, It's Real
 
-R Mudsprocket |N|Back on the mainland to the southwest (42.31, 72.94)|
-T Delivery for Drazzit
-T Mission to Mudsprocket
-A WANTED: Goreclaw the Ravenous
-A Catch a Dragon by the Tail
-A Bloodfen Feathers
+R Mudsprocket |N|Back on the mainland, follow the road southwest (42.31, 72.94)|
+T Delivery for Drazzit |T|
+A WANTED: Goreclaw the Ravenous |T|
+A Catch a Dragon by the Tail |T|
+A Bloodfen Feathers |T|
 
-N Wyrmtail... |N|Loot any Wyrmtail you come across for "Catch a Dragon by the Tail"|
-C Bloodfen Feathers |N|Northwest of town at the Bloodfen Burrow|
-C WANTED: Goreclaw the Ravenous |N|In front of the cave (33.52, 65.76)|
+C WANTED: Goreclaw the Ravenous |N|In front of the cave at the Bloodfen Burrow (33.52, 65.76)|
+C Bloodfen Feathers |N|Keep killin' raptors|
 
-T WANTED: Goreclaw the Ravenous |N|Back at Mudsprocket|
-T Bloodfen Feathers
-A Banner of the Stonemaul
-A The Essence of Enmity
+T WANTED: Goreclaw the Ravenous |N|Back at Mudsprocket| |T|
+T Bloodfen Feathers |T|
+A Banner of the Stonemaul |T|
+A The Essence of Enmity |T|
 
 C Banner of the Stonemaul |N|Follow the road northwest to the Den of Flames (39,66).  Stay left unti you find the Stonemaul Clan Banner (38.13, 69.37).  Make sure you use the totem on the dragonkin after you kill them for "The Essence of Enmity".| |U|33088|
 C The Essence of Enmity |U|33088| |N|Kill dragonkin, use the totem on their corpses.|
 
-T Banner of the Stonemaul |N|Back at Mudsprocket|
-T The Essence of Enmity
-A Spirits of Stonemaul Hold
+T Banner of the Stonemaul |N|Back at Mudsprocket| |T|
+T The Essence of Enmity |T|
+A Spirits of Stonemaul Hold |T|
 
 C Spirits of Stonemaul Hold |N|North at Stonemaul Ruins, talk to the bones.|
 
-T Spirits of Stonemaul Hold
-A Challenge to the Black Flight
+T Spirits of Stonemaul Hold |T|
+A Challenge to the Black Flight |T|
 
-C Challenge to the Black Flight |N|East outside the entrance to Onyxia's Lair.  Plant the banner and kill the dragon.  If you can't plant the banner, back out of the cave.| |U|33095|
-C Catch a Dragon by the Tail
+C Challenge to the Black Flight |N|East outside the entrance to Onyxia's Lair (52.06, 75.68).  Plant the banner and kill the dragon.  If you can't plant the banner, back out of the cave.| |U|33095|
+C Catch a Dragon by the Tail |N|Little round sport things, all over between Onyxia's Lair and Mudsprocket.|
 
-T Challenge to the Black Flight |N|Back at Mudsprocket|
-T Catch a Dragon by the Tail
+T Challenge to the Black Flight |N|Back at Mudsprocket| |T|
+T Catch a Dragon by the Tail |T|
 
-T Oh, It's Real |N|Back in Theramore|
-A Take Down Tethyr!
-C Take Down Tethyr! |N|Use the cannons on the pier, be careful of his water blasts.|
-T Take Down Tethyr!
-T Suspicious Hoofprints
-T Lieutenant Paval Reethe (Part 1)
-A Lieutenant Paval Reethe (Part 2)
-T The Black Shield (Part 1)
-A The Black Shield (Part 2)
-T Lieutenant Paval Reethe (Part 2)
-A Daelin's Men
-T Daelin's Men
-A The Deserters (Part 1)
-T Stinky's Escape |N|In the inn|
-T The Orc Report |N|Near the entrance to town|
-A Captain Vimes
-T The Black Shield (Part 2) |N|At the smithy's|
-A The Black Shield (Part 3)
-T The Black Shield (Part 3)
-T Captain Vimes
+T Oh, It's Real |N|Back in Theramore| |T|
+A Take Down Tethyr! |T|
+C Take Down Tethyr! |T| |N|Use the cannons on the pier, be careful of his water blasts.|
+T Take Down Tethyr! |T|
+T Suspicious Hoofprints |T|
+T Lieutenant Paval Reethe (Part 1) |T|
+A Lieutenant Paval Reethe (Part 2) |T|
+T The Black Shield (Part 1) |T|
+A The Black Shield (Part 2) |T|
+T Lieutenant Paval Reethe (Part 2) |T|
+A Daelin's Men |T|
+T Daelin's Men |T|
+A The Deserters (Part 1) |T|
+T Stinky's Escape |N|In the inn| |T|
+T The Orc Report |N|Near the entrance to town| |T|
+A Captain Vimes |T|
+A Mission to Mudsprocket |T|
+T The Black Shield (Part 2) |T| |N|At the smithy's|
+A The Black Shield (Part 3) |T|
+T The Black Shield (Part 3) |T| |N|Back in the keep|
+T Captain Vimes |T|
 
 T Jarl Needs Eyes |N|Northwest at Swamplight Manor (55,26)|
 A Jarl Needs a Blade
@@ -200,23 +200,26 @@ T The Deserters (Part 1) |N|Beat down Balos Jacken at Lost Point Tower to the so
 A The Deserters (Part 2)
 
 H Theramore Isle
-T The Deserters (Part 2)
-A A Grim Connection
-T Jaina Must Know
-A Survey Alcaz Island
+T Jaina Must Know |N|Up in the tower| |T|
+A Survey Alcaz Island |T|
+T The Deserters (Part 2) |N|In the keep| |T|
+A A Grim Connection |T|
 C Survey Alcaz Island |N|Head down to the apprentice gryphon master and take the flight... DON'T SWIM OUT TO THE ISLAND!|
-T Survey Alcaz Island
-A Warn Bolvar!
-T Warn Bolvar! |N|Jiana can port you to Stormwind.  Bolvar is in the Keep of course (78.23, 18.38)| |Z|Stormwind City|
-A Return to Jaina
-T Return to Jaina |N|Malin in the Mage Quarter (39,81) can port your back|
+T Survey Alcaz Island |T|
+A Warn Bolvar! |T|
+T Warn Bolvar! |T| |N|Jiana can port you to Stormwind.  Bolvar is in the Keep of course (78.23, 18.38)| |Z|Stormwind City|
+A Return to Jaina |T|
+A Morgan Stern |T| |N|In the tavern in the Mage Quarter (41.26, 89.14).  Turn in "Feast at the Blue Recluse" if you'd like some free, low level food and drink.|
+A Tabetha's Task |T| |N|Up in the tower|
+T Return to Jaina |T| |N|Archmage Malin at the base of the tower ramp can port your back|
+T Morgan Stern |T| |N|In the inn, skip the follow-up|
 
 T A Grim Connection |N|Take the road northwest out of town to North Point tower|
 A Confirming the Suspicion
 A Arms of the Grimtotems
 
-C Arms of the Grimtotems
-C Confirming the Suspicion |N|Collect 4 notes, then combine them| |U|33050|
+C Arms of the Grimtotems |N|Northwest in Blackhoof Village (41,12).|
+C Confirming the Suspicion |N|Kill Elders to get 4 notes, then combine them| |U|33050|
 
 T Confirming the Suspicion |N|Back at the tower|
 T Arms of the Grimtotems
@@ -224,13 +227,16 @@ A Tabetha's Assistance
 
 T Tabetha's Assistance |N|At her farm, of course (45,57)|
 A Raze Direhorn Post!
-C Raze Direhorn Post! |N|Burn the tents to the north of the farm.  North Tent (46,45), Northeast Tent (47,46), East Tent (47,48)| |U|33072|
+T Tabetha's Task |N|Skip the follow-up|
+C Raze Direhorn Post! |N|Burn the tents to the north of the farm.  North Tent (46.63, 46.14), Northeast Tent (47.16, 46.72), East Tent (47.35, 47.48)| |U|33072|
 T Raze Direhorn Post!
 A Justice for the Hyals
 
-T Justice for the Hyals |N|Back in Theramore.  Run down to Mudsprocket and fly up.|
-A Peace at Last
+T Mission to Mudsprocket |N|Run down to Mudsprocket.| |T|
+
+T Justice for the Hyals |N|Back in Theramore.| |T|
+A Peace at Last |T|
 C Peace at Last |N|Just outside Theramore at the graveyard|
-T Peace at Last
+T Peace at Last |T|
 ]]
 end)

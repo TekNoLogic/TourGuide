@@ -1,12 +1,14 @@
 
 TourGuide:RegisterGuide("Stranglethorn Vale (36-37)", "Dustwallow Marsh (37-38)", "Alliance", function()
 return [[
-b Booty Bay
-A Investigate the Camp
-A Hostile Takeover
-A Supply and Demand |N|On same level as Flight Path he may not have a ! over him (28.3, 77.5)|
+b Booty Bay |N|Fly to Theramore and run up the coast to Ratchet.  Watch out for the murloc camp along the way.  I know it's annoying, but it's certainly a nicer run than the one from the north end of STV.|
+A Supplies to Private Thorsen |N|Upper level of the inn|
+A Investigate the Camp |N|Upper level of the inn|
+A Hostile Takeover |N|Upper level of the inn|
+A Supply and Demand |N|On same level as the flight path.  He may not have a ! over his head (28.3, 77.5)|
 
 F Rebel Camp
+T Supplies to Private Thorsen
 A The Second Rebellion
 A Bad Medicine
 
@@ -18,7 +20,7 @@ A Tiger Mastery (Part 1)
 A Panther Mastery (Part 1)
 A Raptor Mastery (Part 1)
 
-C Tiger Mastery (Part 1) |N|Near the camp, slightly to the east|
+C Tiger Mastery (Part 1) |N|Near the camp, southwest a bit.|
 C Supply and Demand |N|Crocs along the river north of the camp|
 C Panther Mastery (Part 1) |N|Near camp and to the north|
 
@@ -28,12 +30,12 @@ A Panther Mastery (Part 2)
 T Tiger Mastery (Part 1)
 A Tiger Mastery (Part 2)
 
-C Panther Mastery (Part 2) |N|West of camp|
-C Raptor Mastery (Part 1) |N|West near the ruins (28,14)|
+C Raptor Mastery (Part 1) |N|West of camp on a plateau (26,15)|
+C Panther Mastery (Part 2) |N|Same plateau, east of the raptors (28,13)|
 
-C Hostile Takeover |N|Head to the Venture Co. Base to the east at Lake Nezferiti.|
+C Hostile Takeover |N|Venture Co. Base Camp to the east of Lake Nezferiti.|
 
-C Tiger Mastery (Part 2) |N|Northeast side of the lake, south of Kurzen's Compound|
+C Tiger Mastery (Part 2) |N|North of Venture Co. Base Camp on a plateau south of Kurzen's Compound.|
 
 C Bad Medicine |N|To the north at Kurzen's Compound (44,11)|
 C The Second Rebellion

@@ -2,12 +2,12 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (38-40)", "Badlands (40-41)", "Alliance", function()
 return [[
 b Booty Bay
-A Singing Blue Shards
-A Bloodscalp Ears
+A Singing Blue Shards |N|In the inn, lower level| |T|
+A Bloodscalp Ears |N|Upstairs in the inn| |T|
 
-A The Haunted Isle |N|From Krazek in the tavern|
-T The Haunted Isle |N|Baron Revilgaz, upstairs in the tavern|
-A The Stone of the Tides
+A The Haunted Isle |T|
+T The Haunted Isle |T|
+A The Stone of the Tides |T|
 
 F Rebel Camp
 A Special Forces
@@ -45,20 +45,20 @@ A Chapter IV
 
 T Colonel Kurzen |N|Back at the Rebel Camp|
 
-T Singing Blue Shards |N|Fly back to Booty Bay|
-A Venture Company Mining
-T Bloodscalp Ears
-A Skullsplitter Tusks |N|From Kebok in the inn (2nd Floor)|
-T The Stone of the Tides
-A Water Elementals
+T Singing Blue Shards |N|Fly back to Booty Bay| |T|
+A Venture Company Mining |T|
+T Bloodscalp Ears |T|
+A Skullsplitter Tusks |T|
+T The Stone of the Tides |T|
+A Water Elementals |T|
 
-C Chapter I |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.|
-C Chapter II |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.|
-C Chapter III |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.|
-C Chapter IV |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.|
+C Chapter I |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
+C Chapter II |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
+C Chapter III |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
+C Chapter IV |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
 
-T Some Assembly Required
-A Excelsior
+T Some Assembly Required |T|
+A Excelsior |T|
 
 C Venture Company Mining |N|From the Booty Bay exit take the road north beyond Gurubashi Arena on the east side of the road (39,41)|
 C Skullsplitter Tusks |N|In the area around Ziata'Jai Ruins (42,36). Clear that camp, then hit Balia'mah Ruins (45,33) to the northeast and then Zul'Mamwe (47,38) to the southeast.  Repeat!|
@@ -68,8 +68,8 @@ C Panther Mastery (Part 3) |N|Northeast of the raptors in a suspiciously "empty"
 C Excelsior |N|Travel north along the shore killing all the Saltwater Crocolisks you come across until an Elder Saltwater Crocolisks spawns|
 C Water Elementals |N|On the island (21,22)|
 
-T Panther Mastery (Part 3) |N|Back at Nesingwary's|
-T Raptor Mastery (Part 3)
+T Panther Mastery (Part 3) |N|Back at Nesingwary's, skip the follow-up.|
+T Raptor Mastery (Part 3) |N|Skip the follow-up.|
 T Chapter I
 T Chapter II
 T Chapter III
@@ -79,9 +79,9 @@ T The Green Hills of Stranglethorn
 
 T Troll Witchery |N|Back at the Rebel Camp|
 
-T Water Elementals |N|Fly back to Booty Bay|
-T Venture Company Mining
-T Skullsplitter Tusks |N|Upstairs|
-T Excelsior
+T Water Elementals |N|Fly back to Booty Bay| |T|
+T Venture Company Mining |N|In the inn| |T|
+T Skullsplitter Tusks |N|Upstairs in the inn| |T|
+T Excelsior |T|
 ]]
 end)
