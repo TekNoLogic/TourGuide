@@ -16,7 +16,7 @@ A Kurzen's Mystery
 C Singing Blue Shards |N|Kill Crystal Spine Basilisks west of the Bal'lal Ruins along the shore (25,18)|
 C The Stone of the Tides |N|On the island to the west (21,22)|
 
-C Kurzen's Mystery |N|First legend is on a tablet named "Moon Over the Vale" in the Bal'lal Ruins (29.5, 19.1).  Second is "Gri"lek the Wanderer", west of Bal'lal Ruins underwater (24.8, 22.8).  Third is "Fall of Gurubashi" in the Ruins of Zul'Kunda (32.25, 12.05).  Fourth is "The Emperor's Tomb" in the Ruins of Zul'Kunda (24.7, 9.0)|
+C Kurzen's Mystery |N|First legend is on a tablet named "Moon Over the Vale" in the Bal'lal Ruins (29.5, 19.1).  Second is "Gri"lek the Wanderer", west of Bal'lal Ruins underwater (24.8, 22.8).  Third is "Fall of Gurubashi" in the Ruins of Zul'Kunda (22.98, 12.05).  Fourth is "The Emperor's Tomb" in the Ruins of Zul'Kunda (24.7, 9.0)|
 C Bloodscalp Ears |N|Kill trolls in the Bal'lal Ruins, Ruins of Zul'Kunda and Tkashi Ruins|
 
 C Tiger Mastery (Part 3) |N|South of Nessy's camp, north of Grom'Gol.|
@@ -34,10 +34,11 @@ A Colonel Kurzen
 T Kurzen's Mystery
 A Troll Witchery
 
-C Colonel Kurzen |N|Fly to Rebel Camp.  East in the cave at the Kurzen Compound (45,8)|
+C Colonel Kurzen |N|Once again, in the cave at the Kurzen Compound (45,8)|
 C Tiger Mastery (Part 4) |N|Sin'Dall is on a hill southwest of Nessy's camp (32.20, 17.25)|
 
 T Tiger Mastery (Part 4) |N|Back at Nesingwary's|
+A The Green Hills of Stranglethorn
 A Chapter I
 A Chapter II
 A Chapter III
@@ -45,19 +46,19 @@ A Chapter IV
 
 T Colonel Kurzen |N|Back at the Rebel Camp|
 
-T Singing Blue Shards |N|Fly back to Booty Bay| |T|
-A Venture Company Mining |T|
-T Bloodscalp Ears |T|
+T Bloodscalp Ears |T| |N|Fly back to Booty Bay, turn-in is upstairs in the inn.|
 A Skullsplitter Tusks |T|
 T The Stone of the Tides |T|
 A Water Elementals |T|
+T Singing Blue Shards |T| |N|Downstairs in the inn|
+A Venture Company Mining |T|
 
 C Chapter I |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
 C Chapter II |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
 C Chapter III |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
 C Chapter IV |N|Buy any pages you don't have off the AH.  If you can't find some just skip this chapter.| |T|
 
-T Some Assembly Required |T|
+T Some Assembly Required |T| |N|Back in the leather shop|
 A Excelsior |T|
 
 C Venture Company Mining |N|From the Booty Bay exit take the road north beyond Gurubashi Arena on the east side of the road (39,41)|
@@ -74,14 +75,13 @@ T Chapter I
 T Chapter II
 T Chapter III
 T Chapter IV
-A The Green Hills of Stranglethorn |N|Skip this if you didn't get every page|
-T The Green Hills of Stranglethorn
+T The Green Hills of Stranglethorn |N|Skip this if you didn't get every page|
 
 T Troll Witchery |N|Back at the Rebel Camp|
 
 T Water Elementals |N|Fly back to Booty Bay| |T|
 T Venture Company Mining |N|In the inn| |T|
 T Skullsplitter Tusks |N|Upstairs in the inn| |T|
-T Excelsior |T|
+T Excelsior |T| |N|Back in the leather shop|
 ]]
 end)
