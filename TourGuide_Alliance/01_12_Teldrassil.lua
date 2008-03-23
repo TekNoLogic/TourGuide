@@ -91,14 +91,14 @@ C Seek Redemption!
 T Seek Redemption! |N|East at Zenn Foulhoof|
 C Ferocitas the Dream Eater |N|North of Starbreeze.  Kill Ferocitas (69.37, 53.41) and open the necklace he drops for the jewel.| |U|8049|
 
-C Twisted Hatred |N|North of Dolanaar (52.83, 50.19).  You can also wait until you're 10 to do this.|
+C Twisted Hatred |N|North of Dolanaar (51.23, 50.79).  You can also wait until you're 10 to do this.|
 T Ferocitas the Dream Eater
 T Twisted Hatred
 
 A The Road to Darnassus |N|From a mounted patrol on the road west of town|
-C The Road to Darnassus |N|Near the cave south of the road where the NPC partrols (46,52)|
+C The Road to Darnassus |N|Outside of Ban'ethil Hollow (46,52), south of the road where the NPC partrols.|
 
-N Rune of Nesting |N|Head down into the Ban'ethil Barrow Den (44,57).  At the first set of bridges take the left bridge (44.40, 60.67).| |Q|The Relics of Wakening| |QO|Rune of Nesting: 1/1|
+N Rune of Nesting |N|Head down into the Ban'ethil Barrow Den (44.41, 57.87).  At the first set of bridges take the left bridge (44.40, 60.67).| |Q|The Relics of Wakening| |QO|Rune of Nesting: 1/1|
 N Black Feather Quill |N|Across the other bridge (43.70, 61.22).| |Q|The Relics of Wakening| |QO|Black Feather Quill: 1/1|
 A The Sleeping Druid |N|Jump down and take the passage to the west, run across the bridge to Oben Rageclaw (44.94, 61,60).|
 N Sapphire of Sky |N|Jump down and go south (44.70, 62.44).| |Q|The Relics of Wakening| |QO|Sapphire of Sky: 1/1|
@@ -168,7 +168,7 @@ A The Enchanted Glade
 A Mist |N|Find the saber to the west, past the harpies (31.5, 31.6)|
 A The Shimmering Frond |N|Slightly northeast of where you found Mist (34.7, 28.8)|
 C The Enchanted Glade
-C Mist |N|Lead the cat back to the Oracle Glade|
+C Mist |N|Lead the cat back to the moonwell at the Oracle Glade (38.29, 34.34).|
 
 T Mist
 T The Enchanted Glade
