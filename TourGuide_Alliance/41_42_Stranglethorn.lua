@@ -5,13 +5,13 @@ F Stormwind City
 A In Search of The Temple |N|In the Dwarven District (63,24)| |Z|Stormwind City| |NODEBUG|
 
 F Booty Bay
-A Tran'Rek |N|From Krazek in the Inn (2nd Floor)|
+A Tran'rek |N|From Krazek in the Inn (2nd Floor)|
 A Zanzil's Secret |N|From Crank Fizzlebub in the Inn.|
 h Booty bay
 A Akiris by the Bundle (Part 1) |N|From Privateer Bloads next to the Bank.|
+A Scaring Shaky |N|In the house opposite the upside-down half-boat.|
 A The Bloodsail Buccaneers (Part 1) |N|From First Mate Crazz just past the "Old Port Authority" building (First big building when getting off the Boat).|
 
-C "Pretty Boy" Duncan |N|Outside, head west after exiting Booty Bay.  He's on the shore (28,69).|
 T The Bloodsail Buccaneers (Part 1) |N|On top of one of the barrels|
 A The Bloodsail Buccaneers (Part 2)
 C Akiris by the Bundle (Part 1) |N|Northwest across the bridge (24,65)|
