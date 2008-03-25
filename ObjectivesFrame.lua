@@ -85,11 +85,11 @@ end
 function TourGuide:CreateObjectivePanel()
 	local guidebutton = CreateButton(frame, "BOTTOMRIGHT", -6, 6)
 	guidebutton:SetText("Guides")
-	guidebutton:SetScript("OnClick", function() frame:Hide(); LibStub("OptionHouse-1.1"):Open("Tour Guide", "Guides") end)
+	guidebutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToFrame(TourGuide.guidespanel) end)
 
 	local configbutton = CreateButton(frame, "RIGHT", guidebutton, "LEFT")
 	configbutton:SetText("Config")
-	configbutton:SetScript("OnClick", function() frame:Hide(); LibStub("OptionHouse-1.1"):Open("Tour Guide", "Config") end)
+	configbutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToFrame(TourGuide.configpanel) end)
 
 	if tekDebug then
 		local b = CreateButton(frame, "RIGHT", configbutton, "LEFT")

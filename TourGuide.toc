@@ -4,6 +4,8 @@
 ## Notes: Powerleveling guide framework
 ## Author: Tekkub Stoutwrithe
 ## Version: Alpha
+## X-Website: http://www.tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Quest
 
 ## SavedVariables: TourGuideAlphaDB
@@ -14,7 +16,7 @@
 ## X-LoadOn-Always: delayed
 
 Dongle.lua
-OptionHouse.lua
+tekKonfig\tekKonfig.xml
 WidgetWarlock.lua
 
 Locale.lua
@@ -23,6 +25,7 @@ Parser.lua
 Mapping.lua
 StatusFrame.lua
 Config.lua
+Help.lua
 ObjectivesFrame.lua
 GuideList.lua
 UnlistedQuest.lua
