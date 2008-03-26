@@ -38,13 +38,12 @@ C Voodoo Dues |N|Run north to Ruins of Jubuwal (33,51), kill Jon-Jon the Crow an
 C Zanzil's Secret |N|Kill the trolls, but avoid Zanzil|
 
 H Booty Bay |SZ|The Salty Sailor Tavern|
-T Venture Company Mining |N|At Crank Fizzlebub in the Inn.|
-T Zanzil's Secret
-T Up to Snuff |N|At Deeg on the 2nd Floor of the Inn.|
+T Zanzil's Secret |N|In the inn.|
+T Up to Snuff |N|Upstairs in the inn.|
 T The Bloodsail Buccaneers |N|At Fleet Master Seahorn, 2nd Floor of the Inn.|
 T Voodoo Dues |N|At "Sea Wolf" MacKinley (First house next to the Inn).|
 A Cracking Maury's Foot
 A Stoley's Debt
-T Keep An Eye Out |N|At Dizzy One-Eye to the right of the Blacksmith.| |NODEBUG|
+T Keep An Eye Out |N|At Dizzy One-Eye outside the smithy's.| |NODEBUG|
 ]]
 end)
