@@ -66,7 +66,6 @@ frame:SetScript("OnShow", function()
 	end)
 
 
-	local fadein = LibStub("tekKonfig-FadeIn").FadeIn
 	local function newoffset()
 		for i,name in ipairs(TourGuide.guidelist) do
 			if name == TourGuide.db.char.currentguide then return i - (NUMROWS/2) - 1 end
@@ -77,7 +76,6 @@ frame:SetScript("OnShow", function()
 		if offset >= (#TourGuide.guidelist - NUMROWS) then offset = #TourGuide.guidelist - NUMROWS - 1 end
 		if offset < 0 then offset = 0 end
 		TourGuide:UpdateGuidesPanel()
-		fadein(self)
 	end
 	frame:SetScript("OnShow", OnShow)
 	OnShow(frame)

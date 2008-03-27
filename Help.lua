@@ -59,8 +59,7 @@ frame:SetScript("OnShow", function()
 		local text = ww.SummonFontString(f, nil, "GameFontHighlight", descriptions[icontype], "LEFT", icon, "RIGHT", ROWOFFSET, 0)
 	end
 
-	frame:SetScript("OnShow", LibStub("tekKonfig-FadeIn").FadeIn)
-	LibStub("tekKonfig-FadeIn").FadeIn(frame)
+	frame:SetScript("OnShow", nil)
 end)
 
 InterfaceOptions_AddCategory(frame)

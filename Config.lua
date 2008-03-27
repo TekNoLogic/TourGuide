@@ -18,8 +18,7 @@ frame:SetScript("OnShow", function()
 	qtrack:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.trackquests = not TourGuide.db.char.trackquests end)
 	qtrack:SetChecked(TourGuide.db.char.trackquests)
 
-	frame:SetScript("OnShow", LibStub("tekKonfig-FadeIn").FadeIn)
-	LibStub("tekKonfig-FadeIn").FadeIn(frame)
+	frame:SetScript("OnShow", nil)
 end)
 
 InterfaceOptions_AddCategory(frame)
