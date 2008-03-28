@@ -53,9 +53,9 @@ end
 
 
 function TourGuide:Enable()
-	if GetAddOnInfo("TomTom") then
+	if IsAddOnLoaded("TomTom") then
 		local version = GetAddOnMetadata("TomTom", "Version")
-		if not version or tonumber(version) < 120 then message("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
+		if (tonumber(version) or 0) < 120 then message("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
 	end
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
