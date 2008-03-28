@@ -39,6 +39,7 @@ C Zanzil's Secret |N|Kill the trolls, but avoid Zanzil|
 
 H Booty Bay |SZ|The Salty Sailor Tavern|
 T Zanzil's Secret |N|In the inn.|
+A Whiskey Slim's Lost Grog
 T Up to Snuff |N|Upstairs in the inn.|
 T The Bloodsail Buccaneers |N|At Fleet Master Seahorn, 2nd Floor of the Inn.|
 T Voodoo Dues |N|At "Sea Wolf" MacKinley (First house next to the Inn).|
