@@ -53,10 +53,7 @@ end
 
 
 function TourGuide:Enable()
-	if IsAddOnLoaded("TomTom") then
-		local version = GetAddOnMetadata("TomTom", "Version")
-		if (tonumber(version) or 0) < 120 then message("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
-	end
+	if TomTom and TomTom.version ~= "SVN" and (tonumber(TomTom.version) or 0) < 120 then self:Print("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self:RegisterEvent("QUEST_COMPLETE", "UpdateStatusFrame")
