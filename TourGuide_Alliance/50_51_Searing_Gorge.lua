@@ -47,7 +47,7 @@ A Proof of Deed
 H City of Ironforge
 T Proof of Deed |N|In the Hall of Explorers|
 A At Last!
-A A Little Slime Goes a Long Way |N|In the Hall of Explorers museum (75.82,23.19)| |Z|City of Ironforge|
+A A Little Slime Goes a Long Way |N|In the Hall of Explorers museum (75.82,23.19)| |Z|Ironforge|
 
 F Thelsamar
 T At Last! |N|Valley of Kings again (18.18,84.06)| |Z|Loch Modan|

@@ -6,7 +6,7 @@ B [Frost Oil] |N|From AH|
 B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|
 B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
 B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
-A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)| |Z|City of Ironforge|
+A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)| |Z|Ironforge|
 
 N Upgrade your ammo! |C|Hunter|
 

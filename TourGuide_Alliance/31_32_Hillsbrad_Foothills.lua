@@ -54,7 +54,7 @@ T The Eye of Paleth
 A Cleansing the Eye
 
 F City of Ironforge
-T Letter to Stormpike |Z|City of Ironforge| |N|Hall of Explorers (74.25, 12.70)|
+T Letter to Stormpike |Z|Ironforge| |N|Hall of Explorers (74.25, 12.70)|
 A Further Mysteries
 T Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock|
 A Tome of the Cabal (Part 3) |N|Hall of Explorers| |C|Warlock|

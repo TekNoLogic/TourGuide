@@ -253,7 +253,7 @@ C Deeprun Rat Roundup |U|17117|
 T Deeprun Rat Roundup
 
 R City of Ironforge
-f Grab flight point |N|In the center of town at the Forge (55.55, 47.76)| |Z|City of Ironforge|
+f Grab flight point |N|In the center of town at the Forge (55.55, 47.76)| |Z|Ironforge|
 
 R Dun Morogh
 A The Public Servant |N|Follow the road east to the Gol'Bolar Quarry (68,55)| |Z|Dun Morogh|

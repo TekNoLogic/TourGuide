@@ -65,7 +65,7 @@ T Return to Ironforge |O| |N|In the Hall of Explorers|
 A A Future Task
 A Passing the Burden
 T A Future Task
-T Passing the Burden |N|In the Mystic Ward (31.20,4.70)| |Z|City of Ironforge|
+T Passing the Burden |N|In the Mystic Ward (31.20,4.70)| |Z|Ironforge|
 A Arcane Runes
 A An Easy Pickup
 T An Easy Pickup |N|In the Military Ward|
