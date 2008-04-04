@@ -9,16 +9,6 @@ A WANTED: Andre Firebeard |N|Wanted sign in front of the cage|
 T Tran'rek |N|Don't accept the follow-up|
 A Gadgetzan Water Survey |N|Southwest side of town on a hill|
 
-N Turnin quests in Shimmering flats |N|If you have them.|
-T Rumors for Kravel |N|Up at the race track in shimmerinng flats (77,77)| |Z|Thousand Needles|
-A Back to Booty Bay
-T News for Fizzle
-A Keeping Pace
-T Keeping Pace |N|Talk to Zamek (79,77), then talk to the plans from Rizzle's house (77,77) when he runs outside.| |Z|Thousand Needles|
-A Rizzle's Schematics
-T Rizzle's Schematics
-
-H Gadgetzan
 R Steamwheedle Port
 A WANTED: Caliph Scorpidsting
 T Stoley's Debt

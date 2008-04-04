@@ -3,7 +3,6 @@ TourGuide:RegisterGuide("Stranglethorn Vale (48-49)", "Blasted Lands (49-50)", "
 return [[
 F Booty Bay |N|Hearth to IF if you can|
 h Booty Bay
-T Back to Booty Bay
 T Whiskey Slim's Lost Grog
 T Deliver to MacKinley |N|House near the upside-down half-boat|
 A Stranglethorn Fever |N|At the half-boat|
