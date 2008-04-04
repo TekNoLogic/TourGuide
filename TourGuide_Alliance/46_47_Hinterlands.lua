@@ -1,18 +1,9 @@
 
 TourGuide:RegisterGuide("The Hinterlands (46-47)", "Feralas (47)", "Alliance", function()
 return [[
-F Stormwind City
-T In Search of The Temple |NODEBUG|
-A To The Hinterlands |NODEBUG|
-
 F Southshore
 R The Hinterlands |N|Path is behind Durnholde Keep (84,33), look for two gryphons.| |Z|Hillsbrad Foothills|
-T To The Hinterlands |N|Up the big-ass hill (11,46)| |NODEBUG|
-A Gryphon Master Talonaxe
-f Get flight point
-T Gryphon Master Talonaxe
-A Rhapsody Shindigger
-A Witherbark Cages
+A Witherbark Cages |N|Up the big-ass hill (11,46)|
 A Featherbeard's Endorsement |N|Outside the inn|
 A A Gesture of Goodwill
 A Preying on the Predators
@@ -21,9 +12,6 @@ A Troll Necklace Bounty
 h Aerie Peak
 T Featherbeard's Endorsement |N|Near the fireplace (13,55)|
 A In Pursuit of Featherbeard
-
-T Rhapsody Shindigger |N|Kill wolves and collect feathers as you grind northeast to the path (20,48).  Head up the path to Rhapsody (26,48).|
-A Rhapsody's Kalimdor Kocktail
 
 C A Gesture of Goodwill |N|To the south in a cave at Bogen's Ledge (25,66)|
 C Witherbark Cages |N|Down at the troll camp (23,58).  Last cage is to the east (31,57)|

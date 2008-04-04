@@ -8,7 +8,6 @@ A The Thirsty Goblin
 h Gadgetzan
 A The Dunemaul Compound
 A Thistleshrub Valley
-C Rhapsody's Kalimdor Kocktail |N|Kill Rocs around the big skeletons (49,36), (44,39), (47,45)|
 T The Sunken Temple |N|(52.72,45.92)|
 A The Stone Circle
 A Gahz'ridian
@@ -75,7 +74,6 @@ T Signal for Pickup
 F Aeire Peak |N|Hinterlands!|
 T The Newest Member of the Family |N|In the inn, downstairs|
 A Food for Baby
-T Rhapsody's Kalimdor Kocktail |N|Up at the camp (26,48)| |N|The Hinterlands|
 A Rhapsody's Tale
 C Sprinkle's Secret Ingredient |N|Grind over to the lake, it is at the bottom (40,59)| |N|The Hinterlands|
 C Food for Baby |N|Grind over to the east, kill stealth wolves|

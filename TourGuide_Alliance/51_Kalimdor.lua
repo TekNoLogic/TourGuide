@@ -1,10 +1,6 @@
 
 TourGuide:RegisterGuide("Kalimdor (51)", "Un'Goro Crater (51-52)", "Alliance", function()
 return [[
-F Stormwind City
-T Rhapsody's Tale |N|Back in the dorf dist.  Don't take the follow-up.|
-B Mithril Casing |L|10561| |N|Off the AH, or find an engineer.|
-
 N Kill Jarquia |N|A murloc on the coast of Swamp of Sorrows.  For "Ledger From Tanaris"| |L|11723|
 
 F Darnassus |N|You probably want to hearth to IF|
@@ -14,6 +10,7 @@ A March of the Silithid
 T Assisting Arch Druid Staghelm |N|In a tower in the Cenarion Enclave (34.8, 8.7)| |Z|Darnassus|
 A Un'Goro Soil
 h Darnassus |N|The inn is in the Craftsman's Terrace (67.2, 15.7)| |Z|Darnassus|
+B Mithril Casing |L|10561| |N|Off the AH, or find an engineer.|
 
 F Theramore
 C Ledger from Tanaris |N|Find the package in the wreckage of a zepplin (54.1, 55.9)| |Z|Dustwallow Marsh|
