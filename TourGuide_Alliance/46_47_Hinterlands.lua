@@ -52,5 +52,7 @@ F Rut'theran Village
 T Favored of Elune?
 T The Super Snapper FX
 A Return to Troyas
+
+B [Elixir of Fortitude] x2 |L|3825 2| |N|From the auction house or find yourself an alchemist.  You can skip this if you did not do the "Freedom for All Creatures" questline or don't plan to continue it.|
 ]]
 end)
