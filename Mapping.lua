@@ -22,7 +22,7 @@ local function MapPoint(zone, x, y, desc)
 		zone = zonenames[zc][zi]
 	end
 
-	if TomTom then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, "[TG] "..desc))
+	if TomTom then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, "[TG] "..desc, false))
 	elseif Cartographer_Waypoints then
 		local pt = NotePoint:new(zone, x/100, y/100, "[TG] "..desc)
 		Cartographer_Waypoints:AddWaypoint(pt)
@@ -32,10 +32,10 @@ end
 
 
 function TourGuide:ParseAndMapCoords(note, desc, zone)
-	if TomTom and TomTom.ClearWaypoint then
+	if TomTom and TomTom.RemoveWaypoint then
 		local wpid = table.remove(cache)
 		while wpid do
-			TomTom:ClearWaypoint(wpid)
+			TomTom:RemoveWaypoint(wpid)
 			wpid = table.remove(cache)
 		end
 
