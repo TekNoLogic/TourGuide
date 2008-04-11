@@ -1,8 +1,6 @@
 
 TourGuide:RegisterGuide("Kalimdor (51)", "Un'Goro Crater (51-52)", "Alliance", function()
 return [[
-N Kill Jarquia |N|A murloc on the coast of Swamp of Sorrows.  For "Ledger From Tanaris"| |L|11723|
-
 F Darnassus |N|You probably want to hearth to IF|
 T Prayer to Elune (Part 2) |N|Upstairs in the Temple of the Moon|
 T Rise of the Silithid |NODEBUG|
@@ -23,10 +21,7 @@ T Rescue OOX-09/HL! |O| |N|On the second level of the docks. Just up the ramp ne
 T Rescue OOX-17/TN! |O| |N|On the second level of the docks. Just up the ramp next to the hanging shark, in the first house after the small bridge (28.3,76.3)|
 T Rescue OOX-22/FE! |O| |N|On the second level of the docks. Just up the ramp next to the hanging shark, in the first house after the small bridge (28.3,76.3)|
 
-F Theramore
-C Ledger from Tanaris |N|Find the package in the wreckage of a zepplin (54.1, 55.9)| |Z|Dustwallow Marsh|
-
-F Gadgetzan |N|Deathport to Theramore if you must|
+F Gadgetzan
 T Sprinkle's Secret Ingredient
 A Delivery for Marin
 T Delivery for Marin
@@ -35,7 +30,6 @@ T Noggenfogger Elixir
 A Super Sticky
 T March of the Silithid
 A Bungle in the Jungle
-T Ledger from Tanaris
 
 T The Stone Circle |N|South of Gadget at the ruins (52.7, 45.9).  Skip the follow-up.| |Z|Tanaris|
 ]]
