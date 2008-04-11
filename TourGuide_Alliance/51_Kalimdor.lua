@@ -12,17 +12,21 @@ A Un'Goro Soil
 h Darnassus |N|The inn is in the Craftsman's Terrace (67.2, 15.7)| |Z|Darnassus|
 B Mithril Casing |L|10561| |N|Off the AH, or find an engineer.|
 
+F Ratchet
+A Volcanic Activity |N|Just south of the dock.|
+C The Stone Circle |N|The chest outside the hut.|
+
+b Booty Bay
+T Whiskey Slim's Lost Grog
+T Deliver to MacKinley |N|House near the upside-down half-boat|
+T Rescue OOX-09/HL! |O| |N|On the second level of the docks. Just up the ramp next to the hanging shark, in the first house after the small bridge (28.3,76.3)|
+T Rescue OOX-17/TN! |O| |N|On the second level of the docks. Just up the ramp next to the hanging shark, in the first house after the small bridge (28.3,76.3)|
+T Rescue OOX-22/FE! |O| |N|On the second level of the docks. Just up the ramp next to the hanging shark, in the first house after the small bridge (28.3,76.3)|
+
 F Theramore
 C Ledger from Tanaris |N|Find the package in the wreckage of a zepplin (54.1, 55.9)| |Z|Dustwallow Marsh|
-T Cortello's Riddle (Part 2) |N|Find a Musty Scroll in a cave to the southwest (31.1, 66.1)| |Z|Dustwallow Marsh|
-A Cortello's Riddle (Part 3)
 
 F Gadgetzan |N|Deathport to Theramore if you must|
-
-T Zanzil's Mixture and a Fool's Stout |N|Up at the racetrack in Shimmering Flats|
-A Get the Goblins Drunk
-T Get the Goblins Drunk
-
 T Sprinkle's Secret Ingredient
 A Delivery for Marin
 T Delivery for Marin
