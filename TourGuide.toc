@@ -9,6 +9,7 @@
 ## X-Category: Quest
 
 ## SavedVariables: TourGuideAlphaDB
+## SavedVariablesPerCharacter: TourGuideQuestHistoryDB
 
 ## OptionalDeps: Dongle, Optionhouse, TomTom, tekDebug
 
@@ -30,6 +31,7 @@ ObjectivesFrame.lua
 GuideList.lua
 UnlistedQuest.lua
 QuestTracking.lua
+QuestIDTracking.lua
 
 NilGuide.lua
 

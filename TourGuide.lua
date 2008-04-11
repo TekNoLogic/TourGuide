@@ -59,6 +59,7 @@ function TourGuide:Enable()
 	self:RegisterEvent("QUEST_COMPLETE", "UpdateStatusFrame")
 	self:RegisterEvent("QUEST_DETAIL", "UpdateStatusFrame")
 	self.TrackEvents = nil
+	self:QuestID_QUEST_LOG_UPDATE()
 	self:UpdateStatusFrame()
 end
 

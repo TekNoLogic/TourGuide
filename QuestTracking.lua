@@ -74,6 +74,8 @@ end
 
 
 function TourGuide:QUEST_LOG_UPDATE(event)
+	self:QuestID_QUEST_LOG_UPDATE()
+
 	local action, _, logi, complete = self:GetObjectiveInfo(), self:GetObjectiveStatus()
 	self:Debug(10, "QUEST_LOG_UPDATE", action, logi, complete)
 
