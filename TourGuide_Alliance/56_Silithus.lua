@@ -69,8 +69,49 @@ T A Terrible Purpose
 end)
 
 --[[
+F Auberdine
+h Auberdine
 F Moonglade
-T Umber, Archivist |N|TODO (44,35)| |Z|Moonglade|
+T Umber, Archivist |N|North in Nighthaven (47.75, 39.70)| |Z|Moonglade|
 A Uncovering Past Secrets
-T Uncovering Past Secrets |N|(51,44)| |Z|Moonglade|
+T Uncovering Past Secrets |N|(51.70, 45.10)| |Z|Moonglade|
+
+T Mystery Goo |N|To Donova Snowden at pool just in Winterspring (31.3, 45.2)| |Z|Winterspring|
+A Toxic Horrors
+C Toxic Horrors |N|In Felwood in Irontree Woods (49.00, 23.20)| |Z|Felwood|
+T Toxic Horrors |N|Back to Donova Snowden|
+A Winterfall Runners
+C Winterfall Runners |N|You can find three Winterfall Runners anywhere along the path from Timbermaw Hold to Winterfall Village|
+T Winterfall Runners |N|Back to Donova Snowden|
+A High Chief Winterfall
+C High Chief Winterfall  |N|Go behind Everlook to the east (69.75, 38.25)|  |Z|Winterspring|
+A The Final Piece |O| |U|12842|
+
+T Enraged Wildkin (Part 1) |N|South of Everlook (59.0, 59.7)| |Z|Winterspring|
+A Enraged Wildkin (Part 2)
+T Enraged Wildkin (Part 2) |N|just east close to the road (61.4, 60.7)| |Z|Winterspring|
+A Enraged Wildkin (Part 3)
+N Jaron's Supplies |N|The supplies are right next to the wagon| |L|12525|
+
+T Find Ranshalla  |N|Across the road (63.1, 59.5)|  |Z|Winterspring|
+A Guardians of the Altar |N|Escort Quest |
+C Guardians of the Altar |N|Escoct, Let Ranshalla aggro the owlbeasts. Light the torch "Fire of Elune" as she recite the spell and when you click on the altar then listen to the story|
+N Blue-feathered Amulet |N|From  Owlbeast's | |L|12524|
+
+R Everlook
+T Are We There, Yeti?
+T Felnok Steelspring
+T Enraged Wildkin (Part 3) |N|At the lodge in Winterspring west of Everlook (52.1, 30.4)|  |Z|Winterspring|
+T High Chief Winterfall |N|Back to Donova Snowden(31.3, 45.2)|
+
+T The Final Piece |N|Back to Donova Snowden (31.3, 45.2)| |Z|Winterspring| |O|
+A Words of the High Chief |O| |PRE|The Final Piece|
+T Beads for Salfa |N|Next to entrance of cave to Felwood (27.75, 34.50)| |L|21383 5| |O| |Z|Winterspring|
+T Words of the High Chief |O| |N|Run Talonbranch Glade in Felwood and fly down to Emerald Sanctuary|
+
+H Auberdine
+F Teldrassil
+T Guardians of the Altar |N|(55.5, 92.1)| |Z|Teldrassil|
+A Wildkin of Elune
+T Wildkin of Elune |N|Arch Druid Fandral Staghelm in Darnassus (35,9)| |Z|Darnassus|
 ]]
