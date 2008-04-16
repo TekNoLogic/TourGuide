@@ -74,7 +74,7 @@ T Incendosaurs? Whateverosaur is More Like It
 T STOLEN: Smithing Tuyere and Lookout's Spyglass
 T JOB OPPORTUNITY: Culling the Competition
 
-T Forging the Shaft |N|(38,38)|
+T Forging the Shaft
 A The Flame's Casing
 
 C Release Them |N|Run up the path to the east of the cave at the Twilight Hammer camp (24,32).  In the center of a lava pool is the Twilight Artifact (29.2, 25.9)|
@@ -92,8 +92,8 @@ T The Torch of Retribution (Part 2) |N|Grab the torch he just made, duh.|
 A Squire Maltrake
 T Squire Maltrake
 A Set Them Ablaze!
-C Set Them Ablaze! |N|Light the brazier at each tower (33,53) (36,60) (44,61) (50,54)| |U|10515|
 T Release Them |N|Head back down to the Dying Archaeologist (41.2, 25.7).  You can drop through the hole if you want (35.15,43.18).  Talk to the alter near him.  Don't accept the followup unless you have a group to help.|
+C Set Them Ablaze! |N|Light the brazier at each tower (33,53) (36,60) (44,61) (50,54)| |U|10515|
 
 T Set Them Ablaze! |N|Back at Thorium Point|
 A Trinkets... |N|Talk to the chest near him|
