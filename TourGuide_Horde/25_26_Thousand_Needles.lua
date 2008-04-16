@@ -24,11 +24,11 @@ A Serpent Wild
 
 H Camp Taurajo
 A Washte Pawne |U|5103| |O|
-T Enraged Thunder Lizards
+T Enraged Thunder Lizards |O|
+A Cry of the Thunderhawk |O| |PRE|Enraged Thunder Lizards|
 T A New Ore Sample
-A Cry of the Thunderhawk
-C Cry of the Thunderhawk
-T Cry of the Thunderhawk |N|Skip the follow-up|
+C Cry of the Thunderhawk |O| |PRE|Enraged Thunder Lizards|
+T Cry of the Thunderhawk |O| |PRE|Enraged Thunder Lizards| |N|Skip the follow-up|
 
 F Thunder Bluff
 T Melor Sends Word |N|On Hunter Rise (61,80)|

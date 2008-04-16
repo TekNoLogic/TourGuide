@@ -1,11 +1,11 @@
 TourGuide:RegisterGuide("The Barrens (25)", "Thousand Needles (25-26)", "Horde", function()
 return [[
 F Camp Taurajo
-T Ishamuhale
-A Enraged Thunder Lizards
+T Ishamuhale |O|
+A Enraged Thunder Lizards |O| |PRE|Ishamuhale|
 h Camp Taurajo
 A A New Ore Sample
-C Enraged Thunder Lizards
+C Enraged Thunder Lizards |O| |PRE|Ishamuhale|
 N Find Mob Washte Pawne |N|Around (43,80)|
 C Revenge of Gann (Part 2) |N|Dwarf area (47,85)|
 T Revenge of Gann (Part 2)
