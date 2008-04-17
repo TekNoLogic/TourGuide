@@ -31,23 +31,17 @@ local function MapPoint(zone, x, y, desc)
 end
 
 
+local temp = {}
 function TourGuide:ParseAndMapCoords(note, desc, zone)
 	if TomTom and TomTom.RemoveWaypoint then
-		local wpid = table.remove(cache)
-		while wpid do
-			TomTom:RemoveWaypoint(wpid)
-			wpid = table.remove(cache)
-		end
-
+		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	elseif Cartographer_Waypoints then
-		while cache[1] do
-			local pt = table.remove(cache)
-			Cartographer_Waypoints:CancelWaypoint(pt)
-		end
+		while cache[1] do Cartographer_Waypoints:CancelWaypoint(table.remove(cache)) end
 	end
 
 	if not note then return end
 
-	for x,y in note:gmatch(L.COORD_MATCH) do MapPoint(zone, tonumber(x), tonumber(y), desc) end
+	for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
+	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), desc) end
 end
 
