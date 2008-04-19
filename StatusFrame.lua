@@ -39,7 +39,7 @@ local icon = ww.SummonTexture(f, "ARTWORK", ICONSIZE, ICONSIZE, nil, "LEFT", che
 local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormalSmall", nil, "RIGHT", -GAP-4, 0)
 text:SetPoint("LEFT", icon, "RIGHT", GAP-4, 0)
 
-local item = CreateFrame("Button", nil, UIParent, "SecureActionButtonTemplate")
+local item = CreateFrame("Button", "TourGuideItemFrame", UIParent, "SecureActionButtonTemplate")
 item:SetFrameStrata("LOW")
 item:SetHeight(36)
 item:SetWidth(36)
