@@ -20,150 +20,150 @@ A Windroc Mastery (Part 2)
 A Clefthoof Mastery (Part 2)
 A Talbuk Mastery (Part 2)
 
-A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest|
-T The Howling Wind |N|North of Garadar (the horde town) across the lake at the Throne of the Elements (60,22)|
-A Murkblood Corrupters
-A The Underneath
-A A Rare Bean
-A Muck Diving
-T The Underneath
-A The Tortured Earth
+A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest| |QID|9861|
+T The Howling Wind |N|North of Garadar (the horde town) across the lake at the Throne of the Elements (60,22)| |QID|9861|
+A Murkblood Corrupters |QID|9862|
+A The Underneath |QID|9818|
+A A Rare Bean |QID|9800|
+A Muck Diving |QID|9815|
+T The Underneath |QID|9818|
+A The Tortured Earth |QID|9819|
 
 C Talbuk Mastery (Part 2) |N|West of the Throne of Elements.  Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
-C A Rare Bean
-A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8).  Be careful not to tangle with the guards and patrols.|
+C A Rare Bean |QID|9800|
+A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8).  Be careful not to tangle with the guards and patrols.| |QID|9913|
 C Clefthoof Mastery (Part 2) |N|South and west of Garadar|
 
 R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the horde.  Watch out for the patrols on the main road.|
-A Matters of Security
-T The Consortium Needs You!
-A Stealing from Thieves
-A Gava'xi
-C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)|
-C Stealing from Thieves
-C Matters of Security
-T Matters of Security |N|Back at Aeris Landing|
-T Stealing from Thieves
-T Gava'xi
+A Matters of Security |QID|9925|
+T The Consortium Needs You! |QID|9913|
+A Stealing from Thieves |QID|9882|
+A Gava'xi |QID|9900|
+C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)| |QID|9900|
+C Stealing from Thieves |QID|9882|
+C Matters of Security |QID|9925|
+T Matters of Security |N|Back at Aeris Landing| |QID|9925|
+T Stealing from Thieves |QID|9882|
+T Gava'xi |QID|9900|
 
 R Telaar |N|Follow the road east from Aeris Landing|
-A The Ravaged Caravan |N|Huntress Kima patrols around Telaar|
-A Wanted: Giselda the Crone |N|Off a signpost (54,70)|
-A Wanted: Zorbo the Advisor
-A Fierce Enemies
-A Do My Eyes Deceive Me
-A The Throne of the Elements
-A Stopping the Spread
-A Solving the Problem
+A The Ravaged Caravan |N|Huntress Kima patrols around Telaar| |QID|9956|
+A Wanted: Giselda the Crone |N|Off a signpost (54,70)| |QID|9936|
+A Wanted: Zorbo the Advisor |QID|9940|
+A Fierce Enemies |QID|10476|
+A Do My Eyes Deceive Me |QID|9917|
+A The Throne of the Elements |QID|9870|
+A Stopping the Spread |QID|9874|
+A Solving the Problem |QID|9878|
 h Telaar
 
-A I Must Have Them! |N|From a goblin east of Telaar (61,67)|
+A I Must Have Them! |N|From a goblin east of Telaar (61,67)| |QID|10109|
 N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!" and rock elementals for "The Tortured Earth"|
 
-C Do My Eyes Deceive Me
+C Do My Eyes Deceive Me |QID|9917|
 
-T Do My Eyes Deceive Me
-A Not On My Watch!
+T Do My Eyes Deceive Me |QID|9917|
+A Not On My Watch! |QID|9918|
 
-C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71)|
-C The Tortured Earth |N|Around the orge hill|
+C Not On My Watch! |N|Lump is just over the hill from Wazat (62,71)| |QID|9918|
+C The Tortured Earth |N|Around the orge hill| |QID|9819|
 
-T Not On My Watch!
-A Mo'mor the Breaker
-T Mo'mor the Breaker
-A The Ruins of Burning Blade
+T Not On My Watch! |QID|9918|
+A Mo'mor the Breaker |QID|9920|
+T Mo'mor the Breaker |QID|9920|
+A The Ruins of Burning Blade |QID|9921|
 
 C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)|
 
 
-C Stopping the Spread |N|At Sunspring Post (31,43). Torch corpses you come across.| |U|24560|
-C Solving the Problem
-C Murkblood Corrupters
+C Stopping the Spread |N|At Sunspring Post (31,43). Torch corpses you come across.| |U|24560| |QID|9874|
+C Solving the Problem |QID|9878|
+C Murkblood Corrupters |QID|9862|
 
-C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)|
+C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)| |QID|9956|
 
 
-T Murkblood Corrupters
-T The Throne of the Elements
-T A Rare Bean
-A Agitated Spirits of Skysong
-T The Tortured Earth
-A Eating Damnation
+T Murkblood Corrupters |QID|9862|
+T The Throne of the Elements |QID|9870|
+T A Rare Bean |QID|9800|
+A Agitated Spirits of Skysong |QID|9804|
+T The Tortured Earth |QID|9819|
+A Eating Damnation |QID|9821|
 
-C Eating Damnation |N|To the west of the throne, on the edge of the mountains.|
-C Agitated Spirits of Skysong |N|In Skysong Lake, directly south of the throne.|
+C Eating Damnation |N|To the west of the throne, on the edge of the mountains.| |QID|9821|
+C Agitated Spirits of Skysong |N|In Skysong Lake, directly south of the throne.| |QID|9804|
 
-T Eating Damnation
-A Shattering the Veil
-T Agitated Spirits of Skysong
-A Blessing of Incineratus
+T Eating Damnation |QID|9821|
+A Shattering the Veil |QID|9849|
+T Agitated Spirits of Skysong |QID|9804|
+A Blessing of Incineratus |QID|9805|
 
 T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
 
-C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467|
+C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467| |QID|9805|
 
-T Blessing of Incineratus
-A The Spirit Polluted
-C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.|
-C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501|
-
-H Telaar
-T Solving the Problem
-T Stopping the Spread
-T The Ravaged Caravan
-
-A HELP! |N|Corki is in a cage in the Burning Blade Ruins (72,70).|
-C The Ruins of Burning Blade
-C HELP! |N|The key should have dropped off an ogre by now. If not, grind until you get it.|
-
-T HELP!
-A Corki's Gone Missing Again!
-T The Ruins of Burning Blade
-A The Twin Clefts of Nagrand
-
-C Corki's Gone Missing Again! |N|Corki is in a cage at the back of Northwind Cleft (39,27).|
-C The Twin Clefts of Nagrand
-C Muck Diving |N|In the water around Halaa|
-
-T Corki's Gone Missing Again!
-T The Twin Clefts of Nagrand
-A Diplomatic Measures
-
-T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
-A Armaments for Deception
-A Ruthless Cunning
-
-C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552|
-C Armaments for Deception |N|Many boxes spawn on the east side of the main building, and respawn faster than the mobs there do.| |U|25552|
-C Ruthless Cunning |U|25552|
-
-T Ruthless Cunning
-T Armaments for Deception
-A Returning the Favor
-A Body of Evidence
-
-T The Spirit Polluted |N|Back at Throne of the Elements|
-T Shattering the Veil
-T Muck Diving
-
-C Body of Evidence |U|25658| |N|Use the blanket on the pyre in the Laughing Skull Courtyard (46.56, 24.55).  Make sure you hang around until the orges finish, and don't forget to stick banners in the mobs you kill.|
-C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555|
-C Returning the Favor |U|25555|
-
-C I Must Have Them! |N|Kill air elementals all over the zone|
+T Blessing of Incineratus |QID|9805|
+A The Spirit Polluted |QID|9810|
+C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.| |QID|9810|
+C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501| |QID|9849|
 
 H Telaar
-T Wanted: Giselda the Crone
-T Wanted: Zorbo the Advisor
-T Fierce Enemies
+T Solving the Problem |QID|9878|
+T Stopping the Spread |QID|9874|
+T The Ravaged Caravan |QID|9956|
 
-T I Must Have Them! |N|Back east of Telaar (61,67)|
+A HELP! |N|Corki is in a cage in the Burning Blade Ruins (72,70).| |QID|9923|
+C The Ruins of Burning Blade |QID|9921|
+C HELP! |N|The key should have dropped off an ogre by now. If not, grind until you get it.| |QID|9923|
 
-T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
-T Body of Evidence
-A Message to Telaar
-T Message to Telaar
+T HELP! |QID|9923|
+A Corki's Gone Missing Again! |QID|9924|
+T The Ruins of Burning Blade |QID|9921|
+A The Twin Clefts of Nagrand |QID|9922|
+
+C Corki's Gone Missing Again! |N|Corki is in a cage at the back of Northwind Cleft (39,27).| |QID|9924|
+C The Twin Clefts of Nagrand |QID|9922|
+C Muck Diving |N|In the water around Halaa| |QID|9815|
+
+T Corki's Gone Missing Again! |QID|9924|
+T The Twin Clefts of Nagrand |QID|9922|
+A Diplomatic Measures |QID|10108|
+
+T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)| |QID|10108|
+A Armaments for Deception |QID|9928|
+A Ruthless Cunning |QID|9927|
+
+C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552| |QID|9936|
+C Armaments for Deception |N|Many boxes spawn on the east side of the main building, and respawn faster than the mobs there do.| |U|25552| |QID|9928|
+C Ruthless Cunning |U|25552| |QID|9927|
+
+T Ruthless Cunning |QID|9927|
+T Armaments for Deception |QID|9928|
+A Returning the Favor |QID|9931|
+A Body of Evidence |QID|9932|
+
+T The Spirit Polluted |N|Back at Throne of the Elements| |QID|9810|
+T Shattering the Veil |QID|9849|
+T Muck Diving |QID|9815|
+
+C Body of Evidence |U|25658| |N|Use the blanket on the pyre in the Laughing Skull Courtyard (46.56, 24.55).  Make sure you hang around until the orges finish, and don't forget to stick banners in the mobs you kill.| |QID|9932|
+C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555| |QID|9940|
+C Returning the Favor |U|25555| |QID|9931|
+
+C I Must Have Them! |N|Kill air elementals all over the zone| |QID|10109|
+
+H Telaar
+T Wanted: Giselda the Crone |QID|9936|
+T Wanted: Zorbo the Advisor |QID|9940|
+T Fierce Enemies |QID|10476|
+
+T I Must Have Them! |N|Back east of Telaar (61,67)| |QID|10109|
+
+T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)| |QID|9931|
+T Body of Evidence |QID|9932|
+A Message to Telaar |QID|9933|
+T Message to Telaar |QID|9933|
 ]]
 end)

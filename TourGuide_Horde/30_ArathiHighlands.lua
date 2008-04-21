@@ -2,8 +2,8 @@ TourGuide:RegisterGuide("Arathi Highlands (30)", "Stranglethorn Vale (30-31)", "
 return [[
 R Arathi Highlands
 R Hammerfall |N|Northeast corner of zone (73,36)|
-A Hammerfall
-T Hammerfall
+A Hammerfall |QID|655|
+T Hammerfall |QID|655|
 A Raising Spirits (Part 1)
 f Grab flight point
 

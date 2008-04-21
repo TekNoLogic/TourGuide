@@ -4,8 +4,8 @@ F Grom'gol Base Camp |N|Hearth to Orgrimmar and ride zeppelin to Grom'Gol|
 f Grab flight point
 
 R Nesingwary's Expedition |N|Follow the road north, look for a little camp by the river (35,10)|
-A Welcome to the Jungle
-T Welcome to the Jungle
+A Welcome to the Jungle |QID|583|
+T Welcome to the Jungle |QID|583|
 
 A Tiger Mastery (Part 1)
 A Panther Mastery (Part 1)

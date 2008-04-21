@@ -1,60 +1,60 @@
 TourGuide:RegisterGuide("Tirisfal Glades (1-12)", "The Barrens (12-20)", "Horde", function()
 return [[
-A Rude Awakening |N|The guy right outside of the starting crypt|
-T Rude Awakening |N|Right down the hill|
-A The Mindless Ones
-A Piercing the Veil |C|Warlock|
-C The Mindless Ones
-C Piercing the Veil |C|Warlock|
-T The Mindless Ones
-T Piercing the Veil |C|Warlock|
+A Rude Awakening |N|The guy right outside of the starting crypt| |QID|363|
+T Rude Awakening |N|Right down the hill| |QID|363|
+A The Mindless Ones |QID|364|
+A Piercing the Veil |C|Warlock| |QID|1470|
+C The Mindless Ones |QID|364|
+C Piercing the Veil |C|Warlock| |QID|1470|
+T The Mindless Ones |QID|364|
+T Piercing the Veil |C|Warlock| |QID|1470|
 
-A Rattling the Rattlecages
-A The Damned
-A Encrypted Scroll |C|Rogue|
-A Tainted Scroll |C|Warlock|
-T Encrypted Scroll |C|Rogue|
-T Tainted Scroll |C|Warlock|
+A Rattling the Rattlecages |QID|3901|
+A The Damned |QID|376|
+A Encrypted Scroll |C|Rogue| |QID|3096|
+A Tainted Scroll |C|Warlock| |QID|3099|
+T Encrypted Scroll |C|Rogue| |QID|3096|
+T Tainted Scroll |C|Warlock| |QID|3099|
 
-C The Damned
-C Rattling the Rattlecages
+C The Damned |QID|376|
+C Rattling the Rattlecages |QID|3901|
 
-T The Damned
-T Rattling the Rattlecages
-A Marla's Last Wish
-A Night Web's Hollow
-A Scavenging Deathknell
+T The Damned |QID|376|
+T Rattling the Rattlecages |QID|3901|
+A Marla's Last Wish |QID|6395|
+A Night Web's Hollow |QID|380|
+A Scavenging Deathknell |QID|3902|
 
-C Night Web's Hollow |N|Cave to the north (27.5, 58.0)|
+C Night Web's Hollow |N|Cave to the north (27.5, 58.0)| |QID|380|
 K Samuel Fipps |L|16333|
-C Scavenging Deathknell
-T Scavenging Deathknell
-C Marla's Last Wish |N|Bury Samuel's remains|
+C Scavenging Deathknell |QID|3902|
+T Scavenging Deathknell |QID|3902|
+C Marla's Last Wish |N|Bury Samuel's remains| |QID|6395|
 
-T Marla's Last Wish
-T Night Web's Hollow
-A The Scarlet Crusade
-C The Scarlet Crusade |N|They are at a camp at (36.0, 67.5)|
-T The Scarlet Crusade
-A The Red Messenger
-C The Red Messenger |N|Kill Meven Korgal to get the documents|
-T The Red Messenger
-A Vital Intelligence
+T Marla's Last Wish |QID|6395|
+T Night Web's Hollow |QID|380|
+A The Scarlet Crusade |QID|381|
+C The Scarlet Crusade |N|They are at a camp at (36.0, 67.5)| |QID|381|
+T The Scarlet Crusade |QID|381|
+A The Red Messenger |QID|382|
+C The Red Messenger |N|Kill Meven Korgal to get the documents| |QID|382|
+T The Red Messenger |QID|382|
+A Vital Intelligence |QID|383|
 A A Rogue's Deal (Part 1) |N|North end of Deathknell|
 A Fields of Grief (Part 1)
-A Gordo's Task |N|Along the road to Brill|
+A Gordo's Task |N|Along the road to Brill| |QID|5481|
 
 R Brill
-A A Putrid Task
-T Vital Intelligence
+A A Putrid Task |QID|404|
+T Vital Intelligence |QID|383|
 A At War With The Scarlet Crusade (Part 1)
 T A Rogue's Deal (Part 1)
 h Gallows' End Tavern
 A A New Plague (Part 1)|N|Near the herbalism trainer|
 
 C A New Plague (Part 1)
-C A Putrid Task
-C Gordo's Task
+C A Putrid Task |QID|404|
+C Gordo's Task |QID|5481|
 
 A A Rogue's Deal (Part 2) |N|Back in Deathknell|
 C A Rogue's Deal (Part 2)
@@ -63,73 +63,73 @@ C Fields of Grief (Part 1) |N|At the farm above Deathknell (35,50)|
 C At War With The Scarlet Crusade (Part 1)
 
 H Brill |SZ|Gallows' End Tavern|
-A Deaths in the Family
-A The Haunted Mills
-A The Chill of Death
+A Deaths in the Family |QID|354|
+A The Haunted Mills |QID|362|
+A The Chill of Death |QID|375|
 T Fields of Grief (Part 1)
 T A New Plague (Part 1)
 A A New Plague (Part 2)
 A Fields of Grief (Part 2)
 T At War With The Scarlet Crusade (Part 1)
 A At War With The Scarlet Crusade (Part 2)
-A Proof of Demise
-T A Putrid Task
-A The Mills Overrun
-A Graverobbers
-A Wanted: Maggot Eye
+A Proof of Demise |QID|374|
+T A Putrid Task |QID|404|
+A The Mills Overrun |QID|426|
+A Graverobbers |QID|358|
+A Wanted: Maggot Eye |QID|398|
 T Fields of Grief (Part 2)
-T Gordo's Task
-A Doom Weed
+T Gordo's Task |QID|5481|
+A Doom Weed |QID|5482|
 
-C Graverobbers
-C Doom Weed
-C Wanted: Maggot Eye |N|In the smaller building at the north end of the farm (58,30)|
+C Graverobbers |QID|358|
+C Doom Weed |QID|5482|
+C Wanted: Maggot Eye |N|In the smaller building at the north end of the farm (58,30)| |QID|398|
 C A New Plague (Part 2)
 N The Chill Of Death |L|2876 5|
 
-T Doom Weed
+T Doom Weed |QID|5482|
 T A New Plague (Part 2)
 A A New Plague (Part 3)
-T Graverobbers
-A Forsaken Duties
-A The Prodigal Lich
+T Graverobbers |QID|358|
+A Forsaken Duties |QID|359|
+A The Prodigal Lich |QID|405|
 
-C The Mills Overrun |N|At Agamand Mills|
-C The Haunted Mills
-C Deaths in the Family
+C The Mills Overrun |N|At Agamand Mills| |QID|426|
+C The Haunted Mills |QID|362|
+C Deaths in the Family |QID|354|
 
 H Brill |SZ|Gallows' End Tavern|
-T Deaths in the Family
-T The Haunted Mills
-A Speak with Sevren
-A A Letter Undelivered |U|2839| |O|
-T A Letter Undelivered |O|
-T Speak with Sevren
-A The Family Crypt
-T The Mills Overrun
+T Deaths in the Family |QID|354|
+T The Haunted Mills |QID|362|
+A Speak with Sevren |QID|355|
+A A Letter Undelivered |U|2839| |O| |QID|361|
+T A Letter Undelivered |O| |QID|361|
+T Speak with Sevren |QID|355|
+A The Family Crypt |QID|408|
+T The Mills Overrun |QID|426|
 
-T Forsaken Duties |N|Southeast of Brill at the campfire (65.5, 60.0)|
-A Return to the Magistrate
-A Rear Guard Patrol
-C Rear Guard Patrol |N|At the farm further east down the road (75,60).|
-T Rear Guard Patrol
+T Forsaken Duties |N|Southeast of Brill at the campfire (65.5, 60.0)| |QID|359|
+A Return to the Magistrate |QID|360|
+A Rear Guard Patrol |QID|356|
+C Rear Guard Patrol |N|At the farm further east down the road (75,60).| |QID|356|
+T Rear Guard Patrol |QID|356|
 T Return To The Magistrate
-T The Chill of Death |N|Buy the coarse thread off the vendor|
+T The Chill of Death |N|Buy the coarse thread off the vendor| |QID|375|
 
 R Undercity
-T The Prodigal Lich |N|In the magic quarter|
-A The Lich's Identity
-A The Deathstalkers |C|Rogue|
+T The Prodigal Lich |N|In the magic quarter| |QID|405|
+A The Lich's Identity |QID|357|
+A The Deathstalkers |C|Rogue| |QID|1978|
 
-C At War With The Scarlet Crusade |N|Leave Undercity through the sewers and you'll end up near the mobs for this quest.|
-C Proof of Demise
-C The Deathstalkers |C|Rogue|
+C At War With The Scarlet Crusade |N|Leave Undercity through the sewers and you'll end up near the mobs for this quest.| |QID|427|
+C Proof of Demise |QID|374|
+C The Deathstalkers |C|Rogue| |QID|1978|
 
 T At War With The Scarlet Crusade (Part 2) |N|Back in Brill|
 A At War With The Scarlet Crusade (Part 3)
-T Proof of Demise
+T Proof of Demise |QID|374|
 
-C The Lich's Identity |N|Book on the island (67,42)|
+C The Lich's Identity |N|Book on the island (67,42)| |QID|357|
 C At War With The Scarlet Crusade (Part 3)
 C A New Plague (Part 3)
 
@@ -140,20 +140,20 @@ T A New Plague (Part 3)
 A A New Plague (Part 4)
 C A New Plague (Part 4)
 
-T The Lich's Identity |N|Back in Undercity|
-A Return the Book
-C Return the Book |N|Back on the island (68,42). Talk to the guy.|
-A Proving Allegiance
+T The Lich's Identity |N|Back in Undercity| |QID|357|
+A Return the Book |QID|366|
+C Return the Book |N|Back on the island (68,42). Talk to the guy.| |QID|366|
+A Proving Allegiance |QID|409|
 N Grab a candle from the crate |L|3080|
-C Proving Allegiance
-T Proving Allegiance
-A The Prodigal Lich Returns
+C Proving Allegiance |QID|409|
+T Proving Allegiance |QID|409|
+A The Prodigal Lich Returns |QID|411|
 C At War With The Scarlet Crusade (Part 4)
 
 T At War With The Scarlet Crusade (Part 4) |N|Back in Brill|
-C The Family Crypt |N|At Agamand Mills|
-T The Family Crypt
-T The Prodigal Lich Returns |N|Back in Undercity|
+C The Family Crypt |N|At Agamand Mills| |QID|408|
+T The Family Crypt |QID|408|
+T The Prodigal Lich Returns |N|Back in Undercity| |QID|411|
 
 N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, port to Silvermoon from the device in the ruins above Undercity, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
 

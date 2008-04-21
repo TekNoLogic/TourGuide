@@ -9,11 +9,11 @@ A Cortello's Riddle (Part 2) |O| |PRE|Cortello's Riddle (Part 1)|
 
 R Blasted Lands |N|Run east into Swamp of Sorrows, then south.|
 
-A The Basilisk's Bite |N|From the Blood Elves near the zone entrance (50.7,14.3)|
-A Vulture's Vigor
-A Snickerfang Jowls
-A A Boar's Vitality
-A The Decisive Striker
+A The Basilisk's Bite |N|From the Blood Elves near the zone entrance (50.7,14.3)| |QID|2601|
+A Vulture's Vigor |QID|2603|
+A Snickerfang Jowls |QID|2581|
+A A Boar's Vitality |QID|2583|
+A The Decisive Striker |QID|2585|
 
 N 14 Vulture Gizzards |L|8396 14| |N|East of the road|
 N 11 Basolisk Brains |L|8394 11| |N|East of the road|
@@ -23,17 +23,17 @@ N 5 Snickerfang Jowels |L|8391 5| |N|West of the road|
 
 A Everything Counts in Large Amounts |O| |L|10593| |N|Turnin to a Broken in the center of the zone (51.85,35.64)|
 T Everything Counts in Large Amounts |O|
-A One Draenei's Junk... |O| |L|10593|
-T One Draenei's Junk... |O|
+A One Draenei's Junk... |O| |L|10593| |QID|3502|
+T One Draenei's Junk... |O| |QID|3502|
 
 N Choose your turnin order... |N|The last turnin will give you both a buff and the item, so save your most desirable one for last!|
-T The Basilisk's Bite
-T Vulture's Vigor
-T Snickerfang Jowls
-T A Boar's Vitality
-T The Decisive Striker
+T The Basilisk's Bite |QID|2601|
+T Vulture's Vigor |QID|2603|
+T Snickerfang Jowls |QID|2581|
+T A Boar's Vitality |QID|2583|
+T The Decisive Striker |QID|2585|
 
-T Thadius Grimshade |N|In the tower in Nethergarde Keep (67.0,19.4).  Skip the follow-up.|
+T Thadius Grimshade |N|In the tower in Nethergarde Keep (67.0,19.4).  Skip the follow-up.| |QID|2990|
 ]]
 
 end)

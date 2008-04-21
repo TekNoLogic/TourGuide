@@ -1,55 +1,55 @@
 TourGuide:RegisterGuide("Azuremyst Isle (1-12)", "Bloodmyst Isle (12-20)", "Alliance", function()
 return [[
-A You Survived!
-T You Survived!
-A Replenishing the Healing Crystals
-A Volatile Mutations
+A You Survived! |QID|9279|
+T You Survived! |QID|9279|
+A Replenishing the Healing Crystals |QID|9369|
+A Volatile Mutations |QID|10302|
 
-C Volatile Mutations
-C Replenishing the Healing Crystals
+C Volatile Mutations |QID|10302|
+C Replenishing the Healing Crystals |QID|9369|
 
-T Volatile Mutations
-A What Must Be Done...
-A Botanical Legwork
-T Replenishing the Healing Crystals
-A Urgent Delivery!
-T Urgent Delivery!
-A Rescue the Survivors!
+T Volatile Mutations |QID|10302|
+A What Must Be Done... |QID|9293|
+A Botanical Legwork |QID|9799|
+T Replenishing the Healing Crystals |QID|9369|
+A Urgent Delivery! |QID|9409|
+T Urgent Delivery! |QID|9409|
+A Rescue the Survivors! |QID|9283|
 
-A Shaman Training |C|Shaman|
-A Priest Training |C|Priest|
-A Paladin Training |C|Paladin|
-A Warrior Training |C|Warrior|
-A Mage Training |C|Mage|
+A Shaman Training |C|Shaman| |QID|9421|
+A Priest Training |C|Priest| |QID|9291|
+A Paladin Training |C|Paladin| |QID|9676|
+A Warrior Training |C|Warrior| |QID|9289|
+A Mage Training |C|Mage| |QID|9290|
 
-T Shaman Training |C|Shaman|
-T Priest Training |C|Priest|
-T Paladin Training |C|Paladin|
-T Warrior Training |C|Warrior|
-T Mage Training |C|Mage|
+T Shaman Training |C|Shaman| |QID|9421|
+T Priest Training |C|Priest| |QID|9291|
+T Paladin Training |C|Paladin| |QID|9676|
+T Warrior Training |C|Warrior| |QID|9289|
+T Mage Training |C|Mage| |QID|9290|
 
-A Spare Parts
-A Inoculation
+A Spare Parts |QID|9305|
+A Inoculation |QID|9303|
 
-C Rescue the Survivors! |N|Find a Draenei Survivor (73.32,50.88) and use your spell Gift of the Naaru on him|
-C Botanical Legwork |N|South of Ammen Fields (74.00,52.95)|
-C What Must Be Done...
+C Rescue the Survivors! |N|Find a Draenei Survivor (73.32,50.88) and use your spell Gift of the Naaru on him| |QID|9283|
+C Botanical Legwork |N|South of Ammen Fields (74.00,52.95)| |QID|9799|
+C What Must Be Done... |QID|9293|
 
-T Botanical Legwork
-T What Must Be Done...
-A Healing the Lake
-T Rescue the Survivors!
+T Botanical Legwork |QID|9799|
+T What Must Be Done... |QID|9293|
+A Healing the Lake |QID|9294|
+T Rescue the Survivors! |QID|9283|
 
-C Healing the Lake|N|Southwest of Crash Site at the Irradiated Crystal (77.30, 58.67)|
-C Inoculation |N|Southeast of Crash Site at Nestlewood Thicket (78,60)|| |U|22962|
-C Spare Parts
+C Healing the Lake|N|Southwest of Crash Site at the Irradiated Crystal (77.30, 58.67)| |QID|9294|
+C Inoculation |N|Southeast of Crash Site at Nestlewood Thicket (78,60)|| |U|22962| |QID|9303|
+C Spare Parts |QID|9305|
 
 H Ammen Vale
-T Healing the Lake
+T Healing the Lake |QID|9294|
 A Call of Earth (Part 1) |C|Shaman|
-T Spare Parts
-T Inoculation
-A The Missing Scout
+T Spare Parts |QID|9305|
+T Inoculation |QID|9303|
+A The Missing Scout |QID|9309|
 T Call of Earth (Part 1) |N|Northwest of Crash Site (71,40)| |C|Shaman|
 A Call of Earth (Part 2) |C|Shaman|
 C Call of Earth (Part 2) |C|Shaman|
@@ -57,161 +57,161 @@ T Call of Earth (Part 2) |C|Shaman|
 A Call of Earth (Part 3) |C|Shaman|
 T Call of Earth (Part 3) |N|At the Crash Site| |C|Shaman|
 
-T The Missing Scout |N|Southwest of Crash Site (72.03,60.77)|
-A The Blood Elves
-C The Blood Elves
-T The Blood Elves
-A Blood Elf Spy
-C Blood Elf Spy |N|Kill Surveyor Candress (69.20, 65.70)|
-A Blood Elf Plans |N|Use the item that drops from the Surveyor Candress|
+T The Missing Scout |N|Southwest of Crash Site (72.03,60.77)| |QID|9309|
+A The Blood Elves |QID|10303|
+C The Blood Elves |QID|10303|
+T The Blood Elves |QID|10303|
+A Blood Elf Spy |QID|9311|
+C Blood Elf Spy |N|Kill Surveyor Candress (69.20, 65.70)| |QID|9311|
+A Blood Elf Plans |N|Use the item that drops from the Surveyor Candress| |QID|9798|
 
-T Blood Elf Spy |N|Back at the Crash Site|
-T Blood Elf Plans
-A The Emitter
-T The Emitter
-A Travel to Azure Watch
+T Blood Elf Spy |N|Back at the Crash Site| |QID|9311|
+T Blood Elf Plans |QID|9798|
+A The Emitter |QID|9312|
+T The Emitter |QID|9312|
+A Travel to Azure Watch |QID|9313|
 
-A Word from Azure Watch |N|Run out of Ammen Vale to the west, look for Aeun down the hill (64.58, 54.09)|
-A Red Snapper - Very Tasty! |N|Look for Diktynna down by the river (61.1, 54.2)|
-C Red Snapper - Very Tasty!
-T Red Snapper - Very Tasty!
-A Find Acteon!
+A Word from Azure Watch |N|Run out of Ammen Vale to the west, look for Aeun down the hill (64.58, 54.09)| |QID|9314|
+A Red Snapper - Very Tasty! |N|Look for Diktynna down by the river (61.1, 54.2)| |QID|9452|
+C Red Snapper - Very Tasty! |QID|9452|
+T Red Snapper - Very Tasty! |QID|9452|
+A Find Acteon! |QID|9453|
 
 R Azure Watch |N|Follow the road west|
-T Find Acteon!
+T Find Acteon! |QID|9453|
 A The Great Moongraze Hunt (Part 1)
-A Medicinal Purpose
-T Travel to Azure Watch
-T Word from Azure Watch
+A Medicinal Purpose |QID|9463|
+T Travel to Azure Watch |QID|9313|
+T Word from Azure Watch |QID|9314|
 h Azure Watch
 
 R Odesyus' Landing |N|Take the road south out of Azure Watch to the shore|
-A Cookie's Jumbo Gumbo
-A A Small Start
-C Cookie's Jumbo Gumbo
-C A Small Start |N|Go east along the shore to the Venture Camp.  Collect the Map (58.54, 66.38) and the Compass (59.52, 67.60)|
+A Cookie's Jumbo Gumbo |QID|9512|
+A A Small Start |QID|9506|
+C Cookie's Jumbo Gumbo |QID|9512|
+C A Small Start |N|Go east along the shore to the Venture Camp.  Collect the Map (58.54, 66.38) and the Compass (59.52, 67.60)| |QID|9506|
 
-T A Small Start |N|Back at Odesyus' Landing|
-A I've Got a Plant
-T Cookie's Jumbo Gumbo
-A Reclaiming the Ruins
-A Precious and Fragile Things Need Special Handling
+T A Small Start |N|Back at Odesyus' Landing| |QID|9506|
+A I've Got a Plant |QID|9530|
+T Cookie's Jumbo Gumbo |QID|9512|
+A Reclaiming the Ruins |QID|9513|
+A Precious and Fragile Things Need Special Handling |QID|9523|
 C The Great Moongraze Hunt (Part 1)
-C Medicinal Purpose
-C I've Got a Plant |N|Look for a Hollowed out tree north of Odesyus' Landing (47.4,63.5), leaves are around the ground|
+C Medicinal Purpose |QID|9463|
+C I've Got a Plant |N|Look for a Hollowed out tree north of Odesyus' Landing (47.4,63.5), leaves are around the ground| |QID|9530|
 
-T Medicinal Purpose |N|Back at Azure Watch|
-A An Alternative Alternative
+T Medicinal Purpose |N|Back at Azure Watch| |QID|9463|
+A An Alternative Alternative |QID|9473|
 T The Great Moongraze Hunt (Part 1)
 A The Great Moongraze Hunt (Part 2)
-C An Alternative Alternative
+C An Alternative Alternative |QID|9473|
 
 K Infected Nightstalker Runts |N|Looking for [Faintly Glowing Crystal]| |L|23678|
-A Strange Findings |U|23678|
+A Strange Findings |U|23678| |QID|9455|
 
-C Reclaiming the Ruins |N|At Wrathscale Point, the ruins west of Odesyus' Landing|
-C Precious and Fragile Things Need Special Handling
-A Rune Covered Tablet |U|23759| |N|Kill more naga if you don't have this item yet|
+C Reclaiming the Ruins |N|At Wrathscale Point, the ruins west of Odesyus' Landing| |QID|9513|
+C Precious and Fragile Things Need Special Handling |QID|9523|
+A Rune Covered Tablet |U|23759| |N|Kill more naga if you don't have this item yet| |QID|9514|
 
-T I've Got a Plant |N|Back at Odesyus' Landing|
-A Tree's Company
-T Rune Covered Tablet
-A Warlord Sriss'tiz |N|After the NPCs stop talking|
-T Reclaiming the Ruins
-T Precious and Fragile Things Need Special Handling
+T I've Got a Plant |N|Back at Odesyus' Landing| |QID|9530|
+A Tree's Company |QID|9531|
+T Rune Covered Tablet |QID|9514|
+A Warlord Sriss'tiz |N|After the NPCs stop talking| |QID|9515|
+T Reclaiming the Ruins |QID|9513|
+T Precious and Fragile Things Need Special Handling |QID|9523|
 
-A The Missing Fisherman |N|Back at Azure Watch|
-A Help Tavara |C|Priest|
-A Learning the Language
-C Learning the Language |N|Read the book in your inventory|
-T Learning the Language
-A Totem of Coo |N|No need to follow the NPC, point will be shown later|
-T Strange Findings
-A Nightstalker Clean Up, Isle 2...
+A The Missing Fisherman |N|Back at Azure Watch| |QID|10428|
+A Help Tavara |C|Priest| |QID|9586|
+A Learning the Language |QID|9538|
+C Learning the Language |N|Read the book in your inventory| |QID|9538|
+T Learning the Language |QID|9538|
+A Totem of Coo |N|No need to follow the NPC, point will be shown later| |QID|9539|
+T Strange Findings |QID|9455|
+A Nightstalker Clean Up, Isle 2... |QID|9456|
 
 C The Great Moongraze Hunt (Part 2) |N|North of Azure Watch|
 
-T Totem of Coo |N|On top the the cliifs north of Azure Watch (55.2, 41.7)|
-A Totem of Tikti
-C Help Tavara|N|Jump of the cliff to the south and heal Tavara (55.9, 47.9)| |C|Priest|
-T Totem of Tikti |N|Jump to northeast with your wings, run over the water to the next totem (64,39)|
-A Totem of Yor
-T Totem of Yor |N|Swim down the river to the south (63.1, 67.7)|
-A Totem of Vark
-T Totem of Vark |N|Follow the NPC.  If you lose him, the quest ends at Bristlelimb Village (28.6, 63.0)|
-A The Prophecy of Akida
+T Totem of Coo |N|On top the the cliifs north of Azure Watch (55.2, 41.7)| |QID|9539|
+A Totem of Tikti |QID|9540|
+C Help Tavara|N|Jump of the cliff to the south and heal Tavara (55.9, 47.9)| |C|Priest| |QID|9586|
+T Totem of Tikti |N|Jump to northeast with your wings, run over the water to the next totem (64,39)| |QID|9540|
+A Totem of Yor |QID|9541|
+T Totem of Yor |N|Swim down the river to the south (63.1, 67.7)| |QID|9541|
+A Totem of Vark |QID|9542|
+T Totem of Vark |N|Follow the NPC.  If you lose him, the quest ends at Bristlelimb Village (28.6, 63.0)| |QID|9542|
+A The Prophecy of Akida |QID|9544|
 
-C The Prophecy of Akida
-C Nightstalker Clean Up, Isle 2...
+C The Prophecy of Akida |QID|9544|
+C Nightstalker Clean Up, Isle 2... |QID|9456|
 
-C Warlord Sriss'tiz |N|Southwest in the cave at Tides' Hollow, on the lower level (23.8,74.8)|
+C Warlord Sriss'tiz |N|Southwest in the cave at Tides' Hollow, on the lower level (23.8,74.8)| |QID|9515|
 
 R Traitor's Cove |N|On Silvermyst Isle, the beach with a flag (18.42, 84.33)|
-C Tree's Company |N|Use the Tree Disguise Kit near the flag| |U|23792|
-T The Missing Fisherman |N|Talk to Cowlen on the dock to the northwest (16.1, 93.6)|
-A All That Remains
-C All That Remains
-T All That Remains
+C Tree's Company |N|Use the Tree Disguise Kit near the flag| |U|23792| |QID|9531|
+T The Missing Fisherman |N|Talk to Cowlen on the dock to the northwest (16.1, 93.6)| |QID|10428|
+A All That Remains |QID|9527|
+C All That Remains |QID|9527|
+T All That Remains |QID|9527|
 
 H Azure Watch
-T Help Tavara |C|Priest|
-T An Alternative Alternative
-T The Prophecy of Akida
-A Stillpine Hold
+T Help Tavara |C|Priest| |QID|9586|
+T An Alternative Alternative |QID|9473|
+T The Prophecy of Akida |QID|9544|
+A Stillpine Hold |QID|9559|
 T The Great Moongraze Hunt (Part 2)
 
-T Tree's Company |N|Back at Odesyus' Landing|
-A Show Gnomercy
-T Warlord Sriss'tiz
-C Show Gnomercy |N|Talk to Engineer "Spark" Overgrind wandering around the beach|
-T Show Gnomercy
-A Deliver Them From Evil...
+T Tree's Company |N|Back at Odesyus' Landing| |QID|9531|
+A Show Gnomercy |QID|9537|
+T Warlord Sriss'tiz |QID|9515|
+C Show Gnomercy |N|Talk to Engineer "Spark" Overgrind wandering around the beach| |QID|9537|
+T Show Gnomercy |QID|9537|
+A Deliver Them From Evil... |QID|9602|
 
-T Deliver Them From Evil... |N|Back at Azure Watch|
-A Coming of Age |N|You must be Lv 10 to accept this|
-A Strength of One |C|Warrior|
+T Deliver Them From Evil... |N|Back at Azure Watch| |QID|9602|
+A Coming of Age |N|You must be Lv 10 to accept this| |QID|9623|
+A Strength of One |C|Warrior| |QID|9582|
 A Call of Fire (Part 1) |C|Shaman|
-A Control |C|Mage|
+A Control |C|Mage| |QID|9595|
 
 R The Exodar |N|Follow the road west|
-T Coming of Age
-A Elekks Are Serious Business
+T Coming of Age |QID|9623|
+A Elekks Are Serious Business |QID|9625|
 
 R Stillpine Hold |N|Follow the road north of Azure Watch (45.81, 24.83)|
-A Beasts of the Apocalypse!
-A Murlocs... Why Here? Why Now?
-T Stillpine Hold
+A Beasts of the Apocalypse! |QID|9560|
+A Murlocs... Why Here? Why Now? |QID|9562|
+T Stillpine Hold |QID|9559|
 
-C Strength of One |C|Warrior|
-C Beasts of the Apocalypse! |N|Northeast of Stillpine Hold at the Menagerie Wreckage (52.01,20.91)|
+C Strength of One |C|Warrior| |QID|9582|
+C Beasts of the Apocalypse! |N|Northeast of Stillpine Hold at the Menagerie Wreckage (52.01,20.91)| |QID|9560|
 T Call of Fire (Part 1) |N|Go further northeast| |C|Shaman|
 A Call of Fire (Part 2) |C|Shaman|
 
-T Beasts of the Apocalypse! |N|Back at Stillpine Hold|
-A Chieftain Oomooroo
-A Search Stillpine Hold
+T Beasts of the Apocalypse! |N|Back at Stillpine Hold| |QID|9560|
+A Chieftain Oomooroo |QID|9573|
+A Search Stillpine Hold |QID|9565|
 
-T Search Stillpine Hold |N|Find the Blood Crystal (50.5, 11.7)|
-A Blood Crystals |N|Spawns 2 owlbeasts|
-C Chieftain Oomooroo
-T Blood Crystals
-T Chieftain Oomooroo
-A The Kurken is Lurkin'
-C The Kurken is Lurkin' |N|Kill the Kurken near the Blood Crystal in the cave|
+T Search Stillpine Hold |N|Find the Blood Crystal (50.5, 11.7)| |QID|9565|
+A Blood Crystals |N|Spawns 2 owlbeasts| |QID|9566|
+C Chieftain Oomooroo |QID|9573|
+T Blood Crystals |QID|9566|
+T Chieftain Oomooroo |QID|9573|
+A The Kurken is Lurkin' |QID|9570|
+C The Kurken is Lurkin' |N|Kill the Kurken near the Blood Crystal in the cave| |QID|9570|
 K Crazed Wildkin |C|Shaman| |L|23733|
-T The Kurken is Lurkin'
-A The Kurken's Hide
-T The Kurken's Hide
+T The Kurken is Lurkin' |QID|9570|
+A The Kurken's Hide |QID|9571|
+T The Kurken's Hide |QID|9571|
 T Call of Fire (Part 2) |C|Shaman|
 A Call of Fure (Part 3) |C|Shaman|
 
-C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (33.5, 22.0)|
-C Control |N|Keep killing murlocs until a Quel'dorei Magewraith appears| |C|Mage|
+C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (33.5, 22.0)| |QID|9562|
+C Control |N|Keep killing murlocs until a Quel'dorei Magewraith appears| |C|Mage| |QID|9595|
 
-T Murlocs... Why Here? Why Now? |N|Back at Stillpine Hold|
-A Gurf's Dignity |O| |U|23850|
-T Gurf's Dignity |O|
-A Warn Your People |N|From the Chief|
+T Murlocs... Why Here? Why Now? |N|Back at Stillpine Hold| |QID|9562|
+A Gurf's Dignity |O| |U|23850| |QID|9564|
+T Gurf's Dignity |O| |QID|9564|
+A Warn Your People |N|From the Chief| |QID|9622|
 
 C Call of Fire (Part 3) |N|Head down to Silvermyst Isle, find the Wickerman Effigy (11,82)| |C|Shaman|
 U Orb of Returning |C|Shaman| |U|24335|

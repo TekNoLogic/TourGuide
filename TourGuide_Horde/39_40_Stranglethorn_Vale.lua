@@ -1,17 +1,17 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (39-40)", "Badlands (40-41)", "Horde", function()
 return [[
 b Booty Bay
-A The Captain's Chest
+A The Captain's Chest |QID|614|
 A The Bloodsail Buccaneers (Part 1)
-A Scaring Shaky
+A Scaring Shaky |QID|606|
 h Booty Bay
-T The Rumormonger |N|Up the steps|
-A Dream Dust in the Swamp
+T The Rumormonger |N|Up the steps| |QID|1115|
+A Dream Dust in the Swamp |QID|1116|
 
 F Grom'gol Base Camp
 A Mok'thardin's Enchantment (Part 2)
-T The Troll Witchdoctor
-A Marg Speaks |N|Click on the cauldron|
+T The Troll Witchdoctor |QID|1240|
+A Marg Speaks |N|Click on the cauldron| |QID|1261|
 
 C Raptor Mastery (Part 3) |N|Kill Jungle Stalkers (31,41)|
 C Mok'thardin's Enchantment (Part 2) |N|Kill Jungle Stalkers (31,41)|
@@ -29,14 +29,14 @@ H Booty Bay |SZ|The Salty Sailor Tavern|
 T The Bloodsail Buccaneers (Part 1)|N|NW of BB at (27,69) click on the note|
 A The Bloodsail Buccaneers (Part 2)
 
-C Scaring Shaky |N|At (32,66)|
+C Scaring Shaky |N|At (32,66)| |QID|606|
 C Mok'thardin's Enchantment (Part 3) |N|At (32,66)|
 
-T Scaring Shaky |N|Back at Booty Bay|
-A Return to MacKinley
+T Scaring Shaky |N|Back at Booty Bay| |QID|606|
+A Return to MacKinley |QID|607|
 T The Bloodsail Buccaneers (Part 2)
 A The Bloodsail Buccaneers (Part 3)
-T Return to MacKinley
+T Return to MacKinley |QID|607|
 T The Bloodsail Buccaneers (Part 3) |N|At Fleet Master Seahorn|
 
 F Grom'gol Base Camp

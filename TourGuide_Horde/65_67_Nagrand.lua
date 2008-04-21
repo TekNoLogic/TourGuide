@@ -20,165 +20,165 @@ A Windroc Mastery (Part 2)
 A Clefthoof Mastery (Part 2)
 A Talbuk Mastery (Part 2)
 
-A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest|
-T The Howling Wind |N|North of Garadar across the lake at the Throne of the Elements (60,22)|
-A Murkblood Corrupters
-A The Underneath
-A A Rare Bean
-A Muck Diving
-T The Underneath
-A The Tortured Earth
+A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest| |QID|9861|
+T The Howling Wind |N|North of Garadar across the lake at the Throne of the Elements (60,22)| |QID|9861|
+A Murkblood Corrupters |QID|9862|
+A The Underneath |QID|9818|
+A A Rare Bean |QID|9800|
+A Muck Diving |QID|9815|
+T The Underneath |QID|9818|
+A The Tortured Earth |QID|9819|
 
 R Garadar
 h Garadar
-A Missing Mag'hari Procession
-A The Throne of the Elements
-A The Impotent Leader
-A Vile Idolatry
-A The Missing War Party
-A Murkblood Leaders...
-A Wanted: Giselda the Crone |N|Poster|
-A Wanted: Zorbo the Advisor |N|Poster|
-A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)|
+A Missing Mag'hari Procession |QID|9944|
+A The Throne of the Elements |QID|9870|
+A The Impotent Leader |QID|9888|
+A Vile Idolatry |QID|9863|
+A The Missing War Party |QID|9864|
+A Murkblood Leaders... |QID|9867|
+A Wanted: Giselda the Crone |N|Poster| |QID|9936|
+A Wanted: Zorbo the Advisor |N|Poster| |QID|9940|
+A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)| |QID|9913|
 
 C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
-C A Rare Bean
+C A Rare Bean |QID|9800|
 C Clefthoof Mastery (Part 2) |N|South and west of Garadar|
 
 R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the alliance.  Watch out for the patrols on the main road.|
-A Matters of Security
-T The Consortium Needs You!
-A Stealing from Thieves
-A Gava'xi
-C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)|
-C Stealing from Thieves
-C Matters of Security
-T Matters of Security |N|Back at Aeris Landing|
-T Stealing from Thieves
-T Gava'xi
+A Matters of Security |QID|9925|
+T The Consortium Needs You! |QID|9913|
+A Stealing from Thieves |QID|9882|
+A Gava'xi |QID|9900|
+C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)| |QID|9900|
+C Stealing from Thieves |QID|9882|
+C Matters of Security |QID|9925|
+T Matters of Security |N|Back at Aeris Landing| |QID|9925|
+T Stealing from Thieves |QID|9882|
+T Gava'xi |QID|9900|
 
 
-A I Must Have Them! |N|From a goblin east of Telaar (61,67)|
+A I Must Have Them! |N|From a goblin east of Telaar (61,67)| |QID|10109|
 N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!"|
 
-C The Tortured Earth |N|All over the eastern part of the zone|
+C The Tortured Earth |N|All over the eastern part of the zone| |QID|9819|
 
 C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)|
 
 R Mag'hari Procession |N|(32,36)|
-T The Missing War Party
-A Once Were Warriors
-T Missing Mag'hari Procession
-A War on the Warmaul
-A Finding the Survivors
+T The Missing War Party |QID|9864|
+A Once Were Warriors |QID|9865|
+T Missing Mag'hari Procession |QID|9944|
+A War on the Warmaul |QID|9945|
+A Finding the Survivors |QID|9948|
 
-C Vile Idolatry |N|At Sunspring Post (31,43)|
-C Murkblood Leaders... |N|Kill Ortor (30,42)|
-C Once Were Warriors
-C Murkblood Corrupters
+C Vile Idolatry |N|At Sunspring Post (31,43)| |QID|9863|
+C Murkblood Leaders... |N|Kill Ortor (30,42)| |QID|9867|
+C Once Were Warriors |QID|9865|
+C Murkblood Corrupters |QID|9862|
 
-C War on the Warmaul |N|Warmaul Hill is in the northwest of the zone (29,31)|
-C Finding the Survivors
+C War on the Warmaul |N|Warmaul Hill is in the northwest of the zone (29,31)| |QID|9945|
+C Finding the Survivors |QID|9948|
 
-T War on the Warmaul |N|Back at the Mag'hari Procession|
-T Finding the Survivors
-T Once Were Warriors
-A He Will Walk The Earth...
+T War on the Warmaul |N|Back at the Mag'hari Procession| |QID|9945|
+T Finding the Survivors |QID|9948|
+T Once Were Warriors |QID|9865|
+A He Will Walk The Earth... |QID|9866|
 
-T Murkblood Corrupters
-T The Throne of the Elements
-T A Rare Bean
-A Agitated Spirits of Skysong
-T The Tortured Earth
-A Eating Damnation
+T Murkblood Corrupters |QID|9862|
+T The Throne of the Elements |QID|9870|
+T A Rare Bean |QID|9800|
+A Agitated Spirits of Skysong |QID|9804|
+T The Tortured Earth |QID|9819|
+A Eating Damnation |QID|9821|
 
-C Eating Damnation |N|To the west of the throne, on the edge of the mountains.|
-C Agitated Spirits of Skysong |N|In Skysong Lake, directly south of the throne.|
+C Eating Damnation |N|To the west of the throne, on the edge of the mountains.| |QID|9821|
+C Agitated Spirits of Skysong |N|In Skysong Lake, directly south of the throne.| |QID|9804|
 
-T Eating Damnation
-A Shattering the Veil
-T Agitated Spirits of Skysong
-A Blessing of Incineratus
+T Eating Damnation |QID|9821|
+A Shattering the Veil |QID|9849|
+T Agitated Spirits of Skysong |QID|9804|
+A Blessing of Incineratus |QID|9805|
 
 R Terokkar Forest |N|Go via the southeast path|
-T The Impotent Leader |N|(19,60)| |Z|Terokkar Forest|
-A Don't Kill the Fat One
-C Don't Kill the Fat One
-T Don't Kill the Fat One
-A Success!
-T Success! |N|(19,60) Kilrath| |Z|Terokkar Forest|
-A Because Kilrath is a Coward
+T The Impotent Leader |N|(19,60)| |Z|Terokkar Forest| |QID|9888|
+A Don't Kill the Fat One |QID|9889|
+C Don't Kill the Fat One |QID|9889|
+T Don't Kill the Fat One |QID|9889|
+A Success! |QID|10440|
+T Success! |N|(19,60) Kilrath| |Z|Terokkar Forest| |QID|10440|
+A Because Kilrath is a Coward |QID|9891|
 
 T Windroc Mastery (Part 2)
 T Clefthoof Mastery (Part 2)
 T Talbuk Mastery (Part 2)
 
-C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467|
+C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467| |QID|9805|
 
-T Blessing of Incineratus
-A The Spirit Polluted
-C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.|
-C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501|
-
-H Garadar
-T Because Kilrath is a Coward
-A Message in a Battle
-A Standards and Practices
-T Vile Idolatry
-T Murkblood Leaders...
-T He Will Walk The Earth...
-
-T I Must Have Them! |N|Back at Wazat (61,67)|
-
-
-C Message in a Battle |N|(73,69)|
-C Standards and Practices |N|Burn 1: (72,69) 2: (74,70) 3: (75,68)|
-
-T Message in a Battle |N|Back at Garadar|
-T Standards and Practices
-A An Audacious Advance
-A Bleeding Hollow Supply Crates
-
-C An Audacious Advance |N|(49,56) or (40,33)|
-C Bleeding Hollow Supply Crates
-C Muck Diving |N|In the water around Halaa|
-
-T An Audacious Advance |N|Back at Garadar|
-T Bleeding Hollow Supply Crates
-A Diplomatic Measures
-
-T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
-A Armaments for Deception
-A Ruthless Cunning
-
-C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552|
-C Armaments for Deception |N|Many boxes spawn on the east side of the main building, and respawn faster than the mobs there do.| |U|25552|
-C Ruthless Cunning |U|25552|
-
-T Ruthless Cunning
-T Armaments for Deception
-A Returning the Favor
-A Body of Evidence
-
-T The Spirit Polluted |N|Back at Throne of the Elements|
-T Shattering the Veil
-T Muck Diving
-
-C Body of Evidence |U|25658| |N|Use the blanket on the pyre in the Laughing Skull Courtyard (46.56, 24.55).  Make sure you hang around until the orges finish, and don't forget to stick banners in the mobs you kill.|
-C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555|
-C Returning the Favor |U|25555|
-
-C I Must Have Them! |N|Kill air elementals all over the zone|
+T Blessing of Incineratus |QID|9805|
+A The Spirit Polluted |QID|9810|
+C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.| |QID|9810|
+C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501| |QID|9849|
 
 H Garadar
-T Wanted: Giselda the Crone
-T Wanted: Zorbo the Advisor
+T Because Kilrath is a Coward |QID|9891|
+A Message in a Battle |QID|9906|
+A Standards and Practices |QID|9910|
+T Vile Idolatry |QID|9863|
+T Murkblood Leaders... |QID|9867|
+T He Will Walk The Earth... |QID|9866|
 
-T I Must Have Them! |N|Back east of Telaar (61,67)|
+T I Must Have Them! |N|Back at Wazat (61,67)| |QID|10109|
 
-T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)|
-T Body of Evidence
-A Message to Garadar
-T Message to Garadar
+
+C Message in a Battle |N|(73,69)| |QID|9906|
+C Standards and Practices |N|Burn 1: (72,69) 2: (74,70) 3: (75,68)| |QID|9910|
+
+T Message in a Battle |N|Back at Garadar| |QID|9906|
+T Standards and Practices |QID|9910|
+A An Audacious Advance |QID|9907|
+A Bleeding Hollow Supply Crates |QID|9916|
+
+C An Audacious Advance |N|(49,56) or (40,33)| |QID|9907|
+C Bleeding Hollow Supply Crates |QID|9916|
+C Muck Diving |N|In the water around Halaa| |QID|9815|
+
+T An Audacious Advance |N|Back at Garadar| |QID|9907|
+T Bleeding Hollow Supply Crates |QID|9916|
+A Diplomatic Measures |QID|10108|
+
+T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)| |QID|10108|
+A Armaments for Deception |QID|9928|
+A Ruthless Cunning |QID|9927|
+
+C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552| |QID|9936|
+C Armaments for Deception |N|Many boxes spawn on the east side of the main building, and respawn faster than the mobs there do.| |U|25552| |QID|9928|
+C Ruthless Cunning |U|25552| |QID|9927|
+
+T Ruthless Cunning |QID|9927|
+T Armaments for Deception |QID|9928|
+A Returning the Favor |QID|9931|
+A Body of Evidence |QID|9932|
+
+T The Spirit Polluted |N|Back at Throne of the Elements| |QID|9810|
+T Shattering the Veil |QID|9849|
+T Muck Diving |QID|9815|
+
+C Body of Evidence |U|25658| |N|Use the blanket on the pyre in the Laughing Skull Courtyard (46.56, 24.55).  Make sure you hang around until the orges finish, and don't forget to stick banners in the mobs you kill.| |QID|9932|
+C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555| |QID|9940|
+C Returning the Favor |U|25555| |QID|9931|
+
+C I Must Have Them! |N|Kill air elementals all over the zone| |QID|10109|
+
+H Garadar
+T Wanted: Giselda the Crone |QID|9936|
+T Wanted: Zorbo the Advisor |QID|9940|
+
+T I Must Have Them! |N|Back east of Telaar (61,67)| |QID|10109|
+
+T Returning the Favor |N|Back at Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)| |QID|9931|
+T Body of Evidence |QID|9932|
+A Message to Garadar |QID|9934|
+T Message to Garadar |QID|9934|
 ]]
 end)

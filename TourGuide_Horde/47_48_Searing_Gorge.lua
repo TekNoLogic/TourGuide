@@ -2,66 +2,66 @@ TourGuide:RegisterGuide("Searing Gorge (47-48)", "Swamp of Sorrows (48-49)", "Ho
 return [[
 F Kargath
 R Searing Gorge |N|West!|
-A Caught! |N|Guy in the outhouse southeast of map (65,62)|
-T Caught!
-A Ledger from Tanaris
-C Ledger from Tanaris |L|11727| |N|Click on outhouse for ledger, kill spiders nearby|
-A Divine Retribution |N|Talk to Kalaran Windblade at (39,38)|
-T Divine Retribution |N|Talk to him to complete quest|
-A The Flawless Flame
+A Caught! |N|Guy in the outhouse southeast of map (65,62)| |QID|4449|
+T Caught! |QID|4449|
+A Ledger from Tanaris |QID|4450|
+C Ledger from Tanaris |L|11727| |N|Click on outhouse for ledger, kill spiders nearby| |QID|4450|
+A Divine Retribution |N|Talk to Kalaran Windblade at (39,38)| |QID|3441|
+T Divine Retribution |N|Talk to him to complete quest| |QID|3441|
+A The Flawless Flame |QID|3442|
 R Thorium Point
-A Fiery Menace!
-A Curse These Fat Fingers
-A STOLEN: Smithing Tuyere and Lookout's Spyglass
-A JOB OPPORTUNITY: Culling the Competition
-A WANTED: Overseer Maltorius
-A What the Flux?
-A Incendosaurs? Whateverosaur is More Like It
+A Fiery Menace! |QID|7724|
+A Curse These Fat Fingers |QID|7723|
+A STOLEN: Smithing Tuyere and Lookout's Spyglass |QID|7728|
+A JOB OPPORTUNITY: Culling the Competition |QID|7729|
+A WANTED: Overseer Maltorius |QID|7701|
+A What the Flux? |QID|7722|
+A Incendosaurs? Whateverosaur is More Like It |QID|7727|
 
-C Fiery Menace! |N|West side of zone|
-C Curse These Fat Fingers |N|Just south of Thorium Point|
-C STOLEN: Smithing Tuyere and Lookout's Spyglass |N|Just south of Thoriun Point|
-C The Flawless Flame
+C Fiery Menace! |N|West side of zone| |QID|7724|
+C Curse These Fat Fingers |N|Just south of Thorium Point| |QID|7723|
+C STOLEN: Smithing Tuyere and Lookout's Spyglass |N|Just south of Thoriun Point| |QID|7728|
+C The Flawless Flame |QID|3442|
 
-T The Flawless Flame |N|At Kalaran Windblade (39,38)|
-A Forging the Shaft
+T The Flawless Flame |N|At Kalaran Windblade (39,38)| |QID|3442|
+A Forging the Shaft |QID|3443|
 
-C Forging the Shaft |N|Dark Iron taskmasters and slavers of the cauldron (64,61)|
-C JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev quest|
-C WANTED: Overseer Maltorius
-C What the Flux?
-C Incendosaurs? Whateverosaur is More Like It
+C Forging the Shaft |N|Dark Iron taskmasters and slavers of the cauldron (64,61)| |QID|3443|
+C JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev quest| |QID|7729|
+C WANTED: Overseer Maltorius |QID|7701|
+C What the Flux? |QID|7722|
+C Incendosaurs? Whateverosaur is More Like It |QID|7727|
 U The Key to Freedom |U|11818|
-T The Key to Freedom |N|At the outhouse (65,62)|
+T The Key to Freedom |N|At the outhouse (65,62)| |QID|4451|
 
-T Forging the Shaft |N|Kalaran Windblade (39,38)|
-A The Flame's Casing
-C The Flame's Casing |N|Around (24,36) kill til item drops|
-T The Flame's Casing |N|Kalaran Windblade (39,38)|
+T Forging the Shaft |N|Kalaran Windblade (39,38)| |QID|3443|
+A The Flame's Casing |QID|3452|
+C The Flame's Casing |N|Around (24,36) kill til item drops| |QID|3452|
+T The Flame's Casing |N|Kalaran Windblade (39,38)| |QID|3452|
 A The Torch of Retribution (Part 1)
 C The Torch of Retribution (Part 1)
 T The Torch of Retribution (Part 1)
 A The Torch of Retribution (Part 2)
 C The Torch of Retribution (Part 2) |N|Just pick up the torch on the ground|
 T The Torch of Retribution (Part 2)
-A Squire Maltrake
-T Squire Maltrake
-A Set Them Ablaze!
-C Set Them Ablaze! |N|north=(33,54) south=(44,61) east=(50,54) west=(35,60)|
-T Set Them Ablaze!
-A Trinkets... |N|click on the chest on the ground (38,38)|
-T Trinkets... |N|Click on the chest again|
+A Squire Maltrake |QID|3462|
+T Squire Maltrake |QID|3462|
+A Set Them Ablaze! |QID|3463|
+C Set Them Ablaze! |N|north=(33,54) south=(44,61) east=(50,54) west=(35,60)| |QID|3463|
+T Set Them Ablaze! |QID|3463|
+A Trinkets... |N|click on the chest on the ground (38,38)| |QID|3481|
+T Trinkets... |N|Click on the chest again| |QID|3481|
 N Keep the Black Dragonflight Molt in your inventory as you will need for a later quest
 N Make sure you have 20 solid crystal leg shafts
 
 R Thorium Point
-T Fiery Menace!
-T Curse These Fat Fingers
-T STOLEN: Smithing Tuyere and Lookout's Spyglass
-T JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev quest|
-T WANTED: Overseer Maltorius
-T What the Flux?
-T Incendosaurs? Whateverosaur is More Like It
+T Fiery Menace! |QID|7724|
+T Curse These Fat Fingers |QID|7723|
+T STOLEN: Smithing Tuyere and Lookout's Spyglass |QID|7728|
+T JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev quest| |QID|7729|
+T WANTED: Overseer Maltorius |QID|7701|
+T What the Flux? |QID|7722|
+T Incendosaurs? Whateverosaur is More Like It |QID|7727|
 
 R Burning Steppes |N|You have to go through Black Rock Mountain, SW of map|
 f Get the FP |N|at (65,25)|

@@ -3,20 +3,20 @@ return [[
 F Grom'gol Base Camp
 F Booty Bay
 A The Bloodsail Buccaneers (Part 5)
-A Whiskey Slim's Lost Grog
+A Whiskey Slim's Lost Grog |QID|580|
 h The Salty Sailor Tavern |N|Booty Bay|
-T Back to Booty Bay
-T Deliver to MacKinley
-A The Captain's Chest
+T Back to Booty Bay |QID|1118|
+T Deliver to MacKinley |QID|2874|
+A The Captain's Chest |QID|614|
 
-C The Captain's Chest |N|On the beach east of Booty Bay, head north when you reach the sea (36.3,69.7)|
-A Message in a Bottle |N|Loot the bottles on the beach, quest starts from Carefully Folded Note|
-T Message in a Bottle |N|On the large island east of Booty Bay (38.5,80.6)|
+C The Captain's Chest |N|On the beach east of Booty Bay, head north when you reach the sea (36.3,69.7)| |QID|614|
+A Message in a Bottle |N|Loot the bottles on the beach, quest starts from Carefully Folded Note| |QID|630|
+T Message in a Bottle |N|On the large island east of Booty Bay (38.5,80.6)| |QID|630|
 C The Bloodsail Buccaneers (Part 5) |N|In the three ships off the coast|
-A Cortello's Riddle |N|Check downstairs in the ships, scroll is usually in the middle ship.|
+A Cortello's Riddle |N|Check downstairs in the ships, scroll is usually in the middle ship.| |QID|626|
 
 H The Salty Sailor Tavern
-T The Captain's Chest
+T The Captain's Chest |QID|614|
 T The Bloodsail Buccaneers (Part 5)
 N Before you leave...  |N|Make sure you have a stack of Silk Cloth|
 ]]

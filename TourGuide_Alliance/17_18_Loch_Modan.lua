@@ -7,46 +7,46 @@ F Loch Modan |N|Boat to Menethil Harbor, then fly there!| |R|Gnome|
 R Loch Modan |N|Boat to Menethil Harbor, grab the flight point there, then run thru Wetlands to Loch.| |R|Draenei|
 R Algaz Station |N|In the north of Loch Modan. Watch out the big bad highlevel mobs on the way. Good luck!|
 
-A Filthy Paws |N|Upstairs, inside the tower|
-A Stormpike's Order
-C Filthy Paws |N|In the mine east of the tower|
-T Filthy Paws
+A Filthy Paws |N|Upstairs, inside the tower| |QID|307|
+A Stormpike's Order |QID|1338|
+C Filthy Paws |N|In the mine east of the tower| |QID|307|
+T Filthy Paws |QID|307|
 R Thelsamar
-A Ironband's Excavation |N|Downstairs, Last house|
+A Ironband's Excavation |N|Downstairs, Last house| |QID|436|
 
-T Ironband's Excavation |N|Along the south shore of the loch (64.9, 66.6)|
-A Gathering Idols
-A Excavation Progress Report
-C Gathering Idols
-T Gathering Idols
+T Ironband's Excavation |N|Along the south shore of the loch (64.9, 66.6)| |QID|436|
+A Gathering Idols |QID|297|
+A Excavation Progress Report |QID|298|
+C Gathering Idols |QID|297|
+T Gathering Idols |QID|297|
 
 R The Farstrider Lodge |N|East of Excavation site (83.8, 62.4)|
-A Crocolisk Hunting
-A A Hunter's Boast
-C A Hunter's Boast
-T A Hunter's Boast
-A A Hunter's Challenge
-C A Hunter's Challenge
-T A Hunter's Challenge
+A Crocolisk Hunting |QID|385|
+A A Hunter's Boast |QID|257|
+C A Hunter's Boast |QID|257|
+T A Hunter's Boast |QID|257|
+A A Hunter's Challenge |QID|258|
+C A Hunter's Challenge |QID|258|
+T A Hunter's Challenge |QID|258|
 A Vyrin's Revenge (Part 1)
-A Bingles' Missing Supplies |N|The NPC can be found at the easternmost shore of The Loch (63.5, 47.9)|
-C Crocolisk Hunting |N|Lots on the islands (55,55) (54,40)|
-C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21, 26.61), Hammer (51.78, 24.09), Screwdriver (48.37, 20.50), Wrench (48.73, 30.10)|
+A Bingles' Missing Supplies |N|The NPC can be found at the easternmost shore of The Loch (63.5, 47.9)| |QID|2038|
+C Crocolisk Hunting |N|Lots on the islands (55,55) (54,40)| |QID|385|
+C Bingles' Missing Supplies |N|The supplies are scattered around northernmost islands. Blastencapper (54.21, 26.61), Hammer (51.78, 24.09), Screwdriver (48.37, 20.50), Wrench (48.73, 30.10)| |QID|2038|
 
 A A Dark Threat Looms (Part 1) |N|Middle of the Stonewrought Dam|
 T A Dark Threat Looms (Part 1) |N|Barrel at the east of dam|
 A A Dark Threat Looms (Part 2)
 T A Dark Threat Looms (Part 2)
 
-T Excavation Progress Report |N|Back at Thelsamar|
-A Report to Ironforge
+T Excavation Progress Report |N|Back at Thelsamar| |QID|298|
+A Report to Ironforge |QID|301|
 C Vyrin's Revenge (Part 1) |N|Cave top of the mountain south of Thelsamar (39.7, 66.6)|
 
-T Crocolisk Hunting |N|Back at Farstrider Lodge|
+T Crocolisk Hunting |N|Back at Farstrider Lodge| |QID|385|
 T Vyrin's Revenge (Part 1)
 A Vyrin's Revenge (Part 2)
 T Vyrin's Revenge (Part 2)
-T Bingles' Missing Supplies |N|Remember Bingles at the shore?|
+T Bingles' Missing Supplies |N|Remember Bingles at the shore?| |QID|2038|
 
 F City of Ironforge |R|Human|
 F City of Ironforge |R|Dwarf|
@@ -55,6 +55,6 @@ f Grab flight point |R|Night Elf|
 F City of Ironforge |R|Gnome|
 R City of Ironforge |R|Draenei|
 f Grab flight point |R|Draenei|
-T Report to Ironforge |N|Hall of Explorers. Skip the follow-up.|
+T Report to Ironforge |N|Hall of Explorers. Skip the follow-up.| |QID|301|
 ]]
 end)
