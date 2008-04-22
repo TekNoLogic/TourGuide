@@ -47,7 +47,7 @@ A Return to Tymor |QID|3461|
 T Kim'jael's "Missing" Equipment |N|Back up north| |QID|5534|
 
 H Darnassus
-T Morrowgrain Research (Part 2) |N|Save 10 soil and 15 Morrowgrain for later|
+T Morrowgrain Research (Part 2) |N|Save 10 soil and 15 Morrowgrain for later| |QID|???|
 ]]
 
 end)

@@ -6,20 +6,20 @@ R Feathermoon Stronghold |N|Fly to Desolace and run southwest into Feralas (43,9
 A The Mark of Quality |QID|2822|
 h Feathermoon Stronghold
 A The Ruins of Solarsal |QID|2866|
-A The Missing Courier (Part 1)
+A The Missing Courier (Part 1) |QID|???|
 A The High Wilderness |QID|2982|
 A In Search of Knowledge |QID|2939|
-T The Missing Courier (Part 1) |N|(31,45)|
-A The Missing Courier (Part 2)
+T The Missing Courier (Part 1) |N|(31,45)| |QID|???|
+A The Missing Courier (Part 2) |QID|???|
 
 T The Ruins of Solarsal |N|Southwest to the Ruins of Solarsal, at the "Solar Gazebo" (26,52)| |QID|2866|
 A Return to Feathermoon Stronghold |QID|2867|
 T Return to Feathermoon Stronghold |QID|2867|
-A Against the Hatecrest (Part 1)
-T Against the Hatecrest (Part 1)
-A Against the Hatecrest (Part 2)
-C Against the Hatecrest (Part 2) |N|Kill naga back at the ruins|
-T Against the Hatecrest (Part 2)
+A Against the Hatecrest (Part 1) |QID|???|
+T Against the Hatecrest (Part 1) |QID|???|
+A Against the Hatecrest (Part 2) |QID|???|
+C Against the Hatecrest (Part 2) |N|Kill naga back at the ruins| |QID|???|
+T Against the Hatecrest (Part 2) |QID|???|
 A Against Lord Shalzaru |QID|2870|
 C Against Lord Shalzaru |N|South thru the ruins, across the water, in a cave (26,67).  He is level 47, so he might be hard to solo.| |QID|2870|
 
@@ -29,7 +29,7 @@ A Delivering the Relic |QID|2871|
 T Delivering the Relic |QID|2871|
 
 C Screecher Spirits |N|Back on the main shore, avoid elementals and giants while killing Rogue Vale Screechers.  Use Yeh'Kinya's Bramble on their corpses and talk to the spirits.  Work your way south.| |U|10699| |QID|3520|
-T The Missing Courier (Part 2) |N|Find the boat wreckage to the south (45.53, 64.98)|
+T The Missing Courier (Part 2) |N|Find the boat wreckage to the south (45.53, 64.98)| |QID|???|
 A Boat Wreckage |QID|4127|
 
 T Boat Wreckage |N|Back at the stronghold| |QID|4127|
@@ -46,10 +46,10 @@ C The High Wilderness |N|Shamans are to the south at the temple (59,73).  Brutes
 A Freedom for All Creatures |N|Clear around the cage in the camp, then head up the path behind the camp (65.63, 46.76)| |QID|2969|
 C Freedom for All Creatures |N|Lead Kindal Moonweaver down to the cage, open it, and protect the Sprite Darters as they escape.| |QID|2969|
 T Freedom for All Creatures |QID|2969|
-A Doling Justice (Part 1)
-C Doling Justice (Part 1)
-T Doling Justice (Part 1)
-A Doling Justice (Part 2)
+A Doling Justice (Part 1) |QID|???|
+C Doling Justice (Part 1) |QID|???|
+T Doling Justice (Part 1) |QID|???|
+A Doling Justice (Part 2) |QID|???|
 
 T The Woodpaw Gnolls |N|Look for a backpack hanging on a tree in one of the gnoll camps (73,56)| |QID|4131|
 A The Writhing Deep |QID|4135|
@@ -74,7 +74,7 @@ T Feralas: A History |QID|2940|
 A The Borrower |QID|2941|
 
 T Rise of the Silithid |N|In the temple of the moon, upstairs (39,86)| |Z|Darnassus| |NODEBUG| |QID|4267|
-T Doling Justice (Part 2)
+T Doling Justice (Part 2) |QID|???|
 
 F Gadgetzan |N|Hearth to Feathermoon Stronghold to cut down time, if it's up.|
 T The Borrower |QID|2941|

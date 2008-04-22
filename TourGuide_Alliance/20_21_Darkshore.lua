@@ -13,9 +13,9 @@ A Return to Onu |QID|950|
 A Therylune's Escape |N|Escort near the Twilight Tome, southeast from it at the same island (45.26, 33.75).| |QID|945|
 C Therylune's Escape |QID|945|
 
-T The Absent Minded Prospector (Part 1) |N|West from The Twilight Camp at Remtravel's Excavation|
-A The Absent Minded Prospector (Part 2) |N|Pain in the ass escort around the excavation.  You might want to just abandon this (and skip the follow-up quests in the upcoming guides).|
-C The Absent Minded Prospector (Part 2)
+T The Absent Minded Prospector (Part 1) |N|West from The Twilight Camp at Remtravel's Excavation| |QID|???|
+A The Absent Minded Prospector (Part 2) |N|Pain in the ass escort around the excavation.  You might want to just abandon this (and skip the follow-up quests in the upcoming guides).| |QID|???|
+C The Absent Minded Prospector (Part 2) |QID|???|
 C WANTED: Murkdeep! |N|Follow the shore north to the murloc camp (36.56, 76.65).  Clear the camp, after that there's 3 waves of murlocs.  Murkdeep is in the last wave.| |QID|4740|
 
 T Return to Onu |N|Back at Grove of the Ancients| |QID|950|

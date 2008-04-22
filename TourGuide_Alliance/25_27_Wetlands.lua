@@ -2,10 +2,10 @@ TourGuide:RegisterGuide("Wetlands (25-27)", "Redridge Mountains (27-28)", "Allia
 return [[
 F Auberdine
 T WANTED: Murkdeep! |T| |QID|4740|
-T The Absent Minded Prospector (Part 2) |T|
-A The Absent Minded Prospector (Part 3) |T|
-T The Absent Minded Prospector (Part 3) |N|Outside the Temple of the Moon, Darnassus (31.41, 84.18)| |Z|Darnassus|
-A The Absent Minded Prospector (Part 4)
+T The Absent Minded Prospector (Part 2) |T| |QID|???|
+A The Absent Minded Prospector (Part 3) |T| |QID|???|
+T The Absent Minded Prospector (Part 3) |N|Outside the Temple of the Moon, Darnassus (31.41, 84.18)| |Z|Darnassus| |QID|???|
+A The Absent Minded Prospector (Part 4) |QID|???|
 
 b Menethil Harbor
 A Claws from the Deep |T| |QID|279|
@@ -16,34 +16,34 @@ A The Third Fleet |T| |QID|288|
 A The Greenwarden |T| |QID|463|
 h Deepwater Tavern |T|
 C The Third Fleet |N|Buy a flagon of mead from the innkeeper| |T| |QID|288|
-T The Absent Minded Prospector (Part 4) |T| |N|Upstairs in the inn|
-A The Absent Minded Prospector (Part 5) |T|
+T The Absent Minded Prospector (Part 4) |T| |N|Upstairs in the inn| |QID|???|
+A The Absent Minded Prospector (Part 5) |T| |QID|???|
 T The Third Fleet |T| |QID|288|
 A The Cursed Crew |T| |QID|289|
-A In Search of The Excavation Team (Part 1) |NODEBUG| |N|On your way out of town|
+A In Search of The Excavation Team (Part 1) |NODEBUG| |N|On your way out of town| |QID|???|
 
 N Kill young crocs... |N|Kill any Young Crocolisks you come across for "Young Crocolisk Skins"|
 C Claws from the Deep |QID|279|
 
-T In Search of The Excavation Team (Part 1) |NODEBUG| |N|At Whelgar's Excavation Site (38.8, 52.3)|
-A In Search of The Excavation Team (Part 2) |NODEBUG|
-A Ormer's Revenge (Part 1)
+T In Search of The Excavation Team (Part 1) |NODEBUG| |N|At Whelgar's Excavation Site (38.8, 52.3)| |QID|???|
+A In Search of The Excavation Team (Part 2) |NODEBUG| |QID|???|
+A Ormer's Revenge (Part 1) |QID|???|
 N Get the fossil |L|5234| |N|For "The Absent Minded Prospector (Part 5)"|
 
-C Ormer's Revenge (Part 1) |N|Outside the excavation site to the west (30,45)|
-T Ormer's Revenge (Part 1)
-A Ormer's Revenge (Part 2)
+C Ormer's Revenge (Part 1) |N|Outside the excavation site to the west (30,45)| |QID|???|
+T Ormer's Revenge (Part 1) |QID|???|
+A Ormer's Revenge (Part 2) |QID|???|
 A Uncovering the Past |QID|299|
 N Keep an eye out for relics
-C Ormer's Revenge (Part 2)
-T Ormer's Revenge (Part 2)
-A Ormer's Revenge (Part 3)
+C Ormer's Revenge (Part 2) |QID|???|
+T Ormer's Revenge (Part 2) |QID|???|
+A Ormer's Revenge (Part 3) |QID|???|
 T Uncovering the Past |QID|299|
-C Ormer's Revenge (Part 3)
+C Ormer's Revenge (Part 3) |QID|???|
 C Uncovering the Past |QID|299|
-T Ormer's Revenge (Part 3)
+T Ormer's Revenge (Part 3) |QID|???|
 
-C The Absent Minded Prospector (Part 5) |N|Keep killing raptors|
+C The Absent Minded Prospector (Part 5) |N|Keep killing raptors| |QID|???|
 
 C War Banners |N|East of Excavation Site (42.9, 41.1)| |QID|464|
 A Daily Delivery |N|North of the Angerfang Encampment at the fork in the road (49.88, 39.42)| |QID|469|
@@ -58,7 +58,7 @@ T Fire Taboo |QID|277|
 A Blisters on The Land |NODEBUG| |QID|275|
 
 H Menethil Harbor |SZ|Deepwater Tavern|
-T The Absent Minded Prospector (Part 5) |N|Inn, upstairs| |T|
+T The Absent Minded Prospector (Part 5) |N|Inn, upstairs| |T| |QID|???|
 T Claws from the Deep |T| |QID|279|
 A Reclaiming Goods |T| |QID|281|
 T Young Crocolisk Skins |T| |QID|484|
@@ -66,7 +66,7 @@ T Daily Delivery |T| |QID|469|
 A Apprentice's Duties |T| |QID|471|
 T War Banners |N|In the keep| |T| |QID|464|
 A Nek'rosh's Gambit |T| |QID|465|
-T In Search of The Excavation Team (Part 2) |NODEBUG| |N|On your way out of town|
+T In Search of The Excavation Team (Part 2) |NODEBUG| |N|On your way out of town| |QID|???|
 
 N Kill stealth elementals... |N|Kill any Fen Creepers you come across for "Blisters on The Land".  They stealth and follow the shallow waters in the west half of the zone.|
 

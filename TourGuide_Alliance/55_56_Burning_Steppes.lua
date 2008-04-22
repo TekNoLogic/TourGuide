@@ -3,10 +3,10 @@ TourGuide:RegisterGuide("Burning Steppes (55-56)", "Silithus (56)", "Alliance", 
 return [[
 F City of Ironforge
 h City of Ironforge
-T A Little Slime Goes a Long Way (Part 2) |N|In the Hall of Explorers
-A The Smoldering Ruins of Thaurissan (Part 1) |N|In the throne room|
-T The Smoldering Ruins of Thaurissan (Part 1)
-A The Smoldering Ruins of Thaurissan (Part 2)
+T A Little Slime Goes a Long Way (Part 2) |N|In the Hall of Explorers |QID|???|
+A The Smoldering Ruins of Thaurissan (Part 1) |N|In the throne room| |QID|???|
+T The Smoldering Ruins of Thaurissan (Part 1) |QID|???|
+A The Smoldering Ruins of Thaurissan (Part 2) |QID|???|
 A Taking Back Silithus |N|Near the flight master| |QID|8276|
 
 F Lakeshire
@@ -25,7 +25,7 @@ A Tablet of the Seven |QID|4296|
 A Broodling Essence |QID|4726|
 
 C Tablet of the Seven |N|Talk to the dorf statue (54,40)| |QID|4296|
-C The Smoldering Ruins of Thaurissan (Part 2) |N|Poke the relics around this area.|
+C The Smoldering Ruins of Thaurissan (Part 2) |N|Poke the relics around this area.| |QID|???|
 C Gor'tesh the Brute Lord |N|At Pillar of Ash (40,55)| |QID|3824|
 C FIFTY! YEP! |N|Kill orcs at Blackrock Stronghold (43,36) or Pillar of Ash (49,55)| |QID|4283|
 
@@ -39,38 +39,38 @@ T FIFTY! YEP! |N| Back at Morgan's Vigil (84,68)| |QID|4283|
 T Gor'tesh the Brute Lord |QID|3824|
 A Ogre Head On A Stick = Party |NODEBUG| |QID|3825|
 T Dragonkin Menace |QID|4182|
-A The True Masters (Part 1)
+A The True Masters (Part 1) |QID|???|
 
 C Ogre Head On A Stick = Party |NODEBUG| |N|Up on the ogre mountain (81.0, 46.8)| |QID|3825|
 T Ogre Head On A Stick = Party |NODEBUG| |QID|3825|
 
 F Lakeshire
-T The True Masters (Part 1) |N|In the town hall (30.0, 44.45)| |Z|Redridge Mountains|
-A The True Masters (Part 2)
+T The True Masters (Part 1) |N|In the town hall (30.0, 44.45)| |Z|Redridge Mountains| |QID|???|
+A The True Masters (Part 2) |QID|???|
 
 F Stormwind City
-T The True Masters (Part 2) |N|In Stormwind Keep (78,18)| |Z|Stormwind City|
-A The True Masters (Part 3)
-C The True Masters (Part 3) |N|Speak to Lady Katrana Prestor|
-T The True Masters (Part 3)
-A The True Masters (Part 4)
+T The True Masters (Part 2) |N|In Stormwind Keep (78,18)| |Z|Stormwind City| |QID|???|
+A The True Masters (Part 3) |QID|???|
+C The True Masters (Part 3) |N|Speak to Lady Katrana Prestor| |QID|???|
+T The True Masters (Part 3) |QID|???|
+A The True Masters (Part 4) |QID|???|
 
 F Lakeshire
-T The True Masters (Part 4) |N|Town hall again|
-A The True Masters (Part 5)
+T The True Masters (Part 4) |N|Town hall again| |QID|???|
+A The True Masters (Part 5) |QID|???|
 
 F Burning Steppes
-T The True Masters (Part 5)
-A The True Masters (Part 6)
+T The True Masters (Part 5) |QID|???|
+A The True Masters (Part 6) |QID|???|
 
 T Tablet of the Seven |N|Back at Flame Crest to the north (65,23)| |QID|4296|
 T Broodling Essence |QID|4726|
 A Felnok Steelspring |QID|4808|
-C The True Masters (Part 6) |N|Talk to Ragged John|
+C The True Masters (Part 6) |N|Talk to Ragged John| |QID|???|
 
-T The True Masters (Part 6) |N|Skip the follow-up|
+T The True Masters (Part 6) |N|Skip the follow-up| |QID|???|
 H City of Ironforge
-T The Smoldering Ruins of Thaurissan (Part 2) |N|In the throne room|
+T The Smoldering Ruins of Thaurissan (Part 2) |N|In the throne room| |QID|???|
 
 ]]
 

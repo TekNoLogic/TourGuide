@@ -7,7 +7,7 @@ A A Call to Arms: The Plaguelands! |N|From Crier Goodman, he patrols all over th
 
 F Southshore
 R Western Plaguelands |N|Follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp|
-A A Plague Upon Thee (Part 1)
+A A Plague Upon Thee (Part 1) |QID|???|
 A The Mark of the Lightbringer |N|From Anchorite Truuen.  He may not be in the camp if he's out doing the escort quest.| |QID|9474|
 T A Call to Arms: The Plaguelands! |QID|10374|
 A Clear the Way |QID|5092|
@@ -24,33 +24,33 @@ A Target: Felstone Field |QID|5229|
 C All Along the Watchtowers |U|12815| |N|Mark each tower in Andorhal, you can get close enough to mark without aggroing mobs inside if you are careful. (47,71) (40,71) (42,66) (44,63)| |QID|5098|
 C Target: Felstone Field |N|To the northwest at Felstone Field (37,56).  Kill Cauldron Lord Bilemaw for the key, then talk to the cauldren.| |QID|5229|
 T Target: Felstone Field |N|Talk to the cauldren| |QID|5229|
-A Return to Chillwind Camp (Part 1)
+A Return to Chillwind Camp (Part 1) |QID|???|
 
-A Better Late Than Never (Part 1) |N|In the house on the northeast side of the field (38,54), upstairs|
-T Better Late Than Never (Part 1) |N|Next door in the barn, talk to the box (38.8, 55.2)|
-A Better Late Than Never (Part 2)
+A Better Late Than Never (Part 1) |N|In the house on the northeast side of the field (38,54), upstairs| |QID|???|
+T Better Late Than Never (Part 1) |N|Next door in the barn, talk to the box (38.8, 55.2)| |QID|???|
+A Better Late Than Never (Part 2) |QID|???|
 
 T All Along the Watchtowers |N|Back in Chillwind Camp| |QID|5098|
 A Scholomance |QID|5533|
 T Scholomance |QID|5533|
 A Skeletal Fragments |QID|5537|
-T Return to Chillwind Camp (Part 1)
+T Return to Chillwind Camp (Part 1) |QID|???|
 A Target: Dalson's Tears |QID|5231|
 
 C Target: Dalson's Tears |N|To the north at Dalson's Tears (46,52).  Kill Cauldron Lord Malvinious for the key, then talk to the cauldren.| |QID|5231|
 T Target: Dalson's Tears |N|Talk to the cauldren| |QID|5231|
-A Return to Chillwind Camp (Part 2)
+A Return to Chillwind Camp (Part 2) |QID|???|
 
 N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|
 K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |L|12738|
 K Farmer Dalson |N|Open the outhouse, get his key| |L|12739|
 N Open cabinet |N|Locked cabinet upstairs in the house.|
 
-T Return to Chillwind Camp (Part 2)
+T Return to Chillwind Camp (Part 2) |QID|???|
 A Target: Writhing Haunt |QID|5233|
 
 H Stormwind City
-T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (48,30)| |Z|Stormwind City|
+T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (48,30)| |Z|Stormwind City| |QID|???|
 A Good Natured Emma |QID|5048|
 T Good Natured Emma |N|She patrols between the cathedral and trade district| |QID|5048|
 A Good Luck Charm |QID|5050|
@@ -71,25 +71,25 @@ T Two Halves Become One |QID|5051|
 
 C Target: Writhing Haunt |N|To the southeast at Writhing Haunt (53,65).  Kill Cauldron Lord Razarch for the key, then talk to the cauldren.| |QID|5233|
 T Target: Writhing Haunt |N|Talk to the cauldren| |QID|5233|
-A Return to Chillwind Camp (Part 3)
+A Return to Chillwind Camp (Part 3) |QID|???|
 
-A The Wildlife Suffers Too (Part 1) |N|In the house by the field (53.70, 64.65)|
-C The Wildlife Suffers Too (Part 1) |N|To the north, between the Felstone and Dalson's Fields, and north of Dalson's Field.|
-T The Wildlife Suffers Too (Part 1)
-A The Wildlife Suffers Too (Part 2)
+A The Wildlife Suffers Too (Part 1) |N|In the house by the field (53.70, 64.65)| |QID|???|
+C The Wildlife Suffers Too (Part 1) |N|To the north, between the Felstone and Dalson's Fields, and north of Dalson's Field.| |QID|???|
+T The Wildlife Suffers Too (Part 1) |QID|???|
+A The Wildlife Suffers Too (Part 2) |QID|???|
 
-T Return to Chillwind Camp (Part 3) |N|Back at Chillwind Camp|
+T Return to Chillwind Camp (Part 3) |N|Back at Chillwind Camp| |QID|???|
 A Target: Gahrron's Withering |QID|5235|
 
-C The Wildlife Suffers Too (Part 2) |N|East, between Writhing Haunt and Gahrron's Withering (52,56)|
+C The Wildlife Suffers Too (Part 2) |N|East, between Writhing Haunt and Gahrron's Withering (52,56)| |QID|???|
 
 C Target: Gahrron's Withering |N|To the east at Writhing Haunt (62,58).  Kill Cauldron Lord Soulwrath for the key, then talk to the cauldren.| |QID|5235|
 T Target: Gahrron's Withering |N|Talk to the cauldren| |QID|5235|
-A Return to Chillwind Camp (Part 4)
+A Return to Chillwind Camp (Part 4) |QID|???|
 
-T The Wildlife Suffers Too (Part 2)
+T The Wildlife Suffers Too (Part 2) |QID|???|
 
-T Return to Chillwind Camp (Part 4) |N|Back at Chillwind Camp, of course.|
+T Return to Chillwind Camp (Part 4) |N|Back at Chillwind Camp, of course.| |QID|???|
 N Mission Accomplished! |N|Talk to Commander Ashlam Valorfist|
 ]]
 end)

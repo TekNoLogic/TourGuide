@@ -13,17 +13,17 @@ A Bartolo's Yeti Fur Cloak |QID|565|
 A Costly Menace |QID|564|
 A Syndicate Assassins |QID|505|
 
-C Tome of the Cabal (Part 2) |N|Get the Moldy Tome, on the beach west of Southshore (27.7, 72.8)| |L|6931| |C|Warlock|
+C Tome of the Cabal (Part 2) |N|Get the Moldy Tome, on the beach west of Southshore (27.7, 72.8)| |L|6931| |C|Warlock| |QID|???|
 
 C Down the Coast |N|On beach west of Southshore| |QID|536|
 T Down the Coast |QID|536|
-A Farren's Proof (Part 1)
-C Farren's Proof (Part 1) |N|Murlocs, again, ugh|
-T Farren's Proof (Part 1)
-A Farren's Proof (Part 2)
-T Farren's Proof (Part 2)
-A Farren's Proof (Part 3)
-T Farren's Proof (Part 3)
+A Farren's Proof (Part 1) |QID|???|
+C Farren's Proof (Part 1) |N|Murlocs, again, ugh| |QID|???|
+T Farren's Proof (Part 1) |QID|???|
+A Farren's Proof (Part 2) |QID|???|
+T Farren's Proof (Part 2) |QID|???|
+A Farren's Proof (Part 3) |QID|???|
+T Farren's Proof (Part 3) |QID|???|
 A Stormwind Ho! |QID|562|
 C Stormwind Ho! |N|On beach east of Southshore| |QID|562|
 T Stormwind Ho! |QID|562|
@@ -56,8 +56,8 @@ A Cleansing the Eye |QID|293|
 F City of Ironforge
 T Letter to Stormpike |Z|Ironforge| |N|Hall of Explorers (74.25, 12.70)| |QID|514|
 A Further Mysteries |QID|525|
-T Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock|
-A Tome of the Cabal (Part 3) |N|Hall of Explorers| |C|Warlock|
+T Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock| |QID|???|
+A Tome of the Cabal (Part 3) |N|Hall of Explorers| |C|Warlock| |QID|???|
 A Reclaimers' Business in Desolace |N|From Roetten Stonehammer who walks around nearby| |QID|1453|
 A In Search of Menara Voidrender |N|In The Forlorn Cavern (50.2, 6.2)| |C|Warlock| |QID|4739|
 
@@ -73,11 +73,11 @@ T Bartolo's Yeti Fur Cloak |QID|565|
 T Further Mysteries |N|Skip the follow-up| |QID|525|
 
 F Menethil Harbor |C|Warlock|
-C Tome of the Cabal (Part 3) |Kill Dragonmaw Bonewarders and Shadowwarders to the east (47,47)| |C|Warlock| |Z|Wetlands|
+C Tome of the Cabal (Part 3) |Kill Dragonmaw Bonewarders and Shadowwarders to the east (47,47)| |C|Warlock| |Z|Wetlands| |QID|???|
 
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly down|
 T In Search of Menara Voidrender |C|Warlock| |QID|4739|
-T Tome of the Cabal (Part 3) |C|Warlock|
+T Tome of the Cabal (Part 3) |C|Warlock| |QID|???|
 A The Binding |C|Warlock| |NODEBUG| |N|Ratchet (62.6, 35.5)| |QID|1795|
 C The Binding |C|Warlock| |NODEBUG| |U|6999| |QID|1795|
 T The Binding |C|Warlock| |NODEBUG| |QID|1795|

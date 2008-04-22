@@ -2,29 +2,29 @@
 TourGuide:RegisterGuide("Winterspring (54-55)", "Burning Steppes (55-56)", "Alliance", function()
 return [[
 F Winterspring
-A Enraged Wildkin (Part 1)
+A Enraged Wildkin (Part 1) |QID|???|
 h Everlook
 A The Everlook Report |QID|6029|
 A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
-A Are We There, Yeti? (Part 1)
+A Are We There, Yeti? (Part 1) |QID|???|
 
 N Grab feathers you see |N|For "Moontouched Wildkin"|
 C Strange Sources |N|Follow the road far to the south (60,73)| |QID|4842|
 
 H Everlook
-C Are We There, Yeti? (Part 1) |N|Just southeast of town.  Kill yeti outside the cave.|
-T Are We There, Yeti? (Part 1) |N|Back in Everlook|
-A Are We There, Yeti? (Part 2)
-C Are We There, Yeti? (Part 2) |N|Back in the yeti cave (67,42)|
-T Are We There, Yeti? (Part 2)
-A Are We There, Yeti? (Part 3)
+C Are We There, Yeti? (Part 1) |N|Just southeast of town.  Kill yeti outside the cave.| |QID|???|
+T Are We There, Yeti? (Part 1) |N|Back in Everlook| |QID|???|
+A Are We There, Yeti? (Part 2) |QID|???|
+C Are We There, Yeti? (Part 2) |N|Back in the yeti cave (67,42)| |QID|???|
+T Are We There, Yeti? (Part 2) |QID|???|
+A Are We There, Yeti? (Part 3) |QID|???|
 N Scare Legacki |N|East of the inn, use the Yeti| |U|12928| |Q|Are We There, Yeti?| |QO|Scare Legacki: 1/1|
 
 C Winterfall Activity |N|East of town (66,34)| |QID|8464|
 T To Winterspring! |N|At Starfall Village (51,30)| |QID|5249|
 A The Ruins of Kel'Theril |QID|5244|
-T Enraged Wildkin (Part 1) |N|Skip the follow-up|
+T Enraged Wildkin (Part 1) |N|Skip the follow-up| |QID|???|
 T The Ruins of Kel'Theril |QID|5244|
 A Troubled Spirits of Kel'Theril |QID|5245|
 
@@ -48,10 +48,10 @@ F Darnassus
 T Moontouched Wildkin |QID|978|
 A Find Ranshalla |QID|979|
 
-A The New Frontier (Part 1) |N|From Herald Moonstalker, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!|
-T The New Frontier (Part 1) |N|In the tree house in Cenarion Enclave (34,8)| |Z|Darnassus|
-A The New Frontier (Part 2)
-T The New Frontier (Part 2)
+A The New Frontier (Part 1) |N|From Herald Moonstalker, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!| |QID|???|
+T The New Frontier (Part 1) |N|In the tree house in Cenarion Enclave (34,8)| |Z|Darnassus| |QID|???|
+A The New Frontier (Part 2) |QID|???|
+T The New Frontier (Part 2) |QID|???|
 A Rabine Saturna |QID|6762|
 
 F Moonglade

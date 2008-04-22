@@ -1,9 +1,9 @@
 TourGuide:RegisterGuide("Teldrassil (1-12)", "Darkshore (12-17)", "Alliance", function()
 return [[
-A The Balance of Nature (Part 1)
-C The Balance of Nature (Part 1)
-T The Balance of Nature (Part 1)
-A The Balance of Nature (Part 2)
+A The Balance of Nature (Part 1) |QID|???|
+C The Balance of Nature (Part 1) |QID|???|
+T The Balance of Nature (Part 1) |QID|???|
+A The Balance of Nature (Part 2) |QID|???|
 
 A Encrypted Sigil |C|Rogue| |QID|3118|
 A Etched Sigil |C|Hunter| |QID|3117|
@@ -11,12 +11,12 @@ A Hallowed Sigil |C|Priest| |QID|3119|
 A Simple Sigil |C|Warrior| |QID|3116|
 A Verdant Sigil |C|Druid| |QID|3120|
 
-A The Woodland Protector (Part 1)
+A The Woodland Protector (Part 1) |QID|???|
 A A Good Friend |QID|4495|
-T The Woodland Protector (Part 1) |N|Dryad to the southwest (57.77, 45.20)|
-A The Woodland Protector (Part 2)
-C The Woodland Protector (Part 2)
-T The Woodland Protector (Part 2)
+T The Woodland Protector (Part 1) |N|Dryad to the southwest (57.77, 45.20)| |QID|???|
+A The Woodland Protector (Part 2) |QID|???|
+C The Woodland Protector (Part 2) |QID|???|
+T The Woodland Protector (Part 2) |QID|???|
 A Webwood Venom |N|At the base of the ramp (57.79, 41.70)| |QID|916|
 
 T Encrypted Sigil |C|Rogue| |QID|3118|
@@ -25,29 +25,29 @@ T Hallowed Sigil |C|Priest| |QID|3119|
 T Simple Sigil |C|Warrior| |QID|3116|
 T Verdant Sigil |C|Druid| |N|Up the ramp!| |QID|3120|
 
-C The Balance of Nature (Part 2) |N|Mobs are to the northeast (60,35)|
+C The Balance of Nature (Part 2) |N|Mobs are to the northeast (60,35)| |QID|???|
 C Webwood Venom |N|To the northwest at Shadowthread Cave (57,33)| |QID|916|
 T A Good Friend |N|Just west of the cave entrance| |QID|4495|
 A A Friend in Need |QID|3519|
 T Webwood Venom |QID|916|
 A Webwood Egg |QID|917|
 
-T The Balance of Nature (Part 2)
+T The Balance of Nature (Part 2) |QID|???|
 T A Friend in Need |QID|3519|
-A Iverron's Antidote (Part 1)
+A Iverron's Antidote (Part 1) |QID|???|
 
-C Iverron's Antidote (Part 1) |N|Lilies around the pond, mushrooms at the bases of trees, ichor from the spiders|
+C Iverron's Antidote (Part 1) |N|Lilies around the pond, mushrooms at the bases of trees, ichor from the spiders| |QID|???|
 C Webwood Egg |N|Inside the cave (56,26)| |QID|917|
 T Webwood Egg |QID|917|
 A Tenaron's Summons |QID|920|
 T Tenaron's Summons |N|Up the ramp| |QID|920|
-A Crown of the Earth (Part 1)
-T Iverron's Antidote (Part 1)
-A Iverron's Antidote (Part 2)
-C Crown of the Earth (Part 1) |N|Moonwell north of Aldrassil (59.93, 33.07)| |U|5185|
-T Iverron's Antidote (Part 2)
-T Crown of the Earth (Part 1)
-A Crown of the Earth (Part 2)
+A Crown of the Earth (Part 1) |QID|???|
+T Iverron's Antidote (Part 1) |QID|???|
+A Iverron's Antidote (Part 2) |QID|???|
+C Crown of the Earth (Part 1) |N|Moonwell north of Aldrassil (59.93, 33.07)| |U|5185| |QID|???|
+T Iverron's Antidote (Part 2) |QID|???|
+T Crown of the Earth (Part 1) |QID|???|
+A Crown of the Earth (Part 2) |QID|???|
 
 A Dolanaar Delivery |N|South out of Shadowglen (61,47)| |QID|2159|
 A Zenn's Bidding |N|Along the road to Dolannar (60,56)| |QID|488|
@@ -55,15 +55,15 @@ A Zenn's Bidding |N|Along the road to Dolannar (60,56)| |QID|488|
 R Dolanaar
 h Dolanaar
 T Dolanaar Delivery |QID|2159|
-T Crown of the Earth (Part 2) |N|South of the inn by the moonwell|
-A Crown of the Earth (Part 3)
+T Crown of the Earth (Part 2) |N|South of the inn by the moonwell| |QID|???|
+A Crown of the Earth (Part 3) |QID|???|
 A Denalan's Earth |N|In front of the tower| |QID|997|
 A A Troubling Breeze |N|In the tower| |QID|475|
 A The Emerald Dreamcatcher |N|In the tower| |QID|2438|
 A Twisted Hatred |N|In the tower| |QID|932|
 
 C Zenn's Bidding |N|East of Dolanaar| |QID|488|
-C Crown of the Earth (Part 3) |N|Moonwell is East of Dolanaar (63.37, 58.12)| |U|5619|
+C Crown of the Earth (Part 3) |N|Moonwell is East of Dolanaar (63.37, 58.12)| |U|5619| |QID|???|
 T A Troubling Breeze |N|East in Starbreeze Village (66,58)| |QID|475|
 A Gnarlpine Corruption |QID|476|
 C The Emerald Dreamcatcher |N|East of the questgiver in a house is a Dresser (68.01, 59.66)| |QID|2438|
@@ -80,8 +80,8 @@ T Timberling Seeds |QID|918|
 A Rellian Greenspyre |QID|922|
 T Timberling Sprouts |QID|919|
 
-T Crown of the Earth (Part 3) |N|Back in Dolanaar|
-A Crown of the Earth (Part 4)
+T Crown of the Earth (Part 3) |N|Back in Dolanaar| |QID|???|
+A Crown of the Earth (Part 4) |QID|???|
 T Gnarlpine Corruption |N|In the tower| |QID|476|
 A The Relics of Wakening |QID|483|
 T The Emerald Dreamcatcher |QID|2438|
@@ -109,23 +109,23 @@ A Druid of the Claw |QID|2561|
 C Druid of the Claw |N|Back in the room to the north.  Kill him, target his body and use the charm.| |U|8149| |QID|2561|
 T Druid of the Claw |QID|2561|
 
-C Crown of the Earth (Part 4) |N|Moonwell at the Pools of Arlithrien (42.42, 67.08)| |U|5621|
+C Crown of the Earth (Part 4) |N|Moonwell at the Pools of Arlithrien (42.42, 67.08)| |U|5621| |QID|???|
 
-T Crown of the Earth (Part 4) |N|Back at Dolanaar, you can die and spirit rez.  Down by the moonwell.|
-A Crown of the Earth (Part 5)
+T Crown of the Earth (Part 4) |N|Back at Dolanaar, you can die and spirit rez.  Down by the moonwell.| |QID|???|
+A Crown of the Earth (Part 5) |QID|???|
 T The Relics of Wakening |QID|483|
 A Ursal the Mauler |QID|486|
 T The Road to Darnassus |QID|487|
 
-A Taming the Beast (Part 1) |C|Hunter|
-C Taming the Beast (Part 1) |C|Hunter| |N|Tame a webwood lurker (58,60)|
-T Taming the Beast (Part 1) |C|Hunter|
-A Taming the Beast (Part 2) |C|Hunter|
-C Taming the Beast (Part 2) |C|Hunter| |N|Tame a nightsaber stalker (55,73)|
-T Taming the Beast (Part 2) |C|Hunter|
-A Taming the Beast (Part 3) |C|Hunter|
-C Taming the Beast (Part 3) |C|Hunter| |N|Tame a strigid screecher (55,73)|
-T Taming the Beast (Part 3) |C|Hunter|
+A Taming the Beast (Part 1) |C|Hunter| |QID|???|
+C Taming the Beast (Part 1) |C|Hunter| |N|Tame a webwood lurker (58,60)| |QID|???|
+T Taming the Beast (Part 1) |C|Hunter| |QID|???|
+A Taming the Beast (Part 2) |C|Hunter| |QID|???|
+C Taming the Beast (Part 2) |C|Hunter| |N|Tame a nightsaber stalker (55,73)| |QID|???|
+T Taming the Beast (Part 2) |C|Hunter| |QID|???|
+A Taming the Beast (Part 3) |C|Hunter| |QID|???|
+C Taming the Beast (Part 3) |C|Hunter| |N|Tame a strigid screecher (55,73)| |QID|???|
+T Taming the Beast (Part 3) |C|Hunter| |QID|???|
 P Claw (Rank 2) |N|Tame a Strigid Hunter| |C|Hunter|
 P Growl (Rank 2) |N|Tame a Strigid Hunter| |C|Hunter|
 N Tame your pet |C|Hunter| |N|Elder Nightsaber (42,42) is nice|
@@ -162,7 +162,7 @@ A The Glowing Fruit |N|Out of town, south of the Pools of Arlithrien, just outsi
 C Ursal the Mauler |N|West of the glowing tree (39,80)| |QID|486|
 
 C Tumors |N|Elementals at the river east of The Oracle Glade (42,42)| |QID|923|
-C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade (38.44, 34.08)| |U|18152|
+C Crown of the Earth (Part 5) |N|Moonwell at The Oracle Glade (38.44, 34.08)| |U|18152| |QID|???|
 A The Enchanted Glade |QID|937|
 
 A Mist |N|Find the saber to the west, past the harpies (31.5, 31.6)| |QID|938|
@@ -185,8 +185,8 @@ T Sathrah's Sacrifice |QID|2520|
 
 H Dolanaar
 T Ursal the Mauler |QID|486|
-T Crown of the Earth (Part 5) |N|Down by the moonwell again|
-A Crown of the Earth (Part 6)
+T Crown of the Earth (Part 5) |N|Down by the moonwell again| |QID|???|
+A Crown of the Earth (Part 6) |QID|???|
 
 T Return to Denalan |N|South at the lake (60.90, 68.49)| |QID|2498|
 A Oakenscowl |QID|2499|
@@ -198,7 +198,7 @@ T The Moss-twined Heart |O| |QID|927|
 C Oakenscowl |N|Go along the river to the west until you find the cave (53.75, 75.10)| |QID|2499|
 T Oakenscowl |QID|2499|
 
-T Crown of the Earth (Part 6) |N|Turn it at Cenarion Enclave, Darnassus, at the top of the tower|
+T Crown of the Earth (Part 6) |N|Turn it at Cenarion Enclave, Darnassus, at the top of the tower| |QID|???|
 T Teldrassil |QID|940|
 A Grove of the Ancients |QID|952|
 

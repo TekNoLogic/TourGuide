@@ -2,8 +2,8 @@
 TourGuide:RegisterGuide("Un'Goro Crater (54)", "Felwood (54)", "Alliance", function()
 return [[
 F City of Ironforge
-T A Little Slime Goes a Long Way (Part 1) |N|In the Hall of Explorers|
-A A Little Slime Goes a Long Way (Part 2)
+T A Little Slime Goes a Long Way (Part 1) |N|In the Hall of Explorers| |QID|???|
+A A Little Slime Goes a Long Way (Part 2) |QID|???|
 T Return to Tymor |N|In the Mystic Ward| |QID|3461|
 
 F Gadgetzan
@@ -14,13 +14,13 @@ A Linken's Sword |QID|3914|
 
 R Un'Goro Crater
 A The Mighty U'cha |N|From the tauren at the bottom of the ramp (71,76)| |QID|4301|
-C A Little Slime Goes a Long Way (Part 2) |N|You can find a lot of slimes east and west of the volcano. Stun them when they try to clone if you can.|
-A Chasing A-Me 01 (Part 1) |N|At the gorilla cave in the far northeast (64,16).  Hang a right to the gorilla-bot.|
-T Chasing A-Me 01 (Part 1)
+C A Little Slime Goes a Long Way (Part 2) |N|You can find a lot of slimes east and west of the volcano. Stun them when they try to clone if you can.| |QID|???|
+A Chasing A-Me 01 (Part 1) |N|At the gorilla cave in the far northeast (64,16).  Hang a right to the gorilla-bot.| |QID|???|
+T Chasing A-Me 01 (Part 1) |QID|???|
 C The Mighty U'cha |QID|4301|
-A Chasing A-Me 01 (Part 2)
-C Chasing A-Me 01 (Part 2) |N|Just your usual escort.|
-T Chasing A-Me 01 (Part 2)
+A Chasing A-Me 01 (Part 2) |QID|???|
+C Chasing A-Me 01 (Part 2) |N|Just your usual escort.| |QID|???|
+T Chasing A-Me 01 (Part 2) |QID|???|
 T Linken's Sword |QID|3914|
 A A Gnome's Assistance |QID|3941|
 T A Gnome's Assistance |N|In the crystal cave| |QID|3941|

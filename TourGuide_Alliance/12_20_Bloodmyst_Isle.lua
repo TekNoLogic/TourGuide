@@ -7,8 +7,8 @@ A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places.| |QID|966
 N Warn Stillpine Hold |Q|The Kessel Run| |QO|High Chief Stillpine Warned: 1/1|
 N Warn Azure Watch |Q|The Kessel Run| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|
 T Warn Your People |QID|9622|
-T Call of Fire (Part 4) |C|Shaman|
-A Call of Fire (Part 5) |C|Shaman|
+T Call of Fire (Part 4) |C|Shaman| |QID|???|
+A Call of Fire (Part 5) |C|Shaman| |QID|???|
 T Strength of One |C|Warrior| |QID|9582|
 A Behomat |C|Warrior| |QID|10350|
 
@@ -48,7 +48,7 @@ A On the Wings of a Hippogryph |T| |QID|9604|
 F The Exodar
 T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T| |QID|9604|
 A Hippogryph Master Stephanos |T| |QID|9605|
-T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T|
+T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T| |QID|???|
 T Behomat |C|Warrior| |T| |QID|10350|
 T Hippogryph Master Stephanos |T| |QID|9605|
 A Return to Topher Loaal |T| |QID|9606|
