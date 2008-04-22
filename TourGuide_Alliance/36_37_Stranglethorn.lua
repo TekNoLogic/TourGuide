@@ -16,36 +16,36 @@ C Investigate the Camp |N|Follow the road south, look for a little camp by the r
 A Welcome to the Jungle |QID|583|
 T Welcome to the Jungle |QID|583|
 
-A Tiger Mastery (Part 1) |QID|???|
-A Panther Mastery (Part 1) |QID|???|
-A Raptor Mastery (Part 1) |QID|???|
+A Tiger Mastery (Part 1) |QID|185|
+A Panther Mastery (Part 1) |QID|190|
+A Raptor Mastery (Part 1) |QID|194|
 
-C Tiger Mastery (Part 1) |N|Near the camp, southwest a bit.| |QID|???|
+C Tiger Mastery (Part 1) |N|Near the camp, southwest a bit.| |QID|185|
 C Supply and Demand |N|Crocs along the river north of the camp| |QID|575|
-C Panther Mastery (Part 1) |N|Near camp and to the north| |QID|???|
+C Panther Mastery (Part 1) |N|Near camp and to the north| |QID|190|
 
-T Panther Mastery (Part 1) |QID|???|
-A Panther Mastery (Part 2) |QID|???|
+T Panther Mastery (Part 1) |QID|190|
+A Panther Mastery (Part 2) |QID|191|
 
-T Tiger Mastery (Part 1) |QID|???|
-A Tiger Mastery (Part 2) |QID|???|
+T Tiger Mastery (Part 1) |QID|185|
+A Tiger Mastery (Part 2) |QID|186|
 
-C Raptor Mastery (Part 1) |N|West of camp on a plateau (26,15)| |QID|???|
-C Panther Mastery (Part 2) |N|Same plateau, east of the raptors (28,13)| |QID|???|
+C Raptor Mastery (Part 1) |N|West of camp on a plateau (26,15)| |QID|194|
+C Panther Mastery (Part 2) |N|Same plateau, east of the raptors (28,13)| |QID|191|
 
 C Hostile Takeover |N|Venture Co. Base Camp to the east of Lake Nezferiti.| |QID|213|
 
-C Tiger Mastery (Part 2) |N|North of Venture Co. Base Camp on a plateau south of Kurzen's Compound.| |QID|???|
+C Tiger Mastery (Part 2) |N|North of Venture Co. Base Camp on a plateau south of Kurzen's Compound.| |QID|186|
 
 C Bad Medicine |N|To the north at Kurzen's Compound (44,11)| |QID|204|
 C The Second Rebellion |QID|203|
 
-T Raptor Mastery (Part 1) |N|Back at Nessingwary's| |QID|???|
-A Raptor Mastery (Part 2) |QID|???|
-T Panther Mastery (Part 2) |QID|???|
-A Panther Mastery (Part 3) |QID|???|
-T Tiger Mastery (Part 2) |QID|???|
-A Tiger Mastery (Part 3) |QID|???|
+T Raptor Mastery (Part 1) |N|Back at Nessingwary's| |QID|194|
+A Raptor Mastery (Part 2) |QID|195|
+T Panther Mastery (Part 2) |QID|191|
+A Panther Mastery (Part 3) |QID|192|
+T Tiger Mastery (Part 2) |QID|186|
+A Tiger Mastery (Part 3) |QID|187|
 
 T The Second Rebellion |N|Back at the Rebel Camp| |QID|203|
 T Bad Medicine |QID|204|

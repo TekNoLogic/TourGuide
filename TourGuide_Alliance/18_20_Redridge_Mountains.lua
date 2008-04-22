@@ -47,22 +47,22 @@ A Murloc Poachers |N|Man next to the shed. This quest requires level 20!| |QID|1
 C Murloc Poachers |N|Northern part of Lake Everstill (40,45) (56,53)| |QID|150|
 T Murloc Poachers |QID|150|
 
-A Messenger to Stormwind (Part 1) |N|In the town hall| |QID|???|
+A Messenger to Stormwind (Part 1) |N|In the town hall| |QID|120|
 F Stormwind City
-T Messenger to Stormwind (Part 1) |N|At the entrance to Stormwind| |QID|???|
-A Messenger to Stormwind (Part 2) |QID|???|
+T Messenger to Stormwind (Part 1) |N|At the entrance to Stormwind| |QID|120|
+A Messenger to Stormwind (Part 2) |QID|121|
 
-A The Tome of Valor (Part 1) |N|You must Speak with Duthorian Rall in the Cathedral of Light and he will give you the Tome of Valor, use it to start the quest.| |C|Paladin| |QID|???|
-T The Tome of Valor (Part 1) |C|Paladin| |QID|???|
-A The Tome of Valor (Part 2) |C|Paladin| |QID|???|
+A The Tome of Valor (Part 1) |N|You must Speak with Duthorian Rall in the Cathedral of Light and he will give you the Tome of Valor, use it to start the quest.| |C|Paladin| |QID|1649|
+T The Tome of Valor (Part 1) |C|Paladin| |QID|1649|
+A The Tome of Valor (Part 2) |C|Paladin| |QID|1650|
 
 F Sentinel Hill |C|Paladin|
-T The Tome of Valor (Part 2) |N|Southwest of Moonbrook (41.3, 88.5)| |C|Paladin| |Z|Westfall| |QID|???|
-A The Tome of Valor (Part 3) |C|Paladin| |QID|???|
-C The Tome of Valor (Part 3) |C|Paladin| |QID|???|
-T The Tome of Valor (Part 3) |C|Paladin| |QID|???|
-A The Tome of Valor (Part 4) |C|Paladin| |QID|???|
-T The Tome of Valor (Part 4) |N|Back in the Cathedral of Light, Stormwind| |C|Paladin| |QID|???|
+T The Tome of Valor (Part 2) |N|Southwest of Moonbrook (41.3, 88.5)| |C|Paladin| |Z|Westfall| |QID|1650|
+A The Tome of Valor (Part 3) |C|Paladin| |QID|1651|
+C The Tome of Valor (Part 3) |C|Paladin| |QID|1651|
+T The Tome of Valor (Part 3) |C|Paladin| |QID|1651|
+A The Tome of Valor (Part 4) |C|Paladin| |QID|1652|
+T The Tome of Valor (Part 4) |N|Back in the Cathedral of Light, Stormwind| |C|Paladin| |QID|1652|
 
 A Devourer of Souls |N|Mage Quarter in Stormwind| |C|Warlock| |QID|1716|
 b Theramore Isle |N|Fly to Menethil Harbor, take the boat on the south dock| |C|Warlock|

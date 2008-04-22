@@ -15,7 +15,7 @@ A Glyphic Memorandum |C|Mage| |R|Gnome| |QID|3114|
 A Encrypted Memorandum |C|Rogue| |R|Gnome| |QID|3113|
 A Simple Memorandum |C|Warrior| |R|Gnome| |QID|3112|
 
-A Coldridge Valley Mail Delivery (Part 1) |QID|???|
+A Coldridge Valley Mail Delivery (Part 1) |QID|233|
 A A New Threat |QID|170|
 C A New Threat |QID|170|
 T A New Threat |QID|170|
@@ -32,13 +32,13 @@ T Simple Memorandum |C|Warrior| |R|Gnome| |QID|3112|
 
 A A Refugee's Quandary |QID|3361|
 
-T Coldridge Valley Mail Delivery (Part 1) |QID|???|
-A Coldridge Valley Mail Delivery (Part 2) |QID|???|
+T Coldridge Valley Mail Delivery (Part 1) |QID|233|
+A Coldridge Valley Mail Delivery (Part 2) |QID|234|
 A The Boar Hunter |QID|183|
 C The Boar Hunter |QID|183|
 T The Boar Hunter |QID|183|
 
-T Coldridge Valley Mail Delivery (Part 2) |QID|???|
+T Coldridge Valley Mail Delivery (Part 2) |QID|234|
 A The Troll Cave |QID|182|
 A Scalding Mornbrew Delivery |QID|3364|
 T Scalding Mornbrew Delivery |N|Run back to Anvilmar (28.8, 66.4)| |QID|3364|
@@ -56,15 +56,15 @@ T The Troll Cave |QID|182|
 A The Stolen Journal |QID|218|
 C The Stolen Journal |N|Back of the cave, lower level (31,80)| |QID|218|
 T The Stolen Journal |QID|218|
-A Senir's Observations (Part 1) |QID|???|
+A Senir's Observations (Part 1) |QID|282|
 
 T A Refugee's Quandary |N|Back in Anvilmar.| |QID|3361|
-T Senir's Observations (Part 1) |N|East of Anvilmar (33.5, 71.8)| |QID|???|
-A Senir's Observations (Part 2) |QID|???|
+T Senir's Observations (Part 1) |N|East of Anvilmar (33.5, 71.8)| |QID|282|
+A Senir's Observations (Part 2) |QID|420|
 A Supplies to Tannok |QID|2160|
 
 R Kharanos |N|You should be able to just run thru the tunnel.|
-T Senir's Observations (Part 2) |QID|???|
+T Senir's Observations (Part 2) |QID|420|
 A Beer Basted Boar Ribs |QID|384|
 T Supplies to Tannok |QID|2160|
 h Thunderbrew Distillery
@@ -126,15 +126,15 @@ A The Reports |QID|291|
 T Operation Recombobulation |QID|412|
 T Return to Bellowfiz |N|Northeast of Kharanos.| |QID|320|
 
-A Taming the Beast (Part 1) |C|Hunter| |QID|???|
-C Taming the Beast (Part 1) |C|Hunter| |QID|???|
-T Taming the Beast (Part 1) |C|Hunter| |QID|???|
-A Taming the Beast (Part 2) |C|Hunter| |QID|???|
-C Taming the Beast (Part 2) |C|Hunter| |QID|???|
-T Taming the Beast (Part 2) |C|Hunter| |QID|???|
-A Taming the Beast (Part 3) |C|Hunter| |QID|???|
-C Taming the Beast (Part 3) |C|Hunter| |QID|???|
-T Taming the Beast (Part 3) |C|Hunter| |QID|???|
+A Taming the Beast (Part 1) |C|Hunter| |QID|6064|
+C Taming the Beast (Part 1) |C|Hunter| |QID|6064|
+T Taming the Beast (Part 1) |C|Hunter| |QID|6064|
+A Taming the Beast (Part 2) |C|Hunter| |QID|6084|
+C Taming the Beast (Part 2) |C|Hunter| |QID|6084|
+T Taming the Beast (Part 2) |C|Hunter| |QID|6084|
+A Taming the Beast (Part 3) |C|Hunter| |QID|6085|
+C Taming the Beast (Part 3) |C|Hunter| |QID|6085|
+T Taming the Beast (Part 3) |C|Hunter| |QID|6085|
 A Training the Beast |C|Hunter| |QID|6103|
 
 A Speak with Bink |C|Mage| |QID|1879|
@@ -160,13 +160,13 @@ A Onin's Report |C|Rogue| |QID|2239|
 T Onin's Report |C|Rogue| |QID|2239|
 
 T Muren Stormpike |C|Warrior| |QID|1679|
-A Vejrek's Head |C|Warrior| |QID|???|
+A Vejrek |C|Warrior| |QID|1678|
 R Dun Morogh |C|Warrior|
-C Vejrek's Head |N|(27.7, 57.7)| |C|Warrior| |QID|???|
-T Vejrek's Head |C|Warrior| |QID|???|
+C Vejrek |N|(27.7, 57.7)| |C|Warrior| |QID|1678|
+T Vejrek |C|Warrior| |QID|1678|
 A Tormus Deepforge |C|Warrior| |QID|1680|
 T Tormus Deepforge |C|Warrior| |QID|1680|
-A Ironabnd's Compound |C|Warrior| |QID|???|
+A Ironband's Compound |C|Warrior| |QID|1684|
 R Dun Morogh |C|Warrior|
 C Ironband's Compound |N|(77.9, 62.2)| |C|Warrior| |QID|1681|
 T Ironband's Compound |C|Warrior| |QID|1681|
