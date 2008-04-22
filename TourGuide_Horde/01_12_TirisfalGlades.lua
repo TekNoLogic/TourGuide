@@ -40,56 +40,56 @@ A The Red Messenger |QID|382|
 C The Red Messenger |N|Kill Meven Korgal to get the documents| |QID|382|
 T The Red Messenger |QID|382|
 A Vital Intelligence |QID|383|
-A A Rogue's Deal (Part 1) |N|North end of Deathknell|
-A Fields of Grief (Part 1)
+A A Rogue's Deal (Part 1) |N|North end of Deathknell| |QID|???|
+A Fields of Grief (Part 1) |QID|???|
 A Gordo's Task |N|Along the road to Brill| |QID|5481|
 
 R Brill
 A A Putrid Task |QID|404|
 T Vital Intelligence |QID|383|
-A At War With The Scarlet Crusade (Part 1)
-T A Rogue's Deal (Part 1)
+A At War With The Scarlet Crusade (Part 1) |QID|???|
+T A Rogue's Deal (Part 1) |QID|???|
 h Gallows' End Tavern
-A A New Plague (Part 1)|N|Near the herbalism trainer|
+A A New Plague (Part 1)|N|Near the herbalism trainer| |QID|???|
 
-C A New Plague (Part 1)
+C A New Plague (Part 1) |QID|???|
 C A Putrid Task |QID|404|
 C Gordo's Task |QID|5481|
 
-A A Rogue's Deal (Part 2) |N|Back in Deathknell|
-C A Rogue's Deal (Part 2)
-T A Rogue's Deal (Part 2)
-C Fields of Grief (Part 1) |N|At the farm above Deathknell (35,50)|
-C At War With The Scarlet Crusade (Part 1)
+A A Rogue's Deal (Part 2) |N|Back in Deathknell| |QID|???|
+C A Rogue's Deal (Part 2) |QID|???|
+T A Rogue's Deal (Part 2) |QID|???|
+C Fields of Grief (Part 1) |N|At the farm above Deathknell (35,50)| |QID|???|
+C At War With The Scarlet Crusade (Part 1) |QID|???|
 
 H Brill |SZ|Gallows' End Tavern|
 A Deaths in the Family |QID|354|
 A The Haunted Mills |QID|362|
 A The Chill of Death |QID|375|
-T Fields of Grief (Part 1)
-T A New Plague (Part 1)
-A A New Plague (Part 2)
-A Fields of Grief (Part 2)
-T At War With The Scarlet Crusade (Part 1)
-A At War With The Scarlet Crusade (Part 2)
+T Fields of Grief (Part 1) |QID|???|
+T A New Plague (Part 1) |QID|???|
+A A New Plague (Part 2) |QID|???|
+A Fields of Grief (Part 2) |QID|???|
+T At War With The Scarlet Crusade (Part 1) |QID|???|
+A At War With The Scarlet Crusade (Part 2) |QID|???|
 A Proof of Demise |QID|374|
 T A Putrid Task |QID|404|
 A The Mills Overrun |QID|426|
 A Graverobbers |QID|358|
 A Wanted: Maggot Eye |QID|398|
-T Fields of Grief (Part 2)
+T Fields of Grief (Part 2) |QID|???|
 T Gordo's Task |QID|5481|
 A Doom Weed |QID|5482|
 
 C Graverobbers |QID|358|
 C Doom Weed |QID|5482|
 C Wanted: Maggot Eye |N|In the smaller building at the north end of the farm (58,30)| |QID|398|
-C A New Plague (Part 2)
+C A New Plague (Part 2) |QID|???|
 N The Chill Of Death |L|2876 5|
 
 T Doom Weed |QID|5482|
-T A New Plague (Part 2)
-A A New Plague (Part 3)
+T A New Plague (Part 2) |QID|???|
+A A New Plague (Part 3) |QID|???|
 T Graverobbers |QID|358|
 A Forsaken Duties |QID|359|
 A The Prodigal Lich |QID|405|
@@ -113,7 +113,7 @@ A Return to the Magistrate |QID|360|
 A Rear Guard Patrol |QID|356|
 C Rear Guard Patrol |N|At the farm further east down the road (75,60).| |QID|356|
 T Rear Guard Patrol |QID|356|
-T Return To The Magistrate
+T Return To The Magistrate |QID|???|
 T The Chill of Death |N|Buy the coarse thread off the vendor| |QID|375|
 
 R Undercity
@@ -125,20 +125,20 @@ C At War With The Scarlet Crusade |N|Leave Undercity through the sewers and you'
 C Proof of Demise |QID|374|
 C The Deathstalkers |C|Rogue| |QID|1978|
 
-T At War With The Scarlet Crusade (Part 2) |N|Back in Brill|
-A At War With The Scarlet Crusade (Part 3)
+T At War With The Scarlet Crusade (Part 2) |N|Back in Brill| |QID|???|
+A At War With The Scarlet Crusade (Part 3) |QID|???|
 T Proof of Demise |QID|374|
 
 C The Lich's Identity |N|Book on the island (67,42)| |QID|357|
-C At War With The Scarlet Crusade (Part 3)
-C A New Plague (Part 3)
+C At War With The Scarlet Crusade (Part 3) |QID|???|
+C A New Plague (Part 3) |QID|???|
 
 H Brill |SZ|Gallows' End Tavern|
-T At War With The Scarlet Crusade (Part 3)
-A At War With The Scarlet Crusade (Part 4)
-T A New Plague (Part 3)
-A A New Plague (Part 4)
-C A New Plague (Part 4)
+T At War With The Scarlet Crusade (Part 3) |QID|???|
+A At War With The Scarlet Crusade (Part 4) |QID|???|
+T A New Plague (Part 3) |QID|???|
+A A New Plague (Part 4) |QID|???|
+C A New Plague (Part 4) |QID|???|
 
 T The Lich's Identity |N|Back in Undercity| |QID|357|
 A Return the Book |QID|366|
@@ -148,9 +148,9 @@ N Grab a candle from the crate |L|3080|
 C Proving Allegiance |QID|409|
 T Proving Allegiance |QID|409|
 A The Prodigal Lich Returns |QID|411|
-C At War With The Scarlet Crusade (Part 4)
+C At War With The Scarlet Crusade (Part 4) |QID|???|
 
-T At War With The Scarlet Crusade (Part 4) |N|Back in Brill|
+T At War With The Scarlet Crusade (Part 4) |N|Back in Brill| |QID|???|
 C The Family Crypt |N|At Agamand Mills| |QID|408|
 T The Family Crypt |QID|408|
 T The Prodigal Lich Returns |N|Back in Undercity| |QID|411|

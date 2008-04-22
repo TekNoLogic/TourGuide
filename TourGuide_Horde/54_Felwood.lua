@@ -47,7 +47,7 @@ T Speak to Salfa |QID|8465|
 A Winterfall Activity |QID|8464|
 T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
 A Strange Sources |QID|4842|
-T It's a Secret to Everybody (Part 3)
+T It's a Secret to Everybody (Part 3) |QID|???|
 A Threat of the Winterfall |QID|5082|
 ]]
 end)

@@ -9,8 +9,8 @@ H Sun Rock Retreat
 T Bloodfury Bloodline |QID|6283|
 
 F Thunder Bluff
-T The Sacred Flame (Part 1) |N|(54,51)| |Z|Thunder Bluff|
-A The Sacred Flame (Part 2)
+T The Sacred Flame (Part 1) |N|(54,51)| |Z|Thunder Bluff| |QID|???|
+A The Sacred Flame (Part 2) |QID|???|
 ]]
 end)
 

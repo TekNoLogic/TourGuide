@@ -15,11 +15,11 @@ T Betrayed |QID|3507|
 
 H Orgrimmar
 F Undercity
-A Seeping Corruption (Part 1) |N|Apothecarium Quarter|
-A Errand for Apothecary Zinge (Part 1)
-T Errand for Apothecary Zinge (Part 1) |N|Out in other room|
-A Errand for Apothecary Zinge (Part 2)
-T Errand for Apothecary Zinge (Part 2)
+A Seeping Corruption (Part 1) |N|Apothecarium Quarter| |QID|???|
+A Errand for Apothecary Zinge (Part 1) |QID|???|
+T Errand for Apothecary Zinge (Part 1) |N|Out in other room| |QID|???|
+A Errand for Apothecary Zinge (Part 2) |QID|???|
+T Errand for Apothecary Zinge (Part 2) |QID|???|
 A Into the Field |QID|243|
 ]]
 end)

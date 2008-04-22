@@ -7,9 +7,9 @@ N Look for loot... |N|There are many loot nodes scattered across this zone.  You
 A The Apes of Un'Goro |N|Tauren on the hill to the left of the ramp from Tanaris (69,77)| |QID|4289|
 A The Fare of Lar'korwi |QID|4290|
 
-A It's a Secret to Everybody (Part 1) |N|Find the wrecked raft (63.04, 68.54)|
-T It's a Secret to Everybody (Part 1) |N|Just underwater nearby|
-A It's a Secret to Everybody (Part 2)
+A It's a Secret to Everybody (Part 1) |N|Find the wrecked raft (63.04, 68.54)| |QID|???|
+T It's a Secret to Everybody (Part 1) |N|Just underwater nearby| |QID|???|
+A It's a Secret to Everybody (Part 2) |QID|???|
 C The Fare of Lar'korwi |N|Find the Threshadon Carcass (68.8, 56.7) amongst the raptors.| |QID|4290|
 
 T The Fare of Lar'korwi |QID|4290|
@@ -32,8 +32,8 @@ A Roll the Bones |QID|3882|
 A Alien Ecology |QID|3883|
 T Williden's Journal |QID|3884|
 A Expedition Salvation |QID|3881|
-T It's a Secret to Everybody (Part 2)
-A It's a Secret to Everybody (Part 3)
+T It's a Secret to Everybody (Part 2) |QID|???|
+A It's a Secret to Everybody (Part 3) |QID|???|
 A Larion and Muigin |N|Hidden on the north side of the valley| |QID|4145|
 f Get flight point |N|Up on the hill, easy to miss|
 A Crystals of Power |N|In the back of the cave| |QID|4284|
@@ -114,6 +114,6 @@ T Whiskey Slim's Lost Grog |QID|580|
 F Kargath
 T Vivian Lagrave |QID|4133|
 A Dreadmaul Rock |QID|3821|
-A The Rise of the Machines (Part 1)
+A The Rise of the Machines (Part 1) |QID|???|
 ]]
 end)

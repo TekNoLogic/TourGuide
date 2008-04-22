@@ -7,13 +7,13 @@ h Camp Taurajo
 A A New Ore Sample |QID|1153|
 C Enraged Thunder Lizards |O| |PRE|Ishamuhale| |QID|907|
 N Find Mob Washte Pawne |N|Around (43,80)|
-C Revenge of Gann (Part 2) |N|Dwarf area (47,85)|
-T Revenge of Gann (Part 2)
-A Revenge of Gann (Part 3)
-C Revenge of Gann (Part 3) |N|Blow up (49,84)|
-T Revenge of Gann (Part 3)
+C Revenge of Gann (Part 2) |N|Dwarf area (47,85)| |QID|???|
+T Revenge of Gann (Part 2) |QID|???|
+A Revenge of Gann (Part 3) |QID|???|
+C Revenge of Gann (Part 3) |N|Blow up (49,84)| |QID|???|
+T Revenge of Gann (Part 3) |QID|???|
 R The Great Lift
 T Calling in the Reserves |QID|5881|
-A Message to Freewind Post]]
+A Message to Freewind Post]] |QID|???|
 end)
 

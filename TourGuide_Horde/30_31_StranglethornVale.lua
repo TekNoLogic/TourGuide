@@ -7,30 +7,30 @@ R Nesingwary's Expedition |N|Follow the road north, look for a little camp by th
 A Welcome to the Jungle |QID|583|
 T Welcome to the Jungle |QID|583|
 
-A Tiger Mastery (Part 1)
-A Panther Mastery (Part 1)
-A Raptor Mastery (Part 1)
+A Tiger Mastery (Part 1) |QID|???|
+A Panther Mastery (Part 1) |QID|???|
+A Raptor Mastery (Part 1) |QID|???|
 
-C Tiger Mastery (Part 1) |N|Near the camp, slightly to the east|
-C Panther Mastery (Part 1) |N|Near camp and to the north|
+C Tiger Mastery (Part 1) |N|Near the camp, slightly to the east| |QID|???|
+C Panther Mastery (Part 1) |N|Near camp and to the north| |QID|???|
 
-T Panther Mastery (Part 1)
-A Panther Mastery (Part 2)
+T Panther Mastery (Part 1) |QID|???|
+A Panther Mastery (Part 2) |QID|???|
 
-T Tiger Mastery (Part 1)
-A Tiger Mastery (Part 2)
+T Tiger Mastery (Part 1) |QID|???|
+A Tiger Mastery (Part 2) |QID|???|
 
-C Panther Mastery (Part 2) |N|West of camp|
-C Tiger Mastery (Part 2) |N|Northwest and northeast of the camp|
-C Raptor Mastery (Part 1) |N|East near the ruins (28,14)|
+C Panther Mastery (Part 2) |N|West of camp| |QID|???|
+C Tiger Mastery (Part 2) |N|Northwest and northeast of the camp| |QID|???|
+C Raptor Mastery (Part 1) |N|East near the ruins (28,14)| |QID|???|
 
-T Raptor Mastery (Part 1)
-A Raptor Mastery (Part 2)
+T Raptor Mastery (Part 1) |QID|???|
+A Raptor Mastery (Part 2) |QID|???|
 
-T Panther Mastery (Part 2)
-A Panther Mastery (Part 3)
+T Panther Mastery (Part 2) |QID|???|
+A Panther Mastery (Part 3) |QID|???|
 
-T Tiger Mastery (Part 2)
-A Tiger Mastery (Part 3)
+T Tiger Mastery (Part 2) |QID|???|
+A Tiger Mastery (Part 3) |QID|???|
 ]]
 end)

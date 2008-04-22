@@ -44,7 +44,7 @@ A More Wastewander Justice |QID|1691|
 C Gadgetzan Water Survey |N|Grind mobs along the way, at (38,29)| |QID|992|
 T Gadgetzan Water Survey |QID|992|
 
-T Pirate Hats Ahoy |N|Back at Steamwheedle Port|
+T Pirate Hats Ahoy |N|Back at Steamwheedle Port| |QID|???|
 T Stoley's Shipment |QID|2873|
 T Southsea Shakedown |QID|8366|
 A Deliver to MacKinley |QID|2874|

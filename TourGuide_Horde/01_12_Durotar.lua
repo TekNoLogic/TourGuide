@@ -1,14 +1,14 @@
 TourGuide:RegisterGuide("Durotar (1-12)", "The Barrens (12-20)", "Horde", function()
     return [[
-A Your Place in the World
-T Your Place in the World
+A Your Place in the World |QID|???|
+T Your Place in the World |QID|???|
 A Cutting Teeth |QID|788|
 C Cutting Teeth |QID|788|
-A Sarkoth (Part 1) |N|(40,62)|
-C Sarkoth (Part 1) |N|South of the questgiver (40,66)|
-T Sarkoth (Part 1)
-A Sarkoth (Part 2)
-T Sarkoth (Part 2)
+A Sarkoth (Part 1) |N|(40,62)| |QID|???|
+C Sarkoth (Part 1) |N|South of the questgiver (40,66)| |QID|???|
+T Sarkoth (Part 1) |QID|???|
+A Sarkoth (Part 2) |QID|???|
+T Sarkoth (Part 2) |QID|???|
 T Cutting Teeth |QID|788|
 
 A Sting of the Scorpid |QID|789|
@@ -64,10 +64,10 @@ A The Admiral's Orders |U|4883| |O| |QID|831|
 T Vanquish the Betrayers |QID|784|
 T Carry Your Weight |QID|791|
 C A Solvent Spirit |N|Along the beaches (62,50)| |QID|818|
-C From the Wreckage |N|Helps if you have water breathing|
+C From the Wreckage |N|Helps if you have water breathing| |QID|???|
 N Do the first half of "Encroachment"
 
-T From the Wreckage
+T From the Wreckage |QID|???|
 C Thwarting Kolkar Aggression |N|West of Sen'jin, each little camp has an item to pickup. (48,79)| |QID|786|
 C Break a Few Eggs |N|Kill Tigers if you see them.| |QID|815|
 C Practical Prey |QID|817|
@@ -97,7 +97,7 @@ A Need for a Cure |N|Troll hidden in rocks to the west of Orgrimmar (41.5,18.6)|
 R Orgrimmar
 N Turn in Hunter Beast Quest|C|Hunter|
 T The Admiral's Orders |N|In Thrall's Room (33,37)| |QID|831|
-A Hidden Enemies (Part 1)
+A Hidden Enemies (Part 1) |QID|???|
 A Finding the Antidote |N|In the Cleft of Shadow (46,53)| |QID|813|
 C Finding the Antidote |N|Head west towards river| |QID|813|
 C Lost But Not Forgotten |QID|816|
@@ -111,18 +111,18 @@ A Margoz |N|Turn in near the pond southeast of Orgrimmar (56,20)| |QID|828|
 T Margoz |QID|828|
 A Skull Rock |QID|827|
 C Skull Rock |N|Cave to the east of Orgrimmar| |QID|827|
-C Hidden Enemies (Part 1)
+C Hidden Enemies (Part 1) |QID|???|
 N Attempt to kill Gazz'uz for item started quest, use "Faintly Glowing Skull" to help
 T Skull Rock |N|Back to Margoz near the pond (56,20)| |QID|827|
 A Neeru Fireblade |QID|829|
 
-T Hidden Enemies (Part 1) |N|In Orgrimmar at Thrall's Chamber (31.9,37.1)|
-A Hidden Enemies (Part 2)
+T Hidden Enemies (Part 1) |N|In Orgrimmar at Thrall's Chamber (31.9,37.1)| |QID|???|
+A Hidden Enemies (Part 2) |QID|???|
 T Neeru Fireblade |N|Neeru Fireblade (49.6,50.4) in the Cleft of Shadow| |QID|829|
 A Ak'Zeloth |QID|809|
-C Hidden Enemies (Part 2) |N|Talk to Neeru Fireblade|
+C Hidden Enemies (Part 2) |N|Talk to Neeru Fireblade| |QID|???|
 A Burning Shadows |U|4903| |O| |QID|832|
-T Hidden Enemies (Part 2) |N|And back to Thrall! Skip the follow-up.|
+T Hidden Enemies (Part 2) |N|And back to Thrall! Skip the follow-up.| |QID|???|
 
 H Razor Hill
 A Conscript of the Horde |N|Just outside the western entrance of Razor Hill (50.9, 43.6)| |QID|840|

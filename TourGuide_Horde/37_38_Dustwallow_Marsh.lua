@@ -8,7 +8,7 @@ F Dustwallow Marsh
 h Brackenwall Village
 A Theramore Spies |QID|1201|
 A Check Up on Tabetha |QID|11213|
-A The Black Shield (Part 1)
+A The Black Shield (Part 1) |QID|???|
 A Twilight of the Dawn Runner |QID|9437|
 A The Hermit of Witch Hill |QID|11225|
 A Hungry! |N|From Mudcrush Durtfeet, south of Brackenwall (35,37)| |QID|1177|
@@ -36,14 +36,14 @@ T Cleansing Witch Hill |QID|11183|
 A Stinky's Escape |N|North of the tower (45,17).  You may want to clear the area first.| |QID|1270|
 C Stinky's Escape |QID|1270|
 C Jarl Needs Eyes |QID|1206|
-C The Black Shield (Part 1)
+C The Black Shield (Part 1) |QID|???|
 C Theramore Spies |QID|1201|
 
 T Theramore Spies |N|Back in Brackenwall Village| |QID|1201|
 A The Theramore Docks |QID|1202|
-T The Black Shield (Part 1)
-A The Black Shield (Part 2)
-T The Black Shield (Part 2)
+T The Black Shield (Part 1) |QID|???|
+A The Black Shield (Part 2) |QID|???|
+T The Black Shield (Part 2) |QID|???|
 T Twilight of the Dawn Runner |QID|9437|
 T The Lost Report |QID|1238|
 T Hungry! |QID|1177|

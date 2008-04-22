@@ -6,7 +6,7 @@ A Barbecued Buzzard Wings |QID|703|
 C Indurium |N|At (51,67)| |QID|1108|
 T Indurium |QID|1108|
 A News for Fizzle |QID|1137|
-A Study of the Elements: Rock (Part 1) |N|Up at (25,44)|
+A Study of the Elements: Rock (Part 1) |N|Up at (25,44)| |QID|???|
 
 R Kargath
 A Unclaimed Baggage |QID|9439|
@@ -20,13 +20,13 @@ C Coyote Thieves |QID|1419|
 C Broken Alliances |QID|793|
 C Badlands Reagent Run |QID|2500|
 C Unclaimed Baggage |N|At Angor Fortress (42,31).  Pack is an orange barrel on the left entrance of fortress.  Rapier is on the weapon rack going through the right entrance of fortress.| |QID|9439|
-C Study of the Elements: Rock (Part 1) |N|Lessers|
+C Study of the Elements: Rock (Part 1) |N|Lessers| |QID|???|
 
-T Study of the Elements: Rock (Part 1)
-A Study of the Elements: Rock (Part 2) |N|Regulars|
-C Study of the Elements: Rock (Part 2)
+T Study of the Elements: Rock (Part 1) |QID|???|
+A Study of the Elements: Rock (Part 2) |N|Regulars| |QID|???|
+C Study of the Elements: Rock (Part 2) |QID|???|
 
-T Study of the Elements: Rock (Part 2) |N|Skip the follow-up|
+T Study of the Elements: Rock (Part 2) |N|Skip the follow-up| |QID|???|
 T Unclaimed Baggage |QID|9439|
 T Coyote Thieves |QID|1419|
 T Broken Alliances |QID|793|
@@ -35,7 +35,7 @@ T Barbecued Buzzard Wings |QID|703|
 
 H Grom'gol Base Camp
 T The Green Hills of Stranglethorn |QID|338|
-A Nothing But The Truth (Part 1) |N|Follow the road north into Duskwood (87,35)| |Z|Duskwood|
-T Nothing But The Truth (Part 1) |N|Skip the follow-up|
+A Nothing But The Truth (Part 1) |N|Follow the road north into Duskwood (87,35)| |Z|Duskwood| |QID|???|
+T Nothing But The Truth (Part 1) |N|Skip the follow-up| |QID|???|
 ]]
 end)
