@@ -124,7 +124,9 @@ function TourGuide:GetObjectiveStatus(i)
 	i = i or self.current
 	if not self.actions[i] then return end
 
-	return self.turnedin[self.quests[i]], self:GetQuestDetails(self.quests[i]) -- turnedin, logi, complete
+	local qid = self:GetObjectiveTag("QID", i)
+
+	return qid and self.turnedinquests[qid] or self.turnedin[self.quests[i]], self:GetQuestDetails(self.quests[i]) -- turnedin, logi, complete
 end
 
 
@@ -143,7 +145,7 @@ function TourGuide:SetTurnedIn(i, value, noupdate)
 end
 
 
-function TourGuide:CompleteQuest(name, noupdate)
+function TourGuide:CompleteQuest(name)
 	if not self.current then
 		self:DebugF(1, "Cannot complete %q, no guide loaded", name)
 		return
@@ -155,7 +157,7 @@ function TourGuide:CompleteQuest(name, noupdate)
 		action, quest = self:GetObjectiveInfo(i)
 		if action == "TURNIN" and not self:GetObjectiveStatus(i) and name == quest:gsub(L.PART_GSUB, "") then
 			self:DebugF(1, "Saving quest turnin %q", quest)
-			return self:SetTurnedIn(i, true, noupdate)
+			return self:SetTurnedIn(i, true, true)
 		end
 		i = i + 1
 	until not action
