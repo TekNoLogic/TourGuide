@@ -33,6 +33,7 @@ A Roll the Bones |QID|3882|
 A Alien Ecology |QID|3883|
 T Williden's Journal |QID|3884|
 A Expedition Salvation |QID|3881|
+C It's a Secret to Everybody (Part 2) |N|Open "A Small Pack"| |U|11107|
 T It's a Secret to Everybody (Part 2)
 A It's a Secret to Everybody (Part 3)
 f Get flight point |N|Up on the hill, easy to miss|
@@ -51,21 +52,23 @@ C Super Sticky |N|At the tarpits in the north half of the zone| |QID|4504|
 N Find [Crate of Foodstuffs] |N|At the abandoned camp in the east side of the zone (68.52, 36.59)| |L|11113|
 C Muigin and Larion |N|Kill lasher around the camp area.  Also kill any diemetradons or pterrordaxes you come across| |QID|4141|
 C The Eastern Pylon |N|To the east, of course (76,51)| |QID|4287|
-C The Bait for Lar'korwi |N|Use the meat and mixture at the flat rock behind the east pylon (79.9, 49.9)| |U|11568| |QID|4292|
-T The Bait for Lar'korwi |QID|4292|
+U Open Torwa's Pouch |U|11568|
+U Place the meat |U|11569| |N|At the flat rock behind the east pylon (79.9, 49.9)|
+C The Bait for Lar'korwi |U|11570| |QID|4292| |N|Use the pheromone mixture, kill him!|
 T The Apes of Un'Goro |N|Skip the follow-up| |QID|4289|
+T The Bait for Lar'korwi |QID|4292|
 
 C Alien Ecology |N|Down in the Slithering Scar (50,77).  Head left inside to the big room (48.62, 85.33), use the vial| |U|11132| |QID|3883|
-N Kill bugs for [Gorishi Scent Gland] |L|11837|
-C Expedition Salvation |N|At the other camp (38.5, 66.0)| |QID|3881|
-C The Western Pylon |N|(23,59)| |QID|4288|
+C Bungle in the Jungle
+C Expedition Salvation |N|At camp to the west (38.5, 66.0).  Beware of the elite Stegodons.| |QID|3881|
+C The Western Pylon |N|Up the hill, west of the camp (23.8, 59.1)| |QID|4288|
 A Finding the Source |N|From a goblin near the hot springs (30.9, 50.4)| |QID|974|
 
-C Roll the Bones |N|Scattered all over the west half of the zone and drop from diemetradons.  Kill pterrordaxes over here too.| |QID|3882|
+C Roll the Bones |N|Scattered all over the west half of the zone and drop from diemetradons.  Kill pterrordaxes over here too.  There is usually a good stash of bones at a threshadorn carcass to the southwest of the camp (31.27, 77.43).| |QID|3882|
 C Beware of Pterrordax |N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.  Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.| |QID|4501|
 C Shizzle's Flyer |N|Kill diemetradons and pterrordaxes, all over the zone.| |QID|4503|
 
-C Finding the Source |N|At the volcano in the center of the zone.  Use the thermometer at "Hot Spots" until you complete the quest.| |U|12472| |QID|974|
+C Finding the Source |N|At the volcano in the center of the zone.  Use the thermometer at the "Hot Spot" at the top of the mountain (49.75, 45.78).| |U|12472| |QID|974|
 C Volcanic Activity |N|Kill elementals, mainly around the cave on the south side of the volcano.| |QID|4502|
 T Lost! |N|In the cave on the south side of the volcano (51,49)| |QID|4492|
 A A Little Help From My Friends |NODEBUG| |QID|4491|
@@ -88,12 +91,12 @@ A The New Springs |QID|980|
 
 R Silithus |N|Take the path up out of the crater in the northwest corner of the zone (29,22)|
 R Cenarion Hold |N|Follow the road|
-F Gadgetzan |N|FP is up the big hill|
+F Gadgetzan |N|Flightpoint is up the big hill|
 T Bungle in the Jungle |N|Skip the follow-up| |QID|4496|
 T Super Sticky |QID|4504|
 
 H Darnassus
-T Un'Goro Soil |QID|3764|
+T Un'Goro Soil |N|Behind the druids' treehouse.| |QID|3764|
 A Morrowgrain Research (Part 1) |N|Upstairs!|
 T Morrowgrain Research (Part 1) |N|Downstairs!|
 A Morrowgrain Research (Part 2)
