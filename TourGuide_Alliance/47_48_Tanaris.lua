@@ -55,13 +55,6 @@ T Akiris by the Bundle |QID|623|
 
 F City of Ironforge |N|Boat to Menethil, fly to IF|
 h City of Ironforge
-A Passing the Burden |N|In the Hall of Explorers| |QID|3448|
-T Passing the Burden |N|In the Mystic Ward (31.20, 4.70)| |Z|Ironforge| |QID|3448|
-A Arcane Runes |QID|3449|
-A An Easy Pickup |QID|3450|
-T An Easy Pickup |N|In the Military Ward (71.04, 94.34)| |Z|Ironforge| |QID|3450|
-A Signal for Pickup |QID|3483|
-T Signal for Pickup |QID|3483|
 
 F Aerie Peak |N|Hinterlands!|
 T The Newest Member of the Family |N|In the inn, downstairs| |QID|3843|

@@ -101,8 +101,5 @@ A Morrowgrain Research (Part 1) |N|Upstairs!|
 T Morrowgrain Research (Part 1) |N|Downstairs!|
 A Morrowgrain Research (Part 2)
 N Morrowgrain... |N|Use the Evergreen Pouch whenever it's cooldown is up until you get all your Morrowgrain.|
-B Ichor of Undeath |L|7972| |C|Priest|
-
-A Moontouched Wildkin |N|Down in Rut'theran Village| |QID|978|
 ]]
 end)

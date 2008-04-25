@@ -1,6 +1,10 @@
 
 TourGuide:RegisterGuide("Felwood (53-54)", "Un'Goro Crater (54)", "Alliance", function()
 return [[
+H Darnassus
+T Morrowgrain Research (Part 2) |N|Save 10 soil and 15 Morrowgrain for later|
+A Moontouched Wildkin |N|Down in Rut'theran Village| |QID|978|
+
 F Astranaar
 h Astranaar
 
