@@ -6,24 +6,7 @@ local hadquest
 
 
 TourGuide.TrackEvents = {"UI_INFO_MESSAGE", "CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
-	"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "PLAYER_LEVEL_UP", "ADDON_LOADED", "CRAFT_SHOW"}
-
-
-function TourGuide:ADDON_LOADED(event, addon)
-	if addon ~= "Blizzard_TrainerUI" then return end
-
-	self:UnregisterEvent("ADDON_LOADED")
-
-	local f = CreateFrame("Frame", nil, ClassTrainerFrame)
-	f:SetScript("OnShow", function() if self:GetObjectiveInfo() == "TRAIN" then self:SetTurnedIn() end end)
-end
-
-
-function TourGuide:PLAYER_LEVEL_UP(event, newlevel)
-	local level = tonumber((self:GetObjectiveTag("LV")))
-	self:Debug(1, "PLAYER_LEVEL_UP", newlevel, level)
-	if level and newlevel >= level then self:SetTurnedIn() end
-end
+	"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "CRAFT_SHOW"}
 
 
 function TourGuide:ZONE_CHANGED(...)
