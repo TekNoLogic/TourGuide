@@ -4,7 +4,6 @@ return [[
 F City of Ironforge
 T A Little Slime Goes a Long Way (Part 1) |N|In the Hall of Explorers| |QID|???|
 A A Little Slime Goes a Long Way (Part 2) |QID|???|
-T Return to Tymor |N|In the Mystic Ward| |QID|3461|
 
 F Gadgetzan
 T Meet at the Grave |N|Go to the graveyard east of town, drink the elixir.  DO NOT REZ.  Run north to Gaeriyan (54.0, 23.4)| |U|11243| |Z|Tanaris| |QID|3912|

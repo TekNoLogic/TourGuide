@@ -2,7 +2,6 @@
 TourGuide:RegisterGuide("Searing Gorge (50-51)", "Kalimdor (51)", "Alliance", function()
 return [[
 F City of Ironforge
-A The Hunter's Charm |C|Hunter| |QID|8151|
 h City of Ironforge
 A Assisting Arch Druid Staghelm |N|From the innkeeper| |QID|10520|
 B 15 Silk Cloth |L|4306 15| |N|If you don't already have them, that is|

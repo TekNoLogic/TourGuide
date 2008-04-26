@@ -7,7 +7,8 @@ local L = TourGuide.Locale
 local hadquest
 
 
-local completedquests, currentquests, oldquests, titles, firstscan, abandoning = {}, {}, {}, {}, true
+local turnedinquests, currentquests, oldquests, titles, firstscan, abandoning = {}, {}, {}, {}, true
+TourGuide.turnedinquests = turnedinquests
 local qids = setmetatable({}, {
 	__index = function(t,i)
 		local v = tonumber(i:match("|Hquest:(%d+):"))
@@ -30,7 +31,7 @@ function TourGuide:QuestID_QUEST_LOG_UPDATE()
 	end
 
 	if firstscan then
-		local function helper(...) for i=1,select("#", ...) do completedquests[select(i, ...)] = true end end
+		local function helper(...) for i=1,select("#", ...) do turnedinquests[select(i, ...)] = true end end
 		helper(string.split(",", TourGuideQuestHistoryDB or ""))
 		firstscan = nil
 		return
@@ -39,7 +40,7 @@ function TourGuide:QuestID_QUEST_LOG_UPDATE()
 	for qid in pairs(oldquests) do
 		if not currentquests[qid] then
 			local action = abandoning and "Abandoned quest" or "Completed quest"
-			if not abandoning then completedquests[qid] = true end
+			if not abandoning then turnedinquests[qid] = true end
 			abandoning = nil
 			self:Debug(1, action, qid, titles[qid])
 			-- Callback
@@ -57,7 +58,7 @@ end
 
 function TourGuide:Disable()
 	local temp = {}
-	for i in pairs(completedquests) do table.insert(temp, i) end
+	for i in pairs(turnedinquests) do table.insert(temp, i) end
 	TourGuideQuestHistoryDB = string.join(",", unpack(temp))
 end
 
