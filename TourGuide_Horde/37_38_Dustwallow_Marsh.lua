@@ -73,7 +73,7 @@ K Apothecary Cylla |L|33114|
 A Signs of Treachery? |U|33114| |QID|11186|
 C Deadmire |N|Roams around (47,57)| |QID|1205|
 C The Reagent Thief |QID|11173|
-C The Grimtotem Weapon |QID|11169|
+C The Grimtotem Weapon |QID|11169| |U|33101|
 
 T Direhorn Raiders |N|At Tabetha's Farm (45,57)| |QID|11156|
 T The Grimtotem Weapon |QID|11169|
@@ -92,8 +92,8 @@ T Jarl Needs a Blade |N|At Jarl's cabin (55,25)| |QID|1203|
 C The Theramore Docks |N|Under the eastern pier (71,51).  Watch out for the shark!| |QID|1202|
 
 H Brackenwall Village
-T Signs of Treachery? |QID|11186|
 T The Theramore Docks |N|Back in Brackenwall Village| |QID|1202|
+T Signs of Treachery? |QID|11186|
 T The Severed Head |QID|1239|
 A The Troll Witchdoctor |QID|1240|
 
