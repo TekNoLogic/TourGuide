@@ -41,15 +41,16 @@ C Theramore Spies |QID|1201|
 
 T Theramore Spies |N|Back in Brackenwall Village| |QID|1201|
 A The Theramore Docks |QID|1202|
+T The Lost Report |QID|1238|
+A Help Mudsprocket |QID|11215|
 T The Black Shield (Part 1)
 A The Black Shield (Part 2)
 T The Black Shield (Part 2)
+A Inspecting the Ruins |N|Easy XP and its on the way to Tabetha. Follow the path south-west from Mudcrush (30,48)| |QID|11124|
 T Twilight of the Dawn Runner |QID|9437|
-T The Lost Report |QID|1238|
 T Hungry! |QID|1177|
 
 T Check Up on Tabetha |N|New quest, At (45,57)| |QID|11213|
-A Help for Mudsprocket |QID|11211|
 A The Grimtotem Weapon |QID|11169|
 A The Reagent Thief |QID|11173|
 A Direhorn Raiders |N|Just outside of hut| |QID|11156|
@@ -59,8 +60,9 @@ T The Zeppelin Crash |N|Grind your way to (53,56)| |QID|11172|
 A Corrosion Prevention |QID|11174|
 A Secure the Cargo! |QID|11207|
 
-C Corrosion Prevention |N|Pretty much where you are at| |QID|11174|
+C Corrosion Prevention |N|Pretty much where you are at| |U|33108| |QID|11174|
 C Secure the Cargo! |QID|11207|
+C Razzeric's Tweaking |N|Box at (54,56) right behind the zeppelin| |QID|1187|
 
 T Corrosion Prevention |QID|11174|
 T Secure the Cargo! |QID|11207|
@@ -71,14 +73,14 @@ K Apothecary Cylla |L|33114|
 A Signs of Treachery? |U|33114| |QID|11186|
 C Deadmire |N|Roams around (47,57)| |QID|1205|
 C The Reagent Thief |QID|11173|
-C The Grimtotem Weapon |QID|11169|
+C The Grimtotem Weapon |QID|11169| |U|33101|
 
 T Direhorn Raiders |N|At Tabetha's Farm (45,57)| |QID|11156|
 T The Grimtotem Weapon |QID|11169|
 T The Reagent Thief |QID|11173|
 
 T Delivery for Drazzit |N|At Mudsprocket (41,73)| |QID|11208|
-T Help for Mudsprocket |QID|11211|
+T Help Mudsprocket |QID|11215|
 
 F Brackenwall Village
 A The Severed Head |N|At Jarl's cabin (55,25)| |QID|1239|
@@ -90,8 +92,8 @@ T Jarl Needs a Blade |N|At Jarl's cabin (55,25)| |QID|1203|
 C The Theramore Docks |N|Under the eastern pier (71,51).  Watch out for the shark!| |QID|1202|
 
 H Brackenwall Village
-T Signs of Treachery? |QID|11186|
 T The Theramore Docks |N|Back in Brackenwall Village| |QID|1202|
+T Signs of Treachery? |QID|11186|
 T The Severed Head |QID|1239|
 A The Troll Witchdoctor |QID|1240|
 

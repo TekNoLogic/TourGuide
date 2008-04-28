@@ -23,7 +23,6 @@ A The Essence of Enmity |QID|11161|
 
 C Catch a Dragon by the Tail |QID|11217|
 C Identifying the Brood |QID|1169|
-C Razzeric's Tweaking |N|Box at (54,56)| |QID|1187|
 C Marg Speaks |N|Kill mobs around (58,63)| |QID|1261|
 C Overlord Mok'Morokk's Concern |N|Snuff (44,66), Grog (38,65), Srongbox (36,69) in the Cave at (38,66)| |QID|1166|
 C The Essence of Enmity |QID|11161|

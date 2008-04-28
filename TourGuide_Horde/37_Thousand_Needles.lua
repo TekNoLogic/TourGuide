@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Thousand Needles (37)", "Dustwallow March (37-38)", "Horde", function()
+TourGuide:RegisterGuide("Thousand Needles (37)", "Dustwallow Marsh (37-38)", "Horde", function()
 return [[
 F Orgrimmar |N|Take the zeppelin, dur!|
 T Alliance Relations |N|Keldran in the Valley of Spirits (21,53)| |QID|1436|
@@ -33,7 +33,7 @@ C The Swarm Grows (Part 3) |N|You must kill the Drones in order for the Invaders
 C Parts of the Swarm (Part 1)
 T The Swarm Grows (Part 3)
 
-H Crossroads
+H The Crossroads
 N Abandon the turtle |N|If you want to| |C|Hunter|
 
 T Parts of the Swarm (Part 1)
