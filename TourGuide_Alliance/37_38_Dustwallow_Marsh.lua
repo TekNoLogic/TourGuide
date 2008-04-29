@@ -43,7 +43,7 @@ A Renn McGill |QID|11138|
 
 A Marsh Frog Legs |N|Northwest at Swamplight Manor (55,26)| |QID|1218|
 A What's Haunting Witch Hill? |QID|11180|
-A The Orc Report |N|Near the house burried in some dirt (55.4, 26.0)| |QID|1219|
+A The Orc Report |N|Near the house buried in some dirt (55.4, 26.0)| |QID|1219|
 
 C Marsh Frog Legs |N|Behind the house| |QID|1218|
 C What's Haunting Witch Hill? |QID|11180|
@@ -94,7 +94,7 @@ T Tabetha's Farm |QID|11212|
 A The Grimtotem Weapon |QID|11169|
 A The Reagent Thief |QID|11173|
 
-C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.  If you have a pet you may not want to use it, you won't get creadit if the croc is not targetting you when it dies.| |U|33101| |QID|11169|
+C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.  If you have a pet you may not want to use it, you won't get credit if the croc is not targeting you when it dies.| |U|33101| |QID|11169|
 C The Reagent Thief |N|Kill spiders southeast of the farm (48,62)| |QID|11173|
 
 C Direhorn Raiders |N|Kill Grimtotems north of the farm| |QID|11156|
