@@ -142,7 +142,8 @@ T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)| |Z|Darnass
 A Moonglade |C|Druid| |QID|5922|
 T Moonglade |N|Teleport there, go into the house past the light armor salesmen| |C|Druid| |QID|5922|
 A Great Bear Spirit |C|Druid| |QID|5930|
-T Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39,28)| |Z|Moonglade| |QID|5930|
+C Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39.15, 27.78)| |Z|Moonglade| |QID|5930|
+T Great Bear Spirit |C|Druid| |QID|5930|
 A Back to Darnassus |C|Druid| |QID|5931|
 T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade| |QID|5931|
 A Body and Heart |C|Druid| |QID|6002|
