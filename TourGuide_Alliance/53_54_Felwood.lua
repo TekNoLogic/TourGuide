@@ -24,7 +24,7 @@ A Speak to Nafien |QID|8462|
 U Open your ooze containers |U|11912|
 K Cursed Oozes |N|Follow the road north to the Ruins of Constellas (40,69).  Use the vials after you kill and loot.| |U|11914| |Q|A Little Slime Goes a Long Way| |QO|Filled Cursed Ooze Jar: 6/6|
 C The Corruption of the Jadefire |N|To the west, Xavathras can be found at the far west end of the ruins (32,67)| |QID|4421|
-C A Little Slime Goes a Long Way (Part 1) |N|At the next set of ponds north along the road (40,59)| |U|11948| |QID|???|
+C A Little Slime Goes a Long Way (Part 1) |N|At the next set of ponds north along the road (40,59)| |U|11948| |QID|4512|
 C Forces of Jaedenar |N|To the west, outside the caves (37,59)| |QID|5155|
 
 T Forces of Jaedenar |N|Back at Emerald Sanctuary| |QID|5155|
@@ -54,7 +54,7 @@ T Speak to Salfa |QID|8465|
 A Winterfall Activity |QID|8464|
 T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
 A Strange Sources |QID|4842|
-T It's a Secret to Everybody (Part 3) |QID|???|
+T It's a Secret to Everybody (Part 3) |QID|3908|
 A The Videre Elixir |QID|4041|
 A Threat of the Winterfall |QID|5082|
 
