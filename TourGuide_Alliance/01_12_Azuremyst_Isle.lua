@@ -46,16 +46,16 @@ C Spare Parts |QID|9305|
 
 H Ammen Vale
 T Healing the Lake |QID|9294|
-A Call of Earth (Part 1) |C|Shaman|
+A Call of Earth (Part 1) |C|Shaman| |QID|9449|
 T Spare Parts |QID|9305|
 T Inoculation |QID|9303|
 A The Missing Scout |QID|9309|
-T Call of Earth (Part 1) |N|Northwest of Crash Site (71,40)| |C|Shaman|
-A Call of Earth (Part 2) |C|Shaman|
-C Call of Earth (Part 2) |C|Shaman|
-T Call of Earth (Part 2) |C|Shaman|
-A Call of Earth (Part 3) |C|Shaman|
-T Call of Earth (Part 3) |N|At the Crash Site| |C|Shaman|
+T Call of Earth (Part 1) |N|Northwest of Crash Site (71,40)| |C|Shaman| |QID|9449|
+A Call of Earth (Part 2) |C|Shaman| |QID|9450|
+C Call of Earth (Part 2) |C|Shaman| |QID|9450|
+T Call of Earth (Part 2) |C|Shaman| |QID|9450|
+A Call of Earth (Part 3) |C|Shaman| |QID|9451|
+T Call of Earth (Part 3) |N|At the Crash Site| |C|Shaman| |QID|9451|
 
 T The Missing Scout |N|Southwest of Crash Site (72.03,60.77)| |QID|9309|
 A The Blood Elves |QID|10303|
@@ -79,7 +79,7 @@ A Find Acteon! |QID|9453|
 
 R Azure Watch |N|Follow the road west|
 T Find Acteon! |QID|9453|
-A The Great Moongraze Hunt (Part 1)
+A The Great Moongraze Hunt (Part 1) |QID|9454|
 A Medicinal Purpose |QID|9463|
 T Travel to Azure Watch |QID|9313|
 T Word from Azure Watch |QID|9314|
@@ -96,14 +96,14 @@ A I've Got a Plant |QID|9530|
 T Cookie's Jumbo Gumbo |QID|9512|
 A Reclaiming the Ruins |QID|9513|
 A Precious and Fragile Things Need Special Handling |QID|9523|
-C The Great Moongraze Hunt (Part 1)
+C The Great Moongraze Hunt (Part 1) |QID|9454|
 C Medicinal Purpose |QID|9463|
 C I've Got a Plant |N|Look for a Hollowed out tree north of Odesyus' Landing (47.4,63.5), leaves are around the ground| |QID|9530|
 
 T Medicinal Purpose |N|Back at Azure Watch| |QID|9463|
 A An Alternative Alternative |QID|9473|
-T The Great Moongraze Hunt (Part 1)
-A The Great Moongraze Hunt (Part 2)
+T The Great Moongraze Hunt (Part 1) |QID|9454|
+A The Great Moongraze Hunt (Part 2) |QID|10324|
 C An Alternative Alternative |QID|9473|
 
 K Infected Nightstalker Runts |N|Looking for [Faintly Glowing Crystal]| |L|23678|
@@ -129,7 +129,7 @@ A Totem of Coo |N|No need to follow the NPC, point will be shown later| |QID|953
 T Strange Findings |QID|9455|
 A Nightstalker Clean Up, Isle 2... |QID|9456|
 
-C The Great Moongraze Hunt (Part 2) |N|North of Azure Watch|
+C The Great Moongraze Hunt (Part 2) |N|North of Azure Watch| |QID|10324|
 
 T Totem of Coo |N|On top the the cliifs north of Azure Watch (55.2, 41.7)| |QID|9539|
 A Totem of Tikti |QID|9540|
@@ -158,7 +158,7 @@ T Help Tavara |C|Priest| |QID|9586|
 T An Alternative Alternative |QID|9473|
 T The Prophecy of Akida |QID|9544|
 A Stillpine Hold |QID|9559|
-T The Great Moongraze Hunt (Part 2)
+T The Great Moongraze Hunt (Part 2) |QID|10324|
 
 T Tree's Company |N|Back at Odesyus' Landing| |QID|9531|
 A Show Gnomercy |QID|9537|
@@ -170,7 +170,7 @@ A Deliver Them From Evil... |QID|9602|
 T Deliver Them From Evil... |N|Back at Azure Watch| |QID|9602|
 A Coming of Age |N|You must be Lv 10 to accept this| |QID|9623|
 A Strength of One |C|Warrior| |QID|9582|
-A Call of Fire (Part 1) |C|Shaman|
+A Call of Fire (Part 1) |C|Shaman| |QID|9464|
 A Control |C|Mage| |QID|9595|
 
 R The Exodar |N|Follow the road west|
@@ -184,8 +184,8 @@ T Stillpine Hold |QID|9559|
 
 C Strength of One |C|Warrior| |QID|9582|
 C Beasts of the Apocalypse! |N|Northeast of Stillpine Hold at the Menagerie Wreckage (52.01,20.91)| |QID|9560|
-T Call of Fire (Part 1) |N|Go further northeast| |C|Shaman|
-A Call of Fire (Part 2) |C|Shaman|
+T Call of Fire (Part 1) |N|Go further northeast| |C|Shaman| |QID|9464|
+A Call of Fire (Part 2) |C|Shaman| |QID|9465|
 
 T Beasts of the Apocalypse! |N|Back at Stillpine Hold| |QID|9560|
 A Chieftain Oomooroo |QID|9573|
@@ -202,8 +202,8 @@ K Crazed Wildkin |C|Shaman| |L|23733|
 T The Kurken is Lurkin' |QID|9570|
 A The Kurken's Hide |QID|9571|
 T The Kurken's Hide |QID|9571|
-T Call of Fire (Part 2) |C|Shaman|
-A Call of Fure (Part 3) |C|Shaman|
+T Call of Fire (Part 2) |C|Shaman| |QID|9465|
+A Call of Fure (Part 3) |C|Shaman| |QID|9467|
 
 C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (33.5, 22.0)| |QID|9562|
 C Control |N|Keep killing murlocs until a Quel'dorei Magewraith appears| |C|Mage| |QID|9595|
@@ -213,9 +213,9 @@ A Gurf's Dignity |O| |U|23850| |QID|9564|
 T Gurf's Dignity |O| |QID|9564|
 A Warn Your People |N|From the Chief| |QID|9622|
 
-C Call of Fire (Part 3) |N|Head down to Silvermyst Isle, find the Wickerman Effigy (11,82)| |C|Shaman|
+C Call of Fire (Part 3) |N|Head down to Silvermyst Isle, find the Wickerman Effigy (11,82)| |C|Shaman| |QID|9467|
 U Orb of Returning |C|Shaman| |U|24335|
-T Call of Fire (Part 3) |C|Shaman|
-A Call of Fire (Part 4) |C|Shaman|
+T Call of Fire (Part 3) |C|Shaman| |QID|9467|
+A Call of Fire (Part 4) |C|Shaman| |QID|9468|
 ]]
 end)

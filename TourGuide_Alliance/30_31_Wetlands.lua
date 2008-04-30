@@ -8,11 +8,11 @@ A Seeking Strahad |N|In the Mage Quarter, Stormwind| |C|Warlock| |QID|3001|
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly up|
 T Further Instructions |C|Warlock| |QID|1095|
 T Seeking Strahad |N|Ratchet (62.6, 35.5)| |C|Warlock| |QID|3001|
-A Tome of the Cabal (Part 1)|C|Warlock|
+A Tome of the Cabal (Part 1)|C|Warlock| |QID|1758|
 
 F City of Ironforge |C|Warlock| |N|Fly to Theramore, boat to Menethil and fly to IF|
-T Tome of the Cabal (Part 1)|N|Hall of Explorers| |C|Warlock|
-A Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock|
+T Tome of the Cabal (Part 1)|N|Hall of Explorers| |C|Warlock| |QID|1758|
+A Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock| |QID|1802|
 
 b Theramore Isle |C|Warlock| |N|Fly to Menethil and boat over|
 N Tattered Manuscript |N|In cave east of the Great Lift in Thousand Needles (43.5, 32.7)| |L|6997| |C|Warlock| |Z|Thousand Needles|
@@ -29,11 +29,11 @@ T Fall of Dun Modr |N|At Dun Modr (51,21)| |QID|472|
 A The Dark Iron War |QID|303|
 A A Grim Task |QID|304|
 
-A The Thandol Span (Part 1)
-T The Thandol Span (Part 1) |N|Head out to the middle of Thandol Span, head down the stairs to the right (51.2, 8.0).|
-A The Thandol Span (Part 2)
-T The Thandol Span (Part 2) |N|Back at Dun Modr|
-A The Thandol Span (Part 3)
+A The Thandol Span (Part 1) |QID|631|
+T The Thandol Span (Part 1) |N|Head out to the middle of Thandol Span, head down the stairs to the right (51.2, 8.0).| |QID|631|
+A The Thandol Span (Part 2) |QID|632|
+T The Thandol Span (Part 2) |N|Back at Dun Modr| |QID|632|
+A The Thandol Span (Part 3) |QID|633|
 
 C A Grim Task |N|Look for a dorf with a voidwalker.  If he isn't in the area near the questgiver check at the camp to the east (60, 27).  If you don't find him, abandon this.| |QID|304|
 C The Dark Iron War |QID|303|
@@ -41,8 +41,8 @@ C The Dark Iron War |QID|303|
 T A Grim Task |QID|304|
 T The Dark Iron War |QID|303|
 
-C The Thandol Span (Part 3) |Z|Arathi Highlands| |N|Across Thandol Span, then across the small bridge to the east (48,88)|
-T The Thandol Span (Part 3) |N|Back at Dun Modr|
+C The Thandol Span (Part 3) |Z|Arathi Highlands| |N|Across Thandol Span, then across the small bridge to the east (48,88)| |QID|633|
+T The Thandol Span (Part 3) |N|Back at Dun Modr| |QID|633|
 A Plea To The Alliance |NODEBUG| |QID|634|
 ]]
 end)

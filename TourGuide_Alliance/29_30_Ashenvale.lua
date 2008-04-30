@@ -1,12 +1,12 @@
 TourGuide:RegisterGuide("Ashenvale (29-30)", "Wetlands (30-31)", "Alliance", function()
 return [[
 F Menethil Harbor
-T The Missing Diplomat (Part 10) |N|In the inn| |T|
-A The Missing Diplomat (Part 11) |T|
-C The Missing Diplomat (Part 11) |T|
-T The Missing Diplomat (Part 11) |T|
-A The Missing Diplomat (Part 12) |N|At the guy you just fought| |T|
-T The Missing Diplomat (Part 12) |T|
+T The Missing Diplomat (Part 10) |N|In the inn| |T| |QID|1248|
+A The Missing Diplomat (Part 11) |T| |QID|1249|
+C The Missing Diplomat (Part 11) |T| |QID|1249|
+T The Missing Diplomat (Part 11) |T| |QID|1249|
+A The Missing Diplomat (Part 12) |N|At the guy you just fought| |T| |QID|1250|
+T The Missing Diplomat (Part 12) |T| |QID|1250|
 A James Hyal |N|On the south dock| |QID|1302|
 F Astranaar |N|Take the boat to Auberdine then fly down|
 A Kayneth Stillwind |T| |QID|4581|
@@ -46,16 +46,16 @@ K Demons... |L|23777| |T| |N|Kill infernals, lashers and felguards until you get
 C Forsaken Diseases |N|Go southwest across the river (75,71)| |QID|1011|
 C Fallen Sky Lake |N|Kill the Shadethicket Oracle at Fallen Sky Lake to the southwest past the road (66.65, 82.16)| |QID|1035|
 
-C The Tower of Althalaxx (Part 6) |N|Follow the road northwest from Fallen Sky Lake past Raynewood Retreat (64.80, 43.80), then double back along the ridge east of the road to the crystal in Night Run (67,54).|
+C The Tower of Althalaxx (Part 6) |N|Follow the road northwest from Fallen Sky Lake past Raynewood Retreat (64.80, 43.80), then double back along the ridge east of the road to the crystal in Night Run (67,54).| |QID|1140|
 C Satyr Slaying! |QID|1032|
-C Raene's Cleansing (Part 4) |N|To the northeast, just before entering felwood.  Kill treants for the key and open the box (54,35)|
+C Raene's Cleansing (Part 4) |N|To the northeast, just before entering felwood.  Kill treants for the key and open the box (54,35)| |QID|1026|
 C The Howling Vale |N|Path starts just north of the box for "Raene's Cleansing" (54.0, 32.5).  Head thru the cave, find the tome on a table near the shrine (50.54, 39.07)| |QID|1022|
 
 H Astranaar
 T Fallen Sky Lake |T| |QID|1035|
 
-T The Tower of Althalaxx (Part 6) |N|Back at Maestra's Post, skip the follow-up.|
-T Raene's Cleansing (Part 4) |N|Back at the Moonwell (53,46).  Skip the follow-up.|
+T The Tower of Althalaxx (Part 6) |N|Back at Maestra's Post, skip the follow-up.| |QID|1140|
+T Raene's Cleansing (Part 4) |N|Back at the Moonwell (53,46).  Skip the follow-up.| |QID|1026|
 
 F Forest Song |N|Run to Astranaar then fly|
 T Forsaken Diseases |T| |QID|1011|

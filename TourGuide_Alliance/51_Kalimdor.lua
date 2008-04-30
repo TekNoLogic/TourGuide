@@ -2,7 +2,7 @@
 TourGuide:RegisterGuide("Kalimdor (51)", "Un'Goro Crater (51-52)", "Alliance", function()
 return [[
 F Darnassus |N|You probably want to hearth to IF|
-T Prayer to Elune (Part 2) |N|Upstairs in the Temple of the Moon|
+T Prayer to Elune (Part 2) |N|Upstairs in the Temple of the Moon| |QID|3378|
 T Rise of the Silithid |NODEBUG| |QID|4267|
 A March of the Silithid |QID|4494|
 T Assisting Arch Druid Staghelm |N|In a tower in the Cenarion Enclave (34.8, 8.7)| |Z|Darnassus| |QID|10520|

@@ -11,9 +11,9 @@ R Badlands
 R Searing Gorge |N|West edge of the zone (1,62)| |Z|Badlands|
 
 A Caught! |N|At an outhouse (65.58, 62.33)| |QID|4449|
-A Suntara Stones (Part 1) |N|Dorf down in the dig (63.8, 60.9).  This is another crummy escort.|
-T Suntara Stones (Part 1)
-A Suntara Stones (Part 2) |N|Read the letter he dropped|
+A Suntara Stones (Part 1) |N|Dorf down in the dig (63.8, 60.9).  This is another crummy escort.| |QID|3367|
+T Suntara Stones (Part 1) |QID|3367|
+A Suntara Stones (Part 2) |N|Read the letter he dropped| |QID|3368|
 
 C Caught! |QID|4449|
 
@@ -34,7 +34,7 @@ A Fiery Menace! |QID|7724|
 A Incendosaurs? Whateverosaur is More Like It |QID|7727|
 
 F City of Ironforge
-T Suntara Stones (Part 2) |N|In the Hall of Explorers|
+T Suntara Stones (Part 2) |N|In the Hall of Explorers| |QID|3368|
 A Dwarven Justice |QID|3371|
 
 F Thelsamar
@@ -77,17 +77,17 @@ T Forging the Shaft |QID|3443|
 A The Flame's Casing |QID|3452|
 
 C Release Them |N|Run up the path to the east of the cave at the Twilight Hammer camp (24,32).  In the center of a lava pool is the Twilight Artifact (29.2, 25.9)| |QID|3372|
-A Prayer to Elune (Part 1) |N|From an NPC in a cage nearby (29.5, 26.5)|
-T Prayer to Elune (Part 1)
-A Prayer to Elune (Part 2)
-C Prayer to Elune (Part 2)
+A Prayer to Elune (Part 1) |N|From an NPC in a cage nearby (29.5, 26.5)| |QID|3377|
+T Prayer to Elune (Part 1) |QID|3377|
+A Prayer to Elune (Part 2) |QID|3378|
+C Prayer to Elune (Part 2) |QID|3378|
 C The Flame's Casing |N|Keep killing Twilight Hammer guys| |QID|3452|
 
 T The Flame's Casing |QID|3452|
-A The Torch of Retribution (Part 1)
-T The Torch of Retribution (Part 1) |N|You have to wait a moment for him to create it|
-A The Torch of Retribution (Part 2)
-T The Torch of Retribution (Part 2) |N|Grab the torch he just made, duh.|
+A The Torch of Retribution (Part 1) |QID|3453|
+T The Torch of Retribution (Part 1) |N|You have to wait a moment for him to create it| |QID|3453|
+A The Torch of Retribution (Part 2) |QID|3454|
+T The Torch of Retribution (Part 2) |N|Grab the torch he just made, duh.| |QID|3454|
 A Squire Maltrake |QID|3462|
 T Squire Maltrake |QID|3462|
 A Set Them Ablaze! |QID|3463|
