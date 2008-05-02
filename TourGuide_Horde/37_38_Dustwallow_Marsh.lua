@@ -56,7 +56,6 @@ T Twilight of the Dawn Runner |T| |QID|9437|
 
 T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177|
 T Inspecting the Ruins |N|Follow the path south-west from Mudcrush (30,48)| |QID|11124|
-A Lieutenant Paval Reethe |N|From a badge on the ground in the ruins.|
 
 T Check Up on Tabetha |N||Follow the road south, then east to Tabetha's Farm (46.04, 57.17).| |QID|11213|
 A The Grimtotem Weapon |QID|11169|
@@ -94,7 +93,6 @@ T Delivery for Drazzit |N|At Mudsprocket (42.31, 72.94)| |T| |QID|11208|
 T Help Mudsprocket |T| |QID|11215|
 
 F Brackenwall Village
-T Lieutenant Paval Reethe
 A The Severed Head |N|At Jarl's cabin (55,25)| |QID|1239|
 T Jarl Needs Eyes |QID|1206|
 A Jarl Needs a Blade |QID|1203|
