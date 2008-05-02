@@ -10,7 +10,7 @@ TourGuide.TrackEvents = {"UI_INFO_MESSAGE", "CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", 
 
 
 function TourGuide:ZONE_CHANGED(...)
-	local zonetext, subzonetext, subzonetag, action, quest = GetZoneText(), GetSubZoneText(), self:GetObjectiveTag("SZ"), self:GetObjectiveInfo()
+	local zonetext, subzonetext, subzonetag, action, quest = GetZoneText(), string.trim(GetSubZoneText()), self:GetObjectiveTag("SZ"), self:GetObjectiveInfo()
 	if (action == "RUN" or action == "FLY" or action == "HEARTH" or action == "BOAT") and (subzonetext == quest or subzonetext == subzonetag or zonetext == quest or zonetext == subzonetag) then
 		self:DebugF(1, "Detected zone change %q - %q", action, quest)
 		self:SetTurnedIn()
