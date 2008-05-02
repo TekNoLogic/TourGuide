@@ -62,12 +62,13 @@ C Carry Your Weight |QID|791|
 R Razor Hill
 A The Admiral's Orders |U|4883| |O| |QID|831|
 T Vanquish the Betrayers |QID|784|
+A From The Wreckage....
 T Carry Your Weight |QID|791|
 C A Solvent Spirit |N|Along the beaches (62,50)| |QID|818|
-C From the Wreckage |N|Helps if you have water breathing|
+C From The Wreckage.... |N|Helps if you have water breathing|
 N Do the first half of "Encroachment"
 
-T From the Wreckage
+T From The Wreckage....
 C Thwarting Kolkar Aggression |N|West of Sen'jin, each little camp has an item to pickup. (48,79)| |QID|786|
 C Break a Few Eggs |N|Kill Tigers if you see them.| |QID|815|
 C Practical Prey |QID|817|

@@ -46,8 +46,6 @@ A Deadwood of the North |QID|8461|
 C Deadwood of the North |QID|8461|
 T Deadwood of the North |QID|8461|
 A Speak to Salfa |QID|8465|
-A Deadwood Ritual Totem |NODEBUG| |O| |U|20741| |QID|8470|
-T Deadwood Ritual Totem |NODEBUG| |O| |N|Turn-in at a furblog halfway thru the hold| |QID|8470|
 
 R Winterspring |N|Thru the cave!|
 T Speak to Salfa |QID|8465|
@@ -59,9 +57,7 @@ A The Videre Elixir |QID|4041|
 A Threat of the Winterfall |QID|5082|
 
 R Moonglade |N|Back thru the tunnel, go north at the middle|
-f Grab flight point |N|Follow the road east a bit (48,67)| |Z|Moonglade|
-
-F Emerald Sanctuary
+F Emerald Sanctuary |N|Moonglade's FP is to the east (48,67)| |Z|Moonglade|
 T Collection of the Corrupt Water |QID|5157|
 A Seeking Spiritual Aid |QID|5158|
 T Further Corruption |QID|4906|
@@ -81,8 +77,7 @@ P Claw (Rank 7) |N|Tame an Ironfur Patriarch, level 48+.  You can find them on t
 
 B Bait |N|From Gregan Brewspewer at the Twin Colossals (45.1, 25.5)| |L|11141|
 U Distract Miblon Snartooth |N|Take the road north to Ruins of Ravenwind (44.6, 10.2).  Drop the bait in front of him. |U|11141|
-N GRab an Evoroot |L|11242|
-N Return to Gregan |N|Give him the
+N Grab an Evoroot |L|11242|
 C The Videre Elixir |N|Return to Gregan and give him the root| |QID|4041|
 
 H Astranaar
