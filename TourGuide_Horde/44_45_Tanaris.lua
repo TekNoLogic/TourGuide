@@ -1,7 +1,7 @@
 TourGuide:RegisterGuide("Tanaris (44-45)", "Feralas (45-46)", "Horde", function()
 return [[
 F Gadgetzan
-A WANTED: Caliph Scorpidsting |N|Wanted poster in front of the cage (0,0)|T| |QID|2781|
+A WANTED: Caliph Scorpidsting |N|Wanted poster in front of the cage| |T| |QID|2781|
 A WANTED: Andre Firebeard |T| |QID|2875|
 T Tran'rek |T| |QID|2864|
 A Gadgetzan Water Survey |N|Southwest side of town on a hill (50.2,27.5)| |T| |QID|992|
@@ -33,12 +33,13 @@ A Southsea Shakedown |QID|8366|
 T Stoley's Debt |QID|2872|
 A Stoley's Shipment |QID|2873|
 
-C Wastewander Justice |N|At (64,29)| |QID|1690|
 C Water Pouch Bounty |QID|1878|
-C Southsea Shakedown |N|Down at Lost Rigger Cove (72,47)| |QID|8366|
+C Wastewander Justice |N|At (64,29)| |QID|1690|
+
+C WANTED: Andre Firebeard |N|At Lost Rigger Cove (73.4,47.1)| |QID|2875|
+C Stoley's Shipment |N|Upstairs in the northern building (72.1,46.7)| |QID|2873|
 C Pirate Hats Ahoy! |QID|8365|
-C Stoley's Shipment |QID|2873|
-C WANTED: Andre Firebeard |QID|2875|
+C Southsea Shakedown |QID|8366|
 
 H Gadgetzan
 T Water Pouch Bounty |QID|1878|
