@@ -52,8 +52,7 @@ T Speak to Salfa |QID|8465|
 A Winterfall Activity |QID|8464|
 T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
 A Strange Sources |QID|4842|
-T It's a Secret to Everybody (Part 3) |QID|3908|
-A The Videre Elixir |QID|4041|
+T It's a Secret to Everybody (Part 3) |QID|3908| |N|Skip the follow-up.|
 A Threat of the Winterfall |QID|5082|
 
 R Moonglade |N|Back thru the tunnel, go north at the middle|
@@ -75,18 +74,9 @@ T The Mystery of Morrowgrain |QID|3791|
 N Stable your pet |C|Hunter|
 P Claw (Rank 7) |N|Tame an Ironfur Patriarch, level 48+.  You can find them on the mainland.| |C|Hunter|
 
-B Bait |N|From Gregan Brewspewer at the Twin Colossals (45.1, 25.5)| |L|11141|
-U Distract Miblon Snartooth |N|Take the road north to Ruins of Ravenwind (44.6, 10.2).  Drop the bait in front of him. |U|11141|
-N Grab an Evoroot |L|11242|
-C The Videre Elixir |N|Return to Gregan and give him the root| |QID|4041|
-
 H Astranaar
 N Get your pet back |C|Hunter|
 F Talonbranch Glade
-
-R Winterspring
-T The Videre Elixir |QID|4041|
-A Meet at the Grave |QID|3912|
 
 R Everlook |N|Follow the road east.|
 F Ratchet |N|Flight point is northeast outside the town wall (62.32, 36.61)| |Z|Winterspring|
