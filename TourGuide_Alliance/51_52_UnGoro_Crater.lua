@@ -94,5 +94,8 @@ R Cenarion Hold |N|Follow the road|
 F Gadgetzan |N|Flightpoint is up the big hill|
 T Bungle in the Jungle |N|Skip the follow-up| |QID|4496|
 T Super Sticky |QID|4504|
+
+F Ratchet
+T Volcanic Activity |QID|4502|
 ]]
 end)

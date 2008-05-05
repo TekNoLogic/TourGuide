@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Felwood (53-54)", "Un'Goro Crater (54)", "Alliance", function()
+TourGuide:RegisterGuide("Felwood (53-54)", "Winterspring (54-55)", "Alliance", function()
 return [[
 H Darnassus
 T Un'Goro Soil |N|Behind the druids' treehouse.| |QID|3764|
@@ -45,48 +45,20 @@ C Flute of Xavaric |QID|939|
 C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4102|
 
 R Talonbranch Glade |N|At the northeast edge of the zone, south of the road (62,24)|
+F Emerald Sanctuary |N|Moonglade's FP is to the east (48,67)| |Z|Moonglade|
+T Collection of the Corrupt Water |QID|5157|
+T Further Corruption |QID|4906|
+T Flute of Xavaric |QID|939|
+T Verifying the Corruption |QID|5156|
+T Cleansing Felwood |N|South along the road| |QID|4102|
+A To Winterspring! |QID|5249|
+
+F Talonbranch Glade
 T Speak to Nafien |N|North, at the end of the road (64.8,8.2)| |QID|8462|
 A Deadwood of the North |QID|8461|
 C Deadwood of the North |QID|8461|
 T Deadwood of the North |QID|8461|
 A Speak to Salfa |QID|8465|
-
-R Winterspring |N|Thru the cave!|
-T Speak to Salfa |QID|8465|
-A Winterfall Activity |QID|8464|
-T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
-A Strange Sources |QID|4842|
-T It's a Secret to Everybody (Part 3) |QID|3908| |N|Skip the follow-up.|
-A Threat of the Winterfall |QID|5082|
-
-R Moonglade |N|Back thru the tunnel, go north at the middle|
-F Emerald Sanctuary |N|Moonglade's FP is to the east (48,67)| |Z|Moonglade|
-T Collection of the Corrupt Water |QID|5157|
-A Seeking Spiritual Aid |QID|5158|
-T Further Corruption |QID|4906|
-T Flute of Xavaric |QID|939|
-A Felbound Ancients |QID|4441|
-T Verifying the Corruption |QID|5156|
-T Cleansing Felwood |N|South along the road| |QID|4102|
-
-F Feathermoon Stronghold |N|Feralas|
-A Jonespyre's Request |QID|3788|
-T Jonespyre's Request |QID|3788|
-A The Mystery of Morrowgrain |QID|3791|
-T The Mystery of Morrowgrain |QID|3791|
-
-N Stable your pet |C|Hunter|
-P Claw (Rank 7) |N|Tame an Ironfur Patriarch, level 48+.  You can find them on the mainland.| |C|Hunter|
-
-H Astranaar
-N Get your pet back |C|Hunter|
-F Talonbranch Glade
-
-R Everlook |N|Follow the road east.|
-F Ratchet |N|Flight point is northeast outside the town wall (62.32, 36.61)| |Z|Winterspring|
-T Volcanic Activity |QID|4502|
-T Seeking Spiritual Aid |N|To the south at the Tidus Stair (65.80, 43.76)| |Z|The Barrens| |QID|5158|
-A Cleansed Water Returns to Felwood |QID|5159|
 ]]
 end)
 
