@@ -134,7 +134,7 @@ T Heeding the Call |C|Druid| |QID|5928|
 A Moonglade |C|Druid| |QID|5922|
 T Moonglade |C|Druid| |N|Teleport you twit!| |QID|5922|
 A Great Bear Spirit |C|Druid| |QID|5930|
-C Great Bear Spirit |C|Druid| |N|To the west (39.15, 27.78)| |Z|Moonglade| |QID|5930|
+C Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39.15, 27.78)| |Z|Moonglade| |QID|5930|
 T Great Bear Spirit |C|Druid| |QID|5930|
 A Back to Thunder Bluff |C|Druid| |QID|5932|
 T Back to Thunder Bluff |C|Druid| |QID|5932|

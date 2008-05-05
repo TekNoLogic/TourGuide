@@ -200,17 +200,17 @@ T Bartleby's Mug |C|Warrior| |QID|1665|
 A Marshal Haggard |C|Warrior| |QID|1666|
 
 N Get a Tome of Divinity |L|6775| |N|Go see Duthorian Rall in the Cathedral of Light| |C|Paladin|
-A The Tome of Divinity (Part 1) |C|Paladin| |U|6775|
-T The Tome of Divinity (Part 1) |C|Paladin|
-A The Tome of Divinity (Part 2) |C|Paladin|
-T The Tome of Divinity (Part 2) |C|Paladin| |N|In Trade District|
-A The Tome of Divinity (Part 3) |C|Paladin|
-T The Tome of Divinity (Part 3) |C|Paladin|
-A The Tome of Divinity (Part 4) |C|Paladin|
-T The Tome of Divinity (Part 4) |C|Paladin| |N|In the Cathedral of Light|
-A The Tome of Divinity (Part 5) |C|Paladin|
-T The Tome of Divinity (Part 5) |C|Paladin|
-A The Tome of Divinity (Part 6) |C|Paladin|
+A The Tome of Divinity (Part 1) |C|Paladin| |U|6775| |QID|1642|
+T The Tome of Divinity (Part 1) |C|Paladin| |QID|1642|
+A The Tome of Divinity (Part 2) |C|Paladin| |QID|1643|
+T The Tome of Divinity (Part 2) |C|Paladin| |N|In Trade District| |QID|1643|
+A The Tome of Divinity (Part 3) |C|Paladin| |QID|1644|
+T The Tome of Divinity (Part 3) |C|Paladin| |QID|1644|
+A The Tome of Divinity (Part 4) |C|Paladin| |QID|1780|
+T The Tome of Divinity (Part 4) |C|Paladin| |N|In the Cathedral of Light| |QID|1780|
+A The Tome of Divinity (Part 5) |C|Paladin| |QID|1781|
+T The Tome of Divinity (Part 5) |C|Paladin| |QID|1781|
+A The Tome of Divinity (Part 6) |C|Paladin| |QID|1786|
 
 T Dungar Longdrink |N|Back at the flight point| |R|Human| |QID|6261|
 A Return to Lewis |R|Human| |QID|6285|
@@ -230,9 +230,9 @@ A Dead-tooth Jack |C|Warrior| |QID|1667|
 C Dead-tooth Jack |N|To the southeast (89.2, 78.7)| |C|Warrior| |QID|1667|
 T Dead-tooth Jack |C|Warrior| |QID|1667|
 
-T The Tome of Divinity (Part 6) |N|West side of the island on Stonecaire Lake in Elwynn Forest (72.6, 51.5)| |U|6866| |C|Paladin|
-A The Tome of Divinity (Part 7) |C|Paladin|
-C The Tome of Divinity (Part 7) |N|Center of island in Stonecaire Lake in Elwynn Forest| |C|Paladin|
+T The Tome of Divinity (Part 6) |N|West side of the island on Stonecaire Lake in Elwynn Forest (72.6, 51.5)| |U|6866| |C|Paladin| |QID|1786|
+A The Tome of Divinity (Part 7) |C|Paladin| |QID|1787|
+C The Tome of Divinity (Part 7) |N|Center of island in Stonecaire Lake in Elwynn Forest| |C|Paladin| |QID|1787|
 
 H Stormwind City
 T Mirror Lake |C|Mage| |QID|1861|
@@ -241,9 +241,9 @@ T Surena Caledon |C|Warlock| |QID|1688|
 A The Binding |NODEBUG| |C|Warlock| |QID|1795|
 C The Binding |NODEBUG| |C|Warlock| |N|Summoning circle downstairs| |U|6928| |QID|1795|
 T The Binding |NODEBUG| |C|Warlock| |QID|1795|
-T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin|
-A The Tome of Divinity (Part 8) |C|Paladin|
-T The Tome of Divinity (Part 8) |C|Paladin|
+T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin| |QID|1787|
+A The Tome of Divinity (Part 8) |C|Paladin| |QID|1788|
+T The Tome of Divinity (Part 8) |C|Paladin| |QID|1788|
 
 T Elmore's Task |N|In the Dwarven District (51.7, 12.1)| |Z|Stormwind City| |QID|1097|
 A Stormpike's Delivery |QID|353|

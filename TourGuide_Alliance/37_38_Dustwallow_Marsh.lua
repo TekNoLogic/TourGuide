@@ -29,12 +29,12 @@ A They Call Him Smiling Jim |N|From Guard Byron| |T| |QID|1282|
 A Tabetha's Farm |T| |QID|11212|
 T They Call Him Smiling Jim |N|Inside the keep| |T| |QID|1282|
 A Inspecting the Ruins |T| |QID|11124|
-T The Missing Diplomat (Part 13) |T|
-A The Missing Diplomat (Part 14) |T|
+T The Missing Diplomat (Part 13) |T| |QID|1264|
+A The Missing Diplomat (Part 14) |T| |QID|1265|
 A A Disturbing Development |T| |QID|11136|
 
-T The Missing Diplomat (Part 14) |N|Inside the tower along road northwest of Theramore (59.7, 41.1).  If he is not there just wait, he'll be back.|
-A The Missing Diplomat (Part 15)
+T The Missing Diplomat (Part 14) |N|Inside the tower along road northwest of Theramore (59.7, 41.1).  If he is not there just wait, he'll be back.| |QID|1265|
+A The Missing Diplomat (Part 15) |QID|1266|
 T A Disturbing Development |QID|11136|
 A Defias in Dustwallow? |QID|11137|
 C Defias in Dustwallow? |N|Kill Garn Mathers on the island to the northeast (63.40, 28.12)| |QID|11137|
@@ -43,7 +43,7 @@ A Renn McGill |QID|11138|
 
 A Marsh Frog Legs |N|Northwest at Swamplight Manor (55,26)| |QID|1218|
 A What's Haunting Witch Hill? |QID|11180|
-A The Orc Report |N|Near the house burried in some dirt (55.4, 26.0)| |QID|1219|
+A The Orc Report |N|Near the house buried in some dirt (55.4, 26.0)| |QID|1219|
 
 C Marsh Frog Legs |N|Behind the house| |QID|1218|
 C What's Haunting Witch Hill? |QID|11180|
@@ -60,10 +60,10 @@ C Cleansing Witch Hill |N|Plant the torch at the end of the dock and kill the ba
 T Cleansing Witch Hill |QID|11183|
 
 A Raptor Captor |N|Follow the road northwest to North Point Tower (46.65, 23.12)| |QID|11146|
-T The Missing Diplomat (Part 15)
-A The Missing Diplomat (Part 16)
-C The Missing Diplomat (Part 16)
-T The Missing Diplomat (Part 16)
+T The Missing Diplomat (Part 15) |QID|1266|
+A The Missing Diplomat (Part 16) |QID|1324|
+C The Missing Diplomat (Part 16) |QID|1324|
+T The Missing Diplomat (Part 16) |QID|1324|
 
 C Raptor Captor |U|33069| |N|Fight raptors to the north of the tower down to low health, then use the rope on them.| |QID|11146|
 
@@ -85,8 +85,8 @@ T Unleash the Raptors |QID|11147|
 A Hungry! |N|Follow the road south until you are south of Brackenwall Village (35.1, 38.2).| |QID|1177|
 T Inspecting the Ruins |N|At the Shady Rest Inn (29.6, 47.5).| |QID|11124|
 A Suspicious Hoofprints |QID|1284|
-A Lieutenant Paval Reethe (Part 1)
-A The Black Shield (Part 1)
+A Lieutenant Paval Reethe (Part 1) |QID|1252|
+A The Black Shield (Part 1) |QID|1253|
 
 A Direhorn Raiders |N|Follow the road south, then east to Tabetha's Farm (46.04, 57.17).| |QID|11156|
 A The Zeppelin Crash |QID|11172|
@@ -94,7 +94,7 @@ T Tabetha's Farm |QID|11212|
 A The Grimtotem Weapon |QID|11169|
 A The Reagent Thief |QID|11173|
 
-C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.  If you have a pet you may not want to use it, you won't get creadit if the croc is not targetting you when it dies.| |U|33101| |QID|11169|
+C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.  If you have a pet you may not want to use it, you won't get credit if the croc is not targeting you when it dies.| |U|33101| |QID|11169|
 C The Reagent Thief |N|Kill spiders southeast of the farm (48,62)| |QID|11173|
 
 C Direhorn Raiders |N|Kill Grimtotems north of the farm| |QID|11156|
@@ -150,7 +150,7 @@ T Spirits of Stonemaul Hold |T| |QID|11159|
 A Challenge to the Black Flight |T| |QID|11162|
 
 C Challenge to the Black Flight |N|East outside the entrance to Onyxia's Lair (52.06, 75.68).  Plant the banner and kill the dragon.  If you can't plant the banner, back out of the cave.| |U|33095| |QID|11162|
-C Catch a Dragon by the Tail |N|Little round sport things, all over between Onyxia's Lair and Mudsprocket.| |QID|11217|
+C Catch a Dragon by the Tail |N|Little round spore things, all over between Onyxia's Lair and Mudsprocket.| |QID|11217|
 
 T Challenge to the Black Flight |N|Back at Mudsprocket| |T| |QID|11162|
 T Catch a Dragon by the Tail |T| |QID|11217|
@@ -160,21 +160,21 @@ A Take Down Tethyr! |T| |QID|11198|
 C Take Down Tethyr! |T| |N|Use the cannons on the pier, be careful of his water blasts.| |QID|11198|
 T Take Down Tethyr! |T| |QID|11198|
 T Suspicious Hoofprints |T| |QID|1284|
-T Lieutenant Paval Reethe (Part 1) |T|
-A Lieutenant Paval Reethe (Part 2) |T|
-T The Black Shield (Part 1) |T|
-A The Black Shield (Part 2) |T|
-T Lieutenant Paval Reethe (Part 2) |T|
+T Lieutenant Paval Reethe (Part 1) |T| |QID|1252|
+A Lieutenant Paval Reethe (Part 2) |T| |QID|1259|
+T The Black Shield (Part 1) |T| |QID|1253|
+A The Black Shield (Part 2) |T| |QID|1319|
+T Lieutenant Paval Reethe (Part 2) |T| |QID|1259|
 A Daelin's Men |T| |QID|1285|
 T Daelin's Men |T| |QID|1285|
-A The Deserters (Part 1) |T|
+A The Deserters (Part 1) |T| |QID|1286|
 T Stinky's Escape |N|In the inn| |T| |QID|1270|
 T The Orc Report |N|Near the entrance to town| |T| |QID|1219|
 A Captain Vimes |T| |QID|1220|
 A Mission to Mudsprocket |T| |QID|11214|
-T The Black Shield (Part 2) |T| |N|At the smithy's|
-A The Black Shield (Part 3) |T|
-T The Black Shield (Part 3) |T| |N|Back in the keep|
+T The Black Shield (Part 2) |T| |N|At the smithy's| |QID|1319|
+A The Black Shield (Part 3) |T| |QID|1320|
+T The Black Shield (Part 3) |T| |N|Back in the keep| |QID|1320|
 T Captain Vimes |T| |QID|1220|
 
 T Jarl Needs Eyes |N|Northwest at Swamplight Manor (55,26)| |QID|1206|
@@ -196,13 +196,13 @@ A Jaina Must Know |QID|11141|
 
 T Jarl Needs a Blade |QID|1203|
 T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177|
-T The Deserters (Part 1) |N|Beat down Balos Jacken at Lost Point Tower to the south (35,53) until he'll talk to you|
-A The Deserters (Part 2)
+T The Deserters (Part 1) |N|Beat down Balos Jacken at Lost Point Tower to the south (35,53) until he'll talk to you| |QID|1286|
+A The Deserters (Part 2) |QID|1287|
 
 H Theramore Isle
 T Jaina Must Know |N|Up in the tower| |T| |QID|11141|
 A Survey Alcaz Island |T| |QID|11142|
-T The Deserters (Part 2) |N|In the keep| |T|
+T The Deserters (Part 2) |N|In the keep| |T| |QID|1287|
 A A Grim Connection |T| |QID|11143|
 C Survey Alcaz Island |N|Head down to the apprentice gryphon master and take the flight... DON'T SWIM OUT TO THE ISLAND!| |QID|11142|
 T Survey Alcaz Island |T| |QID|11142|

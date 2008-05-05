@@ -1,27 +1,30 @@
 TourGuide:RegisterGuide("Tanaris (44-45)", "Feralas (45-46)", "Horde", function()
 return [[
 F Gadgetzan
-A WANTED: Caliph Scorpidsting |QID|2781|
-A WANTED: Andre Firebeard |QID|2875|
-T Tran'rek |QID|2864|
-A Gadgetzan Water Survey |QID|992|
-A Wastewander Justice |QID|1690|
-A Water Pouch Bounty |QID|1878|
+A WANTED: Caliph Scorpidsting |N|Wanted poster in front of the cage (0,0)|T| |QID|2781|
+A WANTED: Andre Firebeard |T| |QID|2875|
+T Tran'rek |T| |QID|2864|
+A Gadgetzan Water Survey |N|Southwest side of town on a hill (50.2,27.5)| |T| |QID|992|
+A Wastewander Justice |N|Between the bank and the inn (52.5,28.5)| |T| |QID|1690|
+A Water Pouch Bounty |T| |QID|1878|
 h Gadgetzan
 
-R Mirage Raceway |N|Shimmering Flats|
+R Mirage Raceway |N|In the Shimmering Flats (77.8,77.3)| |Z|Thousand Needles|
 T Rumors for Kravel |QID|1117|
 T News for Fizzle |QID|1137|
 T Razzeric's Tweaking |QID|1187|
-A Safety First |QID|1189|
+A Safety First |QID|1188|
 A Keeping Pace |QID|1190|
-T Keeping Pace |N|At Zamek, then go pick up Rizzle's Plans (77,77)| |N|Thousand Needles| |QID|1190|
+T Keeping Pace |N|At Zamek, then go pick up Rizzle's Plans (79.8,77.0)| |Z|Thousand Needles| |QID|1190|
 A Rizzle's Schematics |QID|1194|
 A Back to Booty Bay |N|At Kravel Koalbeard| |QID|1118|
 T Rizzle's Schematics |N|At Pozzik| |QID|1194|
 
+R Gadgetzan
+T Safety First |T| |QID|1188|
+A Safety First |T| |QID|1189|
+T Safety First |N|Back at Mirage Raceway (80.2,76.2)| |Z|Thousand Needles| |QID|1189|
 H Gadgetzan
-T Safety First |N|Skip the follow-up| |QID|1189|
 
 R Steamwheedle Port
 A Pirate Hats Ahoy! |QID|8365|
