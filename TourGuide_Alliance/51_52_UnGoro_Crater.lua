@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Azshara (52-53)", "Alliance", function()
+TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Felwood (53-54)", "Alliance", function()
 return [[
 R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
 N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystals.  Also loot any dirt piles or sprouts you find.|
@@ -95,11 +95,7 @@ F Gadgetzan |N|Flightpoint is up the big hill|
 T Bungle in the Jungle |N|Skip the follow-up| |QID|4496|
 T Super Sticky |QID|4504|
 
-H Darnassus
-T Un'Goro Soil |N|Behind the druids' treehouse.| |QID|3764|
-A Morrowgrain Research (Part 1) |N|Upstairs!| |QID|3781|
-T Morrowgrain Research (Part 1) |N|Downstairs!| |QID|3781|
-A Morrowgrain Research (Part 2) |QID|3785|
-N Morrowgrain... |N|Use the Evergreen Pouch whenever it's cooldown is up until you get all your Morrowgrain.|
+F Ratchet
+T Volcanic Activity |QID|4502|
 ]]
 end)

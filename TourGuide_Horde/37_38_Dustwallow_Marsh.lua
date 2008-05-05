@@ -37,7 +37,7 @@ A Cleansing Witch Hill |QID|11183|
 C Cleansing Witch Hill |N|Plant the torch at the end of the dock and kill the bat| |U|33113| |QID|11183|
 T Cleansing Witch Hill |QID|11183|
 
-A Stinky's Escape |N|North of the tower (46.78, 17.00).  You may want to clear the area first.| |QID|1270| 
+A Stinky's Escape |N|North of the tower (46.78, 17.00).  You may want to clear the area first.| |QID|1270|
 C Stinky's Escape |QID|1270|
 
 C Jarl Needs Eyes |N|Kill spiders to the southwest at Darkmist Cavern (35,21).| |QID|1206|
