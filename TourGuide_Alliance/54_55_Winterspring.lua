@@ -13,7 +13,7 @@ A Threat of the Winterfall |QID|5082|
 R Everlook |N|Follow the road east|
 A Enraged Wildkin (Part 1) |QID|6604|
 h Everlook
-A The Everlook Report |QID|6029|
+A The Everlook Report |QID|6028|
 A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
 A Are We There, Yeti? (Part 1) |QID|3783|
@@ -49,8 +49,7 @@ T Winterfall Activity |N|Back up at the entrance to Timbermaw Hold| |QID|8464|
 R Felwood
 T Falling to Corruption |N|Talk to the cauldren in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood| |QID|5084|
 A Mystery Goo |QID|5085|
-A Deadwood Ritual Totem |NODEBUG| |O| |U|20741| |QID|8470|
-T Deadwood Ritual Totem |NODEBUG| |O| |N|Turn-in at a furblog halfway thru the hold| |QID|8470|
+T Mystery Goo |N|Back in Winterspring, of course.|
 
 F Darnassus
 T Moontouched Wildkin |QID|978|

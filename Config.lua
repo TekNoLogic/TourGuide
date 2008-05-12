@@ -18,6 +18,11 @@ frame:SetScript("OnShow", function()
 	qtrack:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.trackquests = not TourGuide.db.char.trackquests end)
 	qtrack:SetChecked(TourGuide.db.char.trackquests)
 
+	local mapquestgivers = tekcheck.new(frame, nil, "Automatically map questgivers", "TOPLEFT", qtrack, "BOTTOMLEFT", 0, -GAP)
+	mapquestgivers.tiptext = "Automatically map questgivers for accept and turnin objectives (requires LightHeaded)."
+	mapquestgivers:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.mapquestgivers = not TourGuide.db.char.mapquestgivers end)
+	mapquestgivers:SetChecked(TourGuide.db.char.mapquestgivers)
+
 	frame:SetScript("OnShow", nil)
 end)
 
