@@ -1,17 +1,19 @@
 TourGuide:RegisterGuide("Durotar (1-12)", "The Barrens (12-20)", "Horde", function()
     return [[
-A Your Place in the World
-T Your Place in the World
+A Your Place In The World |QID|4641|
+T Your Place In The World |QID|4641|
 A Cutting Teeth |QID|788|
 C Cutting Teeth |QID|788|
-A Sarkoth (Part 1) |N|(40,62)|
-C Sarkoth (Part 1) |N|South of the questgiver (40,66)|
-T Sarkoth (Part 1)
-A Sarkoth (Part 2)
-T Sarkoth (Part 2)
+A Sarkoth (Part 1) |N|Western Valley of Trials (40.6,62.6)| |QID|790|
+C Sarkoth (Part 1) |N|South of the questgiver (40.6,67.1)| |QID|790|
+T Sarkoth (Part 1) |QID|790|
+A Sarkoth (Part 2) |QID|804|
+T Sarkoth (Part 2) |QID|804|
 T Cutting Teeth |QID|788|
 
 A Sting of the Scorpid |QID|789|
+A Etched Tablet |C|Hunter| |QID|3082|
+T Etched Tablet |C|Hunter| |QID|3082|
 A Vile Familiars |QID|1499|
 A Galgar's Cactus Apple Surprise |QID|4402|
 A Lazy Peons |QID|5441|
@@ -28,16 +30,16 @@ T Lazy Peons |QID|5441|
 
 A Burning Blade Medallion |QID|794|
 A Thazz'ril's Pick |QID|6394|
-C Burning Blade Medallion |N|(42,52)| |QID|794|
-C Thazz'ril's Pick |QID|6394|
+C Thazz'ril's Pick |N|In the cave at North end of Valley of Trials. Go straight ahead at the fork. (43.7,53.7)| |QID|6394|
+C Burning Blade Medallion |N|Go back to the fork and take the eastern path at the fork. (42.7,52.9)| |QID|794|
 
-H Newbie Point
+H Valley of Trials
 T Burning Blade Medallion |QID|794|
-T Thazz'ril's Pick |QID|6394|
 A Report to Sen'jin Village |QID|805|
-A A Peon's Burden |N|From the orc just outside the newbie area (52,68)| |QID|2161|
+T Thazz'ril's Pick |QID|6394|
+A A Peon's Burden |N|From the orc just outside the newbie area (52.0,68.3)| |QID|2161|
 
-R Sen'jen Village
+R Sen'jin Village
 A Thwarting Kolkar Aggression |N|West of Sen'jin Village (54,75)| |QID|786|
 T Report to Sen'jin Village |QID|805|
 A Minshina's Skull |QID|808|
@@ -47,15 +49,15 @@ A A Solvent Spirit |QID|818|
 A Practical Prey |QID|817|
 
 R Razor Hill |N|Follow the road north.|
-T Report to Orgnil |QID|823|
-A Dark Storms |QID|806|
-A Vanquish the Betrayers |QID|784|
-A Encroachment |QID|837|
-A Break a Few Eggs |QID|815|
-T A Peon's Burden |QID|2161|
-h Razor Hill
-A Carry Your Weight |N|From watch tower northwest of town (49,40)| |QID|791|
-C Vanquish the Betrayers |QID|784|
+T Report to Orgnil |T| |QID|823|
+A Dark Storms |T| |QID|806|
+A Vanquish the Betrayers |T| |QID|784|
+A Encroachment |T| |QID|837|
+A Break a Few Eggs |T| |QID|815|
+T A Peon's Burden |T| |QID|2161|
+h Razor Hill |T|
+A Carry Your Weight |N|From watch tower northwest of town (49.9,40.3)| |QID|791|
+C Vanquish the Betrayers |N|Tiragarde Keep (57,55)| |QID|784|
 N If you have Benedict's Key, open the box on the ramparts upstairs from him.
 C Carry Your Weight |QID|791|
 
