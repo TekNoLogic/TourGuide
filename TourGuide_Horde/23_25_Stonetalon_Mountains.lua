@@ -9,7 +9,7 @@ h Sun Rock Retreat |T|
 A Cycle of Rebirth |N|Pick up seeds around (48,41)| |QID|6301|
 C Cycle of Rebirth |QID|6301|
 C Cenarius' Legacy |N|Done around (35,14)| |QID|1087|
-C Jin'Zil's Forest Magic |N|Mobs around (45,27)| |QID|1058|
+C Jin'Zil's Forest Magic |N|Mobs range from Stonetalon Peak to the north side of Mirkfallon Lake.| |QID|1058|
 T Cycle of Rebirth |QID|6301|
 A New Life |QID|6381|
 T Cenarius' Legacy |QID|1087|
@@ -20,7 +20,7 @@ A Gerenzo Wrenchwhistle |QID|1096|
 C Gerenzo Wrenchwhistle |N|At (64,41)| |QID|1096|
 C Shredding Machines |QID|1068|
 T Gerenzo Wrenchwhistle |QID|1096|
-T Jin'Zil's Forest Magic |N|Turn in at (74,97)| |QID|1058|
+T Jin'Zil's Forest Magic |QID|1058|
 T Shredding Machines |N|Turn in at near Barrens (35,27)| |QID|1068|
 
 H Sun Rock Retreat
