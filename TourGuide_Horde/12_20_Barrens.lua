@@ -63,7 +63,7 @@ R Ratchet
 A Chen's Empty Keg |U|4926| |O| |QID|822|
 T Chen's Empty Keg |O| |QID|822|
 A WANTED: Baron Longshore |N|From the sign outside the bank| |QID|895|
-A Samophlange (Part 1) |QID|???|
+A Samophlange (Part 1) |QID|894|
 A Southsea Freebooters |N|From Gazlowe| |QID|887|
 T Wharfmaster Dizzywig |QID|1492|
 A Miner's Fortune |QID|896|
@@ -72,11 +72,11 @@ C Southsea Freebooters |QID|887|
 C WANTED: Baron Longshore |QID|895|
 
 T Southsea Freebooters |QID|887|
-A The Missing Shipment (Part 1) |QID|???|
+A The Missing Shipment (Part 1) |QID|890|
 T WANTED: Baron Longshore |QID|895|
-T The Missing Shipment (Part 1) |QID|???|
-A The Missing Shipment (Part 2) |QID|???|
-T The Missing Shipment (Part 2) |QID|???|
+T The Missing Shipment (Part 1) |QID|890|
+A The Missing Shipment (Part 2) |QID|892|
+T The Missing Shipment (Part 2) |QID|892|
 A Stolen Booty |QID|888|
 A Raptor Horns |QID|865|
 C Stolen Booty |QID|888|
@@ -117,7 +117,7 @@ A Tribes at War |QID|878|
 
 R Thunder Bluff |N|Take the road west into Mulgore, then north at Bloodhoof Village|
 T Apothecary Zamah |N|Cave below Spirit Rise (22.9, 20.9)| |Z|Thunder Bluff| |QID|853|
-A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |QID|???|
+A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |QID|1195|
 
 F The Crossroads
 A The Stagnant Oasis |QID|877|
@@ -126,13 +126,13 @@ A Harpy Lieutenants |QID|875|
 
 C Prowlers of the Barrens |N|(37,20)| |QID|903|
 C Harpy Lieutenants |N|Kill Witchwing Slayer's - Northwest Barrens (38,14)| |QID|875|
-T Samophlange (Part 1) |QID|???|
-A Samophlange (Part 2) |QID|???|
-T Samophlange (Part 2) |QID|???|
-A Samophlange (Part 3) |QID|???|
-C Samophlange (Part 3) |N|Tinkerer is in the hut on the hill| |QID|???|
-T Samophlange (Part 3) |QID|???|
-A Samophlange (Part 4) |QID|???|
+T Samophlange (Part 1) |QID|894|
+A Samophlange (Part 2) |QID|900|
+T Samophlange (Part 2) |QID|900|
+A Samophlange (Part 3) |QID|901|
+C Samophlange (Part 3) |N|Tinkerer is in the hut on the hill| |QID|901|
+T Samophlange (Part 3) |QID|901|
+A Samophlange (Part 4) |QID|902|
 
 A Ignition |QID|858|
 C Ignition |QID|858|
@@ -147,7 +147,7 @@ R Ratchet
 T Stolen Booty |QID|888|
 T The Escape |QID|863|
 T Miner's Fortune |QID|896|
-T Samophlange (Part 4) |QID|???|
+T Samophlange (Part 4) |QID|902|
 A The Guns of Northwatch |QID|891|
 
 F The Crossroads
@@ -198,7 +198,7 @@ F Camp Taurajo
 T Tribes at War |QID|878|
 A Blood Shards of Agamaggan |QID|5052|
 T Blood Shards of Agamaggan |QID|5052|
-A Betrayal from Within (Part 1) |QID|???|
+A Betrayal from Within (Part 1) |QID|879|
 A Melor Sends Word |QID|1130|
 
 F The Crossroads

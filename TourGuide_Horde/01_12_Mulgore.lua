@@ -11,20 +11,20 @@ A Rune-Inscribed Note |C|Shaman| |QID|3093|
 A Verdant Note |C|Druid| |QID|3094|
 
 A The Hunt Continues |QID|750|
-A A Humble Task (Part 1) |QID|???|
+A A Humble Task (Part 1) |QID|752|
 
 T Etched Note |C|Hunter| |QID|3092|
 T Simple Note |C|Warrior| |QID|3091|
 T Rune-Inscribed Note |C|Shaman| |QID|3093|
 T Verdant Note |C|Druid| |QID|3094|
 
-T A Humble Task (Part 1) |N|Southeast at the well (50,81)| |QID|???|
-A A Humble Task (Part 2) |QID|???|
-C A Humble Task (Part 2) |QID|???|
-T A Humble Task (Part 2) |QID|???|
-A Rites of the Earthmother (Part 1) |QID|???|
+T A Humble Task (Part 1) |N|Southeast at the well (50,81)| |QID|752|
+A A Humble Task (Part 2) |QID|753|
+C A Humble Task (Part 2) |QID|753|
+T A Humble Task (Part 2) |QID|753|
+A Rites of the Earthmother (Part 1) |QID|755|
 C The Hunt Continues |QID|750|
-T Rites of the Earthmother (Part 1) |N|South of Camp Narache (42.59, 92.13)| |QID|???|
+T Rites of the Earthmother (Part 1) |N|South of Camp Narache (42.59, 92.13)| |QID|755|
 A Rite of Strength |QID|757|
 T The Hunt Continues |N|Back at camp| |QID|750|
 A The Battleboars |QID|780|
@@ -41,21 +41,21 @@ T The Battleboars |QID|780|
 T Break Sharptusk! |QID|3376|
 T Rite of Strength |QID|757|
 T Attack on Camp Narache |QID|781|
-A Rites of the Earthmother (Part 2) |QID|???|
+A Rites of the Earthmother (Part 2) |QID|763|
 A A Task Unfinished |N|Take the road out of camp| |QID|1656|
 
 R Bloodhoof Village
-T Rites of the Earthmother (Part 2) |QID|???|
+T Rites of the Earthmother (Part 2) |QID|763|
 A Sharing the Land |QID|745|
-A Rite of Vision (Part 1) |QID|???|
+A Rite of Vision (Part 1) |QID|767|
 T A Task Unfinished |QID|1656|
 h Bloodhoof Village
 A Dangers of the Windfury |QID|743|
 A Swoop Hunting |QID|761|
 A Mazzranache |QID|766|
 A Poison Water |QID|748|
-T Rite of Vision (Part 1) |QID|???|
-A Rite of Vision (Part 2) |QID|???|
+T Rite of Vision (Part 1) |QID|767|
+A Rite of Vision (Part 2) |QID|771|
 A Kyle's Gone Missing! |N|North of town, by the bridge| |QID|11129|
 
 N Kill and loot... |N|Kill any Swoops you see, also loot acorns under trees|
@@ -68,16 +68,16 @@ A Winterhoof Cleansing |QID|754|
 N Cook your ass off! |N|If you plan on leveling cooking (why wouldn't you?) buy the skill, 40x Simple Flour and 40x Mild Spices (about 3.5s total).  Cook up bread before you cook any meat that dropped.|
 C Kyle's Gone Missing! |N|Find the dog running around the village and feed him |U|33009| |QID|11129|
 C Winterhoof Cleansing |N|South of town at the well (53.55, 66.42)| |U|5411| |QID|754|
-C Rite of Vision (Part 2) |N|Grab the well stones| |QID|???|
+C Rite of Vision (Part 2) |N|Grab the well stones| |QID|771|
 
 T Winterhoof Cleansing |QID|754|
 A Thunderhorn Totem |QID|756|
 A Dwarven Digging |QID|746|
-T Rite of Vision (Part 2) |QID|???|
-A Rite of Vision (Part 3) |QID|???|
+T Rite of Vision (Part 2) |QID|771|
+A Rite of Vision (Part 3) |QID|772|
 U Drink up! |U|4823|
 T Kyle's Gone Missing! |N|As you pass by, don't worry you can catch up.| |QID|11129|
-T Rite of Vision (Part 3) |N|Follow the vision, or just run to the cave he's leading you to (32.68, 36.06)| |QID|???|
+T Rite of Vision (Part 3) |N|Follow the vision, or just run to the cave he's leading you to (32.68, 36.06)| |QID|772|
 A Rite of Wisdom |QID|773|
 
 C Thunderhorn Totem |N|All over the plains south of Bluff| |QID|756|
@@ -95,10 +95,10 @@ C Thunderhorn Cleansing |U|5415| |QID|758|
 T Thunderhorn Cleansing |QID|758|
 A Wildmane Totem |QID|759|
 
-A The Ravaged Caravan (Part 1) |N|To the east| |QID|???|
-T The Ravaged Caravan (Part 1) |N|To the north| |QID|???|
-A The Ravaged Caravan (Part 2) |QID|???|
-T The Ravaged Caravan (Part 2) |N|Back down on the road| |QID|???|
+A The Ravaged Caravan (Part 1) |N|To the east| |QID|749|
+T The Ravaged Caravan (Part 1) |N|To the north| |QID|749|
+A The Ravaged Caravan (Part 2) |QID|751|
+T The Ravaged Caravan (Part 2) |N|Back down on the road| |QID|751|
 A The Venture Co. |QID|764|
 A Supervisor Fizsprocket |QID|765|
 
@@ -110,15 +110,15 @@ A Wildmane Cleansing |QID|760|
 
 A The Hunter's Path |C|Hunter| |QID|10530|
 T The Hunter's Path |C|Hunter| |QID|10530|
-A Taming the Beast (Part 1) |C|Hunter| |QID|???|
-C Taming the Beast (Part 1) |C|Hunter| |N|North of town| |QID|???|
-T Taming the Beast (Part 1) |C|Hunter| |QID|???|
-A Taming the Beast (Part 2) |C|Hunter| |QID|???|
-C Taming the Beast (Part 2) |C|Hunter| |N|North of town| |QID|???|
-T Taming the Beast (Part 2) |C|Hunter| |QID|???|
-A Taming the Beast (Part 3) |C|Hunter| |QID|???|
-C Taming the Beast (Part 3) |C|Hunter| |N|East of town| |QID|???|
-T Taming the Beast (Part 3) |C|Hunter| |QID|???|
+A Taming the Beast (Part 1) |C|Hunter| |QID|6061|
+C Taming the Beast (Part 1) |C|Hunter| |N|North of town| |QID|6061|
+T Taming the Beast (Part 1) |C|Hunter| |QID|6061|
+A Taming the Beast (Part 2) |C|Hunter| |QID|6087|
+C Taming the Beast (Part 2) |C|Hunter| |N|North of town| |QID|6087|
+T Taming the Beast (Part 2) |C|Hunter| |QID|6087|
+A Taming the Beast (Part 3) |C|Hunter| |QID|6088|
+C Taming the Beast (Part 3) |C|Hunter| |N|East of town| |QID|6088|
+T Taming the Beast (Part 3) |C|Hunter| |QID|6088|
 P Bite (Rank 2) |N|Tame a Prarie Wolf Alpha.  Keep it for your main pet unless you find The Rake.| |C|Hunter|
 A Training the Beast |C|Hunter| |QID|6103|
 
@@ -155,10 +155,10 @@ T Preparation for Ceremony |N|Back on Bluff| |QID|744|
 T The Hunter's Way |N|On Hunter Rise (61.48, 80.86)| |QID|861|
 A Sergra Darkthorn |QID|860|
 T Journey into Thunder Bluff |QID|775|
-A Rites of the Earthmother (Part 3) |QID|???|
+A Rites of the Earthmother (Part 3) |QID|776|
 
-C Rites of the Earthmother (Part 3) |N|East of Bluff.  If you cannot find him, he spawns at (49,19) and patrols clockwise.  He goes north to (52,10) and south to (54,35)| |QID|???|
-T Rites of the Earthmother (Part 3) |QID|???|
+C Rites of the Earthmother (Part 3) |N|East of Bluff.  If you cannot find him, he spawns at (49,19) and patrols clockwise.  He goes north to (52,10) and south to (54,35)| |QID|776|
+T Rites of the Earthmother (Part 3) |QID|776|
 A The Barrens Oases |N|From the Archdruid on Elder Rise (78.61, 28.52)| |QID|886|
 
 H Bloodhoof Village
