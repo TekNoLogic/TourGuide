@@ -18,6 +18,16 @@ frame:SetScript("OnShow", function()
 	qtrack:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.trackquests = not TourGuide.db.char.trackquests end)
 	qtrack:SetChecked(TourGuide.db.char.trackquests)
 
+	local mapnotecoords = tekcheck.new(frame, nil, "Map note coords", "TOPLEFT", qtrack, "BOTTOMLEFT", 0, -GAP)
+	mapnotecoords.tiptext = "Map coordinates found in tooltip notes (requires TomTom)."
+	mapnotecoords:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.mapnotecoords = not TourGuide.db.char.mapnotecoords end)
+	mapnotecoords:SetChecked(TourGuide.db.char.mapnotecoords)
+
+	local mapquestgivers = tekcheck.new(frame, nil, "Automatically map questgivers", "TOPLEFT", mapnotecoords, "BOTTOMLEFT", 0, -GAP)
+	mapquestgivers.tiptext = "Automatically map questgivers for accept and turnin objectives (requires LightHeaded and TomTom)."
+	mapquestgivers:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.mapquestgivers = not TourGuide.db.char.mapquestgivers end)
+	mapquestgivers:SetChecked(TourGuide.db.char.mapquestgivers)
+
 	frame:SetScript("OnShow", nil)
 end)
 

@@ -17,7 +17,7 @@ F Camp Taurajo
 A Melor Sends Word |T| |QID|1130|
 A Tribes at War |T| |QID|878|
 C Lost in Battle |N|In a hut off the road north of Camp Taurajo (49.31, 50.34)| |QID|4921|
-C Consumed by Hatred |N|To the southeast| |QID|899|
+C Consumed by Hatred |N|Southeast of Mankirk's wife, northeast of Camp Taurajo| |QID|899|
 C Tribes at War |QID|878|
 
 T Tribes at War |N|Back at Camp Taurajo| |T| |QID|878|

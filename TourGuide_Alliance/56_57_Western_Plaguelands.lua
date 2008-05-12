@@ -11,19 +11,19 @@ A A Plague Upon Thee (Part 1) |QID|5903|
 A The Mark of the Lightbringer |N|From Anchorite Truuen.  He may not be in the camp if he's out doing the escort quest.| |QID|9474|
 T A Call to Arms: The Plaguelands! |QID|10374|
 A Clear the Way |QID|5092|
-T The Everlook Report |QID|6029|
+T The Everlook Report |QID|6028|
 N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |L|12846|
 
 C Clear the Way |N|To the northeast at Sorrow Hill| |QID|5092|
 T Clear the Way |QID|5092|
 A All Along the Watchtowers |QID|5098|
-A The Scourge Cauldrons |QID|5228|
-T The Scourge Cauldrons |QID|5228|
-A Target: Felstone Field |QID|5229|
+A The Scourge Cauldrons |QID|5215|
+T The Scourge Cauldrons |QID|5215|
+A Target: Felstone Field |QID|5216|
 
 C All Along the Watchtowers |U|12815| |N|Mark each tower in Andorhal, you can get close enough to mark without aggroing mobs inside if you are careful. (47,71) (40,71) (42,66) (44,63)| |QID|5098|
-C Target: Felstone Field |N|To the northwest at Felstone Field (37,56).  Kill Cauldron Lord Bilemaw for the key, then talk to the cauldren.| |QID|5229|
-T Target: Felstone Field |N|Talk to the cauldren| |QID|5229|
+C Target: Felstone Field |N|To the northwest at Felstone Field (37,56).  Kill Cauldron Lord Bilemaw for the key, then talk to the cauldren.| |QID|5216|
+T Target: Felstone Field |N|Talk to the cauldren| |QID|5216|
 A Return to Chillwind Camp (Part 1) |QID|5217|
 
 A Better Late Than Never (Part 1) |N|In the house on the northeast side of the field (38,54), upstairs| |QID|5021|
@@ -35,10 +35,10 @@ A Scholomance |QID|5533|
 T Scholomance |QID|5533|
 A Skeletal Fragments |QID|5537|
 T Return to Chillwind Camp (Part 1) |QID|5217|
-A Target: Dalson's Tears |QID|5231|
+A Target: Dalson's Tears |QID|5219|
 
-C Target: Dalson's Tears |N|To the north at Dalson's Tears (46,52).  Kill Cauldron Lord Malvinious for the key, then talk to the cauldren.| |QID|5231|
-T Target: Dalson's Tears |N|Talk to the cauldren| |QID|5231|
+C Target: Dalson's Tears |N|To the north at Dalson's Tears (46,52).  Kill Cauldron Lord Malvinious for the key, then talk to the cauldren.| |QID|5219|
+T Target: Dalson's Tears |N|Talk to the cauldren| |QID|5219|
 A Return to Chillwind Camp (Part 2) |QID|5220|
 
 N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|

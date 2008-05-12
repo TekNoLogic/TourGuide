@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Azshara (52-53)", "Alliance", function()
+TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Felwood (53-54)", "Alliance", function()
 return [[
 R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
 N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystals.  Also loot any dirt piles or sprouts you find.|
@@ -59,7 +59,7 @@ T The Apes of Un'Goro |N|Skip the follow-up| |QID|4289|
 T The Bait for Lar'korwi |QID|4292|
 
 C Alien Ecology |N|Down in the Slithering Scar (50,77).  Head left inside to the big room (48.62, 85.33), use the vial| |U|11132| |QID|3883|
-C Bungle in the Jungle
+C Bungle in the Jungle |QID|4496|
 C Expedition Salvation |N|At camp to the west (38.5, 66.0).  Beware of the elite Stegodons.| |QID|3881|
 C The Western Pylon |N|Up the hill, west of the camp (23.8, 59.1)| |QID|4288|
 A Finding the Source |N|From a goblin near the hot springs (30.9, 50.4)| |QID|974|
@@ -95,11 +95,7 @@ F Gadgetzan |N|Flightpoint is up the big hill|
 T Bungle in the Jungle |N|Skip the follow-up| |QID|4496|
 T Super Sticky |QID|4504|
 
-H Darnassus
-T Un'Goro Soil |N|Behind the druids' treehouse.| |QID|3764|
-A Morrowgrain Research (Part 1) |N|Upstairs!| |QID|3781|
-T Morrowgrain Research (Part 1) |N|Downstairs!| |QID|3781|
-A Morrowgrain Research (Part 2) |QID|3785|
-N Morrowgrain... |N|Use the Evergreen Pouch whenever it's cooldown is up until you get all your Morrowgrain.|
+F Ratchet
+T Volcanic Activity |QID|4502|
 ]]
 end)

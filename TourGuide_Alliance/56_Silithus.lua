@@ -2,18 +2,10 @@
 TourGuide:RegisterGuide("Silithus (56)", "Western Plaguelands (56-57)", "Alliance", function()
 return [[
 F Gadgetzan
-h Gadgetzan
 N Scare Sprinkle |N|Northwest side of town, use the Yeti| |U|12928| |Q|Are We There, Yeti?| |QO|Scare Sprinkle: 1/1|
 
-U Open Eridan's Supplies |U|11617|
-C Aquementas |N|Down in the pirate cove, behind the settlement is a stone circle (70.45, 49.95).  Use the book.| |U|11169| |Z|Tanaris| |QID|4005|
-
-H Gadgetzan
 F Un'Goro Crater
 N Scare Quixxil |U|12928| |Q|Are We There, Yeti?| |QO|Scare Quixxil: 1/1|
-T Aquementas |N|In the cave| |QID|4005|
-A Linken's Adventure |QID|3961|
-T Linken's Adventure |N|Outside.  Skip the follow-up unless you have someone to help you.| |QID|3961|
 
 F Silithus
 A The Twilight Mystery |QID|8284|

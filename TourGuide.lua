@@ -41,6 +41,8 @@ function TourGuide:Initialize()
 			completion = {},
 			currentguide = "No Guide",
 			petskills = {},
+			mapquestgivers = true,
+			mapnotecoords = true,
 		},
 	})
 	if self.db.char.turnedin then self.db.char.turnedin = nil end -- Purge old table if present
@@ -53,6 +55,7 @@ end
 
 
 function TourGuide:Enable()
+	self.Enable = nil -- Dongle likes to call Enable multiple times if we bug LightHeaded... so we need to nil out to ensure we are only called once
 	if TomTom and TomTom.version ~= "SVN" and (tonumber(TomTom.version) or 0) < 120 then self:Print("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end

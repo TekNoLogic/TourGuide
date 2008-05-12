@@ -1,15 +1,23 @@
 
 TourGuide:RegisterGuide("Winterspring (54-55)", "Burning Steppes (55-56)", "Alliance", function()
 return [[
-F Winterspring
+R Winterspring |N|Thru the cave!|
+T Speak to Salfa |QID|8465|
+A Winterfall Activity |QID|8464|
+N Grab feathers you see |N|For "Moontouched Wildkin"|
+T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
+A Strange Sources |QID|4842|
+T It's a Secret to Everybody (Part 3) |QID|3908| |N|Skip the follow-up.|
+A Threat of the Winterfall |QID|5082|
+
+R Everlook |N|Follow the road east|
 A Enraged Wildkin (Part 1) |QID|6604|
 h Everlook
-A The Everlook Report |QID|6029|
+A The Everlook Report |QID|6028|
 A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
 A Are We There, Yeti? (Part 1) |QID|3783|
 
-N Grab feathers you see |N|For "Moontouched Wildkin"|
 C Strange Sources |N|Follow the road far to the south (60,73)| |QID|4842|
 
 H Everlook
@@ -41,8 +49,7 @@ T Winterfall Activity |N|Back up at the entrance to Timbermaw Hold| |QID|8464|
 R Felwood
 T Falling to Corruption |N|Talk to the cauldren in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood| |QID|5084|
 A Mystery Goo |QID|5085|
-A Deadwood Ritual Totem |NODEBUG| |O| |U|20741| |QID|8470|
-T Deadwood Ritual Totem |NODEBUG| |O| |N|Turn-in at a furblog halfway thru the hold| |QID|8470|
+T Mystery Goo |N|Back in Winterspring, of course.| |QID|5085|
 
 F Darnassus
 T Moontouched Wildkin |QID|978|
@@ -54,7 +61,7 @@ A The New Frontier (Part 2) |QID|6761|
 T The New Frontier (Part 2) |QID|6761|
 A Rabine Saturna |QID|6762|
 
-F Moonglade
+F Moonglade |N|If you don't have the flight point, fly to Talonbranch Glade and run north thru Timbermaw Hold.|
 T Rabine Saturna |N|In Nighthaven (51.69, 45.03)| |Z|Moonglade| |QID|6762|
 A Wasteland |QID|1124|
 ]]
