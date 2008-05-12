@@ -41,7 +41,7 @@ function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid)
 
 	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded then self:MapLightHeadedNPC(qid, action, quest) end
 
-	if not note then return end
+	if not note or not self.db.char.mapnotecoords then return end
 
 	for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
 	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
@@ -49,7 +49,7 @@ end
 
 
 function TourGuide:MapLightHeadedNPC(qid, action, quest)
-	if not TourGuide.db.char.mapquestgivers then return end
+	if not self.db.char.mapquestgivers then return end
 
 	local npcid, npcname, stype
 	if action == "ACCEPT" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(qid)
