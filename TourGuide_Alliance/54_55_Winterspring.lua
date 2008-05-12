@@ -49,7 +49,7 @@ T Winterfall Activity |N|Back up at the entrance to Timbermaw Hold| |QID|8464|
 R Felwood
 T Falling to Corruption |N|Talk to the cauldren in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood| |QID|5084|
 A Mystery Goo |QID|5085|
-T Mystery Goo |N|Back in Winterspring, of course.|
+T Mystery Goo |N|Back in Winterspring, of course.| |QID|5085|
 
 F Darnassus
 T Moontouched Wildkin |QID|978|
