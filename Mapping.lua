@@ -49,6 +49,8 @@ end
 
 
 function TourGuide:MapLightHeadedNPC(qid, action, quest)
+	if not TourGuide.db.char.mapquestgivers then return end
+
 	local npcid, npcname, stype
 	if action == "ACCEPT" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(qid)
 	else _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(qid) end

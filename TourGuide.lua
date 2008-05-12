@@ -41,6 +41,7 @@ function TourGuide:Initialize()
 			completion = {},
 			currentguide = "No Guide",
 			petskills = {},
+			mapquestgivers = true,
 		},
 	})
 	if self.db.char.turnedin then self.db.char.turnedin = nil end -- Purge old table if present
