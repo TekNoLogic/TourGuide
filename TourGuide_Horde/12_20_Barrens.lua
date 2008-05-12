@@ -68,8 +68,8 @@ A Southsea Freebooters |N|From Gazlowe| |QID|887|
 T Wharfmaster Dizzywig |QID|1492|
 A Miner's Fortune |QID|896|
 
-C Southsea Freebooters |QID|887|
 C WANTED: Baron Longshore |QID|895|
+C Southsea Freebooters |QID|887|
 
 T Southsea Freebooters |QID|887|
 A The Missing Shipment (Part 1)
