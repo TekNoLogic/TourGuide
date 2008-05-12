@@ -14,11 +14,11 @@ A The Swarm Grows (Part 3)
 P Bite (Rank 5) |N|Tame a turtle in Shimmering Flats and feed him those mushrooms you bought.| |C|Hunter|
 N Keep the turtle |C|Hunter|
 
-T Delivery to the Gnomes (Part 1) |N|At the Mirage Raceway (77,76)|
+T Parts for Kravel |QID|1112| |N|At the Mirage Raceway (77.8, 77.2)|
+A Delivery to the Gnomes (Part 1)
+T Delivery to the Gnomes (Part 1)
 A Delivery to the Gnomes (Part 2)
 T Delivery to the Gnomes (Part 2)
-
-T Parts for Kravel |QID|1112|
 T Goblin Sponsorship (Part 5)
 
 A The Eighteenth Pilot |QID|1186|
