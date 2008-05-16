@@ -145,9 +145,9 @@ C Muck Diving |N|In the water around Halaa| |QID|9815|
 
 T An Audacious Advance |N|Back at Garadar| |QID|9907|
 T Bleeding Hollow Supply Crates |QID|9916|
-A Diplomatic Measures |QID|10108|
+A Diplomatic Measures |QID|10107|
 
-T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)| |QID|10108|
+T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (73.8, 62.6)| |QID|10107|
 A Armaments for Deception |QID|9928|
 A Ruthless Cunning |QID|9927|
 
