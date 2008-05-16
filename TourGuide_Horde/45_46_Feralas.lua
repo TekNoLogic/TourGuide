@@ -38,43 +38,50 @@ C A Grim Discovery (Part 1) |N|West of Camp Mojache (66,46)| |QID|2974|
 H Camp Mojache
 T The Battle Plans |T| |QID|2903|
 A Zukk'ash Infestation |T| |QID|7730|
+A Stinglasher |T| |QID|7731|
 T A Grim Discovery (Part 1) |T| |QID|2974|
 A A Grim Discovery (Part 2) |T| |QID|2976|
-A Stinglasher |QID|7731|
-
 
 C Stinglasher |N|Both in the hive area south of Camp Mojache (74,62)| |QID|7731|
 C Zukk'ash Infestation |QID|7730|
-C Screecher Spirits |N|South of Dire Maul (55,56)| |QID|3520|
+C Screecher Spirits |N|South of Dire Maul (55,56)| |U|| |QID|3520|
 C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)| |QID|2980|
-N Pick up a Hippograph Egg |N|Around (55,76) in nests|
 C Dark Ceremony |N|In the ruins to the south (59,68)| |QID|2979|
+N Pick up a Hippograph Egg |N|Around (55,76) in nests| |L||
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)| |QID|2822|
 
-T Stinglasher |N|Back at Camp Mojache| |QID|7731|
-T Zukk'ash Infestation |QID|7730|
-T The Ogres of Feralas (Part 2) |QID|2980|
-T Dark Ceremony |QID|2979|
-T The Mark of Quality |QID|2822|
-
-A Zukk'ash Report |QID|7732|
-A The Gordunni Orb |QID|3002|
-A The Sunken Temple |QID|3445|
+T The Mark of Quality |N|Back at Camp Mojache| |T| |QID|2822|
+A The Sunken Temple |T| |QID|3445|
+T Stinglasher |T| |QID|7731|
+T Zukk'ash Infestation |T| |QID|7730|
+A Zukk'ash Report |T| |QID|7732|
+T The Ogres of Feralas (Part 2) |T| |QID|2980|
+T Dark Ceremony |T| |QID|2979|
+A The Gordunni Orb |T| |QID|3002|
 
 F Orgrimmar
-h Orgrimmar
-T Zukk'ash Report |N|In The Drag (56,46)| |Z|Orgrimmar| |QID|7732|
-A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4,36.9)| |Z|Orgrimmar|
-T Ripple Recovery (Part 1) |N|The other guy in the same building|
-A Ripple Recovery (Part 2)
-T Parts of the Swarm |N|At Belgrom Rockmaul in the Valley of Honor (75,34)| |Z|Orgrimmar| |QID|1184|
-T A Grim Discovery (Part 2)
-A Betrayed |QID|3507|
-T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar| |QID|3121|
-T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar| |QID|1262|
-A Service to the Horde |QID|7541|
-T Service to the Horde |QID|7541|
-T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar| |QID|3002|
-N Donate cloth |N|Turn in 120 [Silk Cloth] and 120 [Mageweave Cloth] at Magar's Cloth Goods, in The Drag (63,51)| |Z|Orgrimmar|
+h Orgrimmar |T| 
+T Zukk'ash Report |N|In The Drag (56,46)| |Z|Orgrimmar| |QID|7732| |T|
+A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4,36.9)| |Z|Orgrimmar| |QID|649| |T|
+T Ripple Recovery (Part 1) |N|The other guy in the same building| |Z|Orgrimmar| |QID|649| |T|
+A Ripple Recovery (Part 2) |Z|Orgrimmar| |QID|650| |T|
+T Parts of the Swarm |N|At Belgrom Rockmaul in the Valley of Honor (75,34)| |Z|Orgrimmar| |QID|1184| |T|
+T A Grim Discovery (Part 2) |Z|Orgrimmar| |T|
+A Betrayed |QID|3507| |Z|Orgrimmar| |T|
+T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar| |QID|3121| |T|
+T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar| |QID|1262| |T|
+A Service to the Horde |QID|7541| |Z|Orgrimmar| |T|
+T Service to the Horde |QID|7541| |Z|Orgrimmar| |T|
+T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar| |QID|3002| |T| 
+
+A A Donation of Silk |Z|Orgrimmar| |QID|7834| |T|
+T A Donation of Silk |Z|Orgrimmar| |QID|7834| |T|
+A A Donation of Mageweave |Z|Orgrimmar| |QID|7835| |T|
+T A Donation of Mageweave |Z|Orgrimmar| |QID|7835| |T|
+
+A A Donation of Silk |Z|Orgrimmar| |QID|7827| |T|
+T A Donation of Silk |Z|Orgrimmar| |QID|7827| |T|
+A A Donation of Mageweave |Z|Orgrimmar| |QID|7831| |T|
+T A Donation of Mageweave |Z|Orgrimmar| |QID|7831| |T|
 ]]
 end)
