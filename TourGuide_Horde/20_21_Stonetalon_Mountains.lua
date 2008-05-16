@@ -7,7 +7,7 @@ A Avenge My Village |QID|6548|
 C Avenge My Village |QID|6548|
 T Avenge My Village |QID|6548|
 A Kill Grundig Darkcloud |QID|6629|
-C Kill Grundig Darkcloud |QID|6629|
+C Kill Grundig Darkcloud |N|Grimtotem Post (73.6,86.1)| |QID|6629|
 
 A Blood Feeders |N|At Malaka'Jin (71,95)| |QID|6461|
 T Letter to Jin'Zil |O| |QID|1060|
