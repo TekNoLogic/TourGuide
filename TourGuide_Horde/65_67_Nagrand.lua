@@ -37,8 +37,8 @@ A The Impotent Leader |QID|9888|
 A Vile Idolatry |QID|9863|
 A The Missing War Party |QID|9864|
 A Murkblood Leaders... |QID|9867|
-A Wanted: Giselda the Crone |N|Poster| |QID|9936|
-A Wanted: Zorbo the Advisor |N|Poster| |QID|9940|
+A Wanted: Giselda the Crone |N|Poster| |QID|9935|
+A Wanted: Zorbo the Advisor |N|Poster| |QID|9939|
 A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)| |QID|9913|
 
 C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.|
@@ -151,7 +151,7 @@ T Diplomatic Measures |N|At Lantresor of the Blade at the Burning Blade Ruins (7
 A Armaments for Deception |QID|9928|
 A Ruthless Cunning |QID|9927|
 
-C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552| |QID|9936|
+C Wanted: Giselda the Crone |N|Giselda is in the main building (72.06, 81.46).  Make sure to plant banners on the mobs you kill.| |U|25552| |QID|9935|
 C Armaments for Deception |N|Many boxes spawn on the east side of the main building, and respawn faster than the mobs there do.| |U|25552| |QID|9928|
 C Ruthless Cunning |U|25552| |QID|9927|
 
@@ -165,14 +165,14 @@ T Shattering the Veil |QID|9849|
 T Muck Diving |QID|9815|
 
 C Body of Evidence |U|25658| |N|Use the blanket on the pyre in the Laughing Skull Courtyard (46.56, 24.55).  Make sure you hang around until the orges finish, and don't forget to stick banners in the mobs you kill.| |QID|9932|
-C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555| |QID|9940|
+C Wanted: Zorbo the Advisor |N|In a cave up the hill from the pyre (46.53, 17.93).  Remember to keep planting banners.| |U|25555| |QID|9939|
 C Returning the Favor |U|25555| |QID|9931|
 
 C I Must Have Them! |N|Kill air elementals all over the zone| |QID|10109|
 
 H Garadar
-T Wanted: Giselda the Crone |QID|9936|
-T Wanted: Zorbo the Advisor |QID|9940|
+T Wanted: Giselda the Crone |QID|9935|
+T Wanted: Zorbo the Advisor |QID|9939|
 
 T I Must Have Them! |N|Back east of Telaar (61,67)| |QID|10109|
 
