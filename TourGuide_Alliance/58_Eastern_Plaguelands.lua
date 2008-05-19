@@ -10,7 +10,7 @@ T Redemption |QID|9600|
 A Of Forgotten Memories |QID|5781|
 
 C Of Forgotten Memories |N|South at the Undercroft (28.40, 86.85).  Talk to the grave behind the crypt. Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|
-C Zaeldarr the Outcast |N|(27,85)| |QID|6021|
+C Zaeldarr the Outcast |N|Downstairs in the crypt (27,85)| |QID|6021|
 A Hameya's Plea |N|From the scroll near Zaeldarr| |QID|6024|
 
 T Of Forgotten Memories |N|Back on the west edge of the zone| |QID|5781|
