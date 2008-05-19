@@ -5,18 +5,19 @@ R Searing Gorge |N|West!|
 A Caught! |N|Guy in the outhouse southeast of map (65,62)| |QID|4449|
 T Caught! |QID|4449|
 A Ledger from Tanaris |QID|4450|
-C Ledger from Tanaris |L|11727| |N|Click on outhouse for ledger, kill spiders nearby| |QID|4450|
+N Loot the ledger |Q|Ledger from Tanaris| |QO|Goodsteel Ledger: 1/1|
+N Kill Glassweb Spiders |Q|Ledger from Tanaris| |QO|Solid Crystal Leg Shaft: 20/20|
 A Divine Retribution |N|Talk to Kalaran Windblade at (39,38)| |QID|3441|
 T Divine Retribution |N|Talk to him to complete quest| |QID|3441|
 A The Flawless Flame |QID|3442|
 R Thorium Point
-A Fiery Menace! |QID|7724|
-A Curse These Fat Fingers |QID|7723|
+A WANTED: Overseer Maltorius |QID|7701|
 A STOLEN: Smithing Tuyere and Lookout's Spyglass |QID|7728|
 A JOB OPPORTUNITY: Culling the Competition |QID|7729|
-A WANTED: Overseer Maltorius |QID|7701|
-A What the Flux? |QID|7722|
+A Curse These Fat Fingers |QID|7723|
+A Fiery Menace! |QID|7724|
 A Incendosaurs? Whateverosaur is More Like It |QID|7727|
+A What the Flux? |QID|7722|
 
 C Fiery Menace! |N|West side of zone| |QID|7724|
 C Curse These Fat Fingers |N|Just south of Thorium Point| |QID|7723|
