@@ -44,10 +44,10 @@ A A Grim Discovery (Part 2) |T| |QID|2976|
 
 C Stinglasher |N|Both in the hive area south of Camp Mojache (74,62)| |QID|7731|
 C Zukk'ash Infestation |QID|7730|
-C Screecher Spirits |N|South of Dire Maul (55,56)| |U|| |QID|3520|
+C Screecher Spirits |N|South of Dire Maul (55,56)| |U|10699| |QID|3520|
 C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)| |QID|2980|
 C Dark Ceremony |N|In the ruins to the south (59,68)| |QID|2979|
-N Pick up a Hippograph Egg |N|Around (55,76) in nests| |L||
+N Pick up a Hippograph Egg |N|Around (55,76) in nests| |L|8564|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)| |QID|2822|
 
 T The Mark of Quality |N|Back at Camp Mojache| |T| |QID|2822|
