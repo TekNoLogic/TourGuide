@@ -3,7 +3,7 @@
 TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", "Zangarmarsh (62-63)", "Alliance", function()
 return [[
 F Nethergarde Keep
-B [Nethergarde Bitter] |N|From Bernie Heisten (63,16)| |L|23848| |Z|Blasted Lands|
+B [Nethergarde Bitter] |N|From Bernie Heisten (63.52, 16.95)| |L|23848| |Z|Blasted Lands|
 
 A Through the Dark Portal |N|In front of the Dark Portal (58,55)| |Z|Blasted Lands| |QID|10119|
 
@@ -36,10 +36,10 @@ T The Path of Anguish |QID|10142|
 A Expedition Point |QID|10143|
 T Expedition Point |N|To the east (71,62)| |QID|10143|
 A Disrupt Their Reinforcements |QID|10208|
-C Disrupt Their Reinforcements |N|Northeast.  Kill till you get 4 runes then blow up Portal Kaalez (72,58).  Do the same for Portal Grimh (71,55)| |QID|10208|
+C Disrupt Their Reinforcements |N|Northeast.  Kill till you get 4 runes then blow up Portal Kaalez (72.74, 58.91).  Do the same for Portal Grimh (71,55).  If these guys are hitting you hard, you can pull them back up the hill to the guards and get some help.| |QID|10208|
 T Disrupt Their Reinforcements |QID|10208|
 A Mission: The Murketh and Shaadraz Gateways |QID|10146|
-C Mission: The Murketh and Shaadraz Gateways |N|Get a flight from Wing Commander Dabir'ee, blow shit up!| |U|TODO| |QID|10146|
+C Mission: The Murketh and Shaadraz Gateways |N|Get a flight from Wing Commander Dabir'ee, blow shit up!| |U|28038| |QID|10146|
 T Mission: The Murketh and Shaadraz Gateways |QID|10146|
 A Shatter Point |QID|10340|
 
@@ -56,7 +56,6 @@ A Go to the Front |QID|10382|
 T Go to the Front |N|Fly to honor point to turn this in.  Skip "Forge Base Mageddon" unless you want a group| |QID|10382|
 
 F Honor Hold |N|Fly back to Shatter Point, then HH... or hearth|
-A The Longbeards |N|From the innkeeper| |QID|9558|
 A An Old Gift |QID|10058|
 A The Path of Glory |N|Up in the keep| |QID|10047|
 T Waste Not, Want Not |N|At the west tower| |QID|10055|
@@ -65,8 +64,8 @@ T Fel Orc Scavengers |QID|10482|
 A Ill Omens |QID|10483|
 A Unyielding Souls |QID|10050|
 
-A When This Mine's a-Rockin' |N|At the mine under HH| |QID|10079|
-A A Job for an Intelligent Man |QID|9355|
+A A Job for an Intelligent Man |QID|9355| |N|At the mine under HH|
+A When This Mine's a-Rockin' |QID|10079|
 C When This Mine's a-Rockin' |N|Inside, of course| |QID|10079|
 T When This Mine's a-Rockin' |QID|10079|
 A The Mastermind |QID|10099|
@@ -90,13 +89,14 @@ A Zeth'Gor Must Burn! |QID|10895|
 C The Path of Glory |N|Along the road between Hellfire Citadel and the Dark Portal| |QID|10047|
 C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58.77, 46.80) (56.02, 46.67) (53.48, 47.14) (53.00, 47.11)| |U|26002| |QID|10078|
 
+T An Old Gift |N|In the Honor Hold inn| |QID|10058|
+A The Longbeards |N|From the innkeeper| |QID|9558|
+T The Path of Glory |N|Up in the keep| |QID|10047|
+A The Temple of Telhamat |QID|10093|
 T Laying Waste to the Unwanted |N|Back at the tower west of Honor Hold| |QID|10078|
 T Unyielding Souls |QID|10050|
 A Looking to the Leadership |QID|10057|
 T A Job for an Intelligent Man |N|Over by the mine| |QID|9355|
-T An Old Gift |N|In the Honor Hold inn| |QID|10058|
-T The Path of Glory |N|Up in the keep| |QID|10047|
-A The Temple of Telhamat |QID|10093|
 
 R Temple of Telhamat |N|Follow the road east, then take the fork north (23,40)|
 A Deadly Predators |QID|9398|
@@ -170,9 +170,9 @@ A Helboar, the Other White Meat |QID|9361|
 C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Commander Thalvos (54.78, 83.68) in the Expedition Armory| |QID|10057|
 C Helboar, the Other White Meat |N|Kill boars to the east between the armory and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268| |QID|9361|
 
-N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1|
-N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1|
-N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Markd: 1/1| |N|On the hill above the forge (70,71)|
+N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1| |U|31739|
+N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1| |U|31739|
+N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Markd: 1/1| |N|On the hill above the forge (70,71)| |U|31739|
 
 C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)| |QID|10484|
 C In Case of Emergency... |QID|10161|
