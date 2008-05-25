@@ -96,10 +96,20 @@ function TourGuide:GetQuestLogIndexByName(name)
 	end
 end
 
-function TourGuide:GetQuestDetails(name)
+
+function TourGuide:GetQuestLogIndexByQID(qid)
+	for i=1,GetNumQuestLogEntries() do
+		local link = GetQuestLink(i)
+		local thisqid = link and self.QIDmemo[link]
+		if thisqid and qid == thisqid then return i end
+	end
+end
+
+
+function TourGuide:GetQuestDetails(name, qid)
 	if not name then return end
 
-	local i = self:GetQuestLogIndexByName(name)
+	local i = qid and self:GetQuestLogIndexByQID(qid) or self:GetQuestLogIndexByName(name)
 	local complete = i and select(7, GetQuestLogTitle(i)) == 1
 	return i, complete
 end
@@ -129,7 +139,7 @@ function TourGuide:GetObjectiveStatus(i)
 
 	local qid = self:GetObjectiveTag("QID", i)
 
-	return qid and self.turnedinquests[qid] or self.turnedin[self.quests[i]], self:GetQuestDetails(self.quests[i]) -- turnedin, logi, complete
+	return qid and self.turnedinquests[qid] or self.turnedin[self.quests[i]], self:GetQuestDetails(self.quests[i], qid) -- turnedin, logi, complete
 end
 
 

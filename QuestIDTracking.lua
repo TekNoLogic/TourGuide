@@ -16,6 +16,7 @@ local qids = setmetatable({}, {
 		return v
 	end,
 })
+TourGuide.QIDmemo = qids
 
 function TourGuide:QuestID_QUEST_LOG_UPDATE()
 	currentquests, oldquests = oldquests, currentquests

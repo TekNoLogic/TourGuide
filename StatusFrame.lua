@@ -141,10 +141,9 @@ function TourGuide:UpdateStatusFrame()
 	self.updatedelay = nil
 
 	for i in ipairs(self.actions) do
-		local name = self.quests[i]
-		if not self.turnedin[name] and not nextstep then
+		local turnedin, logi, complete = self:GetObjectiveStatus(i)
+		if not turnedin and not nextstep then
 			local action, name, quest = self:GetObjectiveInfo(i)
-			local turnedin, logi, complete = self:GetObjectiveStatus(i)
 			local note, useitem, optional, prereq, lootitem, lootqty = self:GetObjectiveTag("N", i), self:GetObjectiveTag("U", i), self:GetObjectiveTag("O", i), self:GetObjectiveTag("PRE", i), self:GetObjectiveTag("L", i)
 			self:Debug(11, "UpdateStatusFrame", i, action, name, note, logi, complete, turnedin, quest, useitem, optional, lootitem, lootqty, lootitem and GetItemCount(lootitem) or 0)
 			local hasuseitem = useitem and self:FindBagSlot(useitem)
