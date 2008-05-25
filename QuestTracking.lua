@@ -5,7 +5,7 @@ local L = TourGuide.Locale
 local hadquest
 
 
-TourGuide.TrackEvents = {"UI_INFO_MESSAGE", "CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
+TourGuide.TrackEvents = {"UI_INFO_MESSAGE", "CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
 	"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "CRAFT_SHOW"}
 
 
@@ -48,11 +48,6 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 			return self:SetTurnedIn()
 		end
 	end
-end
-
-
-function TourGuide:QUEST_WATCH_UPDATE(event)
-	if self:GetObjectiveInfo() == "COMPLETE" then self:UpdateStatusFrame() end
 end
 
 
