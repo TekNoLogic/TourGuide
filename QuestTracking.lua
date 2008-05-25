@@ -31,14 +31,6 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 		return action == "SETHEARTH" and loc == quest and self:SetTurnedIn()
 	end
 
-	if action == "ACCEPT" then
-		local _, _, text = msg:find(L["Quest accepted: (.*)"])
-		if text and quest:gsub(L.PART_GSUB, "") == text then
-			self:DebugF(1, "Detected quest accept %q", quest)
-			return self:UpdateStatusFrame()
-		end
-	end
-
 	if action == "PET" then
 		local _, _, text = msg:find(L["You have learned a new spell: (.*)."])
 		local nextEntry = #TourGuide.petskills + 1
@@ -57,7 +49,7 @@ function TourGuide:QUEST_LOG_UPDATE(event)
 	local action, _, logi, complete = self:GetObjectiveInfo(), self:GetObjectiveStatus()
 	self:Debug(10, "QUEST_LOG_UPDATE", action, logi, complete)
 
-	if (self.updatedelay and not logi) or action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
+	if action == "COMPLETE" and complete then return self:UpdateStatusFrame() end
 
 	if action == "KILL" or action == "NOTE" then
 		local quest, questtext = self:GetObjectiveTag("Q"), self:GetObjectiveTag("QO")
@@ -99,14 +91,4 @@ function TourGuide:CRAFT_SHOW()
 		self.db.char.petskills[name.. (rank == "" and "" or (" (" .. rank .. ")"))] = true
 	end
 	if self:GetObjectiveInfo() == "PET" then self:UpdateStatusFrame() end
-end
-
-
-local orig = GetQuestReward
-GetQuestReward = function(...)
-	local quest = GetTitleText()
-	TourGuide:Debug(10, "GetQuestReward", quest)
-	TourGuide:CompleteQuest(quest, true)
-
-	return orig(...)
 end
