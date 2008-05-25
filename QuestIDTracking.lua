@@ -31,7 +31,12 @@ function TourGuide:QuestID_QUEST_LOG_UPDATE()
 	end
 
 	if firstscan then
-		local function helper(...) for i=1,select("#", ...) do turnedinquests[select(i, ...)] = true end end
+		local function helper(...)
+			for i=1,select("#", ...) do
+				local val = tonumber((select(i, ...)))
+				if val then turnedinquests[val] = true end
+			end
+		end
 		helper(string.split(",", TourGuideQuestHistoryDB or ""))
 		firstscan = nil
 		return
