@@ -45,18 +45,18 @@ function TourGuide:QuestID_QUEST_LOG_UPDATE()
 
 	for qid in pairs(oldquests) do
 		if not currentquests[qid] then
-			local action = abandoning and "Abandoned quest" or "Completed quest"
+			local action = abandoning and "Abandoned quest" or "Turned in quest"
 			if not abandoning then turnedinquests[qid] = true end
 			abandoning = nil
 			self:Debug(1, action, qid, titles[qid])
-			-- Callback
+			return self:UpdateStatusFrame()
 		end
 	end
 
 	for qid in pairs(currentquests) do
 		if not oldquests[qid] then
 			self:Debug(1, "Accepted quest", qid, titles[qid])
-			-- Callback
+			return self:UpdateStatusFrame()
 		end
 	end
 end
