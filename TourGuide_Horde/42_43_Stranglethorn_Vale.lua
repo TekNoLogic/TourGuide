@@ -21,7 +21,7 @@ C Keep An Eye Out |N|If you have not found this yet Brutus on the single ship ha
 C Akiris by the Bundle |N|Off the Naga at Nek'mani Wellspring (25,63)| |QID|623|
 C Mok'thardin's Enchantment (Part 4) |QID|573|
 
-C Raptor Mastery (Part 4) |N|Tethis kill at (28,44)| |QID|???|
+C Raptor Mastery (Part 4) |N|Tethis kill at (28,44)| |QID|197|
 C Voodoo Dues |N|Two of the named mobs are at the ruins just opposite the arena entrance. The third is on the beach (39,58)| |QID|609|
 C Zanzil's Secret |QID|621|
 C Venture Company Mining |N|At (41,44)| |QID|600|

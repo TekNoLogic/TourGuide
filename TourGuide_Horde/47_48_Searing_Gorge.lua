@@ -38,12 +38,12 @@ T Forging the Shaft |N|Kalaran Windblade (39,38)| |QID|3443|
 A The Flame's Casing |QID|3452|
 C The Flame's Casing |N|Around (24,36) kill til item drops| |QID|3452|
 T The Flame's Casing |N|Kalaran Windblade (39,38)| |QID|3452|
-A The Torch of Retribution (Part 1) |QID|???|
-C The Torch of Retribution (Part 1) |QID|???|
-T The Torch of Retribution (Part 1) |QID|???|
-A The Torch of Retribution (Part 2) |QID|???|
-C The Torch of Retribution (Part 2) |N|Just pick up the torch on the ground| |QID|???|
-T The Torch of Retribution (Part 2) |QID|???|
+A The Torch of Retribution (Part 1) |QID|3453|
+C The Torch of Retribution (Part 1) |QID|3453|
+T The Torch of Retribution (Part 1) |QID|3453|
+A The Torch of Retribution (Part 2) |QID|3454|
+C The Torch of Retribution (Part 2) |N|Just pick up the torch on the ground| |QID|3454|
+T The Torch of Retribution (Part 2) |QID|3454|
 A Squire Maltrake |QID|3462|
 T Squire Maltrake |QID|3462|
 A Set Them Ablaze! |QID|3463|

@@ -1,11 +1,11 @@
 TourGuide:RegisterGuide("Thousand Needles (27-29)", "Hillsbrad Foothills (29-30)", "Horde", function()
 return [[
 F Thousand Needles
-T The Sacred Flame (Part 2) |QID|???|
-A The Sacred Flame (Part 3) |QID|???|
+T The Sacred Flame (Part 2) |QID|1196|
+A The Sacred Flame (Part 3) |QID|1197|
 A A Different Approach |QID|9431|
 
-C The Sacred Flame (Part 3) |N|Charge the brazier in the cave (44,37)| |QID|???|
+C The Sacred Flame (Part 3) |N|Charge the brazier in the cave (44,37)| |QID|1197|
 
 A Hypercapacitor Gizmo |N|At Whitereach Post(21,32)| |QID|5151|
 T Serpent Wild |QID|4865|
@@ -26,7 +26,7 @@ A Arikara |QID|5088|
 
 F Freewind Post
 h Freewind Post
-T The Sacred Flame (Part 3) |QID|???|
+T The Sacred Flame (Part 3) |QID|1197|
 T Wind Rider |QID|4767|
 
 C Grimtotem Spying |N|Take the path up onto the needles (31,36).  The notes are in boxes (31,32) (33,39) (39,41)| |QID|5064|
