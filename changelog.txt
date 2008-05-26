@@ -1,0 +1,503 @@
+2.4.2.25-Beta
+    Horde 2kN fix
+    Horde Un'goro fix
+    Horde Ashenvale fix
+    Don't need to watch QUEST_WATCH_UPDATE, QUEST_LOG_UPDATE covers that
+    Drive Accept/Turnin updates with the QID tracker
+    Fix progression detection not using QIDs
+    Fix QID history not loading correctly
+    Finish up Ally Plaguelands
+    Ally EPL tweakink
+    Fixed Empty Tags :(
+    Horde Searing Gorge 47-48 Update
+    Horde Stranglethorn Vale 47 Update
+    More Horde Nagrand QID fixes
+    Horde Feralas 45-46 Update
+
+2.4.1.23-Beta
+    Ally EPL tweak
+    Update Horde Durotar 1-12
+     - Fixed quest order, some QID's added
+    Update Horde Feralas 45-46
+		 - QID's added, Notes updated, Quest order fixed
+    Noted added to Horde Stonetalon
+    Fixed quest order
+    Add option to not map note coords (why the hell does anyone want this?)
+    QID fixes
+    Add config option to map questgivers if LH is present
+    More fixes to Horde Stonetalon
+    Fix "Jin'zil's Forest Magic" in Horde Stonetalon
+    Fix "Delivery to the Gnomes" chain in Horde guides
+    Cleanup of user ally Azshara guide
+    User-submitted re-done Ally Azshara guide
+     - This guide will NOT be integrated into the guide sequence, the user must manually load it
+    TOO SOON DONGLE!  YOU'RE CALLING MY ENABLE TOO SOON!
+     - Okey, so it's actually calling it twice... but I thought it was funny, fuck you
+    If LH is present, poll it for NPC coords to map for Accept/Turnin objectives
+
+2.4.1.22-Beta
+    Ally WPL tweaks
+    Add quest tooltips into the objectives frame
+    Make a Barrens note a bit clearer
+    Fix missing turnin in Ally Winterspring
+    Horde 44-45 Tanaris Update
+     - Final Update fix quest ordering and spelling
+    Remove the rest of the runaround after Ally Felwood
+    Fix guide flow since Azshara guide was removed
+    Remove most of the Linken questline from ally guides, it's not worth all the runaround anymore
+    More Horde Tanaris 44-45 Changes
+     - Thats what happens when friends call you away from levelling... silly friends
+    "Lieutenant Paval Reethe" is completed in an earlier Horde guide - see Desolace 32-34
+    Horde Tanaris 44-45 Update
+     - Starting Tanaris Update
+
+2.4.1.21-Beta
+    "Lieutenant Paval Reethe" is a prereq for a later quest
+    Ally Felwood tweaks
+    Blizzard has at least one subzone name with trailing whitespace... THEY WIN!
+    Horde Dustwallow 43-44 Update
+     - Includes extra notes from the Ally Dustwallow guide
+     - Complex questing around Mudsprocket needed to use Note objectives with Quest Objective tags
+    Spelling correction
+    Horde Stranglethorn Vale 42-43 Update
+     - Resorted some quests
+     - Added more notes
+     - Updated QID's
+    Horde Swamp of Sorrows 41-42 Changes
+     - Resort some completions to make more sense
+     - Added coords to some quests
+     - Added more notes
+    Nagrand QIDs
+    Darkshore QIDs
+    Fix up ally chain QIDs thru lv60
+    Fix up druid bear quest
+    Major review of Horde Dustwallow Marsh 37-38
+     - Includes importing of comprehensive notes, coords, etc from the Ally Dustwallow guide
+    Minor spelling corrections
+    More Horde Dustwallow 37-38 Tweaks
+    Horde Dustwallow 37-38 tweaks
+    Reorder some accepts to make more sense
+    Move one quest complete from later Dustwallow guide to this one as we are already at the location
+    Fixed Thousand Needles not flowing to Dustwallow
+    Fixed The Crossroads hearth instruction
+    First batch of ally chain QIDs
+    Tag ally chain quests for manual QIDing
+
+2.4.1.20-Beta
+    Make checkboxes change QID log
+    Ally Un'goro tweakings
+    Make use of QID tags, tracked turnin QIDs
+    Remove training watcher, TRAIN objectives were removed
+    Remove PLAYER_LEVEL_UP tracking, this tag was removed
+    First batch of QuestIDs
+     * Only includes quests with unique names, dups will have to be done by hand
+    Name the TourGuideItemFrame so it can be used in /click macros
+
+2.4.1.19-Beta
+    Ally Searing Gorge tweaks
+    Make horde Barrens "Jorn Skyseer" chain optional, players that level in Ghostlands cannot complete it.
+
+2.4.1.18-Beta
+    Remove ally STV 48-49
+    Add QuestID tracking for future use
+    Fix issues with TomTom waypoints
+
+2.4.0.17-Beta
+    Ally Hinterlands tweaks
+    Ally Feralas tweaks
+    Removing Shimmering Flats questchains, we never did the first part
+    Remove "In Search of The Temple" quest chain, we don't go to Swamp of Sorrows now
+    For mapping we need "Ironforge" not "City of Ironforge"
+    Ally Feralas tweaks
+    Clad likes balls.  _A LOT_
+    Fix TomTom version query for stupid users who don't use TomTom
+
+2.3.3.16-Beta
+    Remove fade in from config panels
+    Add TomTom version check, for those slackers that don't have the latest greatest sexy-arrow version
+    Finished Ally STV part 3
+    Update TomTom mapping for new sexy-ass version
+    Updating TOC to 20400
+    Ally STV part 3 fixes
+    Add "About" panel, some TOC metadata
+    Add help panel with icon legend
+    Add panel headers, convert most of WidgetWarlock to tekKonfig
+    Enhancements to guide list
+    Convert config panels to new Blizzy config frame, removed OH
+
+2.3.3.15-Beta
+    Finished ally Badlands
+    File rename (yes I'm _THAT_ OCD)
+    Finished up ally STV part 2
+    Finished playtesting first ally STV, Dustwallow, starting into second STV
+    Removing ally Thousand Needle guide
+    Ally Desolace tweak
+    Cleanup ally early-30 guides a bit
+    Fix Dun Morogh not progressing to Darkshore
+
+2.3.3.14-Beta
+    Shadowmoon tweaks
+    Ally dustwallow tweaks
+    Remove default to disabled, why did I put this in in the first place?
+    Netherstorm tweaks
+    Oops, one more thing for Ashenvale
+    Ally Ashenvale tweaks
+
+2.3.3.13-Beta
+    Ally STV reworking (god this zone sucks)
+    Convert tame-for-skill objectives to new PET objective
+    Cleanup of pet skill tracking, make it store across sessions
+    User patch to add pet training tracking
+    User Ally Badlands tweaks
+    User Ally Plaguelands tweaks
+    User Ally Silithus tweaks
+    User Ally Burning Steppes tweaks
+    Horde typo
+    Horde coord fix
+
+2.3.3.12-Beta
+    Quest name fix
+    Ally Blade's edge updates
+    Ally zangar coord tweak
+    Duskwood playtesting
+    Fix set hearth detection if the current objective is not "SETHEARTH"
+    File renamink
+    Tweak title position down a tad
+    Attach objectives frame to the status frame instead of OptionHouse
+    Track hearth changes, skip SETHEARTH objectives that are not needed.
+    Update guides to use new SZ tag
+    Add "SZ" tag, to be used with travel objectives where a second zonename is needed (hearthing to inns that have their own subzone)
+    Ogre Head On A Stick ~= Party at these coords... fixes #259
+    "The Videre Elixir" is a turnin-only quest, fixes issue #253
+
+2.3.3.11-Beta
+    Finish off The Missing Diplomat while we're in Dustwallow
+    Finished off new Dustwallow bits, all that's left is the Missing Diplomat chain, ugh
+    Tiny ally Ashenvale tweak
+    Tweak to ally Ashenvale... stupid tower of Anthrax chair...
+    Continue the "Goblin Sponsorship" chain later...
+    Forgot a part of the Goblin Sponsorship chain
+    User Redridge tweaks
+    Traveling to Theramore first is always a good idea
+    Add guide for northern STV before Dustwallow, make DW guide actually load
+    Have the player get the Rebel Camp flight point on their way out of Duskwood
+    Have the player pick up the Theramore FP on their way to Desolace
+    Starting ally Dustwallow guide
+    Add ally pally lv20 quest
+    User ally tweaks
+    User ally Desolace tweaks, new guide for the Shimmering Flats raceway
+    Nagrand tweaks
+    Redridge tweak
+    More ally Blade's tweaks
+    User Wetlands tweak
+    Redridge tweaks
+    Duskwood coord fix
+    Ungoro tweak, fixes #260
+    Ally Blade's Edge tweaks
+    Fix references to the non-existant zone "Hinterlands"
+    Remove "A Message to Telaar" from ally Nagrand, we never accepted the quest.
+
+2.3.3.10-Beta
+    Remove "Seek Out Ameer", it requires reputation.  Fixes issue #250
+    Push down buying [Elixir of Fortitude] until the player's last visit to a city before it's needed
+    Add "Questlevel" addon warning, because I'm sick of people reporting that TG's detection doesn't work because they didn't read the fucking "How to report a bug" page.
+    No, your other north, fixes #234
+    "Cenarion Aid" is priest-only, fixes #244
+    Fix quest order for "Veil Skith: Darkstone of Terokk", fixes #241
+    Fix case of "Keep An Eye Out", fixes #238
+    Ally tweaks, Wetlands, Redridge, Duskwood
+
+2.3.3.9-Beta
+    Ally Wetlands tweaks
+    Ally guide renaming
+    Removing Ally Darkshore 23-24
+     - Merging Ally Ashenvale 21-22 and 24-25
+    Removing Ally Stonetalon, not really needed anymore
+    Ashenvale tweaks
+
+2.3.2.8-Beta
+    Fix horde guide transitions
+    Add "Deadwood Ritual Totem" optional item-started quest to guides
+    Remove "Reclaiming the Charred Vale" from Ally Desolace guide, no real point in doing it
+    Added town tags to guide
+    Last of the Bloodmyst tweakings, guide has been completely playtested now.
+    Fix up Horde STV (39-40) a tad, needs more though
+    Ally Blade's edge tweaks, Bloodmyst tweaks
+    More Bloodmyst playtesting
+    Tweak "The Bloodcurse Legacy" to be an optional chain, since it requires completion of an Azuremyst chain
+    More Bloodmyst tweaks
+    Remove ally quests from Horde Felwood
+     - Fix coords for Cleansing Felwood, Horde get this from a different NPC
+     - Fixes #226
+    Duplicate turnin objective
+     - Fixes #216
+    No, your other East.
+     - Fixes #210
+    Move "Missing Friends" quest down in Terokkar guide, it has a prereq.
+     - Fixes #220
+    Typo, fixes #228
+    Bloodmyst tweakings
+    Nagrand tweaks
+
+2.3.0.7-Beta
+    Tweaks to Ghostlands
+    Tweaks to ally darkshore/ashenvale
+    Darkshore/ashenvale tweaks
+    Cleanup of user Azuremyst/Bloodmyst guides
+    User draenei guides
+    Cleanup of user teldy changes
+    User Teldy tweaky
+    Horde guide tweaks
+    Locks need the Ratchet FP early, OVERPOWERED!
+    Syncing Ally and Horde Shadownmoon guides
+    Syncing Ally and Horde Netherstorm guides
+    Syncing Ally and Horde Blade's Edge guides
+    Syncing Ally and Horde Nagrand guides
+    Syncing Ally and Horde Terokkar guides
+    Cleanup of user-submitted Horde Zangar guide
+    Cleanup of user-submitted Horde Hellfire guide
+    Arathi cleanup
+    Add |T| tag.  Makes objectives show up with a green background, used to indicate the player should be doing things in a "town"
+    Ally guide fixes
+    User ally arathi tweaks
+    [PATCH] Nagrand Use: Items
+    Possible fix for optional TURNIN objectives not showing up (fedex quests mainly)
+    Tweaks to user ally guides
+    User-submitted Horde 60-70 guides
+    More user ally Hillsbrad tweaks
+    User ally Hillsbrad tweaks
+    User Ally Ashenvale and Wetlands tweaks
+    User darkshore tweaks
+    User-submitted ally tweaks
+
+2.3.0.6-Beta
+    Adding "Arachnophobia" to horde guides, quest isno longer elite
+    Ally Shadowmoon tweaks
+    Ally Nagrand fix
+    Fix debug not reporting past the first error found
+    Ghostland tweaks
+    Cleanup of Horde Ashenvale 26-67
+    User-submitted Horde Ashenvale tweaks
+    Shadowmoon no longer Aldor-specific
+    Ally Shadownmoon rejiggering
+    Might fix Carto waypoints not going away on objective completion, might just fuck up Carto support completely... not that I care either way :P
+    User fixes to horde dustwallow
+    Tweaking ally guides to use |PRE| tag
+		Terokkar is no longer Aldor-specific
+     * Netherstorm now handles Aldor questline... need someone to make/test Scryers
+    Terokkar tweakkars
+    Change how DumpLoc reports back points
+    Add |PRE| tag for A obj.
+     - Accepts a quest name, when used with the |O| tag the A obj will only show up if the quest has been completed IN THE CURRENT GUIDE
+     - Intended for follow-ups to optional quests
+    Removing |LV| tag
+    Loot-optional accept objective fix
+    [Patch] Typo in Nagrand (65-66) Guide (Alliance)
+    New Teldy quests I never knew existed...
+    Fix shitty Teldrassil quest
+    Ally Plaguelands tweaks
+    Horde Plaguelands tweaks, including a lot of notes from the Ally guides
+    Sync Ally and Horde Felwood (as much as possible), merge second trip thru Felwood into Winterspring guide
+    Sync Ally and Horde Un'goro (as much as possible)
+    Cleanup of user-submitted Horde 50-60
+    Fix file names for Horde 50-60
+    Cleanup of user-submitted Horde 40-50
+    Cleanup of user-submitted Horde 30-40
+    Cleanup of user-submitted Horde 23-30
+    More Shadowmooning
+    Hoomon pally class quest
+    Cleanup of user-submitted Redridge tweaks
+    Redridge user tweaks
+    Elwynn guide tweaks
+    More Shadowmoon crap
+    Patch fixing: incorrect directions to "Hints of a New Plague?", typo in directions to Nijel's Point.
+    Fixes to user Darkshore tweaks
+    Darkshore user tweaks
+    Shadowmoon fix
+    User submitted horde 50-60 guides
+    User-submitted horde 40-45 updates
+    User-submitted horde 30-40 updates
+    User-submitted horde 23-30 updates
+
+2.3.0.5-Beta
+    Elwynn and Darkshore tweakings
+    Finished ally Netherstorm, added Shadowmoon (Aldor)
+    Tweaks to "The Ashenvale Hunt" for Horde
+    Adding in Horde 21-23 guides, need testing!
+    Ghostland tweaks
+    Elwynn tweaks
+    Ally fixups with new debug
+    Horde fixups using new debug
+    All-debug improvements
+    Barrens guide cleanup (still needs major playtesting though!)
+    Tirisfal tweakage
+    Added Horde Stonetalon guide
+     * Tweaks to Barrens guide
+     * Belf zones now flow into Stonetalon guide after a bit of "filler" at Camp T
+    Barrens guide lasts till 20...
+    More Ghostlands revamp
+    Fix for non-TomTom users (they phail)
+
+2.3.0.4-Beta
+    Ghostlands revamp
+    Loch modan typo
+    I was 12.26 when I finished this guide...
+    Fix "Ironforge" --> "City of Ironforge
+    Ye gods, humans suck.  Think I've got this bitch cleaned up finally...
+    Fix "not listed" quest stuff displaying at the wrong time after login/reload
+    Fixing issues when guide is completed and no followup to load
+     * Guides now default back to "no guide loaded" guide, which cannot be completed
+     * Clicking the status frame in "No Guide" will open the guide list instead of the objective list
+     * Guide list properly shows complete guides as 100%
+     * Shift-clicking a guide in the list will wipe it's completion
+    Human crap, actually leveling a stupid human, bleh...
+     - Stupid Hogger quest has two stupid spaces in it aparently.  GG Blue
+    Zangar done, onward to Terokkar!
+    Teldy/Darkshore fixes
+    Fixing item button not appearing if the objective changes while the player is in combat
+    Save quest completion per-zone to avoid conflicts
+    Fixes to user-submitted hoomon guide
+    Merge Northshire Valley and Elwynn guides together (same zone)
+    User-submitted updates to human starter zone
+    Ghostlands updates
+    More starter horde playtesting
+    More zangar, almost done!
+    And more Zangar ally updates...
+
+2.3.0.3-Beta
+    Horde Mulgore tweaks after playtestink
+    Removing Grind objectives
+    Removing Train objectives
+    Merge sunstrider guide into eversong, they're all the same zone
+    Cleanup of Horde guides, removing Grind objectives
+    Zangar...
+    Zangar... seriously what the fuck am I sposda say? playtesting... blah blah blah
+    Make sure all ally guides are getting loaded
+    Updates to user-submitted undead start zone guide
+    Horde 1-20 fixup
+     * All races should be in now
+     * All non-BC start zones *should* flow correctly into the Barrens
+    Yet more zangar playtesting
+    More zangar playtesting
+    Fix Dustwallow Marsh name
+    User submitted undead 1-12 guide
+     - http://code.google.com/p/tekkub-wow/issues/detail?id=166
+    User submitted guide tweaks
+     - http://code.google.com/p/tekkub-wow/issues/detail?id=172
+    Ally Zangar tweaks
+    Mulgore/barrens tweaking
+    Spelling is for losers
+    Starting playtestenig of Ally Zangarmarsh
+    All done with ally HFP, added some quests that weren't there, good stuff... puking, exorcism, firebombing...
+    Make new ally guides actually load
+    Move Ally guides to the new path
+    More cleanup of Ally 64-66 user submissions.  Not play-tested yet, but soon!
+    Minor tweaks to Dun Morogh
+    More hellfire, almost done!
+    Last of the darkshore tweaks, finished playtesting the zone
+    Ally Hellfire... finished out the rest of the guide, some still needs tested
+    More Darkshore crap
+    Cleanup of user submitted alliance guides
+    Fixing line endings, stupid CRLF bullshit
+    User submitted Ally 64-66 guides
+
+2.3.0.2-Beta
+    Fix status frame skipping A obj when turning in a chain quest where the follow-up is offered directly
+    Add guide progress texts
+    Ally, Penis, you know the drill
+    Yet more Aly Hellfire Penisula
+    Buggerfuck
+    More localization.
+     - SAY IT FRENCHIE!  SAY CHOWDAH!
+    Nelf zone tweaks
+    Fix false matches when quest name matches a questlog title (stupid Teldrassil)
+    Move Shadowglen into Teldrassil, we generally don't break sub-zones out into their own guide
+    More Teldrassil tweaks
+    Tweak Dorf/Gnome starting guide to use race tag
+    Added race tag, "|R|Dwarf|".  Works same way class tags work.
+    Make waypoints purge every time the status frame changes, not just when there is a note
+    Teldrassil tweakage
+    Always update the OH frame OnShow
+    Tweak how waypoint purging is handled, so we never leave any old points
+    Make config panel fade in
+    Ally Hellfire update
+    Remove old debug frame that's not used anymore
+    Add OH Config panel
+    Only track quests if option is enabled
+    Grey out optional objectives that weren't completed, add "Optional" tag to titles in OH frame
+    Fix OH obj frame not updating OnShow if in the first/last 5 quests
+    More Ally Hellfire Penisula data
+    Remove waypoints from old objective when it is completed.
+    Ally guide updates after debug scan
+    Tweaks to parser debuggery, can now debug all loaded guides at once
+    Ally Hellfire Penisula update
+    Ally EPL guide updates
+    Add guide title to OH objectives frame
+    Fix debug checking to test entire line for bad chars, not just quest name
+    Adding magic localization table, deDE locale strings from decimad
+    - See Issue #125
+    Ally Hellfire Penisula tweaks
+    Shadowglen tweaks
+
+2.2.0.635-Beta
+    Rejiggering so data folders can be pulled out into their own standalone addons.
+    Adding new horde guides to TOC
+    Fixing line endings, stupid CRLF bullshit
+    Forgot to add new WPL file to TOC
+    More user submitted Horde 27-38 updates
+    User submitted Horde 27-38 updates
+    More ally plaguelands (almost done... almost 60!)
+    Still more ally plaguelands
+    More ally plaguelands
+    Minor tweaks to user-submitted Horde 44-47 guides
+    Adding user-submitted Horde 44-47 guides
+    Fix Issue #136
+    I already forgot did I change something
+    Playtesting tweaks
+    More tweaks to ally sillythis
+    Adding Ally WPL guide
+    Added 28-29_Duskwood in .toc, also fixed stuff from the same part
+    Alliance Silithus updates after some play-testing
+    redridge tweaks
+    tweaks to wetlands
+    wetlands tweaks
+    tweaks to 24-25 ashenvale
+    tweaks to 23-24
+    err, I actually forgot what I changed. something in Darkshore + maybe more
+    small changes into Redridge
+    TOC update
+    small changes in this one
+    i hate to rework my text, but it had to. ie. Beached Sea Creatures and Turtles removed etc
+    lets move the icon for 'use' 60 left too
+    StatusFrame moved 60 pixels to the left so it doesnt go over the DurabilityFrame
+    Removed reminders to train levels in Night Elf starting areas
+    Finetuned 06_12_Teldrassil.lua quite alot
+    Cleanup of submitted Dun Morough guide
+    Split gnome and dorf starter quests into 2 files, to avoid class overlap
+    Fixed Accept of class-specific quests
+    Adding Dun Morogh (1-11) guide
+    Cleanup of submitted ally 27-33
+    Adding ally 28-33 guides, need edited a bit
+    Shadowglen finetune
+    Adding zone tags to many guides to fix mapping
+    Rename Azuremist file
+    Complete out some missing bits in Tanaris (43)
+    Mulgore play-testing tweaks
+    Added Silithus-Ally, partially playtested.
+    Added Mulgore guide, only playtested to lv5 so far
+    More guide data, now bed
+    Whops, now it is gone from .toc
+    28_29_Duskwood.lua added for testing. not in .toc
+    Ally Zangarmarsh, thanks srigharts
+    Ally Winterspring!
+    Guide tweaking after play-testing
+    Fix for issue #122, TourGuide:CompleteQuest(...) will gracefully fail if no guide is loaded (doesn't prevent quest turnin with an error)
+    More ally guide data... Felwood, etc.
+    Adding Ally Desolace guide, edited fro issue #98
+    Adding callback support for Orionshock's Fubar plugin
+    I'm so excited, I've got Felwood!
+    Fixing parser error, see issue #119
+    Moved guide and tag parser to own file, totally rewrote tag parsing ***UNTESTED***
+    Kill now completes on the same conditionals as Note
+    Added "Kill" objectives, Quest and Quest Objective tag pair... allows for detection of completion of just one sub-objective of a quest, like "Young Thistle Boar slain: 4/4"
+    Ally Un'goro cleanup
