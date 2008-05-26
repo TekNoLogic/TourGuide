@@ -78,6 +78,7 @@ T Roll the Bones |QID|3882|
 T Alien Ecology |QID|3883|
 T Expedition Salvation |QID|3881|
 T Larion and Muigin |QID|4145|
+A Marvon's Workshop |QID|4147|
 T The Northern Pylon |QID|4285|
 T The Eastern Pylon |QID|4287|
 T The Western Pylon |QID|4288|
