@@ -3,7 +3,7 @@ return [[
 H Orgrimmar
 F The Crossroads
 A The Swarm Grows (Part 1) |N|From Korran, west of windrider (51.1, 29.6)| |Z|The Barrens|
-T Regthar Deathgate |N|West of Crossroads in the bunkers (45.3, 28.4)| |QID|1361|
+T Regthar Deathgate |N|West of the Crossroads in the bunkers (45.3, 28.4)| |Z|The Barrens| |QID|1361|
 A The Kolkar of Desolace |N|West of Crossroads in the bunkers (45.3, 28.4)| |Z|The Barrens| |QID|1362|
 
 R Shimmering Flats |N|Run back to Crossroads and fly down to Thousand Needles|
