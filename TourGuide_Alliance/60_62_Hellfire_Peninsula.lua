@@ -106,9 +106,9 @@ C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Comm
 C Helboar, the Other White Meat |N|Kill boars to the east between the armory and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268| |QID|9361|
 
 A Zeth'Gor Must Burn! |QID|10895| |N|At Expedition Point.  The item will decay, so if you grabbed this earlier you'll have to go get it again.|
-N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1| |U|31739|
-N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1| |U|31739|
-N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Markd: 1/1| |N|On the hill above the forge (70,71)| |U|31739|
+N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1| |U|31739| |N|To the southwest in front of Zeth'Gor (68,67)|
+N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1| |U|31739| |N|(70,69)|
+N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Marked: 1/1| |N|On the hill above the forge (70.95, 71.12)| |U|31739|
 
 C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)| |QID|10484|
 C In Case of Emergency... |QID|10161|
