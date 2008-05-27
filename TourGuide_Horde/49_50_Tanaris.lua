@@ -46,10 +46,10 @@ C Rescue OOX-17/TN! |QID|648|
 
 H Gadgetzan
 T The Scrimshank Redemption |QID|10|
-A Insect Part Analysis (Part 1) |QID|???|
-T Insect Part Analysis (Part 1) |QID|???|
-A Insect Part Analysis (Part 2) |QID|???|
-T Insect Part Analysis (Part 2) |QID|???|
+A Insect Part Analysis (Part 1) |QID|110|
+T Insect Part Analysis (Part 1) |QID|110|
+A Insect Part Analysis (Part 2) |QID|113|
+T Insect Part Analysis (Part 2) |QID|113|
 A Rise of the Silithid |QID|4267|
 ]]
 end)

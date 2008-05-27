@@ -29,7 +29,7 @@ A Zaeldarr the Outcast |N|Southwest near the corpse pits (79,63)| |QID|6021|
 
 N Free Spirits... |N|Kill any cannibal ghouls, gibbering ghouls and diseased flayers you come across.  Speak to any ghosts that spawn for "Defenders of Darrowshire".|
 C Demon Dogs |N|Plaguehounds near Light's Hope to the east, Frenzied Plaguehound in the north half of the zone.| |QID|5542|
-C A Plague Upon Thee (Part 1) |N|Find termite mounds all around the northern part of the zone.| |QID|???|
+C A Plague Upon Thee (Part 1) |N|Find termite mounds all around the northern part of the zone.| |QID|5901|
 
 C To Kill With Purpose |QID|6022|
 C Defenders of Darrowshire |QID|5211|

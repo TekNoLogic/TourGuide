@@ -11,7 +11,7 @@ T A Taste of Flame |QID|4024|
 T Dreadmaul Rock |N| At (79,45)| |QID|3821|
 
 C Krom'Grul |N| He has two spawn points in either cave| |QID|3822|
-C The Rise of the Machines (Part 1) |QID|???|
+C The Rise of the Machines (Part 1) |QID|4061|
 C Tablet of the Seven |N| Loc: (54,40)| |QID|4296|
 
 T Tablet of the Seven |QID|4296|
@@ -20,10 +20,10 @@ A Felnok Steelspring |QID|4808|
 
 F Kargath
 T Krom'Grul |QID|3822|
-T The Rise of the Machines (Part 1) |QID|???|
-A The Rise of the Machines (Part 2) |QID|???|
-C The Rise of the Machines (Part 2) |QID|???|
-T The Rise of the Machines (Part 2) |N|In the Badlands (25,44)| |Z|Badlands| |QID|???|
+T The Rise of the Machines (Part 1) |QID|4061|
+A The Rise of the Machines (Part 2) |QID|4062|
+C The Rise of the Machines (Part 2) |QID|4062|
+T The Rise of the Machines (Part 2) |N|In the Badlands (25,44)| |Z|Badlands| |QID|4062|
 
 H The Crossroads
 F Orgrimmar

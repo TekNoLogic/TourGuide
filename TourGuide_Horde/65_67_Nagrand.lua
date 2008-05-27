@@ -2,23 +2,22 @@
 TourGuide:RegisterGuide("Nagrand (65-67)", "Blade's Edge Mountains (67-68)", "Horde", function()
 return [[
 R Nesingwary Safari |N|In the northeast corner of the zone (71,40)|
-A Windroc Mastery (Part 1) |QID|???|
-A Clefthoof Mastery (Part 1) |QID|???|
-A Talbuk Mastery (Part 1) |QID|???|
+A Windroc Mastery (Part 1) |QID|9854|
+A Clefthoof Mastery (Part 1) |QID|9789|
+A Talbuk Mastery (Part 1) |QID|9857|
 
 N Rep tokens... |N|If you're not already friendly with Consortium you can collect Elekk tusks and Oshu'gun Crystal Fragments for rep, and xp for the first turnin. Keep any Oshu'gun Crystal Powder you find for rewards later.  Obsidian Warbeads from the ogres in the zone can be turned it for Kurenai or Consortium rep.|
 
-C Windroc Mastery (Part 1) |N|There's a camp of these southwest of Nesingwary, as well as northwest.| |QID|???|
-C Talbuk Mastery (Part 1) |N|Just north of Nesingwary.| |QID|???|
-C Clefthoof Mastery (Part 1) |N|Mostly south of Nesingwary.| |QID|???|
+C Windroc Mastery (Part 1) |N|There's a camp of these southwest of Nesingwary, as well as northwest.| |QID|9854|
+C Talbuk Mastery (Part 1) |N|Just north of Nesingwary.| |QID|9857|
+C Clefthoof Mastery (Part 1) |N|Mostly south of Nesingwary.| |QID|9789|
 
-T Windroc Mastery (Part 1) |QID|???|
-T Clefthoof Mastery (Part 1) |QID|???|
-T Talbuk Mastery (Part 1) |QID|???|
-
-A Windroc Mastery (Part 2) |QID|???|
-A Clefthoof Mastery (Part 2) |QID|???|
-A Talbuk Mastery (Part 2) |QID|???|
+T Windroc Mastery (Part 1) |QID|9854|
+A Windroc Mastery (Part 2) |QID|9855|
+T Clefthoof Mastery (Part 1) |QID|9789|
+A Clefthoof Mastery (Part 2) |QID|9850|
+T Talbuk Mastery (Part 1) |QID|9857|
+A Talbuk Mastery (Part 2) |QID|9858|
 
 A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest| |QID|9861|
 T The Howling Wind |N|North of Garadar across the lake at the Throne of the Elements (60,22)| |QID|9861|
@@ -41,9 +40,9 @@ A Wanted: Giselda the Crone |N|Poster| |QID|9936|
 A Wanted: Zorbo the Advisor |N|Poster| |QID|9940|
 A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8)| |QID|9913|
 
-C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.| |QID|???|
+C Talbuk Mastery (Part 2) |N|West of the Throne of Elements. Keep an eye out for dung for "A Rare Bean" too - it really blends in, but it's in this area.| |QID|9858|
 C A Rare Bean |QID|9800|
-C Clefthoof Mastery (Part 2) |N|South and west of Garadar| |QID|???|
+C Clefthoof Mastery (Part 2) |N|South and west of Garadar| |QID|9850|
 
 R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the alliance.  Watch out for the patrols on the main road.|
 A Matters of Security |QID|9925|
@@ -63,7 +62,7 @@ N Kill elementals... |N|Kill any air elementals you happen across for "I Must Ha
 
 C The Tortured Earth |N|All over the eastern part of the zone| |QID|9819|
 
-C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)| |QID|???|
+C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)| |QID|9855|
 
 R Mag'hari Procession |N|(32,36)|
 T The Missing War Party |QID|9864|
@@ -109,9 +108,9 @@ A Success! |QID|10440|
 T Success! |N|(19,60) Kilrath| |Z|Terokkar Forest| |QID|10440|
 A Because Kilrath is a Coward |QID|9891|
 
-T Windroc Mastery (Part 2) |QID|???|
-T Clefthoof Mastery (Part 2) |QID|???|
-T Talbuk Mastery (Part 2) |QID|???|
+T Windroc Mastery (Part 2) |QID|9855|
+T Clefthoof Mastery (Part 2) |QID|9850|
+T Talbuk Mastery (Part 2) |QID|9858|
 
 C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467| |QID|9805|
 
