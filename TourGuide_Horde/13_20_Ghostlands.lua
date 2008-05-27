@@ -48,7 +48,7 @@ C Anok'suten |QID|9315|
 A Dealing with Zeb'Sora |N|To the east on the coast of Lake Elrendar (69,15)| |QID|9143|
 A Forgotten Rituals |N|On the island (72,19)| |QID|9157|
 
-R Farstrider Enclave |N|To the south (72,32|
+R Farstrider Enclave |N|To the south (72,32)|
 A Bearers of the Plague |QID|9158|
 A Spirits of the Drowned |QID|9274|
 
