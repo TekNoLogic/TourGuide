@@ -84,7 +84,6 @@ C Ill Omens |N|Kill orcs to the southeast at Zeth'gor (67,75)| |QID|10483|
 
 T Ill Omens |N|Back at Expedition Point (70.97, 63.36)| |QID|10483|
 A Cursed Talismans |QID|10484|
-A Zeth'Gor Must Burn! |QID|10895|
 
 C The Path of Glory |N|Along the road between Hellfire Citadel and the Dark Portal| |QID|10047|
 C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58.77, 46.80) (56.02, 46.67) (53.48, 47.14) (53.00, 47.11)| |U|26002| |QID|10078|
@@ -98,14 +97,65 @@ T Unyielding Souls |QID|10050|
 A Looking to the Leadership |QID|10057|
 T A Job for an Intelligent Man |N|Over by the mine| |QID|9355|
 
+C Ravager Egg Roundup |N|Southwest of the crashed zeppelin along the Razorthorn Trail (39,86)| |QID|9349|
+
+T Ravager Egg Roundup |N|Back at the crashed zeppelin (49,74)| |QID|9349|
+A Helboar, the Other White Meat |QID|9361|
+
+C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Commander Thalvos (54.78, 83.68) in the Expedition Armory| |QID|10057|
+C Helboar, the Other White Meat |N|Kill boars to the east between the armory and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268| |QID|9361|
+
+A Zeth'Gor Must Burn! |QID|10895| |N|At Expedition Point.  The item will decay, so if you grabbed this earlier you'll have to go get it again.|
+N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1| |U|31739|
+N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1| |U|31739|
+N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Markd: 1/1| |N|On the hill above the forge (70,71)| |U|31739|
+
+C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)| |QID|10484|
+C In Case of Emergency... |QID|10161|
+
+T Cursed Talismans |N|At Expedition Point (70,63)| |QID|10484|
+A Warlord of the Bleeding Hollow |QID|10485|
+
+C Zeth'Gor Must Burn! |N|Northern Tower (68,67), Southern Tower (66,76), Forge Tower (70,69), Foothill Tower (70,71)| |U|31739| |QID|10895|
+C Warlord of the Bleeding Hollow |N|In the big building in Zeth'Gor (69,76)| |QID|10485|
+
+T Warlord of the Bleeding Hollow |N|Back at Expedition Point| |QID|10485|
+A Return to Honor Hold |QID|10903|
+T Zeth'Gor Must Burn! |QID|10895|
+
+T Return to Honor Hold |QID|10903| |N|Gee, back at HH maybe?|
+A Fel Spirits |QID|10909|
+A Digging for Prayer Beads |QID|10916|
+C Digging for Prayer Beads |N|Buy a Silken Thread From the tailor upstairs in the inn, a Maiden's Anguish from the reagent vendor in the tower, then a dog treat in the court yard.  Give it to the dog, follow it around...| |QID|10916|
+T Digging for Prayer Beads |QID|10916|
+
 R Temple of Telhamat |N|Follow the road east, then take the fork north (23,40)|
-A Deadly Predators |QID|9398|
+A An Ambitious Plan |QID|9383|
+f Grab flightpoint |N|East of the inn|
+
+T Looking to the Leadership |N|Back at Honor Hold, at the tower to the west| |QID|10057|
+
+T In Case of Emergency... |N|Back at the crashed zeppelin| |QID|10161|
+A Voidwalkers Gone Wild |QID|9351|
+T Helboar, the Other White Meat |N|Skip the follow-up| |QID|9361|
+
+C An Ambitious Plan |N|Go down to the Warp Fields (50,83), attack an uncontrolled voidwalker, use the crystal on it when it's ~25% HP| |U|23417| |QID|9383|
+C Voidwalkers Gone Wild |N|West of the armory| |QID|9351|
+
+T Voidwalkers Gone Wild |N|Yet again, back at the zeppy| |QID|9351|
+
+C Fel Spirits |N|West of the crashed zepplin at Gor'gaz Outpost (45,76).  Use the relic, kill orcs near it.| |U|31772| |QID|10909|
+T Fel Spirits |N|Back up in the Honor Hold inn| |QID|10909|
+A The Exorcism of Colonel Jules |QID|10935|
+C The Exorcism of Colonel Jules |N|Help the priest out, this is a fun one!  You can use the beads to banish spirits.| |U|31828| |QID|10935|
+T The Exorcism of Colonel Jules |QID|10935|
+
+T An Ambitious Plan |QID|9383| |N|Back at Temple of Telhamat|
 A Cruel Taskmasters |QID|9399|
 A In Search of Sedai |QID|9390|
 T The Temple of Telhamat |QID|10093|
 A The Pools of Aggonar |QID|9426|
 h Temple of Telhamat
-f Grab flightpoint |N|East of the inn|
 
 T In Search of Sedai |N|East of the FP (26,37)| |QID|9390|
 A Return to Obadei |QID|9423|
@@ -122,6 +172,7 @@ T The Pools of Aggonar |QID|9426|
 A Cleansing the Waters |QID|9427|
 T Atonement |QID|9543|
 A Sha'naar Relics |QID|9430|
+A Deadly Predators |QID|9398|
 
 A Missing Missive |O| |U|23338| |QID|9373|
 T Missing Missive |N|Southwest at the Cenarion Post (15,52)| |O| |QID|9373|
@@ -140,6 +191,8 @@ T Arzeth's Demise |QID|10369|
 
 C Cruel Taskmasters |QID|9399|
 C Sha'naar Relics |QID|9430|
+
+C Deadly Predators |N|To the southeast in the Great Fissure| |QID|9398|
 
 T The Longbeards |N|To the southeast between the ravagers and the arakkoa (23,72)| |QID|9558|
 A The Arakkoa Threat |QID|9417|
@@ -161,70 +214,17 @@ C The Arakkoa Threat |QID|9417|
 T The Finest Down |N|Back at the Longbeards' Camp| |QID|9420|
 T The Arakkoa Threat |QID|9417|
 
-C Deadly Predators |N|To the southeast in the Great Fissure| |QID|9398|
-C Ravager Egg Roundup |N|Southwest along the Razorthorn Trail (39,86)| |QID|9349|
-
-T Ravager Egg Roundup |N|Back at the crashed zeppelin (49,74)| |QID|9349|
-A Helboar, the Other White Meat |QID|9361|
-
-C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Commander Thalvos (54.78, 83.68) in the Expedition Armory| |QID|10057|
-C Helboar, the Other White Meat |N|Kill boars to the east between the armory and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268| |QID|9361|
-
-N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1| |U|31739|
-N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1| |U|31739|
-N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Markd: 1/1| |N|On the hill above the forge (70,71)| |U|31739|
-
-C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)| |QID|10484|
-C In Case of Emergency... |QID|10161|
-
-T Cursed Talismans |N|At Expedition Point (70,63)| |QID|10484|
-A Warlord of the Bleeding Hollow |QID|10485|
-
-C Zeth'Gor Must Burn! |N|Northern Tower (68,67), Southern Tower (66,76), Forge Tower (70,69), Foothill Tower (70,71)| |U|31739| |QID|10895|
-C Warlord of the Bleeding Hollow |N|In the big building in Zeth'Gor (69,76)| |QID|10485|
-
-T Warlord of the Bleeding Hollow |N|Back at Expedition Point| |QID|10485|
-A Return to Honor Hold |QID|10903|
-T Zeth'Gor Must Burn! |QID|10895|
-
 H Temple of Telhamat
 T Sha'naar Relics |QID|9430|
 A The Seer's Relic |QID|9545|
-A An Ambitious Plan |QID|9383|
-T Deadly Predators |N|South of town| |QID|9398|
 T Cruel Taskmasters |QID|9399|
 
 C The Seer's Relic |N|Go back to Sedai's corpse and use the relic on it.  Sit back, grab some popcorn, and enjoy the show!| |U|23645| |QID|9545|
 C Cleansing the Waters |N|Use the vial on Aggonar's corpse in the northern part of the Pools of Aggonar (40,31)| |U|23361| |QID|9427|
 
-T The Seer's Relic |N|Back at the temple| |QID|9545|
+T Deadly Predators |N|Back at Temple of Telhamat| |QID|9398|
+T The Seer's Relic |QID|9545|
 T Cleansing the Waters |QID|9427|
-
-F Honor Hold
-T Return to Honor Hold |QID|10903|
-A Fel Spirits |QID|10909|
-A Digging for Prayer Beads |QID|10916|
-C Digging for Prayer Beads |N|Buy a Silken Thread From the tailor upstairs in the inn, a Maiden's Anguish from the reagent vendor in the tower, then a dog treat in the court yard.  Give it to the dog, follow it around...| |QID|10916|
-T Digging for Prayer Beads |QID|10916|
-T Looking to the Leadership |N|At the tower to the west| |QID|10057|
-
-T In Case of Emergency... |N|Back at the crashed zeppelin| |QID|10161|
-A Voidwalkers Gone Wild |QID|9351|
-T Helboar, the Other White Meat |N|Skip the follow-up| |QID|9361|
-
-C An Ambitious Plan |N|Go down to the Warp Fields (50,83), attack an uncontrolled voidwalker, use the crystal on it when it's ~25% HP| |U|23417| |QID|9383|
-C Voidwalkers Gone Wild |N|West of the armory| |QID|9351|
-
-T Voidwalkers Gone Wild |N|Yet again, back at the zeppy| |QID|9351|
-
-C Fel Spirits |N|West of the crashed zepplin at Gor'gaz Outpost (45,76).  Use the relic, kill orcs near it.| |U|31772| |QID|10909|
-T Fel Spirits |N|Back up in the Honor Hold inn| |QID|10909|
-A The Exorcism of Colonel Jules |QID|10935|
-C The Exorcism of Colonel Jules |N|Help the priest out, this is a fun one!  You can use the beads to banish spirits.| |U|31828| |QID|10935|
-T The Exorcism of Colonel Jules |QID|10935|
-
-H Temple of Telhamat
-T An Ambitious Plan |QID|9383|
 A Helping the Cenarion Post |QID|10443|
 
 A The Cenarion Expedition |N|Down at Cenarion Post (15,52)| |QID|9912|
