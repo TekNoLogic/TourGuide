@@ -64,6 +64,6 @@ T Encoded Fragments |QID|8235| |C|Rogue| |N|Skip the follow-up if you don't plan
 
 C Arcane Runes |QID|3449| |N|Get Sael'hai Rubbing (42.32, 64.22)|
 T Arcane Runes |QID|3449| |N|Use your flare gun at the helipad in the far southeastern edge of the zone (77.85, 91.38)|
-A Return to Tymor
+A Return to Tymor |QID|3461|
 ]]
 end)

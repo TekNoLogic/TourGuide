@@ -59,7 +59,7 @@ T The Apes of Un'Goro |N|Skip the follow-up| |QID|4289|
 T The Bait for Lar'korwi |QID|4292|
 
 C Alien Ecology |N|Down in the Slithering Scar (50,77).  Head left inside to the big room (48.62, 85.33), use the vial| |U|11132| |QID|3883|
-C Bungle in the Jungle
+C Bungle in the Jungle |QID|4496|
 C Expedition Salvation |N|At camp to the west (38.5, 66.0).  Beware of the elite Stegodons.| |QID|3881|
 C The Western Pylon |N|Up the hill, west of the camp (23.8, 59.1)| |QID|4288|
 A Finding the Source |N|From a goblin near the hot springs (30.9, 50.4)| |QID|974|

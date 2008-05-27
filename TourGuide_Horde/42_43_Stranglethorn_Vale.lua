@@ -10,7 +10,7 @@ h Booty Bay |T|
 A Venture Company Mining |T| |QID|600|
 A Zanzil's Secret |T| |QID|621|
 A Akiris by the Bundle |T| |QID|623|
-A Voodoo Dues |T| QID|609|
+A Voodoo Dues |T| |QID|609|
 A Stoley's Debt |T| |QID|2872|
 A Keep An Eye Out |T| |QID|576|
 
