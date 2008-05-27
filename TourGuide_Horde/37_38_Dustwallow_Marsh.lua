@@ -8,7 +8,7 @@ F Dustwallow Marsh
 h Brackenwall Village
 A Theramore Spies |T| |QID|1201|
 A Check Up on Tabetha |T| |QID|11213|
-A The Black Shield (Part 1) |T|
+A The Black Shield (Part 3) |T| |QID|1322|
 A Twilight of the Dawn Runner |T| |QID|9437|
 A The Hermit of Witch Hill |T| |QID|11225|
 A Hungry! |N|From Mudcrush Durtfeet, south of Brackenwall (35,37)| |QID|1177|
@@ -41,16 +41,16 @@ A Stinky's Escape |N|North of the tower (46.78, 17.00).  You may want to clear t
 C Stinky's Escape |QID|1270|
 
 C Jarl Needs Eyes |N|Kill spiders to the southwest at Darkmist Cavern (35,21).| |QID|1206|
-C The Black Shield (Part 1)
+C The Black Shield (Part 3) |QID|1322|
 C Theramore Spies |N|Stealthed mobs all around Brackenwall Village| |QID|1201|
 
 T Theramore Spies |N|Back in Brackenwall Village| |T| |QID|1201|
 A The Theramore Docks |T| |QID|1202|
 T The Lost Report |T| |QID|1238|
 A Help Mudsprocket |T| |QID|11215|
-T The Black Shield (Part 1) |T|
-A The Black Shield (Part 2) |T|
-T The Black Shield (Part 2) |T|
+T The Black Shield (Part 3) |T| |QID|1322|
+A The Black Shield (Part 4) |T| |QID|1323|
+T The Black Shield (Part 4) |T| |QID|1323|
 A Inspecting the Ruins |N|Easy XP and its on the way to Tabetha.| |T| |QID|11124|
 T Twilight of the Dawn Runner |T| |QID|9437|
 

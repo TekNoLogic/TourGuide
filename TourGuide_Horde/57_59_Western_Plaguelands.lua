@@ -2,9 +2,9 @@
 TourGuide:RegisterGuide("Western Plaguelands (57-59)", "Hellfire Pennisula (59-60)", "Horde", function()
 return [[
 R The Bulwark
-T Return to the Bulwark (Part 4)
-T A Plague Upon Thee (Part 1)
-A A Plague Upon Thee (Part 2)
+T Return to the Bulwark (Part 4) |QID|5236|
+T A Plague Upon Thee (Part 1) |QID|5901|
+A A Plague Upon Thee (Part 2) |QID|5902|
 N Mission Accomplished |N|Talk to... who?|
 
 T Good Luck Charm |N|At the house at Felstone Field (38,54)| |QID|5050|
@@ -12,21 +12,21 @@ A Two Halves Become One |QID|5051|
 C Two Halves Become One |N|Go out in the field and kill the Jabbering Ghoul (only one with a pitchfork), then combine the pieces.| |QID|5051|
 T Two Halves Become One |QID|5051|
 
-T A Plague Upon Thee (Part 2) |N|(47,32)|
-A A Plague Upon Thee (Part 3)
+T A Plague Upon Thee (Part 2) |N|(47,32)| |QID|5902|
+A A Plague Upon Thee (Part 3) |QID|6390|
 
-A Unfinished Business (Part 1) |N|(51,28)|
+A Unfinished Business (Part 1) |N|(51,28)| |QID|6004|
 
-C Unfinished Business (Part 1) |N|(49,42), (51,43)|
-T Unfinished Business (Part 1) |N|(51,28)|
-A Unfinished Business (Part 2)
+C Unfinished Business (Part 1) |N|(49,42), (51,43)| |QID|6004|
+T Unfinished Business (Part 1) |N|(51,28)| |QID|6004|
+A Unfinished Business (Part 2) |QID|6023|
 
-C Unfinished Business (Part 2) |N|Huntsman Radly (57,36)|
+C Unfinished Business (Part 2) |N|Huntsman Radly (57,36)| |QID|6023|
 C The So-Called Mark of the Lightbringer |N|Top of the tower at (54,23)| |QID|9443|
-T Unfinished Business (Part 2)
-A Unfinished Business (Part 3)
-C Unfinished Business (Part 3) |N|Go to top of tower at (45,19)|
-T Unfinished Business (Part 3)
+T Unfinished Business (Part 2) |QID|6023|
+A Unfinished Business (Part 3) |QID|6025|
+C Unfinished Business (Part 3) |N|Go to top of tower at (45,19)| |QID|6025|
+T Unfinished Business (Part 3) |QID|6025|
 
 T Auntie Marlene |N|House in Sorrow Hill (49,78)| |QID|5152|
 A A Strange Historian |QID|5153|
@@ -48,7 +48,7 @@ C Skeletal Fragments |N|Kill undead all over Andorhal.| |QID|5537|
 
 T Counting Out Time |N|Back at the inn| |QID|4973|
 
-T A Plague Upon Thee (Part 3) |N|Back at the Bulwark|
+T A Plague Upon Thee (Part 3) |N|Back at the Bulwark| |QID|6390|
 T The So-Called Mark of the Lightbringer |QID|9443|
 A Defiling Uther's Tomb |QID|9444|
 C Defiling Uther's Tomb |N| At (51,82) you need to equip the quest item at the tomb| |QID|9444|

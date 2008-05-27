@@ -1,7 +1,7 @@
 TourGuide:RegisterGuide("Winterspring (54-55)", "Felwood (55)", "Horde", function()
 return [[
 R Everlook |N|Follow the road east.|
-A Are We There, Yeti? (Part 1)
+A Are We There, Yeti? (Part 1) |QID|3783|
 A The Everlook Report |QID|6029|
 A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
@@ -19,7 +19,7 @@ C Strange Sources |N|Take the road south to Darkwhisper Gorge (59,73)| |QID|4842
 
 H Everlook
 T Brumeran of the Chillwind |QID|5055|
-C Are We There, Yeti? (Part 1)
+C Are We There, Yeti? (Part 1) |QID|3783|
 C Threat of the Winterfall |QID|5082|
 C Wild Guardians |N|Ragged Owls are west of Everlook, Raging are just north| |QID|4741|
 C Chillwind Horns |N|Large Chimera concentration around (66,29)| |QID|4809|
@@ -30,15 +30,15 @@ A Winterfall Firewater |U|12771| |QID|5083|
 T Winterfall Firewater |QID|5083|
 A Falling to Corruption |QID|5084|
 
-T Are We There, Yeti? (Part 1) |N|Everlook (61,38)|
-A Are We There, Yeti? (Part 2)
+T Are We There, Yeti? (Part 1) |N|Everlook (61,38)| |QID|3783|
+A Are We There, Yeti? (Part 2) |QID|977|
 T Chillwind Horns |QID|4809|
 
 C Winterfall Activity |N|(67,37)| |QID|8464|
-C Are We There, Yeti? (Part 2) |N|pristine horns (66,43)|
+C Are We There, Yeti? (Part 2) |N|pristine horns (66,43)| |QID|977|
 
 H Everlook
-T Are We There, Yeti? (Part 2)
+T Are We There, Yeti? (Part 2) |QID|977|
 
 F Bloodvenom Post
 T Wild Guardians |N|Skip the follow-up| |QID|4741|

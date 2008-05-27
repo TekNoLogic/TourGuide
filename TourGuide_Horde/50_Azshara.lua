@@ -7,7 +7,7 @@ h Orgrimmar
 F Azshara
 A Stealing Knowledge |QID|3517|
 C Stealing Knowledge |N|At Ruins of Eldarath (36,54)| |QID|3517|
-C Seeping Corruption (Part 1) |N|Tide Pools at: 1-(47,61) 2-(47,51) 3-(48,48) 4-(47,46)|
+C Seeping Corruption (Part 1) |N|Tide Pools at: 1-(47,61) 2-(47,51) 3-(48,48) 4-(47,46)| |QID|3568|
 T Stealing Knowledge |QID|3517|
 A Delivery to Archmage Xylem |QID|3561|
 A Delivery to Magatha |QID|3518|
@@ -30,10 +30,10 @@ A Bone-Bladed Weapons |QID|4300|
 F Undercity
 T Delivery to Andron Gant |N|Apothecarium Quarter| |QID|3542|
 A Andron's Payment to Jediga |QID|3564|
-T Seeping Corruption (Part 1)
+T Seeping Corruption (Part 1) |QID|3568|
 A Vivian Lagrave |QID|4133|
-A Seeping Corruption (Part 2)
-T Seeping Corruption (Part 2)
+A Seeping Corruption (Part 2) |QID|3569|
+T Seeping Corruption (Part 2) |QID|3569|
 A A Sample of Slime... |QID|4293|
 A ... and a Batch of Ooze |QID|4294|
 ]]

@@ -19,7 +19,7 @@ C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away|
 T Mission: The Abyssal Shelf |QID|10163|
 
 T Return to Thrallmar |N|Nazgrel in the big building in Thrallmar| |QID|10388|
-A Forge Camp: mageddon
+A Forge Camp: Mageddon |QID|10390|
 A The Assassin |QID|9400|
 A Bonechewer Blood |QID|10450|
 A I Work... For the Horde! |QID|10086|

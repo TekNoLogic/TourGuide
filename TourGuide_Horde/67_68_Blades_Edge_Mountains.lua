@@ -222,10 +222,7 @@ C Felsworn Gas Mask |N| Communicator is at (73,39) need to equip mask to activat
 T Felsworn Gas Mask |QID|10819|
 A Deceive thy Enemy |QID|10820|
 C Deceive thy Enemy |QID|10820|
-A You're Fired |N|Need group for this
-C You're Fired
-T You're Fired
-T Treebold Must Know |N|Turns in at (37,23)|
+T Treebole Must Know |N|Turns in at (37,23)| |QID|10829|
 A Exorcising the Trees |QID|10830|
 C Exorcising the Trees |N|Read quest carefully| |QID|10830|
 T Exorcising the Trees |N|Turns in at (37,23)| |QID|10830|
@@ -240,8 +237,8 @@ A Prisoner of the Bladespire |N|Will need group to finish this| |QID|10724|
 
 F Evergrove
 T Maxnar Must Die! |QID|10748|
-C Prisoner of the Bladspire
-T Prisoner of the Bladspire
+C Prisoner of the Bladespire |QID|10724|
+T Prisoner of the Bladespire |QID|10724|
 A Showdown |N|If still in group from prisoner...| |QID|10806|
 C Showdown |N| altar is at (64,18)| |QID|10806|
 T Showdown |QID|10806|

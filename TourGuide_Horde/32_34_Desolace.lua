@@ -1,33 +1,33 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
 H Orgrimmar
-T The Swarm Grows (Part 1) |N|Valley of Honor (75,34)| |Z|Orgrimmar|
-A The Swarm Grows (Part 2)
-A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)| |Z|Orgrimmar|
-T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)| |Z|Orgrimmar|
-A Alliance Relations (Part 2)
+T The Swarm Grows (Part 1) |N|Valley of Honor (75,34)| |Z|Orgrimmar| |QID|1145|
+A The Swarm Grows (Part 2) |QID|1146|
+A Alliance Relations (Part 1) |N|From Craven Drok in the Cleft of Shadow (50,47)| |Z|Orgrimmar| |QID|1431|
+T Alliance Relations (Part 1) |N|To Keldran near west gate of Orgimmar past Valley of Spirits (22,54)| |Z|Orgrimmar| |QID|1431|
+A Alliance Relations (Part 2) |QID|1432|
 
 R Desolace |N|Fly to Stonetalon Mountains and run south|
 
 R Thunder Axe Fortress |N|West of the road (55,24).|
 N Kill mobs |N|Kill mobs till you get Flayed Demon Skin| |L|20310|
-A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin| |U|20310|
+A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin| |U|20310| |QID|1480|
 A Kodo Roundup |N|From Smeed Scrabblescrew (60.8, 61.9)| |QID|5561|
 
 R Ghost Walker Post |N|Follow the road northwest from Scrabblescrew's hut (56,59)|
 T The Kolkar of Desolace |QID|1362|
 A Khan Dez'hepah |QID|1365|
 A Gelkis Alliance |N|Skip Magram Alliance| |QID|1368|
-T Alliance Relations (Part 2)
-A Alliance Relations (Part 3)
+T Alliance Relations (Part 2) |QID|1432|
+A Alliance Relations (Part 3) |QID|1433|
 A Befouled by Satyr |QID|1434|
-T The Corrupter (Part 1)
-A The Corrupter (Part 2)
-T Alliance Relations (Part 3)
+T The Corrupter (Part 1) |QID|1480|
+A The Corrupter (Part 2) |QID|1481|
+T Alliance Relations (Part 3) |QID|1433|
 A The Burning of Spirits |QID|1435|
 
 C Befouled by Satyr |N|(75,22)| |QID|1434|
-C The Corrupter (Part 2) |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker|
+C The Corrupter (Part 2) |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker| |QID|1481|
 C Khan Dez'hepah |N|In the Magram village (73,48)| |QID|1365|
 C Gelkis Alliance |N|Kill Magram centaurs until you gain Gelkis (Friendly)| |QID|1368|
 C Kodo Roundup |QID|5561|
@@ -36,8 +36,8 @@ T Kodo Roundup |QID|5561|
 T Khan Dez'hepah |N|Back at Ghost Walker Post| |QID|1365|
 A Centaur Bounty |QID|1387|
 T Befouled by Satyr |QID|1434|
-T The Corrupter (Part 2)
-A The Corrupter (Part 3)
+T The Corrupter (Part 2) |QID|1481|
+A The Corrupter (Part 3) |QID|1482|
 T Gelkis Alliance |N|To Uthek the Wise at (36.3, 79.2)| |QID|1368|
 A Stealing Supplies |QID|1370|
 
@@ -62,7 +62,7 @@ A Claim Rackmore's Treasure! |N|From the chest/wrecked boat along the shore (36.
 
 C Other Fish to Fry |QID|6143|
 C Clam Bait |QID|6142|
-C The Corrupter (Part 3) |N|Collect an Oracle Crystal from a Slitherblade Oracle|
+C The Corrupter (Part 3) |N|Collect an Oracle Crystal from a Slitherblade Oracle| |QID|1482|
 C Claim Rackmore's Treasure! |N|Kill Drysnap Pincers and Crawlers for the silver key, Slitherblade Naga for the golden key.| |QID|6161|
 
 T Claim Rackmore's Treasure! |N|Find the chest behind a tree on Ranazjar Isle (30.0, 8.7)| |QID|6161|
@@ -72,9 +72,9 @@ T Book of the Ancients |N|Back on shore at the tower| |QID|6027|
 A Bone Collector |N|From Bibbly F'utzbuckle at Kormek's Hut (62,38)| |QID|5501|
 
 T The Burning of Spirits |QID|1435|
-T The Corrupter (Part 3)
-A The Corrupter (Part 4)
-T The Corrupter (Part 4) |N|Skip last follow-up|
+T The Corrupter (Part 3) |QID|1482|
+A The Corrupter (Part 4) |QID|1484|
+T The Corrupter (Part 4) |N|Skip last follow-up| |QID|1484|
 
 C Bone Collector |N|In the Kodo Graveyard| |QID|5501|
 C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)| |QID|1370|
@@ -99,18 +99,18 @@ R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|
 
 A Suspicious Hoofprints |N|Click on hoofprints outside the inn on ground (29.7, 47.7)| |Z|Dustwallow Marsh| |QID|1284|
 A Lieutenant Paval Reethe |N|Laying on the planks on the ground (29.8, 48.2)| |Z|Dustwallow Marsh| |QID|1269|
-A The Black Shield (Part 1) |N|On top of fireplace|
+A The Black Shield (Part 1) |N|On top of fireplace| |QID|1251|
 
 R Brackenwall Village |N|North along the road (35,29)| |Z|Dustwallow Marsh|
 T Suspicious Hoofprints |QID|1284|
 T Lieutenant Paval Reethe |QID|1269|
-T The Black Shield (Part 1)
-A The Black Shield (Part 2)
-T The Black Shield (Part 2) |N|Skip the follow-up|
+T The Black Shield (Part 1) |QID|1251|
+A The Black Shield (Part 2) |QID|1321|
+T The Black Shield (Part 2) |N|Skip the follow-up| |QID|1321|
 
 F Ratchet
-T Goblin Sponsorship (Part 1)
-A Goblin Sponsorship (Part 2)
+T Goblin Sponsorship (Part 1) |QID|1178|
+A Goblin Sponsorship (Part 2) |QID|1180|
 T Wharfmaster Dizzywig |QID|1492|
 A Parts for Kravel |QID|1112|
 ]]

@@ -11,7 +11,7 @@ A Consumed by Hatred |T| |N|From Mankirk, near the south entrance to Crossroads|
 A Lost in Battle |T| |QID|4921|
 
 R Thunder Bluff |N|Take the road south to Camp Taurajo.  Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.|
-A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T|
+A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T| |QID|1195|
 
 F Camp Taurajo
 A Melor Sends Word |T| |QID|1130|
@@ -23,7 +23,7 @@ C Tribes at War |QID|878|
 T Tribes at War |N|Back at Camp Taurajo| |T| |QID|878|
 A Blood Shards of Agamaggan |T| |QID|5052|
 T Blood Shards of Agamaggan |T| |QID|5052|
-A Betrayal from Within (Part 1) |T|
+A Betrayal from Within (Part 1) |T| |QID|879|
 
 F The Crossroads
 T Consumed by Hatred |T| |QID|899|

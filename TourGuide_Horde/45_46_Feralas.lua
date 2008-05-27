@@ -3,7 +3,7 @@ return [[
 F Freewind Post
 R Camp Mojache |N|West in Feralas|
 A A New Cloak's Sheen |T| |QID|2973|
-A The Ogres of Feralas (Part 1) |T| |QID|2975| 
+A The Ogres of Feralas (Part 1) |T| |QID|2975|
 A Gordunni Cobalt |T| |QID|2987|
 A War on the Woodpaw |T| |QID|2862|
 A The Mark of Quality |T| |QID|2822|
@@ -60,28 +60,28 @@ T Dark Ceremony |T| |QID|2979|
 A The Gordunni Orb |T| |QID|3002|
 
 F Orgrimmar
-h Orgrimmar |T| 
+h Orgrimmar |T|
 T Zukk'ash Report |N|In The Drag (56,46)| |Z|Orgrimmar| |QID|7732| |T|
-A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4,36.9)| |Z|Orgrimmar| |QID|649| |T|
-T Ripple Recovery (Part 1) |N|The other guy in the same building| |Z|Orgrimmar| |QID|649| |T|
-A Ripple Recovery (Part 2) |Z|Orgrimmar| |QID|650| |T|
+A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4, 36.9)| |Z|Orgrimmar| |QID|649| |T|
+T Ripple Recovery (Part 1) |N|The other guy in the same building| |QID|649| |T|
+A Ripple Recovery (Part 2) |QID|650| |T|
 T Parts of the Swarm |N|At Belgrom Rockmaul in the Valley of Honor (75,34)| |Z|Orgrimmar| |QID|1184| |T|
-T A Grim Discovery (Part 2) |Z|Orgrimmar| |T|
-A Betrayed |QID|3507| |Z|Orgrimmar| |T|
+T A Grim Discovery (Part 2) |T|
+A Betrayed |QID|3507| |T|
 T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar| |QID|3121| |T|
 T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar| |QID|1262| |T|
-A Service to the Horde |QID|7541| |Z|Orgrimmar| |T|
-T Service to the Horde |QID|7541| |Z|Orgrimmar| |T|
-T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar| |QID|3002| |T| 
+A Service to the Horde |QID|7541| |T|
+T Service to the Horde |QID|7541| |T|
+T The Gordunni Orb |N|In the Valley of Spirits (39,86)| |Z|Orgrimmar| |QID|3002| |T|
 
-A A Donation of Silk |Z|Orgrimmar| |QID|7834| |T|
-T A Donation of Silk |Z|Orgrimmar| |QID|7834| |T|
-A A Donation of Mageweave |Z|Orgrimmar| |QID|7835| |T|
-T A Donation of Mageweave |Z|Orgrimmar| |QID|7835| |T|
+A A Donation of Silk (Darkspear Trolls) |QID|7834| |T|
+T A Donation of Silk (Darkspear Trolls) |QID|7834| |T|
+A A Donation of Mageweave (Darkspear Trolls) |QID|7835| |T|
+T A Donation of Mageweave (Darkspear Trolls) |QID|7835| |T|
 
-A A Donation of Silk |Z|Orgrimmar| |QID|7827| |T|
-T A Donation of Silk |Z|Orgrimmar| |QID|7827| |T|
-A A Donation of Mageweave |Z|Orgrimmar| |QID|7831| |T|
-T A Donation of Mageweave |Z|Orgrimmar| |QID|7831| |T|
+A A Donation of Silk (Orgrimmar) |QID|7827| |T|
+T A Donation of Silk (Orgrimmar) |QID|7827| |T|
+A A Donation of Mageweave (Orgrimmar) |QID|7831| |T|
+T A Donation of Mageweave (Orgrimmar) |QID|7831| |T|
 ]]
 end)

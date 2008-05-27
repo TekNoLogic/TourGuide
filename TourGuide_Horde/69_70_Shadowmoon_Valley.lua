@@ -29,7 +29,7 @@ C A Haunted History |N|Same lake as "What Strange Creatures...".  You can also f
 
 C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638| TODO ID? |QID|10596|
 
-T Haunted History |N|Back at Shadowmoon Village| |T|
+T A Haunted History |N|Back at Shadowmoon Village| |T| |QID|10624|
 A Spectrecles |T| |QID|10625|
 T What Strange Creatures... |T| |QID|10660|
 A Frankly, It Makes No Sense... |T| |QID|10672|

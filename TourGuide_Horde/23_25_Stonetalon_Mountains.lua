@@ -15,7 +15,7 @@ A New Life |QID|6381|
 T Cenarius' Legacy |QID|1087|
 A Ordanus |QID|1088|
 
-T Further Instructions (Part 2)
+T Further Instructions (Part 2) |QID|1095|
 A Gerenzo Wrenchwhistle |QID|1096|
 C Gerenzo Wrenchwhistle |N|At (64,41)| |QID|1096|
 C Shredding Machines |QID|1068|
