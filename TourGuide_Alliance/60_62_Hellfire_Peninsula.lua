@@ -128,12 +128,11 @@ A Fel Spirits |QID|10909|
 A Digging for Prayer Beads |QID|10916|
 C Digging for Prayer Beads |N|Buy a Silken Thread From the tailor upstairs in the inn, a Maiden's Anguish from the reagent vendor in the tower, then a dog treat in the court yard.  Give it to the dog, follow it around...| |QID|10916|
 T Digging for Prayer Beads |QID|10916|
+T Looking to the Leadership |N|Back at Honor Hold, at the tower to the west| |QID|10057|
 
 R Temple of Telhamat |N|Follow the road east, then take the fork north (23,40)|
-A An Ambitious Plan |QID|9383|
-f Grab flightpoint |N|East of the inn|
-
-T Looking to the Leadership |N|Back at Honor Hold, at the tower to the west| |QID|10057|
+A An Ambitious Plan |QID|9383| |N|This quest requires 61 to get, if you can't get it just skip it.|
+F Honor Hold |N|Flightpoint is east of the inn|
 
 T In Case of Emergency... |N|Back at the crashed zeppelin| |QID|10161|
 A Voidwalkers Gone Wild |QID|9351|
@@ -149,6 +148,8 @@ T Fel Spirits |N|Back up in the Honor Hold inn| |QID|10909|
 A The Exorcism of Colonel Jules |QID|10935|
 C The Exorcism of Colonel Jules |N|Help the priest out, this is a fun one!  You can use the beads to banish spirits.| |U|31828| |QID|10935|
 T The Exorcism of Colonel Jules |QID|10935|
+A Trollbane is Looking for You |QID|10936|
+T Trollbane is Looking for You |QID|10936| |N|Up in the keep.  Skip the follow-up unless you've got help.|
 
 T An Ambitious Plan |QID|9383| |N|Back at Temple of Telhamat|
 A Cruel Taskmasters |QID|9399|
