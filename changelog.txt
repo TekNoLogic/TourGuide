@@ -1,3 +1,21 @@
+2.4.2.26-Beta
+    Bit more to Ally Hellfire
+    Fix LH error if no guide loaded
+    Ghostlands update
+    - Closed missing coord bracket
+    Tagged all Horde guides with QIDs
+    Ally Hellfire adjustments
+     - Moved most of the Temple quests down further in the guide, they're just too hard at 60ish
+     - Some new coords
+     - Add a missing fedex quest
+    Horde 2kN fix
+    Horde Un'goro fix
+    Horde Ashenvale fix
+    Don't need to watch QUEST_WATCH_UPDATE, QUEST_LOG_UPDATE covers that
+    Drive Accept/Turnin updates with the QID tracker
+    Fix progression detection not using QIDs
+    Fix QID history not loading correctly
+
 2.4.2.25-Beta
     Ally hellfire tweakings
     Finish up Ally Plaguelands
