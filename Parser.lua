@@ -84,18 +84,17 @@ local function DebugQuestObjective(text, action, quest, accepts, turnins, comple
 	return haserrors
 end
 
+
 local function InTagList(taglist, needle)
 	if taglist then
-		for match in taglist:gmatch("(%a+( ?%a+))") do
-			DEFAULT_CHAT_FRAME:AddMessage(match, 1, 0, 0)
-			if match == needle then
-				DEFAULT_CHAT_FRAME:AddMessage(needle, 0, 1, 0)
-				return true
-			end
+		local _, _, match = taglist:find("("..needle..")")
+		if match then
+			return true
 		end
 	end
 	return false
 end
+
 
 local myclass, myrace = UnitClass("player"), UnitRace("player")
 local function ParseQuests(...)

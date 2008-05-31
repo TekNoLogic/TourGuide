@@ -24,23 +24,13 @@ T Tal the Wind Rider Master |R|Tauren| |QID|6363|
 A Return to Jahan |R|Tauren| |QID|6364|
 T Return to Jahan |R|Tauren| |N|Fly back to Crossroads!| |QID|6364|
 
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc| |NODEBUG| |QID|840|
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Troll| |NODEBUG| |QID|840|
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Undead| |NODEBUG| |QID|840|
-A Crossroads Conscription |R|Orc| |NODEBUG| |QID|842|
-A Crossroads Conscription |R|Troll| |NODEBUG| |QID|842|
-A Crossroads Conscription |R|Undead| |NODEBUG| |QID|842|
-T Ak'Zeloth |N|Skip the follow-up| |R|Orc| |NODEBUG| |QID|809|
-T Ak'Zeloth |N|Skip the follow-up| |R|Troll| |NODEBUG| |QID|809|
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc;Troll;Undead| |NODEBUG| |QID|840|
+A Crossroads Conscription |R|Orc;Troll;Undead| |NODEBUG| |QID|842|
+T Ak'Zeloth |N|Skip the follow-up| |R|Orc;Troll| |NODEBUG| |QID|809|
 
-N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc|
-N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Troll|
-R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc|
-R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Troll|
-R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Undead|
-T Crossroads Conscription |R|Orc| |NODEBUG| |QID|842|
-T Crossroads Conscription |R|Troll| |NODEBUG| |QID|842|
-T Crossroads Conscription |R|Undead| |NODEBUG| |QID|842|
+N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc;Troll|
+R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc;Troll;Undead|
+T Crossroads Conscription |R|Orc;Troll;Undead| |NODEBUG| |QID|842|
 
 N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity from Orgrimmar, then port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
 

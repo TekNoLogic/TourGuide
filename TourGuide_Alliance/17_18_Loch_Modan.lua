@@ -1,9 +1,7 @@
 TourGuide:RegisterGuide("Loch Modan (17-18)", "Redridge Mountains (18-20)", "Alliance", function()
 return [[
-F Loch Modan |N|Boat to Menethil Harbor, then fly there!| |R|Human|
-F Loch Modan |N|Boat to Menethil Harbor, then fly there!| |R|Dwarf|
+F Loch Modan |N|Boat to Menethil Harbor, then fly there!| |R|Human;Dwarf;Gnome|
 R Loch Modan |N|Boat to Menethil Harbor, grab the flight point there, then run thru Wetlands to Loch.| |R|Night Elf|
-F Loch Modan |N|Boat to Menethil Harbor, then fly there!| |R|Gnome|
 R Loch Modan |N|Boat to Menethil Harbor, grab the flight point there, then run thru Wetlands to Loch.| |R|Draenei|
 R Algaz Station |N|In the north of Loch Modan. Watch out the big bad highlevel mobs on the way. Good luck!|
 
@@ -48,11 +46,9 @@ A Vyrin's Revenge (Part 2) |QID|531|
 T Vyrin's Revenge (Part 2) |QID|531|
 T Bingles' Missing Supplies |N|Remember Bingles at the shore?| |QID|2038|
 
-F City of Ironforge |R|Human|
-F City of Ironforge |R|Dwarf|
+F City of Ironforge |R|Human;Dwarf;Gnome|
 R City of Ironforge |R|Night Elf|
 f Grab flight point |R|Night Elf|
-F City of Ironforge |R|Gnome|
 R City of Ironforge |R|Draenei|
 f Grab flight point |R|Draenei|
 T Report to Ironforge |N|Hall of Explorers. Skip the follow-up.| |QID|301|

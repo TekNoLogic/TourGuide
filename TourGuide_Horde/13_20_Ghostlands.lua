@@ -1,33 +1,12 @@
 
 TourGuide:RegisterGuide("Ghostlands (13-20)", "The Barrens (20)", "Horde", function()
 return [[
-A Missing in the Ghostlands |R|Orc| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods| |NODEBUG| |QID|9144|
-T Missing in the Ghostlands |R|Orc| |N|On the Eversong/Ghostlands boundry| |NODEBUG| |QID|9144|
-A The Fallen Courier |R|Orc| |NODEBUG| |QID|9147|
-C The Fallen Courier |R|Orc| |NODEBUG| |QID|9147|
-T The Fallen Courier |R|Orc| |NODEBUG| |QID|9147|
-A Delivery to Tranquillien |R|Orc| |NODEBUG| |QID|9148|
-
-A Missing in the Ghostlands |R|Troll| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods| |NODEBUG| |QID|9144|
-T Missing in the Ghostlands |R|Troll| |N|On the Eversong/Ghostlands boundry| |NODEBUG| |QID|9144|
-A The Fallen Courier |R|Troll| |NODEBUG| |QID|9147|
-C The Fallen Courier |R|Troll| |NODEBUG| |QID|9147|
-T The Fallen Courier |R|Troll| |NODEBUG| |QID|9147|
-A Delivery to Tranquillien |R|Troll| |NODEBUG| |QID|9148|
-
-A Missing in the Ghostlands |R|Tauren| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods| |NODEBUG| |QID|9144|
-T Missing in the Ghostlands |R|Tauren| |N|On the Eversong/Ghostlands boundry| |NODEBUG| |QID|9144|
-A The Fallen Courier |R|Tauren| |NODEBUG| |QID|9147|
-C The Fallen Courier |R|Tauren| |NODEBUG| |QID|9147|
-T The Fallen Courier |R|Tauren| |NODEBUG| |QID|9147|
-A Delivery to Tranquillien |R|Tauren| |NODEBUG| |QID|9148|
-
-A Missing in the Ghostlands |R|Undead| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods| |NODEBUG| |QID|9144|
-T Missing in the Ghostlands |R|Undead| |N|On the Eversong/Ghostlands boundry| |NODEBUG| |QID|9144|
-A The Fallen Courier |R|Undead| |NODEBUG| |QID|9147|
-C The Fallen Courier |R|Undead| |NODEBUG| |QID|9147|
-T The Fallen Courier |R|Undead| |NODEBUG| |QID|9147|
-A Delivery to Tranquillien |R|Undead| |NODEBUG| |QID|9148|
+A Missing in the Ghostlands |R|Orc;Troll;Tauren;Undead| |N|From Magistrix Landra Dawnstrider in front of the Fairbreeze Village inn (44.00, 70.71)| |Z|Eversong Woods| |NODEBUG| |QID|9144|
+T Missing in the Ghostlands |R|Orc;Troll;Tauren;Undead| |N|On the Eversong/Ghostlands boundry| |NODEBUG| |QID|9144|
+A The Fallen Courier |R|Orc;Troll;Tauren;Undead| |NODEBUG| |QID|9147|
+C The Fallen Courier |R|Orc;Troll;Tauren;Undead| |NODEBUG| |QID|9147|
+T The Fallen Courier |R|Orc;Troll;Tauren;Undead| |NODEBUG| |QID|9147|
+A Delivery to Tranquillien |R|Orc;Troll;Tauren;Undead| |NODEBUG| |QID|9148|
 
 R Tranquillien |N|Follow the road south|
 T Delivery to Tranquillien |T| |QID|9148|

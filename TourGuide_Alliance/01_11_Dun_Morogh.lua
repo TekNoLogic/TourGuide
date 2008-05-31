@@ -20,10 +20,11 @@ A A New Threat |QID|170|
 C A New Threat |QID|170|
 T A New Threat |QID|170|
 
-T Tainted Memorandum |C|Warlock| |R|Dwarf| |QID|3115|
-T Glyphic Memorandum |C|Mage| |R|Dwarf| |QID|3114|
-T Encrypted Memorandum |C|Rogue| |R|Dwarf| |QID|3113|
-T Simple Memorandum |C|Warrior| |R|Dwarf| |QID|3112|
+T Encrypted Rune |C|Rogue| |R|Dwarf| |QID|3109|
+T Etched Rune |C|Hunter| |R|Dwarf| |QID|3108|
+T Hallowed Rune |C|Priest| |R|Dwarf| |QID|3110|
+T Simple Rune |C|Warrior| |R|Dwarf| |QID|3106|
+T Consecrated Rune |C|Paladin| |R|Dwarf| |QID|3107|
 
 T Tainted Memorandum |C|Warlock| |R|Gnome| |QID|3115|
 T Glyphic Memorandum |C|Mage| |R|Gnome| |QID|3114|
