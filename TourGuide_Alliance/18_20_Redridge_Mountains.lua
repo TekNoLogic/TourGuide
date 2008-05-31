@@ -2,7 +2,7 @@ TourGuide:RegisterGuide("Redridge Mountains (18-20)", "Darkshore (20-21)", "Alli
 return [[
 R Stormwind City |N|Use the Deeprun Tram|
 T Stormpike's Order |QID|1338|
-f Grab flight point |R|Dwarf;Night Elf;Gnome;Draenei|
+f Grab flight point |R|Dwarf, Night Elf, Gnome, Draenei|
 
 R Redridge Mountains
 A Encroaching Gnolls |QID|244|
