@@ -84,6 +84,18 @@ local function DebugQuestObjective(text, action, quest, accepts, turnins, comple
 	return haserrors
 end
 
+local function InTagList(taglist, needle)
+	if taglist then
+		for match in taglist:gmatch("(%a+( ?%a+))") do
+			DEFAULT_CHAT_FRAME:AddMessage(match, 1, 0, 0)
+			if match == needle then
+				DEFAULT_CHAT_FRAME:AddMessage(needle, 0, 1, 0)
+				return true
+			end
+		end
+	end
+	return false
+end
 
 local myclass, myrace = UnitClass("player"), UnitRace("player")
 local function ParseQuests(...)
@@ -94,10 +106,10 @@ local function ParseQuests(...)
 
 	for j=1,select("#", ...) do
 		local text = select(j, ...)
-		local _, _, class = text:find("|C|([^|]+)|")
-		local _, _, race = text:find("|R|([^|]+)|")
+		local _, _, classes = text:find("|C|([^|]+)|")
+		local _, _, races = text:find("|R|([^|]+)|")
 
-		if text ~= "" and (not class or class == myclass) and (not race or race == myrace) then
+		if text ~= "" and (not classes or InTagList(classes, myclass)) and (not races or InTagList(races, myrace)) then
 			local _, _, action, quest, tag = text:find("^(%a) ([^|]*)(.*)")
 			assert(actiontypes[action], "Unknown action: "..text)
 			quest = quest:trim()

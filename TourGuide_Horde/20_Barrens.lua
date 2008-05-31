@@ -10,14 +10,8 @@ h The Crossroads |T|
 A Consumed by Hatred |T| |N|From Mankrik, near the south entrance to Crossroads| |QID|899|
 A Lost in Battle |T| |QID|4921|
 
-C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Blood Elf|
-C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Troll|
-C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Undead|
-C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Orc|
-R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Blood Elf|
-R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Troll|
-R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Undead|
-R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Orc|
+C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Blood Elf;Troll;Undead;Orc|
+R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Blood Elf;Troll;Undead;Orc|
 F Thunder Bluff |R|Tauren|
 A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T| |QID|1195|
 
