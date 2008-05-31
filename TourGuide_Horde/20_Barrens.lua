@@ -10,16 +10,22 @@ h The Crossroads |T|
 A Consumed by Hatred |T| |N|From Mankrik, near the south entrance to Crossroads| |QID|899|
 A Lost in Battle |T| |QID|4921|
 
-C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while. Mankrik's wife is in a hut a bit off the road. (49.31, 50.34)| |QID|4921|
-R Camp Taurajo |N|Continue on the road south, to Camp Taurajo.|
-f Grab flight point |T|
-R Thunder Bluff |N|Take the road west into Mulgore, then north at Bloodhoof Village.|
-A The Sacred Flame (Part 1) |N|On the third level of the main rise. (55.1, 53.1)| |Z|Thunder Bluff| |T| |QID|1195|
+C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Blood Elf|
+C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Troll|
+C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Undead|
+C Lost in Battle |N|Take the road south, out of The Crossroads, and follow it for quite a while.  Mankrik's wife is in a hut a bit off the road (49.31, 50.34).| |QID|4921| |R|Orc|
+R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Blood Elf|
+R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Troll|
+R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Undead|
+R Thunder Bluff |N|Continue on the road south to Camp Taurajo. Grab the flight point, take the road west into Mulgore, then north at Bloodhoof Village.| |R|Orc|
+F Thunder Bluff |R|Tauren|
+A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T| |QID|1195|
 
 F Camp Taurajo
 A Melor Sends Word |T| |QID|1130|
 A Tribes at War |T| |QID|878|
-C Consumed by Hatred |N|Northeast of Camp Taurajo| |QID|899|
+C Lost in Battle |N|In a hut off the road north of Camp Taurajo (49.31, 50.34)| |QID|4921| |R|Tauren|
+C Consumed by Hatred |N|Southeast of Mankrik's wife, northeast of Camp Taurajo| |QID|899|
 C Tribes at War |QID|878|
 
 T Tribes at War |N|Back at Camp Taurajo| |T| |QID|878|
