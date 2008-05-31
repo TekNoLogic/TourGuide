@@ -87,8 +87,7 @@ end
 
 local function InTagList(taglist, needle)
 	if taglist then
-		local _, _, match = taglist:find("("..needle..")")
-		if match then
+		if taglist:find(needle) then
 			return true
 		end
 	end
