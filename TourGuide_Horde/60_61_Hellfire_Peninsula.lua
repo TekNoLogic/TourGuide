@@ -6,7 +6,7 @@ A Felspark Ravine |QID|10123|
 C Felspark Ravine |N|Kill mobs just east| |QID|10123|
 T Felspark Ravine |QID|10123|
 A Forward Base: Reaver's Fall |QID|10124|
-T Forward Base: Reaver's Fall |N|(54,43)| |QID|10124|
+T Forward Base: Reaver's Fall |N|Southeast of Thrallmar, on a Cliff. (65.9,43.7)| |QID|10124|
 A Disrupt Their Reinforcements |QID|10208|
 C Disrupt Their Reinforcements |N|Kill mobs just east to get 4 runes, click in portal at (70,45), Kill mobs at (74,38) to get 4 more tokens, click on portal| |QID|10208|
 T Disrupt Their Reinforcements |QID|10208|
@@ -36,8 +36,8 @@ A Doorway to the Abyss |QID|10392|
 C Doorway to the Abyss |N|(53,27)All done up there| |QID|10392|
 T Doorway to the Abyss |QID|10392|
 A The Agony and the Darkness |QID|10389|
-C Bonechewer Blood |N|(58,46)With next quest, Just south of Thrallmar| |QID|10450|
-C I Work... For the Horde! |QID|10086|
+C I Work... For the Horde! |N|South of Thrallmar, at the blade throwers. (58,46)| |QID|10086|
+C Bonechewer Blood |QID|10450|
 
 T Bonechewer Blood |N|Back at Thrallmar| |QID|10450|
 T I Work... For the Horde! |QID|10086|
