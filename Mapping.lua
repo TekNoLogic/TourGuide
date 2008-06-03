@@ -39,12 +39,17 @@ function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid)
 		while cache[1] do Cartographer_Waypoints:CancelWaypoint(table.remove(cache)) end
 	end
 
-	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded then self:MapLightHeadedNPC(qid, action, quest) end
+	local mappedByLightHeaded = nil
+	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded then
+		mappedByLightHeaded = self:MapLightHeadedNPC(qid, action, quest)
+	end
 
 	if not note or not self.db.char.mapnotecoords then return end
 
-	for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
-	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
+	if not mappedByLightHeaded then
+		for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
+		while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
+	end
 end
 
 
@@ -60,4 +65,5 @@ function TourGuide:MapLightHeadedNPC(qid, action, quest)
 	local data = LightHeaded:LoadNPCData(tonumber(npcid))
 	if not data then return end
 	for zid,x,y in data:gmatch("([^,]+),([^,]+),([^:]+):") do MapPoint(nil, tonumber(x), tonumber(y), "[TG] "..quest.." ("..npcname..")", LightHeaded:WZIDToCZ(tonumber(zid))) end
+	return true
 end
