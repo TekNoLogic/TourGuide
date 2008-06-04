@@ -1,6 +1,8 @@
 TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", function()
 return [[
-F Splintertree Post
+F The Crossroads
+T Report to Kadrak |N|Take the road north out of town to the Ashenvale border| |T| |QID|6542|
+R Splintertree Post |N|Follow the road north, then east (73,65)|
 h Splintertree Post
 A Stonetalon Standstill |QID|25|
 A Satyr Horns |QID|6441|
@@ -35,10 +37,14 @@ T Shadumbra's Head |O| |QID|24|
 A The Hunt Completed |QID|247|
 T The Hunt Completed |QID|247|
 
-F Zoram'gar Outpost
+R The Zoram Strand |N|Follow the main road west as far as you can, then break off and run to the coast (13,31).  Don't get too close to the ally towns!|
 T Je'neu of the Earthen Ring |QID|824|
 A Vorsha the Lasher |QID|6641|
+A Naga at the Zoram Strand |QID|6442|
 C Vorsha the Lasher |N|On the island| |QID|6641|
+C Naga at the Zoram Strand |QID|6442|
+T Naga at the Zoram Strand |QID|6442|
+T Vorsha the Lasher |QID|6641|
 A Between a Rock and a Thistlefur |QID|216|
 A Troll Charm |QID|6462|
 
