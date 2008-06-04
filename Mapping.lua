@@ -39,17 +39,12 @@ function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid)
 		while cache[1] do Cartographer_Waypoints:CancelWaypoint(table.remove(cache)) end
 	end
 
-	local mappedByLightHeaded = nil
-	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded then
-		mappedByLightHeaded = self:MapLightHeadedNPC(qid, action, quest)
-	end
 
-	if not note or not self.db.char.mapnotecoords then return end
+	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded and self:MapLightHeadedNPC(qid, action, quest) and not self.db.alwaysmapnotecoords
+		or not (note and self.db.char.mapnotecoords) then return end
 
-	if not mappedByLightHeaded then
-		for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
-		while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
-	end
+	for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
+	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
 end
 
 

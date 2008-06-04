@@ -25,8 +25,31 @@ frame:SetScript("OnShow", function()
 
 	local mapquestgivers = tekcheck.new(frame, nil, "Automatically map questgivers", "TOPLEFT", mapnotecoords, "BOTTOMLEFT", 0, -GAP)
 	mapquestgivers.tiptext = "Automatically map questgivers for accept and turnin objectives (requires LightHeaded and TomTom)."
-	mapquestgivers:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.mapquestgivers = not TourGuide.db.char.mapquestgivers end)
 	mapquestgivers:SetChecked(TourGuide.db.char.mapquestgivers)
+
+	local mapquestgivernotes, mapquestgivernoteslabel = tekcheck.new(frame, nil, "Always map coords from notes", "TOPLEFT", mapquestgivers, "BOTTOMLEFT", GAP*2, -GAP)
+	mapquestgivernotes.tiptext = "Map note coords even when LightHeaded provides coords."
+	mapquestgivernotes:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.alwaysmapnotecoords = not TourGuide.db.char.alwaysmapnotecoords end)
+	mapquestgivernotes:SetChecked(TourGuide.db.char.alwaysmapnotecoords)
+	if TourGuide.db.char.mapquestgivers then
+		mapquestgivernotes:Enable()
+		mapquestgivernoteslabel:SetFontObject(GameFontHighlight)
+	else
+		mapquestgivernotes:Disable()
+		mapquestgivernoteslabel:SetFontObject(GameFontDisable)
+	end
+
+	mapquestgivers:SetScript("OnClick", function(self)
+		checksound(self)
+		TourGuide.db.char.mapquestgivers = not TourGuide.db.char.mapquestgivers
+		if TourGuide.db.char.mapquestgivers then
+			mapquestgivernotes:Enable()
+			mapquestgivernoteslabel:SetFontObject(GameFontHighlight)
+		else
+			mapquestgivernotes:Disable()
+			mapquestgivernoteslabel:SetFontObject(GameFontDisable)
+		end
+	end)
 
 	frame:SetScript("OnShow", nil)
 end)

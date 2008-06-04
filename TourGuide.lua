@@ -43,6 +43,7 @@ function TourGuide:Initialize()
 			petskills = {},
 			mapquestgivers = true,
 			mapnotecoords = true,
+			alwaysmapnotecoords = false,
 		},
 	})
 	if self.db.char.turnedin then self.db.char.turnedin = nil end -- Purge old table if present
