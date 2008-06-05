@@ -69,7 +69,7 @@ end
 
 
 function TourGuide:RegisterGuide(name, nextzone, faction, sequencefunc)
-	if faction ~= myfaction then return end
+	if faction and faction ~= myfaction then return end
 	self.guides[name] = sequencefunc
 	self.nextzones[name] = nextzone
 	table.insert(self.guidelist, name)
