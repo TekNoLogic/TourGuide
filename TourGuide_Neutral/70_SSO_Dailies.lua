@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("SSO Dailies (70)", nil, "Horde", function()
+TourGuide:RegisterGuide("SSO Dailies (70)", nil, nil, function()
 return [[
 F Sun's Reach Sanctum |N|Isle of Quel'Danas|
 A Know Your Ley Lines |QID|11547| |N|Astromancer Darnarian, inside the Sanctum (47.49, 35.35)| |Z|Isle of Quel'Danas|
@@ -55,8 +55,8 @@ C Maintaining the Sunwell Portal |QID|11514|
 F Throne of Kil'jaeden |N|Northwest of Thrallmar|
 A Blast the Gateway |QID|11516| |N|Magistrix Seyla|
 A Blood for Blood |QID|11515| |N|Magistrix Seyla|
-C Blast the Gateway |QID|11516| 
-C Blood for Blood |QID|11515| 
+C Blast the Gateway |QID|11516|
+C Blood for Blood |QID|11515|
 T Blast the Gateway |QID|11516| |N|Magistrix Seyla|
 T Blood for Blood |QID|11515| |N|Magistrix Seyla|
 F Razorthorn Rise |N|Between Hellfire and Terrorkar|
