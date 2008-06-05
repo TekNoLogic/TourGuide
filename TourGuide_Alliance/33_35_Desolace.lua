@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Desolace (33-34)", "Stranglethorn Vale (36-37)",  "Alliance", function()
+TourGuide:RegisterGuide("Desolace (33-34)", "Stranglethorn Vale (36-37)", "Alliance", function()
 return [[
 b Theramore Isle |N|Fly to Menethil Harbor and take the boat on the southern pier|
 F Astranaar

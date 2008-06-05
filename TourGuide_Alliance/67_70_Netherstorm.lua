@@ -36,8 +36,8 @@ T That Little Extra Kick |N|Back at Area 52| |T| |QID|10199|
 T Essence for the Engines |T| |QID|10224|
 A Elemental Power Extraction |T| |QID|10226|
 
-C Manaforge B'naar |N|West out of town, then southwest| |O| |QID|10189|
-C Distraction at Manaforge B'naar |N|West out of town, then southwest| |O| |QID|10241|
+C Manaforge B'naar |N|West out of town, then southwest| |O| |QID|10189| |NODEBUG|
+C Distraction at Manaforge B'naar |N|West out of town, then southwest| |O| |QID|10241| |NODEBUG|
 C Elemental Power Extraction |N|South at the Crumbling Waste (32,78).  Use the power extractor on the Sundered rumblers and warp aberrations then kill them.| |QID|10226|
 C Invaluable Asset Zapping |N|Northeast at the Arklon Ruins (41.03, 73.71), (41.42, 71.82), (40.27, 72.91), (42.52, 72.12)| |QID|10203|
 C The Archmage's Staff |N|Use the conjuring powder on the fountain in the center of the ruins| |U|29207| |QID|10173|
@@ -47,8 +47,8 @@ A Dr. Boom! |T| |QID|10221|
 T Elemental Power Extraction |T| |QID|10226|
 T The Archmage's Staff |T| |QID|10173|
 A Rebuilding the Staff |T| |QID|10300|
-T Distraction at Manaforge B'naar |O| |T| |QID|10241|
-T Manaforge B'naar |O| |T| |QID|10189|
+T Distraction at Manaforge B'naar |O| |T| |QID|10241| |NODEBUG|
+T Manaforge B'naar |O| |T| |QID|10189| |NODEBUG|
 A Measuring Warp Energies |O| |PRE|Distraction at Manaforge B'naar| |T| |QID|10313|
 A Assisting the Consortium |T| |N|If you already accepted "Consortium Crystal Collection" drop it to accept this| |QID|10264|
 A Naaru Technology |O| |PRE|Distraction at Manaforge B'naar| |T| |QID|10243|

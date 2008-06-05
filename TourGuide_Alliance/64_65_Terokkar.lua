@@ -8,12 +8,12 @@ A Rather Be Fishin' |N|You can accept this and the next while doing the walk-aro
 T City of Light |QID|10211|
 N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  Select the appropriate quest from Khadgar once you've decided.|
 
-T Allegiance to the Aldor |O| |QID|10551|
+T Allegiance to the Aldor |O| |QID|10551| |NODEBUG|
 A Ishanah |O| |PRE|Allegiance to the Aldor| |QID|10554|
 T Ishanah |O| |QID|10554|
 A Restoring the Light |O| |PRE|Ishanah| |QID|10021|
 
-T Allegiance to the Scryers |O| |QID|10552|
+T Allegiance to the Scryers |O| |QID|10552| |NODEBUG|
 A Voren'thal the Seer |O| |PRE|Allegiance to the Scryers| |QID|10553|
 T Voren'thal the Seer |O| |QID|10553|
 A Losing Gracefully |O| |PRE|Voren'thal the Seer| |QID|10169|
@@ -183,7 +183,6 @@ N Get lost... |N|Kill any skeletons you come across for "Helping the Lost Find T
 C Veil Lithic: Preemptive Strike |N|Southwest of the caravan (23,71)| |QID|10861|
 A The Dread Relic |N|Southeast of Veil Lithic at the Sha'tari Base Camp (31,76)| |QID|10877|
 A An Improper Burial |QID|10913|
-A The Dread Relic |QID|10877|
 A Taken in the Night |QID|10873|
 A Digging Through Bones |N|Listed as a group quest, but it's not difficult, and the character dialog is worth it.| |QID|10922|
 C Digging Through Bones |QID|10922|

@@ -1,10 +1,8 @@
 
 TourGuide:RegisterGuide("The Barrens (22-23)", "Stonetalon Mountains (23-25)", "Horde", function()
 return [[
-H The Crossroads
-N Get pet from stable |C|Hunter| |T|
-
 F Camp Taurajo
+N Get pet from stable |C|Hunter| |T|
 T Jorn Skyseer |T| |O| |QID|3261|
 A Ishamuhale |T| |O| |PRE|Jorn Skyseer| |QID|882|
 h Camp Taurajo |T|
@@ -32,6 +30,7 @@ C Ishamuhale |N|Kill a Zhevra to get a carcas, then use it at the tree northwest
 T Further Instructions (Part 1) |N|Down in Ratchet| |T| |QID|1094|
 A Further Instructions (Part 2) |T| |QID|1095|
 T Deepmoss Spider Eggs |O| |T| |QID|1069|
+
 ]]
 end)
 
