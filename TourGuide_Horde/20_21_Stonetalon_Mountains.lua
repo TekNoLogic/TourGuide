@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Stonetalon Mountains (20-21)", "Ashenvale (21-22)", "Horde", function()
+TourGuide:RegisterGuide("Stonetalon Mountains (20-21)", "The Barrens (22-23)", "Horde", function()
 return [[
 R Honor's Stand |N|Take the road west out of the Crossroads to the edge of Stonetalon Mountains|
 A Goblin Invaders |QID|1062|
@@ -30,6 +30,9 @@ A Further Instructions |QID|1095|
 R Sun Rock Retreat |N|(46,59)|
 T Arachnophobia |T| |QID|6284|
 A Boulderslide Ravine |T| |QID|6421|
+N Stable your pet |C|Hunter| |T|
+
+P Bite (Rank 3) |N|Tame a Deepmoss Creeper, along the road to the south.|
 C Boulderslide Ravine |N|(61,92)| |QID|6421|
 
 T Blood Feeders |QID|6461|
@@ -37,10 +40,6 @@ T Kill Grundig Darkcloud |QID|6629|
 T Goblin Invaders |QID|1062|
 A Shredding Machines |QID|1068|
 A The Elder Crone |QID|1063|
-
-H The Crossroads
-N Stable your pet |C|Hunter| |T|
-T Report to Kadrak |N|Take the road north out of town to the Ashenvale border| |T| |QID|6542|
 ]]
 end)
 

@@ -12,8 +12,12 @@ T Sarkoth (Part 2) |QID|804|
 T Cutting Teeth |QID|788|
 
 A Sting of the Scorpid |QID|789|
+
 A Etched Tablet |C|Hunter| |QID|3082|
 T Etched Tablet |C|Hunter| |QID|3082|
+A Rune-Inscribed Tablet |C|Shaman| |QID|3084|
+T Rune-Inscribed Tablet |C|Shaman| |QID|3084|
+
 A Vile Familiars |QID|1499|
 A Galgar's Cactus Apple Surprise |QID|4402|
 A Lazy Peons |QID|5441|
@@ -23,19 +27,22 @@ C Galgar's Cactus Apple Surprise |QID|4402|
 C Sting of the Scorpid |QID|789|
 C Vile Familiars |QID|1499|
 
-T Sting of the Scorpid |QID|789|
-T Vile Familiars |QID|1499|
 T Galgar's Cactus Apple Surprise |QID|4402|
-T Lazy Peons |QID|5441|
-
+T Sting of the Scorpid |QID|789|
+A Call of Earth |C|Shaman| |QID|1516|
+T Vile Familiars |QID|1499|
 A Burning Blade Medallion |QID|794|
+T Lazy Peons |QID|5441|
 A Thazz'ril's Pick |QID|6394|
+
 C Thazz'ril's Pick |N|In the cave at North end of Valley of Trials. Go straight ahead at the fork. (43.7,53.7)| |QID|6394|
-C Burning Blade Medallion |N|Go back to the fork and take the eastern path at the fork. (42.7,52.9)| |QID|794|
+C Burning Blade Medallion |N|Go back to the fork and take the northern path at the fork. (42.7,52.9)| |QID|794|
+C Call of Earth |C|Shaman| |QID|1516|
 
 H Valley of Trials
 T Burning Blade Medallion |QID|794|
 A Report to Sen'jin Village |QID|805|
+T Call of Earth |C|Shaman| |QID|1516|
 T Thazz'ril's Pick |QID|6394|
 A A Peon's Burden |N|From the orc just outside the newbie area (52.0,68.3)| |QID|2161|
 
