@@ -54,7 +54,7 @@ F Ata'mal Terrace |N|Shadowmoon Valley, southeast of the Aldor outpost.|
 K Shadowmoon Slayers, Chosen and Darkweavers |N|Need 5 armaments for "Ata'mal Armaments"| |L|34500 5|
 
 F Spirit Fields |N|That big white thing in Nagrand!|
-C The Multiphase Survey |U|35233| |N|Put on the goggles, then use them near the fire-thingies.|
+C The Multiphase Survey |U|35233| |N|Put on the goggles, then use them near the fire-thingies.| |QID|11880|
 
 F Manaforge B'naar |N|West of Area 52|
 C Sunfury Attack Plans |QID|11877| |N|Kill dem Sunfuries!|
@@ -81,5 +81,6 @@ T Maintaining the Sunwell Portal |QID|11514|
 F Isle of Quel'Danas |N|Take the portal back|
 C Ata'mal Armaments |N|Use the armaments at the anvil  (50.58, 40.78).| |U|34500| |QID|11544|
 T Ata'mal Armaments |QID|11544|
+T Rediscovering Your Roots |QID|11521|
 ]]
 end)
