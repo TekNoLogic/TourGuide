@@ -24,8 +24,8 @@ T The Dying Balance |N|Inside the inn| |QID|9895|
 T Escape from Umbrafen |QID|9752|
 
 C Disturbance at Umbrafen Lake |N|Run by the pump on the southwest side of the lake (70,81).| |QID|9716|
-C A Damp, Dark Place |N|Funggor Cavern is south of Umbrafen Lake (74,91).  Ikeyen's belongings are on a rock at the back of the cave (70.6, 97.9).| |QID|9788|
-C Safeguarding the Watchers |N|At the bottom of the cave. It's labeled a group quest, but Klaq is soloable if you clear the adds first.| |QID|9894|
+C Safeguarding the Watchers |N|Funggor Cavern is south of Umbrafen Lake (74,91).  At the bottom of the cave (72.26, 93.99).  It's labeled a group quest, but Klaq is soloable if you are careful.| |QID|9894|
+C A Damp, Dark Place |N|Ikeyen's belongings are on a rock at the back of the cave (70.6, 97.9).| |QID|9788|
 C Saving the Sporeloks |QID|10096|
 
 H Cenarion Refuge
