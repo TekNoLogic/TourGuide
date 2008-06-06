@@ -4,6 +4,7 @@ return [[
 R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!|
 A The Umbrafen Tribe |QID|9747|
 A The Dying Balance |N|Inside the inn.| |QID|9895|
+h Cenarion Refuge
 T The Cenarion Expedition |N| Back of the inn.| |QID|9912|
 A Disturbance at Umbrafen Lake |QID|9716|
 A Warden Hamoot |QID|9778|
@@ -27,6 +28,7 @@ C A Damp, Dark Place |N|Funggor Cavern is south of Umbrafen Lake (74,91).  Ikeye
 C Safeguarding the Watchers |N|At the bottom of the cave. It's labeled a group quest, but Klaq is soloable if you clear the adds first.| |QID|9894|
 C Saving the Sporeloks |QID|10096|
 
+H Cenarion Refuge
 T Disturbance at Umbrafen Lake |N|Back at Cenarion Refuge, of course.| |QID|9716|
 A As the Crow Flies |QID|9718|
 C As the Crow Flies |N|Use the amulet.| |U|25465| |QID|9718|
