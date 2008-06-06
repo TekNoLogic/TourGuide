@@ -62,7 +62,7 @@ C Sunfury Attack Plans |QID|11877| |N|Kill dem Sunfuries!|
 F Bash'ir Landing |N|Blade's Edge Mountains, north of Evergrove|
 C Maintaining the Sunwell Portal |QID|11514| |N|Kill ethereals for a phasing device, use it, loot the cells.| |U|34248|
 
-F Throne of Kil'jaeden |N|Northwest of Thrallmar|
+F Throne of Kil'jaeden |N|Northeast of Thrallmar|
 A Blast the Gateway |QID|11516|
 A Blood for Blood |QID|11515|
 C Blast the Gateway |QID|11516| |U|34253| |N|Use the embers, kill Incandescent Fel Sparks near the flare, take him back to the portal.  You don't have to be the one to kill the spark, just be near one that dies.|
