@@ -25,12 +25,13 @@ guides = {}
 xml_file = XmlSimple.xml_in File.read("Guides.xml")
 xml_file["Script"].map{|v| v["file"]}.each do |lua_file|
 	guide = File.read lua_file
-	if guide =~ /TourGuide:RegisterGuide\("([^"]+)", "?([^"]+)"?, "[^"]+", function\(\).*\[\[(.+)\]\]/m
+	if guide =~ /TourGuide:RegisterGuide\("([^"]+)", "?([^"]+)"?, "?[^"]+"?, function\(\).*\[\[(.+)\]\]/m
 		guide_name, next_guide, data = $1, $2, $3
 		guides[guide_name] = {"next_guide" => next_guide, "data" => data, "file_name" => lua_file}
 		guides["first"] = guides[guide_name] if lua_file == first_guide
 	else
 		puts "*** Error parsing #{lua_file}"
+		exit 1
 	end
 end
 
