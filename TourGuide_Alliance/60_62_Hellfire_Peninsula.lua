@@ -224,8 +224,8 @@ C The Seer's Relic |N|Go back to Sedai's corpse and use the relic on it.  Sit ba
 C Cleansing the Waters |N|Use the vial on Aggonar's corpse in the northern part of the Pools of Aggonar (40,31)| |U|23361| |QID|9427|
 
 T Deadly Predators |N|Back at Temple of Telhamat| |QID|9398|
-T The Seer's Relic |QID|9545|
 T Cleansing the Waters |QID|9427|
+T The Seer's Relic |QID|9545|
 A Helping the Cenarion Post |QID|10443|
 
 A The Cenarion Expedition |N|Down at Cenarion Post (15,52)| |QID|9912|
