@@ -1,0 +1,14 @@
+## Interface: 20400
+
+## Title: Tour Guide (Neutral Data)
+## Notes: Powerleveling guide framework
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Category: Quest
+
+## RequiredDeps: TourGuide
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+Guides.xml
