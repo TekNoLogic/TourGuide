@@ -48,6 +48,7 @@ T Disrupt the Greengill Coast |QID|11541|
 F Shattrath City |N|Use the teleport scroll from "Know Your Ley Lines"| |U|35230|
 A Maintaining the Sunwell Portal |QID|11514|
 A Sunfury Attack Plans |QID|11877|
+A Gaining the Advantage |QID|11875| |N|Herbalism, Mining, or Skinning is required to obtain this quest.|
 A The Multiphase Survey |QID|11880|
 
 F Ata'mal Terrace |N|Shadowmoon Valley, southeast of the Aldor outpost.|
@@ -73,8 +74,11 @@ T Blood for Blood |QID|11515|
 F Razorthorn Rise |N|Between Hellfire and Terokkar|
 C Rediscovering Your Roots |QID|11521| |N|Kill flayers for a gland, use it on a ravager.  Use the ravager to dig up dirt mounds for the roots.| |U|34255|
 
+C Gaining the Advantage |QID|11875|
+
 F Shattrath City |N|Back to the hub!|
 T Sunfury Attack Plans |QID|11877|
+T Gaining the Advantage |QID|11875|
 T The Multiphase Survey |QID|11880|
 T Maintaining the Sunwell Portal |QID|11514|
 
