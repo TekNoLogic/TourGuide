@@ -59,22 +59,22 @@ K Shadowmoon Slayers, Chosen and Darkweavers |N|Need 5 armaments for "Ata'mal Ar
 F Nagrand
 C The Multiphase Survey |U|35233| |N|Put on the goggles, then use them near the fire-thingies.| |QID|11880|
 
-F Area 52
-C Sunfury Attack Plans |QID|11877| |N|Kill dem Sunfuries over at Manaforge B'naar!|
-
-F Evergrove |N|Blade's Edge Mountains|
-C Maintaining the Sunwell Portal |QID|11514| |N|Kill ethereals at Bash'ir Landing to the north for a phasing device, use it, loot the cells.| |U|34248|
+F Razorthorn Rise |N|Between Hellfire and Terokkar|
+C Rediscovering Your Roots |QID|11521| |N|Kill flayers for a gland, use it on a ravager.  Use the ravager to dig up dirt mounds for the roots.| |U|34255|
 
 F Hellfire Peninsula
-A Blast the Gateway |QID|11516| |N|Up at the Throne of Kil'jaeden, northeast of Thrallmar.|
 A Blood for Blood |QID|11515|
+A Blast the Gateway |QID|11516| |N|Up at the Throne of Kil'jaeden, northeast of Thrallmar (58.10, 17.40).| |Z|Hellfire Peninsula|
 C Blast the Gateway |QID|11516| |U|34253| |N|Use the embers, kill Incandescent Fel Sparks near the flare, take him back to the portal.  You don't have to be the one to kill the spark, just be near one that dies.|
 C Blood for Blood |QID|11515| |N|Kill Wrath Heralds for blood, use the siphon on the initiates, kill them!| |U|34257|
 T Blast the Gateway |QID|11516|
 T Blood for Blood |QID|11515|
 
-F Razorthorn Rise |N|Between Hellfire and Terokkar|
-C Rediscovering Your Roots |QID|11521| |N|Kill flayers for a gland, use it on a ravager.  Use the ravager to dig up dirt mounds for the roots.| |U|34255|
+F Area 52
+C Sunfury Attack Plans |QID|11877| |N|Kill dem Sunfuries over at Manaforge B'naar!|
+
+F Evergrove |N|Blade's Edge Mountains|
+C Maintaining the Sunwell Portal |QID|11514| |N|Kill ethereals at Bash'ir Landing to the north for a phasing device, use it, loot the cells.| |U|34248|
 
 F Shattrath City |N|Back to the hub!|
 T Sunfury Attack Plans |QID|11877|
