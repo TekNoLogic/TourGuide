@@ -42,8 +42,8 @@ C Raene's Cleansing (Part 2) |N|Kill murlocs, huzzah!| |QID|1023|
 H Astranaar
 T Raene's Cleansing (Part 2) |T| |QID|1023|
 A Raene's Cleansing (Part 3) |T| |QID|1024|
-T The Zoram Strand |T| |QID|1008|
 A An Aggressive Defense |T| |QID|1025|
+T The Zoram Strand |T| |QID|1008|
 N Unstable your pet |C|Hunter| |T|
 C Elune's Tear |N|Northeast at Iris Lake, on the island (46,46).| |QID|1033|
 T Raene's Cleansing (Part 3) |N|To the east at the Moonwell (53.50, 46.30)| |QID|1024|
