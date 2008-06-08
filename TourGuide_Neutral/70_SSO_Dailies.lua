@@ -51,6 +51,7 @@ A Rediscovering Your Roots |QID|11521|
 F Shattrath City |N|Use the teleport scroll from "Know Your Ley Lines"| |U|35230|
 A Maintaining the Sunwell Portal |QID|11514|
 A Sunfury Attack Plans |QID|11877|
+A Gaining the Advantage |QID|11875| |N|Herbalism, Mining, or Skinning is required to obtain this quest.|
 A The Multiphase Survey |QID|11880|
 
 F Ata'mal Terrace |N|Shadowmoon Valley, southeast of the Aldor outpost.|
@@ -76,8 +77,11 @@ C Sunfury Attack Plans |QID|11877| |N|Kill dem Sunfuries over at Manaforge B'naa
 F Evergrove |N|Blade's Edge Mountains|
 C Maintaining the Sunwell Portal |QID|11514| |N|Kill ethereals at Bash'ir Landing to the north for a phasing device, use it, loot the cells.| |U|34248|
 
+C Gaining the Advantage |QID|11875|
+
 F Shattrath City |N|Back to the hub!|
 T Sunfury Attack Plans |QID|11877|
+T Gaining the Advantage |QID|11875|
 T The Multiphase Survey |QID|11880|
 T Maintaining the Sunwell Portal |QID|11514|
 
