@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("Redridge Mountains (27-28)", "Duskwood (28-29)", "Alliance", function()
 return [[
-F Stormwind City
+F Stormwind City |C|Warlock|
 
 T Heartswood |N|Warlock Trainer in the Mage Quarter| |C|Warlock| |QID|1738|
 A The Binding |C|Warlock| |NODEBUG| |QID|1795|
