@@ -130,11 +130,7 @@ T Protect the Frontier |QID|52|
 C Princess Must Die!|N|At the Brackwell Pumpkin Patch (69,79)| |QID|88|
 C Red Linen Goods |QID|83|
 
-A Bounty on Murlocs |N|Back by the bridge| |QID|46|
-C Bounty on Murlocs |N|Back up by the lake| |QID|46|
-
 T Red Linen Goods |QID|83|
-T Bounty on Murlocs |QID|46|
 
 H Goldshire |SZ|Lion's Pride Inn|
 A Speak with Jennea |C|Mage| |QID|1860|
