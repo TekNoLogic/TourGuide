@@ -4,26 +4,26 @@ return [[
 F Allerian Stronghold |N|Terokkar Forest|
 R Wildhammer Stronghold |N|East across the bridge, follow the road southeast in Shadowmoon Valley (39,53)|
 
-A Besieged! |QID|10595|
-C Besieged! |QID|10595|
-T Besieged! |QID|10595|
+A Besieged! |QID|10562|
+C Besieged! |QID|10562|
+T Besieged! |QID|10562|
 A To Legion Hold |QID|10596|
-A The Sketh'lon Wreckage |T| |QID|10760|
+A The Sketh'lon Wreckage |T| |QID|10569|
 A A Ghost in the Machine |T| |QID|10642|
 h Wildhammer Stronghold |T|
-A The Hand of Gul'dan |T| |QID|10681|
+A The Hand of Gul'dan |T| |QID|10680|
 A Put On Yer Kneepads... |T| |QID|10703|
 A Spleendid! |T| |QID|10661|
 
 N Kill crap... |N|Kill any Felboars, Vilewing Chimaeras and Scorchshell Pincers you come across for "Put On Yer Kneepads..."  Also loot any [Ever-burning Ash] you see, and kill Diemetradons for "Spleendid!"|
-T The Hand of Gul'dan |N|Northeast at the Altar of Damnation (42,45)| |QID|10681|
+T The Hand of Gul'dan |N|Northeast at the Altar of Damnation (42,45)| |QID|10680|
 A Enraged Spirits of Fire and Earth |QID|10458|
 C Enraged Spirits of Fire and Earth |N|Use the totem, then kill the elementals near it| |U|30094| |QID|10458|
 T Enraged Spirits of Fire and Earth |QID|10458|
 A Enraged Spirits of Water |QID|10480|
 C Enraged Spirits of Water |N|Kill water elementals to the northeast at Coilskar Point (48,24).  Use the totem, same as before.| |U|30094| |QID|10480|
 
-C The Sketh'lon Wreckage |N|West at the Sketh'lon Wreckage (37,30)| |QID|10760|
+C The Sketh'lon Wreckage |N|West at the Sketh'lon Wreckage (37,30)| |QID|10569|
 C Spleendid! |N|At the green lava lake in front of Legion Hold (30,38)| |QID|10661|
 C A Ghost in the Machine |N|Same lake as "Spleendid!".  You can also find some to the east at a laval crevase.| |QID|10642|
 
@@ -38,7 +38,7 @@ U Put on your Spectrecles |U|30719| |T|
 C Harbingers of Shadowmoon |N|You don't have to leave the stronghold!| |T| |QID|10643|
 T Harbingers of Shadowmoon |T| |QID|10643|
 A Teron Gorefiend - Lore and Legend |T| |QID|10644|
-T The Sketh'lon Wreckage |T| |QID|10760|
+T The Sketh'lon Wreckage |T| |QID|10569|
 A Find the Deserter |T| |QID|10761|
 T To Legion Hold |QID|10596|
 A Setting Up the Bomb |QID|10597|
