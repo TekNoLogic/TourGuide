@@ -1,3 +1,14 @@
+2.4.2.28-Beta
+    Fix resetting a guide not clearing QIDs
+    Add Shattered Sun Offensive dailies guide
+    Ally QID fixes
+    Horde QID fixes
+    Rejigger Ally Zangar a bit
+    Fix warlock-only fly obj in Ally Redridge
+    Remove quest from Elywnn, has a prereq, not worth running back to do
+    Minor fix to quest order in Ally Ashenvale 22-24
+    Horde Blade's Edge coord fix
+
 2.4.2.27-Beta
     Ally Hellfire tweaks
     Ally Zangar tweaks
