@@ -51,7 +51,7 @@ N Pick up a Hippograph Egg |N|Around (55,76) in nests| |L|8564|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)| |QID|2822|
 
 T The Mark of Quality |N|Back at Camp Mojache| |T| |QID|2822|
-A The Sunken Temple |T| |QID|3445|
+A The Sunken Temple |T| |QID|3380|
 T Stinglasher |T| |QID|7731|
 T Zukk'ash Infestation |T| |QID|7730|
 A Zukk'ash Report |T| |QID|7732|
