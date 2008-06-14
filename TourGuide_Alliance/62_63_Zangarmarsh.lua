@@ -37,17 +37,12 @@ A Balance Must Be Preserved |QID|9720|
 T Safeguarding the Watchers |N|Over the river near the moonwell.| |QID|9894|
 T A Damp, Dark Place |QID|9788|
 T Saving the Sporeloks |QID|10096|
-A Blessings of the Ancients |N|You should be friendly with the Cenarion Expedition by now.| |QID|9785|
-C Blessings of the Ancients |QID|9785|
-T Blessings of the Ancients |QID|9785|
 
 N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
 N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
 
 R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
 A The Dead Mire |QID|9782|
-A The Fate of Tuurem |QID|9793|
-A The Orebor Harborage |QID|9776|
 A The Boha'mu Ruins |QID|9786|
 A Unfinished Business |QID|9901|
 A Fulgor Spores |QID|9777|
@@ -72,8 +67,10 @@ A Umbrafen Eel Filets |QID|9780|
 C Too Many Mouths to Feed |N|Mire Hydras are all around the edge of Umbrafen Lake. Kill any Eels you see too. Don't forget to use your water breathing potion!| |U|25539| |QID|9781|
 C Umbrafen Eel Filets |N|Umbrafen Lake has eels? Who'da thunk it?  Droprate kinda blows on these, you might want to just drop this quest.| |QID|9780|
 
-A What's Wrong at Cenarion Thicket? |N|From Lethyn Moonfire in Cenarion Refuge.| |QID|9961|
-A Watcher Leesa'oh |QID|9697|
+A Watcher Leesa'oh |QID|9697| |N|Back at Cenarion Refuge.  You must be friendly to get this, so if you're not friendly yet, go buy some Unidentified Plant Parts from the AH to get there.|
+A Blessings of the Ancients |QID|9785|
+C Blessings of the Ancients |QID|9785|
+T Blessings of the Ancients |QID|9785|
 C An Unnatural Drought |N|Kill Withered Giants in the Dead Mire.| |QID|9783|
 A Withered Basidium |U|24483| |N|Kill Withered Giants until you get the item to start this| |QID|9828|
 N Save Bog Lord Tendrils |N|You'll need them later for reputation.|
@@ -84,6 +81,7 @@ A Withered Flesh |QID|10355|
 T Umbrafen Eel Filets |QID|9780|
 T Too Many Mouths to Feed |QID|9781|
 A Diaphanous Wings |QID|9790|
+A The Orebor Harborage |QID|9776| |N|Requires level 62 to get, if you can't get it just skip it.|
 
 N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
 N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
@@ -185,6 +183,7 @@ T Warning the Cenarion Circle |O| |N|East in Hellfire, at Cenarion Post| |QID|97
 A Return to the Marsh |O| |PRE|Warning the Cenarion Circle| |QID|9732|
 T Return to the Marsh |O| |N|Back at the Refuge, of course.| |QID|9732|
 T A Warm Welcome |N|Warden Hamoot on top of the tower| |QID|9728|
+A What's Wrong at Cenarion Thicket? |QID|9957|
 C Withered Flesh |N|In the Dead Mire, north of the Refuge.| |QID|10355|
 
 T Withered Flesh |N|Up on Telredor| |QID|10355|
@@ -195,6 +194,7 @@ T Gathering the Reagents |QID|9801|
 A Messenger to the Feralfen |QID|9803|
 C Messenger to the Feralfen |N|Go to the Boha'mu Ruins (44.12, 69.45), drink the elixir and talk to Elder Kuruti.| |U|24428| |QID|9803|
 T Messenger to the Feralfen |N|Back at Telredor| |QID|9803|
+A The Fate of Tuurem |QID|9793|
 ]]
 end)
 
