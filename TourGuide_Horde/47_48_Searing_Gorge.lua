@@ -65,6 +65,6 @@ T What the Flux? |QID|7722|
 T Incendosaurs? Whateverosaur is More Like It |QID|7727|
 
 R Burning Steppes |N|You have to go through Black Rock Mountain, SW of map|
-f Get the FP |N|at (65,25)|
+f Get the FP |N|at (65,25)| |Z|Burning Steppes|
 ]]
 end)
