@@ -32,9 +32,9 @@ T The Thirsty Goblin |N|Back at Gadgetzan| |QID|2605|
 A In Good Taste |QID|2606|
 T In Good Taste |QID|2606|
 A Sprinkle's Secret Ingredient |QID|2641|
+T Noxious Lair Investigation |QID|82|
 T Thistleshrub Valley |QID|3362|
 T The Dunemaul Compound |QID|5863|
-T Noxious Lair Investigation |QID|82|
 A The Scrimshank Redemption |QID|10|
 
 T Gahz'ridian |N|At (52,45)| |QID|3161|
