@@ -116,7 +116,6 @@ A Familiar Fungi |QID|9708|
 N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
 C Now That We're Friends... |N|These naga are all around the west side of Marshlight Lake.| |QID|9726|
 C A Warm Welcome |N|If you have a significant number of claws to get, turn in "Now That We're Friends..." and get the repeat quest so you can earn Sporeggar rep at the same time.| |QID|9728|
-T Now That We're Friends... |QID|9726|
 
 R Orebor Harborage |N|Northwest of Serpent Lake.|
 A Secrets of the Daggerfen |QID|9848|
@@ -149,6 +148,7 @@ A The Count of the Marshes |U|25459| |N|Kill "Count" Ungula if you didn't, back 
 T Familiar Fungi |N|At the watchpost, west of the Spawning Glen (23,66).| |QID|9708|
 A Stealing Back the Mushrooms |QID|9709|
 T The Count of the Marshes |QID|9911|
+T Now That We're Friends... |QID|9726|
 C Stinger Venom |N|Every side of Marshlight Lake except the east side.| |QID|9830|
 C Diaphanous Wings |QID|9790|
 C The Terror of Marshlight Lake |N|Terrorclaw is on the southern-most island in Marshlight Lake, west and a bit south of the pump (22,45). He also fears, so be aware.| |QID|9902|
