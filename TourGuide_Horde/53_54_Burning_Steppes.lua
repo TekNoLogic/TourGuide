@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide( "Burning Steppes (53-54)", "Felwood (54)", "Horde", function()
+TourGuide:RegisterGuide("Burning Steppes (53-54)", "Felwood (54)", "Horde", function()
 return [[
 F Burning Steppes
 A Broodling Essence |QID|4726|

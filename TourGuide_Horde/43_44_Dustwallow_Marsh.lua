@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Dustwallow Marsh (43-44)", "Tanaris (44-45)","Horde", function()
+TourGuide:RegisterGuide("Dustwallow Marsh (43-44)", "Tanaris (44-45)", "Horde", function()
 return [[
 F Brackenwall Village |N|Boat to Ratchet and fly down|
 A Overlord Mok'Morokk's Concern |T| |QID|1166|
