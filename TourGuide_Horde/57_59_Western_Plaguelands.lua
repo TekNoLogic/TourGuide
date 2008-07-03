@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Western Plaguelands (57-59)", "Hellfire Pennisula (59-60)", "Horde", function()
+TourGuide:RegisterGuide("Western Plaguelands (57-59)", "Hellfire Peninsula (60-61)", "Horde", function()
 return [[
 R The Bulwark
 T Return to the Bulwark (Part 4) |QID|5236|
