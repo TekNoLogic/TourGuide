@@ -51,7 +51,7 @@ T Vision Guide |QID|10525|
 A The Thunderspike |QID|10526|
 C Dust from the Drakes |N|Found around (39,70)| |QID|10487|
 C The Bloodmaul Ogres |QID|10505|
-C The Thunderspike |N|Thunderspike is at end of cave, entrance at (42,75)| |QID|10526|
+C The Thunderspike |N|Thunderspike is at end of cave, entrance at (42.47, 82.42)| |QID|10526|
 
 H Thunderlord Stronghold |N|If hearth on CD, run there|
 T The Bloodmaul Ogres |QID|10505|

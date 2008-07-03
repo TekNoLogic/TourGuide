@@ -1,3 +1,44 @@
+2.4.2.29-Beta
+    Ally Zangar tweaks
+    Ally Azuremyst playtesting
+    Ally Nagrand QIDs
+    Horde STV fixes
+    Horde Searing Gorge fixes
+    Horde SoS fixes
+    Horde Tanaris fixes
+
+2.4.2.28-Beta
+    Fix resetting a guide not clearing QIDs
+    Add Shattered Sun Offensive dailies guide
+    Ally QID fixes
+    Horde QID fixes
+    Rejigger Ally Zangar a bit
+    Fix warlock-only fly obj in Ally Redridge
+    Remove quest from Elywnn, has a prereq, not worth running back to do
+    Minor fix to quest order in Ally Ashenvale 22-24
+    Horde Blade's Edge coord fix
+
+2.4.2.27-Beta
+    Ally Hellfire tweaks
+    Ally Zangar tweaks
+     - Add a hearth to the Refuge near the start
+     - Rearrange quests in the cave, it's faster to jump down
+    Barrens tweaks
+     - Streamlined the guide a bit
+     - Fixed minor Typo: Mankirk -> Mankrik
+    Horde Hellfire tweaks
+     - Added non-coord directions, fixed coords
+    Shattered Sun daily guide (thanks kuroshiro)
+     - Added support for "neutral" guides that load for both factions
+     - Known Bugs: Gathering profession daily is not present yet
+    Fix a few Ally issues found by debug script
+    Added Shaman Class quests to Durotar 1-12
+    Remove pointless long run to Zoram in Horde guides
+    If a quest-giver has been mapped by LightHeaded, don't map him again from the notes
+     - This is toggleable, of course
+    |C| and |R| tags can now accept multiple values
+     - Existing guides have been updated accordingly
+
 2.4.2.26-Beta
     Bit more to Ally Hellfire
     Fix LH error if no guide loaded

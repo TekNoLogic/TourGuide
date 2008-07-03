@@ -28,7 +28,7 @@ h Theramore Isle |T|
 A They Call Him Smiling Jim |N|From Guard Byron| |T| |QID|1282|
 A Tabetha's Farm |T| |QID|11212|
 T They Call Him Smiling Jim |N|Inside the keep| |T| |QID|1282|
-A Inspecting the Ruins |T| |QID|11124|
+A Inspecting the Ruins |T| |QID|11123|
 T The Missing Diplomat (Part 13) |T| |QID|1264|
 A The Missing Diplomat (Part 14) |T| |QID|1265|
 A A Disturbing Development |T| |QID|11136|

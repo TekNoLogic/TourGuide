@@ -20,19 +20,17 @@ A Shaman Training |C|Shaman| |QID|9421|
 A Priest Training |C|Priest| |QID|9291|
 A Paladin Training |C|Paladin| |QID|9676|
 A Warrior Training |C|Warrior| |QID|9289|
-A Mage Training |C|Mage| |QID|9290|
 
 T Shaman Training |C|Shaman| |QID|9421|
 T Priest Training |C|Priest| |QID|9291|
 T Paladin Training |C|Paladin| |QID|9676|
 T Warrior Training |C|Warrior| |QID|9289|
-T Mage Training |C|Mage| |QID|9290|
 
 A Spare Parts |QID|9305|
 A Inoculation |QID|9303|
 
-C Rescue the Survivors! |N|Find a Draenei Survivor (73.32,50.88) and use your spell Gift of the Naaru on him| |QID|9283|
-C Botanical Legwork |N|South of Ammen Fields (74.00,52.95)| |QID|9799|
+C Rescue the Survivors! |N|Find a Draenei Survivor (73.32,50.88) and use your spell "Gift of the Naaru" on him| |QID|9283|
+C Botanical Legwork |N|Southwest at Ammen Fields (74.00, 52.95)| |QID|9799|
 C What Must Be Done... |QID|9293|
 
 T Botanical Legwork |QID|9799|
@@ -40,9 +38,9 @@ T What Must Be Done... |QID|9293|
 A Healing the Lake |QID|9294|
 T Rescue the Survivors! |QID|9283|
 
-C Healing the Lake|N|Southwest of Crash Site at the Irradiated Crystal (77.30, 58.67)| |QID|9294|
-C Inoculation |N|Southeast of Crash Site at Nestlewood Thicket (78,60)|| |U|22962| |QID|9303|
-C Spare Parts |QID|9305|
+C Healing the Lake|N|Southwest at the crystal in Silverline Lake (77.30, 58.67)| |QID|9294|
+C Inoculation |N|East of Silverline Lake at Nestlewood Thicket (78,60).  Use the crystal on the non-aggro moonkin.| |U|22962| |QID|9303|
+C Spare Parts |QID|9305| |N|Up the hill|
 
 H Ammen Vale
 T Healing the Lake |QID|9294|
@@ -50,20 +48,20 @@ A Call of Earth (Part 1) |C|Shaman| |QID|9449|
 T Spare Parts |QID|9305|
 T Inoculation |QID|9303|
 A The Missing Scout |QID|9309|
-T Call of Earth (Part 1) |N|Northwest of Crash Site (71,40)| |C|Shaman| |QID|9449|
+T Call of Earth (Part 1) |N|Northwest of the Crash Site (71,40)| |C|Shaman| |QID|9449|
 A Call of Earth (Part 2) |C|Shaman| |QID|9450|
 C Call of Earth (Part 2) |C|Shaman| |QID|9450|
 T Call of Earth (Part 2) |C|Shaman| |QID|9450|
 A Call of Earth (Part 3) |C|Shaman| |QID|9451|
-T Call of Earth (Part 3) |N|At the Crash Site| |C|Shaman| |QID|9451|
+T Call of Earth (Part 3) |N|Back at the Crash Site| |C|Shaman| |QID|9451|
 
-T The Missing Scout |N|Southwest of Crash Site (72.03,60.77)| |QID|9309|
+T The Missing Scout |N|Southwest of Silverline Lake (72.03, 60.77)| |QID|9309|
 A The Blood Elves |QID|10303|
 C The Blood Elves |QID|10303|
 T The Blood Elves |QID|10303|
 A Blood Elf Spy |QID|9311|
-C Blood Elf Spy |N|Kill Surveyor Candress (69.20, 65.70)| |QID|9311|
-A Blood Elf Plans |N|Use the item that drops from the Surveyor Candress| |QID|9798|
+C Blood Elf Spy |N|Kill Surveyor Candress, up the hill near the pink crystal (69.20, 65.70)| |QID|9311|
+A Blood Elf Plans |N|Use the item that drops from the Surveyor Candress| |QID|9798| |U|24414|
 
 T Blood Elf Spy |N|Back at the Crash Site| |QID|9311|
 T Blood Elf Plans |QID|9798|
@@ -73,7 +71,7 @@ A Travel to Azure Watch |QID|9313|
 
 A Word from Azure Watch |N|Run out of Ammen Vale to the west, look for Aeun down the hill (64.58, 54.09)| |QID|9314|
 A Red Snapper - Very Tasty! |N|Look for Diktynna down by the river (61.1, 54.2)| |QID|9452|
-C Red Snapper - Very Tasty! |QID|9452|
+C Red Snapper - Very Tasty! |QID|9452| |U|23654| |N|Toss the net at the schools of fish!|
 T Red Snapper - Very Tasty! |QID|9452|
 A Find Acteon! |QID|9453|
 
@@ -96,21 +94,13 @@ A I've Got a Plant |QID|9530|
 T Cookie's Jumbo Gumbo |QID|9512|
 A Reclaiming the Ruins |QID|9513|
 A Precious and Fragile Things Need Special Handling |QID|9523|
+
+C I've Got a Plant |N|Look for a hollowed out tree north of Odesyus' Landing (47.4, 63.5), then work your way to the west towards the ruins collecting leaves and killing moongraze and lashers.| |QID|9530|
 C The Great Moongraze Hunt (Part 1) |QID|9454|
 C Medicinal Purpose |QID|9463|
-C I've Got a Plant |N|Look for a Hollowed out tree north of Odesyus' Landing (47.4,63.5), leaves are around the ground| |QID|9530|
-
-T Medicinal Purpose |N|Back at Azure Watch| |QID|9463|
-A An Alternative Alternative |QID|9473|
-T The Great Moongraze Hunt (Part 1) |QID|9454|
-A The Great Moongraze Hunt (Part 2) |QID|10324|
-C An Alternative Alternative |QID|9473|
-
-K Infected Nightstalker Runts |N|Looking for [Faintly Glowing Crystal]| |L|23678|
-A Strange Findings |U|23678| |QID|9455|
-
 C Reclaiming the Ruins |N|At Wrathscale Point, the ruins west of Odesyus' Landing| |QID|9513|
 C Precious and Fragile Things Need Special Handling |QID|9523|
+
 A Rune Covered Tablet |U|23759| |N|Kill more naga if you don't have this item yet| |QID|9514|
 
 T I've Got a Plant |N|Back at Odesyus' Landing| |QID|9530|
@@ -120,10 +110,18 @@ A Warlord Sriss'tiz |N|After the NPCs stop talking| |QID|9515|
 T Reclaiming the Ruins |QID|9513|
 T Precious and Fragile Things Need Special Handling |QID|9523|
 
+T Medicinal Purpose |N|Back at Azure Watch| |QID|9463|
+A An Alternative Alternative |QID|9473|
+T The Great Moongraze Hunt (Part 1) |QID|9454|
+A The Great Moongraze Hunt (Part 2) |QID|10324|
+
+K Infected Nightstalker Runts |N|Northwest of Azure Watch, looking for "Faintly Glowing Crystal"| |L|23678|
+A Strange Findings |U|23678| |QID|9455|
+
 A The Missing Fisherman |N|Back at Azure Watch| |QID|10428|
 A Help Tavara |C|Priest| |QID|9586|
 A Learning the Language |QID|9538|
-C Learning the Language |N|Read the book in your inventory| |QID|9538|
+C Learning the Language |N|Read the book in your inventory| |QID|9538| |U|23818|
 T Learning the Language |QID|9538|
 A Totem of Coo |N|No need to follow the NPC, point will be shown later| |QID|9539|
 T Strange Findings |QID|9455|
@@ -142,23 +140,24 @@ T Totem of Vark |N|Follow the NPC.  If you lose him, the quest ends at Bristleli
 A The Prophecy of Akida |QID|9544|
 
 C The Prophecy of Akida |QID|9544|
-C Nightstalker Clean Up, Isle 2... |QID|9456|
+C Nightstalker Clean Up, Isle 2... |QID|9456| |N|To tho northeast|
 
-C Warlord Sriss'tiz |N|Southwest in the cave at Tides' Hollow, on the lower level (23.8,74.8)| |QID|9515|
+C Warlord Sriss'tiz |N|Southwest in the cave at Tides' Hollow, on the lower level (23.8, 74.8).  There's a handy little hole you can drop down to get near him, then you don't have to fight your way in AND out.| |QID|9515|
 
-R Traitor's Cove |N|On Silvermyst Isle, the beach with a flag (18.42, 84.33)|
-C Tree's Company |N|Use the Tree Disguise Kit near the flag| |U|23792| |QID|9531|
+C Tree's Company |N|Use the Tree Disguise Kit near the flag at Traitor's Cove on Silvermyst Isle (18.42, 84.33)| |U|23792| |QID|9531|
 T The Missing Fisherman |N|Talk to Cowlen on the dock to the northwest (16.1, 93.6)| |QID|10428|
 A All That Remains |QID|9527|
 C All That Remains |QID|9527|
 T All That Remains |QID|9527|
 
 H Azure Watch
+C An Alternative Alternative |QID|9473| |N|Around the bases of the trees.  There's a bunch just southeast of town.|
 T Help Tavara |C|Priest| |QID|9586|
 T An Alternative Alternative |QID|9473|
 T The Prophecy of Akida |QID|9544|
 A Stillpine Hold |QID|9559|
 T The Great Moongraze Hunt (Part 2) |QID|10324|
+T Nightstalker Clean Up, Isle 2... |QID|9456|
 
 T Tree's Company |N|Back at Odesyus' Landing| |QID|9531|
 A Show Gnomercy |QID|9537|
@@ -183,7 +182,7 @@ A Murlocs... Why Here? Why Now? |QID|9562|
 T Stillpine Hold |QID|9559|
 
 C Strength of One |C|Warrior| |QID|9582|
-C Beasts of the Apocalypse! |N|Northeast of Stillpine Hold at the Menagerie Wreckage (52.01,20.91)| |QID|9560|
+C Beasts of the Apocalypse! |N|Northeast of Stillpine Hold at the Menagerie Wreckage (52.01, 20.91)| |QID|9560|
 T Call of Fire (Part 1) |N|Go further northeast| |C|Shaman| |QID|9464|
 A Call of Fire (Part 2) |C|Shaman| |QID|9465|
 
@@ -191,9 +190,9 @@ T Beasts of the Apocalypse! |N|Back at Stillpine Hold| |QID|9560|
 A Chieftain Oomooroo |QID|9573|
 A Search Stillpine Hold |QID|9565|
 
-T Search Stillpine Hold |N|Find the Blood Crystal (50.5, 11.7)| |QID|9565|
+T Search Stillpine Hold |N|Find the Blood Crystal deep inside the hold (50.5, 11.7)| |QID|9565|
 A Blood Crystals |N|Spawns 2 owlbeasts| |QID|9566|
-C Chieftain Oomooroo |QID|9573|
+C Chieftain Oomooroo |QID|9573| |N|The chieftain is back up, across a little bridge.|
 T Blood Crystals |QID|9566|
 T Chieftain Oomooroo |QID|9573|
 A The Kurken is Lurkin' |QID|9570|

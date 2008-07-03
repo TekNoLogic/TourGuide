@@ -1,7 +1,6 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (47)", "Searing Gorge (47-48)", "Horde", function()
 return [[
-F Grom'gol Base Camp
-F Booty Bay
+F Booty Bay |N|via zeppelin to Grom'gol|
 A The Bloodsail Buccaneers (Part 5) |T| |QID|608|
 A Whiskey Slim's Lost Grog |T| |QID|580|
 h Booty Bay |T|

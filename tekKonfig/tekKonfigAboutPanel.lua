@@ -1,5 +1,5 @@
 
-local lib, oldminor = LibStub:NewLibrary("tekKonfig-AboutPanel", 1)
+local lib, oldminor = LibStub:NewLibrary("tekKonfig-AboutPanel", 2)
 if not lib then return end
 
 
@@ -109,24 +109,4 @@ function lib.OnShow(frame)
 			anchor = title
 		end
 	end
-
-	frame:SetScript("OnShow", lib.FadeIn)
-	lib.FadeIn(frame)
-end
-
-
-local elapsed = 0
-local starttimes, endtimes = {}, {}
-local function OnUpdate(frame, elap)
-	elapsed = elapsed + elap
-	if elapsed > 0.5 then
-		frame:SetScript("OnUpdate", nil)
-		frame:SetAlpha(1)
-	else frame:SetAlpha(elapsed/0.5) end
-end
-
-function lib.FadeIn(frame)
-	elapsed = 0
-	frame:SetAlpha(0)
-	frame:SetScript("OnUpdate", OnUpdate)
 end
