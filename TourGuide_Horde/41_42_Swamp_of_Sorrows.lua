@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Swamp of Sorrows (41-42)","Stranglethorn Vale (42-43)", "Horde", function()
+TourGuide:RegisterGuide("Swamp of Sorrows (41-42)", "Stranglethorn Vale (42-43)", "Horde", function()
 return [[
 R Swamp of Sorrows
 N Clear whelps around the small lake once. |N|Will do more later (14,59)|

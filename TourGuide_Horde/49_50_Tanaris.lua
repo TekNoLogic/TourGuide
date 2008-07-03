@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide( "Tanaris (49-50)", "Azshara (50)", "Horde", function()
+TourGuide:RegisterGuide("Tanaris (49-50)", "Azshara (50)", "Horde", function()
 return [[
 F Gadgetzan |N|Tanaris|
 A The Super Egg-O-Matic |N|Machine in Gadgetzan| |QID|8893|

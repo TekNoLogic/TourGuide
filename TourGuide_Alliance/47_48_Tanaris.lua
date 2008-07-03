@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Tanaris (47-48)", "Stranglethorn Vale (48-49)", "Alliance", function()
+TourGuide:RegisterGuide("Tanaris (47-48)", "Blasted Lands (49-50)", "Alliance", function()
 return [[
 F Gadgetzan
 A The Thirsty Goblin |QID|2605|
