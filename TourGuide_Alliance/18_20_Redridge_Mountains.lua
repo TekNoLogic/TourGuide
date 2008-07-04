@@ -8,7 +8,6 @@ R Redridge Mountains
 A Encroaching Gnolls |QID|244|
 T Encroaching Gnolls |N|Follow the road east until you are at the bridge| |QID|244|
 A Assessing the Threat |QID|246|
-A Blackrock Menace |N|At the other side of the bridge| |QID|20|
 A The Lost Tools |QID|125|
 A Hilary's Necklace |N|On the dock| |QID|3741|
 A Selling Fish |N|Man next to the shed| |QID|127|

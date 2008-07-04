@@ -8,12 +8,12 @@ A Rather Be Fishin' |N|You can accept this and the next while doing the walk-aro
 T City of Light |QID|10211|
 N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  Select the appropriate quest from Khadgar once you've decided.|
 
-T Allegiance to the Aldor |O| |QID|10551| |NODEBUG|
+T Allegiance to the Aldor |O| |QID|10551|
 A Ishanah |O| |PRE|Allegiance to the Aldor| |QID|10554|
 T Ishanah |O| |QID|10554|
 A Restoring the Light |O| |PRE|Ishanah| |QID|10021|
 
-T Allegiance to the Scryers |O| |QID|10552| |NODEBUG|
+T Allegiance to the Scryers |O| |QID|10552|
 A Voren'thal the Seer |O| |PRE|Allegiance to the Scryers| |QID|10553|
 T Voren'thal the Seer |O| |QID|10553|
 A Losing Gracefully |O| |PRE|Voren'thal the Seer| |QID|10169|
@@ -23,7 +23,7 @@ h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
 T Losing Gracefully |O| |QID|10169|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.| |QID|10037|
-T What's Wrong at Cenarion Thicket? |QID|9961|
+T What's Wrong at Cenarion Thicket? |QID|9957|
 A Strange Energy |QID|9968|
 A Clues in the Thicket |QID|9971|
 A It's Watching You! |N|From Warden Treelos wandering around the village| |QID|9951|
@@ -47,7 +47,8 @@ A Stymying the Arakkoa |QID|9987|
 A Secrets of the Arakkoa |QID|10863|
 A Unruly Neighbors |QID|9998|
 A Timber Worg Tails |QID|10016|
-T The Fate of Tuurem |QID|9793|
+T Concerns About Tuurem |QID|10104| |O| |N|You should have either this or "The Fate of Tuurem"|
+T The Fate of Tuurem |QID|9793| |O| |N|You should have either this or "Concerns About Tuurem"|
 A Magical Disturbances |QID|10027|
 
 F Shattrath City |N|Flight point is just east of the water wheel|

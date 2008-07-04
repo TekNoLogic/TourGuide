@@ -148,7 +148,7 @@ T Lohn'goron, Bow of the Torn-heart |QID|10537|
 A The Cipher of Damnation - Ar'tor's Charge |QID|10540|
 C The Cipher of Damnation - Ar'tor's Charge |QID|10540|
 T The Cipher of Damnation - Ar'tor's Charge |QID|10540|
-A The Cipher of Damnation - The Second Fragment Recovered |NODEBUG| |QID|10541|
+A The Cipher of Damnation - The Second Fragment Recovered |QID|10541|
 
 T Gaining Access |QID|10604|
 A Invasion Point: Cataclysm |QID|10767|
@@ -159,7 +159,7 @@ T Grom'tor, Son of Oronok |QID|10521|
 A The Cipher of Damnation - Grom'tor's Charge |QID|10522|
 C The Cipher of Damnation - Grom'tor's Charge |QID|10522|
 T The Cipher of Damnation - Grom'tor's Charge |QID|10522|
-A The Cipher of Damnation - The First Fragment Recovered |NODEBUG| |QID|10523|
+A The Cipher of Damnation - The First Fragment Recovered |QID|10523|
 
 C The Art of Fel Reaver Maintenance |N|(39,19). Use key on the Strongbox located nearby.| |QID|10611|
 T The Art of Fel Reaver Maintenance |QID|10611|
@@ -220,7 +220,7 @@ T Put On Yer Kneepads... |QID|10703|
 T Divination: Gorefiend's Truncheon |QID|10636|
 T Divination: Gorefiend's Cloak |QID|10635|
 T A Necessary Distraction |T| |QID|10688|
-T The Cipher of Damnation - The First Fragment Recovered |NODEBUG| |QID|10523|
-T The Cipher of Damnation - The Second Fragment Recovered |NODEBUG| |QID|10541|
+T The Cipher of Damnation - The First Fragment Recovered |QID|10523|
+T The Cipher of Damnation - The Second Fragment Recovered |QID|10541|
 ]]
 end)

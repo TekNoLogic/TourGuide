@@ -48,6 +48,7 @@ A On the Wings of a Hippogryph |T| |QID|9604|
 F The Exodar
 T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T| |QID|9604|
 A Hippogryph Master Stephanos |T| |QID|9605|
+T Control |C|Mage| |QID|9595|
 T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T| |QID|9461|
 A Call of Fire (Part 6) |C|Shaman| |T| |QID|9555|
 T Call of Fire (Part 6) |C|Shaman| |T| |QID|9555|
@@ -166,13 +167,13 @@ N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling
 
 T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.| |QID|9578|
 A Galaen's Fate |QID|9579|
-A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.| |NODEBUG| |QID|9706|
+A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.| |QID|9706|
 C Galaen's Fate |QID|9579|
 C The Cryo-Core |QID|9703|
 
 T Galaen's Fate |T| |N|Back at Blood Watch| |T| |QID|9579|
 T The Cryo-Core |QID|9703|
-T Galaen's Journal - The Fate of Vindicator Saruan |T| |NODEBUG| |QID|9706|
+T Galaen's Journal - The Fate of Vindicator Saruan |T| |QID|9706|
 A Matis the Cruel |T| |QID|9711|
 A Don't Drink the Water |T| |QID|9748|
 A What We Know... |R|Draenei| |T| |QID|9753|

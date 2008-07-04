@@ -178,7 +178,7 @@ A Deadly Predators |QID|9398|
 A Missing Missive |O| |U|23338| |QID|9373|
 T Missing Missive |N|Southwest at the Cenarion Post (15,52)| |O| |QID|9373|
 
-A Naladu ||N|South at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.| |QID|10403|
+A Naladu |N|South at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.| |QID|10403|
 T Naladu |N|Up the stairs, in a hut to the southeast (16.2, 65.0).  Watch out for the elite.| |QID|10403|
 A A Traitor Among Us |QID|10367|
 C A Traitor Among Us |N|Get the key in the hut back at the top of the stairs (14.3, 63.4).| |QID|10367|

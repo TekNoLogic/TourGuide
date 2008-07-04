@@ -83,7 +83,7 @@ T Prisoners of the Grimtotems |N|Back at the tower| |QID|11145|
 T Unleash the Raptors |QID|11147|
 
 A Hungry! |N|Follow the road south until you are south of Brackenwall Village (35.1, 38.2).| |QID|1177|
-T Inspecting the Ruins |N|At the Shady Rest Inn (29.6, 47.5).| |QID|11124|
+T Inspecting the Ruins |N|At the Shady Rest Inn (29.6, 47.5).| |QID|11123|
 A Suspicious Hoofprints |QID|1284|
 A Lieutenant Paval Reethe (Part 1) |QID|1252|
 A The Black Shield (Part 1) |QID|1253|

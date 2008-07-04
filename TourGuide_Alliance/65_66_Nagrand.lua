@@ -84,7 +84,7 @@ C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)| |
 
 
 T Murkblood Corrupters |QID|9862|
-T The Throne of the Elements |QID|9870|
+T The Throne of the Elements |QID|9869|
 T A Rare Bean |QID|9800|
 A Agitated Spirits of Skysong |QID|9804|
 T The Tortured Earth |QID|9819|

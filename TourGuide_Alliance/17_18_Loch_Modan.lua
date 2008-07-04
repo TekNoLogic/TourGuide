@@ -10,6 +10,7 @@ C Filthy Paws |N|In the mine east of the tower| |QID|307|
 T Filthy Paws |QID|307|
 R Thelsamar
 A Ironband's Excavation |N|Downstairs, Last house| |QID|436|
+T Stout to Kadrell |QID|414| |O|
 
 T Ironband's Excavation |N|Along the south shore of the loch (64.9, 66.6)| |QID|436|
 A Gathering Idols |QID|297|
