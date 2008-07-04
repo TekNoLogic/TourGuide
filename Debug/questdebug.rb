@@ -36,10 +36,17 @@ end
 
 quests = {"A" => [], "C" => [], "T" => [], "O" => []}
 ACT = %w|A C T|
+tag_regexes = [/\|(O|NODEBUG|T)\|/, /\|(N|R|C|Z|SZ|Q|QO|PRE)\|[^|]+\|/, /\|(QID|U|L)\|\d+\|/, /\|L\|\d+ \d+\|/]
 
 guides.each do |guide|
 	lines = guide.split(/[\n\r]+/)
 	lines.each do |line|
+		tag_stripped = line.clone
+		tag_regexes.each {|re| tag_stripped.gsub!(re, "")}
+		puts "Bad tag? " + line if tag_stripped =~ /\|/
+
+		puts "TODO! " + line if line =~ /todo/i
+
 		if line =~ /\A(.) ([^|]+)\|/
 			type, name = $1, $2
 			if line =~ /\|QID\|(\d+)\|/
