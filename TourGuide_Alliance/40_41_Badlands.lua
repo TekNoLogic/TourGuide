@@ -25,7 +25,7 @@ A Barbecued Buzzard Wings |N|West, in the center of the zone (42,52)| |QID|703|
 N Kill any buzzards you see |N|For "Barbecued Buzzard Wings" and "Badlands Reagent Run"|
 
 P Dash (Rank 2) |C|Hunter| |N|Tame a Ridge Stalker Patriarch (20,53)|
-P Prowl (Rank 2)| |C|Hunter|
+P Prowl (Rank 2) |C|Hunter|
 H Stoutlager Inn |SZ|Thelsamar| |C|Hunter|
 N Switch back to your cat |N|Don't dismiss the Badlands cat!| |C|Hunter|
 R Badlands |C|Hunter|

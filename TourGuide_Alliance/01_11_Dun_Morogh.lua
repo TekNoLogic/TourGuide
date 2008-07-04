@@ -167,7 +167,7 @@ C Vejrek |N|(27.7, 57.7)| |C|Warrior| |QID|1678|
 T Vejrek |C|Warrior| |QID|1678|
 A Tormus Deepforge |C|Warrior| |QID|1680|
 T Tormus Deepforge |C|Warrior| |QID|1680|
-A Ironband's Compound |C|Warrior| |QID|1684|
+A Ironband's Compound |C|Warrior| |QID|1681|
 R Dun Morogh |C|Warrior|
 C Ironband's Compound |N|(77.9, 62.2)| |C|Warrior| |QID|1681|
 T Ironband's Compound |C|Warrior| |QID|1681|

@@ -1,6 +1,10 @@
 
 TourGuide:RegisterGuide("Azshara (52-53)", "Felwood (53-54)", "Alliance", function()
 return [[
+A Arcane Runes |QID|3449|
+
+A The Hunter's Charm |QID|8151| |C|Hunter|
+
 A Cenarion Aid |QID|8254| |C|Priest|
 
 A A Simple Request |QID|8233| |C|Rogue|
@@ -16,7 +20,7 @@ C A Land Filled with Hatred |QID|5536| |N|Further north at the Haldarr Encampmen
 T Spiritual Unrest |QID|5535|
 T A Land Filled with Hatred |QID|5536|
 
-T Meeting with the Master |QID|3503| |C|Mage|
+R Azshara Tower |C|Mage| |N|Talk to Sanath Lim-yo to the north (28.1, 50.1) for a free tele!|
 A Magic Dust |QID|8251| |C|Mage|
 
 N Get Beth'Amara Rubbing |N|In the Ruins of Eldarath (36.86, 53.20)| |L|10563|
@@ -37,7 +41,6 @@ C Magic Dust |QID|8251| |C|Mage| |N|Kill them blood elves!|
 T Kim'jael Indeed! |QID|3601|
 A Kim'jael's "Missing" Equipment |QID|5534|
 
-T Meeting with the Master |QID|3503| |C|Mage|
 T Sealed Azure Bag |QID|8234| |C|Rogue|
 A Encoded Fragments |QID|8235| |C|Rogue|
 

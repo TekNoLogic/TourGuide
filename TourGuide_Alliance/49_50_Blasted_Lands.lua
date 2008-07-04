@@ -5,7 +5,6 @@ N Do you want to grind? |N|This Blasted Lands guide may appear short, but it is 
 
 F Darkshire
 T Cortello's Riddle (Part 1) |O| |N|Run east into Swamp of Sorrows.  Under a bridge on the left fork of the road (22.6,48.0)| |Z|Swamp of Sorrows| |QID|624|
-A Cortello's Riddle (Part 2) |O| |PRE|Cortello's Riddle (Part 1)| |QID|625|
 
 R Blasted Lands |N|Run east into Swamp of Sorrows, then south.|
 

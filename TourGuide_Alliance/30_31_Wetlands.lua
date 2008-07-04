@@ -6,7 +6,6 @@ h Deepwater Tavern |N|In Menethil Harbor| |C|Warlock|
 A Seeking Strahad |N|In the Mage Quarter, Stormwind| |C|Warlock| |QID|3001|
 
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly up|
-T Further Instructions |C|Warlock| |QID|1095|
 T Seeking Strahad |N|Ratchet (62.6, 35.5)| |C|Warlock| |QID|3001|
 A Tome of the Cabal (Part 1)|C|Warlock| |QID|1758|
 

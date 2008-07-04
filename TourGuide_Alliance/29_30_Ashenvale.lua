@@ -7,7 +7,7 @@ C The Missing Diplomat (Part 11) |T| |QID|1249|
 T The Missing Diplomat (Part 11) |T| |QID|1249|
 A The Missing Diplomat (Part 12) |N|At the guy you just fought| |T| |QID|1250|
 T The Missing Diplomat (Part 12) |T| |QID|1250|
-A James Hyal |N|On the south dock| |QID|1302|
+A The Missing Diplomat (Part 13) |T| |QID|1264|
 F Astranaar |N|Take the boat to Auberdine then fly down|
 A Kayneth Stillwind |T| |QID|4581|
 A A Helping Hand |T| |N|From Vindicator Palanaar (34.93, 49.70), she probably won't have a ! over her head.| |QID|9533|

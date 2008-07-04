@@ -32,7 +32,7 @@ A Reassignment |QID|563|
 N Kill turtles |N|All along the creek. Need [Turtle Meat] x10 for "Soothing Turtle Bisque"| |L|3712 10|
 C Missing Crystals |N|Tower north of Southshore (55.4,35)| |QID|9435|
 
-A Encrypted Letter |N|Take the road north from the tower to the edge of the Alterac Mountains, then east.  Examine documents on the table in the camp to the east (58,67)| |Z|Alterac Mountains| |QID|3102|
+A Encrypted Letter |N|Take the road north from the tower to the edge of the Alterac Mountains, then east.  Examine documents on the table in the camp to the east (58,67)| |Z|Alterac Mountains| |QID|511|
 A Foreboding Plans |N|Examine documents on the table in the camp| |QID|510|
 C Syndicate Assassins |N|On this plateau and the next one to the west| |QID|505|
 C Costly Menace |N|West on another plateau (46,81)| |Z|Alterac Mountains| |QID|564|
@@ -41,7 +41,7 @@ N Kill yetis |N|In the yeti cave (45.58, 31.40).  Need [Yeti Fur] x10 for "Barto
 
 B Soothing Spices |L|3713| |N|From vendor in Southshore (49.0, 55.1)|
 B Fine Thread |L|2321|
-T Encrypted Letter |QID|3102|
+T Encrypted Letter |QID|511|
 A Letter to Stormpike |QID|514|
 T Syndicate Assassins |QID|505|
 T Foreboding Plans |N|Skip the follow-up| |QID|510|
@@ -73,7 +73,7 @@ T Bartolo's Yeti Fur Cloak |QID|565|
 T Further Mysteries |N|Skip the follow-up| |QID|525|
 
 F Menethil Harbor |C|Warlock|
-C Tome of the Cabal (Part 3) |Kill Dragonmaw Bonewarders and Shadowwarders to the east (47,47)| |C|Warlock| |Z|Wetlands| |QID|1804|
+C Tome of the Cabal (Part 3) |N|Kill Dragonmaw Bonewarders and Shadowwarders to the east (47,47)| |C|Warlock| |Z|Wetlands| |QID|1804|
 
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly down|
 T In Search of Menara Voidrender |C|Warlock| |QID|4739|

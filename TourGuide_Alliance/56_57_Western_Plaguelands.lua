@@ -5,6 +5,8 @@ F Stormwind City
 h Stormwind City
 A A Call to Arms: The Plaguelands! |N|From Crier Goodman, he patrols all over the city.| |QID|10374|
 
+T Return to Tymor |QID|3461| |O| |N|In Ironforge, of course|
+
 F Southshore
 R Western Plaguelands |N|Follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp|
 A A Plague Upon Thee (Part 1) |QID|5903|

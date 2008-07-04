@@ -85,7 +85,7 @@ A Crown of the Earth (Part 4) |QID|933|
 T Gnarlpine Corruption |N|In the tower| |QID|476|
 A The Relics of Wakening |QID|483|
 T The Emerald Dreamcatcher |QID|2438|
-A Ferocitas the Dream Eater |N| |QID|2459|
+A Ferocitas the Dream Eater |QID|2459|
 
 C Seek Redemption! |QID|489|
 T Seek Redemption! |N|East at Zenn Foulhoof| |QID|489|

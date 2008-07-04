@@ -164,9 +164,9 @@ A Show Gnomercy |QID|9537|
 T Warlord Sriss'tiz |QID|9515|
 C Show Gnomercy |N|Talk to Engineer "Spark" Overgrind wandering around the beach| |QID|9537|
 T Show Gnomercy |QID|9537|
-A Deliver Them From Evil... |QID|9602|
+A Deliver Them From Evil... |QID|9602| |NODEBUG|
 
-T Deliver Them From Evil... |N|Back at Azure Watch| |QID|9602|
+T Deliver Them From Evil... |N|Back at Azure Watch| |QID|9602| |NODEBUG|
 A Coming of Age |N|You must be Lv 10 to accept this| |QID|9623|
 A Strength of One |C|Warrior| |QID|9582|
 A Call of Fire (Part 1) |C|Shaman| |QID|9464|
