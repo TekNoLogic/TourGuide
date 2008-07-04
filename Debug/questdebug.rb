@@ -47,6 +47,8 @@ guides.each do |guide|
 
 		puts "TODO! " + line if line =~ /todo/i
 
+		puts "Bad char - " + line if line =~ /[“”’]/
+
 		if line =~ /\A(.) ([^|]+)\|/
 			type, name = $1, $2
 			if line =~ /\|QID\|(\d+)\|/
