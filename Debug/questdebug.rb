@@ -13,22 +13,21 @@ unless username && password
 end
 
 
-first_guide = $*[0]
-unless first_guide
-	puts "Usage: first_guide"
-	exit 1
-end
+#~ first_guide = $*[0]
+#~ unless first_guide
+	#~ puts "Usage: first_guide"
+	#~ exit 1
+#~ end
 
 
-guides = {}
+guides = []
 
 xml_file = XmlSimple.xml_in File.read("Guides.xml")
 xml_file["Script"].map{|v| v["file"]}.each do |lua_file|
 	guide = File.read lua_file
 	if guide =~ /TourGuide:RegisterGuide\("([^"]+)", "?([^"]+)"?, "?[^"]+"?, function\(\).*\[\[(.+)\]\]/m
 		guide_name, next_guide, data = $1, $2, $3
-		guides[guide_name] = {"next_guide" => next_guide, "data" => data, "file_name" => lua_file}
-		guides["first"] = guides[guide_name] if lua_file == first_guide
+		guides << data
 	else
 		puts "*** Error parsing #{lua_file}"
 		exit 1
@@ -38,9 +37,8 @@ end
 quests = {"A" => [], "C" => [], "T" => []}
 ACT = %w|A C T|
 
-guide = guides["first"]
-begin
-	lines = guide["data"].split(/[\n\r]+/)
+guides.each do |guide|
+	lines = guide.split(/[\n\r]+/)
 	lines.each do |line|
 		if line =~ /\A(.) ([^|]+)\|/
 			type, name = $1, $2
@@ -59,9 +57,7 @@ begin
 			end
 		end
 	end
-
-	guide = (guide["next_guide"] == "nil" ? nil : guides[guide["next_guide"]])
-end while guide
+end
 
 puts "Missing turnin: #{(quests["A"] - quests["T"]).join(", ")}" unless (quests["A"] - quests["T"]).empty?
 puts "Missing accept: #{(quests["T"] - quests["A"]).join(", ")}" unless (quests["T"] - quests["A"]).empty?
