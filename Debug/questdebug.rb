@@ -37,6 +37,7 @@ end
 quests = {"A" => [], "C" => [], "T" => [], "O" => []}
 ACT = %w|A C T|
 tag_regexes = [/\|(O|NODEBUG|T)\|/, /\|(N|R|C|Z|SZ|Q|QO|PRE)\|[^|]+\|/, /\|(QID|U|L)\|\d+\|/, /\|L\|\d+ \d+\|/]
+actiontypes = "ACTKRHhFfNBbUP"
 
 guides.each do |guide|
 	lines = guide.split(/[\n\r]+/)
@@ -51,6 +52,8 @@ guides.each do |guide|
 
 		if line =~ /\A(.) ([^|]+)\|/
 			type, name = $1, $2
+			puts "Invalid action - " + line unless actiontypes.match(type)
+
 			if line =~ /\|QID\|(\d+)\|/
 				qid = $1
 				quests["O"] << qid if line =~ /\|O\|/
@@ -59,7 +62,7 @@ guides.each do |guide|
 					puts "Bad title case " + line if name =~ /[^:]\s(For|A|The|Or|In|Then|From|To)\s/
 
 					if ACT.include? type
-						puts "Duplicate objective: #{line}" if quests[type].include? qid
+						#~ puts "Duplicate objective: #{line}" if quests[type].include? qid
 						quests[type] << qid unless quests[type].include? qid
 					else
 						puts "QID on non-ACT objective: #{line}"
