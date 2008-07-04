@@ -56,6 +56,8 @@ guides.each do |guide|
 				quests["O"] << qid if line =~ /\|O\|/
 				puts "Unneeded NODEBUG flag: " + line if line =~ /\|O\|/ && line =~ /\|NODEBUG\|/
 				unless line =~ /\|NODEBUG\|/
+					puts "Bad title case " + line if name =~ /[^:]\s(For|A|The|Or|In|Then|From|To)\s/
+
 					if ACT.include? type
 						puts "Duplicate objective: #{line}" if quests[type].include? qid
 						quests[type] << qid unless quests[type].include? qid
