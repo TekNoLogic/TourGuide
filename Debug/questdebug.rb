@@ -34,7 +34,7 @@ xml_file["Script"].map{|v| v["file"]}.each do |lua_file|
 	end
 end
 
-quests = {"A" => [], "C" => [], "T" => []}
+quests = {"A" => [], "C" => [], "T" => [], "O" => []}
 ACT = %w|A C T|
 
 guides.each do |guide|
@@ -44,6 +44,8 @@ guides.each do |guide|
 			type, name = $1, $2
 			if line =~ /\|QID\|(\d+)\|/
 				qid = $1
+				quests["O"] << qid if line =~ /\|O\|/
+				puts "Unneeded NODEBUG flag: " + line if line =~ /\|O\|/ && line =~ /\|NODEBUG\|/
 				unless line =~ /\|NODEBUG\|/
 					if ACT.include? type
 						puts "Duplicate objective: #{line}" if quests[type].include? qid
@@ -60,5 +62,5 @@ guides.each do |guide|
 end
 
 puts "Missing turnin: #{(quests["A"] - quests["T"]).join(", ")}" unless (quests["A"] - quests["T"]).empty?
-puts "Missing accept: #{(quests["T"] - quests["A"]).join(", ")}" unless (quests["T"] - quests["A"]).empty?
+puts "Missing accept: #{(quests["T"] - quests["A"] - quests["O"]).join(", ")}" unless (quests["T"] - quests["A"] - quests["O"]).empty?
 puts "Missing accept and turnin: #{(quests["C"] - quests["A"] - quests["T"]).join(", ")}" unless (quests["C"] - quests["A"] - quests["T"]).empty?
