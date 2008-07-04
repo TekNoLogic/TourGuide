@@ -47,7 +47,8 @@ A Stymying the Arakkoa |QID|9987|
 A Secrets of the Arakkoa |QID|10863|
 A Unruly Neighbors |QID|9998|
 A Timber Worg Tails |QID|10016|
-T The Fate of Tuurem |QID|9793|
+T Concerns About Tuurem |QID|10104| |O| |N|You should have either this or "The Fate of Tuurem"|
+T The Fate of Tuurem |QID|9793| |O| |N|You should have either this or "Concerns About Tuurem"|
 A Magical Disturbances |QID|10027|
 
 F Shattrath City |N|Flight point is just east of the water wheel|

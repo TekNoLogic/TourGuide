@@ -167,6 +167,7 @@ T Stealing Back the Mushrooms |N|Getting tired of running to the watchpost yet?|
 
 H Orebor Harborage
 T Maktu's Revenge |QID|9905|
+A Concerns About Tuurem |QID|10104| |N|You can't accept this if you accepted "The Fate of Tuurem"|
 
 F Telredor
 T The Boha'mu Ruins |QID|9786|
@@ -194,7 +195,6 @@ T Gathering the Reagents |QID|9801|
 A Messenger to the Feralfen |QID|9803|
 C Messenger to the Feralfen |N|Go to the Boha'mu Ruins (44.12, 69.45), drink the elixir and talk to Elder Kuruti.| |U|24428| |QID|9803|
 T Messenger to the Feralfen |N|Back at Telredor| |QID|9803|
-A The Fate of Tuurem |QID|9793|
 ]]
 end)
 
