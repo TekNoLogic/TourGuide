@@ -7,7 +7,7 @@ R Wildhammer Stronghold |N|East across the bridge, follow the road southeast in 
 A Besieged! |QID|10562|
 C Besieged! |QID|10562|
 T Besieged! |QID|10562|
-A To Legion Hold |QID|10596|
+A To Legion Hold |QID|10563|
 A The Sketh'lon Wreckage |T| |QID|10569|
 A A Ghost in the Machine |T| |QID|10642|
 h Wildhammer Stronghold |T|
@@ -27,7 +27,7 @@ C The Sketh'lon Wreckage |N|West at the Sketh'lon Wreckage (37,30)| |QID|10569|
 C Spleendid! |N|At the green lava lake in front of Legion Hold (30,38)| |QID|10661|
 C A Ghost in the Machine |N|Same lake as "Spleendid!".  You can also find some to the east at a laval crevase.| |QID|10642|
 
-C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638| |QID|10596|
+C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638| |QID|10563|
 
 T A Ghost in the Machine |N|Back at Wildhammer Stronghold| |T| |QID|10642|
 A Harbingers of Shadowmoon |T| |QID|10643|
@@ -39,16 +39,16 @@ C Harbingers of Shadowmoon |N|You don't have to leave the stronghold!| |T| |QID|
 T Harbingers of Shadowmoon |T| |QID|10643|
 A Teron Gorefiend - Lore and Legend |T| |QID|10644|
 T The Sketh'lon Wreckage |T| |QID|10569|
-A Find the Deserter |T| |QID|10761|
-T To Legion Hold |QID|10596|
-A Setting Up the Bomb |QID|10597|
+A Find the Deserter |T| |QID|10759|
+T To Legion Hold |QID|10563|
+A Setting Up the Bomb |QID|10572|
 
 T Enraged Spirits of Water |N|Back at the Altar of Damnation| |QID|10480|
 A Enraged Spirits of Air |QID|10481|
 
 C The Second Course... |N|East under the bridge where you killed water elementals| |QID|10677|
 
-T Find the Deserter |N|Patrols along the road to the west (35,39)| |QID|10761|
+T Find the Deserter |N|Patrols along the road to the west (35,39)| |QID|10759|
 A Asghar's Totem |QID|10777|
 C Asghar's Totem |N|Kill Asghar at the Sketh'lon Wreckage (40,31)| |QID|10777|
 
@@ -56,19 +56,19 @@ T Asghar's Totem |QID|10777|
 A The Rod of Lianthe |QID|10778|
 
 K Overseer Ripsaw |N|Back at Legion Hold.  Near the fel reaver (22,35)| |L|30756|
-C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22.21, 35.59), Power Core is underwater at the Fetid Pool (26.29, 41.24).| |QID|10597|
+C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22.21, 35.59), Power Core is underwater at the Fetid Pool (26.29, 41.24).| |QID|10572|
 
-T Setting Up the Bomb |N|Back at Wildhammer Stronghold| |QID|10597|
-A Blast the Infernals! |QID|10598|
+T Setting Up the Bomb |N|Back at Wildhammer Stronghold| |QID|10572|
+A Blast the Infernals! |QID|10564|
 T The Second Course... |T| |QID|10677|
 A The Main Course! |T| |QID|10678|
-A Illidari-Bane Shard |U|30756| |T| |QID|10623|
-T Illidari-Bane Shard |T| |QID|10623|
+A Illidari-Bane Shard |U|30756| |T| |QID|10621|
+T Illidari-Bane Shard |T| |QID|10621|
 
-C Blast the Infernals! |N|Again at Legion Hold.  Find the green circle near the infernal ranks (22.63, 39.93), use the bomb.| |U|30614| |QID|10598|
+C Blast the Infernals! |N|Again at Legion Hold.  Find the green circle near the infernal ranks (22.63, 39.93), use the bomb.| |U|30614| |QID|10564|
 
-T Blast the Infernals! |N|Back at Wildhammer Stronghold| |QID|10598|
-A The Deathforge |QID|10599|
+T Blast the Infernals! |N|Back at Wildhammer Stronghold| |QID|10564|
+A The Deathforge |QID|10573|
 
 C The Rod of Lianthe |N|Kill Blood Elves at Eclipse Point to the southeast for the key.  Strongbox is east of the elite (47.53, 71.66).| |QID|10778|
 C Enraged Spirits of Air |N|Take the road east to the Netherwing Fields, drop totem, kill air elementals. Work your way south from the fields towards the Altar of Shadows.| |U|30094| |QID|10481|
@@ -120,23 +120,23 @@ A Borak, Son of Oronok |QID|10546|
 T The Rod of Lianthe |N|Patrolling along the road to the west| |QID|10778|
 A Sketh'lon Feathers |QID|10780|
 
-T The Deathforge |N|East at Deathforge Tower (40.44, 41.26)| |QID|10599|
-A Minions of the Shadow Council |QID|10600|
-C Minions of the Shadow Council |N|Head down into the Deathforge.  The entrance is north of the tower (38,35)| |QID|10600|
-T Minions of the Shadow Council |QID|10600|
-A The Summoning Chamber |QID|10602|
+T The Deathforge |N|East at Deathforge Tower (40.44, 41.26)| |QID|10573|
+A Minions of the Shadow Council |QID|10582|
+C Minions of the Shadow Council |N|Head down into the Deathforge.  The entrance is north of the tower (38,35)| |QID|10582|
+T Minions of the Shadow Council |QID|10582|
+A The Summoning Chamber |QID|10585|
 A The Fate of Flanis |QID|10583|
 C The Fate of Flanis |N|Take the north entrance (40,38), fight your way to the dead dorf way at the back of the cave (34.65, 39.91)| |QID|10583|
 K Tinkerers and Smiths |N|Looking for an Elemental Displacer| |L|30672|
-C The Summoning Chamber |N|From the bridge, jump down to the northwest (carefully), kill Summoner Skartax, use the displacer, and kill Infernal Oversoul.| |U|30672| |QID|10602|
-T The Summoning Chamber |QID|10602|
+C The Summoning Chamber |N|From the bridge, jump down to the northwest (carefully), kill Summoner Skartax, use the displacer, and kill Infernal Oversoul.| |U|30672| |QID|10585|
+T The Summoning Chamber |QID|10585|
 T The Fate of Flanis |QID|10583|
-A Bring Down the Warbringer! |QID|10603|
-C Bring Down the Warbringer! |N|Take the north entrance again, over the bridge, find the door on the left (39,45).| |QID|10603|
-T Bring Down the Warbringer! |QID|10603|
-A Gaining Access |QID|10604|
+A Bring Down the Warbringer! |QID|10586|
+C Bring Down the Warbringer! |N|Take the north entrance again, over the bridge, find the door on the left (39,45).| |QID|10586|
+T Bring Down the Warbringer! |QID|10586|
+A Gaining Access |QID|10589|
 
-C Gaining Access |N|(22,35)| |QID|10604|
+C Gaining Access |N|(22,35)| |QID|10589|
 
 T Ar'tor, Son of Oronok |QID|10527|
 A Demonic Crystal Prisons |QID|10528|
@@ -150,10 +150,10 @@ C The Cipher of Damnation - Ar'tor's Charge |QID|10540|
 T The Cipher of Damnation - Ar'tor's Charge |QID|10540|
 A The Cipher of Damnation - The Second Fragment Recovered |QID|10541|
 
-T Gaining Access |QID|10604|
-A Invasion Point: Cataclysm |QID|10767|
-T Invasion Point: Cataclysm |N|Take the teleporter (25.5, 36.3)| |QID|10767|
-A The Art of Fel Reaver Maintenance |QID|10611|
+T Gaining Access |QID|10589|
+A Invasion Point: Cataclysm |QID|10766|
+T Invasion Point: Cataclysm |N|Take the teleporter (25.5, 36.3)| |QID|10766|
+A The Art of Fel Reaver Maintenance |QID|10606|
 
 T Grom'tor, Son of Oronok |QID|10521|
 A The Cipher of Damnation - Grom'tor's Charge |QID|10522|
@@ -161,13 +161,13 @@ C The Cipher of Damnation - Grom'tor's Charge |QID|10522|
 T The Cipher of Damnation - Grom'tor's Charge |QID|10522|
 A The Cipher of Damnation - The First Fragment Recovered |QID|10523|
 
-C The Art of Fel Reaver Maintenance |N|(39,19). Use key on the Strongbox located nearby.| |QID|10611|
-T The Art of Fel Reaver Maintenance |QID|10611|
-A The Fel and the Furious |QID|10613|
-C The Fel and the Furious |QID|10613|
-T The Fel and the Furious |QID|10613|
-A News of Victory |QID|10745|
-T News of Victory |N|Back at Wildhammer Stronghold| |QID|10745|
+C The Art of Fel Reaver Maintenance |N|(39,19). Use key on the Strongbox located nearby.| |QID|10606|
+T The Art of Fel Reaver Maintenance |QID|10606|
+A The Fel and the Furious |QID|10612|
+C The Fel and the Furious |QID|10612|
+T The Fel and the Furious |QID|10612|
+A News of Victory |QID|10744|
+T News of Victory |N|Back at Wildhammer Stronghold| |QID|10744|
 
 T Borak, Son of Oronok |QID|10546|
 A Of Thistleheads and Eggs... |QID|10547|

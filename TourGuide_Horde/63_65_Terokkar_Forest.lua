@@ -23,7 +23,7 @@ h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
 T Losing Gracefully |O| |QID|10169|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.| |QID|10037|
-T What's Wrong at Cenarion Thicket? |QID|9961|
+T What's Wrong at Cenarion Thicket? |QID|9957|
 A Strange Energy |QID|9968|
 A Clues in the Thicket |QID|9971|
 A It's Watching You! |N|From Warden Treelos wandering around the village| |QID|9951|

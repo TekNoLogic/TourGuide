@@ -13,7 +13,7 @@ A Noxious Lair Investigation |QID|82|
 A Super Sticky |QID|4504|
 A Thistleshrub Valley |QID|3362|
 A The Dunemaul Compound |QID|5863|
-T The Sunken Temple |N|at (52,45)| |QID|3445|
+T The Sunken Temple |N|at (52,45)| |QID|3380|
 A The Stone Circle |QID|3444|
 A Gahz'ridian |QID|3161|
 

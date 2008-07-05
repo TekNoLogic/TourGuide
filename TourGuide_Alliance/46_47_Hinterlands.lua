@@ -8,7 +8,7 @@ A Featherbeard's Endorsement |N|Outside the inn| |QID|9469|
 A A Gesture of Goodwill |QID|9470|
 A Preying on the Predators |QID|9471|
 A Skulk Rock Clean-up |N|In the inn, to the right| |QID|2877|
-A Troll Necklace Bounty |QID|2881|
+A Troll Necklace Bounty |QID|2880|
 h Wildhammer Keep
 T Featherbeard's Endorsement |N|South at a small house, near the fireplace (13,55)| |QID|9469|
 A In Pursuit of Featherbeard |QID|9476|
@@ -19,14 +19,14 @@ N Check Second Cage |Q|Witherbark Cages| |QO|Check Second Cage: 1/1| |N|At the t
 C A Gesture of Goodwill |N|To the south in a cave at Bogen's Ledge (25,66)| |QID|9470|
 C Witherbark Cages |N|Last cage is to the east (31,57)| |QID|2988|
 C Preying on the Predators |QID|9471|
-C Troll Necklace Bounty |N|Kill any trolls you can find if you don't have all your necklaces| |QID|2881|
+C Troll Necklace Bounty |N|Kill any trolls you can find if you don't have all your necklaces| |QID|2880|
 C Skulk Rock Clean-up |N|Northeast at Agor'watha (46,42)| |QID|2877|
 C The Super Snapper FX |N|Jump off the waterfall at the east edge of the zone (81,46).  Run south along the shore.  Find tho aggro turtle and take it's picture.| |U|9328| |QID|2944|
 C Whiskey Slim's Lost Grog |QID|580|
 
 H Aerie Peak |SZ|Wildhammer Keep|
 T Skulk Rock Clean-up |QID|2877|
-T Troll Necklace Bounty |QID|2881|
+T Troll Necklace Bounty |QID|2880|
 T A Gesture of Goodwill |QID|9470|
 T Preying on the Predators |QID|9471|
 T Witherbark Cages |N|Up in the cave| |QID|2988|

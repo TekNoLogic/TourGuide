@@ -39,17 +39,17 @@ T By Any Means Necessary |QID|9978|
 A Wind Trader Lathrai |QID|9979|
 
 R Allerian Stronghold
-A Wanted: Bonelashers Dead! |N|Off the wanted poster outside the town hall| |QID|10034|
+A Wanted: Bonelashers Dead! |N|Off the wanted poster outside the town hall| |QID|10033|
 A Olemba Seeds |QID|9992|
 A Speak with Private Weeks |QID|10038|
 A Thin the Flock |QID|10869|
-A Stymying the Arakkoa |QID|9987|
+A Stymying the Arakkoa |QID|9986|
 A Secrets of the Arakkoa |QID|10863|
 A Unruly Neighbors |QID|9998|
 A Timber Worg Tails |QID|10016|
 T Concerns About Tuurem |QID|10104| |O| |N|You should have either this or "The Fate of Tuurem"|
 T The Fate of Tuurem |QID|9793| |O| |N|You should have either this or "Concerns About Tuurem"|
-A Magical Disturbances |QID|10027|
+A Magical Disturbances |QID|10026|
 
 F Shattrath City |N|Flight point is just east of the water wheel|
 T Secrets of the Arakkoa |QID|10863|
@@ -78,66 +78,66 @@ A Investigate Tuurem |QID|9990|
 F Allerian Stronghold
 h Allerian Stronghold
 C Unruly Neighbors |N|East of Allerian Stronghold at the Bonechewer Ruins (66,53)| |QID|9998|
-C Magical Disturbances |QID|10027|
+C Magical Disturbances |QID|10026|
 C Timber Worg Tails |QID|10016|
 
 T Unruly Neighbors |N|North of the ruins at Allerian Post (69,44).| |QID|9998|
-A The Firewing Liaison |QID|10003|
+A The Firewing Liaison |QID|10002|
 A Thinning the Ranks |QID|10007|
-C The Firewing Liaison |N|Lisaile Fireweaver is inside the only building in the ruins that has a roof (67.89, 53.33)| |QID|10003|
+C The Firewing Liaison |N|Lisaile Fireweaver is inside the only building in the ruins that has a roof (67.89, 53.33)| |QID|10002|
 A Fel Orc Plans |N|On the ground inside the same building| |QID|10012|
 C Thinning the Ranks |QID|10007|
-T The Firewing Liaison |N|Back up at Allerian Post (69.73, 44.27)| |QID|10003|
+T The Firewing Liaison |N|Back up at Allerian Post (69.73, 44.27)| |QID|10002|
 T Thinning the Ranks |QID|10007|
 
 K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |Q|Stymying the Arakkoa| |QO|Ayit slain: 1/1|
 C Investigate Tuurem |N|The Sealed Box is in one of the huts in Tuurem (54.00, 30.00)| |QID|9990|
 T Investigate Tuurem |QID|9990|
-A What Are These Things? |QID|9995|
+A What Are These Things? |QID|9994|
 
 C Olemba Seeds |QID|9992|
 
 T Speak with Private Weeks |N|Just north of Grangol'var Village (40.46, 36.16)| |QID|10038|
-A Who Are They? |QID|10041|
-C Who Are They? |N|Shadowy Hunters are bad news, stay away from them.  Initiate (39.06, 39.68), Laborer (38.09, 41.09), Advisor (40.29, 39.05) inside the building.| |QID|10041|
-T Who Are They? |QID|10041|
-A Kill the Shadow Council! |QID|10043|
-C Kill the Shadow Council! |N|Kill Shadowmaster Grieve in main building (40.09, 38.82)| |QID|10043|
+A Who Are They? |QID|10040|
+C Who Are They? |N|Shadowy Hunters are bad news, stay away from them.  Initiate (39.06, 39.68), Laborer (38.09, 41.09), Advisor (40.29, 39.05) inside the building.| |QID|10040|
+T Who Are They? |QID|10040|
+A Kill the Shadow Council! |QID|10042|
+C Kill the Shadow Council! |N|Kill Shadowmaster Grieve in main building (40.09, 38.82)| |QID|10042|
 
 H Allerian Stronghold
-T What Are These Things? |QID|9995|
+T What Are These Things? |QID|9994|
 A Report to the Allerian Post |QID|10444|
-T Stymying the Arakkoa |QID|9987|
+T Stymying the Arakkoa |QID|9986|
 T Timber Worg Tails |QID|10016|
 T Fel Orc Plans |QID|10012|
 A The Elusive Ironjaw |QID|10022|
 T Olemba Seeds |QID|9992|
 A Vessels of Power |QID|10028|
-T Kill the Shadow Council! |QID|10043|
+T Kill the Shadow Council! |QID|10042|
 T Thin the Flock |QID|10869|
-T Magical Disturbances |QID|10027|
+T Magical Disturbances |QID|10026|
 
 T Report to the Allerian Post |QID|10444|
-A Attack on Firewing Point |QID|9997|
+A Attack on Firewing Point |QID|9996|
 C The Elusive Ironjaw |N|Should be just north of the post (67,35)| |QID|10022|
-A Escape from Firewing Point! |N|Escort Isla Starmane from inside the main building at Firewing Point (73.9, 35.2)| |QID|10052|
-C Escape from Firewing Point! |QID|10052|
-C Attack on Firewing Point |QID|9997|
+A Escape from Firewing Point! |N|Escort Isla Starmane from inside the main building at Firewing Point (73.9, 35.2)| |QID|10051|
+C Escape from Firewing Point! |QID|10051|
+C Attack on Firewing Point |QID|9996|
 
-T Attack on Firewing Point |N|Back to the Post| |QID|9997|
-A The Final Code |QID|10447|
-C The Final Code |N|Inside the same building you found the escort in, just keep going up.| |QID|10447|
+T Attack on Firewing Point |N|Back to the Post| |QID|9996|
+A The Final Code |QID|10446|
+C The Final Code |N|Inside the same building you found the escort in, just keep going up.| |QID|10446|
 
 C Vessels of Power |N|Inside Tuurem, some of them are fake.  You can find a lot on the outskirts, so you don't have to fight a bunch.| |QID|10028|
 
-T The Final Code |N|Back to the Stronghold| |QID|10447|
-A Letting Earthbinder Tavgren Know |QID|10006|
-T Escape from Firewing Point! |QID|10052|
+T The Final Code |N|Back to the Stronghold| |QID|10446|
+A Letting Earthbinder Tavgren Know |QID|10005|
+T Escape from Firewing Point! |QID|10051|
 T Vessels of Power |QID|10028|
 T The Elusive Ironjaw |QID|10022|
 
 F Shattrath City
-T Letting Earthbinder Tavgren Know |N|Back at Cenarion Thicket| |QID|10006|
+T Letting Earthbinder Tavgren Know |N|Back at Cenarion Thicket| |QID|10005|
 A Before Darkness Falls |N|Follow the road from Shattrath south to the Refugee Caravan (38,50)| |QID|10878|
 C Before Darkness Falls |N|South around the Shadow Stair (39.61, 56.25)| |QID|10878|
 A Cabal Orders |N|The item that starts this quest drops from Cabal Skirmishers, Spell-weavers and Initiates.  Keep killing them until you get it.| |U|31707| |QID|10880|
@@ -166,7 +166,7 @@ T Missing Friends |QID|10852|
 A The Tomb of Lights |QID|10840|
 
 C The Tomb of Lights |N|To the east of the caravan| |QID|10840|
-C Wanted: Bonelashers Dead! |N|Mostly south and east of the caravan.  You can skip this if you don't want to run back to Allerian later for a single turnin.| |QID|10034|
+C Wanted: Bonelashers Dead! |N|Mostly south and east of the caravan.  You can skip this if you don't want to run back to Allerian later for a single turnin.| |QID|10033|
 
 T The Tomb of Lights |QID|10840|
 A Recover the Bones |QID|10030|
@@ -230,6 +230,6 @@ T Skywing |QID|10898|
 A The Skettis Offensive |N|This quest is tricky, bring a friend if you can.| |QID|10879|
 C The Skettis Offensive |QID|10879|
 T The Skettis Offensive |QID|10879|
-T Wanted: Bonelashers Dead! |N|Back at Allerian Stronghold| |QID|10034|
+T Wanted: Bonelashers Dead! |N|Back at Allerian Stronghold| |QID|10033|
 ]]
 end)

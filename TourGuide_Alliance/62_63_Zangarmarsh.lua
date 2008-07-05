@@ -72,11 +72,11 @@ A Blessings of the Ancients |QID|9785|
 C Blessings of the Ancients |QID|9785|
 T Blessings of the Ancients |QID|9785|
 C An Unnatural Drought |N|Kill Withered Giants in the Dead Mire.| |QID|9783|
-A Withered Basidium |U|24483| |N|Kill Withered Giants until you get the item to start this| |QID|9828|
+A Withered Basidium |U|24483| |N|Kill Withered Giants until you get the item to start this| |QID|9827|
 N Save Bog Lord Tendrils |N|You'll need them later for reputation.|
 
 T An Unnatural Drought |N|Back at Telredor| |QID|9783|
-T Withered Basidium |QID|9828|
+T Withered Basidium |QID|9827|
 A Withered Flesh |QID|10355|
 T Umbrafen Eel Filets |QID|9780|
 T Too Many Mouths to Feed |QID|9781|
@@ -122,10 +122,10 @@ A Secrets of the Daggerfen |QID|9848|
 T The Orebor Harborage |QID|9776|
 A Ango'rosh Encroachment |QID|9835|
 A Daggerfen Deviance |QID|10115|
-A Wanted: Chieftain Mummaki |N|Off a signpost outside the inn.| |QID|10117|
+A Wanted: Chieftain Mummaki |N|Off a signpost outside the inn.| |QID|10116|
 C Ango'rosh Encroachment |N|The Hewn Bog is just southwest of Orebor.| |QID|9835|
 C Familiar Fungi |QID|9708|
-C Wanted: Chieftain Mummaki |N|In the tower (24,27)| |QID|10117|
+C Wanted: Chieftain Mummaki |N|In the tower (24,27)| |QID|10116|
 C Secrets of the Daggerfen |N|The manual is at the top of the tower (24,27). The vial is a random spawn at the three camps (look on your map).| |QID|9848|
 C Daggerfen Deviance |QID|10115|
 
@@ -133,7 +133,7 @@ T Secrets of the Daggerfen |N|Back at Orebor Harborage| |QID|9848|
 T Ango'rosh Encroachment |QID|9835|
 A Overlord Gorefist |QID|9839|
 T Daggerfen Deviance |QID|10115|
-T Wanted: Chieftain Mummaki |QID|10117|
+T Wanted: Chieftain Mummaki |QID|10116|
 
 h Orebor Harborage
 A Natural Armor |N|From the armor merchant, Maktu.| |QID|9834|

@@ -129,7 +129,7 @@ A WANTED: Deathclaw |T| |QID|9646|
 
 A The Missing Expedition |T| |QID|9669|
 N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  Then check your mail for a quest-starting item.  You cannot get this quest if you did not do Admiral Odesyus' quests in Azuremyst.| |T| |L|24132|
-A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T| |O| |QID|9751|
+A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T| |O| |QID|9672|
 A Explorers' League, Is That Something for Gnomes? |T| |QID|10063|
 
 N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"|
@@ -213,7 +213,7 @@ T Restoring Sanctity |N|Back on Wyrmscar Island| |QID|9687|
 A Into the Dream |QID|9688|
 N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
 C Into the Dream |QID|9688|
-T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O| |QID|9751|
+T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O| |QID|9672|
 A The Bloodcursed Naga |O| |PRE|The Bloodcurse Legacy| |QID|9674|
 C The Bloodcursed Naga |O| |QID|9674|
 T The Bloodcursed Naga |O| |QID|9674|

@@ -14,7 +14,7 @@ C Fuel for the Zapping |QID|7721|
 T Zapped Giants |QID|7003|
 T Fuel for the Zapping |QID|7721|
 
-C Improved Quality |N|North at Rage Scar Hold (51,31)| |QID|7734|
+C Improved Quality |N|North at Rage Scar Hold (51,31)| |QID|7733|
 
 A The Giant Guardian |N|Find the giant "Rockbiter" north near the twin colossals (42,22)| |QID|2844|
 C The Stave of Equinex |N|Northwest at the Ruins of Ravenwind.  Find the essences (38.52, 15.79), (40.55, 12.64), (39.93, 9.46), (37.76, 12.15). Use the staff at the monolith (38.8, 13.1)| |U|9363| |QID|2879|
@@ -26,7 +26,7 @@ C Wandering Shay |N|Grab the bell from the chest, use it if she wanders away| |U
 T Wandering Shay |QID|2845|
 
 H Feathermoon Stronghold
-T Improved Quality |QID|7734|
+T Improved Quality |QID|7733|
 A Pristine Yeti Hide |O| |U|18969| |QID|7735|
 T Pristine Yeti Hide |O| |QID|7735|
 T The Morrow Stone |QID|2942|

@@ -1,17 +1,17 @@
 TourGuide:RegisterGuide("Western Plaguelands (56)", "Eastern Plaguelands (56-57)", "Horde", function()
 return [[
 F Undercity
-A A Call to Arms: The Plaguelands |N|From Harbinger Balthazad, he patrols around the center and middle rings of the city.| |QID|5094|
+A A Call to Arms: The Plaguelands! |N|From Harbinger Balthazad, he patrols around the center and middle rings of the city.| |QID|5094|
 T A Sample of Slime... |QID|4293|
 T ... and a Batch of Ooze |QID|4294|
 h Undercity
 
 R The Bulwark
-T A Call To Arms: The Plaguelands! |QID|5094|
+T A Call to Arms: The Plaguelands! |QID|5094|
 A Scarlet Diversions |QID|5096|
 N Get a Flame in a Bottle |N|From the Box of Incendiaries| |L|12814|
 T The Everlook Report |QID|6029|
-T Argent Dawn Commission |QID|5503|
+N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |L|12846|
 A The So-Called Mark of the Lightbringer |QID|9443|
 A A Plague Upon Thee (Part 1) |QID|5901|
 
@@ -69,8 +69,8 @@ A Return to the Bulwark (Part 4) |QID|5236|
 T The Wildlife Suffers Too (Part 2) |QID|4985|
 
 T All Along the Watchtowers |N|Back at the Bulwark| |QID|5098|
-A Scholomance |QID|5533|
-T Scholomance |QID|5533|
-A Skeletal Fragments |QID|5537|
+A Scholomance |QID|838|
+T Scholomance |QID|838|
+A Skeletal Fragments |QID|964|
 ]]
 end)

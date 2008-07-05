@@ -7,7 +7,7 @@ T A Little Slime Goes a Long Way |N|In the Hall of Explorers, skip the follow-up
 A The Smoldering Ruins of Thaurissan (Part 1) |N|In the throne room| |QID|3702|
 T The Smoldering Ruins of Thaurissan (Part 1) |QID|3702|
 A The Smoldering Ruins of Thaurissan (Part 2) |QID|3701|
-A Taking Back Silithus |N|Near the flight master| |QID|8276|
+A Taking Back Silithus |N|Near the flight master| |QID|8275|
 
 F Lakeshire
 R Burning Steppes |N|Follow the road north (46,6)|

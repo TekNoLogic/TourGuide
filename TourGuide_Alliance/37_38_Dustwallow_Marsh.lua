@@ -67,8 +67,8 @@ T The Missing Diplomat (Part 16) |QID|1324|
 
 C Raptor Captor |U|33069| |N|Fight raptors to the north of the tower down to low health, then use the rope on them.| |QID|11146|
 
-A Stinky's Escape |N|In the area near the raptors (46.78, 17.00)| |QID|1270|
-C Stinky's Escape |QID|1270|
+A Stinky's Escape |N|In the area near the raptors (46.78, 17.00)| |QID|1222|
+C Stinky's Escape |QID|1222|
 
 T Raptor Captor |QID|11146|
 A Prisoners of the Grimtotems |QID|11145|
@@ -168,7 +168,7 @@ T Lieutenant Paval Reethe (Part 2) |T| |QID|1259|
 A Daelin's Men |T| |QID|1285|
 T Daelin's Men |T| |QID|1285|
 A The Deserters (Part 1) |T| |QID|1286|
-T Stinky's Escape |N|In the inn| |T| |QID|1270|
+T Stinky's Escape |N|In the inn| |T| |QID|1222|
 T The Orc Report |N|Near the entrance to town| |T| |QID|1219|
 A Captain Vimes |T| |QID|1220|
 A Mission to Mudsprocket |T| |QID|11214|
@@ -226,10 +226,10 @@ T Arms of the Grimtotems |QID|11148|
 A Tabetha's Assistance |QID|11149|
 
 T Tabetha's Assistance |N|At her farm, of course (45,57)| |QID|11149|
-A Raze Direhorn Post! |QID|11205|
+A Raze Direhorn Post! |QID|11150|
 T Tabetha's Task |N|Skip the follow-up| |QID|2861|
-C Raze Direhorn Post! |N|Burn the tents to the north of the farm.  North Tent (46.63, 46.14), Northeast Tent (47.16, 46.72), East Tent (47.35, 47.48)| |U|33072| |QID|11205|
-T Raze Direhorn Post! |QID|11205|
+C Raze Direhorn Post! |N|Burn the tents to the north of the farm.  North Tent (46.63, 46.14), Northeast Tent (47.16, 46.72), East Tent (47.35, 47.48)| |U|33072| |QID|11150|
+T Raze Direhorn Post! |QID|11150|
 A Justice for the Hyals |QID|11151|
 
 T Mission to Mudsprocket |N|Run down to Mudsprocket.| |T| |QID|11214|

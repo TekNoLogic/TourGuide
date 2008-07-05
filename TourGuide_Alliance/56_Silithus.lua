@@ -9,7 +9,7 @@ N Scare Quixxil |U|12928| |Q|Are We There, Yeti?| |QO|Scare Quixxil: 1/1|
 
 F Silithus
 A The Twilight Mystery |QID|8284|
-T Taking Back Silithus |QID|8276|
+T Taking Back Silithus |QID|8275|
 A Securing the Supply Lines |QID|8280|
 h Cenarion Hold
 A Deadly Desert Venom |QID|8277|

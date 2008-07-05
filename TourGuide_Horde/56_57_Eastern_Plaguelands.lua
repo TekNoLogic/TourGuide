@@ -44,9 +44,9 @@ T Augustus' Receipt Book |QID|6164|
 T Demon Dogs |N|On the west edge of the zone| |QID|5542|
 T Blood Tinged Skies |QID|5543|
 T Carrion Grubbage |QID|5544|
-A Redemption |QID|9600|
-C Redemption |N|Blah blah blah... he talks to much.| |QID|9600|
-T Redemption |QID|9600|
+A Redemption |QID|5742|
+C Redemption |N|Blah blah blah... he talks to much.| |QID|5742|
+T Redemption |QID|5742|
 A Of Forgotten Memories |QID|5781|
 
 T To Kill With Purpose |N|at (26,74)| |QID|6022|
