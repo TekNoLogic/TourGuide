@@ -26,7 +26,7 @@ local order = {"ACCEPT", "TURNIN", "COMPLETE", "KILL", "SETHEARTH", "HEARTH", "G
 
 
 local frame = CreateFrame("Frame", nil, UIParent)
-TourGuide.configpanel = frame
+TourGuide.helppanel = frame
 frame.name = "Help"
 frame.parent = "Tour Guide"
 frame:Hide()
