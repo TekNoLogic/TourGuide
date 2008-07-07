@@ -52,6 +52,13 @@ function TourGuide:Initialize()
 	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
 	self:LoadGuide(self.db.char.currentguide)
 	self:PositionStatusFrame()
+
+
+	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {
+		launcher = true,
+		icon = "Interface\\Icons\\Ability_Rogue_Sprint",
+		OnClick = function() InterfaceOptionsFrame_OpenToFrame(TourGuide.configpanel) end,
+	})
 end
 
 
