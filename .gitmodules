@@ -1,0 +1,3 @@
+[submodule "libdatabroker-1-1"]
+	path = libdatabroker-1-1
+	url = git://github.com/tekkub/libdatabroker-1-1.git
