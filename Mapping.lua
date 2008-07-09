@@ -23,7 +23,7 @@ local function MapPoint(zone, x, y, desc, c, z)
 	end
 
 	if TomTom then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
-	elseif Cartographer_Waypoints then
+	elseif Cartographer_Waypoints and zone then
 		local pt = NotePoint:new(zone, x/100, y/100, desc)
 		Cartographer_Waypoints:AddWaypoint(pt)
 		table.insert(cache, pt.WaypointID)
