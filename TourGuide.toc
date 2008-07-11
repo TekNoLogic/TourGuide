@@ -26,6 +26,7 @@ Locale.lua
 TourGuide.lua
 Parser.lua
 Mapping.lua
+Broker.lua
 StatusFrame.lua
 ItemButton.lua
 Config.lua
