@@ -54,6 +54,7 @@ A Magical Disturbances |QID|10026|
 F Shattrath City |N|Flight point is just east of the water wheel|
 T Secrets of the Arakkoa |QID|10863|
 A The Eyes of Skettis |QID|10847|
+T Rather Be Fishin' |N|Skip the follow-up| |QID|10037|
 T Wind Trader Lathrai |QID|9979|
 A A Personal Favor |QID|10112|
 
@@ -63,15 +64,15 @@ K Urdak |N|Head south out of Shattrath to Veil Skith.  Kill Urdak up in the tree
 C A Personal Favor |QID|10112|
 
 K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |Q|Stymying the Arakkoa| |QO|Ashkaz slain: 1/1|
-C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).| |QID|10847|
 C Restoring the Light |O| |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.| |QID|10021|
+C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).| |QID|10847|
+K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |Q|Stymying the Arakkoa| |QO|Ayit slain: 1/1|
 C Thin the Flock |QID|10869|
 
 H Shattrath City
 T Restoring the Light |O| |QID|10021|
 T The Eyes of Skettis |N|Back to Rilak in Lower City| |QID|10847|
 A Seek Out Kirrik |QID|10849|
-T Rather Be Fishin' |N|Skip the follow-up| |QID|10037|
 T A Personal Favor |QID|10112|
 A Investigate Tuurem |QID|9990|
 
@@ -90,7 +91,6 @@ C Thinning the Ranks |QID|10007|
 T The Firewing Liaison |N|Back up at Allerian Post (69.73, 44.27)| |QID|10002|
 T Thinning the Ranks |QID|10007|
 
-K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |Q|Stymying the Arakkoa| |QO|Ayit slain: 1/1|
 C Investigate Tuurem |N|The Sealed Box is in one of the huts in Tuurem (54.00, 30.00)| |QID|9990|
 T Investigate Tuurem |QID|9990|
 A What Are These Things? |QID|9994|
@@ -165,7 +165,7 @@ T The Shadow Tomb |QID|10881|
 T Missing Friends |QID|10852|
 A The Tomb of Lights |QID|10840|
 
-C The Tomb of Lights |N|To the east of the caravan| |QID|10840|
+C The Tomb of Lights |N|To the east of the caravan (47,57)| |QID|10840|
 C Wanted: Bonelashers Dead! |N|Mostly south and east of the caravan.  You can skip this if you don't want to run back to Allerian later for a single turnin.| |QID|10033|
 
 T The Tomb of Lights |QID|10840|
@@ -217,7 +217,7 @@ T Veil Lithic: Preemptive Strike |QID|10861|
 A Veil Shalas: Signal Fires |QID|10874|
 A Skywing |N|Just outside Veil Shalas (54,72). If you don't see him, just move on.| |QID|10898|
 C Skywing |QID|10898|
-C Veil Shalas: Signal Fires |N|Veil Shalas is on the southeast side of the bone wastes (55,66). The signal fires are all around the treehuts. If you did Skywing you should've cleared three of them already, the last one is in the north set of huts.| |QID|10874|
+C Veil Shalas: Signal Fires |N|Veil Shalas is on the southeast side of the bone wastes (55,66). The signal fires are all around the treehuts. If you did Skywing you should've cleared three of them already, the last one is in the north set of huts (55.21, 67.12).| |QID|10874|
 C Helping the Lost Find Their Way |N|East side of the wastes| |QID|10031|
 
 T Helping the Lost Find Their Way |QID|10031|
