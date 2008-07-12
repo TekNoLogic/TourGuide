@@ -52,6 +52,7 @@ function TourGuide:Initialize()
 	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
 	self:LoadGuide(self.db.char.currentguide)
 	self:PositionStatusFrame()
+	self:PositionItemFrame()
 
 
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {

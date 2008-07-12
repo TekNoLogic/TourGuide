@@ -27,6 +27,7 @@ TourGuide.lua
 Parser.lua
 Mapping.lua
 StatusFrame.lua
+ItemButton.lua
 Config.lua
 Help.lua
 ObjectivesFrame.lua
