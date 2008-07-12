@@ -60,7 +60,7 @@ guides.each do |guide|
 				puts "Unneeded NODEBUG flag: " + line if line =~ /\|O\|/ && line =~ /\|NODEBUG\|/
 
 				unless line =~ /\|NODEBUG\|/
-					puts "Bad title case " + line if name =~ /[^:-]\s(For|A|The|Or|In|Then|From|To)\s/
+					puts "Bad title case " + line if name =~ /[^\.\,:-]\s(For|A|The|Or|In|Then|From|To)\s/
 
 					if ACT.include? type
 						#~ puts "Duplicate objective: #{line}" if quests[type].include? qid
