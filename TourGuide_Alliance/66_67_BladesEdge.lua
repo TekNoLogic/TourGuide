@@ -3,36 +3,36 @@ TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-70)",
 return [[
 F Orebor Harborage
 A No Time for Curiosity |T| |QID|9794|
-A Killing the Crawlers |N|Up the stairs outside the cave| |T| |QID|10928|
-C Killing the Crawlers |N|In the cave, of course| |QID|10928|
+A Killing the Crawlers |N|Up the stairs outside the cave| |T| |QID|10927|
+C Killing the Crawlers |N|In the cave, of course| |QID|10927|
 
 R Sylvanaar |N|North out of the cave|
 A The Den Mother |N|On a wanted poster| |T| |QID|10690|
 T No Time for Curiosity |N|First building on the left| |T| |QID|9794|
-A The Encroaching Wilderness |N|Outside the building near the stone and benches| |T| |QID|10486|
-T Killing the Crawlers |N|Next building to the North| |T| |QID|10928|
-A The Bloodmaul Ogres |T| |QID|10505|
+A The Encroaching Wilderness |N|Outside the building near the stone and benches| |T| |QID|10455|
+T Killing the Crawlers |N|Next building to the North| |T| |QID|10927|
+A The Bloodmaul Ogres |T| |QID|10502|
 A Malaise |N|North again| |T| |QID|10555|
 A Into the Draenethyst Mine |N|In the 'long' building| |T| |QID|10510|
 A Strange Brew |T| |QID|10511|
 h Sylvanaar |T|
 
-C The Encroaching Wilderness |N|South of town| |QID|10486|
+C The Encroaching Wilderness |N|South of town| |QID|10455|
 C Malaise |N|West at Veil Lashh (35,73)| |QID|10555|
 T Malaise |N|Find a book up in the trees| |QID|10555|
 A Scratches |QID|10556|
 C Scratches |N|Use the feathers on the purple rune circle, then run back to the questgiver in town.| |U|30530| |QID|10556|
 
-T The Encroaching Wilderness |T| |N|Back in Sylvanaar| |QID|10486|
+T The Encroaching Wilderness |T| |N|Back in Sylvanaar| |QID|10455|
 A Marauding Wolves |T| |QID|10456|
 T Scratches |T| |QID|10556|
 
 C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way.| |QID|10510|
 C Strange Brew |N|Get 5 extra brews| |QID|10511|
-C The Bloodmaul Ogres |QID|10505|
+C The Bloodmaul Ogres |QID|10502|
 N Make sure you have 5 extra brews! |L|29443 16|
 
-T The Bloodmaul Ogres |N|Back at Sylvanaar| |T| |QID|10505|
+T The Bloodmaul Ogres |N|Back at Sylvanaar| |T| |QID|10502|
 A The Bladespire Ogres |T| |QID|10504|
 T Strange Brew |T| |QID|10511|
 A Getting the Bladespire Tanked |T| |QID|10512|
@@ -97,9 +97,9 @@ T More than a Pound of Flesh |T| |QID|10671|
 F Sylvanaar
 T The Den Mother |T| |QID|10690|
 T Marauding Wolves |T| |QID|10456|
-A Protecting Our Own |T| |QID|10488|
-C Protecting Our Own |N|South of town, look for grove seedlings on the ground and click them.| |QID|10488|
-T Protecting Our Own |T| |QID|10488|
+A Protecting Our Own |T| |QID|10457|
+C Protecting Our Own |N|South of town, look for grove seedlings on the ground and click them.| |QID|10457|
+T Protecting Our Own |T| |QID|10457|
 A A Dire Situation |T| |QID|10506|
 
 C A Dire Situation |N|South in the bloodmaul ravine, use the powder on the bloodmaul wolves.| |U|30251| |QID|10506|

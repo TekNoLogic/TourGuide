@@ -97,8 +97,8 @@ T Bungle in the Jungle |N|Skip the follow-up| |QID|4496|
 T Super Sticky |QID|4504|
 
 H Thunder Bluff
-A Un'Goro Soil |N|On Elder Rise| |QID|3764|
-T Un'Goro Soil |QID|3764|
+A Un'Goro Soil |N|On Elder Rise| |QID|3761|
+T Un'Goro Soil |QID|3761|
 A Morrowgrain Research |QID|3786|
 T Morrowgrain Research |QID|3786|
 

@@ -142,9 +142,9 @@ T Deactivate An'owyn |N|Back at An'telas (60.30, 35.78)| |QID|9169|
 T Report to Magister Kaendris |N|Back at Sanctum of the Sun| |QID|9172|
 A The Twin Ziggurats |QID|9176|
 A War on Deatholme |QID|9220|
-A Clearing the Way |N|South of Tranquillien at the Andilien Estate (46.50, 56.50)| |QID|9761|
-C Clearing the Way |N|To the south| |QID|9761|
-T Clearing the Way |QID|9761|
+A Clearing the Way |N|South of Tranquillien at the Andilien Estate (46.50, 56.50)| |QID|9281|
+C Clearing the Way |N|To the south| |QID|9281|
+T Clearing the Way |QID|9281|
 
 C The Twin Ziggurats |N|South of Tranquillien on either side of the Dead Scar (40.37, 49.83) (34.31, 47.80)| |QID|9176|
 C War on Deatholme |N|Grind your way south to Deathholm (35,73)| |QID|9220|

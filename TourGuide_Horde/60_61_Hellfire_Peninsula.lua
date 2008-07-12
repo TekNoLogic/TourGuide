@@ -2,10 +2,10 @@
 TourGuide:RegisterGuide("Hellfire Peninsula (60-61)", "Zangarmarsh (61-63)", "Horde", function()
 return [[
 H Undercity
-A Through the Dark Portal |N|Warlord Dar'toon right outside the big portal| |QID|10119|
-T Through the Dark Portal |N|Just down the steps to the right| |QID|10119|
-A Arrival in Outland |QID|10288|
-T Arrival in Outland |QID|10288|
+A Through the Dark Portal |N|Warlord Dar'toon right outside the big portal| |QID|9407|
+T Through the Dark Portal |N|Just down the steps to the right| |QID|9407|
+A Arrival in Outland |QID|10120|
+T Arrival in Outland |QID|10120|
 A Journey to Thrallmar |QID|10289|
 T Journey to Thrallmar |N|Fly there| |QID|10289|
 A Report to Nazgrel |QID|10875|
@@ -25,10 +25,10 @@ T Disrupt Their Reinforcements |QID|10208|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|
 C Mission: Gateways Murketh and Shaadraz |N|Click on the NPC next to you, get the item and get on wyvern, bomb the 2 bases| |QID|10129|
 T Mission: Gateways Murketh and Shaadraz |QID|10129|
-A Mission: The Abyssal Shelf |QID|10163|
+A Mission: The Abyssal Shelf |QID|10162|
 A Return to Thrallmar |QID|10388|
-C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away| |QID|10163|
-T Mission: The Abyssal Shelf |QID|10163|
+C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away| |QID|10162|
+T Mission: The Abyssal Shelf |QID|10162|
 
 T Return to Thrallmar |N|Nazgrel in the big building in Thrallmar| |QID|10388|
 A Forge Camp: Mageddon |QID|10390|
@@ -87,9 +87,9 @@ C Wanted: Worg Master Kruush |N|(68,73) in the worg stables| |QID|10809|
 T Boiling Blood |N|Back at Spinebreaker Post| |QID|10538|
 T Wanted: Worg Master Kruush |QID|10809|
 A Apothecary Antonivich |QID|10835|
-A Zeth'Gor Must Burn! |QID|10895|
-C Zeth'Gor Must Burn! |N|Forge at (69,69), Barracks at (69,76), Eastern Hovel at (70,70), Western Hovel at (67,76), Stable at (68,73)| |QID|10895|
-T Zeth'Gor Must Burn! |QID|10895|
+A Zeth'Gor Must Burn! |QID|10792|
+C Zeth'Gor Must Burn! |N|Forge at (69,69), Barracks at (69,76), Eastern Hovel at (70,70), Western Hovel at (67,76), Stable at (68,73)| |QID|10792|
+T Zeth'Gor Must Burn! |QID|10792|
 A The Eyes of Grillok |QID|10813|
 C The Eyes of Grillok |N|(67,74)Use Zezzak's Shar on an Eye of Grillok| |QID|10813|
 T The Eyes of Grillok |QID|10813|
@@ -158,7 +158,7 @@ A In Need of Felblood |QID|9366|
 A Magic of the Arakkoa |QID|9396|
 A Trueflight Arrows |QID|9381|
 A Birds of a Feather |QID|9397|
-A Helping the Cenarion Post |QID|10443|
+A Helping the Cenarion Post |QID|10442|
 T Falcon Watch |QID|9499|
 A Report to Zurai |QID|10103|
 A The Great Fissure |QID|9340|
@@ -194,7 +194,7 @@ C Source of the Corruption |QID|9387|
 
 R Cenarion Post |N|(15,52)|
 T Missing Missive |QID|9373|
-T Helping the Cenarion Post |QID|10443|
+T Helping the Cenarion Post |QID|10442|
 A Demonic Contamination |QID|9372|
 A Colossal Menace |QID|10132|
 A Keep Thornfang Hill Clear! |QID|10159|

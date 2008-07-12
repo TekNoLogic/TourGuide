@@ -13,7 +13,7 @@ F Astranaar
 h Astranaar
 
 R Felwood |N|Head east out of town.  At the fork near the retreat head north out of the zone (55.75, 29.50)| |Z|Ashenvale|
-A Cleansing Felwood |N|On the north side of the road (54,86)| |QID|4102|
+A Cleansing Felwood |N|On the north side of the road (54,86)| |QID|4101|
 
 R Emerald Sanctuary |N|Just ahead, north of the road (51,81)|
 A Forces of Jaedenar |QID|5155|
@@ -42,7 +42,7 @@ K Kill Xavaric |L|11668| |N|North in Jadefire Run (39,22)|
 A Flute of Xavaric |N|From the item he dropped, naturally| |U|11668| |QID|939|
 C Further Corruption |QID|4906|
 C Flute of Xavaric |QID|939|
-C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4102|
+C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4101|
 
 R Talonbranch Glade |N|At the northeast edge of the zone, south of the road (62,24)|
 F Emerald Sanctuary |N|Moonglade's FP is to the east (48,67)| |Z|Moonglade|
@@ -50,7 +50,7 @@ T Collection of the Corrupt Water |QID|5157|
 T Further Corruption |QID|4906|
 T Flute of Xavaric |QID|939|
 T Verifying the Corruption |QID|5156|
-T Cleansing Felwood |N|South along the road| |QID|4102|
+T Cleansing Felwood |N|South along the road| |QID|4101|
 A To Winterspring! |QID|5249|
 
 F Talonbranch Glade

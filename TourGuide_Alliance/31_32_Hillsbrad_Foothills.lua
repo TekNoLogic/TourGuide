@@ -8,7 +8,7 @@ T Southshore |O| |QID|538|
 h Southshore
 A Missing Crystals |QID|9435|
 A Down the Coast |QID|536|
-A Soothing Turtle Bisque |QID|7321|
+A Soothing Turtle Bisque |QID|555|
 A Bartolo's Yeti Fur Cloak |QID|565|
 A Costly Menace |QID|564|
 A Syndicate Assassins |QID|505|
@@ -45,7 +45,7 @@ T Encrypted Letter |QID|511|
 A Letter to Stormpike |QID|514|
 T Syndicate Assassins |QID|505|
 T Foreboding Plans |N|Skip the follow-up| |QID|510|
-T Soothing Turtle Bisque |QID|7321|
+T Soothing Turtle Bisque |QID|555|
 T Missing Crystals |QID|9435|
 T Costly Menace |QID|564|
 
@@ -59,7 +59,7 @@ A Further Mysteries |QID|525|
 T Tome of the Cabal (Part 2) |N|Hall of Explorers| |C|Warlock| |QID|1802|
 A Tome of the Cabal (Part 3) |N|Hall of Explorers| |C|Warlock| |QID|1804|
 A Reclaimers' Business in Desolace |N|From Roetten Stonehammer who walks around nearby| |QID|1453|
-A In Search of Menara Voidrender |N|In The Forlorn Cavern (50.2, 6.2)| |C|Warlock| |QID|4739|
+A In Search of Menara Voidrender |N|In The Forlorn Cavern (50.2, 6.2)| |C|Warlock| |QID|4736|
 
 F Stormwind City
 T Reassignment |Z|Stormwind City| |N|In Stormwind Keep (73.7, 17.6)| |QID|563|
@@ -76,7 +76,7 @@ F Menethil Harbor |C|Warlock|
 C Tome of the Cabal (Part 3) |N|Kill Dragonmaw Bonewarders and Shadowwarders to the east (47,47)| |C|Warlock| |Z|Wetlands| |QID|1804|
 
 F Ratchet |C|Warlock| |N|Boat to Theramore Isle and fly down|
-T In Search of Menara Voidrender |C|Warlock| |QID|4739|
+T In Search of Menara Voidrender |C|Warlock| |QID|4736|
 T Tome of the Cabal (Part 3) |C|Warlock| |QID|1804|
 A The Binding |C|Warlock| |NODEBUG| |N|Ratchet (62.6, 35.5)| |QID|1795|
 C The Binding |C|Warlock| |NODEBUG| |U|6999| |QID|1795|

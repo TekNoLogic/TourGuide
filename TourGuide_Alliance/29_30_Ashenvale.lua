@@ -31,7 +31,7 @@ A The Howling Vale |T| |QID|1022|
 A Agents of Destruction |T| |QID|9518|
 T A Helping Hand |T| |QID|9533|
 A A Shameful Waste |T| |QID|9517|
-A Destroy the Legion |T| |QID|9534|
+A Destroy the Legion |T| |QID|9516|
 A Reclaiming Felfire Hill |N|From Gnarl the Ancient of War, he paths around the camp.| |T| |QID|9526|
 
 C The Lost Chalice |N|In Satyrnaar (81.61, 48.57)| |QID|9519|
@@ -64,14 +64,14 @@ T A Shameful Waste |T| |QID|9517|
 T Reclaiming Felfire Hill |T| |QID|9526|
 T The Howling Vale |T| |QID|1022|
 T Agents of Destruction |T| |QID|9518|
-A Diabolical Plans |U|23777| |T| |QID|9535|
-T Diabolical Plans |T| |QID|9535|
-A Never Again! |T| |QID|9536|
+A Diabolical Plans |U|23777| |T| |QID|9520|
+T Diabolical Plans |T| |QID|9520|
+A Never Again! |T| |QID|9522|
 T Satyr Slaying! |T| |QID|1032|
 
-C Never Again! |N|South at Demon Fall canyon.  Gorgannon is east up the main path (90.0, 76.8).  Diathorus is west past the monument in a cave on Demon Fall Ridge (78.01, 83.66).  Small glowing monuments mark the path up.  Both demons call for help, so make sure to clear the area around them.| |QID|9536|
-C Destroy the Legion |N|Skip this quest if you can't get all the lashers, they seem to have a very low spawn rate.| |QID|9534|
-T Never Again! |T| |N|Back in Forest Song| |QID|9536|
-T Destroy the Legion |T| |QID|9534|
+C Never Again! |N|South at Demon Fall canyon.  Gorgannon is east up the main path (90.0, 76.8).  Diathorus is west past the monument in a cave on Demon Fall Ridge (78.01, 83.66).  Small glowing monuments mark the path up.  Both demons call for help, so make sure to clear the area around them.| |QID|9522|
+C Destroy the Legion |N|Skip this quest if you can't get all the lashers, they seem to have a very low spawn rate.| |QID|9516|
+T Never Again! |T| |N|Back in Forest Song| |QID|9522|
+T Destroy the Legion |T| |QID|9516|
 ]]
 end)

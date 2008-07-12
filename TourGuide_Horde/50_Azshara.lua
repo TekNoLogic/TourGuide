@@ -21,7 +21,7 @@ T Delivery to Magatha |N|Elder Rise| |QID|3518|
 A Magatha's Payment to Jediga |QID|3562|
 
 H Orgrimmar
-T Rise of the Silithid |N|at (56,46)| |Z|Orgrimmar| |QID|4267|
+T Rise of the Silithid |N|at (56,46)| |Z|Orgrimmar| |QID|32|
 A March of the Silithid |QID|4494|
 T Delivery to Jes'rimon |N|at (55,34)| |Z|Orgrimmar| |QID|3541|
 A Jes'rimon's Payment to Jediga |QID|3563|

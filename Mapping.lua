@@ -19,8 +19,8 @@ local function MapPoint(zone, x, y, desc, c, z)
 		else TourGuide:Print("No zone provided, using current zone.") end
 
 		zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
-		zone = zonenames[zc][zi]
 	end
+	zone = zone or zonenames[zc][zi]
 
 	if TomTom then table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
 	elseif Cartographer_Waypoints then

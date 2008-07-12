@@ -34,7 +34,7 @@ C Kodo Roundup |QID|5561|
 T Kodo Roundup |QID|5561|
 
 T Khan Dez'hepah |N|Back at Ghost Walker Post| |QID|1365|
-A Centaur Bounty |QID|1387|
+A Centaur Bounty |QID|1366|
 T Befouled by Satyr |QID|1434|
 T The Corrupter (Part 2) |QID|1481|
 A The Corrupter (Part 3) |QID|1482|
@@ -78,9 +78,9 @@ T The Corrupter (Part 4) |N|Skip last follow-up| |QID|1484|
 
 C Bone Collector |N|In the Kodo Graveyard| |QID|5501|
 C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)| |QID|1370|
-C Centaur Bounty |QID|1387|
+C Centaur Bounty |QID|1366|
 
-T Centaur Bounty |QID|1387|
+T Centaur Bounty |QID|1366|
 T Bone Collector |QID|5501|
 
 H Shadowprey Village
@@ -97,12 +97,12 @@ P Claw (Rank 5) |N|Tame a Scorpashi Lasher, level 34 (36,77)| |C|Hunter|
 F Camp Taurajo
 R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|
 
-A Suspicious Hoofprints |N|Click on hoofprints outside the inn on ground (29.7, 47.7)| |Z|Dustwallow Marsh| |QID|1284|
+A Suspicious Hoofprints |N|Click on hoofprints outside the inn on ground (29.7, 47.7)| |Z|Dustwallow Marsh| |QID|1268|
 A Lieutenant Paval Reethe |N|Laying on the planks on the ground (29.8, 48.2)| |Z|Dustwallow Marsh| |QID|1269|
 A The Black Shield (Part 1) |N|On top of fireplace| |QID|1251|
 
 R Brackenwall Village |N|North along the road (35,29)| |Z|Dustwallow Marsh|
-T Suspicious Hoofprints |QID|1284|
+T Suspicious Hoofprints |QID|1268|
 T Lieutenant Paval Reethe |QID|1269|
 T The Black Shield (Part 1) |QID|1251|
 A The Black Shield (Part 2) |QID|1321|

@@ -188,9 +188,9 @@ F Thunderlord Stronghold
 T On Spirit's Wings |QID|10714|
 A Baron Sablemane |QID|10783|
 T Baron Sablemane |N|Turns in at (53,41)| |QID|10783|
-A Into the Churning Gulch |QID|10799|
-C Into the Churning Gulch |N|(48,42)| |QID|10799|
-T Into the Churning Gulch |QID|10799|
+A Into the Churning Gulch |QID|10715|
+C Into the Churning Gulch |N|(48,42)| |QID|10715|
+T Into the Churning Gulch |QID|10715|
 A Baron Sablemane's Poison |QID|10749|
 
 R Thunderlord Stronghold
@@ -211,11 +211,11 @@ A A Boaring Time for Grulloc |QID|10721|
 F Evergrove
 C A Boaring Time for Grulloc |QID|10721|
 T A Boaring Time for Grulloc |QID|10721|
-A It's a Trap! |QID|10801|
+A It's a Trap! |QID|10785|
 R Thunderlord Stronghold
-T It's a Trap! |QID|10801|
-A Gorgrom the Dragon-Eater |QID|10802|
-A Slaughter at Boulder'mok |QID|10803|
+T It's a Trap! |QID|10785|
+A Gorgrom the Dragon-Eater |QID|10723|
+A Slaughter at Boulder'mok |QID|10786|
 
 F Evergrove
 C Felsworn Gas Mask |N| Communicator is at (73,39) need to equip mask to activate it| |QID|10819|
@@ -226,22 +226,22 @@ T Treebole Must Know |N|Turns in at (37,23)| |QID|10829|
 A Exorcising the Trees |QID|10830|
 C Exorcising the Trees |N|Read quest carefully| |QID|10830|
 T Exorcising the Trees |N|Turns in at (37,23)| |QID|10830|
-C Gorgrom the Dragon-Eater |N|(31,22)| |QID|10802|
-C Slaughter at Boulder'mok |QID|10803|
+C Gorgrom the Dragon-Eater |N|(31,22)| |QID|10723|
+C Slaughter at Boulder'mok |QID|10786|
 C Maxnar Must Die! |N|(33,35)| |QID|10748|
 
 H Thunderlord Stronghold |N|If on CD, die on purpose|
-T Gorgrom the Dragon-Eater |QID|10802|
-T Slaughter at Boulder'mok |QID|10803|
+T Gorgrom the Dragon-Eater |QID|10723|
+T Slaughter at Boulder'mok |QID|10786|
 A Prisoner of the Bladespire |N|Will need group to finish this| |QID|10724|
 
 F Evergrove
 T Maxnar Must Die! |QID|10748|
 C Prisoner of the Bladespire |QID|10724|
 T Prisoner of the Bladespire |QID|10724|
-A Showdown |N|If still in group from prisoner...| |QID|10806|
-C Showdown |N| altar is at (64,18)| |QID|10806|
-T Showdown |QID|10806|
+A Showdown |N|If still in group from prisoner...| |QID|10742|
+C Showdown |N| altar is at (64,18)| |QID|10742|
+T Showdown |QID|10742|
 
 F Evergrove
 R Netherstorm |N|(81,28)|

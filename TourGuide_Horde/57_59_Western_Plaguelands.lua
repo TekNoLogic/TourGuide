@@ -44,7 +44,7 @@ T The Annals of Darrowshire |QID|5154|
 A Brother Carlin |QID|5210|
 
 C Counting Out Time |N|Find lunchboxes in the houses all around Andorhal.| |QID|4973|
-C Skeletal Fragments |N|Kill undead all over Andorhal.| |QID|5537|
+C Skeletal Fragments |N|Kill undead all over Andorhal.| |QID|964|
 
 T Counting Out Time |N|Back at the inn| |QID|4973|
 

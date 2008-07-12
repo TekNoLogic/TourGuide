@@ -37,7 +37,7 @@ A Frankly, It Makes No Sense... |T| |QID|10672|
 U Put on your Spectrecles |U|30719| |T|
 C Spectrecles |N|You don't have to leave the village!| |T| |QID|10625|
 T Spectrecles |T| |QID|10625|
-A Teron Gorefiend - Lore and Legend |T| |QID|10644|
+A Teron Gorefiend - Lore and Legend |T| |QID|10633|
 T The Sketh'lon Wreckage |T| |QID|10760|
 A Find the Deserter |T| |QID|10761|
 T To Legion Hold |QID|10596|
@@ -73,7 +73,7 @@ A The Deathforge |T| |QID|10599|
 C The Rod of Lianthe |N|Kill Blood Elves at Eclipse Point to the southeast for the key.  Strongbox is east of the elite (47.53, 71.66).| |QID|10778|
 C Enraged Spirits of Air |N|Take the road east to the Netherwing Fields, drop totem, kill air elementals. Work your way south from the fields towards the Altar of Shadows.| |U|30094| |QID|10481|
 
-T Teron Gorefiend - Lore and Legend |N|South at the Altar of Shadows (58,70)| |QID|10644|
+T Teron Gorefiend - Lore and Legend |N|South at the Altar of Shadows (58,70)| |QID|10633|
 A Divination: Gorefiend's Cloak |QID|10635|
 A Divination: Gorefiend's Truncheon |QID|10636|
 

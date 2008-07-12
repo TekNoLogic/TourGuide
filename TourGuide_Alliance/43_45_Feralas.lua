@@ -3,7 +3,7 @@ TourGuide:RegisterGuide("Feralas (43-45)", "The Hinterlands (46-47)", "Alliance"
 return [[
 R Feathermoon Stronghold |N|Fly to Desolace and run southwest into Feralas (43,98).  Follow the road until the path down to the docks.  Take the boat if it's there, or swim due west.| |Z|Desolace|
 
-A The Mark of Quality |QID|2822|
+A The Mark of Quality |QID|2821|
 h Feathermoon Stronghold
 A The Ruins of Solarsal |QID|2866|
 A The Missing Courier (Part 1) |QID|4124|
@@ -40,7 +40,7 @@ T Psychometric Reading |QID|4130|
 A The Woodpaw Gnolls |QID|4131|
 
 A Find OOX-22/FE! |O| |U|8705| |QID|2766|
-C The Mark of Quality |N|Back on mainland, follow the road to the yeti cave (56,56).| |QID|2822|
+C The Mark of Quality |N|Back on mainland, follow the road to the yeti cave (56,56).| |QID|2821|
 T Find OOX-22/FE! |O| |N|At the back of the yeti cave.  Don't accept the escort!| |QID|2766|
 C The High Wilderness |N|Shamans are to the south at the temple (59,73).  Brutes at Ruins of Isildien (62,54).  If you have issues finding warlocks, you should be shot.| |QID|2982|
 A Freedom for All Creatures |N|Clear around the cage in the camp, then head up the path behind the camp (65.63, 46.76)| |QID|2969|
@@ -57,8 +57,8 @@ T The Writhing Deep |N|In the hive to the south (73,63).  At the bottom, take th
 A Freed from the Hive |QID|4265|
 
 H Feathermoon Stronghold
-T The Mark of Quality |QID|2822|
-A Improved Quality |QID|7734|
+T The Mark of Quality |QID|2821|
+A Improved Quality |QID|7733|
 T The High Wilderness |QID|2982|
 T Freed from the Hive |QID|4265|
 A A Hero's Welcome |QID|4266|

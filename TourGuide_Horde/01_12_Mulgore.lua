@@ -120,7 +120,7 @@ A Taming the Beast (Part 3) |C|Hunter| |QID|6088|
 C Taming the Beast (Part 3) |C|Hunter| |N|East of town| |QID|6088|
 T Taming the Beast (Part 3) |C|Hunter| |QID|6088|
 P Bite (Rank 2) |N|Tame a Prarie Wolf Alpha.  Keep it for your main pet unless you find The Rake.| |C|Hunter|
-A Training the Beast |C|Hunter| |QID|6103|
+A Training the Beast |C|Hunter| |QID|6089|
 
 A Heeding the Call |C|Druid| |QID|5928|
 
@@ -128,7 +128,7 @@ A The Hunter's Way |QID|861|
 
 R Thunder Bluff
 A Preparation for Ceremony |QID|744|
-T Training the Beast |C|Hunter| |N|Over on Hunter Rise (to the south)| |QID|6103|
+T Training the Beast |C|Hunter| |N|Over on Hunter Rise (to the south)| |QID|6089|
 
 T Heeding the Call |C|Druid| |QID|5928|
 A Moonglade |C|Druid| |QID|5922|

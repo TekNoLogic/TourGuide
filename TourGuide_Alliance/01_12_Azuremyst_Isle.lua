@@ -18,12 +18,12 @@ A Rescue the Survivors! |QID|9283|
 
 A Shaman Training |C|Shaman| |QID|9421|
 A Priest Training |C|Priest| |QID|9291|
-A Paladin Training |C|Paladin| |QID|9676|
+A Paladin Training |C|Paladin| |QID|9287|
 A Warrior Training |C|Warrior| |QID|9289|
 
 T Shaman Training |C|Shaman| |QID|9421|
 T Priest Training |C|Priest| |QID|9291|
-T Paladin Training |C|Paladin| |QID|9676|
+T Paladin Training |C|Paladin| |QID|9287|
 T Warrior Training |C|Warrior| |QID|9289|
 
 A Spare Parts |QID|9305|
@@ -202,7 +202,7 @@ T The Kurken is Lurkin' |QID|9570|
 A The Kurken's Hide |QID|9571|
 T The Kurken's Hide |QID|9571|
 T Call of Fire (Part 2) |C|Shaman| |QID|9465|
-A Call of Fure (Part 3) |C|Shaman| |QID|9467|
+A Call of Fire (Part 3) |C|Shaman| |QID|9467|
 
 C Murlocs... Why Here? Why Now? |N|West of Stillpine Hold, along the shore (33.5, 22.0)| |QID|9562|
 C Control |N|Keep killing murlocs until a Quel'dorei Magewraith appears| |C|Mage| |QID|9595|
