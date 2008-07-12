@@ -1,3 +1,22 @@
+2.4.2.30-Beta
+    Guide updates
+     - Guide sequences fixed
+     - Various fixes to Ally guides from debug script
+     - QID fixes from debugger
+     - Remove a bad hearth obj from Ally Tanaris
+     - Fix Tuurem FedEx quests in Ally guides
+     - Ally Terokkar rejiggification
+     - Horde Stonetalon playtesting
+     - Merge Horde Hellfire guides together
+    Core fixes
+     - Fix for LightHeaded and Cartographer_Waypoints users
+     - Fix help panel overriding config panel
+     - Remove guide debugger from addon, has been replaced by offline ruby scripts
+     - Update tekkonfig
+    New Features
+     - Added LDB data feed
+     - Added LDB quicklaunch button
+
 2.4.2.29-Beta
     Ally Zangar tweaks
     Ally Azuremyst playtesting
