@@ -15,6 +15,7 @@
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
+## X-LoadOn-LDB-Launcher: Interface\Icons\Ability_Hunter_Pathfinding TourGuideLauncher
 
 Dongle.lua
 tekKonfig\tekKonfig.xml
