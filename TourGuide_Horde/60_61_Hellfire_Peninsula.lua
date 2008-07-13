@@ -8,8 +8,8 @@ A Arrival in Outland |QID|10120|
 T Arrival in Outland |QID|10120|
 A Journey to Thrallmar |QID|10289|
 T Journey to Thrallmar |N|Fly there| |QID|10289|
-A Report to Nazgrel |QID|10875|
-T Report to Nazgrel |N|Inside big building| |QID|10875|
+A Report to Nazgrel |QID|10291|
+T Report to Nazgrel |N|Inside big building| |QID|10291|
 A Eradicate the Burning Legion |QID|10121|
 h Thrallmar
 
@@ -100,7 +100,7 @@ C Preparing the Salve |QID|9345|
 T Preparing the Salve |QID|9345|
 A Investigate the Crash |QID|10213|
 
-T Investigate the Crash |N|TODO at the Zeppelin Crash (49,74)| |QID|10213|
+T Investigate the Crash |N|West at the Zeppelin Crash (49,74)| |QID|10213|
 A In Case of Emergency... |QID|10161|
 A Ravager Egg Roundup |QID|9349|
 C In Case of Emergency... |N|(58,71)| |QID|10161|
@@ -130,9 +130,8 @@ T Apothecary Antonivich |N|(52,36)| |QID|10835|
 A A Burden of Souls |QID|10864|
 
 A Outland Sucks! |N|(51,30) Just northwest of Thrallmar| |QID|10236|
-N During next quest, kill Marauding Crust Bursters til they drop Eroded Leather Case TODO
 C Outland Sucks! |N|Boxes southwest in the ravine| |QID|10236|
-A Missing Missive |U|23338| |QID|9373|
+A Missing Missive |U|23338| |QID|9373| |O| |N|From the Eroded Leather Case that dropped off the Crust Bursters.|
 T Outland Sucks! |QID|10236|
 A How to Serve Goblins |QID|10238|
 C How to Serve Goblins |N|(45,42)Rescue Manni, Moh and Jakk Peons| |QID|10238|
@@ -179,7 +178,7 @@ T Magic of the Arakkoa |QID|9396|
 T Birds of a Feather |QID|9397|
 T Marking the Path |QID|9391|
 
-A Naladu ||N|TODO at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.| |QID|10403|
+A Naladu |N|West at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  Kill taskmasters first, the adds will run away.| |QID|10403|
 T Naladu |N|Up the stairs, in a hut to the southeast (16.2, 65.0).  Watch out for the elite.| |QID|10403|
 A A Traitor Among Us |QID|10367|
 C A Traitor Among Us |N|Get the key in the hut back at the top of the stairs (14.3, 63.4).| |QID|10367|
@@ -193,10 +192,9 @@ T Arzeth's Demise |QID|10369|
 C Source of the Corruption |QID|9387|
 
 R Cenarion Post |N|(15,52)|
-T Missing Missive |QID|9373|
+T Missing Missive |QID|9373| |O|
 T Helping the Cenarion Post |QID|10442|
 A Demonic Contamination |QID|9372|
-A Colossal Menace |QID|10132|
 A Keep Thornfang Hill Clear! |QID|10159|
 A The Cenarion Expedition |QID|9912|
 C Demonic Contamination |N|Right around there| |QID|9372|

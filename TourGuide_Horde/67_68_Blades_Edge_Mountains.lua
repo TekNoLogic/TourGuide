@@ -28,11 +28,11 @@ C Thunderlord Clan Artifacts |N|Arrow (41,52) Drum (40,58) Tablet (41,46)| |QID|
 
 R Bloodmaul Ravine |N|(44,72)|
 T Bladespire Kegger |QID|10545|
-A Grimnok and Korgaah, I Am For You! |QID|10543|
-C Grimnok and Korgaah, I Am For You! |N|Grimnok (45,80) Korgaah (43,47)| |QID|10543|
+A Grimnok and Korgaah, I Am For You! |NODEBUG| |QID|10543|
+C Grimnok and Korgaah, I Am For You! |NODEBUG| |N|Grimnok (45,80) Korgaah (43,47)| |QID|10543|
 
 R Bloodmaul Ravine |N|(44,72)|
-T Grimnok and Korgaah, I Am For You! |QID|10543|
+T Grimnok and Korgaah, I Am For You! |NODEBUG| |QID|10543|
 A A Curse Upon Both of Your Clans! |QID|10544|
 C A Curse Upon Both of Your Clans! |QID|10544|
 
@@ -76,12 +76,11 @@ A ...and a Time for Action |QID|10713|
 A Poaching from Poachers |QID|10717|
 C ...and a Time for Action |QID|10713|
 C Poaching from Poachers |QID|10717|
-A Did You Get The Note? |N|From meeting note drop| |QID|10719|
+A Did You Get The Note? |N|From meeting note drop| |QID|10719| |NODEBUG|
 
-R Evergrove |N|(61,39)
-T ...and a Time for Action |QID|10713|
+T ...and a Time for Action |QID|10713| |N|Back at Evergrove|
 T Poaching from Poachers |QID|10717|
-T Did You Get The Note? |QID|10719|
+T Did You Get The Note? |QID|10719| |NODEBUG|
 A Whelps of the Wyrmcult |QID|10747|
 A Wyrmskull Watcher |QID|10894|
 C Creating the Pendant |N|Kill arakkoa for six claws, use them at the green circle| |QID|10567|
@@ -183,7 +182,6 @@ T From the Ashes |QID|10771|
 A Felsworn Gas Mask |QID|10819|
 C On Spirit's Wings |N|Done around (59,32)| |QID|10714|
 
-R Evergrove |N|(61,39)
 F Thunderlord Stronghold
 T On Spirit's Wings |QID|10714|
 A Baron Sablemane |QID|10783|
@@ -202,7 +200,6 @@ F Evergrove
 C The Smallest Creatures |N|Marmots at (56,29), three kegs around (55,26)| |QID|10720|
 C Crush the Bloodmaul Camp |N|(55,26)| |QID|10784|
 
-R Evergrove |N|(61,39)
 F Thunderlord Stronghold
 T The Smallest Creatures |QID|10720|
 T Crush the Bloodmaul Camp |QID|10784|
@@ -222,6 +219,7 @@ C Felsworn Gas Mask |N| Communicator is at (73,39) need to equip mask to activat
 T Felsworn Gas Mask |QID|10819|
 A Deceive thy Enemy |QID|10820|
 C Deceive thy Enemy |QID|10820|
+T Deceive thy Enemy |QID|10820|
 T Treebole Must Know |N|Turns in at (37,23)| |QID|10829|
 A Exorcising the Trees |QID|10830|
 C Exorcising the Trees |N|Read quest carefully| |QID|10830|

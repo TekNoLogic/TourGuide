@@ -39,10 +39,8 @@ T The Dunemaul Compound |QID|5863|
 
 T Gahz'ridian |N|At (52,45)| |QID|3161|
 C The Scrimshank Redemption |N|Cave at (53,70), keep making rights| |QID|10|
-A Find OOX-17/TN! |U|8623| |N|Skip this escort if you never got the beacon| |QID|351|
-T Find OOX-17/TN! |QID|351|
-A Rescue OOX-17/TN! |QID|648|
-C Rescue OOX-17/TN! |QID|648|
+A Find OOX-17/TN! |U|8623| |O| |QID|351|
+T Find OOX-17/TN! |QID|351| |O| |N|Skip the follow-up unless you want to do a long crappy escort.|
 
 H Gadgetzan
 T The Scrimshank Redemption |QID|10|

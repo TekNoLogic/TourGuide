@@ -1,7 +1,6 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (39-40)", "Badlands (40-41)", "Horde", function()
 return [[
 b Booty Bay
-A The Captain's Chest |QID|614|
 A The Bloodsail Buccaneers (Part 1) |QID|595|
 A Scaring Shaky |QID|606|
 h Booty Bay
@@ -9,7 +8,6 @@ T The Rumormonger |N|Up the steps| |QID|1115|
 A Dream Dust in the Swamp |QID|1116|
 
 F Grom'gol Base Camp
-A Mok'thardin's Enchantment (Part 2) |QID|572|
 T The Troll Witchdoctor |QID|1240|
 A Marg Speaks |N|Click on the cauldron| |QID|1261|
 

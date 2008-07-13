@@ -3,6 +3,8 @@ return [[
 F Sun Rock Retreat
 T Ordanus |N|Skip "The Den"| |QID|1088|
 h Sun Rock Retreat
+A Bloodfury Bloodline |QID|6283|
+
 C Bloodfury Bloodline |N|Kill Bloodfury Ripper (30,63), grinding along the way.| |QID|6283|
 
 H Sun Rock Retreat

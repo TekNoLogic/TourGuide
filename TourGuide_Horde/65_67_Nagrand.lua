@@ -82,7 +82,7 @@ C Finding the Survivors |QID|9948|
 T War on the Warmaul |N|Back at the Mag'hari Procession| |QID|9945|
 T Finding the Survivors |QID|9948|
 T Once Were Warriors |QID|9865|
-A He Will Walk The Earth... |QID|9866|
+A He Will Walk The Earth... |NODEBUG| |QID|9866|
 
 T Murkblood Corrupters |QID|9862|
 T The Throne of the Elements |QID|9870|
@@ -104,8 +104,8 @@ T The Impotent Leader |N|(19,60)| |Z|Terokkar Forest| |QID|9888|
 A Don't Kill the Fat One |QID|9889|
 C Don't Kill the Fat One |QID|9889|
 T Don't Kill the Fat One |QID|9889|
-A Success! |QID|10440|
-T Success! |N|(19,60) Kilrath| |Z|Terokkar Forest| |QID|10440|
+A Success! |QID|9890|
+T Success! |N|(19,60) Kilrath| |Z|Terokkar Forest| |QID|9890|
 A Because Kilrath is a Coward |QID|9891|
 
 T Windroc Mastery (Part 2) |QID|9855|
@@ -125,10 +125,7 @@ A Message in a Battle |QID|9906|
 A Standards and Practices |QID|9910|
 T Vile Idolatry |QID|9863|
 T Murkblood Leaders... |QID|9867|
-T He Will Walk The Earth... |QID|9866|
-
-T I Must Have Them! |N|Back at Wazat (61,67)| |QID|10109|
-
+T He Will Walk The Earth... |NODEBUG| |QID|9866|
 
 C Message in a Battle |N|(73,69)| |QID|9906|
 C Standards and Practices |N|Burn 1: (72,69) 2: (74,70) 3: (75,68)| |QID|9910|

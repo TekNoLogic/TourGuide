@@ -25,7 +25,7 @@ C Super Reaper 6000 |QID|1093| |N|Kill operators on the broken down super reaper
 C Goblin Invaders |QID|1062|
 
 T Super Reaper 6000 |QID|1093|
-A Further Instructions |QID|1095|
+A Further Instructions (Part 1) |QID|1094|
 
 T Arachnophobia |T| |QID|6284| |N|Back at Sun Rock Retreat|
 A Boulderslide Ravine |T| |QID|6421|

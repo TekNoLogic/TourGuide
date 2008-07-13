@@ -13,7 +13,8 @@ A Sacred Fire |QID|5062|
 
 C Sacred Fire |N|At (35,36)| |QID|5062|
 C Wind Rider |N|At (11,36)| |QID|4767|
-C Homeward Bound |N|Escort starts at (16,42) if elite gets in the way, skip it| |QID|4770|
+A Homeward Bound |N|Escort starts at (16,42) if elite gets in the way, skip it| |QID|4770|
+C Homeward Bound |QID|4770|
 C Steelsnap |N|Moves around, try (16,25)| |QID|1131|
 C A Different Approach |N|Around (8,14)| |QID|9431|
 

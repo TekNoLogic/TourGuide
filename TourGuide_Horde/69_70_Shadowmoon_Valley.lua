@@ -27,7 +27,7 @@ C The Sketh'lon Wreckage |N|Northeast at the Sketh'lon Wreckage (37,30)| |QID|10
 C What Strange Creatures... |N|At the green lava lake in front of Legion Hold (30,38)| |QID|10660|
 C A Haunted History |N|Same lake as "What Strange Creatures...".  You can also find some to the east at a laval crevase.| |QID|10624|
 
-C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638| TODO ID? |QID|10596|
+C To Legion Hold |N|Northwest at Legion Hold (23,36).  Find the Legion Communication Device up in the building and use your "disguise".| |U|30638| |QID|10596|
 
 T A Haunted History |N|Back at Shadowmoon Village| |T| |QID|10624|
 A Spectrecles |T| |QID|10625|
@@ -148,7 +148,7 @@ T Lohn'goron, Bow of the Torn-heart |QID|10537|
 A The Cipher of Damnation - Ar'tor's Charge |QID|10540|
 C The Cipher of Damnation - Ar'tor's Charge |QID|10540|
 T The Cipher of Damnation - Ar'tor's Charge |QID|10540|
-A The Cipher of Damnation - The Second Fragment Recovered |NODEBUG| |QID|10541|
+A The Cipher of Damnation - The Second Fragment Recovered |QID|10541|
 
 T Gaining Access |QID|10604|
 A Invasion Point: Cataclysm |QID|10767|
@@ -159,7 +159,7 @@ T Grom'tor, Son of Oronok |QID|10521|
 A The Cipher of Damnation - Grom'tor's Charge |QID|10522|
 C The Cipher of Damnation - Grom'tor's Charge |QID|10522|
 T The Cipher of Damnation - Grom'tor's Charge |QID|10522|
-A The Cipher of Damnation - The First Fragment Recovered |NODEBUG| |QID|10523|
+A The Cipher of Damnation - The First Fragment Recovered |QID|10523|
 
 C The Art of Fel Reaver Maintenance |N|(39,19). Use key on the Strongbox located nearby.| |QID|10611|
 T The Art of Fel Reaver Maintenance |QID|10611|
@@ -179,9 +179,9 @@ A The Bundle of Bloodthistle |T| |QID|10550|
 
 H Shadowmoon Village
 T The Bundle of Bloodthistle |QID|10550|
-A To Catch A Thistlehead |QID|10570|
-C To Catch A Thistlehead |QID|10570|
-T To Catch A Thistlehead |QID|10570|
+A To Catch A Thistlehead |QID|10570| |NODEBUG|
+C To Catch A Thistlehead |QID|10570| |NODEBUG|
+T To Catch A Thistlehead |QID|10570| |NODEBUG|
 A The Shadowmoon Shuffle |QID|10576|
 C The Shadowmoon Shuffle |QID|10576|
 T The Shadowmoon Shuffle |QID|10576|
