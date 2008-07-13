@@ -90,12 +90,15 @@ function TourGuide:PositionStatusFrame()
 	end
 end
 
+local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {text = "Bah!", icon = TourGuide.icons.KILL})
 
 function TourGuide:SetText(i)
 	self.current = i
 	local action, quest = self:GetObjectiveInfo(i)
 	local note = self:GetObjectiveTag("N")
 	local newtext = (quest or"???")..(note and " [?]" or "")
+
+	dataobj.text, dataobj.icon = newtext, self.icons[action]
 
 	if text:GetText() ~= newtext or icon:GetTexture() ~= self.icons[action] then
 		oldsize = f:GetWidth()
@@ -259,7 +262,7 @@ function TourGuide:PLAYER_REGEN_ENABLED()
 end
 
 
-f:SetScript("OnClick", function(self, btn)
+function dataobj.OnClick(self, btn)
 	if TourGuide.db.char.currentguide == "No Guide" then InterfaceOptionsFrame_OpenToFrame(TourGuide.guidespanel)
 	else
 		if btn == "RightButton" then
@@ -278,7 +281,8 @@ f:SetScript("OnClick", function(self, btn)
 			ShowUIPanel(QuestLogFrame)
 		end
 	end
-end)
+end
+f:SetScript("OnClick", dataobj.OnClick)
 
 
 check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
@@ -289,7 +293,8 @@ item:HookScript("OnClick", function()
 end)
 
 
-local function ShowTooltip(self)
+function dataobj.OnLeave() GameTooltip:Hide() end
+function dataobj.OnEnter(self)
 	local tip = TourGuide:GetObjectiveTag("N")
 	if not tip then return end
 
@@ -302,8 +307,8 @@ local function ShowTooltip(self)
 end
 
 
-f:SetScript("OnLeave", function() GameTooltip:Hide() end)
-f:SetScript("OnEnter", ShowTooltip)
+f:SetScript("OnLeave", dataobj.OnLeave)
+f:SetScript("OnEnter", dataobj.OnEnter)
 
 
 local function GetUIParentAnchor(frame)
@@ -330,7 +335,7 @@ f:SetScript("OnDragStop", function(frame)
 	TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey = GetUIParentAnchor(frame)
 	frame:ClearAllPoints()
 	frame:SetPoint(TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey)
-	ShowTooltip(frame)
+	dataobj.OnEnter(frame)
 end)
 
 

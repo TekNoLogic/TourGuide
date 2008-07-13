@@ -11,9 +11,8 @@ h Cenarion Refuge
 T The Cenarion Expedition |QID|9912|
 T Warden Hamoot |QID|9778|
 A A Warm Welcome |QID|9728|
-C Arelion's Mistress |N|Buy The Cenarion Spirit from Innkeeper, Coryth Stoktron| |QID|9472|
 
-R Shattrath City |N|Run south down the road| TODO: must we do this now?
+R Shattrath City |N|Run south down the road|
 R Orgrimmar |N|Port!|
 T Messenger to Thrall |N|Valley of Wisdom| |QID|9438|
 A Envoy to the Mag'har |N|Wait for thrall to finish his talking to get it| |QID|9441|
@@ -155,7 +154,7 @@ T Leader of the Bloodscale |QID|9817|
 
 T Warning the Cenarion Circle |O| |N|East in Hellfire, at Cenarion Post| |QID|9724|
 A Return to the Marsh |O| |PRE|Warning the Cenarion Circle| |QID|9732|
-T Envoy to the Mag'har |N|(32,27)Run up north to Mag'har area| |Z|Hellfire Peninsula| TODO |QID|9441|
+T Envoy to the Mag'har |N|(32,27)Run up north to Mag'har area| |Z|Hellfire Peninsula| |QID|9441|
 A A Debilitating Sickness |QID|9442|
 C A Debilitating Sickness |N|(34,64)Mushroom is in the cave| |Z|Hellfire Peninsula| |QID|9442|
 T A Debilitating Sickness |N|(32,27)Mag'har area| |Z|Hellfire Peninsula| |QID|9442|

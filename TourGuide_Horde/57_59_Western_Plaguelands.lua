@@ -49,6 +49,7 @@ C Skeletal Fragments |N|Kill undead all over Andorhal.| |QID|964|
 T Counting Out Time |N|Back at the inn| |QID|4973|
 
 T A Plague Upon Thee (Part 3) |N|Back at the Bulwark| |QID|6390|
+T Skeletal Fragments |QID|964|
 T The So-Called Mark of the Lightbringer |QID|9443|
 A Defiling Uther's Tomb |QID|9444|
 C Defiling Uther's Tomb |N| At (51,82) you need to equip the quest item at the tomb| |QID|9444|

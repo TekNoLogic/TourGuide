@@ -6,7 +6,6 @@ A Enraged Thunder Lizards |O| |PRE|Ishamuhale| |QID|907|
 h Camp Taurajo
 A A New Ore Sample |QID|1153|
 C Enraged Thunder Lizards |O| |PRE|Ishamuhale| |QID|907|
-N Find Mob Washte Pawne |N|Around (43,80)|
 C Revenge of Gann (Part 1) |N|Dwarf area (47,85)| |QID|846|
 T Revenge of Gann (Part 1) |QID|846|
 A Revenge of Gann (Part 2) |QID|849|

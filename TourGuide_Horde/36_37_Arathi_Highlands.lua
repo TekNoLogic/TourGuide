@@ -22,7 +22,6 @@ C Stones of Binding |N|From Stone of West Binding (25,31)| |QID|651|
 T Stones of Binding |N|At Stone of Inner Binding (36.2, 57.5)| |QID|651|
 
 H Hammerfall
-T Call to Arms (Part 2) |QID|678|
 T Foul Magics |QID|673|
 T The Hammer May Fall |QID|676|
 T Guile of the Raptor (Part 1) |QID|701|

@@ -16,7 +16,7 @@ A Keep An Eye Out |T| |QID|576|
 
 C The Bloodsail Buccaneers (Part 3) |N|Along the southern shore of Stranglethorn Vale (31,80)| |QID|604|
 C Up to Snuff |QID|587|
-C Keep An Eye Out |N|If you have not found this yet Brutus on the single ship has an almost 100% droprate (32.9,88.3)|QID|576|
+C Keep An Eye Out |N|If you have not found this yet Brutus on the single ship has an almost 100% droprate (32.9,88.3)| |QID|576|
 
 C Akiris by the Bundle |N|Off the Naga at Nek'mani Wellspring (25,63)| |QID|617|
 C Mok'thardin's Enchantment (Part 4) |QID|573|

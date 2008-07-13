@@ -1,7 +1,7 @@
 TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (39-40)", "Horde", function()
 return [[
 F Thunder Bluff
-T Frostmaw |N|(61,80)| |T| |QID|1136|
+T Frostmaw |N|(61,80)| |T| |QID|1136| |Z|Thunder Bluff|
 A Deadmire |QID|1205|
 
 F Dustwallow Marsh
@@ -57,7 +57,7 @@ T Twilight of the Dawn Runner |T| |QID|9437|
 T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177|
 T Inspecting the Ruins |N|Follow the path south-west from Mudcrush (30,48)| |QID|11124|
 
-T Check Up on Tabetha |N||Follow the road south, then east to Tabetha's Farm (46.04, 57.17).| |QID|11213|
+T Check Up on Tabetha |N|Follow the road south, then east to Tabetha's Farm (46.04, 57.17).| |QID|11213|
 A The Grimtotem Weapon |QID|11169|
 A The Reagent Thief |QID|11173|
 A Direhorn Raiders |N|Just outside of hut| |QID|11156|
@@ -73,7 +73,6 @@ A Signs of Treachery? |U|33115| |QID|11186|
 T Direhorn Raiders |N|Back at the farm| |QID|11156|
 T The Grimtotem Weapon |QID|11169|
 T The Reagent Thief |QID|11173|
-T The Apothecary's Letter |QID|11185|
 
 C Deadmire |N|Roams around (47,57)| |QID|1205|
 

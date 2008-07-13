@@ -4,7 +4,6 @@ R Freewind Post
 T Message to Freewind Post |QID|4542|
 A Pacify the Centaur |QID|4841|
 A Wanted - Arnak Grimtotem |QID|5147|
-A A Different Approach |QID|9431|
 A Alien Egg |QID|4821|
 A Wind Rider |QID|4767|
 f Freewind Post
@@ -24,6 +23,7 @@ A Serpent Wild |QID|4865|
 
 H Camp Taurajo
 A Washte Pawne |U|5103| |O| |QID|885|
+T Washte Pawne |U|5103| |O| |QID|885|
 T Enraged Thunder Lizards |O| |QID|907|
 A Cry of the Thunderhawk |O| |PRE|Enraged Thunder Lizards| |QID|913|
 T A New Ore Sample |QID|1153|
@@ -33,7 +33,7 @@ T Cry of the Thunderhawk |O| |PRE|Enraged Thunder Lizards| |N|Skip the follow-up
 F Thunder Bluff
 T Melor Sends Word |N|On Hunter Rise (61,80)| |QID|1130|
 A Steelsnap |N|Hunter Rise| |QID|1131|
-A The Sacred Flame |N|NPC is in the area connecting Elder and Hunter Rises (55,51)| |QID|1197|
+T The Elder Crone |QID|1063|
 ]]
 end)
 

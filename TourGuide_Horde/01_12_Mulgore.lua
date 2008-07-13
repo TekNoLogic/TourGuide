@@ -66,7 +66,7 @@ T Sharing the Land |QID|745|
 T Poison Water |QID|748|
 A Winterhoof Cleansing |QID|754|
 N Cook your ass off! |N|If you plan on leveling cooking (why wouldn't you?) buy the skill, 40x Simple Flour and 40x Mild Spices (about 3.5s total).  Cook up bread before you cook any meat that dropped.|
-C Kyle's Gone Missing! |N|Find the dog running around the village and feed him |U|33009| |QID|11129|
+C Kyle's Gone Missing! |N|Find the dog running around the village and feed him| |U|33009| |QID|11129|
 C Winterhoof Cleansing |N|South of town at the well (53.55, 66.42)| |U|5411| |QID|754|
 C Rite of Vision (Part 2) |N|Grab the well stones| |QID|771|
 

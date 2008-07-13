@@ -114,6 +114,7 @@ T An Unseen Hand |QID|10013|
 T Olemba Seed Oil |QID|9993|
 A And Now, the Moment of Truth |QID|10201|
 C And Now, the Moment of Truth |N|Grek is next to Wanted Poster| |QID|10201|
+T And Now, the Moment of Truth |QID|10201|
 T Vestments of the Wolf Spirit |QID|10018|
 A Patriarch Ironjaw |QID|10023|
 
@@ -184,7 +185,6 @@ N Get lost... |N|Kill any skeletons you come across for "Helping the Lost Find T
 C Veil Lithic: Preemptive Strike |N|Southwest of the caravan (23,71)| |QID|10861|
 A The Dread Relic |N|Southeast of Veil Lithic at the Sha'tari Base Camp (31,76)| |QID|10877|
 A An Improper Burial |QID|10913|
-A The Dread Relic |QID|10877|
 A Taken in the Night |QID|10873|
 A Digging Through Bones |N|Listed as a group quest, but it's not difficult, and the character dialog is worth it.| |QID|10922|
 C Digging Through Bones |QID|10922|

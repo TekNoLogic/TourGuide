@@ -20,7 +20,7 @@ K Tideress |L|16408| |N|Find him patrolling the bottom of Mystral Lake and occas
 K Ursangous |L|16303| |N|Find him patrolling the area northwest of Mystral Lake, around (42.1, 66.2)|
 K Shadumbra |L|16304| |N|Find him patrolling the area between the path towards Astranaar and the path towards Felwood (56.1, 57.4) (63.1, 48.6)|
 K Laughing Sisters |N|Near the Raynewood Retreat (61,51), looking for [Etched Phial]| |L|5867|
-C The Sacred Flame |N|Use the phial at the moonwell (60.20, 72.90)| |U|5867| |QID|1197|
+C The Sacred Flame (Part 1) |N|Use the phial at the moonwell (60.20, 72.90)| |U|5867| |QID|1195|
 
 H Splintertree Post
 T Stonetalon Standstill |QID|25|

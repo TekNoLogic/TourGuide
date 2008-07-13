@@ -50,7 +50,7 @@ A Clam Bait |QID|6142|
 f Grab flight point |N|Out on the pier|
 
 N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
-A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1) |QID|5741|
+A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1)| |QID|5741|
 
 C The Burning of Spirits |N|In Thunder Axe Fortress (54,29)| |QID|1435|
 C Sceptre of Light |QID|5741|
@@ -72,6 +72,7 @@ T Book of the Ancients |N|Back on shore at the tower| |QID|6027|
 A Bone Collector |N|From Bibbly F'utzbuckle at Kormek's Hut (62,38)| |QID|5501|
 
 T The Burning of Spirits |QID|1435|
+A Alliance Relations (Part 4) |QID|1436|
 T The Corrupter (Part 3) |QID|1482|
 A The Corrupter (Part 4) |QID|1484|
 T The Corrupter (Part 4) |N|Skip last follow-up| |QID|1484|
@@ -111,7 +112,7 @@ T The Black Shield (Part 2) |N|Skip the follow-up| |QID|1321|
 F Ratchet
 T Goblin Sponsorship (Part 1) |QID|1178|
 A Goblin Sponsorship (Part 2) |QID|1180|
-T Wharfmaster Dizzywig |QID|1492|
+T Wharfmaster Dizzywig |QID|1111|
 A Parts for Kravel |QID|1112|
 ]]
 end)
