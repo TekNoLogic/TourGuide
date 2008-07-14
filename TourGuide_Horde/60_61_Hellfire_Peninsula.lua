@@ -1,6 +1,18 @@
 
 TourGuide:RegisterGuide("Hellfire Peninsula (60-61)", "Zangarmarsh (61-63)", "Horde", function()
 return [[
+H Undercity
+A Through the Dark Portal |N|Warlord Dar'toon right outside the big portal| |QID|9407|
+T Through the Dark Portal |N|Just down the steps to the right| |QID|9407|
+A Arrival in Outland |QID|10120|
+T Arrival in Outland |QID|10120|
+A Journey to Thrallmar |QID|10289|
+T Journey to Thrallmar |N|Fly there| |QID|10289|
+A Report to Nazgrel |QID|10291|
+T Report to Nazgrel |N|Inside big building| |QID|10291|
+A Eradicate the Burning Legion |QID|10121|
+h Thrallmar
+
 T Eradicate the Burning Legion |N|(58,41) Just outside Thrallmar| |QID|10121|
 A Felspark Ravine |QID|10123|
 C Felspark Ravine |N|Kill mobs just east| |QID|10123|
@@ -13,10 +25,10 @@ T Disrupt Their Reinforcements |QID|10208|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|
 C Mission: Gateways Murketh and Shaadraz |N|Click on the NPC next to you, get the item and get on wyvern, bomb the 2 bases| |QID|10129|
 T Mission: Gateways Murketh and Shaadraz |QID|10129|
-A Mission: The Abyssal Shelf |QID|10163|
+A Mission: The Abyssal Shelf |QID|10162|
 A Return to Thrallmar |QID|10388|
-C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away| |QID|10163|
-T Mission: The Abyssal Shelf |QID|10163|
+C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away| |QID|10162|
+T Mission: The Abyssal Shelf |QID|10162|
 
 T Return to Thrallmar |N|Nazgrel in the big building in Thrallmar| |QID|10388|
 A Forge Camp: Mageddon |QID|10390|
@@ -75,9 +87,9 @@ C Wanted: Worg Master Kruush |N|(68,73) in the worg stables| |QID|10809|
 T Boiling Blood |N|Back at Spinebreaker Post| |QID|10538|
 T Wanted: Worg Master Kruush |QID|10809|
 A Apothecary Antonivich |QID|10835|
-A Zeth'Gor Must Burn! |QID|10895|
-C Zeth'Gor Must Burn! |N|Forge at (69,69), Barracks at (69,76), Eastern Hovel at (70,70), Western Hovel at (67,76), Stable at (68,73)| |QID|10895|
-T Zeth'Gor Must Burn! |QID|10895|
+A Zeth'Gor Must Burn! |QID|10792|
+C Zeth'Gor Must Burn! |N|Forge at (69,69), Barracks at (69,76), Eastern Hovel at (70,70), Western Hovel at (67,76), Stable at (68,73)| |QID|10792|
+T Zeth'Gor Must Burn! |QID|10792|
 A The Eyes of Grillok |QID|10813|
 C The Eyes of Grillok |N|(67,74)Use Zezzak's Shar on an Eye of Grillok| |QID|10813|
 T The Eyes of Grillok |QID|10813|
@@ -88,7 +100,7 @@ C Preparing the Salve |QID|9345|
 T Preparing the Salve |QID|9345|
 A Investigate the Crash |QID|10213|
 
-T Investigate the Crash |N|TODO at the Zeppelin Crash (49,74)| |QID|10213|
+T Investigate the Crash |N|West at the Zeppelin Crash (49,74)| |QID|10213|
 A In Case of Emergency... |QID|10161|
 A Ravager Egg Roundup |QID|9349|
 C In Case of Emergency... |N|(58,71)| |QID|10161|
@@ -118,9 +130,8 @@ T Apothecary Antonivich |N|(52,36)| |QID|10835|
 A A Burden of Souls |QID|10864|
 
 A Outland Sucks! |N|(51,30) Just northwest of Thrallmar| |QID|10236|
-N During next quest, kill Marauding Crust Bursters til they drop Eroded Leather Case TODO
 C Outland Sucks! |N|Boxes southwest in the ravine| |QID|10236|
-A Missing Missive |U|23338| |QID|9373|
+A Missing Missive |U|23338| |QID|9373| |O| |N|From the Eroded Leather Case that dropped off the Crust Bursters.|
 T Outland Sucks! |QID|10236|
 A How to Serve Goblins |QID|10238|
 C How to Serve Goblins |N|(45,42)Rescue Manni, Moh and Jakk Peons| |QID|10238|
@@ -146,7 +157,7 @@ A In Need of Felblood |QID|9366|
 A Magic of the Arakkoa |QID|9396|
 A Trueflight Arrows |QID|9381|
 A Birds of a Feather |QID|9397|
-A Helping the Cenarion Post |QID|10443|
+A Helping the Cenarion Post |QID|10442|
 T Falcon Watch |QID|9499|
 A Report to Zurai |QID|10103|
 A The Great Fissure |QID|9340|
@@ -167,7 +178,7 @@ T Magic of the Arakkoa |QID|9396|
 T Birds of a Feather |QID|9397|
 T Marking the Path |QID|9391|
 
-A Naladu ||N|TODO at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.| |QID|10403|
+A Naladu |N|West at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  Kill taskmasters first, the adds will run away.| |QID|10403|
 T Naladu |N|Up the stairs, in a hut to the southeast (16.2, 65.0).  Watch out for the elite.| |QID|10403|
 A A Traitor Among Us |QID|10367|
 C A Traitor Among Us |N|Get the key in the hut back at the top of the stairs (14.3, 63.4).| |QID|10367|
@@ -181,10 +192,9 @@ T Arzeth's Demise |QID|10369|
 C Source of the Corruption |QID|9387|
 
 R Cenarion Post |N|(15,52)|
-T Missing Missive |QID|9373|
-T Helping the Cenarion Post |QID|10443|
+T Missing Missive |QID|9373| |O|
+T Helping the Cenarion Post |QID|10442|
 A Demonic Contamination |QID|9372|
-A Colossal Menace |QID|10132|
 A Keep Thornfang Hill Clear! |QID|10159|
 A The Cenarion Expedition |QID|9912|
 C Demonic Contamination |N|Right around there| |QID|9372|

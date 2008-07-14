@@ -9,16 +9,16 @@ A Up to Snuff |T| |QID|587|
 h Booty Bay |T|
 A Venture Company Mining |T| |QID|600|
 A Zanzil's Secret |T| |QID|621|
-A Akiris by the Bundle |T| |QID|623|
+A Akiris by the Bundle |T| |QID|617|
 A Voodoo Dues |T| |QID|609|
 A Stoley's Debt |T| |QID|2872|
 A Keep An Eye Out |T| |QID|576|
 
 C The Bloodsail Buccaneers (Part 3) |N|Along the southern shore of Stranglethorn Vale (31,80)| |QID|604|
 C Up to Snuff |QID|587|
-C Keep An Eye Out |N|If you have not found this yet Brutus on the single ship has an almost 100% droprate (32.9,88.3)|QID|576|
+C Keep An Eye Out |N|If you have not found this yet Brutus on the single ship has an almost 100% droprate (32.9,88.3)| |QID|576|
 
-C Akiris by the Bundle |N|Off the Naga at Nek'mani Wellspring (25,63)| |QID|623|
+C Akiris by the Bundle |N|Off the Naga at Nek'mani Wellspring (25,63)| |QID|617|
 C Mok'thardin's Enchantment (Part 4) |QID|573|
 
 C Raptor Mastery (Part 4) |N|Tethis kill at (28,44)| |QID|197|
@@ -38,7 +38,7 @@ T Venture Company Mining |T| |QID|600|
 T Zanzil's Secret |T| |QID|621|
 T Up to Snuff |T| |QID|587|
 T The Bloodsail Buccaneers (Part 3) |T| |QID|604|
-T Akiris by the Bundle |T| |QID|623|
+T Akiris by the Bundle |T| |QID|617|
 T Voodoo Dues |T| |QID|609|
 T Keep An Eye Out |T| |QID|576|
 ]]

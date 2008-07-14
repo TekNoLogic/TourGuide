@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Tanaris (47-48)", "Stranglethorn Vale (48-49)", "Alliance", function()
+TourGuide:RegisterGuide("Tanaris (47-48)", "Blasted Lands (49-50)", "Alliance", function()
 return [[
 F Gadgetzan
 A The Thirsty Goblin |QID|2605|
@@ -23,8 +23,7 @@ T Tooga's Quest |O| |QID|1560|
 A Yuka Screwspigot |QID|4324|
 T Screecher Spirits |N|Skip the follow-up| |QID|3520|
 
-H Gadgetzan
-T The Thirsty Goblin |QID|2605|
+T The Thirsty Goblin |QID|2605| |N|Back at Gadgetzan|
 A In Good Taste |QID|2606|
 T The Dunemaul Compound |QID|5863|
 T Thistleshrub Valley |QID|3362|

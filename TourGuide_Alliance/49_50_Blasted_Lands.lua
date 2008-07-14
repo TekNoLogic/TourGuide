@@ -5,7 +5,6 @@ N Do you want to grind? |N|This Blasted Lands guide may appear short, but it is 
 
 F Darkshire
 T Cortello's Riddle (Part 1) |O| |N|Run east into Swamp of Sorrows.  Under a bridge on the left fork of the road (22.6,48.0)| |Z|Swamp of Sorrows| |QID|624|
-A Cortello's Riddle (Part 2) |O| |PRE|Cortello's Riddle (Part 1)| |QID|625|
 
 R Blasted Lands |N|Run east into Swamp of Sorrows, then south.|
 
@@ -21,8 +20,8 @@ N 6 Blasted Boar Lungs |L|8392 6| |N|East of the road|
 N 6 Scorpok Pincers |L|8393 6| |N|West of the road|
 N 5 Snickerfang Jowels |L|8391 5| |N|West of the road|
 
-A Everything Counts in Large Amounts |O| |L|10593| |N|Turnin to a Broken in the center of the zone (51.85,35.64)| |QID|3501|
-T Everything Counts in Large Amounts |O| |QID|3501|
+A Everything Counts In Large Amounts |O| |L|10593| |N|Turnin to a Broken in the center of the zone (51.85,35.64)| |QID|3501|
+T Everything Counts In Large Amounts |O| |QID|3501|
 A One Draenei's Junk... |O| |L|10593| |QID|3502|
 T One Draenei's Junk... |O| |QID|3502|
 

@@ -9,10 +9,18 @@ R The Barrens
 R Camp Taurajo |N|Stay on the road| |R|Tauren|
 A Journey to the Crossroads |R|Tauren| |QID|854|
 
+T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc, Troll, Undead| |QID|840|
+A Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
+T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |QID|809|
+
+N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc, Troll|
+R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc, Troll, Undead|
+T Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
+
 R The Crossroads |N|Take the road north| |R|Tauren|
-T The Barrens Oases |R|Tauren| |QID|886|
+T The Barrens Oases |O| |QID|886|
 T Journey to the Crossroads |R|Tauren| |QID|854|
-T Sergra Darkthorn |R|Tauren| |QID|860|
+T Sergra Darkthorn |O| |QID|860|
 
 A A Bundle of Hides |R|Tauren| |N|At the north edge of Crossroad, in the forge (51.19, 29.11)| |QID|6361|
 T A Bundle of Hides |R|Tauren| |QID|6361|
@@ -24,15 +32,17 @@ T Tal the Wind Rider Master |R|Tauren| |QID|6363|
 A Return to Jahan |R|Tauren| |QID|6364|
 T Return to Jahan |R|Tauren| |N|Fly back to Crossroads!| |QID|6364|
 
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc, Troll, Undead| |NODEBUG| |QID|840|
-A Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
-T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |NODEBUG| |QID|809|
-
-N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc, Troll|
-R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc, Troll, Undead|
-T Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
+A Meats to Orgrimmar |QID|6365| |R|Orc, Troll|
+T Meats to Orgrimmar |QID|6365| |R|Orc, Troll|
+A Ride to Orgrimmar |QID|6384| |R|Orc, Troll|
+T Ride to Orgrimmar |QID|6384| |R|Orc, Troll|
+A Doras the Wind Rider Master |QID|6385| |R|Orc, Troll|
+T Doras the Wind Rider Master |QID|6385| |R|Orc, Troll|
 
 N Ghostlands? |N|You may wish to level until 20 in Ghostlands instead of the Barrens.  There are some very nice rewards from Tranquillien for all classes.  If you wish to do this, fly to Undercity from Orgrimmar, then port to Silvermoon, then run south to the Ghostlands.  Switch over to the Ghostlands guide, of course.|
+
+A Return to the Crossroads. |QID|6386| |R|Orc, Troll|
+T Return to the Crossroads. |QID|6386| |R|Orc, Troll|
 
 A Plainstrider Menace |QID|844|
 A Raptor Thieves |QID|869|
@@ -203,14 +213,10 @@ A Egg Hunt |QID|868|
 ]]
 end)
 
---[[
-The Barrens Oases
-The Forgotten Pools
-The Stagnant Oasis
-Altered Beings
-Hamuul Runetotem
-Nara Wildmane
-Leaders of the Fang
-
-
-]]
+--~ The Barrens Oases
+--~ The Forgotten Pools
+--~ The Stagnant Oasis
+--~ Altered Beings
+--~ Hamuul Runetotem
+--~ Nara Wildmane
+--~ Leaders of the Fang

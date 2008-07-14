@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Western Plaguelands (57-59)", "Hellfire Pennisula (59-60)", "Horde", function()
+TourGuide:RegisterGuide("Western Plaguelands (57-59)", "Hellfire Peninsula (60-61)", "Horde", function()
 return [[
 R The Bulwark
 T Return to the Bulwark (Part 4) |QID|5236|
@@ -44,11 +44,12 @@ T The Annals of Darrowshire |QID|5154|
 A Brother Carlin |QID|5210|
 
 C Counting Out Time |N|Find lunchboxes in the houses all around Andorhal.| |QID|4973|
-C Skeletal Fragments |N|Kill undead all over Andorhal.| |QID|5537|
+C Skeletal Fragments |N|Kill undead all over Andorhal.| |QID|964|
 
 T Counting Out Time |N|Back at the inn| |QID|4973|
 
 T A Plague Upon Thee (Part 3) |N|Back at the Bulwark| |QID|6390|
+T Skeletal Fragments |QID|964|
 T The So-Called Mark of the Lightbringer |QID|9443|
 A Defiling Uther's Tomb |QID|9444|
 C Defiling Uther's Tomb |N| At (51,82) you need to equip the quest item at the tomb| |QID|9444|

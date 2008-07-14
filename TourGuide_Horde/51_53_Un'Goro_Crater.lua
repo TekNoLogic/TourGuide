@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide( "Un'Goro Crater (51-53)", "Burning Steppes (53-54)", "Horde", function()
+TourGuide:RegisterGuide("Un'Goro Crater (51-53)", "Burning Steppes (53-54)", "Horde", function()
 return [[
 R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
 N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystals.  Also loot any dirt piles or sprouts you find.|
@@ -97,8 +97,8 @@ T Bungle in the Jungle |N|Skip the follow-up| |QID|4496|
 T Super Sticky |QID|4504|
 
 H Thunder Bluff
-A Un'Goro Soil |N|On Elder Rise| |QID|3764|
-T Un'Goro Soil |QID|3764|
+A Un'Goro Soil |N|On Elder Rise| |QID|3761|
+T Un'Goro Soil |QID|3761|
 A Morrowgrain Research |QID|3786|
 T Morrowgrain Research |QID|3786|
 

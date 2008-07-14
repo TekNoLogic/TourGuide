@@ -11,9 +11,8 @@ h Cenarion Refuge
 T The Cenarion Expedition |QID|9912|
 T Warden Hamoot |QID|9778|
 A A Warm Welcome |QID|9728|
-C Arelion's Mistress |N|Buy The Cenarion Spirit from Innkeeper, Coryth Stoktron| |QID|9472|
 
-R Shattrath City |N|Run south down the road| TODO: must we do this now?
+R Shattrath City |N|Run south down the road|
 R Orgrimmar |N|Port!|
 T Messenger to Thrall |N|Valley of Wisdom| |QID|9438|
 A Envoy to the Mag'har |N|Wait for thrall to finish his talking to get it| |QID|9441|
@@ -22,7 +21,7 @@ H Cenarion Refuge
 R Swamprat Post |N|(85,54)|
 T Report to Zurai |QID|10103|
 A Thick Hydra Scales |QID|9774|
-A Menacing Marshfangs |QID|9791|
+A Menacing Marshfangs |QID|9770|
 A There's No Explanation for Fashion |QID|9769|
 A No More Mushrooms! |QID|9773|
 
@@ -31,7 +30,7 @@ C The Umbrafen Tribe |N|(82,83).. Kataru is up top in (85,90)| |QID|9747|
 A Escape from Umbrafen |N|(83,85)| |QID|9752|
 C Escape from Umbrafen |QID|9752|
 C There's No Explanation for Fashion |N|All over| |QID|9769|
-C Menacing Marshfangs |N|Rippers on the way south| |QID|9791|
+C Menacing Marshfangs |N|Rippers on the way south| |QID|9770|
 C No More Mushrooms! |N|Umbrafen Eel in the lake southwest of the refuge| |QID|9773|
 C Thick Hydra Scales |N|Around edge of lake| |QID|9774|
 C Disturbance at Umbrafen Lake |N|(70,80)| |QID|9716|
@@ -61,14 +60,14 @@ H Cenarion Refuge
 T Saving the Sporeloks |QID|10096|
 T A Damp, Dark Place |QID|9788|
 T Safeguarding the Watchers |QID|9894|
-A What's Wrong at Cenarion Thicket? |QID|9961|
+A What's Wrong at Cenarion Thicket? |QID|9957|
 A Watcher Leesa'oh |QID|9697|
 A Blessings of the Ancients |N|You should be friendly with the Cenarion Expedition by now.| |QID|9785|
 C Blessings of the Ancients |QID|9785|
 T Blessings of the Ancients |QID|9785|
 
 T Thick Hydra Scales |N|Back at Swamprat Post| |QID|9774|
-T Menacing Marshfangs |QID|9791|
+T Menacing Marshfangs |QID|9770|
 T There's No Explanation for Fashion |QID|9769|
 T No More Mushrooms! |QID|9773|
 A A Job Undone |QID|9899|
@@ -155,7 +154,7 @@ T Leader of the Bloodscale |QID|9817|
 
 T Warning the Cenarion Circle |O| |N|East in Hellfire, at Cenarion Post| |QID|9724|
 A Return to the Marsh |O| |PRE|Warning the Cenarion Circle| |QID|9732|
-T Envoy to the Mag'har |N|(32,27)Run up north to Mag'har area| |Z|Hellfire Peninsula| TODO |QID|9441|
+T Envoy to the Mag'har |N|(32,27)Run up north to Mag'har area| |Z|Hellfire Peninsula| |QID|9441|
 A A Debilitating Sickness |QID|9442|
 C A Debilitating Sickness |N|(34,64)Mushroom is in the cave| |Z|Hellfire Peninsula| |QID|9442|
 T A Debilitating Sickness |N|(32,27)Mag'har area| |Z|Hellfire Peninsula| |QID|9442|

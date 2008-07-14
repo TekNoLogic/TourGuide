@@ -32,8 +32,8 @@ C JOB OPPORTUNITY: Culling the Competition |N|SE of Thorium, just east of prev q
 C WANTED: Overseer Maltorius |QID|7701|
 C What the Flux? |QID|7722|
 C Incendosaurs? Whateverosaur is More Like It |QID|7727|
-U The Key to Freedom |U|11818|
-T The Key to Freedom |N|At the outhouse (65,62)| |QID|4451|
+A The Key to Freedom |U|11818| |QID|4451| |O|
+T The Key to Freedom |N|At the outhouse (65,62)| |QID|4451| |O|
 
 T Forging the Shaft |N|Kalaran Windblade (39,38)| |QID|3443|
 A The Flame's Casing |QID|3452|
@@ -65,6 +65,6 @@ T What the Flux? |QID|7722|
 T Incendosaurs? Whateverosaur is More Like It |QID|7727|
 
 R Burning Steppes |N|You have to go through Black Rock Mountain, SW of map|
-f Get the FP |N|at (65,25)|
+f Get the FP |N|at (65,25)| |Z|Burning Steppes|
 ]]
 end)

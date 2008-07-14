@@ -4,7 +4,7 @@ return [[
 F Darnassus |N|You probably want to hearth to IF|
 T Prayer to Elune (Part 2) |N|Upstairs in the Temple of the Moon| |QID|3378|
 T Rise of the Silithid |NODEBUG| |QID|4267|
-A March of the Silithid |QID|4494|
+A March of the Silithid |QID|4493|
 T Assisting Arch Druid Staghelm |N|In a tower in the Cenarion Enclave (34.8, 8.7)| |Z|Darnassus| |QID|10520|
 A Un'Goro Soil |QID|3764|
 h Darnassus |N|The inn is in the Craftsman's Terrace (67.2, 15.7)| |Z|Darnassus|
@@ -28,7 +28,7 @@ T Delivery for Marin |QID|2661|
 A Noggenfogger Elixir |QID|2662|
 T Noggenfogger Elixir |QID|2662|
 A Super Sticky |QID|4504|
-T March of the Silithid |QID|4494|
+T March of the Silithid |QID|4493|
 A Bungle in the Jungle |QID|4496|
 
 T The Stone Circle |N|South of Gadget at the ruins (52.7, 45.9).  Skip the follow-up.| |Z|Tanaris| |QID|3444|

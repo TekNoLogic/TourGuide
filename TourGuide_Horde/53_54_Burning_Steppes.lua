@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide( "Burning Steppes (53-54)", "Felwood (54)", "Horde", function()
+TourGuide:RegisterGuide("Burning Steppes (53-54)", "Felwood (54)", "Horde", function()
 return [[
 F Burning Steppes
 A Broodling Essence |QID|4726|
@@ -9,6 +9,7 @@ C Broodling Essence |N|To the East, grind on the dragon whelps| |QID|4726|
 A A Taste of Flame |N| In the cave (94,31)| |QID|4024|
 T A Taste of Flame |QID|4024|
 T Dreadmaul Rock |N| At (79,45)| |QID|3821|
+A Krom'Grul |QID|3822|
 
 C Krom'Grul |N| He has two spawn points in either cave| |QID|3822|
 C The Rise of the Machines (Part 1) |QID|4061|

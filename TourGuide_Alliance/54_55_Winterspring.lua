@@ -53,7 +53,6 @@ T Mystery Goo |N|Back in Winterspring, of course.| |QID|5085|
 
 F Darnassus
 T Moontouched Wildkin |QID|978|
-A Find Ranshalla |QID|979|
 
 A The New Frontier (Part 1) |N|From Herald Moonstalker, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!| |QID|1047|
 T The New Frontier (Part 1) |N|In the tree house in Cenarion Enclave (34,8)| |Z|Darnassus| |QID|1047|

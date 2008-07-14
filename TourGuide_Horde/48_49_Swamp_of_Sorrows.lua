@@ -1,6 +1,8 @@
 TourGuide:RegisterGuide("Swamp of Sorrows (48-49)", "Tanaris (49-50)", "Horde", function()
 return [[
 F Stonard |N|Swamp of Sorrows|
+A Fall From Grace |QID|2784| |NODEBUG|
+T Fall From Grace |QID|2784| |NODEBUG|
 A The Disgraced One |N|Talk to Fallen Hero of the Horde (34,66) until he gives you the quest| |QID|2621|
 T Cortello's Riddle (Part 1) |N|Under the bridge (22,48)| |QID|624|
 A Cortello's Riddle (Part 2) |QID|625|

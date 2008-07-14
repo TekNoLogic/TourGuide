@@ -9,7 +9,7 @@ N Scare Quixxil |U|12928| |Q|Are We There, Yeti?| |QO|Scare Quixxil: 1/1|
 
 F Silithus
 A The Twilight Mystery |QID|8284|
-T Taking Back Silithus |QID|8276|
+T Taking Back Silithus |QID|8275|
 A Securing the Supply Lines |QID|8280|
 h Cenarion Hold
 A Deadly Desert Venom |QID|8277|
@@ -57,12 +57,9 @@ H Cenarion Hold
 T Noggle's Lost Satchel |QID|8282|
 T A Terrible Purpose |QID|8287|
 
-]]
-end)
-
---[[
 F Moonglade
-T Umber, Archivist |N|TODO (44,35)| |Z|Moonglade| |QID|6844|
+T Umber, Archivist |QID|6844|
 A Uncovering Past Secrets |QID|6845|
 T Uncovering Past Secrets |N|(51,44)| |Z|Moonglade| |QID|6845|
 ]]
+end)

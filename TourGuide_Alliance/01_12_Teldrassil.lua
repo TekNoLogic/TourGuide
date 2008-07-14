@@ -85,7 +85,7 @@ A Crown of the Earth (Part 4) |QID|933|
 T Gnarlpine Corruption |N|In the tower| |QID|476|
 A The Relics of Wakening |QID|483|
 T The Emerald Dreamcatcher |QID|2438|
-A Ferocitas the Dream Eater |N| |QID|2459|
+A Ferocitas the Dream Eater |QID|2459|
 
 C Seek Redemption! |QID|489|
 T Seek Redemption! |N|East at Zenn Foulhoof| |QID|489|
@@ -130,7 +130,7 @@ P Claw (Rank 2) |N|Tame a Strigid Hunter| |C|Hunter|
 P Growl (Rank 2) |N|Tame a Strigid Hunter| |C|Hunter|
 N Tame your pet |C|Hunter| |N|Elder Nightsaber (42,42) is nice|
 
-A Heeding the Call |C|Druid| |QID|5928|
+A Heeding the Call |C|Druid| |QID|5923|
 
 R Darnassus
 T Rellian Greenspyre |N|At Cenarion Enclave (38.17, 21.65)| |Z|Darnassus| |QID|922|
@@ -138,20 +138,20 @@ A Tumors |QID|923|
 
 T Training the Beast |C|Hunter| |N|(40,8)| |QID|6103|
 
-T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)| |Z|Darnassus| |QID|5928|
-A Moonglade |C|Druid| |QID|5922|
-T Moonglade |N|Teleport there, go into the house past the light armor salesmen| |C|Druid| |QID|5922|
-A Great Bear Spirit |C|Druid| |QID|5930|
-C Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39.15, 27.78)| |Z|Moonglade| |QID|5930|
-T Great Bear Spirit |C|Druid| |QID|5930|
+T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)| |Z|Darnassus| |QID|5923|
+A Moonglade |C|Druid| |QID|5921|
+T Moonglade |N|Teleport there, go into the house past the light armor salesmen| |C|Druid| |QID|5921|
+A Great Bear Spirit |C|Druid| |QID|5929|
+C Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39.15, 27.78)| |Z|Moonglade| |QID|5929|
+T Great Bear Spirit |C|Druid| |QID|5929|
 A Back to Darnassus |C|Druid| |QID|5931|
 T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade| |QID|5931|
-A Body and Heart |C|Druid| |QID|6002|
+A Body and Heart |C|Druid| |QID|6001|
 R Rut'theran Village |N|The portal west of the bank| |C|Druid|
 F Auberdine |C|Druid|
-C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid| |Z|Darkshore| |QID|6002|
+C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid| |Z|Darkshore| |QID|6001|
 F Darnassus |C|Druid|
-T Body and Heart |C|Druid| |QID|6002|
+T Body and Heart |C|Druid| |QID|6001|
 
 A The Temple of the Moon |N|Behind the bank, near the portal to Rut'theran Village| |QID|2519|
 T The Temple of the Moon |N|Due south of the bank| |QID|2519|

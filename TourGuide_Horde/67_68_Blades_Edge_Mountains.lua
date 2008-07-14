@@ -28,11 +28,11 @@ C Thunderlord Clan Artifacts |N|Arrow (41,52) Drum (40,58) Tablet (41,46)| |QID|
 
 R Bloodmaul Ravine |N|(44,72)|
 T Bladespire Kegger |QID|10545|
-A Grimnok and Korgaah, I Am For You! |QID|10543|
-C Grimnok and Korgaah, I Am For You! |N|Grimnok (45,80) Korgaah (43,47)| |QID|10543|
+A Grimnok and Korgaah, I Am For You! |NODEBUG| |QID|10543|
+C Grimnok and Korgaah, I Am For You! |NODEBUG| |N|Grimnok (45,80) Korgaah (43,47)| |QID|10543|
 
 R Bloodmaul Ravine |N|(44,72)|
-T Grimnok and Korgaah, I Am For You! |QID|10543|
+T Grimnok and Korgaah, I Am For You! |NODEBUG| |QID|10543|
 A A Curse Upon Both of Your Clans! |QID|10544|
 C A Curse Upon Both of Your Clans! |QID|10544|
 
@@ -51,7 +51,7 @@ T Vision Guide |QID|10525|
 A The Thunderspike |QID|10526|
 C Dust from the Drakes |N|Found around (39,70)| |QID|10487|
 C The Bloodmaul Ogres |QID|10505|
-C The Thunderspike |N|Thunderspike is at end of cave, entrance at (42,75)| |QID|10526|
+C The Thunderspike |N|Thunderspike is at end of cave, entrance at (42.47, 82.42)| |QID|10526|
 
 H Thunderlord Stronghold |N|If hearth on CD, run there|
 T The Bloodmaul Ogres |QID|10505|
@@ -76,12 +76,11 @@ A ...and a Time for Action |QID|10713|
 A Poaching from Poachers |QID|10717|
 C ...and a Time for Action |QID|10713|
 C Poaching from Poachers |QID|10717|
-A Did You Get The Note? |N|From meeting note drop| |QID|10719|
+A Did You Get The Note? |N|From meeting note drop| |QID|10719| |NODEBUG|
 
-R Evergrove |N|(61,39)
-T ...and a Time for Action |QID|10713|
+T ...and a Time for Action |QID|10713| |N|Back at Evergrove|
 T Poaching from Poachers |QID|10717|
-T Did You Get The Note? |QID|10719|
+T Did You Get The Note? |QID|10719| |NODEBUG|
 A Whelps of the Wyrmcult |QID|10747|
 A Wyrmskull Watcher |QID|10894|
 C Creating the Pendant |N|Kill arakkoa for six claws, use them at the green circle| |QID|10567|
@@ -183,14 +182,13 @@ T From the Ashes |QID|10771|
 A Felsworn Gas Mask |QID|10819|
 C On Spirit's Wings |N|Done around (59,32)| |QID|10714|
 
-R Evergrove |N|(61,39)
 F Thunderlord Stronghold
 T On Spirit's Wings |QID|10714|
 A Baron Sablemane |QID|10783|
 T Baron Sablemane |N|Turns in at (53,41)| |QID|10783|
-A Into the Churning Gulch |QID|10799|
-C Into the Churning Gulch |N|(48,42)| |QID|10799|
-T Into the Churning Gulch |QID|10799|
+A Into the Churning Gulch |QID|10715|
+C Into the Churning Gulch |N|(48,42)| |QID|10715|
+T Into the Churning Gulch |QID|10715|
 A Baron Sablemane's Poison |QID|10749|
 
 R Thunderlord Stronghold
@@ -202,7 +200,6 @@ F Evergrove
 C The Smallest Creatures |N|Marmots at (56,29), three kegs around (55,26)| |QID|10720|
 C Crush the Bloodmaul Camp |N|(55,26)| |QID|10784|
 
-R Evergrove |N|(61,39)
 F Thunderlord Stronghold
 T The Smallest Creatures |QID|10720|
 T Crush the Bloodmaul Camp |QID|10784|
@@ -211,37 +208,38 @@ A A Boaring Time for Grulloc |QID|10721|
 F Evergrove
 C A Boaring Time for Grulloc |QID|10721|
 T A Boaring Time for Grulloc |QID|10721|
-A It's a Trap! |QID|10801|
+A It's a Trap! |QID|10785|
 R Thunderlord Stronghold
-T It's a Trap! |QID|10801|
-A Gorgrom the Dragon-Eater |QID|10802|
-A Slaughter at Boulder'mok |QID|10803|
+T It's a Trap! |QID|10785|
+A Gorgrom the Dragon-Eater |QID|10723|
+A Slaughter at Boulder'mok |QID|10786|
 
 F Evergrove
 C Felsworn Gas Mask |N| Communicator is at (73,39) need to equip mask to activate it| |QID|10819|
 T Felsworn Gas Mask |QID|10819|
 A Deceive thy Enemy |QID|10820|
 C Deceive thy Enemy |QID|10820|
+T Deceive thy Enemy |QID|10820|
 T Treebole Must Know |N|Turns in at (37,23)| |QID|10829|
 A Exorcising the Trees |QID|10830|
 C Exorcising the Trees |N|Read quest carefully| |QID|10830|
 T Exorcising the Trees |N|Turns in at (37,23)| |QID|10830|
-C Gorgrom the Dragon-Eater |N|(31,22)| |QID|10802|
-C Slaughter at Boulder'mok |QID|10803|
+C Gorgrom the Dragon-Eater |N|(31,22)| |QID|10723|
+C Slaughter at Boulder'mok |QID|10786|
 C Maxnar Must Die! |N|(33,35)| |QID|10748|
 
 H Thunderlord Stronghold |N|If on CD, die on purpose|
-T Gorgrom the Dragon-Eater |QID|10802|
-T Slaughter at Boulder'mok |QID|10803|
+T Gorgrom the Dragon-Eater |QID|10723|
+T Slaughter at Boulder'mok |QID|10786|
 A Prisoner of the Bladespire |N|Will need group to finish this| |QID|10724|
 
 F Evergrove
 T Maxnar Must Die! |QID|10748|
 C Prisoner of the Bladespire |QID|10724|
 T Prisoner of the Bladespire |QID|10724|
-A Showdown |N|If still in group from prisoner...| |QID|10806|
-C Showdown |N| altar is at (64,18)| |QID|10806|
-T Showdown |QID|10806|
+A Showdown |N|If still in group from prisoner...| |QID|10742|
+C Showdown |N| altar is at (64,18)| |QID|10742|
+T Showdown |QID|10742|
 
 F Evergrove
 R Netherstorm |N|(81,28)|

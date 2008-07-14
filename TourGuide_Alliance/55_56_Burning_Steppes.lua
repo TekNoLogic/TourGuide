@@ -3,11 +3,11 @@ TourGuide:RegisterGuide("Burning Steppes (55-56)", "Silithus (56)", "Alliance", 
 return [[
 F City of Ironforge
 h City of Ironforge
-T A Little Slime Goes a Long Way (Part 1) |N|In the Hall of Explorers, skip the follow-up.| |QID|4512|
+T A Little Slime Goes a Long Way |N|In the Hall of Explorers, skip the follow-up.| |QID|4512|
 A The Smoldering Ruins of Thaurissan (Part 1) |N|In the throne room| |QID|3702|
 T The Smoldering Ruins of Thaurissan (Part 1) |QID|3702|
 A The Smoldering Ruins of Thaurissan (Part 2) |QID|3701|
-A Taking Back Silithus |N|Near the flight master| |QID|8276|
+A Taking Back Silithus |N|Near the flight master| |QID|8275|
 
 F Lakeshire
 R Burning Steppes |N|Follow the road north (46,6)|
@@ -65,7 +65,6 @@ A The True Masters (Part 6) |QID|4224|
 
 T Tablet of the Seven |N|Back at Flame Crest to the north (65,23)| |QID|4296|
 T Broodling Essence |QID|4726|
-A Felnok Steelspring |QID|4808|
 C The True Masters (Part 6) |N|Talk to Ragged John| |QID|4224|
 
 T The True Masters (Part 6) |N|Skip the follow-up| |QID|4224|

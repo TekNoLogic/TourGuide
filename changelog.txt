@@ -1,3 +1,42 @@
+2.4.2.30-Beta
+    Guide updates
+     - Guide sequences fixed
+     - Various fixes to Ally guides from debug script
+     - QID fixes from debugger
+     - Remove a bad hearth obj from Ally Tanaris
+     - Fix Tuurem FedEx quests in Ally guides
+     - Ally Terokkar rejiggification
+     - Horde Stonetalon playtesting
+     - Merge Horde Hellfire guides together
+    Core fixes
+     - Fix for LightHeaded and Cartographer_Waypoints users
+     - Fix help panel overriding config panel
+     - Remove guide debugger from addon, has been replaced by offline ruby scripts
+     - Update tekkonfig
+    New Features
+     - Added LDB data feed
+     - Added LDB quicklaunch button
+
+2.4.2.29-Beta
+    Ally Zangar tweaks
+    Ally Azuremyst playtesting
+    Ally Nagrand QIDs
+    Horde STV fixes
+    Horde Searing Gorge fixes
+    Horde SoS fixes
+    Horde Tanaris fixes
+
+2.4.2.28-Beta
+    Fix resetting a guide not clearing QIDs
+    Add Shattered Sun Offensive dailies guide
+    Ally QID fixes
+    Horde QID fixes
+    Rejigger Ally Zangar a bit
+    Fix warlock-only fly obj in Ally Redridge
+    Remove quest from Elywnn, has a prereq, not worth running back to do
+    Minor fix to quest order in Ally Ashenvale 22-24
+    Horde Blade's Edge coord fix
+
 2.4.2.27-Beta
     Ally Hellfire tweaks
     Ally Zangar tweaks

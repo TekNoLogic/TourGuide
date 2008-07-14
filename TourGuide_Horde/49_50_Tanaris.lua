@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide( "Tanaris (49-50)", "Azshara (50)", "Horde", function()
+TourGuide:RegisterGuide("Tanaris (49-50)", "Azshara (50)", "Horde", function()
 return [[
 F Gadgetzan |N|Tanaris|
 A The Super Egg-O-Matic |N|Machine in Gadgetzan| |QID|8893|
@@ -13,7 +13,7 @@ A Noxious Lair Investigation |QID|82|
 A Super Sticky |QID|4504|
 A Thistleshrub Valley |QID|3362|
 A The Dunemaul Compound |QID|5863|
-T The Sunken Temple |N|at (52,45)| |QID|3445|
+T The Sunken Temple |N|at (52,45)| |QID|3380|
 A The Stone Circle |QID|3444|
 A Gahz'ridian |QID|3161|
 
@@ -32,17 +32,15 @@ T The Thirsty Goblin |N|Back at Gadgetzan| |QID|2605|
 A In Good Taste |QID|2606|
 T In Good Taste |QID|2606|
 A Sprinkle's Secret Ingredient |QID|2641|
-T Thistleshrub Valley |QID|3362|
-T The Dunemaul Compound |QID|5863|
 T Noxious Lair Investigation |QID|82|
 A The Scrimshank Redemption |QID|10|
+T Thistleshrub Valley |QID|3362|
+T The Dunemaul Compound |QID|5863|
 
 T Gahz'ridian |N|At (52,45)| |QID|3161|
 C The Scrimshank Redemption |N|Cave at (53,70), keep making rights| |QID|10|
-A Find OOX-17/TN! |U|8623| |N|Skip this escort if you never got the beacon| |QID|351|
-T Find OOX-17/TN! |QID|351|
-A Rescue OOX-17/TN! |QID|648|
-C Rescue OOX-17/TN! |QID|648|
+A Find OOX-17/TN! |U|8623| |O| |QID|351|
+T Find OOX-17/TN! |QID|351| |O| |N|Skip the follow-up unless you want to do a long crappy escort.|
 
 H Gadgetzan
 T The Scrimshank Redemption |QID|10|
@@ -50,6 +48,6 @@ A Insect Part Analysis (Part 1) |QID|110|
 T Insect Part Analysis (Part 1) |QID|110|
 A Insect Part Analysis (Part 2) |QID|113|
 T Insect Part Analysis (Part 2) |QID|113|
-A Rise of the Silithid |QID|4267|
+A Rise of the Silithid |QID|32|
 ]]
 end)

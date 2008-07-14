@@ -52,7 +52,7 @@ A Wanted: Giselda the Crone |N|Off a signpost (54,70)| |QID|9936|
 A Wanted: Zorbo the Advisor |QID|9940|
 A Fierce Enemies |QID|10476|
 A Do My Eyes Deceive Me |QID|9917|
-A The Throne of the Elements |QID|9870|
+A The Throne of the Elements |QID|9869|
 A Stopping the Spread |QID|9874|
 A Solving the Problem |QID|9878|
 h Telaar
@@ -84,7 +84,7 @@ C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)| |
 
 
 T Murkblood Corrupters |QID|9862|
-T The Throne of the Elements |QID|9870|
+T The Throne of the Elements |QID|9869|
 T A Rare Bean |QID|9800|
 A Agitated Spirits of Skysong |QID|9804|
 T The Tortured Earth |QID|9819|

@@ -15,7 +15,7 @@ N Keep main pet stabled |N|Continue to use your Scorpashi Lasher| |C|Hunter|
 
 F Grom'gol Base Camp
 A The Defense of Grom'gol (Part 1) |QID|568|
-A Mok'thardin's Enchantment |QID|573|
+A Mok'thardin's Enchantment (Part 1) |QID|570|
 A Bloodscalp Insight |QID|9436|
 A Hunt for Yenniku |QID|581|
 A Trollbane |QID|638|
@@ -52,11 +52,13 @@ T Raptor Mastery (Part 2) |QID|195|
 A Raptor Mastery (Part 3) |QID|196|
 C Tiger Mastery (Part 4)|N|Sin'Dall is on top of a nearby hill (31,17)| |QID|188|
 T Tiger Mastery (Part 4) |QID|188|
+T Hemet Nesingwary Jr. |QID|5762|
+T Hunting in Stranglethorn |QID|5763|
 
 C Hostile Takeover |N|Venture Co. geologists near Lake Nazferiti (44,19)| |QID|213|
 C Goblin Sponsorship (Part 4) |QID|1182|
 C Panther Mastery (Part 3) |N|Shadowmaw Panthers (48,21)| |QID|192|
-C Mok'thardin's Enchantment |QID|573|
+C Mok'thardin's Enchantment (Part 1) |QID|570|
 C The Defense of Grom'gol (Part 2) |N|Southeast of Grom'gol at the Mizjah Ruins (32,29)| |QID|569|
 
 T Panther Mastery (Part 3) |N|Back at Nessingwary's, of course.| |QID|192|
@@ -72,13 +74,15 @@ A Goblin Sponsorship (Part 5) |QID|1183|
 
 T The Defense of Grom'gol (Part 2) |N|Back at Grom'gol| |QID|569|
 T An Unusual Patron |QID|9457|
-T Mok'thardin's Enchantment |QID|573|
+T Mok'thardin's Enchantment (Part 1) |QID|570|
+A Mok'thardin's Enchantment (Part 2) |QID|572|
 T Headhunting |QID|582|
 T Bloody Bone Necklaces |QID|596|
 T The Vile Reef |QID|629|
 
 F Undercity |N|Take Zeppelin|
 A To Steal From Thieves |N|In the center of Undercity| |NODEBUG| |QID|1164|
-T A Donation of Silk |N|60 Silk Cloth at (71,28)| |Z|Undercity| |QID|10360|
+A A Donation of Silk |QID|7814|
+T A Donation of Silk |QID|7814|
 ]]
 end)

@@ -42,8 +42,8 @@ C Raene's Cleansing (Part 2) |N|Kill murlocs, huzzah!| |QID|1023|
 H Astranaar
 T Raene's Cleansing (Part 2) |T| |QID|1023|
 A Raene's Cleansing (Part 3) |T| |QID|1024|
-T The Zoram Strand |T| |QID|1008|
 A An Aggressive Defense |T| |QID|1025|
+T The Zoram Strand |T| |QID|1008|
 N Unstable your pet |C|Hunter| |T|
 C Elune's Tear |N|Northeast at Iris Lake, on the island (46,46).| |QID|1033|
 T Raene's Cleansing (Part 3) |N|To the east at the Moonwell (53.50, 46.30)| |QID|1024|
@@ -61,7 +61,6 @@ A The Ruins of Stardust |T| |QID|1034|
 T An Aggressive Defense |T| |QID|1025|
 
 C The Ruins of Stardust |N|Due south of Astranaar, on an island yet again.| |QID|1034|
-C Call of Water (Part 4) |C|Shaman| |U|23749| |N|Use the bag at the fountain in the center of the island (33.54, 67.45)| |QID|9504|
 
 T The Ruins of Stardust |T| |N|Back in Astranaar| |QID|1034|
 A Fallen Sky Lake |T| |QID|1035|

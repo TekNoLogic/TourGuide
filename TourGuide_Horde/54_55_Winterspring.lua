@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("Winterspring (54-55)", "Felwood (55)", "Horde", function()
+TourGuide:RegisterGuide("Winterspring (54-55)", "Western Plaguelands (56)", "Horde", function()
 return [[
 R Everlook |N|Follow the road east.|
 A Are We There, Yeti? (Part 1) |QID|3783|

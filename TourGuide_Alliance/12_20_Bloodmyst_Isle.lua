@@ -48,6 +48,7 @@ A On the Wings of a Hippogryph |T| |QID|9604|
 F The Exodar
 T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T| |QID|9604|
 A Hippogryph Master Stephanos |T| |QID|9605|
+T Control |C|Mage| |QID|9595|
 T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T| |QID|9461|
 A Call of Fire (Part 6) |C|Shaman| |T| |QID|9555|
 T Call of Fire (Part 6) |C|Shaman| |T| |QID|9555|
@@ -128,7 +129,7 @@ A WANTED: Deathclaw |T| |QID|9646|
 
 A The Missing Expedition |T| |QID|9669|
 N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  Then check your mail for a quest-starting item.  You cannot get this quest if you did not do Admiral Odesyus' quests in Azuremyst.| |T| |L|24132|
-A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T| |O| |QID|9751|
+A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T| |O| |QID|9672|
 A Explorers' League, Is That Something for Gnomes? |T| |QID|10063|
 
 N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"|
@@ -166,13 +167,13 @@ N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling
 
 T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.| |QID|9578|
 A Galaen's Fate |QID|9579|
-A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.| |NODEBUG| |QID|9706|
+A Galaen's Journal - The Fate of Vindicator Saruan |N|From Galaen's journal, near his corpse.| |QID|9706|
 C Galaen's Fate |QID|9579|
 C The Cryo-Core |QID|9703|
 
 T Galaen's Fate |T| |N|Back at Blood Watch| |T| |QID|9579|
 T The Cryo-Core |QID|9703|
-T Galaen's Journal - The Fate of Vindicator Saruan |T| |NODEBUG| |QID|9706|
+T Galaen's Journal - The Fate of Vindicator Saruan |T| |QID|9706|
 A Matis the Cruel |T| |QID|9711|
 A Don't Drink the Water |T| |QID|9748|
 A What We Know... |R|Draenei| |T| |QID|9753|
@@ -212,7 +213,7 @@ T Restoring Sanctity |N|Back on Wyrmscar Island| |QID|9687|
 A Into the Dream |QID|9688|
 N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
 C Into the Dream |QID|9688|
-T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O| |QID|9751|
+T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O| |QID|9672|
 A The Bloodcursed Naga |O| |PRE|The Bloodcurse Legacy| |QID|9674|
 C The Bloodcursed Naga |O| |QID|9674|
 T The Bloodcursed Naga |O| |QID|9674|

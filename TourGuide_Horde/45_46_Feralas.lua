@@ -51,7 +51,7 @@ N Pick up a Hippograph Egg |N|Around (55,76) in nests| |L|8564|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)| |QID|2822|
 
 T The Mark of Quality |N|Back at Camp Mojache| |T| |QID|2822|
-A The Sunken Temple |T| |QID|3445|
+A The Sunken Temple |T| |QID|3380|
 T Stinglasher |T| |QID|7731|
 T Zukk'ash Infestation |T| |QID|7730|
 A Zukk'ash Report |T| |QID|7732|
@@ -66,7 +66,7 @@ A Ripple Recovery (Part 1) |N|From Dran Droffers in The Drag (59.4, 36.9)| |Z|Or
 T Ripple Recovery (Part 1) |N|The other guy in the same building| |QID|649| |T|
 A Ripple Recovery (Part 2) |QID|650| |T|
 T Parts of the Swarm |N|At Belgrom Rockmaul in the Valley of Honor (75,34)| |Z|Orgrimmar| |QID|1184| |T|
-T A Grim Discovery (Part 2) |T|
+T A Grim Discovery (Part 2) |T| |QID|2976|
 A Betrayed |QID|3507| |T|
 T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar| |QID|3121| |T|
 T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar| |QID|1262| |T|

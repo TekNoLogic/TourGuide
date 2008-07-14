@@ -35,9 +35,9 @@ C The Path of Anguish |N|Follow the road east (68,56).  Watch out for Fel Reaver
 T The Path of Anguish |QID|10142|
 A Expedition Point |QID|10143|
 T Expedition Point |N|To the east (71,62)| |QID|10143|
-A Disrupt Their Reinforcements |QID|10208|
-C Disrupt Their Reinforcements |N|Northeast.  Kill till you get 4 runes then blow up Portal Kaalez (72.74, 58.91).  Do the same for Portal Grimh (71,55).  If these guys are hitting you hard, you can pull them back up the hill to the guards and get some help.| |QID|10208|
-T Disrupt Their Reinforcements |QID|10208|
+A Disrupt Their Reinforcements |QID|10144|
+C Disrupt Their Reinforcements |N|Northeast.  Kill till you get 4 runes then blow up Portal Kaalez (72.74, 58.91).  Do the same for Portal Grimh (71,55).  If these guys are hitting you hard, you can pull them back up the hill to the guards and get some help.| |QID|10144|
+T Disrupt Their Reinforcements |QID|10144|
 A Mission: The Murketh and Shaadraz Gateways |QID|10146|
 C Mission: The Murketh and Shaadraz Gateways |N|Get a flight from Wing Commander Dabir'ee, blow shit up!| |U|28038| |QID|10146|
 T Mission: The Murketh and Shaadraz Gateways |QID|10146|
@@ -178,7 +178,7 @@ A Deadly Predators |QID|9398|
 A Missing Missive |O| |U|23338| |QID|9373|
 T Missing Missive |N|Southwest at the Cenarion Post (15,52)| |O| |QID|9373|
 
-A Naladu ||N|South at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.| |QID|10403|
+A Naladu |N|South at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  When fighting the groups focus on the taskmasters, the adds won't attack after you kill the taskmaster.| |QID|10403|
 T Naladu |N|Up the stairs, in a hut to the southeast (16.2, 65.0).  Watch out for the elite.| |QID|10403|
 A A Traitor Among Us |QID|10367|
 C A Traitor Among Us |N|Get the key in the hut back at the top of the stairs (14.3, 63.4).| |QID|10367|

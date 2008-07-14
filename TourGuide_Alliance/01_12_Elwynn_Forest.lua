@@ -130,25 +130,21 @@ T Protect the Frontier |QID|52|
 C Princess Must Die!|N|At the Brackwell Pumpkin Patch (69,79)| |QID|88|
 C Red Linen Goods |QID|83|
 
-A Bounty on Murlocs |N|Back by the bridge| |QID|46|
-C Bounty on Murlocs |N|Back up by the lake| |QID|46|
-
 T Red Linen Goods |QID|83|
-T Bounty on Murlocs |QID|46|
 
 H Goldshire |SZ|Lion's Pride Inn|
 A Speak with Jennea |C|Mage| |QID|1860|
 A Seek out SI: 7 |C|Rogue| |QID|2205|
 A Gakin's Summons |C|Warlock| |QID|1717|
 T Collecting Kelp |QID|112|
-A The Escape |QID|863|
+A The Escape |QID|114|
 T Deliver Thomas' Report |QID|39|
 T The Jasperlode Mine |QID|76|
 A Westbrook Garrison Needs Help! |QID|239|
 A Elmore's Task |QID|1097|
 A A Warrior's Training |C|Warrior| |QID|1638|
 
-T The Escape |N|Back at the Maclure Vineyards| |QID|863|
+T The Escape |N|Back at the Maclure Vineyards| |QID|114|
 T Goldtooth |N|Back at the Stonefield Farm| |QID|87|
 T Princess Must Die! |QID|88|
 
