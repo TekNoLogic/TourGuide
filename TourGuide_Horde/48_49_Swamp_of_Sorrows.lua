@@ -21,15 +21,16 @@ T A Tale of Sorrow |N|talk talk| |QID|2801|
 
 H The Salty Sailor Tavern |N|Booty Bay|
 F Brackenwall Village |N|Boat to Ratchet and fly down|
-A The Brood of Onyxia |QID|1172|
+A The Brood of Onyxia |Z|Dustwallow Marsh| |T| |QID|1172|
+
 N Get Overdue Package |N|From the zeppelin crash (54,55) for "Ledger from Tanaris"| |Z|Dustwallow Marsh| |L|11724|
 C The Brood of Onyxia |N|Eggs at (53,72) and (48,75)| |Z|Dustwallow Marsh| |QID|1172|
 T Cortello's Riddle (Part 2) |N|West to Bloodfen Cave (31,67)| |Z|Dustwallow Marsh| |QID|625|
 A Cortello's Riddle (Part 3) |QID|626|
 
-T The Brood of Onyxia |N|Back at Brackenwall Village| |QID|1172|
-A Challenge Overlord Mok'Morokk |QID|1173|
-C Challenge Overlord Mok'Morokk |N|Elite 45, bit of a bastage| |QID|1173|
-T Challenge Overlord Mok'Morokk |QID|1173|
+T The Brood of Onyxia |N|Back at Brackenwall Village| |Z|Dustwallow Marsh| |T| |QID|1172|
+A Challenge Overlord Mok'Morokk |Z|Dustwallow Marsh| |T| |QID|1173|
+C Challenge Overlord Mok'Morokk |N|Elite 45| |Z|Dustwallow Marsh| |T| |QID|1173|
+T Challenge Overlord Mok'Morokk |Z|Dustwallow Marsh| |T| |QID|1173|
 ]]
 end)
