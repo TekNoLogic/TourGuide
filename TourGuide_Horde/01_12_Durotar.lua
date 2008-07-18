@@ -29,7 +29,7 @@ C Vile Familiars |QID|1499|
 
 T Galgar's Cactus Apple Surprise |QID|4402|
 T Sting of the Scorpid |QID|789|
-A Call of Earth |C|Shaman| |QID|1516|
+A Call of Earth (Part 1) |C|Shaman| |QID|1516|
 T Vile Familiars |QID|1499|
 A Burning Blade Medallion |QID|794|
 T Lazy Peons |QID|5441|
@@ -37,16 +37,16 @@ A Thazz'ril's Pick |QID|6394|
 
 C Thazz'ril's Pick |N|In the cave at North end of Valley of Trials. Go straight ahead at the fork. (43.7,53.7)| |QID|6394|
 C Burning Blade Medallion |N|Go back to the fork and take the northern path at the fork. (42.7,52.9)| |QID|794|
-C Call of Earth |C|Shaman| |QID|1516|
+C Call of Earth (Part 1) |C|Shaman| |QID|1516|
 
 H Valley of Trials
 T Burning Blade Medallion |QID|794|
 A Report to Sen'jin Village |QID|805|
-T Call of Earth |C|Shaman| |QID|1516|
-A Call of Earth |C|Shaman| |QID|1517|
-T Call of Earth |C|Shaman| |N|Head south-west to the Hidden Path (41.6,73.2) then follow the path to the Spirit Rock| |QID|1517| |U|6635|
-A Call of Earth |C|Shaman| |QID|1518|
-T Call of Earth |C|Shaman| |QID|1518|
+T Call of Earth (Part 1) |C|Shaman| |QID|1516|
+A Call of Earth (Part 2) |C|Shaman| |QID|1517|
+T Call of Earth (Part 2) |C|Shaman| |N|Head south-west to the Hidden Path (41.6,73.2) then follow the path to the Spirit Rock| |QID|1517| |U|6635|
+A Call of Earth (Part 3) |C|Shaman| |QID|1518|
+T Call of Earth (Part 3) |C|Shaman| |QID|1518|
 T Thazz'ril's Pick |QID|6394|
 A A Peon's Burden |N|From the orc just outside the newbie area (52.0,68.3)| |QID|2161|
 
