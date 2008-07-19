@@ -76,6 +76,8 @@ function TourGuide:PositionStatusFrame()
 		f:ClearAllPoints()
 		f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
 	end
+
+	if self.db.char.showstatusframe then f:Show() else f:Hide() end
 end
 
 
