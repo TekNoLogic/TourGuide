@@ -11,7 +11,7 @@ frame.name = "Guides"
 frame.parent = "Tour Guide"
 frame:Hide()
 frame:SetScript("OnShow", function()
-	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", "This panel lets you choose a guide to load.  Upon completion the next guide wil load automatically.  Completed guides can be reset by shift-clicking.")
+	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", "This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking.")
 
 	local function OnClick(self)
 		if IsShiftKeyDown() then

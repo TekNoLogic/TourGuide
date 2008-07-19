@@ -18,7 +18,12 @@ frame:SetScript("OnShow", function()
 	qtrack:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.trackquests = not TourGuide.db.char.trackquests end)
 	qtrack:SetChecked(TourGuide.db.char.trackquests)
 
-	local mapnotecoords = tekcheck.new(frame, nil, "Map note coords", "TOPLEFT", qtrack, "BOTTOMLEFT", 0, -GAP)
+	local showstatusframe = tekcheck.new(frame, nil, "Show status frame", "TOPLEFT", qtrack, "BOTTOMLEFT", 0, -GAP)
+	showstatusframe.tiptext = "Display the status frame with current quest objective."
+	showstatusframe:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.showstatusframe = not TourGuide.db.char.showstatusframe; TourGuide:PositionStatusFrame() end)
+	showstatusframe:SetChecked(TourGuide.db.char.showstatusframe)
+
+	local mapnotecoords = tekcheck.new(frame, nil, "Map note coords", "TOPLEFT", showstatusframe, "BOTTOMLEFT", 0, -GAP)
 	mapnotecoords.tiptext = "Map coordinates found in tooltip notes (requires TomTom)."
 	mapnotecoords:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.mapnotecoords = not TourGuide.db.char.mapnotecoords end)
 	mapnotecoords:SetChecked(TourGuide.db.char.mapnotecoords)
@@ -55,6 +60,3 @@ frame:SetScript("OnShow", function()
 end)
 
 InterfaceOptions_AddCategory(frame)
-
-
-LibStub("tekKonfig-AboutPanel").new("Tour Guide", "TourGuide")

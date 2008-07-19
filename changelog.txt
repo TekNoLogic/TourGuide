@@ -1,3 +1,14 @@
+2.4.2.31-Beta
+    Ally Nagrand level req notes (I'm leveling too fast this time around, heh)
+    Horde Durotar tweaks
+    Horde Swamp of Sorrows 48-49 tweaks
+    Lots of horde guide cleanup from debug script
+    Rearrange order we register sub-config panels so they show up in the order we want
+    Split broker stuff off from status frame stuff
+    Make status frame toggleable
+    Move use item frame into it's own file
+    Add ruRUssian localization
+
 2.4.2.30-Beta
     Guide updates
      - Guide sequences fixed

@@ -38,7 +38,7 @@ R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then so
 A Matters of Security |QID|9925|
 T The Consortium Needs You! |QID|9913|
 A Stealing from Thieves |QID|9882|
-A Gava'xi |QID|9900|
+A Gava'xi |QID|9900| |N|You have to be 65 to get this|
 C Gava'xi |N|Spawns on top of a hill east of Oshu'gun (42.4, 73.5)| |QID|9900|
 C Stealing from Thieves |QID|9882|
 C Matters of Security |QID|9925|
@@ -47,7 +47,7 @@ T Stealing from Thieves |QID|9882|
 T Gava'xi |QID|9900|
 
 R Telaar |N|Follow the road east from Aeris Landing|
-A The Ravaged Caravan |N|Huntress Kima patrols around Telaar| |QID|9956|
+A The Ravaged Caravan |N|Huntress Kima patrols around Telaar.  You have to be 65 to get this.| |QID|9956|
 A Wanted: Giselda the Crone |N|Off a signpost (54,70)| |QID|9936|
 A Wanted: Zorbo the Advisor |QID|9940|
 A Fierce Enemies |QID|10476|
