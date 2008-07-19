@@ -30,9 +30,9 @@ Broker.lua
 StatusFrame.lua
 ItemButton.lua
 Config.lua
-Help.lua
 ObjectivesFrame.lua
 GuideList.lua
+Help.lua
 UnlistedQuest.lua
 QuestTracking.lua
 QuestIDTracking.lua

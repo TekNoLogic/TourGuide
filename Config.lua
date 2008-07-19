@@ -60,6 +60,3 @@ frame:SetScript("OnShow", function()
 end)
 
 InterfaceOptions_AddCategory(frame)
-
-
-LibStub("tekKonfig-AboutPanel").new("Tour Guide", "TourGuide")
