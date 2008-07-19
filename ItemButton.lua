@@ -49,8 +49,8 @@ frame:SetClampedToScreen(true)
 frame:SetScript("OnDragStart", frame.StartMoving)
 frame:SetScript("OnDragStop", function(frame)
 	frame:StopMovingOrSizing()
-	TourGuide:Debug(1, "Item frame moved", GetUIParentAnchor(frame))
-	TourGuide.db.profile.itemframepoint, TourGuide.db.profile.itemframex, TourGuide.db.profile.itemframey = GetUIParentAnchor(frame)
+	TourGuide.db.profile.itemframepoint, TourGuide.db.profile.itemframex, TourGuide.db.profile.itemframey = TourGuide.GetUIParentAnchor(frame)
+	TourGuide:Debug(1, "Item frame moved", TourGuide.db.profile.itemframepoint, TourGuide.db.profile.itemframex, TourGuide.db.profile.itemframey)
 end)
 
 
