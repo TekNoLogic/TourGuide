@@ -60,3 +60,15 @@ frame:SetScript("OnShow", function()
 end)
 
 InterfaceOptions_AddCategory(frame)
+
+
+----------------------------
+--      LDB Launcher      --
+----------------------------
+
+local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
+local dataobj = ldb:GetDataObjectByName("TourGuideLauncher") or ldb:NewDataObject("TourGuideLauncher")
+dataobj.launcher = true
+dataobj.tocname = "TourGuide"
+dataobj.icon = "Interface\\Icons\\Ability_Hunter_Pathfinding"
+dataobj.OnClick = function() InterfaceOptionsFrame_OpenToFrame(frame) end
