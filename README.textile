@@ -14,6 +14,7 @@ h2. Features
 * "Use item" frame, for those annoying quests where you have to use an item on a mob before you kill it, or you have to equip something, or you have to use an item to start a quest
 * Pop out frame for detailed view of quest sequence
 * Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html
+* "LDB":http://github.com/tekkub/libdatabroker-1-1/wikis data feed, for those that would rather use a LDB display than the built in "lego"
 
 h2. Submitting bugs
 
