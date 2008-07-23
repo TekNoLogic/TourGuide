@@ -7,7 +7,7 @@ T Your Continued Support |QID|11548| |N|I hope you didn't move!|
 A Don't Stop Now.... |QID|11536|
 A Disrupt the Greengill Coast |QID|11541|
 
-N Take reading at Darkspine Shrine |U|34533| |Q|Know Your Ley Lines| |QO|Shrine Reading Taken: 1/1| |N|Down the southwest shore (61.19, 62.52).| |Z|Isle of Quel'Danas|
+N Take reading at Darkspine Shrine |U|34533| |Q|Know Your Ley Lines| |QO|Shrine Reading Taken: 1/1| |N|Down the southeast shore (61.19, 62.52).| |Z|Isle of Quel'Danas|
 C Disrupt the Greengill Coast |QID|11541| |U|34483| |N|Kill Darkspine Sirens along the coast for Control Orbs, then "bomb" murlocs.| |Z|Isle of Quel'Danas|
 C Don't Stop Now.... |QID|11536| |N|Kill Darkspine Myrmidons along the coast for keys, open chests.| |Z|Isle of Quel'Danas|
 
