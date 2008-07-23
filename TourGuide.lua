@@ -57,7 +57,7 @@ function TourGuide:Initialize()
 
 
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {
-		launcher = true,
+		type = "launcher",
 		icon = "Interface\\Icons\\Ability_Rogue_Sprint",
 		OnClick = function() InterfaceOptionsFrame_OpenToFrame(TourGuide.configpanel) end,
 	})
