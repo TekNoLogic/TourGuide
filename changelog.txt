@@ -1,3 +1,8 @@
+2.4.3.32-Beta
+    Ally Nagrand tweak
+    Fix bug when moving item button
+    Add in LDB launcher with AddonLoader support
+
 2.4.2.31-Beta
     Ally Nagrand level req notes (I'm leveling too fast this time around, heh)
     Horde Durotar tweaks
