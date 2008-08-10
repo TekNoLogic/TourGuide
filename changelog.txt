@@ -1,3 +1,8 @@
+2.4.3.33-Beta
+    Ally hellfire tweaks
+    Ally WPL tweaks
+    SSO tweaks
+
 2.4.3.32-Beta
     Ally Nagrand tweak
     Fix bug when moving item button
