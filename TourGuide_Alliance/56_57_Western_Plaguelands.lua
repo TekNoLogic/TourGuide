@@ -46,7 +46,7 @@ A Return to Chillwind Camp (Part 2) |QID|5220|
 N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|
 K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |L|12738|
 K Farmer Dalson |N|Open the outhouse, get his key| |L|12739|
-N Open cabinet |N|Locked cabinet upstairs in the house.|
+N Open cabinet |N|Locked cabinet upstairs in the house.| |L|13475|
 
 T Return to Chillwind Camp (Part 2) |QID|5220|
 A Target: Writhing Haunt |QID|5222|
@@ -68,7 +68,7 @@ A The Eastern Plagues |QID|6185|
 
 T Good Luck Charm |N|At the house at Felstone Field (38,54)| |QID|5050|
 A Two Halves Become One |QID|5051|
-C Two Halves Become One |N|Go out in the field and kill the Jabbering Ghoul (only one with a pitchfork), then combine the pieces.| |QID|5051|
+C Two Halves Become One |N|Go out in the field and kill the Jabbering Ghoul (only one with a pitchfork), then combine the pieces.| |QID|5051| |U|12722|
 T Two Halves Become One |QID|5051|
 
 C Target: Writhing Haunt |N|To the southeast at Writhing Haunt (53,65).  Kill Cauldron Lord Razarch for the key, then talk to the cauldren.| |QID|5222|
