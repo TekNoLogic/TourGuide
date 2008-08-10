@@ -89,7 +89,6 @@ C The Path of Glory |N|Along the road between Hellfire Citadel and the Dark Port
 C Laying Waste to the Unwanted |N|Destroy the seige weapons along the north ridge (58.77, 46.80) (56.02, 46.67) (53.48, 47.14) (53.00, 47.11)| |U|26002| |QID|10078|
 
 T An Old Gift |N|In the Honor Hold inn| |QID|10058|
-A The Longbeards |N|From the innkeeper| |QID|9558|
 T The Path of Glory |N|Up in the keep| |QID|10047|
 A The Temple of Telhamat |QID|10093|
 T Laying Waste to the Unwanted |N|Back at the tower west of Honor Hold| |QID|10078|
@@ -149,6 +148,7 @@ A The Exorcism of Colonel Jules |QID|10935|
 C The Exorcism of Colonel Jules |N|Help the priest out, this is a fun one!  You can use the beads to banish spirits.| |U|31828| |QID|10935|
 T The Exorcism of Colonel Jules |QID|10935|
 A Trollbane is Looking for You |QID|10936|
+A The Longbeards |N|From the innkeeper| |QID|9558|
 T Trollbane is Looking for You |QID|10936| |N|Up in the keep.  Skip the follow-up unless you've got help.|
 
 T An Ambitious Plan |QID|9383| |N|Back at Temple of Telhamat|
