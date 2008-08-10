@@ -3,7 +3,7 @@
 ## Title: Tour Guide (Horde Data)
 ## Notes: Powerleveling guide framework
 ## Author: Tekkub Stoutwrithe
-## Version: Alpha
+## Version: 3.0.1.34
 ## X-Category: Quest
 
 ## RequiredDeps: TourGuide
