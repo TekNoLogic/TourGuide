@@ -56,4 +56,6 @@
 	<Script file="66_67_BladesEdge.lua"/>
 	<Script file="67_70_Netherstorm.lua"/>
 	<Script file="70_Shadowmoon_Valley.lua"/>
+
+	<Script file="70_71_Howling_Fjord.lua"/>
 </Ui>
