@@ -82,7 +82,7 @@ A It Goes to 11... |QID|11421|
 C It Goes to 11... |QID|11421| |U|34032| |N|Use the Harpoon Control Mechanism at one of the two haroons in Nifflevar (64.77, 52.65) (64.59, 54.33).  Note that you must target the defenders to shoot at them.|
 T It Goes to 11... |QID|11421| |N|Back at Lieutenant Icehammer (64.48, 46.95)|
 A Let's Go Surfing Now |QID|11436|
-C Let's Go Surfing Now |QID|11436| |N|Pull the lever at the harpoon near the southern harpoon building (TODO)|
+C Let's Go Surfing Now |QID|11436| |N|Pull the lever at the harpoon near the southern harpoon building (65.28, 57.24)|
 
 T Let's Go Surfing Now |QID|11436| |T|
 T Anguish of Nifflevar |QID|11344| |T|
