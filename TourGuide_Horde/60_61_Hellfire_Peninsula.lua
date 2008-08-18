@@ -1,17 +1,18 @@
 
 TourGuide:RegisterGuide("Hellfire Peninsula (60-61)", "Zangarmarsh (61-63)", "Horde", function()
 return [[
-H Undercity
+R The Dark Portal |N|Fly to Swamp of Sorrows then run south to the portal in Blasted Lands (58,56)| |Z|Blasted Lands|
 A Through the Dark Portal |N|Warlord Dar'toon right outside the big portal| |QID|9407|
 T Through the Dark Portal |N|Just down the steps to the right| |QID|9407|
 A Arrival in Outland |QID|10120|
 T Arrival in Outland |QID|10120|
 A Journey to Thrallmar |QID|10289|
-T Journey to Thrallmar |N|Fly there| |QID|10289|
-A Report to Nazgrel |QID|10291|
-T Report to Nazgrel |N|Inside big building| |QID|10291|
-A Eradicate the Burning Legion |QID|10121|
-h Thrallmar
+
+T Journey to Thrallmar |N|Fly there| |QID|10289| |T|
+A Report to Nazgrel |QID|10291| |T|
+T Report to Nazgrel |N|Inside big building| |QID|10291| |T|
+A Eradicate the Burning Legion |QID|10121| |T|
+h Thrallmar |T|
 
 T Eradicate the Burning Legion |N|(58,41) Just outside Thrallmar| |QID|10121|
 A Felspark Ravine |QID|10123|
@@ -23,26 +24,25 @@ A Disrupt Their Reinforcements |QID|10208|
 C Disrupt Their Reinforcements |N|Kill mobs just east to get 4 runes, click in portal at (70,45), Kill mobs at (74,38) to get 4 more tokens, click on portal| |QID|10208|
 T Disrupt Their Reinforcements |QID|10208|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|
-C Mission: Gateways Murketh and Shaadraz |N|Click on the NPC next to you, get the item and get on wyvern, bomb the 2 bases| |QID|10129|
+C Mission: Gateways Murketh and Shaadraz |N|Click on the NPC next to you, get the item and get on wyvern, bomb the 2 bases| |QID|10129| |U|28038|
 T Mission: Gateways Murketh and Shaadraz |QID|10129|
 A Mission: The Abyssal Shelf |QID|10162|
 A Return to Thrallmar |QID|10388|
-C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away| |QID|10162|
+C Mission: The Abyssal Shelf |N|Click on guy next to you, get on bat, bomb away| |QID|10162| |U|28132|
 T Mission: The Abyssal Shelf |QID|10162|
 
-T Return to Thrallmar |N|Nazgrel in the big building in Thrallmar| |QID|10388|
-A Forge Camp: Mageddon |QID|10390|
-A The Assassin |QID|9400|
-A Bonechewer Blood |QID|10450|
-A I Work... For the Horde! |QID|10086|
-A Falcon Watch |QID|9499|
-C Forge Camp: Mageddon |N|(64,32) Kill Slaves and Razorsaw| |QID|10390|
-A Vile Plans |N| Click on the item that Razorsaw Drops| |QID|10393|
+T Return to Thrallmar |N|Back at Thrallmar| |QID|10388| |T|
+A Forge Camp: Mageddon |QID|10390| |T|
+A Bonechewer Blood |QID|10450| |T|
+A I Work... For the Horde! |QID|10086| |T|
 
-T Vile Plans |N|At Thrallmar, Nazgrel building| |QID|10393|
-T Forge Camp: Mageddon |QID|10390|
-A Cannons of Rage |QID|10391|
-C Cannons of Rage |N|(58,30)| |QID|10391|
+C Forge Camp: Mageddon |N|(64,32) Kill Slaves and Razorsaw| |QID|10390|
+A Vile Plans |N| Starts from the item that Razorsaw dropped| |QID|10393| |U|29588|
+
+T Vile Plans |N|Back at Thrallmar| |QID|10393| |T|
+T Forge Camp: Mageddon |QID|10390| |T|
+A Cannons of Rage |QID|10391| |T|
+C Cannons of Rage |N|Northeast (58,30).  This chain can be a bit of apain, if you don't want to do it skip ahead to "Bonechewer Blood"| |QID|10391|
 T Cannons of Rage |QID|10391|
 A Doorway to the Abyss |QID|10392|
 C Doorway to the Abyss |N|(53,27)All done up there| |QID|10392|
@@ -51,69 +51,77 @@ A The Agony and the Darkness |QID|10389|
 C Bonechewer Blood |N|With next quest, just south of Thrallmar at the blade throwers. (58,46)| |QID|10450|
 C I Work... For the Horde! |QID|10086|
 
-T Bonechewer Blood |N|Back at Thrallmar| |QID|10450|
-T I Work... For the Horde! |QID|10086|
-A Burn It Up... For the Horde! |QID|10087|
-A Apothecary Zelana |QID|10449|
-C Burn It Up... For the Horde! |N|East Cannon: (60,52), West Cannon: (54,53)| |QID|10087|
-T Apothecary Zelana |N|(66,43)| |QID|10449|
+T I Work... For the Horde! |QID|10086| |N|Back at Thrallmar| |T|
+A Burn It Up... For the Horde! |QID|10087| |T|
+T Bonechewer Blood |QID|10450| |T|
+A Apothecary Zelana |QID|10449| |T|
+
+C Burn It Up... For the Horde! |N|Destroy the two cannons on the south side of the Path of Glory (60,52) (54,53)| |QID|10087| |U|27479|
+
+T Apothecary Zelana |QID|10449|
 A Spinebreaker Post |QID|10242|
 
-F Spinebreaker Post |N|Talk to the guy next to you to fly to Spinebreaker|
+F Spinebreaker Post |N|Talk to the wyvern master to fly to Spinebreaker|
 T Spinebreaker Post |QID|10242|
 A Boiling Blood |QID|10538|
 A Preparing the Salve |QID|9345|
 A The Warp Rifts |QID|10278|
 A Make Them Listen |QID|10220|
 A Wanted: Worg Master Kruush |N|On a wanted poster| |QID|10809|
-C Make Them Listen |N|Mobs directly west| |QID|10220|
-A Decipher the Tome |N|Item drop while doing Make them Listen| |U|28552| |QID|10229|
+
+C Make Them Listen |N|West at the Expedition Armory| |QID|10220|
+
+A Decipher the Tome |N|From an item| |U|28552| |QID|10229|
 
 T Make Them Listen |N|Back at Spinebreaker Post| |QID|10220|
 T Decipher the Tome |QID|10229|
 A The Battle Horn |QID|10230|
-C The Battle Horn |N|(54,83)| |QID|10230|
+C The Battle Horn |N|Kill Lieutenant Commander Thalvos at the south end of the Expedition Armory (54,83)| |QID|10230|
 T The Battle Horn |QID|10230|
 A Bloody Vengeance |QID|10250|
-C Bloody Vengeance |N|(63,77)| |QID|10250|
+
+C Bloody Vengeance |N|Blow the horn to the east at the alliance banner (63,77)| |QID|10250| |U|28651|
+C Wanted: Worg Master Kruush |N|East at Zeth'gor, in the worg stables (68,73)| |QID|10809|
+
+T Wanted: Worg Master Kruush |QID|10809|
+A Zeth'Gor Must Burn! |QID|10792|
+A The Eyes of Grillok |QID|10813|
 T Bloody Vengeance |QID|10250|
 A Honor the Fallen |QID|10258|
-T Honor the Fallen |N|Turn in at (56,77)| |QID|10258|
 
-N Pick plants... |N|While doing the following, focus on picking up plants for "Preparing the Salve"|
-C Boiling Blood |N|Cauldron: (65,71)| |QID|10538|
-C Wanted: Worg Master Kruush |N|(68,73) in the worg stables| |QID|10809|
+C Zeth'Gor Must Burn! |N|Kill peons to get torches, light them at the forge (69,69), then burn the Eastern Hovel (70,70), Barracks (69,76), Stable (68,73), and Western Hovel (67,76)| |QID|10792| |U|31346|
+C The Eyes of Grillok |N|Use Zezzak's Shard on an Eye of Grillok| |QID|10813| |U|31463|
 
-T Boiling Blood |N|Back at Spinebreaker Post| |QID|10538|
-T Wanted: Worg Master Kruush |QID|10809|
-A Apothecary Antonivich |QID|10835|
-A Zeth'Gor Must Burn! |QID|10792|
-C Zeth'Gor Must Burn! |N|Forge at (69,69), Barracks at (69,76), Eastern Hovel at (70,70), Western Hovel at (67,76), Stable at (68,73)| |QID|10792|
 T Zeth'Gor Must Burn! |QID|10792|
-A The Eyes of Grillok |QID|10813|
-C The Eyes of Grillok |N|(67,74)Use Zezzak's Shar on an Eye of Grillok| |QID|10813|
 T The Eyes of Grillok |QID|10813|
 A Grillok "Darkeye" |QID|10834|
-C Grillok "Darkeye" |N|(66,71) in the Cave| |QID|10834|
-T Grillok "Darkeye" |QID|10834|
+C Grillok "Darkeye" |N|In the cave below Zeth'gor (66,71)| |QID|10834|
+
+C Boiling Blood |N|Kill orcs if you don't have 12 blood, then use talk to the cauldron outside the cave (65,71)| |QID|10538|
 C Preparing the Salve |QID|9345|
+
+T Boiling Blood |N|Back at Spinebreaker Post| |QID|10538|
+A Apothecary Antonivich |QID|10835|
+T Grillok "Darkeye" |QID|10834|
 T Preparing the Salve |QID|9345|
 A Investigate the Crash |QID|10213|
+
+T Honor the Fallen |QID|10258| |N|Inside the tower at the Expedition Armory|
 
 T Investigate the Crash |N|West at the Zeppelin Crash (49,74)| |QID|10213|
 A In Case of Emergency... |QID|10161|
 A Ravager Egg Roundup |QID|9349|
-C In Case of Emergency... |N|(58,71)| |QID|10161|
-T In Case of Emergency... |QID|10161|
-A Voidwalkers Gone Wild |QID|9351|
-C Voidwalkers Gone Wild |N|(49,81)| |QID|9351|
-C The Warp Rifts |QID|10278|
-C Ravager Egg Roundup |N|(36,89)| |QID|9349|
-T Voidwalkers Gone Wild |QID|9351|
+C Ravager Egg Roundup |N|To the west, past the Warp Fields (36,89)| |QID|9349|
 T Ravager Egg Roundup |QID|9349|
 A Helboar, the Other White Meat |QID|9361|
-C Helboar, the Other White Meat |N|Helboars are all around| |QID|9361|
+C Helboar, the Other White Meat |N|Head east towards Zeth'gor.  Kill boars and use the mixture on the meat.| |U|23268| |QID|9361|
+C In Case of Emergency... |N|(58,71)| |QID|10161|
 T Helboar, the Other White Meat |QID|9361|
+T In Case of Emergency... |QID|10161|
+A Voidwalkers Gone Wild |QID|9351|
+C The Warp Rifts |QID|10278| |N|West at the Warp Fields (49,81).  Use the generator and target the ground below the rifts, then kill voidwalkers.| |U|29027|
+C Voidwalkers Gone Wild |QID|9351|
+T Voidwalkers Gone Wild |QID|9351|
 
 T The Warp Rifts |N|Back at Spinebreaker Post| |QID|10278|
 A Void Ridge |QID|10294|
@@ -125,11 +133,11 @@ C From the Abyss |N|(80,78) Go to purple crystals| |QID|10295|
 T From the Abyss |N|Back at Spinebreaker Post| |QID|10295|
 
 H Thrallmar
-T Burn It Up... For the Horde! |QID|10087|
-T Apothecary Antonivich |N|(52,36)| |QID|10835|
-A A Burden of Souls |QID|10864|
+T Burn It Up... For the Horde! |QID|10087| |T|
+T Apothecary Antonivich |N|(52,36)| |QID|10835| |T|
+A A Burden of Souls |QID|10864| |T|
 
-A Outland Sucks! |N|(51,30) Just northwest of Thrallmar| |QID|10236|
+A Outland Sucks! |N|Just northwest of Thrallmar| |QID|10236|
 C Outland Sucks! |N|Boxes southwest in the ravine| |QID|10236|
 A Missing Missive |U|23338| |QID|9373| |O| |N|From the Eroded Leather Case that dropped off the Crust Bursters.|
 T Outland Sucks! |QID|10236|
@@ -145,6 +153,8 @@ C Beneath Thrallmar |QID|10630|
 T Beneath Thrallmar |QID|10630|
 
 T A Burden of Souls |N|Back at Thrallmar (52,36)| |QID|10864|
+A The Assassin |QID|9400| |T| |N|This quest requires level 60| |T|
+A Falcon Watch |QID|9499| |N|This quest requires level 60| |T|
 A The Demoniac Scryer |QID|10838|
 C The Demoniac Scryer |N|(44,50)| |QID|10838|
 T The Assassin |N|(33,43)Krun Spinebreaker| |QID|9400|
