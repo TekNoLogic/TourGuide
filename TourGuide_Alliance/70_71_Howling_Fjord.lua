@@ -44,7 +44,6 @@ A Stunning Defeat at the Ring |QID|11300|
 C Stunning Defeat at the Ring |QID|11300| |N|Kill a few named mobs, the item drops for everyone so you don't have to group up to do this if others are working on it.|
 T Stunning Defeat at the Ring |QID|11300| |N|Back near the entrance to the catacombs (79.17, 81.50)|
 A Return to Valgarde |QID|11278|
-- |QID|11255.1| |QO|Captured Valgarde Prisoner Rescued: 3/3| |N|Howling Fjord, Wyrmskull Village (57.68, 53.35)|
 C Prisoners of Wyrmskull |QID|11255| |N|You should have plenty of keys to do this.  Kill more vrykul if you don't.|
 
 T Return to Valgarde |QID|11278| |N|Back at Valgarde (60.17, 60.99)| |T|
