@@ -16,12 +16,12 @@ h Thrallmar |T|
 
 T Eradicate the Burning Legion |N|(58,41) Just outside Thrallmar| |QID|10121|
 A Felspark Ravine |QID|10123|
-C Felspark Ravine |N|Kill mobs just east| |QID|10123|
+C Felspark Ravine |N|Kill mobs east at Felspark Ravine| |QID|10123|
 T Felspark Ravine |QID|10123|
 A Forward Base: Reaver's Fall |QID|10124|
-T Forward Base: Reaver's Fall |N|Southeast of Thrallmar, on a Cliff. (65.9,43.7)| |QID|10124|
+T Forward Base: Reaver's Fall |QID|10124|
 A Disrupt Their Reinforcements |QID|10208|
-C Disrupt Their Reinforcements |N|Kill mobs just east to get 4 runes, click in portal at (70,45), Kill mobs at (74,38) to get 4 more tokens, click on portal| |QID|10208|
+C Disrupt Their Reinforcements |N|Kill mobs to the east to get 4 runes, then blow up Portal Kruul (73.98, 39.11).  Get 4 more runes, blow up Portal Xilus (70.91, 45.28)| |QID|10208|
 T Disrupt Their Reinforcements |QID|10208|
 A Mission: Gateways Murketh and Shaadraz |QID|10129|
 C Mission: Gateways Murketh and Shaadraz |N|Click on the NPC next to you, get the item and get on wyvern, bomb the 2 bases| |QID|10129| |U|28038|
@@ -36,19 +36,18 @@ A Forge Camp: Mageddon |QID|10390| |T|
 A Bonechewer Blood |QID|10450| |T|
 A I Work... For the Horde! |QID|10086| |T|
 
-C Forge Camp: Mageddon |N|(64,32) Kill Slaves and Razorsaw| |QID|10390|
-A Vile Plans |N| Starts from the item that Razorsaw dropped| |QID|10393| |U|29588|
-
+C Forge Camp: Mageddon |N|Northeast at Forge Camp: Mageddon (64,32).  This chain can be a bit of a pain, if you don't want to do it skip ahead to "Bonechewer Blood"| |QID|10390|
+A Vile Plans |N|Starts from the item that Razorsaw dropped| |QID|10393| |U|29588|
 T Vile Plans |N|Back at Thrallmar| |QID|10393| |T|
 T Forge Camp: Mageddon |QID|10390| |T|
 A Cannons of Rage |QID|10391| |T|
-C Cannons of Rage |N|Northeast (58,30).  This chain can be a bit of apain, if you don't want to do it skip ahead to "Bonechewer Blood"| |QID|10391|
+C Cannons of Rage |N|Back at the Forge Camp| |QID|10391|
 T Cannons of Rage |QID|10391|
 A Doorway to the Abyss |QID|10392|
-C Doorway to the Abyss |N|(53,27)All done up there| |QID|10392|
+C Doorway to the Abyss |N|Kill Arix'Amal (53,26) for the key, use it on the Burning Legion Gate (53,28)| |QID|10392|
 T Doorway to the Abyss |QID|10392|
 A The Agony and the Darkness |QID|10389|
-C Bonechewer Blood |N|With next quest, just south of Thrallmar at the blade throwers. (58,46)| |QID|10450|
+C Bonechewer Blood |N|With next quest, just south of Thrallmar at the blade throwers (58,46)| |QID|10450|
 C I Work... For the Horde! |QID|10086|
 
 T I Work... For the Horde! |QID|10086| |N|Back at Thrallmar| |T|
@@ -56,7 +55,7 @@ A Burn It Up... For the Horde! |QID|10087| |T|
 T Bonechewer Blood |QID|10450| |T|
 A Apothecary Zelana |QID|10449| |T|
 
-C Burn It Up... For the Horde! |N|Destroy the two cannons on the south side of the Path of Glory (60,52) (54,53)| |QID|10087| |U|27479|
+C Burn It Up... For the Horde! |N|Destroy the two cannons on the south side of the Path of Glory (60.90, 52.50) (54.67, 54.10)| |QID|10087| |U|27479|
 
 T Apothecary Zelana |QID|10449|
 A Spinebreaker Post |QID|10242|
@@ -76,12 +75,12 @@ A Decipher the Tome |N|From an item| |U|28552| |QID|10229|
 T Make Them Listen |N|Back at Spinebreaker Post| |QID|10220|
 T Decipher the Tome |QID|10229|
 A The Battle Horn |QID|10230|
-C The Battle Horn |N|Kill Lieutenant Commander Thalvos at the south end of the Expedition Armory (54,83)| |QID|10230|
+C The Battle Horn |N|Kill Lieutenant Commander Thalvos at the south end of the Expedition Armory (54.68, 83.59)| |QID|10230|
 T The Battle Horn |QID|10230|
 A Bloody Vengeance |QID|10250|
 
-C Bloody Vengeance |N|Blow the horn to the east at the alliance banner (63,77)| |QID|10250| |U|28651|
-C Wanted: Worg Master Kruush |N|East at Zeth'gor, in the worg stables (68,73)| |QID|10809|
+C Bloody Vengeance |N|Blow the horn to the east at the alliance banner (63.70, 77.31)| |QID|10250| |U|28651|
+C Wanted: Worg Master Kruush |N|East at Zeth'gor, in the worg stables (68.51, 73.67)| |QID|10809|
 
 T Wanted: Worg Master Kruush |QID|10809|
 A Zeth'Gor Must Burn! |QID|10792|
@@ -89,20 +88,13 @@ A The Eyes of Grillok |QID|10813|
 T Bloody Vengeance |QID|10250|
 A Honor the Fallen |QID|10258|
 
-C Zeth'Gor Must Burn! |N|Kill peons to get torches, light them at the forge (69,69), then burn the Eastern Hovel (70,70), Barracks (69,76), Stable (68,73), and Western Hovel (67,76)| |QID|10792| |U|31346|
-C The Eyes of Grillok |N|Use Zezzak's Shard on an Eye of Grillok| |QID|10813| |U|31463|
+C Zeth'Gor Must Burn! |N|Kill peons to get torches, light them at the forge (69,69), then burn the Eastern Hovel (69.16, 69.80), Stable (68.18, 73.33), Western Hovel (67.17, 75.82) and Barracks (68.97, 75.88)| |QID|10792| |U|31346|
+C The Eyes of Grillok |N|Use Zezzak's Shard on an Eye of Grillok.  One spawns near the Western Hovel (67.08, 74.84)| |QID|10813| |U|31463|
+C Preparing the Salve |QID|9345|
 
 T Zeth'Gor Must Burn! |QID|10792|
 T The Eyes of Grillok |QID|10813|
 A Grillok "Darkeye" |QID|10834|
-C Grillok "Darkeye" |N|In the cave below Zeth'gor (66,71)| |QID|10834|
-
-C Boiling Blood |N|Kill orcs if you don't have 12 blood, then use talk to the cauldron outside the cave (65,71)| |QID|10538|
-C Preparing the Salve |QID|9345|
-
-T Boiling Blood |N|Back at Spinebreaker Post| |QID|10538|
-A Apothecary Antonivich |QID|10835|
-T Grillok "Darkeye" |QID|10834|
 T Preparing the Salve |QID|9345|
 A Investigate the Crash |QID|10213|
 
@@ -114,6 +106,7 @@ A Ravager Egg Roundup |QID|9349|
 C Ravager Egg Roundup |N|To the west, past the Warp Fields (36,89)| |QID|9349|
 T Ravager Egg Roundup |QID|9349|
 A Helboar, the Other White Meat |QID|9361|
+
 C Helboar, the Other White Meat |N|Head east towards Zeth'gor.  Kill boars and use the mixture on the meat.| |U|23268| |QID|9361|
 C In Case of Emergency... |N|(58,71)| |QID|10161|
 T Helboar, the Other White Meat |QID|9361|
@@ -125,16 +118,22 @@ T Voidwalkers Gone Wild |QID|9351|
 
 T The Warp Rifts |N|Back at Spinebreaker Post| |QID|10278|
 A Void Ridge |QID|10294|
-C Void Ridge |N|Take shortcut at (72,67)| |QID|10294|
+
+C Grillok "Darkeye" |N|In the cave below Zeth'Gor (66.33, 71.17)| |QID|10834|
+C Boiling Blood |N|Kill orcs if you don't have 12 blood, then use talk to the cauldron outside the cave (65.14, 71.23)| |QID|10538|
+
+C Void Ridge |N|Head up the pass just beyond Zeth'Gor (72,67)| |QID|10294|
+
+T Boiling Blood |N|Back at Spinebreaker Post| |QID|10538|
+A Apothecary Antonivich |QID|10835|
+T Grillok "Darkeye" |QID|10834|
 T Void Ridge |QID|10294|
 A From the Abyss |QID|10295|
-C From the Abyss |N|(80,78) Go to purple crystals| |QID|10295|
-
+C From the Abyss |N|Use the Warp Rift Generator at the purple crystals at the south end of Void Ridge (80.81, 78.76)| |QID|10295| |U|29226|
 T From the Abyss |N|Back at Spinebreaker Post| |QID|10295|
 
-H Thrallmar
-T Burn It Up... For the Horde! |QID|10087| |T|
-T Apothecary Antonivich |N|(52,36)| |QID|10835| |T|
+T Burn It Up... For the Horde! |QID|10087| |T| |N|Back at Thrallmar|
+T Apothecary Antonivich |QID|10835| |T|
 A A Burden of Souls |QID|10864| |T|
 
 A Outland Sucks! |N|Just northwest of Thrallmar| |QID|10236|
@@ -142,7 +141,7 @@ C Outland Sucks! |N|Boxes southwest in the ravine| |QID|10236|
 A Missing Missive |U|23338| |QID|9373| |O| |N|From the Eroded Leather Case that dropped off the Crust Bursters.|
 T Outland Sucks! |QID|10236|
 A How to Serve Goblins |QID|10238|
-C How to Serve Goblins |N|(45,42)Rescue Manni, Moh and Jakk Peons| |QID|10238|
+C How to Serve Goblins |N|Southwest beyond the ravine at the Norther Rampart.  Rescue Manni (45.09, 40.96), Moh (46.50, 45.09) and Jakk (47.54, 46.54)| |QID|10238|
 C A Burden of Souls |QID|10864|
 T How to Serve Goblins |QID|10238|
 A Shizz Work |QID|10629|
