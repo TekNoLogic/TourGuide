@@ -18,7 +18,7 @@ A The Human League |QID|11273| |T|
 A The Path to Payback |QID|11420| |T|
 A Into the World of Spirits |QID|11333| |T|
 
-A Daggercap Divin' |QID|11443| |N|Howling Fjord, Daggercap Bay (62.84, 59.11)|
+A Daggercap Divin' |QID|11443| |N|Dive down into Daggercap Bay (62.84, 59.11)|
 U Put on the Diving Helm |U|34082|
 C Into the World of Spirits |QID|11333| |N|On the deck of the northern boat (62.05, 57.69)|
 C Daggercap Divin' |QID|11443|
@@ -32,7 +32,7 @@ A And Then There Were Two... |QID|11276|
 T And Then There Were Two... |QID|11276| |N|Take the bridge over the worg pit and head down into the Utgarde Catacombs (79.04, 79.80)|
 A The Depths of Depravity |QID|11277|
 A The Shining Light |QID|11288| |N|Down the hall, hang a left (79.99, 82.06)|
-A The Shining Light |QID|11288| |N|Back down the hall, down the stairs, wade thru a bunch of undead (79.10, 81.41)|
+C The Shining Light |QID|11288| |N|Back down the hall, down the stairs, wade thru a bunch of undead (79.10, 81.41)|
 T The Shining Light |QID|11288| |N|Back upstairs|
 A Guided by Honor |QID|11289|
 C The Path to Payback |QID|11420| |N|On the floor right next to you!|
