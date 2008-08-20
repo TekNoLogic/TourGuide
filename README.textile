@@ -13,8 +13,20 @@ h2. Features
 * Small "lego block" style frame shows current objective, detailed tooltips on hover
 * "Use item" frame, for those annoying quests where you have to use an item on a mob before you kill it, or you have to equip something, or you have to use an item to start a quest
 * Pop out frame for detailed view of quest sequence
-* Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html
+* Automatic mapping of coordinates with "TomTom":http://www.wowinterface.com/downloads/info7032-TomTom.html and questgiver locations from "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html if installed
 * "LDB":http://github.com/tekkub/libdatabroker-1-1/wikis data feed, for those that would rather use a LDB display than the built in "lego"
+
+h2. Notes
+
+There is no way to query what quests you have completed.  If you start using TourGuide on anything except a fresh level 1 toon, you will have to manually check off what quests you've done in the guide you load.  You may run into chain quests or followups which you cannot do because you didn't do the prerequisite quest.
+
+Level ranges on the guides are general guidelines only, mainly designed to help you find what guide you should start with for your current level.
+
+TourGuide does not provide coords for every single objective.  If you are lost check with "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html or "Wowhead":http://www.wowhead.com and "submit a bug":http://www.tekkub.net/pages/tourguide_bugs so notes can be added to the objective.
+
+If you wish to use the "use item" frame from a keybind or your actionbar, make a macro: @/click TourGuideItemFrame@
+
+Horde guides are not up to par with the Alliance guides, I've not been able to playtest them much.  Never fear, they're getting rewritten bit by bit.
 
 h2. Submitting bugs
 
