@@ -141,7 +141,7 @@ C Outland Sucks! |N|Boxes southwest in the ravine| |QID|10236|
 A Missing Missive |U|23338| |QID|9373| |O| |N|From the Eroded Leather Case that dropped off the Crust Bursters.|
 T Outland Sucks! |QID|10236|
 A How to Serve Goblins |QID|10238|
-C How to Serve Goblins |N|Southwest beyond the ravine at the Norther Rampart.  Rescue Manni (45.09, 40.96), Moh (46.50, 45.09) and Jakk (47.54, 46.54)| |QID|10238|
+C How to Serve Goblins |N|Southwest beyond the ravine at the Northern Rampart.  Rescue Manni (45.09, 40.96), Moh (46.50, 45.09) and Jakk (47.54, 46.54)| |QID|10238|
 C A Burden of Souls |QID|10864|
 T How to Serve Goblins |QID|10238|
 A Shizz Work |QID|10629|
