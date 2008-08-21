@@ -152,40 +152,78 @@ C Beneath Thrallmar |QID|10630|
 T Beneath Thrallmar |QID|10630|
 
 T A Burden of Souls |N|Back at Thrallmar (52,36)| |QID|10864|
-A The Assassin |QID|9400| |T| |N|This quest requires level 60| |T|
+A The Assassin |QID|9400| |N|This quest requires level 60| |T|
 A Falcon Watch |QID|9499| |N|This quest requires level 60| |T|
 A The Demoniac Scryer |QID|10838|
-C The Demoniac Scryer |N|(44,50)| |QID|10838|
-T The Assassin |N|(33,43)Krun Spinebreaker| |QID|9400|
+C The Demoniac Scryer |N|Use the Scryer in Hellfire Basin, just to the west of Hellfire Citadel (44,50).  Defend it while it attunes, then talk to it when it is complete| |QID|10838| |U|31606|
+
+R Falcon Watch |N|West to the road, then south (27,60)|
+A Birds of a Feather |QID|9397| |T|
+T Falcon Watch |QID|9499| |T|
+A The Great Fissure |QID|9340| |T|
+A Magic of the Arakkoa |QID|9396| |T|
+
+C The Great Fissure |QID|9340| |N|Southeast of town, in the Great Fissure, of course|
+C Birds of a Feather |N|South at Den of Haal'esh (27,80).  Open nests until you find a Female Kaliri Hatchling, use the cage.| |QID|9397| |U|23485|
+K Avruu |L|23580| |N|He patrols around the ledge above the middle of the valley|
+A Avruu's Orb |U|23580| |QID|9418|
+C Avruu's Orb |N|Talk to the orb to the south (29,81).| |QID|9418|
+T Avruu's Orb |QID|9418|
+C Magic of the Arakkoa |QID|9396|
+A The Road to Falcon Watch |N|Escort in the cave below Avruu. Requires level 61.| |QID|9375|
+
+T The Road to Falcon Watch |N|Back at Falcon Watch| |QID|9375| |T|
+A A Pilgrim's Plight |QID|9376| |T| |N|Skip this if you didn't do the escort|
+T The Great Fissure |QID|9340| |T|
+A Marking the Path |QID|9391| |T|
+T Magic of the Arakkoa |QID|9396| |T|
+T Birds of a Feather |QID|9397| |T|
+
+C A Pilgrim's Plight |N|Find the pack to the west at a campsite in Dustquill Ravine (22.1, 68.4)| |QID|9376|
+C Marking the Path |N|Light the three beacons down in the Great Fissure.  West (29,60), Central (34,60), Southern (36,65)| |QID|9391|
+
+T Marking the Path |QID|9391| |N|Back at Falcon Watch| |T|
+T A Pilgrim's Plight |QID|9376| |T|
+A Helping the Cenarion Post |QID|10442| |T|
+A Arelion's Journal |QID|9374| |T|
+A Source of the Corruption |QID|9387| |T|
+A In Need of Felblood |QID|9366| |T|
+A Trueflight Arrows |QID|9381| |T|
+A Report to Zurai |QID|10103| |T|
+
+C Trueflight Arrows |N|Due north of Falcon Crest (26,47)| |QID|9381|
+
+T The Assassin |N|Find Krun Spinebreaker's corpse, due north (33.6, 43.6)| |QID|9400|
 A A Strange Weapon |QID|9401|
 
-R Falcon Watch |N|(27,60)|
-A Arelion's Journal |QID|9374|
-A Source of the Corruption |QID|9387|
-A In Need of Felblood |QID|9366|
-A Magic of the Arakkoa |QID|9396|
-A Trueflight Arrows |QID|9381|
-A Birds of a Feather |QID|9397|
-A Helping the Cenarion Post |QID|10442|
-T Falcon Watch |QID|9499|
-A Report to Zurai |QID|10103|
-A The Great Fissure |QID|9340|
-C Birds of a Feather |N|(27,80)Along with the next 2 quests| |QID|9397|
-C Magic of the Arakkoa |QID|9396|
-C The Great Fissure |QID|9340|
-A The Road to Falcon Watch |N|Escort starts at (24,76), needs level 61| |QID|9375|
+C Arelion's Journal |N|North in the Pools of Aggonar, hanging from a tree limb (40.0, 37.3)| |QID|9374|
+C In Need of Felblood |QID|9366|
+C The Agony and the Darkness |QID|10389|
 
-T The Road to Falcon Watch |N|Back at Falcon Watch| |QID|9375|
-T The Great Fissure |QID|9340|
-A A Pilgrim's Plight |QID|9376|
-A Marking the Path |QID|9391|
-C A Pilgrim's Plight |N|(22,68) Pack| |QID|9376|
-C Marking the Path |N|West: (29,60), Central: (34,60), Southern: (36,65)| |QID|9391|
+T The Demoniac Scryer |QID|10838| |N|Back at Thrallmar|
+A Report to Nazgrel |QID|10875|
+T Report to Nazgrel |QID|10875| |N|Skip the follow-up|
+T A Strange Weapon |QID|9401|
+A The Warchief's Mandate |QID|9405|
+T The Agony and the Darkness |QID|10389|
+T The Warchief's Mandate |QID|9405|
+A A Spirit Guide |QID|9410|
 
-T A Pilgrim's Plight |N|Back at Falcon Watch| |QID|9376|
-T Magic of the Arakkoa |QID|9396|
-T Birds of a Feather |QID|9397|
-T Marking the Path |QID|9391|
+C A Spirit Guide |N|Use the totem at Krun Spinebreaker's corpse (33.6, 43.6), follow it.| |QID|9410| |U|23669|
+T A Spirit Guide |QID|9410|
+A The Mag'har |QID|9406|
+
+T The Mag'har |QID|9406| |N|Back at Thrallmar|
+A Messenger to Thrall |QID|9438|
+
+T Trueflight Arrows |QID|9381| |N|Back at Falcon Watch|
+T Source of the Corruption |QID|9387|
+T Arelion's Journal |QID|9374|
+A Arelion's Secret |QID|10286|
+T In Need of Felblood |QID|9366|
+A The Cleansing Must Be Stopped |QID|9370|
+
+C The Cleansing Must Be Stopped |QID|9370| |N|North at the Pools of Aggonar.  Use the gem at the Altar of Aggonar (39,40)| |U|23358|
 
 A Naladu |N|West at The Ruins of Sha'naar, from Akoru the Firecaller in a hut on the west side of the ruins (15.58, 58.74).  Kill taskmasters first, the adds will run away.| |QID|10403|
 T Naladu |N|Up the stairs, in a hut to the southeast (16.2, 65.0).  Watch out for the elite.| |QID|10403|
@@ -200,50 +238,20 @@ C Arzeth's Demise |U|29513| |N|Use the staff on Arzeth and kill him.| |QID|10369
 T Arzeth's Demise |QID|10369|
 C Source of the Corruption |QID|9387|
 
-R Cenarion Post |N|(15,52)|
-T Missing Missive |QID|9373| |O|
-T Helping the Cenarion Post |QID|10442|
+T Helping the Cenarion Post |QID|10442| |N|North of the Ruins of Sha'naar (15.7, 52.2)|
 A Demonic Contamination |QID|9372|
+T Arelion's Secret |QID|10286|
+A The Mistress Revealed |QID|10287|
+T Missing Missive |QID|9373| |O|
 A Keep Thornfang Hill Clear! |QID|10159|
 A The Cenarion Expedition |QID|9912|
-C Demonic Contamination |N|Right around there| |QID|9372|
-T Demonic Contamination |N|(15,52)| |QID|9372|
+C Demonic Contamination |N|Kill helboars| |QID|9372|
+T Demonic Contamination |QID|9372|
 A Testing the Antidote |QID|10255|
-C Testing the Antidote |QID|10255|
+C Testing the Antidote |QID|10255| |U|23337| |N|Use the antidote on a helboar nearby|
 T Testing the Antidote |QID|10255|
-C Keep Thornfang Hill Clear! |N|(8,51)| |QID|10159|
-R Cenarion Post |N|(15,52)|
+C Keep Thornfang Hill Clear! |N|To the west, near the road| |QID|10159|
 T Keep Thornfang Hill Clear! |QID|10159|
-
-C Trueflight Arrows |N|(26,47)just north of Falcon Crest| |QID|9381|
-C The Agony and the Darkness |N|(38,40)Pools of Aggonar| |QID|10389|
-C In Need of Felblood |QID|9366|
-C Arelion's Journal |N|(39,37)Hanging from a Tree Limb| |QID|9374|
-
-T The Agony and the Darkness |N|Back at Thrallmar| |QID|10389|
-T A Strange Weapon |QID|9401|
-A The Warchief's Mandate |QID|9405|
-T The Warchief's Mandate |QID|9405|
-A A Spirit Guide |QID|9410|
-T The Demoniac Scryer |QID|10838|
-A Report to Nazgrel |QID|10875|
-T Report to Nazgrel |QID|10875|
-C A Spirit Guide |N|(33,43)Follow him up to Mag'har post| |QID|9410|
-T A Spirit Guide |QID|9410|
-A The Mag'har |QID|9406|
-T The Mag'har |QID|9406|
-A Messenger to Thrall |QID|9438|
-
-F Falcon Watch
-T Trueflight Arrows |QID|9381|
-T Source of the Corruption |QID|9387|
-T Arelion's Journal |QID|9374|
-T In Need of Felblood |QID|9366|
-A The Cleansing Must Be Stopped |QID|9370|
-A Arelion's Secret |QID|10286|
-T Arelion's Secret |N|(15,52)Turn it in at Magister Aledis at Cenarion Post| |QID|10286|
-A The Mistress Revealed |QID|10287|
-C The Cleansing Must Be Stopped |QID|9370|
 
 T The Mistress Revealed |N|Back at Falcon Watch| |QID|10287|
 A Arelion's Mistress |QID|9472|
