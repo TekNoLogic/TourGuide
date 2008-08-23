@@ -12,12 +12,12 @@ R Kargath
 A Unclaimed Baggage |QID|9439|
 A Coyote Thieves |QID|1419|
 A Report to Helgrum |QID|1420|
-A Broken Alliances |QID|793|
+A Broken Alliances |QID|782|
 A Badlands Reagent Run |QID|2258|
 
 C Barbecued Buzzard Wings |QID|703|
 C Coyote Thieves |QID|1419|
-C Broken Alliances |QID|793|
+C Broken Alliances |QID|782|
 C Badlands Reagent Run |QID|2258|
 C Unclaimed Baggage |N|At Angor Fortress (42,31).  Pack is an orange barrel on the left entrance of fortress.  Rapier is on the weapon rack going through the right entrance of fortress.| |QID|9439|
 C Study of the Elements: Rock (Part 1) |N|Lessers| |QID|710|
@@ -29,7 +29,7 @@ C Study of the Elements: Rock (Part 2) |QID|711|
 T Study of the Elements: Rock (Part 2) |N|Skip the follow-up| |QID|711|
 T Unclaimed Baggage |QID|9439|
 T Coyote Thieves |QID|1419|
-T Broken Alliances |QID|793|
+T Broken Alliances |QID|782|
 T Badlands Reagent Run |QID|2258|
 T Barbecued Buzzard Wings |QID|703|
 

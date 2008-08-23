@@ -50,7 +50,7 @@ F Thelsamar
 T At Last! |N|Valley of Kings again (18.18, 84.06)| |Z|Loch Modan| |QID|3201|
 
 F Searing Gorge |N|Run back up to Thelsamar and fly over.|
-C STOLEN: Smithing Tuyere and Lookout's Spyglass |N|Kill Dark Iron Steamsmiths and Lookouts| |QID|7728|
+C STOLEN: Smithing Tuyere and Lookout's Spyglass |N|Kill Dark Iron Steamsmiths to the south (39,49) and Lookouts at the towers| |QID|7728|
 C Curse These Fat Fingers |N|All over the place, mostly above the cauldren| |QID|7723|
 C The Flawless Flame |N|Kill elementals and golums| |QID|3442|
 C Fiery Menace! |N|All over the western side of the zone| |QID|7724|

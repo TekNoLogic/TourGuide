@@ -59,7 +59,7 @@ C Hostile Takeover |N|Venture Co. geologists near Lake Nazferiti (44,19)| |QID|2
 C Goblin Sponsorship (Part 4) |QID|1182|
 C Panther Mastery (Part 3) |N|Shadowmaw Panthers (48,21)| |QID|192|
 C Mok'thardin's Enchantment (Part 1) |QID|570|
-C The Defense of Grom'gol (Part 2) |N|Southeast of Grom'gol at the Mizjah Ruins (32,29)| |QID|569|
+C The Defense of Grom'gol (Part 2) |N|Southeast of Grom'gol at the Mizjah Ruins (36,30)| |QID|569|
 
 T Panther Mastery (Part 3) |N|Back at Nessingwary's, of course.| |QID|192|
 A Panther Mastery (Part 4) |QID|193|
