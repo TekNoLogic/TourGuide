@@ -94,73 +94,68 @@ A Gamel the Cruel |QID|11619|
 C Gamel the Cruel |QID|11619| |N|In a cave down on the beach (46.26, 78.83)|
 T Gamel the Cruel |QID|11619|
 
-A Distress Call |QID|11707| |N|Borean Tundra, Valiance Keep (58.16, 67.93)|
-A Ears of Our Enemies |QID|11866| |N|Borean Tundra, D.E.H.T.A. Encampment (57.06, 44.27)|
-A Help Those That Cannot Help Themselves |QID|11876| |N|Borean Tundra, D.E.H.T.A. Encampment (57.06, 44.27)|
-A Happy as a Clam |QID|11869| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.13)|
-A Ned, Lord of Rhinos... |QID|11884| |N|Borean Tundra, D.E.H.T.A. Encampment (56.85, 44.12)|
-N that's a 2-man quest |N|Borean Tundra, D.E.H.T.A. Encampment (56.85, 44.12)|
-A Unfit for Death |QID|11865| |N|Borean Tundra, D.E.H.T.A. Encampment (56.82, 44.08)|
-U |cffffffff|Hitem:35127:0:0:0:0:0:0:417191477:70|h[Pile of Fake Furs]|h|r |N|Borean Tundra,  (56.49, 46.05)|
-U |cffffffff|Hitem:35228:0:0:0:0:0:0:1684905675:70|h[D.E.H.T.A. Trap Smasher]|h|r |N|Borean Tundra,  (56.49, 46.05)|
-- |QID|11865.1| |QO|Nesingwary Trapper Trapped: 8/8| |N|Borean Tundra,  (56.89, 49.95)|
-- |QID|11866.1| |QO|Nesingwary Lackey Ear: 15/15| |N|Borean Tundra,  (57.52, 48.89)|
-T Ears of Our Enemies |QID|11866| |N|Borean Tundra, D.E.H.T.A. Encampment (57.07, 44.28)|
-T Unfit for Death |QID|11865| |N|Borean Tundra, D.E.H.T.A. Encampment (56.81, 44.11)|
-A The Culler Cometh |QID|11868| |N|Borean Tundra, D.E.H.T.A. Encampment (56.81, 44.11)|
-- |QID|11868.1| |QO|Karen \"I Don't Caribou\" the Culler slain: 1/1| |N|Borean Tundra,  (57.20, 56.03)|
-T The Culler Cometh |QID|11868| |N|Borean Tundra, D.E.H.T.A. Encampment (56.81, 44.12)|
-U |cffffffff|Hitem:35228:0:0:0:0:0:0:1684905675:70|h[D.E.H.T.A. Trap Smasher]|h|r |N|Borean Tundra,  (55.10, 42.91)|
-- |QID|11869.1| |QO|Loot Crazed Diver slain: 10/10| |N|Borean Tundra, Lake Kum'uya (50.59, 45.70)|
-- |QID|11884.2| |QO|\"Lunchbox\" slain: 1/1| |N|Borean Tundra,  (47.19, 40.14)|
-- |QID|11884.1| |QO|Nedar, Lord of Rhinos slain: 1/1| |N|Borean Tundra,  (47.19, 40.14)|
-U |cffffffff|Hitem:35228:0:0:0:0:0:0:1684905675:70|h[D.E.H.T.A. Trap Smasher]|h|r |N|Borean Tundra,  (53.80, 40.46)|
-A The Honored Ancestors |QID|11605| |N|Borean Tundra,  (54.69, 35.69)|
-A Reclaiming the Quarry |QID|11612| |N|Borean Tundra,  (54.33, 36.17)|
-- |QID|11876.1| |QO|Mammoth Calf Freed: 8/8| |N|Borean Tundra,  (55.12, 42.85)|
-- |QID|11605.3| |QO|Elder Takret identified: 1/1| |N|Borean Tundra, Coldrock Quarry (52.32, 31.19)|
-- |QID|11605.2| |QO|Elder Sagani identified: 1/1| |N|Borean Tundra, Coldrock Quarry (52.84, 34.05)|
-- |QID|11605.1| |QO|Elder Kesuk identified: 1/1| |N|Borean Tundra, Coldrock Quarry (50.81, 32.38)|
-- |QID|11612.1| |QO|Beryl Treasure Hunter slain: 12/12| |N|Borean Tundra, Coldrock Quarry (51.28, 30.60)|
-T The Honored Ancestors |QID|11605| |N|Borean Tundra,  (54.67, 35.71)|
-A The Lost Spirits |QID|11607| |N|Borean Tundra,  (54.67, 35.71)|
-T Reclaiming the Quarry |QID|11612| |N|Borean Tundra,  (54.32, 36.13)|
-A Hampering Their Escape |QID|11617| |N|Borean Tundra,  (54.32, 36.13)|
-U |cffffffff|Hitem:34772:0:0:0:0:0:0:1474459241:70|h[Gnomish Grenade]|h|r |N|Borean Tundra, Coldrock Quarry (51.91, 34.35)|
-- |QID|11617.1| |QO|East Platform Destroyed: 1/1| |N|Borean Tundra, Coldrock Quarry (52.44, 35.31)|
-U |cffffffff|Hitem:34772:0:0:0:0:0:0:562813210:70|h[Gnomish Grenade]|h|r |N|Borean Tundra, Coldrock Quarry (50.48, 34.84)|
-- |QID|11617.3| |QO|West Platform Destroyed: 1/1| |N|Borean Tundra, Coldrock Quarry (50.48, 34.84)|
-- |QID|11617.2| |QO|North Platform Destroyed: 1/1| |N|Borean Tundra, Coldrock Quarry (51.91, 31.86)|
-U |cffffffff|Hitem:34711:0:0:0:0:0:0:645145120:70|h[Core of Malice]|h|r |N|Borean Tundra, Coldrock Quarry (51.61, 31.18)|
-U |cffffffff|Hitem:34711:0:0:0:0:0:0:1312110754:70|h[Core of Malice]|h|r |N|Borean Tundra, Coldrock Quarry (52.20, 30.94)|
-- |QID|11607.2| |QO|Kaskala Shaman spirits freed: 3/3| |N|Borean Tundra, Coldrock Quarry (52.20, 30.94)|
-- |QID|11607.1| |QO|Kaskala Craftsman spirits freed: 3/3| |N|Borean Tundra, Coldrock Quarry (51.38, 30.91)|
-T The Lost Spirits |QID|11607| |N|Borean Tundra,  (54.77, 35.76)|
-A Picking Up the Pieces |QID|11609| |N|Borean Tundra,  (54.77, 35.76)|
-T Hampering Their Escape |QID|11617| |N|Borean Tundra,  (54.33, 36.16)|
-A A Visit to the Curator |QID|11623| |N|Borean Tundra,  (54.33, 36.16)|
-- |QID|11623.1| |QO|Curator Insivius slain: 1/1| |N|Borean Tundra,  (50.08, 32.73)|
-- |QID|11609.1| |QO|Tuskarr Ritual Object: 6/6| |N|Borean Tundra, Coldrock Quarry (52.53, 31.96)|
-T Picking Up the Pieces |QID|11609| |N|Borean Tundra,  (54.70, 35.70)|
-A Leading the Ancestors Home |QID|11610| |N|Borean Tundra,  (54.92, 36.36)|
-T A Visit to the Curator |QID|11623| |N|Borean Tundra,  (54.31, 36.20)|
-U |cffffffff|Hitem:34715:0:0:0:0:0:0:1809148463:70|h[Tuskarr Ritual Object]|h|r |N|Borean Tundra, Coldrock Quarry (52.85, 34.08)|
-- |QID|11610.2| |QO|Elder Sagani's ceremony completed: 1/1| |N|Borean Tundra, Coldrock Quarry (52.85, 34.08)|
-- |QID|11610.3| |QO|Elder Takret's ceremony completed: 1/1| |N|Borean Tundra, Coldrock Quarry (52.28, 31.17)|
-- |QID|11610.1| |QO|Elder Kesuk's ceremony completed: 1/1| |N|Borean Tundra, Coldrock Quarry (50.95, 32.37)|
-T Leading the Ancestors Home |QID|11610| |N|Borean Tundra,  (54.71, 35.68)|
-T Happy as a Clam |QID|11869| |N|Borean Tundra, D.E.H.T.A. Encampment (57.32, 43.99)|
-A The Abandoned Reach |QID|11870| |N|Borean Tundra, D.E.H.T.A. Encampment (57.19, 44.22)|
-T Ned, Lord of Rhinos... |QID|11884| |N|Borean Tundra, D.E.H.T.A. Encampment (57.19, 44.22)|
-T Help Those That Cannot Help Themselves |QID|11876| |N|Borean Tundra, D.E.H.T.A. Encampment (57.09, 44.37)|
-A Khu'nok Will Know |QID|11878| |N|Borean Tundra, D.E.H.T.A. Encampment (57.09, 44.37)|
-- |QID|11878.1| |QO|Orphaned Mammoth Calf Delivered to Khu'nok| |N|Borean Tundra,  (59.45, 30.69)|
-T Khu'nok Will Know |QID|11878| |N|Borean Tundra,  (59.43, 30.61)|
-A Kaw the Mammoth Destroyer |QID|11879| |N|Borean Tundra,  (59.43, 30.61)|
-N Kaw spawns here |N|Borean Tundra, Kaw's Roost (53.68, 24.37)|
-- |QID|11879.1| |QO|Kaw's War Halberd: 1/1| |N|Borean Tundra, Kaw's Roost (53.85, 23.97)|
-T Distress Call |QID|11707| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
+A Ears of Our Enemies |QID|11866| |N|Take the road north past town to the D.E.H.T.A. Encampment (57.06, 44.27)|
+A Help Those That Cannot Help Themselves |QID|11876|
+A Happy as a Clam |QID|11869|
+A Ned, Lord of Rhinos... |QID|11884|
+A Unfit for Death |QID|11865|
+
+C Unfit for Death |QID|11865| |N|In the field south of the camp, find traps and use the Fake Furs on them.| |U|35127|
+C Happy as a Clam |QID|11869| |N|Due west at Lake Kum'uya|
+C Ears of Our Enemies |QID|11866| |N|Kill divers until you have plenty of ears|
+C Ned, Lord of Rhinos... |QID|11884| |N|On the west side of the lake (47.19, 40.14).  This is flagged as a two-person quest, so if you fail just skip it.|
+
+T Unfit for Death |QID|11865| |N|Back at the D.E.H.T.A. Encampment (56.81, 44.11)|
+A The Culler Cometh |QID|11868|
+T Happy as a Clam |QID|11869|
+A The Abandoned Reach |QID|11870|
+T Ned, Lord of Rhinos... |QID|11884|
+
+C The Culler Cometh |QID|11868| |N|Kill Karen at the far south edge of the field (57.20, 56.03).  You might not be able to take her and the two adds, so focus on killing her then run away if you must.|
+
+T The Abandoned Reach |QID|11870| |N|Down the hill from Karen (57.8, 55.1)|
+A Not On Our Watch |QID|11871|
+C Not On Our Watch |QID|11871| |N|To the southeast|
+T Not On Our Watch |QID|11871|
+A The Nefarious Clam Master... |QID|11872|
+C The Nefarious Clam Master... |QID|11872|
+
+T The Culler Cometh |QID|11868| |N|Back at the D.E.H.T.A. Encampment (56.81, 44.12)|
+T The Nefarious Clam Master... |QID|11872|
+
+A The Honored Ancestors |QID|11605| |N|North at the Coldrock Quarry (54.69, 35.69)|
+A Reclaiming the Quarry |QID|11612|
+C The Honored Ancestors |QID|11605| |N|Find the three elders: Elder Takret (52.32, 31.19), Elder Sagani (52.84, 34.05) and Elder Kesuk (50.81, 32.38)|
+C Reclaiming the Quarry |QID|11612|
+T The Honored Ancestors |QID|11605|
+A The Lost Spirits |QID|11607|
+T Reclaiming the Quarry |QID|11612|
+A Hampering Their Escape |QID|11617|
+C Hampering Their Escape |QID|11617| |N|Kill the Reclaimers for gernades, lob them at the three floating platforms: East (52.44, 35.31), West (50.48, 34.84) and North (51.91, 31.86)| |U|34772|
+C The Lost Spirits |QID|11607| |N|Kill the Hounds then use the Cores on the tuskarr in the quarry| |U|34711|
+T The Lost Spirits |QID|11607|
+A Picking Up the Pieces |QID|11609|
+T Hampering Their Escape |QID|11617|
+A A Visit to the Curator |QID|11623|
+C A Visit to the Curator |QID|11623| |N|Kill Curator Insivius on the non-floatey platform (50.08, 32.73)|
+C Picking Up the Pieces |QID|11609|
+T Picking Up the Pieces |QID|11609|
+A Leading the Ancestors Home |QID|11610|
+T A Visit to the Curator |QID|11623|
+C Leading the Ancestors Home |QID|11610| |N|Use the Ritual Object at each of the elders' stones|
+T Leading the Ancestors Home |QID|11610|
+
+C Help Those That Cannot Help Themselves |QID|11876| |N|East of the quarry.  Use the smasher on the traps.| |U|35228|
+
+T Help Those That Cannot Help Themselves |QID|11876| |N|Back at the D.E.H.T.A. Encampment (57.09, 44.37)|
+A Khu'nok Will Know |QID|11878|
+T Ears of Our Enemies |QID|11866|
+T Khu'nok Will Know |QID|11878| |N|At the far north end of the mammoth field (59.43, 30.61)|
+A Kaw the Mammoth Destroyer |QID|11879|
+C Kaw the Mammoth Destroyer |QID|11879| |N|Hop on a bull and go beat up Kaw to the northwest at Kaw's Roost (53.68, 24.37).  He drops an item anyone can loot so you don't have to group up, but you do have to dismount once he's dead.|
+
+T Distress Call |QID|11707| |N|North at the Fizzcrank Airstrip, upstairs in the inn (57.03, 18.71)|
 A The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
-- |QID|11708.1| |QO|Fizzcrank's tale listened to.| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
+C The Mechagnomes |QID|11708| |N|Listen to Fizzcrank Fullthrottle|
 ]]
 end)
