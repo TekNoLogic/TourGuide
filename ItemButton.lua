@@ -9,6 +9,14 @@ frame:SetWidth(36)
 frame:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -62, 10)
 frame:Hide()
 
+local cooldown = CreateFrame("Cooldown", "TourGuideItemFrameCooldown", frame, "CooldownFrameTemplate")
+cooldown:SetHeight(36)
+cooldown:SetWidth(36)
+cooldown:SetPoint("CENTER", frame, "CENTER", 0, -1)
+cooldown:Hide()
+cooldown:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
+cooldown:SetScript("OnEvent", function() local start,duration = GetItemCooldown(TourGuide:GetObjectiveTag("U")) if start>0 then cooldown:SetCooldown(start,duration) end end )
+
 
 local itemicon = frame:CreateTexture(nil, "ARTWORK")
 itemicon:SetWidth(24) itemicon:SetHeight(24)
