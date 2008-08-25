@@ -29,7 +29,7 @@ T The Befouled Element |O| |QID|1918|
 A Je'neu of the Earthen Ring |QID|824|
 T Torek's Assault |QID|6544|
 A Sharptalon's Claw |U|16305| |O| |QID|2|
-A Ursangous's Paw |U|16305| |O| |QID|23|
+A Ursangous's Paw |U|16303| |O| |QID|23|
 A Shadumbra's Head |U|16304| |O| |QID|24|
 T Sharptalon's Claw |O| |QID|2|
 T Ursangous's Paw |O| |QID|23|

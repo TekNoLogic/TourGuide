@@ -1,5 +1,6 @@
 
 local TourGuide = TourGuide
+local texture, item
 
 
 local frame = CreateFrame("Button", "TourGuideItemFrame", UIParent, "SecureActionButtonTemplate")
@@ -8,6 +9,22 @@ frame:SetHeight(36)
 frame:SetWidth(36)
 frame:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -62, 10)
 frame:Hide()
+
+local cooldown = CreateFrame("Cooldown", nil, frame)
+cooldown:SetAllPoints(frame)
+cooldown:Hide()
+
+local function RefreshCooldown()
+	if not item or not frame:IsVisible() then return end
+	local start, duration, enabled = GetItemCooldown(item)
+	if enabled then
+		cooldown:Show()
+		cooldown:SetCooldown(start, duration)
+	else cooldown:Hide() end
+end
+cooldown:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
+cooldown:SetScript("OnEvent", RefreshCooldown)
+frame:SetScript("OnShow", RefreshCooldown)
 
 
 local itemicon = frame:CreateTexture(nil, "ARTWORK")
@@ -20,7 +37,6 @@ frame:RegisterForClicks("anyUp")
 frame:HookScript("OnClick", function() if TourGuide:GetObjectiveInfo() == "USE" then TourGuide:SetTurnedIn() end end)
 
 
-local texture, item
 local function PLAYER_REGEN_ENABLED(self)
 	if texture then
 		itemicon:SetTexture(texture)

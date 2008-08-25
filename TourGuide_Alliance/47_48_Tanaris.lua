@@ -53,7 +53,7 @@ F Theramore
 T Akiris by the Bundle |QID|623|
 
 F City of Ironforge |N|Boat to Menethil, fly to IF|
-h City of Ironforge
+h Ironforge
 
 F Aerie Peak |N|Hinterlands!|
 T The Newest Member of the Family |N|In the inn, downstairs| |QID|3843|
