@@ -143,72 +143,70 @@ A There Exists No Honor Among Birds |QID|11470|
 C There Exists No Honor Among Birds |QID|11470| |N|Find the vrykul hawk roost near the Stonewall Lift (76.84, 67.42), use the falcon, collect eggs on the cliffs below.| |U|34124|
 T There Exists No Honor Among Birds |QID|11470| |N|Back at the Explorers' League Outpost (75.28, 65.02)|
 
+N TODO: Orfus of Kamagua quests
+
 F Westguard Keep |N|Talk to Walt and take the... flight... to Westguard Keep|
-A Break the Blockade |QID|11153| |N|Howling Fjord, Westguard Keep (28.98, 41.93)|
-A The Clutches of Evil |QID|11157| |N|Howling Fjord, Westguard Keep (28.91, 44.23)|
-T To Westguard Keep! |QID|11291| |N|Howling Fjord, Westguard Keep (28.91, 44.23)|
-T News From the East |QID|11501| |N|Howling Fjord, Westguard Keep (28.91, 44.23)|
-A Shoveltusk Soup Again? |QID|11155| |N|Howling Fjord, Westguard Inn (31.16, 40.90)|
-A Break the Blockade |QID|11153| |N|,  (70.32, 77.39)|
-A One Size Does Not Fit All |QID|11190| |N|Howling Fjord, Westguard Keep (33.95, 43.75)|
-A Root Causes |QID|11182| |N|Howling Fjord, Ember Clutch (36.62, 48.61)|
-- |QID|11157.1| |QO|Proto-Drake Egg destroyed: 15/15| |N|Howling Fjord, Ember Clutch (38.99, 49.24)|
-- |QID|11182.2| |QO|Skeld Drakeson slain: 1/1| |N|Howling Fjord, Ember Clutch (41.42, 52.58)|
-- |QID|11182.1| |QO|Dragonflayer Handler slain: 5/5| |N|Howling Fjord, Ember Clutch (41.01, 51.55)|
-- |QID|11157.2| |QO|Proto-Whelp slain: 15/15| |N|Howling Fjord, Ember Clutch (39.76, 47.26)|
-T Root Causes |QID|11182| |N|Howling Fjord, Ember Clutch (41.12, 49.42)|
-N this guy wanders the burning area |N|Howling Fjord, Ember Clutch (41.12, 49.42)|
-- |QID|11155.1| |QO|Shoveltusk Meat: 6/6| |N|Howling Fjord,  (42.18, 44.22)|
-- |QID|11190.1| |QO|Westguard Cannonball: 10/10| |N|Howling Fjord,  (37.30, 44.61)|
-T One Size Does Not Fit All |QID|11190| |N|Howling Fjord, Westguard Keep (33.95, 43.77)|
-T Shoveltusk Soup Again? |QID|11155| |N|Howling Fjord, Westguard Inn (31.16, 40.88)|
-T The Clutches of Evil |QID|11157| |N|Howling Fjord, Westguard Keep (28.91, 44.14)|
-A Mage-Lieutenant Malister |QID|11187| |N|Howling Fjord, Westguard Keep (28.91, 44.14)|
-T Mage-Lieutenant Malister |QID|11187| |N|Howling Fjord, Westguard Keep (28.91, 44.14)|
-A Two Wrongs... |QID|11188| |N|Howling Fjord, Westguard Keep (28.91, 44.14)|
-U |cffffffff|Hitem:33119:0:0:0:0:0:0:1936621438:70|h[Malister's Frost Wand]|h|r |N|Howling Fjord, Ember Clutch (37.24, 46.82)|
-- |QID|11188.1| |QO|Proto-Drake slain: 3/3| |N|Howling Fjord, Ember Clutch (37.70, 49.04)|
-T Two Wrongs... |QID|11188| |N|Howling Fjord, Westguard Keep (28.92, 44.13)|
+A The Clutches of Evil |QID|11157| |T| |N|UP inside the keep|
+T To Westguard Keep! |QID|11291| |T|
+T News From the East |QID|11501| |T|
+A Shoveltusk Soup Again? |QID|11155| |N|In the inn (31.16, 40.90)| |T|
+A One Size Does Not Fit All |QID|11190| |N|Outside at the cannons (33.95, 43.75)|
+N Meat and balls |N|Kill any shoveltusks you come across for "Shoveltusk Soup Again?" and collect any cannonballs you see for "One Size Does Not Fit All"|
+
+A Root Causes |QID|11182| |N|Find the ancient to the southeast, patrolling around the Ember Clutch|
+C Root Causes |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.42, 52.58)|
+C The Clutches of Evil |QID|11157|
+T Root Causes |QID|11182|
+
+T The Clutches of Evil |QID|11157| |N|Back at the keep (28.91, 44.14)| |T|
+A Mage-Lieutenant Malister |QID|11187| |T|
+T Mage-Lieutenant Malister |QID|11187| |T|
+A Two Wrongs... |QID|11188| |T|
+C Two Wrongs... |QID|11188| |N|Back at the Ember Clutch, use the wand on the flying Proto-Drakes, kill 'em| |U|33119|
+T Two Wrongs... |QID|11188| |N|Back at the keep (28.92, 44.13)| |T|
 A Report to Scout Knowles |QID|11199| |N|Howling Fjord, Westguard Keep (28.92, 44.13)|
-A Danger! Explosives! |QID|11218| |N|Howling Fjord, Westguard Keep (29.11, 41.82)|
-A Send Them Packing |QID|11224| |N|Howling Fjord, Westguard Keep (31.57, 41.53)|
-N enter here |N|Howling Fjord,  (33.83, 33.70)|
-U |cffffffff|Hitem:33190:0:0:0:0:0:0:2001619580:70|h[Steelring's Foolproof Dynamite]|h|r |N|Howling Fjord, Whisper Gulch (33.50, 36.03)|
-- |QID|11218.2| |QO|Whisper Gulch Gem: 18/18| |N|Howling Fjord, Whisper Gulch (33.72, 40.23)|
-- |QID|11218.1| |QO|Whisper Gulch Ore Fragment: 6/6| |N|Howling Fjord, Whisper Gulch (33.88, 39.66)|
-- |QID|11224.1| |QO|Abandoned Pack Mule Sent Packing: 10/10| |N|Howling Fjord, Whisper Gulch (33.38, 36.82)|
-T Send Them Packing |QID|11224| |N|Howling Fjord, Westguard Keep (31.55, 41.49)|
-T Danger! Explosives! |QID|11218| |N|Howling Fjord, Westguard Keep (29.08, 41.85)|
-A Leader of the Deranged |QID|11240| |N|Howling Fjord, Westguard Keep (29.08, 41.85)|
-N cave here |N|Howling Fjord, Whisper Gulch (31.38, 35.39)|
-- |QID|11240.1| |QO|Squeeg Idolhunter slain: 1/1| |N|Howling Fjord, Whisper Gulch (31.66, 34.83)|
-T Leader of the Deranged |QID|11240| |N|Howling Fjord, Westguard Keep (29.09, 41.85)|
-A My Daughter |QID|11175| |N|Howling Fjord, Westguard Keep (31.62, 41.98)|
-T Report to Scout Knowles |QID|11199| |N|Howling Fjord, Ember Spear Tower (44.44, 57.56)|
-A Mission: Eternal Flame |QID|11202| |N|Howling Fjord, Ember Spear Tower (44.44, 57.56)|
-U |cffffffff|Hitem:33164:0:0:0:0:0:0:112328580:70|h[Ever-burning Torches]|h|r |N|Howling Fjord, Halgrind (48.36, 55.89)|
-- |QID|11202.1| |QO|Southwest Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (48.36, 55.89)|
-- |QID|11202.4| |QO|Southeast Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (51.35, 57.81)|
-- |QID|11202.3| |QO|Northeast Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (51.42, 49.93)|
-- |QID|11202.2| |QO|Northwest Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (48.12, 52.97)|
-T Mission: Eternal Flame |QID|11202| |N|Howling Fjord, Ember Spear Tower (44.40, 57.51)|
-A Mission: Package Retrieval |QID|11327| |N|Howling Fjord, Ember Spear Tower (44.40, 57.51)|
-- |QID|11327.1| |QO|Apothecary's Package: 1/1| |N|Howling Fjord, Halgrind (50.79, 53.90)|
-T Mission: Package Retrieval |QID|11327| |N|Howling Fjord, Ember Spear Tower (44.46, 57.71)|
-A Mission: Forsaken Intel |QID|11328| |N|Howling Fjord, Ember Spear Tower (44.46, 57.71)|
-T Mission: Forsaken Intel |QID|11328| |N|Howling Fjord, Westguard Inn (30.80, 41.65)|
-A Absholutely... Thish Will Work! |QID|11330| |N|Howling Fjord, Westguard Inn (30.80, 41.65)|
-U |cffffffff|Hitem:33627:0:0:0:0:0:0:573822918:70|h[Peppy's Special Mix]|h|r |N|Howling Fjord, Westguard Keep (29.41, 43.44)|
-- |QID|11330.1| |QO|Peppy's Mix Administered To The Vrykul Prisoner: 1/1| |N|Howling Fjord, Westguard Keep (29.41, 43.44)|
-T Absholutely... Thish Will Work! |QID|11330| |N|Howling Fjord, Westguard Inn (30.81, 41.62)|
-A You Tell Him ...Hic! |QID|11331| |N|Howling Fjord, Westguard Inn (30.81, 41.62)|
-T You Tell Him ...Hic! |QID|11331| |N|Howling Fjord, Westguard Keep (28.86, 44.10)|
-A Mission: Plague This! |QID|11332| |N|Howling Fjord, Westguard Keep (28.86, 44.10)|
-- |QID|11332.1| |QO|Plague Tank Hits: 5/5| |N|Howling Fjord, New Agamand (50.80, 69.30)|
-N bomb id 33634 |N|Howling Fjord, Halgrind (47.74, 58.11)|
-T Mission: Plague This! |QID|11332| |N|Howling Fjord, Westguard Keep (28.85, 44.07)|
-A Operation: Skornful Wrath |QID|11248| |N|Howling Fjord, Westguard Keep (28.85, 44.07)|
-A Everything Must Be Ready |QID|11406| |N|Howling Fjord, Westguard Keep (30.64, 42.70)|
+
+T Report to Scout Knowles |QID|11199| |N|Southeast, past the Ember Clutch at the Ember Spear Tower (44.44, 57.56)|
+A Mission: Eternal Flame |QID|11202|
+C Mission: Eternal Flame |QID|11202| |U|33164| |N|Use the torch to the northeast to destroy the plague tanks surrounding Halgrind (48.36, 55.89), (51.35, 57.81), (51.42, 49.93), (48.12, 52.97)|
+T Mission: Eternal Flame |QID|11202| |N|Back at the tower (44.40, 57.51)|
+A Mission: Package Retrieval |QID|11327|
+C Mission: Package Retrieval |QID|11327| |N|Find the Apothecary's Package down inside Halgrind (50.79, 53.90)|
+T Mission: Package Retrieval |QID|11327| |N|Back at the towen (44.46, 57.71)|
+A Mission: Forsaken Intel |QID|11328|
+T Mission: Forsaken Intel |QID|11328| |N|Back at Westguard in the Inn (30.80, 41.65)| |T|
+A Absholutely... Thish Will Work! |QID|11330| |T|
+C Absholutely... Thish Will Work! |QID|11330| |N|Use the "Special Mix" on the prisoner inside the keep (29.41, 43.44)| |T|
+T Absholutely... Thish Will Work! |QID|11330| |N|Back at the inn (30.81, 41.62)| |T|
+A You Tell Him ...Hic! |QID|11331| |T|
+T You Tell Him ...Hic! |QID|11331| |N|UP in the keep (28.86, 44.10)| |T|
+A Mission: Plague This! |QID|11332| |T|
+C Mission: Plague This! |QID|11332| |N|Talk to the flightmaster for some bombs and a flight... blow shit up!| |U|33634|
+T Mission: Plague This! |QID|11332| |N|Back in the keep (28.85, 44.07)| |T|
+A Operation: Skornful Wrath |QID|11248| |T|
+
+N TODO: Skorn quests
+
+C Shoveltusk Soup Again? |QID|11155|
+C One Size Does Not Fit All |QID|11190|
+
+T One Size Does Not Fit All |QID|11190| |N|Back in front of Westguard (33.95, 43.77)|
+T Shoveltusk Soup Again? |QID|11155| |N|Back in the Inn (31.16, 40.88)| |T|
+A Danger! Explosives! |QID|11218| |N|Near the zeppy dock (29.11, 41.82)| |T|
+A Send Them Packing |QID|11224| |N|At the stables (31.57, 41.53)| |T|
+C Danger! Explosives! |QID|11218| |N|Exit the keep from behind the stables, work your way north to the gulch entrance (33.83, 33.70).  Blow up the minig nodes and pick up the pieces.| |U|33190|
+C Send Them Packing |QID|11224| |N|/raise your hand at the mules|
+T Send Them Packing |QID|11224| |N|Back at Westguard (31.55, 41.49)| |T|
+T Danger! Explosives! |QID|11218| |T|
+A Leader of the Deranged |QID|11240| |T|
+C Leader of the Deranged |QID|11240| |N|Back to the gulch entrance (33.83, 33.70), hang a right and head west to the cave (31.66, 34.83)|
+T Leader of the Deranged |QID|11240| |N|Back at Westguard (29.09, 41.85)| |T|
+A My Daughter |QID|11175| |N|IN the house near the stables (31.62, 41.98)| |T|
+
+N TODO: Steel Gate quests
+
+A Everything Must Be Ready |QID|11406| |N|At the smithy near the keep (30.64, 42.70)| |T|
+
 A I'll Try Anything! |QID|11329| |N|Howling Fjord, Caldemere Lake (60.20, 18.68)|
 U |cff9d9d9d|Hitem:38520:0:0:0:0:0:0:-1962202983:70|h[Diving Log]|h|r |N|Howling Fjord, Caldemere Lake (62.26, 19.73)|
 - |QID|11329.1| |QO|Northern Barbfish: 7/7| |N|Howling Fjord, Caldemere Lake (64.03, 20.44)|
