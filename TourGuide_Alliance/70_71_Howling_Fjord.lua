@@ -101,68 +101,49 @@ T Out of My Element? |QID|11477|
 N Find a Fjord Grub |N|Under loose rocks all over the place| |L|34102|
 C Trust is Earned |QID|11460| |N|Back at the Explorers' League Outpost (75.27, 64.99).  Feed the grub to the folcon in the cage|
 T Trust is Earned |QID|11460|
+A The Ransacked Caravan |QID|11465|
 T Tools to Get the Job Done |QID|11475|
 A We Can Rebuild It |QID|11483|
 A We Have the Technology |QID|11484|
-A The Ransacked Caravan |QID|11465|
 
-U |cff1eff00|Hitem:35839:0:0:0:0:0:0:159298047:70|h[Runed Clamshell Choker]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff0070dd|Hitem:29334:0:0:0:0:0:0:228671857:70|h[Sethekk Oracle's Focus]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff1eff00|Hitem:35818:0:0:0:0:0:0:576816486:70|h[Stretch-Hide Spaulders]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cffa335ee|Hitem:21874:2979:0:0:0:0:0:90807144:70|h[Primal Mooncloth Shoulders]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff1eff00|Hitem:35832:0:0:0:0:0:0:1685293859:70|h[Blauvelt's Special Occasion Gloves]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cffa335ee|Hitem:29055:2934:0:0:0:0:0:0:70|h[Handwraps of the Incarnate]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff1eff00|Hitem:35814:0:0:0:0:0:0:568883719:70|h[Benevolent Hood]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff0070dd|Hitem:27410:0:0:0:0:0:0:2051038093:70|h[Collar of Command]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff1eff00|Hitem:35827:0:0:0:0:0:0:1743972606:70|h[Regal Sceptre]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-U |cff0070dd|Hitem:25806:0:0:0:0:0:0:1588431717:70|h[Nethekurse's Rod of Torment]|h|r |N|Howling Fjord, Explorers' League Outpost (74.97, 65.19)|
-- |QID|11483.1| |QO|Large Barrel: 1/1| |N|Howling Fjord, Nifflevar (67.67, 54.92)|
-U |cffffffff|Hitem:39505:0:0:0:0:0:0:0:70|h[Scribe Tools]|h|r |N|Dalaran,  (45.94, 38.51)|
-U |cffffffff|Hitem:39354:0:0:0:0:0:0:0:70|h[Light Parchment]|h|r |N|Dalaran,  (45.72, 38.56)|
-U |cffffffff|Hitem:39354:0:0:0:0:0:0:0:70|h[Light Parchment]|h|r |N|Dalaran,  (45.80, 38.53)|
-U |cffffffff|Hitem:39354:0:0:0:0:0:0:0:70|h[Light Parchment]|h|r |N|Dalaran,  (45.71, 38.79)|
-A The Ransacked Caravan |QID|11465| |N|,  (79.79, 84.70)|
-U |cffffffff|Hitem:8485:0:0:0:0:0:0:0:70|h[Cat Carrier (Bombay)]|h|r |N|Dalaran,  (42.47, 79.06)|
-- |QID|11483.3| |QO|Dark Iron Ingots: 1/1| |N|Howling Fjord, Valgarde (60.81, 61.59)|
-- |QID|11484.1| |QO|Pristine Shoveltusk Hide: 1/1| |N|Howling Fjord,  (75.55, 63.84)|
-- |QID|11483.1| |QO|Large Barrel: 1/1| |N|Howling Fjord, Nifflevar (67.70, 54.96)|
-- |QID|11484.2| |QO|Steel Ribbing: 1/1| |N|Howling Fjord, Baleheim (65.15, 40.91)|
-- |QID|11483.2| |QO|Industrial Strength Rope: 1/1| |N|Howling Fjord, Baleheim (64.77, 40.89)|
-U |cffffffff|Hitem:34111:0:0:0:0:0:0:1722023040:70|h[Trained Rock Falcon]|h|r |N|Howling Fjord,  (69.13, 63.04)|
-- |QID|11465.1| |QO|Fjord Turkey: 5/5| |N|Howling Fjord,  (69.30, 65.36)|
-T We Can Rebuild It |QID|11483| |N|Howling Fjord, Explorers' League Outpost (75.05, 65.43)|
-T We Have the Technology |QID|11484| |N|Howling Fjord, Explorers' League Outpost (75.05, 65.43)|
-T The Ransacked Caravan |QID|11465| |N|Howling Fjord, Explorers' League Outpost (75.31, 65.02)|
-A Falcon Versus Hawk |QID|11468| |N|Howling Fjord, Explorers' League Outpost (75.31, 65.02)|
-A Iron Rune Constructs and You: Rocket Jumping |QID|11485| |N|Howling Fjord, Explorers' League Outpost (75.05, 65.43)|
-- |QID|11485.1| |QO|Rocket Jump Mastered| |N|Howling Fjord, Explorers' League Outpost (75.08, 64.55)|
-T Iron Rune Constructs and You: Rocket Jumping |QID|11485| |N|Howling Fjord, Explorers' League Outpost (75.09, 65.43)|
-A Iron Rune Constructs and You: Collecting Data |QID|11489| |N|Howling Fjord, Explorers' League Outpost (75.09, 65.43)|
-- |QID|11489.1| |QO|Test Data Collected: 1/1| |N|Howling Fjord, Explorers' League Outpost (74.82, 65.63)|
-T Iron Rune Constructs and You: Collecting Data |QID|11489| |N|Howling Fjord, Explorers' League Outpost (75.02, 65.51)|
-A Iron Rune Constructs and You: The Bluff |QID|11491| |N|Howling Fjord, Explorers' League Outpost (75.02, 65.51)|
-- |QID|11491.1| |QO|Lebronski Bluffed| |N|Howling Fjord, Explorers' League Outpost (74.79, 65.28)|
-T Iron Rune Constructs and You: The Bluff |QID|11491| |N|Howling Fjord, Explorers' League Outpost (74.99, 65.50)|
-A Lightning Infused Relics |QID|11494| |N|Howling Fjord, Explorers' League Outpost (74.99, 65.50)|
-A The Delicate Sound of Thunder |QID|11495| |N|Howling Fjord, Explorers' League Outpost (74.99, 65.50)|
-N right rune lands here |N|Howling Fjord, Baelgun's Excavation Site (73.31, 73.49)|
-N runes here |N|Howling Fjord, Baelgun's Excavation Site (72.12, 70.39)|
-N lands here |N|Howling Fjord, Baelgun's Excavation Site (74.33, 70.82)|
-- |QID|11495.1| |QO|Thundering Cave Investigated| |N|Howling Fjord, Baelgun's Excavation Site (71.52, 69.85)|
-- |QID|11494.1| |QO|Iron Rune Data Collected: 15/15| |N|Howling Fjord, Baelgun's Excavation Site (71.82, 71.62)|
-T Lightning Infused Relics |QID|11494| |N|Howling Fjord, Explorers' League Outpost (75.08, 65.47)|
-T The Delicate Sound of Thunder |QID|11495| |N|Howling Fjord, Explorers' League Outpost (75.08, 65.47)|
-A Orfus of Kamagua |QID|11573| |N|Howling Fjord, Explorers' League Outpost (74.83, 65.17)|
-A News From the East |QID|11501| |N|Howling Fjord, Explorers' League Outpost (75.05, 65.48)|
-U |cffffffff|Hitem:34121:0:0:0:0:0:0:1399690818:70|h[Trained Rock Falcon]|h|r |N|Howling Fjord,  (73.81, 65.88)|
-- |QID|11468.1| |QO|Fjord Hawk: 10/10| |N|Howling Fjord,  (75.71, 66.56)|
-T Falcon Versus Hawk |QID|11468| |N|Howling Fjord, Explorers' League Outpost (75.28, 65.01)|
-A There Exists No Honor Among Birds |QID|11470| |N|Howling Fjord, Explorers' League Outpost (75.28, 65.01)|
-U |cff1eff00|Hitem:35844:0:0:0:0:0:0:1135218774:70|h[Shock-Resistant Hood]|h|r |N|Howling Fjord, Explorers' League Outpost (75.28, 65.01)|
-U |cffffffff|Hitem:34124:0:0:0:0:0:0:418103168:70|h[Trained Rock Falcon]|h|r |N|Howling Fjord,  (76.86, 67.40)|
-- |QID|11470.1| |QO|Fjord Hawk Egg: 8/8| |N|Howling Fjord,  (76.86, 67.40)|
-N use cage here |N|Howling Fjord,  (76.84, 67.42)|
-T There Exists No Honor Among Birds |QID|11470| |N|Howling Fjord, Explorers' League Outpost (75.28, 65.02)|
+C The Ransacked Caravan |QID|11465| |N|Find some more grubs, then let the falcon loose on some turkeys to the west (69,63)| |U|34111|
+
+K Shoveltusks |N|After a Pristine Hide| |QID|11484| |Q|We Have the Technology| |QO|Pristine Shoveltusk Hide: 1/1|
+N Industrial Strength Rope |Q|We Can Rebuild It| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
+N Large Barrel |Q|We Can Rebuild It| |QO|Large Barrel: 1/1| |N|South in Nifflevar (67.70, 54.96)|
+C We Have the Technology |QID|11484| |N|Keep killin' vrykul|
+C We Can Rebuild It |QID|11483| |N|Take the express harpoon down to Valgarde.  Get the ingots from McGoyver (60.75, 61.45), then takes his flight back to the Explorers' League Outpost.|
+
+T The Ransacked Caravan |QID|11465| |N|Back at the Explorers' League Outpost (75.05, 65.43)|
+A Falcon Versus Hawk |QID|11468|
+T We Can Rebuild It |QID|11483|
+T We Have the Technology |QID|11484|
+A Iron Rune Constructs and You: Rocket Jumping |QID|11485|
+C Iron Rune Constructs and You: Rocket Jumping |QID|11485|
+T Iron Rune Constructs and You: Rocket Jumping |QID|11485|
+A Iron Rune Constructs and You: Collecting Data |QID|11489|
+C Iron Rune Constructs and You: Collecting Data |QID|11489|
+T Iron Rune Constructs and You: Collecting Data |QID|11489|
+A Iron Rune Constructs and You: The Bluff |QID|11491|
+C Iron Rune Constructs and You: The Bluff |QID|11491|
+T Iron Rune Constructs and You: The Bluff |QID|11491|
+A Lightning Infused Relics |QID|11494|
+A The Delicate Sound of Thunder |QID|11495|
+
+C The Delicate Sound of Thunder |QID|11495| |N|South at Baelgun's Excavation Site.  Take the center rune (72.12, 70.39), head up into the cave.|
+C Lightning Infused Relics |QID|11494|
+C Falcon Versus Hawk |QID|11468| |N|Find grubs, send the falcon after hawks| |U|34121|
+
+T Lightning Infused Relics |QID|11494| |N|Back at the Explorers' League Outpost (75.08, 65.47)|
+T The Delicate Sound of Thunder |QID|11495|
+A News From the East |QID|11501|
+A Orfus of Kamagua |QID|11573|
+T Falcon Versus Hawk |QID|11468|
+A There Exists No Honor Among Birds |QID|11470|
+C There Exists No Honor Among Birds |QID|11470| |N|Find the vrykul hawk roost near the Stonewall Lift (76.84, 67.42), use the falcon, collect eggs on the cliffs below.| |U|34124|
+T There Exists No Honor Among Birds |QID|11470| |N|Back at the Explorers' League Outpost (75.28, 65.02)|
+
+F Westguard Keep |N|Talk to Walt and take the... flight... to Westguard Keep|
 A Break the Blockade |QID|11153| |N|Howling Fjord, Westguard Keep (28.98, 41.93)|
 A The Clutches of Evil |QID|11157| |N|Howling Fjord, Westguard Keep (28.91, 44.23)|
 T To Westguard Keep! |QID|11291| |N|Howling Fjord, Westguard Keep (28.91, 44.23)|
