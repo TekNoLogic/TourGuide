@@ -207,84 +207,80 @@ N TODO: Steel Gate quests
 
 A Everything Must Be Ready |QID|11406| |N|At the smithy near the keep (30.64, 42.70)| |T|
 
-A I'll Try Anything! |QID|11329| |N|Howling Fjord, Caldemere Lake (60.20, 18.68)|
-U |cff9d9d9d|Hitem:38520:0:0:0:0:0:0:-1962202983:70|h[Diving Log]|h|r |N|Howling Fjord, Caldemere Lake (62.26, 19.73)|
-- |QID|11329.1| |QO|Northern Barbfish: 7/7| |N|Howling Fjord, Caldemere Lake (64.03, 20.44)|
-T I'll Try Anything! |QID|11329| |N|Howling Fjord, Caldemere Lake (60.32, 18.68)|
-A The One That Got Away |QID|11410| |N|Howling Fjord, Caldemere Lake (60.32, 18.68)|
-U |cffffffff|Hitem:34013:0:0:0:0:0:0:1212778950:70|h[Fresh Barbfish Bait]|h|r |N|Howling Fjord, Caldemere Lake (63.79, 19.42)|
-- |QID|11410.1| |QO|Frostfin slain: 1/1| |N|Howling Fjord, Caldemere Lake (63.79, 19.42)|
-T The One That Got Away |QID|11410| |N|Howling Fjord, Caldemere Lake (60.33, 18.67)|
-A The Enigmatic Frost Nymphs |QID|11302| |N|Howling Fjord, Fort Wildervar (61.79, 17.23)|
-A The Book of Runes |QID|11346| |N|Howling Fjord, Fort Wildervar (62.26, 17.12)|
-T Everything Must Be Ready |QID|11406| |N|Howling Fjord, Fort Wildervar (62.56, 16.82)|
-A Down to the Wire |QID|11269| |N|Howling Fjord, Fort Wildervar (62.56, 16.82)|
-A Preying Upon the Weak |QID|11292| |N|Howling Fjord, Fort Wildervar (62.61, 16.81)|
-A March of the Giants |QID|11355| |N|Howling Fjord, Fort Wildervar (62.58, 16.58)|
-N that's a 2-man quest |N|Howling Fjord, Fort Wildervar (62.58, 16.58)|
-A The Yeti Next Door |QID|11284| |N|Howling Fjord, Fort Wildervar (60.17, 15.74)|
-U |cffffffff|Hitem:33352:0:0:0:0:0:0:692884346:70|h[Tough Ram Meat]|h|r |N|Howling Fjord, Wildervar Mine (60.38, 12.00)|
-U |cffffffff|Hitem:33477:0:0:0:0:0:0:527883880:70|h[Giant Yeti Meal]|h|r |N|Howling Fjord, Wildervar Mine (60.38, 12.00)|
-- |QID|11284.1| |QO|Shatterhorn slain: 1/1| |N|Howling Fjord, Wildervar Mine (60.38, 12.00)|
-T The Yeti Next Door |QID|11284| |N|Howling Fjord, Fort Wildervar (60.16, 15.71)|
-U |cffffffff|Hitem:33806:0:0:0:0:0:0:652475042:70|h[Runeseeking Pick]|h|r |N|Howling Fjord,  (63.98, 29.52)|
-U |cffffffff|Hitem:33778:0:0:0:0:0:0:570683104:70|h[Book of Runes - Chapter 1]|h|r |N|Howling Fjord, Giants' Run (69.47, 27.86)|
-- |QID|11346.1| |QO|The Book of Runes: 1/1| |N|Howling Fjord, Giants' Run (69.47, 27.86)|
-U |cffffffff|Hitem:33458:0:0:0:0:0:0:2061430746:70|h[Scroll of Intellect VI]|h|r |N|Howling Fjord, Giants' Run (69.15, 29.56)|
-U |cffffffff|Hitem:22829:0:0:0:0:0:0:1993252278:70|h[Super Healing Potion]|h|r |N|Howling Fjord, Giants' Run (68.72, 28.96)|
-- |QID|11355.1| |QO|Runed Stone Giant Corpse Analyzed: 4/4| |N|Howling Fjord, Giants' Run (69.79, 28.45)|
-N 58 18 seems a good spot |N|Howling Fjord, The Twisted Glade (55.61, 18.55)|
-- |QID|11269.1| |QO|Spotted Hippogryph Down: 10/10| |N|Howling Fjord,  (52.90, 13.84)|
-- |QID|11292.1| |QO|Trapped Prey: 8/8| |N|Howling Fjord,  (50.05, 17.49)|
-T The Book of Runes |QID|11346| |N|Howling Fjord, Fort Wildervar (62.25, 17.16)|
-A Mastering the Runes |QID|11349| |N|Howling Fjord, Fort Wildervar (62.25, 17.16)|
-T March of the Giants |QID|11355| |N|Howling Fjord, Fort Wildervar (62.52, 16.59)|
-A The Lodestone |QID|11358| |N|Howling Fjord, Fort Wildervar (62.52, 16.59)|
-T Down to the Wire |QID|11269| |N|Howling Fjord, Fort Wildervar (62.57, 16.79)|
-A We Call Him Steelfeather |QID|11418| |N|Howling Fjord, Fort Wildervar (62.57, 16.79)|
-T Preying Upon the Weak |QID|11292| |N|Howling Fjord, Fort Wildervar (62.60, 16.78)|
-U |cffffffff|Hitem:34026:0:0:0:0:0:0:858669380:70|h[Feathered Charm]|h|r |N|Howling Fjord, Fort Wildervar (62.47, 16.37)|
-- |QID|11418.1| |QO|Learn Steelfeather's Secret: 1/1| |N|Howling Fjord, Fort Wildervar (62.47, 16.37)|
-T We Call Him Steelfeather |QID|11418| |N|Howling Fjord, Fort Wildervar (62.57, 16.79)|
-T The Enigmatic Frost Nymphs |QID|11302| |N|Howling Fjord, The Frozen Glade (61.48, 22.79)|
-A Spirits of the Ice |QID|11313| |N|Howling Fjord, The Frozen Glade (61.48, 22.79)|
-- |QID|11313.1| |QO|Icy Core: 15/15| |N|Howling Fjord, The Frozen Glade (62.52, 24.62)|
-T Spirits of the Ice |QID|11313| |N|Howling Fjord, The Frozen Glade (61.49, 22.79)|
-A The Fallen Sisters |QID|11314| |N|Howling Fjord, The Frozen Glade (61.49, 22.79)|
-A Wild Vines |QID|11315| |N|Howling Fjord, The Frozen Glade (61.49, 22.79)|
-U |cffffffff|Hitem:33606:0:0:0:0:0:0:1447531609:71|h[Lurielle's Pendant]|h|r |N|Howling Fjord, The Vibrant Glade (53.10, 27.91)|
-- |QID|11315.1| |QO|Scarlet Ivy slain: 8/8| |N|Howling Fjord, The Vibrant Glade (52.39, 26.98)|
-- |QID|11314.1| |QO|Chill Nymphs Freed: 7/7| |N|Howling Fjord, The Vibrant Glade (52.31, 26.28)|
-T The Fallen Sisters |QID|11314| |N|Howling Fjord, The Frozen Glade (61.48, 22.77)|
-T Wild Vines |QID|11315| |N|Howling Fjord, The Frozen Glade (61.48, 22.77)|
-A Spawn of the Twisted Glade |QID|11316| |N|Howling Fjord, The Frozen Glade (61.48, 22.77)|
-A Seeds of the Blacksouled Keepers |QID|11319| |N|Howling Fjord, The Frozen Glade (61.48, 22.77)|
-- |QID|11316.1| |QO|Thornvine Creeper slain: 10/10| |N|Howling Fjord, The Twisted Glade (54.44, 15.84)|
-- |QID|11319.1| |QO|Spores Shattered: 8/8| |N|Howling Fjord, The Twisted Glade (53.79, 17.13)|
-T Spawn of the Twisted Glade |QID|11316| |N|Howling Fjord, The Frozen Glade (61.52, 22.87)|
-A Keeper Witherleaf |QID|11428| |N|Howling Fjord, The Frozen Glade (61.52, 22.87)|
-T Seeds of the Blacksouled Keepers |QID|11319| |N|Howling Fjord, The Frozen Glade (61.52, 22.87)|
-- |QID|11428.1| |QO|Keeper Witherleaf slain: 1/1| |N|Howling Fjord, The Twisted Glade (53.71, 17.64)|
-T Keeper Witherleaf |QID|11428| |N|Howling Fjord, The Frozen Glade (61.46, 22.80)|
-- |QID|11349.1| |QO|Iron Rune Carving Tools: 1/1| |N|Howling Fjord, Giants' Run (67.56, 23.39)|
-U |cffffffff|Hitem:33819:0:0:0:0:0:0:1184857378:71|h[Rune Sample]|h|r |N|Howling Fjord, Giants' Run (71.66, 17.57)|
-- |QID|11358.1| |QO|Compare Runes with the Broken Tablet: 1/1| |N|Howling Fjord, Giants' Run (71.63, 17.44)|
-T The Lodestone |QID|11358| |N|Howling Fjord, Fort Wildervar (62.63, 16.51)|
-A Demolishing Megalith |QID|11359| |N|Howling Fjord, Fort Wildervar (62.63, 16.51)|
-T Mastering the Runes |QID|11349| |N|Howling Fjord, Fort Wildervar (62.23, 17.16)|
-A The Rune of Command |QID|11348| |N|Howling Fjord, Fort Wildervar (62.23, 17.16)|
-U |cffffffff|Hitem:33796:0:0:0:0:0:0:185369699:71|h[Rune of Command]|h|r |N|Howling Fjord, Giants' Run (70.37, 23.49)|
-- |QID|11348.1| |QO|Test Rune of Command: 1/1| |N|Howling Fjord, Giants' Run (70.37, 23.49)|
-- |QID|11359.1| |QO|Megalith slain: 1/1| |N|Howling Fjord, Frostblade Peak (67.31, 10.35)|
-- |QID|11348.2| |QO|Binder Murdis slain: 1/1| |N|Howling Fjord, Giants' Run (71.79, 24.31)|
-T Demolishing Megalith |QID|11359| |N|Howling Fjord, Fort Wildervar (62.65, 16.50)|
-T The Rune of Command |QID|11348| |N|Howling Fjord, Fort Wildervar (62.25, 17.14)|
-U |cff0070dd|Hitem:27410:0:0:0:0:0:0:2051038093:71|h[Collar of Command]|h|r |N|City of Ironforge, Ironforge (32.70, 57.27)|
-U |cff1eff00|Hitem:35844:0:0:0:0:0:0:1135218774:71|h[Shock-Resistant Hood]|h|r |N|City of Ironforge, Ironforge (32.70, 57.27)|
-U |cffffffff|Hitem:34054:0:0:0:0:0:0:322711164:71|h[Infinite Dust]|h|r |N|City of Ironforge, Vault of Ironforge (36.23, 62.17)|
-U |cff0070dd|Hitem:22449:0:0:0:0:0:0:280181417:71|h[Large Prismatic Shard]|h|r |N|City of Ironforge, Vault of Ironforge (36.23, 62.17)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1988522263:71|h[Frostweave Cloth]|h|r |N|City of Ironforge, Vault of Ironforge (36.23, 62.17)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1759879520:71|h[Frostweave Cloth]|h|r |N|City of Ironforge, Vault of Ironforge (36.23, 62.17)|
-U |cffffffff|Hitem:38682:0:0:0:0:0:0:6819038:71|h[Bleached Vellum]|h|r |N|City of Ironforge, Vault of Ironforge (36.35, 62.15)|
+R Fort Wildervar |N|Take the road out of town, head north then east past Skorn (62,17)|
+A The Enigmatic Frost Nymphs |QID|11302| |T|
+A The Book of Runes |QID|11346| |T|
+T Everything Must Be Ready |QID|11406| |T|
+A Down to the Wire |QID|11269| |T|
+A Preying Upon the Weak |QID|11292| |T|
+A March of the Giants |QID|11355| |T|
+A The Yeti Next Door |QID|11284| |T|
+
+A I'll Try Anything! |QID|11329| |N|Down by the lake (60.20, 18.68)|
+C I'll Try Anything! |QID|11329| |N|Open plants underwater, kill crap|
+T I'll Try Anything! |QID|11329|
+A The One That Got Away |QID|11410|
+C The One That Got Away |QID|11410| |U|34013| |N|Dive down to the boat (63.79, 19.42), use the bait.|
+T The One That Got Away |QID|11410|
+
+N Traps, feathers and rams |N|Open any traps you come across for "Preying Upon the Weak", collect feathers you see for "Down to the Wire" and kill rams for "The Yeti Next Door"|
+
+T The Enigmatic Frost Nymphs |QID|11302| |N|Due south of the lake at the Frozen Glade (61.48, 22.79)|
+A Spirits of the Ice |QID|11313|
+C Spirits of the Ice |QID|11313| |N|All around the Frozen Glade|
+T Spirits of the Ice |QID|11313|
+A The Fallen Sisters |QID|11314|
+A Wild Vines |QID|11315|
+
+C The Fallen Sisters |QID|11314| |N|Southwest at the Vibrant Glade (53,28).  Beat down the nymphs, then use the pendant on them.| |U|33606|
+C Wild Vines |QID|11315|
+
+T The Fallen Sisters |QID|11314| |N|Back at the Frozen Glade (61.48, 22.77)|
+T Wild Vines |QID|11315|
+A Spawn of the Twisted Glade |QID|11316|
+A Seeds of the Blacksouled Keepers |QID|11319|
+
+C Seeds of the Blacksouled Keepers |QID|11319| |N|Northwest at the Twisted Glade (54,16).  Use the core on the spores and kill them.  Make sure the spore is frozen when you kill it or you won't get credit.| |U|33607|
+C Spawn of the Twisted Glade |QID|11316|
+
+T Spawn of the Twisted Glade |QID|11316| |N|Back at the Frozen Glade (61.52, 22.87)|
+A Keeper Witherleaf |QID|11428|
+T Seeds of the Blacksouled Keepers |QID|11319|
+C Keeper Witherleaf |QID|11428| |N|Back at the Twisted Glade (54,17)|
+K Rams |N|Need 4 ram meat for "The Yeti Next Door"| |L|33352 4|
+T Keeper Witherleaf |QID|11428| |N|Back at the Frozen Glade (61.46, 22.80)|
+
+C March of the Giants |QID|11355| |N|Try to do this even though it's a G2 quest, the followups are easier.  Find the runed giants at the east end of the lake.  There's a good number heading north out of Giants' Run towards the mountain (71,17).  Use the pick on them after you kill them.| |U|33806|
+C The Book of Runes |QID|11346| |N|Kill iron dorfs for chapters, then combine them| |U|33778|
+
+T The Book of Runes |QID|11346| |N|Back at Fort Wildervar (62.25, 17.16)| |T|
+A Mastering the Runes |QID|11349| |T|
+T March of the Giants |QID|11355| |T|
+A The Lodestone |QID|11358| |N|Skip this if you skipped "March of the Giants"| |T|
+
+C The Yeti Next Door |QID|11284| |N|Head down into the mine to the sleeping yeti (60.38, 12.00).  Combine the ram meat, use the yeti meal, kill the yeti.| |U|33477|
+T The Yeti Next Door |QID|11284| |N|Back outside the mine (60.16, 15.71)| |T|
+
+C The Lodestone |QID|11358| |N|Back at the north edge of Giants' Run (71.63, 17.44).  Use the rune sample near the tablet.| |U|33819|
+C Mastering the Runes |QID|11349| |N|Find the carving tools in the tents around Giants' Run (69.1, 22.8) (67.5, 23.4) (67.5, 29.2) (71.2, 28.7) (73.4, 25.0) (72.4, 17.8)|
+
+T Mastering the Runes |QID|11349| |N|Back at Fort Wildervar (62.63, 16.51)| |T|
+A The Rune of Command |QID|11348| |T|
+T The Lodestone |QID|11358| |T|
+A Demolishing Megalith |QID|11359| |N|Skip this if you skipped "March of the Giants"| |T|
+
+C Demolishing Megalith |QID|11359| |N|Use the rune on a normal giant, drag him north into the mountains and kill Megalith (67.31, 10.35)| |U|33796|
+C The Rune of Command |QID|11348| |U|33796| |N|Use the rune on a normal giant then kill Binder Murdis.  He should be easy to find, look for a yellow binding ribbon in the middle fo Giants' Run (71.79, 24.31).|
+
+C Down to the Wire |QID|11269|
+C Preying Upon the Weak |QID|11292|
+
+T The Rune of Command |QID|11348| |T| |N|Back at Fort Wildervar (62.25, 17.14)| |T|
+T Demolishing Megalith |QID|11359| |T|
+T Preying Upon the Weak |QID|11292| |T|
+T Down to the Wire |QID|11269| |T|
+A We Call Him Steelfeather |QID|11418| |T|
+C We Call Him Steelfeather |QID|11418| |T| |N|Target Steelfeather and use the charm| |U|34026|
+T We Call Him Steelfeather |QID|11418| |T|
 ]]
 end)
