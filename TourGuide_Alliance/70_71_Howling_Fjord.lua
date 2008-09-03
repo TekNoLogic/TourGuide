@@ -282,5 +282,59 @@ T Down to the Wire |QID|11269| |T|
 A We Call Him Steelfeather |QID|11418| |T|
 C We Call Him Steelfeather |QID|11418| |T| |N|Target Steelfeather and use the charm| |U|34026|
 T We Call Him Steelfeather |QID|11418| |T|
+
+
+A The Cleansing |QID|11322| |N|Howling Fjord, Steel Gate (30.06, 28.70)|
+A Scare the Guano Out of Them! |QID|11154| |N|Howling Fjord, Steel Gate (30.10, 28.75)|
+T My Daughter |QID|11175| |N|Howling Fjord, Steel Gate (30.25, 28.65)|
+A See to the Operations |QID|11176| |N|Howling Fjord, Steel Gate (30.25, 28.65)|
+A Where is Explorer Jaren? |QID|11393| |N|Howling Fjord, Steel Gate (30.25, 28.65)|
+T See to the Operations |QID|11176| |N|Howling Fjord, Steel Gate (30.79, 28.64)|
+A I've Got a Flying Machine! |QID|11390| |N|Howling Fjord, Steel Gate (30.79, 28.64)|
+T Where is Explorer Jaren? |QID|11393| |N|Howling Fjord, Chillmere Coast (24.25, 32.53)|
+A And You Thought Murlocs Smelled Bad! |QID|11394| |N|Howling Fjord, Chillmere Coast (24.25, 32.53)|
+U |cffffffff|Hitem:33961:0:0:0:0:0:0:1005053839:71|h[Scourge Device]|h|r |N|Howling Fjord, Chillmere Coast (22.85, 30.33)|
+A It's a Scourge Device |QID|11395| |N|Howling Fjord, Chillmere Coast (22.85, 30.33)|
+- |QID|11394.1| |QO|Chillmere Coast Scourge Killed: 15/15| |N|Howling Fjord, Chillmere Coast (21.05, 28.51)|
+T And You Thought Murlocs Smelled Bad! |QID|11394| |N|Howling Fjord, Chillmere Coast (24.21, 32.49)|
+T It's a Scourge Device |QID|11395| |N|Howling Fjord, Chillmere Coast (24.21, 32.49)|
+A Bring Down Those Shields |QID|11396| |N|Howling Fjord, Chillmere Coast (24.21, 32.49)|
+U |cffffffff|Hitem:33960:0:0:0:0:0:0:692417814:71|h[Scourging Crystal Controller]|h|r |N|Howling Fjord, Chillmere Coast (22.74, 31.14)|
+- |QID|11396.1| |QO|Scourging Crystals Destroyed: 3/3| |N|Howling Fjord, Chillmere Coast (21.80, 22.47)|
+T Bring Down Those Shields |QID|11396| |N|Howling Fjord, Chillmere Coast (24.21, 32.52)|
+N path down here |N|Howling Fjord,  (27.58, 32.09)|
+N path here |N|Howling Fjord,  (53.65, 8.07)|
+- |QID|11322.1| |QO|Cleansed of Your Inner Turmoil: 1/1| |N|Howling Fjord, Frostblade Peak (61.29, 1.61)|
+U |cffffffff|Hitem:33311:0:0:0:0:0:0:1080193457:71|h[Westguard Command Insignia]|h|r |N|Howling Fjord, Skorn (44.30, 26.48)|
+T Operation: Skornful Wrath |QID|11248| |N|Howling Fjord, Skorn (44.30, 26.48)|
+A Towers of Certain Doom |QID|11245| |N|Howling Fjord, Skorn (44.30, 26.48)|
+A Gruesome, But Necessary |QID|11246| |N|Howling Fjord, Skorn (44.30, 26.48)|
+A Burn Skorn, Burn! |QID|11247| |N|Howling Fjord, Skorn (44.30, 26.48)|
+U |cffffffff|Hitem:33321:0:0:0:0:0:0:965519684:71|h[Sergeant's Torch]|h|r |N|Howling Fjord, Skorn (43.73, 28.29)|
+- |QID|11247.1| |QO|Northwest Longhouse Set Ablaze: 1/1| |N|Howling Fjord, Skorn (43.66, 28.67)|
+U |cffffffff|Hitem:33310:0:0:0:0:0:0:878023264:71|h[The Sergeant's Machete]|h|r |N|Howling Fjord, Skorn (45.05, 28.24)|
+U |cffffffff|Hitem:33314:0:0:0:0:0:0:477390420:71|h[Vrykul Scroll of Ascension]|h|r |N|Howling Fjord, Skorn (45.83, 28.66)|
+A Stop the Ascension! |QID|11249| |N|Howling Fjord, Skorn (45.83, 28.66)|
+- |QID|11247.2| |QO|Northeast Longhouse Set Ablaze: 1/1| |N|Howling Fjord, Skorn (46.38, 28.13)|
+U |cffffffff|Hitem:33323:0:0:0:0:0:0:174915251:71|h[Sergeant's Flare]|h|r |N|Howling Fjord, Skorn (45.95, 29.64)|
+- |QID|11245.1| |QO|Northwest Tower Targeted: 1/1| |N|Howling Fjord, Skorn (44.57, 30.04)|
+- |QID|11245.2| |QO|East Tower Targeted: 1/1| |N|Howling Fjord, Skorn (45.82, 32.14)|
+- |QID|11247.3| |QO|Barracks Set Ablaze: 1/1| |N|Howling Fjord, Skorn (45.94, 30.72)|
+- |QID|11245.3| |QO|Southwest Tower Targeted: 1/1| |N|Howling Fjord, Skorn (43.67, 34.44)|
+- |QID|11246.1| |QO|Winterskorn Vrykul Dismembered: 20/20| |N|Howling Fjord, Skorn (45.02, 35.25)|
+- |QID|11245.4| |QO|Southeast Tower Targeted: 1/1| |N|Howling Fjord, Skorn (46.29, 36.32)|
+T Towers of Certain Doom |QID|11245| |N|Howling Fjord, Skorn (46.22, 36.28)|
+T Gruesome, But Necessary |QID|11246| |N|Howling Fjord, Skorn (46.22, 36.28)|
+T Burn Skorn, Burn! |QID|11247| |N|Howling Fjord, Skorn (46.22, 36.28)|
+- |QID|11250.1| |QO|Westguard Command Insignia: 1/1| |N|Howling Fjord, Skorn (46.22, 36.28)|
+A All Hail the Conqueror of Skorn! |QID|11250| |N|Howling Fjord, Skorn (46.22, 36.28)|
+T All Hail the Conqueror of Skorn! |QID|11250| |N|Howling Fjord, Westguard Keep (28.89, 44.14)|
+U |cff1eff00|Hitem:35904:0:0:0:0:0:0:2036756912:71|h[Puissance-Infused Pendant]|h|r |N|Howling Fjord, Westguard Keep (28.89, 44.14)|
+A Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (28.89, 44.14)|
+A Dealing With Gjalerbron |QID|11235| |N|Howling Fjord, Westguard Keep (28.89, 44.13)|
+A Of Keys and Cages |QID|11231| |N|Howling Fjord, Westguard Keep (28.87, 44.04)|
+T Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (31.28, 44.00)|
+A High Commander Halford Wyrmbane |QID|12298| |N|Howling Fjord, Westguard Keep (31.28, 44.00)|
+T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.57, 48.19)|
 ]]
 end)
