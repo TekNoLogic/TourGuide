@@ -1,4 +1,4 @@
-## Interface: 20400
+## Interface: 30000
 
 ## Title: Tour Guide
 ## Notes: Powerleveling guide framework
@@ -15,6 +15,7 @@
 
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
+## X-LoadOn-LDB-Launcher: Interface\Icons\Ability_Hunter_Pathfinding TourGuideLauncher
 
 Dongle.lua
 tekKonfig\tekKonfig.xml

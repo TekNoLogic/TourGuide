@@ -1,3 +1,29 @@
+3.0.1.36-Beta
+    Add cooldown indicator to item frame
+    Various small guide fixes
+    Make click to open at quest use QID instead of localized text
+    Lots of Horde Hellfire cleanup (guess who has a big sexy tauren DK?)
+    Update AboutPanel embed
+    Dongle update (should fix weird errors some people have seen on load)
+
+3.0.1.35-Beta
+    Make compatible with both live and beta clients
+    Embed update
+
+3.0.1.34-Beta
+    Embed update
+    Fix blank objectives frame
+
+2.4.3.33-Beta
+    Ally hellfire tweaks
+    Ally WPL tweaks
+    SSO tweaks
+
+2.4.3.32-Beta
+    Ally Nagrand tweak
+    Fix bug when moving item button
+    Add in LDB launcher with AddonLoader support
+
 2.4.2.31-Beta
     Ally Nagrand level req notes (I'm leveling too fast this time around, heh)
     Horde Durotar tweaks

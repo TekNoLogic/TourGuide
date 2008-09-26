@@ -7,7 +7,7 @@ T Your Continued Support |QID|11548| |N|I hope you didn't move!|
 A Don't Stop Now.... |QID|11536|
 A Disrupt the Greengill Coast |QID|11541|
 
-N Take reading at Darkspine Shrine |U|34533| |Q|Know Your Ley Lines| |QO|Shrine Reading Taken: 1/1| |N|Down the southwest shore (61.19, 62.52).| |Z|Isle of Quel'Danas|
+N Take reading at Darkspine Shrine |U|34533| |Q|Know Your Ley Lines| |QO|Shrine Reading Taken: 1/1| |N|Down the southeast shore (61.19, 62.52).| |Z|Isle of Quel'Danas|
 C Disrupt the Greengill Coast |QID|11541| |U|34483| |N|Kill Darkspine Sirens along the coast for Control Orbs, then "bomb" murlocs.| |Z|Isle of Quel'Danas|
 C Don't Stop Now.... |QID|11536| |N|Kill Darkspine Myrmidons along the coast for keys, open chests.| |Z|Isle of Quel'Danas|
 
@@ -33,7 +33,7 @@ C The Battle Must Go On |QID|11537| |U|34414| |N|Kill demons around the portal. 
 C Know Your Ley Lines |QID|11547| |U|34533| |N|At the Bloodcrystal to the southwest of Dawning Square (42.80, 36.70).| |Z|Isle of Quel'Danas|
 C Crush the Dawnblade |QID|11540| |N|Summoners and Knights and Marksmen oh my!|
 
-C Further Conversions |QID|11525| |N|Kill Erratic Sentries along the east coast, use the attuned cores on them.| |U|34368|
+C Further Conversions |QID|11525| |N|Kill Erratic Sentries along the west coast, use the attuned cores on them.| |U|34368|
 K Wretched |L|34338 4| |N|Need 4 Mana Remnants for "Arm The Wards!"|
 C Open for Business |QID|11546| |N|Find Bloodberry bushes all over the island.|
 

@@ -25,7 +25,7 @@ local descriptions = {
 local order = {"ACCEPT", "TURNIN", "COMPLETE", "KILL", "SETHEARTH", "HEARTH", "GETFLIGHTPOINT", "FLY", "BUY", "RUN", "USE", "BOAT", "NOTE"}
 
 
-local frame = CreateFrame("Frame", nil, UIParent)
+local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 TourGuide.helppanel = frame
 frame.name = "Help"
 frame.parent = "Tour Guide"

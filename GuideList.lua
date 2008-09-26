@@ -5,7 +5,7 @@ local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 18, 17, 8, 16
 local offset, rows = 0, {}
 
 
-local frame = CreateFrame("Frame", nil, UIParent)
+local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 TourGuide.guidespanel = frame
 frame.name = "Guides"
 frame.parent = "Tour Guide"

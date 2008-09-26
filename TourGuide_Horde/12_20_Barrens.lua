@@ -117,7 +117,6 @@ A Tribes at War |QID|878|
 
 R Thunder Bluff |N|Take the road west into Mulgore, then north at Bloodhoof Village|
 T Apothecary Zamah |N|Cave below Spirit Rise (22.9, 20.9)| |Z|Thunder Bluff| |QID|853|
-A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |QID|1195|
 
 F The Crossroads
 A The Stagnant Oasis |QID|877|
@@ -200,6 +199,9 @@ A Blood Shards of Agamaggan |QID|5052|
 T Blood Shards of Agamaggan |QID|5052|
 A Betrayal from Within (Part 1) |QID|879|
 A Melor Sends Word |QID|1130|
+
+F Thunder Bluff
+A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |QID|1195|
 
 F The Crossroads
 T Stolen Silver |QID|3281|

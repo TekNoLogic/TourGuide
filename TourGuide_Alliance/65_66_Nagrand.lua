@@ -50,7 +50,6 @@ R Telaar |N|Follow the road east from Aeris Landing|
 A The Ravaged Caravan |N|Huntress Kima patrols around Telaar.  You have to be 65 to get this.| |QID|9956|
 A Wanted: Giselda the Crone |N|Off a signpost (54,70)| |QID|9936|
 A Wanted: Zorbo the Advisor |QID|9940|
-A Fierce Enemies |QID|10476|
 A Do My Eyes Deceive Me |QID|9917|
 A The Throne of the Elements |QID|9869|
 A Stopping the Spread |QID|9874|
@@ -157,7 +156,8 @@ C I Must Have Them! |N|Kill air elementals all over the zone| |QID|10109|
 H Telaar
 T Wanted: Giselda the Crone |QID|9936|
 T Wanted: Zorbo the Advisor |QID|9940|
-T Fierce Enemies |QID|10476|
+A Fierce Enemies |QID|10476| |O| |L|25433 10|
+T Fierce Enemies |QID|10476| |O|
 
 T I Must Have Them! |N|Back east of Telaar (61,67)| |QID|10109|
 

@@ -73,7 +73,7 @@ local function CreateButton(parent, ...)
 	-- Fonts --
 	b:SetDisabledFontObject(GameFontDisable)
 	b:SetHighlightFontObject(GameFontHighlight)
-	b:SetTextFontObject(GameFontNormal)
+	if IS_WRATH_BUILD then b:SetNormalFontObject(GameFontNormal) else b:SetTextFontObject(GameFontNormal) end
 
 	-- Textures --
 	b:SetNormalTexture("Interface\\Buttons\\UI-Panel-Button-Up")
@@ -93,11 +93,11 @@ end
 function TourGuide:CreateObjectivePanel()
 	local guidebutton = CreateButton(frame, "BOTTOMRIGHT", -6, 6)
 	guidebutton:SetText("Guides")
-	guidebutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToFrame(TourGuide.guidespanel) end)
+	guidebutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToCategory(TourGuide.guidespanel) end)
 
 	local configbutton = CreateButton(frame, "RIGHT", guidebutton, "LEFT")
 	configbutton:SetText("Config")
-	configbutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToFrame(TourGuide.configpanel) end)
+	configbutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToCategory(TourGuide.configpanel) end)
 
 	if tekDebug then
 		local b = CreateButton(frame, "RIGHT", configbutton, "LEFT")

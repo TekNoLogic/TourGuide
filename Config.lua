@@ -5,7 +5,7 @@ local GAP = 8
 local tekcheck = LibStub("tekKonfig-Checkbox")
 
 
-local frame = CreateFrame("Frame", nil, UIParent)
+local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 TourGuide.configpanel = frame
 frame.name = "Tour Guide"
 frame:Hide()
@@ -60,3 +60,12 @@ frame:SetScript("OnShow", function()
 end)
 
 InterfaceOptions_AddCategory(frame)
+
+
+----------------------------
+--      LDB Launcher      --
+----------------------------
+
+local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
+local dataobj = ldb:GetDataObjectByName("TourGuideLauncher") or ldb:NewDataObject("TourGuideLauncher", {type = "launcher", icon = "Interface\\Icons\\Ability_Hunter_Pathfinding", tocname = "TourGuide"})
+dataobj.OnClick = function() InterfaceOptionsFrame_OpenToCategory(frame) end

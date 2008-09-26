@@ -106,7 +106,7 @@ end
 
 
 function dataobj.OnClick(self, btn)
-	if TourGuide.db.char.currentguide == "No Guide" then InterfaceOptionsFrame_OpenToFrame(TourGuide.guidespanel)
+	if TourGuide.db.char.currentguide == "No Guide" then InterfaceOptionsFrame_OpenToCategory(TourGuide.guidespanel)
 	else
 		if btn == "RightButton" then
 			if TourGuide.objectiveframe:IsVisible() then
@@ -119,7 +119,7 @@ function dataobj.OnClick(self, btn)
 				ShowUIPanel(TourGuide.objectiveframe)
 			end
 		else
-			local i = TourGuide:GetQuestLogIndexByName()
+			local i = TourGuide:GetQuestLogIndexByQID(TourGuide:GetObjectiveTag("QID", TourGuide.current))
 			if i then SelectQuestLogEntry(i) end
 			ShowUIPanel(QuestLogFrame)
 		end
