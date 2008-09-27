@@ -35,8 +35,8 @@ A Burning Blade Medallion |QID|794|
 T Lazy Peons |QID|5441|
 A Thazz'ril's Pick |QID|6394|
 
-C Thazz'ril's Pick |N|In the cave at North end of Valley of Trials. Go straight ahead at the fork. (43.7,53.7)| |QID|6394|
-C Burning Blade Medallion |N|Go back to the fork and take the northern path at the fork. (42.7,52.9)| |QID|794|
+C Thazz'ril's Pick |N|In the cave at North end of Valley of Trials. Go straight ahead at the fork (43.7, 53.7)| |QID|6394|
+C Burning Blade Medallion |N|Go back to the fork and take the northern path (42.7, 52.9)| |QID|794|
 C Call of Earth (Part 1) |C|Shaman| |QID|1516|
 
 H Valley of Trials
@@ -44,11 +44,11 @@ T Burning Blade Medallion |QID|794|
 A Report to Sen'jin Village |QID|805|
 T Call of Earth (Part 1) |C|Shaman| |QID|1516|
 A Call of Earth (Part 2) |C|Shaman| |QID|1517|
-T Call of Earth (Part 2) |C|Shaman| |N|Head south-west to the Hidden Path (41.6,73.2) then follow the path to the Spirit Rock| |QID|1517| |U|6635|
+T Call of Earth (Part 2) |C|Shaman| |N|Head south-west to the Hidden Path (41.6, 73.2) then follow the path to the Spirit Rock| |QID|1517| |U|6635|
 A Call of Earth (Part 3) |C|Shaman| |QID|1518|
 T Call of Earth (Part 3) |C|Shaman| |QID|1518|
 T Thazz'ril's Pick |QID|6394|
-A A Peon's Burden |N|From the orc just outside the newbie area (52.0,68.3)| |QID|2161|
+A A Peon's Burden |N|East out of the Valley of Trials (52.0, 68.3)| |QID|2161|
 
 R Sen'jin Village
 A Thwarting Kolkar Aggression |N|West of Sen'jin Village (54,75)| |QID|786|
@@ -70,70 +70,70 @@ h Razor Hill |T|
 A Carry Your Weight |N|From watch tower northwest of town (49.9,40.3)| |QID|791|
 
 C Vanquish the Betrayers |N|Tiragarde Keep (57,55)| |QID|784|
-N Open the box on the ramparts upstairs from Benedict. |L|4881|
-C Carry Your Weight |QID|791|
+A The Admiral's Orders (Part 1) |U|4881| |QID|830| |N|Open the box on the ramparts upstairs from Benedict (59.32, 57.67).|
 
-R Razor Hill
-A The Admiral's Orders (Part 1) |U|4881| |QID|830|
-T The Admiral's Orders (Part 1) |QID|830|
-A The Admiral's Orders (Part 2) |QID|831|
-T Vanquish the Betrayers |QID|784|
-A From The Wreckage.... |QID|825| |NODEBUG|
-T Carry Your Weight |QID|791|
-C A Solvent Spirit |N|Along the beaches (62,50)| |QID|818|
-C From The Wreckage.... |N|Helps if you have water breathing| |QID|825| |NODEBUG|
-K Razormane Scout |N|Razormane Grounds (51.1,49.4)| |Q|Encroachment| |QO|Razormane Scout: 4/4|
-K Razormane Quilboar |Q|Encroachment| |QO|Razormane Quilboar: 4/4|
+T The Admiral's Orders (Part 1) |QID|830| |T| |N|Back at Razor Hill|
+A The Admiral's Orders (Part 2) |QID|831| |T|
+T Vanquish the Betrayers |QID|784| |T|
+A From The Wreckage.... |QID|825| |NODEBUG| |T|
 
-T From The Wreckage.... |T| |QID|825| |NODEBUG|
+C From The Wreckage.... |N|East of Razor Hill, off the coast (62,50).| |QID|825| |NODEBUG|
+C A Solvent Spirit |N|Along the beaches| |QID|818|
 
-C Thwarting Kolkar Aggression |N|West of Sen'jin, each little camp has an item to pickup. (48,79)| |QID|786|
-C Break a Few Eggs |N|Head over to the Echo Isles (59.6,82.6). Kill Tigers if you see them.| |QID|815|
+C Break a Few Eggs |N|Head over to the Echo Isles (59.6, 82.6)| |QID|815|
 C Practical Prey |QID|817|
 C Minshina's Skull |N|The skull is by the glowing ritual circle above Zalazane (67,87)| |QID|808|
 C Zalazane |N|Zalazane is at (67,86)| |QID|826|
-N Die to respawn at Sen'jin Village
-T Practical Prey |QID|817|
+C Thwarting Kolkar Aggression |N|West of Sen'jin, each little camp has an item to pick up. (48,79)| |QID|786|
+C Carry Your Weight |QID|791|
+
+T Practical Prey |QID|817| |N|Back at Sen'jin Village|
 T A Solvent Spirit |QID|818|
 T Minshina's Skull |QID|808|
 T Zalazane |QID|826|
-N Save quest reward from "Faintly Glowing Skull" for later quest "Burning Shadows"
+N Save quest reward |N|You'll need the "Faintly Glowing Skull" for later quest "Burning Shadows"|
 T Thwarting Kolkar Aggression |QID|786|
+
 H Razor Hill
-T Break a Few Eggs |QID|815|
-C Encroachment |N|(42,38)| |QID|837|
-A Lost But Not Forgotten |N|At the little farm Northwest of Razor Hill (43,30)| |QID|816|
-A Winds in the Desert |N|Follow the canyon/road from Razor Hill to Orgrimmar (46.4,23.0)| |QID|834|
+T From The Wreckage.... |T| |QID|825| |NODEBUG|
+T Break a Few Eggs |QID|815| |T|
+T Carry Your Weight |QID|791| |T|
+
+C Encroachment |N|TO the west of Razor hill, in the camps on both sides of the road (47.60, 48.97) (43.80, 40.55)| |QID|837|
+
+A Lost But Not Forgotten |N|Northwest of Razor Hill at Tor'kren Farm (43.12, 30.21)| |QID|816|
+A Winds in the Desert |N|Follow the canyon north from Razor Hill (46.4, 23.0)| |QID|834|
 C Winds in the Desert |QID|834|
 T Winds in the Desert |QID|834|
 A Securing the Lines |QID|835|
 C Securing the Lines |QID|835|
 T Securing the Lines |QID|835|
 
-T Encroachment |N|Back at Razor Hill| |QID|837|
-N Do Pet Quests |C|Hunter|
-N Train Encrusted Surf Crawler at (57,16)|C|Hunter|
-A Need for a Cure |N|Troll hidden in rocks to the west of Orgrimmar (41.5,18.6)| |QID|812|
+A Need for a Cure |N|Troll north of the west zeplin tower (40.92, 16.42)| |QID|812|
 
 R Orgrimmar
-N Turn in Hunter Beast Quest|C|Hunter|
-T The Admiral's Orders (Part 2) |N|In Thrall's Room (33,37)| |QID|831|
-A Hidden Enemies (Part 1) |QID|5726|
-A Finding the Antidote |N|In the Cleft of Shadow (46,53)| |QID|813|
+T The Admiral's Orders (Part 2) |N|In Thrall's Room (33,37)| |QID|831| |T|
+A Hidden Enemies (Part 1) |QID|5726| |T|
+A Finding the Antidote |N|In the Cleft of Shadow (46,53)| |QID|813| |T|
+
 C Finding the Antidote |N|Head west towards river| |QID|813|
 C Lost But Not Forgotten |QID|816|
+
 T Lost But Not Forgotten |N|At the little farm Northwest of Razor Hill (43,30)| |QID|816|
 T Finding the Antidote |QID|813|
 T Need for a Cure |N|Back to the troll in the rocks outside Orgrimmar (41,18)| |QID|812|
+
 C Dark Storms |N|In the canyons to the Southwest of Orgrimmar (41,26)| |QID|806|
 
-T Dark Storms |N|Back at Razor Hill| |QID|806|
-A Margoz |N|Turn in near the pond southeast of Orgrimmar (56,20)| |QID|828|
-T Margoz |QID|828|
+T Dark Storms |N|Back at Razor Hill| |QID|806| |T|
+A Margoz |QID|828| |T|
+T Encroachment |N|Back at Razor Hill| |QID|837| |T|
+
+T Margoz |QID|828| |N|Near the pond southeast of Orgrimmar (56,20)|
 A Skull Rock |QID|827|
 C Skull Rock |N|Cave to the east of Orgrimmar| |QID|827|
 C Hidden Enemies (Part 1) |QID|5726|
-N Attempt to kill Gazz'uz for item started quest, use "Faintly Glowing Skull" to help
+K Gazz'uz |N|Use the "Faintly Glowing Skull" on him to help.  Skip this if you fail.| |U|4945| |L|4903|
 T Skull Rock |N|Back to Margoz near the pond (56,20)| |QID|827|
 A Neeru Fireblade |QID|829|
 
@@ -141,7 +141,7 @@ T Hidden Enemies (Part 1) |N|In Orgrimmar at Thrall's Chamber (31.9,37.1)| |QID|
 A Hidden Enemies (Part 2) |QID|5727|
 T Neeru Fireblade |N|Neeru Fireblade (49.6,50.4) in the Cleft of Shadow| |QID|829|
 A Ak'Zeloth |QID|809|
-C Hidden Enemies (Part 2) |N|Talk to Neeru Fireblade| |QID|5727|
+C Hidden Enemies (Part 2) |N|Talk to Neeru| |QID|5727|
 A Burning Shadows |U|4903| |O| |QID|832|
 T Burning Shadows |O| |QID|832|
 T Hidden Enemies (Part 2) |N|And back to Thrall! Skip the follow-up.| |QID|5727|

@@ -1,3 +1,4 @@
+if not IS_WRATH_BUILD then InterfaceOptionsFrame_OpenToCategory = InterfaceOptionsFrame_OpenToFrame end
 
 local myfaction = UnitFactionGroup("player")
 local L = TOURGUIDE_LOCALE
@@ -59,7 +60,7 @@ function TourGuide:Initialize()
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {
 		type = "launcher",
 		icon = "Interface\\Icons\\Ability_Rogue_Sprint",
-		OnClick = function() InterfaceOptionsFrame_OpenToFrame(TourGuide.configpanel) end,
+		OnClick = function() InterfaceOptionsFrame_OpenToCategory(TourGuide.configpanel) end,
 	})
 end
 

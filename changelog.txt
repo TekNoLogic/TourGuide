@@ -1,3 +1,8 @@
+3.0.1.37-Beta
+    Update for wrath build 8962 config panel breakage
+    Embed update
+    Durotar cleanup
+
 3.0.1.36-Beta
     Add cooldown indicator to item frame
     Various small guide fixes

@@ -106,7 +106,7 @@ end
 
 
 function dataobj.OnClick(self, btn)
-	if TourGuide.db.char.currentguide == "No Guide" then InterfaceOptionsFrame_OpenToFrame(TourGuide.guidespanel)
+	if TourGuide.db.char.currentguide == "No Guide" then InterfaceOptionsFrame_OpenToCategory(TourGuide.guidespanel)
 	else
 		if btn == "RightButton" then
 			if TourGuide.objectiveframe:IsVisible() then
