@@ -253,3 +253,51 @@ U |cffffffff|Hitem:34620:0:0:0:0:0:0:1784573872:70|h[King Mrgl-Mrgl's Spare Suit
 T Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.50, 13.92)|
 ]]
 end)
+
+--[[
+- |QID|11798.1| |QO|The Gearmaster's Manual researched: 1/1| |N|Borean Tundra, Fizzcrank Pumping Station (64.51, 23.48)|
+- |QID|11798.2| |QO|Mechazod's Head: 1/1| |N|Borean Tundra, Fizzcrank Pumping Station (64.51, 23.33)|
+T The Gearmaster |QID|11798| |N|Borean Tundra, Fizzcrank Airstrip (57.01, 18.68)|
+- |QID|11658.2| |QO|Warsong Banner: 1/1| |N|Borean Tundra, Steeljaw's Caravan (49.68, 26.60)|
+- |QID|11658.1| |QO|Warsong Outfit: 10/10| |N|Borean Tundra, Steeljaw's Caravan (48.00, 21.84)|
+- |QID|11718.1| |QO|Thick Mammoth Hide: 6/6| |N|Borean Tundra,  (55.01, 21.89)|
+T A Bot in Mammoth's Clothing |QID|11718| |N|Borean Tundra, Fizzcrank Airstrip (57.01, 20.16)|
+A Deploy the Shake-n-Quake! |QID|11723| |N|Borean Tundra, Fizzcrank Airstrip (57.01, 20.16)|
+T Plan B |QID|11658| |N|Borean Tundra, Fizzcrank Airstrip (57.79, 18.69)|
+A It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (57.99, 18.63)|
+U |cffffffff|Hitem:34981:0:0:0:0:0:0:2126374622:71|h[Shake-n-Quake 5000 Control Unit]|h|r |N|Borean Tundra, The Geyser Fields (70.03, 37.11)|
+- |QID|11723.2| |QO|Delpoy the Shake-n-Quake 5000: 1/1| |N|Borean Tundra, The Geyser Fields (69.90, 37.07)|
+- |QID|11723.1| |QO|Lord Kryxix slain: 1/1| |N|Borean Tundra, The Geyser Fields (69.74, 36.52)|
+A Ears of Our Enemies |QID|11866| |N|Borean Tundra, D.E.H.T.A. Encampment (57.07, 44.28)|
+A Help Those That Cannot Help Themselves |QID|11876| |N|Borean Tundra, D.E.H.T.A. Encampment (57.07, 44.28)|
+A Ned, Lord of Rhinos... |QID|11884| |N|Borean Tundra, D.E.H.T.A. Encampment (57.34, 44.03)|
+A Happy as a Clam |QID|11869| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.10)|
+A Unfit for Death |QID|11865| |N|Borean Tundra, D.E.H.T.A. Encampment (56.82, 44.05)|
+U |cffffffff|Hitem:35228:0:0:0:0:0:0:1312822543:71|h[D.E.H.T.A. Trap Smasher]|h|r |N|Borean Tundra,  (56.52, 46.15)|
+U |cffffffff|Hitem:35127:0:0:0:0:0:0:1734957689:71|h[Pile of Fake Furs]|h|r |N|Borean Tundra,  (57.68, 50.65)|
+- |QID|11866.1| |QO|Nesingwary Lackey Ear: 15/15| |N|Borean Tundra,  (55.90, 51.93)|
+- |QID|11865.1| |QO|Nesingwary Trapper Trapped: 8/8| |N|Borean Tundra,  (56.85, 51.12)|
+- |QID|11869.1| |QO|Loot Crazed Diver slain: 10/10| |N|Borean Tundra, Lake Kum'uya (51.09, 44.32)|
+- |QID|11876.1| |QO|Mammoth Calf Freed: 8/8| |N|Borean Tundra,  (55.43, 40.85)|
+T Happy as a Clam |QID|11869| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.01)|
+A The Abandoned Reach |QID|11870| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.01)|
+T Ears of Our Enemies |QID|11866| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
+T Help Those That Cannot Help Themselves |QID|11876| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
+A Khu'nok Will Know |QID|11878| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
+T Unfit for Death |QID|11865| |N|Borean Tundra, D.E.H.T.A. Encampment (56.85, 44.08)|
+A The Culler Cometh |QID|11868| |N|Borean Tundra, D.E.H.T.A. Encampment (56.85, 44.08)|
+A Khu'nok Will Know |QID|11878| |N|Borean Tundra, D.E.H.T.A. Encampment (57.08, 44.28)|
+- |QID|11878.1| |QO|Orphaned Mammoth Calf Delivered to Khu'nok| |N|Borean Tundra,  (59.26, 30.46)|
+T Khu'nok Will Know |QID|11878| |N|Borean Tundra,  (59.28, 30.35)|
+A Kaw the Mammoth Destroyer |QID|11879| |N|Borean Tundra,  (59.05, 30.29)|
+- |QID|11879.1| |QO|Kaw's War Halberd: 1/1| |N|Borean Tundra,  (53.97, 23.36)|
+T Deploy the Shake-n-Quake! |QID|11723| |N|Borean Tundra, Fizzcrank Airstrip (57.11, 20.10)|
+U |cffffffff|Hitem:34871:0:0:0:0:0:0:1115193667:71|h[Crafty's Sack]|h|r |N|Borean Tundra, Magmoth (54.94, 12.61)|
+- |QID|11670.2| |QO|Warsong Orc Disguise: 1/1| |N|Borean Tundra, Magmoth (54.94, 12.61)|
+U |cffffffff|Hitem:34870:0:0:0:0:0:0:2069103331:71|h[Warsong Orc Disguise]|h|r |N|Borean Tundra, Magmoth (54.94, 12.61)|
+U |cffffffff|Hitem:34869:0:0:0:0:0:0:-1957428509:71|h[Warsong Banner]|h|r |N|Borean Tundra, Magmoth (55.13, 12.09)|
+- |QID|11670.1| |QO|Warsong Banner Planted in Magmothregar: 1/1| |N|Borean Tundra, Magmoth (55.13, 12.09)|
+T It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (57.61, 18.76)|
+U |cffffffff|Hitem:21877:0:0:0:0:0:0:2123385084:71|h[Netherweave Cloth]|h|r |N|Borean Tundra, Valiance Keep (58.57, 68.62)|
+U |cffffffff|Hitem:21877:0:0:0:0:0:0:-2132841458:71|h[Netherweave Cloth]|h|r |N|Borean Tundra, Valiance Keep (58.57, 68.62)|
+]]

@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Howling Fjord (70-71)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Howling Fjord (70-71)", "Dragonblight (71-72)", "Alliance", function()
 return [[
 A Hell Has Frozen Over... |QID|11228| |N|ON the dock as you get off the ship (61.13, 62.59)| |T|
 T Hell Has Frozen Over... |QID|11228| |N|Just north of the dock (79.76, 84.60)| |T|
@@ -332,3 +332,424 @@ A High Commander Halford Wyrmbane |QID|12298| |N|Howling Fjord, Westguard Keep (
 T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.57, 48.19)|
 ]]
 end)
+
+--[[
+A Have They No Shame? |QID|13094| |N|,  (52.11, 60.99)|
+A Have They No Shame? |QID|13094| |N|Howling Fjord, Valgarde (58.53, 62.73)|
+- |QID|11483.1| |QO|Large Barrel: 1/1| |N|Howling Fjord, Nifflevar (67.29, 56.44)|
+U |cffffffff|Hitem:34032:0:0:0:0:0:0:1795881091:72|h[Harpoon Control Mechanism]|h|r |N|Howling Fjord, Nifflevar (64.75, 52.68)|
+U |cffffffff|Hitem:34124:0:0:0:0:0:0:1660400749:72|h[Trained Rock Falcon]|h|r |N|Howling Fjord,  (77.42, 65.25)|
+- |QID|11470.1| |QO|Fjord Hawk Egg: 8/8| |N|Howling Fjord,  (76.79, 67.92)|
+T There Exists No Honor Among Birds |QID|11470| |N|Howling Fjord, Explorers' League Outpost (75.33, 65.02)|
+- |QID|11504.1| |QO|Fengir's Clue: 1/1| |N|Howling Fjord, Shield Hill (57.70, 77.37)|
+- |QID|11504.2| |QO|Rodin's Clue: 1/1| |N|Howling Fjord, Shield Hill (59.19, 76.99)|
+- |QID|11504.3| |QO|Isuldof's Clue: 1/1| |N|Howling Fjord, Shield Hill (59.77, 79.36)|
+- |QID|11504.4| |QO|Windan's Clue: 1/1| |N|Howling Fjord, Shield Hill (61.95, 80.01)|
+T The Dead Rise! |QID|11504| |N|Howling Fjord, Shield Hill (56.90, 74.65)|
+A Elder Atuik and Kamagua |QID|11507| |N|Howling Fjord, Shield Hill (56.90, 74.65)|
+A Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.07, 56.96)|
+T Elder Atuik and Kamagua |QID|11507| |N|Howling Fjord, Kamagua (25.07, 56.96)|
+A Grezzix Spindlesnap |QID|11508| |N|Howling Fjord, Kamagua (25.07, 56.96)|
+T Grezzix Spindlesnap |QID|11508| |N|Howling Fjord,  (23.05, 62.71)|
+A Street \"Cred\" |QID|11509| |N|Howling Fjord,  (23.05, 62.71)|
+T Street \"Cred\" |QID|11509| |N|Howling Fjord, Scalawag Point (35.11, 80.91)|
+A \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.11, 80.91)|
+A Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.59, 80.32)|
+A Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.73, 79.52)|
+- |QID|11469.1| |QO|Big Roy's Blubber: 1/1| |N|Howling Fjord,  (31.22, 79.18)|
+- |QID|11434.1| |QO|Amani Vase: 1/1| |N|Howling Fjord,  (37.08, 85.50)|
+- |QID|11434.2| |QO|Eagle Figurine: 1/1| |N|Howling Fjord, Garvan's Reef (37.80, 84.59)|
+- |QID|11510.1| |QO|Sin'dorei Scrying Crystal: 1/1| |N|Howling Fjord, Scalawag Point (37.52, 83.79)|
+T Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.76, 79.54)|
+T Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.62, 80.25)|
+A The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.57, 80.51)|
+T \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
+A The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
+A The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
+A The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
+A The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
+A Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.28, 80.42)|
+T The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Garvan's Reef (45.99, 81.99)|
+A Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (45.01, 78.71)|
+- |QID|11527.1| |QO|Barrel of Blasting Powder: 5/5| |N|Howling Fjord, Sorlof's Strand (38.02, 68.55)|
+T Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (38.35, 69.28)|
+A Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (38.25, 69.00)|
+- |QID|11529.1| |QO|Sorlof's Booty: 1/1| |N|Howling Fjord, Sorlof's Strand (41.11, 74.36)|
+T Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (37.19, 74.81)|
+A The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Garvan's Reef (37.19, 74.80)|
+- |QID|11464.1| |QO|\"Silvermoon\" Harry's Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.12, 80.88)|
+T Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.34, 80.53)|
+A Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.34, 80.53)|
+- |QID|11466.1| |QO|Jack Adams' Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.50, 79.42)|
+T Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.25, 80.52)|
+A Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.24, 80.52)|
+- |QID|11567.1| |QO|The Ancient Armor of the Kvaldir: 1/1| |N|Howling Fjord,  (81.76, 73.89)|
+T The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Shield Hill (56.94, 74.59)|
+T The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Shield Hill (56.94, 74.59)|
+- |QID|11467.1| |QO|Black Conrad's Treasure: 1/1| |N|Howling Fjord, The Isle of Spears (32.65, 60.26)|
+- |QID|11456.1| |QO|Island Shoveltusk Meat: 6/6| |N|Howling Fjord, The Isle of Spears (30.90, 61.76)|
+- |QID|11511.1| |QO|The Staff of Storm's Fury: 1/1| |N|Howling Fjord, Iskaal (35.26, 64.77)|
+T Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.05, 57.02)|
+A Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.05, 57.02)|
+A The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.61, 58.78)|
+- |QID|11512.1| |QO|The Frozen Heart of Isuldof: 1/1| |N|Howling Fjord, Garvan's Reef (32.32, 78.69)|
+- |QID|11455.1| |QO|Bear Musk: 4/4| |N|Howling Fjord, Garvan's Reef (33.71, 80.76)|
+U |cffffffff|Hitem:34127:0:0:0:0:0:0:2082196104:72|h[Tasty Reef Fish]|h|r |N|Howling Fjord, Twin Shores (31.42, 73.27)|
+- |QID|11472.1| |QO|Reef Bull led to a Reef Cow| |N|Howling Fjord, Twin Shores (31.40, 71.46)|
+- |QID|11457.1| |QO|Chimaera Horn: 3/3| |N|Howling Fjord, The Isle of Spears (26.96, 66.95)|
+T The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.61, 58.79)|
+T Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.06, 57.01)|
+A Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.06, 57.01)|
+- |QID|11458.1| |QO|Crazed Northsea Slaver slain: 8/8| |N|Howling Fjord, Iskaal (33.86, 63.85)|
+T Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.05, 56.98)|
+A Travel to Moa'ki Harbor |QID|12118| |N|Howling Fjord, Kamagua (24.58, 58.77)|
+T Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.30, 80.59)|
+T The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.65, 80.26)|
+A A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.64, 80.34)|
+T A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.58, 80.57)|
+A Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.57, 80.58)|
+T Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.59, 80.25)|
+A A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.59, 80.25)|
+- |QID|11476.1| |QO|Scalawag Frog: 1/1| |N|Howling Fjord, Scalawag Point (35.51, 81.73)|
+- |QID|11476.2| |QO|Shiny Knife: 1/1| |N|Howling Fjord, Scalawag Point (35.12, 80.91)|
+T A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.52, 80.68)|
+A \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.52, 80.68)|
+- |QID|11479.1| |QO|\"Crowleg\" Dan slain: 1/1| |N|Howling Fjord, Scalawag Point (35.91, 83.61)|
+T \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.62, 80.19)|
+A Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.62, 80.19)|
+T Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.44, 79.42)|
+A The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.44, 79.42)|
+T The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Shield Hill (56.89, 74.69)|
+T The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Shield Hill (56.89, 74.69)|
+A A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.89, 74.69)|
+U |cffffffff|Hitem:34119:0:0:0:0:0:0:678434870:72|h[Black Conrad's Treasure]|h|r |N|Howling Fjord, Shield Hill (56.89, 74.69)|
+- |QID|11568.1| |QO|Shield of the Aesirites Returned: 1/1| |N|Howling Fjord, Shield Hill (57.67, 77.57)|
+- |QID|11568.2| |QO|Staff of Storm's Fury Returned: 1/1| |N|Howling Fjord, Shield Hill (59.22, 76.96)|
+- |QID|11568.3| |QO|Frozen Heart of Isuldof Returned: 1/1| |N|Howling Fjord, Shield Hill (59.73, 79.37)|
+- |QID|11568.4| |QO|Ancient Armor of the Kvaldir Returned: 1/1| |N|Howling Fjord, Shield Hill (61.92, 80.06)|
+T A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.96, 74.65)|
+A Return to Atuik |QID|11572| |N|Howling Fjord, Shield Hill (56.96, 74.65)|
+T Return to Atuik |QID|11572| |N|Howling Fjord, Kamagua (25.04, 56.94)|
+]]
+
+--[[
+- |QID|11344.1| |QO|Secrets of Nifflevar Uncovered| |N|,  (69.67, 77.46)|
+A Have They No Shame? |QID|13094| |N|,  (69.67, 77.46)|
+T Quickening |QID|11911| |N|,  (69.67, 77.46)|
+- |QID|11344.1| |QO|Secrets of Nifflevar Uncovered| |N|Stormwind City, Valley Of Heroes (70.12, 84.24)|
+A Have They No Shame? |QID|13094| |N|Stormwind City, Valley Of Heroes (70.12, 84.24)|
+T Quickening |QID|11911| |N|Stormwind City, Valley Of Heroes (70.12, 84.24)|
+U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:71|h[Hearthstone]|h|r |N|Stormwind City, The Canals (69.59, 45.93)|
+T Anguish of Nifflevar |QID|11344| |N|Howling Fjord, Valgarde (59.75, 61.56)|
+T Quickening |QID|11911| |N|Howling Fjord, Whisper Gulch (35.00, 39.71)|
+U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:71|h[Hearthstone]|h|r |N|Howling Fjord, Whisper Gulch (35.00, 39.71)|
+- |QID|11190.1| |QO|Westguard Cannonball: 10/10| |N|Howling Fjord,  (39.93, 40.42)|
+- |QID|11188.1| |QO|Proto-Drake slain: 3/3| |N|Howling Fjord, Ember Clutch (38.28, 47.47)|
+T One Size Does Not Fit All |QID|11190| |N|Howling Fjord, Westguard Keep (33.99, 43.72)|
+T Two Wrongs... |QID|11188| |N|Howling Fjord, Westguard Keep (28.96, 44.23)|
+A Report to Scout Knowles |QID|11199| |N|Howling Fjord, Westguard Keep (28.93, 44.23)|
+T Postponing the Inevitable |QID|11905| |N|Howling Fjord, Westguard Keep (28.96, 44.23)|
+A Send Them Packing |QID|11224| |N|Howling Fjord, Westguard Keep (31.59, 41.59)|
+T Quickening |QID|11911| |N|,  (70.31, 77.41)|
+- |QID|11224.1| |QO|Abandoned Pack Mule Sent Packing: 10/10| |N|Howling Fjord, Whisper Gulch (35.78, 36.79)|
+T Send Them Packing |QID|11224| |N|Howling Fjord, Westguard Keep (31.58, 41.55)|
+T Report to Scout Knowles |QID|11199| |N|Howling Fjord, Ember Spear Tower (44.43, 57.60)|
+A Mission: Eternal Flame |QID|11202| |N|Howling Fjord, Ember Spear Tower (44.43, 57.60)|
+- |QID|11202.2| |QO|Northwest Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (47.97, 53.10)|
+- |QID|11202.1| |QO|Southwest Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (48.18, 55.96)|
+- |QID|11202.4| |QO|Southeast Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (51.62, 58.07)|
+- |QID|11202.3| |QO|Northeast Plague Tank Destroyed: 1/1| |N|Howling Fjord, Halgrind (51.85, 49.92)|
+T Mission: Eternal Flame |QID|11202| |N|Howling Fjord, Ember Spear Tower (44.44, 57.64)|
+A Mission: Package Retrieval |QID|11327| |N|Howling Fjord, Ember Spear Tower (44.44, 57.64)|
+- |QID|11327.1| |QO|Apothecary's Package: 1/1| |N|Howling Fjord, Halgrind (50.75, 53.95)|
+T Mission: Package Retrieval |QID|11327| |N|Howling Fjord, Ember Spear Tower (44.45, 57.62)|
+A Mission: Forsaken Intel |QID|11328| |N|Howling Fjord, Ember Spear Tower (44.45, 57.62)|
+T Mission: Forsaken Intel |QID|11328| |N|Howling Fjord, Westguard Inn (30.77, 41.64)|
+A Absholutely... Thish Will Work! |QID|11330| |N|Howling Fjord, Westguard Inn (30.77, 41.64)|
+U |cffffffff|Hitem:33627:0:0:0:0:0:0:2106016288:71|h[Peppy's Special Mix]|h|r |N|Howling Fjord, Westguard Keep (29.36, 43.47)|
+- |QID|11330.1| |QO|Peppy's Mix Administered To The Vrykul Prisoner: 1/1| |N|Howling Fjord, Westguard Keep (29.36, 43.47)|
+A Danger! Explosives! |QID|11218| |N|Howling Fjord, Westguard Keep (29.13, 41.84)|
+T Absholutely... Thish Will Work! |QID|11330| |N|Howling Fjord, Westguard Inn (30.78, 41.61)|
+A You Tell Him ...Hic! |QID|11331| |N|Howling Fjord, Westguard Inn (30.88, 41.78)|
+T You Tell Him ...Hic! |QID|11331| |N|Howling Fjord, Westguard Keep (28.88, 44.22)|
+A Mission: Plague This! |QID|11332| |N|Howling Fjord, Westguard Keep (28.88, 44.22)|
+T Quickening |QID|11911| |N|,  (70.46, 78.15)|
+U |cffffffff|Hitem:33190:0:0:0:0:0:0:653773137:71|h[Steelring's Foolproof Dynamite]|h|r |N|Howling Fjord, New Agamand (51.00, 63.31)|
+U |cffffffff|Hitem:33634:0:0:0:0:0:0:1708467246:71|h[Orehammer's Precision Bombs]|h|r |N|Howling Fjord,  (48.59, 66.59)|
+T Quickening |QID|11911| |N|,  (70.75, 77.94)|
+- |QID|11332.1| |QO|Plague Tank Hits: 5/5| |N|Howling Fjord, New Agamand (52.75, 63.15)|
+T Mission: Plague This! |QID|11332| |N|Howling Fjord, Westguard Keep (28.92, 44.22)|
+A Operation: Skornful Wrath |QID|11248| |N|Howling Fjord, Westguard Keep (28.92, 44.22)|
+A Everything Must Be Ready |QID|11406| |N|Howling Fjord, Westguard Keep (30.65, 42.73)|
+A Into Utgarde! |QID|11252| |N|Howling Fjord, Wyrmskull Village (59.52, 48.89)|
+A Disarmament |QID|13205| |N|Howling Fjord, Wyrmskull Village (59.52, 48.89)|
+A Quickening |QID|11911| |N|Howling Fjord, Utgarde Keep (57.26, 46.86)|
+T Quickening |QID|11911| |N|Howling Fjord, Utgarde Keep (57.26, 46.86)|
+A Quickening |QID|11911| |N|Howling Fjord, Utgarde Keep (57.26, 46.86)|
+U |cff0070dd|Hitem:43517:0:0:0:0:0:0:1831094746:71|h[Penguin Egg]|h|r |N|Howling Fjord, Valgarde (59.97, 61.54)|
+- |QID|11218.1| |QO|Whisper Gulch Ore Fragment: 6/6| |N|Howling Fjord, Whisper Gulch (35.29, 38.89)|
+- |QID|11218.2| |QO|Whisper Gulch Gem: 18/18| |N|Howling Fjord, Whisper Gulch (33.76, 38.81)|
+T Danger! Explosives! |QID|11218| |N|Howling Fjord, Westguard Keep (29.11, 41.84)|
+A Leader of the Deranged |QID|11240| |N|Howling Fjord, Westguard Keep (29.11, 41.84)|
+T Into Utgarde! |QID|11252| |N|,  (69.71, 77.43)|
+- |QID|11240.1| |QO|Squeeg Idolhunter slain: 1/1| |N|Howling Fjord, Whisper Gulch (31.72, 34.59)|
+T Leader of the Deranged |QID|11240| |N|Howling Fjord, Westguard Keep (29.13, 41.87)|
+A My Daughter |QID|11175| |N|Howling Fjord, Westguard Keep (31.69, 42.08)|
+- |QID|13205.1| |QO|Vrykul Weapon: 5/5| |N|Howling Fjord, Westguard Keep (30.84, 42.07)|
+A Disarmament |QID|13205| |N|Howling Fjord, Westguard Keep (30.84, 42.07)|
+T Disarmament |QID|13205| |N|Howling Fjord, Wyrmskull Village (59.56, 48.95)|
+T Elder Atuik and Kamagua |QID|11507| |N|Howling Fjord, Kamagua (25.06, 56.96)|
+A Grezzix Spindlesnap |QID|11508| |N|Howling Fjord, Kamagua (25.06, 56.96)|
+A Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.06, 56.96)|
+T Grezzix Spindlesnap |QID|11508| |N|Howling Fjord,  (23.15, 62.66)|
+A Street \"Cred\" |QID|11509| |N|Howling Fjord,  (23.15, 62.66)|
+T Street \"Cred\" |QID|11509| |N|Howling Fjord, Scalawag Point (35.13, 80.94)|
+A \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.13, 80.94)|
+A Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.61, 80.28)|
+- |QID|11510.1| |QO|Sin'dorei Scrying Crystal: 1/1| |N|Howling Fjord, Scalawag Point (36.19, 84.43)|
+- |QID|11434.1| |QO|Amani Vase: 1/1| |N|Howling Fjord,  (37.20, 85.56)|
+- |QID|11434.2| |QO|Eagle Figurine: 1/1| |N|Howling Fjord, Garvan's Reef (37.84, 84.56)|
+A Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.70, 79.56)|
+T Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.65, 80.25)|
+A The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.65, 80.25)|
+T \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
+A The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
+A The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
+A The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
+A The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
+- |QID|11469.1| |QO|Big Roy's Blubber: 1/1| |N|Howling Fjord,  (31.39, 79.00)|
+A Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.29, 80.42)|
+T Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.71, 79.51)|
+- |QID|11464.1| |QO|\"Silvermoon\" Harry's Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.12, 80.97)|
+T Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.27, 80.43)|
+A Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.27, 80.43)|
+- |QID|11466.1| |QO|Jack Adams' Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.48, 79.48)|
+T Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.32, 80.45)|
+A Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.32, 80.45)|
+- |QID|11455.1| |QO|Bear Musk: 4/4| |N|Howling Fjord, Garvan's Reef (33.30, 76.24)|
+- |QID|11512.1| |QO|The Frozen Heart of Isuldof: 1/1| |N|Howling Fjord, Garvan's Reef (32.39, 78.71)|
+- |QID|11456.1| |QO|Island Shoveltusk Meat: 6/6| |N|Howling Fjord, The Isle of Spears (27.28, 63.02)|
+- |QID|11467.1| |QO|Black Conrad's Treasure: 1/1| |N|Howling Fjord, The Isle of Spears (32.64, 60.23)|
+T Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.05, 57.03)|
+A Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.05, 57.03)|
+A The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.61, 58.78)|
+- |QID|11457.1| |QO|Chimaera Horn: 3/3| |N|Howling Fjord, The Isle of Spears (28.56, 69.67)|
+U |cffffffff|Hitem:40946:0:0:0:0:0:0:770491554:71|h[Anuniaq's Net]|h|r |N|Howling Fjord,  (34.68, 68.40)|
+U |cffffffff|Hitem:34127:0:0:0:0:0:0:1403788774:71|h[Tasty Reef Fish]|h|r |N|Howling Fjord, Twin Shores (31.76, 73.58)|
+- |QID|11472.1| |QO|Reef Bull led to a Reef Cow| |N|Howling Fjord, Twin Shores (31.01, 71.82)|
+T The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Garvan's Reef (37.20, 74.77)|
+A Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (37.19, 74.77)|
+- |QID|11527.1| |QO|Barrel of Blasting Powder: 5/5| |N|Howling Fjord, Garvan's Reef (42.27, 77.31)|
+T Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (41.05, 76.18)|
+A Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (41.05, 76.17)|
+- |QID|11529.1| |QO|Sorlof's Booty: 1/1| |N|Howling Fjord, Sorlof's Strand (41.07, 74.26)|
+T Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (37.19, 74.75)|
+A The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Garvan's Reef (37.19, 74.75)|
+- |QID|11511.1| |QO|The Staff of Storm's Fury: 1/1| |N|Howling Fjord, Iskaal (35.26, 64.82)|
+T Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.35, 80.41)|
+T The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.65, 80.24)|
+A A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.65, 80.24)|
+T A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.60, 80.59)|
+A Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.60, 80.59)|
+T Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.65, 80.23)|
+A A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.65, 80.23)|
+- |QID|11476.2| |QO|Shiny Knife: 1/1| |N|Howling Fjord, Scalawag Point (35.13, 80.91)|
+- |QID|11476.1| |QO|Scalawag Frog: 1/1| |N|Howling Fjord, Scalawag Point (35.91, 80.61)|
+T A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.60, 80.62)|
+A \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.60, 80.62)|
+- |QID|11479.1| |QO|\"Crowleg\" Dan slain: 1/1| |N|Howling Fjord, Scalawag Point (35.97, 83.53)|
+T \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.55, 80.27)|
+A Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.55, 80.27)|
+T Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.45, 79.43)|
+A The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.45, 79.43)|
+- |QID|11567.1| |QO|The Ancient Armor of the Kvaldir: 1/1| |N|Howling Fjord,  (81.79, 73.92)|
+T The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
+T The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
+T The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
+T The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
+A A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
+U |cffffffff|Hitem:34119:0:0:0:0:0:0:1318305178:72|h[Black Conrad's Treasure]|h|r |N|Howling Fjord, Shield Hill (56.94, 74.61)|
+- |QID|11568.1| |QO|Shield of the Aesirites Returned: 1/1| |N|Howling Fjord, Shield Hill (57.64, 77.78)|
+- |QID|11568.2| |QO|Staff of Storm's Fury Returned: 1/1| |N|Howling Fjord, Shield Hill (59.30, 76.86)|
+- |QID|11568.3| |QO|Frozen Heart of Isuldof Returned: 1/1| |N|Howling Fjord, Shield Hill (59.90, 79.37)|
+- |QID|11568.4| |QO|Ancient Armor of the Kvaldir Returned: 1/1| |N|Howling Fjord, Shield Hill (61.98, 79.94)|
+T A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.89, 74.68)|
+A Return to Atuik |QID|11572| |N|Howling Fjord, Shield Hill (56.91, 74.77)|
+T The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.63, 58.81)|
+T Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.06, 57.05)|
+A Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.06, 57.05)|
+T Return to Atuik |QID|11572| |N|Howling Fjord, Kamagua (25.06, 57.05)|
+U |cffffffff|Hitem:36777:0:0:0:0:0:0:1852568722:72|h[Horn of Kamagua]|h|r |N|Howling Fjord, Iskaal (33.81, 64.98)|
+- |QID|11458.1| |QO|Crazed Northsea Slaver slain: 8/8| |N|Howling Fjord, Iskaal (33.86, 62.47)|
+- |QID|11471.1| |QO|Jonah Sterling's Spyglass: 1/1| |N|Howling Fjord, Garvan's Reef (33.33, 78.25)|
+T The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.48, 79.43)|
+T Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.04, 56.99)|
+U |cffffffff|Hitem:33311:0:0:0:0:0:0:455526242:72|h[Westguard Command Insignia]|h|r |N|Howling Fjord, Skorn (44.06, 28.71)|
+T Operation: Skornful Wrath |QID|11248| |N|Howling Fjord, Skorn (44.06, 28.71)|
+A Towers of Certain Doom |QID|11245| |N|Howling Fjord, Skorn (44.06, 28.71)|
+A Gruesome, But Necessary |QID|11246| |N|Howling Fjord, Skorn (44.06, 28.71)|
+A Burn Skorn, Burn! |QID|11247| |N|Howling Fjord, Skorn (44.04, 28.68)|
+U |cffffffff|Hitem:33321:0:0:0:0:0:0:1812048518:72|h[Sergeant's Torch]|h|r |N|Howling Fjord, Skorn (43.69, 28.43)|
+- |QID|11247.1| |QO|Northwest Longhouse Set Ablaze: 1/1| |N|Howling Fjord, Skorn (43.69, 28.43)|
+U |cffffffff|Hitem:33310:0:0:0:0:0:0:2013434286:72|h[The Sergeant's Machete]|h|r |N|Howling Fjord, Skorn (43.81, 28.07)|
+U |cffffffff|Hitem:33323:0:0:0:0:0:0:945662114:72|h[Sergeant's Flare]|h|r |N|Howling Fjord, Skorn (43.82, 29.98)|
+- |QID|11245.1| |QO|Northwest Tower Targeted: 1/1| |N|Howling Fjord, Skorn (43.82, 29.98)|
+- |QID|11247.3| |QO|Barracks Set Ablaze: 1/1| |N|Howling Fjord, Skorn (45.89, 30.63)|
+U |cffffffff|Hitem:33314:0:0:0:0:0:0:1492650078:72|h[Vrykul Scroll of Ascension]|h|r |N|Howling Fjord, Skorn (45.72, 30.34)|
+A Stop the Ascension! |QID|11249| |N|Howling Fjord, Skorn (45.70, 30.30)|
+- |QID|11245.2| |QO|East Tower Targeted: 1/1| |N|Howling Fjord, Skorn (46.60, 33.01)|
+- |QID|11245.4| |QO|Southeast Tower Targeted: 1/1| |N|Howling Fjord, Skorn (47.03, 36.64)|
+U |cffffffff|Hitem:33339:0:0:0:0:0:0:1097234876:72|h[Vrykul Scroll of Ascension]|h|r |N|Howling Fjord, Skorn (44.89, 35.32)|
+- |QID|11249.1| |QO|Halfdan the Ice-Hearted slain: 1/1| |N|Howling Fjord, Skorn (44.83, 35.26)|
+- |QID|11245.3| |QO|Southwest Tower Targeted: 1/1| |N|Howling Fjord, Skorn (43.21, 36.03)|
+T Towers of Certain Doom |QID|11245| |N|Howling Fjord, Skorn (43.27, 35.93)|
+- |QID|11247.2| |QO|Northeast Longhouse Set Ablaze: 1/1| |N|Howling Fjord, Skorn (46.32, 28.20)|
+T Burn Skorn, Burn! |QID|11247| |N|Howling Fjord, Skorn (46.32, 28.20)|
+- |QID|11246.1| |QO|Winterskorn Vrykul Dismembered: 20/20| |N|Howling Fjord, Skorn (45.62, 26.60)|
+T Gruesome, But Necessary |QID|11246| |N|Howling Fjord, Skorn (45.62, 26.60)|
+- |QID|11250.1| |QO|Westguard Command Insignia: 1/1| |N|Howling Fjord, Skorn (45.62, 26.60)|
+A All Hail the Conqueror of Skorn! |QID|11250| |N|Howling Fjord, Skorn (45.62, 26.60)|
+A The Yeti Next Door |QID|11284| |N|Howling Fjord, Fort Wildervar (60.17, 15.72)|
+T Everything Must Be Ready |QID|11406| |N|Howling Fjord, Fort Wildervar (62.53, 16.81)|
+A Down to the Wire |QID|11269| |N|Howling Fjord, Fort Wildervar (62.53, 16.81)|
+A Preying Upon the Weak |QID|11292| |N|Howling Fjord, Fort Wildervar (62.61, 16.82)|
+A I'll Try Anything! |QID|11329| |N|Howling Fjord, Fort Wildervar (60.14, 18.59)|
+- |QID|11269.1| |QO|Spotted Hippogryph Down: 10/10| |N|Howling Fjord,  (54.28, 20.56)|
+- |QID|11292.1| |QO|Trapped Prey: 8/8| |N|Howling Fjord,  (55.64, 21.27)|
+T My Daughter |QID|11175| |N|Howling Fjord, Steel Gate (30.23, 28.67)|
+A See to the Operations |QID|11176| |N|Howling Fjord, Steel Gate (30.23, 28.67)|
+A Where is Explorer Jaren? |QID|11393| |N|Howling Fjord, Steel Gate (30.23, 28.67)|
+A Scare the Guano Out of Them! |QID|11154| |N|Howling Fjord, Steel Gate (30.15, 28.75)|
+A The Cleansing |QID|11322| |N|Howling Fjord, Steel Gate (30.07, 28.66)|
+T See to the Operations |QID|11176| |N|Howling Fjord, Steel Gate (30.81, 28.58)|
+A I've Got a Flying Machine! |QID|11390| |N|Howling Fjord, Steel Gate (30.81, 28.58)|
+T Where is Explorer Jaren? |QID|11393| |N|Howling Fjord, Chillmere Coast (24.20, 32.52)|
+A And You Thought Murlocs Smelled Bad! |QID|11394| |N|Howling Fjord, Chillmere Coast (24.20, 32.52)|
+- |QID|11394.1| |QO|Chillmere Coast Scourge Killed: 15/15| |N|Howling Fjord, Chillmere Coast (22.84, 17.23)|
+U |cffffffff|Hitem:33961:0:0:0:0:0:0:2056141440:72|h[Scourge Device]|h|r |N|Howling Fjord, Chillmere Coast (22.84, 17.23)|
+A It's a Scourge Device |QID|11395| |N|Howling Fjord, Chillmere Coast (22.84, 17.23)|
+T And You Thought Murlocs Smelled Bad! |QID|11394| |N|Howling Fjord, Chillmere Coast (24.22, 32.51)|
+T It's a Scourge Device |QID|11395| |N|Howling Fjord, Chillmere Coast (24.22, 32.51)|
+A Bring Down Those Shields |QID|11396| |N|Howling Fjord, Chillmere Coast (24.22, 32.51)|
+U |cffffffff|Hitem:33960:0:0:0:0:0:0:1565703658:72|h[Scourging Crystal Controller]|h|r |N|Howling Fjord, Chillmere Coast (22.08, 28.77)|
+- |QID|11396.1| |QO|Scourging Crystals Destroyed: 3/3| |N|Howling Fjord, Chillmere Coast (21.64, 24.42)|
+T Bring Down Those Shields |QID|11396| |N|Howling Fjord, Chillmere Coast (24.19, 32.51)|
+U |cffffffff|Hitem:33129:0:0:0:0:0:0:2036729272:72|h[Feknut's Firecrackers]|h|r |N|Howling Fjord, Rivenwood (31.09, 20.24)|
+- |QID|11154.1| |QO|Darkclaw Guano: 15/15| |N|Howling Fjord, Rivenwood (31.07, 18.25)|
+T Scare the Guano Out of Them! |QID|11154| |N|Howling Fjord, Steel Gate (30.09, 28.71)|
+T Stop the Ascension! |QID|11249| |N|Howling Fjord, Westguard Keep (28.89, 43.95)|
+T All Hail the Conqueror of Skorn! |QID|11250| |N|Howling Fjord, Westguard Keep (28.82, 44.07)|
+A Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (28.82, 44.07)|
+A Dealing With Gjalerbron |QID|11235| |N|Howling Fjord, Westguard Keep (28.82, 44.07)|
+A Of Keys and Cages |QID|11231| |N|Howling Fjord, Westguard Keep (28.83, 43.97)|
+T Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (31.33, 44.00)|
+A High Commander Halford Wyrmbane |QID|12298| |N|Howling Fjord, Westguard Keep (31.33, 44.00)|
+T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.45, 48.40)|
+A Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (78.27, 48.79)|
+T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
+A Flight of the Wintergarde Defender |QID|12237| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
+T Down to the Wire |QID|11269| |N|Howling Fjord, Fort Wildervar (62.56, 16.82)|
+A We Call Him Steelfeather |QID|11418| |N|Howling Fjord, Fort Wildervar (62.56, 16.82)|
+T Preying Upon the Weak |QID|11292| |N|Howling Fjord, Fort Wildervar (62.61, 16.83)|
+A The Book of Runes |QID|11346| |N|Howling Fjord, Fort Wildervar (62.27, 17.14)|
+A March of the Giants |QID|11355| |N|Howling Fjord, Fort Wildervar (62.53, 16.58)|
+A The Enigmatic Frost Nymphs |QID|11302| |N|Howling Fjord, Fort Wildervar (61.79, 17.15)|
+U |cffffffff|Hitem:34076:0:0:0:0:0:0:351013834:72|h[Fish Bladder]|h|r |N|Howling Fjord, Caldemere Lake (62.04, 18.98)|
+- |QID|11329.1| |QO|Northern Barbfish: 7/7| |N|Howling Fjord, Caldemere Lake (67.72, 20.10)|
+T I'll Try Anything! |QID|11329| |N|Howling Fjord, Caldemere Lake (60.32, 18.67)|
+A The One That Got Away |QID|11410| |N|Howling Fjord, Caldemere Lake (60.32, 18.67)|
+U |cffffffff|Hitem:34013:0:0:0:0:0:0:689364355:72|h[Fresh Barbfish Bait]|h|r |N|Howling Fjord, Caldemere Lake (63.89, 19.94)|
+- |QID|11410.1| |QO|Frostfin slain: 1/1| |N|Howling Fjord, Caldemere Lake (63.90, 19.89)|
+T The One That Got Away |QID|11410| |N|Howling Fjord, Caldemere Lake (60.31, 18.69)|
+- |QID|11418.1| |QO|Learn Steelfeather's Secret: 1/1| |N|Howling Fjord, Fort Wildervar (59.57, 14.30)|
+T We Call Him Steelfeather |QID|11418| |N|Howling Fjord, Fort Wildervar (62.53, 16.75)|
+U |cffffffff|Hitem:33806:0:0:0:0:0:0:280699141:72|h[Runeseeking Pick]|h|r |N|Howling Fjord, Giants' Run (65.80, 29.08)|
+U |cffffffff|Hitem:33779:0:0:0:0:0:0:-1965141396:72|h[Book of Runes - Chapter 2]|h|r |N|Howling Fjord, Giants' Run (67.23, 28.83)|
+U |cffffffff|Hitem:33779:0:0:0:0:0:0:-1965141396:72|h[Book of Runes - Chapter 2]|h|r |N|Howling Fjord, Giants' Run (67.23, 28.83)|
+U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:72|h[Hearthstone]|h|r |N|Howling Fjord, Giants' Run (69.67, 32.68)|
+T The Enigmatic Frost Nymphs |QID|11302| |N|Howling Fjord, The Frozen Glade (61.43, 22.83)|
+A Spirits of the Ice |QID|11313| |N|Howling Fjord, The Frozen Glade (61.43, 22.83)|
+- |QID|11313.1| |QO|Icy Core: 15/15| |N|Howling Fjord, The Frozen Glade (60.75, 22.19)|
+T Spirits of the Ice |QID|11313| |N|Howling Fjord, The Frozen Glade (61.47, 22.82)|
+A The Fallen Sisters |QID|11314| |N|Howling Fjord, The Frozen Glade (61.47, 22.82)|
+A Wild Vines |QID|11315| |N|Howling Fjord, The Frozen Glade (61.47, 22.82)|
+- |QID|11314.1| |QO|Chill Nymphs Freed: 7/7| |N|Howling Fjord, The Vibrant Glade (51.70, 26.36)|
+- |QID|11315.1| |QO|Scarlet Ivy slain: 8/8| |N|Howling Fjord, The Vibrant Glade (50.64, 28.52)|
+T Wild Vines |QID|11315| |N|Howling Fjord, The Frozen Glade (61.46, 22.81)|
+T The Fallen Sisters |QID|11314| |N|Howling Fjord, The Frozen Glade (61.46, 22.81)|
+A Spawn of the Twisted Glade |QID|11316| |N|Howling Fjord, The Frozen Glade (61.46, 22.81)|
+A Seeds of the Blacksouled Keepers |QID|11319| |N|Howling Fjord, The Frozen Glade (61.46, 22.81)|
+- |QID|11316.1| |QO|Thornvine Creeper slain: 10/10| |N|Howling Fjord, The Twisted Glade (55.03, 15.54)|
+- |QID|11319.1| |QO|Spores Shattered: 8/8| |N|Howling Fjord, The Twisted Glade (53.27, 17.57)|
+T Spawn of the Twisted Glade |QID|11316| |N|Howling Fjord, The Frozen Glade (61.45, 22.82)|
+T Seeds of the Blacksouled Keepers |QID|11319| |N|Howling Fjord, The Frozen Glade (61.45, 22.82)|
+A Keeper Witherleaf |QID|11428| |N|Howling Fjord, The Frozen Glade (61.45, 22.82)|
+- |QID|11428.1| |QO|Keeper Witherleaf slain: 1/1| |N|Howling Fjord, The Twisted Glade (53.50, 18.30)|
+T Keeper Witherleaf |QID|11428| |N|Howling Fjord, The Frozen Glade (61.46, 22.81)|
+- |QID|11322.1| |QO|Cleansed of Your Inner Turmoil: 1/1| |N|Howling Fjord, Frostblade Peak (61.17, 2.05)|
+- |QID|11322.1| |QO|Cleansed of Your Inner Turmoil: 1/1| |N|,  (80.43, 68.52)|
+A Have They No Shame? |QID|13094| |N|,  (80.43, 68.52)|
+U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:72|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (81.06, 48.20)|
+A The Book of Runes |QID|11346| |N|Howling Fjord, Fort Wildervar (62.22, 17.22)|
+U |cffffffff|Hitem:33778:0:0:0:0:0:0:588870776:72|h[Book of Runes - Chapter 1]|h|r |N|Howling Fjord, Giants' Run (67.96, 24.11)|
+- |QID|11346.1| |QO|The Book of Runes: 1/1| |N|Howling Fjord, Giants' Run (67.96, 24.11)|
+T The Book of Runes |QID|11346| |N|Howling Fjord, Fort Wildervar (62.20, 17.21)|
+A Mastering the Runes |QID|11349| |N|Howling Fjord, Fort Wildervar (62.20, 17.21)|
+- |QID|11349.1| |QO|Iron Rune Carving Tools: 1/1| |N|Howling Fjord, Giants' Run (67.49, 23.23)|
+T Mastering the Runes |QID|11349| |N|Howling Fjord, Fort Wildervar (62.23, 17.18)|
+A The Rune of Command |QID|11348| |N|Howling Fjord, Fort Wildervar (62.23, 17.18)|
+- |QID|11348.1| |QO|Test Rune of Command: 1/1| |N|Howling Fjord, Giants' Run (71.68, 23.55)|
+- |QID|11348.2| |QO|Binder Murdis slain: 1/1| |N|Howling Fjord, Giants' Run (71.67, 24.35)|
+T The Rune of Command |QID|11348| |N|Howling Fjord, Fort Wildervar (62.22, 17.20)|
+T The Cleansing |QID|11322| |N|Howling Fjord, Steel Gate (30.07, 28.71)|
+A In Worg's Clothing |QID|11325| |N|Howling Fjord, Steel Gate (30.07, 28.71)|
+A I've Got a Flying Machine! |QID|11390| |N|Howling Fjord, Steel Gate (30.81, 28.59)|
+U |cffffffff|Hitem:33289:0:0:0:0:0:0:1026285472:72|h[Gjalerbron Attack Plans]|h|r |N|Howling Fjord, Gjalerbron (34.14, 14.04)|
+A Gjalerbron Attack Plans |QID|11237| |N|Howling Fjord, Gjalerbron (34.14, 14.04)|
+- |QID|11231.1| |QO|Gjalerbron Prisoner Freed: 10/10| |N|Howling Fjord, Gjalerbron (36.17, 12.10)|
+- |QID|11235.2| |QO|Gjalerbron Rune-Caster slain: 8/8| |N|Howling Fjord, Gjalerbron (34.68, 14.54)|
+- |QID|11235.1| |QO|Gjalerbron Warrior slain: 15/15| |N|Howling Fjord, Gjalerbron (34.01, 14.03)|
+- |QID|11235.3| |QO|Gjalerbron Sleep-Watcher slain: 8/8| |N|Howling Fjord, Gjalerbron (34.65, 15.60)|
+U |cffffffff|Hitem:33618:0:0:0:0:0:0:1438460810:72|h[Worg Disguise]|h|r |N|Howling Fjord, Rivenwood (28.80, 7.33)|
+T In Worg's Clothing |QID|11325| |N|Howling Fjord, Rivenwood (29.65, 5.68)|
+A Brother Betrayers |QID|11414| |N|Howling Fjord, Rivenwood (29.65, 5.68)|
+- |QID|11414.1| |QO|Bjomolf slain: 1/1| |N|Howling Fjord,  (27.73, 22.59)|
+- |QID|11414.2| |QO|Varg slain: 1/1| |N|Howling Fjord,  (35.42, 30.78)|
+T Brother Betrayers |QID|11414| |N|Howling Fjord, Rivenwood (29.68, 5.72)|
+A Eyes of the Eagle |QID|11416| |N|Howling Fjord, Rivenwood (29.68, 5.72)|
+T Gjalerbron Attack Plans |QID|11237| |N|Howling Fjord, Westguard Keep (28.99, 44.17)|
+A The Frost Wyrm and its Master |QID|11238| |N|Howling Fjord, Westguard Keep (28.99, 44.17)|
+T Dealing With Gjalerbron |QID|11235| |N|Howling Fjord, Westguard Keep (28.90, 44.22)|
+A Necro Overlord Mezhen |QID|11236| |N|Howling Fjord, Westguard Keep (28.90, 44.22)|
+T Of Keys and Cages |QID|11231| |N|Howling Fjord, Westguard Keep (28.84, 44.02)|
+A In Service to the Light |QID|11239| |N|Howling Fjord, Westguard Keep (28.84, 44.02)|
+A Sleeping Giants |QID|11432| |N|Howling Fjord, Westguard Keep (29.01, 44.17)|
+- |QID|11416.1| |QO|Eyes of the Eagle: 1/1| |N|Howling Fjord,  (41.36, 37.64)|
+U |cffffffff|Hitem:33618:0:0:0:0:0:0:1438460810:72|h[Worg Disguise]|h|r |N|Howling Fjord, Rivenwood (28.86, 7.23)|
+T Eyes of the Eagle |QID|11416| |N|Howling Fjord, Rivenwood (29.64, 5.66)|
+- |QID|11326.2| |QO|Worg Disguise: 1/1| |N|Howling Fjord, Rivenwood (29.64, 5.66)|
+A Alpha Worg |QID|11326| |N|Howling Fjord, Rivenwood (29.64, 5.66)|
+- |QID|11326.1| |QO|Garwal slain: 1/1| |N|Howling Fjord,  (27.33, 16.20)|
+U |cffffffff|Hitem:34083:0:0:0:0:0:0:993771522:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (34.89, 10.23)|
+U |cffffffff|Hitem:34083:0:0:0:0:0:0:2058213798:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (34.04, 9.17)|
+- |QID|11239.2| |QO|Fearsome Horror slain: 4/4| |N|Howling Fjord, The Waking Halls (34.68, 9.32)|
+U |cffffffff|Hitem:34083:0:0:0:0:0:0:1541308507:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (36.19, 6.81)|
+- |QID|11432.1| |QO|Dormant Vrykul slain: 5/5| |N|Howling Fjord, The Waking Halls (36.56, 6.66)|
+- |QID|11239.3| |QO|Putrid Wight slain: 2/2| |N|Howling Fjord, Gjalerbron (33.88, 10.50)|
+- |QID|11239.1| |QO|Deathless Watcher slain: 10/10| |N|Howling Fjord, Gjalerbron (34.14, 10.34)|
+U |cffffffff|Hitem:33451:0:0:0:0:0:0:0:72|h[Fillet of Icefin]|h|r |N|Howling Fjord, Gjalerbron (39.34, 7.98)|
+- |QID|11238.1| |QO|Wyrmcaller Vile slain: 1/1| |N|Howling Fjord, Gjalerbron (36.48, 7.34)|
+- |QID|11238.3| |QO|Wyrmcaller's Horn: 1/1| |N|Howling Fjord, Gjalerbron (36.48, 7.34)|
+U |cffffffff|Hitem:33282:0:0:0:0:0:0:1521273024:72|h[Wyrmcaller's Horn]|h|r |N|Howling Fjord, Gjalerbron (36.94, 7.19)|
+- |QID|11238.2| |QO|Glacion slain: 1/1| |N|Howling Fjord, Gjalerbron (36.72, 7.35)|
+- |QID|11236.1| |QO|Necro Overlord Mezhen slain: 1/1| |N|Howling Fjord, Gjalerbron (38.63, 12.40)|
+T Alpha Worg |QID|11326| |N|Howling Fjord, Steel Gate (30.06, 28.65)|
+T Sleeping Giants |QID|11432| |N|Howling Fjord, Westguard Keep (28.94, 44.23)|
+T The Frost Wyrm and its Master |QID|11238| |N|Howling Fjord, Westguard Keep (28.94, 44.23)|
+T Necro Overlord Mezhen |QID|11236| |N|Howling Fjord, Westguard Keep (28.87, 44.16)|
+T In Service to the Light |QID|11239| |N|Howling Fjord, Westguard Keep (28.84, 43.98)|
+U |cffffffff|Hitem:33352:0:0:0:0:0:0:1529678106:72|h[Tough Ram Meat]|h|r |N|Howling Fjord,  (71.44, 14.85)|
+U |cffffffff|Hitem:33477:0:0:0:0:0:0:607953470:72|h[Giant Yeti Meal]|h|r |N|Howling Fjord, Wildervar Mine (60.41, 11.91)|
+- |QID|11284.1| |QO|Shatterhorn slain: 1/1| |N|Howling Fjord, Wildervar Mine (60.28, 12.01)|
+T The Yeti Next Door |QID|11284| |N|Howling Fjord, Fort Wildervar (60.21, 15.68)|
+]]

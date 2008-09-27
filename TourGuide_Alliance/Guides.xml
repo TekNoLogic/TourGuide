@@ -59,4 +59,6 @@
 
 	<Script file="70_71_Howling_Fjord.lua"/>
 	<Script file="70_71_Borean_Tundra.lua"/>
+	<Script file="71_72_Dragonblight.lua"/>
+	<Script file="72_73_Grizzly_Hills.lua"/>
 </Ui>
