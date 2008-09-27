@@ -1,6 +1,36 @@
 
 TourGuide:RegisterGuide("Howling Fjord (70-71)", nil, "Horde", function()
 return [[
+
+A War is Hell |QID|11270| |N|Howling Fjord, Vengeance Landing (78.63, 31.17)|
+A The New Plague |QID|11167| |N|Howling Fjord, Vengeance Landing (78.59, 29.06)|
+A Let Them Eat Crow |QID|11227| |N|Howling Fjord, Vengeance Landing (79.11, 31.21)|
+U |cffffffff|Hitem:33278:0:0:0:0:0:0:1551911307:70|h[Burning Torch]|h|r |N|Howling Fjord, Bleeding Vale (74.68, 34.14)|
+- |QID|11270.1| |QO|Fallen Combatant burned: 10/10| |N|Howling Fjord, Bleeding Vale (75.93, 31.11)|
+- |QID|11167.1| |QO|Intact Plague Container: 10/10| |N|Howling Fjord,  (80.70, 35.17)|
+T War is Hell |QID|11270| |N|Howling Fjord, Vengeance Landing (78.60, 31.19)|
+A Reports from the Field |QID|11221| |N|Howling Fjord, Vengeance Landing (78.60, 31.19)|
+U |cffffffff|Hitem:33221:0:0:0:0:0:0:848000716:70|h[Plaguehound Cage]|h|r |N|Howling Fjord, Vengeance Landing (78.86, 31.11)|
+U |cffffffff|Hitem:33238:0:0:0:0:0:0:1473467958:70|h[Crow Meat]|h|r |N|Howling Fjord, Bleeding Vale (76.67, 32.07)|
+- |QID|11227.1| |QO|Plaguehound Fed: 8/8| |N|Howling Fjord, Bleeding Vale (76.67, 32.07)|
+T Let Them Eat Crow |QID|11227| |N|Howling Fjord, Vengeance Landing (79.12, 31.25)|
+A Sniff Out the Enemy |QID|11253| |N|Howling Fjord, Vengeance Landing (79.12, 31.25)|
+T The New Plague |QID|11167| |N|Howling Fjord, Vengeance Landing (78.56, 29.07)|
+A Spiking the Mix |QID|11168| |N|Howling Fjord, Vengeance Landing (78.56, 29.07)|
+U |cffffffff|Hitem:33486:0:0:0:0:0:0:1038933822:70|h[Plaguehound Leash]|h|r |N|Howling Fjord, Vengeance Landing (79.02, 30.84)|
+T Sniff Out the Enemy |QID|11253| |N|Howling Fjord,  (75.96, 19.76)|
+A The Dragonskin Map |QID|11254| |N|Howling Fjord,  (75.96, 19.76)|
+- |QID|11168.1| |QO|Giant Toxin Gland: 3/3| |N|Howling Fjord,  (77.31, 21.52)|
+- |QID|11221.1| |QO|Listen to Razael's Report: 1/1| |N|Howling Fjord, Bleeding Vale (77.57, 34.72)|
+- |QID|11221.2| |QO|Listen to Lyana's Report: 1/1| |N|Howling Fjord, Bleeding Vale (79.15, 36.53)|
+T Reports from the Field |QID|11221| |N|Howling Fjord, Vengeance Landing (78.59, 31.19)|
+A The Windrunner Fleet |QID|11229| |N|Howling Fjord, Vengeance Landing (78.59, 31.19)|
+T The Dragonskin Map |QID|11254| |N|Howling Fjord, Vengeance Landing (78.59, 31.19)|
+A The Offensive Begins |QID|11295| |N|Howling Fjord, Vengeance Landing (78.59, 31.19)|
+T Spiking the Mix |QID|11168| |N|Howling Fjord, Vengeance Landing (78.60, 29.03)|
+A Test at Sea |QID|11170| |N|Howling Fjord, Vengeance Landing (78.59, 29.17)|
+
+
 T Seek Out Karuk! |QID|11662| |N|Howling Fjord,  (49.63, 46.31)|
 U |cffffffff|Hitem:33563:0:0:0:0:0:0:1057384771:70|h[Forsaken Banner]|h|r |N|Howling Fjord, Lydell's Ambush (65.72, 36.63)|
 T The Mark of the Nexus-King |QID|10976| |N|Howling Fjord, Baleheim (66.30, 37.78)|
