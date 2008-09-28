@@ -334,6 +334,51 @@ T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep 
 end)
 
 --[[
+- |QID|11322.1| |QO|Cleansed of Your Inner Turmoil: 1/1| |N|,  (70.30, 77.32)|
+U |cffffffff|Hitem:33339:0:0:0:0:0:0:300188906:71|h[Vrykul Scroll of Ascension]|h|r |N|Howling Fjord, Skorn (44.65, 35.30)|
+- |QID|11249.1| |QO|Halfdan the Ice-Hearted slain: 1/1| |N|Howling Fjord, Skorn (44.71, 35.26)|
+T Stop the Ascension! |QID|11249| |N|Howling Fjord, Westguard Keep (28.89, 44.00)|
+T The Cleansing |QID|11322| |N|Howling Fjord, Steel Gate (30.06, 28.66)|
+A In Worg's Clothing |QID|11325| |N|Howling Fjord, Steel Gate (30.06, 28.66)|
+A I've Got a Flying Machine! |QID|11390| |N|Howling Fjord, Steel Gate (30.79, 28.62)|
+- |QID|11390.1| |QO|Sack of Relics Delivered: 3/3| |N|Howling Fjord, Steel Gate (30.81, 28.31)|
+T I've Got a Flying Machine! |QID|11390| |N|Howling Fjord, Steel Gate (30.78, 28.66)|
+A Steel Gate Patrol |QID|11391| |N|Howling Fjord, Steel Gate (30.78, 28.66)|
+- |QID|11391.1| |QO|Gjalerbron Gargoyle slain: 8/8| |N|Howling Fjord, Steel Gate (30.97, 26.53)|
+T Steel Gate Patrol |QID|11391| |N|Howling Fjord, Steel Gate (30.80, 28.66)|
+U |cffffffff|Hitem:33618:0:0:0:0:0:0:1424037975:71|h[Worg Disguise]|h|r |N|Howling Fjord, Rivenwood (28.82, 10.00)|
+T In Worg's Clothing |QID|11325| |N|Howling Fjord, Rivenwood (29.71, 5.59)|
+A Brother Betrayers |QID|11414| |N|Howling Fjord, Rivenwood (29.71, 5.59)|
+- |QID|11414.1| |QO|Bjomolf slain: 1/1| |N|Howling Fjord,  (29.11, 21.71)|
+- |QID|11414.2| |QO|Varg slain: 1/1| |N|Howling Fjord,  (35.41, 31.22)|
+T Brother Betrayers |QID|11414| |N|Howling Fjord, Rivenwood (29.67, 5.63)|
+A Eyes of the Eagle |QID|11416| |N|Howling Fjord, Rivenwood (29.67, 5.63)|
+- |QID|11416.1| |QO|Eyes of the Eagle: 1/1| |N|Howling Fjord,  (41.43, 37.64)|
+T Eyes of the Eagle |QID|11416| |N|Howling Fjord, Rivenwood (29.71, 5.70)|
+- |QID|11326.2| |QO|Worg Disguise: 1/1| |N|Howling Fjord, Rivenwood (29.71, 5.70)|
+A Alpha Worg |QID|11326| |N|Howling Fjord, Rivenwood (29.71, 5.70)|
+- |QID|11326.1| |QO|Garwal slain: 1/1| |N|Howling Fjord, Rivenwood (28.43, 9.80)|
+N pops here |N|Howling Fjord, Rivenwood (28.42, 10.00)|
+T Alpha Worg |QID|11326| |N|Howling Fjord, Steel Gate (30.06, 28.67)|
+U |cffffffff|Hitem:33129:0:0:0:0:0:0:1043711409:71|h[Feknut's Firecrackers]|h|r |N|Howling Fjord, Rivenwood (34.02, 19.46)|
+- |QID|11154.1| |QO|Darkclaw Guano: 15/15| |N|Howling Fjord,  (32.75, 22.00)|
+U |cffffffff|Hitem:33289:0:0:0:0:0:0:-1197594564:71|h[Gjalerbron Attack Plans]|h|r |N|Howling Fjord, Gjalerbron (34.52, 13.08)|
+A Gjalerbron Attack Plans |QID|11237| |N|Howling Fjord, Gjalerbron (34.52, 13.08)|
+- |QID|11231.1| |QO|Gjalerbron Prisoner Freed: 10/10| |N|Howling Fjord, Gjalerbron (35.77, 11.46)|
+U |cffffffff|Hitem:33459:0:0:0:0:0:0:1857945568:71|h[Scroll of Protection VI]|h|r |N|Howling Fjord, Gjalerbron (35.67, 13.08)|
+- |QID|11235.1| |QO|Gjalerbron Warrior slain: 15/15| |N|Howling Fjord, Gjalerbron (35.41, 13.82)|
+- |QID|11235.3| |QO|Gjalerbron Sleep-Watcher slain: 8/8| |N|Howling Fjord, Gjalerbron (39.10, 11.41)|
+- |QID|11235.2| |QO|Gjalerbron Rune-Caster slain: 8/8| |N|Howling Fjord, Gjalerbron (33.46, 12.14)|
+T Of Keys and Cages |QID|11231| |N|Howling Fjord, Westguard Keep (28.88, 44.03)|
+A In Service to the Light |QID|11239| |N|Howling Fjord, Westguard Keep (28.88, 44.03)|
+T Dealing With Gjalerbron |QID|11235| |N|Howling Fjord, Westguard Keep (28.86, 44.09)|
+A Necro Overlord Mezhen |QID|11236| |N|Howling Fjord, Westguard Keep (28.86, 44.09)|
+T Gjalerbron Attack Plans |QID|11237| |N|Howling Fjord, Westguard Keep (28.93, 44.12)|
+A The Frost Wyrm and its Master |QID|11238| |N|Howling Fjord, Westguard Keep (28.93, 44.12)|
+A Sleeping Giants |QID|11432| |N|Howling Fjord, Westguard Keep (28.93, 44.12)|
+]]
+
+--[[
 A Have They No Shame? |QID|13094| |N|,  (52.11, 60.99)|
 A Have They No Shame? |QID|13094| |N|Howling Fjord, Valgarde (58.53, 62.73)|
 - |QID|11483.1| |QO|Large Barrel: 1/1| |N|Howling Fjord, Nifflevar (67.29, 56.44)|
