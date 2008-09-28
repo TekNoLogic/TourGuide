@@ -113,12 +113,12 @@ T Ned, Lord of Rhinos... |QID|11884|
 
 C The Culler Cometh |QID|11868| |N|Kill Karen at the far south edge of the field (57.20, 56.03).  You might not be able to take her and the two adds, so focus on killing her then run away if you must.|
 
-T The Abandoned Reach |QID|11870| |N|Down the hill from Karen (57.8, 55.1)|
+T The Abandoned Reach |QID|11870| |N|Down the hill from Karen (57.74, 55.08)|
 A Not On Our Watch |QID|11871|
 C Not On Our Watch |QID|11871| |N|To the southeast|
-T Not On Our Watch |QID|11871|
+T Not On Our Watch |QID|11871| |N|Back at Hierophant Liandra (57.76, 55.08)|
 A The Nefarious Clam Master... |QID|11872|
-C The Nefarious Clam Master... |QID|11872|
+C The Nefarious Clam Master... |QID|11872| |N|Kill Clam Master K to the southwest at the shipwreck where you found the wine for "In Wine, Truth" (61.61, 66.40)|
 
 T The Culler Cometh |QID|11868| |N|Back at the D.E.H.T.A. Encampment (56.81, 44.12)|
 T The Nefarious Clam Master... |QID|11872|
@@ -154,58 +154,60 @@ T Khu'nok Will Know |QID|11878| |N|At the far north end of the mammoth field (59
 A Kaw the Mammoth Destroyer |QID|11879|
 C Kaw the Mammoth Destroyer |QID|11879| |N|Hop on a bull and go beat up Kaw to the northwest at Kaw's Roost (53.68, 24.37).  He drops an item anyone can loot so you don't have to group up, but you do have to dismount once he's dead.|
 
+R Fizzcrank Airstrip
+f Grab the flight point
+
+T Kaw the Mammoth Destroyer |QID|11879| |N|Back at the D.E.H.T.A. Encampment (57.08, 44.30)|
+A The Assassination of Harold Lane |QID|11892|
+C The Assassination of Harold Lane |QID|11892| |N|To the west by the lake (49.26, 40.52).  Use the horn to call in a stampede that should take care of roughly half his health.  If you fail, skip this.| |U|35293|
+
+T Nick of Time |QID|11575| |N|West up the hill at the Amber Ledge (45.23, 33.48)|
+A Prison Break |QID|11587|
+A Monitoring the Rift: Cleftcliff Anomaly |QID|11576|
+
+C Monitoring the Rift: Cleftcliff Anomaly |QID|11576| |N|Southwest, past Beryl Point, take a little swim to the Westrift (34.36, 42.13).  Use the [Arcanometer]| |U|34669|
+C Prison Break |QID|11587| |N|At Beryl Point (42.74, 36.95)|
+
+T Prison Break |QID|11587| |N|Back up on Amber Ledge (45.19, 33.36)|
+A Abduction |QID|11590|
+
+T Monitoring the Rift: Cleftcliff Anomaly |QID|11576|
+A Monitoring the Rift: Sundered Chasm |QID|11582|
+C Monitoring the Rift: Sundered Chasm |QID|11582| |Swim northeast, dive down to the Sundered Chasm (44.01, 28.63), use the [Arcanometer]| |U|34669|
+T Monitoring the Rift: Sundered Chasm |QID|11582| |N|Back up on Amber Ledge (44.99, 33.52)|
+A Monitoring the Rift: Winterfin Cavern |QID|12728|
+
+C Abduction |QID|11590| |N|Go find a Beryl Sorcerer, beat him a bit, then use the [Arcane Binder] on him.| |U|34691|
+T Abduction |QID|11590| |N|Back up on Amber Ledge (45.21, 33.38)|
+A The Borean Inquisition |QID|11646|
+T The Borean Inquisition |QID|11646| |N|Up in the tower (46.36, 32.83)|
+A The Art of Persuasion |QID|11648|
+C The Art of Persuasion |QID|11648| |N|Stabby stabby!| |U|34811|
+T The Art of Persuasion |QID|11648|
+A Sharing Intelligence |QID|11663|
+T Sharing Intelligence |QID|11663|
+A A Race Against Time |QID|11671|
+C A Race Against Time |QID|11671| |N|Head down to the large round platform (41.79, 39.22), use the [Beryl Shield Detonator], kill Inquisitor Salrand.| |U|34897|
+T A Race Against Time |QID|11671| |N|Back up on Amber Ledge (45.21, 33.44)|
+A Reforging the Key |QID|11679|
+T Reforging the Key |QID|11679|
+A Taking Wing |QID|11680|
+T Taking Wing |QID|11680|
+A Rescuing Evanor |QID|11681|
+T Rescuing Evanor |QID|11681|
+A Dragonspeak |QID|11682|
+T Dragonspeak |QID|11682| |N|Outside at Surristrasz (45.28, 34.22)|
+A Traversing the Rift |QID|11733|
+]]
+end)
+
+--[[
 T Distress Call |QID|11707| |N|North at the Fizzcrank Airstrip, upstairs in the inn (57.03, 18.71)|
 A The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
 C The Mechagnomes |QID|11708| |N|Listen to Fizzcrank Fullthrottle|
 ]]
-end)
-
 
 --[[
-T The Abandoned Reach |QID|11870| |N|Borean Tundra, The Abandoned Reach (57.74, 55.08)|
-A Not On Our Watch |QID|11871| |N|Borean Tundra, The Abandoned Reach (57.74, 55.08)|
-- |QID|11871.1| |QO|Shipment of Animal Parts: 12/12| |N|Borean Tundra, The Abandoned Reach (61.03, 64.12)|
-T Not On Our Watch |QID|11871| |N|Borean Tundra, The Abandoned Reach (57.76, 55.08)|
-A The Nefarious Clam Master... |QID|11872| |N|Borean Tundra, The Abandoned Reach (57.76, 55.08)|
-- |QID|11872.1| |QO|Clam Master K slain: 1/1| |N|Borean Tundra,  (61.61, 66.40)|
-T Kaw the Mammoth Destroyer |QID|11879| |N|Borean Tundra, D.E.H.T.A. Encampment (57.08, 44.30)|
-T The Nefarious Clam Master... |QID|11872| |N|Borean Tundra, D.E.H.T.A. Encampment (57.29, 44.09)|
-U |cff1eff00|Hitem:37015:0:0:0:0:0:0:1354754269:70|h[Dowsing Rod]|h|r |N|Borean Tundra, D.E.H.T.A. Encampment (57.29, 44.09)|
-A The Assassination of Harold Lane |QID|11892| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
-U |cffffffff|Hitem:33444:0:0:0:0:0:0:913720081:70|h[Pungent Seal Whey]|h|r |N|Borean Tundra,  (49.36, 40.68)|
-- |QID|11892.1| |QO|Harold Lane slain: 1/1| |N|Borean Tundra,  (49.26, 40.52)|
-T Nick of Time |QID|11575| |N|Borean Tundra, Amber Ledge (45.23, 33.48)|
-A Prison Break |QID|11587| |N|Borean Tundra, Amber Ledge (45.23, 33.48)|
-A Monitoring the Rift: Cleftcliff Anomaly |QID|11576| |N|Borean Tundra, Amber Ledge (44.96, 33.47)|
-- |QID|11587.1| |QO|Arcane Prisoners Rescued: 1/1| |N|Borean Tundra, Beryl Point (42.74, 36.95)|
-T Prison Break |QID|11587| |N|Borean Tundra, Amber Ledge (45.19, 33.36)|
-A Abduction |QID|11590| |N|Borean Tundra, Amber Ledge (45.19, 33.36)|
-U |cffffffff|Hitem:34669:0:0:0:0:0:0:1607493312:70|h[Arcanometer]|h|r |N|Borean Tundra, The Westrift (34.36, 42.13)|
-- |QID|11576.1| |QO|Cleftcliff Anomaly Reading Taken: 1/1| |N|Borean Tundra, The Westrift (34.36, 42.13)|
-- |QID|11590.1| |QO|Captured Beryl Sorcerer: 1/1| |N|Borean Tundra, Beryl Point (41.69, 41.46)|
-T Monitoring the Rift: Cleftcliff Anomaly |QID|11576| |N|Borean Tundra, Amber Ledge (44.99, 33.52)|
-A Monitoring the Rift: Sundered Chasm |QID|11582| |N|Borean Tundra, Amber Ledge (45.21, 33.38)|
-T Abduction |QID|11590| |N|Borean Tundra, Amber Ledge (45.21, 33.38)|
-A The Borean Inquisition |QID|11646| |N|Borean Tundra, Amber Ledge (45.24, 33.38)|
-T The Borean Inquisition |QID|11646| |N|Borean Tundra, Amber Ledge (46.36, 32.83)|
-A The Art of Persuasion |QID|11648| |N|Borean Tundra, Amber Ledge (46.36, 32.83)|
-U |cffffffff|Hitem:34811:0:0:0:0:0:0:1577025758:70|h[Neural Needler]|h|r |N|Borean Tundra, Amber Ledge (46.35, 32.89)|
-- |QID|11648.1| |QO|Prisoner Interrogated: 1/1| |N|Borean Tundra, Amber Ledge (46.35, 32.89)|
-T The Art of Persuasion |QID|11648| |N|Borean Tundra, Amber Ledge (46.35, 32.89)|
-A Sharing Intelligence |QID|11663| |N|Borean Tundra, Amber Ledge (46.35, 32.89)|
-T Sharing Intelligence |QID|11663| |N|Borean Tundra, Amber Ledge (45.33, 33.41)|
-A A Race Against Time |QID|11671| |N|Borean Tundra, Amber Ledge (45.33, 33.41)|
-- |QID|11671.1| |QO|Salrand's Broken Key: 1/1| |N|Borean Tundra, Beryl Point (41.79, 39.22)|
-T A Race Against Time |QID|11671| |N|Borean Tundra, Amber Ledge (45.21, 33.44)|
-A Reforging the Key |QID|11679| |N|Borean Tundra, Amber Ledge (45.21, 33.44)|
-T Reforging the Key |QID|11679| |N|Borean Tundra, Amber Ledge (45.34, 34.31)|
-A Taking Wing |QID|11680| |N|Borean Tundra, Amber Ledge (45.34, 34.31)|
-T Taking Wing |QID|11680| |N|Borean Tundra, Amber Ledge (46.34, 37.25)|
-A Rescuing Evanor |QID|11681| |N|Borean Tundra, Amber Ledge (46.34, 37.25)|
-T Rescuing Evanor |QID|11681| |N|Borean Tundra, Amber Ledge (46.37, 32.46)|
-A Dragonspeak |QID|11682| |N|Borean Tundra, Amber Ledge (46.37, 32.46)|
-T Dragonspeak |QID|11682| |N|Borean Tundra, Amber Ledge (45.28, 34.22)|
-A Traversing the Rift |QID|11733| |N|Borean Tundra, Amber Ledge (45.28, 34.22)|
 T Traversing the Rift |QID|11733| |N|Borean Tundra, Transitus Shield (32.97, 34.34)|
 A Reading the Meters |QID|11900| |N|Borean Tundra, Transitus Shield (32.97, 34.34)|
 A Secrets of the Ancients |QID|11910| |N|Borean Tundra, Transitus Shield (32.97, 34.34)|
@@ -214,13 +216,7 @@ A Basic Training |QID|11918| |N|Borean Tundra, Transitus Shield (33.38, 34.44)|
 - |QID|11892.1| |QO|  slain: 1/1| |N|,  (22.66, 70.29)|
 - |QID|11708.1| |QO|Fizzcrank's tale listened to.| |N|,  (22.66, 70.29)|
 A Basic Training |QID|11918| |N|,  (22.66, 70.29)|
-U |cffffffff|Hitem:34669:0:0:0:0:0:0:635538054:70|h[Arcanometer]|h|r |N|Borean Tundra, The Westrift (43.68, 28.86)|
-- |QID|11582.1| |QO|Sundered Chasm Reading Taken: 1/1| |N|Borean Tundra, The Westrift (44.01, 28.63)|
-N ramp here |N|Borean Tundra,  (43.17, 35.12)|
-T Monitoring the Rift: Sundered Chasm |QID|11582| |N|Borean Tundra, Amber Ledge (44.99, 33.52)|
-A Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (44.99, 33.52)|
-U |cffffffff|Hitem:34669:0:0:0:0:0:0:108610553:70|h[Arcanometer]|h|r |N|Borean Tundra, Winterfin Caverns (39.97, 20.14)|
-- |QID|12728.1| |QO|Winterfin Cavern Reading Taken: 1/1| |N|Borean Tundra, Winterfin Caverns (39.97, 20.14)|
+
 A Learning to Communicate |QID|11571| |N|Borean Tundra, Winterfin Retreat (43.47, 13.92)|
 U |cffffffff|Hitem:34598:0:0:0:0:0:0:849387572:70|h[The King's Empty Conch]|h|r |N|Borean Tundra, The Westrift (42.65, 15.81)|
 - |QID|11571.1| |QO|The King's Filled Conch: 1/1| |N|Borean Tundra, The Westrift (42.65, 15.81)|
@@ -230,6 +226,8 @@ A Winterfin Commerce |QID|11559| |N|Borean Tundra, Winterfin Retreat (43.50, 13.
 T Winterfin Commerce |QID|11559| |N|Borean Tundra, Winterfin Retreat (43.06, 13.76)|
 A Them! |QID|11561| |N|Borean Tundra, Winterfin Retreat (42.86, 13.70)|
 A Oh Noes, the Tadpoles! |QID|11560| |N|Borean Tundra, Winterfin Retreat (43.47, 13.90)|
+U |cffffffff|Hitem:34669:0:0:0:0:0:0:108610553:70|h[Arcanometer]|h|r |N|Borean Tundra, Winterfin Caverns (39.97, 20.14)|
+- |QID|12728.1| |QO|Winterfin Cavern Reading Taken: 1/1| |N|Borean Tundra, Winterfin Caverns (39.97, 20.14)|
 A Keymaster Urmgrgl |QID|11569| |N|Borean Tundra, Winterfin Caverns (37.84, 23.14)|
 - |QID|11569.1| |QO|Urmgrgl's Key: 1/1| |N|Borean Tundra, Winterfin Caverns (39.31, 23.52)|
 T Keymaster Urmgrgl |QID|11569| |N|Borean Tundra, Winterfin Caverns (37.86, 23.18)|
@@ -254,9 +252,9 @@ A Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.49, 13.8
 U |cffffffff|Hitem:34620:0:0:0:0:0:0:1784573872:70|h[King Mrgl-Mrgl's Spare Suit]|h|r |N|Borean Tundra, Winterfin Retreat (43.49, 13.89)|
 - |QID|11566.1| |QO|Claw of Claximus: 1/1| |N|Borean Tundra, Winterfin Caverns (37.72, 27.07)|
 T Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.50, 13.92)|
+
 T The Assassination of Harold Lane |QID|11892| |N|Borean Tundra, D.E.H.T.A. Encampment (57.04, 44.25)|
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (45.03, 33.39)|
-A Have They No Shame? |QID|13094| |N|Borean Tundra, Transitus Shield (33.45, 34.30)|
 U |cffffffff|Hitem:35648:0:0:0:0:0:0:694560900:70|h[Scintillating Fragment]|h|r |N|Borean Tundra, Coldarra (34.37, 30.28)|
 A Puzzling... |QID|11941| |N|Borean Tundra, Coldarra (34.37, 30.28)|
 - |QID|11900.3| |QO|Northern Coldarra Reading: 1/1| |N|Borean Tundra, Coldarra (31.31, 20.29)|
