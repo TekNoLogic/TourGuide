@@ -155,6 +155,10 @@ T Ears of Our Enemies |QID|11866|
 T Khu'nok Will Know |QID|11878| |N|At the far north end of the mammoth field (59.43, 30.61)|
 A Kaw the Mammoth Destroyer |QID|11879|
 C Kaw the Mammoth Destroyer |QID|11879| |N|Hop on a bull and go beat up Kaw to the northwest at Kaw's Roost (53.68, 24.37).  He drops an item anyone can loot so you don't have to group up, but you do have to dismount once he's dead.|
+
+R Fizzcrank Airstrip
+f Grab the flight point
+
 T Kaw the Mammoth Destroyer |QID|11879| |N|Back at the D.E.H.T.A. Encampment (57.08, 44.30)|
 A The Assassination of Harold Lane |QID|11892|
 C The Assassination of Harold Lane |QID|11892| |N|To the west by the lake (49.26, 40.52).  Use the horn to call in a stampede that should take care of roughly half his health.  If you fail, skip this.| |U|35293|
@@ -270,7 +274,10 @@ C The Tides Turn |QID|11968| |N|On the other side of the statue|
 T The Tides Turn |QID|11968|
 A Travel to Moa'ki Harbor |QID|12117|
 
-T Distress Call |QID|11707| |N|North at Fizzcrank Airstrip, upstairs in the inn (57.03, 18.71)|
+R Unu'pe |N|To the east (78.5, 51.5)|
+F Fizzcrank Airstrip
+
+T Distress Call |QID|11707| |N|Upstairs in the inn (57.03, 18.71)|
 A The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
 C The Mechagnomes |QID|11708| |N|Listen to Fizzcrank Fullthrottle|
 T The Mechagnomes |QID|11708| |N|Outside (57.43, 18.79)|
