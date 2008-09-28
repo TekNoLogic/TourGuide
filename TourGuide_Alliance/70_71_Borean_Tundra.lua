@@ -360,7 +360,45 @@ T Hah... You're Not So Big Now! |QID|11653| |N|Back at the Fizzcrank Airstrip (5
 A Plan B |QID|11658|
 
 C Plan B |QID|11658| |N|West at Steeljaw's Caravan (49.57, 26.55)|
-C A Bot in Mammoth's Clothing |QID|11718| |N|Killin mammoths all around, whee!  The babies drop the hides too, don't skip those easy kills!|
+
+A Learning to Communicate |QID|11571| |N|Northwest at Winterfin Retreat (43.47, 13.92)|
+C Learning to Communicate |QID|11571| |N|Dive down to the Westrift (42.65, 15.81), kill the elemental, use [The King's Empty Conch]| |U|34598|
+T Learning to Communicate |QID|11571| |N|Back at the Winterfin Retreat (43.50, 13.91)|
+A Winterfin Commerce |QID|11559|
+C Winterfin Commerce |QID|11559| |N|Dive for clams.  The hostile murlocs also drop these|
+T Winterfin Commerce |QID|11559| |N|Back at the Winterfin Retreat (43.06, 13.76)|
+A Them! |QID|11561|
+A Oh Noes, the Tadpoles! |QID|11560|
+
+C Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Head across to the Winterfin Caverns (39.97, 20.14), use the [Arcanometer]| |U|34669|
+A Keymaster Urmgrgl |QID|11569| |N|Down inside the Winterfin Caverns (37.84, 23.14)|
+C Keymaster Urmgrgl |QID|11569| |N|Head further down, kill Keymaster Urmgrgl (39.31, 23.52)|
+T Keymaster Urmgrgl |QID|11569| |N|Back at the cage (37.86, 23.18)|
+A Escape from the Winterfin Caverns |QID|11570| |N|In the other cage.  If he's not here, skip this.|
+C Escape from the Winterfin Caverns |QID|11570|
+C Oh Noes, the Tadpoles! |QID|11560|
+C Them! |QID|11561|
+
+T Them! |QID|11561| |N|Back at the Winterfin Retreat (42.87, 13.57)|
+T Oh Noes, the Tadpoles! |QID|11560|
+A I'm Being Blackmailed By My Cleaner |QID|11562|
+T Escape from the Winterfin Caverns |QID|11570|
+T I'm Being Blackmailed By My Cleaner |QID|11562|
+A Grmmurggll Mrllggrl Glrggl!!! |QID|11563|
+A Succulent Orca Stew |QID|11564|
+
+C Grmmurggll Mrllggrl Glrggl!!! |QID|11563| |N|North around Glimmer Bay (39.34, 7.96)|
+C Succulent Orca Stew |QID|11564|
+
+T Succulent Orca Stew |QID|11564| |N|Back at the Winterfin Retreat (42.00, 13.12)|
+T Grmmurggll Mrllggrl Glrggl!!! |QID|11563|
+A The Spare Suit |QID|11565|
+T The Spare Suit |QID|11565|
+A Surrender... Not! |QID|11566|
+C Surrender... Not! |QID|11566| |U|34620| |N|Head over to the cave, use [King Mrgl-Mrgl's Spare Suit], kill Claximus at the back of the cave (37.72, 27.07)|
+T Surrender... Not! |QID|11566| |N|Back at the Winterfin Retreat (43.50, 13.92)|
+
+C A Bot in Mammoth's Clothing |QID|11718| |N|Kill mammoths on your way back to the airstrip.  The babies drop the hides too, don't skip those easy kills!|
 
 T A Bot in Mammoth's Clothing |QID|11718| |N|Back at Fizzcrank Airstrip (57.11, 20.18)|
 A Deploy the Shake-n-Quake! |QID|11723|
@@ -396,45 +434,6 @@ T It Was The Orcs, Honest! |QID|11670|
 
 C Deploy the Shake-n-Quake! |QID|11723| |U|34981| |N|Head down to the south sinkhole (69.99, 37.09) and use the [Shake-n-Quake 5000 Control Unit]|
 T Deploy the Shake-n-Quake! |QID|11723| |N|Back at Fizzcrank Airstrip (57.13, 20.05)|
+T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Back up on Amber Ledge (45.03, 33.39)|
 ]]
 end)
-
---[[
-A Learning to Communicate |QID|11571| |N|Borean Tundra, Winterfin Retreat (43.47, 13.92)|
-U |cffffffff|Hitem:34598:0:0:0:0:0:0:849387572:70|h[The King's Empty Conch]|h|r |N|Borean Tundra, The Westrift (42.65, 15.81)|
-- |QID|11571.1| |QO|The King's Filled Conch: 1/1| |N|Borean Tundra, The Westrift (42.65, 15.81)|
-T Learning to Communicate |QID|11571| |N|Borean Tundra, Winterfin Retreat (43.50, 13.91)|
-A Winterfin Commerce |QID|11559| |N|Borean Tundra, Winterfin Retreat (43.50, 13.91)|
-- |QID|11559.1| |QO|Winterfin Clam: 10/10| |N|Borean Tundra, Glimmer Bay (40.93, 13.59)|
-T Winterfin Commerce |QID|11559| |N|Borean Tundra, Winterfin Retreat (43.06, 13.76)|
-A Them! |QID|11561| |N|Borean Tundra, Winterfin Retreat (42.86, 13.70)|
-A Oh Noes, the Tadpoles! |QID|11560| |N|Borean Tundra, Winterfin Retreat (43.47, 13.90)|
-U |cffffffff|Hitem:34669:0:0:0:0:0:0:108610553:70|h[Arcanometer]|h|r |N|Borean Tundra, Winterfin Caverns (39.97, 20.14)|
-- |QID|12728.1| |QO|Winterfin Cavern Reading Taken: 1/1| |N|Borean Tundra, Winterfin Caverns (39.97, 20.14)|
-A Keymaster Urmgrgl |QID|11569| |N|Borean Tundra, Winterfin Caverns (37.84, 23.14)|
-- |QID|11569.1| |QO|Urmgrgl's Key: 1/1| |N|Borean Tundra, Winterfin Caverns (39.31, 23.52)|
-T Keymaster Urmgrgl |QID|11569| |N|Borean Tundra, Winterfin Caverns (37.86, 23.18)|
-A Escape from the Winterfin Caverns |QID|11570| |N|Borean Tundra, Winterfin Caverns (37.80, 23.03)|
-- |QID|11561.1| |QO|Winterfin murlocs slain: 15/15| |N|Borean Tundra, Winterfin Village (39.58, 18.84)|
-- |QID|11570.1| |QO|Escort Lurgglbr to safety| |N|Borean Tundra, Winterfin Village (41.34, 16.27)|
-- |QID|11560.1| |QO|Winterfin Tadpole rescued: 20/20| |N|Borean Tundra, Winterfin Village (41.06, 15.68)|
-T Them! |QID|11561| |N|Borean Tundra, Winterfin Retreat (42.87, 13.57)|
-T Oh Noes, the Tadpoles! |QID|11560| |N|Borean Tundra, Winterfin Retreat (43.48, 13.90)|
-A I'm Being Blackmailed By My Cleaner |QID|11562| |N|Borean Tundra, Winterfin Retreat (43.48, 13.90)|
-T Escape from the Winterfin Caverns |QID|11570| |N|Borean Tundra, Winterfin Retreat (43.48, 13.90)|
-T I'm Being Blackmailed By My Cleaner |QID|11562| |N|Borean Tundra, Winterfin Retreat (42.01, 12.84)|
-A Grmmurggll Mrllggrl Glrggl!!! |QID|11563| |N|Borean Tundra, Winterfin Retreat (42.01, 12.84)|
-A Succulent Orca Stew |QID|11564| |N|Borean Tundra, Winterfin Retreat (42.03, 13.05)|
-- |QID|11563.1| |QO|Glrggl's Head: 1/1| |N|Borean Tundra, Glimmer Bay (39.34, 7.96)|
-- |QID|11564.1| |QO|Succulent Orca Blubber: 7/7| |N|Borean Tundra, Glimmer Bay (38.84, 6.38)|
-T Succulent Orca Stew |QID|11564| |N|Borean Tundra, Winterfin Retreat (42.00, 13.12)|
-T Grmmurggll Mrllggrl Glrggl!!! |QID|11563| |N|Borean Tundra, Winterfin Retreat (42.00, 12.84)|
-A The Spare Suit |QID|11565| |N|Borean Tundra, Winterfin Retreat (42.00, 12.84)|
-T The Spare Suit |QID|11565| |N|Borean Tundra, Winterfin Retreat (43.49, 13.89)|
-A Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.49, 13.89)|
-U |cffffffff|Hitem:34620:0:0:0:0:0:0:1784573872:70|h[King Mrgl-Mrgl's Spare Suit]|h|r |N|Borean Tundra, Winterfin Retreat (43.49, 13.89)|
-- |QID|11566.1| |QO|Claw of Claximus: 1/1| |N|Borean Tundra, Winterfin Caverns (37.72, 27.07)|
-T Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.50, 13.92)|
-
-T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (45.03, 33.39)|
-]]
