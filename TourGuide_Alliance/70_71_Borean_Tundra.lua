@@ -198,6 +198,56 @@ T Rescuing Evanor |QID|11681|
 A Dragonspeak |QID|11682|
 T Dragonspeak |QID|11682| |N|Outside at Surristrasz (45.28, 34.22)|
 A Traversing the Rift |QID|11733|
+
+T Traversing the Rift |QID|11733|
+A Reading the Meters |QID|11900|
+A Secrets of the Ancients |QID|11910|
+A Nuts for Berries |QID|11912|
+A Basic Training |QID|11918|
+
+C Reading the Meters |QID|11900| |N|Find the little orbs to the north (31.31, 20.29), west (22.36, 24.17), south (28.33, 34.98), and down near the Nexus (28.26, 28.47)|
+C Secrets of the Ancients |QID|11910|
+C Nuts for Berries |QID|11912|
+C Basic Training |QID|11918|
+A Puzzling... |QID|11941| |N|Borean Tundra, Coldarra (34.37, 30.28)| |U|35648| |N|Keep killing Coldarra Spellweavers until you get the [Scintillating Fragment]|
+
+T Reading the Meters |QID|11900| |N|Back inside the Transitus Shield (33.00, 34.33)|
+T Secrets of the Ancients |QID|11910|
+T Nuts for Berries |QID|11912|
+A Keep the Secret Safe |QID|11914|
+T Basic Training |QID|11918|
+A Hatching a Plan |QID|11936|
+T Puzzling... |QID|11941|
+A The Cell |QID|11943|
+
+C The Cell |QID|11943| |N|Kill Warbringer Goredrak to the west (24.24, 28.92) for the core and General Cerulean to the north (27.54, 20.71) for the casing.|
+C Hatching a Plan |QID|11936| |N|Kill Coldarra Wyrmkin for their axes, then use them on the eggs near the Nexus|
+C Keep the Secret Safe |QID|11914| |N|Kill Arcane Serpents near the Nexus|
+
+T Hatching a Plan |QID|11936| |N|Back inside the Transitus Shield (33.33, 34.46)|
+A Drake Hunt |QID|11919|
+T The Cell |QID|11943|
+A Keristrasza |QID|11946| |N|Borean Tundra, Transitus Shield (33.33, 34.29)| |U|35671| |N|Use the [Augmented Arcane Prison]|
+T Keristrasza |QID|11946|
+A Bait and Switch |QID|11951|
+T Keep the Secret Safe |QID|11914|
+
+C Bait and Switch |QID|11951| |N|Loot the purple crystals near the Nexus|
+C Drake Hunt |QID|11919| |U|35506| |N|Find a Nexus Drake Hatchling flying around to the west of the Nexus.  Hit it with [Raelorasz's Spear] (this has a really long range) and tank it for a short time.|
+T Drake Hunt |QID|11919| |N|Back inside the Transitus Shield (33.31, 34.46).  Be quick, you don't have control of the drake for very long.|
+A Cracking the Code |QID|11931|
+C Cracking the Code |QID|11931| |N|Kill Inquisitor Caleras to the north (32.77, 27.84).  Shimmering Runes drop from the spellbinders around him.|
+
+T Bait and Switch |QID|11951| |U|35671| |N|Use the [Augmented Arcane Prison]|
+A Saragosa's End |QID|11957|
+C Saragosa's End |QID|11957| |N|Talk to Keri for a teleport.  Use the [Arcane Power Focus], the kill her.| |U|35690|
+T Saragosa's End |QID|11957| |U|35671| |N|Use the [Augmented Arcane Prison]|
+A Mustering the Reds |QID|11967|
+T Mustering the Reds |QID|11967| |N|Talk to Keri for a port back to the Transitus Shield|
+A Springing the Trap |QID|11969|
+T Cracking the Code |QID|11931|
+C Springing the Trap |QID|11969| |N|Head to the Nexus, take the ramp up, then head out across the morthwest bridge.  Use the flare and stay close to Keri, enjoy the flight.| |U|35718|
+T Springing the Trap |QID|11969| |N|Back inside the Transitus Shield (33.27, 34.46)|
 ]]
 end)
 
@@ -208,15 +258,6 @@ C The Mechagnomes |QID|11708| |N|Listen to Fizzcrank Fullthrottle|
 ]]
 
 --[[
-T Traversing the Rift |QID|11733| |N|Borean Tundra, Transitus Shield (32.97, 34.34)|
-A Reading the Meters |QID|11900| |N|Borean Tundra, Transitus Shield (32.97, 34.34)|
-A Secrets of the Ancients |QID|11910| |N|Borean Tundra, Transitus Shield (32.97, 34.34)|
-A Nuts for Berries |QID|11912| |N|Borean Tundra, Transitus Shield (33.42, 34.38)|
-A Basic Training |QID|11918| |N|Borean Tundra, Transitus Shield (33.38, 34.44)|
-- |QID|11892.1| |QO|  slain: 1/1| |N|,  (22.66, 70.29)|
-- |QID|11708.1| |QO|Fizzcrank's tale listened to.| |N|,  (22.66, 70.29)|
-A Basic Training |QID|11918| |N|,  (22.66, 70.29)|
-
 A Learning to Communicate |QID|11571| |N|Borean Tundra, Winterfin Retreat (43.47, 13.92)|
 U |cffffffff|Hitem:34598:0:0:0:0:0:0:849387572:70|h[The King's Empty Conch]|h|r |N|Borean Tundra, The Westrift (42.65, 15.81)|
 - |QID|11571.1| |QO|The King's Filled Conch: 1/1| |N|Borean Tundra, The Westrift (42.65, 15.81)|
@@ -255,68 +296,9 @@ T Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.50, 13.9
 
 T The Assassination of Harold Lane |QID|11892| |N|Borean Tundra, D.E.H.T.A. Encampment (57.04, 44.25)|
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (45.03, 33.39)|
-U |cffffffff|Hitem:35648:0:0:0:0:0:0:694560900:70|h[Scintillating Fragment]|h|r |N|Borean Tundra, Coldarra (34.37, 30.28)|
-A Puzzling... |QID|11941| |N|Borean Tundra, Coldarra (34.37, 30.28)|
-- |QID|11900.3| |QO|Northern Coldarra Reading: 1/1| |N|Borean Tundra, Coldarra (31.31, 20.29)|
-- |QID|11900.4| |QO|Western Coldarra Reading: 1/1| |N|Borean Tundra, Coldarra (22.36, 24.17)|
-- |QID|11910.1| |QO|Glacial Splinter: 3/3| |N|Borean Tundra, Coldarra (21.99, 32.82)|
-- |QID|11918.1| |QO|Coldarra Spellweaver slain: 10/10| |N|Borean Tundra, Coldarra (22.63, 33.13)|
-- |QID|11912.1| |QO|Frostberry: 10/10| |N|Borean Tundra, Coldarra (25.09, 35.16)|
-- |QID|11900.2| |QO|Southern Coldarra Reading: 1/1| |N|Borean Tundra, Coldarra (28.33, 34.98)|
-- |QID|11900.1| |QO|Nexus Geological Reading: 1/1| |N|Borean Tundra, The Nexus (28.26, 28.47)|
-- |QID|11910.2| |QO|Magic-Bound Splinter: 3/3| |N|Borean Tundra, Coldarra (29.84, 30.73)|
-T Reading the Meters |QID|11900| |N|Borean Tundra, Transitus Shield (33.00, 34.33)|
-A Postponing the Inevitable |QID|11905| |N|Borean Tundra, Transitus Shield (33.00, 34.33)|
-T Secrets of the Ancients |QID|11910| |N|Borean Tundra, Transitus Shield (33.00, 34.33)|
-A Quickening |QID|11911| |N|Borean Tundra, Transitus Shield (33.00, 34.33)|
-T Nuts for Berries |QID|11912| |N|Borean Tundra, Transitus Shield (33.43, 34.40)|
-A Keep the Secret Safe |QID|11914| |N|Borean Tundra, Transitus Shield (33.43, 34.40)|
-T Basic Training |QID|11918| |N|Borean Tundra, Transitus Shield (33.37, 34.44)|
-A Hatching a Plan |QID|11936| |N|Borean Tundra, Transitus Shield (33.37, 34.44)|
-T Puzzling... |QID|11941| |N|Borean Tundra, Transitus Shield (33.37, 34.44)|
-A The Cell |QID|11943| |N|Borean Tundra, Transitus Shield (33.37, 34.44)|
-N No shame, postponing and quickening are dungeon quests |N|Borean Tundra, Transitus Shield (33.56, 34.18)|
-- |QID|11943.1| |QO|Energy Core: 1/1| |N|Borean Tundra, Coldarra (24.24, 28.92)|
-- |QID|11943.2| |QO|Prison Casing: 1/1| |N|Borean Tundra, Coldarra (27.54, 20.71)|
-- |QID|11936.1| |QO|Dragon Eggs Destroyed: 5/5| |N|Borean Tundra, The Nexus (27.31, 24.15)|
-- |QID|11914.1| |QO|Nexus Mana Essence: 5/5| |N|Borean Tundra, The Nexus (27.56, 23.73)|
-T Hatching a Plan |QID|11936| |N|Borean Tundra, Transitus Shield (33.33, 34.46)|
-A Drake Hunt |QID|11919| |N|Borean Tundra, Transitus Shield (33.33, 34.46)|
-T The Cell |QID|11943| |N|Borean Tundra, Transitus Shield (33.33, 34.46)|
-U |cffffffff|Hitem:35671:0:0:0:0:0:0:1548877126:70|h[Augmented Arcane Prison]|h|r |N|Borean Tundra, Transitus Shield (33.33, 34.29)|
-A Keristrasza |QID|11946| |N|Borean Tundra, Transitus Shield (33.33, 34.29)|
-T Keristrasza |QID|11946| |N|Borean Tundra, Transitus Shield (33.33, 34.29)|
-A Bait and Switch |QID|11951| |N|Borean Tundra, Transitus Shield (33.33, 34.29)|
-T Keep the Secret Safe |QID|11914| |N|Borean Tundra, Transitus Shield (33.43, 34.38)|
-U |cffffffff|Hitem:39691:0:0:0:0:0:0:2117283020:70|h[Succulent Orca Stew]|h|r |N|Borean Tundra, Transitus Shield (33.43, 34.38)|
-- |QID|11951.1| |QO|Crystallized Mana Shard: 10/10| |N|Borean Tundra, The Nexus (25.31, 27.64)|
-U |cffffffff|Hitem:35506:0:0:0:0:0:0:1727718481:70|h[Raelorasz's Spear]|h|r |N|Borean Tundra, Coldarra (22.40, 24.25)|
-T Bait and Switch |QID|11951| |N|Borean Tundra, Coldarra (23.77, 25.66)|
-- |QID|11919.1| |QO|Captured Nexus Drake: 1/1| |N|Borean Tundra, Transitus Shield (33.07, 34.16)|
-T Drake Hunt |QID|11919| |N|Borean Tundra, Transitus Shield (33.31, 34.46)|
-A Cracking the Code |QID|11931| |N|Borean Tundra, Transitus Shield (33.31, 34.46)|
-A Drake Hunt |QID|11940| |N|Borean Tundra, Transitus Shield (33.31, 34.46)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:0:71|h[Hearthstone]|h|r |N|City of Ironforge, Vault of Ironforge (36.29, 62.15)|
+
 - |QID|11708.1| |QO|Fizzcrank's tale listened to.| |N|,  (22.61, 70.25)|
 A The Mechagnomes |QID|11708| |N|,  (22.61, 70.25)|
-- |QID|11931.2| |QO|Azure Codex: 1/1| |N|Borean Tundra, Coldarra (32.77, 27.84)|
-- |QID|11931.1| |QO|Shimmering Rune: 3/3| |N|Borean Tundra, Coldarra (31.36, 26.13)|
-U |cffffffff|Hitem:35671:0:0:0:0:0:0:1548877126:71|h[Augmented Arcane Prison]|h|r |N|Borean Tundra, Coldarra (34.00, 30.24)|
-A Saragosa's End |QID|11957| |N|Borean Tundra, Coldarra (34.00, 30.24)|
-U |cffffffff|Hitem:28455:0:0:0:0:0:0:362290436:71|h[Archmage Vargoth's Staff]|h|r |N|Borean Tundra, Saragosa's Landing (21.19, 22.47)|
-U |cffffffff|Hitem:5462:0:0:0:0:0:0:1278524770:71|h[Dartol's Rod of Transformation]|h|r |N|Borean Tundra, Saragosa's Landing (21.19, 22.47)|
-U |cffffffff|Hitem:35690:0:0:0:0:0:0:2116985946:71|h[Arcane Power Focus]|h|r |N|Borean Tundra, Saragosa's Landing (21.31, 22.57)|
-- |QID|11957.1| |QO|Saragosa's Corpse: 1/1| |N|Borean Tundra, Saragosa's Landing (22.01, 22.63)|
-T Saragosa's End |QID|11957| |N|Borean Tundra, Saragosa's Landing (22.01, 22.63)|
-- |QID|11967.1| |QO|Augmented Arcane Prison: 1/1| |N|Borean Tundra, Saragosa's Landing (22.01, 22.63)|
-A Mustering the Reds |QID|11967| |N|Borean Tundra, Saragosa's Landing (22.01, 22.63)|
-T Cracking the Code |QID|11931| |N|Borean Tundra, Transitus Shield (33.28, 34.44)|
-T Mustering the Reds |QID|11967| |N|Borean Tundra, Transitus Shield (33.28, 34.44)|
-A Springing the Trap |QID|11969| |N|Borean Tundra, Transitus Shield (33.28, 34.44)|
-U |cffffffff|Hitem:35718:0:0:0:0:0:0:1541306506:71|h[Raelorasz' Flare]|h|r |N|Borean Tundra, The Nexus (26.84, 25.11)|
-- |QID|11969.1| |QO|Assault on Malygos Complete: 1/1| |N|Borean Tundra, Coldarra (34.35, 25.20)|
-T Springing the Trap |QID|11969| |N|Borean Tundra, Transitus Shield (33.27, 34.46)|
-U |cff0070dd|Hitem:43517:0:0:0:0:0:0:1260354408:71|h[Penguin Egg]|h|r |N|Borean Tundra, Fizzcrank Airstrip (57.00, 19.09)|
 T The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.43, 18.79)|
 A Re-Cursive |QID|11712| |N|Borean Tundra, Fizzcrank Airstrip (57.43, 18.79)|
 A What's the Matter with the Transmatter? |QID|11710| |N|Borean Tundra, Fizzcrank Airstrip (57.51, 18.72)|
@@ -459,29 +441,7 @@ A It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (57.
 U |cffffffff|Hitem:34981:0:0:0:0:0:0:2126374622:71|h[Shake-n-Quake 5000 Control Unit]|h|r |N|Borean Tundra, The Geyser Fields (70.03, 37.11)|
 - |QID|11723.2| |QO|Delpoy the Shake-n-Quake 5000: 1/1| |N|Borean Tundra, The Geyser Fields (69.90, 37.07)|
 - |QID|11723.1| |QO|Lord Kryxix slain: 1/1| |N|Borean Tundra, The Geyser Fields (69.74, 36.52)|
-A Ears of Our Enemies |QID|11866| |N|Borean Tundra, D.E.H.T.A. Encampment (57.07, 44.28)|
-A Help Those That Cannot Help Themselves |QID|11876| |N|Borean Tundra, D.E.H.T.A. Encampment (57.07, 44.28)|
-A Ned, Lord of Rhinos... |QID|11884| |N|Borean Tundra, D.E.H.T.A. Encampment (57.34, 44.03)|
-A Happy as a Clam |QID|11869| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.10)|
-A Unfit for Death |QID|11865| |N|Borean Tundra, D.E.H.T.A. Encampment (56.82, 44.05)|
-U |cffffffff|Hitem:35228:0:0:0:0:0:0:1312822543:71|h[D.E.H.T.A. Trap Smasher]|h|r |N|Borean Tundra,  (56.52, 46.15)|
-U |cffffffff|Hitem:35127:0:0:0:0:0:0:1734957689:71|h[Pile of Fake Furs]|h|r |N|Borean Tundra,  (57.68, 50.65)|
-- |QID|11866.1| |QO|Nesingwary Lackey Ear: 15/15| |N|Borean Tundra,  (55.90, 51.93)|
-- |QID|11865.1| |QO|Nesingwary Trapper Trapped: 8/8| |N|Borean Tundra,  (56.85, 51.12)|
-- |QID|11869.1| |QO|Loot Crazed Diver slain: 10/10| |N|Borean Tundra, Lake Kum'uya (51.09, 44.32)|
-- |QID|11876.1| |QO|Mammoth Calf Freed: 8/8| |N|Borean Tundra,  (55.43, 40.85)|
-T Happy as a Clam |QID|11869| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.01)|
 A The Abandoned Reach |QID|11870| |N|Borean Tundra, D.E.H.T.A. Encampment (57.30, 44.01)|
-T Ears of Our Enemies |QID|11866| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
-T Help Those That Cannot Help Themselves |QID|11876| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
-A Khu'nok Will Know |QID|11878| |N|Borean Tundra, D.E.H.T.A. Encampment (57.10, 44.28)|
-T Unfit for Death |QID|11865| |N|Borean Tundra, D.E.H.T.A. Encampment (56.85, 44.08)|
-A The Culler Cometh |QID|11868| |N|Borean Tundra, D.E.H.T.A. Encampment (56.85, 44.08)|
-A Khu'nok Will Know |QID|11878| |N|Borean Tundra, D.E.H.T.A. Encampment (57.08, 44.28)|
-- |QID|11878.1| |QO|Orphaned Mammoth Calf Delivered to Khu'nok| |N|Borean Tundra,  (59.26, 30.46)|
-T Khu'nok Will Know |QID|11878| |N|Borean Tundra,  (59.28, 30.35)|
-A Kaw the Mammoth Destroyer |QID|11879| |N|Borean Tundra,  (59.05, 30.29)|
-- |QID|11879.1| |QO|Kaw's War Halberd: 1/1| |N|Borean Tundra,  (53.97, 23.36)|
 T Deploy the Shake-n-Quake! |QID|11723| |N|Borean Tundra, Fizzcrank Airstrip (57.11, 20.10)|
 U |cffffffff|Hitem:34871:0:0:0:0:0:0:1115193667:71|h[Crafty's Sack]|h|r |N|Borean Tundra, Magmoth (54.94, 12.61)|
 - |QID|11670.2| |QO|Warsong Orc Disguise: 1/1| |N|Borean Tundra, Magmoth (54.94, 12.61)|
@@ -489,6 +449,4 @@ U |cffffffff|Hitem:34870:0:0:0:0:0:0:2069103331:71|h[Warsong Orc Disguise]|h|r |
 U |cffffffff|Hitem:34869:0:0:0:0:0:0:-1957428509:71|h[Warsong Banner]|h|r |N|Borean Tundra, Magmoth (55.13, 12.09)|
 - |QID|11670.1| |QO|Warsong Banner Planted in Magmothregar: 1/1| |N|Borean Tundra, Magmoth (55.13, 12.09)|
 T It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (57.61, 18.76)|
-U |cffffffff|Hitem:21877:0:0:0:0:0:0:2123385084:71|h[Netherweave Cloth]|h|r |N|Borean Tundra, Valiance Keep (58.57, 68.62)|
-U |cffffffff|Hitem:21877:0:0:0:0:0:0:-2132841458:71|h[Netherweave Cloth]|h|r |N|Borean Tundra, Valiance Keep (58.57, 68.62)|
 ]]
