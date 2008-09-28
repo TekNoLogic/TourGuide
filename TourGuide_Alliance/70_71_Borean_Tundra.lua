@@ -157,8 +157,11 @@ C Kaw the Mammoth Destroyer |QID|11879| |N|Hop on a bull and go beat up Kaw to t
 T Distress Call |QID|11707| |N|North at the Fizzcrank Airstrip, upstairs in the inn (57.03, 18.71)|
 A The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
 C The Mechagnomes |QID|11708| |N|Listen to Fizzcrank Fullthrottle|
+]]
+end)
 
 
+--[[
 T The Abandoned Reach |QID|11870| |N|Borean Tundra, The Abandoned Reach (57.74, 55.08)|
 A Not On Our Watch |QID|11871| |N|Borean Tundra, The Abandoned Reach (57.74, 55.08)|
 - |QID|11871.1| |QO|Shipment of Animal Parts: 12/12| |N|Borean Tundra, The Abandoned Reach (61.03, 64.12)|
@@ -443,7 +446,6 @@ T Plan B |QID|11658| |N|Borean Tundra, Fizzcrank Airstrip (58.00, 18.55)|
 A It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (58.00, 18.55)|
 U |cff1eff00|Hitem:37274:0:0:0:0:0:0:338603175:71|h[Mender's Cover]|h|r |N|Borean Tundra, Fizzcrank Airstrip (57.07, 18.74)|
 ]]
-end)
 
 --[[
 - |QID|11798.1| |QO|The Gearmaster's Manual researched: 1/1| |N|Borean Tundra, Fizzcrank Pumping Station (64.51, 23.48)|
