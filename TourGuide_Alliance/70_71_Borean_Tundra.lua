@@ -155,10 +155,6 @@ T Ears of Our Enemies |QID|11866|
 T Khu'nok Will Know |QID|11878| |N|At the far north end of the mammoth field (59.43, 30.61)|
 A Kaw the Mammoth Destroyer |QID|11879|
 C Kaw the Mammoth Destroyer |QID|11879| |N|Hop on a bull and go beat up Kaw to the northwest at Kaw's Roost (53.68, 24.37).  He drops an item anyone can loot so you don't have to group up, but you do have to dismount once he's dead.|
-
-R Fizzcrank Airstrip
-f Grab the flight point
-
 T Kaw the Mammoth Destroyer |QID|11879| |N|Back at the D.E.H.T.A. Encampment (57.08, 44.30)|
 A The Assassination of Harold Lane |QID|11892|
 C The Assassination of Harold Lane |QID|11892| |N|To the west by the lake (49.26, 40.52).  Use the horn to call in a stampede that should take care of roughly half his health.  If you fail, skip this.| |U|35293|
@@ -251,7 +247,30 @@ T Cracking the Code |QID|11931|
 C Springing the Trap |QID|11969| |N|Head to the Nexus, take the ramp up, then head out across the morthwest bridge.  Use the flare and stay close to Keri, enjoy the flight.| |U|35718|
 T Springing the Trap |QID|11969| |N|Back inside the Transitus Shield (33.27, 34.46)|
 
-T Distress Call |QID|11707| |N|Fly to Fizzcrank Airstrip, upstairs in the inn (57.03, 18.71)|
+T The Assassination of Harold Lane |QID|11892| |N|Back at the D.E.H.T.A. Encampment (57.04, 44.25)|
+
+T Cowards and Fools |QID|11932| |N|East at Kaskala (63.81, 46.10)|
+A The Son of Karkut |QID|12086|
+A Not Without a Fight! |QID|11949|
+A Preparing for the Worst |QID|11945|
+
+C Not Without a Fight! |QID|11949|
+C Preparing for the Worst |QID|11945|
+
+T Not Without a Fight! |QID|11949|
+A Muahit's Wisdom |QID|11950|
+T Preparing for the Worst |QID|11945|
+
+T Muahit's Wisdom |QID|11950| |N|Out on the island in Njord's Breath Bay (67.20, 54.78)|
+A Spirits Watch Over Us |QID|11961|
+C Spirits Watch Over Us |QID|11961| |N|Find the dead tuskarr in the water to the north (67.60, 50.42)|
+T Spirits Watch Over Us |QID|11961| |N|Back on the island (67.20, 54.81)|
+A The Tides Turn |QID|11968|
+C The Tides Turn |QID|11968| |N|On the other side of the statue|
+T The Tides Turn |QID|11968|
+A Travel to Moa'ki Harbor |QID|12117|
+
+T Distress Call |QID|11707| |N|North at Fizzcrank Airstrip, upstairs in the inn (57.03, 18.71)|
 A The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
 C The Mechagnomes |QID|11708| |N|Listen to Fizzcrank Fullthrottle|
 T The Mechagnomes |QID|11708| |N|Outside (57.43, 18.79)|
@@ -397,32 +416,12 @@ U |cffffffff|Hitem:34620:0:0:0:0:0:0:1784573872:70|h[King Mrgl-Mrgl's Spare Suit
 - |QID|11566.1| |QO|Claw of Claximus: 1/1| |N|Borean Tundra, Winterfin Caverns (37.72, 27.07)|
 T Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.50, 13.92)|
 
-T The Assassination of Harold Lane |QID|11892| |N|Borean Tundra, D.E.H.T.A. Encampment (57.04, 44.25)|
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (45.03, 33.39)|
 ]]
 
---[[
-T Cowards and Fools |QID|11932| |N|Borean Tundra, Kaskala (63.81, 46.10)|
-A The Son of Karkut |QID|12086| |N|Borean Tundra, Kaskala (63.81, 46.10)|
-A Not Without a Fight! |QID|11949| |N|Borean Tundra, Kaskala (63.81, 46.10)|
-A Preparing for the Worst |QID|11945| |N|Borean Tundra, Kaskala (63.93, 45.77)|
-- |QID|11949.1| |QO|Kvaldir Raider slain: 12/12| |N|Borean Tundra, Kaskala (65.69, 47.68)|
-T Not Without a Fight! |QID|11949| |N|Borean Tundra, Kaskala (63.82, 46.20)|
-A Muahit's Wisdom |QID|11950| |N|Borean Tundra, Kaskala (63.82, 46.20)|
-- |QID|11945.1| |QO|Kaskala Supplies: 8/8| |N|Borean Tundra, Kaskala (64.99, 47.83)|
-T Preparing for the Worst |QID|11945| |N|Borean Tundra, Kaskala (63.97, 45.78)|
-T Muahit's Wisdom |QID|11950| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.78)|
-A Spirits Watch Over Us |QID|11961| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.78)|
-- |QID|11961.1| |QO|Issliruk's Totem: 1/1| |N|Borean Tundra, Njord's Breath Bay (67.60, 50.42)|
-T Spirits Watch Over Us |QID|11961| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.81)|
-A The Tides Turn |QID|11968| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.81)|
-- |QID|11968.1| |QO|Heigarr the Horrible slain: 1/1| |N|Borean Tundra, Njord's Breath Bay (67.38, 55.92)|
-T The Tides Turn |QID|11968| |N|Borean Tundra, Njord's Breath Bay (67.17, 54.88)|
-A Travel to Moa'ki Harbor |QID|12117| |N|Borean Tundra, Njord's Breath Bay (67.25, 54.82)|
-T The Son of Karkut |QID|12086| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
-]]
 
 --[[
+T The Son of Karkut |QID|12086| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
 A Surrounded! |QID|11944| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
 A The Lost Courier |QID|12157| |N|Borean Tundra, Death's Stand (82.10, 46.43)|
 - |QID|11944.1| |QO|Ziggurat Defender slain: 7/7| |N|Borean Tundra, Frozen Reach (82.49, 44.23)|
