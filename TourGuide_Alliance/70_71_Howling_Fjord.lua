@@ -358,10 +358,18 @@ T Gjalerbron Attack Plans |QID|11237|
 A The Frost Wyrm and its Master |QID|11238|
 A Sleeping Giants |QID|11432|
 
-A Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (28.89, 44.14)|
-T Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (31.28, 44.00)|
-A High Commander Halford Wyrmbane |QID|12298| |N|Howling Fjord, Westguard Keep (31.28, 44.00)|
-T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.57, 48.19)|
+C Sleeping Giants |QID|11432| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
+C In Service to the Light |QID|11239|
+C Necro Overlord Mezhen |QID|11236| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
+C The Frost Wyrm and its Master |QID|11238| |U|33282| |N|Clear the area around Wyrmcaller Vile (36.48, 7.34), then kill him, loot the [Wyrmcaller's Horn] and use it.  Kill Glacion.  Watch out, Vile has a short respawn time.  If you fail, find a friend or skip this.|
+
+T Sleeping Giants |QID|11432| |N|Back at Westguard Keep (28.94, 44.23)|
+T The Frost Wyrm and its Master |QID|11238|
+T Necro Overlord Mezhen |QID|11236|
+T In Service to the Light |QID|11239|
+A Of Traitors and Treason |QID|12297|
+T Of Traitors and Treason |QID|12297| |N|At the flightmaster (31.28, 44.00)|
+A High Commander Halford Wyrmbane |QID|12298|
 ]]
 end)
 
@@ -545,30 +553,4 @@ U |cffffffff|Hitem:36777:0:0:0:0:0:0:1852568722:72|h[Horn of Kamagua]|h|r |N|How
 - |QID|11471.1| |QO|Jonah Sterling's Spyglass: 1/1| |N|Howling Fjord, Garvan's Reef (33.33, 78.25)|
 T The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.48, 79.43)|
 T Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.04, 56.99)|
-
-A Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (28.82, 44.07)|
-T Of Traitors and Treason |QID|12297| |N|Howling Fjord, Westguard Keep (31.33, 44.00)|
-A High Commander Halford Wyrmbane |QID|12298| |N|Howling Fjord, Westguard Keep (31.33, 44.00)|
-T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.45, 48.40)|
-A Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (78.27, 48.79)|
-T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
-A Flight of the Wintergarde Defender |QID|12237| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
-
-U |cffffffff|Hitem:34083:0:0:0:0:0:0:993771522:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (34.89, 10.23)|
-U |cffffffff|Hitem:34083:0:0:0:0:0:0:2058213798:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (34.04, 9.17)|
-- |QID|11239.2| |QO|Fearsome Horror slain: 4/4| |N|Howling Fjord, The Waking Halls (34.68, 9.32)|
-U |cffffffff|Hitem:34083:0:0:0:0:0:0:1541308507:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (36.19, 6.81)|
-- |QID|11432.1| |QO|Dormant Vrykul slain: 5/5| |N|Howling Fjord, The Waking Halls (36.56, 6.66)|
-- |QID|11239.3| |QO|Putrid Wight slain: 2/2| |N|Howling Fjord, Gjalerbron (33.88, 10.50)|
-- |QID|11239.1| |QO|Deathless Watcher slain: 10/10| |N|Howling Fjord, Gjalerbron (34.14, 10.34)|
-U |cffffffff|Hitem:33451:0:0:0:0:0:0:0:72|h[Fillet of Icefin]|h|r |N|Howling Fjord, Gjalerbron (39.34, 7.98)|
-- |QID|11238.1| |QO|Wyrmcaller Vile slain: 1/1| |N|Howling Fjord, Gjalerbron (36.48, 7.34)|
-- |QID|11238.3| |QO|Wyrmcaller's Horn: 1/1| |N|Howling Fjord, Gjalerbron (36.48, 7.34)|
-U |cffffffff|Hitem:33282:0:0:0:0:0:0:1521273024:72|h[Wyrmcaller's Horn]|h|r |N|Howling Fjord, Gjalerbron (36.94, 7.19)|
-- |QID|11238.2| |QO|Glacion slain: 1/1| |N|Howling Fjord, Gjalerbron (36.72, 7.35)|
-- |QID|11236.1| |QO|Necro Overlord Mezhen slain: 1/1| |N|Howling Fjord, Gjalerbron (38.63, 12.40)|
-T Sleeping Giants |QID|11432| |N|Howling Fjord, Westguard Keep (28.94, 44.23)|
-T The Frost Wyrm and its Master |QID|11238| |N|Howling Fjord, Westguard Keep (28.94, 44.23)|
-T Necro Overlord Mezhen |QID|11236| |N|Howling Fjord, Westguard Keep (28.87, 44.16)|
-T In Service to the Light |QID|11239| |N|Howling Fjord, Westguard Keep (28.84, 43.98)|
 ]]

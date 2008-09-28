@@ -5,8 +5,13 @@ return [[
 end
 
 --[[
+T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.45, 48.40)|
+A Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (78.27, 48.79)|
+T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
+A Flight of the Wintergarde Defender |QID|12237| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
+]]
 
-
+--[[
 U |cffffffff|Hitem:37287:0:0:0:0:0:0:662447432:72|h[Wintergarde Gryphon Whistle]|h|r |N|Dragonblight, Wintergarde Keep (78.68, 48.23)|
 U |cffffffff|Hitem:37287:0:0:0:0:0:0:662447432:72|h[Wintergarde Gryphon Whistle]|h|r |N|Dragonblight, The Carrion Fields (83.29, 51.00)|
 A My Old Enemy |QID|12464| |N|Dragonblight, Wintergarde Keep (76.83, 47.45)|
