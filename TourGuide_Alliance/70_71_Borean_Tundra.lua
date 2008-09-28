@@ -310,7 +310,27 @@ T Finding Pilot Tailspin |QID|11725| |N|South in the Scalding Pools (61.66, 35.7
 A A Little Bit of Spice |QID|11726|
 
 C A Little Bit of Spice |QID|11726| |N|Kill Gorlocs to the south in the Flood Plains|
+
+T The Son of Karkut |QID|12086| |N|East at Death's Stand (82.07, 46.48)|
+A Surrounded! |QID|11944|
+A The Lost Courier |QID|12157|
 C Just a Few More Things... |QID|11650| |N|Kill Rocknar, an earth elemental frozen in a block of ice near The Wailing Ziggurat (81.17, 42.71)|
+C Surrounded! |QID|11944|
+T Surrounded! |QID|11944| |N|Back at Death's Stand (82.06, 46.36)|
+A Thassarian, the Death Knight |QID|12088|
+T Thassarian, the Death Knight |QID|12088| |N|Inside the Wailing Ziggurat (84.82, 41.70), entrance is on the north side.|
+A Finding the Phylactery |QID|11956|
+C Finding the Phylactery |QID|11956| |N|Head back to Death's Stand and hop on the horse|
+T Finding the Phylactery |QID|11956| |N|Back at the Wailing Ziggurat (84.83, 41.65)|
+A Buying Some Time |QID|11938|
+C Buying Some Time |QID|11938| |N|Head north into the Temple City of En'kilah (85,26)|
+T Buying Some Time |QID|11938| |N|Back at the Wailing Ziggurat (84.82, 41.63)|
+A Words of Power |QID|11942|
+C Words of Power |QID|11942| |N|Kill High Priest Talet-Khain the Spire of Pain (89.37, 28.94), High Priest Andorath upstairs in Spire of Blood (87.81, 20.71) and High Priest Naferset in the Spire of Decay (83.92, 20.45).  To kill High Priest Naferset you must first kill the mobs around him.|
+T Words of Power |QID|11942| |N|Back at the Wailing Ziggurat (84.86, 41.63)|
+A Last Rites |QID|12019|
+C Last Rites |QID|12019| |N|Yes, this says it's a 3-person quest, but you'll have Thassarian's help.  Take the portal up to Naxxanar in En'kilah (86.47, 28.50).  Then take the portal directly above you up to the top.  Grab anyone up top to help you out.  If you fail, skip this.|
+T Last Rites |QID|12019|
 
 T A Little Bit of Spice |QID|11726| |N|Back at Pilot Tailspin (61.71, 35.77)|
 A Lupus Pupus |QID|11728|
@@ -417,31 +437,4 @@ U |cffffffff|Hitem:34620:0:0:0:0:0:0:1784573872:70|h[King Mrgl-Mrgl's Spare Suit
 T Surrender... Not! |QID|11566| |N|Borean Tundra, Winterfin Retreat (43.50, 13.92)|
 
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (45.03, 33.39)|
-]]
-
-
---[[
-T The Son of Karkut |QID|12086| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
-A Surrounded! |QID|11944| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
-A The Lost Courier |QID|12157| |N|Borean Tundra, Death's Stand (82.10, 46.43)|
-- |QID|11944.1| |QO|Ziggurat Defender slain: 7/7| |N|Borean Tundra, Frozen Reach (82.49, 44.23)|
-T Surrounded! |QID|11944| |N|Borean Tundra, Death's Stand (82.06, 46.36)|
-A Thassarian, the Death Knight |QID|12088| |N|Borean Tundra, Death's Stand (82.06, 46.36)|
-T Thassarian, the Death Knight |QID|12088| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.70)|
-A Finding the Phylactery |QID|11956| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.70)|
-- |QID|11956.1| |QO|Tanathal's Phylactery: 1/1| |N|Borean Tundra, Transborea (85.39, 33.38)|
-T Finding the Phylactery |QID|11956| |N|Borean Tundra, The Wailing Ziggurat (84.83, 41.65)|
-A Buying Some Time |QID|11938| |N|Borean Tundra, The Wailing Ziggurat (84.83, 41.65)|
-- |QID|11938.1| |QO|En'kilah Casualty: 20/20| |N|Borean Tundra, Temple City of En'kilah (85.19, 26.65)|
-T Buying Some Time |QID|11938| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.63)|
-A Words of Power |QID|11942| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.63)|
-U |cffffffff|Hitem:43465:0:0:0:0:0:0:511443878:71|h[Scroll of Strength VII]|h|r |N|Borean Tundra, Temple City of En'kilah (86.57, 25.13)|
-- |QID|11942.1| |QO|High Priest Andorath's Scroll: 1/1| |N|Borean Tundra, Spire of Blood (87.81, 20.71)|
-- |QID|11942.2| |QO|High Priest Naferset's Scroll: 1/1| |N|Borean Tundra, Spire of Decay (83.92, 20.45)|
-- |QID|11942.3| |QO|High Priest Talet-Kha's Scroll: 1/1| |N|Borean Tundra, Spire of Pain (89.37, 28.94)|
-T Words of Power |QID|11942| |N|Borean Tundra, The Wailing Ziggurat (84.86, 41.63)|
-A Last Rites |QID|12019| |N|Borean Tundra, The Wailing Ziggurat (84.86, 41.63)|
-- |QID|12019.1| |QO|Last Rites: 1/1| |N|Borean Tundra, Naxxanar (86.76, 30.45)|
-T Last Rites |QID|12019| |N|Borean Tundra, Naxxanar (86.77, 30.53)|
-N port here |N|Borean Tundra, Temple City of En'kilah (86.47, 28.50)|
 ]]
