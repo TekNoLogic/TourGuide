@@ -425,6 +425,58 @@ A Deploy the Shake-n-Quake! |QID|11723| |N|Borean Tundra, Fizzcrank Airstrip (57
 T Plan B |QID|11658| |N|Borean Tundra, Fizzcrank Airstrip (58.00, 18.55)|
 A It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (58.00, 18.55)|
 U |cff1eff00|Hitem:37274:0:0:0:0:0:0:338603175:71|h[Mender's Cover]|h|r |N|Borean Tundra, Fizzcrank Airstrip (57.07, 18.74)|
+
+U |cffffffff|Hitem:34871:0:0:0:0:0:0:924450752:71|h[Crafty's Sack]|h|r |N|Borean Tundra, Magmoth (55.51, 12.73)|
+- |QID|11670.2| |QO|Warsong Orc Disguise: 1/1| |N|Borean Tundra, Magmoth (55.51, 12.73)|
+U |cffffffff|Hitem:34870:0:0:0:0:0:0:-2095315249:71|h[Warsong Orc Disguise]|h|r |N|Borean Tundra, Magmoth (55.51, 12.73)|
+N hole here |N|Borean Tundra, Magmoth (55.42, 12.67)|
+- |QID|11670.1| |QO|Warsong Banner Planted in Magmothregar: 1/1| |N|Borean Tundra, Magmoth (55.23, 11.98)|
+N entrance |N|Borean Tundra, Magmoth (54.12, 13.29)|
+T It Was The Orcs, Honest! |QID|11670| |N|Borean Tundra, Fizzcrank Airstrip (57.98, 18.64)|
+U |cffffffff|Hitem:34981:0:0:0:0:0:0:1606244304:71|h[Shake-n-Quake 5000 Control Unit]|h|r |N|Borean Tundra, The Geyser Fields (66.21, 32.15)|
+- |QID|11723.2| |QO|Delpoy the Shake-n-Quake 5000: 1/1| |N|Borean Tundra, The Geyser Fields (69.99, 37.09)|
+- |QID|11723.1| |QO|Lord Kryxix slain: 1/1| |N|Borean Tundra, The Geyser Fields (69.97, 37.05)|
+T Deploy the Shake-n-Quake! |QID|11723| |N|Borean Tundra, Fizzcrank Airstrip (57.13, 20.05)|
+T Cowards and Fools |QID|11932| |N|Borean Tundra, Kaskala (63.81, 46.10)|
+A The Son of Karkut |QID|12086| |N|Borean Tundra, Kaskala (63.81, 46.10)|
+A Not Without a Fight! |QID|11949| |N|Borean Tundra, Kaskala (63.81, 46.10)|
+A Preparing for the Worst |QID|11945| |N|Borean Tundra, Kaskala (63.93, 45.77)|
+- |QID|11949.1| |QO|Kvaldir Raider slain: 12/12| |N|Borean Tundra, Kaskala (65.69, 47.68)|
+T Not Without a Fight! |QID|11949| |N|Borean Tundra, Kaskala (63.82, 46.20)|
+A Muahit's Wisdom |QID|11950| |N|Borean Tundra, Kaskala (63.82, 46.20)|
+- |QID|11945.1| |QO|Kaskala Supplies: 8/8| |N|Borean Tundra, Kaskala (64.99, 47.83)|
+T Preparing for the Worst |QID|11945| |N|Borean Tundra, Kaskala (63.97, 45.78)|
+T Muahit's Wisdom |QID|11950| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.78)|
+A Spirits Watch Over Us |QID|11961| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.78)|
+- |QID|11961.1| |QO|Issliruk's Totem: 1/1| |N|Borean Tundra, Njord's Breath Bay (67.60, 50.42)|
+T Spirits Watch Over Us |QID|11961| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.81)|
+A The Tides Turn |QID|11968| |N|Borean Tundra, Njord's Breath Bay (67.20, 54.81)|
+- |QID|11968.1| |QO|Heigarr the Horrible slain: 1/1| |N|Borean Tundra, Njord's Breath Bay (67.38, 55.92)|
+T The Tides Turn |QID|11968| |N|Borean Tundra, Njord's Breath Bay (67.17, 54.88)|
+A Travel to Moa'ki Harbor |QID|12117| |N|Borean Tundra, Njord's Breath Bay (67.25, 54.82)|
+T The Son of Karkut |QID|12086| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
+A Surrounded! |QID|11944| |N|Borean Tundra, Death's Stand (82.07, 46.48)|
+A The Lost Courier |QID|12157| |N|Borean Tundra, Death's Stand (82.10, 46.43)|
+- |QID|11944.1| |QO|Ziggurat Defender slain: 7/7| |N|Borean Tundra, Frozen Reach (82.49, 44.23)|
+T Surrounded! |QID|11944| |N|Borean Tundra, Death's Stand (82.06, 46.36)|
+A Thassarian, the Death Knight |QID|12088| |N|Borean Tundra, Death's Stand (82.06, 46.36)|
+T Thassarian, the Death Knight |QID|12088| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.70)|
+A Finding the Phylactery |QID|11956| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.70)|
+- |QID|11956.1| |QO|Tanathal's Phylactery: 1/1| |N|Borean Tundra, Transborea (85.39, 33.38)|
+T Finding the Phylactery |QID|11956| |N|Borean Tundra, The Wailing Ziggurat (84.83, 41.65)|
+A Buying Some Time |QID|11938| |N|Borean Tundra, The Wailing Ziggurat (84.83, 41.65)|
+- |QID|11938.1| |QO|En'kilah Casualty: 20/20| |N|Borean Tundra, Temple City of En'kilah (85.19, 26.65)|
+T Buying Some Time |QID|11938| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.63)|
+A Words of Power |QID|11942| |N|Borean Tundra, The Wailing Ziggurat (84.82, 41.63)|
+U |cffffffff|Hitem:43465:0:0:0:0:0:0:511443878:71|h[Scroll of Strength VII]|h|r |N|Borean Tundra, Temple City of En'kilah (86.57, 25.13)|
+- |QID|11942.1| |QO|High Priest Andorath's Scroll: 1/1| |N|Borean Tundra, Spire of Blood (87.81, 20.71)|
+- |QID|11942.2| |QO|High Priest Naferset's Scroll: 1/1| |N|Borean Tundra, Spire of Decay (83.92, 20.45)|
+- |QID|11942.3| |QO|High Priest Talet-Kha's Scroll: 1/1| |N|Borean Tundra, Spire of Pain (89.37, 28.94)|
+T Words of Power |QID|11942| |N|Borean Tundra, The Wailing Ziggurat (84.86, 41.63)|
+A Last Rites |QID|12019| |N|Borean Tundra, The Wailing Ziggurat (84.86, 41.63)|
+- |QID|12019.1| |QO|Last Rites: 1/1| |N|Borean Tundra, Naxxanar (86.76, 30.45)|
+T Last Rites |QID|12019| |N|Borean Tundra, Naxxanar (86.77, 30.53)|
+N port here |N|Borean Tundra, Temple City of En'kilah (86.47, 28.50)|
 ]]
 
 --[[
