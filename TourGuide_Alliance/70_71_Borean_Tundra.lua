@@ -95,6 +95,14 @@ T Karuk's Oath |QID|11613|
 A Gamel the Cruel |QID|11619|
 C Gamel the Cruel |QID|11619| |N|In a cave down on the beach (46.26, 78.83)|
 T Gamel the Cruel |QID|11619|
+A A Father's Words |QID|11620|
+T A Father's Words |QID|11620| |N|Out on the cost in the Shrine of Scales (43.63, 80.52)|
+A The Trident of Naz'jan |QID|11625|
+C The Trident of Naz'jan |QID|11625| |N|Swim southeast to Riplash Ruins, work your way up to the northeast building (54.67, 89.05)|
+T The Trident of Naz'jan |QID|11625| |N|Back at the Shrine of Scales (43.63, 80.62)|
+A The Emissary |QID|11626|
+C The Emissary |QID|11626| |U|35850| |N|Swim back to the large iceberg at Riplash Ruins (51.40, 88.19).  Dive down, use the [Trident of Naz'jan] on Leviroth and kill him.|
+T The Emissary |QID|11626| |N|Back at Karuk (47.15, 75.39)|
 
 A Ears of Our Enemies |QID|11866| |N|Take the road north past town to the D.E.H.T.A. Encampment (57.06, 44.27)|
 A Help Those That Cannot Help Themselves |QID|11876|
