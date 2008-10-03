@@ -2,7 +2,7 @@
 TourGuide:RegisterGuide("Grizzly Hills (72-73)", nil, "Alliance", function()
 return [[
 ]]
-end
+end)
 
 --[[
 A Local Support |QID|12292| |N|Grizzly Hills, Amberpine Lodge (32.03, 60.04)|

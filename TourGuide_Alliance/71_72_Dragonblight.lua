@@ -2,7 +2,7 @@
 TourGuide:RegisterGuide("Dragonblight (71-72)", "Grizzly Hills (72-73)", "Alliance", function()
 return [[
 ]]
-end
+end)
 
 --[[
 T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.45, 48.40)|
