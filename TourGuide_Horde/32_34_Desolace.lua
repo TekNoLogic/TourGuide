@@ -85,15 +85,10 @@ T Centaur Bounty |QID|1366|
 T Bone Collector |QID|5501|
 
 H Shadowprey Village
-
-N Stable pet |C|Hunter|
-
 T Hand of Iruxos |QID|5381|
 T Other Fish to Fry |QID|6143|
 T Clam Bait |QID|6142|
 T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up| |QID|1370|
-
-P Claw (Rank 5) |N|Tame a Scorpashi Lasher, level 34 (36,77)| |C|Hunter|
 
 F Camp Taurajo
 R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|

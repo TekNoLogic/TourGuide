@@ -38,7 +38,7 @@ h2. How to create (or edit) guides
 
 TourGuide data files are fairly simple to create.
 The simplest method is to copy an existing file and edit it how you want.
-Please read "How to edit TourGuide guides":http://www.tekkub.net/pages/tourguide_editing for help on the format and general guidelines.
+Please read "How to edit TourGuide guides":http://github.com/tekkub/tourguide/wikis/how-to-edit-tourguide-guides for help on the format and general guidelines.
 I ask that all submissions follow these guidelines, to present a consistent format to the user.
 I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon Joana's, Kopp's or any other copyrighted guide.
 

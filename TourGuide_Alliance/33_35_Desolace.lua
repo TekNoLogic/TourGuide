@@ -53,11 +53,6 @@ T Book of the Ancients |N|Back on shore at the tower| |QID|6027|
 C Reagents for Reclaimers Inc. (Part 2) |N|Get the last few reagents you need, you should have most by now.| |QID|1459|
 
 H Nijel's Point
-
-N Stable your pet |C|Hunter| |T|
-P Claw (Rank 5) |N|Tame a Scorpashi, level 34.  Found all around the Kodo Graveyard (58,50)| |C|Hunter|
-N Keep this pet if you want |N|Otherwise get your pet out of stable| |C|Hunter|
-
 T Reagents for Reclaimers Inc. (Part 2) |N|Skip the follow-up| |T| |QID|1459|
 T The Karnitol Shipwreck (Part 2) |N|Skip the follow-up| |T| |QID|1455|
 T Centaur Bounty |T| |QID|1387|

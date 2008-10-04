@@ -6,7 +6,7 @@ local hadquest
 
 
 TourGuide.TrackEvents = {"UI_INFO_MESSAGE", "CHAT_MSG_LOOT", "CHAT_MSG_SYSTEM", "QUEST_LOG_UPDATE", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
-	"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", "CRAFT_SHOW"}
+	"MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA"}
 
 
 function TourGuide:ZONE_CHANGED(...)
@@ -36,16 +36,6 @@ function TourGuide:CHAT_MSG_SYSTEM(event, msg)
 		if text and quest:gsub(L.PART_GSUB, "") == text then
 			self:DebugF(1, "Detected quest accept %q", quest)
 			return self:UpdateStatusFrame()
-		end
-	end
-
-	if action == "PET" then
-		local _, _, text = msg:find(L["You have learned a new spell: (.*)."])
-		local nextEntry = #TourGuide.petskills + 1
-		TourGuide.petskills[nextEntry] = text
-		if text and quest == text then
-			self:DebugF(1, "Detected pet skill train %q", quest)
-			return self:SetTurnedIn()
 		end
 	end
 end
@@ -89,16 +79,6 @@ function TourGuide:UI_INFO_MESSAGE(event, msg)
 		self:Debug(1, "Discovered flight point")
 		self:SetTurnedIn()
 	end
-end
-
-
-function TourGuide:CRAFT_SHOW()
-	if not CraftIsPetTraining() then return end
-	for i=1,GetNumCrafts() do
-		local name, rank = GetCraftInfo(i)
-		self.db.char.petskills[name.. (rank == "" and "" or (" (" .. rank .. ")"))] = true
-	end
-	if self:GetObjectiveInfo() == "PET" then self:UpdateStatusFrame() end
 end
 
 
