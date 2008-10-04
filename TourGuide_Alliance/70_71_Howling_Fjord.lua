@@ -370,6 +370,7 @@ T In Service to the Light |QID|11239|
 A Of Traitors and Treason |QID|12297|
 T Of Traitors and Treason |QID|12297| |N|At the flightmaster (31.28, 44.00)|
 A High Commander Halford Wyrmbane |QID|12298|
+T High Commander Halford Wyrmbane |QID|12298| |N|Down the hill from the flightmaster (78.45, 48.40)| |Z|Dragonblight|
 ]]
 end)
 

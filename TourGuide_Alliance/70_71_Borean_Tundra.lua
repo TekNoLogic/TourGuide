@@ -450,5 +450,11 @@ T It Was The Orcs, Honest! |QID|11670|
 C Deploy the Shake-n-Quake! |QID|11723| |U|34981| |N|Head down to the south sinkhole (69.99, 37.09) and use the [Shake-n-Quake 5000 Control Unit]|
 T Deploy the Shake-n-Quake! |QID|11723| |N|Back at Fizzcrank Airstrip (57.13, 20.05)|
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Back up on Amber Ledge (45.03, 33.39)|
+
+T The Lost Courier |QID|12157| |N|Fly to Unu'pe, then run east into the Dragonblight.  Follow the road to Stars' Rest (28.84, 56.15)| |Z|Dragonblight|
+A Of Traitors and Treason |QID|12171|
+T Of Traitors and Treason |QID|12171| |N|Talk to the flightmaster (29.16, 55.34)| |Z|Dragonblight|
+A High Commander Halford Wyrmbane |QID|12174|
+T High Commander Halford Wyrmbane |QID|12174| |N|Down the hill from the flightmaster (78.51, 48.27)| |Z|Dragonblight|
 ]]
 end)

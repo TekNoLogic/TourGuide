@@ -1,12 +1,11 @@
 
 TourGuide:RegisterGuide("Dragonblight (71-72)", "Grizzly Hills (72-73)", "Alliance", function()
 return [[
+A Naxxramas and the Fall of Wintergarde |QID|12235|
 ]]
 end)
 
 --[[
-T High Commander Halford Wyrmbane |QID|12298| |N|Dragonblight, Wintergarde Keep (78.45, 48.40)|
-A Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (78.27, 48.79)|
 T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
 A Flight of the Wintergarde Defender |QID|12237| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
 ]]
