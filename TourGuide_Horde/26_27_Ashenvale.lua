@@ -57,11 +57,6 @@ T Troll Charm |QID|6462|
 
 H Splintertree Post
 
-N Stable Pet |C|Hunter|
-P Bite (Rank 4) |C|Hunter| |N|Tame a Ghostpaw Alpha|
-P Claw (Rank 4) |C|Hunter| |N|Tame an Elder Ashenvale Bear|
-N Retrieve Pet |C|Hunter|
-
 T Freedom to Ruul |QID|6482|
 A Destroy the Legion |QID|9534|
 C Ordanus |N|Fight to the top of the tower (62.07, 51.03). Just kill Ordanus, then loot the head and jump out of there.| |QID|1088|

@@ -8,10 +8,7 @@ B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom
 B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
 A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)| |Z|Ironforge| |QID|707|
 
-N Upgrade your ammo! |C|Hunter|
-
 F Loch Modan
-N Stable your pet |C|Hunter|
 A Badlands Reagent Run |N|In the house behind the Inn (37,49)| |Z|Loch Modan| |QID|2500|
 T Ironband Wants You! |N|Down at Ironband's Excavation Site (65,65)| |Z|Loch Modan| |QID|707|
 A Find Agmond |QID|738|
@@ -23,12 +20,6 @@ A A Dwarf and His Tools |QID|719|
 A Barbecued Buzzard Wings |N|West, in the center of the zone (42,52)| |QID|703|
 
 N Kill any buzzards you see |N|For "Barbecued Buzzard Wings" and "Badlands Reagent Run"|
-
-P Dash (Rank 2) |C|Hunter| |N|Tame a Ridge Stalker Patriarch (20,53)|
-P Prowl (Rank 2) |C|Hunter|
-H Stoutlager Inn |SZ|Thelsamar| |C|Hunter|
-N Switch back to your cat |N|Don't dismiss the Badlands cat!| |C|Hunter|
-R Badlands |C|Hunter|
 
 C Mirages |N|Grind your way to the crate in the northwest at Camp Kosh (66,21)| |QID|718|
 A A Sign of Hope (Part 1) |N|At Hammertoe's Digsite.  Note is on the right side of the dig (53,33)| |QID|720|
