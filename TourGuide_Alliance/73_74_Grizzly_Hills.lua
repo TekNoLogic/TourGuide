@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Grizzly Hills (72-73)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Grizzly Hills (73-74)", "Zul'Drak (74-75)", "Alliance", function()
 return [[
 ]]
 end)
