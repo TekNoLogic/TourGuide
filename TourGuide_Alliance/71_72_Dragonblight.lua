@@ -2,12 +2,91 @@
 TourGuide:RegisterGuide("Dragonblight (71-72)", "Grizzly Hills (72-73)", "Alliance", function()
 return [[
 A Naxxramas and the Fall of Wintergarde |QID|12235|
+T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Back up near the flightmaster (77.15, 50.08)|
+A Flight of the Wintergarde Defender |QID|12237|
+C Flight of the Wintergarde Defender |QID|12237| |U|37287| |N|Use the [Wintergarde Gryphon Whistle] and save some people! Look for villagers running around down in the fields below Naxx.  You have to take them back to the gryphonmaster one at a time.|
+T Flight of the Wintergarde Defender |QID|12237| |N|Near the flightmaster (77.14, 50.12)|
+A Return to the High Commander |QID|12251|
+T Return to the High Commander |QID|12251| |N|Down the hill (78.47, 48.32)|
+A Rescue from Town Square |QID|12253|
+
+A The Demo-gnome |QID|12275|
+
+T The Demo-gnome |QID|12275| |N|Back up the hill (77.84, 50.22)|
+A The Search for Slinkin |QID|12276|
+A The Bleeding Ore |QID|12272|
+A Not In Our Mine |QID|12269|
+
+T The Search for Slinkin |QID|12276| |N|Use the bot, mount up and follow him (he's a zippy little one) work your way down into the Wintergarde Mine (81.56, 42.21)| |U|37459|
+A Leave Nothing to Chance |QID|12277|
+
+N Get a bomb |N|Around the corner from Slinkin (80.7, 41.4)| |L|37465|
+C The Bleeding Ore |QID|12272|
+C Not In Our Mine |QID|12269|
+C Leave Nothing to Chance |QID|12277| |U|37465| |N|On your way out of the mine, blow up the upper (80.45, 45.28) and lower (80.20, 44.81) entrances|
+
+T Leave Nothing to Chance |QID|12277| |N|Back up in Wintergarde Keep (77.85, 50.22)|
+T The Bleeding Ore |QID|12272|
+A Understanding the Scourge War Machine |QID|12281|
+T Not In Our Mine |QID|12269|
+T Understanding the Scourge War Machine |QID|12281| |N|Down the hill (78.47, 48.34)|
 ]]
 end)
 
 --[[
-T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
-A Flight of the Wintergarde Defender |QID|12237| |N|Dragonblight, Wintergarde Keep (77.12, 50.07)|
+A The Fate of the Dead |QID|12258| |N|Dragonblight, Wintergarde Keep (78.61, 48.19)|
+A Imprints on the Past |QID|12282| |N|Dragonblight, Wintergarde Keep (79.12, 47.20)|
+]]
+
+--[[
+
+A Signs of Big Watery Trouble |QID|12011| |N|Dragonblight, Moa'ki Harbor (47.75, 79.92)|
+T Signs of Big Watery Trouble |QID|12011| |N|Dragonblight, Moa'ki Harbor (47.73, 76.60)|
+A The Bait |QID|12016| |N|Dragonblight, Moa'ki Harbor (47.73, 76.60)|
+A Planning for the Future |QID|11960| |N|Dragonblight, Moa'ki Harbor (48.31, 74.32)|
+T Travel to Moa'ki Harbor |QID|12117| |N|Dragonblight, Moa'ki Harbor (48.03, 74.88)|
+A Let Nothing Go To Waste |QID|11958| |N|Dragonblight, Moa'ki Harbor (48.03, 74.88)|
+A Your Presence is Required at Stars' Rest |QID|11995| |N|Dragonblight, Moa'ki Harbor (48.03, 74.88)|
+- |QID|11958.1| |QO|Stolen Moa'ki Goods: 6/6| |N|Dragonblight, Snowfall Glade (46.50, 64.41)|
+- |QID|11960.1| |QO|Snowfall Glade Pup: 12/12| |N|Dragonblight, Snowfall Glade (45.04, 61.51)|
+T Planning for the Future |QID|11960| |N|Dragonblight, Moa'ki Harbor (48.33, 74.32)|
+T Let Nothing Go To Waste |QID|11958| |N|Dragonblight, Moa'ki Harbor (48.01, 74.81)|
+A Slay Loguhn |QID|11959| |N|Dragonblight, Moa'ki Harbor (48.01, 74.81)|
+- |QID|11959.1| |QO|Loguhn's Blood Smeared: 1/1| |N|Dragonblight, Snowfall Glade (45.74, 59.46)|
+T Slay Loguhn |QID|11959| |N|Dragonblight, Moa'ki Harbor (48.01, 74.80)|
+A Spiritual Insight |QID|12028| |N|Dragonblight, Moa'ki Harbor (49.13, 75.68)|
+A Tua'kea's Crab Traps |QID|12009| |N|Dragonblight, Moa'ki Harbor (47.73, 76.59)|
+U |cffffffff|Hitem:35907:0:0:0:0:0:0:165282989:71|h[Toalu'u's Spiritual Incense]|h|r |N|Dragonblight, Moa'ki Harbor (48.91, 75.82)|
+- |QID|12028.1| |QO|Spiritual insight concerning Indu'le Village attained.| |N|Dragonblight, Moa'ki Harbor (48.94, 75.85)|
+T Spiritual Insight |QID|12028| |N|Dragonblight, Moa'ki Harbor (49.11, 75.67)|
+A Elder Mana'loa |QID|12030| |N|Dragonblight, Moa'ki Harbor (49.11, 75.67)|
+U |cffffffff|Hitem:37265:0:0:0:0:0:0:1837903552:71|h[Tua'kea's Breathing Bladder]|h|r |N|Dragonblight, Moa'ki Harbor (46.95, 77.91)|
+- |QID|12016.1| |QO|The Flesh of \"Two Huge Pincers\": 1/1| |N|Dragonblight, Kili'ua's Atoll (42.63, 80.52)|
+U |cffffffff|Hitem:35831:0:0:0:0:0:0:513278720:72|h[The Flesh of \"Two Huge Pincers\"]|h|r |N|Dragonblight, Moa'ki Harbor (46.76, 78.05)|
+- |QID|12009.1| |QO|Tua'kea Crab Trap: 8/8| |N|Dragonblight, Moa'ki Harbor (47.14, 78.54)|
+U |cffffffff|Hitem:37265:0:0:0:0:0:0:1837903552:72|h[Tua'kea's Breathing Bladder]|h|r |N|Dragonblight, Moa'ki Harbor (47.53, 77.14)|
+T Tua'kea's Crab Traps |QID|12009| |N|Dragonblight, Moa'ki Harbor (47.69, 76.70)|
+T The Bait |QID|12016| |N|Dragonblight, Moa'ki Harbor (47.69, 76.70)|
+A Meat on the Hook |QID|12017| |N|Dragonblight, Moa'ki Harbor (47.69, 76.70)|
+U |cffffffff|Hitem:35838:0:0:0:0:0:0:2047521248:72|h[Tu'u'gwar's Bait]|h|r |N|Dragonblight, Moa'ki Harbor (46.71, 78.14)|
+- |QID|12017.1| |QO|Tu'u'gwar slain: 1/1| |N|Dragonblight, Moa'ki Harbor (46.71, 78.14)|
+T Meat on the Hook |QID|12017| |N|Dragonblight, Moa'ki Harbor (47.68, 76.63)|
+U |cff1eff00|Hitem:37211:0:0:0:0:0:0:1042493016:72|h[Iceflow Footwraps]|h|r |N|Dragonblight, Moa'ki Harbor (48.63, 75.60)|
+T Elder Mana'loa |QID|12030| |N|Dragonblight, Indu'le Village (36.81, 65.22)|
+A Freedom for the Lingering |QID|12031| |N|Dragonblight, Indu'le Village (36.81, 65.22)|
+- |QID|12031.1| |QO|Indu'le spirits put to rest: 15/15| |N|Dragonblight, Indu'le Village (37.16, 65.51)|
+T Freedom for the Lingering |QID|12031| |N|Dragonblight, Indu'le Village (36.79, 65.22)|
+A Conversing With the Depths |QID|12032| |N|Dragonblight, Indu'le Village (36.79, 65.22)|
+U |cffffffff|Hitem:33444:0:0:0:0:0:0:913720081:72|h[Pungent Seal Whey]|h|r |N|Dragonblight,  (36.24, 77.16)|
+U |cffffffff|Hitem:39691:0:0:0:0:0:0:2117283020:72|h[Succulent Orca Stew]|h|r |N|Dragonblight, The Briny Pinnacle (34.45, 79.31)|
+- |QID|12032.1| |QO|Oacha'noa's compulsion obeyed.| |N|Dragonblight, The Briny Pinnacle (34.05, 83.93)|
+T Conversing With the Depths |QID|12032| |N|Dragonblight, Moa'ki Harbor (49.12, 75.68)|
+]]
+
+--[[
+A The Liquid Fire of Elune |QID|12166| |N|Dragonblight, Stars' Rest (29.16, 55.70)|
+T Your Presence is Required at Stars' Rest |QID|11995| |N|Dragonblight, Stars' Rest (29.00, 55.47)|
+A Rifle the Bodies |QID|12000| |N|Dragonblight, Stars' Rest (29.00, 55.47)|
 ]]
 
 --[[
