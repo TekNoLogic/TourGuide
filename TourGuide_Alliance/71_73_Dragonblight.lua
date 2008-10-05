@@ -9,10 +9,17 @@ T Flight of the Wintergarde Defender |QID|12237| |N|Near the flightmaster (77.14
 A Return to the High Commander |QID|12251|
 T Return to the High Commander |QID|12251| |N|Down the hill (78.47, 48.32)|
 A Rescue from Town Square |QID|12253|
+A The Fate of the Dead |QID|12258|
 
+C Rescue from Town Square |QID|12253| |N|Right down the hill (80.5,49.5)|
+C The Fate of the Dead |QID|12258|
+
+T The Fate of the Dead |QID|12258| |N|Back up the hill at Wintergarde Keep (78.61, 48.22)|
+T Rescue from Town Square |QID|12253|
+A Find Durkon! |QID|12309|
 A The Demo-gnome |QID|12275|
 
-T The Demo-gnome |QID|12275| |N|Back up the hill (77.84, 50.22)|
+T The Demo-gnome |QID|12275| |N|Back up the hill across from the flightmaster (77.84, 50.22)|
 A The Search for Slinkin |QID|12276|
 A The Bleeding Ore |QID|12272|
 A Not In Our Mine |QID|12269|
@@ -23,7 +30,7 @@ A Leave Nothing to Chance |QID|12277|
 N Get a bomb |N|Around the corner from Slinkin (80.7, 41.4)| |L|37465|
 C The Bleeding Ore |QID|12272|
 C Not In Our Mine |QID|12269|
-C Leave Nothing to Chance |QID|12277| |U|37465| |N|On your way out of the mine, blow up the upper (80.45, 45.28) and lower (80.20, 44.81) entrances|
+C Leave Nothing to Chance |QID|12277| |U|37465| |N|On your way out of the mine, blow up the upper (80.45, 45.28) and lower (80.20, 44.81) entrances.  Stand near the blast for a little fun.|
 
 T Leave Nothing to Chance |QID|12277| |N|Back up in Wintergarde Keep (77.85, 50.22)|
 T The Bleeding Ore |QID|12272|
@@ -34,7 +41,6 @@ T Understanding the Scourge War Machine |QID|12281| |N|Down the hill (78.47, 48.
 end)
 
 --[[
-A The Fate of the Dead |QID|12258| |N|Dragonblight, Wintergarde Keep (78.61, 48.19)|
 A Imprints on the Past |QID|12282| |N|Dragonblight, Wintergarde Keep (79.12, 47.20)|
 ]]
 
