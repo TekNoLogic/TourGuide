@@ -455,6 +455,8 @@ T Gjalerbron Attack Plans |QID|11237|
 A The Frost Wyrm and its Master |QID|11238|
 A Sleeping Giants |QID|11432|
 
+T Scare the Guano Out of Them! |QID|11154| |N|North at Steel Gate (30.23, 28.79)|
+
 C Sleeping Giants |QID|11432| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
 C In Service to the Light |QID|11239|
 C Necro Overlord Mezhen |QID|11236| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
@@ -470,26 +472,3 @@ A High Commander Halford Wyrmbane |QID|12298|
 T High Commander Halford Wyrmbane |QID|12298| |N|Down the hill from the flightmaster (78.45, 48.40)| |Z|Dragonblight|
 ]]
 end)
-
---[[
-A Sleeping Giants |QID|11432| |N|,  (70.30, 77.32)|
-- |QID|11154.1| |QO|Darkclaw Guano: 15/15| |N|,  (48.72, 40.24)|
-A Sleeping Giants |QID|11432| |N|,  (48.72, 40.24)|
-
-T Scare the Guano Out of Them! |QID|11154| |N|Howling Fjord, Steel Gate (30.23, 28.79)|
-U |cffffffff|Hitem:34083:0:0:0:0:0:0:284388481:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (34.85, 10.23)|
-- |QID|11239.2| |QO|Fearsome Horror slain: 4/4| |N|Howling Fjord, The Waking Halls (35.04, 8.81)|
-U |cffffffff|Hitem:34083:0:0:0:0:0:0:2080839082:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (36.03, 7.38)|
-- |QID|11432.1| |QO|Dormant Vrykul slain: 5/5| |N|Howling Fjord, The Waking Halls (33.93, 9.79)|
-- |QID|11238.1| |QO|Wyrmcaller Vile slain: 1/1| |N|Howling Fjord, Gjalerbron (36.56, 7.84)|
-- |QID|11238.3| |QO|Wyrmcaller's Horn: 1/1| |N|Howling Fjord, Gjalerbron (36.45, 7.41)|
-U |cffffffff|Hitem:33282:0:0:0:0:0:0:-2064964294:72|h[Wyrmcaller's Horn]|h|r |N|Howling Fjord, Gjalerbron (36.45, 7.41)|
-- |QID|11238.2| |QO|Glacion slain: 1/1| |N|Howling Fjord, Gjalerbron (36.14, 7.77)|
-- |QID|11236.1| |QO|Necro Overlord Mezhen slain: 1/1| |N|Howling Fjord, Gjalerbron (38.75, 12.33)|
-- |QID|11239.3| |QO|Putrid Wight slain: 2/2| |N|Howling Fjord, Gjalerbron (35.80, 16.11)|
-- |QID|11239.1| |QO|Deathless Watcher slain: 10/10| |N|Howling Fjord, Gjalerbron (35.80, 16.11)|
-T The Frost Wyrm and its Master |QID|11238| |N|Howling Fjord, Westguard Keep (28.95, 44.17)|
-T Sleeping Giants |QID|11432| |N|Howling Fjord, Westguard Keep (28.95, 44.17)|
-T Necro Overlord Mezhen |QID|11236| |N|Howling Fjord, Westguard Keep (28.88, 44.13)|
-T In Service to the Light |QID|11239| |N|Howling Fjord, Westguard Keep (28.84, 43.95)|
-]]
