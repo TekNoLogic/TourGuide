@@ -174,6 +174,105 @@ A Mission: Package Retrieval |QID|11327|
 C Mission: Package Retrieval |QID|11327| |N|Find the Apothecary's Package down inside Halgrind (50.79, 53.90)|
 T Mission: Package Retrieval |QID|11327| |N|Back at the towen (44.46, 57.71)|
 A Mission: Forsaken Intel |QID|11328|
+
+T Orfus of Kamagua |QID|11573| |N|South in front of the Ancient Lift (40.36, 60.27)|
+A The Dead Rise! |QID|11504|
+C The Dead Rise! |QID|11504| |N|Far to the southeast at Shield Hill.  Visit each grave for a clue: Fengir (57.69, 77.51), Rodin (59.22, 76.99), Isuldof (59.80, 79.39), Windan (61.98, 80.04)|
+T The Dead Rise! |QID|11504| |N|Back at the Ancient Lift (40.32, 60.25)|
+A Elder Atuik and Kamagua |QID|11507|
+T Elder Atuik and Kamagua |QID|11507| |N|Ride the lift down to Kamagua (25.05, 56.99)|
+A Grezzix Spindlesnap |QID|11508|
+A Feeding the Survivors |QID|11456|
+
+C Feeding the Survivors |QID|11456| |N|All over the island|
+T Feeding the Survivors |QID|11456| |N|Back at Kamagua (25.04, 57.02)|
+A Arming Kamagua |QID|11457|
+C Arming Kamagua |QID|11457| |N|Lots on the northern part of the island|
+T Arming Kamagua |QID|11457| |N|Back at Kamagua (25.06, 57.00)|
+A Avenge Iskaal |QID|11458|
+
+T Grezzix Spindlesnap |QID|11508| |N|In a little boat just off shore to the southwest (23.06, 62.65)|
+A Street "Cred" |QID|11509|
+
+T Street "Cred" |QID|11509| |N|At Scalawag Point (35.14, 80.91), on the far side of the island to the southeast|
+A "Scoodles" |QID|11510|
+A Forgotten Treasure |QID|11434|
+
+C "Scoodles" |QID|11510| |N|Just off shore to the south|
+C Forgotten Treasure |QID|11434| |U|34076| |N|Dive down to the wreckage.  Use the [Fish Bladder] if you need.  Find the Eagle Figurine in one boat (37.79, 84.59) and the Amani Vase in the other (37.18, 85.56)|
+
+T Forgotten Treasure |QID|11434| |N|Back at Scalawag Point (35.59, 80.27)|
+A The Fragrance of Money |QID|11455|
+T "Scoodles" |QID|11510|
+A The Staff of Storm's Fury |QID|11511|
+A The Frozen Heart of Isuldof |QID|11512|
+A The Lost Shield of the Aesirites |QID|11519|
+A The Ancient Armor of the Kvaldir |QID|11567|
+A Gambling Debt |QID|11464|
+A Swabbin' Soap |QID|11469|
+C Gambling Debt |QID|11464| |N|Ah, beatin people for money, gotta love it|
+T Gambling Debt |QID|11464|
+A Jack Likes His Drink |QID|11466|
+C Jack Likes His Drink |QID|11466| |N|Inside the building, on the second level (35.45, 79.41).  Talk to the barmaid, then pick his pocket when he passes out.|
+T Jack Likes His Drink |QID|11466|
+A Dead Man's Debt |QID|11467|
+
+C The Ancient Armor of the Kvaldir |QID|11567| |N|Hop a bomber ride near the shore (36.06, 81.62).  Head down into the hold of the ship, then take the bomber back.|
+
+C Swabbin' Soap |QID|11469| |N|Kill Big Roy, southwest of the other sea lions (31.64, 77.50)|
+C The Fragrance of Money |QID|11455| |N|Bear musk always gets me horny|
+
+T The Lost Shield of the Aesirites |QID|11519| |N|Head out to the little island to the east (38.00, 74.48).  Hop on the boat when it docks.|
+A Mutiny on the Mercy |QID|11527|
+C Mutiny on the Mercy |QID|11527| |N|Down in the ship's hold|
+T Mutiny on the Mercy |QID|11527|
+A Sorlof's Booty |QID|11529|
+C Sorlof's Booty |QID|11529| |N|When the ship goes near shore, use the cannon at the other end of the ship, then swim to shore and grab da loots|
+T Sorlof's Booty |QID|11529| |N|Back to the little island (38.00, 74.48) to board the ship|
+A The Shield of the Aesirites
+
+T Swabbin' Soap |QID|11469| |N|Back at Scalawag Point (37.75, 79.55)|
+T The Fragrance of Money |QID|11455|
+A A Traitor Among Us |QID|11473|
+T A Traitor Among Us |QID|11473|
+A Zeh'gehn Sez |QID|11459|
+T Zeh'gehn Sez |QID|11459|
+A A Carver and a Croaker |QID|11476|
+C A Carver and a Croaker |QID|11476| |N|Buy the knife from BAH and grab a frog nearby|
+T A Carver and a Croaker |QID|11476|
+A "Crowleg" Dan |QID|11479|
+C "Crowleg" Dan |QID|11479| |N|Over on the ship there (35.92, 83.55)|
+T "Crowleg" Dan |QID|11479|
+A Meet Number Two |QID|11480|
+T Meet Number Two |QID|11480| |N|In the building, upstairs (35.33, 79.49)|
+A The Jig is Up |QID|11471|
+C The Jig is Up |QID|11471| |N|Head to the bear cave on the north side of the island (33.56, 75.58).  Go in, beat down Jonah.  Then beat on his furry friend a little.  If you fail, skip this, but make sure you get the Frozen Heart.|
+C The Frozen Heart of Isuldof |QID|11512| |N|Near where the bear spawns (32.37, 78.69)|
+
+C Dead Man's Debt |QID|11467| |N|On the north island, up on one of the rises under the lift (32.74, 60.33)|
+
+C Avenge Iskaal |QID|11458| |N|On the east side of the island (33.89, 63.57).  Use the horn for a cute little helper.| |U|36777|
+C The Staff of Storm's Fury |QID|11511| |N|In the hold of the ship.  Sneak past the elite when he heads onto the upper bow of the ship.|
+
+T Avenge Iskaal |QID|11458| |N|Back at Kamagua (25.04, 57.03)|
+A Travel to Moa'ki Harbor |QID|12118|
+A The Way to His Heart... |QID|11472|
+C The Way to His Heart... |QID|11472| |U|34127| |N|Find fish schools in the waters between the two islands and use the net on them.  You'll probably need at least two school's worth.  Target a bull on the south shore, stand as far away as you can and toss him a fish.  Move north and repeat.|
+
+T The Jig is Up |QID|11471| |N|Back at Scalawag Point (35.40, 79.46)|
+T Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.29, 80.45)|
+
+T The Staff of Storm's Fury |QID|11511| |N|At the top of the Ancient Lift (40.33, 60.14)|
+T The Frozen Heart of Isuldof |QID|11512|
+T The Shield of the Aesirites |QID|11530|
+T The Ancient Armor of the Kvaldir |QID|11567|
+A A Return to Resting |QID|11568|
+C A Return to Resting |QID|11568| |N|Back down at Shield Hill, use the [Bundle of Vrykul Artifacts] at each grave (57.65, 77.53) (59.19, 76.96) (61.93, 80.06) (59.76, 79.38)|
+T A Return to Resting |QID|11568| |N|Back at the Ancient Lift (40.33, 60.27)|
+A Return to Atuik |QID|11572|
+T Return to Atuik |QID|11572| |N|Down at Kamagua (25.04, 56.99)|
+T The Way to His Heart... |QID|11472|
+
 T Mission: Forsaken Intel |QID|11328| |N|Back at Westguard in the Inn (30.80, 41.65)| |T|
 A Absholutely... Thish Will Work! |QID|11330| |T|
 C Absholutely... Thish Will Work! |QID|11330| |N|Use the "Special Mix" on the prisoner inside the keep (29.41, 43.44)| |T|
@@ -184,8 +283,6 @@ A Mission: Plague This! |QID|11332| |T|
 C Mission: Plague This! |QID|11332| |N|Talk to the flightmaster for some bombs and a flight... blow shit up!| |U|33634|
 T Mission: Plague This! |QID|11332| |N|Back in the keep (28.85, 44.07)| |T|
 A Operation: Skornful Wrath |QID|11248| |T|
-
-N TODO: Skorn quests
 
 C Shoveltusk Soup Again? |QID|11155|
 C One Size Does Not Fit All |QID|11190|
@@ -375,183 +472,24 @@ T High Commander Halford Wyrmbane |QID|12298| |N|Down the hill from the flightma
 end)
 
 --[[
-- |QID|11504.1| |QO|Fengir's Clue: 1/1| |N|Howling Fjord, Shield Hill (57.70, 77.37)|
-- |QID|11504.2| |QO|Rodin's Clue: 1/1| |N|Howling Fjord, Shield Hill (59.19, 76.99)|
-- |QID|11504.3| |QO|Isuldof's Clue: 1/1| |N|Howling Fjord, Shield Hill (59.77, 79.36)|
-- |QID|11504.4| |QO|Windan's Clue: 1/1| |N|Howling Fjord, Shield Hill (61.95, 80.01)|
-T The Dead Rise! |QID|11504| |N|Howling Fjord, Shield Hill (56.90, 74.65)|
-A Elder Atuik and Kamagua |QID|11507| |N|Howling Fjord, Shield Hill (56.90, 74.65)|
-A Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.07, 56.96)|
-T Elder Atuik and Kamagua |QID|11507| |N|Howling Fjord, Kamagua (25.07, 56.96)|
-A Grezzix Spindlesnap |QID|11508| |N|Howling Fjord, Kamagua (25.07, 56.96)|
-T Grezzix Spindlesnap |QID|11508| |N|Howling Fjord,  (23.05, 62.71)|
-A Street \"Cred\" |QID|11509| |N|Howling Fjord,  (23.05, 62.71)|
-T Street \"Cred\" |QID|11509| |N|Howling Fjord, Scalawag Point (35.11, 80.91)|
-A \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.11, 80.91)|
-A Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.59, 80.32)|
-A Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.73, 79.52)|
-- |QID|11469.1| |QO|Big Roy's Blubber: 1/1| |N|Howling Fjord,  (31.22, 79.18)|
-- |QID|11434.1| |QO|Amani Vase: 1/1| |N|Howling Fjord,  (37.08, 85.50)|
-- |QID|11434.2| |QO|Eagle Figurine: 1/1| |N|Howling Fjord, Garvan's Reef (37.80, 84.59)|
-- |QID|11510.1| |QO|Sin'dorei Scrying Crystal: 1/1| |N|Howling Fjord, Scalawag Point (37.52, 83.79)|
-T Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.76, 79.54)|
-T Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.62, 80.25)|
-A The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.57, 80.51)|
-T \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
-A The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
-A The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
-A The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
-A The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Scalawag Point (35.13, 80.97)|
-A Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.28, 80.42)|
-T The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Garvan's Reef (45.99, 81.99)|
-A Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (45.01, 78.71)|
-- |QID|11527.1| |QO|Barrel of Blasting Powder: 5/5| |N|Howling Fjord, Sorlof's Strand (38.02, 68.55)|
-T Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (38.35, 69.28)|
-A Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (38.25, 69.00)|
-- |QID|11529.1| |QO|Sorlof's Booty: 1/1| |N|Howling Fjord, Sorlof's Strand (41.11, 74.36)|
-T Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (37.19, 74.81)|
-A The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Garvan's Reef (37.19, 74.80)|
-- |QID|11464.1| |QO|\"Silvermoon\" Harry's Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.12, 80.88)|
-T Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.34, 80.53)|
-A Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.34, 80.53)|
-- |QID|11466.1| |QO|Jack Adams' Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.50, 79.42)|
-T Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.25, 80.52)|
-A Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.24, 80.52)|
-- |QID|11567.1| |QO|The Ancient Armor of the Kvaldir: 1/1| |N|Howling Fjord,  (81.76, 73.89)|
-T The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Shield Hill (56.94, 74.59)|
-T The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Shield Hill (56.94, 74.59)|
-- |QID|11467.1| |QO|Black Conrad's Treasure: 1/1| |N|Howling Fjord, The Isle of Spears (32.65, 60.26)|
-- |QID|11456.1| |QO|Island Shoveltusk Meat: 6/6| |N|Howling Fjord, The Isle of Spears (30.90, 61.76)|
-- |QID|11511.1| |QO|The Staff of Storm's Fury: 1/1| |N|Howling Fjord, Iskaal (35.26, 64.77)|
-T Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.05, 57.02)|
-A Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.05, 57.02)|
-A The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.61, 58.78)|
-- |QID|11512.1| |QO|The Frozen Heart of Isuldof: 1/1| |N|Howling Fjord, Garvan's Reef (32.32, 78.69)|
-- |QID|11455.1| |QO|Bear Musk: 4/4| |N|Howling Fjord, Garvan's Reef (33.71, 80.76)|
-U |cffffffff|Hitem:34127:0:0:0:0:0:0:2082196104:72|h[Tasty Reef Fish]|h|r |N|Howling Fjord, Twin Shores (31.42, 73.27)|
-- |QID|11472.1| |QO|Reef Bull led to a Reef Cow| |N|Howling Fjord, Twin Shores (31.40, 71.46)|
-- |QID|11457.1| |QO|Chimaera Horn: 3/3| |N|Howling Fjord, The Isle of Spears (26.96, 66.95)|
-T The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.61, 58.79)|
-T Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.06, 57.01)|
-A Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.06, 57.01)|
-- |QID|11458.1| |QO|Crazed Northsea Slaver slain: 8/8| |N|Howling Fjord, Iskaal (33.86, 63.85)|
-T Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.05, 56.98)|
-A Travel to Moa'ki Harbor |QID|12118| |N|Howling Fjord, Kamagua (24.58, 58.77)|
-T Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.30, 80.59)|
-T The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.65, 80.26)|
-A A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.64, 80.34)|
-T A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.58, 80.57)|
-A Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.57, 80.58)|
-T Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.59, 80.25)|
-A A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.59, 80.25)|
-- |QID|11476.1| |QO|Scalawag Frog: 1/1| |N|Howling Fjord, Scalawag Point (35.51, 81.73)|
-- |QID|11476.2| |QO|Shiny Knife: 1/1| |N|Howling Fjord, Scalawag Point (35.12, 80.91)|
-T A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.52, 80.68)|
-A \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.52, 80.68)|
-- |QID|11479.1| |QO|\"Crowleg\" Dan slain: 1/1| |N|Howling Fjord, Scalawag Point (35.91, 83.61)|
-T \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.62, 80.19)|
-A Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.62, 80.19)|
-T Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.44, 79.42)|
-A The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.44, 79.42)|
-T The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Shield Hill (56.89, 74.69)|
-T The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Shield Hill (56.89, 74.69)|
-A A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.89, 74.69)|
-U |cffffffff|Hitem:34119:0:0:0:0:0:0:678434870:72|h[Black Conrad's Treasure]|h|r |N|Howling Fjord, Shield Hill (56.89, 74.69)|
-- |QID|11568.1| |QO|Shield of the Aesirites Returned: 1/1| |N|Howling Fjord, Shield Hill (57.67, 77.57)|
-- |QID|11568.2| |QO|Staff of Storm's Fury Returned: 1/1| |N|Howling Fjord, Shield Hill (59.22, 76.96)|
-- |QID|11568.3| |QO|Frozen Heart of Isuldof Returned: 1/1| |N|Howling Fjord, Shield Hill (59.73, 79.37)|
-- |QID|11568.4| |QO|Ancient Armor of the Kvaldir Returned: 1/1| |N|Howling Fjord, Shield Hill (61.92, 80.06)|
-T A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.96, 74.65)|
-A Return to Atuik |QID|11572| |N|Howling Fjord, Shield Hill (56.96, 74.65)|
-T Return to Atuik |QID|11572| |N|Howling Fjord, Kamagua (25.04, 56.94)|
-]]
+A Sleeping Giants |QID|11432| |N|,  (70.30, 77.32)|
+- |QID|11154.1| |QO|Darkclaw Guano: 15/15| |N|,  (48.72, 40.24)|
+A Sleeping Giants |QID|11432| |N|,  (48.72, 40.24)|
 
---[[
-T One Size Does Not Fit All |QID|11190| |N|Howling Fjord, Westguard Keep (33.99, 43.72)|
-T Elder Atuik and Kamagua |QID|11507| |N|Howling Fjord, Kamagua (25.06, 56.96)|
-A Grezzix Spindlesnap |QID|11508| |N|Howling Fjord, Kamagua (25.06, 56.96)|
-A Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.06, 56.96)|
-T Grezzix Spindlesnap |QID|11508| |N|Howling Fjord,  (23.15, 62.66)|
-A Street \"Cred\" |QID|11509| |N|Howling Fjord,  (23.15, 62.66)|
-T Street \"Cred\" |QID|11509| |N|Howling Fjord, Scalawag Point (35.13, 80.94)|
-A \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.13, 80.94)|
-A Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.61, 80.28)|
-- |QID|11510.1| |QO|Sin'dorei Scrying Crystal: 1/1| |N|Howling Fjord, Scalawag Point (36.19, 84.43)|
-- |QID|11434.1| |QO|Amani Vase: 1/1| |N|Howling Fjord,  (37.20, 85.56)|
-- |QID|11434.2| |QO|Eagle Figurine: 1/1| |N|Howling Fjord, Garvan's Reef (37.84, 84.56)|
-A Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.70, 79.56)|
-T Forgotten Treasure |QID|11434| |N|Howling Fjord, Scalawag Point (35.65, 80.25)|
-A The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.65, 80.25)|
-T \"Scoodles\" |QID|11510| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
-A The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
-A The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
-A The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
-A The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Scalawag Point (35.12, 80.92)|
-- |QID|11469.1| |QO|Big Roy's Blubber: 1/1| |N|Howling Fjord,  (31.39, 79.00)|
-A Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.29, 80.42)|
-T Swabbin' Soap |QID|11469| |N|Howling Fjord, Scalawag Point (37.71, 79.51)|
-- |QID|11464.1| |QO|\"Silvermoon\" Harry's Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.12, 80.97)|
-T Gambling Debt |QID|11464| |N|Howling Fjord, Scalawag Point (36.27, 80.43)|
-A Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.27, 80.43)|
-- |QID|11466.1| |QO|Jack Adams' Debt: 1/1| |N|Howling Fjord, Scalawag Point (35.48, 79.48)|
-T Jack Likes His Drink |QID|11466| |N|Howling Fjord, Scalawag Point (36.32, 80.45)|
-A Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.32, 80.45)|
-- |QID|11455.1| |QO|Bear Musk: 4/4| |N|Howling Fjord, Garvan's Reef (33.30, 76.24)|
-- |QID|11512.1| |QO|The Frozen Heart of Isuldof: 1/1| |N|Howling Fjord, Garvan's Reef (32.39, 78.71)|
-- |QID|11456.1| |QO|Island Shoveltusk Meat: 6/6| |N|Howling Fjord, The Isle of Spears (27.28, 63.02)|
-- |QID|11467.1| |QO|Black Conrad's Treasure: 1/1| |N|Howling Fjord, The Isle of Spears (32.64, 60.23)|
-T Feeding the Survivors |QID|11456| |N|Howling Fjord, Kamagua (25.05, 57.03)|
-A Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.05, 57.03)|
-A The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.61, 58.78)|
-- |QID|11457.1| |QO|Chimaera Horn: 3/3| |N|Howling Fjord, The Isle of Spears (28.56, 69.67)|
-U |cffffffff|Hitem:40946:0:0:0:0:0:0:770491554:71|h[Anuniaq's Net]|h|r |N|Howling Fjord,  (34.68, 68.40)|
-U |cffffffff|Hitem:34127:0:0:0:0:0:0:1403788774:71|h[Tasty Reef Fish]|h|r |N|Howling Fjord, Twin Shores (31.76, 73.58)|
-- |QID|11472.1| |QO|Reef Bull led to a Reef Cow| |N|Howling Fjord, Twin Shores (31.01, 71.82)|
-T The Lost Shield of the Aesirites |QID|11519| |N|Howling Fjord, Garvan's Reef (37.20, 74.77)|
-A Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (37.19, 74.77)|
-- |QID|11527.1| |QO|Barrel of Blasting Powder: 5/5| |N|Howling Fjord, Garvan's Reef (42.27, 77.31)|
-T Mutiny on the Mercy |QID|11527| |N|Howling Fjord, Garvan's Reef (41.05, 76.18)|
-A Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (41.05, 76.17)|
-- |QID|11529.1| |QO|Sorlof's Booty: 1/1| |N|Howling Fjord, Sorlof's Strand (41.07, 74.26)|
-T Sorlof's Booty |QID|11529| |N|Howling Fjord, Garvan's Reef (37.19, 74.75)|
-A The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Garvan's Reef (37.19, 74.75)|
-- |QID|11511.1| |QO|The Staff of Storm's Fury: 1/1| |N|Howling Fjord, Iskaal (35.26, 64.82)|
-T Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.35, 80.41)|
-T The Fragrance of Money |QID|11455| |N|Howling Fjord, Scalawag Point (35.65, 80.24)|
-A A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.65, 80.24)|
-T A Traitor Among Us |QID|11473| |N|Howling Fjord, Scalawag Point (35.60, 80.59)|
-A Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.60, 80.59)|
-T Zeh'gehn Sez |QID|11459| |N|Howling Fjord, Scalawag Point (35.65, 80.23)|
-A A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.65, 80.23)|
-- |QID|11476.2| |QO|Shiny Knife: 1/1| |N|Howling Fjord, Scalawag Point (35.13, 80.91)|
-- |QID|11476.1| |QO|Scalawag Frog: 1/1| |N|Howling Fjord, Scalawag Point (35.91, 80.61)|
-T A Carver and a Croaker |QID|11476| |N|Howling Fjord, Scalawag Point (35.60, 80.62)|
-A \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.60, 80.62)|
-- |QID|11479.1| |QO|\"Crowleg\" Dan slain: 1/1| |N|Howling Fjord, Scalawag Point (35.97, 83.53)|
-T \"Crowleg\" Dan |QID|11479| |N|Howling Fjord, Scalawag Point (35.55, 80.27)|
-A Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.55, 80.27)|
-T Meet Number Two |QID|11480| |N|Howling Fjord, Scalawag Point (35.45, 79.43)|
-A The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.45, 79.43)|
-- |QID|11567.1| |QO|The Ancient Armor of the Kvaldir: 1/1| |N|Howling Fjord,  (81.79, 73.92)|
-T The Staff of Storm's Fury |QID|11511| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
-T The Frozen Heart of Isuldof |QID|11512| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
-T The Shield of the Aesirites |QID|11530| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
-T The Ancient Armor of the Kvaldir |QID|11567| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
-A A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.94, 74.61)|
-U |cffffffff|Hitem:34119:0:0:0:0:0:0:1318305178:72|h[Black Conrad's Treasure]|h|r |N|Howling Fjord, Shield Hill (56.94, 74.61)|
-- |QID|11568.1| |QO|Shield of the Aesirites Returned: 1/1| |N|Howling Fjord, Shield Hill (57.64, 77.78)|
-- |QID|11568.2| |QO|Staff of Storm's Fury Returned: 1/1| |N|Howling Fjord, Shield Hill (59.30, 76.86)|
-- |QID|11568.3| |QO|Frozen Heart of Isuldof Returned: 1/1| |N|Howling Fjord, Shield Hill (59.90, 79.37)|
-- |QID|11568.4| |QO|Ancient Armor of the Kvaldir Returned: 1/1| |N|Howling Fjord, Shield Hill (61.98, 79.94)|
-T A Return to Resting |QID|11568| |N|Howling Fjord, Shield Hill (56.89, 74.68)|
-A Return to Atuik |QID|11572| |N|Howling Fjord, Shield Hill (56.91, 74.77)|
-T The Way to His Heart... |QID|11472| |N|Howling Fjord, Kamagua (24.63, 58.81)|
-T Arming Kamagua |QID|11457| |N|Howling Fjord, Kamagua (25.06, 57.05)|
-A Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.06, 57.05)|
-T Return to Atuik |QID|11572| |N|Howling Fjord, Kamagua (25.06, 57.05)|
-U |cffffffff|Hitem:36777:0:0:0:0:0:0:1852568722:72|h[Horn of Kamagua]|h|r |N|Howling Fjord, Iskaal (33.81, 64.98)|
-- |QID|11458.1| |QO|Crazed Northsea Slaver slain: 8/8| |N|Howling Fjord, Iskaal (33.86, 62.47)|
-- |QID|11471.1| |QO|Jonah Sterling's Spyglass: 1/1| |N|Howling Fjord, Garvan's Reef (33.33, 78.25)|
-T The Jig is Up |QID|11471| |N|Howling Fjord, Scalawag Point (35.48, 79.43)|
-T Avenge Iskaal |QID|11458| |N|Howling Fjord, Kamagua (25.04, 56.99)|
+T Scare the Guano Out of Them! |QID|11154| |N|Howling Fjord, Steel Gate (30.23, 28.79)|
+U |cffffffff|Hitem:34083:0:0:0:0:0:0:284388481:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (34.85, 10.23)|
+- |QID|11239.2| |QO|Fearsome Horror slain: 4/4| |N|Howling Fjord, The Waking Halls (35.04, 8.81)|
+U |cffffffff|Hitem:34083:0:0:0:0:0:0:2080839082:72|h[Awakening Rod]|h|r |N|Howling Fjord, The Waking Halls (36.03, 7.38)|
+- |QID|11432.1| |QO|Dormant Vrykul slain: 5/5| |N|Howling Fjord, The Waking Halls (33.93, 9.79)|
+- |QID|11238.1| |QO|Wyrmcaller Vile slain: 1/1| |N|Howling Fjord, Gjalerbron (36.56, 7.84)|
+- |QID|11238.3| |QO|Wyrmcaller's Horn: 1/1| |N|Howling Fjord, Gjalerbron (36.45, 7.41)|
+U |cffffffff|Hitem:33282:0:0:0:0:0:0:-2064964294:72|h[Wyrmcaller's Horn]|h|r |N|Howling Fjord, Gjalerbron (36.45, 7.41)|
+- |QID|11238.2| |QO|Glacion slain: 1/1| |N|Howling Fjord, Gjalerbron (36.14, 7.77)|
+- |QID|11236.1| |QO|Necro Overlord Mezhen slain: 1/1| |N|Howling Fjord, Gjalerbron (38.75, 12.33)|
+- |QID|11239.3| |QO|Putrid Wight slain: 2/2| |N|Howling Fjord, Gjalerbron (35.80, 16.11)|
+- |QID|11239.1| |QO|Deathless Watcher slain: 10/10| |N|Howling Fjord, Gjalerbron (35.80, 16.11)|
+T The Frost Wyrm and its Master |QID|11238| |N|Howling Fjord, Westguard Keep (28.95, 44.17)|
+T Sleeping Giants |QID|11432| |N|Howling Fjord, Westguard Keep (28.95, 44.17)|
+T Necro Overlord Mezhen |QID|11236| |N|Howling Fjord, Westguard Keep (28.88, 44.13)|
+T In Service to the Light |QID|11239| |N|Howling Fjord, Westguard Keep (28.84, 43.95)|
 ]]
