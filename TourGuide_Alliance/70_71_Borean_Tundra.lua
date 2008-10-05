@@ -183,7 +183,7 @@ A Abduction |QID|11590|
 
 T Monitoring the Rift: Cleftcliff Anomaly |QID|11576|
 A Monitoring the Rift: Sundered Chasm |QID|11582|
-C Monitoring the Rift: Sundered Chasm |QID|11582| |Swim northeast, dive down to the Sundered Chasm (44.01, 28.63), use the [Arcanometer]| |U|34669|
+C Monitoring the Rift: Sundered Chasm |QID|11582| |N|Swim northeast, dive down to the Sundered Chasm (44.01, 28.63), use the [Arcanometer]| |U|34669|
 T Monitoring the Rift: Sundered Chasm |QID|11582| |N|Back up on Amber Ledge (44.99, 33.52)|
 A Monitoring the Rift: Winterfin Cavern |QID|12728|
 
