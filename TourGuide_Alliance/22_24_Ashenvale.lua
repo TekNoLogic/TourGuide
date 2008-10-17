@@ -21,13 +21,10 @@ A The Zoram Strand |T| |QID|1008|
 T Onward to Ashenvale |N|Inside the Inn| |T| |QID|10752|
 A Raene's Cleansing (Part 1) |T| |QID|991|
 h Astranaar |T|
-N Stable your pet |C|Hunter| |T|
 T Orendil's Cure |T| |QID|1020|
 A Elune's Tear |T| |QID|1033|
 
 A The Ancient Statuette |N|NPC at the small camp south of the Zoram Strand (14.8, 31.2)| |QID|1007|
-
-P Claw (Rank 3) |C|Hunter| |N|Tame a Clattering Crawler, level 20.  Teach it Growl (Rank 3)|
 
 C The Ancient Statuette |N|Follow the shoreline north until you find the statue near the small rowboat (14.20, 20.64)| |QID|1007|
 T The Ancient Statuette |QID|1007|
@@ -44,7 +41,6 @@ T Raene's Cleansing (Part 2) |T| |QID|1023|
 A Raene's Cleansing (Part 3) |T| |QID|1024|
 A An Aggressive Defense |T| |QID|1025|
 T The Zoram Strand |T| |QID|1008|
-N Unstable your pet |C|Hunter| |T|
 C Elune's Tear |N|Northeast at Iris Lake, on the island (46,46).| |QID|1033|
 T Raene's Cleansing (Part 3) |N|To the east at the Moonwell (53.50, 46.30)| |QID|1024|
 A Raene's Cleansing (Part 4) |QID|1026|

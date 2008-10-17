@@ -126,9 +126,6 @@ T Taming the Beast (Part 2) |C|Hunter| |QID|6101|
 A Taming the Beast (Part 3) |C|Hunter| |QID|6102|
 C Taming the Beast (Part 3) |C|Hunter| |N|Tame a strigid screecher (55,73)| |QID|6102|
 T Taming the Beast (Part 3) |C|Hunter| |QID|6102|
-P Claw (Rank 2) |N|Tame a Strigid Hunter| |C|Hunter|
-P Growl (Rank 2) |N|Tame a Strigid Hunter| |C|Hunter|
-N Tame your pet |C|Hunter| |N|Elder Nightsaber (42,42) is nice|
 
 A Heeding the Call |C|Druid| |QID|5923|
 

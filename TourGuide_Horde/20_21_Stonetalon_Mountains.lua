@@ -30,8 +30,6 @@ A Further Instructions (Part 1) |QID|1094|
 T Arachnophobia |T| |QID|6284| |N|Back at Sun Rock Retreat|
 A Boulderslide Ravine |T| |QID|6421|
 
-N Stable your pet |C|Hunter| |T|
-P Bite (Rank 3) |N|Tame a Deepmoss Creeper, along the road to the south.| |C|Hunter|
 C Boulderslide Ravine |N|Far south down the road, hidden little cave up in the mountains (61,92)| |QID|6421|
 
 T Blood Feeders |QID|6461|

@@ -2,7 +2,6 @@
 TourGuide:RegisterGuide("The Barrens (22-23)", "Stonetalon Mountains (23-25)", "Horde", function()
 return [[
 F Camp Taurajo
-N Get pet from stable |C|Hunter| |T|
 T Jorn Skyseer |T| |O| |QID|3261|
 A Ishamuhale |T| |O| |PRE|Jorn Skyseer| |QID|882|
 h Camp Taurajo |T|

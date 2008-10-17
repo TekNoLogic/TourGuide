@@ -27,7 +27,6 @@ TourGuide.icons = setmetatable({
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
 	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	GETFLIGHTPOINT = "Interface\\Icons\\Ability_Hunter_EagleEye",
-	PET = "Interface\\Icons\\Ability_Hunter_BeastCall02",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
@@ -41,7 +40,6 @@ function TourGuide:Initialize()
 			trackquests = true,
 			completion = {},
 			currentguide = "No Guide",
-			petskills = {},
 			mapquestgivers = true,
 			mapnotecoords = true,
 			alwaysmapnotecoords = false,
