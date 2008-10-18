@@ -1,3 +1,8 @@
+3.0.2.38-Beta
+    Change item frame's anchor to avoid making QuestWatchFrame secure
+    Push back dorf quest "In Favor of the Light" as far as we can
+    Remove pet training objectives, not needed with WoW 3.0
+
 3.0.1.37-Beta
     Update for wrath build 8962 config panel breakage
     Embed update
