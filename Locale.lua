@@ -38,9 +38,9 @@ if loc == "frFR" then localized = {
 	PART_GSUB = "%s%(Partie %d+%)",
 	PART_FIND = "(.+)%s%(Partie %d+%)",
 	["(.*) is now your home."] = "(.*) est maintenant votre foyer.",
-	["Quest accepted: (.*)"] = "Quête acceptée: (.*)",
+	["Quest accepted: (.*)"] = "Qu\234te accept\233e: (.*)",
 	["^You .*Hitem:(%d+).*(%[.+%])"] = "^Vous .*Hitem:(%d+).*(%[.+%])",
-	["|cffff4500This quest is not listed in your current guide"] = "|cffff4500Cette quête n'est pas listé dans votre guide actuel",
+	["|cffff4500This quest is not listed in your current guide"] = "|cffff4500Cette qu\234te n'est pas list\233 dans votre guide actuel",
 } end
 
 
