@@ -1,4 +1,3 @@
-if not IS_WRATH_BUILD then InterfaceOptionsFrame_OpenToCategory = InterfaceOptionsFrame_OpenToFrame end
 
 local myfaction = UnitFactionGroup("player")
 local L = TOURGUIDE_LOCALE

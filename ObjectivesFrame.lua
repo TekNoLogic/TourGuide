@@ -73,7 +73,7 @@ local function CreateButton(parent, ...)
 	-- Fonts --
 	b:SetDisabledFontObject(GameFontDisable)
 	b:SetHighlightFontObject(GameFontHighlight)
-	if IS_WRATH_BUILD then b:SetNormalFontObject(GameFontNormal) else b:SetTextFontObject(GameFontNormal) end
+	b:SetNormalFontObject(GameFontNormal)
 
 	-- Textures --
 	b:SetNormalTexture("Interface\\Buttons\\UI-Panel-Button-Up")
