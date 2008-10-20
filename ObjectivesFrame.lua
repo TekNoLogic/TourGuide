@@ -68,7 +68,7 @@ end
 local function CreateButton(parent, ...)
 	local b = CreateFrame("Button", nil, parent)
 	if select("#", ...) > 0 then b:SetPoint(...) end
-	b:SetWidth(80) b:SetHeight(22)
+	b:SetWidth(120) b:SetHeight(22)
 
 	-- Fonts --
 	b:SetDisabledFontObject(GameFontDisable)
@@ -92,11 +92,11 @@ end
 
 function TourGuide:CreateObjectivePanel()
 	local guidebutton = CreateButton(frame, "BOTTOMRIGHT", -6, 6)
-	guidebutton:SetText("Guides")
+	guidebutton:SetText(L["Guides"])
 	guidebutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToCategory(TourGuide.guidespanel) end)
 
 	local configbutton = CreateButton(frame, "RIGHT", guidebutton, "LEFT")
-	configbutton:SetText("Config")
+	configbutton:SetText(L["Config"])
 	configbutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToCategory(TourGuide.configpanel) end)
 
 	if tekDebug then
@@ -182,9 +182,9 @@ local accepted = {}
 function TourGuide:UpdateOHPanel(value)
 	if not frame or not frame:IsVisible() then return end
 
-	title:SetText(self.db.char.currentguide or "No Guide Loaded")
+	title:SetText(self.db.char.currentguide or L["No Guide Loaded"])
 	local r,g,b = self.ColorGradient((self.current-1)/#self.actions)
-	completed:SetText(string.format("|cff%02x%02x%02x%d%% complete", r*255, g*255, b*255, (self.current-1)/#self.actions*100))
+	completed:SetText(string.format(L["|cff%02x%02x%02x%d%% complete"], r*255, g*255, b*255, (self.current-1)/#self.actions*100))
 
 	self.guidechanged = nil
 	if value then offset = math.floor(value) end
