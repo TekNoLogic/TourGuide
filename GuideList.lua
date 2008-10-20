@@ -1,17 +1,18 @@
 
 
 local TourGuide = TourGuide
+local L = TourGuide.Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 18, 17, 8, 16
 local offset, rows = 0, {}
 
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
 TourGuide.guidespanel = frame
-frame.name = "Guides"
+frame.name = L["Guides"]
 frame.parent = "Tour Guide"
 frame:Hide()
 frame:SetScript("OnShow", function()
-	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", "This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking.")
+	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", L["This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking."])
 
 	local function OnClick(self)
 		if IsShiftKeyDown() then
