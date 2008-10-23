@@ -28,9 +28,8 @@ A Marauding Wolves |T| |QID|10456|
 T Scratches |T| |QID|10556|
 
 C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way.| |QID|10510|
-C Strange Brew |N|Get 5 extra brews| |QID|10511|
+C Strange Brew |QID|10511|
 C The Bloodmaul Ogres |QID|10502|
-N Make sure you have 5 extra brews! |L|29443 16|
 
 T The Bloodmaul Ogres |N|Back at Sylvanaar| |T| |QID|10502|
 A The Bladespire Ogres |T| |QID|10504|
@@ -75,13 +74,12 @@ T Ridgespine Menace |T| |QID|10620|
 A More than a Pound of Flesh |T| |QID|10671|
 T Cutting Your Teeth |T| |QID|10632|
 T What Came First, the Drake or the Egg? |T| |QID|10609|
-A Test Flight: Razaan's Landing |T| |QID|10711|
-N Don't turn in the Test Flight quest! |T|
 
 C Gauging the Resonant Frequency |N|Clear an area to the south and lay down the scanners in a star pattern.  Stand in the center of the star.| |U|30701| |QID|10594|
 T Gauging the Resonant Frequency |QID|10594|
 
-R Razaan's Landing |N|Rally can send you here|
+A Test Flight: Razaan's Landing |T| |QID|10711|
+C Test Flight: Razaan's Landing |T| |QID|10711| |N|Talk to rally of course|
 N Kill flesh beasts... |N|Kill any Fiendling Flesh Beasts you come across for "More than a Pound of Flesh"|
 C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can finish this quickly.| |U|30852| |QID|10674|
 T Trapping the Light Fantastic |T| |QID|10674|
