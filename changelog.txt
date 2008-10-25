@@ -1,3 +1,10 @@
+3.0.2.39-Beta
+    Ally blade's edge tweaks
+    Full deDE localization
+    Remove 2.4.3 compat
+    Fix issues with loading current guide from a plugin
+    Escape out locale file
+
 3.0.2.38-Beta
     Change item frame's anchor to avoid making QuestWatchFrame secure
     Push back dorf quest "In Favor of the Light" as far as we can
