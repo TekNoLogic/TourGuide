@@ -122,6 +122,7 @@ A A Time for Negotiation... |T| |N|Tree Warden at the center moonwell| |QID|1068
 A Creating the Pendant |T| |QID|10567|
 T Test Flight: Ruuan Weald |T| |N|South edge of town| |QID|10712|
 A Culling the Wild |T| |N|North edge of town| |QID|10753|
+h Evergrove
 A A Date with Dorgok |T| |N|West edge of town| |QID|10795|
 A Crush the Bloodmaul Camp! |T| |QID|10796|
 A Little Embers |T| |N|West edge of town| |QID|10770|
@@ -195,7 +196,7 @@ C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the
 
 C Whelps of the Wyrmcult |N|At Blackwing Coven to the south (31,32).  Use the net on the dragon whelps in the cave.  You can get right next to eggs and they will hatch one for you to capture.| |U|31129| |QID|10747|
 
-H Sylvanaar
+H Evergrove
 T Whelps of the Wyrmcult |N|Back at Evergrove| |T| |QID|10747|
 T The Truth Unorbed |T| |QID|10825|
 A Treebole Must Know |T| |QID|10829|
