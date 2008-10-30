@@ -171,7 +171,9 @@ A Ironband's Compound |C|Warrior| |QID|1681|
 R Dun Morogh |C|Warrior|
 C Ironband's Compound |N|(77.9, 62.2)| |C|Warrior| |QID|1681|
 T Ironband's Compound |C|Warrior| |QID|1681|
-
+]]
+end)
+--[[
 A Those Blasted Troggs! |N|East of Kharanos at Gol'Bolar Quarry(69.1,56.3)| |QID|432|
 A The Public Servant |QID|433|
 C The Public Servant |N|Inside the cave.| |QID|433|
@@ -188,4 +190,3 @@ T A Pilot's Revenge |QID|417|
 T Shimmer Stout |N|Southwest through a tunnel (86.3, 48.9)| |QID|413|
 A Stout to Kadrell |QID|414|
 ]]
-end)
