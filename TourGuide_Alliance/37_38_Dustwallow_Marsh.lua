@@ -206,8 +206,8 @@ T The Deserters (Part 2) |N|In the keep| |T| |QID|1287|
 A A Grim Connection |T| |QID|11143|
 C Survey Alcaz Island |N|Head down to the apprentice gryphon master and take the flight... DON'T SWIM OUT TO THE ISLAND!| |QID|11142|
 T Survey Alcaz Island |T| |QID|11142|
-A Warn Bolvar! |T| |QID|11222|
-T Warn Bolvar! |T| |N|Jiana can port you to Stormwind.  Bolvar is in the Keep of course (78.23, 18.38)| |Z|Stormwind City| |QID|11222|
+A Proof of Treachery |T| |QID|11222|
+T Proof of Treachery |T| |N|Jiana can port you to Stormwind.  The king is in the Keep of course (78.23, 18.38)| |Z|Stormwind City| |QID|11222|
 A Return to Jaina |T| |QID|11223|
 A Morgan Stern |T| |N|In the tavern in the Mage Quarter (41.26, 89.14).  Turn in "Feast at the Blue Recluse" if you'd like some free, low level food and drink.| |QID|1260|
 A Tabetha's Task |T| |N|Up in the tower| |QID|2861|
