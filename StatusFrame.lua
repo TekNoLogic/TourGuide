@@ -27,7 +27,6 @@ end
 
 local f = CreateFrame("Button", nil, UIParent)
 TourGuide.statusframe = f
-f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
 f:SetHeight(24)
 f:SetFrameStrata("LOW")
 f:EnableMouse(true)
@@ -72,9 +71,11 @@ end)
 
 
 function TourGuide:PositionStatusFrame()
+	f:ClearAllPoints()
 	if self.db.profile.statusframepoint then
-		f:ClearAllPoints()
 		f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
+	else
+		f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
 	end
 
 	if self.db.char.showstatusframe then f:Show() else f:Hide() end

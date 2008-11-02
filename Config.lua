@@ -4,6 +4,7 @@ local TourGuide = TourGuide
 local L = TourGuide.Locale
 local GAP = 8
 local tekcheck = LibStub("tekKonfig-Checkbox")
+local tekbutton = LibStub("tekKonfig-Button")
 
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
@@ -23,6 +24,15 @@ frame:SetScript("OnShow", function()
 	showstatusframe.tiptext = L["Display the status frame with current quest objective."]
 	showstatusframe:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.showstatusframe = not TourGuide.db.char.showstatusframe; TourGuide:PositionStatusFrame() end)
 	showstatusframe:SetChecked(TourGuide.db.char.showstatusframe)
+
+	local resetpos = tekbutton.new_small(frame, "TOP", showstatusframe, "CENTER", 0, 11)
+	resetpos:SetPoint("RIGHT", -16, 0)
+	resetpos:SetText("Reset")
+	resetpos.tiptext = L["Reset the status frame to the default position"]
+	resetpos:SetScript("OnClick", function(self)
+		TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey = nil
+		TourGuide.statusframe:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
+	end)
 
 	local mapnotecoords = tekcheck.new(frame, nil, L["Map note coords"], "TOPLEFT", showstatusframe, "BOTTOMLEFT", 0, -GAP)
 	mapnotecoords.tiptext = L["Map coordinates found in tooltip notes (requires TomTom)."]
