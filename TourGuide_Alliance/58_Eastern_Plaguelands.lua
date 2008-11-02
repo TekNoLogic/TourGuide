@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Eastern Plaguelands (58)", "Western Plaguelands (58-59)", "Alliance", function()
 return [[
-T Demon Dogs |N|On the northwest edge of the zone (7,43)| |QID|5542|
+T Demon Dogs |N|On the northwest edge of the zone (4.70, 38.40)| |QID|5542|
 T Blood Tinged Skies |QID|5543|
 T Carrion Grubbage |QID|5544|
 A Redemption |QID|9600|
@@ -9,8 +9,8 @@ C Redemption |N|Blah blah blah... he talks to much.| |QID|9600|
 T Redemption |QID|9600|
 A Of Forgotten Memories |QID|5781|
 
-C Of Forgotten Memories |N|South at the Undercroft (28.40, 86.85).  Talk to the grave behind the crypt. Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|
-C Zaeldarr the Outcast |N|Downstairs in the crypt (27,85)| |QID|6021|
+C Of Forgotten Memories |N|South at the Undercroft (24.59, 79.99).  Talk to the grave behind the crypt. Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|
+C Zaeldarr the Outcast |N|Downstairs in the crypt (23.83, 78.52)| |QID|6021|
 
 T Of Forgotten Memories |N|Back on the west edge of the zone| |QID|5781|
 A Of Lost Honor |QID|5845|
