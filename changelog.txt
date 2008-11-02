@@ -1,3 +1,8 @@
+3.0.2.40-Beta
+    "Warm Bolvar!" was renamed to "Proof of Treachery"
+    Remove bits of Ony attunement questline that are gone in 3.0
+    Fix Darkshore boating
+
 3.0.2.39-Beta
     Ally blade's edge tweaks
     Full deDE localization
