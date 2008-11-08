@@ -52,12 +52,12 @@ T Return to Chillwind Camp (Part 2) |QID|5220|
 A Target: Writhing Haunt |QID|5222|
 
 H Stormwind City
-T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (48,30)| |Z|Stormwind City| |QID|5022|
+T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (57.26, 48.16)| |Z|Stormwind City| |QID|5022|
 A Good Natured Emma |QID|5048|
 T Good Natured Emma |N|She patrols between the cathedral and trade district| |QID|5048|
 A Good Luck Charm |QID|5050|
-A The First and the Last |N|In Stormwind Keep (78,17)| |Z|Stormwind City| |QID|6182|
-T The First and the Last |N|Old Town (75.75, 59.85)| |Z|Stormwind City| |QID|6182|
+A The First and the Last |N|In Stormwind Keep (79.86, 38.47)| |Z|Stormwind City| |QID|6182|
+T The First and the Last |N|Old Town (78.41, 70.84)| |Z|Stormwind City| |QID|6182|
 A Honor the Dead |QID|6183|
 T Honor the Dead |QID|6183|
 A Flint Shadowmore |QID|6184|

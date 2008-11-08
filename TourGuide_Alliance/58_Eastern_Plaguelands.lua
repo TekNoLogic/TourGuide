@@ -19,10 +19,10 @@ T Brother Carlin |N|Back at Light's Hope Chapel| |QID|5210|
 A Villains of Darrowshire |QID|5181|
 T Zaeldarr the Outcast |N|Down by the corpse pit| |QID|6021|
 
-C Villains of Darrowshire |N|Sword is north of Corin's Crossing down in the Infectis Scar (53.84, 65.78).  Skull is in Blackwood Lake (51,49)| |QID|5181|
-C Of Lost Honor |N|Find the flag in the lake at Northdale (71.28, 33.97)| |QID|5845|
+C Villains of Darrowshire |N|Sword is north of Corin's Crossing down in the Infectis Scar (49.19, 59.55).  Skull is in Blackwood Lake (46.53, 44.17)| |QID|5181|
+C Of Lost Honor |N|Find the flag in the lake at Northdale (65.95, 28.93)| |QID|5845|
 
-T Troubled Spirits of Kel'Theril |N|Northwest of Northpass Tower (53.43, 22.01).  Skip the follow-up.| |QID|5245|
+T Troubled Spirits of Kel'Theril |N|Northwest of Northpass Tower (48.89, 17.67).  Skip the follow-up.| |QID|5245|
 C Defenders of Darrowshire |N|Kill cannibal ghouls, gibbering ghouls and diseased flayers in Plaguewood, talk to the ghosts that spawn.| |QID|5211|
 
 T Defenders of Darrowshire |N|Back at Light's Hope Chapel| |QID|5211|
