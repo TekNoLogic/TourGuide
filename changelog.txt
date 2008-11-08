@@ -1,3 +1,7 @@
+3.0.3.41-Beta
+    Ally EPL/SW coord updates
+    Add button to reset status frame position
+
 3.0.2.40-Beta
     "Warm Bolvar!" was renamed to "Proof of Treachery"
     Remove bits of Ony attunement questline that are gone in 3.0
