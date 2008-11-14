@@ -93,7 +93,7 @@ A Karuk's Oath |QID|11613|
 C Karuk's Oath |QID|11613| |N|Down on the beach, it's not as empty as it appears!|
 T Karuk's Oath |QID|11613|
 A Gamel the Cruel |QID|11619|
-C Gamel the Cruel |QID|11619| |N|In a cave down on the beach (46.26, 78.83)|
+C Gamel the Cruel |QID|11619| |N|In a cave down on the beach (46.26, 78.83).  If he's camped heavily, just skip ahead to "Ears of Our Enemies"|
 T Gamel the Cruel |QID|11619|
 A A Father's Words |QID|11620|
 T A Father's Words |QID|11620| |N|Out on the cost in the Shrine of Scales (43.63, 80.52)|
