@@ -219,7 +219,7 @@ C Reading the Meters |QID|11900| |N|Find the little orbs to the north (31.31, 20
 C Secrets of the Ancients |QID|11910|
 C Nuts for Berries |QID|11912|
 C Basic Training |QID|11918|
-A Puzzling... |QID|11941| |N|Borean Tundra, Coldarra (34.37, 30.28)| |U|35648| |N|Keep killing Coldarra Spellweavers until you get the [Scintillating Fragment]|
+A Puzzling... |QID|11941| |N|Kill Coldara Spellbinders until you get a [Scintillating Fragment]| |U|35648| |N|Keep killing Coldarra Spellweavers until you get the [Scintillating Fragment]|
 
 T Reading the Meters |QID|11900| |N|Back inside the Transitus Shield (33.00, 34.33)|
 T Secrets of the Ancients |QID|11910|
