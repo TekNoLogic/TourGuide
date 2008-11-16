@@ -137,7 +137,6 @@ C Falcon Versus Hawk |QID|11468| |N|Find grubs, send the falcon after hawks| |U|
 T Lightning Infused Relics |QID|11494| |N|Back at the Explorers' League Outpost (75.08, 65.47)|
 T The Delicate Sound of Thunder |QID|11495|
 A News From the East |QID|11501|
-A Orfus of Kamagua |QID|11573|
 T Falcon Versus Hawk |QID|11468|
 A There Exists No Honor Among Birds |QID|11470|
 C There Exists No Honor Among Birds |QID|11470| |N|Find the vrykul hawk roost near the Stonewall Lift (76.84, 67.42), use the falcon, collect eggs on the cliffs below.| |U|34124|
@@ -165,6 +164,7 @@ A Two Wrongs... |QID|11188| |T|
 C Two Wrongs... |QID|11188| |N|Back at the Ember Clutch, use the wand on the flying Proto-Drakes, kill 'em| |U|33119|
 T Two Wrongs... |QID|11188| |N|Back at the keep (28.92, 44.13)| |T|
 A Report to Scout Knowles |QID|11199| |N|Howling Fjord, Westguard Keep (28.92, 44.13)|
+A Orfus of Kamagua |QID|11573| |N|From Lunk-tusk, just south of the Westguard Keep (32.3, 46.8)|
 
 T Report to Scout Knowles |QID|11199| |N|Southeast, past the Ember Clutch at the Ember Spear Tower (44.44, 57.56)|
 A Mission: Eternal Flame |QID|11202|
