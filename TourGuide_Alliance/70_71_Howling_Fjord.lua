@@ -108,7 +108,7 @@ A We Have the Technology |QID|11484|
 
 C The Ransacked Caravan |QID|11465| |N|Find some more grubs, then let the falcon loose on some turkeys to the west (69,63)| |U|34111|
 
-K Shoveltusks |N|After a Pristine Hide| |QID|11484| |Q|We Have the Technology| |QO|Pristine Shoveltusk Hide: 1/1|
+K Shoveltusks |N|After a Pristine Hide| |Q|We Have the Technology| |QO|Pristine Shoveltusk Hide: 1/1|
 N Industrial Strength Rope |Q|We Can Rebuild It| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
 N Large Barrel |Q|We Can Rebuild It| |QO|Large Barrel: 1/1| |N|South in Nifflevar (67.70, 54.96)|
 C We Have the Technology |QID|11484| |N|Keep killin' vrykul|
