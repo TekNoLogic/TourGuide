@@ -355,7 +355,7 @@ A Emergency Protocol: Section 8.2, Paragraph C |QID|11795|
 C Emergency Protocol: Section 8.2, Paragraph C |QID|11795| |N|Look for dead gnomes scattered all over the area.  Ah, nothing makes your day better like dead gnomes!|
 T Emergency Protocol: Section 8.2, Paragraph C |QID|11795| |N|Back at Pilot Tailspin (61.63, 35.80)|
 A Emergency Protocol: Section 8.2, Paragraph D |QID|11796|
-A Emergency Protocol: Section 8.2, Paragraph D |QID|11796| |U|35224| |N|Use the [Emergency Torch] on each crash: Southern Wreck (61.08, 39.96), Northwestern Wreck (60.89, 33.74), Eastern Wreck (63.38, 36.91)|
+C Emergency Protocol: Section 8.2, Paragraph D |QID|11796| |U|35224| |N|Use the [Emergency Torch] on each crash: Southern Wreck (61.08, 39.96), Northwestern Wreck (60.89, 33.74), Eastern Wreck (63.38, 36.91)|
 T Emergency Protocol: Section 8.2, Paragraph D |QID|11796| |N|Back at Pilot Tailspin (61.64, 35.80)|
 A Give Fizzcrank the News |QID|11873|
 
