@@ -142,8 +142,6 @@ A There Exists No Honor Among Birds |QID|11470|
 C There Exists No Honor Among Birds |QID|11470| |N|Find the vrykul hawk roost near the Stonewall Lift (76.84, 67.42), use the falcon, collect eggs on the cliffs below.| |U|34124|
 T There Exists No Honor Among Birds |QID|11470| |N|Back at the Explorers' League Outpost (75.28, 65.02)|
 
-N TODO: Orfus of Kamagua quests
-
 F Westguard Keep |N|Talk to Walt and take the... flight... to Westguard Keep|
 A The Clutches of Evil |QID|11157| |T| |N|UP inside the keep|
 T To Westguard Keep! |QID|11291| |T|
