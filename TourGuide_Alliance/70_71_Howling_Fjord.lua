@@ -2,7 +2,7 @@
 TourGuide:RegisterGuide("Howling Fjord (70-71)", "Dragonblight (71-72)", "Alliance", function()
 return [[
 A Hell Has Frozen Over... |QID|11228| |N|On the dock as you get off the ship (61.13, 62.59)| |T|
-T Hell Has Frozen Over... |QID|11228| |N|Just north of the dock (79.76, 84.60)| |T|
+T Hell Has Frozen Over... |QID|11228| |N|Just north of the dock (60.45, 61.12)| |T|
 A If Valgarde Falls... |QID|11243| |T|
 
 C If Valgarde Falls... |QID|11243| |N|Kill Dragonflayer Invaders on the north edge of town|
