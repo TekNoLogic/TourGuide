@@ -296,7 +296,7 @@ A Dirty, Stinkin' Snobolds! |QID|11645|
 C Dirty, Stinkin' Snobolds! |QID|11645| |N|Crates scattered around due north of the airstrip|
 
 T Dirty, Stinkin' Snobolds! |QID|11645| |N|Back at Fizzcrank Airstrip (57.60, 18.94)|
-A Just a Few More Things... |QID|11650|
+A Just a Few More Things... |QID|11650| |N|Skip this if you did not get the Overcharged Capacitor| |O| |L|39682|
 
 C Re-Cursive |QID|11712| |U|34973| |N|Go kill mechagnomes to the east and use the [Re-Cursive Transmatter Injection] on them.|
 
@@ -316,7 +316,7 @@ T Master and Servant |QID|11730|
 A Finding Pilot Tailspin |QID|11725|
 A Scouting the Sinkholes |QID|11713|
 
-N Get Crafty's Tools |Q|Just a Few More Things...| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06)|
+N Get Crafty's Tools |Q|Just a Few More Things...| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06).  Skip this if you didn't get the capacitor.|
 C The Gearmaster |QID|11798| |N|Head up to the building on the Pumping Station (64.50, 23.39).  Read teh manual, kill the bot-boss.|
 C What's the Matter with the Transmatter? |QID|11710| |N|Get the last few parts you need scattered around the area.|
 C Scouting the Sinkholes |QID|11713| |U|34920| |N|Use the [Map of the Geyser Fields] at the three sinkholes to the southeast: Northwest Sinkhole (66.23, 32.15), Northeast Sinkhole (69.70, 32.08), South Sinkhole (70.23, 36.34)|
@@ -329,7 +329,7 @@ C A Little Bit of Spice |QID|11726| |N|Kill Gorlocs to the south in the Flood Pl
 T The Son of Karkut |QID|12086| |N|East at Death's Stand (82.07, 46.48)|
 A Surrounded! |QID|11944|
 A The Lost Courier |QID|12157|
-C Just a Few More Things... |QID|11650| |N|Kill Rocknar, an earth elemental frozen in a block of ice near The Wailing Ziggurat (81.17, 42.71)|
+C Just a Few More Things... |QID|11650| |N|Kill Rocknar, an earth elemental frozen in a block of ice near The Wailing Ziggurat (81.17, 42.71)| |O|
 C Surrounded! |QID|11944|
 T Surrounded! |QID|11944| |N|Back at Death's Stand (82.06, 46.36)|
 A Thassarian, the Death Knight |QID|12088|
@@ -368,13 +368,13 @@ T Give Fizzcrank the News |QID|11873|
 T The Gearmaster |QID|11798|
 T What's the Matter with the Transmatter? |QID|11710|
 A Check in With Bixie |QID|11692|
-T Just a Few More Things... |QID|11650|
-A Hah... You're Not So Big Now! |QID|11653|
-C Hah... You're Not So Big Now! |QID|11653| |U|34812| |N|Use [Crafty's Ultra-Advanced Proto-Typical Shortening Blaster] on the magnataur to the north of town|
-T Hah... You're Not So Big Now! |QID|11653| |N|Back at the Fizzcrank Airstrip (57.63, 18.62)|
-A Plan B |QID|11658|
+T Just a Few More Things... |QID|11650| |O|
+A Hah... You're Not So Big Now! |QID|11653| |O| |PRE|Just a Few More Things...|
+C Hah... You're Not So Big Now! |QID|11653| |O| |U|34812| |N|Use [Crafty's Ultra-Advanced Proto-Typical Shortening Blaster] on the magnataur to the north of town|
+T Hah... You're Not So Big Now! |QID|11653| |O| |N|Back at the Fizzcrank Airstrip (57.63, 18.62)|
+A Plan B |QID|11658| |O| |PRE|Hah... You're Not So Big Now!|
 
-C Plan B |QID|11658| |N|West at Steeljaw's Caravan (49.57, 26.55)|
+C Plan B |QID|11658| |N|West at Steeljaw's Caravan (49.57, 26.55)| |O|
 
 A Learning to Communicate |QID|11571| |N|Northwest at Winterfin Retreat (43.47, 13.92)|
 C Learning to Communicate |QID|11571| |N|Dive down to the Westrift (42.65, 15.81), kill the elemental, use [The King's Empty Conch]| |U|34598|
@@ -417,8 +417,8 @@ C A Bot in Mammoth's Clothing |QID|11718| |N|Kill mammoths on your way back to t
 
 T A Bot in Mammoth's Clothing |QID|11718| |N|Back at Fizzcrank Airstrip (57.11, 20.18)|
 A Deploy the Shake-n-Quake! |QID|11723|
-T Plan B |QID|11658|
-A It Was The Orcs, Honest! |QID|11670|
+T Plan B |QID|11658| |O|
+A It Was The Orcs, Honest! |QID|11670| |O| |PRE|Plan B|
 
 T Check in With Bixie |QID|11692| |N|Talk to the flightmaster for a free ride|
 A Oh Great... Plagued Magnataur! |QID|11693|
@@ -439,13 +439,13 @@ T Might As Well Wipe Out the Scourge |QID|11698| |N|Back at Bixie (73.47, 18.77)
 T Let Bixie Know |QID|11700|
 A Back to the Airstrip |QID|11701|
 
-C It Was The Orcs, Honest! |QID|11670| |N|Head to the cave in Magmoth (54.12, 13.29), open [Crafty's Sack], put on the [Warsong Orc Disguise], hop down and kill Magmothregar.  Plant the banner in his corpse| |U|34869|
-A Get Me Outa Here! |QID|11673| |N|From the gnome nearby (55.57, 12.59).  If he's not here, skip this.|
-C Get Me Outa Here! |QID|11673|
+C It Was The Orcs, Honest! |QID|11670| |N|Head to the cave in Magmoth (54.12, 13.29), open [Crafty's Sack], put on the [Warsong Orc Disguise], hop down and kill Magmothregar.  Plant the banner in his corpse| |U|34869| |O|
+A Get Me Outa Here! |QID|11673| |N|From the gnome nearby (55.57, 12.59).  If he's not here, skip this.| |O| |PRE|Plan B|
+C Get Me Outa Here! |QID|11673| |O|
 
 T Back to the Airstrip |QID|11701| |N|Back at the Fizzcrank Airstrip (57.00, 18.70)|
-T Get Me Outa Here! |QID|11673|
-T It Was The Orcs, Honest! |QID|11670|
+T Get Me Outa Here! |QID|11673| |O|
+T It Was The Orcs, Honest! |QID|11670| |O|
 
 C Deploy the Shake-n-Quake! |QID|11723| |U|34981| |N|Head down to the south sinkhole (69.99, 37.09) and use the [Shake-n-Quake 5000 Control Unit]|
 T Deploy the Shake-n-Quake! |QID|11723| |N|Back at Fizzcrank Airstrip (57.13, 20.05)|
