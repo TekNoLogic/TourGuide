@@ -67,7 +67,7 @@ A Anguish of Nifflevar |QID|11344| |T|
 T Locating the Mechanism |QID|11426| |T|
 A Meet Lieutenant Icehammer... |QID|11427| |T|
 
-T Meet Lieutenant Icehammer... |QID|11427|
+T Meet Lieutenant Icehammer... |QID|11427| |N|Take to Guard Captain Zorek again and he'll give you a ride.|
 A Drop It then Rock It! |QID|11429|
 C Drop It then Rock It! |QID|11429| |N|Place the Alliance Banner at the center of town in Baleheim (64.88, 39.82), kill a few vrykul.| |U|34051|
 T Drop It then Rock It! |QID|11429| |N|Back at Lieutenant Icehammer (64.48, 46.95)|
