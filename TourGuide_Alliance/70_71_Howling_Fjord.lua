@@ -56,9 +56,11 @@ T Guided by Honor |QID|11289| |T|
 T Into the World of Spirits |QID|11333| |T|
 A The Echo of Ymiron |QID|11343| |T|
 
-C The Echo of Ymiron |QID|11343| |U|33637| |N|Head back to Wyrmskull Village and use the Incense.  Then go in the building near the harpooners (60.15, 50.73)|
-C Locating the Mechanism |QID|11426| |N|Kill Harpooners, of course|
+A Fresh Legs |QID|11251| |N|Head back to Wyrmskull Village, find the questgiver along the western cliff (55.96, 55.79)|
 C Dragonflayer Battle Plans |QID|11290| |N|In a cave on the edge of the worg pit (55.68, 52.65)|
+C The Echo of Ymiron |QID|11343| |U|33637| |N|Use the incense, go in the building near the harpooners (60.15, 50.73)|
+C Locating the Mechanism |QID|11426| |N|Kill Harpooners, of course|
+T Fresh Legs |QID|11251| |N|Just north of town, outside the instance (59.51, 48.91).  Skip the follow-up unless you plan on doing Utgarde Keep.|
 
 T Dragonflayer Battle Plans |QID|11290| |N|Back in Valgarde (60.49, 61.15)| |T|
 A To Westguard Keep! |QID|11291| |T|
@@ -143,7 +145,7 @@ C There Exists No Honor Among Birds |QID|11470| |N|Find the vrykul hawk roost ne
 T There Exists No Honor Among Birds |QID|11470| |N|Back at the Explorers' League Outpost (75.28, 65.02)|
 
 F Westguard Keep |N|Talk to Walt and take the... flight... to Westguard Keep|
-A The Clutches of Evil |QID|11157| |T| |N|UP inside the keep|
+A The Clutches of Evil |QID|11157| |T| |N|Up inside the keep|
 T To Westguard Keep! |QID|11291| |T|
 T News From the East |QID|11501| |T|
 A Shoveltusk Soup Again? |QID|11155| |N|In the inn (31.16, 40.90)| |T|
@@ -151,7 +153,7 @@ A One Size Does Not Fit All |QID|11190| |N|Outside at the cannons (33.95, 43.75)
 N Meat and balls |N|Kill any shoveltusks you come across for "Shoveltusk Soup Again?" and collect any cannonballs you see for "One Size Does Not Fit All"|
 
 A Root Causes |QID|11182| |N|Find the ancient to the southeast, patrolling around the Ember Clutch|
-C Root Causes |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.42, 52.58)|
+C Root Causes |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.30, 53.15)|
 C The Clutches of Evil |QID|11157|
 T Root Causes |QID|11182|
 
@@ -207,7 +209,6 @@ A The Frozen Heart of Isuldof |QID|11512|
 A The Lost Shield of the Aesirites |QID|11519|
 A The Ancient Armor of the Kvaldir |QID|11567|
 A Gambling Debt |QID|11464|
-A Swabbin' Soap |QID|11469|
 C Gambling Debt |QID|11464| |N|Ah, beatin people for money, gotta love it|
 T Gambling Debt |QID|11464|
 A Jack Likes His Drink |QID|11466|
@@ -217,6 +218,7 @@ A Dead Man's Debt |QID|11467|
 
 C The Ancient Armor of the Kvaldir |QID|11567| |N|Hop a bomber ride near the shore (36.06, 81.62).  Head down into the hold of the ship, then take the bomber back.|
 
+A Swabbin' Soap |QID|11469|
 C Swabbin' Soap |QID|11469| |N|Kill Big Roy, southwest of the other sea lions (31.64, 77.50)|
 C The Fragrance of Money |QID|11455| |N|Bear musk always gets me horny|
 
@@ -260,18 +262,18 @@ C The Way to His Heart... |QID|11472| |U|34127| |N|Find fish schools in the wate
 T The Jig is Up |QID|11471| |N|Back at Scalawag Point (35.40, 79.46)|
 T Dead Man's Debt |QID|11467| |N|Howling Fjord, Scalawag Point (36.29, 80.45)|
 
+T The Way to His Heart... |QID|11472| |N|Back at Kamagua|
 T The Staff of Storm's Fury |QID|11511| |N|At the top of the Ancient Lift (40.33, 60.14)|
 T The Frozen Heart of Isuldof |QID|11512|
 T The Shield of the Aesirites |QID|11530|
 T The Ancient Armor of the Kvaldir |QID|11567|
 A A Return to Resting |QID|11568|
-C A Return to Resting |QID|11568| |N|Back down at Shield Hill, use the [Bundle of Vrykul Artifacts] at each grave (57.65, 77.53) (59.19, 76.96) (61.93, 80.06) (59.76, 79.38)|
+C A Return to Resting |QID|11568| |N|Back down at Shield Hill, use the [Bundle of Vrykul Artifacts] at each grave (57.65, 77.53) (59.19, 76.96) (61.93, 80.06) (59.76, 79.38)| |U|34624|
 T A Return to Resting |QID|11568| |N|Back at the Ancient Lift (40.33, 60.27)|
 A Return to Atuik |QID|11572|
 T Return to Atuik |QID|11572| |N|Down at Kamagua (25.04, 56.99)|
-T The Way to His Heart... |QID|11472|
 
-T Mission: Forsaken Intel |QID|11328| |N|Back at Westguard in the Inn (30.80, 41.65)| |T|
+T Mission: Forsaken Intel |QID|11328| |N|Fly back to Westguard, in the Inn (30.80, 41.65)| |T|
 A Absholutely... Thish Will Work! |QID|11330| |T|
 C Absholutely... Thish Will Work! |QID|11330| |N|Use the "Special Mix" on the prisoner inside the keep (29.41, 43.44)| |T|
 T Absholutely... Thish Will Work! |QID|11330| |N|Back at the inn (30.81, 41.62)| |T|

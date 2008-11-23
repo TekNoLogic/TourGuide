@@ -314,12 +314,10 @@ T Lefty Loosey, Righty Tighty |QID|11788| |N|Back at Fizzcrank Airstrip (57.37, 
 A The Gearmaster |QID|11798|
 T Master and Servant |QID|11730|
 A Finding Pilot Tailspin |QID|11725|
-A Scouting the Sinkholes |QID|11713|
 
 N Get Crafty's Tools |Q|Just a Few More Things...| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06).  Skip this if you didn't get the capacitor.|
 C The Gearmaster |QID|11798| |N|Head up to the building on the Pumping Station (64.50, 23.39).  Read teh manual, kill the bot-boss.|
 C What's the Matter with the Transmatter? |QID|11710| |N|Get the last few parts you need scattered around the area.|
-C Scouting the Sinkholes |QID|11713| |U|34920| |N|Use the [Map of the Geyser Fields] at the three sinkholes to the southeast: Northwest Sinkhole (66.23, 32.15), Northeast Sinkhole (69.70, 32.08), South Sinkhole (70.23, 36.34)|
 
 T Finding Pilot Tailspin |QID|11725| |N|South in the Scalding Pools (61.66, 35.73)|
 A A Little Bit of Spice |QID|11726|
@@ -359,7 +357,9 @@ C Emergency Protocol: Section 8.2, Paragraph D |QID|11796| |U|35224| |N|Use the 
 T Emergency Protocol: Section 8.2, Paragraph D |QID|11796| |N|Back at Pilot Tailspin (61.64, 35.80)|
 A Give Fizzcrank the News |QID|11873|
 
-T Scouting the Sinkholes |QID|11713| |N|Back at Fizzcrank Airstrip (57.08, 20.25)|
+A Scouting the Sinkholes |QID|11713| |N|Back at Fizzcrank Airstrip (57.08, 20.25)|
+C Scouting the Sinkholes |QID|11713| |U|34920| |N|Use the [Map of the Geyser Fields] at the three sinkholes to the southeast: Northwest Sinkhole (66.23, 32.15), Northeast Sinkhole (69.70, 32.08), South Sinkhole (70.23, 36.34)|
+T Scouting the Sinkholes |QID|11713|
 A Fueling the Project |QID|11715|
 C Fueling the Project |QID|11715| |U|34975| |N|Use the [Portable Oil Collector] on the oil spouts in the pool directly south of town|
 T Fueling the Project |QID|11715| |N|Back at Fizzcrank Airstrip (57.08, 20.25)|
@@ -368,15 +368,17 @@ T Give Fizzcrank the News |QID|11873|
 T The Gearmaster |QID|11798|
 T What's the Matter with the Transmatter? |QID|11710|
 A Check in With Bixie |QID|11692|
+A King Mrgl-Mrgl |QID|11704|
 T Just a Few More Things... |QID|11650| |O|
 A Hah... You're Not So Big Now! |QID|11653| |O| |PRE|Just a Few More Things...|
 C Hah... You're Not So Big Now! |QID|11653| |O| |U|34812| |N|Use [Crafty's Ultra-Advanced Proto-Typical Shortening Blaster] on the magnataur to the north of town|
-T Hah... You're Not So Big Now! |QID|11653| |O| |N|Back at the Fizzcrank Airstrip (57.63, 18.62)|
+T Hah... You're Not So Big Now! |QID|11653| |O| |N|Back at the Fizzcrank Airstrip (57.52, 18.73)|
 A Plan B |QID|11658| |O| |PRE|Hah... You're Not So Big Now!|
 
 C Plan B |QID|11658| |N|West at Steeljaw's Caravan (49.57, 26.55)| |O|
 
-A Learning to Communicate |QID|11571| |N|Northwest at Winterfin Retreat (43.47, 13.92)|
+T King Mrgl-Mrgl |QID|11704| |N|Northwest at Winterfin Retreat (43.47, 13.92)|
+A Learning to Communicate |QID|11571|
 C Learning to Communicate |QID|11571| |N|Dive down to the Westrift (42.65, 15.81), kill the elemental, use [The King's Empty Conch]| |U|34598|
 T Learning to Communicate |QID|11571| |N|Back at the Winterfin Retreat (43.50, 13.91)|
 A Winterfin Commerce |QID|11559|
