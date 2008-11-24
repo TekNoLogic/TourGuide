@@ -422,6 +422,13 @@ A Deploy the Shake-n-Quake! |QID|11723|
 T Plan B |QID|11658| |O|
 A It Was The Orcs, Honest! |QID|11670| |O| |PRE|Plan B|
 
+C It Was The Orcs, Honest! |QID|11670| |N|Head to the cave in Magmoth (54.12, 13.29), open [Crafty's Sack], put on the [Warsong Orc Disguise], hop down and kill Magmothregar.  Plant the banner in his corpse| |U|34869| |O|
+A Get Me Outa Here! |QID|11673| |N|From the gnome nearby (55.57, 12.59).  If he's not here, skip this.| |O| |PRE|Plan B|
+C Get Me Outa Here! |QID|11673| |O|
+
+T Get Me Outa Here! |QID|11673| |O| |N|Back at the airstrip|
+T It Was The Orcs, Honest! |QID|11670| |O|
+
 T Check in With Bixie |QID|11692| |N|Talk to the flightmaster for a free ride|
 A Oh Great... Plagued Magnataur! |QID|11693|
 C Oh Great... Plagued Magnataur! |QID|11693| |N|To the north a smidge|
@@ -437,19 +444,14 @@ C I'm Stuck in this Damned Cage... But Not For Long! |QID|11699| |N|Take the ram
 T I'm Stuck in this Damned Cage... But Not For Long! |QID|11699| |N|Back at Tinky (69.89, 14.75)|
 A Let Bixie Know |QID|11700|
 C Might As Well Wipe Out the Scourge |QID|11698|
-T Might As Well Wipe Out the Scourge |QID|11698| |N|Back at Bixie (73.47, 18.77)|
+T Might As Well Wipe Out the Scourge |QID|11698| |N|Back at Bixie (73.47, 18.85)|
 T Let Bixie Know |QID|11700|
 A Back to the Airstrip |QID|11701|
 
-C It Was The Orcs, Honest! |QID|11670| |N|Head to the cave in Magmoth (54.12, 13.29), open [Crafty's Sack], put on the [Warsong Orc Disguise], hop down and kill Magmothregar.  Plant the banner in his corpse| |U|34869| |O|
-A Get Me Outa Here! |QID|11673| |N|From the gnome nearby (55.57, 12.59).  If he's not here, skip this.| |O| |PRE|Plan B|
-C Get Me Outa Here! |QID|11673| |O|
+C Deploy the Shake-n-Quake! |QID|11723| |U|34981| |N|Head down to the south sinkhole (69.99, 37.09) and use the [Shake-n-Quake 5000 Control Unit]|
 
 T Back to the Airstrip |QID|11701| |N|Back at the Fizzcrank Airstrip (57.00, 18.70)|
-T Get Me Outa Here! |QID|11673| |O|
-T It Was The Orcs, Honest! |QID|11670| |O|
 
-C Deploy the Shake-n-Quake! |QID|11723| |U|34981| |N|Head down to the south sinkhole (69.99, 37.09) and use the [Shake-n-Quake 5000 Control Unit]|
 T Deploy the Shake-n-Quake! |QID|11723| |N|Back at Fizzcrank Airstrip (57.13, 20.05)|
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Back up on Amber Ledge (45.03, 33.39)|
 
