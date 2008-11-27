@@ -344,7 +344,14 @@ T Gruesome, But Necessary |QID|11246|
 T Burn Skorn, Burn! |QID|11247|
 A All Hail the Conqueror of Skorn! |QID|11250|
 
-R Fort Wildervar |N|Take the road out of town, head north then east past Skorn (62,17)|
+R Fort Wildervar |N|Take the road out of town, head north then east past Skorn (60.20, 18.68)|
+A I'll Try Anything! |QID|11329| |N|Down by the lake (60.20, 18.68)|
+C I'll Try Anything! |QID|11329| |N|Open plants underwater, kill crap|
+T I'll Try Anything! |QID|11329|
+A The One That Got Away |QID|11410|
+C The One That Got Away |QID|11410| |U|34013| |N|Dive down to the boat (63.79, 19.42), use the bait.|
+T The One That Got Away |QID|11410|
+
 A The Enigmatic Frost Nymphs |QID|11302| |T|
 A The Book of Runes |QID|11346| |T|
 T Everything Must Be Ready |QID|11406| |T|
@@ -352,13 +359,6 @@ A Down to the Wire |QID|11269| |T|
 A Preying Upon the Weak |QID|11292| |T|
 A March of the Giants |QID|11355| |T|
 A The Yeti Next Door |QID|11284| |T|
-
-A I'll Try Anything! |QID|11329| |N|Down by the lake (60.20, 18.68)|
-C I'll Try Anything! |QID|11329| |N|Open plants underwater, kill crap|
-T I'll Try Anything! |QID|11329|
-A The One That Got Away |QID|11410|
-C The One That Got Away |QID|11410| |U|34013| |N|Dive down to the boat (63.79, 19.42), use the bait.|
-T The One That Got Away |QID|11410|
 
 N Traps, feathers and rams |N|Open any traps you come across for "Preying Upon the Weak", collect feathers you see for "Down to the Wire" and kill rams for "The Yeti Next Door"|
 
