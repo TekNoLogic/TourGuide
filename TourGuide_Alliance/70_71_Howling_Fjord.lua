@@ -377,7 +377,7 @@ T Wild Vines |QID|11315|
 A Spawn of the Twisted Glade |QID|11316|
 A Seeds of the Blacksouled Keepers |QID|11319|
 
-C Seeds of the Blacksouled Keepers |QID|11319| |N|Northwest at the Twisted Glade (54,16).  Use the core on the spores and kill them.  Make sure the spore is frozen when you kill it or you won't get credit.| |U|33607|
+C Seeds of the Blacksouled Keepers |QID|11319| |N|Northwest at the Twisted Glade (54,16).  Kill the spores, then use the core on them.| |U|33607|
 C Spawn of the Twisted Glade |QID|11316|
 
 T Spawn of the Twisted Glade |QID|11316| |N|Back at the Frozen Glade (61.52, 22.87)|
