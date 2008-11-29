@@ -357,7 +357,6 @@ A The Book of Runes |QID|11346| |T|
 T Everything Must Be Ready |QID|11406| |T|
 A Down to the Wire |QID|11269| |T|
 A Preying Upon the Weak |QID|11292| |T|
-A March of the Giants |QID|11355| |T|
 A The Yeti Next Door |QID|11284| |T|
 
 N Traps, feathers and rams |N|Open any traps you come across for "Preying Upon the Weak", collect feathers you see for "Down to the Wire" and kill rams for "The Yeti Next Door"|
@@ -390,33 +389,25 @@ C The Cleansing |QID|11322| |N|Head up the mountain path (53.65, 8.07) to the sh
 
 T Keeper Witherleaf |QID|11428| |N|Back at the Frozen Glade (61.46, 22.80)|
 
-C March of the Giants |QID|11355| |N|Try to do this even though it's a G2 quest, the followups are easier.  Find the runed giants at the east end of the lake.  There's a good number heading north out of Giants' Run towards the mountain (71,17).  Use the pick on them after you kill them.| |U|33806|
-C The Book of Runes |QID|11346| |N|Kill iron dorfs for chapters, then combine them| |U|33778|
+C The Book of Runes |QID|11346| |N|Kill iron dorfs to the east at Giants' Run (72,24) for chapters, then combine them| |U|33778|
 
 T The Book of Runes |QID|11346| |N|Back at Fort Wildervar (62.25, 17.16)| |T|
 A Mastering the Runes |QID|11349| |T|
-T March of the Giants |QID|11355| |T|
-A The Lodestone |QID|11358| |N|Skip this if you skipped "March of the Giants"| |T|
 
 C The Yeti Next Door |QID|11284| |N|Head down into the mine to the sleeping yeti (60.38, 12.00).  Combine the ram meat, use the yeti meal, kill the yeti.| |U|33477|
 T The Yeti Next Door |QID|11284| |N|Back outside the mine (60.16, 15.71)| |T|
 
-C The Lodestone |QID|11358| |N|Back at the north edge of Giants' Run (71.63, 17.44).  Use the rune sample near the tablet.| |U|33819|
 C Mastering the Runes |QID|11349| |N|Find the carving tools in the tents around Giants' Run (69.1, 22.8) (67.5, 23.4) (67.5, 29.2) (71.2, 28.7) (73.4, 25.0) (72.4, 17.8)|
 
 T Mastering the Runes |QID|11349| |N|Back at Fort Wildervar (62.63, 16.51)| |T|
 A The Rune of Command |QID|11348| |T|
-T The Lodestone |QID|11358| |T|
-A Demolishing Megalith |QID|11359| |N|Skip this if you skipped "March of the Giants"| |T|
 
-C Demolishing Megalith |QID|11359| |N|Use the rune on a normal giant, drag him north into the mountains and kill Megalith (67.31, 10.35)| |U|33796|
 C The Rune of Command |QID|11348| |U|33796| |N|Use the rune on a normal giant then kill Binder Murdis.  He should be easy to find, look for a yellow binding ribbon in the middle fo Giants' Run (71.79, 24.31).|
 
 C Down to the Wire |QID|11269|
 C Preying Upon the Weak |QID|11292|
 
 T The Rune of Command |QID|11348| |T| |N|Back at Fort Wildervar (62.25, 17.14)| |T|
-T Demolishing Megalith |QID|11359| |T|
 T Preying Upon the Weak |QID|11292| |T|
 T Down to the Wire |QID|11269| |T|
 A We Call Him Steelfeather |QID|11418| |T|
