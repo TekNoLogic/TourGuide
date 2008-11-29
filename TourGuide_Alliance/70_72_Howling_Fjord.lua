@@ -429,7 +429,7 @@ A Eyes of the Eagle |QID|11416|
 C Eyes of the Eagle |QID|11416| |N|Southwest of Skorn at the base of the big waterfall (41.43, 37.64).  Grab the egg, kill the eagle.|
 T Eyes of the Eagle |QID|11416| |N|Back at the cave in Rivenwood (29.67, 5.63)| |U|33618|
 A Alpha Worg |QID|11326|
-C Alpha Worg |QID|11326| |N|Spawns just south of the cave (28.42, 10.00)|
+C Alpha Worg |QID|11326| |N|Spawns just south of the cave (27.44, 8.19)|
 T Alpha Worg |QID|11326| |N|Back at Steel Gate (30.06, 28.67)|
 
 C Scare the Guano Out of Them! |QID|11154| |U|33129| |N|Use [Feknut's Firecrackers] below the bats that fly around the trees in Rivenwood (34.02, 19.46)|
