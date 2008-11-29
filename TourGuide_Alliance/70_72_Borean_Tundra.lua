@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Borean Tundra (70-71)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Borean Tundra (70-72)", "Dragonblight (72-73)", "Alliance", function()
 return [[
 B Overcharged Capacitor |N|Find an engineer or visit the AH| |L|39682|
 
