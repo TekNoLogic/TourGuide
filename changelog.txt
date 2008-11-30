@@ -1,3 +1,8 @@
+3.0.3.42-Beta
+    Readme update for Wraf
+    New ally Fjord and Borean guides
+    Force caching of any use items we don't know when a guide is loaded, so that the use button works when we need it
+
 3.0.3.41-Beta
     Ally EPL/SW coord updates
     Add button to reset status frame position
