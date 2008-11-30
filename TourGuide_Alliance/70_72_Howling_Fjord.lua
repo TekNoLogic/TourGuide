@@ -449,14 +449,16 @@ A Sleeping Giants |QID|11432|
 T Scare the Guano Out of Them! |QID|11154| |N|North at Steel Gate (30.23, 28.79)|
 
 C Sleeping Giants |QID|11432| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
-C In Service to the Light |QID|11239|
+K Fearsome Horrors |Q|In Service to the Light| |QO|Fearsome Horror slain: 4/4|
 C Necro Overlord Mezhen |QID|11236| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
 A The Slumbering King |QID|11452| |U|34090| |N|From the scroll dropped by Mezhen|
-C The Slumbering King |QID|11452| |N|Kill Queen Angerboda (40.7, 6.7)|
+C The Slumbering King |QID|11452| |N|Kill Queen Angerboda at the far end of Gjalerbron (41.05, 6.32)|
 C The Frost Wyrm and its Master |QID|11238| |U|33282| |N|Clear the area around Wyrmcaller Vile (36.48, 7.34), then kill him, loot the [Wyrmcaller's Horn] and use it.  Kill Glacion.  Watch out, Vile has a short respawn time.  If you fail, find a friend or skip this.|
+C In Service to the Light |QID|11239|
 
 T Sleeping Giants |QID|11432| |N|Back at Westguard Keep (28.94, 44.23)|
 T The Frost Wyrm and its Master |QID|11238|
+T The Slumbering King |QID|11452|
 T Necro Overlord Mezhen |QID|11236|
 T In Service to the Light |QID|11239|
 A Of Traitors and Treason |QID|12297|
