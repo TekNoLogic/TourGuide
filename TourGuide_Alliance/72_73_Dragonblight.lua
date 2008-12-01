@@ -1,28 +1,28 @@
 
 TourGuide:RegisterGuide("Dragonblight (72-73)", "Grizzly Hills (73-74)", "Alliance", function()
 return [[
-A Naxxramas and the Fall of Wintergarde |QID|12235|
-T Naxxramas and the Fall of Wintergarde |QID|12235| |N|Back up near the flightmaster (77.15, 50.08)|
-A Flight of the Wintergarde Defender |QID|12237|
+A Naxxramas and the Fall of Wintergarde |QID|12235| |T|
+T Naxxramas and the Fall of Wintergarde |QID|12235| |T| |N|Back up near the flightmaster (77.15, 50.08)|
+A Flight of the Wintergarde Defender |QID|12237| |T|
 C Flight of the Wintergarde Defender |QID|12237| |U|37287| |N|Use the [Wintergarde Gryphon Whistle] and save some people! Look for villagers running around down in the fields below Naxx.  You have to take them back to the gryphonmaster one at a time.|
-T Flight of the Wintergarde Defender |QID|12237| |N|Near the flightmaster (77.14, 50.12)|
-A Return to the High Commander |QID|12251|
-T Return to the High Commander |QID|12251| |N|Down the hill (78.47, 48.32)|
-A Rescue from Town Square |QID|12253|
-A The Fate of the Dead |QID|12258|
+T Flight of the Wintergarde Defender |QID|12237| |T| |N|Near the flightmaster (77.14, 50.12)|
+A Return to the High Commander |QID|12251| |T|
+T Return to the High Commander |QID|12251| |T| |N|Down the hill (78.47, 48.32)|
+A Rescue from Town Square |QID|12253| |T|
+A The Fate of the Dead |QID|12258| |T|
 
 C Rescue from Town Square |QID|12253| |N|Right down the hill (80.5,49.5)|
 C The Fate of the Dead |QID|12258|
 
-T The Fate of the Dead |QID|12258| |N|Back up the hill at Wintergarde Keep (78.61, 48.22)|
-T Rescue from Town Square |QID|12253|
-A Find Durkon! |QID|12309|
-A The Demo-gnome |QID|12275|
+T The Fate of the Dead |QID|12258| |T| |N|Back up the hill at Wintergarde Keep (78.61, 48.22)|
+T Rescue from Town Square |QID|12253| |T|
+A Find Durkon! |QID|12309| |T|
+A The Demo-gnome |QID|12275| |T|
 
-T The Demo-gnome |QID|12275| |N|Back up the hill across from the flightmaster (77.84, 50.22)|
-A The Search for Slinkin |QID|12276|
-A The Bleeding Ore |QID|12272|
-A Not In Our Mine |QID|12269|
+T The Demo-gnome |QID|12275| |T| |N|Back up the hill across from the flightmaster (77.84, 50.22)|
+A The Search for Slinkin |QID|12276| |T|
+A The Bleeding Ore |QID|12272| |T|
+A Not In Our Mine |QID|12269| |T|
 
 T The Search for Slinkin |QID|12276| |N|Use the bot, mount up and follow him (he's a zippy little one) work your way down into the Wintergarde Mine (81.56, 42.21)| |U|37459|
 A Leave Nothing to Chance |QID|12277|
@@ -32,20 +32,163 @@ C The Bleeding Ore |QID|12272|
 C Not In Our Mine |QID|12269|
 C Leave Nothing to Chance |QID|12277| |U|37465| |N|On your way out of the mine, blow up the upper (80.45, 45.28) and lower (80.20, 44.81) entrances.  Stand near the blast for a little fun.|
 
-T Leave Nothing to Chance |QID|12277| |N|Back up in Wintergarde Keep (77.85, 50.22)|
-T The Bleeding Ore |QID|12272|
-A Understanding the Scourge War Machine |QID|12281|
-T Not In Our Mine |QID|12269|
-T Understanding the Scourge War Machine |QID|12281| |N|Down the hill (78.47, 48.34)|
+T Leave Nothing to Chance |QID|12277| |T| |N|Back up in Wintergarde Keep (77.85, 50.22)|
+T The Bleeding Ore |QID|12272| |T|
+A Understanding the Scourge War Machine |QID|12281| |T|
+T Not In Our Mine |QID|12269| |T|
+T Understanding the Scourge War Machine |QID|12281| |T| |N|Down the hill (78.47, 48.34)|
+A Imprints on the Past |QID|12282| |T| |N|In the building nearby (79.11, 47.22)|
+
+C Imprints on the Past |QID|12282| |N|Down in town, upstairs in the town hall (78.85, 45.34)|
+
+T Find Durkon! |QID|12309| |N|Southwest edge of town (79.09, 53.15)|
+A The Noble's Crypt |QID|12311|
+C The Noble's Crypt |QID|12311| |N|Down in zee hole!|
+A Secrets of the Scourge |QID|12312| |N|Get ready to run!|
+T The Noble's Crypt |QID|12311| |N|Back up top|
+T Secrets of the Scourge |QID|12312|
+A Mystery of the Tome |QID|12319|
+
+T Mystery of the Tome |QID|12319| |N|Back at Wintergarde Keep (78.53, 48.30)| |T|
+A Understanding the Language of Death |QID|12320| |T|
+T Imprints on the Past |QID|12282| |T|
+A Orik Trueheart and the Forgotten Shore |QID|12287| |T|
+T Understanding the Language of Death |QID|12320| |T| |N|Up in the keep's basement (76.75, 47.43)|
+A A Righteous Sermon |QID|12321| |T|
+C A Righteous Sermon |QID|12321| |T| |N|Blah blah blah... oh shiney!|
+T A Righteous Sermon |QID|12321| |T| |N|Back down the hill (78.56, 48.12)|
+A Into Hostile Territory |QID|12325| |T|
+
+T Into Hostile Territory |QID|12325| |N|Hop on one of the gryphons by the flightmaster|
+A Steamtank Surprise |QID|12326|
+C Steamtank Surprise |QID|12326| |N|Release the gnome near the plague wagons, then head to the mausoleum entrance (85.44, 49.94) and drop off the soldiers.|
+T Steamtank Surprise |QID|12326| |N|Downstairs (85.97, 50.80)|
+A Scattered To The Wind |QID|12455|
+C Scattered To The Wind |QID|12455| |N|Back outside, look around for boxes of ammo|
+T Scattered To The Wind |QID|12455| |N|Down in the mausoleum (85.98, 50.81)|
+A The Chain Gun And You |QID|12457|
+C The Chain Gun And You |QID|12457| |N|WHEEEEEEEE!|
+T The Chain Gun And You |QID|12457|
+A Plunderbeard Must Be Found! |QID|12463|
+A Breaking Off A Piece |QID|12462|
+C Breaking Off A Piece |QID|12462| |N|Head down the stairs, kill the named mobs on both sides:
+K Necrolord X'avius |Q|Breaking Off A Piece| |QO|Necrolord X'avius slain: 1/1| |N|Down the stairs, hang a right (84.68, 51.23)|
+K Necrolord Horus |Q|Breaking Off A Piece| |QO|Necrolord Horus slain: 1/1| |N|On the opposite side of the hall (86.05, 52.54)|
+
+T Plunderbeard Must Be Found! |QID|12463| |N|Head down the hall and through the lab (84.19, 54.67)|
+A Plunderbeard's Journal |QID|12465|
+C Plunderbeard's Journal |QID|12465| |N|Head through the tunnel and kill scourge on the other side (83.08, 54.67).|
+C Breaking Off A Piece |QID|12462| |N|Kill more scourge on your way back if you need to.|
+T Breaking Off A Piece |QID|12462| |N|Back at the mausoleum entrance (85.88, 51.01)|
+T Plunderbeard's Journal |QID|12465|
+A Chasing Icestorm: The 7th Legion Front |QID|12466|
+
+T Orik Trueheart and the Forgotten Shore |QID|12287| |N|Sounth of town at Dawn's Reach (87.13, 57.39)|
+A The Murkweed Elixir |QID|12290|
+C The Murkweed Elixir |QID|12290| |N|To the southeast at Eldritch Heights (90,74)|
+T The Murkweed Elixir |QID|12290| |N|Back at Dawn's Reach (87.12, 57.46)|
+A The Forgotten Tale |QID|12291|
+C The Forgotten Tale |QID|12291| |N|Head down to the Forgotten Shore (86,64) and use the elixir.  Talk to the ghosties.| |U|37570|
+T The Forgotten Tale |QID|12291| |N|Back at Dawn's Reach (87.15, 57.49)|
+A The Truth Shall Set Us Free |QID|12301|
+C The Truth Shall Set Us Free |QID|12301| |N|Head back down to the Forgotten Shore, use the orb in the center of town (86.79, 66.21)| |U|37577|
+T The Truth Shall Set Us Free |QID|12301| |N|Back at Dawn's Reach (87.15, 57.45)|
+A Parting Thoughts |QID|12305|
+
+T Chasing Icestorm: The 7th Legion Front |QID|12466| |N|Head through Wintergarde Keep, north then west to the 7th Legion Front (64.75, 27.83)|
+A Chasing Icestorm: Thel'zan's Phylactery |QID|12467|
+C Chasing Icestorm: Thel'zan's Phylactery |QID|12467|
+A Pest Control |QID|12142|
+
+A Return to Sender |QID|12469| |N|To the west (48.44, 24.05)|
+T Return to Sender |QID|12469| |N|East at Nozzlerust Post (54.95, 23.46)|
+A Stocking Up |QID|12044|
+A Shaved Ice |QID|12045|
+A Nozzlerust Defense |QID|12043|
+
+C Stocking Up |QID|12044| |N|Gather ore at the various frostwyrm digs (56,28) (52,31)|
+C Nozzlerust Defense |QID|12043|
+
+T Nozzlerust Defense |QID|12043| |N|Back at Nozzlerust Post (54.55, 23.86)|
+T Stocking Up |QID|12044|
+
+C Shaved Ice |QID|12045| |N|North, on the other side of the chasm|
+T Shaved Ice |QID|12045| |N|Back at Nozzlerust Post (54.68, 23.32)|
+A Soft Packaging |QID|12046|
+C Soft Packaging |QID|12046| |N|Kill jormungar tunnelers  and condors areound the dragon bones.|
+C Pest Control |QID|12142| |N|Kill magnataur and snobolds at any of their camps nearby (55,40) (70,31) (65,50) (64,43)|
+
+T Soft Packaging |QID|12046| |N|Back at Nozzlerust Post (54.69, 23.37)|
+A Something That Doesn't Melt |QID|12047|
+A Hard to Swallow |QID|12049|
+C Hard to Swallow |QID|12049| |N|How does one solo an elite?  By blowing it up from the inside!| |U|36732|
+
+T Pest Control |QID|12142| |N|Back at the 7th Legion Front (64.40, 26.36)|
+A Canyon Chase |QID|12143|
+C Canyon Chase |QID|12143| |N|Follow the snobolds east down the canyon to Chilltusk (72,28)|
+A Disturbing Implications |QID|12146| |U|36855| |N|From the horn Chilltusk dropped|
+T Canyon Chase |QID|12143| |N|Back at the 7th Legion Front (64.36, 26.93)|
+
+C Something That Doesn't Melt |QID|12047| |N|Find bone fragments around the dragon bones (59.73, 26.62) (53.27, 25.22) (51.47, 26.21)|
+
+T Something That Doesn't Melt |QID|12047| |N|Back at Nozzlerust Post (54.66, 23.34)|
+T Hard to Swallow |QID|12049|
+A Lumber Hack |QID|12050|
+A Harp on This! |QID|12052|
+C Harp on This! |QID|12052| |U|36734| |N|Just north at Coldwind Heights (52.90, 19.75).  Use the shredder control, then head northwest and kill the Mistress of the Coldwind (45.35, 11.58)|
+C Lumber Hack |QID|12050| |U|36734| |N|Marked trees all over the area, choppey choppey!|
+T Harp on This! |QID|12052| |N|Back at Nozzlerust Post (54.49, 23.56)|
+T Lumber Hack |QID|12050|
+A Stiff Negotiations |QID|12112|
+
+T Stiff Negotiations |QID|12112| |N|To the northeast in the Crystal Vice (59.39, 18.11)|
+A Slim Pickings |QID|12075|
+C Slim Pickings |QID|12075| |N|Due north, just inside the Ice Heart Cavern (56.13, 12.00)|
+T Slim Pickings |QID|12075| |N|Back at the Crystal Vice (59.44, 18.13)|
+A Messy Business |QID|12076|
+A Stomping Grounds |QID|12079|
+C Messy Business |QID|12076| |N|Kill jormungar feeders at the cave or all over the ravine.  Use the scraper when you're spit on (eeeeeeew).| |U|36775|
+C Stomping Grounds |QID|12079|
+T Messy Business |QID|12076| |N|Back at the Crystal Vice (59.38, 18.10)|
+A Apply This Twice A Day |QID|12077|
+T Apply This Twice A Day |QID|12077|
+T Stomping Grounds |QID|12079|
+A Worm Wrangler |QID|12078|
+C Worm Wrangler |QID|12078| |N|Back up at the cave, head down until you find jormungar spawn.  Use the crates on em and loot em.| |U|36771|
+T Worm Wrangler |QID|12078| |N|Back at the Crystal Vice (59.38, 18.10)|
+
+R Fordragon Hold |N|To the west (38,25)|
+F Wintergarde Keep
+T Chasing Icestorm: Thel'zan's Phylactery |QID|12467| |T| |N|Down at High Commander Halford Wyrmbane (78.54, 48.19)|
+A Finality |QID|12472|
+T Finality |QID|12472| |N|Right down the hill, at the other end of the mausoleum (81.20, 50.66)|
+A An End And A Beginning |QID|12473|
+C An End And A Beginning |QID|12473|
+T An End And A Beginning |QID|12473| |N|Back up in Wintergarde Keep (78.63, 48.11)|
+A To Fordragon Hold! |QID|12474|
+
+T To Fordragon Hold! |QID|12474| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
+A Audience With The Dragon Queen |QID|12495|
+T Audience With The Dragon Queen |QID|12495| |N|Run southeast to Wyrmrest Temple (59.82, 54.60).  Take a flight to the top.|
+A Galakrond and the Scourge |QID|12497|
+T Galakrond and the Scourge |QID|12497|
+A On Ruby Wings |QID|12498|
+C On Ruby Wings |QID|12498| |U|38302| |N|Use the beacon, fly up to Galakrond's Rest (55,35), keel shit.  After you've killed scourge, kill Grand Necrolord Antiok atop the Wicked Coil (54.15, 30.57).|
+T On Ruby Wings |QID|12498| |N|Back at Wyrmrest Temple (59.88, 54.60)|
+A Return To Angrathar |QID|12499|
+
+T Return To Angrathar |QID|12499| |N|Fly to Fordragon Hold of course.  Up on the hill (37.74, 23.40).|
+A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate (38.49, 19.25)|
+C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
 ]]
 end)
 
 --[[
-A Imprints on the Past |QID|12282| |N|Dragonblight, Wintergarde Keep (79.12, 47.20)|
+A A Disturbance In The West |QID|12439| |N|Dragonblight, Wintergarde Keep (78.85, 45.34)|
+A My Old Enemy |QID|12464| |N|Dragonblight, Wintergarde Keep (76.82, 47.45)|
 ]]
 
 --[[
-
 A Signs of Big Watery Trouble |QID|12011| |N|Dragonblight, Moa'ki Harbor (47.75, 79.92)|
 T Signs of Big Watery Trouble |QID|12011| |N|Dragonblight, Moa'ki Harbor (47.73, 76.60)|
 A The Bait |QID|12016| |N|Dragonblight, Moa'ki Harbor (47.73, 76.60)|
