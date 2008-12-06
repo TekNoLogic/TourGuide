@@ -95,7 +95,22 @@ C The Truth Shall Set Us Free |QID|12301| |N|Head back down to the Forgotten Sho
 T The Truth Shall Set Us Free |QID|12301| |N|Back at Dawn's Reach (87.15, 57.45)|
 A Parting Thoughts |QID|12305|
 
-T Chasing Icestorm: The 7th Legion Front |QID|12466| |N|Head through Wintergarde Keep, north then west to the 7th Legion Front (64.75, 27.83)|
+T Parting Thoughts |QID|12305| |N|Back up at Wintergarde Keep (79.11, 47.19)|
+A What Secrets Men Hide |QID|12475|
+A The Return of the Crusade? |QID|12476|
+A The Path of Redemption |QID|12477|
+C What Secrets Men Hide |QID|12475| |N|Take the path you took earlier to the mine, but don't doubleback.  Instead continue around the hill to the scarlet camp.  The map is in the tower (87.58, 38.06)|
+C The Path of Redemption |QID|12477| |N|Keep killin' scarlets|
+C The Return of the Crusade? |QID|12476| |N|Keep killin' scarlets|
+
+T The Path of Redemption |QID|12477| |N|Back at Wintergarde Keep (78.58, 48.30)|
+T The Return of the Crusade? |QID|12476|
+T What Secrets Men Hide |QID|12475|
+A Frostmourne Cavern |QID|12478|
+
+C Frostmourne Cavern |QID|12478| |N|Head north-northwest out of town to Frostmourne Cavern (75.10, 20.25).  Use the orb.| |U|37933|
+
+T Chasing Icestorm: The 7th Legion Front |QID|12466| |N|West at the 7th Legion Front (64.75, 27.83)|
 A Chasing Icestorm: Thel'zan's Phylactery |QID|12467|
 C Chasing Icestorm: Thel'zan's Phylactery |QID|12467|
 A Pest Control |QID|12142|
@@ -161,6 +176,7 @@ R Fordragon Hold |N|To the west (38,25)|
 F Wintergarde Keep
 T Chasing Icestorm: Thel'zan's Phylactery |QID|12467| |T| |N|Down at High Commander Halford Wyrmbane (78.54, 48.19)|
 A Finality |QID|12472|
+T Frostmourne Cavern |QID|12478|
 T Finality |QID|12472| |N|Right down the hill, at the other end of the mausoleum (81.20, 50.66)|
 A An End And A Beginning |QID|12473|
 C An End And A Beginning |QID|12473|
@@ -182,6 +198,30 @@ A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate
 C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
 ]]
 end)
+
+--[[
+T A Disturbance In The West |QID|12439| |N|Dragonblight, Wintergarde Keep (77.03, 49.82)|
+A To Stars' Rest! |QID|12440| |N|Dragonblight, Wintergarde Keep (77.03, 49.82)|
+T To Stars' Rest! |QID|12440| |N|Dragonblight, Stars' Rest (29.03, 55.44)|
+A Rifle the Bodies |QID|12000| |N|Dragonblight, Stars' Rest (29.03, 55.44)|
+A The Liquid Fire of Elune |QID|12166| |N|Dragonblight, Stars' Rest (29.14, 55.62)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1628291496:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (26.36, 58.11)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:830260460:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (25.41, 58.58)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1365829124:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (24.47, 57.92)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1822132942:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (24.10, 56.47)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1346790202:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (23.77, 57.97)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1385325409:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (23.68, 60.16)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1137995158:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (24.17, 61.19)|
+A Avenge this Atrocity! |QID|12006| |N|Dragonblight, Moonrest Gardens (24.22, 60.19)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1584294750:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (24.79, 61.48)|
+U |cff0070dd|Hitem:44663:0:0:0:0:0:0:532985208:72|h[Abandoned Adventurer's Satchel]|h|r |N|Dragonblight, Moonrest Gardens (24.84, 55.24)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:897230647:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight,  (24.03, 54.42)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1887861436:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (23.19, 54.78)|
+U |cffffffff|Hitem:35792:0:0:0:0:0:0:1084312762:72|h[Mage Hunter Personal Effects]|h|r |N|Dragonblight, Moonrest Gardens (22.08, 54.63)|
+- |QID|12000.1| |QO|Moonrest Gardens Plans: 1/1| |N|Dragonblight, Moonrest Gardens (22.08, 54.63)|
+T Rifle the Bodies |QID|12000| |N|Dragonblight, Stars' Rest (28.96, 55.39)|
+A Prevent the Accord |QID|12004| |N|Dragonblight, Stars' Rest (28.96, 55.39)|
+]]
 
 --[[
 A A Disturbance In The West |QID|12439| |N|Dragonblight, Wintergarde Keep (78.85, 45.34)|
