@@ -115,9 +115,7 @@ A Chasing Icestorm: Thel'zan's Phylactery |QID|12467|
 C Chasing Icestorm: Thel'zan's Phylactery |QID|12467|
 A Pest Control |QID|12142|
 
-A Return to Sender |QID|12469| |N|To the west (48.44, 24.05)|
-T Return to Sender |QID|12469| |N|East at Nozzlerust Post (54.95, 23.46)|
-A Stocking Up |QID|12044|
+A Stocking Up |QID|12044| |N|West at Nozzlerust Post (54.95, 23.46)|
 A Shaved Ice |QID|12045|
 A Nozzlerust Defense |QID|12043|
 
