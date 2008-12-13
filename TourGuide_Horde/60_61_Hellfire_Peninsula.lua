@@ -47,7 +47,7 @@ A Doorway to the Abyss |QID|10392|
 C Doorway to the Abyss |N|Kill Arix'Amal (53,26) for the key, use it on the Burning Legion Gate (53,28)| |QID|10392|
 T Doorway to the Abyss |QID|10392|
 A The Agony and the Darkness |QID|10389|
-C Bonechewer Blood |N|With next quest, just south of Thrallmar at the blade throwers (58,46)| |QID|10450|
+C Bonechewer Blood |N|Just south of Thrallmar at the blade throwers (58,46)| |QID|10450|
 C I Work... For the Horde! |QID|10086|
 
 T I Work... For the Horde! |QID|10086| |N|Back at Thrallmar| |T|
