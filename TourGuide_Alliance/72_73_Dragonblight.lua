@@ -128,7 +128,7 @@ T Stocking Up |QID|12044|
 C Shaved Ice |QID|12045| |N|North, on the other side of the chasm|
 T Shaved Ice |QID|12045| |N|Back at Nozzlerust Post (54.68, 23.32)|
 A Soft Packaging |QID|12046|
-C Soft Packaging |QID|12046| |N|Kill jormungar tunnelers  and condors areound the dragon bones.|
+C Soft Packaging |QID|12046| |N|Kill jormungar tunnelers and condors around the dragon bones.|
 C Pest Control |QID|12142| |N|Kill magnataur and snobolds at any of their camps nearby (55,40) (70,31) (65,50) (64,43)|
 
 T Soft Packaging |QID|12046| |N|Back at Nozzlerust Post (54.69, 23.37)|
