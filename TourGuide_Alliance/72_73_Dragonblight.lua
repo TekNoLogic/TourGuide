@@ -298,6 +298,17 @@ A Return To Angrathar |QID|12499|
 T Return To Angrathar |QID|12499| |N|Fly to Fordragon Hold of course.  Up on the hill (37.74, 23.40).|
 A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate (38.49, 19.25)|
 C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
+T Reborn From The Ashes |QID|13347| |N|Head to Stormwind, talk to the King (79.91, 38.63)|
+A Fate, Up Against Your Will |QID|13369|
+N Orgy! |N|While you are in Orgrimmar the guards will not attack.  If you want the Ragefire achievement, now's the time to do it.|
+T Fate, Up Against Your Will |QID|13369|
+A A Royal Coup |QID|13370|
+T A Royal Coup |QID|13370| |N|Take the port back to Stormwind|
+A The Killing Time |QID|13371|
+T The Killing Time |QID|13371| |N|Take the port to Tirisfal|
+A The Battle For The Undercity |QID|13377|
+C The Battle For The Undercity |QID|13377| |N|Talk to the king, then enjoy the fight (once it finally starts).  Man, the King's a dick.|
+T The Battle For The Undercity |QID|13377|
 ]]
 end)
 
