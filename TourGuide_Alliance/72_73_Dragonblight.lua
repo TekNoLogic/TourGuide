@@ -255,6 +255,36 @@ A Conversing With the Depths |QID|12032|
 C Conversing With the Depths |QID|12032| |N|Head south to an island (34.06, 84.05).  Activate the shrine, listen to Oacha'noa, jump into the water when he tells you to.|
 T Conversing With the Depths |QID|12032| |N|Back at Moa'ki Harbor (49.12, 75.67)|
 
+C The End of the Line |QID|12107| |N|Go "observer" the Azure Dragonshrine northeast of town (53.01, 65.45).|
+T The End of the Line |QID|12107| |N|Back at Stars' Rest (29.00, 55.40)|
+A Gaining an Audience |QID|12119|
+T Gaining an Audience |QID|12119| |N|Run east to Wyrmrest Temple (57.89, 54.15)|
+A Speak with your Ambassador |QID|12766|
+T Speak with your Ambassador |QID|12766| |N|Downstairs in the center (60.00, 55.11)|
+A Report to the Ruby Dragonshrine |QID|12460|
+
+T Report to the Ruby Dragonshrine |QID|12460| |N|West, just outside the Ruby Dragonshrine (52.18, 50.08)|
+A Heated Battle |QID|12416|
+C Heated Battle |QID|12416| |N|Find the NPCs in the ravine to the north or south.  Tag stuff then let the NPCs kill it for you.|
+T Heated Battle |QID|12416|
+A Return to the Earth |QID|12417|
+C Return to the Earth |QID|12417| |N|Enter the dragonshrine from one of the farther north or south ravines, find acorns, use the on the dead reds| |U|37727|
+T Return to the Earth |QID|12417|
+A Through Fields of Flame |QID|12418|
+C Through Fields of Flame |QID|12418| |N|Kill necromancers, then find the banshee under the shrine (47.98, 49.86).|
+A The Fate of the Ruby Dragonshrine |QID|12419| |N|From the item that dropped| |U|37833|
+T Through Fields of Flame |QID|12418|
+A The Steward of Wyrmrest Temple |QID|12768|
+T The Steward of Wyrmrest Temple |QID|12768| |N|Back at Wyrmrest Temple (57.91, 54.10)|
+A Informing the Queen |QID|12123|
+T Informing the Queen |QID|12123| |N|Up top|
+A Report to Lord Afrasastrasz |QID|12435|
+T The Fate of the Ruby Dragonshrine |QID|12419|
+T Report to Lord Afrasastrasz |QID|12435| |N|Take a flight to the middle level.|
+A Defending Wyrmrest Temple |QID|12372|
+C Defending Wyrmrest Temple |QID|12372| |N|Hop on a dragon, kill blues, then destabilize the Azure Dragonshrine (55.88, 65.99)|
+T Defending Wyrmrest Temple |QID|12372| |N|Back on the middle level of the Wyrmrest Temple (59.20, 54.31)|
+
 T To Fordragon Hold! |QID|12474| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
 A Audience With The Dragon Queen |QID|12495|
 T Audience With The Dragon Queen |QID|12495| |N|Run southeast to Wyrmrest Temple (59.82, 54.60).  Take a flight to the top.|
