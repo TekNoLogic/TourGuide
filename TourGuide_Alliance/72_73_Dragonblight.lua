@@ -217,6 +217,44 @@ T Strengthen the Ancients |QID|12092| |N|Back at Stars' Rest (28.75, 57.05)|
 T Atop the Woodlands |QID|12083|
 A Search Indu'le Village |QID|12098|
 
+T Travel to Moa'ki Harbor |QID|12118| |N|Southeast at Moa'ki Harbor (48.02, 74.84)|
+A Let Nothing Go To Waste |QID|11958|
+A Planning for the Future |QID|11960|
+C Planning for the Future |QID|11960| |N|Steal tanuki pups north of town (46,59).|
+C Let Nothing Go To Waste |QID|11958|
+T Planning for the Future |QID|11960| |N|Back at Moa'ki Harbor (48.33, 74.29)|
+T Let Nothing Go To Waste |QID|11958|
+A Slay Loguhn |QID|11959|
+C Slay Loguhn |QID|11959| |N|At the hut on the north side of Snowfall Glade (46.07, 59.69).  After you kill him, smear his blood.| |U|35688|
+T Slay Loguhn |QID|11959| |N|Back at Moa'ki Harbor (48.01, 74.80)|
+
+A Spiritual Insight |QID|12028|
+C Spiritual Insight |QID|12028| |N|Use the incense just outside| |U|35907|
+T Spiritual Insight |QID|12028|
+A Elder Mana'loa |QID|12030|
+
+A Tua'kea's Crab Traps |QID|12009|
+A Signs of Big Watery Trouble |QID|12011| |N|Dive down in Moa'ki Harbor and find the broken trap (47.68, 79.93)|
+T Signs of Big Watery Trouble |QID|12011|
+A The Bait |QID|12016|
+C The Bait |QID|12016| |N|Kill the big crab out on Kili'ua's Atoll to the west (42.61, 80.62)|
+C Tua'kea's Crab Traps |QID|12009| |N|Use the Fish Bladder if you need| |U|34076|
+T Tua'kea's Crab Traps |QID|12009|
+T The Bait |QID|12016|
+A Meat on the Hook |QID|12017|
+C Meat on the Hook |QID|12017| |N|Follow the fishing line out, use the bait, keel the shark.| |U|35838|
+T Meat on the Hook |QID|12017|
+T Elder Mana'loa |QID|12030| |N|Follow the road out of town to Indu'le Village, find the big stone elder (36.76, 65.17).|
+A Freedom for the Lingering |QID|12031|
+T Search Indu'le Village |QID|12098| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
+A The End of the Line |QID|12107| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
+N Focus, again |Q|The End of the Line| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
+C Freedom for the Lingering |QID|12031|
+T Freedom for the Lingering |QID|12031| |N|Back at the elder (36.81, 65.20)|
+A Conversing With the Depths |QID|12032|
+C Conversing With the Depths |QID|12032| |N|Head south to an island (34.06, 84.05).  Activate the shrine, listen to Oacha'noa, jump into the water when he tells you to.|
+T Conversing With the Depths |QID|12032| |N|Back at Moa'ki Harbor (49.12, 75.67)|
+
 T To Fordragon Hold! |QID|12474| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
 A Audience With The Dragon Queen |QID|12495|
 T Audience With The Dragon Queen |QID|12495| |N|Run southeast to Wyrmrest Temple (59.82, 54.60).  Take a flight to the top.|
