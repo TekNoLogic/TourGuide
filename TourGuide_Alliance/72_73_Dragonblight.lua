@@ -95,18 +95,18 @@ C The Truth Shall Set Us Free |QID|12301| |N|Head back down to the Forgotten Sho
 T The Truth Shall Set Us Free |QID|12301| |N|Back at Dawn's Reach (87.15, 57.45)|
 A Parting Thoughts |QID|12305|
 
-T Parting Thoughts |QID|12305| |N|Back up at Wintergarde Keep (79.11, 47.19)|
-A What Secrets Men Hide |QID|12475|
-A The Return of the Crusade? |QID|12476|
-A The Path of Redemption |QID|12477|
+T Parting Thoughts |QID|12305| |T| |N|Back up at Wintergarde Keep (79.11, 47.19)|
+A What Secrets Men Hide |QID|12475| |T|
+A The Return of the Crusade? |QID|12476| |T|
+A The Path of Redemption |QID|12477| |T|
 C What Secrets Men Hide |QID|12475| |N|Take the path you took earlier to the mine, but don't doubleback.  Instead continue around the hill to the scarlet camp.  The map is in the tower (87.58, 38.06)|
 C The Path of Redemption |QID|12477| |N|Keep killin' scarlets|
 C The Return of the Crusade? |QID|12476| |N|Keep killin' scarlets|
 
-T The Path of Redemption |QID|12477| |N|Back at Wintergarde Keep (78.58, 48.30)|
-T The Return of the Crusade? |QID|12476|
-T What Secrets Men Hide |QID|12475|
-A Frostmourne Cavern |QID|12478|
+T The Path of Redemption |QID|12477| |T| |N|Back at Wintergarde Keep (78.58, 48.30)|
+T The Return of the Crusade? |QID|12476| |T|
+T What Secrets Men Hide |QID|12475| |T|
+A Frostmourne Cavern |QID|12478| |T|
 
 C Frostmourne Cavern |QID|12478| |N|Head north-northwest out of town to Frostmourne Cavern (75.10, 20.25).  Use the orb.| |U|37933|
 
@@ -173,77 +173,77 @@ T Worm Wrangler |QID|12078| |N|Back at the Crystal Vice (59.38, 18.10)|
 R Fordragon Hold |N|To the west (38,25)|
 F Wintergarde Keep
 T Chasing Icestorm: Thel'zan's Phylactery |QID|12467| |T| |N|Down at High Commander Halford Wyrmbane (78.54, 48.19)|
-A Finality |QID|12472|
-T Frostmourne Cavern |QID|12478|
+A Finality |QID|12472| |T|
+T Frostmourne Cavern |QID|12478| |T|
 T Finality |QID|12472| |N|Right down the hill, at the other end of the mausoleum (81.20, 50.66)|
 A An End And A Beginning |QID|12473|
 C An End And A Beginning |QID|12473|
-T An End And A Beginning |QID|12473| |N|Back up in Wintergarde Keep (78.63, 48.11)|
-A To Fordragon Hold! |QID|12474|
+T An End And A Beginning |QID|12473| |T| |N|Back up in Wintergarde Keep (78.63, 48.11)|
+A To Fordragon Hold! |QID|12474| |T|
 
-A A Disturbance In The West |QID|12439| |N|In a building at the north edge of town (78.85, 45.34)|
-T A Disturbance In The West |QID|12439| |N|At the flightmaster (77.03, 49.82)|
-A To Stars' Rest! |QID|12440|
-T To Stars' Rest! |QID|12440|
-A Rifle the Bodies |QID|12000|
-A The Liquid Fire of Elune |QID|12166|
+A A Disturbance In The West |QID|12439| |T| |N|In a building at the north edge of town (78.85, 45.34)|
+T A Disturbance In The West |QID|12439| |T| |N|At the flightmaster (77.03, 49.82)|
+A To Stars' Rest! |QID|12440| |T|
+T To Stars' Rest! |QID|12440| |T|
+A Rifle the Bodies |QID|12000| |T|
+A The Liquid Fire of Elune |QID|12166| |T|
 A Avenge this Atrocity! |QID|12006| |N|Down the hill, find the non-aggro spirit at Moonrest Gardens (24.22, 60.19)|
 C Rifle the Bodies |QID|12000| |U|35792| |N|Loot the bodies all around, then open the item you get from them until you get the plans.|
-T Rifle the Bodies |QID|12000| |N|Back at Stars' Rest (28.96, 55.39)|
-A Prevent the Accord |QID|12004|
+T Rifle the Bodies |QID|12000| |T| |N|Back at Stars' Rest (28.96, 55.39)|
+A Prevent the Accord |QID|12004| |T|
 C Prevent the Accord |QID|12004| |N|At the building under the surge needle.  Mu'fah is just outside (18.42, 58.58), Goramosh is inside on the second level (19.49, 58.04).|
 A A Strange Device |QID|12055| |U|36742| |N|From the item Goramosh dropped|
 C Avenge this Atrocity! |QID|12006| |N|Kill Blue Dragonflight forces all over the area.|
-T Prevent the Accord |QID|12004| |N|Back at Stars' Rest (28.96, 55.35)|
-T A Strange Device |QID|12055|
-A Projections and Plans |QID|12060|
+T Prevent the Accord |QID|12004| |T| |N|Back at Stars' Rest (28.96, 55.35)|
+T A Strange Device |QID|12055| |T|
+A Projections and Plans |QID|12060| |T|
 T Avenge this Atrocity! |QID|12006| |N|Back down at the spirit in Moonrest Gardens (24.13, 60.07)|
 A End Arcanimus |QID|12013|
 C Projections and Plans |QID|12060| |U|36747| |N|Use the Surge Needle Teleporter, get close enough to get credit.  Use it again to get down.|
 C End Arcanimus |QID|12013| |N|In the pit below the surge needle (20.09, 58.85).|
 T End Arcanimus |QID|12013| |N|Back at the spirit in Moonrest Gardens (24.17, 60.06)|
-T Projections and Plans |QID|12060| |N|Back at Stars' Rest (28.97, 55.56)|
-A The Focus on the Beach |QID|12065|
+T Projections and Plans |QID|12060| |T| |N|Back at Stars' Rest (28.97, 55.56)|
+A The Focus on the Beach |QID|12065| |T|
 C The Focus on the Beach |QID|12065| |N|Kill Captain Malin, use the control ring near the focus (26.34, 64.84).| |U|36751|
 A A Letter for Home |QID|12067| |U|36756| |N|From the letter the captain dropped.|
-T The Focus on the Beach |QID|12065| |N|Back at Stars' Rest (28.94, 55.49)|
-A Atop the Woodlands |QID|12083|
-T A Letter for Home |QID|12067|
-A Strengthen the Ancients |QID|12092|
+T The Focus on the Beach |QID|12065| |T| |N|Back at Stars' Rest (28.94, 55.49)|
+A Atop the Woodlands |QID|12083| |T|
+T A Letter for Home |QID|12067| |T|
+A Strengthen the Ancients |QID|12092| |T|
 C Strengthen the Ancients |QID|12092| |N|South at Lothalor Woodlands (31,65).  Talk to the little treants for bark, then use it on the big guys| |U|36786|
 C Atop the Woodlands |QID|12083| |N|At the southern end of the woodlands.  Kill Lieutenant Ta'zinni (32.21, 72.84) for the control item, use it on the focus.| |U|36779|
 
-T Strengthen the Ancients |QID|12092| |N|Back at Stars' Rest (28.75, 57.05)|
-T Atop the Woodlands |QID|12083|
-A Search Indu'le Village |QID|12098|
+T Strengthen the Ancients |QID|12092| |T| |N|Back at Stars' Rest (28.75, 57.05)|
+T Atop the Woodlands |QID|12083| |T|
+A Search Indu'le Village |QID|12098| |T|
 
-T Travel to Moa'ki Harbor |QID|12118| |N|Southeast at Moa'ki Harbor (48.02, 74.84)|
-A Let Nothing Go To Waste |QID|11958|
-A Planning for the Future |QID|11960|
+T Travel to Moa'ki Harbor |QID|12118| |T| |N|Southeast at Moa'ki Harbor (48.02, 74.84)|
+A Let Nothing Go To Waste |QID|11958| |T|
+A Planning for the Future |QID|11960| |T|
 C Planning for the Future |QID|11960| |N|Steal tanuki pups north of town (46,59).|
 C Let Nothing Go To Waste |QID|11958|
-T Planning for the Future |QID|11960| |N|Back at Moa'ki Harbor (48.33, 74.29)|
-T Let Nothing Go To Waste |QID|11958|
-A Slay Loguhn |QID|11959|
+T Planning for the Future |QID|11960| |T| |N|Back at Moa'ki Harbor (48.33, 74.29)|
+T Let Nothing Go To Waste |QID|11958| |T|
+A Slay Loguhn |QID|11959| |T|
 C Slay Loguhn |QID|11959| |N|At the hut on the north side of Snowfall Glade (46.07, 59.69).  After you kill him, smear his blood.| |U|35688|
-T Slay Loguhn |QID|11959| |N|Back at Moa'ki Harbor (48.01, 74.80)|
+T Slay Loguhn |QID|11959| |T| |N|Back at Moa'ki Harbor (48.01, 74.80)|
 
-A Spiritual Insight |QID|12028|
-C Spiritual Insight |QID|12028| |N|Use the incense just outside| |U|35907|
-T Spiritual Insight |QID|12028|
-A Elder Mana'loa |QID|12030|
+A Spiritual Insight |QID|12028| |T|
+C Spiritual Insight |QID|12028| |T| |N|Use the incense just outside| |U|35907|
+T Spiritual Insight |QID|12028| |T|
+A Elder Mana'loa |QID|12030| |T|
 
-A Tua'kea's Crab Traps |QID|12009|
+A Tua'kea's Crab Traps |QID|12009| |T|
 A Signs of Big Watery Trouble |QID|12011| |N|Dive down in Moa'ki Harbor and find the broken trap (47.68, 79.93)|
-T Signs of Big Watery Trouble |QID|12011|
-A The Bait |QID|12016|
+T Signs of Big Watery Trouble |QID|12011| |T|
+A The Bait |QID|12016| |T|
 C The Bait |QID|12016| |N|Kill the big crab out on Kili'ua's Atoll to the west (42.61, 80.62)|
 C Tua'kea's Crab Traps |QID|12009| |N|Use the Fish Bladder if you need| |U|34076|
-T Tua'kea's Crab Traps |QID|12009|
-T The Bait |QID|12016|
-A Meat on the Hook |QID|12017|
+T Tua'kea's Crab Traps |QID|12009| |T|
+T The Bait |QID|12016| |T|
+A Meat on the Hook |QID|12017| |T|
 C Meat on the Hook |QID|12017| |N|Follow the fishing line out, use the bait, keel the shark.| |U|35838|
-T Meat on the Hook |QID|12017|
+T Meat on the Hook |QID|12017| |T|
 T Elder Mana'loa |QID|12030| |N|Follow the road out of town to Indu'le Village, find the big stone elder (36.76, 65.17).|
 A Freedom for the Lingering |QID|12031|
 T Search Indu'le Village |QID|12098| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
@@ -253,15 +253,15 @@ C Freedom for the Lingering |QID|12031|
 T Freedom for the Lingering |QID|12031| |N|Back at the elder (36.81, 65.20)|
 A Conversing With the Depths |QID|12032|
 C Conversing With the Depths |QID|12032| |N|Head south to an island (34.06, 84.05).  Activate the shrine, listen to Oacha'noa, jump into the water when he tells you to.|
-T Conversing With the Depths |QID|12032| |N|Back at Moa'ki Harbor (49.12, 75.67)|
+T Conversing With the Depths |QID|12032| |T| |N|Back at Moa'ki Harbor (49.12, 75.67)|
 
-C The End of the Line |QID|12107| |N|Go "observer" the Azure Dragonshrine northeast of town (53.01, 65.45).|
-T The End of the Line |QID|12107| |N|Back at Stars' Rest (29.00, 55.40)|
-A Gaining an Audience |QID|12119|
-T Gaining an Audience |QID|12119| |N|Run east to Wyrmrest Temple (57.89, 54.15)|
-A Speak with your Ambassador |QID|12766|
-T Speak with your Ambassador |QID|12766| |N|Downstairs in the center (60.00, 55.11)|
-A Report to the Ruby Dragonshrine |QID|12460|
+C The End of the Line |QID|12107| |N|Go "observe" the Azure Dragonshrine northeast of town (53.01, 65.45).|
+T The End of the Line |QID|12107| |T| |N|Back at Stars' Rest (29.00, 55.40)|
+A Gaining an Audience |QID|12119| |T|
+T Gaining an Audience |QID|12119| |T| |N|Run east to Wyrmrest Temple (57.89, 54.15)|
+A Speak with your Ambassador |QID|12766| |T|
+T Speak with your Ambassador |QID|12766| |T| |N|Downstairs in the center (60.00, 55.11)|
+A Report to the Ruby Dragonshrine |QID|12460| |T|
 
 T Report to the Ruby Dragonshrine |QID|12460| |N|West, just outside the Ruby Dragonshrine (52.18, 50.08)|
 A Heated Battle |QID|12416|
@@ -275,40 +275,40 @@ C Through Fields of Flame |QID|12418| |N|Kill necromancers, then find the banshe
 A The Fate of the Ruby Dragonshrine |QID|12419| |N|From the item that dropped| |U|37833|
 T Through Fields of Flame |QID|12418|
 A The Steward of Wyrmrest Temple |QID|12768|
-T The Steward of Wyrmrest Temple |QID|12768| |N|Back at Wyrmrest Temple (57.91, 54.10)|
-A Informing the Queen |QID|12123|
-T Informing the Queen |QID|12123| |N|Up top|
-A Report to Lord Afrasastrasz |QID|12435|
-T The Fate of the Ruby Dragonshrine |QID|12419|
-T Report to Lord Afrasastrasz |QID|12435| |N|Take a flight to the middle level.|
-A Defending Wyrmrest Temple |QID|12372|
+T The Steward of Wyrmrest Temple |QID|12768| |T| |N|Back at Wyrmrest Temple (57.91, 54.10)|
+A Informing the Queen |QID|12123| |T|
+T Informing the Queen |QID|12123| |T| |N|Up top|
+A Report to Lord Afrasastrasz |QID|12435| |T|
+T The Fate of the Ruby Dragonshrine |QID|12419| |T|
+T Report to Lord Afrasastrasz |QID|12435| |T| |N|Take a flight to the middle level.|
+A Defending Wyrmrest Temple |QID|12372| |T|
 C Defending Wyrmrest Temple |QID|12372| |N|Hop on a dragon, kill blues, then destabilize the Azure Dragonshrine (55.88, 65.99)|
-T Defending Wyrmrest Temple |QID|12372| |N|Back on the middle level of the Wyrmrest Temple (59.20, 54.31)|
+T Defending Wyrmrest Temple |QID|12372| |T| |N|Back on the middle level of the Wyrmrest Temple (59.20, 54.31)|
 
-T To Fordragon Hold! |QID|12474| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
-A Audience With The Dragon Queen |QID|12495|
-T Audience With The Dragon Queen |QID|12495| |N|Run southeast to Wyrmrest Temple (59.82, 54.60).  Take a flight to the top.|
-A Galakrond and the Scourge |QID|12497|
-T Galakrond and the Scourge |QID|12497|
-A On Ruby Wings |QID|12498|
+T To Fordragon Hold! |QID|12474| |T| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
+A Audience With The Dragon Queen |QID|12495| |T|
+T Audience With The Dragon Queen |QID|12495| |T| |N|Fly back to Wyrmrest Temple.|
+A Galakrond and the Scourge |QID|12497| |T|
+T Galakrond and the Scourge |QID|12497| |T|
+A On Ruby Wings |QID|12498| |T|
 C On Ruby Wings |QID|12498| |U|38302| |N|Use the beacon, fly up to Galakrond's Rest (55,35), keel shit.  After you've killed scourge, kill Grand Necrolord Antiok atop the Wicked Coil (54.15, 30.57).|
-T On Ruby Wings |QID|12498| |N|Back at Wyrmrest Temple (59.88, 54.60)|
-A Return To Angrathar |QID|12499|
+T On Ruby Wings |QID|12498| |T| |N|Back at Wyrmrest Temple (59.88, 54.60)|
+A Return To Angrathar |QID|12499| |T|
 
-T Return To Angrathar |QID|12499| |N|Fly to Fordragon Hold of course.  Up on the hill (37.74, 23.40).|
+T Return To Angrathar |QID|12499| |T| |N|Fly to Fordragon Hold of course.  Up on the hill (37.74, 23.40).|
 A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate (38.49, 19.25)|
 C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
-T Reborn From The Ashes |QID|13347| |N|Head to Stormwind, talk to the King (79.91, 38.63)|
-A Fate, Up Against Your Will |QID|13369|
-N Orgy! |N|While you are in Orgrimmar the guards will not attack.  If you want the Ragefire achievement, now's the time to do it.|
-T Fate, Up Against Your Will |QID|13369|
-A A Royal Coup |QID|13370|
-T A Royal Coup |QID|13370| |N|Take the port back to Stormwind|
-A The Killing Time |QID|13371|
+T Reborn From The Ashes |QID|13347| |T| |N|Head to Stormwind, talk to the King (79.91, 38.63)|
+A Fate, Up Against Your Will |QID|13369| |T|
+N Orgy! |T| |N|While you are in Orgrimmar the guards will not attack.  If you want the Ragefire achievement, now's the time to do it.|
+T Fate, Up Against Your Will |QID|13369| |T|
+A A Royal Coup |QID|13370| |T|
+T A Royal Coup |QID|13370| |T| |N|Take the port back to Stormwind|
+A The Killing Time |QID|13371| |T|
 T The Killing Time |QID|13371| |N|Take the port to Tirisfal|
 A The Battle For The Undercity |QID|13377|
 C The Battle For The Undercity |QID|13377| |N|Talk to the king, then enjoy the fight (once it finally starts).  Man, the King's a dick.|
-T The Battle For The Undercity |QID|13377|
+T The Battle For The Undercity |QID|13377| |T|
 ]]
 end)
 
