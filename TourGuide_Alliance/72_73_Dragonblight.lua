@@ -181,6 +181,42 @@ C An End And A Beginning |QID|12473|
 T An End And A Beginning |QID|12473| |N|Back up in Wintergarde Keep (78.63, 48.11)|
 A To Fordragon Hold! |QID|12474|
 
+A A Disturbance In The West |QID|12439| |N|In a building at the north edge of town (78.85, 45.34)|
+T A Disturbance In The West |QID|12439| |N|At the flightmaster (77.03, 49.82)|
+A To Stars' Rest! |QID|12440|
+T To Stars' Rest! |QID|12440|
+A Rifle the Bodies |QID|12000|
+A The Liquid Fire of Elune |QID|12166|
+A Avenge this Atrocity! |QID|12006| |N|Down the hill, find the non-aggro spirit at Moonrest Gardens (24.22, 60.19)|
+C Rifle the Bodies |QID|12000| |U|35792| |N|Loot the bodies all around, then open the item you get from them until you get the plans.|
+T Rifle the Bodies |QID|12000| |N|Back at Stars' Rest (28.96, 55.39)|
+A Prevent the Accord |QID|12004|
+C Prevent the Accord |QID|12004| |N|At the building under the surge needle.  Mu'fah is just outside (18.42, 58.58), Goramosh is inside on the second level (19.49, 58.04).|
+A A Strange Device |QID|12055| |U|36742| |N|From the item Goramosh dropped|
+C Avenge this Atrocity! |QID|12006| |N|Kill Blue Dragonflight forces all over the area.|
+T Prevent the Accord |QID|12004| |N|Back at Stars' Rest (28.96, 55.35)|
+T A Strange Device |QID|12055|
+A Projections and Plans |QID|12060|
+T Avenge this Atrocity! |QID|12006| |N|Back down at the spirit in Moonrest Gardens (24.13, 60.07)|
+A End Arcanimus |QID|12013|
+C Projections and Plans |QID|12060| |U|36747| |N|Use the Surge Needle Teleporter, get close enough to get credit.  Use it again to get down.|
+C End Arcanimus |QID|12013| |N|In the pit below the surge needle (20.09, 58.85).|
+T End Arcanimus |QID|12013| |N|Back at the spirit in Moonrest Gardens (24.17, 60.06)|
+T Projections and Plans |QID|12060| |N|Back at Stars' Rest (28.97, 55.56)|
+A The Focus on the Beach |QID|12065|
+C The Focus on the Beach |QID|12065| |N|Kill Captain Malin, use the control ring near the focus (26.34, 64.84).| |U|36751|
+A A Letter for Home |QID|12067| |U|36756| |N|From the letter the captain dropped.|
+T The Focus on the Beach |QID|12065| |N|Back at Stars' Rest (28.94, 55.49)|
+A Atop the Woodlands |QID|12083|
+T A Letter for Home |QID|12067|
+A Strengthen the Ancients |QID|12092|
+C Strengthen the Ancients |QID|12092| |N|South at Lothalor Woodlands (31,65).  Talk to the little treants for bark, then use it on the big guys| |U|36786|
+C Atop the Woodlands |QID|12083| |N|At the southern end of the woodlands.  Kill Lieutenant Ta'zinni (32.21, 72.84) for the control item, use it on the focus.| |U|36779|
+
+T Strengthen the Ancients |QID|12092| |N|Back at Stars' Rest (28.75, 57.05)|
+T Atop the Woodlands |QID|12083|
+A Search Indu'le Village |QID|12098|
+
 T To Fordragon Hold! |QID|12474| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
 A Audience With The Dragon Queen |QID|12495|
 T Audience With The Dragon Queen |QID|12495| |N|Run southeast to Wyrmrest Temple (59.82, 54.60).  Take a flight to the top.|
