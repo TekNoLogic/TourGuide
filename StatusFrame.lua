@@ -41,7 +41,7 @@ local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormalSmall", nil, "RIGH
 text:SetPoint("LEFT", icon, "RIGHT", GAP-4, 0)
 
 
-local f2 = CreateFrame("Frame", nil, UIParent)
+local f2 = CreateFrame("Frame", nil, f)
 local f2anchor = "RIGHT"
 f2:SetHeight(32)
 f2:SetWidth(100)
