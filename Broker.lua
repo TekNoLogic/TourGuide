@@ -1,6 +1,6 @@
 
 local TourGuide = TourGuide
-local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {text = "Bah!", icon = TourGuide.icons.KILL})
+local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {type = "data source", text = "Bah!", icon = TourGuide.icons.KILL})
 local lastmapped, lastmappedaction
 
 
