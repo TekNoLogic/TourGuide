@@ -3,6 +3,12 @@ TourGuide:RegisterGuide("Azshara (52-53)", "Felwood (53-54)", "Alliance", functi
 return [[
 A Arcane Runes |QID|3449|
 
+A An Easy Pickup |QID|3450|
+T An Easy Pickup |QID|3450|
+
+A Signal for Pickup |QID|3451|
+T Signal for Pickup |QID|3451|
+
 A The Hunter's Charm |QID|8151| |C|Hunter|
 
 A Cenarion Aid |QID|8254| |C|Priest|
