@@ -186,7 +186,19 @@ T A Disturbance In The West |QID|12439| |T| |N|At the flightmaster (77.03, 49.82
 A To Stars' Rest! |QID|12440| |T|
 T To Stars' Rest! |QID|12440| |T|
 A Rifle the Bodies |QID|12000| |T|
+
 A The Liquid Fire of Elune |QID|12166| |T|
+C The Liquid Fire of Elune |QID|12166| |N|Kill blighted elk and rabid grizzlies to the north, use the liquid fire on their corpses| |U|36956|
+T The Liquid Fire of Elune |QID|12166| |T| |N|Back at Stars' Rest (29.16, 55.52)|
+A Kill the Cultists |QID|12167| |T|
+C Kill the Cultists |QID|12167| |N|Head up to Icemist Village (24,46) and kill cultists!  There's a number on the edge of the lake, and also some up in the buildings overlooking the area.|
+A The Favor of Zangus |QID|12168| |N|Keep killing cultists till this item drops.| |U|36958|
+T Kill the Cultists |QID|12167| |T| |N|Back at Stars' Rest (29.17, 55.54)|
+T The Favor of Zangus |QID|12168| |T|
+A The High Cultist |QID|12169| |T|
+C The High Cultist |QID|12169| |N|Head down to the Pit of Narjun (26.92, 50.39).  Hang a right, work your way back to Zangus (28.83, 49.74)|
+T The High Cultist |QID|12169| |T| |N|Back at Stars' Rest (29.16, 55.55)|
+
 A Avenge this Atrocity! |QID|12006| |N|Down the hill, find the non-aggro spirit at Moonrest Gardens (24.22, 60.19)|
 C Rifle the Bodies |QID|12000| |U|35792| |N|Loot the bodies all around, then open the item you get from them until you get the plans.|
 T Rifle the Bodies |QID|12000| |T| |N|Back at Stars' Rest (28.96, 55.39)|
