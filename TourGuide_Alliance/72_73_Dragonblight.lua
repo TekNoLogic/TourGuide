@@ -71,7 +71,7 @@ C The Chain Gun And You |QID|12457| |N|WHEEEEEEEE!|
 T The Chain Gun And You |QID|12457|
 A Plunderbeard Must Be Found! |QID|12463|
 A Breaking Off A Piece |QID|12462|
-C Breaking Off A Piece |QID|12462| |N|Head down the stairs, kill the named mobs on both sides:
+C Breaking Off A Piece |QID|12462| |N|Head down the stairs, kill the named mobs on both sides.|
 K Necrolord X'avius |Q|Breaking Off A Piece| |QO|Necrolord X'avius slain: 1/1| |N|Down the stairs, hang a right (84.68, 51.23)|
 K Necrolord Horus |Q|Breaking Off A Piece| |QO|Necrolord Horus slain: 1/1| |N|On the opposite side of the hall (86.05, 52.54)|
 
