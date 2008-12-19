@@ -1,7 +1,10 @@
 
 TourGuide:RegisterGuide("Howling Fjord (70-71)", nil, "Horde", function()
 return [[
+]]
+end)
 
+--[[
 A War is Hell |QID|11270| |N|Howling Fjord, Vengeance Landing (78.63, 31.17)|
 A The New Plague |QID|11167| |N|Howling Fjord, Vengeance Landing (78.59, 29.06)|
 A Let Them Eat Crow |QID|11227| |N|Howling Fjord, Vengeance Landing (79.11, 31.21)|
@@ -223,4 +226,3 @@ T Stop the Ascension! |QID|11260| |N|Howling Fjord, Camp Winterhoof (48.22, 10.5
 U |cffa335ee|Hitem:34895:0:0:0:0:0:0:0:71|h[Scryer's Blade of Focus]|h|r |N|Howling Fjord, Garvan's Reef (36.77, 76.23)|
 U |cffa335ee|Hitem:28734:0:0:0:0:0:0:-1905871478:71|h[Jewel of Infinite Possibilities]|h|r |N|Howling Fjord, Garvan's Reef (36.58, 76.48)|
 ]]
-end)
