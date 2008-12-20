@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Dragonblight (72-73)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Dragonblight (72-73)", "Grizzly Hills (73-74)", "Alliance", function()
 return [[
 A Naxxramas and the Fall of Wintergarde |QID|12235| |T|
 T Naxxramas and the Fall of Wintergarde |QID|12235| |T| |N|Back up near the flightmaster (77.15, 50.08)|
