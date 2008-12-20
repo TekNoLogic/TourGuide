@@ -250,7 +250,7 @@ A Signs of Big Watery Trouble |QID|12011| |N|Dive down in Moa'ki Harbor and find
 T Signs of Big Watery Trouble |QID|12011| |T|
 A The Bait |QID|12016| |T|
 C The Bait |QID|12016| |N|Kill the big crab out on Kili'ua's Atoll to the west (42.61, 80.62)|
-C Tua'kea's Crab Traps |QID|12009| |N|Use the Fish Bladder if you need| |U|34076|
+C Tua'kea's Crab Traps |QID|12009| |N|Use the Fish Bladder if you need| |U|37265|
 T Tua'kea's Crab Traps |QID|12009| |T|
 T The Bait |QID|12016| |T|
 A Meat on the Hook |QID|12017| |T|
