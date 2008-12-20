@@ -58,6 +58,4 @@
 	<Script file="67_68_Blades_Edge_Mountains.lua"/>
 	<Script file="68_69_Netherstorm.lua"/>
 	<Script file="69_70_Shadowmoon_Valley.lua"/>
-
-	<Script file="70_71_Howling_Fjord.lua"/>
 </Ui>
