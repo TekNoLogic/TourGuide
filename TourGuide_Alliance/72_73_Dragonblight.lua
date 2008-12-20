@@ -273,6 +273,7 @@ A Gaining an Audience |QID|12119| |T|
 T Gaining an Audience |QID|12119| |T| |N|Run east to Wyrmrest Temple (57.89, 54.15)|
 A Speak with your Ambassador |QID|12766| |T|
 T Speak with your Ambassador |QID|12766| |T| |N|Downstairs in the center (60.00, 55.11)|
+T Disturbing Implications |QID|12146| |N|Skip the followup unless you have someone to help you.|
 A Report to the Ruby Dragonshrine |QID|12460| |T|
 
 T Report to the Ruby Dragonshrine |QID|12460| |N|West, just outside the Ruby Dragonshrine (52.18, 50.08)|
@@ -292,14 +293,56 @@ A Informing the Queen |QID|12123| |T|
 T Informing the Queen |QID|12123| |T| |N|Up top|
 A Report to Lord Afrasastrasz |QID|12435| |T|
 T The Fate of the Ruby Dragonshrine |QID|12419| |T|
+A Seeds of the Lashers |QID|12458| |T|
 T Report to Lord Afrasastrasz |QID|12435| |T| |N|Take a flight to the middle level.|
 A Defending Wyrmrest Temple |QID|12372| |T|
 C Defending Wyrmrest Temple |QID|12372| |N|Hop on a dragon, kill blues, then destabilize the Azure Dragonshrine (55.88, 65.99)|
 T Defending Wyrmrest Temple |QID|12372| |T| |N|Back on the middle level of the Wyrmrest Temple (59.20, 54.31)|
 
+A Cycle of Life |QID|12454| |N|Southeast at the Emerald Dragonshrine (62.53, 73.29)|
+C Cycle of Life |QID|12454|
+C Seeds of the Lashers |QID|12458|
+T Cycle of Life |QID|12454|
+
+T Seeds of the Lashers |QID|12458| |T| |N|Back at Wyrmrest Temple, up top (59.61, 54.42)|
+A That Which Creates Can Also Destroy |QID|12459| |T|
+A Mystery of the Infinite |QID|12470| |T|
+A The Obsidian Dragonshrine |QID|12447| |T|
+
 T To Fordragon Hold! |QID|12474| |T| |N|Fly over to Fordragon Hold.  Fordy's up on the hill (37.76, 23.46).|
 A Audience With The Dragon Queen |QID|12495| |T|
-T Audience With The Dragon Queen |QID|12495| |T| |N|Fly back to Wyrmrest Temple.|
+
+T The Obsidian Dragonshrine |QID|12447| |N|To the south, in the Maw of Neltharion (35.22, 30.11)|
+A No One to Save You |QID|12262|
+A No Place to Run |QID|12261|
+C No Place to Run |QID|12261| |U|37445| |N|Head outside, use the destructive wards where the path meets the snow (41.30, 31.78)|
+C No One to Save You |QID|12262| |N|Kill crap on your way back inside|
+T No One to Save You |QID|12262| |N|Back inside the Maw of Neltharion (35.21, 30.10)|
+T No Place to Run |QID|12261|
+A The Best of Intentions |QID|12263|
+C The Best of Intentions |QID|12263| |N|Take the path north, then work your way across the lava bridges to the magmawyrm resurrection chamber (31.74, 30.46)|
+T The Best of Intentions |QID|12263|
+A Culling the Damned |QID|12264|
+A Defiling the Defilers |QID|12265|
+C Defiling the Defilers |QID|12265| |N|Head back into the cave, destroy the rune circles on the ground.|
+C Culling the Damned |QID|12264|
+T Culling the Damned |QID|12264|
+T Defiling the Defilers |QID|12265|
+A Neltharion's Flame |QID|12267|
+C Neltharion's Flame |QID|12267| |N|Head back to the magmawyrm resurrection chamber (31.66, 31.13), use the flame, kill Rothin.| |U|37539|
+T Neltharion's Flame |QID|12267|
+A Tales of Destruction |QID|12266|
+
+K Weakened Reanimated Frost Wyrm |Q|That Which Creates Can Also Destroy| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Use the seeds on a frost wyrm and kill it.  You can find a bunch near Galakrond's Rest (54,38).  Note that the seed won't aggro the wyrm, you'll need to hit it with something first.| |U|37887|
+C Mystery of the Infinite |QID|12470| |N|Use the Hourglass of Eternity at the Bronze Dragonshrine (71,40), protect it from the dragons.| |U|37923|
+
+C That Which Creates Can Also Destroy |QID|12459| |U|37887| |N|Same as before, use the seeds, kill the mob.  Overseer Deathgaze is at the northeast edge of the zone in Jintha'kalar (89.42, 18.99).  Turgid the Vile is in the broken keep below Naxx (85.98, 47.63).|
+
+h Wintergarde Keep |T|
+T Tales of Destruction |QID|12266| |T| |N|Fly back to Wyrmrest Temple, up top.|
+T Mystery of the Infinite |QID|12470| |T|
+T That Which Creates Can Also Destroy |QID|12459| |T|
+T Audience With The Dragon Queen |QID|12495| |T|
 A Galakrond and the Scourge |QID|12497| |T|
 T Galakrond and the Scourge |QID|12497| |T|
 A On Ruby Wings |QID|12498| |T|
@@ -310,7 +353,7 @@ A Return To Angrathar |QID|12499| |T|
 T Return To Angrathar |QID|12499| |T| |N|Fly to Fordragon Hold of course.  Up on the hill (37.74, 23.40).|
 A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate (38.49, 19.25)|
 C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
-T Reborn From The Ashes |QID|13347| |T| |N|Head to Stormwind, talk to the King (79.91, 38.63)|
+T Reborn From The Ashes |QID|13347| |T| |N|Head to Stormwind, talk to the king (79.91, 38.63)|
 A Fate, Up Against Your Will |QID|13369| |T|
 N Orgy! |T| |N|While you are in Orgrimmar the guards will not attack.  If you want the Ragefire achievement, now's the time to do it.|
 T Fate, Up Against Your Will |QID|13369| |T|
@@ -319,226 +362,10 @@ T A Royal Coup |QID|13370| |T| |N|Take the port back to Stormwind|
 A The Killing Time |QID|13371| |T|
 T The Killing Time |QID|13371| |N|Take the port to Tirisfal|
 A The Battle For The Undercity |QID|13377|
-C The Battle For The Undercity |QID|13377| |N|Talk to the king, then enjoy the fight (once it finally starts).  Man, the King's a dick.|
+C The Battle For The Undercity |QID|13377| |N|Talk to the king, then enjoy the fight (once it finally starts).  Man, the king's a dick.|
 T The Battle For The Undercity |QID|13377| |T|
+
+H Wintergarde Keep
+A The Hills Have Us |QID|12511| |T| |N|Near the flightmaster (77.13, 50.09)|
 ]]
 end)
-
---[[
-T Disturbing Implications |QID|12146| |N|Dragonblight, Wyrmrest Temple (60.00, 55.11)|
-A One of a Kind |QID|12148| |N|Dragonblight, Wyrmrest Temple (60.00, 55.11)|
-
-A Mystery of the Infinite |QID|12470| |N|Dragonblight, Wyrmrest Temple (59.95, 54.45)|
-A The Obsidian Dragonshrine |QID|12447| |N|Dragonblight, Wyrmrest Temple (60.04, 54.22)|
-
-A Defending Wyrmrest Temple |QID|12372| |N|Dragonblight, Wyrmrest Temple (59.20, 54.33)|
-- |QID|12372.3| |QO|Destabilize the Azure Dragonshrine: 1/1| |N|Dragonblight, Azure Dragonshrine (55.00, 65.31)|
-- |QID|12372.1| |QO|Azure Dragon slain: 3/3| |N|Dragonblight, The Dragon Wastes (56.68, 56.05)|
-- |QID|12372.2| |QO|Azure Drake slain: 5/5| |N|Dragonblight, The Dragon Wastes (61.32, 56.88)|
-T Defending Wyrmrest Temple |QID|12372| |N|Dragonblight, Wyrmrest Temple (59.21, 54.34)|
-U |cffffffff|Hitem:37923:0:0:0:0:0:0:1494915413:73|h[Hourglass of Eternity]|h|r |N|Dragonblight, Bronze Dragonshrine (71.17, 39.89)|
-- |QID|12470.1| |QO|Hourglass of Eternity protected| |N|Dragonblight, Bronze Dragonshrine (71.21, 39.93)|
-T Mystery of the Infinite |QID|12470| |N|Dragonblight, Wyrmrest Temple (59.99, 54.41)|
-A Seeds of the Lashers |QID|12458| |N|Dragonblight, Wyrmrest Temple (59.61, 54.42)|
-A Cycle of Life |QID|12454| |N|Dragonblight, Emerald Dragonshrine (62.53, 73.29)|
-- |QID|12458.1| |QO|Lasher Seed: 3/3| |N|Dragonblight, Emerald Dragonshrine (64.74, 72.11)|
-- |QID|12454.1| |QO|Emerald Skytalon slain: 5/5| |N|Dragonblight, Emerald Dragonshrine (64.74, 75.38)|
-T Cycle of Life |QID|12454| |N|Dragonblight, Emerald Dragonshrine (62.61, 74.87)|
-A The Plume of Alystros |QID|12456| |N|Dragonblight, Emerald Dragonshrine (62.61, 74.87)|
-- |QID|12456.1| |QO|The Plume of Alystros: 1/1| |N|Dragonblight, Emerald Dragonshrine (64.85, 77.01)|
-T The Plume of Alystros |QID|12456| |N|Dragonblight, Emerald Dragonshrine (63.40, 75.71)|
-T Seeds of the Lashers |QID|12458| |N|Dragonblight, Wyrmrest Temple (59.61, 54.42)|
-A That Which Creates Can Also Destroy |QID|12459| |N|Dragonblight, Wyrmrest Temple (59.61, 54.42)|
-U |cffffffff|Hitem:37887:0:0:0:0:0:0:9587388:73|h[Seeds of Nature's Wrath]|h|r |N|Dragonblight, The Dragon Wastes (53.16, 40.40)|
-- |QID|12459.1| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Dragonblight, The Dragon Wastes (53.63, 38.38)|
-- |QID|12459.3| |QO|Weakened Overseer Deathgaze slain: 1/1| |N|Dragonblight, Jintha'kalar (89.42, 18.99)|
-- |QID|12459.2| |QO|Weakened Turgid the Vile slain: 1/1| |N|Dragonblight, The Carrion Fields (85.98, 47.63)|
-T That Which Creates Can Also Destroy |QID|12459| |N|Dragonblight, Wyrmrest Temple (59.58, 54.38)|
-]]
-
---[[
-A The Liquid Fire of Elune |QID|12166| |N|Dragonblight, Stars' Rest (29.10, 55.40)|
-A The Obsidian Dragonshrine |QID|12447| |N|Dragonblight, Wyrmrest Temple (60.05, 54.19)|
-A Mystery of the Infinite |QID|12470| |N|Dragonblight, Wyrmrest Temple (59.98, 54.49)|
-A Seeds of the Lashers |QID|12458| |N|Dragonblight, Wyrmrest Temple (59.61, 54.42)|
-U |cffffffff|Hitem:37923:0:0:0:0:0:0:1886448917:73|h[Hourglass of Eternity]|h|r |N|Dragonblight, Bronze Dragonshrine (71.40, 39.25)|
-- |QID|12166.1| |QO|Blighted Elk's corpse cleansed: 6/6| |N|Dragonblight,  (29.07, 50.58)|
-- |QID|12166.2| |QO|Rabid Grizzly's corpse cleansed: 6/6| |N|Dragonblight,  (29.06, 50.49)|
-T The Liquid Fire of Elune |QID|12166| |N|Dragonblight, Stars' Rest (29.16, 55.56)|
-A Kill the Cultists |QID|12167| |N|Dragonblight, Stars' Rest (29.16, 55.56)|
-T The Obsidian Dragonshrine |QID|12447| |N|Dragonblight, Maw of Neltharion (35.20, 30.10)|
-A No One to Save You |QID|12262| |N|Dragonblight, Maw of Neltharion (35.20, 30.10)|
-A No Place to Run |QID|12261| |N|Dragonblight, Maw of Neltharion (35.20, 30.10)|
-U |cffffffff|Hitem:37445:0:0:0:0:0:0:2109156361:73|h[Destructive Wards]|h|r |N|Dragonblight, Obsidian Dragonshrine (41.81, 31.73)|
-- |QID|12261.1| |QO|Destructive Ward Fully Charged: 1/1| |N|Dragonblight, Obsidian Dragonshrine (41.78, 31.79)|
-- |QID|12262.2| |QO|Smoldering Skeleton slain: 10/10| |N|Dragonblight, Obsidian Dragonshrine (39.49, 30.98)|
-- |QID|12262.1| |QO|Burning Depths Necrolyte slain: 6/6| |N|Dragonblight, Maw of Neltharion (37.68, 31.89)|
-T No Place to Run |QID|12261| |N|Dragonblight, Maw of Neltharion (35.18, 30.07)|
-T No One to Save You |QID|12262| |N|Dragonblight, Maw of Neltharion (35.18, 30.07)|
-A The Best of Intentions |QID|12263| |N|Dragonblight, Maw of Neltharion (35.18, 30.07)|
-- |QID|12263.1| |QO|Uncover the Magmawyrm Resurrection Chamber| |N|Dragonblight, Maw of Neltharion (31.73, 30.43)|
-T The Best of Intentions |QID|12263| |N|Dragonblight, Maw of Neltharion (35.18, 30.11)|
-A Culling the Damned |QID|12264| |N|Dragonblight, Maw of Neltharion (35.18, 30.11)|
-A Defiling the Defilers |QID|12265| |N|Dragonblight, Maw of Neltharion (35.18, 30.11)|
-- |QID|12264.1| |QO|Burning Depths Necromancer slain: 3/3| |N|Dragonblight, Maw of Neltharion (32.89, 30.01)|
-U |cffffffff|Hitem:43465:0:0:0:0:0:0:-1854852706:73|h[Scroll of Strength VII]|h|r |N|Dragonblight, Maw of Neltharion (32.67, 30.39)|
-- |QID|12265.1| |QO|Necromantic Rune destroyed: 8/8| |N|Dragonblight, Maw of Neltharion (32.86, 30.95)|
-- |QID|12264.3| |QO|Smoldering Geist slain: 6/6| |N|Dragonblight, Maw of Neltharion (32.79, 30.87)|
-- |QID|12264.2| |QO|Smoldering Construct slain: 6/6| |N|Dragonblight, Maw of Neltharion (31.97, 31.15)|
-T Defiling the Defilers |QID|12265| |N|Dragonblight, Maw of Neltharion (35.18, 30.08)|
-A Neltharion's Flame |QID|12267| |N|Dragonblight, Maw of Neltharion (35.18, 30.08)|
-T Culling the Damned |QID|12264| |N|Dragonblight, Maw of Neltharion (35.18, 30.08)|
-U |cffffffff|Hitem:37539:0:0:0:0:0:0:788488604:73|h[Neltharion's Flame]|h|r |N|Dragonblight, Maw of Neltharion (31.77, 31.26)|
-- |QID|12267.1| |QO|Summoning Area Cleansed: 1/1| |N|Dragonblight, Maw of Neltharion (31.77, 31.26)|
-- |QID|12267.2| |QO|Rothin the Decaying slain: 1/1| |N|Dragonblight, Maw of Neltharion (31.44, 30.97)|
-T Neltharion's Flame |QID|12267| |N|Dragonblight, Maw of Neltharion (35.19, 30.10)|
-A Tales of Destruction |QID|12266| |N|Dragonblight, Maw of Neltharion (35.19, 30.10)|
-U |cffffffff|Hitem:36958:0:0:0:0:0:0:-1409746081:73|h[The Favor of Zangus]|h|r |N|Dragonblight, Icemist Village (26.28, 40.45)|
-A The Favor of Zangus |QID|12168| |N|Dragonblight, Icemist Village (26.04, 40.55)|
-- |QID|12167.1| |QO|Functional Cultist Suit: 5/5| |N|Dragonblight, Icemist Village (26.18, 43.25)|
-T Kill the Cultists |QID|12167| |N|Dragonblight, Stars' Rest (29.13, 55.53)|
-T The Favor of Zangus |QID|12168| |N|Dragonblight, Stars' Rest (29.13, 55.53)|
-A The High Cultist |QID|12169| |N|Dragonblight, Stars' Rest (29.13, 55.53)|
-- |QID|12169.1| |QO|High Cultist Zangus slain: 1/1| |N|Dragonblight, The Pit of Narjun (28.60, 49.28)|
-T The High Cultist |QID|12169| |N|Dragonblight, Stars' Rest (29.15, 55.57)|
-T Tales of Destruction |QID|12266| |N|Dragonblight, Wyrmrest Temple (60.04, 54.17)|
-A Cycle of Life |QID|12454| |N|Dragonblight, Emerald Dragonshrine (63.23, 71.92)|
-U |cffffffff|Hitem:43465:0:0:0:0:0:0:1316968054:73|h[Scroll of Strength VII]|h|r |N|Dragonblight, Emerald Dragonshrine (62.59, 74.61)|
-- |QID|12458.1| |QO|Lasher Seed: 3/3| |N|Dragonblight, Emerald Dragonshrine (64.70, 74.49)|
-- |QID|12454.1| |QO|Emerald Skytalon slain: 5/5| |N|Dragonblight, Emerald Dragonshrine (64.18, 72.41)|
-T Cycle of Life |QID|12454| |N|Dragonblight, Emerald Dragonshrine (63.23, 72.04)|
-A The Plume of Alystros |QID|12456| |N|Dragonblight, Emerald Dragonshrine (63.23, 72.04)|
-T Seeds of the Lashers |QID|12458| |N|Dragonblight, Wyrmrest Temple (59.61, 54.46)|
-A That Which Creates Can Also Destroy |QID|12459| |N|Dragonblight, Wyrmrest Temple (59.61, 54.46)|
-A Death to the Traitor King |QID|13167| |N|Dragonblight, The Pit of Narjun (26.20, 50.72)|
-A Don't Forget the Eggs! |QID|13182| |N|Dragonblight, The Pit of Narjun (26.20, 50.72)|
-A All Things in Good Time |QID|13190| |N|Dragonblight, The Pit of Narjun (26.20, 50.72)|
-A The Faceless Ones |QID|13187| |N|Dragonblight, The Pit of Narjun (26.20, 50.72)|
-T Death to the Traitor King |QID|13167| |N|Dragonblight, The Pit of Narjun (26.19, 50.71)|
-T Don't Forget the Eggs! |QID|13182| |N|Dragonblight, The Pit of Narjun (26.19, 50.71)|
-T The Faceless Ones |QID|13187| |N|Dragonblight, The Pit of Narjun (26.21, 50.71)|
-T All Things in Good Time |QID|13190| |N|Dragonblight, The Pit of Narjun (26.21, 50.71)|
-U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1358961381:73|h[Crustacean Stompers]|h|r |N|Wetlands, Thandol Span (50.28, 9.30)|
-U |cff1eff00|Hitem:40952:0:0:0:0:0:0:1865441490:73|h[Spiked Cobalt Gauntlets]|h|r |N|City of Ironforge, Ironforge (32.87, 64.66)|
-U |cff0070dd|Hitem:37783:0:0:0:0:0:0:-2069476470:73|h[Blood-Tempered Spaulders]|h|r |N|City of Ironforge, Ironforge (32.72, 64.68)|
-U |cff0070dd|Hitem:37743:0:0:0:0:0:0:974429659:73|h[Legguards of Brutalization]|h|r |N|City of Ironforge, Ironforge (32.80, 64.57)|
-- |QID|13094.1| |QO|Berinand's Research: 1/1| |N|The Nexus, Hall of Stasis (18.88, 51.75)|
-U |cffffffff|Hitem:39691:0:0:0:0:0:0:1695187239:73|h[Succulent Orca Stew]|h|r |N|The Nexus, Hall of Stasis (18.59, 51.83)|
-U |cffffffff|Hitem:35479:0:0:0:0:0:0:477793748:73|h[Interdimensional Refabricator]|h|r |N|The Nexus, The Rift (65.70, 21.73)|
-- |QID|11905.1| |QO|Interdimensional Rift Stalled: 1/1| |N|The Nexus, The Rift (65.70, 21.73)|
-- |QID|11973.1| |QO|Keristrasza Laid to Rest: 1/1| |N|The Nexus, Axis of Alignment (35.47, 66.05)|
-- |QID|11911.1| |QO|Arcane Splinter: 5/5| |N|The Nexus, The Singing Grove (53.51, 57.92)|
-T Postponing the Inevitable |QID|11905| |N|Borean Tundra, Transitus Shield (32.96, 34.36)|
-T Quickening |QID|11911| |N|Borean Tundra, Transitus Shield (32.96, 34.36)|
-T Prisoner of War |QID|11973| |N|Borean Tundra, Transitus Shield (33.27, 34.46)|
-T Have They No Shame? |QID|13094| |N|Borean Tundra, Transitus Shield (33.41, 34.41)|
-U |cff0070dd|Hitem:38221:0:0:0:0:0:0:1013440884:73|h[Shroud of Fluid Strikes]|h|r |N|Borean Tundra, Coldarra (37.75, 26.32)|
-- |QID|12459.2| |QO|Weakened Turgid the Vile slain: 1/1| |N|Dragonblight, The Carrion Fields (86.00, 47.63)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:73|h[Hearthstone]|h|r |N|Dragonblight, Path of the Titans (62.78, 10.55)|
-- |QID|12459.3| |QO|Weakened Overseer Deathgaze slain: 1/1| |N|Dragonblight, Jintha'kalar (89.34, 19.46)|
-U |cffffffff|Hitem:37923:0:0:0:0:0:0:1886448917:73|h[Hourglass of Eternity]|h|r |N|Dragonblight, Bronze Dragonshrine (71.53, 39.03)|
-- |QID|12470.1| |QO|Hourglass of Eternity protected| |N|Dragonblight, Bronze Dragonshrine (71.51, 39.08)|
-- |QID|12459.1| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Dragonblight, The Dragon Wastes (65.41, 39.24)|
-T That Which Creates Can Also Destroy |QID|12459| |N|Dragonblight, Wyrmrest Temple (59.61, 54.37)|
-T Mystery of the Infinite |QID|12470| |N|Dragonblight, Wyrmrest Temple (59.97, 54.46)|
-A The Call Of The Crusade |QID|12542| |N|Dragonblight, Dawn's Reach (87.22, 57.36)|
-]]
-
---[[
-U |cffffffff|Hitem:36956:0:0:0:0:0:0:510947861:72|h[Liquid Fire of Elune]|h|r |N|Dragonblight, Stars' Rest (27.17, 52.38)|
-U |cffffffff|Hitem:36832:0:0:0:0:0:0:753602850:72|h[Letter of Introduction to Wyrmrest Temple]|h|r |N|Dragonblight,  (24.19, 50.61)|
-- |QID|12166.1| |QO|Blighted Elk's corpse cleansed: 6/6| |N|Dragonblight, Icemist Village (26.82, 48.35)|
-- |QID|12166.2| |QO|Rabid Grizzly's corpse cleansed: 6/6| |N|Dragonblight,  (28.19, 51.26)|
-T The Liquid Fire of Elune |QID|12166| |N|Dragonblight, Stars' Rest (29.18, 55.57)|
-A Kill the Cultists |QID|12167| |N|Dragonblight, Stars' Rest (29.18, 55.57)|
-- |QID|12167.1| |QO|Functional Cultist Suit: 5/5| |N|Dragonblight, Icemist Village (26.18, 44.47)|
-T Kill the Cultists |QID|12167| |N|Dragonblight, Stars' Rest (29.18, 55.54)|
-U |cffffffff|Hitem:36958:0:0:0:0:0:0:-1107525309:72|h[The Favor of Zangus]|h|r |N|Dragonblight, Stars' Rest (29.03, 55.16)|
-A The Favor of Zangus |QID|12168| |N|Dragonblight, Stars' Rest (29.03, 55.16)|
-T The Favor of Zangus |QID|12168| |N|Dragonblight, Stars' Rest (29.16, 55.66)|
-A The High Cultist |QID|12169| |N|Dragonblight, Stars' Rest (29.16, 55.66)|
-U |cff1eff00|Hitem:38112:0:0:0:0:0:0:324153853:72|h[Bark Covered Pauldrons]|h|r |N|Dragonblight, Stars' Rest (29.16, 55.66)|
-U |cff1eff00|Hitem:37517:0:0:0:0:0:0:1070045954:72|h[Chilled Pauldrons]|h|r |N|Dragonblight, Stars' Rest (29.16, 55.66)|
-- |QID|12169.1| |QO|High Cultist Zangus slain: 1/1| |N|Dragonblight, The Pit of Narjun (28.56, 49.16)|
-T The High Cultist |QID|12169| |N|Dragonblight, Stars' Rest (29.20, 55.72)|
-
-A High Commander Halford Wyrmbane |QID|12174| |N|Dragonblight, Stars' Rest (29.03, 55.58)|
-T High Commander Halford Wyrmbane |QID|12174| |N|Dragonblight, Wintergarde Keep (78.59, 48.21)|
-- |QID|12458.1| |QO|Lasher Seed: 3/3| |N|Dragonblight, Emerald Dragonshrine (65.35, 73.78)|
-T Seeds of the Lashers |QID|12458| |N|Dragonblight, Wyrmrest Temple (59.57, 54.39)|
-A That Which Creates Can Also Destroy |QID|12459| |N|Dragonblight, Wyrmrest Temple (59.57, 54.37)|
-T The Obsidian Dragonshrine |QID|12447| |N|Dragonblight, Maw of Neltharion (35.24, 30.08)|
-A No One to Save You |QID|12262| |N|Dragonblight, Maw of Neltharion (35.24, 30.08)|
-A No Place to Run |QID|12261| |N|Dragonblight, Maw of Neltharion (35.24, 30.08)|
-U |cffffffff|Hitem:37445:0:0:0:0:0:0:1599129494:72|h[Destructive Wards]|h|r |N|Dragonblight, Obsidian Dragonshrine (41.81, 32.00)|
-- |QID|12261.1| |QO|Destructive Ward Fully Charged: 1/1| |N|Dragonblight, Obsidian Dragonshrine (41.88, 32.00)|
-- |QID|12262.1| |QO|Burning Depths Necrolyte slain: 6/6| |N|Dragonblight, Obsidian Dragonshrine (39.98, 31.48)|
-- |QID|12262.2| |QO|Smoldering Skeleton slain: 10/10| |N|Dragonblight, Obsidian Dragonshrine (39.54, 31.44)|
-T No One to Save You |QID|12262| |N|Dragonblight, Maw of Neltharion (35.24, 30.05)|
-T No Place to Run |QID|12261| |N|Dragonblight, Maw of Neltharion (35.24, 30.05)|
-A The Best of Intentions |QID|12263| |N|Dragonblight, Maw of Neltharion (35.24, 30.05)|
-- |QID|12263.1| |QO|Uncover the Magmawyrm Resurrection Chamber| |N|Dragonblight, Maw of Neltharion (31.74, 30.42)|
-T The Best of Intentions |QID|12263| |N|Dragonblight, Maw of Neltharion (35.26, 30.08)|
-A Defiling the Defilers |QID|12265| |N|Dragonblight, Maw of Neltharion (35.26, 30.08)|
-A Culling the Damned |QID|12264| |N|Dragonblight, Maw of Neltharion (35.26, 30.08)|
-- |QID|12264.1| |QO|Burning Depths Necromancer slain: 3/3| |N|Dragonblight, Maw of Neltharion (33.43, 28.07)|
-- |QID|12264.3| |QO|Smoldering Geist slain: 6/6| |N|Dragonblight, Maw of Neltharion (32.75, 30.34)|
-- |QID|12265.1| |QO|Necromantic Rune destroyed: 8/8| |N|Dragonblight, Maw of Neltharion (32.17, 28.05)|
-- |QID|12264.2| |QO|Smoldering Construct slain: 6/6| |N|Dragonblight, Maw of Neltharion (31.75, 29.33)|
-T Defiling the Defilers |QID|12265| |N|Dragonblight, Maw of Neltharion (35.20, 30.13)|
-A Neltharion's Flame |QID|12267| |N|Dragonblight, Maw of Neltharion (35.20, 30.13)|
-T Culling the Damned |QID|12264| |N|Dragonblight, Maw of Neltharion (35.20, 30.13)|
-U |cffffffff|Hitem:37539:0:0:0:0:0:0:750442462:73|h[Neltharion's Flame]|h|r |N|Dragonblight, Maw of Neltharion (31.70, 30.87)|
-- |QID|12267.1| |QO|Summoning Area Cleansed: 1/1| |N|Dragonblight, Maw of Neltharion (31.74, 30.84)|
-- |QID|12267.2| |QO|Rothin the Decaying slain: 1/1| |N|Dragonblight, Maw of Neltharion (31.74, 30.84)|
-T Neltharion's Flame |QID|12267| |N|Dragonblight, Maw of Neltharion (35.21, 30.08)|
-A Tales of Destruction |QID|12266| |N|Dragonblight, Maw of Neltharion (35.21, 30.08)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:73|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (83.37, 46.40)|
-T Tales of Destruction |QID|12266| |N|Dragonblight, Wyrmrest Temple (60.03, 54.19)|
-U |cffffffff|Hitem:37887:0:0:0:0:0:0:1639269226:73|h[Seeds of Nature's Wrath]|h|r |N|Dragonblight, The Dragon Wastes (53.06, 37.82)|
-- |QID|12459.1| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Dragonblight, The Dragon Wastes (52.77, 37.58)|
-- |QID|12459.3| |QO|Weakened Overseer Deathgaze slain: 1/1| |N|Dragonblight, Jintha'kalar (89.13, 18.25)|
-- |QID|12459.2| |QO|Weakened Turgid the Vile slain: 1/1| |N|Dragonblight, The Carrion Fields (86.05, 47.42)|
-A The Hills Have Us |QID|12511| |N|Dragonblight, Wintergarde Keep (77.13, 50.09)|
-T That Which Creates Can Also Destroy |QID|12459| |N|Dragonblight, Wyrmrest Temple (59.58, 54.36)|
-U |cffffffff|Hitem:37923:0:0:0:0:0:0:1417317758:73|h[Hourglass of Eternity]|h|r |N|Dragonblight, Bronze Dragonshrine (71.55, 38.91)|
-- |QID|12470.1| |QO|Hourglass of Eternity protected| |N|Dragonblight, Bronze Dragonshrine (71.59, 38.85)|
-T Mystery of the Infinite |QID|12470| |N|Dragonblight, Wyrmrest Temple (60.00, 54.44)|
-
-T Disturbing Implications |QID|12146| |N|Dragonblight, Wyrmrest Temple (59.99, 55.17)|
-A One of a Kind |QID|12148| |N|Dragonblight, Wyrmrest Temple (59.99, 55.17)|
-- |QID|12148.1| |QO|Emblazoned Battle Horn: 1/1| |N|Dragonblight, The Dragon Wastes (50.75, 57.42)|
-T One of a Kind |QID|12148| |N|Dragonblight, Wyrmrest Temple (59.98, 55.13)|
-A Mighty Magnataur |QID|12149| |N|Dragonblight, Wyrmrest Temple (59.98, 55.13)|
-- |QID|12149.1| |QO|Iceshatter slain: 1/1| |N|Dragonblight, The Dragon Wastes (69.45, 51.07)|
-- |QID|12149.2| |QO|Bloodfeast slain: 1/1| |N|Dragonblight, The Dragon Wastes (66.82, 70.27)|
-- |QID|12149.3| |QO|Drakegore slain: 1/1| |N|Dragonblight, Bronze Dragonshrine (67.67, 39.19)|
-T Mighty Magnataur |QID|12149| |N|Dragonblight, Wyrmrest Temple (59.98, 55.21)|
-A Reclusive Runemaster |QID|12150| |N|Dragonblight, Wyrmrest Temple (59.98, 55.21)|
-
-- |QID|12150.1| |QO|Name of the Magnataur Warlord| |N|Dragonblight,  (73.27, 50.59)|
-T Reclusive Runemaster |QID|12150| |N|Dragonblight, Wyrmrest Temple (59.97, 55.20)|
-A Wanton Warlord |QID|12151| |N|Dragonblight, Wyrmrest Temple (59.97, 55.20)|
-U |cffffffff|Hitem:36864:0:0:0:0:0:0:1271610138:73|h[Emblazoned Battle Horn]|h|r |N|Dragonblight, The Dragon Wastes (57.25, 76.24)|
-- |QID|12151.1| |QO|Grom'thar's Head: 1/1| |N|Dragonblight, The Dragon Wastes (57.44, 76.01)|
-T Wanton Warlord |QID|12151| |N|Dragonblight, Wyrmrest Temple (59.97, 55.15)|
-
-A The Magical Kingdom of Dalaran |QID|12794| |N|Borean Tundra, Valiance Keep (58.55, 68.31)|
-T The Magical Kingdom of Dalaran |QID|12794| |N|Dalaran,  (56.01, 46.26)|
-A Learning to Leave and Return: the Magical Way |QID|12790| |N|Dalaran,  (56.01, 46.26)|
-- |QID|12790.1| |QO|Teleport to Ruins under Dalaran Crystal used: 1/1| |N|Dalaran,  (47.34, 52.95)|
-- |QID|12790.2| |QO|Teleport to Dalaran Crystal used: 1/1| |N|Crystalsong Forest,  (31.41, 38.26)|
-T Learning to Leave and Return: the Magical Way |QID|12790| |N|Dalaran,  (56.18, 46.11)|
-A The Call Of The Crusade |QID|12542| |N|Dragonblight, Dawn's Reach (87.20, 57.35)|
-A Cycle of Life |QID|12454| |N|Dragonblight, Emerald Dragonshrine (63.08, 75.44)|
-- |QID|12454.1| |QO|Emerald Skytalon slain: 5/5| |N|Dragonblight, Emerald Dragonshrine (63.66, 72.79)|
-T Cycle of Life |QID|12454| |N|Dragonblight, Emerald Dragonshrine (62.61, 74.89)|
-A The Plume of Alystros |QID|12456| |N|Dragonblight, Emerald Dragonshrine (62.61, 74.89)|
-- |QID|12456.1| |QO|The Plume of Alystros: 1/1| |N|Dragonblight, Emerald Dragonshrine (64.91, 77.47)|
-T The Plume of Alystros |QID|12456| |N|Dragonblight, Emerald Dragonshrine (62.63, 74.90)|
-T The Call Of The Crusade |QID|12542| |N|Dragonblight, Light's Trust (84.00, 26.15)|
-A The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.00, 26.15)|
-- |QID|12545.1| |QO|Jintha'kalar Scourge Slain: 15/15| |N|Dragonblight, Jintha'kalar (86.16, 20.77)|
-T The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.00, 26.04)|
-A Into the Breach! |QID|12789| |N|Dragonblight, Light's Trust (84.00, 26.04)|
-]]
