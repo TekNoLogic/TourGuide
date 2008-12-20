@@ -14,7 +14,6 @@ local actiontypes = {
 	B = "BUY",
 	b = "BOAT",
 	U = "USE",
-	P = "PET",
 }
 
 
@@ -63,6 +62,12 @@ local function ParseQuests(...)
 
 			i = i + 1
 		end
+	end
+
+	-- Query |U| items so they're cached when we actually need them
+	for _,vals in pairs(tags) do
+		local useitem = tonumber(vals:match("|U|(%d+)|"))
+		if useitem and not GetItemInfo(useitem) then GameTooltip:SetHyperlink("item:"..useitem) end
 	end
 
 	return actions, quests, tags

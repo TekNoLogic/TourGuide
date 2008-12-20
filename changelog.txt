@@ -1,3 +1,43 @@
+3.0.3.43-Beta
+    New guide: Ally Dragonblight
+    Fix a bad file name
+    few missing quests from Azshara guide
+    Parent the animation frame correctly so it doesn't display when the status frame is hidden
+    Shift-click on LDB to complete current objective
+    Add LDB type field
+    Horde hellfire tweaks
+
+3.0.3.42-Beta
+    Readme update for Wraf
+    New ally Fjord and Borean guides
+    Force caching of any use items we don't know when a guide is loaded, so that the use button works when we need it
+
+3.0.3.41-Beta
+    Ally EPL/SW coord updates
+    Add button to reset status frame position
+
+3.0.2.40-Beta
+    "Warm Bolvar!" was renamed to "Proof of Treachery"
+    Remove bits of Ony attunement questline that are gone in 3.0
+    Fix Darkshore boating
+
+3.0.2.39-Beta
+    Ally blade's edge tweaks
+    Full deDE localization
+    Remove 2.4.3 compat
+    Fix issues with loading current guide from a plugin
+    Escape out locale file
+
+3.0.2.38-Beta
+    Change item frame's anchor to avoid making QuestWatchFrame secure
+    Push back dorf quest "In Favor of the Light" as far as we can
+    Remove pet training objectives, not needed with WoW 3.0
+
+3.0.1.37-Beta
+    Update for wrath build 8962 config panel breakage
+    Embed update
+    Durotar cleanup
+
 3.0.1.36-Beta
     Add cooldown indicator to item frame
     Various small guide fixes

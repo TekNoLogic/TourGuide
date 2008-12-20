@@ -11,8 +11,6 @@ A Investigate the Camp |QID|201|
 T Goblin Sponsorship (Part 3) |N|Baron Revilgaz on the boat balcony, 3rd floor of the inn (27.2, 76.9)| |QID|1181|
 A Goblin Sponsorship (Part 4) |QID|1182|
 
-N Keep main pet stabled |N|Continue to use your Scorpashi Lasher| |C|Hunter|
-
 F Grom'gol Base Camp
 A The Defense of Grom'gol (Part 1) |QID|568|
 A Mok'thardin's Enchantment (Part 1) |QID|570|
@@ -21,8 +19,6 @@ A Hunt for Yenniku |QID|581|
 A Trollbane |QID|638|
 A Bloody Bone Necklaces |QID|596|
 A The Vile Reef |QID|629|
-
-P Dash (Rank 1) |N|Tame a Stranglethorn Tiger (29,11)| |C|Hunter|
 
 N Save all Pages |N|Save all Green Hills of Stranglethorn pages|
 C Singing Blue Shards |N|From Basilisk on the coast far to the north (25,19)| |QID|605|

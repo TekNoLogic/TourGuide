@@ -27,7 +27,6 @@ end
 
 local f = CreateFrame("Button", nil, UIParent)
 TourGuide.statusframe = f
-f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
 f:SetHeight(24)
 f:SetFrameStrata("LOW")
 f:EnableMouse(true)
@@ -42,7 +41,7 @@ local text = ww.SummonFontString(f, "OVERLAY", "GameFontNormalSmall", nil, "RIGH
 text:SetPoint("LEFT", icon, "RIGHT", GAP-4, 0)
 
 
-local f2 = CreateFrame("Frame", nil, UIParent)
+local f2 = CreateFrame("Frame", nil, f)
 local f2anchor = "RIGHT"
 f2:SetHeight(32)
 f2:SetWidth(100)
@@ -72,9 +71,11 @@ end)
 
 
 function TourGuide:PositionStatusFrame()
+	f:ClearAllPoints()
 	if self.db.profile.statusframepoint then
-		f:ClearAllPoints()
 		f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
+	else
+		f:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
 	end
 
 	if self.db.char.showstatusframe then f:Show() else f:Hide() end

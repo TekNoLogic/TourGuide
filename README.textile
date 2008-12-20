@@ -2,7 +2,11 @@ TourGuide is an interactive leveling guide addon.
 It is designed to provide the user with a streamlined order of quest completion with smart detection.
 It is also designed for easy creation of "guides" for users with little-to-no programming knowledge.
 
-<b>Wrath betatesters!</b>  Want to help create wrath guides?  Install "TourGuide Recorder":http://www.wowinterface.com/downloads/info10499-TourGuideRecorder.html and email me the savedvariables it creates.
+h2. Where are the Wrath guides?
+
+Wrath guides are in progress and will be released as they are completed.  Note that I do not (yet) have a hordie to test guides on, so Ally guides are coming first.
+
+If you would like to help, install "TourGuide Recorder":http://www.wowinterface.com/downloads/info10499-TourGuideRecorder.html and email me the savedvariables it creates.
 
 h2. Features
 
@@ -38,7 +42,7 @@ h2. How to create (or edit) guides
 
 TourGuide data files are fairly simple to create.
 The simplest method is to copy an existing file and edit it how you want.
-Please read "How to edit TourGuide guides":http://www.tekkub.net/pages/tourguide_editing for help on the format and general guidelines.
+Please read "How to edit TourGuide guides":http://github.com/tekkub/tourguide/wikis/how-to-edit-tourguide-guides for help on the format and general guidelines.
 I ask that all submissions follow these guidelines, to present a consistent format to the user.
 I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon Joana's, Kopp's or any other copyrighted guide.
 

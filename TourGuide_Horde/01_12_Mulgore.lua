@@ -119,7 +119,6 @@ T Taming the Beast (Part 2) |C|Hunter| |QID|6087|
 A Taming the Beast (Part 3) |C|Hunter| |QID|6088|
 C Taming the Beast (Part 3) |C|Hunter| |N|East of town| |QID|6088|
 T Taming the Beast (Part 3) |C|Hunter| |QID|6088|
-P Bite (Rank 2) |N|Tame a Prarie Wolf Alpha.  Keep it for your main pet unless you find The Rake.| |C|Hunter|
 A Training the Beast |C|Hunter| |QID|6089|
 
 A Heeding the Call |C|Druid| |QID|5928|

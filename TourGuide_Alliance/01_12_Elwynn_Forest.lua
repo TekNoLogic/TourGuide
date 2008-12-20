@@ -240,7 +240,10 @@ T The Binding |NODEBUG| |C|Warlock| |QID|1795|
 T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin| |QID|1787|
 A The Tome of Divinity (Part 8) |C|Paladin| |QID|1788|
 T The Tome of Divinity (Part 8) |C|Paladin| |QID|1788|
+]]
+end)
 
+--[[
 T Elmore's Task |N|In the Dwarven District (51.7, 12.1)| |Z|Stormwind City| |QID|1097|
 A Stormpike's Delivery |QID|353|
 R Deeprun Tram
@@ -271,4 +274,3 @@ T Stormpike's Delivery |N|Follow the road north to Algaz Station (24.7, 18.3)| |
 
 R Darkshore |N|Follow the road to the Wetlands, then west to Menethil Harbor.  Take the north boat to Auberdine.  Don't forget to get the flight point in Menethil Harbor.  Fun trick: if you die, run all the way to the boat as a ghost, you can spirit heal on the other side.  Gravyard is northeast of Auberdine (41.91, 36.45)| |Z|Darkshore|
 ]]
-end)

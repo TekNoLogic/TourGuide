@@ -13,7 +13,6 @@ T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R
 A Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
 T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |QID|809|
 
-N Tame a Savannah Huntress while running to the Crossroads |C|Hunter| |R|Orc, Troll|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc, Troll, Undead|
 T Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
 

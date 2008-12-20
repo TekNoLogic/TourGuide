@@ -7,7 +7,7 @@ local frame = CreateFrame("Button", "TourGuideItemFrame", UIParent, "SecureActio
 frame:SetFrameStrata("LOW")
 frame:SetHeight(36)
 frame:SetWidth(36)
-frame:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -62, 10)
+frame:SetPoint("BOTTOMRIGHT", MinimapCluster, "BOTTOMRIGHT", -192-62, -192+20)
 frame:Hide()
 
 local cooldown = CreateFrame("Cooldown", nil, frame)

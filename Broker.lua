@@ -1,6 +1,6 @@
 
 local TourGuide = TourGuide
-local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {text = "Bah!", icon = TourGuide.icons.KILL})
+local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {type = "data source", text = "Bah!", icon = TourGuide.icons.KILL})
 local lastmapped, lastmappedaction
 
 
@@ -44,8 +44,6 @@ function TourGuide:UpdateStatusFrame()
 					end
 				end
 			end
-
-			if action == "PET" and self.db.char.petskills[name] then return self:SetTurnedIn(i, true) end
 
 			local incomplete
 			if action == "ACCEPT" then incomplete = (not optional or hasuseitem or haslootitem or prereqturnedin) and not logi
@@ -119,9 +117,12 @@ function dataobj.OnClick(self, btn)
 				ShowUIPanel(TourGuide.objectiveframe)
 			end
 		else
-			local i = TourGuide:GetQuestLogIndexByQID(TourGuide:GetObjectiveTag("QID", TourGuide.current))
-			if i then SelectQuestLogEntry(i) end
-			ShowUIPanel(QuestLogFrame)
+			if IsShiftKeyDown() then TourGuide:SetTurnedIn()
+			else
+				local i = TourGuide:GetQuestLogIndexByQID(TourGuide:GetObjectiveTag("QID", TourGuide.current))
+				if i then SelectQuestLogEntry(i) end
+				ShowUIPanel(QuestLogFrame)
+			end
 		end
 	end
 end

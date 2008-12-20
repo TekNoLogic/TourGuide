@@ -45,7 +45,6 @@ A Scalding Mornbrew Delivery |QID|3364|
 T Scalding Mornbrew Delivery |N|Run back to Anvilmar (28.8, 66.4)| |QID|3364|
 A Bring Back the Mug |QID|3365|
 
-A In Favor of the Light |C|Priest| |QID|5626|
 A Beginnings |C|Warlock| |QID|1599|
 C Beginnings |N|(27.5,80)| |C|Warlock| |QID|1599|
 T Beginnings |C|Warlock| |QID|1599|
@@ -63,6 +62,7 @@ T A Refugee's Quandary |N|Back in Anvilmar.| |QID|3361|
 T Senir's Observations (Part 1) |N|East of Anvilmar (33.5, 71.8)| |QID|282|
 A Senir's Observations (Part 2) |QID|420|
 A Supplies to Tannok |QID|2160|
+A In Favor of the Light |C|Priest| |QID|5626|
 
 R Kharanos |N|You should be able to just run thru the tunnel.|
 T Senir's Observations (Part 2) |QID|420|
@@ -171,7 +171,9 @@ A Ironband's Compound |C|Warrior| |QID|1681|
 R Dun Morogh |C|Warrior|
 C Ironband's Compound |N|(77.9, 62.2)| |C|Warrior| |QID|1681|
 T Ironband's Compound |C|Warrior| |QID|1681|
-
+]]
+end)
+--[[
 A Those Blasted Troggs! |N|East of Kharanos at Gol'Bolar Quarry(69.1,56.3)| |QID|432|
 A The Public Servant |QID|433|
 C The Public Servant |N|Inside the cave.| |QID|433|
@@ -188,4 +190,3 @@ T A Pilot's Revenge |QID|417|
 T Shimmer Stout |N|Southwest through a tunnel (86.3, 48.9)| |QID|413|
 A Stout to Kadrell |QID|414|
 ]]
-end)

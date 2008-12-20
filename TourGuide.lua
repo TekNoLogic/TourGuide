@@ -1,4 +1,3 @@
-if not IS_WRATH_BUILD then InterfaceOptionsFrame_OpenToCategory = InterfaceOptionsFrame_OpenToFrame end
 
 local myfaction = UnitFactionGroup("player")
 local L = TOURGUIDE_LOCALE
@@ -27,7 +26,6 @@ TourGuide.icons = setmetatable({
 	BUY = "Interface\\Icons\\INV_Misc_Coin_01",
 	BOAT = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 	GETFLIGHTPOINT = "Interface\\Icons\\Ability_Hunter_EagleEye",
-	PET = "Interface\\Icons\\Ability_Hunter_BeastCall02",
 }, {__index = function() return "Interface\\Icons\\INV_Misc_QuestionMark" end})
 
 
@@ -41,7 +39,6 @@ function TourGuide:Initialize()
 			trackquests = true,
 			completion = {},
 			currentguide = "No Guide",
-			petskills = {},
 			mapquestgivers = true,
 			mapnotecoords = true,
 			alwaysmapnotecoords = false,
@@ -50,11 +47,6 @@ function TourGuide:Initialize()
 	})
 	if self.db.char.turnedin then self.db.char.turnedin = nil end -- Purge old table if present
 	self.cachedturnins = self.db.char.cachedturnins
-
-	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
-	self:LoadGuide(self.db.char.currentguide)
-	self:PositionStatusFrame()
-	self:PositionItemFrame()
 
 
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {
@@ -68,6 +60,34 @@ end
 function TourGuide:Enable()
 	self.Enable = nil -- Dongle likes to call Enable multiple times if we bug LightHeaded... so we need to nil out to ensure we are only called once
 	if TomTom and TomTom.version ~= "SVN" and (tonumber(TomTom.version) or 0) < 120 then self:Print("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
+
+	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
+	if self.guides[self.db.char.currentguide] then
+		self:LoadGuide(self.db.char.currentguide)
+	else
+		local guidenotloaded = self.db.char.currentguide
+
+		local orig = self.Disable
+		function self:Disable(...)
+			if not self.db.char.currentguide then self.db.char.currentguide = guidenotloaded end
+			return orig(...)
+		end
+
+		function self:ADDON_LOADED()
+			if not self.guides[guidenotloaded] then return end
+			self:LoadGuide(guidenotloaded)
+			self:UpdateStatusFrame()
+			self:UpdateGuidesPanel()
+			self:UnregisterEvent("ADDON_LOADED")
+			self.ADDON_LOADED = nil
+			self.Disable = orig
+		end
+		self:RegisterEvent("ADDON_LOADED")
+
+		self:LoadGuide(self.guidelist[1])
+	end
+	self:PositionStatusFrame()
+	self:PositionItemFrame()
 
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self:RegisterEvent("QUEST_COMPLETE", "UpdateStatusFrame")

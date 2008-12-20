@@ -43,7 +43,7 @@
 
 	<Script file="50_Azshara.lua"/>
 	<Script file="50_51_Hinterlands.lua"/>
-	<Script file="51_53_Un'Goro_Crater.lua"/>
+	<Script file="51_53_UnGoro_Crater.lua"/>
 	<Script file="53_54_Burning_Steppes.lua"/>
 	<Script file="54_Felwood.lua"/>
 	<Script file="54_55_Winterspring.lua"/>
@@ -58,4 +58,6 @@
 	<Script file="67_68_Blades_Edge_Mountains.lua"/>
 	<Script file="68_69_Netherstorm.lua"/>
 	<Script file="69_70_Shadowmoon_Valley.lua"/>
+
+	<Script file="70_71_Howling_Fjord.lua"/>
 </Ui>
