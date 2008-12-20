@@ -1,3 +1,12 @@
+3.0.3.43-Beta
+    New guide: Ally Dragonblight
+    Fix a bad file name
+    few missing quests from Azshara guide
+    Parent the animation frame correctly so it doesn't display when the status frame is hidden
+    Shift-click on LDB to complete current objective
+    Add LDB type field
+    Horde hellfire tweaks
+
 3.0.3.42-Beta
     Readme update for Wraf
     New ally Fjord and Borean guides
