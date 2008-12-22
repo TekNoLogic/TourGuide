@@ -78,5 +78,106 @@ T Orabus the Helmsman |QID|11661| |N|Borean Tundra, Coast of Echoes (32.29, 54.2
 A Seek Out Karuk! |QID|11662| |N|Borean Tundra, Coast of Echoes (32.29, 54.24)|
 
 C The Plains of Nasam |QID|11652| |N|Hop in a siege tank and head south-east|
+
+T Reinforcements Incoming... |QID|11618| |N|North of the Plains of Nasam (38.04, 52.48)|
+A The Warsong Farms |QID|11686|
+A Merciful Freedom |QID|11676|
+A Damned Filthy Swine |QID|11688|
+
+C The Warsong Farms |QID|11686| |N|Torp's Farm (36.75, 52.58), Warsong Granary (34.94, 54.89),  Warsong Slaughterhouse (39.19, 47.51)|
+C Merciful Freedom |QID|11676|
+C Damned Filthy Swine |QID|11688|
+
+T The Warsong Farms |QID|11686|
+A Get to Getry |QID|11703|
+T Merciful Freedom |QID|11676|
+T Damned Filthy Swine |QID|11688|
+A Bring 'Em Back Alive |QID|11690|
+
+C Bring 'Em Back Alive |QID|11690| |U|34954|
+
+T Bring 'Em Back Alive |QID|11690|
+
+T Get to Getry |QID|11703|
+A Foolish Endeavors |QID|11705| |N|Borean Tundra,  (34.56, 46.41)|
+
+C Foolish Endeavors |QID|11705| |N|Help Saurfang kill him :)|
+
+T The Plains of Nasam |QID|11652| |T|
+T Foolish Endeavors |QID|11705| |T|
+A Nork Bloodfrenzy's Charge |QID|11709| |T|
+T Nork Bloodfrenzy's Charge |QID|11709| |T|
+A Coward Delivery... Under 30 Minutes or it's Free |QID|11711| |T|
+
+C Coward Delivery... Under 30 Minutes or it's Free |QID|11711| |N|At the crossroads north-east of Warsong Hold (55.27, 50.91)| |U|34971|
+
+T Coward Delivery... Under 30 Minutes or it's Free |QID|11711| |N|He wanders just west of the crossroads.|
+A Vermin Extermination |QID|11714|
+A The Wondrous Bloodspore |QID|11716|
+
+C The Wondrous Bloodspore |QID|11716|
+C Vermin Extermination |QID|11714|
+
+T The Wondrous Bloodspore |QID|11716|
+A Pollen from the Source |QID|11717|
+
+T Vermin Extermination |QID|11714|
+
+A Massive Moth Omelet? |QID|11724| |N|Head south-west and up onto the plateau (48.53, 59.00)|
+
+C Pollen from the Source |QID|11717|
+
+T Massive Moth Omelet? |QID|11724|
+T Pollen from the Source |QID|11717|
+A A Suitable Test Subject |QID|11719|
+C A Suitable Test Subject |QID|11719| |U|34978|
+T A Suitable Test Subject |QID|11719|
+A The Invasion of Gammoth |QID|11720|
+T The Invasion of Gammoth |QID|11720|
+A Gammothra the Tormentor |QID|11721|
+
+C Gammothra the Tormentor |QID|11721| |U|34979| |N|South west into the cave. Gammothra is right at the bottom. Use the pouch on any of the elites. (45.96, 61.49)|
+
+T Gammothra the Tormentor |QID|11721|
+A Trophies of Gammoth |QID|11722|
+
+T Trophies of Gammoth |QID|11722| |T|
+A Hellscream's Champion |QID|11916| |T|
+
+N Need a Rare Weapon? |N|If you need the rare weapon from Hellscream's Champion talk to the stable master for a ride to Taunka'le Village and then fly back. Make sure you have grabbed the flight point at Warsong Hold before you head off on the wolf.|
+
+T Seek Out Karuk! |QID|11662|
+A Karuk's Oath |QID|11613|
+A Cruelty of the Kvaldir |QID|12471| |N|Kill the Kvaldir around the fighting Tuskarr to open up this quest (44.15, 77.82)|
+
+C Karuk's Oath |QID|11613|
+
+T Cruelty of the Kvaldir |QID|12471|
+T Karuk's Oath |QID|11613|
+A Gamel the Cruel |QID|11619|
+
+C Gamel the Cruel |QID|11619| |N|In the small cave on the beach (46.27, 78.85)|
+T Gamel the Cruel |QID|11619|
+
+A A Father's Words |QID|11620| |N|Borean Tundra,  (47.13, 75.39)|
+
+T A Father's Words |QID|11620| |N|Borean Tundra, Shrine of Scales (43.65, 80.42)|
+A The Trident of Naz'jan |QID|11625| |N|Borean Tundra, Shrine of Scales (43.65, 80.45)|
+
+C The Trident of Naz'jan |QID|11625| |N|Northernmost point of Riplash Ruins (54.90, 88.78)|
+
+T The Trident of Naz'jan |QID|11625|
+A The Emissary |QID|11626|
+
+C The Emissary |QID|11626| |N|Under the iceberg just north of Riplash Ruins (51.47, 88.27)|
+
+T The Emissary |QID|11626|
+
+A Ears of Our Enemies |QID|11866|
+A Help Those That Cannot Help Themselves |QID|11876|
+A Happy as a Clam |QID|11869|
+A Ned, Lord of Rhinos... |QID|11884|
+A Unfit for Death |QID|11865|
+
 ]]
 end)
