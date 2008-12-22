@@ -1,6 +1,8 @@
 
 TourGuide:RegisterGuide("Howling Fjord (70-72)", "Dragonblight (72-73)", "Alliance", function()
 return [[
+N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!|
+
 A Hell Has Frozen Over... |QID|11228| |N|On the dock as you get off the ship (61.13, 62.59)| |T|
 T Hell Has Frozen Over... |QID|11228| |N|Just north of the dock (60.45, 61.12)| |T|
 A If Valgarde Falls... |QID|11243| |T|
