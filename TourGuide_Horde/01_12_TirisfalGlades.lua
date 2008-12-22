@@ -1,46 +1,47 @@
 TourGuide:RegisterGuide("Tirisfal Glades (1-12)", "The Barrens (12-20)", "Horde", function()
 return [[
-A Rude Awakening |N|The guy right outside of the starting crypt| |QID|363|
-T Rude Awakening |N|Right down the hill| |QID|363|
-A The Mindless Ones |QID|364|
-A Piercing the Veil |C|Warlock| |QID|1470|
+A Rude Awakening |N|The guy right outside of the starting crypt| |QID|363| |T|
+T Rude Awakening |N|Right down the hill| |QID|363| |T|
+A The Mindless Ones |QID|364| |T|
+A Piercing the Veil |C|Warlock| |QID|1470| |T|
 C The Mindless Ones |QID|364|
 C Piercing the Veil |C|Warlock| |QID|1470|
-T The Mindless Ones |QID|364|
-T Piercing the Veil |C|Warlock| |QID|1470|
+T The Mindless Ones |QID|364| |T|
+T Piercing the Veil |C|Warlock| |QID|1470| |T|
 
-A Rattling the Rattlecages |QID|3901|
-A The Damned |QID|376|
-A Encrypted Scroll |C|Rogue| |QID|3096|
-A Tainted Scroll |C|Warlock| |QID|3099|
-T Encrypted Scroll |C|Rogue| |QID|3096|
-T Tainted Scroll |C|Warlock| |QID|3099|
+A Rattling the Rattlecages |QID|3901| |T|
+A The Damned |QID|376| |T|
+A Encrypted Scroll |C|Rogue| |QID|3096| |T|
+A Tainted Scroll |C|Warlock| |QID|3099| |T|
+T Encrypted Scroll |C|Rogue| |QID|3096| |T|
+T Tainted Scroll |C|Warlock| |QID|3099| |T|
 
 C The Damned |QID|376|
 C Rattling the Rattlecages |QID|3901|
 
-T The Damned |QID|376|
-T Rattling the Rattlecages |QID|3901|
-A Marla's Last Wish |QID|6395|
-A Night Web's Hollow |QID|380|
-A Scavenging Deathknell |QID|3902|
+T The Damned |QID|376| |T|
+T Rattling the Rattlecages |QID|3901| |T|
+A Marla's Last Wish |QID|6395| |T|
+A Night Web's Hollow |QID|380| |T|
+A Scavenging Deathknell |QID|3902| |T|
 
 C Night Web's Hollow |N|Cave to the north (27.5, 58.0)| |QID|380|
-K Samuel Fipps |L|16333|
-C Scavenging Deathknell |QID|3902|
-T Scavenging Deathknell |QID|3902|
-C Marla's Last Wish |N|Bury Samuel's remains| |QID|6395|
+K Samuel Fipps |L|16333| |N|Take the road north, then east.  Samuel's in a little camp just south of the road (36,62)|
+C Scavenging Deathknell |QID|3902| |N|Boxes all over Deathknell|
 
-T Marla's Last Wish |QID|6395|
-T Night Web's Hollow |QID|380|
-A The Scarlet Crusade |QID|381|
-C The Scarlet Crusade |N|They are at a camp at (36.0, 67.5)| |QID|381|
+T Scavenging Deathknell |QID|3902| |T|
+C Marla's Last Wish |N|Bury Samuel's remains at Marla's Grave (31.17, 65.05)| |QID|6395| |T|
+T Night Web's Hollow |QID|380| |T|
+A The Scarlet Crusade |QID|381| |T|
+T Marla's Last Wish |QID|6395| |T|
+
+C The Scarlet Crusade |N|In a camp east of town (36.0, 67.5)| |QID|381|
 T The Scarlet Crusade |QID|381|
 A The Red Messenger |QID|382|
-C The Red Messenger |N|Kill Meven Korgal to get the documents| |QID|382|
+C The Red Messenger |N|Kill Meven Korgal at the camp (36.48, 68.78)| |QID|382|
 T The Red Messenger |QID|382|
 A Vital Intelligence |QID|383|
-A A Rogue's Deal (Part 1) |N|North end of Deathknell| |QID|8|
+A A Rogue's Deal (Part 1) |N|On the way out of Deathknell| |QID|8|
 A Fields of Grief (Part 1) |QID|365|
 A Gordo's Task |N|Along the road to Brill| |QID|5481|
 
@@ -50,50 +51,52 @@ T Vital Intelligence |QID|383|
 A At War With The Scarlet Crusade (Part 1) |QID|427| |NODEBUG|
 T A Rogue's Deal (Part 1) |QID|8|
 h Gallows' End Tavern
-A A New Plague (Part 1)|N|Near the herbalism trainer| |QID|367|
+A A New Plague (Part 1)|N|In the house near the herbalism trainer, this quest requires level 6.| |QID|367|
 
-C A New Plague (Part 1) |QID|367|
-C A Putrid Task |QID|404|
-C Gordo's Task |QID|5481|
-
-A A Rogue's Deal (Part 2) |N|Back in Deathknell| |QID|590|
+A A Rogue's Deal (Part 2) |N|Back in Deathknell (38.27, 56.63)| |QID|590|
 C A Rogue's Deal (Part 2) |QID|590|
 T A Rogue's Deal (Part 2) |QID|590|
-C Fields of Grief (Part 1) |N|At the farm above Deathknell (35,50)| |QID|365|
-C At War With The Scarlet Crusade (Part 1) |QID|427| |NODEBUG|
+
+C Fields of Grief (Part 1) |N|At the farm north of Deathknell (35,50)| |QID|365|
+C At War With The Scarlet Crusade (Part 1) |QID|427| |NODEBUG| |N|West of the farm.|
+C Gordo's Task |QID|5481| |N|Pick weeds, all over the area between Deathknell and Brill.|
+C A Putrid Task |QID|404| |N|Kill rotting dead and ravaged corpses west of Brill.|
+C A New Plague (Part 1) |QID|367| |N|You can find a bunch on the hill southwest of Brill.|
 
 H Brill |SZ|Gallows' End Tavern|
 A Deaths in the Family |QID|354|
 A The Haunted Mills |QID|362|
-A The Chill of Death |QID|375|
-T Fields of Grief (Part 1) |QID|365|
-T A New Plague (Part 1) |QID|367|
-A A New Plague (Part 2) |QID|368|
-A Fields of Grief (Part 2) |QID|407|
+A The Chill of Death |QID|375| |N|Upstairs in the inn (61.89, 52.65)|
+B [Coarse Thread] |N|From the trade supplier outside (61.0, 52.5)|
 T At War With The Scarlet Crusade (Part 1) |QID|427| |NODEBUG|
 A At War With The Scarlet Crusade (Part 2) |QID|370| |NODEBUG|
-A Proof of Demise |QID|374|
+T Fields of Grief (Part 1) |QID|365|
+A Fields of Grief (Part 2) |QID|407|
+T A New Plague (Part 1) |QID|367|
+A A New Plague (Part 2) |QID|368|
 T A Putrid Task |QID|404|
 A The Mills Overrun |QID|426|
+T Gordo's Task |QID|5481| |N|Wandering around in the graveyard|
+A Doom Weed |QID|5482|
+A Proof of Demise |QID|374|
 A Graverobbers |QID|358|
 A Wanted: Maggot Eye |QID|398|
-T Fields of Grief (Part 2) |QID|407|
-T Gordo's Task |QID|5481|
-A Doom Weed |QID|5482|
+T Fields of Grief (Part 2) |QID|407| |N|Downstairs in the inn|
 
-C Graverobbers |QID|358|
+C The Chill Of Death |QID|375| |N|Work your way north from town killing greater duskbats near the road.|
+C A New Plague (Part 2) |QID|368| |N|Along the shore (60,29).  Murlocs.... joy.|
+C Wanted: Maggot Eye |N|In the house at the north end of Garren's Haunt (58.7, 31.7)| |QID|398|
+C Graverobbers |QID|358| |N|Mongrels are at Garren's Haunt, graverobbers to the south.|
 C Doom Weed |QID|5482|
-C Wanted: Maggot Eye |N|In the smaller building at the north end of the farm (58,30)| |QID|398|
-C A New Plague (Part 2) |QID|368|
-N The Chill Of Death |L|2876 5|
 
 T Doom Weed |QID|5482|
 T A New Plague (Part 2) |QID|368|
 A A New Plague (Part 3) |QID|369|
+T Wanted: Maggot Eye |QID|398|
 T Graverobbers |QID|358|
 A Forsaken Duties |QID|359|
 A The Prodigal Lich |QID|405|
-T Wanted: Maggot Eye |QID|398|
+T The Chill of Death |QID|375|
 
 C The Mills Overrun |N|At Agamand Mills| |QID|426|
 C The Haunted Mills |QID|362|
@@ -115,7 +118,6 @@ A Rear Guard Patrol |QID|356|
 C Rear Guard Patrol |N|At the farm further east down the road (75,60).| |QID|356|
 T Rear Guard Patrol |QID|356|
 T Return to the Magistrate |QID|360|
-T The Chill of Death |N|Buy the coarse thread off the vendor| |QID|375|
 
 R Undercity
 T The Prodigal Lich |N|In the magic quarter| |QID|405|
@@ -130,7 +132,7 @@ T At War With The Scarlet Crusade (Part 2) |N|Back in Brill| |QID|370| |NODEBUG|
 A At War With The Scarlet Crusade (Part 3) |QID|371| |NODEBUG|
 T Proof of Demise |QID|374|
 
-C The Lich's Identity |N|Book on the island (67,42)| |QID|357|
+C The Lich's Identity |N|Book on the island (67.93, 42.15)| |QID|357|
 C At War With The Scarlet Crusade (Part 3) |QID|371| |NODEBUG|
 C A New Plague (Part 3) |QID|369|
 
@@ -144,11 +146,9 @@ T A New Plague (Part 4) |QID|492|
 T The Lich's Identity |N|Back in Undercity| |QID|357|
 A Return the Book |QID|366|
 T The Deathstalkers |C|Rogue| |QID|1978|
-C Return the Book |N|Back on the island (68,42). Talk to the guy.| |QID|366|
-T Return the Book |N|Back on the island (68,42). Talk to the guy.| |QID|366|
+T Return the Book |N|Back on the island (68.18, 41.98).| |QID|366|
 A Proving Allegiance |QID|409|
-N Grab a candle from the crate |L|3080|
-C Proving Allegiance |QID|409|
+C Proving Allegiance |QID|409| |N|Grab a candle from the crate, then summon Lillith at the table on the island to the south (66.64, 44.82).|
 T Proving Allegiance |QID|409|
 A The Prodigal Lich Returns |QID|411|
 C At War With The Scarlet Crusade (Part 4) |QID|372| |NODEBUG|
