@@ -173,11 +173,81 @@ C The Emissary |QID|11626| |N|Under the iceberg just north of Riplash Ruins (51.
 
 T The Emissary |QID|11626|
 
+T A Mission Statement |QID|11864|
 A Ears of Our Enemies |QID|11866|
 A Help Those That Cannot Help Themselves |QID|11876|
 A Happy as a Clam |QID|11869|
 A Ned, Lord of Rhinos... |QID|11884|
 A Unfit for Death |QID|11865|
 
+C Happy as a Clam |QID|11869|
+C Ned, Lord of Rhinos... |QID|11884|
+C Help Those That Cannot Help Themselves |QID|11876| |U|35228|
+C Unfit for Death |QID|11865| |U|35127|
+C Ears of Our Enemies |QID|11866|
+
+T Unfit for Death |QID|11865|
+A The Culler Cometh |QID|11868|
+T Ears of Our Enemies |QID|11866|
+T Help Those That Cannot Help Themselves |QID|11876|
+A Khu'nok Will Know |QID|11878|
+T Happy as a Clam |QID|11869|
+A The Abandoned Reach |QID|11870|
+T Ned, Lord of Rhinos... |QID|11884|
+
+T Khu'nok Will Know |QID|11878|
+A Kaw the Mammoth Destroyer |QID|11879|
+
+C Kaw the Mammoth Destroyer |QID|11879|
+C The Culler Cometh |QID|11868|
+
+T The Abandoned Reach |QID|11870|
+A Not On Our Watch |QID|11871|
+
+C Not On Our Watch |QID|11871|
+
+T Not On Our Watch |QID|11871|
+A The Nefarious Clam Master... |QID|11872|
+
+C The Nefarious Clam Master... |QID|11872| |N|Borean Tundra,  (61.89, 66.64)|
+
+T The Culler Cometh |QID|11868|
+T Kaw the Mammoth Destroyer |QID|11879|
+T The Nefarious Clam Master... |QID|11872|
+A The Assassination of Harold Lane |QID|11892|
+
+C The Assassination of Harold Lane |QID|11892| |U|35293|
+
+T The Assassination of Harold Lane |QID|11892|
+
+A The Honored Ancestors |QID|11605|
+A Reclaiming the Quarry |QID|11612|
+
+C The Honored Ancestors |QID|11605| |N|Sagani (52.87, 34.10), Takret (52.26, 31.21), Kesuk (50.95, 32.34)|
+C Reclaiming the Quarry |QID|11612|
+
+T The Honored Ancestors |QID|11605|
+A The Lost Spirits |QID|11607|
+T Reclaiming the Quarry |QID|11612|
+A Hampering Their Escape |QID|11617|
+
+C Hampering Their Escape |QID|11617| |U|34772| |N|Kill the gnomes for the bombs.|
+C The Lost Spirits |QID|11607| |U|34711| |N|Kill the hounds for the cores.|
+
+T Hampering Their Escape |QID|11617|
+A A Visit to the Curator |QID|11623|
+T The Lost Spirits |QID|11607|
+A Picking Up the Pieces |QID|11609|
+
+C A Visit to the Curator |QID|11623| |N|Western end of the quarry (49.85, 31.95)|
+C Picking Up the Pieces |QID|11609|
+
+T Picking Up the Pieces |QID|11609|
+A Leading the Ancestors Home |QID|11610|
+T A Visit to the Curator |QID|11623|
+
+C Leading the Ancestors Home |QID|11610| |U|34715| |N|Sagani (52.87, 34.10), Takret (52.26, 31.21), Kesuk (50.95, 32.34)|
+
+T Leading the Ancestors Home |QID|11610|
 ]]
 end)
