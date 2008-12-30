@@ -1,53 +1,73 @@
 
 TourGuide:RegisterGuide("Grizzly Hills (73-74)", "Zul'Drak (74-75)", "Alliance", function()
 return [[
+N Dalaran |N|When you hit 74 you can pick up a quest in the lodge that will give you a free port to Dalaran.  DO NOT TURN IT IN WHEN YOU GET THERE.  As long as you have the quest you can get free ports from mages in most of the major Northrend towns.  This means you can set your hearth in Grizzly Hills, but still have fast access to all the major cities.  When you're ready to set hearth in Dalaran, then you should turn in the quest.|
+
+A Mmm... Amberseeds! |QID|12225| |N|Inside Amberpine Lodge (31.80, 59.61)|
+T Mmm... Amberseeds! |QID|12225|
+A Just Passing Through |QID|12226|
+A Replenishing the Storehouse |QID|12212|
+A Them or Us! |QID|12215|
+T The Hills Have Us |QID|12511|
+A Local Support |QID|12292|
+
+C Local Support |QID|12292| |N|Head south out of town to the road, then west through the hollow tree-bridge, past Conquest Hold.  The chest is in the tower at Evergreen Trading Post (15.89, 65.32)|
+C Them or Us! |QID|12215| |N|There are a number of worgs in the area, especially south of Conquest Hold (23,71).|
+C Replenishing the Storehouse |QID|12212| |N|All over the place, you can kill these on your way back to Amberpine Lodge.|
+
+T Local Support |QID|12292| |N|Back at Amberpine Lodge (31.86, 60.17)|
+A Close the Deal |QID|12293|
+T Replenishing the Storehouse |QID|12212|
+A Take Their Rear! |QID|12216|
+T Them or Us! |QID|12215|
+A Eagle Eyes |QID|12217|
+A Troll Season! |QID|12210|
+
+C Just Passing Through |QID|12226| |N|Down at the river (29.58, 55.31)|
+C Take Their Rear! |QID|12216| |N|You can find more bears all along the river to the north.|
+T Close the Deal |QID|12293| |N|North of Amberpine Lodge at Aspen Grove Post (34.76, 55.54)|
+A A Tentative Pact |QID|12294|
+C Eagle Eyes |QID|12217| |N|Kill eagles.  There's a few between Aspen Grove Post and Amberpine Lodge (34.60, 59.17)|
+
+T A Tentative Pact |QID|12294| |N|Back at Amberpine Lodge (31.88, 60.18)|
+A An Exercise in Diplomacy |QID|12295|
+T Take Their Rear! |QID|12216|
+T Just Passing Through |QID|12226|
+A Doing Your Duty |QID|12227|
+T Eagle Eyes |QID|12217|
+C Doing Your Duty |QID|12227| |N|Outside at the outhouse (32.23, 58.93)|
+A Secrets of the Flamebinders |QID|12222|
+A Thinning the Ranks |QID|12223|
+T Doing Your Duty |QID|12227|
+
+C Secrets of the Flamebinders |QID|12222| |N|Due south at Voldrune (29,75)|
+C Thinning the Ranks |QID|12223|
+T Secrets of the Flamebinders |QID|12222| |N|Back at Amberpine Lodge (32.47, 59.98)|
+T Thinning the Ranks |QID|12223|
+A The Thane of Voldrune |QID|12255|
+C The Thane of Voldrune |QID|12255| |N|Head back to Voldrune, hop on the proto-drake (27,78), kill Thane Torvald Eriksson on top of the nearby tower (27.0, 73.0).  Afterwards, fly back to to Amberpine Lodge before the drake drops you.|
+T The Thane of Voldrune |QID|12255| |N|Back at Amberpine Lodge (32.48, 60.04)|
 ]]
 end)
 
 --[[
-A Local Support |QID|12292| |N|Grizzly Hills, Amberpine Lodge (32.03, 60.04)|
-A Replenishing the Storehouse |QID|12212| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.98)|
-A Them or Us! |QID|12215| |N|Grizzly Hills, Amberpine Lodge (32.02, 59.89)|
-A The Magical Kingdom of Dalaran |QID|12794| |N|Grizzly Hills, Amberpine Lodge (32.02, 59.89)|
-A Mmm... Amberseeds! |QID|12225| |N|Grizzly Hills, Amberpine Lodge (31.80, 59.64)|
-T Mmm... Amberseeds! |QID|12225| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.96)|
-A Just Passing Through |QID|12226| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.96)|
+A Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (25.62, 33.35)|
+
+U |cffffffff|Hitem:36940:0:0:0:0:0:0:1483259786:74|h[Mikhail's Journal]|h|r |N|Grizzly Hills,  (35.54, 69.34)|
+A Descent into Darkness |QID|12105| |N|Grizzly Hills,  (35.54, 69.34)|
+T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.16)|
+A Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.16)|
+]]
+
+--[[
 T The Call Of The Crusade |QID|12542| |N|Dragonblight, Light's Trust (84.01, 26.17)|
 A The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.01, 26.17)|
 A Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (26.38, 33.07)|
 A Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.40, 26.10)|
 A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.79, 26.68)|
-A Into Utgarde! |QID|11252| |N|Howling Fjord, Utgarde Keep (59.12, 48.77)|
-T Into Utgarde! |QID|11252| |N|Howling Fjord, Valgarde (60.54, 61.20)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:74|h[Hearthstone]|h|r |N|Howling Fjord, Valgarde (60.54, 61.20)|
-T Just Passing Through |QID|12226| |N|Dragonblight, Moa'ki Harbor (48.17, 74.74)|
 - |QID|12545.1| |QO|Jintha'kalar Scourge Slain: 15/15| |N|Dragonblight, Jintha'kalar (88.27, 19.71)|
 T The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.06, 26.19)|
-A Just Passing Through |QID|12226| |N|Dragonblight, Bronze Dragonshrine (74.77, 42.19)|
-- |QID|12292.1| |QO|Cedar Chest: 1/1| |N|Grizzly Hills, Evergreen Trading Post (15.91, 65.29)|
-- |QID|12212.1| |QO|Succulent Venison: 8/8| |N|Grizzly Hills,  (21.36, 72.67)|
-- |QID|12215.1| |QO|Graymist Hunter slain: 6/6| |N|Grizzly Hills,  (19.24, 68.68)|
-- |QID|12226.1| |QO|Blackroot Stalk: 5/5| |N|Grizzly Hills,  (29.84, 58.19)|
-T Replenishing the Storehouse |QID|12212| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.94)|
-A Take Their Rear! |QID|12216| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.94)|
-T Them or Us! |QID|12215| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.94)|
-A Eagle Eyes |QID|12217| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.94)|
-T Just Passing Through |QID|12226| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.94)|
-A Doing Your Duty |QID|12227| |N|Grizzly Hills, Amberpine Lodge (32.06, 59.94)|
-T Local Support |QID|12292| |N|Grizzly Hills, Amberpine Lodge (31.87, 60.20)|
-A Close the Deal |QID|12293| |N|Grizzly Hills, Amberpine Lodge (31.87, 60.20)|
-A Troll Season! |QID|12210| |N|Grizzly Hills, Amberpine Lodge (31.87, 60.20)|
-- |QID|12227.1| |QO|Partially Processed Amberseeds: 1/1| |N|Grizzly Hills, Amberpine Lodge (32.23, 58.93)|
-T Doing Your Duty |QID|12227| |N|Grizzly Hills, Amberpine Lodge (32.05, 59.98)|
-T The Magical Kingdom of Dalaran |QID|12794| |N|,  (67.66, 60.64)|
-- |QID|12217.1| |QO|Imperial Eagle slain: 5/5| |N|Grizzly Hills,  (38.34, 62.15)|
-- |QID|12216.1| |QO|Grizzly Flank: 8/8| |N|Grizzly Hills,  (44.48, 56.62)|
-T Take Their Rear! |QID|12216| |N|Grizzly Hills, Amberpine Lodge (32.07, 60.01)|
-T Eagle Eyes |QID|12217| |N|Grizzly Hills, Amberpine Lodge (32.07, 60.01)|
-T Close the Deal |QID|12293| |N|Grizzly Hills, Aspen Grove Post (34.77, 55.56)|
-A A Tentative Pact |QID|12294| |N|Grizzly Hills, Aspen Grove Post (34.77, 55.56)|
-T A Tentative Pact |QID|12294| |N|Grizzly Hills, Amberpine Lodge (31.90, 60.12)|
-A An Exercise in Diplomacy |QID|12295| |N|Grizzly Hills, Amberpine Lodge (31.90, 60.12)|
+
 T Troll Season! |QID|12210| |N|Grizzly Hills, Granite Springs (16.23, 47.70)|
 A Filling the Cages |QID|11984| |N|Grizzly Hills, Granite Springs (16.23, 47.70)|
 U |cffffffff|Hitem:35736:0:0:0:0:0:0:332830370:74|h[Bounty Hunter's Cage]|h|r |N|Grizzly Hills, Ruins of Drak'Zin (14.40, 60.03)|
@@ -107,25 +127,16 @@ A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.47, 31.8
 A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.50, 31.76)|
 A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.42, 31.80)|
 - |QID|12308.1| |QO|Escape from Silverbrook: 1/1| |N|Grizzly Hills, Amberpine Lodge (32.37, 59.16)|
-A Secrets of the Flamebinders |QID|12222| |N|Grizzly Hills, Amberpine Lodge (32.45, 59.97)|
-A Thinning the Ranks |QID|12223| |N|Grizzly Hills, Amberpine Lodge (32.45, 59.97)|
 T Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Amberpine Lodge (31.90, 60.19)|
 A A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.90, 60.19)|
 - |QID|12310.2| |QO|Vladek slain: 1/1| |N|Grizzly Hills, Forest's Edge Post (36.15, 67.76)|
 U |cffffffff|Hitem:36940:0:0:0:0:0:0:1012837880:74|h[Mikhail's Journal]|h|r |N|Grizzly Hills, Forest's Edge Post (36.15, 67.76)|
 A Descent into Darkness |QID|12105| |N|Grizzly Hills, Forest's Edge Post (36.15, 67.76)|
 - |QID|12310.1| |QO|Silverbrook Hunter slain: 7/7| |N|Grizzly Hills, Forest's Edge Post (36.54, 66.61)|
-- |QID|12222.1| |QO|Flame-Imbued Talisman: 3/3| |N|Grizzly Hills, Voldrune (28.58, 73.00)|
-- |QID|12223.1| |QO|Dragonflayer Huscarl slain: 12/12| |N|Grizzly Hills, Voldrune (28.00, 75.03)|
-T Thinning the Ranks |QID|12223| |N|Grizzly Hills, Amberpine Lodge (32.50, 59.96)|
-T Secrets of the Flamebinders |QID|12222| |N|Grizzly Hills, Amberpine Lodge (32.50, 59.96)|
-A The Thane of Voldrune |QID|12255| |N|Grizzly Hills, Amberpine Lodge (32.50, 59.96)|
 T A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.18)|
 T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.18)|
 A Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.18)|
 U |cff1eff00|Hitem:39098:0:0:0:0:0:0:1234271818:74|h[Rusty Cave Stompers]|h|r |N|Grizzly Hills, Amberpine Lodge (32.48, 60.67)|
-- |QID|12255.1| |QO|Thane Torvald Eriksson slain: 1/1| |N|Grizzly Hills, Voldrune (27.24, 73.60)|
-T The Thane of Voldrune |QID|12255| |N|Grizzly Hills, Amberpine Lodge (32.45, 59.94)|
 A The Failed World Tree |QID|12219| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.47)|
 A A Dark Influence |QID|12220| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.47)|
 U |cffffffff|Hitem:37173:0:0:0:0:0:0:326075707:74|h[Geomancer's Orb]|h|r |N|Grizzly Hills, Vordrassil's Tears (27.40, 46.70)|
@@ -293,46 +304,8 @@ U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:75|h[Hearthstone]|h|r |N|Grizzly 
 ]]
 
 --[[
-
-T The Hills Have Us |QID|12511| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.15)|
-A Local Support |QID|12292| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.14)|
-A Mmm... Amberseeds! |QID|12225| |N|Grizzly Hills, Amberpine Lodge (31.81, 59.67)|
-T Mmm... Amberseeds! |QID|12225| |N|Grizzly Hills, Amberpine Lodge (32.07, 59.99)|
-A Just Passing Through |QID|12226| |N|Grizzly Hills, Amberpine Lodge (32.07, 59.99)|
-A Them or Us! |QID|12215| |N|Grizzly Hills, Amberpine Lodge (32.07, 59.99)|
-A Replenishing the Storehouse |QID|12212| |N|Grizzly Hills, Amberpine Lodge (32.07, 59.99)|
-- |QID|12226.1| |QO|Blackroot Stalk: 5/5| |N|Grizzly Hills,  (30.09, 59.23)|
-A Blackriver Skirmish |QID|12444| |N|Grizzly Hills,  (29.94, 59.76)|
-- |QID|12444.1| |QO|Horde in Blackriver slain: 10/10| |N|Grizzly Hills, Blackriver Logging Camp (27.91, 64.21)|
-T Blackriver Skirmish |QID|12444| |N|Grizzly Hills,  (29.92, 59.85)|
-T Just Passing Through |QID|12226| |N|Grizzly Hills, Amberpine Lodge (32.05, 60.00)|
-A Doing Your Duty |QID|12227| |N|Grizzly Hills, Amberpine Lodge (32.07, 60.06)|
-- |QID|12227.1| |QO|Partially Processed Amberseeds: 1/1| |N|Grizzly Hills, Amberpine Lodge (32.23, 58.93)|
-T Doing Your Duty |QID|12227| |N|Grizzly Hills, Amberpine Lodge (32.04, 60.00)|
-U |cff1eff00|Hitem:38747:0:0:0:0:0:0:679677180:74|h[Mildly Tarnished Ring]|h|r |N|Grizzly Hills, Amberpine Lodge (32.04, 60.00)|
-- |QID|12292.1| |QO|Cedar Chest: 1/1| |N|Grizzly Hills, Evergreen Trading Post (15.91, 65.28)|
-T Local Support |QID|12292| |N|Grizzly Hills, Amberpine Lodge (31.88, 60.18)|
-A Close the Deal |QID|12293| |N|Grizzly Hills, Amberpine Lodge (31.88, 60.18)|
-- |QID|12212.1| |QO|Succulent Venison: 8/8| |N|Grizzly Hills,  (38.63, 53.98)|
-T Close the Deal |QID|12293| |N|Grizzly Hills, Aspen Grove Post (34.77, 55.58)|
-A A Tentative Pact |QID|12294| |N|Grizzly Hills, Aspen Grove Post (34.77, 55.50)|
-T Replenishing the Storehouse |QID|12212| |N|Grizzly Hills, Amberpine Lodge (32.09, 60.03)|
-A Bear-back |QID|12216| |N|Grizzly Hills, Amberpine Lodge (32.09, 60.03)|
-A Troll Season! |QID|12210| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.14)|
-T A Tentative Pact |QID|12294| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.14)|
-A An Exercise in Diplomacy |QID|12295| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.14)|
-A Secrets of the Flamebinders |QID|12222| |N|Grizzly Hills, Amberpine Lodge (32.44, 59.97)|
-A Thinning the Ranks |QID|12223| |N|Grizzly Hills, Amberpine Lodge (32.44, 59.97)|
-- |QID|12216.1| |QO|Grizzly Flank: 8/8| |N|Grizzly Hills,  (41.98, 62.29)|
-T Bear-back |QID|12216| |N|Grizzly Hills, Amberpine Lodge (32.07, 60.02)|
-- |QID|12222.1| |QO|Flame-Imbued Talisman: 3/3| |N|Grizzly Hills, Voldrune (31.58, 77.12)|
-- |QID|12223.1| |QO|Dragonflayer Huscarl slain: 12/12| |N|Grizzly Hills, Voldrune Dwelling (28.84, 72.44)|
-T Thinning the Ranks |QID|12223| |N|Grizzly Hills, Amberpine Lodge (32.43, 59.87)|
-T Secrets of the Flamebinders |QID|12222| |N|Grizzly Hills, Amberpine Lodge (32.43, 59.87)|
-A The Thane of Voldrune |QID|12255| |N|Grizzly Hills, Amberpine Lodge (32.43, 59.87)|
 - |QID|12483.2| |QO|Shimmering Snowcap: 5/5| |N|,  (63.34, 54.64)|
 - |QID|12483.1| |QO|Ice Serpent Eye: 5/5| |N|,  (63.34, 54.64)|
-- |QID|12215.1| |QO|Graymist Hunter slain: 6/6| |N|,  (63.34, 54.64)|
 A Sacrifices Must be Made |QID|12007| |N|,  (63.34, 54.64)|
 - |QID|12483.3| |QO|Sweetroot: 5/5| |N|Grizzly Hills, Zeb'Halak (16.96, 34.35)|
 - |QID|12007.1| |QO|Eye of the Prophets: 1/1| |N|Grizzly Hills, Zeb'Halak (17.90, 36.46)|
@@ -355,8 +328,6 @@ A Voices From the Dust |QID|12068| |N|Grizzly Hills, Drak'atal Passage (44.96, 2
 - |QID|12068.1| |QO|Drakkari Tablets: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (69.19, 18.01)|
 T Voices From the Dust |QID|12068| |N|Grizzly Hills, Drakil'jin Ruins (71.71, 26.17)|
 A Cleansing Drak'Tharon |QID|12238| |N|Grizzly Hills, Drakil'jin Ruins (71.68, 26.13)|
-T Them or Us! |QID|12215| |N|Grizzly Hills, Amberpine Lodge (32.05, 59.97)|
-A Eagle Eyes |QID|12217| |N|Grizzly Hills, Amberpine Lodge (32.13, 60.06)|
 T Seared Scourge |QID|12029| |N|Grizzly Hills, Granite Springs (16.64, 48.26)|
 A Search and Rescue |QID|12037| |N|Grizzly Hills, Granite Springs (16.64, 48.26)|
 T Shimmercap Stew |QID|12483| |N|Grizzly Hills, Granite Springs (15.74, 46.79)|
