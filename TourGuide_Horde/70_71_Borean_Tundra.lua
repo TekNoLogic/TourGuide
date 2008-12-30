@@ -249,5 +249,105 @@ T A Visit to the Curator |QID|11623|
 C Leading the Ancestors Home |QID|11610| |U|34715| |N|Sagani (52.87, 34.10), Takret (52.26, 31.21), Kesuk (50.95, 32.34)|
 
 T Leading the Ancestors Home |QID|11610|
+
+T Too Close For Comfort |QID|11574|
+A Prison Break |QID|11587|
+A Monitoring the Rift: Cleftcliff Anomaly |QID|11576|
+
+C Prison Break |QID|11587| |N|Kill Mage Slayer's south of Amber Ledge for the key (42.62, 36.93)|
+C Monitoring the Rift: Cleftcliff Anomaly |QID|11576| |U|34669| |N|South west of Amber ledge over the water (34.38, 41.96)|
+
+T Monitoring the Rift: Cleftcliff Anomaly |QID|11576|
+A Monitoring the Rift: Sundered Chasm |QID|11582|
+T Prison Break |QID|11587|
+A Abduction |QID|11590|
+
+C Abduction |QID|11590| |U|34691| |N|South of Amber Ledge again. Be sure not to kill the Sorcerer before enslaving it (43.51, 36.59)|
+
+T Abduction |QID|11590|
+A The Borean Inquisition |QID|11646|
+T The Borean Inquisition |QID|11646|
+A The Art of Persuasion |QID|11648|
+C The Art of Persuasion |QID|11648| |U|34811| |N|Keep using the Neural Needler until the quest completes.|
+T The Art of Persuasion |QID|11648|
+A Sharing Intelligence |QID|11663|
+T Sharing Intelligence |QID|11663|
+A A Race Against Time |QID|11671|
+
+C Monitoring the Rift: Sundered Chasm |QID|11582| |U|34669| |N|North west of Amber ledge in the water (43.95, 28.84)|
+C A Race Against Time |QID|11671| |U|34897| |N|Use the Beryl Shield Detonator to engage Salrand then loot the key from the chest. If someone else has recently completed this you may be able to just loot the chest (41.68, 38.78)|
+
+T Monitoring the Rift: Sundered Chasm |QID|11582|
+A Monitoring the Rift: Winterfin Cavern |QID|12728|
+T A Race Against Time |QID|11671|
+A Reforging the Key |QID|11679|
+T Reforging the Key |QID|11679|
+A Taking Wing |QID|11680|
+T Taking Wing |QID|11680|
+A Rescuing Evanor |QID|11681| |N|Small scripted event nothing for you to actually do.|
+T Rescuing Evanor |QID|11681|
+A Dragonspeak |QID|11682|
+T Dragonspeak |QID|11682|
+A Traversing the Rift |QID|11733|
+
+T Traversing the Rift |QID|11733|
+A Reading the Meters |QID|11900|
+A Secrets of the Ancients |QID|11910|
+A Basic Training |QID|11918|
+A Nuts for Berries |QID|11912|
+
+C Reading the Meters |QID|11900|
+C Secrets of the Ancients |QID|11910|
+C Nuts for Berries |QID|11912|
+C Basic Training |QID|11918|
+
+A Puzzling... |QID|11941| |U|35648|
+T Reading the Meters |QID|11900|
+T Secrets of the Ancients |QID|11910|
+T Basic Training |QID|11918|
+A Hatching a Plan |QID|11936|
+T Puzzling... |QID|11941|
+A The Cell |QID|11943|
+T Nuts for Berries |QID|11912|
+A Keep the Secret Safe |QID|11914|
+
+C Hatching a Plan |QID|11936|
+C Keep the Secret Safe |QID|11914|
+C The Cell |QID|11943|
+
+T Hatching a Plan |QID|11936|
+A Drake Hunt (Part 1) |QID|11919|
+T The Cell |QID|11943|
+T Keep the Secret Safe |QID|11914|
+A Keristrasza |QID|11946| |U|35671|
+T Keristrasza |QID|11946|
+A Bait and Switch |QID|11951|
+
+C Bait and Switch |QID|11951|
+C Drake Hunt (Part 1) |QID|11919| |U|35506|
+
+T Drake Hunt (Part 1) |QID|11919|
+A Drake Hunt (Part 2) |QID|11940|
+A Cracking the Code |QID|11931|
+T Bait and Switch |QID|11951| |U|35671|
+A Saragosa's End |QID|11957|
+
+C Saragosa's End |QID|11957| |U|35690|
+T Saragosa's End |QID|11957| |U|35671|
+A Mustering the Reds |QID|11967|
+
+T Mustering the Reds |QID|11967|
+A Springing the Trap |QID|11969|
+
+C Cracking the Code |QID|11931|
+C Springing the Trap |QID|11969| |U|35718|
+C Drake Hunt (Part 2) |QID|11940| |U|35506|
+
+T Cracking the Code |QID|11931|
+T Springing the Trap |QID|11969|
+T Drake Hunt (Part 2) |QID|11940|
+
+T To Bor'gorok Outpost, Quickly! |QID|12486|
+
 ]]
 end)
