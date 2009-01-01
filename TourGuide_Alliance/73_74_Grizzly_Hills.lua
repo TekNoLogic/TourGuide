@@ -55,7 +55,6 @@ T Filling the Cages |QID|11984| |N|Back at Granite Springs (16.20, 47.74)|
 A Truce? |QID|11989|
 C Truce? |QID|11989| |N|Loot the knife next to the cage, use it, and talk to Drakuru to shake his hand.| |U|38083|
 T Truce? |QID|11989|
-- |QID|11990.1| |QO|Imbued Vial: 1/1| |N|Grizzly Hills, Granite Springs (16.41, 47.83)|
 A Vial of Visions |QID|11990|
 C Vial of Visions |QID|11990| |N|Waterweed is in the lake due north, near Zeb'Halak (15.22, 40.55).  Haze leaf is all over the area.  Imbued Vial can be purchased from the reagent vendor at the camp.|
 T Vial of Visions |QID|11990|
@@ -100,7 +99,6 @@ C Escape from Silverbrook |QID|12308| |N|Poor werewolves, all they wanted was so
 T Escape from Silverbrook |QID|12308| |N|You should arrive at Amberpine Lodge (31.87, 60.18)|
 A A Swift Response |QID|12310|
 C A Swift Response |QID|12310| |N|Southeast at Forest's Edge Post.  Vladek is in the tower (36.24, 67.83)|
-U |cffffffff|Hitem:36940:0:0:0:0:0:0:1978120248:74|h[Mikhail's Journal]|h|r |N|Grizzly Hills, Amberpine Lodge (31.85, 60.11)|
 A Descent into Darkness |QID|12105| |U|36940| |N|From the journal that drops off the werelumberjacks.|
 T A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.85, 60.11)|
 T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.85, 60.11)|
