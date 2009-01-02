@@ -125,7 +125,7 @@ T Zeth'Gor Must Burn! |QID|10895|
 T Return to Honor Hold |QID|10903| |N|Gee, back at HH maybe?|
 A Fel Spirits |QID|10909|
 A Digging for Prayer Beads |QID|10916|
-C Digging for Prayer Beads |N|Buy a Silken Thread From the tailor upstairs in the inn, a Maiden's Anguish from the reagent vendor in the tower, then a dog treat in the court yard.  Give it to the dog, follow it around...| |QID|10916|
+C Digging for Prayer Beads |N|Behind the inn (54.16,63.32)| |QID|10916|
 T Digging for Prayer Beads |QID|10916|
 T Looking to the Leadership |N|Back at Honor Hold, at the tower to the west| |QID|10057|
 
