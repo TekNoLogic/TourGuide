@@ -4,7 +4,7 @@ return [[
 F Booty Bay
 A Tran'rek |N|From Krazek in the Inn (2nd Floor)| |QID|2864|
 A Zanzil's Secret |N|From Crank Fizzlebub in the Inn.| |QID|621|
-h Booty bay
+h Booty Bay
 A Akiris by the Bundle (Part 1) |N|From Privateer Bloads next to the Bank.| |QID|617|
 A Stranglethorn Fever |N|At the half-boat| |QID|348|
 A Scaring Shaky |N|In the house opposite the upside-down half-boat.| |QID|606|
