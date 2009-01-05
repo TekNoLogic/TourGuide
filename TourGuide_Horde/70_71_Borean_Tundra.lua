@@ -347,7 +347,27 @@ T Cracking the Code |QID|11931|
 T Springing the Trap |QID|11969|
 T Drake Hunt (Part 2) |QID|11940|
 
-T To Bor'gorok Outpost, Quickly! |QID|12486|
+T To Bor'gorok Outpost, Quickly! |QID|12486| |T|
+A The Sky Will Know |QID|11624| |T|
+A Report to Steeljaw's Caravan |QID|11591| |T|
+A King Mrgl-Mrgl |QID|11702| |T|
+
+T The Sky Will Know |QID|11624|
+A Boiling Point |QID|11627|
+
+C Boiling Point |QID|11627| |N|Churn just south of X (45.92, 12.34) and Simmer is to the east of Churn (50.58, 14.89)|
+
+T Boiling Point |QID|11627| |N|Borean Tundra, Ruins of Eldra'nath (46.62, 9.31)|
+A Motes of the Enraged |QID|11649|
+
+C Motes of the Enraged |QID|11649|
+
+T Motes of the Enraged |QID|11649|
+A Return to the Spirit Talker |QID|11629|
+
+T King Mrgl-Mrgl |QID|11702|
+A Learning to Communicate |QID|11571|
+
 
 ]]
 end)
