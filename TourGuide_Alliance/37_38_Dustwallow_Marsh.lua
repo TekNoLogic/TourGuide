@@ -206,13 +206,6 @@ T The Deserters (Part 2) |N|In the keep| |T| |QID|1287|
 A A Grim Connection |T| |QID|11143|
 C Survey Alcaz Island |N|Head down to the apprentice gryphon master and take the flight... DON'T SWIM OUT TO THE ISLAND!| |QID|11142|
 T Survey Alcaz Island |T| |QID|11142|
-A Proof of Treachery |T| |QID|11222|
-T Proof of Treachery |T| |N|Jiana can port you to Stormwind.  The king is in the Keep of course (78.23, 18.38)| |Z|Stormwind City| |QID|11222|
-A Return to Jaina |T| |QID|11223|
-A Morgan Stern |T| |N|In the tavern in the Mage Quarter (41.26, 89.14).  Turn in "Feast at the Blue Recluse" if you'd like some free, low level food and drink.| |QID|1260|
-A Tabetha's Task |T| |N|Up in the tower| |QID|2861|
-T Return to Jaina |T| |N|Archmage Malin at the base of the tower ramp can port your back| |QID|11223|
-T Morgan Stern |T| |N|In the inn, skip the follow-up| |QID|1260|
 
 T A Grim Connection |N|Take the road northwest out of town to North Point tower| |QID|11143|
 A Confirming the Suspicion |QID|11144|
@@ -227,7 +220,6 @@ A Tabetha's Assistance |QID|11149|
 
 T Tabetha's Assistance |N|At her farm, of course (45,57)| |QID|11149|
 A Raze Direhorn Post! |QID|11150|
-T Tabetha's Task |N|Skip the follow-up| |QID|2861|
 C Raze Direhorn Post! |N|Burn the tents to the north of the farm.  North Tent (46.63, 46.14), Northeast Tent (47.16, 46.72), East Tent (47.35, 47.48)| |U|33072| |QID|11150|
 T Raze Direhorn Post! |QID|11150|
 A Justice for the Hyals |QID|11151|

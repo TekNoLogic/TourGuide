@@ -47,134 +47,120 @@ T Thinning the Ranks |QID|12223|
 A The Thane of Voldrune |QID|12255|
 C The Thane of Voldrune |QID|12255| |N|Head back to Voldrune, hop on the proto-drake (27,78), kill Thane Torvald Eriksson on top of the nearby tower (27.0, 73.0).  Afterwards, fly back to to Amberpine Lodge before the drake drops you.|
 T The Thane of Voldrune |QID|12255| |N|Back at Amberpine Lodge (32.48, 60.04)|
+
+T Troll Season! |QID|12210| |N|Head north to the road, then west to Granite Springs (16.18, 47.67)|
+A Filling the Cages |QID|11984|
+C Filling the Cages |QID|11984| |U|35736| |N|Talk to Budd in the last tent (16.40, 48.06), drag him down to the Ruins of Drak'Zin (13.65, 58.59) and find a troll.  Use your pet bar to send him after the troll (it's okey if it aggros you), then after he "tags" it use the cage.|
+T Filling the Cages |QID|11984| |N|Back at Granite Springs (16.20, 47.74)|
+A Truce? |QID|11989|
+C Truce? |QID|11989| |N|Loot the knife next to the cage, use it, and talk to Drakuru to shake his hand.| |U|38083|
+T Truce? |QID|11989|
+A Vial of Visions |QID|11990|
+C Vial of Visions |QID|11990| |N|Waterweed is in the lake due north, near Zeb'Halak (15.22, 40.55).  Haze leaf is all over the area.  Imbued Vial can be purchased from the reagent vendor at the camp.|
+T Vial of Visions |QID|11990|
+A Subject to Interpretation |QID|11991|
+A Scourgekabob |QID|12484| |N|On the north edge of the camp (15.79, 46.75)|
+C Scourgekabob |QID|12484| |N|Loot a mummy then head down to the bonfire (16.68, 48.22).  Use the mummy to burn it.| |U|38149|
+T Scourgekabob |QID|12484|
+A Seared Scourge |QID|12029|
+A Shimmercap Stew |QID|12483| |N|Back on the north side of camp (15.71, 46.74)|
+N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |Q|Shimmercap Stew| |QO|Shimmering Snowcap: 5/5|
+K Ice Serpents |N|All over the Ruins of Drak'Zin.| |Q|Shimmercap Stew| |QO|Ice Serpent Eye: 5/5|
+K Trolls |N|Need dat mojo mon!| |L|35799 5|
+T Subject to Interpretation |QID|11991| |N|Use Drakuru's elixir at the brasier in the middle of the Ruins of Drak'Zin (13.31, 60.86)| |U|35797|
+A Sacrifices Must be Made |QID|12007|
+C Sacrifices Must be Made |QID|12007| |N|Head north to Zeb'Halak.  Kill Warlord Zim'bo in the big hut (14.6, 37.8), then head up the ziggurat.  Take the eye from the head there (17.93, 36.53).|
+T Sacrifices Must be Made |QID|12007| |N|Use Drakuru's elixir at the brasier on top of the ziggurat (17.49, 36.30)| |U|35797|
+A Heart of the Ancients |QID|12042|
+C Shimmercap Stew |QID|12483| |N|Sweetroot is all over Zeb'Halak|
+
+T An Exercise in Diplomacy |QID|12295| |N|East at Silverbrook (26.39, 35.74)|
+A Northern Hospitality |QID|12299|
+A Wolfsbane Root |QID|12307| |N|On the morthwest side of Silverbrook (25.62, 33.35)|
+C Northern Hospitality |QID|12299| |N|Along the northwest side of the village.|
+C Wolfsbane Root |QID|12307| |N|You can find a lot on the eastern side of the village, with fewer hostile mobs to deal with.|
+T Northern Hospitality |QID|12299| |N|Back inside Silverbrook (26.52, 35.76)|
+T Wolfsbane Root |QID|12307|
+A Test of Mettle |QID|12300|
+C Test of Mettle |QID|12300| |N|Northwest of town at Bonesnap's Camp (21.89, 29.89)|
+T Test of Mettle |QID|12300| |N|Turn in to the trapper there at Bonesnap's Camp (21.89, 29.89)|
+A Words of Warning |QID|12302|
+
+C Seared Scourge |QID|12029| |U|35908| |N|Head to the entrance to Drak'tharon Keep to the west (17.80, 27.31).  Go up the stairs, then turn around jump onto one to the edges of the staircase.  Lob Mack's Dark Grog at the scouraged trolls below.|
+
+T Shimmercap Stew |QID|12483| |N|Back at Granite Springs (15.69, 46.73)|
+A Say Hello to My Little Friend |QID|12190|
+T Seared Scourge |QID|12029|
+
+N Note about the next quest |N|The next quest will be another vehicle quest.  The NPC will drive for you, you just need to fight off the mobs that attack.  Use each skill on your vehicle bar as often as you can!|
+T Words of Warning |QID|12302| |N|At the north end of Silverbrook, in a tower (26.49, 31.79)|
+A Escape from Silverbrook |QID|12308|
+C Escape from Silverbrook |QID|12308| |N|Poor werewolves, all they wanted was some sweet dorf ass-meat... or human, or whatever race you are.|
+T Escape from Silverbrook |QID|12308| |N|You should arrive at Amberpine Lodge (31.87, 60.18)|
+A A Swift Response |QID|12310|
+C A Swift Response |QID|12310| |N|Southeast at Forest's Edge Post.  Vladek is in the tower (36.24, 67.83)|
+A Descent into Darkness |QID|12105| |U|36940| |N|From the journal that drops off the werelumberjacks.|
+T A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.85, 60.11)|
+T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.85, 60.11)|
+A Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Amberpine Lodge (31.85, 60.11)|
+
+A The Failed World Tree |QID|12219| |N|Outside near the flightmaster (31.19, 59.49)|
+A A Dark Influence |QID|12220|
+C A Dark Influence |QID|12220| |U|37173| |N|Visit Vordrassil's Tears (28.60, 45.06), Vordrassil's Limb (33.23, 48.30) and Vordrassil's Heart (40.77, 52.12).  Head down to the bottom of each and use the Geomancer's Orb.|
+C The Failed World Tree |QID|12219| |N|Kill slimes if you still need these.|
+T The Failed World Tree |QID|12219| |N|Back at Amberpine Lodge (31.24, 59.46)|
+T A Dark Influence |QID|12220|
+A A Possible Link |QID|12246|
+A Children of Ursoc |QID|12247|
+C Children of Ursoc |QID|12247| |N|Talk to Orsonn in the cave at Rage Fang Shrine (48.06, 58.76) and Kodian in the cave at Heart's Blood Shrine (66.87, 62.58)|
+C A Possible Link |QID|12246| |N|Kill more furblogs if you still need blood.|
+T A Possible Link |QID|12246| |N|Back at Amberpine Lodge (31.22, 59.47)|
+T Children of Ursoc |QID|12247|
+A Vordrassil's Sapling |QID|12248|
+A Vordrassil's Seeds |QID|12250|
+
+C Vordrassil's Sapling |QID|12248| |N|East at Grizzlemaw (50.51, 45.79), jump down into the center.  Use the Verdant Torch on the sapling.|
+C Vordrassil's Seeds |QID|12250| |N|Inside Vordrassil's side rooms, or outside around the edge of the trunk.  North side of the tree seems like a great area.|
+A Mr. Floppy's Perilous Adventure |QID|12027| |N|North of Vordrassil at Heartwood Trading Post, in the tower (49.18, 34.08).  If she's not here, skip this, but do it if you see her later (it's an easy escort).|
+C Mr. Floppy's Perilous Adventure |QID|12027|
+
+T Mr. Floppy's Perilous Adventure |QID|12027| |N|Just east at Westfall Brigade Encampment (59.12, 26.53)|
+T Vordrassil's Sapling |QID|12248| |N|Fly back to Amberpine Lodge (31.22, 59.45)|
+T Vordrassil's Seeds |QID|12250|
+A Ursoc, the Bear God |QID|12249|
+
+T Report to Gryan Stoutmantle... Again |QID|12109| |N|Fly back to the Westfall Brigade Encampment (59.41, 26.13)|
+A Hollowstone Mine |QID|12158| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
+A Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
+A Mounting Up |QID|12414| |N|Grizzly Hills, Westfall Brigade Encampment (59.13, 26.51)|
+
+C Mounting Up |QID|12414| |U|37708| |N|Find the herd of horses to the west (55.75, 31.69).  Equip the Stick, find a few carrots, target a horse, use the stick.  Take the horse back to the camp, repeat.|
+T Mounting Up |QID|12414|
+
+T Heart of the Ancients |QID|12042| |N|Northwest at Blue Sky Logging Grounds.  On the north side of the lake, find the platform, the Heart is up top in the cabin (36.97, 32.40).  You will get PvP flagged doing this quest!|
+A My Heart is in Your Hands |QID|12802|
+T My Heart is in Your Hands |QID|12802| |N|Due west at the Drak'atal Passage (45.03, 28.33).  You'll have to kill trolls for 5 mojo, of course.|
+A Voices From the Dust |QID|12068|
 ]]
 end)
 
 --[[
-A Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (25.62, 33.35)|
+A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
 
-U |cffffffff|Hitem:36940:0:0:0:0:0:0:1483259786:74|h[Mikhail's Journal]|h|r |N|Grizzly Hills,  (35.54, 69.34)|
-A Descent into Darkness |QID|12105| |N|Grizzly Hills,  (35.54, 69.34)|
-T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.16)|
-A Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.16)|
+T Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Harkor's Camp (73.75, 34.10)|
+A Nice to Meat You |QID|12113| |N|Grizzly Hills, Harkor's Camp (73.75, 34.10)|
+A Therapy |QID|12114| |N|Grizzly Hills, Harkor's Camp (73.75, 34.10)|
+A It Takes Guts.... |QID|12116| |N|Grizzly Hills, Harkor's Camp (73.88, 34.19)|
 ]]
 
 --[[
 T The Call Of The Crusade |QID|12542| |N|Dragonblight, Light's Trust (84.01, 26.17)|
 A The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.01, 26.17)|
-A Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (26.38, 33.07)|
 A Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.40, 26.10)|
 A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.79, 26.68)|
 - |QID|12545.1| |QO|Jintha'kalar Scourge Slain: 15/15| |N|Dragonblight, Jintha'kalar (88.27, 19.71)|
 T The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.06, 26.19)|
 
-T Troll Season! |QID|12210| |N|Grizzly Hills, Granite Springs (16.23, 47.70)|
-A Filling the Cages |QID|11984| |N|Grizzly Hills, Granite Springs (16.23, 47.70)|
-U |cffffffff|Hitem:35736:0:0:0:0:0:0:332830370:74|h[Bounty Hunter's Cage]|h|r |N|Grizzly Hills, Ruins of Drak'Zin (14.40, 60.03)|
-- |QID|11984.1| |QO|Captured Live Ice Troll: 1/1| |N|Grizzly Hills, Ruins of Drak'Zin (14.80, 60.94)|
-T Filling the Cages |QID|11984| |N|Grizzly Hills, Granite Springs (16.21, 47.70)|
-A Truce? |QID|11989| |N|Grizzly Hills, Granite Springs (16.39, 47.79)|
-U |cffffffff|Hitem:38083:0:0:0:0:0:0:1968262409:74|h[Dull Carving Knife]|h|r |N|Grizzly Hills, Granite Springs (16.44, 47.83)|
-- |QID|11989.1| |QO|Blood Pact With Drakuru: 1/1| |N|Grizzly Hills, Granite Springs (16.44, 47.83)|
-T Truce? |QID|11989| |N|Grizzly Hills, Granite Springs (16.44, 47.83)|
-A Vial of Visions |QID|11990| |N|Grizzly Hills, Granite Springs (16.44, 47.83)|
-- |QID|11990.1| |QO|Imbued Vial: 1/1| |N|Grizzly Hills, Granite Springs (16.00, 47.78)|
-- |QID|11990.2| |QO|Haze Leaf: 3/3| |N|Grizzly Hills,  (15.67, 44.67)|
-- |QID|11990.3| |QO|Waterweed Frond: 1/1| |N|Grizzly Hills, Zeb'Halak (15.13, 40.55)|
-T Vial of Visions |QID|11990| |N|Grizzly Hills, Granite Springs (16.45, 47.85)|
-A Subject to Interpretation |QID|11991| |N|Grizzly Hills, Granite Springs (16.45, 47.85)|
-A Scourgekabob |QID|12484| |N|Grizzly Hills, Granite Springs (15.77, 46.76)|
-U |cffffffff|Hitem:38149:0:0:0:0:0:0:961960865:74|h[Scourged Troll Mummy]|h|r |N|Grizzly Hills, Granite Springs (16.83, 48.26)|
-- |QID|12484.1| |QO|Mummified Carcass Burned: 1/1| |N|Grizzly Hills, Granite Springs (16.83, 48.26)|
-T Scourgekabob |QID|12484| |N|Grizzly Hills, Granite Springs (16.67, 48.24)|
-A Seared Scourge |QID|12029| |N|Grizzly Hills, Granite Springs (16.67, 48.24)|
-A Shimmercap Stew |QID|12483| |N|Grizzly Hills, Granite Springs (15.76, 46.80)|
-- |QID|12483.2| |QO|Shimmering Snowcap: 5/5| |N|Grizzly Hills,  (10.99, 61.55)|
-- |QID|12483.1| |QO|Ice Serpent Eye: 5/5| |N|Grizzly Hills, Ruins of Drak'Zin (13.10, 62.20)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:1998957561:74|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Ruins of Drak'Zin (13.32, 60.87)|
-T Subject to Interpretation |QID|11991| |N|Grizzly Hills, Ruins of Drak'Zin (13.30, 60.87)|
-U |cff1eff00|Hitem:39081:0:0:0:0:0:0:37402878:74|h[Spiritforged Helm]|h|r |N|Grizzly Hills, Ruins of Drak'Zin (13.30, 60.87)|
-A Sacrifices Must be Made |QID|12007| |N|Grizzly Hills, Ruins of Drak'Zin (13.30, 60.87)|
-- |QID|12483.3| |QO|Sweetroot: 5/5| |N|Grizzly Hills, Zeb'Halak (16.70, 36.99)|
-- |QID|12007.1| |QO|Eye of the Prophets: 1/1| |N|Grizzly Hills, Zeb'Halak (17.92, 36.51)|
-T Sacrifices Must be Made |QID|12007| |N|Grizzly Hills, Zeb'Halak (17.46, 36.42)|
-A Heart of the Ancients |QID|12042| |N|Grizzly Hills, Zeb'Halak (17.46, 36.42)|
-U |cffffffff|Hitem:35908:0:0:0:0:0:0:874810364:74|h[Mack's Dark Grog]|h|r |N|Grizzly Hills,  (17.77, 27.62)|
-- |QID|12029.1| |QO|Scourge Trolls Burned: 20/20| |N|Grizzly Hills,  (16.90, 27.45)|
-T Seared Scourge |QID|12029| |N|Grizzly Hills, Granite Springs (16.65, 48.22)|
-A Search and Rescue |QID|12037| |N|Grizzly Hills, Granite Springs (16.65, 48.22)|
-T Shimmercap Stew |QID|12483| |N|Grizzly Hills, Granite Springs (15.76, 46.77)|
-A Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Granite Springs (15.76, 46.77)|
-T Heart of the Ancients |QID|12042| |N|Grizzly Hills, Blue Sky Logging Grounds (36.96, 32.41)|
-A My Heart is in Your Hands |QID|12802| |N|Grizzly Hills, Blue Sky Logging Grounds (36.96, 32.41)|
-T Search and Rescue |QID|12037| |N|Grizzly Hills, Blue Sky Logging Grounds (36.96, 32.41)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:1998957561:74|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Drak'atal Passage (44.92, 28.33)|
-T My Heart is in Your Hands |QID|12802| |N|Grizzly Hills, Drak'atal Passage (44.92, 28.33)|
-A Voices From the Dust |QID|12068| |N|Grizzly Hills, Drak'atal Passage (44.92, 28.33)|
-T An Exercise in Diplomacy |QID|12295| |N|Grizzly Hills, Silverbrook (26.43, 35.75)|
-A Northern Hospitality |QID|12299| |N|Grizzly Hills, Silverbrook (26.43, 35.75)|
-- |QID|12299.1| |QO|Conquest Hold Marauder slain: 8/8| |N|Grizzly Hills, Silverbrook Hills (23.74, 33.60)|
-- |QID|12307.1| |QO|Wolfsbane Root: 8/8| |N|Grizzly Hills, Silverbrook Hills (24.73, 37.33)|
-T Northern Hospitality |QID|12299| |N|Grizzly Hills, Silverbrook (26.39, 35.78)|
-T Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (25.64, 33.40)|
-U |cff1eff00|Hitem:38754:0:0:0:0:0:0:835031357:74|h[Pruning Pendant]|h|r |N|Grizzly Hills, Silverbrook (25.64, 33.40)|
-A Test of Mettle |QID|12300| |N|Grizzly Hills, Silverbrook (26.41, 35.77)|
-- |QID|12300.1| |QO|Test of Mettle: 1/1| |N|Grizzly Hills, Bonesnap's Camp (21.87, 30.00)|
-T Test of Mettle |QID|12300| |N|Grizzly Hills, Bonesnap's Camp (21.87, 29.97)|
-A Words of Warning |QID|12302| |N|Grizzly Hills, Bonesnap's Camp (21.87, 29.97)|
-T Words of Warning |QID|12302| |N|Grizzly Hills, Silverbrook (26.47, 31.83)|
-A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.47, 31.83)|
-A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.50, 31.76)|
-A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.42, 31.80)|
-- |QID|12308.1| |QO|Escape from Silverbrook: 1/1| |N|Grizzly Hills, Amberpine Lodge (32.37, 59.16)|
-T Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Amberpine Lodge (31.90, 60.19)|
-A A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.90, 60.19)|
-- |QID|12310.2| |QO|Vladek slain: 1/1| |N|Grizzly Hills, Forest's Edge Post (36.15, 67.76)|
-U |cffffffff|Hitem:36940:0:0:0:0:0:0:1012837880:74|h[Mikhail's Journal]|h|r |N|Grizzly Hills, Forest's Edge Post (36.15, 67.76)|
-A Descent into Darkness |QID|12105| |N|Grizzly Hills, Forest's Edge Post (36.15, 67.76)|
-- |QID|12310.1| |QO|Silverbrook Hunter slain: 7/7| |N|Grizzly Hills, Forest's Edge Post (36.54, 66.61)|
-T A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.18)|
-T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.18)|
-A Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.18)|
-U |cff1eff00|Hitem:39098:0:0:0:0:0:0:1234271818:74|h[Rusty Cave Stompers]|h|r |N|Grizzly Hills, Amberpine Lodge (32.48, 60.67)|
-A The Failed World Tree |QID|12219| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.47)|
-A A Dark Influence |QID|12220| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.47)|
-U |cffffffff|Hitem:37173:0:0:0:0:0:0:326075707:74|h[Geomancer's Orb]|h|r |N|Grizzly Hills, Vordrassil's Tears (27.40, 46.70)|
-- |QID|12220.3| |QO|Orb used beneath Vordrassil's Tears: 1/1| |N|Grizzly Hills, Vordrassil's Tears (30.36, 43.95)|
-- |QID|12220.2| |QO|Orb used beneath Vordrassil's Limb: 1/1| |N|Grizzly Hills, Vordrassil's Limb (32.26, 45.85)|
-- |QID|12220.1| |QO|Orb used beneath Vordrassil's Heart: 1/1| |N|Grizzly Hills, Vordrassil's Heart (41.13, 54.62)|
-- |QID|12219.1| |QO|Slime Sample: 6/6| |N|Grizzly Hills, Vordrassil's Heart (40.74, 49.50)|
-T A Dark Influence |QID|12220| |N|Grizzly Hills, Amberpine Lodge (31.22, 59.49)|
-T The Failed World Tree |QID|12219| |N|Grizzly Hills, Amberpine Lodge (31.22, 59.49)|
-U |cff1eff00|Hitem:39090:0:0:0:0:0:0:120167994:74|h[Chestplate of Untimely Rewards]|h|r |N|Grizzly Hills, Amberpine Lodge (31.22, 59.49)|
-A A Possible Link |QID|12246| |N|Grizzly Hills, Amberpine Lodge (31.22, 59.49)|
-A Children of Ursoc |QID|12247| |N|Grizzly Hills, Amberpine Lodge (31.30, 59.62)|
-- |QID|12247.1| |QO|Orsonn's Story: 1/1| |N|Grizzly Hills, Rage Fang Shrine (48.16, 58.73)|
-- |QID|12247.2| |QO|Kodian's Story: 1/1| |N|Grizzly Hills, Heart's Blood Shrine (66.89, 62.30)|
-- |QID|12246.1| |QO|Crazed Furbolg Blood: 8/8| |N|Grizzly Hills, Heart's Blood Shrine (66.75, 60.31)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:74|h[Hearthstone]|h|r |N|Grizzly Hills, Heart's Blood Shrine (66.75, 60.31)|
-T A Possible Link |QID|12246| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.49)|
-T Children of Ursoc |QID|12247| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.49)|
-A Vordrassil's Sapling |QID|12248| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.49)|
-A Vordrassil's Seeds |QID|12250| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.49)|
-T Search and Rescue |QID|12037| |N|Grizzly Hills, Amberpine Lodge (32.00, 60.10)|
-U |cffffffff|Hitem:37306:0:0:0:0:0:0:889148540:74|h[Verdant Torch]|h|r |N|Grizzly Hills, Grizzlemaw (50.75, 42.83)|
-- |QID|12248.1| |QO|Vordrassil's Ashes: 1/1| |N|Grizzly Hills, Grizzlemaw (50.63, 42.73)|
-- |QID|12250.1| |QO|Vordrassil's Seed: 8/8| |N|Grizzly Hills, Grizzlemaw (51.46, 46.42)|
-T Search and Rescue |QID|12037| |N|,  (75.71, 50.74)|
-T Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Westfall Brigade Encampment (59.38, 26.10)|
-A Hollowstone Mine |QID|12158| |N|Grizzly Hills, Westfall Brigade Encampment (59.38, 26.10)|
-T Vordrassil's Sapling |QID|12248| |N|Grizzly Hills, Amberpine Lodge (31.23, 59.47)|
-T Vordrassil's Seeds |QID|12250| |N|Grizzly Hills, Amberpine Lodge (31.23, 59.47)|
-A Ursoc, the Bear God |QID|12249| |N|Grizzly Hills, Amberpine Lodge (31.23, 59.47)|
-A Mounting Up |QID|12414| |N|Grizzly Hills, Westfall Brigade Encampment (59.13, 26.63)|
-U |cffffffff|Hitem:37708:0:0:0:0:0:0:116219601:74|h[Stick]|h|r |N|Grizzly Hills, The Path of Iron (62.76, 31.51)|
-- |QID|12414.1| |QO|Highland Mustangs Returned: 5/5| |N|Grizzly Hills, Westfall Brigade Encampment (59.12, 26.52)|
-T Mounting Up |QID|12414| |N|Grizzly Hills, Westfall Brigade Encampment (59.14, 26.58)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:74|h[Hearthstone]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.38, 26.51)|
-U |cff0070dd|Hitem:38237:3368:0:0:0:0:0:1966310531:74|h[Axe of Frozen Death]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.38, 26.51)|
-A My Old Enemy |QID|12464| |N|,  (67.75, 60.62)|
-T Search and Rescue |QID|12037| |N|,  (67.75, 60.62)|
 T Hollowstone Mine |QID|12158| |N|Grizzly Hills, Hollowstone Mine (55.13, 23.44)|
 A Souls at Unrest |QID|12159| |N|Grizzly Hills, Hollowstone Mine (55.13, 23.44)|
 - |QID|12159.1| |QO|Miner at Rest: 8/8| |N|Grizzly Hills, Hollowstone Mine (53.92, 22.28)|
@@ -195,8 +181,6 @@ U |cffffffff|Hitem:37661:0:0:0:0:0:0:169624850:74|h[Gossamer Potion]|h|r |N|Griz
 - |QID|12327.1| |QO|Vision from the Past| |N|Silverpine Forest, Pyrewood Village (46.52, 76.16)|
 T Out of Body Experience |QID|12327| |N|Grizzly Hills, Ruuna's Camp (44.08, 47.94)|
 A Fate and Coincidence |QID|12329| |N|Grizzly Hills, Ruuna's Camp (44.08, 47.94)|
-A Mr. Floppy's Perilous Adventure |QID|12027| |N|Grizzly Hills, Heartwood Trading Post (49.18, 34.08)|
-- |QID|12027.1| |QO|Help Emily and Mr. Floppy return to the camp| |N|Grizzly Hills,  (53.84, 33.29)|
 T Fate and Coincidence |QID|12329| |N|Grizzly Hills, White Pine Trading Post (57.53, 41.32)|
 A Sasha's Hunt |QID|12134| |N|Grizzly Hills, White Pine Trading Post (57.53, 41.32)|
 A Anatoly Will Talk |QID|12330| |N|Grizzly Hills, White Pine Trading Post (57.53, 41.32)|
@@ -232,8 +216,6 @@ U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:75|h[Hearthstone]|h|r |N|Eastern 
 - |QID|12027.1| |QO|Help Emily and Mr. Floppy return to the camp| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
 - |QID|12068.1| |QO|Drakkari Tablets: 1/1| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
 A My Old Enemy |QID|12464| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
-T Search and Rescue |QID|12037| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
-T Mr. Floppy's Perilous Adventure |QID|12027| |N|Grizzly Hills, Westfall Brigade Encampment (59.10, 26.26)|
 U |cff1eff00|Hitem:39079:0:0:0:0:0:0:1530663844:75|h[Bracers of the Chaperon]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.17, 26.55)|
 T Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.76, 27.63)|
 A Brothers in Battle |QID|12002| |N|Grizzly Hills, Westfall Brigade Encampment (59.76, 27.63)|
@@ -245,7 +227,6 @@ T A Bear of an Appetite |QID|12279| |N|Grizzly Hills, Redwood Trading Post (69.0
 - |QID|12114.1| |QO|Drakkari Protector slain: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (72.67, 23.49)|
 U |cffffffff|Hitem:35797:0:0:0:0:0:0:1998957561:75|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.12)|
 T Voices From the Dust |QID|12068| |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.12)|
-A Search and Rescue |QID|12037| |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.12)|
 T It Takes Guts.... |QID|12116| |N|Grizzly Hills, Harkor's Camp (73.90, 34.25)|
 A Drak'aguul's Mallet |QID|12120| |N|Grizzly Hills, Harkor's Camp (73.90, 34.25)|
 T Therapy |QID|12114| |N|Grizzly Hills, Harkor's Camp (73.76, 34.09)|
@@ -304,46 +285,14 @@ U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:75|h[Hearthstone]|h|r |N|Grizzly 
 ]]
 
 --[[
-- |QID|12483.2| |QO|Shimmering Snowcap: 5/5| |N|,  (63.34, 54.64)|
-- |QID|12483.1| |QO|Ice Serpent Eye: 5/5| |N|,  (63.34, 54.64)|
-A Sacrifices Must be Made |QID|12007| |N|,  (63.34, 54.64)|
-- |QID|12483.3| |QO|Sweetroot: 5/5| |N|Grizzly Hills, Zeb'Halak (16.96, 34.35)|
-- |QID|12007.1| |QO|Eye of the Prophets: 1/1| |N|Grizzly Hills, Zeb'Halak (17.90, 36.46)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:2061235098:74|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Zeb'Halak (17.49, 36.36)|
-T Sacrifices Must be Made |QID|12007| |N|Grizzly Hills, Zeb'Halak (17.49, 36.36)|
-A Heart of the Ancients |QID|12042| |N|Grizzly Hills, Zeb'Halak (17.49, 36.36)|
-U |cffffffff|Hitem:35908:0:0:0:0:0:0:439579829:74|h[Mack's Dark Grog]|h|r |N|Grizzly Hills,  (17.72, 31.66)|
-- |QID|12029.1| |QO|Scourge Trolls Burned: 20/20| |N|Grizzly Hills,  (16.45, 26.69)|
-T Heart of the Ancients |QID|12042| |N|Grizzly Hills, Blue Sky Logging Grounds (36.97, 32.39)|
-A My Heart is in Your Hands |QID|12802| |N|Grizzly Hills, Blue Sky Logging Grounds (36.97, 32.39)|
-- |QID|12483.3| |QO|Sweetroot: 5/5| |N|Grizzly Hills, Drak'atal Passage (44.67, 29.42)|
-- |QID|12483.2| |QO|Shimmering Snowcap: 5/5| |N|Grizzly Hills, Drak'atal Passage (44.67, 29.42)|
-- |QID|12029.1| |QO|Scourge Trolls Burned: 20/20| |N|Grizzly Hills, Drak'atal Passage (44.67, 29.42)|
-- |QID|12483.1| |QO|Ice Serpent Eye: 5/5| |N|Grizzly Hills, Drak'atal Passage (44.67, 29.42)|
-- |QID|12215.1| |QO|Graymist Hunter slain: 6/6| |N|Grizzly Hills, Drak'atal Passage (44.67, 29.42)|
-A Shimmercap Stew |QID|12483| |N|Grizzly Hills, Drak'atal Passage (44.67, 29.42)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:2061235098:74|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Drak'atal Passage (44.92, 28.41)|
-T My Heart is in Your Hands |QID|12802| |N|Grizzly Hills, Drak'atal Passage (44.96, 28.39)|
-A Voices From the Dust |QID|12068| |N|Grizzly Hills, Drak'atal Passage (44.96, 28.39)|
 - |QID|12068.1| |QO|Drakkari Tablets: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (69.19, 18.01)|
 T Voices From the Dust |QID|12068| |N|Grizzly Hills, Drakil'jin Ruins (71.71, 26.17)|
-A Cleansing Drak'Tharon |QID|12238| |N|Grizzly Hills, Drakil'jin Ruins (71.68, 26.13)|
-T Seared Scourge |QID|12029| |N|Grizzly Hills, Granite Springs (16.64, 48.26)|
-A Search and Rescue |QID|12037| |N|Grizzly Hills, Granite Springs (16.64, 48.26)|
-T Shimmercap Stew |QID|12483| |N|Grizzly Hills, Granite Springs (15.74, 46.79)|
-A Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Granite Springs (15.74, 46.79)|
-T Cleansing Drak'Tharon |QID|12238| |N|Grizzly Hills, Amberpine Lodge (31.94, 58.36)|
+
 T Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Squatter's Camp (77.21, 20.19)|
 A Nice to Meat You |QID|12113| |N|Grizzly Hills, Squatter's Camp (77.21, 20.19)|
 A Therapy |QID|12114| |N|Grizzly Hills, Squatter's Camp (77.21, 20.19)|
 A It Takes Guts.... |QID|12116| |N|Grizzly Hills, Squatter's Camp (77.15, 19.88)|
-A Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.45, 26.13)|
-A Mounting Up |QID|12414| |N|Grizzly Hills, Westfall Brigade Encampment (59.09, 26.56)|
-U |cffffffff|Hitem:37708:0:0:0:0:0:0:20723465:74|h[Stick]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (60.18, 31.78)|
-U |cffffffff|Hitem:37707:0:0:0:0:0:0:1455472452:74|h[Wild Carrot]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (60.18, 31.78)|
-- |QID|12414.1| |QO|Highland Mustangs Returned: 5/5| |N|Grizzly Hills, Westfall Brigade Encampment (59.21, 26.45)|
-T Mounting Up |QID|12414| |N|Grizzly Hills, Westfall Brigade Encampment (59.14, 26.55)|
-U |cff0070dd|Hitem:35576:3368:0:0:0:0:0:-1787200358:74|h[Ingvar's Monolithic Cleaver]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.14, 26.55)|
+
 - |QID|12116.1| |QO|Drakkari Canopic Jar: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (71.57, 20.11)|
 A Dun-da-Dun-tah! |QID|12082| |N|Grizzly Hills, Drakil'jin Ruins (69.47, 17.52)|
 - |QID|12082.1| |QO|Harrison has escorted you to safety.| |N|Grizzly Hills,  (73.52, 24.03)|
@@ -490,42 +439,7 @@ U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r 
 U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Shadowmoon Valley, Wildhammer Stronghold (37.62, 55.49)|
 - |QID|12217.1| |QO|Imperial Eagle slain: 5/5| |N|Grizzly Hills,  (37.57, 60.30)|
 T Eagle Eyes |QID|12217| |N|Grizzly Hills, Amberpine Lodge (32.11, 60.04)|
-A Mr. Floppy's Perilous Adventure |QID|12027| |N|Grizzly Hills, Heartwood Trading Post (49.21, 34.13)|
-A Mr. Floppy's Perilous Adventure |QID|12027| |N|Grizzly Hills, Heartwood Trading Post (49.25, 34.03)|
-- |QID|12027.1| |QO|Help Emily and Mr. Floppy return to the camp| |N|Grizzly Hills,  (53.79, 33.31)|
-T Mr. Floppy's Perilous Adventure |QID|12027| |N|Grizzly Hills, Westfall Brigade Encampment (59.11, 26.43)|
-U |cff1eff00|Hitem:39079:0:0:0:0:0:0:1066360296:75|h[Bracers of the Chaperon]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.22, 26.54)|
-T An Exercise in Diplomacy |QID|12295| |N|Grizzly Hills, Silverbrook (26.41, 35.74)|
-A Northern Hospitality |QID|12299| |N|Grizzly Hills, Silverbrook (26.38, 35.69)|
-A Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (25.62, 33.36)|
-- |QID|12307.1| |QO|Wolfsbane Root: 8/8| |N|Grizzly Hills,  (25.34, 38.69)|
-- |QID|12299.1| |QO|Conquest Hold Marauder slain: 8/8| |N|Grizzly Hills, Silverbrook Hills (24.10, 35.63)|
-T Northern Hospitality |QID|12299| |N|Grizzly Hills, Silverbrook (26.42, 35.84)|
-A Test of Mettle |QID|12300| |N|Grizzly Hills, Silverbrook (25.83, 34.53)|
-T Wolfsbane Root |QID|12307| |N|Grizzly Hills, Silverbrook (25.64, 33.36)|
-T Cleansing Drak'Tharon |QID|12238| |N|Grizzly Hills, Silverbrook Hills (23.82, 30.10)|
-A Cleansing Drak'Tharon |QID|12238| |N|Grizzly Hills, Silverbrook Hills (23.82, 30.10)|
-T Test of Mettle |QID|12300| |N|Grizzly Hills, Silverbrook Hills (23.82, 30.10)|
-A Test of Mettle |QID|12300| |N|Grizzly Hills, Silverbrook Hills (23.82, 30.10)|
-- |QID|12300.1| |QO|Test of Mettle: 1/1| |N|Grizzly Hills, Bonesnap's Camp (22.29, 29.88)|
-T Test of Mettle |QID|12300| |N|Grizzly Hills, Bonesnap's Camp (21.96, 30.00)|
-A Words of Warning |QID|12302| |N|Grizzly Hills, Bonesnap's Camp (21.96, 30.00)|
-T Words of Warning |QID|12302| |N|Grizzly Hills, Silverbrook (26.48, 31.86)|
-A Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Silverbrook (26.48, 31.86)|
-- |QID|12308.1| |QO|Escape from Silverbrook: 1/1| |N|Grizzly Hills, Amberpine Lodge (32.41, 59.17)|
-T Escape from Silverbrook |QID|12308| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.13)|
-A A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.91, 60.13)|
-- |QID|12310.2| |QO|Vladek slain: 1/1| |N|Grizzly Hills, Forest's Edge Post (36.20, 67.79)|
-- |QID|12310.1| |QO|Silverbrook Hunter slain: 7/7| |N|Grizzly Hills, Forest's Edge Post (35.78, 67.02)|
-U |cffffffff|Hitem:36940:0:0:0:0:0:0:1031214694:75|h[Mikhail's Journal]|h|r |N|Grizzly Hills, Forest's Edge Post (35.81, 67.09)|
-A Descent into Darkness |QID|12105| |N|Grizzly Hills, Forest's Edge Post (35.81, 67.09)|
-T A Swift Response |QID|12310| |N|Grizzly Hills, Amberpine Lodge (31.82, 60.06)|
-T Descent into Darkness |QID|12105| |N|Grizzly Hills, Amberpine Lodge (31.83, 60.08)|
-A Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Amberpine Lodge (31.89, 60.07)|
-A The Failed World Tree |QID|12219| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.47)|
-A A Dark Influence |QID|12220| |N|Grizzly Hills, Amberpine Lodge (31.31, 59.30)|
-T Report to Gryan Stoutmantle... Again |QID|12109| |N|Grizzly Hills, Westfall Brigade Encampment (59.40, 26.13)|
-A Hollowstone Mine |QID|12158| |N|Grizzly Hills, Westfall Brigade Encampment (59.40, 26.13)|
+
 T Hollowstone Mine |QID|12158| |N|Grizzly Hills, Hollowstone Mine (55.14, 23.41)|
 A Souls at Unrest |QID|12159| |N|Grizzly Hills, Hollowstone Mine (55.14, 23.41)|
 U |cffffffff|Hitem:37932:0:0:0:0:0:0:1166238033:75|h[Miner's Lantern]|h|r |N|Grizzly Hills, Hollowstone Mine (54.90, 23.01)|
@@ -557,10 +471,6 @@ A A Sister's Pledge |QID|12411| |N|Grizzly Hills, White Pine Trading Post (57.56
 T Sasha's Hunt |QID|12134| |N|Grizzly Hills, White Pine Trading Post (57.47, 41.27)|
 T A Sister's Pledge |QID|12411| |N|Grizzly Hills, Duskhowl Den (64.83, 43.37)|
 A Hour of the Worg |QID|12164| |N|Grizzly Hills, Duskhowl Den (64.98, 43.45)|
-U |cffffffff|Hitem:37173:0:0:0:0:0:0:1195949860:75|h[Geomancer's Orb]|h|r |N|Grizzly Hills, Vordrassil's Limb (33.62, 49.47)|
-- |QID|12220.2| |QO|Orb used beneath Vordrassil's Limb: 1/1| |N|Grizzly Hills, Vordrassil's Limb (32.24, 45.89)|
-- |QID|12219.1| |QO|Slime Sample: 6/6| |N|Grizzly Hills, Vordrassil's Limb (34.20, 49.67)|
-T The Failed World Tree |QID|12219| |N|Grizzly Hills, Amberpine Lodge (31.22, 59.42)|
 U |cff1eff00|Hitem:39098:0:0:0:0:0:0:2031593670:75|h[Rusty Cave Stompers]|h|r |N|Grizzly Hills, Amberpine Lodge (31.38, 59.89)|
 U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Grizzly Hills, Amberpine Lodge (31.38, 59.89)|
 - |QID|12164.1| |QO|Varlam slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle (85.09, 23.84)|
@@ -568,23 +478,4 @@ U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N
 - |QID|12164.4| |QO|Shade of Arugal defeated: 1/1| |N|Grizzly Hills, Shadowfang Tower (87.60, 26.41)|
 - |QID|12164.3| |QO|Goremaw slain: 1/1| |N|Grizzly Hills, Shadowfang Tower (86.82, 26.95)|
 T Hour of the Worg |QID|12164| |N|Grizzly Hills, White Pine Trading Post (57.48, 41.20)|
-U |cff0070dd|Hitem:39168:0:0:0:0:0:0:2104892704:75|h[Worg-Rendering Shoulderguards]|h|r |N|Grizzly Hills, White Pine Trading Post (57.48, 41.20)|
-U |cff1eff00|Hitem:38112:0:0:0:0:0:0:324153853:75|h[Bark Covered Pauldrons]|h|r |N|Grizzly Hills, White Pine Trading Post (57.48, 41.20)|
-- |QID|12220.1| |QO|Orb used beneath Vordrassil's Heart: 1/1| |N|Grizzly Hills, Vordrassil's Heart (41.14, 54.55)|
-- |QID|12220.3| |QO|Orb used beneath Vordrassil's Tears: 1/1| |N|Grizzly Hills, Vordrassil's Tears (30.38, 43.94)|
-T A Dark Influence |QID|12220| |N|Grizzly Hills, Amberpine Lodge (31.26, 59.42)|
-A A Possible Link |QID|12246| |N|Grizzly Hills, Amberpine Lodge (31.26, 59.42)|
-A Children of Ursoc |QID|12247| |N|Grizzly Hills, Amberpine Lodge (31.26, 59.42)|
-- |QID|12247.1| |QO|Orsonn's Story: 1/1| |N|Grizzly Hills, Rage Fang Shrine (48.11, 58.80)|
-- |QID|12247.2| |QO|Kodian's Story: 1/1| |N|Grizzly Hills, Heart's Blood Shrine (66.89, 62.34)|
-- |QID|12246.1| |QO|Crazed Furbolg Blood: 8/8| |N|Grizzly Hills, Heart's Blood Shrine (65.88, 55.07)|
-T A Possible Link |QID|12246| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.54)|
-T Children of Ursoc |QID|12247| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.54)|
-A Vordrassil's Sapling |QID|12248| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.54)|
-A Vordrassil's Seeds |QID|12250| |N|Grizzly Hills, Amberpine Lodge (31.21, 59.54)|
-U |cff1eff00|Hitem:39091:0:0:0:0:0:0:650585324:75|h[Blood-Spattered Spaulders]|h|r |N|Grizzly Hills, Amberpine Lodge (31.57, 59.28)|
-U |cffffffff|Hitem:37306:0:0:0:0:0:0:803813535:75|h[Verdant Torch]|h|r |N|Grizzly Hills, Grizzlemaw (50.64, 42.84)|
-- |QID|12250.1| |QO|Vordrassil's Seed: 8/8| |N|Grizzly Hills, Grizzlemaw (48.64, 40.77)|
-T Vordrassil's Seeds |QID|12250| |N|Grizzly Hills, Amberpine Lodge (31.22, 59.39)|
-T Cleansing Drak'Tharon |QID|12238| |N|Grizzly Hills, Amberpine Lodge (32.01, 60.08)|
 ]]
