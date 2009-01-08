@@ -269,11 +269,30 @@ T Free at Last |QID|12099| |N|Back out in the Ruins of Tethys (79.76, 33.63)|
 T Check Up on Raegar |QID|12128| |N|Follow the road south to Prospector's Point (77.04, 48.58)|
 A The Perfect Plan |QID|12129|
 A The Captive Prospectors |QID|12180|
+
+C The Captive Prospectors |QID|12180| |N|Kill mobs at Dun Argol for keys, then open each cage.  Gann is on the first level, inside the building to the east (76.50, 55.23).  Torgan is on the second level, outside the main building (76.27, 58.52).  Varana is on the top level, again outside the building (75.99, 61.04)|
+C The Perfect Plan |QID|12129| |U|36849| |N|Keep killing rune-smiths for blueprints.  Once you have all three chapters, use one to combine them.|
+
+T The Captive Prospectors |QID|12180| |N|Back down at Prospector's Point (76.99, 48.50)|
+A Looking the Part |QID|12183|
+T The Perfect Plan |QID|12129|
+A Why Fabricate When You Can Appropriate? |QID|12130|
+
+C Why Fabricate When You Can Appropriate? |QID|12130| |N|Find parts all over.  Some are scattered outside, most are in the buildings.|
+C Looking the Part |QID|12183| |N|Kill an overseer, steal his panfs!|
+
+T Looking the Part |QID|12183| |N|Once again, down at Prospector's Point (76.96, 48.48)|
+A Cultivating an Image |QID|12184|
+T Why Fabricate When You Can Appropriate? |QID|12130|
+A We Have the Power |QID|12131|
 ]]
 end)
 
 --[[
 A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
+
+
+U |cffffffff|Hitem:37045:0:0:0:0:0:0:1199045058:75|h[Kilian's Camera]|h|r |N|Grizzly Hills, Dun Argol (76.01, 53.33)|
 ]]
 
 --[[
