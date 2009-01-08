@@ -13,7 +13,7 @@ h Wildhammer Keep
 T Featherbeard's Endorsement |N|South at a small house, near the fireplace (13,55)| |QID|9469|
 A In Pursuit of Featherbeard |QID|9476|
 
-K Mangy Silverman wolves |Q|Preying on the Predators| |QO|Mangy Silvermane slain: 10/10|
+K Mangy Silvermane Wolves |Q|Preying on the Predators| |QO|Mangy Silvermane slain: 10/10|
 N Check First Cage |Q|Witherbark Cages| |QO|Check First Cage: 1/1| |N|At the troll camp (23,58)|
 N Check Second Cage |Q|Witherbark Cages| |QO|Check Second Cage: 1/1| |N|At the troll camp (23,58)|
 C A Gesture of Goodwill |N|To the south in a cave at Bogen's Ledge (25,66)| |QID|9470|
