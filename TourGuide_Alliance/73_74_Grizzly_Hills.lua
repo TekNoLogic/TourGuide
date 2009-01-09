@@ -285,67 +285,29 @@ T Looking the Part |QID|12183| |N|Once again, down at Prospector's Point (76.96,
 A Cultivating an Image |QID|12184|
 T Why Fabricate When You Can Appropriate? |QID|12130|
 A We Have the Power |QID|12131|
+
+C We Have the Power |QID|12131| |N|Head up to the second level, kill Durar (75.00, 57.05) and Kathorn (76.84, 59.26) in the two buildings there.  Also take pictures of any dorfs you kill.| |U|37045|
+C Cultivating an Image |QID|12184| |U|37045| |N|Kill a few more dorfs and take their picture.|
+
+T Cultivating an Image |QID|12184| |N|Back down at Prospector's Point (76.93, 48.43)|
+A Put on Your Best Face for Loken |QID|12185|
+T We Have the Power |QID|12131|
+A ... Or Maybe We Don't |QID|12138|
+
+C Put on Your Best Face for Loken |QID|12185| |U|36936| |N|Summon the golem, kill any lightning sentries you come across on your way up to the second level.  Head to the far building on the second level (81.51, 60.30) and talk to Loki *cough* Loken.|
+C ... Or Maybe We Don't |QID|12138| |U|36936| |N|Summon golem, kill elementals, profit!|
+
+T Put on Your Best Face for Loken |QID|12185| |N|Back at Prospector's Point (76.94, 48.48)|
+T ... Or Maybe We Don't |QID|12138|
+A The Iron Thane and His Anvil |QID|12153|
+A Blackout |QID|12154|
+
+C The Iron Thane and His Anvil |QID|12153| |U|36865| |N|Head up to the building on the top level, use the golem.  Head inside, downstairs, beat up Iron Thane Furyhammer (76.37, 63.66).  You have to use the EMP skill to knock out the golem there so you can kill Furyhammer.|
+C Blackout |QID|12154| |U|36935| |N|Use the explosives on the power core in the center of the room.|
+
+T The Iron Thane and His Anvil |QID|12153| |N|Back down at Prospector's Point (77.10, 48.74)|
+T Blackout |QID|12154|
+
+A Reallocating Resources |QID|12770| |N|Back up at the Westfall Brigade Encampment (59.41, 26.13)|
 ]]
 end)
-
---[[
-A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
-
-
-U |cffffffff|Hitem:37045:0:0:0:0:0:0:1199045058:75|h[Kilian's Camera]|h|r |N|Grizzly Hills, Dun Argol (76.01, 53.33)|
-]]
-
---[[
-T The Call Of The Crusade |QID|12542| |N|Dragonblight, Light's Trust (84.01, 26.17)|
-A The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.01, 26.17)|
-A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.79, 26.68)|
-- |QID|12545.1| |QO|Jintha'kalar Scourge Slain: 15/15| |N|Dragonblight, Jintha'kalar (88.27, 19.71)|
-T The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.06, 26.19)|
-]]
-
---[[
-T Check Up on Raegar |QID|12128| |N|Grizzly Hills, Prospector's Point (77.10, 48.73)|
-A The Perfect Plan |QID|12129| |N|Grizzly Hills, Prospector's Point (77.10, 48.73)|
-A The Captive Prospectors |QID|12180| |N|Grizzly Hills, Prospector's Point (77.00, 48.50)|
-U |cffffffff|Hitem:36851:0:0:0:0:0:0:-1514136568:74|h[Golem Blueprint Section 3]|h|r |N|Grizzly Hills, Dun Argol (76.25, 54.40)|
-- |QID|12129.1| |QO|War Golem Blueprint: 1/1| |N|Grizzly Hills, Dun Argol (76.25, 54.39)|
-- |QID|12180.1| |QO|Prospector Gann Rescued: 1/1| |N|Grizzly Hills, Dun Argol (76.40, 55.14)|
-- |QID|12180.2| |QO|Prospector Torgan Rescued: 1/1| |N|Grizzly Hills, Dun Argol (76.17, 58.47)|
-- |QID|12180.3| |QO|Prospector Varana Rescued: 1/1| |N|Grizzly Hills, Dun Argol (75.88, 60.93)|
-T The Perfect Plan |QID|12129| |N|Grizzly Hills, Prospector's Point (77.10, 48.72)|
-A Why Fabricate When You Can Appropriate? |QID|12130| |N|Grizzly Hills, Prospector's Point (77.10, 48.72)|
-T The Captive Prospectors |QID|12180| |N|Grizzly Hills, Prospector's Point (76.97, 48.50)|
-A Looking the Part |QID|12183| |N|Grizzly Hills, Prospector's Point (76.97, 48.50)|
-- |QID|12183.1| |QO|Overseer's Uniform: 1/1| |N|,  (79.06, 54.72)|
-A Looking the Part |QID|12183| |N|,  (79.06, 54.72)|
-- |QID|12130.1| |QO|War Golem Part: 8/8| |N|Grizzly Hills, Dun Argol (75.17, 57.39)|
-T Looking the Part |QID|12183| |N|Grizzly Hills, Prospector's Point (76.92, 48.49)|
-A Cultivating an Image |QID|12184| |N|Grizzly Hills, Prospector's Point (77.05, 48.60)|
-T Why Fabricate When You Can Appropriate? |QID|12130| |N|Grizzly Hills, Prospector's Point (77.05, 48.60)|
-A We Have the Power |QID|12131| |N|Grizzly Hills, Prospector's Point (77.05, 48.60)|
-U |cffffffff|Hitem:37045:0:0:0:0:0:0:1093432749:75|h[Kilian's Camera]|h|r |N|Grizzly Hills, Dun Argol (76.30, 57.47)|
-- |QID|12131.2| |QO|Kathorn's Power Cell: 1/1| |N|Grizzly Hills, Dun Argol (76.78, 58.87)|
-- |QID|12131.1| |QO|Durar's Power Cell: 1/1| |N|Grizzly Hills, Dun Argol (75.14, 57.21)|
-- |QID|12184.1| |QO|Iron Dwarf Images Captured: 8/8| |N|Grizzly Hills, Dun Argol (76.04, 58.29)|
-T We Have the Power |QID|12131| |N|Grizzly Hills, Prospector's Point (77.10, 48.71)|
-A ... Or Maybe We Don't |QID|12138| |N|Grizzly Hills, Prospector's Point (77.10, 48.71)|
-T Cultivating an Image |QID|12184| |N|Grizzly Hills, Prospector's Point (76.96, 48.49)|
-A Put on Your Best Face for Kronus |QID|12185| |N|Grizzly Hills, Prospector's Point (76.96, 48.49)|
-U |cffffffff|Hitem:37071:0:0:0:0:0:0:1131476572:75|h[Overseer Disguise Kit]|h|r |N|Grizzly Hills, Dun Argol (77.10, 57.22)|
-- |QID|12185.1| |QO|Message from Kronus received: 1/1| |N|Grizzly Hills, Dun Argol (81.51, 60.27)|
-T Put on Your Best Face for Kronus |QID|12185| |N|Grizzly Hills, Prospector's Point (76.92, 48.43)|
-U |cff1eff00|Hitem:39078:0:0:0:0:0:0:108797236:75|h[Whispering Stompers]|h|r |N|Grizzly Hills, Prospector's Point (76.92, 48.43)|
-U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Grizzly Hills, Prospector's Point (76.92, 48.43)|
-U |cffffffff|Hitem:36936:0:0:0:0:0:0:948900858:75|h[Golem Control Unit]|h|r |N|Grizzly Hills, Eastwind Shore (76.17, 49.50)|
-U |cffffffff|Hitem:36936:0:0:0:0:0:0:948900858:75|h[Golem Control Unit]|h|r |N|Grizzly Hills, Eastwind Shore (76.69, 49.93)|
-- |QID|12138.1| |QO|Charge Level: 10/10| |N|Grizzly Hills,  (75.76, 52.03)|
-T ... Or Maybe We Don't |QID|12138| |N|Grizzly Hills, Prospector's Point (77.04, 48.68)|
-A Blackout |QID|12154| |N|Grizzly Hills, Prospector's Point (77.04, 48.68)|
-A The Iron Thane and His Anvil |QID|12153| |N|Grizzly Hills, Prospector's Point (77.04, 48.68)|
-U |cffffffff|Hitem:36935:0:0:0:0:0:0:1146262546:75|h[Raegar's Explosives]|h|r |N|Grizzly Hills, Dun Argol (76.78, 62.85)|
-- |QID|12154.1| |QO|Dun Argol Power Core Destroyed: 1/1| |N|Grizzly Hills, Dun Argol (76.78, 62.85)|
-U |cffffffff|Hitem:36865:0:0:0:0:0:0:247632148:75|h[Golem Control Unit]|h|r |N|Grizzly Hills, Dun Argol (76.60, 63.65)|
-- |QID|12153.1| |QO|Iron Thane Furyhammer slain: 1/1| |N|Grizzly Hills, Dun Argol (76.41, 63.81)|
-T The Iron Thane and His Anvil |QID|12153| |N|Grizzly Hills, Prospector's Point (77.04, 48.75)|
-T Blackout |QID|12154| |N|Grizzly Hills, Prospector's Point (77.04, 48.75)|
-]]
