@@ -368,6 +368,102 @@ A Return to the Spirit Talker |QID|11629|
 T King Mrgl-Mrgl |QID|11702|
 A Learning to Communicate |QID|11571|
 
+C Learning to Communicate |QID|11571| |U|34598|
+
+T Learning to Communicate |QID|11571|
+A Winterfin Commerce |QID|11559|
+
+C Winterfin Commerce |QID|11559|
+
+T Winterfin Commerce |QID|11559|
+A Them! |QID|11561|
+A Oh Noes, the Tadpoles! |QID|11560|
+
+C Oh Noes, the Tadpoles! |QID|11560|
+C Monitoring the Rift: Winterfin Cavern |QID|12728| |U|34669|
+C Them! |QID|11561|
+
+T Them! |QID|11561|
+T Oh Noes, the Tadpoles! |QID|11560|
+A I'm Being Blackmailed By My Cleaner |QID|11562|
+T I'm Being Blackmailed By My Cleaner |QID|11562|
+A Grmmurggll Mrllggrl Glrggl!!! |QID|11563|
+A Succulent Orca Stew |QID|11564|
+
+C Grmmurggll Mrllggrl Glrggl!!! |QID|11563|
+C Succulent Orca Stew |QID|11564|
+
+T Grmmurggll Mrllggrl Glrggl!!! |QID|11563|
+A The Spare Suit |QID|11565|
+T Succulent Orca Stew |QID|11564|
+T The Spare Suit |QID|11565|
+A Surrender... Not! |QID|11566|
+
+A Keymaster Urmgrgl |QID|11569|
+
+C Keymaster Urmgrgl |QID|11569|
+C Surrender... Not! |QID|11566|
+
+T Keymaster Urmgrgl |QID|11569|
+A Escape from the Winterfin Caverns |QID|11570|
+
+C Escape from the Winterfin Caverns |QID|11570|
+
+T Escape from the Winterfin Caverns |QID|11570|
+T Surrender... Not! |QID|11566|
+
+T Report to Steeljaw's Caravan |QID|11591|
+A The Honored Dead |QID|11593|
+A Put Them to Rest |QID|11594|
+A We Strike! |QID|11592|
+
+C The Honored Dead |QID|11593| |U|34692|
+C We Strike! |QID|11592|
+C Put Them to Rest |QID|11594|
+
+T The Honored Dead |QID|11593|
+T Put Them to Rest |QID|11594|
+
+T We Strike! |QID|11592| |T|
+T Return to the Spirit Talker |QID|11629| |T|
+A Vision of Air |QID|11631| |T|
+C Vision of Air |QID|11631| |U|34779| |T|
+T Vision of Air |QID|11631| |T|
+A Farseer Grimwalker's Spirit |QID|11635| |T|
+A Revenge Upon Magmoth |QID|11639| |T|
+
+T Farseer Grimwalker's Spirit |QID|11635| |N|Borean Tundra, Magmoth (56.13, 9.16)|
+A Kaganishu |QID|11637| |N|Borean Tundra, Magmoth (56.16, 9.20)|
+K Kaganishu |Q|Kaganishu| |QO|Kaganishu's Fetish: 1/1|
+C Kaganishu |QID|11637| |U|34781|
+T Kaganishu |QID|11637| |N|Borean Tundra, Magmoth (56.14, 9.15)|
+A Return My Remains |QID|11638|
+C Return My Remains |QID|11638|
+C Revenge Upon Magmoth |QID|11639|
+
+T Return My Remains |QID|11638| |T|
+T Revenge Upon Magmoth |QID|11639| |T|
+
+T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Borean Tundra, Amber Ledge (44.97, 33.45)|
+
+A Not Without a Fight! |QID|11949|
+A Preparing for the Worst |QID|11945|
+
+C Not Without a Fight! |QID|11949|
+C Preparing for the Worst |QID|11945|
+
+T Preparing for the Worst |QID|11945|
+T Not Without a Fight! |QID|11949|
+A Muahit's Wisdom |QID|11950|
+T Muahit's Wisdom |QID|11950|
+A Spirits Watch Over Us |QID|11961|
+
+C Spirits Watch Over Us |QID|11961|
+
+T Spirits Watch Over Us |QID|11961|
+A The Tides Turn |QID|11968|
+C The Tides Turn |QID|11968|
+T The Tides Turn |QID|11968|
 
 ]]
 end)
