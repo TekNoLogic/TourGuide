@@ -5,6 +5,14 @@ return [[
 end)
 
 --[[
+T Reallocating Resources |QID|12770| |N|Zul'Drak, Light's Breach (32.05, 74.46)|
+A This Just In: Fire Still Hot! |QID|12859| |N|Zul'Drak, Light's Breach (32.05, 75.59)|
+A Trolls Is Gone Crazy! |QID|12861| |N|Zul'Drak, Light's Breach (32.16, 75.64)|
+A In Search Of Answers |QID|12902| |N|Zul'Drak, Light's Breach (32.16, 75.64)|
+A Wanted: Ragemane's Flipper |QID|12857| |N|Zul'Drak, Light's Breach (32.22, 75.66)|
+]]
+
+--[[
 T Into the Breach! |QID|12789| |N|Zul'Drak, Light's Breach (32.06, 74.47)|
 A This Just In: Fire Still Hot! |QID|12859| |N|Zul'Drak, Light's Breach (32.02, 75.49)|
 A In Search Of Answers |QID|12902| |N|Zul'Drak, Light's Breach (32.11, 75.78)|

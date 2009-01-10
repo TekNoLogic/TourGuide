@@ -119,15 +119,14 @@ T Children of Ursoc |QID|12247|
 A Vordrassil's Sapling |QID|12248|
 A Vordrassil's Seeds |QID|12250|
 
-C Vordrassil's Sapling |QID|12248| |N|East at Grizzlemaw (50.51, 45.79), jump down into the center.  Use the Verdant Torch on the sapling.|
+C Vordrassil's Sapling |QID|12248| |N|East at Grizzlemaw (50.51, 45.79), jump down into the center.  Use the Verdant Torch on the sapling.| |U|37306|
 C Vordrassil's Seeds |QID|12250| |N|Inside Vordrassil's side rooms, or outside around the edge of the trunk.  North side of the tree seems like a great area.|
 A Mr. Floppy's Perilous Adventure |QID|12027| |N|North of Vordrassil at Heartwood Trading Post, in the tower (49.18, 34.08).  If she's not here, skip this, but do it if you see her later (it's an easy escort).|
 C Mr. Floppy's Perilous Adventure |QID|12027|
 
 T Mr. Floppy's Perilous Adventure |QID|12027| |N|Just east at Westfall Brigade Encampment (59.12, 26.53)|
 T Vordrassil's Sapling |QID|12248| |N|Fly back to Amberpine Lodge (31.22, 59.45)|
-T Vordrassil's Seeds |QID|12250|
-A Ursoc, the Bear God |QID|12249|
+T Vordrassil's Seeds |QID|12250| |N|You may want to take the follow-up and try it once.  Many people seem to be able to solo it with the help of the NPC.|
 
 T Report to Gryan Stoutmantle... Again |QID|12109| |N|Fly back to the Westfall Brigade Encampment (59.41, 26.13)|
 A Hollowstone Mine |QID|12158| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
@@ -141,341 +140,174 @@ T Heart of the Ancients |QID|12042| |N|Northwest at Blue Sky Logging Grounds.  O
 A My Heart is in Your Hands |QID|12802|
 T My Heart is in Your Hands |QID|12802| |N|Due west at the Drak'atal Passage (45.03, 28.33).  You'll have to kill trolls for 5 mojo, of course.|
 A Voices From the Dust |QID|12068|
+
+T Hollowstone Mine |QID|12158| |N|North of camp at the Hollowstone Mine (55.16, 23.46).  There's a path up just west of camp.|
+A Souls at Unrest |QID|12159|
+C Souls at Unrest |QID|12159| |U|37932| |N|Kill undeads, burn them, you should be used to this by now.|
+T Souls at Unrest |QID|12159|
+A A Name from the Past |QID|12160|
+T A Name from the Past |QID|12160| |N|Back at Westfall Brigade Encampment (59.42, 26.13)|
+A Ruuna the Blind |QID|12161|
+T Ruuna the Blind |QID|12161| |N|Take the road west from town, then south through the toppled half of Vordrassil to Ruuna's Camp (44.10, 47.98)|
+A Ruuna's Request |QID|12328|
+C Ruuna's Request |QID|12328| |N|North of Vordrassil, east of the road.|
+T Ruuna's Request |QID|12328| |N|Back at Ruuna's Camp (44.11, 47.98)|
+A Out of Body Experience |QID|12327|
+C Out of Body Experience |QID|12327| |U|37661| |N|Use the potion she gave you.|
+T Out of Body Experience |QID|12327|
+A Fate and Coincidence |QID|12329|
+T Fate and Coincidence |QID|12329| |N|East, on the other side of Grizzlemaw, at the White Pine Trading Post (57.54, 41.22)|
+A Sasha's Hunt |QID|12134|
+A Anatoly Will Talk |QID|12330|
+C Sasha's Hunt |QID|12134|
+C Anatoly Will Talk |QID|12330| |U|37665| |N|You'll find Tatjana on the upper level of the town (62.60, 41.73), on her horse.  Use the tranq dart on her, then hop on the horse.|
+T Sasha's Hunt |QID|12134|
+T Anatoly Will Talk |QID|12330|
+A A Sister's Pledge |QID|12411|
+T A Sister's Pledge |QID|12411| |N|On the other side of the town at the Duskhowl Den (64.85, 43.42)|
+A Hour of the Worg |QID|12164| |N|This is a group quest, but you might as well grab it before the NPC leaves.|
+
+A A Bear of an Appetite |QID|12279| |N|Follow the road down the hill to the Redwood Trading Post (69.11, 40.08)|
+C Softening the Blow |QID|11998| |N|Buy a Howlin' Good Moonshine|
+
+T Softening the Blow |QID|11998| |N|Back at the Westfall Brigade Encampment (59.75, 27.67)|
+A Brothers in Battle |QID|12002|
+
+A Find Kurun! |QID|11981| |N|Head east to Thor Modan (63.63, 23.18)|
+A The Damaged Journal |QID|11986| |N|Up near the main entrance (64.35, 19.86)|
+C The Damaged Journal |QID|11986| |N|Collect pages all over the area.  When you have 8, use the journal.| |U|35739|
+C Brothers in Battle |QID|12002|
+
+T Find Kurun! |QID|11981| |N|Above Thor Modan at Boulder Hills (65.62, 17.84).  You'll have to backtrack a little till you find the road that heads northeast.|
+A Raining Down Destruction |QID|11982|
+C Raining Down Destruction |QID|11982| |N|Find boulders nearby, throw them down at the iron dorfs.  It's easiest to aim for the stationary ones.| |U|35734|
+T Raining Down Destruction |QID|11982| |N|Back up on the hill (65.56, 17.81)|
+A Rallying the Troops |QID|12070|
+C Rallying the Troops |QID|12070| |N|North of the crack.  Use the shard on one of the fighting giants (not the ones throwing boulders), then kill the dorf that spawns. Careful of the elites!| |U|36764|
+T Rallying the Troops |QID|12070| |N|Back up on the hill (65.64, 17.68)|
+A Into the Breach |QID|11985|
+
+T The Damaged Journal |QID|11986| |N|Back at the Westfall Brigade Encampment (59.74, 27.55)|
+A The Runic Keystone |QID|11988|
+T Brothers in Battle |QID|12002|
+A Uncovering the Tunnels |QID|12003|
+C Uncovering the Tunnels |QID|12003| |N|Check each building outside Thor Modan.  North (62.71, 20.87), south (63.48, 28.16), east (66.59, 24.34)|
+C The Runic Keystone |QID|11988| |N|Kill iron dorfs for fragments.|
+T The Runic Keystone |QID|11988| |N|Back at the Westfall Brigade Encampment (59.79, 27.44)|
+A The Runic Prophecies |QID|11993|
+T Uncovering the Tunnels |QID|12003|
+A The Fate of Orlond |QID|12010|
+T The Fate of Orlond |QID|12010| |N|Head into Thor Modan and across the first bridge (67.41, 15.22)|
+A Steady as a Rock? |QID|12014|
+K Threshers |Q|Steady as a Rock?| |QO|Portable Seismograph: 1/1| |N|Hop in the water and kill threshers.|
+C The Runic Prophecies |QID|11993| |N|Read each of the runic plates.  Third (68.51, 16.20), first (68.99, 14.45), second (70.18, 14.67)|
+C Into the Breach |QID|11985| |N|Kill Iron Thane Argrum at the east end of Thor Modan (70.48, 12.95)|
+C Steady as a Rock? |QID|12014| |N|Use the portable seismograph right across the bridge from where you killed Argrum (70.66, 13.37), then talk to the console to get a reading.| |U|35837|
+
+T Into the Breach |QID|11985| |N|Back up above Thor Modan (65.57, 17.68)|
+A Gavrock |QID|12081|
+
+T Steady as a Rock? |QID|12014| |N|Back at Westfall Brigade Encampment (59.74, 27.57)|
+A Check Up on Raegar |QID|12128|
+T The Runic Prophecies |QID|11993|
+
+T Say Hello to My Little Friend |QID|12190| |N|Take the road southeast out of camp down to Harkor's Camp (73.75, 34.10).  Watch out for elites!|
+A Nice to Meat You |QID|12113|
+A Therapy |QID|12114|
+A It Takes Guts....
+
+T Gavrock |QID|12081| |N|Head east onto the islands at the Ruins of Tethys (79.75, 33.64)|
+A Runes of Compulsion |QID|12093|
+C A Bear of an Appetite |QID|12279| |N|Use the fishing net on the schools of fish all around the Ruins of Tethys.| |U|37542|
+
+C Runes of Compulsion |QID|12093| |N|Back on shore, kill the iron dorfs at each of the rune-disc-things, then kill the overseer that spawns.  Brunon (79.16, 43.29), Lochli (74.98, 36.85), Korgan (72.02, 34.34), Durval (67.74, 29.22)|
+C It Takes Guts.... |N|Head down into the Drakil'jin Ruins (71.38, 23.87).  Open jars in the first big room along the walls.|
+C Voices From the Dust |QID|12068| |N|Deeper into the ruins, you'll find the tablets in the corner of a side room (69.39, 18.07)|
+A Dun-da-Dun-tah! |QID|12082| |N|In the same room as the tablets (69.44, 17.51).  If he's not here now, check back next time you're down here.|
+
+T Dun-da-Dun-tah! |QID|12082| |N|Back at Harkor's Camp (73.71, 34.07)|
+T It Takes Guts.... |QID|12116|
+A Drak'aguul's Mallet |QID|12120|
+
+T Runes of Compulsion |QID|12093| |N|Back out in the Ruins of Tethys (79.77, 33.66)|
+A Latent Power |QID|12094|
+
+C Latent Power |QID|12094| |U|36787| |N|Use the shard at each of the ancient stones.  One is near the shore (78.81, 39.88), the other two are up on the hill near treeline (74.14, 44.18) (71.16, 39.71).|
+T A Bear of an Appetite |QID|12279| |N|Back at Redwood Trading Post (69.06, 40.03)|
+C Drak'aguul's Mallet |QID|12120| |N|Kill Drak'aguul, he patrols south of the ruins (72.77, 30.08)|
+
+T Drak'aguul's Mallet |QID|12120| |N|Back at Harkor's Camp (73.88, 34.03)|
+A See You on the Other Side |QID|12121|
+
+T Latent Power |QID|12094| |N|Back out in the Ruins of Tethys (79.74, 33.64)|
+A Free at Last |QID|12099|
+N Giants |N|Use Gavrock's Runebreaker on any giants you come across, it will either make them friendly or non-elite.  You probably also want to kill any shoveltusks and worgs you come across now that the giants aren't a threat.|
+
+C See You on the Other Side |QID|12121| |N|Use the mallet at the gong in front of the entrance to the ruins (71.58, 24.62)|
+T See You on the Other Side |QID|12121| |N|Down inside the ruins, in the second room (69.45, 19.44)|
+A Chill Out, Mon |QID|12137|
+C Chill Out, Mon |QID|12137| |N|Open the chest to get the snow, then talk to the questgiver for a rez.  Head back to the first room, freeze the trolls, the loot the particles from where their mummy was.| |U|36859|
+
+T Chill Out, Mon |QID|12137| |N|Back at Harkor's Camp (73.94, 34.19)|
+A Jin'arrak's End |QID|12152|
+C Jin'arrak's End |QID|12152| |N|Find the offering in the first room of the ruins (71.21, 19.65).  Use the dust on it, then head outside to the gong and place the offering.| |U|37063|
+
+C Therapy |QID|12114| |N|Kill trolls outside the ruins.|
+U |cffffffff|Hitem:35797:0:0:0:0:0:0:1611433190:74|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.19)|
+T Voices From the Dust |QID|12068| |N|Keep killing trolls till you have 5 sacred mojo, then use Drakuru's Elixir at the brazier (71.70, 26.19)|
+A Cleansing Drak'Tharon |QID|12238| |N|This is an instance quest, but the NPC is a pain to summon, so you might as well grab it and hold on to it.|
+
+C Nice to Meat You |QID|12113| |U|36796| |N|Kill worgs and shoveltusks all over the coast.  Don't forget to use the runebreaker on any giants you come across (or that pop right on top of your ass).|
+C Free at Last |QID|12099| |U|36796| |N|Use Gavrock's Runebreaker on the giants.|
+
+T Therapy |QID|12114| |N|Back at Harkor's Camp (73.71, 34.07)|
+T Nice to Meat You |QID|12113|
+T Jin'arrak's End |QID|12152|
+
+T Free at Last |QID|12099| |N|Back out in the Ruins of Tethys (79.76, 33.63)|
+
+T Check Up on Raegar |QID|12128| |N|Follow the road south to Prospector's Point (77.04, 48.58)|
+A The Perfect Plan |QID|12129|
+A The Captive Prospectors |QID|12180|
+
+C The Captive Prospectors |QID|12180| |N|Kill mobs at Dun Argol for keys, then open each cage.  Gann is on the first level, inside the building to the east (76.50, 55.23).  Torgan is on the second level, outside the main building (76.27, 58.52).  Varana is on the top level, again outside the building (75.99, 61.04)|
+C The Perfect Plan |QID|12129| |U|36849| |N|Keep killing rune-smiths for blueprints.  Once you have all three chapters, use one to combine them.|
+
+T The Captive Prospectors |QID|12180| |N|Back down at Prospector's Point (76.99, 48.50)|
+A Looking the Part |QID|12183|
+T The Perfect Plan |QID|12129|
+A Why Fabricate When You Can Appropriate? |QID|12130|
+
+C Why Fabricate When You Can Appropriate? |QID|12130| |N|Find parts all over.  Some are scattered outside, most are in the buildings.|
+C Looking the Part |QID|12183| |N|Kill an overseer, steal his panfs!|
+
+T Looking the Part |QID|12183| |N|Once again, down at Prospector's Point (76.96, 48.48)|
+A Cultivating an Image |QID|12184|
+T Why Fabricate When You Can Appropriate? |QID|12130|
+A We Have the Power |QID|12131|
+
+C We Have the Power |QID|12131| |N|Head up to the second level, kill Durar (75.00, 57.05) and Kathorn (76.84, 59.26) in the two buildings there.  Also take pictures of any dorfs you kill.| |U|37045|
+C Cultivating an Image |QID|12184| |U|37045| |N|Kill a few more dorfs and take their picture.|
+
+T Cultivating an Image |QID|12184| |N|Back down at Prospector's Point (76.93, 48.43)|
+A Put on Your Best Face for Loken |QID|12185|
+T We Have the Power |QID|12131|
+A ... Or Maybe We Don't |QID|12138|
+
+C Put on Your Best Face for Loken |QID|12185| |U|36936| |N|Summon the golem, kill any lightning sentries you come across on your way up to the second level.  Head to the far building on the second level (81.51, 60.30) and talk to Loki *cough* Loken.|
+C ... Or Maybe We Don't |QID|12138| |U|36936| |N|Summon golem, kill elementals, profit!|
+
+T Put on Your Best Face for Loken |QID|12185| |N|Back at Prospector's Point (76.94, 48.48)|
+T ... Or Maybe We Don't |QID|12138|
+A The Iron Thane and His Anvil |QID|12153|
+A Blackout |QID|12154|
+
+C The Iron Thane and His Anvil |QID|12153| |U|36865| |N|Head up to the building on the top level, use the golem.  Head inside, downstairs, beat up Iron Thane Furyhammer (76.37, 63.66).  You have to use the EMP skill to knock out the golem there so you can kill Furyhammer.|
+C Blackout |QID|12154| |U|36935| |N|Use the explosives on the power core in the center of the room.|
+
+T The Iron Thane and His Anvil |QID|12153| |N|Back down at Prospector's Point (77.10, 48.74)|
+T Blackout |QID|12154|
+
+A Reallocating Resources |QID|12770| |N|Back up at the Westfall Brigade Encampment (59.41, 26.13)|
 ]]
 end)
-
---[[
-A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.13)|
-
-T Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Harkor's Camp (73.75, 34.10)|
-A Nice to Meat You |QID|12113| |N|Grizzly Hills, Harkor's Camp (73.75, 34.10)|
-A Therapy |QID|12114| |N|Grizzly Hills, Harkor's Camp (73.75, 34.10)|
-A It Takes Guts.... |QID|12116| |N|Grizzly Hills, Harkor's Camp (73.88, 34.19)|
-]]
-
---[[
-T The Call Of The Crusade |QID|12542| |N|Dragonblight, Light's Trust (84.01, 26.17)|
-A The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.01, 26.17)|
-A Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.40, 26.10)|
-A Reallocating Resources |QID|12770| |N|Grizzly Hills, Westfall Brigade Encampment (59.79, 26.68)|
-- |QID|12545.1| |QO|Jintha'kalar Scourge Slain: 15/15| |N|Dragonblight, Jintha'kalar (88.27, 19.71)|
-T The Cleansing Of Jintha'kalar |QID|12545| |N|Dragonblight, Light's Trust (84.06, 26.19)|
-
-T Hollowstone Mine |QID|12158| |N|Grizzly Hills, Hollowstone Mine (55.13, 23.44)|
-A Souls at Unrest |QID|12159| |N|Grizzly Hills, Hollowstone Mine (55.13, 23.44)|
-- |QID|12159.1| |QO|Miner at Rest: 8/8| |N|Grizzly Hills, Hollowstone Mine (53.92, 22.28)|
-T Souls at Unrest |QID|12159| |N|Grizzly Hills, Hollowstone Mine (55.08, 23.33)|
-A A Name from the Past |QID|12160| |N|Grizzly Hills, Hollowstone Mine (55.08, 23.33)|
-U |cff1eff00|Hitem:39099:0:0:0:0:0:0:87290719:74|h[Carapace of the Fallen]|h|r |N|Grizzly Hills, Hollowstone Mine (55.08, 23.33)|
-- |QID|12249.1| |QO|Ursoc cleansed: 1/1| |N|Grizzly Hills, Ursoc's Den (51.74, 18.03)|
-T A Name from the Past |QID|12160| |N|Grizzly Hills, Westfall Brigade Encampment (59.40, 26.13)|
-A Ruuna the Blind |QID|12161| |N|Grizzly Hills, Westfall Brigade Encampment (59.28, 26.29)|
-T Ursoc, the Bear God |QID|12249| |N|Grizzly Hills, Amberpine Lodge (31.19, 59.46)|
-U |cff0070dd|Hitem:39174:0:0:0:0:0:0:58023388:74|h[Legguards of Dissolved Hope]|h|r |N|Grizzly Hills, Amberpine Lodge (31.19, 59.46)|
-T Ruuna the Blind |QID|12161| |N|Grizzly Hills, Ruuna's Camp (44.07, 48.01)|
-A Ruuna's Request |QID|12328| |N|Grizzly Hills, Ruuna's Camp (44.07, 48.01)|
-- |QID|12328.1| |QO|Gossamer Dust: 4/4| |N|Grizzly Hills,  (51.25, 30.13)|
-T Ruuna's Request |QID|12328| |N|Grizzly Hills, Ruuna's Camp (44.10, 47.96)|
-A Out of Body Experience |QID|12327| |N|Grizzly Hills, Ruuna's Camp (44.14, 47.90)|
-U |cffffffff|Hitem:37661:0:0:0:0:0:0:169624850:74|h[Gossamer Potion]|h|r |N|Grizzly Hills, Ruuna's Camp (44.14, 47.90)|
-- |QID|12327.1| |QO|Vision from the Past| |N|Silverpine Forest, Pyrewood Village (46.52, 76.16)|
-T Out of Body Experience |QID|12327| |N|Grizzly Hills, Ruuna's Camp (44.08, 47.94)|
-A Fate and Coincidence |QID|12329| |N|Grizzly Hills, Ruuna's Camp (44.08, 47.94)|
-T Fate and Coincidence |QID|12329| |N|Grizzly Hills, White Pine Trading Post (57.53, 41.32)|
-A Sasha's Hunt |QID|12134| |N|Grizzly Hills, White Pine Trading Post (57.53, 41.32)|
-A Anatoly Will Talk |QID|12330| |N|Grizzly Hills, White Pine Trading Post (57.53, 41.32)|
-- |QID|12134.1| |QO|Solstice Hunter slain: 12/12| |N|Grizzly Hills, Solstice Village (61.70, 41.92)|
-- |QID|12330.1| |QO|Tatjana Delivered| |N|Grizzly Hills, White Pine Trading Post (57.67, 41.70)|
-T Sasha's Hunt |QID|12134| |N|Grizzly Hills, White Pine Trading Post (57.52, 41.35)|
-T Anatoly Will Talk |QID|12330| |N|Grizzly Hills, White Pine Trading Post (57.52, 41.35)|
-A A Sister's Pledge |QID|12411| |N|Grizzly Hills, White Pine Trading Post (57.52, 41.35)|
-T A Sister's Pledge |QID|12411| |N|Grizzly Hills, Duskhowl Den (64.87, 43.43)|
-A Hour of the Worg |QID|12164| |N|Grizzly Hills, Duskhowl Den (64.87, 43.43)|
-- |QID|12164.1| |QO|Varlam slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle (84.94, 23.62)|
-- |QID|12164.3| |QO|Goremaw slain: 1/1| |N|Grizzly Hills, Shadowfang Tower (86.77, 26.96)|
-- |QID|12164.2| |QO|Selas slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle (85.92, 27.88)|
-- |QID|12164.4| |QO|Shade of Arugal defeated: 1/1| |N|Grizzly Hills, Shadowfang Tower (87.60, 26.52)|
-T Hour of the Worg |QID|12164| |N|Grizzly Hills, Shadowfang Tower (87.14, 25.65)|
-U |cff0070dd|Hitem:39168:0:0:0:0:0:0:1422371258:74|h[Worg-Rendering Shoulderguards]|h|r |N|Grizzly Hills, Shadowfang Tower (87.14, 25.65)|
-- |QID|12068.1| |QO|Drakkari Tablets: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (69.38, 18.14)|
-A Dun-da-Dun-tah! |QID|12082| |N|Grizzly Hills, Drakil'jin Ruins (69.46, 17.50)|
-- |QID|12082.1| |QO|Harrison has escorted you to safety.| |N|Grizzly Hills,  (73.55, 23.97)|
-T Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Harkor's Camp (73.75, 34.11)|
-A Nice to Meat You |QID|12113| |N|Grizzly Hills, Harkor's Camp (73.75, 34.11)|
-A Therapy |QID|12114| |N|Grizzly Hills, Harkor's Camp (73.75, 34.11)|
-T Dun-da-Dun-tah! |QID|12082| |N|Grizzly Hills, Harkor's Camp (73.75, 34.11)|
-A It Takes Guts.... |QID|12116| |N|Grizzly Hills, Harkor's Camp (73.85, 34.22)|
-A A Bear of an Appetite |QID|12279| |N|Grizzly Hills, Redwood Trading Post (69.06, 40.11)|
-- |QID|11998.1| |QO|Howlin' Good Moonshine: 1/1| |N|Grizzly Hills, Redwood Trading Post (69.06, 40.11)|
-- |QID|12113.2| |QO|Shovelhorn Steak: 10/10| |N|Grizzly Hills,  (68.73, 37.58)|
-- |QID|12113.1| |QO|Fibrous Worg Meat: 10/10| |N|Grizzly Hills, Redwood Trading Post (67.74, 39.38)|
-T Nice to Meat You |QID|12113| |N|Grizzly Hills, Harkor's Camp (73.70, 34.06)|
-U |cffffffff|Hitem:37542:0:0:0:0:0:0:807231854:75|h[Fishing Net]|h|r |N|Grizzly Hills, Eastwind Shore (74.60, 30.90)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (80.39, 48.09)|
-- |QID|11998.1| |QO|Howlin' Good Moonshine: 1/1| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
-- |QID|12027.1| |QO|Help Emily and Mr. Floppy return to the camp| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
-- |QID|12068.1| |QO|Drakkari Tablets: 1/1| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
-A My Old Enemy |QID|12464| |N|Grizzly Hills, Amberpine Lodge (31.99, 60.21)|
-U |cff1eff00|Hitem:39079:0:0:0:0:0:0:1530663844:75|h[Bracers of the Chaperon]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.17, 26.55)|
-T Softening the Blow |QID|11998| |N|Grizzly Hills, Westfall Brigade Encampment (59.76, 27.63)|
-A Brothers in Battle |QID|12002| |N|Grizzly Hills, Westfall Brigade Encampment (59.76, 27.63)|
-U |cffffffff|Hitem:37542:0:0:0:0:0:0:807231854:75|h[Fishing Net]|h|r |N|Grizzly Hills, Eastwind Shore (74.91, 32.42)|
-- |QID|12279.1| |QO|Northern Salmon: 6/6| |N|Grizzly Hills, Eastwind Shore (77.07, 36.19)|
-T A Bear of an Appetite |QID|12279| |N|Grizzly Hills, Redwood Trading Post (69.05, 40.13)|
-- |QID|12116.1| |QO|Drakkari Canopic Jar: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (69.86, 20.49)|
-- |QID|12114.2| |QO|Drakkari Oracle slain: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (73.29, 25.23)|
-- |QID|12114.1| |QO|Drakkari Protector slain: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (72.67, 23.49)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:1998957561:75|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.12)|
-T Voices From the Dust |QID|12068| |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.12)|
-T It Takes Guts.... |QID|12116| |N|Grizzly Hills, Harkor's Camp (73.90, 34.25)|
-A Drak'aguul's Mallet |QID|12120| |N|Grizzly Hills, Harkor's Camp (73.90, 34.25)|
-T Therapy |QID|12114| |N|Grizzly Hills, Harkor's Camp (73.76, 34.09)|
-- |QID|12120.1| |QO|Drakil'jin Mallet: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (72.48, 29.88)|
-T Drak'aguul's Mallet |QID|12120| |N|Grizzly Hills, Harkor's Camp (73.91, 34.02)|
-A See You on the Other Side |QID|12121| |N|Grizzly Hills, Harkor's Camp (73.91, 34.02)|
-U |cffffffff|Hitem:36834:0:0:0:0:0:0:2022487143:75|h[Charged Drakil'jin Mallet]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.55, 24.70)|
-- |QID|12121.1| |QO|Death by Warlord Jin'arrak: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (71.55, 24.70)|
-T See You on the Other Side |QID|12121| |N|Grizzly Hills, Drakil'jin Ruins (69.44, 19.51)|
-A Chill Out, Mon |QID|12137| |N|Grizzly Hills, Drakil'jin Ruins (69.44, 19.51)|
-- |QID|12137.1| |QO|Snow of Eternal Slumber: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (69.43, 19.54)|
-U |cffffffff|Hitem:36859:0:0:0:0:0:0:1125289034:75|h[Snow of Eternal Slumber]|h|r |N|Grizzly Hills, Drakil'jin Ruins (70.27, 20.03)|
-- |QID|12137.2| |QO|Drakkari Spirit Particles: 5/5| |N|Grizzly Hills, Drakil'jin Ruins (71.42, 20.08)|
-T Chill Out, Mon |QID|12137| |N|Grizzly Hills, Harkor's Camp (73.90, 34.21)|
-A Jin'arrak's End |QID|12152| |N|Grizzly Hills, Harkor's Camp (73.90, 34.21)|
-U |cffffffff|Hitem:36873:0:0:0:0:0:0:1373619275:75|h[Drakkari Spirit Dust]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.18, 19.73)|
-U |cffffffff|Hitem:37063:0:0:0:0:0:0:1227729781:75|h[Infused Drakkari Offering]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.50, 24.52)|
-- |QID|12152.1| |QO|Warlord Jin'arrak Destroyed: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (71.50, 24.52)|
-T Jin'arrak's End |QID|12152| |N|Grizzly Hills, Harkor's Camp (73.96, 34.18)|
-A Find Kurun! |QID|11981| |N|Grizzly Hills, Thor Modan (63.63, 23.21)|
-T Find Kurun! |QID|11981| |N|Grizzly Hills, Boulder Hills (65.65, 17.79)|
-A Raining Down Destruction |QID|11982| |N|Grizzly Hills, Boulder Hills (65.65, 17.79)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:1492289494:75|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (70.09, 12.81)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:808269456:75|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (69.58, 13.78)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:959524746:75|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (70.15, 12.66)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:1117445793:75|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (70.12, 12.70)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:285495933:75|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (69.58, 13.75)|
-- |QID|11982.1| |QO|Iron Dwarf Operations Disrupted: 5/5| |N|Grizzly Hills, Thor Modan (69.58, 13.75)|
-T Raining Down Destruction |QID|11982| |N|Grizzly Hills, Boulder Hills (65.56, 17.64)|
-A Rallying the Troops |QID|12070| |N|Grizzly Hills, Boulder Hills (65.65, 17.67)|
-U |cffffffff|Hitem:36764:0:0:0:0:0:0:500517614:75|h[Shard of the Earth]|h|r |N|Grizzly Hills, Boulder Hills (68.65, 12.48)|
-- |QID|12070.1| |QO|Grizzly Hills Giants Rallied: 5/5| |N|Grizzly Hills, Boulder Hills (68.51, 4.65)|
-- |QID|12070.2| |QO|Iron Rune Avengers Slain: 5/5| |N|Grizzly Hills, Boulder Hills (68.64, 4.76)|
-T Rallying the Troops |QID|12070| |N|Grizzly Hills, Boulder Hills (65.68, 17.67)|
-A Into the Breach |QID|11985| |N|Grizzly Hills, Boulder Hills (65.68, 17.67)|
-A The Damaged Journal |QID|11986| |N|Grizzly Hills, Thor Modan (64.58, 19.83)|
-- |QID|11985.1| |QO|Iron Thane Argrum slain: 1/1| |N|Grizzly Hills, Thor Modan (69.78, 13.54)|
-- |QID|12002.1| |QO|Runic Battle Golem slain: 10/10| |N|Grizzly Hills, Thor Modan (64.44, 20.20)|
-U |cffffffff|Hitem:35739:0:0:0:0:0:0:1032839624:75|h[Incomplete Journal]|h|r |N|Grizzly Hills, Thor Modan (64.70, 23.70)|
-- |QID|11986.1| |QO|Brann Bronzebeard's Journal: 1/1| |N|Grizzly Hills, Thor Modan (64.70, 23.70)|
-T Into the Breach |QID|11985| |N|Grizzly Hills, Boulder Hills (65.77, 17.68)|
-A Gavrock |QID|12081| |N|Grizzly Hills, Boulder Hills (65.77, 17.68)|
-T Brothers in Battle |QID|12002| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.63)|
-A Uncovering the Tunnels |QID|12003| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.63)|
-T The Damaged Journal |QID|11986| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.57)|
-A The Runic Keystone |QID|11988| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.57)|
-- |QID|12003.3| |QO|Investigate South Building: 1/1| |N|Grizzly Hills, Thor Modan (63.45, 28.10)|
-- |QID|12003.2| |QO|Investigate East Building: 1/1| |N|Grizzly Hills, Thor Modan (66.71, 24.43)|
-- |QID|12003.1| |QO|Investigate North Building: 1/1| |N|Grizzly Hills, Thor Modan (62.63, 20.76)|
-- |QID|11988.1| |QO|Runic Keystone Fragment: 5/5| |N|Grizzly Hills, Thor Modan (65.29, 18.92)|
-T Uncovering the Tunnels |QID|12003| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-A The Fate of Orlond |QID|12010| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-T The Runic Keystone |QID|11988| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-A The Runic Prophecies |QID|11993| |N|Grizzly Hills, Westfall Brigade Encampment (59.64, 27.72)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1641109287:75|h[Hearthstone]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.64, 27.72)|
-]]
-
---[[
-- |QID|12068.1| |QO|Drakkari Tablets: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (69.19, 18.01)|
-T Voices From the Dust |QID|12068| |N|Grizzly Hills, Drakil'jin Ruins (71.71, 26.17)|
-
-T Say Hello to My Little Friend |QID|12190| |N|Grizzly Hills, Squatter's Camp (77.21, 20.19)|
-A Nice to Meat You |QID|12113| |N|Grizzly Hills, Squatter's Camp (77.21, 20.19)|
-A Therapy |QID|12114| |N|Grizzly Hills, Squatter's Camp (77.21, 20.19)|
-A It Takes Guts.... |QID|12116| |N|Grizzly Hills, Squatter's Camp (77.15, 19.88)|
-
-- |QID|12116.1| |QO|Drakkari Canopic Jar: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (71.57, 20.11)|
-A Dun-da-Dun-tah! |QID|12082| |N|Grizzly Hills, Drakil'jin Ruins (69.47, 17.52)|
-- |QID|12082.1| |QO|Harrison has escorted you to safety.| |N|Grizzly Hills,  (73.52, 24.03)|
-- |QID|12114.1| |QO|Drakkari Protector slain: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (70.91, 22.95)|
-- |QID|12114.2| |QO|Drakkari Oracle slain: 10/10| |N|Grizzly Hills, Drakil'jin Ruins (70.52, 27.53)|
-T Dun-da-Dun-tah! |QID|12082| |N|Grizzly Hills, Squatter's Camp (77.19, 20.18)|
-T Therapy |QID|12114| |N|Grizzly Hills, Squatter's Camp (77.19, 20.18)|
-T It Takes Guts.... |QID|12116| |N|Grizzly Hills, Squatter's Camp (77.17, 19.85)|
-A Drak'aguul's Mallet |QID|12120| |N|Grizzly Hills, Squatter's Camp (77.17, 19.85)|
-- |QID|12120.1| |QO|Drakil'jin Mallet: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (72.01, 30.49)|
-T Drak'aguul's Mallet |QID|12120| |N|Grizzly Hills, Squatter's Camp (77.08, 19.89)|
-A See You on the Other Side |QID|12121| |N|Grizzly Hills, Squatter's Camp (77.08, 19.89)|
-U |cffffffff|Hitem:36834:0:0:0:0:0:0:948585883:74|h[Charged Drakil'jin Mallet]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.25, 24.81)|
-- |QID|12121.1| |QO|Death by Warlord Jin'arrak: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (71.10, 24.81)|
-T See You on the Other Side |QID|12121| |N|Grizzly Hills, Drakil'jin Ruins (69.44, 19.42)|
-A Chill Out, Mon |QID|12137| |N|Grizzly Hills, Drakil'jin Ruins (69.44, 19.42)|
-- |QID|12137.1| |QO|Snow of Eternal Slumber: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (69.40, 19.50)|
-U |cffffffff|Hitem:36859:0:0:0:0:0:0:1852574999:74|h[Snow of Eternal Slumber]|h|r |N|Grizzly Hills, Drakil'jin Ruins (70.01, 19.88)|
-- |QID|12137.2| |QO|Drakkari Spirit Particles: 5/5| |N|Grizzly Hills, Drakil'jin Ruins (70.00, 20.56)|
-T Chill Out, Mon |QID|12137| |N|Grizzly Hills, Squatter's Camp (77.07, 19.87)|
-A Jin'arrak's End |QID|12152| |N|Grizzly Hills, Squatter's Camp (77.07, 19.87)|
-U |cffffffff|Hitem:36873:0:0:0:0:0:0:252437236:74|h[Drakkari Spirit Dust]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.38, 22.17)|
-U |cffffffff|Hitem:37063:0:0:0:0:0:0:306364592:74|h[Infused Drakkari Offering]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.41, 24.82)|
-- |QID|12152.1| |QO|Warlord Jin'arrak Destroyed: 1/1| |N|Grizzly Hills, Drakil'jin Ruins (71.41, 24.82)|
-T Jin'arrak's End |QID|12152| |N|Grizzly Hills, Squatter's Camp (77.09, 19.86)|
-A Brothers in Battle |QID|12002| |N|,  (77.46, 49.60)|
-A Find Kurun! |QID|11981| |N|Grizzly Hills, Thor Modan (63.70, 23.19)|
-A The Damaged Journal |QID|11986| |N|Grizzly Hills, Thor Modan (64.35, 19.82)|
-U |cffffffff|Hitem:35739:0:0:0:0:0:0:2081425158:74|h[Incomplete Journal]|h|r |N|Grizzly Hills, Thor Modan (64.03, 22.49)|
-- |QID|11986.1| |QO|Brann Bronzebeard's Journal: 1/1| |N|Grizzly Hills, Thor Modan (64.03, 22.49)|
-- |QID|12002.1| |QO|Runic Battle Golem slain: 10/10| |N|Grizzly Hills, Thor Modan (63.00, 22.72)|
-T Find Kurun! |QID|11981| |N|Grizzly Hills, Boulder Hills (65.73, 17.73)|
-A Raining Down Destruction |QID|11982| |N|Grizzly Hills, Boulder Hills (65.73, 17.73)|
-A Raining Down Destruction |QID|11982| |N|Grizzly Hills, Boulder Hills (65.73, 17.68)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:682186376:74|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (67.75, 14.89)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:327137628:74|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (67.88, 14.94)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:1308563880:74|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (68.50, 14.59)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:905982876:74|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (68.10, 14.83)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:738754346:74|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (67.80, 14.88)|
-U |cffffffff|Hitem:35734:0:0:0:0:0:0:1882934028:74|h[Boulder]|h|r |N|Grizzly Hills, Thor Modan (68.39, 14.58)|
-- |QID|11982.1| |QO|Iron Dwarf Operations Disrupted: 5/5| |N|Grizzly Hills, Thor Modan (68.39, 14.58)|
-T Raining Down Destruction |QID|11982| |N|Grizzly Hills, Boulder Hills (65.72, 17.66)|
-A Rallying the Troops |QID|12070| |N|Grizzly Hills, Boulder Hills (65.72, 17.66)|
-U |cffffffff|Hitem:36764:0:0:0:0:0:0:566422100:74|h[Shard of the Earth]|h|r |N|Grizzly Hills, Boulder Hills (67.86, 11.31)|
-- |QID|12070.1| |QO|Grizzly Hills Giants Rallied: 5/5| |N|Grizzly Hills, Boulder Hills (70.25, 9.18)|
-- |QID|12070.2| |QO|Iron Rune Avengers Slain: 5/5| |N|Grizzly Hills, Boulder Hills (70.65, 9.51)|
-T Rallying the Troops |QID|12070| |N|Grizzly Hills, Boulder Hills (65.66, 17.67)|
-A Into the Breach |QID|11985| |N|Grizzly Hills, Boulder Hills (65.69, 17.71)|
-- |QID|11985.1| |QO|Iron Thane Argrum slain: 1/1| |N|Grizzly Hills, Thor Modan (70.54, 13.64)|
-T Into the Breach |QID|11985| |N|Grizzly Hills, Boulder Hills (65.72, 17.70)|
-A Gavrock |QID|12081| |N|Grizzly Hills, Boulder Hills (65.72, 17.70)|
-T The Damaged Journal |QID|11986| |N|Grizzly Hills, Westfall Brigade Encampment (59.77, 27.52)|
-T Brothers in Battle |QID|12002| |N|Grizzly Hills, Westfall Brigade Encampment (59.77, 27.52)|
-A Uncovering the Tunnels |QID|12003| |N|Grizzly Hills, Westfall Brigade Encampment (59.77, 27.52)|
-A The Runic Keystone |QID|11988| |N|Grizzly Hills, Westfall Brigade Encampment (59.77, 27.52)|
-- |QID|12003.3| |QO|Investigate South Building: 1/1| |N|Grizzly Hills, Thor Modan (63.42, 28.14)|
-- |QID|12003.1| |QO|Investigate North Building: 1/1| |N|Grizzly Hills, Thor Modan (62.69, 20.78)|
-- |QID|12003.2| |QO|Investigate East Building: 1/1| |N|Grizzly Hills, Thor Modan (66.57, 24.41)|
-- |QID|11988.1| |QO|Runic Keystone Fragment: 5/5| |N|Grizzly Hills, Thor Modan (65.33, 18.54)|
-T Uncovering the Tunnels |QID|12003| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-A The Fate of Orlond |QID|12010| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-T The Runic Keystone |QID|11988| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-A The Runic Prophecies |QID|11993| |N|Grizzly Hills, Westfall Brigade Encampment (59.75, 27.59)|
-A The Runic Prophecies |QID|11993| |N|Grizzly Hills, Westfall Brigade Encampment (59.74, 27.57)|
-T The Fate of Orlond |QID|12010| |N|Grizzly Hills, Thor Modan (67.44, 15.24)|
-A Steady as a Rock? |QID|12014| |N|Grizzly Hills, Thor Modan (67.44, 15.24)|
-U |cffffffff|Hitem:35746:0:0:0:0:0:0:168718795:74|h[Runic Keystone]|h|r |N|Grizzly Hills, Thor Modan (68.48, 16.09)|
-- |QID|11993.3| |QO|Third Prophecy Deciphered: 1/1| |N|Grizzly Hills, Thor Modan (68.50, 16.16)|
-- |QID|11993.1| |QO|First Prophecy Deciphered: 1/1| |N|Grizzly Hills, Thor Modan (69.00, 14.54)|
-- |QID|11993.2| |QO|Second Prophecy Deciphered: 1/1| |N|Grizzly Hills, Thor Modan (70.13, 14.62)|
-- |QID|12014.1| |QO|Thor Modan Stability Profile: 1/1| |N|Grizzly Hills, Thor Modan (70.62, 13.43)|
-- |QID|12014.2| |QO|Portable Seismograph: 1/1| |N|Grizzly Hills, Thor Modan (70.13, 13.88)|
-T The Runic Prophecies |QID|11993| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.56)|
-U |cff1eff00|Hitem:39075:0:0:0:0:0:0:1246287392:74|h[Waywalker's Girdle]|h|r |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.56)|
-T Steady as a Rock? |QID|12014| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.56)|
-A Check Up on Raegar |QID|12128| |N|Grizzly Hills, Westfall Brigade Encampment (59.73, 27.56)|
-T Gavrock |QID|12081| |N|Grizzly Hills, Ruins of Tethys (79.77, 33.63)|
-A Runes of Compulsion |QID|12093| |N|Grizzly Hills, Ruins of Tethys (79.77, 33.63)|
-- |QID|12093.3| |QO|Overseer Lochli slain: 1/1| |N|Grizzly Hills, Eastwind Shore (75.66, 37.50)|
-- |QID|12093.1| |QO|Overseer Durval slain: 1/1| |N|Grizzly Hills, Eastwind Shore (67.73, 29.33)|
-- |QID|12093.2| |QO|Overseer Korgan slain: 1/1| |N|Grizzly Hills, Eastwind Shore (71.58, 34.44)|
-- |QID|12093.4| |QO|Overseer Brunon slain: 1/1| |N|Grizzly Hills, Eastwind Shore (79.11, 43.72)|
-T Runes of Compulsion |QID|12093| |N|Grizzly Hills, Ruins of Tethys (79.78, 33.66)|
-A Latent Power |QID|12094| |N|Grizzly Hills, Ruins of Tethys (79.78, 33.66)|
-U |cffffffff|Hitem:36787:0:0:0:0:0:0:1232320696:74|h[Shard of Gavrock]|h|r |N|Grizzly Hills, Eastwind Shore (79.03, 40.04)|
-- |QID|12094.2| |QO|Power Drawn from East Stone: 1/1| |N|Grizzly Hills, Eastwind Shore (79.03, 40.04)|
-- |QID|12094.1| |QO|Power Drawn from North Stone: 1/1| |N|Grizzly Hills,  (71.31, 39.91)|
-- |QID|12094.3| |QO|Power Drawn from South Stone: 1/1| |N|Grizzly Hills,  (74.23, 44.21)|
-T Latent Power |QID|12094| |N|Grizzly Hills, Ruins of Tethys (79.77, 33.61)|
-A Free at Last |QID|12099| |N|Grizzly Hills, Ruins of Tethys (79.77, 33.61)|
-U |cffffffff|Hitem:36796:0:0:0:0:0:0:1724298994:74|h[Gavrock's Runebreaker]|h|r |N|Grizzly Hills, Eastwind Shore (74.00, 36.96)|
-- |QID|12099.1| |QO|Runed Giants Freed: 4/4| |N|Grizzly Hills, Eastwind Shore (69.18, 31.32)|
-T Free at Last |QID|12099| |N|Grizzly Hills, Ruins of Tethys (79.70, 33.59)|
-T Check Up on Raegar |QID|12128| |N|Grizzly Hills, Prospector's Point (77.10, 48.73)|
-A The Perfect Plan |QID|12129| |N|Grizzly Hills, Prospector's Point (77.10, 48.73)|
-A The Captive Prospectors |QID|12180| |N|Grizzly Hills, Prospector's Point (77.00, 48.50)|
-U |cffffffff|Hitem:36851:0:0:0:0:0:0:-1514136568:74|h[Golem Blueprint Section 3]|h|r |N|Grizzly Hills, Dun Argol (76.25, 54.40)|
-- |QID|12129.1| |QO|War Golem Blueprint: 1/1| |N|Grizzly Hills, Dun Argol (76.25, 54.39)|
-- |QID|12180.1| |QO|Prospector Gann Rescued: 1/1| |N|Grizzly Hills, Dun Argol (76.40, 55.14)|
-- |QID|12180.2| |QO|Prospector Torgan Rescued: 1/1| |N|Grizzly Hills, Dun Argol (76.17, 58.47)|
-- |QID|12180.3| |QO|Prospector Varana Rescued: 1/1| |N|Grizzly Hills, Dun Argol (75.88, 60.93)|
-T The Perfect Plan |QID|12129| |N|Grizzly Hills, Prospector's Point (77.10, 48.72)|
-A Why Fabricate When You Can Appropriate? |QID|12130| |N|Grizzly Hills, Prospector's Point (77.10, 48.72)|
-T The Captive Prospectors |QID|12180| |N|Grizzly Hills, Prospector's Point (76.97, 48.50)|
-A Looking the Part |QID|12183| |N|Grizzly Hills, Prospector's Point (76.97, 48.50)|
-- |QID|12183.1| |QO|Overseer's Uniform: 1/1| |N|,  (79.06, 54.72)|
-A Looking the Part |QID|12183| |N|,  (79.06, 54.72)|
-- |QID|12130.1| |QO|War Golem Part: 8/8| |N|Grizzly Hills, Dun Argol (75.17, 57.39)|
-T Looking the Part |QID|12183| |N|Grizzly Hills, Prospector's Point (76.92, 48.49)|
-A Cultivating an Image |QID|12184| |N|Grizzly Hills, Prospector's Point (77.05, 48.60)|
-T Why Fabricate When You Can Appropriate? |QID|12130| |N|Grizzly Hills, Prospector's Point (77.05, 48.60)|
-A We Have the Power |QID|12131| |N|Grizzly Hills, Prospector's Point (77.05, 48.60)|
-U |cffffffff|Hitem:37045:0:0:0:0:0:0:1093432749:75|h[Kilian's Camera]|h|r |N|Grizzly Hills, Dun Argol (76.30, 57.47)|
-- |QID|12131.2| |QO|Kathorn's Power Cell: 1/1| |N|Grizzly Hills, Dun Argol (76.78, 58.87)|
-- |QID|12131.1| |QO|Durar's Power Cell: 1/1| |N|Grizzly Hills, Dun Argol (75.14, 57.21)|
-- |QID|12184.1| |QO|Iron Dwarf Images Captured: 8/8| |N|Grizzly Hills, Dun Argol (76.04, 58.29)|
-T We Have the Power |QID|12131| |N|Grizzly Hills, Prospector's Point (77.10, 48.71)|
-A ... Or Maybe We Don't |QID|12138| |N|Grizzly Hills, Prospector's Point (77.10, 48.71)|
-T Cultivating an Image |QID|12184| |N|Grizzly Hills, Prospector's Point (76.96, 48.49)|
-A Put on Your Best Face for Kronus |QID|12185| |N|Grizzly Hills, Prospector's Point (76.96, 48.49)|
-U |cffffffff|Hitem:37071:0:0:0:0:0:0:1131476572:75|h[Overseer Disguise Kit]|h|r |N|Grizzly Hills, Dun Argol (77.10, 57.22)|
-- |QID|12185.1| |QO|Message from Kronus received: 1/1| |N|Grizzly Hills, Dun Argol (81.51, 60.27)|
-T Put on Your Best Face for Kronus |QID|12185| |N|Grizzly Hills, Prospector's Point (76.92, 48.43)|
-U |cff1eff00|Hitem:39078:0:0:0:0:0:0:108797236:75|h[Whispering Stompers]|h|r |N|Grizzly Hills, Prospector's Point (76.92, 48.43)|
-U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Grizzly Hills, Prospector's Point (76.92, 48.43)|
-U |cffffffff|Hitem:36936:0:0:0:0:0:0:948900858:75|h[Golem Control Unit]|h|r |N|Grizzly Hills, Eastwind Shore (76.17, 49.50)|
-U |cffffffff|Hitem:36936:0:0:0:0:0:0:948900858:75|h[Golem Control Unit]|h|r |N|Grizzly Hills, Eastwind Shore (76.69, 49.93)|
-- |QID|12138.1| |QO|Charge Level: 10/10| |N|Grizzly Hills,  (75.76, 52.03)|
-T ... Or Maybe We Don't |QID|12138| |N|Grizzly Hills, Prospector's Point (77.04, 48.68)|
-A Blackout |QID|12154| |N|Grizzly Hills, Prospector's Point (77.04, 48.68)|
-A The Iron Thane and His Anvil |QID|12153| |N|Grizzly Hills, Prospector's Point (77.04, 48.68)|
-U |cffffffff|Hitem:36935:0:0:0:0:0:0:1146262546:75|h[Raegar's Explosives]|h|r |N|Grizzly Hills, Dun Argol (76.78, 62.85)|
-- |QID|12154.1| |QO|Dun Argol Power Core Destroyed: 1/1| |N|Grizzly Hills, Dun Argol (76.78, 62.85)|
-U |cffffffff|Hitem:36865:0:0:0:0:0:0:247632148:75|h[Golem Control Unit]|h|r |N|Grizzly Hills, Dun Argol (76.60, 63.65)|
-- |QID|12153.1| |QO|Iron Thane Furyhammer slain: 1/1| |N|Grizzly Hills, Dun Argol (76.41, 63.81)|
-T The Iron Thane and His Anvil |QID|12153| |N|Grizzly Hills, Prospector's Point (77.04, 48.75)|
-T Blackout |QID|12154| |N|Grizzly Hills, Prospector's Point (77.04, 48.75)|
-U |cff1eff00|Hitem:39076:0:0:0:0:0:0:198375153:75|h[Golem-Rider's Greaves]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (83.89, 50.05)|
-U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (83.89, 50.05)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.87, 48.21)|
-U |cffffffff|Hitem:22829:0:0:0:0:0:0:1954128964:75|h[Super Healing Potion]|h|r |N|Howling Fjord, Giants' Run (73.18, 21.88)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.97, 45.69)|
-U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r |N|Shadowmoon Valley, Wildhammer Stronghold (37.62, 55.49)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Shadowmoon Valley, Wildhammer Stronghold (37.62, 55.49)|
-- |QID|12217.1| |QO|Imperial Eagle slain: 5/5| |N|Grizzly Hills,  (37.57, 60.30)|
-T Eagle Eyes |QID|12217| |N|Grizzly Hills, Amberpine Lodge (32.11, 60.04)|
-
-T Hollowstone Mine |QID|12158| |N|Grizzly Hills, Hollowstone Mine (55.14, 23.41)|
-A Souls at Unrest |QID|12159| |N|Grizzly Hills, Hollowstone Mine (55.14, 23.41)|
-U |cffffffff|Hitem:37932:0:0:0:0:0:0:1166238033:75|h[Miner's Lantern]|h|r |N|Grizzly Hills, Hollowstone Mine (54.90, 23.01)|
-- |QID|12159.1| |QO|Miner at Rest: 8/8| |N|Grizzly Hills, Hollowstone Mine (53.84, 21.80)|
-T Souls at Unrest |QID|12159| |N|Grizzly Hills, Hollowstone Mine (55.09, 23.32)|
-A A Name from the Past |QID|12160| |N|Grizzly Hills, Hollowstone Mine (55.09, 23.32)|
-U |cff1eff00|Hitem:39099:0:0:0:0:0:0:964746030:75|h[Carapace of the Fallen]|h|r |N|Grizzly Hills, Hollowstone Mine (55.09, 23.32)|
-T A Name from the Past |QID|12160| |N|Grizzly Hills, Westfall Brigade Encampment (59.41, 26.10)|
-A Ruuna the Blind |QID|12161| |N|Grizzly Hills, Westfall Brigade Encampment (59.25, 26.15)|
-T Ruuna the Blind |QID|12161| |N|Grizzly Hills, Ruuna's Camp (44.11, 47.93)|
-A Ruuna's Request |QID|12328| |N|Grizzly Hills, Ruuna's Camp (44.11, 47.93)|
-- |QID|12328.1| |QO|Gossamer Dust: 4/4| |N|Grizzly Hills,  (47.90, 37.39)|
-T Ruuna's Request |QID|12328| |N|Grizzly Hills, Ruuna's Camp (44.07, 47.98)|
-A Out of Body Experience |QID|12327| |N|Grizzly Hills, Ruuna's Camp (44.07, 47.98)|
-U |cff1eff00|Hitem:39092:0:0:0:0:0:0:1773312532:75|h[Thought-Purifying Protector]|h|r |N|Grizzly Hills, Ruuna's Camp (44.11, 47.98)|
-U |cff1eff00|Hitem:39081:0:0:0:0:0:0:1825178922:75|h[Spiritforged Helm]|h|r |N|Grizzly Hills, Ruuna's Camp (44.11, 47.98)|
-U |cffffffff|Hitem:37661:0:0:0:0:0:0:157078044:75|h[Gossamer Potion]|h|r |N|Grizzly Hills, Ruuna's Camp (44.11, 47.98)|
-- |QID|12327.1| |QO|Vision from the Past| |N|Silverpine Forest, Pyrewood Village (46.52, 76.16)|
-T Out of Body Experience |QID|12327| |N|Grizzly Hills, Ruuna's Camp (44.08, 47.92)|
-A Fate and Coincidence |QID|12329| |N|Grizzly Hills, Ruuna's Camp (44.08, 47.92)|
-T Fate and Coincidence |QID|12329| |N|Grizzly Hills, White Pine Trading Post (57.49, 41.22)|
-A Sasha's Hunt |QID|12134| |N|Grizzly Hills, White Pine Trading Post (57.49, 41.22)|
-A Anatoly Will Talk |QID|12330| |N|Grizzly Hills, White Pine Trading Post (57.49, 41.22)|
-U |cffffffff|Hitem:37665:0:0:0:0:0:0:1187262786:75|h[Tranquilizer Dart]|h|r |N|Grizzly Hills, Solstice Village (62.51, 42.39)|
-- |QID|12330.1| |QO|Tatjana Delivered| |N|Grizzly Hills, White Pine Trading Post (57.75, 41.70)|
-T Anatoly Will Talk |QID|12330| |N|Grizzly Hills, White Pine Trading Post (57.54, 41.31)|
-A A Sister's Pledge |QID|12411| |N|Grizzly Hills, White Pine Trading Post (57.56, 41.21)|
-- |QID|12134.1| |QO|Solstice Hunter slain: 12/12| |N|Grizzly Hills, Solstice Village (60.40, 41.80)|
-T Sasha's Hunt |QID|12134| |N|Grizzly Hills, White Pine Trading Post (57.47, 41.27)|
-T A Sister's Pledge |QID|12411| |N|Grizzly Hills, Duskhowl Den (64.83, 43.37)|
-A Hour of the Worg |QID|12164| |N|Grizzly Hills, Duskhowl Den (64.98, 43.45)|
-U |cff1eff00|Hitem:39098:0:0:0:0:0:0:2031593670:75|h[Rusty Cave Stompers]|h|r |N|Grizzly Hills, Amberpine Lodge (31.38, 59.89)|
-U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Grizzly Hills, Amberpine Lodge (31.38, 59.89)|
-- |QID|12164.1| |QO|Varlam slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle (85.09, 23.84)|
-- |QID|12164.2| |QO|Selas slain: 1/1| |N|Grizzly Hills, Bloodmoon Isle (85.77, 27.57)|
-- |QID|12164.4| |QO|Shade of Arugal defeated: 1/1| |N|Grizzly Hills, Shadowfang Tower (87.60, 26.41)|
-- |QID|12164.3| |QO|Goremaw slain: 1/1| |N|Grizzly Hills, Shadowfang Tower (86.82, 26.95)|
-T Hour of the Worg |QID|12164| |N|Grizzly Hills, White Pine Trading Post (57.48, 41.20)|
-]]
