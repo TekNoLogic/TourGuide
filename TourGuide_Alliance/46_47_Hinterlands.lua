@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("The Hinterlands (46-47)", "Feralas (47)", "Alliance", function()
 return [[
-F Southshore
+F Southshore |N|Fly to Theramore, boat to Menethil, fly to Southshore|
 R The Hinterlands |N|Path is behind Durnholde Keep (84,33), look for two gryphons.| |Z|Hillsbrad Foothills|
 A Witherbark Cages |N|Up the big-ass hill (11,46)| |QID|2988|
 A Featherbeard's Endorsement |N|Outside the inn| |QID|9469|
