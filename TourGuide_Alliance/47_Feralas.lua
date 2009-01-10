@@ -33,6 +33,8 @@ T The Morrow Stone |QID|2942|
 
 A An Orphan Looking For a Home |N|East at the grimtotem camp (65.9, 45.6)| |NODEBUG| |QID|3841|
 R Thalanaar |N|Follow the road east to the border of Thousand Needles.  Watch out for the horde town!|
+A Thalanaar Delivery |N|You should have recieved a quest starting item when you raided the leather backpacks in an earlier guide. If not, skip this| |U|11463| |QID|4281|
+T Thalanaar Delivery |QID|4281|
 ]]
 
 end)
