@@ -30,6 +30,7 @@ T Improved Quality |QID|7733|
 A Pristine Yeti Hide |O| |U|18969| |QID|7735|
 T Pristine Yeti Hide |O| |QID|7735|
 T The Morrow Stone |QID|2942|
+A The Sunken Temple |QID|3445|
 
 A An Orphan Looking For a Home |N|East at the grimtotem camp (65.9, 45.6)| |NODEBUG| |QID|3841|
 R Thalanaar |N|Follow the road east to the border of Thousand Needles.  Watch out for the horde town!|
