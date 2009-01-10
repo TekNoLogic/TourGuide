@@ -34,8 +34,8 @@ A The Altar of Zul |QID|2989|
 T In Pursuit of Featherbeard |N|To the southeast in Shadar'Alor, in the east temple (37,72)| |QID|9476|
 A Reclaiming the Eggs |QID|9475|
 
-C Reclaiming the Eggs |N|Two eggs at the alter on the southe edge of the pond (34.16, 72.91), 3 near Atal'ai Exile in a troff (33,75)| |QID|9475|
-C The Altar of Zul |N|East at the Altar of Zul (48,68).  Just run up the alter and back down, the mob at the top is level 50.| |QID|2989|
+C Reclaiming the Eggs |N|Two eggs at the altar on the south edge of the pond (34.16, 72.91), 3 near Atal'ai Exile in a troff (33,75)| |QID|9475|
+C The Altar of Zul |N|East at the Altar of Zul (48,68).  Just run up the altar and back down, the mob at the top is level 50.| |QID|2989|
 C Favored of Elune? |QID|3661|
 
 A Find OOX-09/HL! |U|8704| |O| |QID|485|
