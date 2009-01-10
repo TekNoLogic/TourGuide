@@ -465,5 +465,133 @@ A The Tides Turn |QID|11968|
 C The Tides Turn |QID|11968|
 T The Tides Turn |QID|11968|
 
+T Ride to Taunka'le Village |QID|11888| |T|
+A What Are They Up To? |QID|11890| |T|
+A Scouting the Sinkholes |QID|11684| |T|
+A Load 'er Up! |QID|11881| |T|
+A Sage Highmesa is Missing |QID|11674| |T|
+T Hellscream's Champion |QID|11916| |T|
+
+C Scouting the Sinkholes |QID|11684| |U|34920|
+C What Are They Up To? |QID|11890|
+
+A Emergency Supplies |QID|11887|
+C Emergency Supplies |QID|11887|
+C Load 'er Up! |QID|11881| |U|35272|
+
+T Load 'er Up! |QID|11881| |T|
+T Emergency Supplies |QID|11887| |T|
+A The Power of the Elements |QID|11893| |T|
+T Scouting the Sinkholes |QID|11684| |T|
+A The Heart of the Elements |QID|11685| |T|
+T What Are They Up To? |QID|11890| |T|
+A Master the Storm |QID|11895| |T|
+C Master the Storm |QID|11895| |T|
+T Master the Storm |QID|11895| |T|
+A Weakness to Lightning |QID|11896| |T|
+A Cleaning Up the Pools |QID|11906| |T|
+A Souls of the Decursed |QID|11899| |T|
+
+C The Power of the Elements |QID|11893| |U|35281|
+C Weakness to Lightning |QID|11896| |U|35352|
+C Souls of the Decursed |QID|11899| |U|35401|
+C Cleaning Up the Pools |QID|11906|
+
+C The Heart of the Elements |QID|11685| |N|Borean Tundra,  (87.76, 46.05)|
+
+T Weakness to Lightning |QID|11896| |T|
+A The Sub-Chieftains |QID|11907| |T|
+T The Power of the Elements |QID|11893| |T|
+A Patching Up |QID|11894| |T|
+T Souls of the Decursed |QID|11899| |T|
+A Defeat the Gearmaster |QID|11909| |T|
+T Cleaning Up the Pools |QID|11906| |T|
+T The Heart of the Elements |QID|11685| |T|
+A The Horn of Elemental Fury |QID|11695| |T|
+
+C The Horn of Elemental Fury |QID|11695|
+
+T The Horn of Elemental Fury |QID|11695| |T|
+A The Collapse |QID|11706| |T|
+
+C The Collapse |QID|11706| |U|34968|
+
+C Patching Up |QID|11894| |U|35288|
+
+C The Sub-Chieftains |QID|11907|
+C Defeat the Gearmaster |QID|11909|
+
+T The Collapse |QID|11706| |T|
+T Patching Up |QID|11894| |T|
+T Defeat the Gearmaster |QID|11909| |T|
+T The Sub-Chieftains |QID|11907| |T|
+A Shrouds of the Scourge |QID|11628| |T|
+
+T Sage Highmesa is Missing |QID|11674| |N|Borean Tundra,  (74.61, 23.72)|
+A A Proper Death |QID|11675| |N|Borean Tundra,  (74.62, 23.52)|
+
+C A Proper Death |QID|11675|
+C Shrouds of the Scourge |QID|11628|
+
+T A Proper Death |QID|11675|
+A Stop the Plague |QID|11677|
+
+T Shrouds of the Scourge |QID|11628| |T|
+A The Bad Earth |QID|11630| |T|
+
+C Stop the Plague |QID|11677| |U|34913|
+
+T Stop the Plague |QID|11677|
+A Find Bristlehorn |QID|11678|
+A Fallen Necropolis |QID|11683|
+
+T Find Bristlehorn |QID|11678|
+A The Doctor and the Lich-Lord |QID|11687| |N|Borean Tundra, Talramas (69.75, 12.65)|
+
+C The Doctor and the Lich-Lord |QID|11687|
+C Fallen Necropolis |QID|11683|
+
+T The Doctor and the Lich-Lord |QID|11687|
+A Return with the Bad News |QID|11689|
+T Fallen Necropolis |QID|11683|
+
+C The Bad Earth |QID|11630|
+
+T The Bad Earth |QID|11630| |T|
+A Blending In |QID|11633| |T|
+T Return with the Bad News |QID|11689| |T|
+
+C Blending In |QID|11633| |U|34782| |N|If you aggro an abomination and the shroud drops you need to unequip then re-equip it.|
+
+T Blending In |QID|11633| |T|
+A Words of Power |QID|11640| |T|
+A A Courageous Strike |QID|11641| |T|
+A Neutralizing the Cauldrons |QID|11647| |T|
+
+A The Spire of Blood |QID|11654| |U|34815| |O|
+T The Spire of Blood |QID|11654| |O|
+A Shatter the Orbs! |QID|11659| |O|
+C Shatter the Orbs! |QID|11659| |O|
+
+C Neutralizing the Cauldrons |QID|11647| |U|34806|
+C Words of Power |QID|11640|
+C A Courageous Strike |QID|11641|
+
+T Shatter the Orbs! |QID|11659| |T|
+T Neutralizing the Cauldrons |QID|11647| |T|
+T A Courageous Strike |QID|11641| |T|
+T Words of Power |QID|11640| |T|
+A Breaking Through |QID|11898| |T|
+
+C Breaking Through |QID|11898|
+
+T Breaking Through |QID|11898| |T|
+A The Fall of Taunka'le Village |QID|11929| |T|
+T The Fall of Taunka'le Village |QID|11929||T|
+A Across Transborea |QID|11930| |T|
+
+C Across Transborea |QID|11930|
+
+T Across Transborea |QID|11930| |Z|Dragonblight|
 ]]
 end)
