@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Borean Tundra (70-71)", nil, "Horde", function()
+TourGuide:RegisterGuide("Borean Tundra (70-72)", nil, "Horde", function()
 return [[
 A Hellscream's Vigil |QID|11585| |T|
 T Hellscream's Vigil |QID|11585| |T|
