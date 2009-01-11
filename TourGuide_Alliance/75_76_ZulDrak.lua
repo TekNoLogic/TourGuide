@@ -1,51 +1,84 @@
 
 TourGuide:RegisterGuide("Zul'Drak (75-76)", "Sholazar Basin (76-77)", "Alliance", function()
 return [[
+A Reallocating Resources |QID|12770| |N|At the Westfall Brigade Encampment in Grizzly Hills (59.41, 26.13)|
+T Reallocating Resources |QID|12770| |N|Talk to the flightmaster for a flight to Light's Breach (32.05, 74.46)|
+A This Just In: Fire Still Hot! |QID|12859|
+A Trolls Is Gone Crazy! |QID|12861|
+A In Search Of Answers |QID|12902|
+
+T In Search Of Answers |QID|12902| |N|Find the scroll to the southeast at the Rageclaw Den (34.92, 83.84)|
+A Orders From Drakuru |QID|12883|
+C This Just In: Fire Still Hot! |QID|12859| |U|41131| |N|Use the fire extinguisher to put out the huts.|
+C Trolls Is Gone Crazy! |QID|12861| |U|41161| |N|Use the "Lock Openers" dropped by the trolls to free the tanukis.|
+
+T This Just In: Fire Still Hot! |QID|12859| |N|Back at Light's Breach (32.06, 75.52)|
+T Trolls Is Gone Crazy! |QID|12861|
+T Orders From Drakuru |QID|12883|
+A The Ebon Watch |QID|12884|
+A Crusader Forward Camp |QID|12894|
+
+T The Ebon Watch |QID|12884| |N|To the west at Ebon Watch (14.14, 73.82)|
+A Kickin' Nass and Takin' Manes |QID|12630|
+C Kickin' Nass and Takin' Manes |QID|12630| |U|38659| |N|Kill trolls, kick Nass!|
+A An Invitation, of Sorts... |QID|12631| |U|38660| |N|From the Unliving Choker that dropped.  If you didn't get it, keep killin' trolls till you do.|
+
+T Kickin' Nass and Takin' Manes |QID|12630| |N|Back at Ebon Watch (14.14, 73.80)|
+T An Invitation, of Sorts... |QID|12631|
+A Near Miss |QID|12637|
+C Near Miss |QID|12637| |N|Talk to Bloodrose Datura for a... demonstration.|
+A Taking a Stand |QID|12795|
+T Near Miss |QID|12637|
+A You Can Run, But You Can't Hide |QID|12629|
+C You Can Run, But You Can't Hide |QID|12629| |N|To the east around the Reliquary of Agony (21,74).  Kill abominations and loot "drool" off the ground.|
+T You Can Run, But You Can't Hide |QID|12629| |N|Back at Ebon Watch (14.09, 73.72)|
+A Dressing Down |QID|12648|
+
+C Dressing Down |QID|12648| |U|38699| |N|Head back to the Reliquary of Agony and use the Ensorcelled Choker.  Talk to Gristlegut (19.82, 75.32) to buy the plasma.|
+A Feedin' Da Goolz |QID|12652| |U|38699|
+C Feedin' Da Goolz |QID|12652| |U|38701| |N|Use the bowl near the ghouls to feed them.  Watch out for the blightguards.|
+T Feedin' Da Goolz |QID|12652| |U|38699|
+
+T Dressing Down |QID|12648| |N|Back at Ebon Watch (14.12, 73.74)|
+A Infiltrating Voltarus |QID|12661|
+
+T Crusader Forward Camp |QID|12894| |N|To the northeast (25.26, 64.06)|
+A That's What Friends Are For... |QID|12903|
+A Making Something Out Of Nothing |QID|12901|
+
+A A Great Storm Approaches |QID|12912| |N|To the east in a big cage at Thrym's End (20.03, 56.59)|
+A Light Won't Grant Me Vengeance |QID|12904| |N|Just west of Gymer (17.61, 57.50)|
+N Find Burr |Q|That's What Friends Are For...| |QO|Burr found: 1/1| |N|A bit further to the west (15.57, 59.46)|
+C Making Something Out Of Nothing |QID|12901|
+C That's What Friends Are For... |QID|12903| |N|Find Crusader Dargath to the northeast in the ruins at Dargath's Demise (24.73, 51.54)|
+
+T That's What Friends Are For... |QID|12903| |N|Back at the Crusader Forward Camp (25.31, 63.80)|
+T Making Something Out Of Nothing |QID|12901|
+T A Great Storm Approaches |QID|12912|
+A Gymer's Salvation |QID|12914|
+
+A Dark Horizon |QID|12664| |U|38699| |N|Due north of the Crusader Forward Camp.  Put on your disguise and hop on the platform to port to Voltarus (27.13, 46.14)|
+C Dark Horizon |QID|12664| |U|38699| |N|Talk to Gorebag on the southern outcropping (29.71, 48.10) for a ride.|
+T Dark Horizon |QID|12664| |U|38699|
+T Infiltrating Voltarus |QID|12661| |U|41390| |N|Port back down to the ground, blow Stefan's horn.|
+A So Far, So Bad |QID|12669|
+A It Rolls Downhill |QID|12673| |U|38699| |N|Back up in Voltarus (27.16, 46.09)|
+C It Rolls Downhill |QID|12673| |U|39157| |N|Use the scepter on a geist, send it to fetch a crystal, repeat.  You won't get credit till the geist ports up to Voltarus, so don't grab another one before you get credit.  Make sure you don't have a pet or the scepter won't work.|
+T It Rolls Downhill |QID|12673| |U|38699| |N|Back up in Voltarus (27.15, 46.09)|
+C So Far, So Bad |QID|12669| |U|39154| |N|Back down on the ground, use the additive on the cauldrens.  This will spawn mobs, so don't hang around and get aggro.  There's a few cauldrens to the east (31,44) (31,45), and a few to the south (27,46) (29,47).|
+T So Far, So Bad |QID|12669| |U|41390| |N|Blow Stefan's horn... again...|
+A Hazardous Materials |QID|12677|
 ]]
 end)
 
 --[[
-T Reallocating Resources |QID|12770| |N|Zul'Drak, Light's Breach (32.05, 74.46)|
-A This Just In: Fire Still Hot! |QID|12859| |N|Zul'Drak, Light's Breach (32.05, 75.59)|
-A Trolls Is Gone Crazy! |QID|12861| |N|Zul'Drak, Light's Breach (32.16, 75.64)|
-A In Search Of Answers |QID|12902| |N|Zul'Drak, Light's Breach (32.16, 75.64)|
-A Wanted: Ragemane's Flipper |QID|12857| |N|Zul'Drak, Light's Breach (32.22, 75.66)|
+- |QID|12904.1| |QO|Vargul slain: 15/15| |N|Zul'Drak, Thrym's End (19.12, 57.60)|
+T Light Won't Grant Me Vengeance |QID|12904| |N|Zul'Drak, Thrym's End (17.62, 57.59)|
 ]]
 
 --[[
-T Into the Breach! |QID|12789| |N|Zul'Drak, Light's Breach (32.06, 74.47)|
-A This Just In: Fire Still Hot! |QID|12859| |N|Zul'Drak, Light's Breach (32.02, 75.49)|
-A In Search Of Answers |QID|12902| |N|Zul'Drak, Light's Breach (32.11, 75.78)|
-A Trolls Is Gone Crazy! |QID|12861| |N|Zul'Drak, Light's Breach (32.15, 75.70)|
-A Wanted: Ragemane's Flipper |QID|12857| |N|Zul'Drak, Light's Breach (32.22, 75.70)|
-U |cffffffff|Hitem:41131:0:0:0:0:0:0:930645670:75|h[Rageclaw Fire Extinguisher]|h|r |N|Zul'Drak, Rageclaw Den (33.82, 80.75)|
-U |cffffffff|Hitem:41161:0:0:0:0:0:0:-2091780926:75|h[Drakuru \"Lock Opener\"]|h|r |N|Zul'Drak, Rageclaw Den (34.79, 81.00)|
-U |cffffffff|Hitem:41161:0:0:0:0:0:0:-2083851897:75|h[Drakuru \"Lock Opener\"]|h|r |N|Zul'Drak, Rageclaw Den (34.82, 80.94)|
-T In Search Of Answers |QID|12902| |N|Zul'Drak, Rageclaw Den (34.97, 83.83)|
-A Orders From Drakuru |QID|12883| |N|Zul'Drak, Rageclaw Den (35.01, 83.88)|
-U |cffffffff|Hitem:38551:0:0:0:0:0:0:-1815416441:75|h[Drakkari Offerings]|h|r |N|Zul'Drak, Rageclaw Den (34.98, 84.34)|
-- |QID|12859.1| |QO|Hut Fire Doused: 15/15| |N|Zul'Drak, Rageclaw Den (34.59, 84.15)|
-U |cffffffff|Hitem:41161:0:0:0:0:0:0:1876696960:75|h[Drakuru \"Lock Opener\"]|h|r |N|Zul'Drak, Rageclaw Den (33.91, 84.48)|
-U |cffffffff|Hitem:41161:0:0:0:0:0:0:1039499929:75|h[Drakuru \"Lock Opener\"]|h|r |N|Zul'Drak, Rageclaw Den (34.10, 82.17)|
-- |QID|12861.1| |QO|Captured Rageclaw Freed: 8/8| |N|Zul'Drak, Rageclaw Den (34.04, 82.02)|
-T This Just In: Fire Still Hot! |QID|12859| |N|Zul'Drak, Light's Breach (31.99, 75.62)|
-T Trolls Is Gone Crazy! |QID|12861| |N|Zul'Drak, Light's Breach (32.23, 75.56)|
-T Orders From Drakuru |QID|12883| |N|Zul'Drak, Light's Breach (32.18, 75.78)|
-A The Ebon Watch |QID|12884| |N|Zul'Drak, Light's Breach (32.18, 75.78)|
 A Crusader Forward Camp |QID|12894| |N|Zul'Drak, Light's Breach (32.18, 75.78)|
-T The Ebon Watch |QID|12884| |N|Zul'Drak, Ebon Watch (14.04, 73.71)|
-A Kickin' Nass and Takin' Manes |QID|12630| |N|Zul'Drak, Ebon Watch (14.07, 73.60)|
-U |cffffffff|Hitem:38659:0:0:0:0:0:0:328224468:75|h[Stefan's Steel Toed Boot]|h|r |N|Zul'Drak,  (16.67, 73.05)|
-U |cffffffff|Hitem:38660:0:0:0:0:0:0:1715113706:75|h[Unliving Choker]|h|r |N|Zul'Drak,  (16.67, 73.05)|
-A An Invitation, of Sorts... |QID|12631| |N|Zul'Drak,  (16.67, 73.05)|
-U |cffffffff|Hitem:38659:0:0:0:0:0:0:328224468:75|h[Stefan's Steel Toed Boot]|h|r |N|Zul'Drak,  (16.88, 72.62)|
-- |QID|12630.1| |QO|Hair Samples Collected: 10/10| |N|Zul'Drak,  (17.43, 72.52)|
-T An Invitation, of Sorts... |QID|12631| |N|Zul'Drak, Ebon Watch (14.11, 73.75)|
-A Near Miss |QID|12637| |N|Zul'Drak, Ebon Watch (14.11, 73.75)|
-T Kickin' Nass and Takin' Manes |QID|12630| |N|Zul'Drak, Ebon Watch (14.11, 73.75)|
-A Taking a Stand |QID|12795| |N|Zul'Drak, Ebon Watch (14.36, 73.86)|
-- |QID|12857.1| |QO|Ragemane's Flipper: 1/1| |N|Zul'Drak, Rageclaw Lake (38.29, 84.38)|
-T Wanted: Ragemane's Flipper |QID|12857| |N|Zul'Drak, Light's Breach (32.21, 75.58)|
+
 T Taking a Stand |QID|12795| |N|Zul'Drak, The Argent Stand (39.38, 66.97)|
 A Defend the Stand |QID|12503| |N|Zul'Drak, The Argent Stand (39.38, 66.97)|
 A The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.47, 56.29)|
@@ -71,44 +104,10 @@ U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r 
 U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
 U |cff1eff00|Hitem:39098:0:0:0:0:0:0:2031593670:75|h[Rusty Cave Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
 U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
-- |QID|12637.1| |QO|Choker's Purpose Exposed: 1/1| |N|Zul'Drak, Ebon Watch (14.31, 73.97)|
-T Near Miss |QID|12637| |N|Zul'Drak, Ebon Watch (14.08, 73.77)|
-A You Can Run, But You Can't Hide |QID|12629| |N|Zul'Drak, Ebon Watch (14.08, 73.77)|
-- |QID|12629.2| |QO|Gooey Ghoul Drool: 7/7| |N|Zul'Drak,  (21.43, 80.16)|
-- |QID|12629.1| |QO|Putrid Abomination Guts: 7/7| |N|Zul'Drak,  (21.45, 80.15)|
-T You Can Run, But You Can't Hide |QID|12629| |N|Zul'Drak, Ebon Watch (14.08, 73.72)|
-A Dressing Down |QID|12648| |N|Zul'Drak, Ebon Watch (14.08, 73.69)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak,  (17.26, 74.35)|
-- |QID|12648.1| |QO|Bitter Plasma: 1/1| |N|Zul'Drak, Reliquary of Agony (19.91, 75.38)|
-A Feedin' Da Goolz |QID|12652| |N|Zul'Drak, Reliquary of Agony (19.91, 75.38)|
-U |cffffffff|Hitem:38701:0:0:0:0:0:0:1866279832:75|h[Bowels and Brains Bowl]|h|r |N|Zul'Drak, Reliquary of Agony (20.17, 74.61)|
-- |QID|12652.1| |QO|Ghouls fed: 10/10| |N|Zul'Drak, Reliquary of Agony (21.42, 74.22)|
-T Feedin' Da Goolz |QID|12652| |N|Zul'Drak, Reliquary of Agony (19.93, 75.41)|
-T Dressing Down |QID|12648| |N|Zul'Drak, Ebon Watch (14.11, 73.83)|
-A Infiltrating Voltarus |QID|12661| |N|Zul'Drak, Ebon Watch (14.11, 73.83)|
 A Parachutes for the Argent Crusade |QID|12740| |N|Zul'Drak, The Argent Stand (39.48, 66.92)|
 - |QID|12565.1| |QO|Drakkari Offerings: 10/10| |N|Zul'Drak, The Argent Stand (40.56, 65.61)|
 A The Blessing of Zim'Abwa |QID|12565| |N|Zul'Drak, The Argent Stand (40.56, 65.61)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak, Reliquary of Pain (27.90, 50.27)|
-A Dark Horizon |QID|12664| |N|Zul'Drak, Voltarus (27.10, 46.14)|
-- |QID|12664.1| |QO|Tour of Zul'Drak complete: 1/1| |N|Zul'Drak, Voltarus (27.77, 44.92)|
-- |QID|12661.1| |QO|Overlord Drakuru's task complete: 1/1| |N|Zul'Drak, Voltarus (27.16, 46.12)|
-T Dark Horizon |QID|12664| |N|Zul'Drak, Voltarus (27.16, 46.12)|
-U |cffffffff|Hitem:41390:0:0:0:0:0:0:1452448413:75|h[Stefan's Horn]|h|r |N|Zul'Drak, Voltarus (27.59, 45.64)|
-T Infiltrating Voltarus |QID|12661| |N|Zul'Drak, Voltarus (27.59, 45.64)|
-A So Far, So Bad |QID|12669| |N|Zul'Drak, Voltarus (27.59, 45.64)|
-A It Rolls Downhill |QID|12673| |N|Zul'Drak, Voltarus (27.10, 46.15)|
-U |cffffffff|Hitem:39157:0:0:0:0:0:0:1602057753:75|h[Scepter of Suggestion]|h|r |N|Zul'Drak, Reliquary of Pain (28.10, 44.22)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak, Reliquary of Pain (29.00, 43.19)|
-U |cffffffff|Hitem:38551:0:0:0:0:0:0:-1815416441:75|h[Drakkari Offerings]|h|r |N|Zul'Drak, Reliquary of Pain (29.64, 44.44)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:2061235098:75|h[Drakuru's Elixir]|h|r |N|Zul'Drak, Reliquary of Pain (31.21, 43.97)|
-U |cffffffff|Hitem:39154:0:0:0:0:0:0:992091732:75|h[Diluting Additive]|h|r |N|Zul'Drak, Reliquary of Pain (31.21, 43.97)|
-- |QID|12669.2| |QO|Blight Cauldrons diluted: 5/5| |N|Zul'Drak, Reliquary of Pain (30.07, 47.68)|
-- |QID|12673.1| |QO|Blight Crystals collected: 10/10| |N|Zul'Drak, Reliquary of Pain (28.58, 44.86)|
-- |QID|12669.1| |QO|Drakuru's task complete: 1/1| |N|Zul'Drak, Voltarus (27.12, 46.15)|
-T It Rolls Downhill |QID|12673| |N|Zul'Drak, Voltarus (27.12, 46.15)|
-T So Far, So Bad |QID|12669| |N|Zul'Drak, Voltarus (27.77, 45.47)|
-A Hazardous Materials |QID|12677| |N|Zul'Drak, Voltarus (27.77, 45.47)|
+
 A Zero Tolerance |QID|12686| |N|Zul'Drak, Voltarus (27.07, 46.14)|
 - |QID|12677.2| |QO|Harvested Blight Crystal: 5/5| |N|Zul'Drak, Voltarus (30.03, 43.74)|
 U |cffffffff|Hitem:39206:0:0:0:0:0:0:836714016:75|h[Scepter of Empowerment]|h|r |N|Zul'Drak, Reliquary of Pain (31.24, 42.59)|
@@ -248,20 +247,6 @@ T Precious Elemental Fluids |QID|12510| |N|Zul'Drak, The Argent Stand (40.57, 65
 A Mushroom Mixer |QID|12514| |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
 U |cff1eff00|Hitem:39805:0:0:0:0:0:0:720524318:76|h[Chestplate of the Altar]|h|r |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
 A Gluttonous Lurkers |QID|12527| |N|Zul'Drak, The Argent Stand (41.33, 65.08)|
-A Vordrassil's Sapling |QID|12248| |N|Zul'Drak, The Argent Stand (40.66, 66.65)|
-U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:76|h[Winged Steed of the Ebon Blade]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (81.86, 48.71)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:76|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (81.86, 48.71)|
-U |cffffffff|Hitem:37933:0:0:0:0:0:0:493618843:76|h[Zelig's Scrying Orb]|h|r |N|Dragonblight, Frostmourne Cavern (75.01, 20.32)|
-- |QID|12478.1| |QO|Secrets of the Past Revealed: 1/1| |N|Dragonblight, Frostmourne Cavern (75.06, 20.31)|
-T Frostmourne Cavern |QID|12478| |N|Dragonblight, Wintergarde Keep (79.10, 47.21)|
-U |cff0070dd|Hitem:38533:0:0:0:0:0:0:2005982896:76|h[Girdle of Forceful Annihilation]|h|r |N|Dragonblight, Wintergarde Keep (79.10, 47.21)|
-U |cffffffff|Hitem:37306:0:0:0:0:0:0:803813535:76|h[Verdant Torch]|h|r |N|Grizzly Hills, Grizzlemaw (50.90, 42.61)|
-- |QID|12248.1| |QO|Vordrassil's Ashes: 1/1| |N|Grizzly Hills, Grizzlemaw (50.90, 42.61)|
-T Vordrassil's Sapling |QID|12248| |N|Grizzly Hills, Amberpine Lodge (31.23, 59.44)|
-A Ursoc, the Bear God |QID|12249| |N|Grizzly Hills, Amberpine Lodge (31.23, 59.44)|
-U |cffffffff|Hitem:37307:0:0:0:0:0:0:9339734:76|h[Purified Ashes of Vordrassil]|h|r |N|Grizzly Hills, Ursoc's Den (52.03, 17.73)|
-- |QID|12249.1| |QO|Ursoc Cleansed: 1/1| |N|Grizzly Hills, Ursoc's Den (52.03, 17.73)|
-T Ursoc, the Bear God |QID|12249| |N|Grizzly Hills, Amberpine Lodge (31.22, 59.42)|
 - |QID|12514.1| |QO|Muddlecap Fungus: 10/10| |N|Zul'Drak, Drak'Agal (41.40, 56.02)|
 U |cffffffff|Hitem:38380:0:0:0:0:0:0:1371702438:76|h[Zul'Drak Rat]|h|r |N|Zul'Drak, Drak'Agal (41.13, 59.79)|
 - |QID|12527.1| |QO|Basilisk Crystals: 5/5| |N|Zul'Drak, Drak'Agal (42.41, 58.87)|
@@ -315,39 +300,6 @@ T Sealing the Rifts |QID|12640| |N|Zul'Drak, Zim'Torga (59.15, 56.29)|
 A Bringing Down Heb'Jin |QID|12662| |N|Zul'Drak, Zim'Torga (59.36, 56.44)|
 A Scalps! |QID|12659| |N|Zul'Drak, Zim'Torga (59.12, 56.29)|
 U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:76|h[Winged Steed of the Ebon Blade]|h|r |N|Shattrath City, Bank (48.91, 29.18)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:950598766:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:421855260:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:-1644482872:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:326790180:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:-1943535606:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:767364114:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1000689008:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1912216626:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:2092724948:76|h[Frostweave Cloth]|h|r |N|Shattrath City, Bank (48.25, 28.94)|
-U |cffffffff|Hitem:33448:0:0:0:0:0:0:220395638:76|h[Runic Mana Potion]|h|r |N|Shattrath City, Bank (46.96, 25.67)|
-U |cffffffff|Hitem:33448:0:0:0:0:0:0:536476394:76|h[Runic Mana Potion]|h|r |N|Shattrath City, Bank (46.96, 25.67)|
-U |cff1eff00|Hitem:39798:0:0:0:0:0:0:695583412:76|h[Ring of Ancestral Protectors]|h|r |N|Stormwind City, Trade District (64.15, 80.48)|
-U |cff0070dd|Hitem:41846:0:0:0:0:0:0:1429423495:76|h[Clutch of the Storm Giant]|h|r |N|Stormwind City, Trade District (64.15, 80.48)|
-U |cff0070dd|Hitem:38226:0:0:0:0:0:0:1873472072:76|h[Chain of the Tolling Bell]|h|r |N|Stormwind City, Trade District (64.15, 80.48)|
-U |cff0070dd|Hitem:39175:0:0:0:0:0:0:535008689:76|h[Leggings of Forceful Purification]|h|r |N|Stormwind City, Trade District (64.15, 80.48)|
-U |cffffffff|Hitem:42253:0:0:0:0:0:0:1817757776:76|h[Iceweb Spider Silk]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:37836:0:0:0:0:0:0:1114966825:76|h[Venture Coin]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:76|h[Ensorcelled Choker]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:39664:0:0:0:0:0:0:1441604536:76|h[Scepter of Domination]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:41390:0:0:0:0:0:0:1452448413:76|h[Stefan's Horn]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1746515834:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1064241412:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1874068074:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:37837:0:0:0:0:0:0:1656526027:76|h[Fat Lute]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cff1eff00|Hitem:39889:0:0:0:0:0:0:490278042:76|h[Horn of Argent Fury]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1762555775:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1371895688:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1517091871:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:-1250187114:76|h[Frostweave Cloth]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cff1eff00|Hitem:39786:0:0:0:0:0:0:1092014144:76|h[Band of the Bloodletter]|h|r |N|Stormwind City, Trade District (63.27, 81.11)|
-U |cff1eff00|Hitem:39891:0:0:0:0:0:0:897537114:76|h[Brazen Offender's Helm]|h|r |N|Stormwind City, Trade District (64.72, 71.93)|
-U |cff1eff00|Hitem:39092:0:0:0:0:0:0:1773312532:76|h[Thought-Purifying Protector]|h|r |N|Stormwind City, Trade District (64.72, 71.93)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:76|h[Hearthstone]|h|r |N|Stormwind City, Trade District (63.72, 72.69)|
 U |cffffffff|Hitem:38731:0:0:0:0:0:0:477621184:76|h[Ahunae's Knife]|h|r |N|Zul'Drak,  (61.73, 56.04)|
 - |QID|12662.1| |QO|Heb'Jin slain: 1/1| |N|Zul'Drak, Heb'Drakkar (64.41, 52.43)|
 - |QID|12659.1| |QO|Heb'Drakkar trolls scalped: 10/10| |N|Zul'Drak, Heb'Drakkar (64.12, 52.20)|

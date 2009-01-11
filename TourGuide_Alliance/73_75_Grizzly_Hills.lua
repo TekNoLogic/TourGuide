@@ -307,7 +307,5 @@ C Blackout |QID|12154| |U|36935| |N|Use the explosives on the power core in the 
 
 T The Iron Thane and His Anvil |QID|12153| |N|Back down at Prospector's Point (77.10, 48.74)|
 T Blackout |QID|12154|
-
-A Reallocating Resources |QID|12770| |N|Back up at the Westfall Brigade Encampment (59.41, 26.13)|
 ]]
 end)
