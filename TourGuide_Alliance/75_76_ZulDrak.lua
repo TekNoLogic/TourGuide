@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Zul'Drak (74-75)", "Sholazar Basin (76-77)", "Alliance", function()
+TourGuide:RegisterGuide("Zul'Drak (75-76)", "Sholazar Basin (76-77)", "Alliance", function()
 return [[
 ]]
 end)
