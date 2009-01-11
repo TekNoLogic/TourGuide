@@ -124,7 +124,7 @@ T The Prodigal Lich |N|In the magic quarter| |QID|405|
 A The Lich's Identity |QID|357|
 A The Deathstalkers |C|Rogue| |QID|1978|
 
-C At War With The Scarlet Crusade |N|Leave Undercity through the sewers and you'll end up near the mobs for this quest.| |QID|427| |NODEBUG|
+C At War With The Scarlet Crusade (Part 2) |N|Leave Undercity through the sewers and you'll end up near the mobs for this quest.| |QID|370| |NODEBUG|
 C Proof of Demise |QID|374|
 C The Deathstalkers |C|Rogue| |QID|1978|
 

@@ -43,8 +43,8 @@ A Wanted: Bonelashers Dead! |N|Off the wanted poster outside the town hall| |QID
 A Olemba Seeds |QID|9992|
 A Speak with Private Weeks |QID|10038|
 A Thin the Flock |QID|10869|
-A Stymying the Arakkoa |QID|9986|
 A Secrets of the Arakkoa |QID|10863|
+A Stymying the Arakkoa |QID|9986|
 A Unruly Neighbors |QID|9998|
 A Timber Worg Tails |QID|10016|
 T Concerns About Tuurem |QID|10104| |O| |N|You should have either this or "The Fate of Tuurem"|

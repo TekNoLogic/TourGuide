@@ -16,8 +16,8 @@ F Thunder Bluff |R|Tauren|
 A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T| |QID|1195|
 
 F Camp Taurajo
-A Melor Sends Word |T| |QID|1130|
 A Tribes at War |T| |QID|878|
+A Melor Sends Word |T| |QID|1130|
 C Lost in Battle |N|In a hut off the road north of Camp Taurajo (49.31, 50.34)| |QID|4921| |R|Tauren|
 C Consumed by Hatred |N|Southeast of Mankrik's wife, northeast of Camp Taurajo| |QID|899|
 C Tribes at War |QID|878|
@@ -28,10 +28,10 @@ T Blood Shards of Agamaggan |T| |QID|5052|
 A Betrayal from Within (Part 1) |T| |QID|879|
 
 F The Crossroads
+A Egg Hunt |T| |QID|868|
+A Report to Kadrak |T| |QID|6541|
 T Consumed by Hatred |T| |QID|899|
 T Lost in Battle |T| |QID|4921|
-A Egg Hunt |T| |QID|868|
-A Report to Kadrak |T| |QID|6542|
 
 R Ratchet
 A Ziz Fizziks |T| |QID|1483|
