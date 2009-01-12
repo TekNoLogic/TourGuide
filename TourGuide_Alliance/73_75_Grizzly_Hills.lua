@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Grizzly Hills (73-75)", "Zul'Drak (75-76)", "Alliance", function()
+TourGuide:RegisterGuide("Grizzly Hills (73-75)", nil, "Alliance", function()
 return [[
 N Dalaran |N|When you hit 74 you can pick up a quest in the lodge that will give you a free port to Dalaran.  DO NOT TURN IT IN WHEN YOU GET THERE.  As long as you have the quest you can get free ports from mages in most of the major Northrend towns.  This means you can set your hearth in Grizzly Hills, but still have fast access to all the major cities.  When you're ready to set hearth in Dalaran, then you should turn in the quest.|
 
