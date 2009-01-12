@@ -61,4 +61,6 @@
 	<Script file="70_72_Borean_Tundra.lua"/>
 	<Script file="72_73_Dragonblight.lua"/>
 	<Script file="73_75_Grizzly_Hills.lua"/>
+	<Script file="75_76_ZulDrak.lua"/>
+	<Script file="76_77_Sholazar_Basin.lua"/>
 </Ui>
