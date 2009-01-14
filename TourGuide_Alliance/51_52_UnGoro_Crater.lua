@@ -51,7 +51,7 @@ C The Apes of Un'Goro |QID|4289|
 C Super Sticky |N|At the tarpits in the north half of the zone| |QID|4504|
 N Find [Crate of Foodstuffs] |N|At the abandoned camp in the east side of the zone (68.52, 36.59)| |L|11113|
 C Muigin and Larion |N|Kill lasher around the camp area.  Also kill any diemetradons or pterrordaxes you come across| |QID|4141|
-C The Eastern Pylon |N|To the east, of course (76,51)| |QID|4287|
+C The Eastern Pylon |N|To the east, of course (77.2,50)| |QID|4287|
 U Open Torwa's Pouch |U|11568|
 U Place the meat |U|11569| |N|At the flat rock behind the east pylon (79.9, 49.9)|
 C The Bait for Lar'korwi |U|11570| |QID|4292| |N|Use the pheromone mixture, kill him!|
