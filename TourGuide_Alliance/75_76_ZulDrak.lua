@@ -18,6 +18,23 @@ T Orders From Drakuru |QID|12883|
 A The Ebon Watch |QID|12884|
 A Crusader Forward Camp |QID|12894|
 
+T Crusader Forward Camp |QID|12894| |N|To the north (25.26, 64.06)|
+A That's What Friends Are For... |QID|12903|
+A Making Something Out Of Nothing |QID|12901|
+
+A A Great Storm Approaches |QID|12912| |N|To the east in a big cage at Thrym's End (20.03, 56.59)|
+A Light Won't Grant Me Vengeance |QID|12904| |N|Just west of Gymer (17.61, 57.50)|
+N Find Burr |Q|That's What Friends Are For...| |QO|Burr found: 1/1| |N|A bit further to the west (15.57, 59.46)|
+C Making Something Out Of Nothing |QID|12901|
+C That's What Friends Are For... |QID|12903| |N|Find Crusader Dargath to the northeast in the ruins at Dargath's Demise (24.73, 51.54)|
+
+T That's What Friends Are For... |QID|12903| |N|Back at the Crusader Forward Camp (25.31, 63.80)|
+T Making Something Out Of Nothing |QID|12901|
+T A Great Storm Approaches |QID|12912|
+A Gymer's Salvation |QID|12914|
+
+C Gymer's Salvation |QID|12914| |N|Kill the banshees floating all over the area for their essence, then head southwest to the Ebon Watch (14.14, 73.82) and kill elementals.|
+
 T The Ebon Watch |QID|12884| |N|To the west at Ebon Watch (14.14, 73.82)|
 A Kickin' Nass and Takin' Manes |QID|12630|
 C Kickin' Nass and Takin' Manes |QID|12630| |U|38659| |N|Kill trolls, kick Nass!|
@@ -42,23 +59,18 @@ T Feedin' Da Goolz |QID|12652| |U|38699|
 T Dressing Down |QID|12648| |N|Back at Ebon Watch (14.12, 73.74)|
 A Infiltrating Voltarus |QID|12661|
 
-T Crusader Forward Camp |QID|12894| |N|To the northeast (25.26, 64.06)|
-A That's What Friends Are For... |QID|12903|
-A Making Something Out Of Nothing |QID|12901|
-
-A A Great Storm Approaches |QID|12912| |N|To the east in a big cage at Thrym's End (20.03, 56.59)|
-A Light Won't Grant Me Vengeance |QID|12904| |N|Just west of Gymer (17.61, 57.50)|
-N Find Burr |Q|That's What Friends Are For...| |QO|Burr found: 1/1| |N|A bit further to the west (15.57, 59.46)|
-C Making Something Out Of Nothing |QID|12901|
-C That's What Friends Are For... |QID|12903| |N|Find Crusader Dargath to the northeast in the ruins at Dargath's Demise (24.73, 51.54)|
-
-T That's What Friends Are For... |QID|12903| |N|Back at the Crusader Forward Camp (25.31, 63.80)|
-T Making Something Out Of Nothing |QID|12901|
-T A Great Storm Approaches |QID|12912|
-A Gymer's Salvation |QID|12914|
+T Gymer's Salvation |QID|12914| |N|Back up at the Crusader Forward Camp (25.26, 63.92)|
+A Our Only Hope |QID|12916|
+C Light Won't Grant Me Vengeance |QID|12904| |N|Kill varguls on your way back to the cage (17.62, 57.59)|
+T Light Won't Grant Me Vengeance |QID|12904| |N|Just west of the cage (17.62, 57.59)|
+C Our Only Hope |QID|12916| |N|Use the C4 *cough* I mean seaforium on the cage (20.03, 56.60)|
+T Our Only Hope |QID|12916|
+A The Storm King's Vengeance |QID|12919|
+C The Storm King's Vengeance |QID|12919| |N|Talk to the giant when you're ready.  Head northeast to the Reliquary of Pain (28.63, 46.85) and kill Algar the Chosen, then south to the stairs (31.62, 62.92) and kill Prince Navarius.  Thrym will spawn when the prince is dead.  If you need health (you'll get a warning) find a storm could, target it, and use the "pick up" button on your actionbar.  Once the named mobs are dead, head to Crusader Forward Camp (25.29, 63.94) and finish off any scourge you need.  Dismount when you're done, even if there's a ton of mobs on you, they'll go away.|
+T The Storm King's Vengeance |QID|12919| |N|Back at the Crusader Forward Camp (25.29, 63.94)|
 
 A Dark Horizon |QID|12664| |U|38699| |N|Due north of the Crusader Forward Camp.  Put on your disguise and hop on the platform to port to Voltarus (27.13, 46.14)|
-C Dark Horizon |QID|12664| |U|38699| |N|Talk to Gorebag on the southern outcropping (29.71, 48.10) for a ride.|
+C Dark Horizon |QID|12664| |U|38699| |N|Talk to Gorebag on the southeastern outcropping (29.71, 48.10) for a ride.|
 T Dark Horizon |QID|12664| |U|38699|
 T Infiltrating Voltarus |QID|12661| |U|41390| |N|Port back down to the ground, blow Stefan's horn.|
 A So Far, So Bad |QID|12669|
@@ -68,121 +80,95 @@ T It Rolls Downhill |QID|12673| |U|38699| |N|Back up in Voltarus (27.15, 46.09)|
 C So Far, So Bad |QID|12669| |U|39154| |N|Back down on the ground, use the additive on the cauldrens.  This will spawn mobs, so don't hang around and get aggro.  There's a few cauldrens to the east (31,44) (31,45), and a few to the south (27,46) (29,47).|
 T So Far, So Bad |QID|12669| |U|41390| |N|Blow Stefan's horn... again...|
 A Hazardous Materials |QID|12677|
+
+A Zero Tolerance |QID|12686| |U|38699| |N|Back up in Voltarus (27.17, 46.11)|
+C Zero Tolerance |QID|12686| |U|39206| |N|Use the scepter on a troll, then head south to the big platform (30.32, 50.85) and have the troll kill Darmuk.  Let the pet do all the work, if you fight you'll lose your disguise, and in turn lose your pet.|
+T Zero Tolerance |QID|12686| |N|Back up in Voltarus (27.16, 46.09)|
+C Hazardous Materials |QID|12677| |U|38699| |N|Gather crates all over Volatrus.  Be careful, the crates may drop your disguise.|
+T Hazardous Materials |QID|12677| |U|41390| |N|Down on the ground.  This guy gets his horn blown so much, he must like you!|
+A Sabotage |QID|12676|
+A Fuel for the Fire |QID|12690| |U|38699| |N|Back up on Voltarus (27.16, 46.10)|
+C Fuel for the Fire |QID|12690| |U|39238| |N|Northeast at the Frigid Breach (34.20, 37.84).  This one is easy, and fun!  Use the scepter on an abomination.  Send him after trolls, gather up as many as you can... then blow him up!  Repeat as many times as you like.|
+C Sabotage |QID|12676| |U|39165| |N|All around, use the explosives on the scourgewagons, then get clear.|
+T Fuel for the Fire |QID|12690| |U|38699| |N|Back up on Voltarus (27.15, 46.09)|
+A Disclosure |QID|12710| |U|38699|
+C Disclosure |QID|12710| |U|38699| |N|Port up to the upper chamber, take the tour.|
+T Disclosure |QID|12710| |U|38699| |N|Port back down to Drakuru (27.13, 46.13)|
+T Sabotage |QID|12676| |U|41390| |N|Back down on the ground.  Insert "horn blowing" joke here.|
+A Betrayal |QID|12713|
+C Betrayal |QID|12713| |U|39664| |N|Head up and talk to Drakuru to start this.  It's a fairly easy battle, don't worry about your disguise when it fails.  Use the scepter on one of the big trolls and send him after Drakuru.  While he fights, watch for the crystals Drakuru throws and move away from them as fast as you can.  After you're clear, heal or bandage up.  Now as for getting back down afterwards...|
+U Port back down, quickly! |U|43059| |N|Use [Drakuru's Last Wish] to port down.  It only lasts 3 minutes, so be quick about it.|
+T Betrayal |QID|12713| |U|41390| |N|Last time you get to blow his horn, you better make it a good one.|
+
+T Taking a Stand |QID|12795| |N|Head up the stairs where you killed the prince earlier, then across the battlefield to the Argent Stand (39.44, 66.90)|
+A Defend the Stand |QID|12503|
+A Parachutes for the Argent Crusade |QID|12740|
+C Parachutes for the Argent Crusade |QID|12740| |U|39615| |N|Find the Argent fighters out in the battlefield and toss them parachutes.|
+C Defend the Stand |QID|12503|
+
+T Defend the Stand |QID|12503| |N|Back at the Argent Stand (39.37, 67.02)|
+T Parachutes for the Argent Crusade |QID|12740|
+A Pa'Troll |QID|12596|
+A New Orders for Sergeant Stackhammer |QID|12505|
+A Trouble at the Altar of Sseratus |QID|12506|
+A The Blessing of Zim'Abwa |QID|12565|
+
+T The Blessing of Zim'Abwa |QID|12565| |N|To the southwest at Zim'Abwa (36.86, 72.80)|
+T New Orders for Sergeant Stackhammer |QID|12505| |N|Head due north for the Argent Stand to the Altar of Sseratus (40.40, 48.28)|
+A Argent Crusade, We Are Leaving! |QID|12504|
+A Mopping Up |QID|12508|
+C Trouble at the Altar of Sseratus |QID|12506| |N|Sneak around the big guy and enter the altar behind him.  Make sure you tell any argents you come across to report back.|
+C Argent Crusade, We Are Leaving! |QID|12504|
+C Mopping Up |QID|12508|
+A Strange Mojo |QID|12507| |U|38321| |N|From an item that dropped.  Keep killing trolls if you didn't get it.|
+T Argent Crusade, We Are Leaving! |QID|12504| |N|Back out in front of the Altar of Sseratus (40.37, 48.29)|
+T Mopping Up |QID|12508|
+
+A Lab Work |QID|12557| |N|Just to the southwest at Heb'Valok (35.11, 52.10)|
+C Lab Work |QID|12557| |N|Go find the items for him in the two nearby rooms.|
+T Lab Work |QID|12557|
+A Siphoning the Spirits |QID|12799|
+C Siphoning the Spirits |QID|12799| |N|Head south to the Pools of Zha'Jin (34,60).  You're after the neutral mobs here, not the aggressive ones.|
+T Siphoning the Spirits |QID|12799| |N|Back at Heb'Valok (35.64, 52.22)|
+A Stocking the Shelves |QID|12609|
+A Clipping Their Wings |QID|12610|
+C Clipping Their Wings |QID|12610| |N|Kill bats...|
+C Stocking the Shelves |QID|12609| |N|...and spiders.|
+T Stocking the Shelves |QID|12609|
+T Clipping Their Wings |QID|12610|
+
+T Trouble at the Altar of Sseratus |QID|12506| |N|Back down at the Argent Stand (40.64, 65.65)|
+T Strange Mojo |QID|12507|
+A Precious Elemental Fluids |QID|12510|
+A The Drakkari Do Not Need Water Elementals! |QID|12562| |N|on the south side of the Argent Stand (40.19, 68.81)|
+
+A Something for the Pain |QID|12597| |N|Follow the road southeast to Drak'Sotra (48.74, 78.91)|
+
+C Precious Elemental Fluids |QID|12510| |N|West at the Drak'Sotra Fields (44,82).  Kill elementals, when you get 3 links use it to make a tether, then use the tether to summon an elemental to kill.|
+C The Drakkari Do Not Need Water Elementals! |QID|12562| |N|Kill trolls, of course.|
+C Something for the Pain |QID|12597| |N|Loot plants if you haven't already.|
+
+T Something for the Pain |QID|12597| |N|Back at Drak'Sotra (48.75, 78.91)|
+
+A Throwing Down |QID|12598| |N|Follow the viaduct northeast to the crusader camp (58.12, 72.37)|
+A Leave No One Behind |QID|12512|
+C Throwing Down |QID|12598| |U|38574| |N|Just to the northwest (55,80).  Find the little sinkholes and toss your gernade in it.  Ah, flaming spiders, the only good kind of spiders.|
+C Leave No One Behind |QID|12512| |U|38330| |N|You'll find each crusader in the nearby towers.  They have a short timer, so you'll need to do them one at a time.  Bandage them then run back to the camp, don't stop to fight things.  Crusader Johnson is is near the spiders in a tower (50.7, 69.9).  Crusader Josephine is in a tower northwest of Johnson (49.4, 74.7).  Crusader Lamoof is in a tower halfway between Josephine and the camp (53.6, 75.0).|
+T Leave No One Behind |QID|12512|
+T Throwing Down |QID|12598|
+A Cocooned! |QID|12606|
+A Death to the Necromagi |QID|12552| |N|Zul'Drak, Drak'Sotra (58.22, 72.14)|
+A Skimmer Spinnerets |QID|12553| |N|Zul'Drak, Drak'Sotra (58.24, 72.13)|
+C Cocooned! |QID|12606| |N|Again, just to the northwest, open cocoons.|
+C Skimmer Spinnerets |QID|12553| |N|Kill the little spiders over at Kolramas (55,83).  You can kill any big spiders you come across as well.|
+T Cocooned! |QID|12606| |N|Back at the camp (58.04, 72.36)|
+T Skimmer Spinnerets |QID|12553|
+A Crashed Sprayer |QID|12583|
+
 ]]
 end)
 
 --[[
-- |QID|12904.1| |QO|Vargul slain: 15/15| |N|Zul'Drak, Thrym's End (19.12, 57.60)|
-T Light Won't Grant Me Vengeance |QID|12904| |N|Zul'Drak, Thrym's End (17.62, 57.59)|
-]]
-
---[[
-A Crusader Forward Camp |QID|12894| |N|Zul'Drak, Light's Breach (32.18, 75.78)|
-
-T Taking a Stand |QID|12795| |N|Zul'Drak, The Argent Stand (39.38, 66.97)|
-A Defend the Stand |QID|12503| |N|Zul'Drak, The Argent Stand (39.38, 66.97)|
-A The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.47, 56.29)|
-- |QID|12954.1| |QO|Yggdras Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.99, 56.88)|
-T The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.46, 56.33)|
-A The Amphitheater of Anguish: Magnataur! |QID|12933| |N|Zul'Drak, Amphitheater of Anguish (48.42, 56.26)|
-- |QID|12933.1| |QO|Stinkbeard Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.76, 56.14)|
-T The Amphitheater of Anguish: Magnataur! |QID|12933| |N|Zul'Drak, Amphitheater of Anguish (48.48, 56.37)|
-A The Amphitheater of Anguish: From Beyond! |QID|12934| |N|Zul'Drak, Amphitheater of Anguish (48.42, 56.39)|
-- |QID|12934.1| |QO|Elemental Lord Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.82, 56.83)|
-T The Amphitheater of Anguish: From Beyond! |QID|12934| |N|Zul'Drak, Amphitheater of Anguish (48.50, 56.40)|
-A The Amphitheater of Anguish: Tuskarrmageddon! |QID|12935| |N|Zul'Drak, Amphitheater of Anguish (48.44, 56.43)|
-- |QID|12935.1| |QO|Orinoko Tuskbreaker Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.74, 56.77)|
-T The Amphitheater of Anguish: Tuskarrmageddon! |QID|12935| |N|Zul'Drak, Amphitheater of Anguish (48.48, 56.39)|
-A The Amphitheater of Anguish: Korrak the Bloodrager! |QID|12936| |N|Zul'Drak, Amphitheater of Anguish (48.41, 56.40)|
-- |QID|12936.1| |QO|Korrak the Bloodrager Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.98, 56.96)|
-T The Amphitheater of Anguish: Korrak the Bloodrager! |QID|12936| |N|Zul'Drak, Amphitheater of Anguish (48.46, 56.31)|
-A The Champion of Anguish |QID|12948| |N|Zul'Drak, Amphitheater of Anguish (48.39, 56.35)|
-- |QID|12948.1| |QO|Vladof the Butcher Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.94, 56.83)|
-T The Champion of Anguish |QID|12948| |N|Zul'Drak, Amphitheater of Anguish (48.44, 56.31)|
-U |cff0070dd|Hitem:41816:0:0:0:0:0:0:249827895:75|h[De-Raged Waraxe]|h|r |N|Zul'Drak, Amphitheater of Anguish (48.45, 56.25)|
-U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
-U |cff1eff00|Hitem:39098:0:0:0:0:0:0:2031593670:75|h[Rusty Cave Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
-U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
-A Parachutes for the Argent Crusade |QID|12740| |N|Zul'Drak, The Argent Stand (39.48, 66.92)|
-- |QID|12565.1| |QO|Drakkari Offerings: 10/10| |N|Zul'Drak, The Argent Stand (40.56, 65.61)|
-A The Blessing of Zim'Abwa |QID|12565| |N|Zul'Drak, The Argent Stand (40.56, 65.61)|
-
-A Zero Tolerance |QID|12686| |N|Zul'Drak, Voltarus (27.07, 46.14)|
-- |QID|12677.2| |QO|Harvested Blight Crystal: 5/5| |N|Zul'Drak, Voltarus (30.03, 43.74)|
-U |cffffffff|Hitem:39206:0:0:0:0:0:0:836714016:75|h[Scepter of Empowerment]|h|r |N|Zul'Drak, Reliquary of Pain (31.24, 42.59)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak, Reliquary of Pain (30.57, 41.48)|
-- |QID|12686.1| |QO|Darmuk Slain: 1/1| |N|Zul'Drak, Reliquary of Pain (30.77, 51.55)|
-- |QID|12677.1| |QO|Drakuru's task complete: 1/1| |N|Zul'Drak, Voltarus (27.10, 46.19)|
-T Zero Tolerance |QID|12686| |N|Zul'Drak, Voltarus (27.10, 46.19)|
-T Hazardous Materials |QID|12677| |N|Zul'Drak, Voltarus (27.78, 45.46)|
-A Sabotage |QID|12676| |N|Zul'Drak, Voltarus (27.78, 45.46)|
-U |cffffffff|Hitem:39615:0:0:0:0:0:0:192482046:75|h[Crusader Parachute]|h|r |N|Zul'Drak, The Argent Stand (35.02, 65.51)|
-- |QID|12503.1| |QO|Scourge at The Argent Stand destroyed: 10/10| |N|Zul'Drak, The Argent Stand (35.03, 68.44)|
-- |QID|12740.1| |QO|Argent forces equipped with a parachute: 10/10| |N|Zul'Drak, The Argent Stand (36.24, 67.00)|
-T Defend the Stand |QID|12503| |N|Zul'Drak, The Argent Stand (39.37, 67.02)|
-T Parachutes for the Argent Crusade |QID|12740| |N|Zul'Drak, The Argent Stand (39.37, 67.02)|
-A Pa'Troll |QID|12596| |N|Zul'Drak, The Argent Stand (40.24, 66.69)|
-A New Orders for Sergeant Stackhammer |QID|12505| |N|Zul'Drak, The Argent Stand (40.24, 66.69)|
-A Trouble at the Altar of Sseratus |QID|12506| |N|Zul'Drak, The Argent Stand (40.54, 65.65)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak, Reliquary of Pain (28.42, 52.35)|
-U |cffffffff|Hitem:39165:0:0:0:0:0:0:622403108:75|h[Explosive Charges]|h|r |N|Zul'Drak, Reliquary of Pain (27.03, 47.62)|
-A Fuel for the Fire |QID|12690| |N|Zul'Drak, Voltarus (27.11, 46.17)|
-U |cffffffff|Hitem:33470:0:0:0:0:0:0:1912216626:75|h[Frostweave Cloth]|h|r |N|Zul'Drak, Reliquary of Pain (29.83, 46.63)|
-U |cffffffff|Hitem:38319:0:0:0:0:0:0:1857653416:75|h[New Deployment Orders]|h|r |N|Zul'Drak, Reliquary of Pain (28.82, 48.48)|
-U |cffffffff|Hitem:39238:0:0:0:0:0:0:972897715:75|h[Scepter of Command]|h|r |N|Zul'Drak, Reliquary of Pain (28.55, 48.58)|
-U |cffffffff|Hitem:37306:0:0:0:0:0:0:803813535:75|h[Verdant Torch]|h|r |N|Zul'Drak, Reliquary of Pain (26.51, 47.40)|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:2061235098:75|h[Drakuru's Elixir]|h|r |N|Zul'Drak, Reliquary of Pain (26.46, 47.45)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak, Reliquary of Pain (28.63, 53.77)|
-U |cffffffff|Hitem:39165:0:0:0:0:0:0:622403108:75|h[Explosive Charges]|h|r |N|Zul'Drak, Reliquary of Pain (28.48, 51.62)|
-- |QID|12676.1| |QO|Scourgewagons destroyed: 5/5| |N|Zul'Drak, Reliquary of Pain (28.47, 51.61)|
-U |cffffffff|Hitem:39238:0:0:0:0:0:0:972897715:75|h[Scepter of Command]|h|r |N|Zul'Drak, Frigid Breach (32.34, 40.11)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|Zul'Drak, Frigid Breach (31.99, 41.95)|
-U |cffffffff|Hitem:39238:0:0:0:0:0:0:972897715:75|h[Scepter of Command]|h|r |N|Zul'Drak, Frigid Breach (31.96, 40.84)|
-U |cffffffff|Hitem:38319:0:0:0:0:0:0:1857653416:75|h[New Deployment Orders]|h|r |N|Zul'Drak, Frigid Breach (33.04, 39.44)|
-U |cffffffff|Hitem:39238:0:0:0:0:0:0:972897715:75|h[Scepter of Command]|h|r |N|Zul'Drak, Frigid Breach (33.03, 40.49)|
-- |QID|12690.1| |QO|Drakkari Skullcrushers Slain: 60/60| |N|Zul'Drak, Frigid Breach (33.37, 37.14)|
-- |QID|12690.2| |QO|Drakkari Chieftain Lured: 3/3| |N|Zul'Drak, Frigid Breach (33.28, 37.38)|
-U |cffffffff|Hitem:38699:0:0:0:0:0:0:1513301220:75|h[Ensorcelled Choker]|h|r |N|The Storm Peaks,  (54.75, 82.33)|
-T Fuel for the Fire |QID|12690| |N|Zul'Drak, Voltarus (27.07, 46.18)|
-- |QID|12676.2| |QO|Drakuru's task complete: 1/1| |N|Zul'Drak, Voltarus (27.07, 46.18)|
-A Disclosure |QID|12710| |N|Zul'Drak, Voltarus (27.07, 46.18)|
-- |QID|12710.1| |QO|Drakuru's upper chamber explored: 1/1| |N|Zul'Drak, Voltarus (28.49, 45.03)|
-- |QID|12676.3| |QO|Learn Drakuru's secret: 1/1| |N|Zul'Drak, Voltarus (27.06, 46.18)|
-T Disclosure |QID|12710| |N|Zul'Drak, Voltarus (27.06, 46.18)|
-U |cffffffff|Hitem:41390:0:0:0:0:0:0:1452448413:75|h[Stefan's Horn]|h|r |N|Zul'Drak, Heb'Valok (37.39, 59.00)|
-T Sabotage |QID|12676| |N|Zul'Drak, Reliquary of Pain (28.35, 51.65)|
-A Betrayal |QID|12713| |N|Zul'Drak, Reliquary of Pain (28.35, 51.65)|
-U |cffffffff|Hitem:39664:0:0:0:0:0:0:1441604536:75|h[Scepter of Domination]|h|r |N|Zul'Drak, Voltarus (29.66, 45.17)|
-- |QID|12713.1| |QO|Drakuru's Skull: 1/1| |N|Zul'Drak, Voltarus (28.66, 44.47)|
-T Betrayal |QID|12713| |N|Zul'Drak, Voltarus (28.73, 44.35)|
-U |cff0070dd|Hitem:39652:0:0:0:0:0:0:1609662938:75|h[Choker of the Betrayer]|h|r |N|Zul'Drak, The Dead Fields (28.72, 55.74)|
-U |cff1eff00|Hitem:39877:0:0:0:0:0:0:1936809236:75|h[Belt of the Betrayer]|h|r |N|Zul'Drak, Ebon Watch (14.30, 74.12)|
-U |cff1eff00|Hitem:39075:0:0:0:0:0:0:1246287392:75|h[Waywalker's Girdle]|h|r |N|Zul'Drak, Ebon Watch (14.30, 74.12)|
-T The Blessing of Zim'Abwa |QID|12565| |N|Zul'Drak, Zim'Abwa (36.55, 72.67)|
-A Something for the Pain |QID|12597| |N|Zul'Drak, Drak'Sotra (48.74, 78.91)|
-- |QID|12597.1| |QO|Mature Water-Poppy: 5/5| |N|Zul'Drak, Drak'Sotra Fields (43.02, 77.51)|
-T Something for the Pain |QID|12597| |N|Zul'Drak, Drak'Sotra (48.75, 78.91)|
-- |QID|12596.1| |QO|Captain Brandon's Task: 1/1| |N|Zul'Drak, Drak'Sotra (48.75, 78.91)|
-A Throwing Down |QID|12598| |N|Zul'Drak, Drak'Sotra (58.12, 72.37)|
-A Leave No One Behind |QID|12512| |N|Zul'Drak, Drak'Sotra (58.63, 72.57)|
-U |cffffffff|Hitem:38574:0:0:0:0:0:0:938039882:75|h[High Impact Grenade]|h|r |N|Zul'Drak, Kolramas (55.30, 80.08)|
-- |QID|12598.1| |QO|Nerubian Tunnels Sealed: 5/5| |N|Zul'Drak, Drak'Sotra (53.25, 68.47)|
-U |cffffffff|Hitem:38330:0:0:0:0:0:0:1557540461:75|h[Crusader's Bandage]|h|r |N|Zul'Drak, Drak'Sotra (53.67, 74.94)|
-- |QID|12512.2| |QO|Saved Crusader Lamoof: 1/1| |N|Zul'Drak, Drak'Sotra (58.46, 72.54)|
-- |QID|12512.1| |QO|Saved Crusader Jonathan: 1/1| |N|Zul'Drak, Drak'Sotra (58.56, 72.51)|
-- |QID|12512.3| |QO|Saved Crusader Josephine: 1/1| |N|Zul'Drak, Drak'Sotra (58.25, 72.48)|
-T Leave No One Behind |QID|12512| |N|Zul'Drak, Drak'Sotra (58.63, 72.52)|
-- |QID|12596.2| |QO|Captain Rupert's Task: 1/1| |N|Zul'Drak, Drak'Sotra (58.10, 72.43)|
-T Throwing Down |QID|12598| |N|Zul'Drak, Drak'Sotra (58.10, 72.43)|
-A Cocooned! |QID|12606| |N|Zul'Drak, Drak'Sotra (58.10, 72.43)|
-- |QID|12606.1| |QO|Freed Captive Footmen: 5/5| |N|Zul'Drak, Drak'Sotra (54.39, 67.79)|
-A Death to the Necromagi |QID|12552| |N|Zul'Drak, Drak'Sotra (58.22, 72.14)|
-A Skimmer Spinnerets |QID|12553| |N|Zul'Drak, Drak'Sotra (58.24, 72.13)|
-T Cocooned! |QID|12606| |N|Zul'Drak, Drak'Sotra (58.04, 72.36)|
-- |QID|12553.1| |QO|Intact Skimmer Spinneret: 5/5| |N|Zul'Drak, Kolramas (55.27, 83.06)|
-T Skimmer Spinnerets |QID|12553| |N|Zul'Drak, Drak'Sotra (58.28, 72.05)|
-A Crashed Sprayer |QID|12583| |N|Zul'Drak, Drak'Sotra (58.27, 72.13)|
 - |QID|12583.1| |QO|Plague Sprayer Parts: 1/1| |N|Zul'Drak, Drak'Sotra (48.88, 75.46)|
 T Crashed Sprayer |QID|12583| |N|Zul'Drak, Drak'Sotra (58.28, 72.05)|
 A A Tangled Skein |QID|12555| |N|Zul'Drak, Drak'Sotra (58.28, 72.05)|
@@ -200,49 +186,8 @@ A Creature Comforts |QID|12599| |N|Zul'Drak, Drak'Agal (48.18, 63.98)|
 - |QID|12599.1| |QO|Dead Thornwood: 20/20| |N|Zul'Drak, Drak'Agal (43.63, 57.34)|
 - |QID|12596.3| |QO|Captain Grondel's Task: 1/1| |N|Zul'Drak, Drak'Agal (48.18, 63.93)|
 T Creature Comforts |QID|12599| |N|Zul'Drak, Drak'Agal (48.18, 63.93)|
-A Lab Work |QID|12557| |N|Zul'Drak, Heb'Valok (35.11, 52.10)|
-- |QID|12557.1| |QO|Muddy Mire Maggot found: 1/1| |N|Zul'Drak, Heb'Valok (34.90, 51.48)|
-- |QID|12557.3| |QO|Amberseed found: 1/1| |N|Zul'Drak, Heb'Valok (34.96, 51.55)|
-- |QID|12557.2| |QO|Withered Batwing found: 1/1| |N|Zul'Drak, Heb'Valok (34.96, 51.55)|
-- |QID|12557.4| |QO|Chilled Serpent Mucus found: 1/1| |N|Zul'Drak, Heb'Valok (35.05, 53.12)|
-T Lab Work |QID|12557| |N|Zul'Drak, Heb'Valok (35.06, 52.16)|
-- |QID|12596.4| |QO|Alchemist Finklestein's Task: 1/1| |N|Zul'Drak, Heb'Valok (35.06, 52.16)|
-A Siphoning the Spirits |QID|12799| |N|Zul'Drak, Heb'Valok (35.57, 52.27)|
-- |QID|12799.1| |QO|Ancient Ectoplasm: 5/5| |N|Zul'Drak, Pools of Zha'Jin (34.81, 60.21)|
-T Siphoning the Spirits |QID|12799| |N|Zul'Drak, Heb'Valok (35.64, 52.22)|
-A Stocking the Shelves |QID|12609| |N|Zul'Drak, Heb'Valok (35.64, 52.22)|
-A Clipping Their Wings |QID|12610| |N|Zul'Drak, Heb'Valok (35.64, 52.22)|
-U |cffffffff|Hitem:33458:0:0:0:0:0:0:1815787472:76|h[Scroll of Intellect VI]|h|r |N|Zul'Drak, Heb'Valok (36.01, 50.53)|
-- |QID|12610.1| |QO|Unblemished Bat Wing: 15/15| |N|Zul'Drak, Heb'Valok (38.47, 54.87)|
-- |QID|12609.1| |QO|Fresh Spider Ichor: 15/15| |N|Zul'Drak, Heb'Valok (36.40, 53.50)|
-T Stocking the Shelves |QID|12609| |N|Zul'Drak, Heb'Valok (35.64, 52.33)|
-T Clipping Their Wings |QID|12610| |N|Zul'Drak, Heb'Valok (35.64, 52.33)|
-- |QID|12914.2| |QO|Diatomaceous Earth: 6/6| |N|,  (61.02, 42.55)|
-- |QID|12914.1| |QO|Banshee Essence: 6/6| |N|,  (61.02, 42.55)|
-A Gymer's Salvation |QID|12914| |N|,  (61.02, 42.55)|
-T Gymer's Salvation |QID|12914| |N|Zul'Drak, Crusader Forward Camp (25.27, 63.85)|
-A Our Only Hope |QID|12916| |N|Zul'Drak, Crusader Forward Camp (25.27, 63.85)|
-- |QID|12916.1| |QO|Scourge Enclosure Blown Up: 1/1| |N|Zul'Drak, Thrym's End (20.24, 56.45)|
-T Our Only Hope |QID|12916| |N|Zul'Drak, Thrym's End (20.00, 56.64)|
-A The Storm King's Vengeance |QID|12919| |N|Zul'Drak, Thrym's End (20.00, 56.64)|
-- |QID|12919.2| |QO|Algar the Chosen slain: 1/1| |N|Zul'Drak, Reliquary of Pain (29.85, 44.03)|
-- |QID|12919.1| |QO|Scourge slain: 100/100| |N|Zul'Drak, The Dead Fields (32.46, 63.50)|
-- |QID|12919.4| |QO|Prince Navarius slain: 1/1| |N|Zul'Drak, The Dead Fields (32.46, 63.50)|
-- |QID|12919.3| |QO|Thrym slain: 1/1| |N|Zul'Drak, The Dead Fields (31.39, 61.54)|
-T The Storm King's Vengeance |QID|12919| |N|Zul'Drak, Crusader Forward Camp (25.31, 64.04)|
-U |cffffffff|Hitem:38321:0:0:0:0:0:0:1209644922:76|h[Strange Mojo]|h|r |N|Grizzly Hills,  (25.04, 70.57)|
-A Strange Mojo |QID|12507| |N|Grizzly Hills,  (23.65, 70.91)|
-T Strange Mojo |QID|12507| |N|Zul'Drak, The Argent Stand (40.56, 65.60)|
-A Precious Elemental Fluids |QID|12510| |N|Zul'Drak, The Argent Stand (40.56, 65.60)|
-U |cffffffff|Hitem:38323:0:0:0:0:0:0:304765694:76|h[Water Elemental Link]|h|r |N|Zul'Drak, Drak'Sotra Fields (44.33, 82.47)|
-U |cffffffff|Hitem:38324:0:0:0:0:0:0:1339237830:76|h[Tether to the Plane of Water]|h|r |N|Zul'Drak, Drak'Sotra Fields (44.33, 82.47)|
-A Precious Elemental Fluids |QID|12510| |N|,  (67.32, 47.51)|
-U |cffffffff|Hitem:38323:0:0:0:0:0:0:923097460:76|h[Water Elemental Link]|h|r |N|Zul'Drak, Drak'Sotra Fields (44.13, 78.51)|
-U |cffffffff|Hitem:38324:0:0:0:0:0:0:2147218286:76|h[Tether to the Plane of Water]|h|r |N|Zul'Drak,  (41.87, 83.40)|
-U |cffffffff|Hitem:38323:0:0:0:0:0:0:1818367774:76|h[Water Elemental Link]|h|r |N|Zul'Drak, Drak'Sotra Fields (42.06, 82.79)|
-U |cffffffff|Hitem:38324:0:0:0:0:0:0:620489516:76|h[Tether to the Plane of Water]|h|r |N|Zul'Drak, Drak'Sotra Fields (42.06, 82.79)|
-- |QID|12510.1| |QO|Precious Elemental Fluids: 3/3| |N|Zul'Drak, Drak'Sotra Fields (42.06, 82.79)|
-A The Drakkari Do Not Need Water Elementals! |QID|12562| |N|Zul'Drak, The Argent Stand (40.19, 68.81)|
+
+T The Drakkari Do Not Need Water Elementals! |QID|12562| |N|Zul'Drak, The Argent Stand (40.13, 68.89)|
 T Precious Elemental Fluids |QID|12510| |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
 A Mushroom Mixer |QID|12514| |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
 U |cff1eff00|Hitem:39805:0:0:0:0:0:0:720524318:76|h[Chestplate of the Altar]|h|r |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
@@ -257,8 +202,6 @@ U |cffffffff|Hitem:38332:0:0:0:0:0:0:31713392:76|h[Modified Mojo]|h|r |N|Zul'Dra
 - |QID|12516.1| |QO|Muddled Prophet of Sseratus slain: 1/1| |N|Zul'Drak, Altar of Sseratus (40.44, 42.74)|
 T Too Much of a Good Thing |QID|12516| |N|Zul'Drak, The Argent Stand (40.55, 65.51)|
 A To the Witch Doctor |QID|12623| |N|Zul'Drak, The Argent Stand (40.55, 65.51)|
-- |QID|12562.1| |QO|Drakkari Water Binder slain: 10/10| |N|Zul'Drak, Drak'Sotra Fields (43.39, 80.13)|
-T The Drakkari Do Not Need Water Elementals! |QID|12562| |N|Zul'Drak, The Argent Stand (40.13, 68.89)|
 A Just Checkin' |QID|13099| |N|Zul'Drak, Zim'Torga (59.91, 57.81)|
 - |QID|12615.1| |QO|Drakkari Offerings: 10/10| |N|Zul'Drak, Zim'Torga (59.51, 57.96)|
 A The Blessing of Zim'Torga |QID|12615| |N|Zul'Drak, Zim'Torga (59.51, 57.96)|
@@ -365,8 +308,6 @@ T Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.99, 
 T Blood of a Dead God |QID|12684| |N|Zul'Drak, Altar of Har'koa (63.53, 70.45)|
 A You Reap What You Sow |QID|12685| |N|Zul'Drak, Altar of Har'koa (63.56, 70.40)|
 U |cffffffff|Hitem:39187:0:0:0:0:0:0:1604935090:77|h[Quetz'lun's Ritual]|h|r |N|Zul'Drak, Altar of Quetz'lun (75.06, 58.65)|
-T Search and Rescue |QID|12037| |N|Grizzly Hills,  (16.65, 27.71)|
-A Search and Rescue |QID|12037| |N|Grizzly Hills,  (16.65, 27.71)|
 U |cffffffff|Hitem:39187:0:0:0:0:0:0:1604935090:77|h[Quetz'lun's Ritual]|h|r |N|Zul'Drak, Altar of Quetz'lun (75.19, 58.65)|
 - |QID|12685.1| |QO|Drained Prophet of Quetz'lun slain: 1/1| |N|Zul'Drak, Altar of Quetz'lun (75.56, 58.75)|
 T You Reap What You Sow |QID|12685| |N|Zul'Drak, Zim'Torga (59.45, 58.05)|
@@ -395,4 +336,30 @@ A For Posterity |QID|13098| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
 A One of a Kind |QID|13111| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
 - |QID|12729.1| |QO|Unblemished Heart of the Guardian: 1/1| |N|Zul'Drak, Zim'Rhuk (59.54, 41.67)|
 - |QID|12729.2| |QO|Gusty Essence of the Warden: 1/1| |N|Zul'Drak, Altar of Quetz'lun (73.97, 54.56)|
+]]
+
+--[[
+A The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.47, 56.29)|
+- |QID|12954.1| |QO|Yggdras Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.99, 56.88)|
+T The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.46, 56.33)|
+A The Amphitheater of Anguish: Magnataur! |QID|12933| |N|Zul'Drak, Amphitheater of Anguish (48.42, 56.26)|
+- |QID|12933.1| |QO|Stinkbeard Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.76, 56.14)|
+T The Amphitheater of Anguish: Magnataur! |QID|12933| |N|Zul'Drak, Amphitheater of Anguish (48.48, 56.37)|
+A The Amphitheater of Anguish: From Beyond! |QID|12934| |N|Zul'Drak, Amphitheater of Anguish (48.42, 56.39)|
+- |QID|12934.1| |QO|Elemental Lord Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.82, 56.83)|
+T The Amphitheater of Anguish: From Beyond! |QID|12934| |N|Zul'Drak, Amphitheater of Anguish (48.50, 56.40)|
+A The Amphitheater of Anguish: Tuskarrmageddon! |QID|12935| |N|Zul'Drak, Amphitheater of Anguish (48.44, 56.43)|
+- |QID|12935.1| |QO|Orinoko Tuskbreaker Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.74, 56.77)|
+T The Amphitheater of Anguish: Tuskarrmageddon! |QID|12935| |N|Zul'Drak, Amphitheater of Anguish (48.48, 56.39)|
+A The Amphitheater of Anguish: Korrak the Bloodrager! |QID|12936| |N|Zul'Drak, Amphitheater of Anguish (48.41, 56.40)|
+- |QID|12936.1| |QO|Korrak the Bloodrager Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.98, 56.96)|
+T The Amphitheater of Anguish: Korrak the Bloodrager! |QID|12936| |N|Zul'Drak, Amphitheater of Anguish (48.46, 56.31)|
+A The Champion of Anguish |QID|12948| |N|Zul'Drak, Amphitheater of Anguish (48.39, 56.35)|
+- |QID|12948.1| |QO|Vladof the Butcher Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.94, 56.83)|
+T The Champion of Anguish |QID|12948| |N|Zul'Drak, Amphitheater of Anguish (48.44, 56.31)|
+U |cff0070dd|Hitem:41816:0:0:0:0:0:0:249827895:75|h[De-Raged Waraxe]|h|r |N|Zul'Drak, Amphitheater of Anguish (48.45, 56.25)|
+U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
+U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
+U |cff1eff00|Hitem:39098:0:0:0:0:0:0:2031593670:75|h[Rusty Cave Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
+U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
 ]]

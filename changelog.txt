@@ -1,3 +1,12 @@
+3.0.3.44-Beta
+    Embed update
+    Misc guide cleanup
+    Tweak ally NR guide levels a bit
+    Add Ally Grizzly Hills *rawr*
+    Some duskwallow quests were removeded... not sure why after they rewrote them for the "hey the king is back"
+    Horde Tirisfal playtesting
+    Add warning about "fly to next quest hub" quests
+
 3.0.3.43-Beta
     New guide: Ally Dragonblight
     Fix a bad file name
