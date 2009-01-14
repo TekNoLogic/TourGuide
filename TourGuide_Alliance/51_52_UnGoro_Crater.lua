@@ -64,7 +64,7 @@ C Expedition Salvation |N|At camp to the west (38.5, 66.0).  Beware of the elite
 C The Western Pylon |N|Up the hill, west of the camp (23.8, 59.1)| |QID|4288|
 A Finding the Source |N|From a goblin near the hot springs (30.9, 50.4)| |QID|974|
 
-C Roll the Bones |N|Scattered all over the west half of the zone and drop from diemetradons.  Kill pterrordaxes over here too.  There is usually a good stash of bones at a threshadorn carcass to the southwest of the camp (31.27, 77.43).| |QID|3882|
+C Roll the Bones |N|Scattered all over the west half of the zone and drop from diemetradons.  Kill pterrordaxes over here too.  There is usually a good stash of bones at a threshadon carcass to the southwest of the camp (31.27, 77.43).| |QID|3882|
 C Beware of Pterrordax |N|You can find the Frenzied Pterrordaxes all over the west half of the zone, more towards the northwest part.  Normal Pterrordaxes are in the south half of the zone, and a few near the North pylon.| |QID|4501|
 C Shizzle's Flyer |N|Kill diemetradons and pterrordaxes, all over the zone.| |QID|4503|
 
