@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Un'Goro Crater (51-52)", "Felwood (53-54)", "Alliance", function()
 return [[
-R Un'Goro Crater |N|Southewest corner of the zone (26,52)| |Z|Tanaris|
+R Un'Goro Crater |N|The entrance is in the soutwest corner of Tanaris. Look for two large stone pillars (27,58).| |Z|Tanaris|
 N Look for loot... |N|There are many loot nodes scattered across this zone.  You'll need 7 of each color of power crystals.  Also loot any dirt piles or sprouts you find.|
 
 A The Apes of Un'Goro |N|Tauren on the hill to the left of the ramp from Tanaris (69,77)| |QID|4289|
