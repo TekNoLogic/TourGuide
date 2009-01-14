@@ -24,7 +24,7 @@ N Find 7 Yellow power crystals |L|11188 7|
 N Find 7 Green power crystals |L|11185 7|
 N Find 7 Blue power crystals |L|11184 7|
 
-A Chasing A-Me 01 |N|At the entrance to Marshal's Refuge (46,13)| |QID|4245|
+A Chasing A-Me 01 |N|At the entrance to Marshal's Refuge (46,13)| |QID|4243|
 A Shizzle's Flyer |QID|4503|
 A Muigin and Larion |QID|4141|
 A Lost! |N|Near the sign| |QID|4492|
@@ -46,7 +46,7 @@ A The Western Pylon |QID|4288|
 N Kill stuff... |N|Kill any bloodpetals, diametradons, and pterrordaxes you come across|
 
 C The Northern Pylon |N|Along the north edge of the zone to the east (56.46, 12.48).  Kill pterrordaxes here.| |QID|4285|
-T Chasing A-Me 01 |N|East in the gorilla cave (63,17).  Skip the follow-up.| |QID|4245|
+T Chasing A-Me 01 |N|East in the gorilla cave (63,17).  Skip the follow-up.| |QID|4243|
 C The Apes of Un'Goro |QID|4289|
 C Super Sticky |N|At the tarpits in the north half of the zone| |QID|4504|
 N Find [Crate of Foodstuffs] |N|At the abandoned camp in the east side of the zone (68.52, 36.59)| |L|11113|
