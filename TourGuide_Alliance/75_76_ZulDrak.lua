@@ -152,142 +152,139 @@ T Something for the Pain |QID|12597| |N|Back at Drak'Sotra (48.75, 78.91)|
 
 A Throwing Down |QID|12598| |N|Follow the viaduct northeast to the crusader camp (58.12, 72.37)|
 A Leave No One Behind |QID|12512|
+
 C Throwing Down |QID|12598| |U|38574| |N|Just to the northwest (55,80).  Find the little sinkholes and toss your gernade in it.  Ah, flaming spiders, the only good kind of spiders.|
 C Leave No One Behind |QID|12512| |U|38330| |N|You'll find each crusader in the nearby towers.  They have a short timer, so you'll need to do them one at a time.  Bandage them then run back to the camp, don't stop to fight things.  Crusader Johnson is is near the spiders in a tower (50.7, 69.9).  Crusader Josephine is in a tower northwest of Johnson (49.4, 74.7).  Crusader Lamoof is in a tower halfway between Josephine and the camp (53.6, 75.0).|
+
 T Leave No One Behind |QID|12512|
 T Throwing Down |QID|12598|
 A Cocooned! |QID|12606|
-A Death to the Necromagi |QID|12552| |N|Zul'Drak, Drak'Sotra (58.22, 72.14)|
-A Skimmer Spinnerets |QID|12553| |N|Zul'Drak, Drak'Sotra (58.24, 72.13)|
+A Death to the Necromagi |QID|12552|
+A Skimmer Spinnerets |QID|12553|
+
 C Cocooned! |QID|12606| |N|Again, just to the northwest, open cocoons.|
-C Skimmer Spinnerets |QID|12553| |N|Kill the little spiders over at Kolramas (55,83).  You can kill any big spiders you come across as well.|
+C Skimmer Spinnerets |QID|12553| |N|Kill the little spiders over at Kolramas (55,83).  Spiders should *not* be able to jump like that...|
+C Death to the Necromagi |QID|12552| |N|Kill the big spiders too.  Only good spider's a dead spider, or a flaming one.|
+
 T Cocooned! |QID|12606| |N|Back at the camp (58.04, 72.36)|
+T Death to the Necromagi |QID|12552|
+A Malas the Corrupter |QID|12554| |N|Labeled as G2, but worth a try.|
+A Pure Evil |QID|12584|
 T Skimmer Spinnerets |QID|12553|
 A Crashed Sprayer |QID|12583|
+C Crashed Sprayer |QID|12583| |N|Southwest, near Captain Brandon's camp (48.88, 75.46)|
+T Crashed Sprayer |QID|12583| |N|Back at the camp (58.28, 72.05)|
+A A Tangled Skein |QID|12555|
+C A Tangled Skein |QID|12555| |U|38515| |N|Use the skein thrower on the plague sprayers.|
+C Pure Evil |QID|12584| |N|Inside Kolramas (61.33, 78.66).  Look for little chunks of teal ore.|
+C Malas the Corrupter |QID|12554| |N|Labeled as G2, but worth a try.  Head up the stars near the entrance (60.80, 80.32), Malas is at the very top.|
 
+T A Tangled Skein |QID|12555| |N|Back at the camp (58.25, 72.13)|
+T Malas the Corrupter |QID|12554|
+
+T The Drakkari Do Not Need Water Elementals! |QID|12562| |N|Back at the Argent Stand (40.18, 68.86)|
+T Pure Evil |QID|12584|
+T Precious Elemental Fluids |QID|12510|
+A Mushroom Mixer |QID|12514|
+A Gluttonous Lurkers |QID|12527|
+
+A Creature Comforts |QID|12599| |N|West in Drak'Agal, directly south of the Amphitheater of Anguish (48.12, 63.87)|
+C Gluttonous Lurkers |QID|12527| |U|38380| |N|Loot the rats, when you have 5 "feed" them to a basilisk, then loot him.  Repeat.|
+C Mushroom Mixer |QID|12514| |N|All over the watery area.|
+C Creature Comforts |QID|12599|
+T Creature Comforts |QID|12599| |N|Back at the camp (48.16, 63.85)|
+
+T Mushroom Mixer |QID|12514| |N|Back at the Argent Stand (40.57, 65.50)|
+A Too Much of a Good Thing |QID|12516|
+T Pa'Troll |QID|12596|
+C Too Much of a Good Thing |QID|12516| |U|38332| |N|Due north at the Altar of Sseratus (40.62, 43.82).  Throw the mojo at the prophet and kick his ass.|
+T Gluttonous Lurkers |QID|12527| |N|Just southwest at Heb'Valok (35.04, 52.17)|
+T Too Much of a Good Thing |QID|12516| |N|Back at the Argent Stand (40.51, 65.45)|
+A To the Witch Doctor |QID|12623|
+
+T To the Witch Doctor |QID|12623| |N|Take the road southeast, then northeast to Zim'Torga (59.49, 57.93)|
+A Breaking Through Jin'Alai |QID|12627|
+A The Blessing of Zim'Torga |QID|12615|
+T The Blessing of Zim'Torga |QID|12615|
+A The Leaders at Jin'Alai |QID|12622|
+
+C Breaking Through Jin'Alai |QID|12627| |N|Just to the south, "disturb" each cauldren.  Purple (57.49, 61.66), Red (58.22, 62.18), Blue (57.17, 65.28), Green (56.16, 64.19)|
+C The Leaders at Jin'Alai |QID|12622| |N|Keep killing trolls until one of the named mobs spawns at a totem.  Note that everyone can loot the items, so help out anyone doing this quest also.|
+
+T Breaking Through Jin'Alai |QID|12627| |N|Back at Zim'Torga (59.50, 57.94)|
+A To Speak With Har'koa |QID|12628|
+A Relics of the Snow Leopard Goddess |QID|12635|
+T The Leaders at Jin'Alai |QID|12622|
+
+T To Speak With Har'koa |QID|12628| |N|Southeast at the Altar of Har'koa (63.52, 70.29)|
+A But First My Offspring |QID|12632|
+C But First My Offspring |QID|12632| |U|38676| |N|Kill the cats and use the whisker on them.|
+C Relics of the Snow Leopard Goddess |QID|12635|
+T But First My Offspring |QID|12632|
+A Spirit of Rhunok |QID|12642|
+
+T Relics of the Snow Leopard Goddess |QID|12635| |N|Back at Zim'Torga (59.95, 57.80)|
+A Plundering Their Own |QID|12650|
+A Sealing the Rifts |QID|12640|
+A The Frozen Earth |QID|12639|
+A The Blessing of Zim'Rhuk |QID|12655|
+
+T Spirit of Rhunok |QID|12642| |N|Northwest at the Altar of Rhunok (53.10, 39.10)|
+A My Prophet, My Enemy |QID|12646|
+C My Prophet, My Enemy |QID|12646| |N|Due south, in the lake (54.13, 47.28)|
+T My Prophet, My Enemy |QID|12646| |N|Back at the altar (53.26, 39.40)|
+A An End to the Suffering |QID|12647|
+C An End to the Suffering |QID|12647| |U|38696| |N|Kill the tormentor, use the incense he drops, kill the bear.  /sadpanda|
+T An End to the Suffering |QID|12647|
+A Back to Har'koa |QID|12653|
+
+C Plundering Their Own |QID|12650| |N|Kill trolls around the altar.|
+C Sealing the Rifts |QID|12640| |N|Attack the rifts to the south...|
+T The Frozen Earth |QID|12639| |N|...and earth elementals too.|
+
+T Plundering Their Own |QID|12650| |N|Back at Zim'Torga (59.92, 57.85)|
+T The Frozen Earth |QID|12639|
+T Sealing the Rifts |QID|12640|
+A Scalps! |QID|12659|
+A Bringing Down Heb'Jin |QID|12662|
+
+C Scalps! |QID|12659| |U|38731| |N|Northeast at Heb'Drakkar.  Kill trolls, use the scalping knife.  Note that you can scalp other peoples kills if they aren't.|
+C Bringing Down Heb'Jin |QID|12662| |U|39041| |N|Over at the building(64.09, 52.88), beat on the drum.  When he lands, use the net on his bat first, then kill him.|
+
+T Bringing Down Heb'Jin |QID|12662| |N|Back at Zim'Torga (59.37, 56.51)|
+T Scalps! |QID|12659|
+
+T Back to Har'koa |QID|12653| |N|Back at the Altar of Har'koa (63.52, 70.23)|
+A I Sense a Disturbance |QID|12665|
+C I Sense a Disturbance |QID|12665| |N|Talk to her for a "kitten", enjoy the ride.|
+T I Sense a Disturbance |QID|12665|
+A Preparations for the Underworld |QID|12666|
+C Preparations for the Underworld |QID|12666| |N|Kill trolls all around the altar.|
+T Preparations for the Underworld |QID|12666|
+A Seek the Wind Serpent Goddess |QID|12667|
+T Seek the Wind Serpent Goddess |QID|12667| |N|Run up to the Altar of Quetz'lun (75.28, 58.58)|
+A Setting the Stage |QID|12672|
+C Setting the Stage |QID|12672| |N|Loot the floating crystals all over the area.|
+T Setting the Stage |QID|12672|
+A Foundation for Revenge |QID|12668|
+C Foundation for Revenge |QID|12668| |N|Kill trolls near the "soul fonts".  These are big dragon head statues all over.|
+T Foundation for Revenge |QID|12668|
+A Hell Hath a Fury |QID|12674|
+C Hell Hath a Fury |QID|12674| |U|39158| |N|All the priests are on the tier below Quetz'lun.  Use the hex stick on them, then kill them.  Tua-Tua is to the south (73.94, 60.16), Mu'funu to the north (74.31, 57.69), and Hawinni patrols along the north side of the altar (77,55).|
+T Hell Hath a Fury |QID|12674|
+A One Last Thing |QID|12675|
+T One Last Thing |QID|12675| |N|Back at the Altar of Har'koa (63.57, 70.23)|
+A Blood of a Dead God |QID|12684|
 ]]
 end)
 
 --[[
-- |QID|12583.1| |QO|Plague Sprayer Parts: 1/1| |N|Zul'Drak, Drak'Sotra (48.88, 75.46)|
-T Crashed Sprayer |QID|12583| |N|Zul'Drak, Drak'Sotra (58.28, 72.05)|
-A A Tangled Skein |QID|12555| |N|Zul'Drak, Drak'Sotra (58.28, 72.05)|
-U |cffffffff|Hitem:38515:0:0:0:0:0:0:1124388503:76|h[Tangled Skein Thrower]|h|r |N|Zul'Drak, Kolramas (57.72, 76.29)|
-- |QID|12555.1| |QO|Plague Sprayers webbed and destroyed: 5/5| |N|Zul'Drak, Kolramas (57.18, 79.88)|
-T A Tangled Skein |QID|12555| |N|Zul'Drak, Drak'Sotra (58.29, 71.99)|
-- |QID|12552.1| |QO|Hath'ar Necromagus slain: 8/8| |N|Zul'Drak, Kolramas (56.81, 79.16)|
-T Death to the Necromagi |QID|12552| |N|Zul'Drak, Drak'Sotra (58.07, 72.13)|
-A Malas the Corrupter |QID|12554| |N|Zul'Drak, Drak'Sotra (58.05, 72.30)|
-A Pure Evil |QID|12584| |N|Zul'Drak, Drak'Sotra (57.97, 72.57)|
-- |QID|12584.1| |QO|Chunk of Saronite: 10/10| |N|Zul'Drak, Kolramas (61.95, 77.28)|
-- |QID|12554.1| |QO|Head of the Corrupter: 1/1| |N|Zul'Drak, Kolramas (61.13, 78.13)|
-T Malas the Corrupter |QID|12554| |N|Zul'Drak, Drak'Sotra (58.12, 72.14)|
-A Creature Comforts |QID|12599| |N|Zul'Drak, Drak'Agal (48.18, 63.98)|
-- |QID|12599.1| |QO|Dead Thornwood: 20/20| |N|Zul'Drak, Drak'Agal (43.63, 57.34)|
-- |QID|12596.3| |QO|Captain Grondel's Task: 1/1| |N|Zul'Drak, Drak'Agal (48.18, 63.93)|
-T Creature Comforts |QID|12599| |N|Zul'Drak, Drak'Agal (48.18, 63.93)|
+A Just Checkin' |QID|13099| |N|Zul'Drak, Zim'Torga (59.90, 57.86)|
+]]
 
-T The Drakkari Do Not Need Water Elementals! |QID|12562| |N|Zul'Drak, The Argent Stand (40.13, 68.89)|
-T Precious Elemental Fluids |QID|12510| |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
-A Mushroom Mixer |QID|12514| |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
-U |cff1eff00|Hitem:39805:0:0:0:0:0:0:720524318:76|h[Chestplate of the Altar]|h|r |N|Zul'Drak, The Argent Stand (40.57, 65.68)|
-A Gluttonous Lurkers |QID|12527| |N|Zul'Drak, The Argent Stand (41.33, 65.08)|
-- |QID|12514.1| |QO|Muddlecap Fungus: 10/10| |N|Zul'Drak, Drak'Agal (41.40, 56.02)|
-U |cffffffff|Hitem:38380:0:0:0:0:0:0:1371702438:76|h[Zul'Drak Rat]|h|r |N|Zul'Drak, Drak'Agal (41.13, 59.79)|
-- |QID|12527.1| |QO|Basilisk Crystals: 5/5| |N|Zul'Drak, Drak'Agal (42.41, 58.87)|
-T Mushroom Mixer |QID|12514| |N|Zul'Drak, The Argent Stand (40.49, 65.52)|
-A Too Much of a Good Thing |QID|12516| |N|Zul'Drak, The Argent Stand (40.58, 65.47)|
-T Gluttonous Lurkers |QID|12527| |N|Zul'Drak, Heb'Valok (35.08, 52.14)|
-U |cffffffff|Hitem:38332:0:0:0:0:0:0:31713392:76|h[Modified Mojo]|h|r |N|Zul'Drak, Altar of Sseratus (40.47, 43.49)|
-- |QID|12516.1| |QO|Muddled Prophet of Sseratus slain: 1/1| |N|Zul'Drak, Altar of Sseratus (40.44, 42.74)|
-T Too Much of a Good Thing |QID|12516| |N|Zul'Drak, The Argent Stand (40.55, 65.51)|
-A To the Witch Doctor |QID|12623| |N|Zul'Drak, The Argent Stand (40.55, 65.51)|
+--[[
 A Just Checkin' |QID|13099| |N|Zul'Drak, Zim'Torga (59.91, 57.81)|
-- |QID|12615.1| |QO|Drakkari Offerings: 10/10| |N|Zul'Drak, Zim'Torga (59.51, 57.96)|
-A The Blessing of Zim'Torga |QID|12615| |N|Zul'Drak, Zim'Torga (59.51, 57.96)|
-T To the Witch Doctor |QID|12623| |N|Zul'Drak, Zim'Torga (59.51, 57.96)|
-A Breaking Through Jin'Alai |QID|12627| |N|Zul'Drak, Zim'Torga (59.51, 57.96)|
-A The Leaders at Jin'Alai |QID|12622| |N|Zul'Drak, Zim'Torga (59.17, 56.27)|
-T The Blessing of Zim'Torga |QID|12615| |N|Zul'Drak, Zim'Torga (59.42, 57.19)|
-A The Leaders at Jin'Alai |QID|12622| |N|,  (66.79, 43.41)|
-T Cleansing Drak'Tharon |QID|12238| |N|Zul'Drak, Zim'Torga (59.69, 56.84)|
-- |QID|12627.4| |QO|Red Cauldron disturbed: 1/1| |N|Zul'Drak, Pools of Jin'Alai (58.81, 62.62)|
-- |QID|12627.3| |QO|Purple Cauldron disturbed: 1/1| |N|Zul'Drak, Pools of Jin'Alai (57.67, 61.75)|
-- |QID|12627.2| |QO|Green Cauldron disturbed: 1/1| |N|Zul'Drak, Pools of Jin'Alai (55.74, 64.26)|
-- |QID|12627.1| |QO|Blue Cauldron disturbed: 1/1| |N|Zul'Drak, Pools of Jin'Alai (57.18, 65.41)|
-T Breaking Through Jin'Alai |QID|12627| |N|Zul'Drak, Zim'Torga (59.48, 57.99)|
-A To Speak With Har'koa |QID|12628| |N|Zul'Drak, Zim'Torga (59.45, 57.93)|
-A Relics of the Snow Leopard Goddess |QID|12635| |N|Zul'Drak, Zim'Torga (59.98, 57.83)|
-T To Speak With Har'koa |QID|12628| |N|Zul'Drak, Altar of Har'koa (63.59, 70.25)|
-A But First My Offspring |QID|12632| |N|Zul'Drak, Altar of Har'koa (63.59, 70.25)|
-U |cffffffff|Hitem:38676:0:0:0:0:0:0:2029047718:76|h[Whisker of Har'koa]|h|r |N|Zul'Drak, Altar of Har'koa (62.63, 67.75)|
-- |QID|12635.1| |QO|Har'koan Relic: 10/10| |N|Zul'Drak, Altar of Har'koa (63.21, 68.93)|
-- |QID|12632.1| |QO|Cursed Offspring of Har'koa resurrected: 7/7| |N|Zul'Drak, Altar of Har'koa (67.14, 72.06)|
-T But First My Offspring |QID|12632| |N|Zul'Drak, Altar of Har'koa (63.67, 70.26)|
-A Spirit of Rhunok |QID|12642| |N|Zul'Drak, Altar of Har'koa (63.67, 70.26)|
-- |QID|12655.1| |QO|Drakkari Offerings: 10/10| |N|Zul'Drak, Zim'Torga (59.49, 58.00)|
-A The Blessing of Zim'Rhuk |QID|12655| |N|Zul'Drak, Zim'Torga (59.49, 58.00)|
-T Relics of the Snow Leopard Goddess |QID|12635| |N|Zul'Drak, Zim'Torga (59.90, 57.89)|
-A Plundering Their Own |QID|12650| |N|Zul'Drak, Zim'Torga (59.90, 57.89)|
-- |QID|12622.2| |QO|Treasure of Gawanil: 1/1| |N|Zul'Drak, Pools of Jin'Alai (57.90, 62.83)|
-- |QID|12622.3| |QO|Treasure of Chulo the Mad: 1/1| |N|Zul'Drak, Pools of Jin'Alai (56.55, 64.84)|
-- |QID|12622.1| |QO|Treasure of Kutube'sa: 1/1| |N|Zul'Drak, Pools of Jin'Alai (57.20, 63.73)|
-T The Leaders at Jin'Alai |QID|12622| |N|Zul'Drak, Zim'Torga (59.19, 56.29)|
-A Sealing the Rifts |QID|12640| |N|Zul'Drak, Zim'Torga (59.19, 56.29)|
-A The Frozen Earth |QID|12639| |N|Zul'Drak, Zim'Torga (59.30, 56.47)|
-- |QID|12640.1| |QO|Elemental Rifts sealed: 7/7| |N|Zul'Drak,  (53.64, 52.50)|
-- |QID|12639.1| |QO|Essence of the Frozen Earth: 7/7| |N|Zul'Drak,  (58.61, 49.15)|
-T The Blessing of Zim'Rhuk |QID|12655| |N|Zul'Drak, Zim'Rhuk (59.71, 43.73)|
-T The Frozen Earth |QID|12639| |N|Zul'Drak, Zim'Torga (59.43, 56.52)|
-T Sealing the Rifts |QID|12640| |N|Zul'Drak, Zim'Torga (59.15, 56.29)|
-A Bringing Down Heb'Jin |QID|12662| |N|Zul'Drak, Zim'Torga (59.36, 56.44)|
-A Scalps! |QID|12659| |N|Zul'Drak, Zim'Torga (59.12, 56.29)|
-U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:76|h[Winged Steed of the Ebon Blade]|h|r |N|Shattrath City, Bank (48.91, 29.18)|
-U |cffffffff|Hitem:38731:0:0:0:0:0:0:477621184:76|h[Ahunae's Knife]|h|r |N|Zul'Drak,  (61.73, 56.04)|
-- |QID|12662.1| |QO|Heb'Jin slain: 1/1| |N|Zul'Drak, Heb'Drakkar (64.41, 52.43)|
-- |QID|12659.1| |QO|Heb'Drakkar trolls scalped: 10/10| |N|Zul'Drak, Heb'Drakkar (64.12, 52.20)|
-T Bringing Down Heb'Jin |QID|12662| |N|Zul'Drak, Zim'Torga (59.41, 56.43)|
-T Scalps! |QID|12659| |N|Zul'Drak, Zim'Torga (59.12, 56.29)|
-U |cff1eff00|Hitem:39790:0:0:0:0:0:0:1183646242:76|h[Gauntlets of the Altar]|h|r |N|Zul'Drak, Zim'Torga (59.12, 56.29)|
-- |QID|12650.1| |QO|Rhunokian Artifact: 7/7| |N|Zul'Drak, Drak'Mabwa (54.04, 49.16)|
-T Spirit of Rhunok |QID|12642| |N|Zul'Drak, Altar of Rhunok (53.56, 39.30)|
-A My Prophet, My Enemy |QID|12646| |N|Zul'Drak, Altar of Rhunok (53.57, 39.35)|
-- |QID|12646.1| |QO|Arctic Bear God Mojo: 1/1| |N|Zul'Drak, Drak'Mabwa (54.04, 46.76)|
-T My Prophet, My Enemy |QID|12646| |N|Zul'Drak, Altar of Rhunok (53.57, 39.26)|
-A An End to the Suffering |QID|12647| |N|Zul'Drak, Altar of Rhunok (53.57, 39.26)|
-U |cffffffff|Hitem:38696:0:0:0:0:0:0:-1982580672:76|h[Tormentor's Incense]|h|r |N|Zul'Drak, Altar of Rhunok (53.47, 34.94)|
-- |QID|12647.1| |QO|Rhunok slain: 1/1| |N|Zul'Drak, Altar of Rhunok (53.47, 34.90)|
-T An End to the Suffering |QID|12647| |N|Zul'Drak, Altar of Rhunok (53.47, 38.74)|
-A Back to Har'koa |QID|12653| |N|Zul'Drak, Altar of Rhunok (53.47, 38.74)|
-T Plundering Their Own |QID|12650| |N|Zul'Drak, Zim'Torga (59.92, 57.99)|
-T Back to Har'koa |QID|12653| |N|Zul'Drak, Altar of Har'koa (63.61, 70.40)|
-A I Sense a Disturbance |QID|12665| |N|Zul'Drak, Altar of Har'koa (63.61, 70.40)|
-- |QID|12665.1| |QO|Quetz'lun's fate revealed.| |N|Zul'Drak, Altar of Quetz'lun (75.73, 58.33)|
-T I Sense a Disturbance |QID|12665| |N|Zul'Drak, Altar of Har'koa (63.65, 70.29)|
-A Preparations for the Underworld |QID|12666| |N|Zul'Drak, Altar of Har'koa (63.65, 70.29)|
-- |QID|12666.1| |QO|Sacred Adornment: 8/8| |N|Zul'Drak, Altar of Har'koa (64.14, 70.31)|
-T Preparations for the Underworld |QID|12666| |N|Zul'Drak, Altar of Har'koa (63.64, 70.14)|
-A Seek the Wind Serpent Goddess |QID|12667| |N|Zul'Drak, Altar of Har'koa (63.64, 70.14)|
-T Seek the Wind Serpent Goddess |QID|12667| |N|Zul'Drak, Altar of Quetz'lun (75.31, 58.66)|
-A Setting the Stage |QID|12672| |N|Zul'Drak, Altar of Quetz'lun (75.31, 58.66)|
-- |QID|12672.1| |QO|Underworld Power Fragment: 10/10| |N|Zul'Drak, Altar of Quetz'lun (74.07, 62.23)|
-T Setting the Stage |QID|12672| |N|Zul'Drak, Altar of Quetz'lun (75.32, 58.64)|
-A Foundation for Revenge |QID|12668| |N|Zul'Drak, Altar of Quetz'lun (75.32, 58.64)|
-- |QID|12668.1| |QO|Trolls killed near a Soul Font: 12/12| |N|Zul'Drak, Altar of Quetz'lun (71.19, 60.22)|
-T Foundation for Revenge |QID|12668| |N|Zul'Drak, Altar of Quetz'lun (75.31, 58.62)|
-A Hell Hath a Fury |QID|12674| |N|Zul'Drak, Altar of Quetz'lun (75.31, 58.62)|
-U |cffffffff|Hitem:39158:0:0:0:0:0:0:1691834646:76|h[Quetz'lun's Hexxing Stick]|h|r |N|Zul'Drak, Altar of Quetz'lun (74.35, 57.94)|
-- |QID|12674.1| |QO|High Priest Mu'funu hexed at death: 1/1| |N|Zul'Drak, Altar of Quetz'lun (74.35, 57.94)|
-- |QID|12674.2| |QO|High Priestess Tua-Tua hexed at death: 1/1| |N|Zul'Drak, Altar of Quetz'lun (73.91, 60.12)|
-T Hell Hath a Fury |QID|12674| |N|Zul'Drak, Altar of Quetz'lun (74.08, 59.85)|
-- |QID|12674.1| |QO|High Priest Mu'funu hexed at death: 1/1| |N|Zul'Drak, Altar of Quetz'lun (74.08, 59.85)|
-- |QID|12674.2| |QO|High Priestess Tua-Tua hexed at death: 1/1| |N|Zul'Drak, Altar of Quetz'lun (74.08, 59.85)|
-A Hell Hath a Fury |QID|12674| |N|Zul'Drak, Altar of Quetz'lun (74.08, 59.85)|
-- |QID|12674.3| |QO|High Priest Hawinni hexed at death: 1/1| |N|Zul'Drak, Altar of Quetz'lun (76.68, 55.55)|
-T Hell Hath a Fury |QID|12674| |N|Zul'Drak, Altar of Quetz'lun (75.42, 58.55)|
-A One Last Thing |QID|12675| |N|Zul'Drak, Altar of Quetz'lun (75.42, 58.55)|
-T One Last Thing |QID|12675| |N|Zul'Drak, Altar of Har'koa (63.59, 70.46)|
-A Blood of a Dead God |QID|12684| |N|Zul'Drak, Altar of Har'koa (63.59, 70.46)|
+T The Blessing of Zim'Rhuk |QID|12655| |N|Zul'Drak, Zim'Rhuk (59.71, 43.73)|\
 
 A Need an Engine, Take an Engine |QID|12522| |N|Sholazar Basin, Nesingwary Base Camp (25.40, 58.39)|
 - |QID|12522.1| |QO|Flying Machine Engine: 1/1| |N|Sholazar Basin, Wildgrowth Mangal (38.62, 56.75)|
@@ -336,30 +333,4 @@ A For Posterity |QID|13098| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
 A One of a Kind |QID|13111| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
 - |QID|12729.1| |QO|Unblemished Heart of the Guardian: 1/1| |N|Zul'Drak, Zim'Rhuk (59.54, 41.67)|
 - |QID|12729.2| |QO|Gusty Essence of the Warden: 1/1| |N|Zul'Drak, Altar of Quetz'lun (73.97, 54.56)|
-]]
-
---[[
-A The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.47, 56.29)|
-- |QID|12954.1| |QO|Yggdras Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.99, 56.88)|
-T The Amphitheater of Anguish: Yggdras! |QID|12954| |N|Zul'Drak, Amphitheater of Anguish (48.46, 56.33)|
-A The Amphitheater of Anguish: Magnataur! |QID|12933| |N|Zul'Drak, Amphitheater of Anguish (48.42, 56.26)|
-- |QID|12933.1| |QO|Stinkbeard Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.76, 56.14)|
-T The Amphitheater of Anguish: Magnataur! |QID|12933| |N|Zul'Drak, Amphitheater of Anguish (48.48, 56.37)|
-A The Amphitheater of Anguish: From Beyond! |QID|12934| |N|Zul'Drak, Amphitheater of Anguish (48.42, 56.39)|
-- |QID|12934.1| |QO|Elemental Lord Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.82, 56.83)|
-T The Amphitheater of Anguish: From Beyond! |QID|12934| |N|Zul'Drak, Amphitheater of Anguish (48.50, 56.40)|
-A The Amphitheater of Anguish: Tuskarrmageddon! |QID|12935| |N|Zul'Drak, Amphitheater of Anguish (48.44, 56.43)|
-- |QID|12935.1| |QO|Orinoko Tuskbreaker Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.74, 56.77)|
-T The Amphitheater of Anguish: Tuskarrmageddon! |QID|12935| |N|Zul'Drak, Amphitheater of Anguish (48.48, 56.39)|
-A The Amphitheater of Anguish: Korrak the Bloodrager! |QID|12936| |N|Zul'Drak, Amphitheater of Anguish (48.41, 56.40)|
-- |QID|12936.1| |QO|Korrak the Bloodrager Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.98, 56.96)|
-T The Amphitheater of Anguish: Korrak the Bloodrager! |QID|12936| |N|Zul'Drak, Amphitheater of Anguish (48.46, 56.31)|
-A The Champion of Anguish |QID|12948| |N|Zul'Drak, Amphitheater of Anguish (48.39, 56.35)|
-- |QID|12948.1| |QO|Vladof the Butcher Defeated| |N|Zul'Drak, Amphitheater of Anguish (47.94, 56.83)|
-T The Champion of Anguish |QID|12948| |N|Zul'Drak, Amphitheater of Anguish (48.44, 56.31)|
-U |cff0070dd|Hitem:41816:0:0:0:0:0:0:249827895:75|h[De-Raged Waraxe]|h|r |N|Zul'Drak, Amphitheater of Anguish (48.45, 56.25)|
-U |cffa335ee|Hitem:40775:0:0:0:0:0:0:0:75|h[Winged Steed of the Ebon Blade]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:75|h[Hearthstone]|h|r |N|Eastern Plaguelands, Acherus: The Ebon Hold (82.98, 45.34)|
-U |cff1eff00|Hitem:39098:0:0:0:0:0:0:2031593670:75|h[Rusty Cave Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
-U |cff1eff00|Hitem:38084:0:0:0:0:0:0:1952834078:75|h[Crustacean Stompers]|h|r |N|Zul'Drak, Ebon Watch (14.32, 74.08)|
 ]]
