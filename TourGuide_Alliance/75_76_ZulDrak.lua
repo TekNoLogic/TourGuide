@@ -229,6 +229,8 @@ A Sealing the Rifts |QID|12640|
 A The Frozen Earth |QID|12639|
 A The Blessing of Zim'Rhuk |QID|12655|
 
+T The Blessing of Zim'Rhuk |QID|12655| |N|Due north at Zim'Rhuk (59.42, 44.77).  You'll have to sneak past elites, but it shouldn't be too hard.|
+
 T Spirit of Rhunok |QID|12642| |N|Northwest at the Altar of Rhunok (53.10, 39.10)|
 A My Prophet, My Enemy |QID|12646|
 C My Prophet, My Enemy |QID|12646| |N|Due south, in the lake (54.13, 47.28)|
@@ -247,12 +249,6 @@ T The Frozen Earth |QID|12639|
 T Sealing the Rifts |QID|12640|
 A Scalps! |QID|12659|
 A Bringing Down Heb'Jin |QID|12662|
-
-C Scalps! |QID|12659| |U|38731| |N|Northeast at Heb'Drakkar.  Kill trolls, use the scalping knife.  Note that you can scalp other peoples kills if they aren't.|
-C Bringing Down Heb'Jin |QID|12662| |U|39041| |N|Over at the building(64.09, 52.88), beat on the drum.  When he lands, use the net on his bat first, then kill him.|
-
-T Bringing Down Heb'Jin |QID|12662| |N|Back at Zim'Torga (59.37, 56.51)|
-T Scalps! |QID|12659|
 
 T Back to Har'koa |QID|12653| |N|Back at the Altar of Har'koa (63.52, 70.23)|
 A I Sense a Disturbance |QID|12665|
@@ -275,17 +271,40 @@ T Hell Hath a Fury |QID|12674|
 A One Last Thing |QID|12675|
 T One Last Thing |QID|12675| |N|Back at the Altar of Har'koa (63.57, 70.23)|
 A Blood of a Dead God |QID|12684|
+C Scalps! |QID|12659| |U|38731| |N|North at Heb'Drakkar.  Kill trolls, use the scalping knife.  Note that you can scalp other peoples kills if they aren't.|
+C Bringing Down Heb'Jin |QID|12662| |U|39041| |N|Over at the building (64.09, 52.88), beat on the drum.  When he lands, use the net on his bat first, then kill him.|
+C Blood of a Dead God |QID|12684| |N|Northeast at Mam'toth Crater (75.31, 49.52)|
+T Blood of a Dead God |QID|12684| |N|Back at the Altar of Har'koa (63.54, 70.21)|
+A You Reap What You Sow |QID|12685|
+C You Reap What You Sow |QID|12685| |U|39187| |N|Back at the Altar of Quetz'lun (75.30, 58.62).  Use Quetz'lun's Ritual, kill the prophet.|
+
+T You Reap What You Sow |QID|12685| |N|Back at Zim'Torga (59.50, 58.02)|
+T Bringing Down Heb'Jin |QID|12662|
+T Scalps! |QID|12659|
+A Wooly Justice |QID|12707|
+A Enchanted Tiki Warriors |QID|12708|
+A The Key of Warlord Zol'Maz |QID|12712|
+A Hexed Caches |QID|12709|
+
+C The Key of Warlord Zol'Maz |QID|12712| |U|39314| |N|Northeast on the next tier at Zol'Maz Stronghold.  Kill the named trolls in the buildings for their items, Tiri (63.95, 37.15), Drek'Maz (68.20, 35.52), Yara (67.94, 32.89).  Then head up to the top (66.19, 33.68), use one of the items to combine them, and use the new item to start the fight.|
+C Hexed Caches |QID|12709| |U|39305| |N|Loot the baskets around the area.  Be caureful about the curses.  The tikis drop items to remove the curses.|
+C Enchanted Tiki Warriors |QID|12708|
+C Wooly Justice |QID|12707| |U|39268| |N|Southeast at the Altar of Mam'toth (69.68, 43.00).  Use the medallion on a mammoth, hop on, trample trolls!|
+
+T Wooly Justice |QID|12707| |N|Back at Zim'Torga (59.16, 56.29)|
+T Enchanted Tiki Warriors |QID|12708|
+T The Key of Warlord Zol'Maz |QID|12712|
+A Rampage |QID|12721|
+T Hexed Caches |QID|12709|
 ]]
 end)
 
 --[[
 A Just Checkin' |QID|13099| |N|Zul'Drak, Zim'Torga (59.90, 57.86)|
+T Just Checkin' |QID|13099| |N|Zul'Drak, Dubra'Jin (70.05, 21.01)|
 ]]
 
 --[[
-A Just Checkin' |QID|13099| |N|Zul'Drak, Zim'Torga (59.91, 57.81)|
-T The Blessing of Zim'Rhuk |QID|12655| |N|Zul'Drak, Zim'Rhuk (59.71, 43.73)|\
-
 A Need an Engine, Take an Engine |QID|12522| |N|Sholazar Basin, Nesingwary Base Camp (25.40, 58.39)|
 - |QID|12522.1| |QO|Flying Machine Engine: 1/1| |N|Sholazar Basin, Wildgrowth Mangal (38.62, 56.75)|
 T Need an Engine, Take an Engine |QID|12522| |N|Sholazar Basin, Nesingwary Base Camp (25.37, 58.45)|
@@ -301,36 +320,11 @@ T An Embarassing Incident |QID|12699| |N|Sholazar Basin, Lakeside Landing (49.94
 A Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.90, 61.58)|
 - |QID|12671.1| |QO|Reconnaissance Flight| |N|Sholazar Basin, Lakeside Landing (50.13, 61.38)|
 T Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.99, 61.57)|
-- |QID|12684.1| |QO|Blood of Mam'toth: 7/7| |N|Zul'Drak, Mam'toth Crater (71.73, 49.37)|
-T Blood of a Dead God |QID|12684| |N|Zul'Drak, Altar of Har'koa (63.53, 70.45)|
-A You Reap What You Sow |QID|12685| |N|Zul'Drak, Altar of Har'koa (63.56, 70.40)|
-U |cffffffff|Hitem:39187:0:0:0:0:0:0:1604935090:77|h[Quetz'lun's Ritual]|h|r |N|Zul'Drak, Altar of Quetz'lun (75.06, 58.65)|
-U |cffffffff|Hitem:39187:0:0:0:0:0:0:1604935090:77|h[Quetz'lun's Ritual]|h|r |N|Zul'Drak, Altar of Quetz'lun (75.19, 58.65)|
-- |QID|12685.1| |QO|Drained Prophet of Quetz'lun slain: 1/1| |N|Zul'Drak, Altar of Quetz'lun (75.56, 58.75)|
-T You Reap What You Sow |QID|12685| |N|Zul'Drak, Zim'Torga (59.45, 58.05)|
-A The Key of Warlord Zol'Maz |QID|12712| |N|Zul'Drak, Zim'Torga (60.14, 57.72)|
-A Hexed Caches |QID|12709| |N|Zul'Drak, Zim'Torga (59.91, 57.91)|
-A Enchanted Tiki Warriors |QID|12708| |N|Zul'Drak, Zim'Torga (59.34, 56.50)|
-A Wooly Justice |QID|12707| |N|Zul'Drak, Zim'Torga (59.12, 56.31)|
-- |QID|12709.1| |QO|Zol'Maz Stronghold Cache: 12/12| |N|Zul'Drak, Zol'Maz Stronghold (66.09, 36.09)|
-U |cffffffff|Hitem:39305:0:0:0:0:0:0:1625227016:77|h[Tiki Hex Remover]|h|r |N|Zul'Drak, Zol'Maz Stronghold (66.71, 35.45)|
-- |QID|12708.1| |QO|Enchanted Tiki Warriors destroyed: 12/12| |N|Zul'Drak, Zol'Maz Stronghold (66.33, 37.10)|
-U |cffffffff|Hitem:39315:0:0:0:0:0:0:875645146:77|h[Drek'Maz's Tiki]|h|r |N|Zul'Drak, Zol'Maz Stronghold (66.02, 34.01)|
-U |cffffffff|Hitem:39314:0:0:0:0:0:0:1698550458:77|h[Tiki Dervish Ceremony]|h|r |N|Zul'Drak, Zol'Maz Stronghold (66.16, 33.81)|
-- |QID|12712.1| |QO|Key of Warlord Zol'Maz: 1/1| |N|Zul'Drak, Zol'Maz Stronghold (66.17, 33.49)|
-T The Key of Warlord Zol'Maz |QID|12712| |N|Zul'Drak, Zim'Torga (60.24, 57.73)|
+
 A Rampage |QID|12721| |N|Zul'Drak, Zim'Torga (60.24, 57.73)|
-T Hexed Caches |QID|12709| |N|Zul'Drak, Zim'Torga (59.97, 57.84)|
-T Enchanted Tiki Warriors |QID|12708| |N|Zul'Drak, Zim'Torga (59.38, 56.49)|
-U |cffffffff|Hitem:39268:0:0:0:0:0:0:1373611285:77|h[Medallion of Mam'toth]|h|r |N|Zul'Drak, Altar of Mam'toth (75.33, 44.53)|
-- |QID|12707.1| |QO|Mam'toth Disciples trampled to death: 12/12| |N|Zul'Drak, Altar of Mam'toth (71.46, 42.83)|
 - |QID|12721.1| |QO|Akali unfettered from his chains.| |N|Zul'Drak, Gundrak (79.01, 25.35)|
-T Wooly Justice |QID|12707| |N|Zul'Drak, Zim'Torga (59.11, 56.24)|
 T Rampage |QID|12721| |N|Zul'Drak, Zim'Torga (59.54, 57.98)|
 A The Gods Have Spoken |QID|12729| |N|Zul'Drak, Zim'Torga (59.54, 57.91)|
-T Just Checkin' |QID|13099| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
-A For Posterity |QID|13098| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
-A One of a Kind |QID|13111| |N|Zul'Drak, Dubra'Jin (70.03, 21.01)|
 - |QID|12729.1| |QO|Unblemished Heart of the Guardian: 1/1| |N|Zul'Drak, Zim'Rhuk (59.54, 41.67)|
 - |QID|12729.2| |QO|Gusty Essence of the Warden: 1/1| |N|Zul'Drak, Altar of Quetz'lun (73.97, 54.56)|
 ]]
