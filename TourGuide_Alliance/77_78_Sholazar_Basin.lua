@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Sholazar Basin (76-77)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Sholazar Basin (77-78)", nil, "Alliance", function()
 return [[
 ]]
 end)

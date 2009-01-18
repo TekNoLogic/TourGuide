@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Zul'Drak (75-76)", "Sholazar Basin (76-77)", "Alliance", function()
+TourGuide:RegisterGuide("Zul'Drak (75-77)", "Sholazar Basin (77-78)", "Alliance", function()
 return [[
 A Reallocating Resources |QID|12770| |N|At the Westfall Brigade Encampment in Grizzly Hills (59.41, 26.13)|
 T Reallocating Resources |QID|12770| |N|Talk to the flightmaster for a flight to Light's Breach (32.05, 74.46)|
