@@ -296,35 +296,10 @@ T Enchanted Tiki Warriors |QID|12708|
 T The Key of Warlord Zol'Maz |QID|12712|
 A Rampage |QID|12721|
 T Hexed Caches |QID|12709|
+A Just Checkin' |QID|13099|
+
+C Rampage |QID|12721| |N|Northeast, in front of Gundrak (79.03, 24.32).  Unlock each of Akali's chains, then enjoy the show.|
+T Just Checkin' |QID|13099| |N|Northwest at Dubra'Jin (70.05, 21.01)|
+T Rampage |QID|12721| |N|Back at Zim'Torga (59.54, 58.01)|
 ]]
 end)
-
---[[
-A Just Checkin' |QID|13099| |N|Zul'Drak, Zim'Torga (59.90, 57.86)|
-T Just Checkin' |QID|13099| |N|Zul'Drak, Dubra'Jin (70.05, 21.01)|
-]]
-
---[[
-A Need an Engine, Take an Engine |QID|12522| |N|Sholazar Basin, Nesingwary Base Camp (25.40, 58.39)|
-- |QID|12522.1| |QO|Flying Machine Engine: 1/1| |N|Sholazar Basin, Wildgrowth Mangal (38.62, 56.75)|
-T Need an Engine, Take an Engine |QID|12522| |N|Sholazar Basin, Nesingwary Base Camp (25.37, 58.45)|
-A Have a Part, Give a Part |QID|12523| |N|Sholazar Basin, Nesingwary Base Camp (25.37, 58.45)|
-- |QID|12523.1| |QO|Venture Co. Spare Parts: 7/7| |N|Sholazar Basin, Swindlegrin's Dig (34.20, 48.88)|
-T Have a Part, Give a Part |QID|12523| |N|Sholazar Basin, Nesingwary Base Camp (25.38, 58.42)|
-A Aerial Surveillance |QID|12696| |N|Sholazar Basin, Nesingwary Base Camp (25.32, 58.39)|
-T Aerial Surveillance |QID|12696| |N|Sholazar Basin, Lakeside Landing (49.97, 61.47)|
-A An Embarassing Incident |QID|12699| |N|Sholazar Basin, Lakeside Landing (49.93, 61.54)|
-U |cffffffff|Hitem:40390:0:0:0:0:0:0:2131009352:77|h[Vic's Emergency Air Tank]|h|r |N|Sholazar Basin, River's Heart (48.31, 62.86)|
-- |QID|12699.1| |QO|Vic's Keys: 1/1| |N|Sholazar Basin, River's Heart (48.37, 62.74)|
-T An Embarassing Incident |QID|12699| |N|Sholazar Basin, Lakeside Landing (49.94, 61.57)|
-A Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.90, 61.58)|
-- |QID|12671.1| |QO|Reconnaissance Flight| |N|Sholazar Basin, Lakeside Landing (50.13, 61.38)|
-T Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.99, 61.57)|
-
-A Rampage |QID|12721| |N|Zul'Drak, Zim'Torga (60.24, 57.73)|
-- |QID|12721.1| |QO|Akali unfettered from his chains.| |N|Zul'Drak, Gundrak (79.01, 25.35)|
-T Rampage |QID|12721| |N|Zul'Drak, Zim'Torga (59.54, 57.98)|
-A The Gods Have Spoken |QID|12729| |N|Zul'Drak, Zim'Torga (59.54, 57.91)|
-- |QID|12729.1| |QO|Unblemished Heart of the Guardian: 1/1| |N|Zul'Drak, Zim'Rhuk (59.54, 41.67)|
-- |QID|12729.2| |QO|Gusty Essence of the Warden: 1/1| |N|Zul'Drak, Altar of Quetz'lun (73.97, 54.56)|
-]]
