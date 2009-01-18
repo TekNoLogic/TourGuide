@@ -1,64 +1,115 @@
 
 TourGuide:RegisterGuide("Sholazar Basin (77-78)", nil, "Alliance", function()
 return [[
+N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, and instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.|
+
+F Dalaran
+A Where in the World is Hemet Nesingwary? |QID|12521| |N|On Krasus' Landing (68.70, 42.54)|
+
+T Where in the World is Hemet Nesingwary? |QID|12521| |N|Talk to Archmage Pentarus for a flight-portal.|
+A Welcome to Sholazar Basin |QID|12489|
+
+T Welcome to Sholazar Basin |QID|12489| |N|West at the Nesingwary Base Camp (27.03, 58.69)|
+A It Could Be Anywhere! |QID|12624|
+A Venture Co. Misadventure |QID|12524|
+A Need an Engine, Take an Engine |QID|12522| |N|On the other side of the helf-boat (25.41, 58.41)|
+C Need an Engine, Take an Engine |QID|12522| |N|Back down near where you parachuted into the Wildgrowth Mangal (38.63, 56.81)|
+T Need an Engine, Take an Engine |QID|12522| |N|Back at the Nesingwary Base Camp (25.42, 58.62)|
+A Have a Part, Give a Part |QID|12523|
+
+A Engineering a Disaster |QID|12688| |N|Northeast on the other side of the big pillar at Swindlegrin's Dig (35.56, 47.38).  Look for the escort in the center on a platform near the big yellow crystals.|
+C Engineering a Disaster |QID|12688|
+C Have a Part, Give a Part |QID|12523|
+C Venture Co. Misadventure |QID|12524|
+
+T Engineering a Disaster |QID|12688| |N|Back at the Nesingwary Base Camp (27.14, 58.71)|
+T Venture Co. Misadventure |QID|12524|
+A Wipe That Grin Off His Face |QID|12525|
+T Have a Part, Give a Part |QID|12523|
+A Aerial Surveillance |QID|12696|
+
+C Wipe That Grin Off His Face |QID|12525| |N|Back at the dig, look for a shredder on a platform (35.86, 50.43).  Kill him and his bodyguard.|
+
+T Wipe That Grin Off His Face |QID|12525| |N|Back at the Nesingwary Base Camp (27.16, 59.82)|
+A Kick, What Kick? |QID|12589| |N|Sholazar Basin, Nesingwary Base Camp (27.03, 59.82)|
+C Kick, What Kick? |QID|12589| |U|38573| |N|Equip the gun, have a little target practice.|
+T Kick, What Kick? |QID|12589|
+A The Great Hunter's Challenge |QID|12592|
+A Dreadsaber Mastery: Becoming a Predator |QID|12549|
+A Rhino Mastery: The Test |QID|12520|
+
+C Rhino Mastery: The Test |QID|12520| |N|Northwest of camp along the road|
+C Dreadsaber Mastery: Becoming a Predator |QID|12549|
+
+T Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|Back at the Nesingwary Base Camp (26.76, 59.14)|
+A Dreadsaber Mastery: Stalking the Prey |QID|12550|
+T Rhino Mastery: The Test |QID|12520|
+A Rhino Mastery: The Chase |QID|12526|
+A A Steak Fit for a Hunter |QID|12804|
+A Some Make Lemonade, Some Make Liquor |QID|12634|
+A Crocolisk Mastery: The Trial |QID|12551|
+
+T Rhino Mastery: The Chase |QID|12526| |N|Due south of camp near the Bones of Nozronn (25.52, 66.50)|
+A An Offering for Soo-rahm |QID|12543|
+
+C Dreadsaber Mastery: Stalking the Prey |QID|12550| |N|North, along the shore of Bittertide Lake (37,41)|
+
+C Some Make Lemonade, Some Make Liquor |QID|12634| |N|Southeast in the Wildgrowth Mangal (45,56).  Run around pulling vines.  If you get a dorf, talk to it.|
+C An Offering for Soo-rahm |QID|12543|
+C Crocolisk Mastery: The Trial |QID|12551|
+
+T An Offering for Soo-rahm |QID|12543| |N|Back near the Bones of Nozronn (25.53, 66.41)|
+A The Bones of Nozronn |QID|12544|
+C The Bones of Nozronn |QID|12544| |U|38519| |N|Due south, use the incense at the offering bowl in front of the Bones of Nozronn (26.07, 71.50)|
+
+C A Steak Fit for a Hunter |QID|12804| |N|Kill "longnecks" for their, uh, long steaks?|
+
+T Some Make Lemonade, Some Make Liquor |QID|12634| |N|Back at the Nesingwary Base Camp (26.84, 60.06)|
+A Still At It |QID|12644|
+C Still At It |QID|12644| |N|Position yourself within reach of all the materials by the still (26.73, 59.84).  Talk to "Tipsy" to start the distiller, then watch your chat for instructions.|
+T Still At It |QID|12644|
+A The Taste Test |QID|12645|
+T A Steak Fit for a Hunter |QID|12804|
+T The Great Hunter's Challenge |QID|12592|
+T Crocolisk Mastery: The Trial |QID|12551|
+A Crocolisk Mastery: The Plan |QID|12560|
+T Dreadsaber Mastery: Stalking the Prey |QID|12550|
+A Dreadsaber Mastery: Ready to Pounce |QID|12558|
+T The Bones of Nozronn |QID|12544|
+A Rhino Mastery: The Kill |QID|12556|
+N Hemet's taste test |Q|The Taste Test| |QO|Hemet's taste test: 1/1| |U|38697| |N|Use the Jungle Punch near Nessy (27.07, 58.71) to have him taste test it.|
+N Hadrius' taste test |Q|The Taste Test| |QO|Hadrius' taste test: 1/1| |U|38697| |N|Have Hadrius test too, he's just opposite Hemet (27.33, 59.38)|
+
 ]]
 end)
 
 --[[
+- |QID|12624.1| |QO|Golden Engagement Ring: 1/1| |N|Sholazar Basin, Swindlegrin's Dig (36.28, 46.87)|
+T It Could Be Anywhere! |QID|12624| |N|Sholazar Basin, Nesingwary Base Camp (26.85, 59.00)|
+
+T Aerial Surveillance |QID|12696| |N|Sholazar Basin, Lakeside Landing (50.00, 61.52)|
+A An Embarassing Incident |QID|12699| |N|Sholazar Basin, Lakeside Landing (50.00, 61.52)|
+A Force of Nature |QID|12803| |N|Sholazar Basin, Lakeside Landing (50.00, 61.52)|
+A The Part-time Hunter |QID|12654| |N|Sholazar Basin, Lakeside Landing (50.42, 62.03)|
+- |QID|12699.1| |QO|Vic's Keys: 1/1| |N|Sholazar Basin, River's Heart (47.98, 63.68)|
+N lake center |N|Sholazar Basin, River's Heart (48.15, 63.44)|
+U |cffffffff|Hitem:40390:0:0:0:0:0:0:354957956:77|h[Vic's Emergency Air Tank]|h|r |N|Sholazar Basin, River's Heart (48.93, 63.56)|
+T An Embarassing Incident |QID|12699| |N|Sholazar Basin, Lakeside Landing (49.95, 61.46)|
+A Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.95, 61.46)|
+- |QID|12671.1| |QO|Reconnaissance Flight| |N|Sholazar Basin, Lakeside Landing (49.97, 61.70)|
+T Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.99, 61.60)|
+
+- |QID|12592.1| |QO|Game Animals Killed: 60/60| |N|Sholazar Basin,  (24.84, 67.19)|
+]]
+
+--[[
 A Gal'darah Must Pay |QID|13096| |N|,  (44.46, 58.95)|
-A It Could Be Anywhere! |QID|12624| |N|Sholazar Basin, Nesingwary Base Camp (26.91, 58.95)|
-A Venture Co. Misadventure |QID|12524| |N|Sholazar Basin, Nesingwary Base Camp (27.18, 59.85)|
 T For Posterity |QID|13098| |N|Sholazar Basin, Nesingwary Base Camp (26.82, 59.28)|
-- |QID|12524.1| |QO|Venture Company members killed: 15/15| |N|Sholazar Basin, Swindlegrin's Dig (36.91, 50.30)|
-- |QID|12624.1| |QO|Golden Engagement Ring: 1/1| |N|Sholazar Basin, Swindlegrin's Dig (36.91, 50.30)|
-T Venture Co. Misadventure |QID|12524| |N|Sholazar Basin, Nesingwary Base Camp (27.24, 59.77)|
-A Wipe That Grin Off His Face |QID|12525| |N|Sholazar Basin, Nesingwary Base Camp (27.19, 59.73)|
-T It Could Be Anywhere! |QID|12624| |N|Sholazar Basin, Nesingwary Base Camp (26.93, 58.92)|
-- |QID|12525.2| |QO|Meatpie slain: 1/1| |N|Sholazar Basin, Swindlegrin's Dig (36.05, 50.42)|
-- |QID|12525.1| |QO|Foreman Swindlegrin slain: 1/1| |N|Sholazar Basin, Swindlegrin's Dig (36.00, 50.41)|
-A Engineering a Disaster |QID|12688| |N|Sholazar Basin, Swindlegrin's Dig (35.57, 47.30)|
-- |QID|12688.1| |QO|Escort Engineer Helice out of Swindlegrin's Dig| |N|Sholazar Basin, Swindlegrin's Dig (37.38, 50.53)|
-T Wipe That Grin Off His Face |QID|12525| |N|Sholazar Basin, Nesingwary Base Camp (27.23, 59.81)|
-A Kick, What Kick? |QID|12589| |N|Sholazar Basin, Nesingwary Base Camp (27.03, 59.84)|
-U |cffffffff|Hitem:38573:0:0:0:0:0:0:1763884353:77|h[RJR Rifle]|h|r |N|Sholazar Basin, Nesingwary Base Camp (27.09, 59.90)|
-- |QID|12589.1| |QO|Shot apple on Lucky Wilhelm's Head: 1/1| |N|Sholazar Basin, Nesingwary Base Camp (27.09, 59.87)|
-T Kick, What Kick? |QID|12589| |N|Sholazar Basin, Nesingwary Base Camp (27.09, 59.87)|
-A The Great Hunter's Challenge |QID|12592| |N|Sholazar Basin, Nesingwary Base Camp (27.09, 59.87)|
-A Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|Sholazar Basin, Nesingwary Base Camp (26.73, 59.01)|
-A Rhino Mastery: The Test |QID|12520| |N|Sholazar Basin, Nesingwary Base Camp (27.10, 58.70)|
-T Engineering a Disaster |QID|12688| |N|Sholazar Basin, Nesingwary Base Camp (27.10, 58.70)|
-- |QID|12520.1| |QO|Shardhorn Rhino slain: 15/15| |N|Sholazar Basin,  (39.53, 45.34)|
-- |QID|12549.1| |QO|Dreadsaber slain: 15/15| |N|Sholazar Basin, Sparktouched Haven (26.88, 74.89)|
-T Dreadsaber Mastery: Becoming a Predator |QID|12549| |N|Sholazar Basin, Nesingwary Base Camp (26.72, 59.09)|
-A Dreadsaber Mastery: Stalking the Prey |QID|12550| |N|Sholazar Basin, Nesingwary Base Camp (26.86, 59.21)|
-T Rhino Mastery: The Test |QID|12520| |N|Sholazar Basin, Nesingwary Base Camp (27.12, 58.75)|
-A Rhino Mastery: The Chase |QID|12526| |N|Sholazar Basin, Nesingwary Base Camp (27.12, 58.75)|
-A Crocolisk Mastery: The Trial |QID|12551| |N|Sholazar Basin, Nesingwary Base Camp (26.86, 59.49)|
-A A Steak Fit for a Hunter |QID|12804| |N|Sholazar Basin, Nesingwary Base Camp (26.80, 59.93)|
-A Some Make Lemonade, Some Make Liquor |QID|12634| |N|Sholazar Basin, Nesingwary Base Camp (27.01, 58.84)|
-- |QID|12804.1| |QO|Longneck Grazer Steak: 5/5| |N|Sholazar Basin,  (27.84, 65.44)|
-T A Steak Fit for a Hunter |QID|12804| |N|Sholazar Basin, Nesingwary Base Camp (26.73, 59.65)|
-- |QID|12550.1| |QO|Shango Track identified: 3/3| |N|Sholazar Basin, Bittertide Lake (38.15, 41.93)|
-T Dreadsaber Mastery: Stalking the Prey |QID|12550| |N|Sholazar Basin, Nesingwary Base Camp (26.74, 59.09)|
-A Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|Sholazar Basin, Nesingwary Base Camp (26.74, 59.09)|
+
 - |QID|12558.1| |QO|Shango's Pelt: 1/1| |N|Sholazar Basin,  (33.89, 34.54)|
 T Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|Sholazar Basin, Nesingwary Base Camp (26.76, 59.09)|
-- |QID|12592.1| |QO|Game Animals Killed: 60/60| |N|Sholazar Basin, Wildgrowth Mangal (39.44, 55.42)|
-- |QID|12634.3| |QO|Papaya: 1/1| |N|Sholazar Basin, Wildgrowth Mangal (39.47, 55.54)|
-- |QID|12634.1| |QO|Orange: 1/1| |N|Sholazar Basin, Wildgrowth Mangal (40.12, 56.47)|
-- |QID|12551.1| |QO|Mangal Crocolisk slain: 15/15| |N|Sholazar Basin, Wildgrowth Mangal (44.81, 57.83)|
-- |QID|12634.2| |QO|Banana Bunch: 2/2| |N|Sholazar Basin, Wildgrowth Mangal (47.81, 57.00)|
-T Crocolisk Mastery: The Trial |QID|12551| |N|Sholazar Basin, Nesingwary Base Camp (27.24, 59.84)|
-A Crocolisk Mastery: The Plan |QID|12560| |N|Sholazar Basin, Nesingwary Base Camp (27.24, 59.84)|
 T The Great Hunter's Challenge |QID|12592| |N|Sholazar Basin, Nesingwary Base Camp (27.09, 59.85)|
-T Some Make Lemonade, Some Make Liquor |QID|12634| |N|Sholazar Basin, Nesingwary Base Camp (26.83, 60.19)|
-A Still At It |QID|12644| |N|Sholazar Basin, Nesingwary Base Camp (26.83, 60.16)|
-- |QID|12644.1| |QO|Thunderbrew's Jungle Punch: 1/1| |N|Sholazar Basin, Nesingwary Base Camp (26.72, 59.90)|
-T Still At It |QID|12644| |N|Sholazar Basin, Nesingwary Base Camp (26.81, 60.14)|
-A The Taste Test |QID|12645| |N|Sholazar Basin, Nesingwary Base Camp (26.81, 60.14)|
-U |cffffffff|Hitem:38697:0:0:0:0:0:0:963657772:77|h[Jungle Punch Sample]|h|r |N|Sholazar Basin, Nesingwary Base Camp (27.32, 59.38)|
-- |QID|12645.2| |QO|Hadrius' taste test: 1/1| |N|Sholazar Basin, Nesingwary Base Camp (27.32, 59.38)|
-- |QID|12645.1| |QO|Hemet's taste test: 1/1| |N|Sholazar Basin, Nesingwary Base Camp (27.19, 58.69)|
+
 - |QID|12645.3| |QO|Tamara's taste test: 1/1| |N|Sholazar Basin, Lakeside Landing (50.41, 62.04)|
 - |QID|12560.1| |QO|Sandfern: 5/5| |N|Sholazar Basin, The Seabreach Flow (26.40, 62.33)|
 T The Taste Test |QID|12645| |N|Sholazar Basin, Nesingwary Base Camp (26.77, 60.14)|
@@ -67,15 +118,7 @@ A Crocolisk Mastery: The Ambush |QID|12569| |N|Sholazar Basin, Nesingwary Base C
 U |cffffffff|Hitem:38564:0:0:0:0:0:0:776848154:77|h[Sandfern Disguise]|h|r |N|Sholazar Basin, River's Heart (46.36, 63.43)|
 - |QID|12569.1| |QO|Bushwhacker's Jaw: 1/1| |N|Sholazar Basin, River's Heart (46.53, 63.42)|
 T Crocolisk Mastery: The Ambush |QID|12569| |N|Sholazar Basin, Nesingwary Base Camp (27.20, 59.91)|
-T Rhino Mastery: The Chase |QID|12526| |N|Sholazar Basin,  (25.55, 66.44)|
-A An Offering for Soo-rahm |QID|12543| |N|Sholazar Basin,  (25.55, 66.44)|
-- |QID|12543.1| |QO|Intact Cobra Fang: 5/5| |N|Sholazar Basin, Wildgrowth Mangal (40.89, 69.21)|
-T An Offering for Soo-rahm |QID|12543| |N|Sholazar Basin,  (25.52, 66.50)|
-A The Bones of Nozronn |QID|12544| |N|Sholazar Basin,  (25.54, 67.00)|
-U |cffffffff|Hitem:38519:0:0:0:0:0:0:1090431794:77|h[Soo-rahm's Incense]|h|r |N|Sholazar Basin, The Bones of Nozronn (26.12, 71.68)|
-- |QID|12544.1| |QO|Location of Farunn revealed: 1/1| |N|Sholazar Basin, The Bones of Nozronn (26.12, 71.68)|
-T The Bones of Nozronn |QID|12544| |N|Sholazar Basin, Nesingwary Base Camp (27.06, 58.69)|
-A Rhino Mastery: The Kill |QID|12556| |N|Sholazar Basin, Nesingwary Base Camp (27.06, 58.69)|
+
 A Lakeside Landing |QID|12651| |N|Sholazar Basin, Nesingwary Base Camp (27.06, 58.69)|
 - |QID|12556.1| |QO|Farunn's Horn: 1/1| |N|Sholazar Basin,  (47.60, 44.48)|
 T Rhino Mastery: The Kill |QID|12556| |N|Sholazar Basin, Nesingwary Base Camp (27.10, 58.71)|
@@ -99,14 +142,6 @@ A Post-partum Aggression |QID|12614| |N|Sholazar Basin, Dorian's Outpost (42.34,
 T Post-partum Aggression |QID|12614| |N|Sholazar Basin, Dorian's Outpost (42.31, 28.64)|
 U |cff0070dd|Hitem:39478:0:0:0:0:0:0:25202124:77|h[Cloak of the Deadliest Game]|h|r |N|Sholazar Basin, Dorian's Outpost (42.32, 28.59)|
 T For Posterity |QID|13098| |N|Sholazar Basin,  (37.36, 33.37)|
-A Have They No Shame? |QID|13094| |N|Borean Tundra, Transitus Shield (33.51, 34.38)|
-A Drake Hunt |QID|11940| |N|Borean Tundra, Transitus Shield (33.36, 34.44)|
-T Have They No Shame? |QID|13094| |N|Sholazar Basin, Nesingwary Base Camp (26.68, 59.18)|
-T Drake Hunt |QID|11940| |N|Sholazar Basin, Nesingwary Base Camp (26.68, 59.18)|
-A Drake Hunt |QID|11940| |N|Sholazar Basin, Nesingwary Base Camp (26.68, 59.18)|
-A Have They No Shame? |QID|13094| |N|Sholazar Basin, Nesingwary Base Camp (26.68, 59.18)|
-T Have They No Shame? |QID|13094| |N|Sholazar Basin, Nesingwary Base Camp (26.68, 59.18)|
-T Drake Hunt |QID|11940| |N|Sholazar Basin, Nesingwary Base Camp (26.68, 59.18)|
 U |cffffffff|Hitem:39164:0:0:0:0:0:0:435847514:77|h[Sample Container]|h|r |N|Sholazar Basin, Bittertide Lake (42.22, 40.60)|
 - |QID|12683.2| |QO|Bittertide Hydra slain: 5/5| |N|Sholazar Basin, Bittertide Lake (40.01, 39.48)|
 - |QID|12683.1| |QO|Sputum Samples Collected: 5/5| |N|Sholazar Basin, Bittertide Lake (40.01, 39.48)|
@@ -134,14 +169,4 @@ T Salvaging Life's Strength |QID|12805| |N|Sholazar Basin, Rainspeaker Rapids (6
 T Cultist Incursion |QID|12608| |N|Sholazar Basin, Rainspeaker Rapids (64.58, 48.65)|
 A Exterminate the Intruders |QID|12617| |N|Sholazar Basin, Rainspeaker Rapids (64.58, 48.65)|
 A Weapons of Destruction |QID|12660| |N|Sholazar Basin, Rainspeaker Rapids (64.58, 48.65)|
-A Where in the World is Hemet Nesingwary? |QID|12521| |N|Dalaran, Krasus Landing (68.54, 42.13)|
-T Where in the World is Hemet Nesingwary? |QID|12521| |N|Sholazar Basin, Wildgrowth Mangal (39.68, 58.69)|
-A Welcome to Sholazar Basin |QID|12489| |N|Sholazar Basin, Wildgrowth Mangal (39.68, 58.69)|
-T Welcome to Sholazar Basin |QID|12489| |N|Sholazar Basin, Nesingwary Base Camp (27.10, 58.69)|
-U |cffffffff|Hitem:6948:0:0:0:0:0:0:1536600034:77|h[Hearthstone]|h|r |N|Elwynn Forest,  (76.03, 75.93)|
-U |cffffffff|Hitem:2449:0:0:0:0:0:0:-2007293864:77|h[Earthroot]|h|r |N|Dalaran,  (41.97, 37.34)|
-U |cffffffff|Hitem:2449:0:0:0:0:0:0:1016967600:77|h[Earthroot]|h|r |N|Dalaran,  (41.97, 37.34)|
-U |cffffffff|Hitem:35506:0:0:0:0:0:0:1004464050:77|h[Raelorasz's Spear]|h|r |N|Borean Tundra, Coldarra (23.22, 33.50)|
-- |QID|11940.1| |QO|Captured Nexus Drake: 1/1| |N|Borean Tundra, Transitus Shield (33.33, 34.46)|
-T Drake Hunt |QID|11940| |N|Borean Tundra, Transitus Shield (33.33, 34.49)|
 ]]
