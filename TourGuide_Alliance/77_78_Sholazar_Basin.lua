@@ -100,6 +100,108 @@ A Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.95, 
 T Reconnaissance Flight |QID|12671| |N|Sholazar Basin, Lakeside Landing (49.99, 61.60)|
 
 - |QID|12592.1| |QO|Game Animals Killed: 60/60| |N|Sholazar Basin,  (24.84, 67.19)|
+
+
+- |QID|12560.1| |QO|Sandfern: 5/5| |N|Sholazar Basin,  (43.80, 45.21)|
+- |QID|12558.1| |QO|Shango's Pelt: 1/1| |N|Sholazar Basin,  (32.67, 35.61)|
+- |QID|12556.1| |QO|Farunn's Horn: 1/1| |N|Sholazar Basin,  (48.15, 44.64)|
+U |cffffffff|Hitem:38697:0:0:0:0:0:0:1255829437:77|h[Jungle Punch Sample]|h|r |N|Sholazar Basin, Lakeside Landing (50.45, 62.11)|
+- |QID|12645.3| |QO|Tamara's taste test: 1/1| |N|Sholazar Basin, Lakeside Landing (50.45, 62.11)|
+T Rhino Mastery: The Kill |QID|12556| |N|Sholazar Basin, Nesingwary Base Camp (27.10, 58.70)|
+T Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|Sholazar Basin, Nesingwary Base Camp (26.74, 59.09)|
+T Crocolisk Mastery: The Plan |QID|12560| |N|Sholazar Basin, Nesingwary Base Camp (27.21, 59.83)|
+A Crocolisk Mastery: The Ambush |QID|12569| |N|Sholazar Basin, Nesingwary Base Camp (27.21, 59.83)|
+T The Taste Test |QID|12645| |N|Sholazar Basin, Nesingwary Base Camp (26.83, 59.97)|
+U |cffffffff|Hitem:38564:0:0:0:0:0:0:1891115824:77|h[Sandfern Disguise]|h|r |N|Sholazar Basin, River's Heart (47.91, 66.12)|
+- |QID|12569.1| |QO|Bushwhacker's Jaw: 1/1| |N|Sholazar Basin, River's Heart (46.30, 63.46)|
+T Crocolisk Mastery: The Ambush |QID|12569| |N|Sholazar Basin, Nesingwary Base Camp (27.19, 59.84)|
+A In Search of Bigger Game |QID|12595| |N|Sholazar Basin, Nesingwary Base Camp (27.12, 58.76)|
+T In Search of Bigger Game |QID|12595| |N|Sholazar Basin, Dorian's Outpost (42.31, 28.60)|
+A Sharpening Your Talons |QID|12603| |N|Sholazar Basin, Dorian's Outpost (42.31, 28.60)|
+A Securing the Bait |QID|12605| |N|Sholazar Basin, Dorian's Outpost (42.31, 28.60)|
+A Burning to Help |QID|12683| |N|Sholazar Basin, Dorian's Outpost (42.08, 28.60)|
+U |cffffffff|Hitem:39164:0:0:0:0:0:0:525386276:77|h[Sample Container]|h|r |N|Sholazar Basin, Bittertide Lake (40.48, 37.30)|
+- |QID|12683.2| |QO|Bittertide Hydra slain: 5/5| |N|Sholazar Basin, Bittertide Lake (41.16, 41.97)|
+- |QID|12683.1| |QO|Sputum Samples Collected: 5/5| |N|Sholazar Basin, Bittertide Lake (41.63, 41.99)|
+- |QID|12605.1| |QO|Primordial Hatchling: 6/6| |N|Sholazar Basin, The Savage Thicket (47.66, 27.83)|
+- |QID|12603.1| |QO|Primordial Drake slain: 6/6| |N|Sholazar Basin, The Savage Thicket (48.07, 28.31)|
+T Sharpening Your Talons |QID|12603| |N|Sholazar Basin, Dorian's Outpost (42.39, 28.72)|
+T Securing the Bait |QID|12605| |N|Sholazar Basin, Dorian's Outpost (42.39, 28.72)|
+A Reagent Agent |QID|12681| |N|Sholazar Basin, Dorian's Outpost (42.17, 28.59)|
+T Burning to Help |QID|12683| |N|Sholazar Basin, Dorian's Outpost (42.17, 28.59)|
+A A Mammoth Undertaking |QID|12607| |N|Sholazar Basin, Dorian's Outpost (42.15, 28.84)|
+A My Pet Roc |QID|12658| |N|Sholazar Basin, Dorian's Outpost (42.15, 28.84)|
+U |cffffffff|Hitem:38627:0:0:0:0:0:0:626789005:77|h[Mammoth Harness]|h|r |N|Sholazar Basin,  (42.74, 33.15)|
+- |QID|12607.1| |QO|Shattertusk Mammoth Delivered: 1/1| |N|Sholazar Basin, Dorian's Outpost (42.26, 29.06)|
+T A Mammoth Undertaking |QID|12607| |N|Sholazar Basin, Dorian's Outpost (42.15, 28.87)|
+A Post-partum Aggression |QID|12614| |N|Sholazar Basin, Dorian's Outpost (42.31, 28.70)|
+- |QID|12614.1| |QO|Broodmother Slivina slain: 1/1| |N|Sholazar Basin, The Savage Thicket (46.83, 21.54)|
+N birds here |N|Sholazar Basin, The Bonefields (55.10, 24.95)|
+- |QID|12658.1| |QO|Roc Egg: 7/7| |N|Sholazar Basin, The Bonefields (55.82, 25.43)|
+- |QID|12681.1| |QO|Twisted Roc Talon: 5/5| |N|Sholazar Basin, The Bonefields (59.40, 29.07)|
+U |cffffffff|Hitem:33445:0:0:0:0:0:0:1790618473:77|h[Honeymint Tea]|h|r |N|Sholazar Basin, The Bonefields (59.49, 29.11)|
+T Post-partum Aggression |QID|12614| |N|Sholazar Basin, Dorian's Outpost (42.26, 28.59)|
+T Reagent Agent |QID|12681| |N|Sholazar Basin, Dorian's Outpost (42.15, 28.60)|
+T My Pet Roc |QID|12658| |N|Sholazar Basin, Dorian's Outpost (42.16, 28.99)|
+T Force of Nature |QID|12803| |N|Sholazar Basin, Rainspeaker Rapids (64.70, 48.57)|
+A An Issue of Trust |QID|12561| |N|Sholazar Basin, Rainspeaker Rapids (64.70, 48.57)|
+- |QID|12561.1| |QO|Blighted Corpse slain: 6/6| |N|Sholazar Basin, The Lost Lands (70.72, 51.04)|
+- |QID|12561.2| |QO|Bonescythe Ravager slain: 10/10| |N|Sholazar Basin, The Lost Lands (70.65, 52.51)|
+T An Issue of Trust |QID|12561| |N|Sholazar Basin, Rainspeaker Rapids (64.59, 48.53)|
+A Returned Sevenfold |QID|12611| |N|Sholazar Basin, Rainspeaker Rapids (64.59, 48.53)|
+U |cffffffff|Hitem:38657:0:0:0:0:0:0:1707726124:77|h[Freya's Ward]|h|r |N|Sholazar Basin, The Lost Lands (66.85, 43.83)|
+N here |N|Sholazar Basin, The Lost Lands (66.75, 44.25)|
+- |QID|12611.1| |QO|Thalgran Blightbringer slain: 1/1| |N|Sholazar Basin, The Lost Lands (66.96, 43.89)|
+T Returned Sevenfold |QID|12611| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.61)|
+A The Fallen Pillar |QID|12612| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.61)|
+A Salvaging Life's Strength |QID|12805| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.61)|
+T The Fallen Pillar |QID|12612| |N|Sholazar Basin, The Lifeblood Pillar (65.12, 60.30)|
+A Cultist Incursion |QID|12608| |N|Sholazar Basin, The Lifeblood Pillar (65.12, 60.30)|
+U |cffffffff|Hitem:40397:0:0:0:0:0:0:499671463:77|h[Lifeblood Gem]|h|r |N|Sholazar Basin, The Lifeblood Pillar (65.07, 60.12)|
+- |QID|12805.1| |QO|Lifeblood Energy Recovered: 8/8| |N|Sholazar Basin, The Sundered Shard (71.63, 55.37)|
+T Cultist Incursion |QID|12608| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.64)|
+T Salvaging Life's Strength |QID|12805| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.64)|
+A Exterminate the Intruders |QID|12617| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.64)|
+A Weapons of Destruction |QID|12660| |N|Sholazar Basin, Rainspeaker Rapids (64.66, 48.64)|
+
+
+U |cff0070dd|Hitem:39488:0:0:0:0:0:0:211141370:77|h[Nesingwary Brush Burner]|h|r |N|Sholazar Basin, Nesingwary Base Camp (27.29, 59.19)|
+- |QID|12660.1| |QO|Unstable Explosives destroyed: 4/4| |N|Sholazar Basin, Death's Hand Encampment (57.12, 41.19)|
+- |QID|12617.1| |QO|Cultist Infiltrator slain: 8/8| |N|Sholazar Basin, Death's Hand Encampment (57.41, 40.79)|
+T Exterminate the Intruders |QID|12617| |N|Sholazar Basin, Rainspeaker Rapids (64.69, 48.56)|
+T Weapons of Destruction |QID|12660| |N|Sholazar Basin, Rainspeaker Rapids (64.69, 48.56)|
+A The Lifewarden's Wrath |QID|12620| |N|Sholazar Basin, Rainspeaker Rapids (64.56, 48.55)|
+U |cffffffff|Hitem:38684:0:0:0:0:0:0:647786137:77|h[Freya's Horn]|h|r |N|Sholazar Basin, The Glimmering Pillar (49.49, 36.72)|
+- |QID|12620.1| |QO|The Lifewarden's Wrath: 1/1| |N|Sholazar Basin, The Glimmering Pillar (49.70, 37.20)|
+T The Lifewarden's Wrath |QID|12620| |N|Sholazar Basin, Rainspeaker Rapids (64.55, 48.56)|
+A Freya's Pact |QID|12621| |N|Sholazar Basin, Rainspeaker Rapids (64.55, 48.56)|
+- |QID|12621.1| |QO|Freya's Pact: 1/1| |N|Sholazar Basin, Rainspeaker Rapids (64.55, 48.56)|
+T Freya's Pact |QID|12621| |N|Sholazar Basin, Rainspeaker Rapids (64.55, 48.56)|
+A Powering the Waygate - The Maker's Perch |QID|12559| |N|Sholazar Basin, Rainspeaker Rapids (64.55, 48.56)|
+- |QID|12559.1| |QO|Activation Switch Gamma: 1/1| |N|Sholazar Basin, The Makers' Perch (26.28, 35.47)|
+T Powering the Waygate - The Maker's Perch |QID|12559| |N|Sholazar Basin, Rainspeaker Rapids (64.63, 48.47)|
+A Powering the Waygate - The Maker's Overlook |QID|12613| |N|Sholazar Basin, Rainspeaker Rapids (64.63, 48.47)|
+- |QID|12613.1| |QO|Activation Switch Theta: 1/1| |N|Sholazar Basin, Makers' Overlook (88.45, 53.05)|
+A A Timeworn Coffer |QID|12691| |N|Sholazar Basin, Makers' Overlook (80.36, 55.69)|
+- |QID|12691.1| |QO|Huge Stone Key: 1/1| |N|Sholazar Basin, Makers' Overlook (88.92, 53.32)|
+T A Timeworn Coffer |QID|12691| |N|Sholazar Basin, Makers' Overlook (80.37, 55.81)|
+T Powering the Waygate - The Maker's Overlook |QID|12613| |N|Sholazar Basin, Rainspeaker Rapids (64.64, 48.64)|
+A The Etymidian |QID|12548| |N|Sholazar Basin, Rainspeaker Rapids (64.64, 48.64)|
+T The Etymidian |QID|12548| |N|The Shaper's Terrace ,  (47.41, 9.20)|
+A The Activation Rune |QID|12547| |N|The Shaper's Terrace ,  (47.41, 9.20)|
+- |QID|12547.1| |QO|Omega Rune: 1/1| |N|The Shaper's Terrace , Hall of Repose (48.19, 3.31)|
+N here |N|The Shaper's Terrace , Hall of Repose (48.17, 2.75)|
+T The Activation Rune |QID|12547| |N|The Shaper's Terrace ,  (47.48, 9.14)|
+A Back Through the Waygate |QID|12797| |N|The Shaper's Terrace ,  (47.48, 9.14)|
+T Back Through the Waygate |QID|12797| |N|Sholazar Basin, Rainspeaker Rapids (64.64, 48.75)|
+A Reclamation |QID|12546| |N|Sholazar Basin, Rainspeaker Rapids (64.64, 48.75)|
+U |cffffffff|Hitem:38709:0:0:0:0:0:0:349193788:77|h[Omega Rune]|h|r |N|Sholazar Basin, The Avalanche (72.42, 37.85)|
+- |QID|12546.4| |QO|Hailscorn slain: 1/1| |N|Sholazar Basin, The Avalanche (70.27, 33.93)|
+- |QID|12546.3| |QO|Urgreth of the Thousand Tombs slain: 1/1| |N|Sholazar Basin, The Avalanche (70.20, 37.02)|
+- |QID|12546.2| |QO|Bythius the Flesh-Shaper slain: 1/1| |N|Sholazar Basin, The Avalanche (72.27, 39.85)|
+- |QID|12546.1| |QO|Scourge Minions destroyed: 200/200| |N|Sholazar Basin, The Avalanche (68.54, 36.85)|
+T Reclamation |QID|12546| |N|Sholazar Basin, Rainspeaker Rapids (64.64, 48.47)|
+
 ]]
 
 --[[
