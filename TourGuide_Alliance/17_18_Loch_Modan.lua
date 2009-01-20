@@ -1,7 +1,7 @@
 TourGuide:RegisterGuide("Loch Modan (17-18)", "Redridge Mountains (18-20)", "Alliance", function()
 return [[
-F Loch Modan |N|Boat to Menethil Harbor, then fly there!| |R|Human, Dwarf, Gnome|
-R Loch Modan |N|Boat to Menethil Harbor, grab the flight point there, then run thru Wetlands to Loch.| |R|Night Elf, Draenei|
+F Loch Modan |N|Boat to Stormwind Harbor, then fly there!| |R|Human, Dwarf, Gnome|
+R Loch Modan |N|Boat to Stormwind Harbor, grab the flight point there, then run thru Wetlands to Loch.| |R|Night Elf, Draenei|
 R Algaz Station |N|In the north of Loch Modan. Watch out the big bad highlevel mobs on the way. Good luck!|
 
 A Filthy Paws |N|Upstairs, inside the tower| |QID|307|
