@@ -60,4 +60,5 @@
 	<Script file="69_70_Shadowmoon_Valley.lua"/>
 
 	<Script file="70_71_Howling_Fjord.lua"/>
+	<Script file="70_71_Borean_Tundra.lua"/>
 </Ui>
