@@ -1,3 +1,9 @@
+3.0.3.45-Beta
+    Ally guide level range tweaks
+    New guide: Ally Zul'Drak
+    New guide: Horde Borean Tundra (thanks lowlee)    
+    Lots of little guide tweaks (thanks Ethan Centaurai, Zariel, keymone)
+
 3.0.3.44-Beta
     Embed update
     Misc guide cleanup
