@@ -1,8 +1,8 @@
 
 TourGuide:RegisterGuide("Burning Steppes (55-56)", "Silithus (56)", "Alliance", function()
 return [[
-F City of Ironforge
-h City of Ironforge
+F City of Ironforge |N|Fly to Auberdine, boat to Stormwind, tram to Ironforge|
+h Ironforge
 T A Little Slime Goes a Long Way |N|In the Hall of Explorers, skip the follow-up.| |QID|4512|
 A The Smoldering Ruins of Thaurissan (Part 1) |N|In the throne room| |QID|3702|
 T The Smoldering Ruins of Thaurissan (Part 1) |QID|3702|

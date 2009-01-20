@@ -1,7 +1,10 @@
 
 TourGuide:RegisterGuide("Winterspring (54-55)", "Burning Steppes (55-56)", "Alliance", function()
 return [[
-R Winterspring |N|Thru the cave!|
+R Moonglade |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave| |C|Death Knight, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior|
+f Get Fight Point |N|(48.1,67.3)| |C|Death Knight, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior| |Z|Moonglade|
+
+R Winterspring |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave|
 T Speak to Salfa |QID|8465|
 A Winterfall Activity |QID|8464|
 N Grab feathers you see |N|For "Moontouched Wildkin"|
@@ -18,7 +21,7 @@ A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
 A Are We There, Yeti? (Part 1) |QID|3783|
 
-C Strange Sources |N|Follow the road far to the south (60,73)| |QID|4842|
+C Strange Sources |N|Follow the road far to the south (60.12,73.44)| |QID|4842|
 
 H Everlook
 C Are We There, Yeti? (Part 1) |N|Just southeast of town.  Kill yeti outside the cave.| |QID|3783|
@@ -47,21 +50,21 @@ A Falling to Corruption |QID|5084|
 T Winterfall Activity |N|Back up at the entrance to Timbermaw Hold| |QID|8464|
 
 R Felwood
-T Falling to Corruption |N|Talk to the cauldren in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood| |QID|5084|
+T Falling to Corruption |N|Talk to the cauldron in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood| |QID|5084|
 A Mystery Goo |QID|5085|
-T Mystery Goo |N|Back in Winterspring, of course.| |QID|5085|
+T Mystery Goo |N|Back in Winterspring. Skip the follow-up.| |QID|5085|
 
-F Darnassus
-T Moontouched Wildkin |QID|978|
+F Rut'theran Village
+T Moontouched Wildkin |N|Skip the follow-up| |QID|978|
 
-A The New Frontier (Part 1) |N|From Herald Moonstalker, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!| |QID|1047|
+A The New Frontier (Part 1) |N|From Herald Moonstalker in Darnassus, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!| |QID|1047|
 T The New Frontier (Part 1) |N|In the tree house in Cenarion Enclave (34,8)| |Z|Darnassus| |QID|1047|
 A The New Frontier (Part 2) |QID|6761|
 T The New Frontier (Part 2) |QID|6761|
 A Rabine Saturna |QID|6762|
 
-F Moonglade |N|If you don't have the flight point, fly to Talonbranch Glade and run north thru Timbermaw Hold.|
-T Rabine Saturna |N|In Nighthaven (51.69, 45.03)| |Z|Moonglade| |QID|6762|
+F Moonglade |N|Teleport there if you are a Druid, or fly to Talonbranch Glade and run there if you didn't get the flight path earlier|
+T Rabine Saturna |N|In Nighthaven (51.69, 45)| |Z|Moonglade| |QID|6762|
 A Wasteland |QID|1124|
 ]]
 

@@ -8,7 +8,6 @@ A March of the Silithid |QID|4493|
 T Assisting Arch Druid Staghelm |N|In a tower in the Cenarion Enclave (34.8, 8.7)| |Z|Darnassus| |QID|10520|
 A Un'Goro Soil |QID|3764|
 h Darnassus |N|The inn is in the Craftsman's Terrace (67.2, 15.7)| |Z|Darnassus|
-B Mithril Casing |L|10561| |N|Off the AH, or find an engineer.|
 
 F Ratchet
 A Volcanic Activity |N|Just south of the dock.| |QID|4502|

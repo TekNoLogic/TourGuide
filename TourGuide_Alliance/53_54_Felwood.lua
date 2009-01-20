@@ -45,7 +45,7 @@ C Flute of Xavaric |QID|939|
 C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4101|
 
 R Talonbranch Glade |N|At the northeast edge of the zone, south of the road (62,24)|
-F Emerald Sanctuary |N|Moonglade's FP is to the east (48,67)| |Z|Moonglade|
+F Emerald Sanctuary
 T Collection of the Corrupt Water |QID|5157|
 T Further Corruption |QID|4906|
 T Flute of Xavaric |QID|939|

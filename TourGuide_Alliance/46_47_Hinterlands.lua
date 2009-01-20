@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("The Hinterlands (46-47)", "Feralas (47)", "Alliance", function()
 return [[
-F Southshore
+F Southshore |N|Fly to Theramore, boat to Menethil, fly to Southshore|
 R The Hinterlands |N|Path is behind Durnholde Keep (84,33), look for two gryphons.| |Z|Hillsbrad Foothills|
 A Witherbark Cages |N|Up the big-ass hill (11,46)| |QID|2988|
 A Featherbeard's Endorsement |N|Outside the inn| |QID|9469|
@@ -13,7 +13,7 @@ h Wildhammer Keep
 T Featherbeard's Endorsement |N|South at a small house, near the fireplace (13,55)| |QID|9469|
 A In Pursuit of Featherbeard |QID|9476|
 
-K Mangy Silverman wolves |Q|Preying on the Predators| |QO|Mangy Silvermane slain: 10/10|
+K Mangy Silvermane Wolves |Q|Preying on the Predators| |QO|Mangy Silvermane slain: 10/10|
 N Check First Cage |Q|Witherbark Cages| |QO|Check First Cage: 1/1| |N|At the troll camp (23,58)|
 N Check Second Cage |Q|Witherbark Cages| |QO|Check Second Cage: 1/1| |N|At the troll camp (23,58)|
 C A Gesture of Goodwill |N|To the south in a cave at Bogen's Ledge (25,66)| |QID|9470|
@@ -34,8 +34,8 @@ A The Altar of Zul |QID|2989|
 T In Pursuit of Featherbeard |N|To the southeast in Shadar'Alor, in the east temple (37,72)| |QID|9476|
 A Reclaiming the Eggs |QID|9475|
 
-C Reclaiming the Eggs |N|Two eggs at the alter on the southe edge of the pond (34.16, 72.91), 3 near Atal'ai Exile in a troff (33,75)| |QID|9475|
-C The Altar of Zul |N|East at the Altar of Zul (48,68).  Just run up the alter and back down, the mob at the top is level 50.| |QID|2989|
+C Reclaiming the Eggs |N|Two eggs at the altar on the south edge of the pond (34.16, 72.91), 3 near Atal'ai Exile in a troff (33,75)| |QID|9475|
+C The Altar of Zul |N|East at the Altar of Zul (48,68).  Just run up the altar and back down, the mob at the top is level 50.| |QID|2989|
 C Favored of Elune? |QID|3661|
 
 A Find OOX-09/HL! |U|8704| |O| |QID|485|
