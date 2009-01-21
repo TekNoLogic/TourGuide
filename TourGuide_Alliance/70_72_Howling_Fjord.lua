@@ -123,7 +123,7 @@ A Falcon Versus Hawk |QID|11468|
 T We Can Rebuild It |QID|11483|
 T We Have the Technology |QID|11484|
 A Iron Rune Constructs and You: Rocket Jumping |QID|11485|
-C Iron Rune Constructs and You: Rocket Jumping |QID|11485|
+C Iron Rune Constructs and You: Rocket Jumping |QID|11485| |N|Right click on the Work Bench next to Walt. (75.10, 65.43)|
 T Iron Rune Constructs and You: Rocket Jumping |QID|11485|
 A Iron Rune Constructs and You: Collecting Data |QID|11489|
 C Iron Rune Constructs and You: Collecting Data |QID|11489|
