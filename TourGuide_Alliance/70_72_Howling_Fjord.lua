@@ -102,7 +102,7 @@ C Tools to Get the Job Done |QID|11475| |N|In a bucket on a platform in the dig 
 C Out of My Element? |QID|11477| |N|Destroyers are around the outside above the dig|
 T Out of My Element? |QID|11477|
 
-N Find a Fjord Grub |N|Under loose rocks all over the place| |L|34102|
+N Find a Fjord Grub |N|Under loose rocks all over the place while on your way back to the Outpost| |L|34102|
 C Trust is Earned |QID|11460| |N|Back at the Explorers' League Outpost (75.27, 64.99).  Feed the grub to the folcon in the cage|
 T Trust is Earned |QID|11460|
 A The Ransacked Caravan |QID|11465|
