@@ -83,7 +83,7 @@ function TourGuide:LoadGuide(name, complete)
 	self.db.char.currentguide = self.guides[name] and name or self.guidelist[1]
 	self:DebugF(1, "Loading guide: %s", name)
 	self.guidechanged = true
-	local _, _, zonename = name:find("^(.*) %(.*%)$")
+	local zonename = name:match("%s*([^]]+) %(.*%)$")
 	self.zonename = zonename
 	self.actions, self.quests, self.tags = ParseQuests(string.split("\n", self.guides[self.db.char.currentguide]()))
 
