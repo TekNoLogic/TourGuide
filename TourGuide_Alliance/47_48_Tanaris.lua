@@ -20,7 +20,7 @@ C The Thirsty Goblin |QID|2605|
 N If you find Tooga... |N|Accept his quest.  He'll follow you, so you can complete "Noxious Lair Investigation" with him on your tail.  Just make sure you leave there with at least 10 minutes left on his timer.|
 C Noxious Lair Investigation |N|At the Noxious Lair (34,46)| |QID|82|
 T Tooga's Quest |O| |QID|1560|
-A Yuka Screwspigot |QID|4324|
+A Yuka Screwspigot |QID|4324| |N|Back at Steamwheedle Port|
 T Screecher Spirits |N|Skip the follow-up| |QID|3520|
 
 T The Thirsty Goblin |QID|2605| |N|Back at Gadgetzan|
