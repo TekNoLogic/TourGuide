@@ -30,10 +30,15 @@ T Thistleshrub Valley |QID|3362|
 T In Good Taste |QID|2606|
 A Sprinkle's Secret Ingredient |QID|2641|
 T Noxious Lair Investigation |QID|82|
-A The Scrimshank Redemption |QID|10|
+A The Scrimshank Redemption |N|Goblin on the hill to the west| |QID|10|
 T Gahz'ridian |N|To the south (52,45)| |QID|3161|
 
 C The Scrimshank Redemption |N|To the south at The Gaping Chasm (55,70), go to the bottom.  Take the southewest entrance, hang left until you get to the gear (55.96, 71.17)| |QID|10|
+
+A Find OOX-17/TN! |O| |QID|351|
+T OOX-17/TN Distress Beacon |O| |N|Up in the hills north on the silithid at (60,64)| |QID|351|
+A Rescue OOX-17/TN! |O| |QID|648|
+C Rescue OOX-17/TN! |O| |QID|648|
 
 H Gadgetzan
 T The Scrimshank Redemption |QID|10|
