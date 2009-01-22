@@ -240,7 +240,7 @@ T A Traitor Among Us |QID|11473|
 A Zeh'gehn Sez |QID|11459|
 T Zeh'gehn Sez |QID|11459|
 A A Carver and a Croaker |QID|11476|
-C A Carver and a Croaker |QID|11476| |N|Buy the knife from BAH and grab a frog nearby|
+C A Carver and a Croaker |QID|11476| |N|Buy the knife from "Silvermoon" Harry and grab a frog nearby|
 T A Carver and a Croaker |QID|11476|
 A "Crowleg" Dan |QID|11479|
 C "Crowleg" Dan |QID|11479| |N|Over on the ship there (35.92, 83.55)|
