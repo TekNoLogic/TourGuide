@@ -277,7 +277,7 @@ T Return to Atuik |QID|11572| |N|Down at Kamagua (25.04, 56.99)|
 
 T Mission: Forsaken Intel |QID|11328| |N|Fly back to Westguard, in the Inn (30.80, 41.65)| |T|
 A Absholutely... Thish Will Work! |QID|11330| |T|
-C Absholutely... Thish Will Work! |QID|11330| |N|Use the "Special Mix" on the prisoner inside the keep (29.41, 43.44)| |T|
+C Absholutely... Thish Will Work! |QID|11330| |U|33627| |N|Use the "Special Mix" on the prisoner inside the keep (29.41, 43.44)| |T|
 T Absholutely... Thish Will Work! |QID|11330| |N|Back at the inn (30.81, 41.62)| |T|
 A You Tell Him ...Hic! |QID|11331| |T|
 T You Tell Him ...Hic! |QID|11331| |N|UP in the keep (28.86, 44.10)| |T|
