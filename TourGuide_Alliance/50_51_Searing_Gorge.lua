@@ -28,9 +28,11 @@ A The Flawless Flame |QID|3442|
 R Thorium Point |N|Take the path to the west (32,33)|
 A STOLEN: Smithing Tuyere and Lookout's Spyglass |N|From the wanted sign| |QID|7728|
 A JOB OPPORTUNITY: Culling the Competition |N|From the wanted sign| |QID|7729|
+A WANTED: Overseer Maltorius |N|From that same sign| |QID|7701|
 A Curse These Fat Fingers |QID|7723|
 A Fiery Menace! |QID|7724|
 A Incendosaurs? Whateverosaur is More Like It |QID|7727|
+A What the Flux? |QID|7722|
 
 F City of Ironforge
 T Suntara Stones (Part 2) |N|In the Hall of Explorers| |QID|3368|
@@ -63,6 +65,8 @@ T The Key to Freedom |O| |N|Back at the outhouse!| |QID|4451|
 T Dwarven Justice |N|Head down into the cauldren.  Enter the second cave from the west end (41,54), find the Dying Archaeologist (41.19, 25.72).  Kill DI Taskmasters and Slavers on the way, of course!| |QID|3371|
 A Release Them |QID|3372|
 C JOB OPPORTUNITY: Culling the Competition |N|Keep working your way towards the exit| |QID|7729|
+C WANTED: Overseer Maltorius |N|Up the top in the room to the right (40.76,35.7)| |QID|7701|
+C What the Flux? |N|On the table behind him| |QID|7722|
 C Forging the Shaft |QID|3443|
 C Incendosaurs? Whateverosaur is More Like It |N|Jump down after the bridge over the lava, you'll find dino in the big room to the north (51,36) Grind here for a while if you want.| |QID|7727|
 
@@ -71,6 +75,8 @@ T Fiery Menace! |QID|7724|
 T Incendosaurs? Whateverosaur is More Like It |QID|7727|
 T STOLEN: Smithing Tuyere and Lookout's Spyglass |QID|7728|
 T JOB OPPORTUNITY: Culling the Competition |QID|7729|
+T WANTED: Overseer Maltorius |QID|7701|
+T What the Flux? |QID|7722|
 
 T Forging the Shaft |QID|3443|
 A The Flame's Casing |QID|3452|
