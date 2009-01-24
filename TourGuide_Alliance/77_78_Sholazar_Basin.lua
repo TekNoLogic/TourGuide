@@ -77,41 +77,113 @@ T Dreadsaber Mastery: Stalking the Prey |QID|12550|
 A Dreadsaber Mastery: Ready to Pounce |QID|12558|
 T The Bones of Nozronn |QID|12544|
 A Rhino Mastery: The Kill |QID|12556|
-N Hemet's taste test |Q|The Taste Test| |QO|Hemet's taste test: 1/1| |U|38697| |N|Use the Jungle Punch near Nessy (27.07, 58.71) to have him taste test it.|
-N Hadrius' taste test |Q|The Taste Test| |QO|Hadrius' taste test: 1/1| |U|38697| |N|Have Hadrius test too, he's just opposite Hemet (27.33, 59.38)|
 
-C Crocolisk Mastery: The Plan |QID|12560| |N|Gather ferns all alond the banks of the river and the River's Heart lake.  There's more along the river north as well.|
+C Crocolisk Mastery: The Plan |QID|12560| |N|Gather ferns all alond the banks of the river and River's Heart lake.  There's more along the river north as well.|
+T Crocolisk Mastery: The Plan |QID|12560| |N|Back at the Nesingwary Base Camp (27.19, 59.84)|
+A Crocolisk Mastery: The Ambush |QID|12569|
 
-T Aerial Surveillance |QID|12696| |N|At River's Heart lake in the center of the zone (50.00, 61.52)|
+C The Taste Test |U|38697| |U|38697| |N|Use the Jungle Punch on Hemet (27.07, 58.71) and Hadrius (27.33, 59.38), then fly east to River's Heart lake and get the last taste test from Tamara at the Lakeside Landing (50.47, 62.03).|
+
+T Aerial Surveillance |QID|12696|
 A An Embarassing Incident |QID|12699|
 A Force of Nature |QID|12803|
 A The Part-time Hunter |QID|12654|
-C The Taste Test |U|38697| |N|Get your last taste test from Tamara.|
 C An Embarassing Incident |QID|12699| |U|40390| |N|In the lake, sift through the piles of dirt.  Use the air tank if you need.|
+C Crocolisk Mastery: The Ambush |QID|12569| |U|38564| |N|On the east bank of the lake, use the disguise near the fallen log (47.91, 66.12).|
 T An Embarassing Incident |QID|12699|
 A Reconnaissance Flight |QID|12671|
 C Reconnaissance Flight |QID|12671| |N|Take the flight.|
 T Reconnaissance Flight |QID|12671|
 
-C Rhino Mastery: The Kill |QID|12556| |N|Kill Farunn to the north, just south of the Glimmering Pillar (48.15, 44.64)|
+C The Part-time Hunter |QID|12654| |N|South, near the Skyreach Pillar (50.48, 77.28)|
+A Playing Along |QID|12528|
+
+T Playing Along |QID|12528| |N|Northeast at Frenzyheart Hill (55.06, 69.18)|
+A The Ape Hunter's Slave |QID|12529|
+A Tormenting the Softknuckles |QID|12530|
+C Tormenting the Softknuckles |QID|12530| |U|38467| |N|East at the Hardknuckle Clearing (67,73).  Poke the babies with a stick till the matriarch spawns, then kill her.|
+C The Ape Hunter's Slave |QID|12529| |U|38619|
+T The Ape Hunter's Slave |QID|12529| |N|Back at Frenzyheart Hill (55.07, 69.19)|
+T Tormenting the Softknuckles |QID|12530|
+
+A The Wasp Hunter's Apprentice |QID|12533|
+A The Sapphire Queen |QID|12534|
+C The Sapphire Queen |QID|12534| |U|38621| |N|To the southeast, down inside the Sapphire Hive (57.17, 79.31)|
+C The Wasp Hunter's Apprentice |QID|12533| |U|38621|
+T The Wasp Hunter's Apprentice |QID|12533| |N|Back at Frenzyheart Hill (55.05, 69.19)|
+T The Sapphire Queen |QID|12534|
+A Flown the Coop! |QID|12532|
+C Flown the Coop! |QID|12532| |N|These bastards can be hard to catch, hit 'V' and click on nameplates if you have trouble.|
+T Flown the Coop! |QID|12532|
+
+A The Underground Menace |QID|12531|
+A Mischief in the Making |QID|12535|
+C The Underground Menace |QID|12531| |U|38621| |N|Along the Wintergrasp River to the south (51.41, 86.49).  Look for a burrowing worm along the shore.|
+C Mischief in the Making |QID|12535| |U|38621|
+T The Underground Menace |QID|12531| |N|Back at Frenzyheart Hill (55.04, 69.21)|
+T Mischief in the Making |QID|12535|
+
+A A Rough Ride |QID|12536|
+C A Rough Ride |QID|12536| |N|Hop on the croc, just on the edge of town (57.27, 68.35)|
+T A Rough Ride |QID|12536| |U|38621| |N|Use the chalk to summon your tanuki friend.|
+A Lightning Definitely Strikes Twice |QID|12537| |U|38621|
+A The Mist Isn't Listening |QID|12538| |U|38621|
+C Lightning Definitely Strikes Twice |QID|12537| |U|38510| |N|Just to the north at the stone shrine (45.25, 37.52), use the crystals, then break them.|
+C The Mist Isn't Listening |QID|12538| |U|38621|
+T Lightning Definitely Strikes Twice |QID|12537| |U|38621|
+T The Mist Isn't Listening |QID|12538| |U|38621|
+A Hoofing It |QID|12539|
+
+C Rhino Mastery: The Kill |QID|12556| |N|Kill Farunn to the southeast, just south of the Glimmering Pillar (48.15, 44.64)|
 C Dreadsaber Mastery: Ready to Pounce |QID|12558| |N|Kill Shango to the west, just north of the Maker's Perch (32.67, 35.61)|
 
 T Rhino Mastery: The Kill |QID|12556| |N|Back at the Nesingwary Base Camp (27.10, 58.70)|
 T Dreadsaber Mastery: Ready to Pounce |QID|12558|
-T Crocolisk Mastery: The Plan |QID|12560|
-A Crocolisk Mastery: The Ambush |QID|12569|
+T Crocolisk Mastery: The Ambush |QID|12569|
 T The Taste Test |QID|12645|
-C Crocolisk Mastery: The Ambush |QID|12569| |U|38564| |N|On the east bank of River's Heart lake, use the disguise near the fallen log (47.91, 66.12)|
-T Crocolisk Mastery: The Ambush |QID|12569| |N|Back at the Nesingwary Base Camp (27.19, 59.84)|
 T It Could Be Anywhere! |QID|12624| |N|If you've not found the ring yet, just skip this and turn it in later if you do find it.|
 A In Search of Bigger Game |QID|12595|
 
-T In Search of Bigger Game |QID|12595| |N|Northeast at Dorian's Outpost (42.31, 28.60)|
+T Hoofing It |QID|12539| |N|Back at Frenzyheart Hill (55.00, 69.25)|
+A Just Following Orders |QID|12540|
+N Check the quartermaster |N|You will eventually have to pick a faction, so while you're here check out the rewards the quartermaster has.|
+C Just Following Orders |QID|12540| |N|Find an Oracle to the north near the Frenzyheart River (55.74, 64.99)|
+T Just Following Orders |QID|12540|
+A Fortunate Misunderstandings |QID|12570|
+C Fortunate Misunderstandings |QID|12570| |N|Follow the bouncing... fish... thing...|
+T Fortunate Misunderstandings |QID|12570|
+
+A Make the Bad Snake Go Away |QID|12571|
+A Gods like Shiny Things |QID|12572|
+N Check the quartermaster |N|Again, you're going to have to pick a side, so check this quartermaster to see if you like their items better.  Note that the egg can spawn minipets or a rare mount, while the tanuki's jar can spawn potions, alcohol, and a drink that turns you into a tanuki for a short time.|
+C Gods like Shiny Things |QID|12572| |U|38622| |N|All around the camp, drag the gorloc over the sparkles and he'll dig them up.|
+C Make the Bad Snake Go Away |QID|12571| |N|Venomtip is east of the camp, just over the Rainspeaker Rapids (58.65, 53.83)|
+T Make the Bad Snake Go Away |QID|12571| |N|Back at the Rainspeaker Canopy (54.52, 56.33)|
+A Making Peace |QID|12573|
+T Gods like Shiny Things |QID|12572|
+C Making Peace |QID|12573| |N|Talk to the tanuki overlooking the lake (51.31, 64.78)|
+T The Part-time Hunter |QID|12654|
+T Making Peace |QID|12573| |N|Back at Rainspeaker Canopy (54.50, 56.27)|
+A Back So Soon? |QID|12574|
+
+T Back So Soon? |QID|12574| |N|Northwest at Mistwhisper Refuge (42.12, 38.55), you remember, that place where you screwed with their weather shrine...|
+A The Lost Mistwhisper Treasure |QID|12575|
+A Forced Hand |QID|12576|
+
+T In Search of Bigger Game |QID|12595| |N|North at Dorian's Outpost (42.31, 28.60)|
 A Sharpening Your Talons |QID|12603|
 A Securing the Bait |QID|12605|
 A Burning to Help |QID|12683|
 
-C Burning to Help |QID|12683| |U|39164| |N|South in the lake, when the hydras hit you with the debuff use the sample container.|
+C The Lost Mistwhisper Treasure |QID|12575| |U|38623| |N|Just to the north, find the treasure (41.63, 19.55) and Warlord Tartek will attack you.|
+C Forced Hand |QID|12576| |U|38623|
+
+C Burning to Help |QID|12683| |U|39164| |N|South in the lake, when the hydras hit you with the debuff use the sample container.  It's handy have Jaloot with you for the swimming buff.|
+
+T The Lost Mistwhisper Treasure |QID|12575| |N|Back at Mistwhisper Refuge (42.11, 38.54)|
+T Forced Hand |QID|12576|
+A Home Time! |QID|12577|
+
 C Securing the Bait |QID|12605| |N|Just to the east of the outpost in the Savage Thicket.  "Kill" eggs and loot the hatchlings.|
 C Sharpening Your Talons |QID|12603|
 
@@ -133,8 +205,20 @@ T Post-partum Aggression |QID|12614| |N|Back at Dorian's Outpost (42.26, 28.59)|
 T Reagent Agent |QID|12681|
 T My Pet Roc |QID|12658|
 
+T Home Time! |QID|12577| |N|Back at the Rainspeaker Canopy (54.49, 56.28)|
+A The Angry Gorloc |QID|12578|
+
 T Force of Nature |QID|12803| |N|West at Rainspeaker Rapids (64.70, 48.57)|
 A An Issue of Trust |QID|12561|
+
+C The Angry Gorloc |QID|12578| |N|East at Mosswalker Village (75.44, 51.03)|
+U |cffffffff|Hitem:38624:0:0:0:0:0:0:1294786084:78|h[Moodle's Stress Ball]|h|r |N|Sholazar Basin, Mosswalker Village (75.82, 51.17)|
+T The Angry Gorloc |QID|12578| |U|38624| |N|Use the stress ball to summon your gorloc friend.|
+A The Mosswalker Savior |QID|12580| |U|38624|
+A Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624|
+C The Mosswalker Savior |QID|12580| |U|38624| |N|Talk to the victims.  Loot any bags they give you, but don't worry about collecting all your shards from them.|
+T The Mosswalker Savior |QID|12580| |U|38624|
+
 C An Issue of Trust |QID|12561|
 T An Issue of Trust |QID|12561|
 A Returned Sevenfold |QID|12611|
@@ -146,6 +230,11 @@ A Salvaging Life's Strength |QID|12805|
 T The Fallen Pillar |QID|12612| |N|South, at the top of the Lifeblood Pillar (65.12, 60.30)|
 A Cultist Incursion |QID|12608|
 C Salvaging Life's Strength |QID|12805| |U|40397| |N|Kill elementals, use the gem on them.|
+C Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|Loot the shards all over the area.|
+
+T Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|Use the stress ball to summon your gorlock if you need to.|
+A A Hero's Burden |QID|12581| |U|38624|
+N A Hero's Burden |N|This is a group quest, but some classes may be able to solo it.  If you choose to do it now, head down into the Sundered Shard and kill the lich (72.21, 56.99).  This is also the quest where you pick a faction mid-fight, so be ready to save the gorlock or the tanuki.  If you want to switch factions, just come do this quest again on another day.|
 
 T Cultist Incursion |QID|12608| |N|Back at Rainspeaker Rapids (64.66, 48.64)|
 T Salvaging Life's Strength |QID|12805|
