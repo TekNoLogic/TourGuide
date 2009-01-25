@@ -84,7 +84,7 @@ T Too Many Mouths to Feed |QID|9781|
 A Diaphanous Wings |QID|9790|
 A The Orebor Harborage |QID|9776| |N|Requires level 62 to get, if you can't get it just skip it.|
 
-N Glowcaps... |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
+N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
 N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (62,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).| |QID|9896|
 C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (44.1,68.7).  Just run in and out, don't hang around with the elite.| |QID|9786|
