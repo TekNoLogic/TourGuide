@@ -33,6 +33,7 @@ A Tomb of the Lightbringer |QID|9446|
 C Tomb of the Lightbringer |N|Escort quest!| |QID|9446|
 T Tomb of the Lightbringer |N|Back at Chillwind Camp| |QID|9446|
 
+F Everlook |N|Fly to Menethil, boat to Theramore, fly to Everlook|
 T Are We There, Yeti? (Part 3) |QID|5163|
 ]]
 end)

@@ -4,9 +4,9 @@ return [[
 T Demon Dogs |N|On the northwest edge of the zone (4.70, 38.40)| |QID|5542|
 T Blood Tinged Skies |QID|5543|
 T Carrion Grubbage |QID|5544|
-A Redemption |QID|9600|
-C Redemption |N|Blah blah blah... he talks to much.| |QID|9600|
-T Redemption |QID|9600|
+A Redemption |QID|5742|
+C Redemption |N|Blah blah blah... he talks to much.| |QID|5742|
+T Redemption |QID|5742|
 A Of Forgotten Memories |QID|5781|
 
 C Of Forgotten Memories |N|South at the Undercroft (24.59, 79.99).  Talk to the grave behind the crypt. Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|

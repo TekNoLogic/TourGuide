@@ -2,6 +2,7 @@
 
 TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", "Zangarmarsh (62-63)", "Alliance", function()
 return [[
+H Stormwind City |N|Or fly to Ratchet and boat to Booty Bay if it's on cooldown|
 F Nethergarde Keep
 B [Nethergarde Bitter] |N|From Bernie Heisten (63.52, 16.95)| |L|23848| |Z|Blasted Lands|
 
