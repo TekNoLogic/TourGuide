@@ -1,7 +1,6 @@
 TourGuide:RegisterGuide("Wetlands (30-31)", "Hillsbrad Foothills (31-32)", "Alliance", function()
 return [[
-b Storming Harbor |N|Fly to Auberdine then take the boat|
-F Menethil Harbor
+F Menethil Harbor |N|Fly to Auberdine, boat to SW, fly to Menethil.|
 
 h Deepwater Tavern |N|In Menethil Harbor| |C|Warlock|
 A Seeking Strahad |N|In the Mage Quarter, Stormwind| |C|Warlock| |QID|1798|
