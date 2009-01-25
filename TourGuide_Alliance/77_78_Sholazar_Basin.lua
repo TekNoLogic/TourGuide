@@ -4,7 +4,7 @@ return [[
 N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, an instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.  A number of quests will REQUIRE flight to complete.|
 
 F Dalaran
-A Where in the World is Hemet Nesingwary? |QID|12521| |N|On Krasus' Landing (68.70, 42.54)|
+A Where in the World is Hemet Nesingwary? |QID|12521| |N|On Krasus' Landing (68.70, 42.54)| |Z|Dalaran| |T|
 
 T Where in the World is Hemet Nesingwary? |QID|12521| |N|Talk to Archmage Pentarus for a flight-portal.|
 A Welcome to Sholazar Basin |QID|12489|
