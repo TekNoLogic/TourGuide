@@ -7,15 +7,15 @@ A The Absent Minded Prospector (Part 3) |T| |QID|741|
 T The Absent Minded Prospector (Part 3) |N|Outside the Temple of the Moon, Darnassus (31.41, 84.18)| |Z|Darnassus| |QID|741|
 A The Absent Minded Prospector (Part 4) |QID|942|
 
-b Stormwind City
-F Loch Modan
-A The Alagaz Gauntlet |N|At the North Gate Pass (25.35, 10.43)|
-C The Alagaz Gauntlet
+F Loch Modan |N|Boat to Stormwind, then fly to Loch Modan.|
+A The Alagaz Gauntlet |QID|455| |N|North at North Gate Pass (25.35, 10.43)|
+C The Alagaz Gauntlet |QID|455|
+
 R Menethil Harbour
-f Menethil Harbour
 A Claws from the Deep |T| |QID|279|
 A Young Crocolisk Skins |T| |QID|484|
-A War Banners |N|Up in the keep| |T| |QID|464|
+T The Alagaz Gauntlet |QID|455| |T| |N|In the keep|
+A War Banners |N|Upstairs| |T| |QID|464|
 A Digging Through the Ooze |T| |QID|470|
 A The Third Fleet |T| |QID|288|
 A The Greenwarden |T| |QID|463|
