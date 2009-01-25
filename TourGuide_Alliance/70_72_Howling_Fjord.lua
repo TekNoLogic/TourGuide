@@ -82,7 +82,7 @@ C Anguish of Nifflevar |QID|11344| |N|Use the Incense and watch the flashback.  
 
 T Harpoon Master Yavus |QID|11430| |N|Back at Lieutenant Icehammer (64.48, 46.95)|
 A It Goes to 11... |QID|11421|
-C It Goes to 11... |QID|11421| |U|34032| |N|Use the Harpoon Control Mechanism at one of the two haroons in Nifflevar (64.77, 52.65) (64.59, 54.33).  Note that you must target the defenders to shoot at them.|
+C It Goes to 11... |QID|11421| |U|34032| |N|Use the Harpoon Control Mechanism at one of the two harpoons in Nifflevar (64.77, 52.65) (64.59, 54.33).  Note that you must target the defenders to shoot at them.|
 T It Goes to 11... |QID|11421| |N|Back at Lieutenant Icehammer (64.48, 46.95)|
 A Let's Go Surfing Now |QID|11436|
 C Let's Go Surfing Now |QID|11436| |N|Pull the lever at the harpoon near the southern harpoon building (65.28, 57.24)|
@@ -102,7 +102,7 @@ C Tools to Get the Job Done |QID|11475| |N|In a bucket on a platform in the dig 
 C Out of My Element? |QID|11477| |N|Destroyers are around the outside above the dig|
 T Out of My Element? |QID|11477|
 
-N Find a Fjord Grub |N|Under loose rocks all over the place| |L|34102|
+N Find a Fjord Grub |N|Under loose rocks all over the place while on your way back to the Outpost| |L|34102|
 C Trust is Earned |QID|11460| |N|Back at the Explorers' League Outpost (75.27, 64.99).  Feed the grub to the folcon in the cage|
 T Trust is Earned |QID|11460|
 A The Ransacked Caravan |QID|11465|
@@ -110,7 +110,7 @@ T Tools to Get the Job Done |QID|11475|
 A We Can Rebuild It |QID|11483|
 A We Have the Technology |QID|11484|
 
-C The Ransacked Caravan |QID|11465| |N|Find some more grubs, then let the falcon loose on some turkeys to the west (69,63)| |U|34111|
+C The Ransacked Caravan |QID|11465| |N|Find some more grubs, then let the falcon loose on some turkeys to the west (69.26,64.53)| |U|34111|
 
 K Shoveltusks |N|After a Pristine Hide| |Q|We Have the Technology| |QO|Pristine Shoveltusk Hide: 1/1|
 N Industrial Strength Rope |Q|We Can Rebuild It| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
@@ -123,7 +123,7 @@ A Falcon Versus Hawk |QID|11468|
 T We Can Rebuild It |QID|11483|
 T We Have the Technology |QID|11484|
 A Iron Rune Constructs and You: Rocket Jumping |QID|11485|
-C Iron Rune Constructs and You: Rocket Jumping |QID|11485|
+C Iron Rune Constructs and You: Rocket Jumping |QID|11485| |N|Right click on the Work Bench next to Walt. (75.10, 65.43)|
 T Iron Rune Constructs and You: Rocket Jumping |QID|11485|
 A Iron Rune Constructs and You: Collecting Data |QID|11489|
 C Iron Rune Constructs and You: Collecting Data |QID|11489|
