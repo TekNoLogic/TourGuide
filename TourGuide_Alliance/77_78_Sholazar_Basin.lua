@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Sholazar Basin (77-78)", nil, "Alliance", function()
+TourGuide:RegisterGuide("Sholazar Basin (77-78)", "The Storm Peaks (78-79)", "Alliance", function()
 return [[
 N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, an instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.  A number of quests will REQUIRE flight to complete.|
 

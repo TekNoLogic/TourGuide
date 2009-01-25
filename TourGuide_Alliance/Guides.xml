@@ -63,4 +63,5 @@
 	<Script file="73_75_Grizzly_Hills.lua"/>
 	<Script file="75_77_ZulDrak.lua"/>
 	<Script file="77_78_Sholazar_Basin.lua"/>
+	<Script file="78_79_Storm_Peaks.lua"/>
 </Ui>
