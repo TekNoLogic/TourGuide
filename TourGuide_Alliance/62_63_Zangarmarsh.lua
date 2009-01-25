@@ -39,7 +39,7 @@ T A Damp, Dark Place |QID|9788|
 T Saving the Sporeloks |QID|10096|
 
 N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
-N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
+N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (63.1,64.1)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
 
 R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
 A The Dead Mire |QID|9782|
@@ -75,7 +75,8 @@ C An Unnatural Drought |N|Kill Withered Giants in the Dead Mire.| |QID|9783|
 A Withered Basidium |U|24483| |N|Kill Withered Giants until you get the item to start this| |QID|9827|
 N Save Bog Lord Tendrils |N|You'll need them later for reputation.|
 
-T An Unnatural Drought |N|Back at Telredor| |QID|9783|
+H Telredor
+T An Unnatural Drought |QID|9783|
 T Withered Basidium |QID|9827|
 A Withered Flesh |QID|10355|
 T Umbrafen Eel Filets |QID|9780|
@@ -83,10 +84,10 @@ T Too Many Mouths to Feed |QID|9781|
 A Diaphanous Wings |QID|9790|
 A The Orebor Harborage |QID|9776| |N|Requires level 62 to get, if you can't get it just skip it.|
 
-N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
-N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
+N Glowcaps... |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
+N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (62,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).| |QID|9896|
-C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (45,68).  Just run in and out, don't hang around with the elite.| |QID|9786|
+C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (44.1,68.7).  Just run in and out, don't hang around with the elite.| |QID|9786|
 
 T Watcher Leesa'oh |N|The Cenarion Watchpost is on the road south toward Nagrand. (23,66)| |QID|9697|
 A Observing the Sporelings |QID|9701|
@@ -98,7 +99,7 @@ C The Sporelings' Plight |N|All over the Spwaning Glen.| |QID|9739|
 C Natural Enemies |QID|9743|
 T The Sporelings' Plight |QID|9739|
 T Natural Enemies |QID|9743|
-A Sporeggar |QID|9919|
+A Sporeggar |N|You must be Neutral or higher with Sporeggar before Fahssn will give you this quest|QID|9919|
 T Sporeggar |N|Just north-east of the Spawning Glen (19,51)| |QID|9919|
 A Glowcap Mushrooms |QID|9808|
 C Glowcap Mushrooms |QID|9808|
