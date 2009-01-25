@@ -5,7 +5,7 @@ T Demon Dogs |N|On the northwest edge of the zone (4.70, 38.40)| |QID|5542|
 T Blood Tinged Skies |QID|5543|
 T Carrion Grubbage |QID|5544|
 A Redemption |QID|5742|
-C Redemption |N|Blah blah blah... he talks to much.| |QID|5742|
+C Redemption |N|Blah blah blah... he talks too much.| |QID|5742|
 T Redemption |QID|5742|
 A Of Forgotten Memories |QID|5781|
 

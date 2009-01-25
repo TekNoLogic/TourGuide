@@ -99,7 +99,7 @@ C The Sporelings' Plight |N|All over the Spwaning Glen.| |QID|9739|
 C Natural Enemies |QID|9743|
 T The Sporelings' Plight |QID|9739|
 T Natural Enemies |QID|9743|
-A Sporeggar |N|You must be Neutral or higher with Sporeggar before Fahssn will give you this quest|QID|9919|
+A Sporeggar |N|You must be Neutral or higher with Sporeggar before Fahssn will give you this quest| |QID|9919|
 T Sporeggar |N|Just north-east of the Spawning Glen (19,51)| |QID|9919|
 A Glowcap Mushrooms |QID|9808|
 C Glowcap Mushrooms |QID|9808|
