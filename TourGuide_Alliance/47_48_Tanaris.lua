@@ -20,7 +20,7 @@ C The Thirsty Goblin |QID|2605|
 N If you find Tooga... |N|Accept his quest.  He'll follow you, so you can complete "Noxious Lair Investigation" with him on your tail.  Just make sure you leave there with at least 10 minutes left on his timer.|
 C Noxious Lair Investigation |N|At the Noxious Lair (34,46)| |QID|82|
 T Tooga's Quest |O| |QID|1560|
-A Yuka Screwspigot |QID|4324|
+A Yuka Screwspigot |QID|4324| |N|Back at Steamwheedle Port|
 T Screecher Spirits |N|Skip the follow-up| |QID|3520|
 
 T The Thirsty Goblin |QID|2605| |N|Back at Gadgetzan|
@@ -30,10 +30,15 @@ T Thistleshrub Valley |QID|3362|
 T In Good Taste |QID|2606|
 A Sprinkle's Secret Ingredient |QID|2641|
 T Noxious Lair Investigation |QID|82|
-A The Scrimshank Redemption |QID|10|
+A The Scrimshank Redemption |N|Goblin on the hill to the west| |QID|10|
 T Gahz'ridian |N|To the south (52,45)| |QID|3161|
 
 C The Scrimshank Redemption |N|To the south at The Gaping Chasm (55,70), go to the bottom.  Take the southewest entrance, hang left until you get to the gear (55.96, 71.17)| |QID|10|
+
+A Find OOX-17/TN! |O| |QID|351|
+T OOX-17/TN Distress Beacon |O| |N|Up in the hills north on the silithid at (60,64)| |QID|351|
+A Rescue OOX-17/TN! |O| |QID|648|
+C Rescue OOX-17/TN! |O| |QID|648|
 
 H Gadgetzan
 T The Scrimshank Redemption |QID|10|
@@ -65,6 +70,14 @@ C Food for Baby |N|Kill stealth wolves to the east| |QID|4297|
 T Food for Baby |N|Back at the inn| |QID|4297|
 A Becoming a Parent |QID|4298|
 T Becoming a Parent |QID|4298|
+
+N If you did the rescue OOX-17 quests then fly to Booty Bay
+T Rescue OOX-22/FE! |O|
+T Rescue OOX-08/HL! |O|
+T Rescue OOX-17/TN! |O|
+A An OOX of Your Own |O|
+T An OOX of Your Own |O|
+
 ]]
 
 end)
