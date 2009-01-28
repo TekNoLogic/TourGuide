@@ -70,14 +70,6 @@ C Food for Baby |N|Kill stealth wolves to the east| |QID|4297|
 T Food for Baby |N|Back at the inn| |QID|4297|
 A Becoming a Parent |QID|4298|
 T Becoming a Parent |QID|4298|
-
-N If you did the rescue OOX-17 quests then fly to Booty Bay
-T Rescue OOX-22/FE! |O|
-T Rescue OOX-08/HL! |O|
-T Rescue OOX-17/TN! |O|
-A An OOX of Your Own |O|
-T An OOX of Your Own |O|
-
 ]]
 
 end)
