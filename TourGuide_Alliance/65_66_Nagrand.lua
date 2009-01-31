@@ -13,11 +13,10 @@ C Talbuk Mastery (Part 1) |N|Just north of Nesingwary.| |QID|9857|
 C Clefthoof Mastery (Part 1) |N|Mostly south of Nesingwary.| |QID|9789|
 
 T Windroc Mastery (Part 1) |QID|9854|
-T Clefthoof Mastery (Part 1) |QID|9789|
-T Talbuk Mastery (Part 1) |QID|9857|
-
 A Windroc Mastery (Part 2) |QID|9855|
+T Clefthoof Mastery (Part 1) |QID|9789|
 A Clefthoof Mastery (Part 2) |QID|9850|
+T Talbuk Mastery (Part 1) |QID|9857|
 A Talbuk Mastery (Part 2) |QID|9858|
 
 A The Howling Wind |U|24504| |N|Kill air elementals till the items drops to start this quest| |QID|9861|
@@ -74,13 +73,11 @@ A The Ruins of Burning Blade |QID|9921|
 
 C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)| |QID|9855|
 
-
 C Stopping the Spread |N|At Sunspring Post (31,43). Torch corpses you come across.| |U|24560| |QID|9874|
 C Solving the Problem |QID|9878|
 C Murkblood Corrupters |QID|9862|
 
 C The Ravaged Caravan |N|Warmaul Hill is in the northwest of the zone (29,31)| |QID|9956|
-
 
 T Murkblood Corrupters |QID|9862|
 T The Throne of the Elements |QID|9869|
@@ -97,9 +94,9 @@ A Shattering the Veil |QID|9849|
 T Agitated Spirits of Skysong |QID|9804|
 A Blessing of Incineratus |QID|9805|
 
-T Windroc Mastery (Part 2) |QID|9855|
-T Clefthoof Mastery (Part 2) |QID|9850|
-T Talbuk Mastery (Part 2) |QID|9858|
+T Windroc Mastery (Part 2) |N|Skip the follow-up| |QID|9855|
+T Clefthoof Mastery (Part 2) |N|Skip the follow-up| |QID|9850|
+T Talbuk Mastery (Part 2) |N|Skip the follow-up| |QID|9858|
 
 C Blessing of Incineratus |N|Windyreed Village is south of Nessingwary's (71,51). To set fire to the big hut you need to be close to it's center pole.| |U|24467| |QID|9805|
 
