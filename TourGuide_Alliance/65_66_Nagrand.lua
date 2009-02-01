@@ -47,7 +47,7 @@ T Gava'xi |QID|9900|
 
 R Telaar |N|Follow the road east from Aeris Landing|
 A The Ravaged Caravan |N|Huntress Kima patrols around Telaar.  You have to be 65 to get this.| |QID|9956|
-A Wanted: Giselda the Crone |N|Off a signpost (54,70)| |QID|9936|
+A Wanted: Giselda the Crone |N|Off a signpost (54.6,70.7)| |QID|9936|
 A Wanted: Zorbo the Advisor |QID|9940|
 A Do My Eyes Deceive Me |QID|9917|
 A The Throne of the Elements |QID|9869|
@@ -58,7 +58,7 @@ h Telaar
 A I Must Have Them! |N|From a goblin east of Telaar (61,67)| |QID|10109|
 N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!" and rock elementals for "The Tortured Earth"|
 
-C Do My Eyes Deceive Me |QID|9917|
+C Do My Eyes Deceive Me |N|Kill ogres south of Wazat's camp| |QID|9917|
 
 T Do My Eyes Deceive Me |QID|9917|
 A Not On My Watch! |QID|9918|
@@ -71,7 +71,7 @@ A Mo'mor the Breaker |QID|9920|
 T Mo'mor the Breaker |QID|9920|
 A The Ruins of Burning Blade |QID|9921|
 
-C Windroc Mastery (Part 2) |N|Northwest of Telaar (47,63)| |QID|9855|
+C Windroc Mastery (Part 2) |N|Northwest of Telaar (50,61)| |QID|9855|
 
 C Stopping the Spread |N|At Sunspring Post (31,43). Torch corpses you come across.| |U|24560| |QID|9874|
 C Solving the Problem |QID|9878|
