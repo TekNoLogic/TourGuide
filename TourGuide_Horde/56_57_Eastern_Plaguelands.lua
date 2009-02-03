@@ -22,7 +22,7 @@ C Blood Tinged Skies |QID|5543|
 
 T Uncle Carlin |N|East at Light's Hope Chapel (81,58)| |QID|5241|
 A Defenders of Darrowshire |QID|5211|
-A The Restless Souls |QID|5282|
+A The Restless Souls |QID|5281|
 T Duke Nicholas Zverenhoff |QID|6030|
 A Zaeldarr the Outcast |N|Southwest near the corpse pits (79,63)| |QID|6021|
 
@@ -37,7 +37,7 @@ C Un-Life's Little Annoyances |QID|6042|
 
 A Augustus' Receipt Book |N|From hut at (13,34)| |QID|6164|
 C Augustus' Receipt Book |N|Book is upstairs in the inn at (15,33)| |QID|6164|
-T The Restless Souls |N|Egan is in the hut at (13,34)| |QID|5282|
+T The Restless Souls |N|Egan is in the hut at (13,34). Skip the follow-up.| |QID|5281|
 T Augustus' Receipt Book |QID|6164|
 
 T Demon Dogs |N|On the west edge of the zone| |QID|5542|
