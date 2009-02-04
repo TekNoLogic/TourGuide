@@ -36,7 +36,7 @@ C Carrion Grubbage |QID|5544|
 C Un-Life's Little Annoyances |QID|6042|
 
 A Augustus' Receipt Book |N|From hut at (13,34)| |QID|6164|
-C Augustus' Receipt Book |N|Book is upstairs in the inn at (15,33)| |QID|6164|
+C Augustus' Receipt Book |N|Book is upstairs in the inn at (14.2,26.3)| |QID|6164|
 T The Restless Souls |N|Egan is in the hut at (13,34). Skip the follow-up.| |QID|5281|
 T Augustus' Receipt Book |QID|6164|
 
