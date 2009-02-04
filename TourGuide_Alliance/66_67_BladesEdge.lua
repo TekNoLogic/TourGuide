@@ -27,7 +27,7 @@ T The Encroaching Wilderness |T| |N|Back in Sylvanaar| |QID|10455|
 A Marauding Wolves |T| |QID|10456|
 T Scratches |T| |QID|10556|
 
-C Into the Draenethyst Mine |N|South, down in the ravine (38,74).  Kill ogres and collect brew on your way.| |QID|10510|
+C Into the Draenethyst Mine |N|South, down in the ravine (42.4,83.4).  Kill ogres and collect brew on your way.| |QID|10510|
 C Strange Brew |QID|10511|
 C The Bloodmaul Ogres |QID|10502|
 
