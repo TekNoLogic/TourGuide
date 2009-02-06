@@ -253,8 +253,7 @@ A Jin'arrak's End |QID|12152|
 C Jin'arrak's End |QID|12152| |N|Find the offering in the first room of the ruins (71.21, 19.65).  Use the dust on it, then head outside to the gong and place the offering.| |U|37063|
 
 C Therapy |QID|12114| |N|Kill trolls outside the ruins.|
-U |cffffffff|Hitem:35797:0:0:0:0:0:0:1611433190:74|h[Drakuru's Elixir]|h|r |N|Grizzly Hills, Drakil'jin Ruins (71.70, 26.19)|
-T Voices From the Dust |QID|12068| |N|Keep killing trolls till you have 5 sacred mojo, then use Drakuru's Elixir at the brazier (71.70, 26.19)|
+T Voices From the Dust |QID|12068| |U|35797| |N|Keep killing trolls till you have 5 sacred mojo, then use Drakuru's Elixir at the brazier (71.70, 26.19)|
 A Cleansing Drak'Tharon |QID|12238| |N|This is an instance quest, but the NPC is a pain to summon, so you might as well grab it and hold on to it.|
 
 C Nice to Meat You |QID|12113| |U|36796| |N|Kill worgs and shoveltusks all over the coast.  Don't forget to use the runebreaker on any giants you come across (or that pop right on top of your ass).|
