@@ -14,6 +14,12 @@ frame:Hide()
 frame:SetScript("OnShow", function()
 	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", L["This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking."])
 
+	local group = LibStub("tekKonfig-Group").new(frame, nil, "TOP", subtitle, "BOTTOM", 0, -EDGEGAP-GAP)
+	group:SetPoint("LEFT", EDGEGAP, 0)
+	group:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
+
+	local scrollbar = LibStub("tekKonfig-Scroll").new(group, 6, NUMROWS/3)
+
 	local function OnClick(self)
 		if IsShiftKeyDown() then
 			TourGuide.db.char.completion[self.guide] = nil
@@ -33,11 +39,11 @@ frame:SetScript("OnShow", function()
 	end
 	rows = {}
 	for i=1,NUMROWS do
-		local row = CreateFrame("CheckButton", nil, frame)
-		if i == 1 then row:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP)
+		local row = CreateFrame("CheckButton", nil, group)
+		if i == 1 then row:SetPoint("TOP", 0, -4)
 		else row:SetPoint("TOP", rows[i-1], "BOTTOM") end
-		row:SetPoint("LEFT", frame, EDGEGAP, 0)
-		row:SetPoint("RIGHT", frame, -EDGEGAP, 0)
+		row:SetPoint("LEFT", 4, 0)
+		row:SetPoint("RIGHT", scrollbar, "LEFT", -4, 0)
 		row:SetHeight(ROWHEIGHT)
 
 		local highlight = row:CreateTexture()
@@ -59,26 +65,20 @@ frame:SetScript("OnShow", function()
 		rows[i] = row
 	end
 
-	frame:EnableMouseWheel()
-	frame:SetScript("OnMouseWheel", function(f, val)
-		offset = offset - val
-		if offset == (#TourGuide.guidelist - NUMROWS) then offset = offset - 1 end
-		if offset < 0 then offset = 0 end
+
+	local f = scrollbar:GetScript("OnValueChanged")
+	scrollbar:SetMinMaxValues(0, #TourGuide.guidelist - NUMROWS - 1)
+	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
+		offset = math.floor(value)
 		TourGuide:UpdateGuidesPanel()
+		return f(self, value, ...)
 	end)
 
+	frame:EnableMouseWheel()
+	frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*NUMROWS/3) end)
 
-	local function newoffset()
-		for i,name in ipairs(TourGuide.guidelist) do
-			if name == TourGuide.db.char.currentguide then return i - (NUMROWS/2) - 1 end
-		end
-	end
-	local function OnShow(self)
-		offset = newoffset()
-		if offset >= (#TourGuide.guidelist - NUMROWS) then offset = #TourGuide.guidelist - NUMROWS - 1 end
-		if offset < 0 then offset = 0 end
-		TourGuide:UpdateGuidesPanel()
-	end
+	local function newoffset() for i,name in ipairs(TourGuide.guidelist) do if name == TourGuide.db.char.currentguide then return i - (NUMROWS/2) - 1 end end end
+	local function OnShow(self) scrollbar:SetValue(newoffset() or 0) end
 	frame:SetScript("OnShow", OnShow)
 	OnShow(frame)
 end)
