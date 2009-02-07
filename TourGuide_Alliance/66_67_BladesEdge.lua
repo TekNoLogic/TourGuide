@@ -128,10 +128,10 @@ A Crush the Bloodmaul Camp! |T| |QID|10796|
 A Little Embers |T| |N|West edge of town| |QID|10770|
 A From the Ashes |T| |QID|10771|
 
-C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64,33), use the claws, kill the raven| |U|30704| |QID|10567|
+C Creating the Pendant |N|Northeast in Veil Ruuan, kill the arakkoa for 6 claws, go to the green summoning circle (64.4,33), use the claws, kill the raven| |U|30704| |QID|10567|
 C A Time for Negotiation... |N|Keep an eye out for Overseer Nuaar, a neutral Draenei.  He walks around the camps here.| |QID|10682|
 C Culling the Wild |N|Go south of town then east up the path. Work your way north as you kill the quest mobs| |QID|10753|
-C From the Ashes |N|Plant your seeds... Southern Soil (71.66, 22.35), Central Soil (71.65, 20.34), Northern Soil (71.57, 18.51), this can be a tough area if you have good fire resist| |QID|10771|
+C From the Ashes |N|Plant your seeds... Southern Soil (71.66, 22.39), Central Soil (71.6, 20.32), Northern Soil (71.59, 18.5). This can be a tough area if you don't have good fire resist.| |QID|10771|
 C Little Embers |QID|10770|
 A Damaged Mask |N|If you don't have the item in your bag, kill Fel Corrupters until you get it.| |U|31384| |QID|10810|
 
