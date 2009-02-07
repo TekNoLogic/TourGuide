@@ -154,7 +154,7 @@ C Picking Up the Pieces |QID|11609|
 T Picking Up the Pieces |QID|11609|
 A Leading the Ancestors Home |QID|11610|
 T A Visit to the Curator |QID|11623|
-C Leading the Ancestors Home |QID|11610| |N|Use the Ritual Object at each of the elders' stones|
+C Leading the Ancestors Home |QID|11610| |U|34715| |N|Use the Ritual Object at each of the elders' stones|
 T Leading the Ancestors Home |QID|11610|
 
 C Help Those That Cannot Help Themselves |QID|11876| |N|East of the quarry.  Use the smasher on the traps.| |U|35228|
@@ -239,7 +239,7 @@ C Keep the Secret Safe |QID|11914| |N|Kill Arcane Serpents near the Nexus|
 T Hatching a Plan |QID|11936| |N|Back inside the Transitus Shield (33.33, 34.46)|
 A Drake Hunt |QID|11919|
 T The Cell |QID|11943|
-A Keristrasza |QID|11946| |N|Borean Tundra, Transitus Shield (33.33, 34.29)| |U|35671| |N|Use the [Augmented Arcane Prison]|
+A Keristrasza |QID|11946| |U|35671| |N|Use the [Augmented Arcane Prison]|
 T Keristrasza |QID|11946|
 A Bait and Switch |QID|11951|
 T Keep the Secret Safe |QID|11914|
