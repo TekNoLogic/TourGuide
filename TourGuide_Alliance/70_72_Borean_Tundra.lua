@@ -219,7 +219,7 @@ A Basic Training |QID|11918|
 
 C Reading the Meters |QID|11900| |N|Find the little orbs to the north (31.31, 20.29), west (22.36, 24.17), south (28.33, 34.98), and down near the Nexus (28.26, 28.47)|
 C Secrets of the Ancients |QID|11910|
-C Nuts for Berries |QID|11912|
+C Nuts for Berries |QID|11912| |N|Herbalists can track these|
 C Basic Training |QID|11918|
 A Puzzling... |QID|11941| |N|Kill Coldara Spellbinders until you get a [Scintillating Fragment]| |U|35648| |N|Keep killing Coldarra Spellweavers until you get the [Scintillating Fragment]|
 
