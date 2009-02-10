@@ -252,16 +252,16 @@ C Cracking the Code |QID|11931| |N|Kill Inquisitor Caleras to the north (32.77, 
 
 T Bait and Switch |QID|11951| |U|35671| |N|Use the [Augmented Arcane Prison]|
 A Saragosa's End |QID|11957|
-C Saragosa's End |QID|11957| |N|Talk to Keri for a teleport.  Use the [Arcane Power Focus], the kill her.| |U|35690|
+C Saragosa's End |QID|11957| |N|Talk to Keri for a teleport.  Use the [Arcane Power Focus], then kill Saragosa.| |U|35690|
 T Saragosa's End |QID|11957| |U|35671| |N|Use the [Augmented Arcane Prison]|
 A Mustering the Reds |QID|11967|
 T Mustering the Reds |QID|11967| |N|Talk to Keri for a port back to the Transitus Shield|
 A Springing the Trap |QID|11969|
 T Cracking the Code |QID|11931|
-C Springing the Trap |QID|11969| |N|Head to the Nexus, take the ramp up, then head out across the morthwest bridge.  Use the flare and stay close to Keri, enjoy the flight.| |U|35718|
-T Springing the Trap |QID|11969| |N|Back inside the Transitus Shield (33.27, 34.46)|
+C Springing the Trap |QID|11969| |N|Head to the Nexus, take the ramp up, then head out across the northwest bridge (25.4,21.82). Use the flare when the bonfire isn't lit and stay close to Keri, enjoy the flight.| |U|44950|
+T Springing the Trap |QID|11969| |N|Back inside the Transitus Shield (33.27, 34.46). Skip the follow-up.|
 
-T The Assassination of Harold Lane |QID|11892| |N|Back at the D.E.H.T.A. Encampment (57.04, 44.25)|
+T The Assassination of Harold Lane |QID|11892| |N|Back at the D.E.H.T.A. Encampment (57.04, 44.25). Ask Librarian Tiare for a port to Amber Ledge.|
 
 T Cowards and Fools |QID|11932| |N|East at Kaskala (63.81, 46.10)|
 A The Son of Karkut |QID|12086|
@@ -415,10 +415,9 @@ A The Spare Suit |QID|11565|
 T The Spare Suit |QID|11565|
 A Surrender... Not! |QID|11566|
 C Surrender... Not! |QID|11566| |U|34620| |N|Head over to the cave, use [King Mrgl-Mrgl's Spare Suit], kill Claximus at the back of the cave (37.72, 27.07)|
-T Surrender... Not! |QID|11566| |N|Back at the Winterfin Retreat (43.50, 13.92)|
+T Surrender... Not! |QID|11566| |U|34620| |N|Back at the Winterfin Retreat (43.50, 13.92). Equip the suit again if you wish to avoid conflict on the way out.|
 
 C A Bot in Mammoth's Clothing |QID|11718| |N|Kill mammoths on your way back to the airstrip.  The babies drop the hides too, don't skip those easy kills!|
-
 T A Bot in Mammoth's Clothing |QID|11718| |N|Back at Fizzcrank Airstrip (57.11, 20.18)|
 A Deploy the Shake-n-Quake! |QID|11723|
 T Plan B |QID|11658| |O|
@@ -453,7 +452,6 @@ A Back to the Airstrip |QID|11701|
 C Deploy the Shake-n-Quake! |QID|11723| |U|34981| |N|Head down to the south sinkhole (69.99, 37.09) and use the [Shake-n-Quake 5000 Control Unit]|
 
 T Back to the Airstrip |QID|11701| |N|Back at the Fizzcrank Airstrip (57.00, 18.70)|
-
 T Deploy the Shake-n-Quake! |QID|11723| |N|Back at Fizzcrank Airstrip (57.13, 20.05)|
 T Monitoring the Rift: Winterfin Cavern |QID|12728| |N|Back up on Amber Ledge (45.03, 33.39)|
 
