@@ -1,3 +1,11 @@
+3.0.3.46-Beta
+    New guide: Ally Sholazar
+    Ally Zangarmarsh tweaks
+    Ally ZD tweak
+    Fix various typos and directions
+    Various fixes from Stephen Touset,  Zariel and Ethan Centaurai 
+    Ignore text in [brackets] at the start of guide titles
+
 3.0.3.45-Beta
     Ally guide level range tweaks
     New guide: Ally Zul'Drak
