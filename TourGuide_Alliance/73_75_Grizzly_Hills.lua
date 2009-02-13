@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Grizzly Hills (73-75)", "Zul'Drak (75-76)", "Alliance", function()
+TourGuide:RegisterGuide("Grizzly Hills (73-75)", "Zul'Drak (75-77)", "Alliance", function()
 return [[
 N Dalaran |N|When you hit 74 you can pick up a quest in the lodge that will give you a free port to Dalaran.  DO NOT TURN IT IN WHEN YOU GET THERE.  As long as you have the quest you can get free ports from mages in most of the major Northrend towns.  This means you can set your hearth in Grizzly Hills, but still have fast access to all the major cities.  When you're ready to set hearth in Dalaran, then you should turn in the quest.|
 
@@ -243,7 +243,7 @@ T Latent Power |QID|12094| |N|Back out in the Ruins of Tethys (79.74, 33.64)|
 A Free at Last |QID|12099|
 N Giants |N|Use Gavrock's Runebreaker on any giants you come across, it will either make them friendly or non-elite.  You probably also want to kill any shoveltusks and worgs you come across now that the giants aren't a threat.|
 
-C See You on the Other Side |QID|12121| |N|Use the mallet at the gong in front of the entrance to the ruins (71.58, 24.62)|
+C See You on the Other Side |QID|12121| |N|Use the mallet at the gong in front of the entrance to the ruins (71.58, 24.62)| |U|36834|
 T See You on the Other Side |QID|12121| |N|Down inside the ruins, in the second room (69.45, 19.44)|
 A Chill Out, Mon |QID|12137|
 C Chill Out, Mon |QID|12137| |N|Open the chest to get the snow, then talk to the questgiver for a rez.  Head back to the first room, freeze the trolls, the loot the particles from where their mummy was.| |U|36859|
