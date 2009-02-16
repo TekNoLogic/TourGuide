@@ -1,3 +1,10 @@
+3.0.9.47-Beta
+    Add a quest I missed in borean
+    New guide - Ally Storm Peaks, YATTA! I'm 80 now!
+    Ally GH fixes
+    Add group box and scroll bar to guide config panel
+    Various guide tweaks from Ethan Centaurai
+
 3.0.3.46-Beta
     New guide: Ally Sholazar
     Ally Zangarmarsh tweaks
