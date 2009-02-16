@@ -16,11 +16,8 @@ A Restoring the Light |O| |PRE|Ishanah| |QID|10021|
 T Allegiance to the Scryers |O| |QID|10552|
 A Voren'thal the Seer |O| |PRE|Allegiance to the Scryers| |QID|10553|
 T Voren'thal the Seer |O| |QID|10553|
-A Losing Gracefully |O| |PRE|Voren'thal the Seer| |QID|10169|
 
 h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
-
-T Losing Gracefully |O| |QID|10169|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.| |QID|10037|
 T What's Wrong at Cenarion Thicket? |QID|9957|

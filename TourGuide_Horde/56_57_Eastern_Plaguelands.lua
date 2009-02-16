@@ -22,7 +22,7 @@ C Blood Tinged Skies |QID|5543|
 
 T Uncle Carlin |N|East at Light's Hope Chapel (81,58)| |QID|5241|
 A Defenders of Darrowshire |QID|5211|
-A The Restless Souls |QID|5282|
+A The Restless Souls |QID|5281|
 T Duke Nicholas Zverenhoff |QID|6030|
 A Zaeldarr the Outcast |N|Southwest near the corpse pits (79,63)| |QID|6021|
 
@@ -36,8 +36,8 @@ C Carrion Grubbage |QID|5544|
 C Un-Life's Little Annoyances |QID|6042|
 
 A Augustus' Receipt Book |N|From hut at (13,34)| |QID|6164|
-C Augustus' Receipt Book |N|Book is upstairs in the inn at (15,33)| |QID|6164|
-T The Restless Souls |N|Egan is in the hut at (13,34)| |QID|5282|
+C Augustus' Receipt Book |N|Book is upstairs in the inn at (14.2,26.3)| |QID|6164|
+T The Restless Souls |N|Egan is in the hut at (13,34). Skip the follow-up.| |QID|5281|
 T Augustus' Receipt Book |QID|6164|
 
 T Demon Dogs |N|On the west edge of the zone| |QID|5542|
@@ -48,11 +48,11 @@ C Redemption |N|Blah blah blah... he talks to much.| |QID|5742|
 T Redemption |QID|5742|
 A Of Forgotten Memories |QID|5781|
 
-T To Kill With Purpose |N|at (26,74)| |QID|6022|
+T To Kill With Purpose |N|(26,74)| |QID|6022|
 T Un-Life's Little Annoyances |QID|6042|
 
-C Of Forgotten Memories |N|South at the Undercroft (28,86).  Talk to the grave and Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|
-C Zaeldarr the Outcast |N|(27,85)| |QID|6021|
+C Of Forgotten Memories |N|South at the Undercroft (24.6,80).  Talk to the grave and Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|
+C Zaeldarr the Outcast |N|Inside the crypt at the bottom (23.8,78.4)| |QID|6021|
 
 T Of Forgotten Memories |N|Back on the west edge of the zone| |QID|5781|
 
