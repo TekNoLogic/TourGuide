@@ -92,8 +92,10 @@ T The Hunt is On |QID|11794| |N|Back in the inn, upstairs (58.54, 67.32)| |T|
 
 T A Diplomatic Mission |QID|12141| |N|Take the road southwest out of town to the Riplash Strand (47.15, 75.40)|
 A Karuk's Oath |QID|11613|
+A Cruelty of the Kvaldir |QID|12471| |N|Find the tuskarr down on the beach (44.24, 77.84).  If he's not there don't worry, just skip this.|
 C Karuk's Oath |QID|11613| |N|Down on the beach, it's not as empty as it appears!|
 T Karuk's Oath |QID|11613|
+T Cruelty of the Kvaldir |QID|12471|
 A Gamel the Cruel |QID|11619|
 C Gamel the Cruel |QID|11619| |N|In a cave down on the beach (46.26, 78.83).  If he's camped heavily, just skip ahead to "Ears of Our Enemies"|
 T Gamel the Cruel |QID|11619|
