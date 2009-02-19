@@ -38,25 +38,36 @@ C Gymer's Salvation |QID|12914| |N|Kill the banshees floating all over the area 
 T The Ebon Watch |QID|12884| |N|To the west at Ebon Watch (14.14, 73.82)|
 A Kickin' Nass and Takin' Manes |QID|12630|
 C Kickin' Nass and Takin' Manes |QID|12630| |U|38659| |N|Kill trolls, kick Nass!|
-A An Invitation, of Sorts... |QID|12631| |U|38660| |N|From the Unliving Choker that dropped.  If you didn't get it, keep killin' trolls till you do.|
+A An Invitation, of Sorts... |QID|12631| |U|38660| |N|From the Unliving Choker that dropped.  You'll get this version if you didn't complete the GH Drakuru quest chain.| |O|
+A Darkness Calling |QID|12633| |U|38673| |N|From the Writhing Choker that dropped.  You'll get this version if you have finished the entire GH Drakuru quest chain.| |O|
 
 T Kickin' Nass and Takin' Manes |QID|12630| |N|Back at Ebon Watch (14.14, 73.80)|
-T An Invitation, of Sorts... |QID|12631|
-A Near Miss |QID|12637|
-C Near Miss |QID|12637| |N|Talk to Bloodrose Datura for a... demonstration.|
+T An Invitation, of Sorts... |QID|12631| |O|
+A Near Miss |QID|12637| |O| |PRE|An Invitation, of Sorts...|
+T Darkness Calling |QID|12633| |O|
+A Close Call |QID|12638| |O| |PRE|Darkness Calling|
+C Near Miss |QID|12637| |O| |N|Talk to Bloodrose Datura for a... demonstration.|
+C Close Call |QID|12638| |O| |N|Talk to Bloodrose Datura for a... demonstration.|
 A Taking a Stand |QID|12795|
-T Near Miss |QID|12637|
-A You Can Run, But You Can't Hide |QID|12629|
-C You Can Run, But You Can't Hide |QID|12629| |N|To the east around the Reliquary of Agony (21,74).  Kill abominations and loot "drool" off the ground.|
-T You Can Run, But You Can't Hide |QID|12629| |N|Back at Ebon Watch (14.09, 73.72)|
-A Dressing Down |QID|12648|
+T Near Miss |QID|12637| |O|
+A You Can Run, But You Can't Hide |QID|12629| |O| |PRE|An Invitation, of Sorts...|
+T Close Call |QID|12638| |O|
+A Silver Lining |QID|12643| |O| |PRE|Darkness Calling|
+C You Can Run, But You Can't Hide |QID|12629| |O| |N|To the east around the Reliquary of Agony (21,74).  Kill abominations and loot "drool" off the ground.|
+C Silver Lining |QID|12643| |O| |N|To the east around the Reliquary of Agony (21,74).  Kill abominations and loot "drool" off the ground.|
+T You Can Run, But You Can't Hide |QID|12629| |O| |N|Back at Ebon Watch (14.09, 73.72)|
+A Dressing Down |QID|12648| |O| |PRE|An Invitation, of Sorts...|
+T Silver Lining |QID|12643| |O| |N|Back at Ebon Watch (14.09, 73.72)|
+A Suit Up! |QID|12649| |O| |PRE|Darkness Calling|
 
-C Dressing Down |QID|12648| |U|38699| |N|Head back to the Reliquary of Agony and use the Ensorcelled Choker.  Talk to Gristlegut (19.82, 75.32) to buy the plasma.|
+C Dressing Down |QID|12648| |O| |U|38699| |N|Head back to the Reliquary of Agony and use the Ensorcelled Choker.  Talk to Gristlegut (19.82, 75.32) to buy the plasma.|
+C Suit Up! |QID|12649| |O| |U|38699| |N|Head back to the Reliquary of Agony and use the Ensorcelled Choker.  Talk to Gristlegut (19.82, 75.32) to buy the plasma.|
 A Feedin' Da Goolz |QID|12652| |U|38699|
 C Feedin' Da Goolz |QID|12652| |U|38701| |N|Use the bowl near the ghouls to feed them.  Watch out for the blightguards.|
 T Feedin' Da Goolz |QID|12652| |U|38699|
 
-T Dressing Down |QID|12648| |N|Back at Ebon Watch (14.12, 73.74)|
+T Dressing Down |QID|12648| |O| |N|Back at Ebon Watch (14.12, 73.74)|
+T Suit Up! |QID|12649| |O| |N|Back at Ebon Watch (14.12, 73.74)|
 A Infiltrating Voltarus |QID|12661|
 
 T Gymer's Salvation |QID|12914| |N|Back up at the Crusader Forward Camp (25.26, 63.92)|
