@@ -1,4 +1,6 @@
 
+local WatchFrame_Update = select(4, GetBuildInfo()) == 30100 and WatchFrame_Update or QuestWatch_Update
+
 local TourGuide = TourGuide
 local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {type = "data source", text = "Bah!", icon = TourGuide.icons.KILL})
 local lastmapped, lastmappedaction
@@ -67,7 +69,7 @@ function TourGuide:UpdateStatusFrame()
 		end
 	end
 	QuestLog_Update()
-	QuestWatch_Update()
+	WatchFrame_Update()
 
 	if not nextstep and self:LoadNextGuide() then return self:UpdateStatusFrame() end
 	if not nextstep then return end
