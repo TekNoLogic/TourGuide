@@ -211,8 +211,7 @@ A The Angry Gorloc |QID|12578|
 T Force of Nature |QID|12803| |N|West at Rainspeaker Rapids (64.70, 48.57)|
 A An Issue of Trust |QID|12561|
 
-C The Angry Gorloc |QID|12578| |N|East at Mosswalker Village (75.44, 51.03)|
-U |cffffffff|Hitem:38624:0:0:0:0:0:0:1294786084:78|h[Moodle's Stress Ball]|h|r |N|Sholazar Basin, Mosswalker Village (75.82, 51.17)|
+C The Angry Gorloc |QID|12578| |N|East at Mosswalker Village (75.44, 51.03)| |U|38624|
 T The Angry Gorloc |QID|12578| |U|38624| |N|Use the stress ball to summon your gorloc friend.|
 A The Mosswalker Savior |QID|12580| |U|38624|
 A Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624|
