@@ -89,7 +89,7 @@ A An Embarassing Incident |QID|12699|
 A Force of Nature |QID|12803|
 A The Part-time Hunter |QID|12654|
 C An Embarassing Incident |QID|12699| |U|40390| |N|In the lake, sift through the piles of dirt.  Use the air tank if you need.|
-C Crocolisk Mastery: The Ambush |QID|12569| |U|38564| |N|On the east bank of the lake, use the disguise near the fallen log (47.91, 66.12).|
+C Crocolisk Mastery: The Ambush |QID|12569| |U|38564| |N|On the east bank of the lake, use the disguise near the fallen log (46.33, 63.22).|
 T An Embarassing Incident |QID|12699|
 A Reconnaissance Flight |QID|12671|
 C Reconnaissance Flight |QID|12671| |N|Take the flight.|
