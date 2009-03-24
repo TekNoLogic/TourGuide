@@ -41,6 +41,15 @@ frame:SetScript("OnShow", function()
 	showuseitem.tiptext = L["Display a button when you must use an item to start or complete a quest."]
 	showuseitem:SetChecked(TourGuide.db.char.showuseitem)
 
+	local resetpos2 = tekbutton.new_small(frame, "TOP", showuseitem, "CENTER", 0, 11)
+	resetpos2:SetPoint("RIGHT", -16, 0)
+	resetpos2:SetText("Reset")
+	resetpos2.tiptext = L["Reset the item button to the default position"]
+	resetpos2:SetScript("OnClick", function(self)
+		TourGuide.db.profile.itemframepoint, TourGuide.db.profile.itemframex, TourGuide.db.profile.itemframey = nil
+		TourGuide:PositionItemFrame()
+	end)
+
 	local showuseitemcomplete, showuseitemcompletelabel = tekcheck.new(frame, nil, L["Show buttom for 'complete' objectives"], "TOPLEFT", showuseitem, "BOTTOMLEFT", GAP*2, -GAP)
 	showuseitemcomplete.tiptext = L["The advanced quest tracker in the default UI will show these items.  Enable this if you would rather have TourGuide's button."]
 	showuseitemcomplete:SetScript("OnClick", function(self) checksound(self); TourGuide.db.char.showuseitemcomplete = not TourGuide.db.char.showuseitemcomplete; TourGuide:UpdateStatusFrame() end)

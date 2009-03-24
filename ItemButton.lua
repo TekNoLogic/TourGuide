@@ -71,9 +71,7 @@ end)
 
 
 function TourGuide:PositionItemFrame()
-	if self.db.profile.itemframepoint then
-		frame:ClearAllPoints()
-		frame:SetPoint(self.db.profile.itemframepoint, self.db.profile.itemframex, self.db.profile.itemframey)
-	end
-	self.PositionItemFrame = nil
+	frame:ClearAllPoints()
+	local pt, x, y = self.db.profile.itemframepoint, self.db.profile.itemframex, self.db.profile.itemframey
+	frame:SetPoint(pt or "BOTTOMRIGHT", pt and UIParent or MinimapCluster, pt or "BOTTOMRIGHT", x or -254, y or -172)
 end
