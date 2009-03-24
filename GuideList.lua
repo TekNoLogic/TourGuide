@@ -67,7 +67,7 @@ frame:SetScript("OnShow", function()
 
 
 	local f = scrollbar:GetScript("OnValueChanged")
-	scrollbar:SetMinMaxValues(0, #TourGuide.guidelist - NUMROWS - 1)
+	scrollbar:SetMinMaxValues(0, math.max(0, #TourGuide.guidelist - NUMROWS - 1))
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
 		TourGuide:UpdateGuidesPanel()

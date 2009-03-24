@@ -64,7 +64,7 @@ A In Search of Menara Voidrender |N|In The Forlorn Cavern (50.2, 6.2)| |C|Warloc
 F Stormwind City
 T Reassignment |Z|Stormwind City| |N|In Stormwind Keep (73.7, 17.6)| |QID|563|
 T Cleansing the Eye |Z|Stormwind City| |N|In Stormwind Cathedral (39,27)| |QID|293|
-A Brother Anton |N|Downstairs in Stormwind Cathedral| |QID|6141|
+A Brother Anton |N|Downstairs in Stormwind Cathedral.  Requires level 24, skip it if you can't get it.| |QID|6141|
 B Bolt of Woolen Cloth |L|2997| |N|Buy from auction or a tailor|
 B Hillman's Cloak |L|3719| |N|Buy from auction or a leatherworker.|
 

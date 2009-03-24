@@ -253,7 +253,7 @@ A Back to Har'koa |QID|12653|
 
 C Plundering Their Own |QID|12650| |N|Kill trolls around the altar.|
 C Sealing the Rifts |QID|12640| |N|Attack the rifts to the south...|
-T The Frozen Earth |QID|12639| |N|...and earth elementals too.|
+C The Frozen Earth |QID|12639| |N|...and earth elementals too.|
 
 T Plundering Their Own |QID|12650| |N|Back at Zim'Torga (59.92, 57.85)|
 T The Frozen Earth |QID|12639|

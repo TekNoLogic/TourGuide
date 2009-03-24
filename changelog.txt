@@ -1,3 +1,10 @@
+3.0.9.48-Beta
+    Fix a T that should have been a C
+    Make "Brother Anton" optional
+    Fix guide list if there are fewer guides present than fit in the list
+    More frFR locale
+    Add alternate ZD choker questline, in case players have finished the first Drakuru chain
+
 3.0.9.47-Beta
     Add a quest I missed in borean
     New guide - Ally Storm Peaks, YATTA! I'm 80 now!
