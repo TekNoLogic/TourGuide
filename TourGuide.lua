@@ -43,6 +43,8 @@ function TourGuide:Initialize()
 			mapnotecoords = true,
 			alwaysmapnotecoords = false,
 			showstatusframe = true,
+			showuseitem = true,
+			showuseitemcomplete = true,
 		},
 	})
 	if self.db.char.turnedin then self.db.char.turnedin = nil end -- Purge old table if present

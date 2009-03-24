@@ -89,7 +89,14 @@ function TourGuide:UpdateStatusFrame()
 		self:ParseAndMapCoords(action, quest, self:GetObjectiveTag("Z", nextstep) or self.zonename, note, self:GetObjectiveTag("QID", nextstep))
 	end
 
-	self:SetUseItem(useitem and select(10, GetItemInfo(tonumber(useitem))), useitem)
+	if self.db.char.showuseitem and action == "COMPLETE" and self.db.char.showuseitemcomplete then
+		local useitem2, tex2 = GetQuestLogSpecialItemInfo(logi or 0)
+		self:SetUseItem(tex2 or useitem and select(10, GetItemInfo(tonumber(useitem))), useitem2 or useitem)
+	elseif self.db.char.showuseitem and action ~= "COMPLETE" then
+		self:SetUseItem(useitem and select(10, GetItemInfo(tonumber(useitem))), useitem)
+	else
+		self:SetUseItem()
+	end
 
 	self:UpdateOHPanel()
 	self:UpdateGuidesPanel()
