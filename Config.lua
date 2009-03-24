@@ -32,8 +32,7 @@ frame:SetScript("OnShow", function()
 	resetpos.tiptext = L["Reset the status frame to the default position"]
 	resetpos:SetScript("OnClick", function(self)
 		TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey = nil
-		TourGuide.statusframe:ClearAllPoints()
-		TourGuide.statusframe:SetPoint("BOTTOMRIGHT", QuestWatchFrame, "TOPRIGHT", -60, -15)
+		TourGuide:PositionStatusFrame()
 	end)
 
 
