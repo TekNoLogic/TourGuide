@@ -11,7 +11,7 @@ F Loch Modan |N|Boat to Stormwind, then fly to Loch Modan.|
 A The Alagaz Gauntlet |QID|455| |N|North at North Gate Pass (25.35, 10.43)|
 C The Alagaz Gauntlet |QID|455|
 
-R Menethil Harbour
+R Menethil Harbor
 A Claws from the Deep |T| |QID|279|
 A Young Crocolisk Skins |T| |QID|484|
 T The Alagaz Gauntlet |QID|455| |T| |N|In the keep|
