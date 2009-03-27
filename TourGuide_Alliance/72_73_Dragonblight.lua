@@ -83,7 +83,7 @@ T Breaking Off A Piece |QID|12462| |N|Back at the mausoleum entrance (85.88, 51.
 T Plunderbeard's Journal |QID|12465|
 A Chasing Icestorm: The 7th Legion Front |QID|12466|
 
-T Orik Trueheart and the Forgotten Shore |QID|12287| |N|Sounth of town at Dawn's Reach (87.13, 57.39)|
+T Orik Trueheart and the Forgotten Shore |QID|12287| |N|South of town at Dawn's Reach (87.13, 57.39)|
 A The Murkweed Elixir |QID|12290|
 C The Murkweed Elixir |QID|12290| |N|To the southeast at Eldritch Heights (90,74)|
 T The Murkweed Elixir |QID|12290| |N|Back at Dawn's Reach (87.12, 57.46)|
