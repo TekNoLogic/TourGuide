@@ -84,7 +84,7 @@ A Discipline |QID|12906|
 C Discipline |QID|12906| |U|42837| |N|Go beat the big ol' beardies with your rod.  Try not to enjoy it too much.|
 T Discipline |QID|12906|
 A Examples to be Made |QID|12907|
-A Examples to be Made |QID|12907| |N|Kill Garhal, just inside the next room (45.36, 68.57)|
+C Examples to be Made |QID|12907| |N|Kill Garhal, just inside the next room (45.36, 68.57)|
 T Examples to be Made |QID|12907|
 A A Certain Prisoner |QID|12908|
 T A Certain Prisoner |QID|12908|
