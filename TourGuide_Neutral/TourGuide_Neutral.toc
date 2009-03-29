@@ -3,7 +3,7 @@
 ## Title: Tour Guide (Neutral Data)
 ## Notes: Powerleveling guide framework
 ## Author: Tekkub Stoutwrithe
-## Version: Alpha
+## Version: 3.0.9.49
 ## X-Category: Quest
 
 ## RequiredDeps: TourGuide
