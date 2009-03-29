@@ -1,3 +1,9 @@
+3.0.9.49-Beta
+    Fix an A that should be a C
+    Shit needs to be spelled how it is in-game, thanks
+    Crikey!  Thems better coords
+    Fix a bad Use Item obj in shol
+
 3.0.9.48-Beta
     Fix a T that should have been a C
     Make "Brother Anton" optional
