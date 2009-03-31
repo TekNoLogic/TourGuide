@@ -15,7 +15,7 @@ A Traitors Among Us |T| |QID|11126|
 C Traitors Among Us |N|Talk to the Deserter Agitators, you may have to fight some.| |T| |QID|11126|
 T Traitors Among Us |T| |QID|11126|
 A Propaganda War |T| |QID|11128|
-C Propaganda War |N|In the ship at the south dock, downstairs in the captian's quarters| |T| |QID|11128|
+C Propaganda War |N|In the ship at the south dock, downstairs in the captain's quarters| |T| |QID|11128|
 T Propaganda War |T| |QID|11128|
 A Discrediting the Deserters |T| |QID|11133|
 C Discrediting the Deserters |N|Hand out pamphlets to the guards| |T| |QID|11133|
