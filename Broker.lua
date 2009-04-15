@@ -1,4 +1,6 @@
 
+local WatchFrame_Update = select(4, GetBuildInfo()) == 30100 and WatchFrame_Update or QuestWatch_Update
+
 local TourGuide = TourGuide
 local dataobj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("TourGuide", {type = "data source", text = "Bah!", icon = TourGuide.icons.KILL})
 local lastmapped, lastmappedaction
@@ -67,7 +69,7 @@ function TourGuide:UpdateStatusFrame()
 		end
 	end
 	QuestLog_Update()
-	QuestWatch_Update()
+	WatchFrame_Update()
 
 	if not nextstep and self:LoadNextGuide() then return self:UpdateStatusFrame() end
 	if not nextstep then return end
@@ -87,7 +89,14 @@ function TourGuide:UpdateStatusFrame()
 		self:ParseAndMapCoords(action, quest, self:GetObjectiveTag("Z", nextstep) or self.zonename, note, self:GetObjectiveTag("QID", nextstep))
 	end
 
-	self:SetUseItem(useitem and select(10, GetItemInfo(tonumber(useitem))), useitem)
+	if self.db.char.showuseitem and action == "COMPLETE" and self.db.char.showuseitemcomplete then
+		local useitem2, tex2 = GetQuestLogSpecialItemInfo(logi or 0)
+		self:SetUseItem(tex2 or useitem and select(10, GetItemInfo(tonumber(useitem))), useitem2 or useitem)
+	elseif self.db.char.showuseitem and action ~= "COMPLETE" then
+		self:SetUseItem(useitem and select(10, GetItemInfo(tonumber(useitem))), useitem)
+	else
+		self:SetUseItem()
+	end
 
 	self:UpdateOHPanel()
 	self:UpdateGuidesPanel()
