@@ -1,3 +1,10 @@
+3.1.0.50-Beta
+    3.1 compatibility
+    - Use new API to find what item to use for current quest
+    Add config to reset item button position
+    Add config options to hide use item button
+    Fix status frame reset going to the wrong position
+
 3.0.9.49-Beta
     Fix an A that should be a C
     Shit needs to be spelled how it is in-game, thanks
