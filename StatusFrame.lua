@@ -121,6 +121,19 @@ f:SetScript("OnEnter", dataobj.OnEnter)
 check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
 
 
+local function OnUpdate(self)
+	local oldnewsize = newsize
+	newsize = FIXEDWIDTH + text:GetWidth()
+	if oldnewsize ~= newsize and not f2:IsVisible() then
+		oldsize = newsize
+		self:SetWidth(newsize)
+	end
+	self:SetScript("OnUpdate", nil)
+end
+f:SetScript("OnEvent", function(self) self:SetScript("OnUpdate", OnUpdate) end)
+f:RegisterEvent("ADDON_LOADED") -- Force resize in case of font changes
+
+
 function TourGuide.GetUIParentAnchor(frame)
 	local w, h, x, y = UIParent:GetWidth(), UIParent:GetHeight(), frame:GetCenter()
 	local hhalf, vhalf = (x > w/2) and "RIGHT" or "LEFT", (y > h/2) and "TOP" or "BOTTOM"
