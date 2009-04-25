@@ -91,6 +91,7 @@ function TourGuide:UpdateStatusFrame()
 
 	if self.db.char.showuseitem and action == "COMPLETE" and self.db.char.showuseitemcomplete then
 		local useitem2, tex2 = GetQuestLogSpecialItemInfo(logi or 0)
+		if useitem2 then useitem2 = tonumber(useitem2:match("item:(%d+):")) end
 		self:SetUseItem(tex2 or useitem and select(10, GetItemInfo(tonumber(useitem))), useitem2 or useitem)
 	elseif self.db.char.showuseitem and action ~= "COMPLETE" then
 		self:SetUseItem(useitem and select(10, GetItemInfo(tonumber(useitem))), useitem)
