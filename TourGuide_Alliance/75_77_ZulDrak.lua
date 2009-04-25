@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Zul'Drak (75-77)", "Sholazar Basin (77-78)", "Alliance", function()
 return [[
-A Reallocating Resources |QID|12770| |N|At the Westfall Brigade Encampment in Grizzly Hills (59.41, 26.13)|
+A Reallocating Resources |QID|12770| |N|At the Westfall Brigade Encampment in Grizzly Hills (59.41, 26.13)| |Z|Grizzly Hills|
 T Reallocating Resources |QID|12770| |N|Talk to the flightmaster for a flight to Light's Breach (32.05, 74.46)|
 A This Just In: Fire Still Hot! |QID|12859|
 A Trolls Is Gone Crazy! |QID|12861|
@@ -100,13 +100,14 @@ T Hazardous Materials |QID|12677| |U|41390| |N|Down on the ground.  This guy get
 A Sabotage |QID|12676|
 A Fuel for the Fire |QID|12690| |U|38699| |N|Back up on Voltarus (27.16, 46.10)|
 C Fuel for the Fire |QID|12690| |U|39238| |N|Northeast at the Frigid Breach (34.20, 37.84).  This one is easy, and fun!  Use the scepter on an abomination.  Send him after trolls, gather up as many as you can... then blow him up!  Repeat as many times as you like.|
-C Sabotage |QID|12676| |U|39165| |N|All around, use the explosives on the scourgewagons, then get clear.|
-T Sabotage |QID|12676| |U|41390| |N|Insert "horn blowing" joke here.|
-A Betrayal |QID|12713|
+N Blow up scouragewagons |Q|Sabotage| |QO|Scouragewagons destroyed: 5/5| |U|39165| |N|All around, use the explosives on the scourgewagons, then get clear.|
 T Fuel for the Fire |QID|12690| |U|38699| |N|Back up on Voltarus (27.15, 46.09)|
 A Disclosure |QID|12710| |U|38699|
 C Disclosure |QID|12710| |U|38699| |N|Port up to the upper chamber, take the tour.|
 T Disclosure |QID|12710| |U|38699| |N|Port back down to Drakuru (27.13, 46.13)|
+C Sabotage |QID|12676|
+T Sabotage |QID|12676| |U|41390| |N|Insert "horn blowing" joke here.|
+A Betrayal |QID|12713|
 C Betrayal |QID|12713| |U|39664| |N|Head up and talk to Drakuru to start this.  It's a fairly easy battle, don't worry about your disguise when it fails.  Use the scepter on one of the big trolls and send him after Drakuru.  While he fights, watch for the crystals Drakuru throws and move away from them as fast as you can.  After you're clear, heal or bandage up.  Now as for getting back down afterwards...|
 U Port back down, quickly! |U|43059| |N|Use [Drakuru's Last Wish] to port down.  It only lasts 3 minutes, so be quick about it.|
 T Betrayal |QID|12713| |U|41390| |N|Last time you get to blow his horn, you better make it a good one.|

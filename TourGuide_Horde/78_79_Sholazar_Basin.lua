@@ -1,5 +1,11 @@
+
 TourGuide:RegisterGuide("Sholazar Basin (78-79)", "Icecrown (79-80)", "Horde", function()
-    return [[
+return [[
+N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, an instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.  A number of quests will REQUIRE flight to complete.|
+
+F Dalaran
+A Where in the World is Hemet Nessingwary? |QID|12521|
+R Sholazar Basin |N|Talk to Archamge Pentarus again and tell him you are ready to fly to Sholazar Basin and he will give you a free flight.|
 
 T Where in the World is Hemet Nessingwary? |N|The plane you are in will crash and kill you, unless this is a bug and they fix it but I don't think that's the case.  Resurrect and go north to (40,59) Talk to Monte Muzzleshot hanging in the tree.| |QID|12521|
 A Welcome to Sholazar Basin |QID|12489|
