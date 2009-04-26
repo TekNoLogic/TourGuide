@@ -1,38 +1,36 @@
+
 TourGuide:RegisterGuide("Dragonblight (72-74)", "Grizzly Hills (74-76)", "Horde", function()
-    return [[
+return [[
+C Across Transborea |QID|11930| |O|
+T Across Transborea |QID|11930| |T| |O|
+A A Tauren Among Taunka |QID|11977| |T| |O| |PRE|Across Transborea|
+T A Tauren Among Taunka |QID|11977| |T| |O|
+T The Taunka and the Tauren |QID|11979| |T| |O|
+A Into the Fold |QID|11978| |T|
+A Pride of the Horde |QID|11980| |T|
 
-C Across Tansborea |N|Once you escort the Refugee to safety in Dragonblight they will go through a small skit.  Then follow the refugee to the overlook at (13,51)| |QID|11930|
-A The Tauren Among Taunka |QID|11977|
+C Into the Fold |QID|11978|
+C Pride of the Horde |QID|11980|
 
-T The Tauren Among Taunka |N|Run into the town at (13,50)| |QID|11977|
-A Into the Fold |QID|11978|
-A Pride of the Horde |QID|11980|
-
-C Pride of the Horde |N|Go west of the town to (16,48) Kill 15 Anubar Ambushers.| |QID|11980|
-C Into the Fold |N|Collect 10 Horde Armaments.| |QID|11978|
-
-T Pride of the Horde |N|Run back to the town at (13,50)| |QID|11980|
-
+T Pride of the Horde |QID|11980| |N|Back at the Westwind Refugee Camp (14.21, 49.90)|
 T Into the Fold |QID|11978|
 A Blood Oath of the Horde |QID|11983|
-C Blood Oath of the Horde |N|Go around the town and talk to the common Taunka and get them to join the horde.| |QID|11983|
+C Blood Oath of the Horde |QID|11983| |N|Go around the town and talk to the common taunka and get them to join the horde.|
 T Blood Oath of the Horde |QID|11983|
 A Agmar's Hammer |QID|12008|
 
-R Agmar's Hammer |N|Follow the road east to Agmar's Hammer at (37,46)|
-f Get the flight path
-A Wanted: Magister Keldonus |N|Click on the wanted poster and accept all 3 quests.| |QID|12089|
-A Wanted: Gigantaur |QID|12090|
-A Wanted: Dreadtalon |QID|12091|
-T Agmar's Hammer |QID|12008|
+T Agmar's Hammer |QID|12008| |N|Take the road east to Agmar's Hammer (38.11, 46.36)|
 A Victory Nears... |QID|12034|
 A Rifle the Bodies |QID|11999|
+A Wanted: Magister Keldonus |QID|12089|
+A Wanted: Gigantaur |QID|12090|
+A Wanted: Dreadtalon |QID|12091|
 T Victory Nears... |QID|12034|
 A From the Depths of Azjol-Nerub |QID|12036|
 A Black Blood of Yogg-Saron |QID|12039|
 A Imbeciles Abound! |QID|12189|
-A Marked for Death: High Cultist Zangus |QID|12056|
 A Containing the Rot |QID|12100|
+A Marked for Death: High Cultist Zangus |QID|12056|
 
 C Containing the Rot |N|Run west to (30,47) Kill the Blighted Bears and Deer.| |QID|12100|
 
@@ -40,20 +38,17 @@ C Black Blood of Yogg-Saron |N|Go a little further west to the sinkhole at (26,5
 C An Enemy in Arthas |N|Jump down in the hole to accept this.| |QID|12040|
 C An Enemy in Arthas |N|Kill Underlords in the sinkhole.| |QID|12040|
 C Marked for Death: High Cultist Zangus |N|Go down to the back of the sinkhole and kill High Cultist Zangus.| |QID|12056|
-T An Enemy in Arthas |QID|12040|
-A The Lost Empire |QID|12041|
+T An Enemy in Arthas |QID|12040| |N|Dragonblight, The Pit of Narjun (26.11, 50.69)|
+A The Lost Empire |QID|12041| |N|Dragonblight, The Pit of Narjun (26.11, 50.69)|
 
-A Avenge this Atrocity |N|Go out of the pit and go south to (24,60)| |QID|12006|
-C Rifle the Bodies |N|Go around to the corpses in this area and loot the corpses.  Get the mage hunter effects and open them until you get the Moonrest Garden Plans.| |QID|11999|
+A Avenge this Atrocity! |QID|12006| |N|To the south, find the non-aggro spirit at Moonrest Gardens (24.22, 60.19)|
+C Rifle the Bodies |QID|11999| |U|35792| |N|Loot the bodies all around, then open the item you get from them until you get the plans.|
 
-C Avenge this Atrocity |N|Go slightly southwest to (21,62) Kill the Blue Dragonflight forces here.| |QID|12006|
-
-T Avenge this Atrocity |N|Go back to Ethanial at (24,60)| |QID|12006|
-A End Arcanimus |QID|120013|
-
-C End Arcanimus |N|Go down into the pit at (20,60) Kill Arcanimus.| |QID|120013|
-
-T End Arcanimus |N|Go back to Ethanial at (24,60)| |QID|12013|
+C Avenge this Atrocity! |QID|12006| |N|Kill Blue Dragonflight forces all over the area.|
+T Avenge this Atrocity! |QID|12006| |N|Back down at the spirit in Moonrest Gardens (24.13, 60.07)|
+A End Arcanimus |QID|12013|
+C End Arcanimus |QID|12013| |N|In the pit below the surge needle (20.09, 58.85).|
+T End Arcanimus |QID|12013| |N|Back at the spirit in Moonrest Gardens (24.17, 60.06)|
 
 H Agmar's Hammer
 T The Lost Empire |QID|12041|
@@ -72,6 +67,7 @@ A In Search of the Ruby Lilac |QID|12102|
 
 C Scourge Armaments |N|Go northwest to Icemist Village around (24,42) Kill any of the Anub'ar mobs and collect Scourge Armaments.| |QID|12048|
 A Flesh-Bound Tome |N|Kill the Anub'ar Cultists until you find a Flesh-Bound Tome, then accept this.| |QID|12057|
+A The Flesh-Bound Tome |QID|12057| |N|Dragonblight, Icemist Village (25.29, 44.13)|
 C The Might of the Horde |N|Clear out an area in the village then plant the Warsong Battle Standard, then defend it by killing anything that spawns.| |QID|12053|
 
 T Strength of Icemist |N|Jump down into the water by the waterfall at (22.6,41.8) Talk to Banthok Icemist.| |QID|12063|
@@ -80,38 +76,38 @@ A Chains of the Anub'ar |QID|12064|
 C Chains of the Anub'ar |N|Kill these Anub'ar mobs to collect the keys to the chains. Tivax the Breaker – (24,39) Anok'ra the Manipulator - (25,44) Sinok the Shadowrager – (24,44)| |QID|12064|
 
 T Chains of the Anub'ar |N|Go back to Banthok at (22,42)| |QID|12064|
-A Return of the High Chief |QID|12069|
+T Chains of the Anub'ar |QID|12064| |N|Dragonblight, Icemist Village (22.61, 41.83)|
+A Return of the High Chief |QID|12069| |N|Dragonblight, Icemist Village (22.61, 41.83)|
 
 C Return of the High Chief |N|Go back up in the middle of Icemist Village at (25,40) Free the High Chief and then fight Anub'et'kan, when he is dead loot a piece of his armor.| |QID|12069|
 
 C Prevent the Accord |N|Go south back to (20,58) Kill Goramosh and Wind Trader Mu'fah's, loot their remains.| |QID|12005|
-A A Strange Device |N|From Goramosh you should find a Strange Device, click it to this.| |QID|12059|
+A A Strange Device |QID|12059| |U|36746| |N|From the item Goramosh dropped|
 
 A The Fate of the Ruby Dragonshrine |N|Go down into the ravine east of Agmar's Hammer at (48,49) Go inside the large tree and kill Dahlia Suntouch, loot from her the Ruby Lilac.  Click it and accept this.| |QID|12419|
 C In Search of the Ruby Lilac |N|Loot the Ruby Lilac.| |QID|12102|
 
-H Agmar's Hammer
-T Prevent the Accord |QID|12005|
+T Prevent the Accord |QID|12005| |N|Back at Agmar's Hammer (38.05, 46.14)|
 T A Strange Device |QID|12059|
 A Projections and Plans |QID|12061|
-T Return of the High Chief |QID|12069|
-A All Hail Roanouk! |QID|12140|
-T All Hail Roanouk! |N|Walk with Agmar then talk to Rounauk Icemist.| |QID|12140|
+T The Might of the Horde |QID|12053|
+A Attack by Air!  |QID|12071|
 T Scourge Armaments |QID|12048|
-T In Search of the Ruby Lilac |QID|12102|
-A Return to Soar |QID|12104|
+T Attack by Air!  |QID|12071|
+A Blightbeasts be Damned! |QID|12072|
+T Return of the High Chief |QID|12069|
+A All Hail Roanauk! |QID|12140|
 T The Flesh-Bound Tome |QID|12057|
 A Koltira and the Language of Death |QID|12115|
-T The Might of the Horde |QID|12053|
-A Attack by Air! |QID|12071|
 T Koltira and the Language of Death |QID|12115|
-A In Service of Blood |QID|12125|
-A In Service of the Unholy |QID|12126|
-A In Service of Frost |QID|12127|
+A In Service of Blood |QID|12125| |N|Dragonblight, Agmar's Hammer (36.17, 47.58)|
+A In Service of the Unholy |QID|12126| |N|Dragonblight, Agmar's Hammer (36.17, 47.58)|
+A In Service of Frost |QID|12127| |N|Dragonblight, Agmar's Hammer (36.17, 47.58)|
+T All Hail Roanouk! |N|Walk with Agmar then talk to Rounauk Icemist.| |QID|12140|
+T In Search of the Ruby Lilac |QID|12102|
+A Return to Soar |QID|12104|
 T Return to Soar |QID|12105|
 A Where the Wild Things Roam |QID|12111|
-T Attack by Air! |QID|12071|
-A Blightbeasts Be Damned! |QID|12072|
 
 C Where the Wild Things Roam |N|Go just outside of Agmar's Hammer to (33,50) Use the Pack of Vaccine on the Artic Grizzlies and Snowfall Elk.| |QID|12111|
 
@@ -121,93 +117,77 @@ C Projections and Plans |N|Go south to moonrest gardens around (20,64) Use the S
 
 C In Service of Blood |N|Now go southeast to Undu'le Village around (40,70) Find a Deranged Indu'le Villager get them below 25% health and then use the Blood Gem on them.| |QID|12125|
 
-R Moa'ki Harbor |N|Continue running southeast now to Moa'ki Harbor at (48,74)|
-f Get the flight path
-A Planning for the Future |QID|11960|
-T Travel to Moa'Ki Harbor |QID|12118|
-A Let Nothing Go To Waste |QID|11958|
-
-C Let Nothing Go To Waste |N|Run north to the Wolvar camp at (46,68) Kill any of the Wolvar and collect the stolen goods.| |QID|11958|
-C Planning for the Future |N|Loot the pups scattered through the camp.| |QID|11960|
-
-T Planning for the Future |N|Run back south to Moa'ki Harbor at (48,74)| |QID|11960|
-T Let Nothing Go To Waste |QID|11958|
-A Slay Loguhn |QID|11959|
-
-C Slay Loguhn |N|Run north to (46,59) in the Wolvar camp. Kill Loghun and loot his blood, then use the blood to smear it on you.| |QID|11959|
-
-T Slay Loguhn |N|Run back south to Moa'ki Harbor at (48,74)| |QID|11959|
-A Spiritual Insight |N|Then go down towards the docks and talk to Toalu'u the Mystic.| |QID|12028|
-C Spiritual Insight |N|Go outside the hut and use the incense in the brazier, then just sit back and go along for the ride.| |QID|12028|
-T Spiritual Insight |QID|12028|
-A Elder Mana'loa |QID|12030|
-A Tua'kea's Crab Traps |QID|12009|
-
-A Signs of Big Watery Trouble |N|Jump into the harbor and swim underwater to (48,80) Use Tua'kea's Breathing Bladder to get underwater breathing for 10 minutes. Click on the Wrecked Crab Trap.| |QID|12011|
-C Tua'kea's Crab Traps |N|Now go around and look for crab traps and loot them for Tua'kea's Crab Traps.| |QID|12009|
-
-T Tua'kea's Crab Traps |N|Go back to Tua'kea at (48,76)| |QID|12009|
-T Signs of Big Watery Trouble |QID|12011|
-A The Bait |QID|12016|
-
-C The Bait |N|Jump in the water and swim to the island at (43,80) Kill Kili'ua and loot the Flesh of Two Huge Pincers.| |QID|12016|
-
-T The Bait |N|Swim back to Tua'kea at (48,76)| |QID|12016|
-A Meat on the Hook |QID|12017|
-
-C Meat on the Hook |N|Jump in the water and swim to (47,78) Follow the rope going into the water down to the large hook.  Then use Tu'u'gwar's Bait, then kill the level 73 shark that spawns.| |QID|12017|
-
-T Meat on the Hook |N|Swim back to Tua'kea one last time at (48,76)| |QID|12017|
-
-T Elder Mana'loa |N|Go north back into Undu'le Village to Elder Mana'loa at (37,65)| |QID|12030|
-A Freedom for the Lingering |QID|12031|
-C Freedom for the Lingering |N|Go around the village and kill 15 spirits (the deranged villagers won't count) for Freedom for the Lingering.| |QID|12031|
-T Freedom for the Lingering |N|Then go back to the statue (37,65).| |QID|12031|
-A Conversing with the Depths |QID|12032|
-
-C Conversing with the Depths |N|Run south to the path leading down the cliff at (35,75). Go down the path to the beach and go to the island in front of you.  Follow the path up the mountain and you will see the Pearl of the Depths at (35,84). Click the Pearl then wait for the fish to be summoned.  When he tells you to jump into the water jump in.| |QID|12032|
-
-T Conversing with the Depths |N|Now swim back to Moa'ki Harbor at (48,76)| |QID|12032|
-
 C In Service of the Unholy |N|Run north to (47,50) Find Orbaz Bloodbane and take him below 35% health, then use the Unholy Gem on him.| |QID|12126|
 
-H Agmar's Hammer
-T Blightbeasts Be Damned! |QID|12072|
+T Blightbeasts be Damned! |QID|12072| |N|Back at Agmar's Hammer (37.21, 45.81)|
 T In Service of Blood |QID|12125|
 T In Service of the Unholy |QID|12126|
 T Where the Wild Things Roam |QID|12111|
 T Projections and Plans |QID|12061|
 A The Focus on the Beach |QID|12066|
 
-C The Focus on the Beach |N|Run back southwest to (26,64) Kill Captain Emmy Malin and loot the Ley Line Control Focus Ring for The Focus on the Beach. Then use the Control Ring at the sparking arch and complete the quest.| |QID|12066|
+C The Focus on the Beach |QID|12066| |N|Run back southwest to (26,64) Kill Captain Emmy Malin and loot the Ley Line Control Focus Ring for The Focus on the Beach. Then use the Control Ring at the sparking arch and complete the quest.|
+|U|36751| |N|Dragonblight, Glittering Strand (26.54, 65.07)|
 
-T The Focus on the Beach |N|Run back to Agmar's Hammer at (38,46)| |QID|12066|
+T The Focus on the Beach |QID|12066| |N|Back at Agmar's Hammer (37.96, 46.22)|
 A Atop the Woodlands |QID|12084|
 A Strengthen the Ancients |QID|12096|
 
-C Atop the Woodlands |N|Go back southwest again to (32,70) this time. Kill Lieutenant Ta'zinni and and loot the Ley Line Focus Control Amulet, and use it at the focus there.| |QID|12084|
-A A Letter for Home |N|When you kill the Lieutenant he will drop a letter, click it and accept this.| |QID|12085|
-C Strengthen the Ancients |N|Around this area also talk to the Forest Walkers, they will turn hostile kill them and loot the Bark.  Then use the bark to strengthen the ancients in the area.| |QID|12096|
+C Strengthen the Ancients |QID|12096| |N|South at Lothalor Woodlands (31,65).  Talk to the little treants for bark, then use it on the big guys| |U|36786|
+C Atop the Woodlands |QID|12084| |N|At the southern end of the woodlands.  Kill Lieutenant Ta'zinni (32.21, 72.84) for the control item, use it on the focus.| |U|36779|
+A A Letter for Home |QID|12085| |U|36780| |N|From the letter the lieutenant dropped.|
 
-T Atop the Woodlands |N|Run back to Agmar's Hammer at (38,46)| |QID|12084|
+T Strengthen the Ancients |QID|12096| |N|Back at Agmar's Hammer (36.53, 47.76)|
+T Atop the Woodlands |QID|12084|
 A Search Indu'le Village |QID|12106|
-T A Letter For Home |QID|12085|
-T Strengthen the Ancients |QID|12096|
+T A Letter for Home |QID|12085|
 
-T Search Indu'le Village |N|Go south to Indu'le Village and jump in the lake at (40,67)| |QID|12106|
+T Travel to Moa'ki Harbor |QID|12118| |T| |N|Southeast at Moa'ki Harbor (48.02, 74.84)|
+A Let Nothing Go To Waste |QID|11958| |T|
+A Planning for the Future |QID|11960| |T|
+C Planning for the Future |QID|11960| |N|Steal tanuki pups north of town (46,59).|
+C Let Nothing Go To Waste |QID|11958|
+T Planning for the Future |QID|11960| |T| |N|Back at Moa'ki Harbor (48.33, 74.29)|
+T Let Nothing Go To Waste |QID|11958| |T|
+A Slay Loguhn |QID|11959| |T|
+C Slay Loguhn |QID|11959| |N|At the hut on the north side of Snowfall Glade (46.07, 59.69).  After you kill him, smear his blood.| |U|35688|
+T Slay Loguhn |QID|11959| |T| |N|Back at Moa'ki Harbor (48.01, 74.80)|
+
+A Spiritual Insight |QID|12028| |T|
+C Spiritual Insight |QID|12028| |T| |N|Use the incense just outside| |U|35907|
+T Spiritual Insight |QID|12028| |T|
+A Elder Mana'loa |QID|12030| |T|
+
+A Tua'kea's Crab Traps |QID|12009| |T|
+A Signs of Big Watery Trouble |QID|12011| |N|Dive down in Moa'ki Harbor and find the broken trap (47.68, 79.93)|
+T Signs of Big Watery Trouble |QID|12011| |T|
+A The Bait |QID|12016| |T|
+C The Bait |QID|12016| |N|Kill the big crab out on Kili'ua's Atoll to the west (42.61, 80.62)|
+C Tua'kea's Crab Traps |QID|12009| |N|Use the Fish Bladder if you need| |U|37265|
+T Tua'kea's Crab Traps |QID|12009| |T|
+T The Bait |QID|12016| |T|
+A Meat on the Hook |QID|12017| |T|
+C Meat on the Hook |QID|12017| |N|Follow the fishing line out, use the bait, keel the shark.| |U|35838|
+T Meat on the Hook |QID|12017| |T|
+T Elder Mana'loa |QID|12030| |N|Follow the road out of town to Indu'le Village, find the big stone elder (36.76, 65.17).|
+A Freedom for the Lingering |QID|12031|
+T Search Indu'le Village |QID|12106| |N|Go south to Indu'le Village and jump in the lake at (40,67)|
 A The End of the Line |QID|12110|
+N Focus, again |Q|The End of the Line| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
+C Freedom for the Lingering |QID|12031|
+T Freedom for the Lingering |QID|12031| |N|Back at the elder (36.81, 65.20)|
+A Conversing With the Depths |QID|12032|
+C Conversing With the Depths |QID|12032| |N|Head south to an island (34.06, 84.05).  Activate the shrine, listen to Oacha'noa, jump into the water when he tells you to.|
+T Conversing With the Depths |QID|12032| |T| |N|Back at Moa'ki Harbor (49.12, 75.67)|
 
-C The End of the Line |N|Then use the Ley Line Control Focus Talisman at the ley line underwater there.	Then run straight east to (53,66) Look onto the Azure Dragonshrine to complete this.| |QID|12110|
+C The End of the Line |QID|12110| |N|Go "observe" the Azure Dragonshrine northeast of town (53.01, 65.45).|
 
 R Wyrmrest Temple |N|Run northeast now to Wyrmrest Temple at (60,51)|
-f Get the Flight Path
 T The Fate of the Ruby Dragonshrine |N|Talk to Tariolstrasz and take a drake to the top of the temple.| |QID|12419|
 
 F Agmar's Hammer
 T The End of the Line |QID|12110|
 A Gaining an Audience |QID|12122|
-N This is a good time to complete the 3 elite quests: Wanted: Magister Keldonus, Wanted: Gigantaur, Wanted: Dreadtalon. You can continue with the next steps while you look for a group for these.
-A To Dragon's Fall |N|Once you find a group and complete those then turn them in and accept To Dragon's Fall from Overlord Agmar.| |QID|12095|
 
 F Wyrmrest Temple
 T Gaining an Audience |QID|12122|
@@ -238,102 +218,91 @@ T The Steward of Wyrmrest Temple |N|Run back to Wyrmrest Temple at (58,54) Talk 
 A Informing the Queen |QID|12124|
 T Informing the Queen |N|Take a drake to the top of the temple. Talk to Alexstrasza the Life-Binder.| |QID|12124|
 A Report to Lord Afrasastrasz |QID|12435|
-T Report to Lord Afrasastrasz |N|Take a drake to the middle of the temple.| |QID|12435|
-A Defending Wyrmrest Temple |QID|12372|
-C Defending Wyrmrest Temple |N|Go just outside and get on a Wyrmrest Defender, use the defender to kill the Azure Drakes and Dragons.  Then fly to the south and use the drake to destabilize the Azure Dragonflight.  Make sure you are using the heal every time it is up.| |QID|12372|
-T Defending Wyrmrest Temple |N|Fly back to Lord Afrasastrasz and dismount the drake.| |QID|12372|
+T Report to Lord Afrasastrasz |QID|12435| |T| |N|Take a flight to the middle level.|
+A Defending Wyrmrest Temple |QID|12372| |T|
+C Defending Wyrmrest Temple |QID|12372| |N|Hop on a dragon, kill blues, then destabilize the Azure Dragonshrine (55.88, 65.99)|
+T Defending Wyrmrest Temple |QID|12372| |T| |N|Back on the middle level of the Wyrmrest Temple (59.20, 54.31)|
 
-T To Dragon's Fall |N|Run northwest to the small camp at (47,33)| |QID|12095|
-A Sarathstra, Scourge of the North |QID|12097|
 A Pest Control |QID|12144|
 
-T The Obsidian Dragonshrine |N|Run further northwest to the Obsidian Dragonflight area at (41,32) Go inside the cave and talk to Serinar.| |QID|12447|
-A No one to Save You |QID|12262|
+T The Obsidian Dragonshrine |QID|12447| |N|To the south, in the Maw of Neltharion (35.22, 30.11)|
+A No One to Save You |QID|12262|
 A No Place to Run |QID|12261|
-
-C No Place to Run |N|Run back out of the cave to (41,32) Use the Destructive Wards and then protect it until No Place to Run completes.| |QID|12261|
-C No one to Save You |N|Then continue to kill the Necrolytes and Skeletons.| |QID|12262|
-
-T No one to Save You |N|Run back to Serinar in the cave at (41,32)| |QID|12262|
+C No Place to Run |QID|12261| |U|37445| |N|Head outside, use the destructive wards where the path meets the snow (41.30, 31.78)|
+C No One to Save You |QID|12262| |N|Kill crap on your way back inside|
+T No One to Save You |QID|12262| |N|Back inside the Maw of Neltharion (35.21, 30.10)|
 T No Place to Run |QID|12261|
 A The Best of Intentions |QID|12263|
-C The Best of Intentions |N|Go to the very back of the cave, and do not attack anything while you have the disguise on or it will fall off.  Once you are at the back of the cave this will complete.| |QID|12263|
-T The Best of Intentions |N|Go back to Serinar.| |QID|12263|
+C The Best of Intentions |QID|12263| |N|Take the path north, then work your way across the lava bridges to the magmawyrm resurrection chamber (31.74, 30.46)|
+T The Best of Intentions |QID|12263|
 A Culling the Damned |QID|12264|
 A Defiling the Defilers |QID|12265|
-C Culling the Damned |N|Go back towards the back of the cave and kill the mobs here.| |QID|12264|
-C Defiling the Defilers |N|Destroy the Necromatic Runes.| |QID|12265|
-T Defiling the Defilers |N|Then go back to Serinar.| |QID|12265|
+C Defiling the Defilers |QID|12265| |N|Head back into the cave, destroy the rune circles on the ground.|
+C Culling the Damned |QID|12264|
 T Culling the Damned |QID|12264|
-A Netharion's Flame |QID|12267|
-C Netharion's Flame |N|Go to the very back of the cave again and use Neltharion's Flae when you are next to Rothin the Decaying to cleanse the area and then kill Rothin.| |QID|12267|
-T Netharion's Flame |B|Go back to Serinar again.| |QID|12267|
+T Defiling the Defilers |QID|12265|
+A Neltharion's Flame |QID|12267|
+C Neltharion's Flame |QID|12267| |N|Head back to the magmawyrm resurrection chamber (31.66, 31.13), use the flame, kill Rothin.| |U|37539|
+T Neltharion's Flame |QID|12267|
 A Tales of Destruction |QID|12266|
 
-R Nozzlerest Post |N|Run due east to Nozzlerest Post at (55,23)|
-T Return to Sender |QID|12469|
+T Return to Sender |QID|12469| |N|East at Nozzlerust Post (54.95, 23.46)|
 A Stocking Up |QID|12044|
 A Shaved Ice |QID|12045|
 A Nozzlerust Defense |QID|12043|
 
-C Shaved Ice |N|Go north to (51,17) Kill the Crystalline Ice Elementals and collect 4 Ice Shard Clusters.| |QID|12045|
+C Stocking Up |QID|12044| |N|Gather ore at the various frostwyrm digs (56,28) (52,31)|
+C Nozzlerust Defense |QID|12043|
 
-T Shaved Ice |N|Run back to Nozzlerest Post at (55,23)| |QID|12045|
+T Nozzlerust Defense |QID|12043| |N|Back at Nozzlerust Post (54.55, 23.86)|
+T Stocking Up |QID|12044|
+
+C Shaved Ice |QID|12045| |N|North, on the other side of the chasm|
+T Shaved Ice |QID|12045| |N|Back at Nozzlerust Post (54.68, 23.32)|
 A Soft Packaging |QID|12046|
+C Soft Packaging |QID|12046| |N|Kill jormungar tunnelers and condors around the dragon bones.|
+C Pest Control |QID|12144| |N|Kill magnataur and snobolds at any of their camps nearby (55,40) (70,31) (65,50) (64,43)|
 
-C Soft Packaging |N|Go southwest to (52,25) Kill the Tunnellers and collect thin hides.| |QID|12046|
-
-T Soft Packaging |N|Run back to Nozzlerest Post at (55,23)| |QID|12046|
+T Soft Packaging |QID|12046| |N|Back at Nozzlerust Post (54.69, 23.37)|
 A Something That Doesn't Melt |QID|12047|
 A Hard to Swallow |QID|12049|
+C Hard to Swallow |QID|12049| |N|How does one solo an elite?  By blowing it up from the inside!| |U|36732|
 
-C Nozzlerust Defense |N|Go south now to (59,31) Kill the Wastes Taskmaster and Diggers here.| |QID|12043|
-C Stocking Up |N|Also collect the ore in the dig site here.| |QID|12044|
+T Pest Control |QID|12144| |N|Back at Dragon's Fall (46.75, 33.42)|
+A Canyon Chase |QID|12145|
+C Canyon Chase |QID|12145| |N|Follow the snobolds down the canyon to Icefist (43,41)|
+A Disturbing Implications |QID|12147| |U|36856| |N|From the horn Icefist dropped|
+T Canyon Chase |QID|12145| |N|Back at Dragon's Fall (46.75, 33.42)|
 
-C Something That Doesn't Melt |N|Go to the large piles of bones east of Nozzlerest around (60,27) Loot the bones here.| |QID|12047|
-C Hard to Swallow |N|Find a Hulking Jormunger and start fighting it, then use the Potent Explosive Charge to blow it up.  Then collect the seared meat.| |QID|12049|
+C Something That Doesn't Melt |QID|12047| |N|Find bone fragments around the dragon bones (59.73, 26.62) (53.27, 25.22) (51.47, 26.21)|
 
-T Something That Doesn't Melt |N|Run back to Nozzlerest at (55,23)|12047|
+T Something That Doesn't Melt |QID|12047| |N|Back at Nozzlerust Post (54.66, 23.34)|
 T Hard to Swallow |QID|12049|
-T Stocking Up |QID|12044|
 A Lumber Hack |QID|12050|
-T Nozzlerust Defense |QID|12043|
 A Harp on This! |QID|12052|
-
-C Harp on This! |N|Go to (45,12) Use Xink's Shredder Control Device and summon the shredder then use it to kill the Harpy's and the Mistress of Coldwind.| |QID|12052|
-C Lumber Hack |N|Use the Shredder to collect wood from the marked trees.| |QID|12050|
-
-T Lumber Hack |N|Run back to Nozzlerust Post at (55,24)| |QID|12050|
-T Harp on This! |QID|12052|
+C Harp on This! |QID|12052| |U|36734| |N|Just north at Coldwind Heights (52.90, 19.75).  Use the shredder control, then head northwest and kill the Mistress of the Coldwind (45.35, 11.58)|
+C Lumber Hack |QID|12050| |U|36734| |N|Marked trees all over the area, choppey choppey!|
+T Harp on This! |QID|12052| |N|Back at Nozzlerust Post (54.49, 23.56)|
+T Lumber Hack |QID|12050|
 A Stiff Negotiations |QID|12112|
 
-T Stiff Negotiations |N|Run into the valley northeast to Zort at (59,18)| |QID|12112|
+T Stiff Negotiations |QID|12112| |N|To the northeast in the Crystal Vice (59.39, 18.11)|
 A Slim Pickings |QID|12075|
-
-C Slim Pickings |N|Follow the valley north to (56,12) Collect the sample of flesh from the Ice Giant at the cave entrance here.| |QID|12075|
-
-T Slim Pickings |N|Run back to Zort at (59,18)| |QID|12075|
+C Slim Pickings |QID|12075| |N|Due north, just inside the Ice Heart Cavern (56.13, 12.00)|
+T Slim Pickings |QID|12075| |N|Back at the Crystal Vice (59.44, 18.13)|
 A Messy Business |QID|12076|
 A Stomping Grounds |QID|12079|
-
-C Messy Business |N|Go back to the cave at (56,12) Fight the Jormungar Feeders, when they use their corrosive spit use Zort's Scraper to collect it.| |QID|12076|
-C Stomping Grounds |N|Continue to kill the Feeders in the cave and outside the cave.| |QID|12079|
-
-T Messy Business |N|Then head back to Zort again at (59,18)| |QID|12076|
+C Messy Business |QID|12076| |N|Kill jormungar feeders at the cave or all over the ravine.  Use the scraper when you're spit on (eeeeeeew).| |U|36775|
+C Stomping Grounds |QID|12079|
+T Messy Business |QID|12076| |N|Back at the Crystal Vice (59.38, 18.10)|
 A Apply This Twice A Day |QID|12077|
-T Stomping Grounds |QID|12079|
 T Apply This Twice A Day |QID|12077|
-A Really Big Worm |N|Try and get a group to do it now. The Worm is deep inside the cave.| |QID|12080|
+T Stomping Grounds |QID|12079|
 A Worm Wrangler |QID|12078|
-
-C Worm Wrangler |N|Run back to the cave at (56,12) Use the crate to capture Jormungar spawns.| |QID|12078|
-
-T Worm Wrangler |N|Run back to Zort one last time at (59,18)| |QID|12078|
-T Really Big Worm |QID|12080|
+C Worm Wrangler |QID|12078| |N|Back up at the cave, head down until you find jormungar spawn.  Use the crates on em and loot em.| |U|36771|
+T Worm Wrangler |QID|12078| |N|Back at the Crystal Vice (59.38, 18.10)|
 
 H Wyrmrest Temple
-
-C Pest Control |N|Run east of the Temple to (65,50) Kill the Magnataur and Snobold here.| |QID|12142|
 
 C In Service of Frost |N|Go to the lake called Mirror of the Dawn at (67,56) Fight the Ice Revenant, once below 35% use the frost gem on it.| |QID|12127|
 
@@ -350,7 +319,7 @@ A Materiel Plunder |QID|12209|
 f Get the Flight Path
 A Blighted Last Rites |QID|12206|
 A Beachfront Property |QID|12304|
-A Wanted: The Scarlet Onslaught |N|Click on the Wanted Poster.| |QID|12205|
+A Wanted: The Scarlet Onslaught |QID|12205| |N|Dragonblight, Venomspite (77.05, 62.87)|
 T Imbeciles Abound! |QID|12189|
 A The Forsaken Blight and You: How Not to Die |QID|12188|
 
@@ -384,10 +353,10 @@ T Fresh Remounts |N|Once you run back to Venomspite and turn in the last horse.|
 T No Mercy for the Captured |12245|
 A Torture the Torturer |QID|12252|
 
-C Torture the Torturer |N|Go back to the Scarlet Onslaught area inside the building and into the basement at (70,72) Engage Torturer LeCraft and use the branding iron on him 5 times, then kill him.| |QID|12252|
-A The Rod of Compulsion |N|Loot the Torturer's Rod from him and click it to accept this.| |QID|12271|
+C Torture the Torturer |QID|12252| |N|Go back to the Scarlet Onslaught area inside the building and into the basement at (70,72) Engage Torturer LeCraft and use the branding iron on him 5 times, then kill him.|
+A The Rod of Compulsion |QID|12271| |U|37432| |N|From the rod he dropped.|
 
-T The Rod of Compulsion |N|Run back to Venomspite again at (76,63)| |QID|12271|
+T The Rod of Compulsion |QID|12271| |N|Dragonblight, Venomspite (76.79, 63.18)|
 A The Denouncement |QID|12273|
 T Torture the Torturer |QID|12252|
 
@@ -475,43 +444,28 @@ T The Transplanted Tome |QID|12136|
 T Forsaken Blight |QID|12221|
 A The Kor'kron Vanguard |QID|12224|
 
-T Pest Control |N|Run north to the small camp at (47,33)| |QID|12144|
-A Canyon Chase |QID|12145|
-
-C Canyon Chase |N|Chase the Snobold down the canyon, but do not fight them.  They will lead you to (43,41) Kill Icefist here.| |QID|12145|
-A Disturbing Implications |N|Icefist will drop an Emblazoned Battle Horn, click it and accept this.| |QID|12147|
-
-T Canyon Chase |N|Run back north to the small camp at (47,33)| |QID|12145|
-
 T The Kor'kron Vanguard |N|Run north to the Kor'kron Vanguard at (41,18)| |QID|12224|
 A Audience with the Dragon Queen |QID|12495|
-f Go to the flight master at 43.8,17.0 and get the flight path.
 
 F Wyrmrest Temple
-T Disturbing Implications |QID|12147|
-A One of a Kind |QID|12148|
-T Audience with the Dragon Queen |N|Take a drake to the top of the temple.| |QID|12495|
-A Galakrond and the Scourge |QID|12497|
-T Galakrond and the Scourge |QID|12497|
-A On Ruby Wings |QID|12498|
-C On Ruby Wings |N|Use the Ruby Beacon to summon a drake to fight on.  Hop on it and head north to Galakrond's Bones. Use the drake to fly south to (50,60) Dismount and kill Bonesunder and loot the emblazoned horn.| |QID|12148|
+T Disturbing Implications |QID|12147| |N|Skip the followup if you don't have help.|
+T Audience With The Dragon Queen |QID|12495| |T|
+A Galakrond and the Scourge |QID|12497| |T|
+T Galakrond and the Scourge |QID|12497| |T|
+A On Ruby Wings |QID|12498| |T|
+C On Ruby Wings |QID|12498| |U|38302| |N|Use the beacon, fly up to Galakrond's Rest (55,35), keel shit.  After you've killed scourge, kill Grand Necrolord Antiok atop the Wicked Coil (54.15, 30.57).|
+T On Ruby Wings |QID|12498| |T| |N|Back at Wyrmrest Temple (59.88, 54.60)|
+A Return To Angrathar |QID|12500| |T|
 
-C On Ruby Wings |N|Use the Drake again and fly north to Galakrond's Bones at (54,34) Use the dragon's ranged attacks to kill 30 of the ghouls. When you get low on mana or hitpoints swoop down and devour one of the live ghouls to heal to full health and mana. Then go to the mountain at 54,31 and kill Thiassi the Lightning Bringer, when he is dead Grand Necrolord Antiok will spawn.  Kill him and collect his Scythe. NOTE: If someone just completed this then you can collect the scythe without fighting anything!| |QID|12498|
-
-T One of a Kind |N|Use the drake to fly back to Wyrmrest Temple. Talk to Aurastrazsa and turn in One of a Kind but DO NOT turn in the other quest, we will use the drake to ride around a bit!| |QID|12148|
-A Mighty Magnataur |QID|12149|
-
-C Mighty Magnataur |N|Mount the drake again and fly to (67,50) Dismount and kill the 3 named mobs for Mighty Magnataur at: Iceshatter: (67,50) Bloodfeast: (66,70) Drakegore: (68,42)| |QID|12149|
-
-T Mighty Magnataur |N|Mount and fly back to Wyrmrest Temple at (60,55)| |QID|12149|
-A Reclusive Runemaster |QID|12150|
-C Reclusive Runemaster |N|You will need a group for the next two steps.  Try and get two other people and you can handle these easily.  Reclusive Runemaster is done by fighting Dregmar Runebrand at (72,50)  Then the next quest is Wanton Warlord and he is at the ring at (57,76)| |QID|12150|
-T On Ruby Wings |N|Take a drake up top.| |QID|12498|
-A Return to Angrathar |QID|12500|
-
-F Kor'kron Vanguard
-T Return to Angrathar |QID|12500|
-
+T Return to Angrathar |QID|12500| |T| |N|Fly to Kor'kron Vanguard of course (40.77, 18.04).|
+A Darkness Stirs |QID|13242| |N|Down in front of Angrathar the Wrath Gate (38.39, 19.27)|
+C Darkness Stirs |QID|13242| |N|Find Saurfang's armor nearby (38.09, 18.70)|
+T Darkness Stirs |QID|13242| |N|Head to Warsong Hold in Borean Tundra (41.40, 53.73)| |Z|Borean Tundra|
+A Herald of War |QID|13257|
+T Herald of War |QID|13257| |N|To Orgrimmar, talk to Thrall|
+A A Life Without Regret |QID|13266|
+T A Life Without Regret |QID|13266|
+A The Battle For The Undercity |QID|13267|
+T The Battle For The Undercity |QID|13267|
 ]]
 end)
-
