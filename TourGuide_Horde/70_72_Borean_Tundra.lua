@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Borean Tundra (70-72)", nil, "Horde", function()
+TourGuide:RegisterGuide("Borean Tundra (70-72)", "Dragonblight (72-73)", "Horde", function()
 return [[
 A Hellscream's Vigil |QID|11585| |T|
 T Hellscream's Vigil |QID|11585| |T|
@@ -22,7 +22,7 @@ A Untold Truths |QID|11614| |T|
 
 N North Sinkhole |Q|Bury Those Cockroaches!| |QO|North Nerub'ar Sinkhole Destroyed: 1/1| |N|Northern Mightstone Quarry (41.78, 50.73)| |U|34710|
 T Untold Truths |QID|11614|
-A Nerub'ar Secrets |QID|11615| 
+A Nerub'ar Secrets |QID|11615|
 C Bury Those Cockroaches! |QID|11608| |U|34710| |N|Destroy the other sinkholes: West (39.46, 52.84), South  (41.82, 58.83), East (44.08, 57.28)|
 C Cutting Off the Source |QID|11602|
 

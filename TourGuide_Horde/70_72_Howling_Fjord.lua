@@ -1,6 +1,6 @@
-TourGuide:RegisterGuide("Howling Fjord (71-72)", "Dragonblight (72-74)", "Horde", function()
-    return [[
 
+TourGuide:RegisterGuide("Howling Fjord (70-72)", "Dragonblight (72-73)", "Horde", function()
+return [[
 R Howling Fjord |N|Go to Undercity and ride the Zeppelin to Vengeance Landing in Howling Fjord.|
 A The New Plague |QID|11167|
 f Get the Flight Path
@@ -136,7 +136,7 @@ A Skorn Must Fall! |QID|11256|
 C Spawn of the Twisted Glade |N|Run to the Twisted Glade at (55,16) Kill the Thornvine Creepers.| |QID|11316|
 C Seeds of the Blacksouled Keepers |N|Kill the Spores and then use the Enchanted Ice Core on the corpse.| |QID|11319|
 
-T Skorn Must Fall! |N|Run further west to Skorn at (47,29) Use the Winterhoof Emblem and then summon the brave.| 
+T Skorn Must Fall! |N|Run further west to Skorn at (47,29) Use the Winterhoof Emblem and then summon the brave.|
 A Gruesome, But Necessary |QID|11246|
 A Burn Skorn, Burn! |QID|11258|
 A Towers of Certain Doom |QID|11259|
@@ -436,6 +436,5 @@ F Taunka'le Village
 A Across Tansborea |QID|11930|
 
 C Across Tansborea |N|Escort the Refugee, follow the road straight east into Dragonblight.| |QID|11930|
-
 ]]
 end)

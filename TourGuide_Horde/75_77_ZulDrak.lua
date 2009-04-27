@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Zul'Drak (76-78)", "Sholazar Basin (78-79)", "Horde", function()
+TourGuide:RegisterGuide("Zul'Drak (75-77)", "Sholazar Basin (77-78)", "Horde", function()
 return [[
 A Shifting Priorities |QID|12763| |N|At Camp Oneqwah in Grizzly Hills (65.11, 47.61)| |Z|Grizzly Hills|
 T Shifting Priorities |QID|12763| |N|Talk to the flightmaster for a flight to Light's Breach (32.05, 74.46)|

@@ -1,6 +1,6 @@
-TourGuide:RegisterGuide("Grizzly Hills (74-76)", "Zul'Drak (76-78)", "Horde", function()
-    return [[
 
+TourGuide:RegisterGuide("Grizzly Hills (73-75)", "Zul'Drak (75-77)", "Horde", function()
+return [[
 F Apothecary Camp |N|The one in Howling Fjord.|
 
 R Grizzly Hills |N|Follow the road north into the Grizzly Hills.|
@@ -176,7 +176,7 @@ T Onward to Camp Oneqwah |QID|12451|
 A Shifting Priorities |QID|12763|
 A The Horse Hollerer |QID|12415|
 A The Unexpected “Guest” |QID|12195|
-f Get the flight path. 
+f Get the flight path.
 
 C Deciphering the Journal |N|Run south the Furbolg camp at (66,59) Find and kill Grumbald One-Eye and loot the Spiritsbreath from him.| |QID|12054|
 

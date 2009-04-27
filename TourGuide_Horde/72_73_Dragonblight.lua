@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("Dragonblight (72-74)", "Grizzly Hills (74-76)", "Horde", function()
+TourGuide:RegisterGuide("Dragonblight (72-73)", "Grizzly Hills (73-75)", "Horde", function()
 return [[
 C Across Transborea |QID|11930| |O|
 T Across Transborea |QID|11930| |T| |O|

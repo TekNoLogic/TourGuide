@@ -1,9 +1,9 @@
-TourGuide:RegisterGuide("Icecrown (79-80)", nil, "Horde", function()
-    return [[
 
+TourGuide:RegisterGuide("Icecrown (78-80)", nil, "Horde", function()
+return [[
 R Dalaran |Z|Dalaran| |N|Go to Dalaran at Krasus' Landing at (69,41)|
 A Preparations for War |QID|13419|
-N Talk to him again and he will transport you to Orgrim's Hammer. 
+N Talk to him again and he will transport you to Orgrim's Hammer.
 T Preparations for War |QID|13419|
 A It's All Fun and Games |QID|12887|
 A Judgment Day Comes! |QID|13226|
@@ -122,6 +122,5 @@ T Banshee's Revenge |N|Return to The Bone Witch at (32,42)| |QID|13142|
 A Battle at Valhalas |QID|13213|
 
 T Battle at Valhalas |N|Go to (30,29)| |QID|13213|
-
 ]]
 end)
