@@ -1,3 +1,7 @@
+3.1.0.51-Beta
+    Fix use item button
+    Force status frame resize on ADDON_LOADED in case of font changes
+
 3.1.0.50-Beta
     3.1 compatibility
     - Use new API to find what item to use for current quest
