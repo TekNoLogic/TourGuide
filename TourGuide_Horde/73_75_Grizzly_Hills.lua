@@ -1,12 +1,7 @@
 
 TourGuide:RegisterGuide("Grizzly Hills (73-75)", "Zul'Drak (75-77)", "Horde", function()
 return [[
-F Apothecary Camp |N|The one in Howling Fjord.|
-
-R Grizzly Hills |N|Follow the road north into the Grizzly Hills.|
-
-R Conquest Hold |N|Follow the road north then straight west to Conquest Hold at (22,65)|
-T To Conquest Hold, But Be Careful! |QID|12487| |N|Grizzly Hills, Conquest Hold (20.74, 64.28)|
+T To Conquest Hold, But Be Careful! |QID|12487| |N|Fly to Venomspite, then follow the road east to Conquest Hold (20.74, 64.28)|
 A The Conqueror's Task |QID|12468| |N|Grizzly Hills, Conquest Hold (20.74, 64.28)|
 T The Conqueror's Task |QID|12468| |N|Grizzly Hills, Conquest Hold (20.95, 64.12)|
 A A Show of Strength |QID|12257| |N|Grizzly Hills, Conquest Hold (20.95, 64.12)|
@@ -14,11 +9,11 @@ A The Flamebinders' Secrets |QID|12256| |N|Grizzly Hills, Conquest Hold (20.95, 
 A Gray Worg Hides |QID|12175| |N|Grizzly Hills, Conquest Hold (21.97, 65.11)|
 A Supplemental Income |QID|12436| |N|Grizzly Hills, Conquest Hold (22.62, 66.10)|
 
-C Supplemental Income |N|Run south out of Conquest Hold to (22,72) Kill the Tallhorn Stags for their venison.| |QID|12436|
-C Gray Worg Hides |N|Kill the Grayhide Worgs for their hides.| |QID|12175|
+C The Flamebinders' Secrets |QID|12256| |N|Southeast at Voldrune (29,75)|
+C A Show of Strength |QID|12257|
 
-C The Flamebinders' Secrets |N|Go to Voldrun at (30,76) Kill the Flamebinders here and collect 3 Talismans.| |QID|12256|
-C A Show of Strength |N|Kill 12 Huscarls.| |QID|12257|
+C Gray Worg Hides |QID|12175| |N|Find worgs south of the hold.|
+C Supplemental Income |QID|12436|
 
 T Supplemental Income |QID|12436| |N|Back at Conquest Hold (22.61, 66.11)|
 T Gray Worg Hides |QID|12175|
@@ -27,22 +22,21 @@ T A Show of Strength |QID|12257|
 T The Flamebinders' Secrets |QID|12256|
 A The Thane of Voldrune |QID|12259|
 
-C A Minor Substitution |N|Go just east of Voldrune then work your way north along the mountains to (40,64) Kill the Grizzly Bears and collect 6 pelts.| |QID|12176|
-
-C The Thane of Voldrune |N|Go back into Voldrune to Flamebringer at (27,78) Take control of Flamebringer and go to the tower at (27,73) and kill Thane Torvald Eriksson.| |QID|12259|
+C The Thane of Voldrune |QID|12259| |N|Head back to Voldrune, hop on the proto-drake (27,78), kill Thane Torvald Eriksson on top of the nearby tower (27.0, 73.0).|
+C A Minor Substitution |QID|12176| |N|You can find bears east near the mountains, or north along the river.|
 
 T A Minor Substitution |QID|12176| |N|Back at Conquest Hold (21.97, 65.18)|
 A Jun'ik's Coverup |QID|12177|
 T The Thane of Voldrune |QID|12259|
 A Onward to Camp Oneqwah |QID|12451|
 A My Enemy's Friend |QID|12412|
-C Jun'ik's Coverup |N|Go to Provisioner Lorkran and buy 5 Simple Flour.  Then go to Smith Prigka and buy 1 coal to complete Jun'iks Coverup.| |QID|12177|
+C Jun'ik's Coverup |QID|12177| |N|You can buy flour from Provisioner Lorkran (22.64, 66.06) and coal from Smith Prigka (23.40, 63.13).|
 T Jun'ik's Coverup |QID|12177|
 A Delivery to Krenna |QID|12178|
 T Delivery to Krenna |QID|12178|
 
-C My Enemy's Friend |N|Run back east to the Silverbrook Hunter Camp at (36,68) Kill the Silverbrook Hunters and Vladek here.| |QID|12412|
-A Mikhail's Journal |N|Vladek will drop Mikhail's Journal, click it and accept this.| |QID|12423|
+C My Enemy's Friend |QID|12412| |N|East at Forest's Edge Post (36.19, 67.78)|
+A Mikhail's Journal |QID|12423| |U|12423| |N|From the journal Vladek dropped.|
 
 T Mikhail's Journal |QID|12423| |N|Back at Conquest Hold (20.76, 64.20)|
 A Gorgonna |QID|12424|
@@ -88,14 +82,33 @@ T Shimmercap Stew |QID|12483| |N|Back at Granite Springs (15.69, 46.73)|
 A Say Hello to My Little Friend |QID|12190|
 T Seared Scourge |QID|12029|
 
-T Heart of the Ancients |QID|12042| |N|East at Blue Sky Logging Grounds.  On the north side of the lake, find the platform, the Heart is up top in the cabin (36.97, 32.40).  You will get PvP flagged doing this quest!|
+T Attack on Silverbrook |QID|12413| |N|Back at Conquest Hold (20.77, 64.20)|
+A Ruuna the Blind |QID|12425|
+A Vordrassil's Fall |QID|12207|
+A The Darkness Beneath |QID|12213|
+
+C Eyes Above |QID|12453| |U|37877| |N|Use the Silver Feather on the eagles.|
+
+C The Darkness Beneath |QID|12213| |U|37173| |N|Visit Vordrassil's Tears (28.60, 45.06), Vordrassil's Limb (33.23, 48.30) and Vordrassil's Heart (40.77, 52.12).  Head down to the bottom of each and use the Geomancer's Orb.|
+C Vordrassil's Fall |QID|12207| |N|Kill slimes if you still need these.|
+
+T Heart of the Ancients |QID|12042| |N|North at Blue Sky Logging Grounds.  On the north side of the lake, find the platform, the Heart is up top in the cabin (36.97, 32.40).  You will get PvP flagged doing this quest!|
 A My Heart is in Your Hands |QID|12802|
 T My Heart is in Your Hands |QID|12802| |N|Due east at the Drak'atal Passage (45.03, 28.33).  You'll have to kill trolls for 5 mojo, of course.|
 A Voices From the Dust |QID|12068|
 
-A Find Kurun! |N|Run east to Thor Modan at (64,23) Talk to Fallen Earth Warden.| |QID|11981|
+T Onward to Camp Oneqwah |QID|12451| |N|Follow the road southeast to Camp Oneqwah (65.10, 47.71)|
+A An Expedient Ally |QID|12074|
+A The Unexpected 'Guest' |QID|12195|
+A The Horse Hollerer |QID|12415|
 
-T Find Kurun! |QID|11981| |N|Above Thor Modan at Boulder Hills (65.62, 17.84).  You'll have to backtrack a little till you find the road that heads northeast.|
+T Vordrassil's Fall |QID|12207| |N|Back at Conquest Hold (22.49, 63.03)|
+T The Darkness Beneath |QID|12213|
+A A Possible Link |QID|12229|
+A The Bear God's Offspring |QID|12231|
+T Eyes Above |QID|12453|
+
+T An Expedient Ally |QID|12074| |N|North at Boulder Hills (65.65, 17.83)|
 A Raining Down Destruction |QID|11982|
 C Raining Down Destruction |QID|11982| |N|Find boulders nearby, throw them down at the iron dorfs.  It's easiest to aim for the stationary ones.| |U|35734|
 T Raining Down Destruction |QID|11982| |N|Back up on the hill (65.56, 17.81)|
@@ -104,50 +117,68 @@ C Rallying the Troops |QID|12070| |N|North of the crack.  Use the shard on one o
 T Rallying the Troops |QID|12070| |N|Back up on the hill (65.64, 17.68)|
 A Into the Breach |QID|11985|
 
-A The Damaged Journal |QID|12026| |N|Jump off the ledge down to the book at (64,20)  Click it and accept this.|
-C The Damaged Journal |QID|12026| |N|Go around the camp and collect 8 pages, then reconstruct the journal by clicking on one of them.|
+A The Damaged Journal |QID|12026| |N|Down below at Thor Modan (64.24, 19.82)|
+C The Damaged Journal |QID|12026| |U|39739| |N|Gather 8 pages, then use the journal to combine them.|
 
-T The Damaged Journal |QID|12026| |N|Take the road south to Camp Oneqwah (65,48)|
+T The Damaged Journal |QID|12026| |N|Back at Camp Oneqwah (65.25, 47.71)|
 A Deciphering the Journal |QID|12054|
-T Onward to Camp Oneqwah |QID|12451|
-A The Horse Hollerer |QID|12415|
-A The Unexpected 'Guest' |QID|12195|
+T The Horse Hollerer |QID|12415|
 
-C Deciphering the Journal |N|Run south the Furbolg camp at (66,59) Find and kill Grumbald One-Eye and loot the Spiritsbreath from him.| |QID|12054|
+C The Unexpected 'Guest' |QID|12195| |N|Kill stags just outside of camp.|
+C Deciphering the Journal |QID|12054| |N|Kill Grumbald One-Eye to the south in Heart's Blood Shrine (66.44, 58.72)|
+C The Bear God's Offspring |QID|12231| |N|Talk to Kodian in the cave at Heart's Blood Shrine (66.87, 62.58) and Orsonn in the cave at Rage Fang Shrine (48.06, 58.76)|
+C A Possible Link |QID|12229| |N|Kill more furblogs if you still need blood.|
 
-C The Unexpected 'Guest' |N|Run back north to (69,54) Kill the Silverhorn Stag in the area until you collect 5 mature stag horns.| |QID|12195|
+T Ruuna the Blind |QID|12425| |N|South at Ruuna's Camp (44.02, 48.01)|
+A Ruuna's Request |QID|12328|
+C Ruuna's Request |QID|12328| |N|North of Vordrassil, east of the road.|
+T Ruuna's Request |QID|12328| |N|Back at Ruuna's Camp (44.11, 47.98)|
+A Out of Body Experience |QID|12327|
+C Out of Body Experience |QID|12327| |U|37661| |N|Use the potion she gave you.|
+T Out of Body Experience |QID|12327|
+A Fate and Coincidence |QID|12329|
+T Fate and Coincidence |QID|12329| |N|East, on the other side of Grizzlemaw, at the White Pine Trading Post (57.54, 41.22)|
+A Sasha's Hunt |QID|12134|
+A Anatoly Will Talk |QID|12330|
+C Sasha's Hunt |QID|12134|
+C Anatoly Will Talk |QID|12330| |U|37665| |N|You'll find Tatjana on the upper level of the town (62.60, 41.73), on her horse.  Use the tranq dart on her, then hop on the horse.|
+T Sasha's Hunt |QID|12134|
+T Anatoly Will Talk |QID|12330|
+A A Sister's Pledge |QID|12411|
+C The Horse Hollerer |QID|12415| |U|37716| |N|Just to the north (59.48, 20.14), use the flashbang to scare the Highland Mustangs.|
+T A Sister's Pledge |QID|12411| |N|On the other side of the town at the Duskhowl Den (64.85, 43.42)|
+A Hour of the Worg |QID|12164| |N|This is a group quest, but you might as well grab it before the NPC leaves.|
 
-T Deciphering the Journal |N|Run back north to Camp Oneqwah at (65,48)| |QID|12054|
-A Pounding the Iron |QID|12073|
+A A Bear of an Appetite |QID|12279| |N|Just to the northeast at Redwood Trading Post (69.05, 40.09)|
+
+T Deciphering the Journal |QID|12054| |N|Back at Camp Oneqwah (65.16, 47.81)|
 A The Runic Prophecies |QID|12058|
+A Pounding the Iron |QID|12073|
 T The Unexpected 'Guest' |QID|12195|
 A An Intriguing Plan |QID|12165|
 
-C The Horse Hollerer |N|Go north to (62,32) Use the flashbang to scare the Highland Mustangs.| |QID|12415|
+T A Possible Link |QID|12229| |N|Back at Conquest Hold (22.50, 62.94)|
+T The Bear God's Offspring |QID|12231|
+A Destroy the Sapling |QID|12241|
+A Vordrassil's Seeds |QID|12242|
 
-C Pounding the Iron |N|Continue northeast to the Iron Dwarf area at (65,19) Go inside the building here and kill all the Iron Dwarves you see.| |QID|12073|
-C The Runic Prophecies |N|Work your way to the very back of the building along the way click on each of the prophecies on the doorways.| |QID|12058|
-C Into the Breach |N|At the very back you will find Iron Thane Argum kill him.| |QID|11985|
+C Destroy the Sapling |QID|12241| |U|37306| |N|East at Grizzlemaw (50.51, 45.79), jump down into the center.  Use the Verdant Torch on the sapling.|
+C Vordrassil's Seeds |QID|12242| |N|Inside Vordrassil's side rooms, or outside around the edge of the trunk.  North side of the tree seems like a great area.|
+
+C The Runic Prophecies |QID|12058| |N|North east inside Thor Modan.  Read each of the runic plates.  Third (68.51, 16.20), first (68.99, 14.45), second (70.18, 14.67)|
+C Into the Breach |QID|11985| |N|Kill Iron Thane Argrum at the east end of Thor Modan (70.48, 12.95)|
+C Pounding the Iron |QID|12073|
 
 T Into the Breach |QID|11985| |N|Back up above Thor Modan (65.57, 17.68)|
 A Gavrock |QID|12081|
 
-T Pounding the Iron |QID|12073|
-T The Runic Prophecies |QID|12058|
-T The Horse Hollerer |QID|12415|
-A In the Name of Loken |QID|12204|
-
-A A Bear of an Appetite |N|Go to the Redwood Trading Post at (69,40) Talk to Hugh Glass.| |QID|12279|
-N In the Name of Loken |N|Head east to Redwood Trading Post at (69,40) Talk to Hugh Glass and go through his dialogue for In the Name of Loken.|
-
-T Say Hello to My Little Friend |QID|12190| |N|Northeast of the trading post at Harkor's Camp (73.75, 34.10).  Watch out for elites!|
+T Say Hello to My Little Friend |QID|12190| |N|Take the road south to Harkor's Camp (73.71, 34.07).  Watch out for the elite giants.|
 A Nice to Meat You |QID|12113|
 A Therapy |QID|12114|
 A It Takes Guts.... |QID|12116|
 
 T Gavrock |QID|12081| |N|Head east onto the islands at the Ruins of Tethys (79.75, 33.64)|
 A Runes of Compulsion |QID|12093|
-C In the Name of Loken |N|Listen to his story.| |QID|12204|
 C A Bear of an Appetite |QID|12279| |N|Use the fishing net on the schools of fish all around the Ruins of Tethys.| |U|37542|
 
 C Runes of Compulsion |QID|12093| |N|Back on shore, kill the iron dorfs at each of the rune-disc-things, then kill the overseer that spawns.  Brunon (79.16, 43.29), Lochli (74.98, 36.85), Korgan (72.02, 34.34), Durval (67.74, 29.22)|
@@ -163,7 +194,17 @@ T Runes of Compulsion |QID|12093| |N|Back out in the Ruins of Tethys (79.77, 33.
 A Latent Power |QID|12094|
 
 C Latent Power |QID|12094| |U|36787| |N|Use the shard at each of the ancient stones.  One is near the shore (78.81, 39.88), the other two are up on the hill near treeline (74.14, 44.18) (71.16, 39.71).|
-T A Bear of an Appetite |QID|12279| |N|Back at Redwood Trading Post (69.06, 40.03)|
+
+T The Runic Prophecies |QID|12058| |N|Back at Camp Oneqwah (65.19, 47.85)|
+T Pounding the Iron |QID|12073|
+A In the Name of Loken |QID|12204|
+
+T Destroy the Sapling |QID|12241| |N|Back at Conquest Hold (22.48, 62.99)|
+T Vordrassil's Seeds |QID|12242|
+
+T A Bear of an Appetite |QID|12279| |N|Back at Redwood Trading Post (69.02, 40.15)|
+N Talk to him |Q|In the Name of Loken| |QO|Hugh Glass Questioned: 1/1| |N|Talk to him for "In the Name of Loken"|
+
 C Drak'aguul's Mallet |QID|12120| |N|Kill Drak'aguul, he patrols south of the ruins (72.77, 30.08)|
 
 T Drak'aguul's Mallet |QID|12120| |N|Back at Harkor's Camp (73.88, 34.03)|
@@ -194,104 +235,40 @@ T Nice to Meat You |QID|12113|
 T Jin'arrak's End |QID|12152|
 
 T Free at Last |QID|12099| |N|Back out in the Ruins of Tethys (79.76, 33.63)|
+C In the Name of Loken |QID|12204| |N|Talky talky!|
 
-H Conquest Hold
-T Attack on Silverbrook |QID|12413|
-A Ruuna the Blind |QID|12425|
-A Vordrassil's Fall |QID|12207|
-A The Darkness Beneath |QID|12213|
+C An Intriguing Plan |QID|12165| |U|36849| |N|South at Dun Argol (76,58).  Kill rune-smiths for blueprints.  Once you have all three chapters, use one to combine them.|
 
-C Eyes Above |N|Run northeast to (37,61) Use the Silver Feather on the Imperial Eagles.| |U|37877| |QID|12453|
-
-C Vordrassil's Fall |N|Go further northeast to Vordrassil's Heart at (40,52) Kill the Slimes and collect slime samples from them.| |QID|12207|
-N The Darkness Beneath |N|Go to the bottom of the cave (40,52) and use the Geomancer's Orb here for The Darkness Beneath. Then Run west to Vordrassil's Limb at (33,48) and use it there too. Lastly go west to Vordrassil's Tears at (28,45)| |QID|12213|
-
-T Vordrassil's Fall |N|Run back south to Conquest Hold at (22,63)| |QID|12207|
-T Eyes Above |QID|12453|
-A The Darkness Beneath |QID|12213|
-A A Possible Link |QID|12229|
-A The Bear God's Offspring |QID|12231|
-
-C An Intriguing Plan |N|Go to the far south to Dun Argol at (76,58) Kill the Rune Smiths scattered through the camp here until you have collected the Golem Blueprint Section 1,2 and 3.  Click them to combine them.| |QID|12165|
-
-T An Intriguing Plan |N|Run back north to Camp Oneqwah at (65,47)| |QID|12165|
+T An Intriguing Plan |QID|12165| |N|Back at Camp Oneqwah (65.15, 47.34)|
 A From the Ground Up |QID|12196|
 T In the Name of Loken |QID|12204|
 A The Overseer's Shadow |QID|12201|
 
-C The Overseer's Shadow |N|Go back to the far south to Dun Argol at (76,58) Kill the first Overseer you see and collect his uniform.| |QID|12201|
-C From the Ground Up |N|Collect the Golem Parts scattered around here.| |QID|12196|
+C From the Ground Up |QID|12196| |N|Find parts all over.  Some are scattered outside, most are in the buildings.|
+C The Overseer's Shadow |QID|12201| |N|Kill an overseer, steal his panfs!|
 
-T From the Ground Up |N|Run back north to Camp Oneqwah at (65,47)| |QID|12196|
+T From the Ground Up |QID|12196| |N|Back at Camp Oneqwah (65.14, 47.33)|
 A We Have the Power |QID|12197|
 T The Overseer's Shadow |QID|12201|
 A Cultivating an Image |QID|12202|
 
-C Cultivating an Image |N|Go back to the far south to Dun Argol at (76,58) Kill any of the Dark Iron Dwaves then take their picture with Rokar's Camera.| |QID|12202|
-C We Have the Power |N|Kill these two and collect their power: Durar is in the building at (74.8,57.0) Kathorn is in the building at (76.8,59.3)| |QID|12197|
+C We Have the Power |QID|12197| |N|Head up to the second level, kill Durar (75.00, 57.05) and Kathorn (76.84, 59.26) in the two buildings there.  Also take pictures of any dorfs you kill.| |U|37125|
+C Cultivating an Image |QID|12202| |U|37125| |N|Kill a few more dorfs and take their picture.|
 
-T We Have the Power |N|Run back north to Camp Oneqwah at (65,47)| |QID|12197|
+T We Have the Power |QID|12197| |N|Back at Camp Oneqwah (65.12, 47.39)|
 A ... Or Maybe We Don't |QID|12198|
 T Cultivating an Image |QID|12202|
 A Loken's Orders |QID|12203|
 
-C ... Or Maybe We Don't |N|Go back south the Dun Argol at (81,60) this time. Use the Golem Control Unit and summon your golem.  Then Kill the Wind Elementals here to charge it.| |QID|12198|
-C Loken's Orders |N|Then put on the Overseer's Disguise and click the pedestal in the building to receive the message for Loken's Orders.| |QID|12203|
+C ... Or Maybe We Don't |QID|12198| |U|36936| |N|Summon golem, kill elementals, profit!|
 
-T ... Or Maybe We Don't |N|Run back north to Camp Oneqwah at (65,47)| |QID|12198|
-T Loken's Orders |QID|12203|
+T ... Or Maybe We Don't |QID|12198| |N|Back at Camp Oneqwah (65.12, 47.33)|
 A Bringing Down the Iron Thane |QID|12199|
 
-C Bringing Down the Iron Thane |N|Go back down to Dun Argol this time go all the way to the top in the main building at (76,63) Go to the bottom level and clear the room out except for the thane and his golem.  Use your Golem Control Device. Run up to the Golem and use ability 2, then just repeatedly attack the Thane will ability 1 to kill him.| |QID|12199|
+C Loken's Orders |QID|12203| |U|37071| |N|Head to the far building on the second level (81.51, 60.30) and talk to Loki *cough* Loken.|
+C Bringing Down the Iron Thane |QID|12199| |U|36865| |N|KEEP YOUR DISGUISE UP!  Head up to the building on the top level, go inside, downstairs.  Use the golem, beat up Iron Thane Furyhammer (76.37, 63.66).  You have to use the EMP skill to knock out the golem there so you can kill Furyhammer.|
 
-N The Bear God's Offspring |N|Go west to the cave at (67,62) Talk to the bear Kodian inside and go through his dialogue for The Bear God's Offspring.|
-
-T Bringing Down the Iron Thane |N|Run back north to Camp Oneqwah at (65,47)| |QID|12199|
-
-C A Possible Link |N|Follow the road to the northwest to the Furbolg camp at (53,45) Kill any of the furbolg you see until you collect 8 Crazed Furbolg Blood.| |QID|12229|
-
-C The Bear God's Offspring |N|Go to the cave inside the Frostpaw camp at (58,59) Talk to Orsonn and go through his dialogue.| |QID|12231|
-
-H Conquest Hold
-T A Possible Link |QID|12229|
-T The Bear God's Offspring |QID|12231|
-A Destroy the Sapling |QID|12241|
-A Vordrassil's Seeds |QID|12242|
-
-F Camp Oneqwah
-
-C Destroy the Sapling |N|Go to Grizzlemaw at (51,43) Go inside the tree to the sapling, use the torch on the tree inside and burn it.| |QID|12241|
-C Vordrassil's Seeds |N|Go around the small rooms off the sides and up the spiral ramp, any seeds you see sparkling collect them.|12242|
-
-T Ruuna the Blind |N|Run west to Ruuna's Camp at (44,48)| |QID|12425|
-A Ruuna's Request |QID|12328|
-
-C Ruuna's Request |N|Run northeast to (47,37) Kill the Fern Feeder Moths here and collect 4 Gossamer Dust.| |QID|12328|
-
-T Ruuna's Request |N|Run back to Ruuna's Camp at (44,48)| |QID|12238|
-A Out of Body Experience |QID|12327|
-C Out of Body Experience |N|Drink the Gossamer Potion next to the crystal ball and go through the cinematic.| |QID|12327|
-T Out of Body Experience |QID|12327|
-A Fate and Coincidence |QID|12329|
-
-T Fate and Coincidence |N|Run east to Whitemane Post at (58,41)| |QID|12329|
-A Sasha's Hunt |QID|12134|
-A Anatoly Will Talk |QID|12330|
-
-C Sasha's Hunt |N|Head up the hill to Solstice Village at (62,42) First kill 12 Solstice Hunters.| |QID|12134|
-C Anatoly Will Talk |N|Then use the Tranquilizer Dart on Tatjana for Anatoly Will Talk and then hop on her horse and get a free ride back to Sasha.| |QID|12330|
-T Anatoly Will Talk |QID|12330|
-T Sasha's Hunt |QID|12134|
-A A Sister's Pledge |QID|12411|
-
-T A Sister's Pledge |N|Run to the cave at (65,43) Talk to Anya in the cave here.| |QID|12411|
-A Hour of the Worg |N|Then Sasha will run in and she will offer you Hour of the Worg.| |QID|12164|
-
-R Camp Oneqwah |N|(65,47)|
-
-F Conquest Hold
-T Destroy the Sapling |QID|12241|
-T Vordrassil's Seeds |QID|12242|
-A Ursoc, the Bear God |QID|12236|
+T Bringing Down the Iron Thane |QID|12199| |N|Back at Camp Oneqwah (65.16, 47.47)|
+T Loken's Orders |QID|12203|
 ]]
 end)
