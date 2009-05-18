@@ -220,7 +220,7 @@ function TourGuide:UpdateOHPanel(value)
 
 			row.icon:SetTexture(self.icons[action])
 			if action ~= "ACCEPT" and action ~= "TURNIN" then row.icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
-			row.text:SetText(name..(optional and " |cff808080(Optional)" or ""))
+			row.text:SetText(name..(optional and L[" |cff808080(Optional)"] or ""))
 			row.detail:SetText(self:GetObjectiveTag("N", i + offset))
 			row.check:SetChecked(checked)
 			row.questhover.qid = self:GetObjectiveTag("QID", i + offset)

@@ -124,6 +124,63 @@ if loc == "ruRU" then localized = {
 } end
 
 
+----------------------
+--      Korean      --
+----------------------
+
+if loc == "koKR" then localized = {
+	PART_GSUB = "%s%(파트 %d+%)",
+	PART_FIND = "(.+)%s%(파트 %d+%)",
+	["(.*) is now your home."] = "이제부터 (.*) 여관에 머무릅니다.",
+	["Quest accepted: (.*)"] = "퀘스트 수락함: (.*)",
+	["^You .*Hitem:(%d+).*(%[.+%])"] = "^You .*Hitem:(%d+).*(%[.+%])",
+	["|cffff4500This quest is not listed in your current guide"] = "|cffff4500이 퀘스트는 현재 가이드 목록에 없습니다.",
+	["This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking."] = "이 패널에서 가이드를 선택하여 불러오세요.  완료를 하면 다음 가이드를 자동으로 불러 올 것입니다.  완료된 가이드를 초기화 하려면 Shift-클릭을 하세요.",
+	["These settings are saved on a per-char basis."] = "이 설정은 기본적으로 캐릭터 마다 따로 저장됩니다.",
+	["Guides"] = "가이드",
+	["Config"] = "설정",
+	["|cff%02x%02x%02x%d%% complete"] = "|cff%02x%02x%02x%d%% 완료",
+	["No Guide Loaded"] = "불러온 가이드 없음",
+	["Accept quest"] = "퀘스트 수락",
+	["Complete quest"] = "퀘스트 이행",
+	["Turn in quest"] = "퀘스트 제출",
+	["Kill mob"] = "몹 죽이기",
+	["Run to"] = "달려서",
+	["Fly to"] = "날아서",
+	["Set hearth"] = "귀환석 설정",
+	["Use hearth"] = "귀환석 사용",
+	["Note"] = "노트",
+	["Use item"] = "아이템 사용",
+	["Buy item"] = "아이템 구입",
+	["Boat to"] = "배를 타고",
+	["Get flight point"] = "비행 경로 발견",
+	["Tour Guide - Help"] = "Tour Guide - 도움말",
+	["Confused?  GOOD!  Okey, fine... here's a few hints."] = "뭐가 뭔지 어리둥절했다구요?  좋군요!  그래요, 알겠습니다... 약간의 힌트를 드리죠.",
+	["Automatically track quests"] = "자동으로 퀘스트 추적",
+	["Automatically toggle the default quest tracker for current 'complete quest' objectives."] = "현재 '퀘스트 이행' 목표를 위해서 자동으로 기본 퀘스트 추적을 토글합니다.",
+	["Show status frame"] = "상태 프레임 보이기",
+	["Display the status frame with current quest objective."] = "현재 퀘스트 목표를 상태 프레임에 표시합니다.",
+	["Map note coords"] = "지도 노트 좌표",
+	["Map coordinates found in tooltip notes (requires TomTom)."] = "툴팁 노트의 지도 좌표를 이용해서 찾습니다. (TomTom 필요).",
+	["Automatically map questgivers"] = "자동으로 지도에 퀘스트 제공자 표시",
+	["Automatically map questgivers for accept and turnin objectives (requires LightHeaded and TomTom)."] = "퀘스트를 수락하거나 목표 제출을 위해서 자동으로 지도에 퀘스트 제공자를 표시합니다. (LightHeaded와 TomTom 필요).",
+	["Always map coords from notes"] = "항상 노트에 지도 좌표 표시",
+	["Map note coords even when LightHeaded provides coords."] = "LightHeaded가 제공하는 좌표가 있을 경우 노트에 지도 좌표를 표시합니다.",
+	["Help"] = "도움말",
+	["Reset"] = "초기화",
+	["Reset the status frame to the default position"] = "상태 프레임을 기본 위치로 초기화합니다.",
+	["Reset the item button to the default position"] = "아이템 버튼을 기본 위치로 초기화합니다.",
+	["Show item button"] = "아이템 버튼 보이기",
+	["Display a button when you must use an item to start or complete a quest."] = "퀘스트를 시작 또는 완료를 하기 위해서 반드시 사용해야 하는 아이템을 버튼으로 표시합니다.",
+	["Show buttom for 'complete' objectives"] = "'이행' 목표를 위한 버튼 보이기",
+	["The advanced quest tracker in the default UI will show these items.  Enable this if you would rather have TourGuide's button."] = "기본 UI의 고급 퀘스트 추적에 해당 아이템이 보이도록 합니다.  만약 TourGuide의 버튼을 선호한다면 활성화하세요.",
+	["Tour Guide - Guides"] = "Tour Guide - 가이드",
+	["K No guide loaded... |N|Click to select a guide|"] = "K 불러온 가이드 없음... |N|가이드를 선택하려면 클릭하세요|",
+	[" |cff808080(Optional)"] = " |cff808080(임의 선택)",
+	["Cannot find zone %q, using current zone."] = "%q 지역을 찾을 수 없습니다. 현재 지역의 가이드를 사용하세요.",
+	["No zone provided, using current zone."] = "제공되는 지역이 없습니다. 현재 지역의 사용하세요.",
+} end
+
 -- Metatable majicks... makes localized table fallback to engrish, or fallback to the index requested.
 -- This ensures we ALWAYS get a value back, even if it's the index we requested originally
 TOURGUIDE_LOCALE = localized and setmetatable(localized, {__index = function(t,i) return engrish[i] or i end})

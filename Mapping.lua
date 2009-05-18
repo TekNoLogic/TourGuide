@@ -15,8 +15,8 @@ local function MapPoint(zone, x, y, desc, c, z)
 	TourGuide:DebugF(1, "Mapping %q - %s (%.2f, %.2f)", desc, zone or z, x, y)
 	local zi, zc = z or zone and zonei[zone], c or zone and zonec[zone]
 	if not zi then
-		if zone then TourGuide:PrintF("Cannot find zone %q, using current zone.", zone)
-		else TourGuide:Print("No zone provided, using current zone.") end
+		if zone then TourGuide:PrintF(L["Cannot find zone %q, using current zone."], zone)
+		else TourGuide:Print(L["No zone provided, using current zone."]) end
 
 		zi, zc = GetCurrentMapZone(), GetCurrentMapContinent()
 	end

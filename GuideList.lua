@@ -12,7 +12,7 @@ frame.name = L["Guides"]
 frame.parent = "Tour Guide"
 frame:Hide()
 frame:SetScript("OnShow", function()
-	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide - Guides", L["This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking."])
+	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, L["Tour Guide - Guides"], L["This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking."])
 
 	local group = LibStub("tekKonfig-Group").new(frame, nil, "TOP", subtitle, "BOTTOM", 0, -EDGEGAP-GAP)
 	group:SetPoint("LEFT", EDGEGAP, 0)
@@ -96,7 +96,7 @@ function TourGuide:UpdateGuidesPanel()
 
 		local complete = self.db.char.currentguide == name and (self.current-1)/#self.actions or self.db.char.completion[name]
 		local r,g,b = self.ColorGradient(complete or 0)
-		local completetext = complete and complete ~= 0 and string.format("|cff%02x%02x%02x%d%% complete", r*255, g*255, b*255, complete*100)
+		local completetext = complete and complete ~= 0 and string.format(L["|cff%02x%02x%02x%d%% complete"], r*255, g*255, b*255, complete*100)
 		row.complete:SetText(completetext)
 	end
 end

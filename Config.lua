@@ -28,7 +28,7 @@ frame:SetScript("OnShow", function()
 
 	local resetpos = tekbutton.new_small(frame, "TOP", showstatusframe, "CENTER", 0, 11)
 	resetpos:SetPoint("RIGHT", -16, 0)
-	resetpos:SetText("Reset")
+	resetpos:SetText(L["Reset"])
 	resetpos.tiptext = L["Reset the status frame to the default position"]
 	resetpos:SetScript("OnClick", function(self)
 		TourGuide.db.profile.statusframepoint, TourGuide.db.profile.statusframex, TourGuide.db.profile.statusframey = nil
@@ -42,7 +42,7 @@ frame:SetScript("OnShow", function()
 
 	local resetpos2 = tekbutton.new_small(frame, "TOP", showuseitem, "CENTER", 0, 11)
 	resetpos2:SetPoint("RIGHT", -16, 0)
-	resetpos2:SetText("Reset")
+	resetpos2:SetText(L["Reset"])
 	resetpos2.tiptext = L["Reset the item button to the default position"]
 	resetpos2:SetScript("OnClick", function(self)
 		TourGuide.db.profile.itemframepoint, TourGuide.db.profile.itemframex, TourGuide.db.profile.itemframey = nil
