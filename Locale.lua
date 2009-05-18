@@ -133,7 +133,7 @@ if loc == "koKR" then localized = {
 	PART_FIND = "(.+)%s%(파트 %d+%)",
 	["(.*) is now your home."] = "이제부터 (.*) 여관에 머무릅니다.",
 	["Quest accepted: (.*)"] = "퀘스트 수락함: (.*)",
-	["^You .*Hitem:(%d+).*(%[.+%])"] = "^You .*Hitem:(%d+).*(%[.+%])",
+	["^You .*Hitem:(%d+).*(%[.+%])"] = "^아이템을 획득했습니다: .*Hitem:(%d+).*(%[.+%])",
 	["|cffff4500This quest is not listed in your current guide"] = "|cffff4500이 퀘스트는 현재 가이드 목록에 없습니다.",
 	["This panel lets you choose a guide to load.  Upon completion the next guide will load automatically.  Completed guides can be reset by shift-clicking."] = "이 패널에서 가이드를 선택하여 불러오세요.  완료를 하면 다음 가이드를 자동으로 불러 올 것입니다.  완료된 가이드를 초기화 하려면 Shift-클릭을 하세요.",
 	["These settings are saved on a per-char basis."] = "이 설정은 기본적으로 캐릭터 마다 따로 저장됩니다.",
