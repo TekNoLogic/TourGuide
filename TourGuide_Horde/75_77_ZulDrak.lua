@@ -1,8 +1,8 @@
 
-TourGuide:RegisterGuide("Zul'Drak (75-77)", "Sholazar Basin (77-78)", "Alliance", function()
+TourGuide:RegisterGuide("Zul'Drak (75-77)", "Sholazar Basin (77-78)", "Horde", function()
 return [[
-A Reallocating Resources |QID|12770| |N|At the Westfall Brigade Encampment in Grizzly Hills (59.41, 26.13)| |Z|Grizzly Hills|
-T Reallocating Resources |QID|12770| |N|Talk to the flightmaster for a flight to Light's Breach (32.05, 74.46)|
+A Shifting Priorities |QID|12763| |N|At Camp Oneqwah in Grizzly Hills (65.11, 47.61)| |Z|Grizzly Hills|
+T Shifting Priorities |QID|12763| |N|Talk to the flightmaster for a flight to Light's Breach (32.05, 74.46)|
 A This Just In: Fire Still Hot! |QID|12859|
 A Trolls Is Gone Crazy! |QID|12861|
 A In Search Of Answers |QID|12902|

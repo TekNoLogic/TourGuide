@@ -233,6 +233,8 @@ T Basic Training |QID|11918|
 A Hatching a Plan |QID|11936|
 T Puzzling... |QID|11941|
 A The Cell |QID|11943|
+T Nuts for Berries |QID|11912|
+A Keep the Secret Safe |QID|11914|
 
 C The Cell |QID|11943| |N|Kill Warbringer Goredrak to the west (24.24, 28.92) for the core and General Cerulean to the north (27.54, 20.71) for the casing.|
 C Hatching a Plan |QID|11936| |N|Kill Coldarra Wyrmkin for their axes, then use them on the eggs near the Nexus|

@@ -59,6 +59,11 @@
 	<Script file="68_69_Netherstorm.lua"/>
 	<Script file="69_70_Shadowmoon_Valley.lua"/>
 
-	<Script file="70_71_Howling_Fjord.lua"/>
 	<Script file="70_72_Borean_Tundra.lua"/>
+	<Script file="70_72_Howling_Fjord.lua"/>
+	<Script file="72_73_Dragonblight.lua"/>
+	<Script file="73_75_Grizzly_Hills.lua"/>
+	<Script file="75_77_ZulDrak.lua"/>
+	<Script file="77_78_Sholazar_Basin.lua"/>
+	<Script file="79_80_Icecrown.lua"/>
 </Ui>

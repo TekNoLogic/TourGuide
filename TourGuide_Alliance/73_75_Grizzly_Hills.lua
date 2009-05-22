@@ -138,7 +138,7 @@ T Mounting Up |QID|12414|
 
 T Heart of the Ancients |QID|12042| |N|Northwest at Blue Sky Logging Grounds.  On the north side of the lake, find the platform, the Heart is up top in the cabin (36.97, 32.40).  You will get PvP flagged doing this quest!|
 A My Heart is in Your Hands |QID|12802|
-T My Heart is in Your Hands |QID|12802| |N|Due west at the Drak'atal Passage (45.03, 28.33).  You'll have to kill trolls for 5 mojo, of course.|
+T My Heart is in Your Hands |QID|12802| |N|Due east at the Drak'atal Passage (45.03, 28.33).  You'll have to kill trolls for 5 mojo, of course.|
 A Voices From the Dust |QID|12068|
 
 T Hollowstone Mine |QID|12158| |N|North of camp at the Hollowstone Mine (55.16, 23.46).  There's a path up just west of camp.|
@@ -214,14 +214,14 @@ T The Runic Prophecies |QID|11993|
 T Say Hello to My Little Friend |QID|12190| |N|Take the road southeast out of camp down to Harkor's Camp (73.75, 34.10).  Watch out for elites!|
 A Nice to Meat You |QID|12113|
 A Therapy |QID|12114|
-A It Takes Guts....
+A It Takes Guts.... |QID|12116|
 
 T Gavrock |QID|12081| |N|Head east onto the islands at the Ruins of Tethys (79.75, 33.64)|
 A Runes of Compulsion |QID|12093|
 C A Bear of an Appetite |QID|12279| |N|Use the fishing net on the schools of fish all around the Ruins of Tethys.| |U|37542|
 
 C Runes of Compulsion |QID|12093| |N|Back on shore, kill the iron dorfs at each of the rune-disc-things, then kill the overseer that spawns.  Brunon (79.16, 43.29), Lochli (74.98, 36.85), Korgan (72.02, 34.34), Durval (67.74, 29.22)|
-C It Takes Guts.... |N|Head down into the Drakil'jin Ruins (71.38, 23.87).  Open jars in the first big room along the walls.|
+C It Takes Guts.... |QID|12116| |N|Head down into the Drakil'jin Ruins (71.38, 23.87).  Open jars in the first big room along the walls.|
 C Voices From the Dust |QID|12068| |N|Deeper into the ruins, you'll find the tablets in the corner of a side room (69.39, 18.07)|
 A Dun-da-Dun-tah! |QID|12082| |N|In the same room as the tablets (69.44, 17.51).  If he's not here now, check back next time you're down here.|
 
