@@ -393,6 +393,5 @@ T Hasty Preparations |QID|11271|
 F Kamagua
 B Moa'ki Harbor |N|Whee! Turtleboat!|
 A Your Presence is Required at Agmar's Hammer |QID|11996| |N|From Envoy Ripfang in the main tent (48.0, 74.8).|
-T Your Presence is Required at Agmar's Hammer |QID|11996| |N|Northwest at Agmar's Hammer (30.8, 46.3).|
 ]]
 end)

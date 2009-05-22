@@ -4,8 +4,12 @@ return [[
 C Across Transborea |QID|11930| |O|
 T Across Transborea |QID|11930| |T| |O|
 A A Tauren Among Taunka |QID|11977| |T| |O| |PRE|Across Transborea|
+
+T Your Presence is Required at Agmar's Hammer |QID|11996| |T| |O| |N|Northwest at Agmar's Hammer (30.8, 46.3).|
+A The Taunka and the Tauren |QID|11979| |T| |O| |PRE|Your Presence is Required at Agmar's Hammer|
+
+T The Taunka and the Tauren |QID|11979| |T| |O| |N|ON the west edge of the zone at the Westwind Refugee Camp (13,49)|
 T A Tauren Among Taunka |QID|11977| |T| |O|
-T The Taunka and the Tauren |QID|11979| |T| |O|
 A Into the Fold |QID|11978| |T|
 A Pride of the Horde |QID|11980| |T|
 
