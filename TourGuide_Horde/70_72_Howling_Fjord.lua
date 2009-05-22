@@ -1,440 +1,398 @@
 
 TourGuide:RegisterGuide("Howling Fjord (70-72)", "Dragonblight (72-73)", "Horde", function()
 return [[
-R Howling Fjord |N|Go to Undercity and ride the Zeppelin to Vengeance Landing in Howling Fjord.|
+F Howling Fjord |N|Go to Undercity and ride the zeppelin to Vengeance Landing in Howling Fjord.|
 A The New Plague |QID|11167|
-f Get the Flight Path
 A Let Them Eat Crow |QID|11227|
 A War is Hell |QID|11270|
-h Make Vengeance Landing your new home
 
-C War is Hell |N|Run southwest to (75,34) Use the torch on the alliance and unforsaken corpses.| |QID|11270|
-C Let Them Eat Crow |N|Kill the crows here and collect the meat, feed the meat to the plaguehound by summoning it.| |QID|11227|
+U Plaguehound Cage |U|33221|
+C War is Hell |QID|11270| |U|33278| |N|Burn corpses just to the southwest of town.|
+C Let Them Eat Crow |QID|11227| |U|33238| |N|Kill crows for meat, feed the plaguehound.|
 
-T Let Them Eat Crow |N|Run back to Vengeance Landing at (78,31)| |QID|11227|
-A Sniff Out the Enemy |QID|11253|
-T War is Hell |QID|11270|
+T War is Hell |QID|11270| |N|Back at Vengeance Landing (78.55, 31.13)|
 A Reports from the Field |QID|11221|
+T Let Them Eat Crow |QID|11227|
+A Sniff Out the Enemy |QID|11253|
 
-C Sniff Out the Enemy |N|Use the leash then follow the Plaguehound Tracker north to the cave at (76,20) Click on the Dragonskin Scroll to turn this in.| |QID|11253|
-A The Dragonskin Map |QID|11254|
+C Reports from the Field |QID|11221| |N|Head south to the Bleeding Vale, find Razael (77.53, 34.65) and Lyana (78.77, 36.90) for their reports.|
 
-T The Dragonskin Map |N|Run back to Vengeance Landing at (78,31)| |QID|11254|
-A The Offensive Begins |QID|11295|
-
-C The New Plague |N|Run south to the shipwreck at (81,35) Collect the plague containers around and inside the wrecked ship.| |QID|11167|
-
-N Reports from the Field |N|Go to (79,37) Talk to Dark Ranger Lyana and get her report.|
-
-C Reports from the Field |N|Then go back north to (77.6,34.7) Talk to Deathstalker Razael and get his orders.| |QID|11221|
-
-T Reports from the Field |N|Run back to Vengeance Landing at (78,31)| |QID|11221|
+T Reports from the Field |QID|11221| |N|Back at Vengeance Landing (78.54, 31.16)|
 A The Windrunner Fleet |QID|11229|
-T The New Plague |QID|11167|
-A Spiking the Mix |QID|1168|
 
-C Spiking the Mix |N|Run north along the beach towards (77,19) Kill the Giant Tidecrawlers and collect 3 Giant Toxin Glands.| |QID|1168|
-
-T Spiking the Mix |N|Run back to Vengeance Landing at (78,29)| |QID|11168|
-A Test at Sea |QID|11170|
-C Test at Sea |N|Talk to Bat Handler Camille and take a bat to intercept the reinforcements.  Drop the infected bombs on the reinforcements in the frozen sea.| |QID|11170|
-T Test at Sea |N|Once you land back at Vengeance then turn in Spiking the Mix.| |QID|11170|
-A New Agamand |QID|11304|
-T The Windrunner Fleet |N|Speak to Bat Handler Camille again and take a bat to Windrunner this time. Talk to Captain Harker once you land.| |QID|11229|
+T The Windrunner Fleet |QID|11229| |N|Talk to the bat handler for a flight out to the Windrunner (84.66, 36.39)|
 A Ambushed! |QID|11230|
-C Ambushed! |N|Kill the Marines on the 3 boats.| |QID|11230|
-T Ambushed! |N|Then go back to the main boat.| |QID|11230|
+C Ambushed! |QID|11230|
+T Ambushed! |QID|11230| |N|Back on the Windrunner (84.64, 36.40)|
 A Guide Our Sights |QID|11232|
 
-C Guide Our Sights |N|Swim west to the beach and mark the two cannons for Guide Our Sights. West cannon at (79,40) East cannon at (80,38)| |QID|11232|
+C Guide Our Sights |QID|11232| |U|33335| |N|Swim west to the Derelict Strand.  Use the smoke flare to mark the eastern (80.36, 38.22) and western cannons (79.36, 40.20).|
+C The New Plague |QID|11167|
 
-T Guide Our Sights |N|Then run north through the wall to (79,37)| |QID|11232|
+T Guide Our Sights |QID|11232| |N|Back at Dark Ranger Lyana (79.14, 36.42)|
 A Landing the Killing Blow |QID|11233|
 
-C Landing the Killing Blow |N|Go inside the Northrunner base and kill the leaders. Captain Olster (81,43) Lieutenant Celeyne (83,43) Sergeant Lorric (82,40)| |QID|11233|
+K Captain Olster |Q|Landing the Killing Blow| |QO|Captain Olster slain: 1/1| |N|UP the hill, towards the southern end (81.45, 43.33)|
+A Trail of Fire |QID|11241| |N|Find Apothecary Hanes near the shore (83.17, 43.13)|
+C Landing the Killing Blow |QID|11233| |N|As you do the escort, kill Lieutenant Celeyne (83.14, 43.12) and Sergeant Lorric (81.99, 40.76).|
+C Trail of Fire |QID|11241|
 
-A Trail of Fire |N|Go to (83,43) Talk to Apothecary Hanes and accept the escort quest.| |QID|11241|
-C Trail of Fire |N|Escort Apothecary Hanes to safety, this is pretty easy and he does good damage too.| |QID|11241|
-
-T Landing the Killing Blow |N|Go back to Dark Ranger Lyana at (80,36)| |QID|11233|
+T Landing the Killing Blow |QID|11233| |N|Back at Dark Ranger Lyana (78.65, 37.12)|
 A Report to Anselm |QID|11234|
 
-T Report to Anselm |N|Run back to Vengeance Landing at (79,31) Only accept the follow up if you are going to run Utgarde Keep.| |QID|11234|
+T Report to Anselm |QID|11234| |N|Back at Vengeance Landing (78.60, 31.18)|
+T The New Plague |QID|11167|
+A Spiking the Mix |QID|11168|
 T Trail of Fire |QID|11241|
 
-T The Offensive Begins |N|Run to the lift at (73,35) and take it up to the top. Then run to Vengeance Lift questing hub at (71,39)| |QID|11295|
+T Sniff Out the Enemy |QID|11253| |U|33486| |N|Use the leash, follow the plaguehound north (75.99, 19.78)|
+A The Dragonskin Map |QID|11254|
+C Spiking the Mix |QID|11168| |N|Kill giant tidecrawlers.|
+
+T Spiking the Mix |QID|11168| |N|Back at Vengeance Landing (78.55, 29.06)|
+A Test at Sea |QID|11170|
+T The Dragonskin Map |QID|11254|
+A The Offensive Begins |QID|11295|
+C Test at Sea |QID|11170| |U|33349| |N|Talk to the bat handler for a flight, spread some warm gooey green love all over the ships.|
+T Test at Sea |QID|11170|
+A New Agamand |QID|11304|
+
+T The Offensive Begins |QID|11295| |N|Southwest, at the top of the Vengeance Lift (71.15, 38.99)|
 A A Lesson in Fear |QID|11282|
 A Help for Camp Winterhoof |QID|12566|
-C A Lesson in Fear |N|Go around the camp and kill as many of the Winterskorn Defenders, then when the mobs for A Lesson in Fear spawn kill them and use the pike on them. NOTE: You can also use the spear / pike on other people's kills.| |QID|11282|
-T A Lesson in Fear |N|Then go back to Sergeant Gorth (73,35)| |QID|11282|
+C A Lesson in Fear |QID|11282| |U|33563| |N|Head west to Balejar Watch.  Kill Ulf the Bloodletter (69.31, 39.28), Oric the Baleful (69.18, 38.43) and Gunnar Thorvardsson (69.57, 40.02), then use the banner on their corpses.|
+T A Lesson in Fear |QID|11282| |N|Back at the Vengeance Lift (71.07, 39.11)|
 A Baleheim Bodycount |QID|11283|
 A Baleheim Must Burn! |QID|11285|
 
-C Baleheim Must Burn! |N|Go east into Baleheim Village. Use the torch to burn these buildings Tower (67,39) Bridge (66,39) Barracks (63,40) Dwelling (65,40)| |QID|11285|
-C Baleheim Bodycount |N|Kill as many of the Winterskorn as you can until you complete Baleheim Bodycount.| |QID|11283|
+C Baleheim Must Burn! |QID|11285| |U|33472| |N|Use the torch to burn down the watchtower (67.05, 39.79), bridge (66.10, 39.84), dwelling (64.85, 41.45) and barracks (64.01, 41.16).|
+C Baleheim Bodycount |QID|11283|
 
-T Baleheim Bodycount |N|Run back to Sergeant Gorth at (71,39)| |QID|11283|
+T Baleheim Bodycount |QID|11283| |N|Back at the Vengeance Lift (71.14, 39.14)|
 T Baleheim Must Burn! |QID|11285|
 A The Ambush |QID|11303|
 
-T The Ambush |N|Run east to Lydell's Ambush at (66,37)| |QID|11303|
+T The Ambush |QID|11303| |N|Take the road northwest to Lydell's Ambush (65.87, 36.66)|
 A Adding Injury to Insult |QID|12481|
+C Adding Injury to Insult |QID|12481| |U|33581| |N|I do not normally condone killing people named Bear, but I guess he's evil or something... either way it must be done to continue the questline.  Find Bjrn to the southwest (64.41, 38.34), "use" the insult, kill him.|
+T Adding Injury to Insult |QID|12481| |N|Back at Lydell's Ambush (65.87, 36.67)|
 
-C Adding Injury to Insult |N|Head just east at (64,39) Use the insult on Bjorn Halgurdson, then run right back to the questgiver.  They will help you kill Bjorn and complete Adding Injury to Insult.| |QID|12481|
-T Adding Injury to Insult |QID|12481|
+A Against Nifflevar |QID|12482| |N|Follow the road south past Nifflevar to Ghostblade Post (67.51, 60.63)|
+A The Enemy's Legacy |QID|11423|
+C The Enemy's Legacy |QID|11423| |N|Find the Saga of the Valkyr (67.42, 57.21), Saga of the Winter Curse (68.88, 52.63) and Saga of the Twins (64.76, 53.57) around Nifflevar.|
+C Against Nifflevar |QID|12482|
+T Against Nifflevar |QID|12482| |N|Howling Fjord, Ghostblade Post (67.52, 60.55)|
+T The Enemy's Legacy |QID|11423|
 
-R Camp Winterhorn |N|Run northeast along the road to Camp Winterhorn at (49,12)|
-f Get the Flight Path
-h Make Camp Winterhoof your new home
-A Making the Horn |QID|11275|
-A Suppressing the Elements |QID|11311|
-A Hasty Preparations |QID|11271|
-T Help for Camp Winterhoof |QID|12566|
-
-C Making the Horn |N|Go to east to (52,11) Kill the Rams here and collect 6 Undamaged Ram Horns.| |QID|11275|
-C Hasty Preparations |N|Collect the feathers on the ground.| |QID|11271|
-
-C Suppressing the Elements |N|Go further north into the Grizzly Hills to (65,67) Kill the Rock Elementals here.| |QID|11311|
-
-T Hasty Preparations |N|Run back to Camp Winterhoof at (48,11)| |QID|11271|
-A March of the Giants |QID|11365|
-A Keeping Watch on the Interlopers |QID|11297|
-T Making the Horn |QID|11275|
-A Mimicking Nature's Call |QID|11281|
-A The Frozen Glade |QID|11312|
-T Suppressing the Elements |QID|11311|
-A The Book of Runes |QID|11350|
-
-C Mimicking Nature's Call |N|Run northeast to (52,3) at the frozen waterfall. Use Nokoma's Horn and then kill Frostgore.| |QID|11281|
-
-T The Frozen Glade |N|Run southeast now to (62,23)| |QID|11312|
-A Spirits of the Ice |QID|11313|
-C Spirits of the Ice |N|Go just around the outside of the Dryad camp and kill the Ice Elementals. Collect the Icy Cores from the elementals for Spirits of the Ice.| |QID|11313|
-T Spirits of the Ice |N|Go back and talk to Lurielle again.| |QID|11313|
-A The Fallen Sisters |QID|11314|
-A Wild Vines |QID|11315|
-
-C Wild Vines |N|Run southwest to the Vibrant Glade at (52,27) Kill the Scarlet Ivy.| |QID|11315|
-C The Fallen Sisters |N|Fight the Chill Nymphs until they are about 30% then use Lurielle's Pendant on them to free them.| |QID|11314|
-
-T The Fallen Sisters |N|Run back to Lurielle at (61,23)| |QID|11314|
-T Wild Vines |QID|11315|
-A Spawn of the Twisted Glade |QID|11316|
-A Seeds of the Blacksouled Keepers |QID|11319|
-
-C Book of Runes |N|Run due east to Giant's Run at (73,25) Kill the Iron Rune Stonecallers here until you collect all three chapters of Book of Runes.  Then click on one to combine them.| |QID|11350|
-C March of the Giants |N|Kill four of the Runed Stone Giants that wonder the area here.  They are elite but are stunnable and rootable so most classes can halde them. Watch out for the stacking dot when you get it run away from it fast.  Once they are dead use the pick axe on them.| |QID|11365|
-
-H Camp Winterhoof
-T Mimicking Nature's Call |QID|11281|
-T The Book of Runes |QID|11350|
-A Mastering the Runes |QID|11351|
-T March of the Giants |QID|11365|
-A The Lodestone |QID|11366|
-A Skorn Must Fall! |QID|11256|
-
-C Spawn of the Twisted Glade |N|Run to the Twisted Glade at (55,16) Kill the Thornvine Creepers.| |QID|11316|
-C Seeds of the Blacksouled Keepers |N|Kill the Spores and then use the Enchanted Ice Core on the corpse.| |QID|11319|
-
-T Skorn Must Fall! |N|Run further west to Skorn at (47,29) Use the Winterhoof Emblem and then summon the brave.|
-A Gruesome, But Necessary |QID|11246|
-A Burn Skorn, Burn! |QID|11258|
-A Towers of Certain Doom |QID|11259|
-C Gruesome, But Necessary |N|Start killing the Vykrul mobs in the area now, once they are dead and looted use the Machete on them to dismember them.| |QID|11246|
-A Stop the Ascension! |N|From one of the Vykrul mobs you will loot a Vykrul Scroll of Ascension, click it and accept Stop the Ascension!| |QID|11260|
-C Towers of Certain Doom |N|Target each of these 4 towers with the flare: Northwest Tower: (44,29)East Tower: (46,32) Southeast Tower: (47,36) Southwest Tower: (43,36)| |QID|11259|
-C Burn Skorn, Burn! |N|Burn each of these 3 buildings with the torch: Northwest Longhouse is at (43,28) Northeast Longhouse is at (46,28) Barracks is at (45,30)| |QID|11258|
-C Stop the Ascension! |N|Go to the Burning Pyre at (45,35) and use the Scroll here to summon Halfdan the Ice-Hearted.| |QID|11260|
-T Gruesome, But Necessary |N|Once done talk to the Brave again.| |QID|11246|
-T Burn Skorn, Burn! |QID|11258|
-T Towers of Certain Doom |QID|11259|
-A The Conqueror of Skorn |QID|11261|
-
-T Spawn of the Twisted Glade |N|Run back to Lurielle at (61,23)| |QID|11316|
-T Seeds of the Blacksouled Keepers |QID|11319|
-A Keeper Witherleaf |QID|11428|
-
-C Mastering the Runes |N|Run east to Giant's Run at (71,29) Look in the tents here until you find the toolbox and loot the tools.| |QID|11351|
-
-C The Lodestone |N|Go straight north to the tablet at (70,17) Use the Rune Sample at the tablet and wait for this to complete.| |QID|11366|
-
-H Camp Winterhoof
-T Mastering the Runes |QID|11351|
-A The Rune of Command |QID|11352|
-T Stop the Ascension! |QID|11260|
-T The Lodestone |QID|11366|
-A Demolishing Megalith |QID|11367|
-T The Conqueror of Skorn |QID|11261|
-A Dealing with Gjalerbron |QID|11263|
-A Find Sage Mistwalker |QID|11287|
-A Of Keys and Cages |QID|11265|
-
-C Keeper Witherleaf |N|Go southeast to (54,17) Kill Keeper Witherleaf.| |QID|11428|
-
-T Keeper Witherleaf |N|Run back to the Frozen Glade at (61,23)| |QID|11428|
-
-C The Rune of Command |N|Go to Giant's Run at (72,24) Use the Rune of Command and take control of one of the Stone Giants, note this will not work on the Runed Stone Giants.  Then take your new pet and go kill Murdis.| |QID|11352|
-
-C Demolishing Magalith |N|Head north of Giant's Run with your pet into the mountains at (67,10) Find Megalith and use the Giant for extra DPS and burn him down quickly.| |QID|11367|
-
-T The Rune of Command |N|Run back to Camp Winterhoof at (48,10)| |QID|11352|
-T Demolishing Megalith |QID|11367|
-
-A Rivenwood Captives |N|Run southwest out of Camp Winterhoof to the small camp at (31,24)| |QID|11296|
-T Find Sage Mistwalker |QID|11287|
-A The Artifacts of Steel Gate |QID|11286|
-
-C The Artifacts of Steel Gate |N|Follow the ramp down into the mining area south at (30,26) Collect the broken tablets here.| |QID|11286|
-
-T The Artifacts of Steel Gate |N|Run back to Sage Mistwalker at (31,24)| |QID|11286|
-A The Cleansing |QID|11317|
-
-T Rivenwood Captives |N|Run north to (31,20) Attack the Cocoons until you have freed 7 Longrunners.| |QID|11296|
-
-C Dealing with Gjalerbron |N|Run further north to Gjalerbron at (35,12) Kill the Gjalerbron mobs here.| |QID|11263|
-C Of Keys and Cages |N|Use the keys you collect to open the cages with prisoners.| |QID|11265|
-A Gjalerbron Attack Plans |N|One of the mobs should drop the Gjalerbron Attack Plans, click them and accept Gjalerbron Attack Plans.| |QID|11266|
-
-T Keeping Watch on the Interlopers |N|Run southwest to the Apothecary camp at (26,24)| |QID|11297|
-A What's in That Brew? |QID|11298|
-A Brains! Brains! Brains! |QID|11301|
-A And You Thought Murlocs Smelled Bad! |QID|11397|
-f Get the flight path
-
-C And You Thought Murlocs Smelled Bad! |N|Jump off the ledge and head to the shore at (22,24) Kill the Servitor Shades and Mor'ghoul Flesheaters.| |QID|11397|
-A It's A Scourge Device |N|One of the mobs should drop a scourge device, click it and accept this.| |QID|11398|
-
-C Brains! Brains! Brains! |N|Run south along the beach into the Whisper Gulch at (31,37) Kill the Deranged Explorers then use Grick's Bonesaw on them.| |QID|11301|
-C What's in That Brew? |N|Collect the kegs in the cavern.| |QID|11298|
-
-T What's in That Brew? |N|Mount up and run back to the Apothecary camp at (26,24)| |QID|11298|
-T Brains! Brains! Brains! |QID|11301|
-T And You Thought Murlocs Smelled Bad! |QID|11397|
-T It's A Scourge Device |QID|11398|
-A Bring Down Those Shields |QID|11399|
-
-F Camp Winterhoof
-T Gjalerbron Attack Plans |QID|11266|
-A Frost Wyrm and Its Master |QID|11267|
-T Dealing with Gjalerbron |QID|11263|
-A Necro Overlord Mezhen |QID|11264|
-T Of Keys and Cages |QID|11265|
-A The Walking Dead |QID|11268|
-A Sleeping Giants |QID|11433|
-
-C The Cleansing |N|Head straight east out of Camp Winterhoof head up the path  into the mountains, run clear to the peak at (61,2) Click on the altar and kill your inner turmoil.| |QID|11317|
-
-R Camp Winterhoof |N|Note you will float kind of like a feather after completing The Cleansing, so make sure if you jump off the peak its in the direction of Camp Winterhoof! (50,12)|
-
-F Apothecary Camp
-
-T Rivenwood Captives |N|Run from the Apothecary camp to the small horde camp straight east at (31,25)| |QID|11296|
-T The Cleansing |QID|11317|
-A In Worg's Clothing |QID|11323|
-
-K Putrid Wright |N|Run straight north back into Gjalerbron this time go to (39,13) Kill the Deathless Watchers and Putrid Wrights.| |QO|Putrid Wright:5/5|
-C Necro Overlord Mezhen |N|Then kill Necro Overlord Mezhen.| |QID|11264|
-A The Slumbering King |N|Mezhen will drop Mezhen's Writings, click them and accept this.| |QID|11453|
-
-C The Slumbering King |N|Go down inside the small cave at (41,6) inside Gjalerbron. Here you will find Queen Angerboda, kill her to complete this.| |QID|11453|
-
-C The Frost Wyrm and Its Master |N|Now go the to the platform inside Gjalerbron at (36,8) Kill Wyrmcalle Ville and loot the horn from him, then use the horn to call down Glacion and kill him.| |QID|11267|
-
-C The Walking Dead |N|Go back south to the outside of Gjalerbron and go down inside the cave at (34.5,13.0) Kill the Fearsome Horrors.| |QID|11268|
-C Sleeping Giants |N|By now you should have collected 5 Awekening Rods, but if not kill more of the necrolords down here to collect them.  Then use these rods on the Dormant Vykrul scattered along the walls.| |QID|11433|
-
-T In Worg's Clothing |N|Run northwest out of Gjalerbron to the cave at (30,6) Use the Worg Disguise before entering and then talk to Ulfang.| |QID|11323|
-A Brother Betrayers |QID|11415|
-
-C Bring Down Those Shields |N|Head west and jump down onto Chillmere Coast and run towards (22,22) Find the Scourging Crystals, then use the Scourging Crystal controller on them, this will bring down their shields so you can destroy them.| |QID|11399|
-
-T Bring Down Those Shields |N|Go back up to the Apothecary camp at (26,25)| |QID|11399|
-
-C Brother Betrayers |N|Go just north of the Apothecary camp now to (26,20) Kill the two worgs at: Varg around (35,31) Bjomolf around (26,20)| |QID|11415|
-
-T Brother Betrayers |N|Run back north to the worg cave at (30,6)| |QID|11415|
-A Eyes of the Eagle |QID|11417|
-
-C Eyes of the Eagle |N|Head to the far southeast, and run to the waterfall at (41.4,37.7) Click on the nest here and it will summon Talonstrike, kill her and collect the Eagle Eyes.| |QID|11417|
-
-T Eyes of the Eagle |N|Run back north to the worg cave at (30,6)| |QID|11417|
-A Alpha Worg |QID|11324|
-
-C Alpha Worg |N|Go just outside the cave and run around in this area until you find Garwal, who is a much larger gray worg.| |QID|11324|
-
-H Camp Winterhoof
-T The Frost Wyrm and Its Master |QID|11267|
-T Necro Overlord Mezhen |QID|11264|
-T The Slumbering King |QID|11453|
-T The Walking Dead |QID|11268|
-T Sleeping Giants |QID|11433|
-
-F Apothecary Camp
-
-T Alpha Worg |N|Run east to Sage Mistwalker at (31,24)| |QID|11324|
-
-R New Agamand |N|Follow the road to the far south to New Agamand at (53,67)|
-A Green Eggs and Whelps |QID|11279|
-T New Agamand |QID|11304|
+T New Agamand |QID|11304| |N|Follow the road southwest to New Agamand (53.53, 66.34)|
 A A Tailor-Made Formula |QID|11305|
+A Green Eggs and Whelps |QID|11279|
 A Shield Hill |QID|11424|
-f Get the Flight path
-h Make New Agamand your new home
 
-C A Tailor-Made Formula |N|Go directly west of town to the Vykrul camp at (47,68) Kill Thorvald here and get the Dragonflayer Patriarch's Blood.| |QID|11305|
+C A Tailor-Made Formula |QID|11305| |N|Due west of town at the vykrul camp (47,68).|
 
-C Shield Hill |N|Head straight south now to (60,77) Kill the Risen Vykrul Ancestors here and collect the Ancient Vykrul bones.| |QID|11424|
-
-T A Tailor-Made Formula |N|Run back north to New Agamand at (54,66)| |QID|11305|
+T A Tailor-Made Formula |QID|11305| |N|Back at New Agamand (53.51, 66.35)|
 A Apply Heat and Stir |QID|11306|
-C Apply Heat and Stir |N|Use the Empty Apothecary Flask at the cauldron right next to Harris to fill it, then mix the filled flask at the table on his other side. Keep doing this until you get a Balanced Concoction and complete Apply Heat and Stir.| |QID|11306|
+C Apply Heat and Stir |QID|11306| |N|Use the Empty Apothecary Flask at the cauldron right next to Harris to fill it, then mix the filled flask at the table on his other side. Repeat until you get a Balanced Concoction.|
 T Apply Heat and Stir |QID|11306|
 A Field Test |QID|11307|
-T Shield Hill |QID|11424|
 
-C Field Test |N|Run north to Halgrind at (50,56) Use the Plague Spray on the Plagued Vykrul here.| |QID|11307|
+C Field Test |QID|11307| |N|Due north at Halgrind (50,56). Use the spray on the vykrul.|
 
-C Green Eggs and Whelps |N|Run northwest to Ember Clutch at (41,51) Use Tillinghast's Plague Canister on the Proto-Whelp Eggs here, that will spawn a plagued Proto-Whelp. Kill it and loot the meat.| |QID|11279|
-A Root Causes |N|Talk to the Ember Cluth Ancient.| |QID|11182|
-C Root Causes |N|Go inside the house here and kill Skeld Drakeson and his Handlers around it (41,51)| |QID|11182|
-T Root Causes |N|Talk to the Ember Cluth Ancient.| |QID|11182|
+A Root Causes |QID|11182| |N|Find the ancient to the west, patrolling around the Ember Clutch|
+C Root Causes |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.30, 53.15)|
+C Green Eggs and Whelps |QID|11279| |N|Run northwest to Ember Clutch at (41,51) Use Tillinghast's Plague Canister on the Proto-Whelp Eggs here, that will spawn a plagued Proto-Whelp. Kill it and loot the meat.|
+T Root Causes |QID|11182|
 
-A The Dead Rise! |N|Run to the Ancient Lift at (40,60)| |QID|11504|
+A The Dead Rise! |QID|11504| |N|South at the Ancient Lift (40.35, 60.28)|
 
-R Kamagua |N|Ride the lift down to the island below. Run just north of the lift to Kamagua at (25,57)|
-f Get the flight path here
-A Feeding the Survivors |QID|11456|
-
-F New Agamand
-T Green Eggs and Whelps |QID|11279|
+T Green Eggs and Whelps |QID|11279| |N|Back at New Agamand (53.12, 66.87)|
 A Draconis Gastritis |QID|11280|
 T Field Test |QID|11307|
 A Time for Cleanup |QID|11308|
 T Time for Cleanup |QID|11308|
 A Parts for the Job |QID|11309|
 
-C Parts for the Job |N|Go just outside New Agamand. Kill the shoveltusk there and collect their ligaments. Then go to the vendor who paths along the road at (52,73) and buy a fresh pound of flesh from him.| |QID|11309|
+C Parts for the Job |QID|11309| |N|Just to the southwest of town.  You can find Anton patrolling the road for the pound of flesh.|
+C The Dead Rise! |QID|11504| |N|To the southeast at Shield Hill.  Visit each grave for a clue: Fengir (57.69, 77.51), Rodin (59.22, 76.99), Isuldof (59.80, 79.39), Windan (61.98, 80.04)|
+C Shield Hill |QID|11424| |N|Kill the Risen Vykrul Ancestors for their bones.|
 
-C The Dead Rise! |N|Run south to Shield Hill again. Collect the clues for The Dead Rise! Fengir's Clue (57,77) - Mound of dirt, Rodin's Clue (59,76) Unlocked chest, Isuldof's Clue (59,79) Look for a shield, Windan's Clue (61,80) Under a cannonball.| |QID|11504|
-
-T Parts for the Job |N|Run back north to New Agamand (54,66)| |QID|11309|
+T Parts for the Job |QID|11309| |N|Back at New Agamand (53.66, 65.29)|
 A Warning: Some Assembly Required |QID|11310|
+T Shield Hill |QID|11424|
 
-C Warning: Some Assembly Required |N|Now head back north to Halgrind at (48,58) Use the Abomination Assembly Kit to summon an abomination, round up a bunch of Vykrul and detonate it. Repeat this until you have killed 20 of them.| |QID|11310|
+C Warning: Some Assembly Required |QID|11310| |U|33613| |N|Back at Halgrind (48,58).  Use the kit, round up a bunch of vykrul and blow up the abomination.  Repeat.|
 
-C Draconis Gastritis |N|Go back to Ember Clutch at (41,51) Look up in the air and find a Proto-Drake then place Tillinghast's Plagued Meat on the ground to summon it down then kill it.| |QID|11280|
+C Draconis Gastritis |QID|11280| |U|33441| |N|Back at the Ember Clutch (41,51).  Find a rroto-drake then use the plagued meat to lure it down.|
 
-T The Dead Rise! |N|Run back to the Ancient Lift at (40,60)| |QID|11504|
+T The Dead Rise! |QID|11504| |N|Back at the Ancient Lift (40.32, 60.25)|
 A Elder Atuik and Kamagua |QID|11507|
-
-T The Dead Rise! |N|Take the lift down to the island again and go north to Kamagua at (25,57)| |QID|11507|
+T Elder Atuik and Kamagua |QID|11507| |N|Ride the lift down to Kamagua (25.05, 56.99)|
 A Grezzix Spindlesnap |QID|11508|
+A Feeding the Survivors |QID|11456|
 
-T Grezzix Spindlesnap |N|Head west into the water to the small boat at (23,63)| |QID|11508|
-A Street “Cred” |QID|11509|
+C Feeding the Survivors |QID|11456| |N|All over the island|
+T Feeding the Survivors |QID|11456| |N|Back at Kamagua (25.04, 57.02)|
+A Arming Kamagua |QID|11457|
+C Arming Kamagua |QID|11457| |N|Lots on the northern part of the island|
+T Arming Kamagua |QID|11457| |N|Back at Kamagua (25.06, 57.00)|
+A Avenge Iskaal |QID|11458|
 
-T Street “Cred” |NODEBUG| |N|Then talk to Lou on the small boat next to him, and get a ride to Scalawag. Once you land go inside the small tent.| |QID|11509|
-A “Scoodles” |NODEBUG| |QID|11510|
+T Grezzix Spindlesnap |QID|11508| |N|In a little boat just off shore to the southwest (23.06, 62.65)|
+A Street "Cred" |QID|11509|
+
+T Street "Cred" |QID|11509| |N|At Scalawag Point (35.14, 80.91), on the far side of the island to the southeast|
+A "Scoodles" |QID|11510|
 A Forgotten Treasure |QID|11434|
 
-C “Scoodles” |NODEBUG| |N|Jump into the water and swim out to (38,84) Find and kill the Orca Scoodles and loot the Scrying Crystal from him.| |QID|11510|
-C Forgotten Treasure |N|Then swim under the water and get these items: Amani Vase: (38,85) Eagle Figurine: (37,84)| |QID|11434|
+C "Scoodles" |QID|11510| |N|Just off shore to the south|
+C Forgotten Treasure |QID|11434| |U|34076| |N|Dive down to the wreckage.  Use the [Fish Bladder] if you need.  Find the Eagle Figurine in one boat (37.79, 84.59) and the Amani Vase in the other (37.18, 85.56)|
 
-T “Scoodles” |NODEBUG| |N|Swim back to Scalawag Point at (35,81)| |QID|11510|
+T Forgotten Treasure |QID|11434| |N|Back at Scalawag Point (35.59, 80.27)|
+A The Fragrance of Money |QID|11455|
+T "Scoodles" |QID|11510|
 A The Staff of Storm's Fury |QID|11511|
-A The Frozen Heart of Isuldorf |QID|11512|
+A The Frozen Heart of Isuldof |QID|11512|
 A The Lost Shield of the Aesirites |QID|11519|
 A The Ancient Armor of the Kvaldir |QID|11567|
-T Forgotten Treasure |QID|11434|
-A The Fragrance of Money |QID|11455|
 A Gambling Debt |QID|11464|
-A Swabbin' Soap |QID|11469|
-C Gambling Debt |N|Go back inside the tent and talk to Harry, tell him to pay up then give him a beating.  After he gives up talk to him again and collect the debt for Gambling Debt.| |QID|11464|
+C Gambling Debt |QID|11464| |N|Ah, beatin people for money, gotta love it|
 T Gambling Debt |QID|11464|
 A Jack Likes His Drink |QID|11466|
-C Jack Likes His Drink |N|Go inside the inn now and talk to Olga, and bribe her to help you. Once he passes out click on him and search him for the debt to complete Jack Likes His Drink.| |QID|11466|
-T Jack Likes His Drink |N|Go back out to Taruk.| |QID|11466|
+C Jack Likes His Drink |QID|11466| |N|Inside the building, on the second level (35.45, 79.41).  Talk to the barmaid, then pick his pocket when he passes out.|
+T Jack Likes His Drink |QID|11466|
 A Dead Man's Debt |QID|11467|
 
-C The Fragrance of Money |N|Follow the road around the island to (33,76) Kill the Rabid Bears here for their musk.| |QID|11455|
+C The Ancient Armor of the Kvaldir |QID|11567| |N|Hop a bomber ride near the shore (36.06, 81.62).  Head down into the hold of the ship, then take the bomber back.|
 
-C Swabbin' Soap |N|Jump into the water and swim to (31,78) Kill Big Roy and get his Blubber.| |QID|11469|
+A Swabbin' Soap |QID|11469|
+C Swabbin' Soap |QID|11469| |N|Kill Big Roy, southwest of the other sea lions (31.64, 77.50)|
+C The Fragrance of Money |QID|11455| |N|Bear musk always gets me horny|
 
-T Swabbin' Soap |N|Run back to the Pirate camp at (35,81)| |QID|11469|
+T The Lost Shield of the Aesirites |QID|11519| |N|Head out to the little island to the east (38.00, 74.48).  Hop on the boat when it docks.|
+A Mutiny on the Mercy |QID|11527|
+C Mutiny on the Mercy |QID|11527| |N|Down in the ship's hold|
+T Mutiny on the Mercy |QID|11527|
+A Sorlof's Booty |QID|11529|
+C Sorlof's Booty |QID|11529| |N|When the ship goes near shore, use the cannon at the other end of the ship, then swim to shore and grab da loots|
+T Sorlof's Booty |QID|11529| |N|Back to the little island (38.00, 74.48) to board the ship|
+A The Shield of the Aesirites |QID|11530|
+
+T Swabbin' Soap |QID|11469| |N|Back at Scalawag Point (37.75, 79.55)|
 T The Fragrance of Money |QID|11455|
 A A Traitor Among Us |QID|11473|
-T A Traitor Among Us |QID|11459|
+T A Traitor Among Us |QID|11473|
 A Zeh'gehn Sez |QID|11459|
 T Zeh'gehn Sez |QID|11459|
 A A Carver and a Croaker |QID|11476|
-C A Carver and a Croaker |N|Go inside the tent and talk to Silvermoon Harry and buy a Shiny Knife from him. Then go by the docks and click on a scalawag Frog to complete A Carver and a Croaker.| |QID|11476|
+C A Carver and a Croaker |QID|11476| |N|Buy the knife from "Silvermoon" Harry and grab a frog nearby|
 T A Carver and a Croaker |QID|11476|
-A “Crowleg” Dan |NODEBUG| |QID|11479|
-C “Crowleg” Dan |NODEBUG| |N|Go to the southern boat and to the back of it.  Talk to Crowleg Dan and he will attack you, just kill him and complete “Crowleg” Dan.| |QID|11479|
-T “Crowleg” Dan |NODEBUG| |N|Go back to Handsome Terry now.| |QID|11479|
+A "Crowleg" Dan |QID|11479|
+C "Crowleg" Dan |QID|11479| |N|Over on the ship there (35.92, 83.55)|
+T "Crowleg" Dan |QID|11479|
 A Meet Number Two |QID|11480|
-T Meet Number Two |N|Go inside the inn and to the top floor. Talk to Annie Bonn. |QID|11480|
+T Meet Number Two |QID|11480| |N|In the building, upstairs (35.33, 79.49)|
 A The Jig is Up |QID|11471|
+C The Jig is Up |QID|11471| |N|Head to the bear cave on the north side of the island (33.56, 75.58).  Go in, beat down Jonah.  Then beat on his furry friend a little.  If you fail, skip this, but make sure you get the Frozen Heart.|
+C The Frozen Heart of Isuldof |QID|11512| |N|Near where the bear spawns (32.37, 78.69)|
 
-C The Ancient Armor of the Kvaldir |N|Take Harry's Bomber to the small island. Go inside the boat here and loot the Ancient Armor.| |QID|11567|
+C Dead Man's Debt |QID|11467| |N|On the north island, up on one of the rises under the lift (32.74, 60.33)|
 
-R Scalawag Point |N|Take the bomber back to Scalawag Point.|
+C Avenge Iskaal |QID|11458| |N|On the east side of the island (33.89, 63.57).  Use the horn for a cute little helper.| |U|36777|
+C The Staff of Storm's Fury |QID|11511| |N|In the hold of the ship.  Sneak past the elite when he heads onto the upper bow of the ship.|
 
-T The Lost Shield of the Aesirites |N|Go to the small island at (38,75) Board the boat when it comes by and talk to Captain Ellis.| |QID|11519|
-A Mutiny on the Mercy |QID|11527|
-C Mutiny on the Mercy |N|Go down below the deck and kill the Mutinous Dogs and collect the 5 blasting powder.| |QID|11527|
-T Mutiny on the Mercy |N|Then go back to the top deck.| |QID|11527|
-A Sorlof's Booty |QID|11529|
-C Sorlof's Booty |N|Use the big cannon on the opposite side of the boat to kill Sorlof, then jump off the boat and get the booty he drops.| |QID|11529|
-T Sorlof's Booty |N|Then swim back to the island you first boarded on at (38,75), board the boat again and talk to Captain Ellis.| |QID|11529|
-A The Shield of Aeserites |QID|11530|
+T Avenge Iskaal |QID|11458| |N|Back at Kamagua (25.04, 57.03)|
+A Travel to Moa'ki Harbor |QID|12118|
+A The Way to His Heart... |QID|11472|
+C The Way to His Heart... |QID|11472| |U|34127| |N|Find fish schools in the waters between the two islands and use the net on them.  You'll probably need at least two school's worth.  Target a bull on the south shore, stand as far away as you can and toss him a fish.  Move north and repeat.|
 
-C The Jig is Up |N|Go to the cave on the island at (33,75) Go inside the cave and fight with Jonah Sterling, at 30% he will jump down to his bear.  Get back to full health then fight the bear and kill it to get the spyglass.| |QID|11471|
-C The Frozen Heart of Isuldorf |N|Go to the very back of the cave now and loot the Frozen Heart.| |QID|11512|
+T The Jig is Up |QID|11471| |N|Back at Scalawag Point (35.40, 79.46)|
+T Dead Man's Debt |QID|11467|
 
-C The Staff of Storm's Fury |N|Go back out of the cave and head north to the large island.  Go to the boat at (35,65) The top of the boat you will have a 72 elite to get by, but in the very bottom of the boat you will find the Staff of Storm's Fury.| |QID|11511|
+T The Way to His Heart... |QID|11472| |N|Back at Kamagua (24.66, 58.81)|
 
-A The Way to His Heart... |N|Run back to Kamagua at (25,58)| |QID|11472|
-T Feeding the Survivors |QID|11456|
-A Arming Kamagua |QID|11457|
-
-C Arming Kamagua |N|Run south to (28,69) Kill the Frostwing Chimaera and collect their horns.| |QID|11457|
-
-C The Way to His Heart... |N|Now jump out into the water around (29,76) Use the net you were given on the Schools of Tasty Fish  and collect about 15 of them.  Then go to the Reef bulls at 34,68 and throw one of them a fish.  They will follow you as long as you continue to throw them fish.  So lead them to the cows around 31,74, they will fall in love.| |QID|11472|
-
-T A The Way to His Heart... |N|Run back to Kamagua at (25,58)| |QID|11472|
-T Arming Kamagua |QID|11457|
-A Avenge Iskaal |QID|11458|
-
-C Avenge Iskaal |N|Go to the southeaster part of the Island to Iskaal at (34,64) Kill the Northsea Slavers.| |QID|11458|
-
-C Dead Man's Debt |N|Go across the bridges to the Plateau at (33,60) Click on the mound of dirt and this will summon 3 mobs.  Kill the two spectral sailors then kill Black Conrad and loot his treasure.| |QID|11467|
-
-T Avenge Iskaal |N|Run back to Kamagua again at (25,57)| |QID|11458|
-
-T Dead Man's Debt |N|Go back out to the boat and take it back to Scalawag.| |QID|11467|
-T The Jig is Up |N|Go inside the inn and to the top level.| |QID|11471|
-
-H New Agamand
-T Draconis Gastritis |QID|11280|
-T Warning: Some Assembly Required |QID|11310|
-
-T The Staff of Storm's Fury |N|Run back to the Lift at (40,60)| |QID|11511|
-T The Frozen Heart of Isuldorf |QID|11512|
-T The Lost Shield of the Aesirites |QID|11519|
+T The Staff of Storm's Fury |QID|11511| |N|At the top of the Ancient Lift (40.33, 60.14)|
+T The Frozen Heart of Isuldof |QID|11512|
+T The Shield of the Aesirites |QID|11530|
 T The Ancient Armor of the Kvaldir |QID|11567|
 A A Return to Resting |QID|11568|
 
-C A Return to Resting |N|Run back to the far south to Shield Hill. o to each of the burial locations and replace the item: Fengir is at (57,77) Rodin is at (59,76) Isuldof is at (59,79) Wodin is at (62, 80)| |QID|11568|
+T Draconis Gastritis |QID|11280| |N|Back at New Agamand (53.01, 66.84)|
+T Warning: Some Assembly Required |QID|11310|
 
-T A Return to Resting |N|Run back to Orfus at (40,60)| |QID|11568|
+C A Return to Resting |QID|11568| |N|Back down at Shield Hill, use the [Bundle of Vrykul Artifacts] at each grave (57.65, 77.53) (59.19, 76.96) (61.93, 80.06) (59.76, 79.38)| |U|34624|
+T A Return to Resting |QID|11568| |N|Back at the Ancient Lift (40.33, 60.27)|
 A Return to Atuik |QID|11572|
+T Return to Atuik |QID|11572| |N|Down at Kamagua (25.04, 56.99)|
 
-T Return to Atuik |N|Take the lift back down to Kamagua at (25,57)| |QID|11572|
+T Help for Camp Winterhoof |QID|12566| |N|At Camp Winterhoof on the far north edge of the zone (48.11, 10.85)|
+A Hasty Preparations |QID|11271|
+A Suppressing the Elements |QID|11311|
+A Making the Horn |QID|11275|
 
-F Taunka'le Village
-A Across Tansborea |QID|11930|
+N Feathers... |N|Collect any feathers you come across for "Hasty Preparations"|
+C Making the Horn |N|Kill rams to the east.  Kill any elementals you happen upon as well for "Suppressing the Elements".| |QID|11275|
 
-C Across Tansborea |N|Escort the Refugee, follow the road straight east into Dragonblight.| |QID|11930|
+T Making the Horn |QID|11275| |N|Back at Camp Winterhoof (49.33, 11.84)|
+A Mimicking Nature's Call |QID|11281|
+A The Frozen Glade |QID|11312|
+A The Book of Runes |QID|11350|
+A Keeping Watch on the Interlopers |QID|11297|
+A March of the Giants |QID|11365|
+
+C Mimicking Nature's Call |QID|11281| |U|33450| |N|Use the horn to the northeast at the frozen waterfall (52.40, 4.27).|
+C Suppressing the Elements |QID|11311| |N|Kill elementals.|
+
+T The Frozen Glade |QID|11312| |N|Southwest at The Frozen Glade (61.52, 22.80)|
+A Spirits of the Ice |QID|11313|
+C Spirits of the Ice |QID|11313| |N|All around the Frozen Glade|
+T Spirits of the Ice |QID|11313|
+A The Fallen Sisters |QID|11314|
+A Wild Vines |QID|11315|
+
+C The Fallen Sisters |QID|11314| |N|Southwest at the Vibrant Glade (53,28).  Beat down the nymphs, then use the pendant on them.| |U|33606|
+C Wild Vines |QID|11315|
+
+T The Fallen Sisters |QID|11314| |N|Back at the Frozen Glade (61.48, 22.77)|
+T Wild Vines |QID|11315|
+A Spawn of the Twisted Glade |QID|11316|
+A Seeds of the Blacksouled Keepers |QID|11319|
+
+C The Book of Runes |QID|11350| |N|Kill iron dorfs to the east at Giants' Run (72,24) for chapters, then combine them| |U|33778|
+
+C Seeds of the Blacksouled Keepers |QID|11319| |N|Northwest at the Twisted Glade (54,16).  Kill the spores, then use the core on them.| |U|33607|
+C Spawn of the Twisted Glade |QID|11316|
+
+T Suppressing the Elements |QID|11311| |N|Back at Camp Winterhoof (49.01, 12.03)|
+T Mimicking Nature's Call |QID|11281|
+T The Book of Runes |QID|11350|
+A Mastering the Runes |QID|11351|
+A Skorn Must Fall! |QID|11256|
+
+T Spawn of the Twisted Glade |QID|11316| |N|Back at the Frozen Glade (61.52, 22.87)|
+A Keeper Witherleaf |QID|11428|
+T Seeds of the Blacksouled Keepers |QID|11319|
+
+C Mastering the Runes |QID|11351| |N|Find the carving tools in the tents around Giants' Run (69.1, 22.8) (67.5, 23.4) (67.5, 29.2) (71.2, 28.7) (73.4, 25.0) (72.4, 17.8)|
+
+C Keeper Witherleaf |QID|11428| |N|Back at the Twisted Glade (54,17)|
+
+T Mastering the Runes |QID|11351| |N|Back at Camp Winterhoof (49.15, 12.15)|
+A The Rune of Command |QID|11352|
+
+C The Rune of Command |QID|11352| |U|33796| |N|Use the rune on a normal giant then kill Binder Murdis.  He should be easy to find, look for a yellow binding ribbon in the middle fo Giants' Run (71.79, 24.31).|
+
+T Keeper Witherleaf |QID|11428| |N|Back at the Frozen Glade (61.46, 22.80)|
+
+T Skorn Must Fall! |QID|11256| |N|Head west to Skorn (44.30, 26.48), use the Winterhoof Emblem| |U|33340|
+A Gruesome, But Necessary |QID|11257|
+A Burn Skorn, Burn! |QID|11258|
+A Towers of Certain Doom |QID|11259|
+N Use the machete on any vrykul you kill
+
+C Burn Skorn, Burn! |QID|11258| |U|33321| |N|Use the torch to burn the Northeast Longhouse (46.38, 28.13), Barracks (45.94, 30.72), and Northwest Longhouse (43.66, 28.67)|
+C Towers of Certain Doom |QID|11259| |U|33323| |N|Use the flare on the Northwest Tower (44.57, 30.04), East Tower (45.82, 32.14), Southwest Tower (43.67, 34.44) and Southeast (46.29, 36.32)|
+
+A Stop the Ascension! |QID|11260| |O| |N|Use the [Vrykul Scroll of Ascension]| |U|33345|
+C Stop the Ascension! |QID|11260| |O| |N|Use the scroll at Thane's Pyre (44.65, 35.30), kill Halfdan.| |U|33346|
+
+C Gruesome, But Necessary |QID|11257| |U|33310| |N|Kill vrykul, hack em up!|
+
+T Towers of Certain Doom |QID|11259|
+T Gruesome, But Necessary |QID|11257|
+T Burn Skorn, Burn! |QID|11258|
+A The Conqueror of Skorn! |QID|11261|
+
+T The Conqueror of Skorn! |QID|11261| |N|Back at Camp Winterhoof (48.13, 10.79)|
+A Dealing With Gjalerbron |QID|11263|
+T Stop the Ascension! |QID|11260|
+T The Rune of Command |QID|11352|
+A Find Sage Mistwalker |QID|11287|
+A Of Keys and Cages |QID|11265|
+
+C Of Keys and Cages |QID|11265| |N|Kill vrykul to the west at Gjalerbron, open cages.  If you get the large cage key, you can get a bunch at once in the center of Gjalerbron (35.77, 11.46)|
+C Dealing With Gjalerbron |QID|11263|
+A Gjalerbron Attack Plans |QID|11266| |N|Use the [Gjalerbron Attack Plans].  If you didn't get them, keep killing oversized dwarfs.| |U|33347|
+
+T Find Sage Mistwalker |QID|11287| |N|South at Steel Gate (31.14, 24.44)|
+A The Artifacts of Steel Gate |QID|11286|
+A Rivenwood Captives |QID|11296|
+C The Artifacts of Steel Gate |QID|11286| |N|Below in the excavation site.|
+T The Artifacts of Steel Gate |QID|11286|
+A The Cleansing |QID|11317|
+
+T Keeping Watch on the Interlopers |QID|11297| |N|West at the Apothecary Camp (26.35, 24.53)|
+A What's in That Brew? |QID|11298|
+A And You Thought Murlocs Smelled Bad! |QID|11397|
+A Brains! Brains! Brains! |QID|11301|
+
+A Trident of the Son |QID|11422| |N|Take the path down the cliff (25.6, 20.2), then due west to the little island (19.72, 22.15).|
+C And You Thought Murlocs Smelled Bad! |QID|11397|
+A It's a Scourge Device |QID|11398| |U|33962| |N|Keep killing scourge until you get this item.|
+
+T And You Thought Murlocs Smelled Bad! |QID|11397| |N|Back at the Apothecary Camp (26.25, 24.56)|
+T It's a Scourge Device |QID|11398|
+A Bring Down Those Shields |QID|11399|
+
+T Gjalerbron Attack Plans |QID|11266| |N|Back at Camp Winterhoof (49.50, 11.49)|
+A The Frost Wyrm and its Master |QID|11267|
+T Of Keys and Cages |QID|11265|
+A The Walking Dead |QID|11268|
+T Dealing With Gjalerbron |QID|11263|
+A Necro Overlord Mezhen |QID|11264|
+A Sleeping Giants |QID|11433|
+
+C The Cleansing |QID|11317| |N|Head up the mountain path (53.65, 8.07) to the shrine (61.29, 1.61).  Kill "yourself" then slowfall down to Camp Winterhoof.|
+F Camp Winterhoof |N|Slowfall is fun!|
+T The Cleansing |QID|11317| |N|Back at Steel Gate (31.12, 24.53)|
+A In Worg's Clothing |QID|11323|
+
+C Sleeping Giants |QID|11433| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
+K Fearsome Horrors |Q|The Walking Dead| |QO|Fearsome Horror slain: 4/4|
+C Necro Overlord Mezhen |QID|11264| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
+A The Slumbering King |QID|11453| |U|34091| |N|From the scroll dropped by Mezhen|
+C The Slumbering King |QID|11453| |N|Kill Queen Angerboda at the far end of Gjalerbron (41.05, 6.32)|
+C The Frost Wyrm and its Master |QID|11267| |U|33282| |N|Clear the area around Wyrmcaller Vile (36.48, 7.34), then kill him, loot the [Wyrmcaller's Horn] and use it.  Kill Glacion.  Watch out, Vile has a short respawn time.  If you fail, find a friend or skip this.|
+C The Walking Dead |QID|11268|
+
+T In Worg's Clothing |QID|11323| |N|North to the edge of the zone, in a cave in Rivenwood (29.71, 5.59).  Use the [Worg Disguise]| |U|33618|
+A Brother Betrayers |QID|11415|
+
+C Brother Betrayers |QID|11415| |N|Kill Bjomolf to the east around the Apothecary Camp (29.11, 21.71).  Varg is southeast of Steel Gate (35.41, 31.22).  If you use the [Worg Disguise] you'll have an easier time spotting them.| |U|33618|
+T Brother Betrayers |QID|11415| |N|Back at the cave in Rivenwood (29.67, 5.63)| |U|33618|
+A Eyes of the Eagle |QID|11417|
+
+C Eyes of the Eagle |QID|11417| |N|Southwest of Skorn at the base of the big waterfall (41.43, 37.64).  Grab the egg, kill the eagle.|
+C Brains! Brains! Brains! |QID|11301| |U|33554| |N|Due west in Whisper Gulch.  Keel dorfs and hack off their brains.|
+C What's in That Brew? |QID|11298|
+C Trident of the Son |QID|11422| |N|Kill Rotgill out on Chillmere Coast (23.98, 35.40)|
+C Bring Down Those Shields |QID|11399| |U|33960| |N|Head up the shore to the scourge crystals.  Use the control crystal to bring down the shields, then break the crystals.|
+T Trident of the Son |QID|11422| |N|Back up on the island (19.69, 22.21)|
+
+T Brains! Brains! Brains! |QID|11301| |N|Back at the Apothecary Camp (26.01, 24.36)|
+T Bring Down Those Shields |QID|11399|
+T What's in That Brew? |QID|11298|
+
+T Eyes of the Eagle |QID|11417| |N|Back at the cave in Rivenwood (29.67, 5.63)| |U|33618|
+A Alpha Worg |QID|11324|
+C Alpha Worg |QID|11324| |N|Spawns just south of the cave (27.44, 8.19)|
+C Rivenwood Captives |QID|11296| |N|Attack the cocoons to the south.|
+
+T Alpha Worg |QID|11324| |N|Back at Steel Gate (31.11, 24.51)|
+T Rivenwood Captives |QID|11296|
+
+C Hasty Preparations |QID|11271|
+
+T The Frost Wyrm and its Master |QID|11267| |N|Back at Camp Winterhoof (49.51, 11.54)|
+T The Walking Dead |QID|11268|
+T Necro Overlord Mezhen |QID|11264|
+T The Slumbering King |QID|11453|
+T Sleeping Giants |QID|11433|
+T Hasty Preparations |QID|11271|
+
+F Kamagua
+B Moa'ki Harbor |N|Whee! Turtleboat!|
+A Your Presence is Required at Agmar's Hammer |QID|11996| |N|From Envoy Ripfang in the main tent (48.0, 74.8).|
+T Your Presence is Required at Agmar's Hammer |QID|11996| |N|Northwest at Agmar's Hammer (30.8, 46.3).|
 ]]
 end)
