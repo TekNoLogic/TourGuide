@@ -1,3 +1,7 @@
+3.1.0.52-Beta
+    Added koKR Localization
+    Bring in Spugnort's guide files for horde wrath
+
 3.1.0.51-Beta
     Fix use item button
     Force status frame resize on ADDON_LOADED in case of font changes
