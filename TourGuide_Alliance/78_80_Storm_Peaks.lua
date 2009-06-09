@@ -1,5 +1,5 @@
 
-TourGuide:RegisterGuide("The Storm Peaks (78-80)", nil, "Alliance", function()
+TourGuide:RegisterGuide("The Storm Peaks (78-80)", "Icecrown (80)", "Alliance", function()
 return [[
 A Luxurious Getaway! |QID|12853| |N|In the Dalaran sewers (31.63, 50.19)| |Z|Dalaran| |T|
 
