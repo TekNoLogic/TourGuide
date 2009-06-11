@@ -121,9 +121,10 @@ T Find the Ancient Hero |QID|13133|
 T Blackwatch |QID|13106|
 A Where Are They Coming From? |QID|13117|
 C Where Are They Coming From? |QID|13117|
-T Where Are They Coming From? |QID|13117|
+T Where Are They Coming From? |QID|13117| |N|Back at Blackwatch (35.39, 66.42)|
 A Destroying the Altars |QID|13119|
 A Death's Gaze |QID|13120|
+
 K Master Summoner Zarod |L|43159||N|(36.5,71.2)|
 N First Summoning Altar destroyed |Q|Destroying the Altars| |QO|First Summoning Altar destroyed: 1/1| |U|43159| |N|(36.74,70.72)|
 N Second Summoning Altar destroyed |Q|Destroying the Altars| |QO|Second Summoning Altar destroyed: 1/1| |U|43159| |N||
@@ -132,8 +133,9 @@ C Destroying the Altars |QID|13119| |U|43159|
 N Orb placed in abomination lab |Q|Death's Gaze| |QO|Orb placed in abomination lab: 1/1| |N|(32.6,70.6)| |U|43229| |Z|Icecrown|
 N Orb placed in flesh giant lab |Q|Death's Gaze| |QO|Orb placed in flesh giant lab: 1/1| |N|(34.6,69.6)| |U|43229| |Z|Icecrown|
 C Death's Gaze |QID|13120| |U|43229| |N|(30.5,65.1)| |Z|Icecrown|
-T Death's Gaze |QID|13120|
+
 T Destroying the Altars |QID|13119|
+T Death's Gaze |QID|13120|
 A Spill Their Blood |QID|13134|
 K Spiked Ghouls |L|43242| |N|Kill Spiked Ghouls until a Jagged Shard drops.|
 A Jagged Shards |QID|13136| |U|43242|
@@ -201,26 +203,32 @@ A The Last Line Of Defense |QID|13086|
 C The Last Line Of Defense |QID|13086|
 T The Last Line Of Defense |QID|13086|
 A Once More Unto The Breach, Hero |QID|13105|
-T Once More Unto The Breach, Hero |QID|13105|
+
+T Once More Unto The Breach, Hero |QID|13105| |N|Just outside the Argent Vanguard at the Valley of Echoes (83.05, 72.87)|
 A The Purging Of Scourgeholme |QID|13118|
 A The Scourgestone |QID|13122|
-A It Could Kill Us All |QID|13135|
 A The Stone That Started A Revolution |QID|13130|
+A It Could Kill Us All |QID|13135|
 A The Restless Dead |QID|13110|
+
 C The Restless Dead |QID|13110| |U|43153|
 C The Purging Of Scourgeholme |QID|13118| |U|43153|
 C The Scourgestone |QID|13122| |U|43153|
+
 C It Could Kill Us All |QID|13135|
 C The Stone That Started A Revolution |QID|13130|
-T It Could Kill Us All |QID|13135|
+
 T The Stone That Started A Revolution |QID|13130|
-T The Restless Dead |QID|13110|
-T The Purging Of Scourgeholme |QID|13118|
+T It Could Kill Us All |QID|13135|
+T The Purging Of Scourgeholme |QID|13118| |N|Back at the Valley of Echoes (83.03, 72.87)|
 T The Scourgestone |QID|13122|
+T The Restless Dead |QID|13110|
 A The Air Stands Still |QID|13125|
+
 K Salranax the Flesh Render |Q|The Air Stands Still| |QO|Salranax the Flesh Render slain: 1/1| |U|43206| |N|(77.32,61.90)|
 K Underking Talonox |Q|The Air Stands Still| |QO|Underking Talonox slain: 1/1| |U|43206| |N|(76.40,53.35)|
 K High Priest Yath'amon |Q|The Air Stands Still| |QO|High Priest Yath'amon slain: 1/1| |U|43206| |N|(80.18,61.22)|
+
 T The Air Stands Still |QID|13125|
 A Into The Frozen Heart Of Northrend |QID|13139|
 T Into The Frozen Heart Of Northrend |QID|13139| |U|43290|
@@ -230,57 +238,56 @@ T The Battle For Crusaders' Pinnacle |QID|13141|
 A The Crusaders' Pinnacle |QID|13157|
 T The Crusaders' Pinnacle |QID|13157|
 A A Tale of Valor |QID|13068|
-h Crusaders' Pinnacle
 
 T A Tale of Valor |QID|13068|
 A A Hero Remains |QID|13072|
 T A Hero Remains |QID|13072|
 A The Keeper's Favor |QID|13073|
-N Talk to Arch Druid Lilliandra |N|(87.05,77.02)|
-T The Keeper's Favor |QID|13073|
+T The Keeper's Favor |QID|13073| |N|Talk to Arch Druid Lilliandra (87.05, 77.02) for a port.|
 A Hope Within the Emerald Nightmare |QID|13074|
-N Recover 3 Emerald Acorns |L|44790 3|
+C Hope Within the Emerald Nightmare |QID|13074|
 T Hope Within the Emerald Nightmare |QID|13074|
 A The Boon of Remulos |QID|13075|
-C The Boon of Remulos |QID|13075| |U|44790|
-H Crusaders' Pinnacle
-T The Boon of Remulos |QID|13075|
+T The Boon of Remulos |QID|13075| |N|Back at the Silent Vigil (79.86, 30.90)|
 A Time Yet Remains |QID|13076|
-T Time Yet Remains |QID|13076|
+T Time Yet Remains |QID|13076| |N|Back at Crusaders' Pinnacle (79.78, 71.82)|
 A The Touch of an Aspect |QID|13077|
-T The Touch of an Aspect |QID|13077|
+
+T The Touch of an Aspect |QID|13077| |N|Fly down to Dragonblight, Wyrmrest Temple (59.84, 54.59)| |Z|Dragonblight|
 A Dahlia's Tears |QID|13078|
-N Dahlia's Tears |Q|Dahlia's Tears| |QO|Dahlia's Tears: 1/1|
-T Dahlia's Tears |QID|13078|
+C Dahlia's Tears |QID|13078| |N|Head west to the Ruby Dragonshrine (50.15, 52.52).  Wait for a red dragon to come by and burn the undead, then loot the flower.| |Z|Dragonblight|
+T Dahlia's Tears |QID|13078| |N|Back at Wyrmrest Temple (59.83, 54.61)| |Z|Dragonblight|
 A The Boon of Alexstrasza |QID|13079|
-C The Boon of Alexstrasza |QID|13079|
-T The Boon of Alexstrasza |QID|13079|
+
+T The Boon of Alexstrasza |QID|13079| |N|Back at the Silent Vigil (79.82, 30.90)|
 A Hope Yet Remains |QID|13080|
-T Hope Yet Remains |QID|13080|
+T Hope Yet Remains |QID|13080| |N|Back at Crusaders' Pinnacle (79.81, 71.78)|
 A The Will of the Naaru |QID|13081|
-T The Will of the Naaru |QID|13081|
+T The Will of the Naaru |QID|13081| |N|Wait a moment for a portal to be opened.|
 A The Boon of A'dal |QID|13082|
-T The Boon of A'dal |QID|13082|
+T The Boon of A'dal |QID|13082| |N|Talk to A'dal for a port back.|
 A Light Within the Darkness |QID|13083|
-T Light Within the Darkness |QID|13083|
+T Light Within the Darkness |QID|13083| |N|Back at Crusaders' Pinnacle (79.78, 71.72)|
 A The Skybreaker |QID|13225|
 
-T The Skybreaker |QID|13225|
+T The Skybreaker |QID|13225| |N|Aboard the Skybreaker, the ship you landed on at the start of this zone.  You can find it on the map, make sure you don't go to the horde ship, it has blimps on it.|
 A The Broken Front |QID|13231|
-C The Broken Front |QID|13231| |N|(68.48,62.24)|
+A Joining the Assault |QID|13341|
+A Get to Ymirheim! |QID|13296|
+C The Broken Front |QID|13231| |N|Head down to the Broken Front (67.67, 68.58) and question a dying soldier.|
 A Finish Me! |QID|13232|
-C Finish Me! |QID|13232|
+C Finish Me! |QID|13232| |N|You can do this while mounted!|
+
+T The Broken Front |QID|13231| |N|Back aboard the Skybreaker|
 T Finish Me! |QID|13232|
-T The Broken Front |QID|13231|
 A ...All the Help We Can Get. |QID|13286|
 A Your Attention, Please |QID|13290|
-A Joining the Assault |QID|13341|
 T ...All the Help We Can Get. |QID|13286|
 A Poke and Prod |QID|13287|
 A Exploiting an Opening |QID|13386|
 T Your Attention, Please |QID|13290|
 A Borrowed Technology |QID|13291|
-A Get to Ymirheim! |QID|13296|
+
 N Find 3 Pile of Bones |L|43609 3|
 N Find 3 Abandoned Armor |L|43616 3|
 N Find 3 Abandoned Helm |L|43610 3|
@@ -288,10 +295,13 @@ K Hulking Abominations |Q|Poke and Prod| |QO|Hulking Abominations killed: 5/5|
 K Malefic Necromancers |Q|Poke and Prod| |QO|Malefic Necromancers killed: 5/5|
 K Shadow Adepts |Q|Poke and Prod| |QO|Shadow Adepts killed: 5/5|
 C Borrowed Technology |QID|13291| |U|44048|
-T Borrowed Technology |QID|13291|
-A Poke and Prod |QID|13287|
+
+T Poke and Prod |QID|13287| |N|Back aboard the Skybreaker|
 A That's Abominable! |QID|13288|
+T Borrowed Technology |QID|13291|
 A The Solution Solution |QID|13292|
+A Killohertz |QID|13383|
+
 K Hulking Abomination |L|43966| |N|Kill one Hulking Abomination and loot Chilled Abomination Guts|
 U Abomination Reanimation Kit |U|43968|
 K Icy Ghouls Exploded |Q|That's Abominable!| |QO|Icy Ghouls Exploded: 15/15|
@@ -301,20 +311,23 @@ N Find 3 Pile of Bones |L|43609 3|
 N Find 3 Abandoned Armor |L|43616 3|
 N Find 3 Abandoned Helm |L|43610 3|
 K Frostbrood Skytalons Destroyed |Q|The Solution Solution| |QO|Frostbrood Skytalons Destroyed: 3/3| |U|44048|
+
 T The Solution Solution |QID|13292|
 T That's Abominable! |QID|13288|
 A Sneak Preview |QID|13315|
+
 N Aldur'thar South Visited |Q|Sneak Preview| |QO|Aldur'thar South Visited: 1/1| |N|(55.36,47.17)|
 N Aldur'thar Central Visited |Q|Sneak Preview| |QO|Aldur'thar Central Visited: 1/1| |N|(53.90,42.63)|
 N Aldur'thar North Visited |Q|Sneak Preview| |QO|Aldur'thar North Visited: 1/1| |N|(53.90,35.08)|
 N Aldur'thar Northwest Visited |Q|Sneak Preview| |QO|Aldur'thar Northwest Visited: 1/1| |N|(51.73,34.13)|
-T Sneak Preview |QID|13315|
-A Drag and Drop |QID|13318|
-A Chain of Command |QID|13319|
+
+T Sneak Preview |QID|13315| |N|Back aboard the Skybreaker|
 A Cannot Reproduce |QID|13320|
+A Chain of Command |QID|13319|
+A Drag and Drop |QID|13318|
+
 K Bitter Initiates |L|44246 3| |N|Kill Bitter Initiates until you loot 3 Orbs of Illusion (54.5,45.2)|
 C Drag and Drop |QID|13318| |U|44246| |N|Throw the Orbs at Dark Subjugators|
-
 K Overseer Faedris |Q|Chain of Command| |QO|Overseer Faedris Killed: 1/1| |N|(53.93,46.96)|
 K Overseer Jhaequon |Q|Chain of Command| |QO|Overseer Jhaequon Killed: 1/1| |N|(54.8,32.5)|
 K Overseer Veraj |Q|Chain of Command| |QO|Overseer Veraj Killed: 1/1| |N|(53.6,29.2)|
