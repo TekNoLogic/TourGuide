@@ -39,8 +39,6 @@ C Costly Menace |N|West on another plateau (46,81)| |Z|Alterac Mountains| |QID|5
 
 N Kill yetis |N|In the yeti cave (45.58, 31.40).  Need [Yeti Fur] x10 for "Bartolo's Yeti Fur Cloak".| |L|3720 10|
 
-B Soothing Spices |L|3713| |N|From vendor in Southshore (49.0, 55.1)|
-B Fine Thread |L|2321|
 T Encrypted Letter |QID|511|
 A Letter to Stormpike |QID|514|
 T Syndicate Assassins |QID|505|
@@ -65,10 +63,11 @@ F Stormwind City
 T Reassignment |Z|Stormwind City| |N|In Stormwind Keep (73.7, 17.6)| |QID|563|
 T Cleansing the Eye |Z|Stormwind City| |N|In Stormwind Cathedral (39,27)| |QID|293|
 A Brother Anton |N|Downstairs in Stormwind Cathedral.  Requires level 24, skip it if you can't get it.| |QID|6141|
-B Bolt of Woolen Cloth |L|2997| |N|Buy from auction or a tailor|
-B Hillman's Cloak |L|3719| |N|Buy from auction or a leatherworker.|
+B Hillman's Cloak |L|3719| |N|Buy from auction or a leatherworker.  If you can't find one, skip buying the other items and the quest "Bartolo's Yeti Fur Cloak".|
+B Bolt of Woolen Cloth |L|2997| |N|Buy from auction or a tailor.|
 
 H Southshore
+B Fine Thread |L|2321| |N|From vendor in Southshore (49.0, 55.1).  Skip if you couldn't find a Hillman's Cloak.|
 T Bartolo's Yeti Fur Cloak |QID|565|
 T Further Mysteries |N|Skip the follow-up| |QID|525|
 
