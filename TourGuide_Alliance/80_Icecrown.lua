@@ -22,7 +22,7 @@ A The Duke |QID|12938| |T|
 T The Duke |QID|12938| |T|
 A Honor Challenge |QID|12939| |T|
 A Eliminate the Competition |QID|12955| |T|
-C Honor Challenge |QID|12939| |U|41372| |N|West at the Savage Ledge. Use the flag on a vyrkyl then kill him. Repeat.|
+C Honor Challenge |QID|12939| |U|41372| |N|West at the Savage Ledge. Use the flag on a vyrkul then kill him. Repeat.|
 C Eliminate the Competition |QID|12955| |N|Kill Efrem the Faithful (37.79, 25.06), Onu'zun (37.81, 22.94), Sigrid Iceborn (37.12, 22.54) and Tinky Wickwhistle (36.10, 23.56)|
 T Eliminate the Competition |QID|12955| |T| |N|Back at the Shadow Vault (43.57, 25.10)|
 A The Bone Witch |QID|12999| |T|
@@ -48,16 +48,15 @@ A Reading the Bones |QID|13092|
 T Reading the Bones |QID|13092|
 A Deep in the Bowels of The Underhalls |QID|13042|
 
-C Crush Dem Vrykuls! |QID|12992| |N|Kill Vrykuls for keys and free prisoners on the way to the Bone Witch| |U|42480|
-C Leave Our Mark |QID|12995| |U|42480| |N|Keep killing Vrykuls for keys until you have 8 keys, and free Ebon Blade Prisoners|
-C Ebon Blade Prisoners |QID|12982|
-C Vandalizing Jotunheim |QID|13084| |T| |N|Burn 10 Banners|
+C Leave Our Mark |QID|12995| |U|42480| |N|Kill vrykul, leave banners.|
+C Vandalizing Jotunheim |QID|13084|
+C Ebon Blade Prisoners |QID|12982| |N|Keep killing for keys if you need to.|
+C Crush Dem Vrykuls! |QID|12992|
 
 A Revenge for the Vargul |QID|13059|
-C Revenge for the Vargul |QID|13059| |U|42928|
-C Deep in the Bowels of The Underhalls |QID|13042| |N|beat information out of Apprentice Osterkilgr, loot his corpse|
-U Dr. Terrible's "Building a Better Flesh Giant" |U|42772|
-A The Sum is Greater than the Parts |QID|13043|
+C Revenge for the Vargul |QID|13059| |U|42928| |N|Head down to the Circle of Suffering (33.29, 37.46), use the sword, kill crap.|
+C Deep in the Bowels of The Underhalls |QID|13042| |N|Beat up Apprentice Osterkilgr (34.27, 35.82), then kill him.  Be careful not to kill him too fast or you'll miss credit for the first half.|
+A The Sum is Greater than the Parts |QID|13043| |U|42772| |N|Use the book the apprentice dropped.|
 C The Sum is Greater than the Parts |QID|13043| |N|Kill Dr. Terrible in the Hall of Horrors (33.40, 33.20)|
 T Revenge for the Vargul |QID|13059|
 
@@ -68,55 +67,46 @@ C The Art of Being a Water Terror |QID|13091|
 T The Art of Being a Water Terror |QID|13091| |N|Back at the Bone Witch (32.55, 42.91)|
 A Through the Eye |QID|13121|
 
-T Crush Dem Vrykuls! |QID|12992| |T|
-T Leave Our Mark |QID|12995| |T|
-T Ebon Blade Prisoners |QID|12982| |T|
+T Ebon Blade Prisoners |QID|12982| |T| |N|Back at the Shadow Vault (43.15, 21.07)|
 T Vandalizing Jotunheim |QID|13084| |T|
-
+T Crush Dem Vrykuls! |QID|12992| |T|
+A Vile Like Fire! |QID|13071| |T|
+T Leave Our Mark |QID|12995| |T|
 A To the Rise with all Due Haste! |QID|12806| |T|
 A Blackwatch |QID|13106| |T|
 
-T To the Rise with all Due Haste! |QID|12806| |T|
+T To the Rise with all Due Haste! |QID|12806| |T| |N|Southwest, just past Jotunheim at Death's Rise (19.57, 48.12)|
 A The Story Thus Far... |QID|12807| |T|
-C The Story Thus Far... |QID|12807| |T|
+C The Story Thus Far... |QID|12807| |T| |N|Blah blah blah|
 T The Story Thus Far... |QID|12807| |T|
-
 A Blood in the Water |QID|12810| |T|
-C Blood in the Water |QID|12810| |U|40551|
-T Blood in the Water |QID|12810| |T|
 
-A Intelligence Gathering |QID|12838| |T|
+C Blood in the Water |QID|12810| |U|40551|
+
+T Blood in the Water |QID|12810| |T| |N|Back at Death's Rise (19.58, 48.13)|
 A You'll Need a Gryphon |QID|12814| |T|
+A Intelligence Gathering |QID|12838| |T|
 A From Their Corpses, Rise! |QID|12813|
 
-C You'll Need a Gryphon |QID|12814|
-C Intelligence Gathering |QID|12838| |L|40666| |N|Keep opening boxes until you find "Note from the Grand Admiral"|
-C From Their Corpses, Rise! |QID|12813| |U|40587|
+C From Their Corpses, Rise! |QID|12813| |U|40587| |N|Head back down to Onslaught Harbor, kill scarlets, use the tincture on their corpses.|
+C Intelligence Gathering |QID|12838| |N|Kill scarlets for keys if you don't have enough.|
+A The Grand (Admiral's) Plan |QID|12839| |U|40666| |N|Keep opening boxes until you find "Note from the Grand Admiral"|
+K Onslaught Gryphon Rider |L|40970|
 
-A The Grand (Admiral's) Plan |QID|12839| |U|40666|
-
-T The Grand (Admiral's) Plan |QID|12839| |T|
+N Don't turn in the gryphon... |N|This mount is somewhat special, as it is treated as a vehicle.  It's faster than a normal flying mount (not epic though), you can't be knocked off, you can fly indoors, get a parachute when dismounted... needless to say you might not want to turn this in until you're finished questing in Icecrown.|
+T The Grand (Admiral's) Plan |QID|12839| |T| |N|Back at Death's Rise (19.58, 48.13)|
+A In Strict Confidence |QID|12840| |T|
 T Intelligence Gathering |QID|12838| |T|
-T You'll Need a Gryphon |QID|12814| |T|
-T From Their Corpses, Rise! |QID|12813|
+T From Their Corpses, Rise! |QID|12813| |T|
 
-A In Strict Confidence |QID|12840|
-N Captain Welsington |Q|In Strict Confidence| |QO|Captain Welsington beaten for information and killed: 1/1| |N|(5.7,41.9)|
-N Captain Hartford |Q|In Strict Confidence| |QO|Captain Hartford beaten for information and killed: 1/1| |N|(7.0,41.9)|
-T In Strict Confidence |QID|12840|
-A Second Chances |QID|12847|
-N Archbishop Landgren slain |Q|In Strict Confidence| |QO|Archbishop Landgren slain: 1/1| |N|(9.5,47.1)|
-N Arete's Gate summoned |Q|In Strict Confidence| |QO|Arete's Gate summoned: 1/1| |U|40730|
-T Second Chances |QID|12847|
-A The Admiral Revealed |QID|12852|
-K Grand Admiral Westwind |Q|The Admiral Revealed| |QO|Grand Admiral Westwind dealt with: 1/1| |N|(9.0,46.1)| |U|40917|
-T The Admiral Revealed |QID|12852|
+C In Strict Confidence |QID|12840| |N|Beat Captain Welsington (5.7, 41.9) and Captain Hartford (7.0, 41.9) for information.|
+T In Strict Confidence |QID|12840| |T| |N|Back at Death's Rise (19.58, 48.13).  The follow-ups are group quests, skip them if you don't have a group to help.|
 
 C Through the Eye |QID|13121|
 T Through the Eye |QID|13121|
 A Find the Ancient Hero |QID|13133|
 C Find the Ancient Hero |QID|13133| |U|43166|
-T Find the Ancient Hero |QID|13133|
+T Find the Ancient Hero |QID|13133| |N|The follow-ups are all group quests, skip them unless you've got a group.|
 
 T Blackwatch |QID|13106|
 A Where Are They Coming From? |QID|13117|
@@ -215,10 +205,10 @@ C The Restless Dead |QID|13110| |U|43153|
 C The Purging Of Scourgeholme |QID|13118| |U|43153|
 C The Scourgestone |QID|13122| |U|43153|
 
-C It Could Kill Us All |QID|13135|
-C The Stone That Started A Revolution |QID|13130|
+C It Could Kill Us All |QID|13135| |N|Head down to Crystalsong Forest, east of the Ruins of Shandaral (79,58).| |Z|Crystalsong Forest|
+C The Stone That Started A Revolution |QID|13130| |N|Heartwood is all over the area, masonry is a bit to the south.|
 
-T The Stone That Started A Revolution |QID|13130|
+T The Stone That Started A Revolution |QID|13130| |N|Back at the Valley of Echoes (83.07, 73.06)|
 T It Could Kill Us All |QID|13135|
 T The Purging Of Scourgeholme |QID|13118| |N|Back at the Valley of Echoes (83.03, 72.87)|
 T The Scourgestone |QID|13122|
@@ -229,19 +219,19 @@ K Salranax the Flesh Render |Q|The Air Stands Still| |QO|Salranax the Flesh Rend
 K Underking Talonox |Q|The Air Stands Still| |QO|Underking Talonox slain: 1/1| |U|43206| |N|(76.40,53.35)|
 K High Priest Yath'amon |Q|The Air Stands Still| |QO|High Priest Yath'amon slain: 1/1| |U|43206| |N|(80.18,61.22)|
 
-T The Air Stands Still |QID|13125|
+T The Air Stands Still |QID|13125| |N|Back at the Valley of Echoes (83.06, 72.95)|
 A Into The Frozen Heart Of Northrend |QID|13139|
 T Into The Frozen Heart Of Northrend |QID|13139| |U|43290|
 A The Battle For Crusaders' Pinnacle |QID|13141|
-C The Battle For Crusaders' Pinnacle |QID|13141| |U|43243|
-T The Battle For Crusaders' Pinnacle |QID|13141|
+C The Battle For Crusaders' Pinnacle |QID|13141| |U|43243| |N|Head over to Crusaders' Pinnacle (79.90, 71.70), plant the banner, defend it.|
+T The Battle For Crusaders' Pinnacle |QID|13141| |N|Back at the Valley of Echoes (82.94, 72.82)|
 A The Crusaders' Pinnacle |QID|13157|
-T The Crusaders' Pinnacle |QID|13157|
+T The Crusaders' Pinnacle |QID|13157| |N|Back at Crusaders' Pinnacle (79.80, 71.74)|
 A A Tale of Valor |QID|13068|
 
-T A Tale of Valor |QID|13068|
+T A Tale of Valor |QID|13068| |N|Head due north to the Silent Vigil (79.79, 30.87)|
 A A Hero Remains |QID|13072|
-T A Hero Remains |QID|13072|
+T A Hero Remains |QID|13072| |N|Back at Crusaders' Pinnacle (79.87, 71.74)|
 A The Keeper's Favor |QID|13073|
 T The Keeper's Favor |QID|13073| |N|Talk to Arch Druid Lilliandra (87.05, 77.02) for a port.|
 A Hope Within the Emerald Nightmare |QID|13074|
@@ -445,12 +435,13 @@ A Mind Tricks |QID|13308|
 
 C Blood of the Chosen |QID|13336|
 C Slaves to Saronite |QID|13300|
-C Mind Tricks |QID|13308|
+C Mind Tricks |QID|13308| |N|This says it's a G3 quest, but you might be able to solo it.  Get help if you can.|
 
 T Blood of the Chosen |QID|13336|
 T Slaves to Saronite |QID|13300|
 T Mind Tricks |QID|13308|
 
+T Vile Like Fire!
 A Parting Gifts |QID|13168|
 C Parting Gifts |QID|13168|
 T Parting Gifts |QID|13168|
@@ -498,13 +489,6 @@ N Deliver Scourge Bomb |Q|Generosity Abounds| |QO|Scourge Bomb gift delivered: 4
 N Start Worker Fights |Q|Matchmaker| |QO|Worker fight started: 5/5|
 T Stunning View |QID|13160|
 
-A Against the Giants |QID|13294|
-C Against the Giants |QID|13294| |L|43997 3|
-T Against the Giants |QID|13294|
-A Coprous the Defiled |QID|13298|
-C Coprous the Defiled |QID|13298|
-T Coprous the Defiled |QID|13298|
-
 A Bloodspattered Banners |QID|13334|
 A Get the Message |QID|13314|
 
@@ -516,79 +500,6 @@ C Get the Message |QID|13314| |U|44222|
 
 T Get the Message |QID|13314|
 T Bloodspattered Banners |QID|13334|
-
-A The Ironwall Rampart |QID|13337|
-C The Ironwall Rampart |QID|13337| |U|44186|
-T The Ironwall Rampart |QID|13337|
-
-A Before the Gate of Horror |QID|13335|
-K Skeletal Reaver |Q|Before the Gate of Horror| |QO|Skeletal Reaver bones dissolved: 6/6| |U|44653|
-T Before the Gate of Horror |QID|13335|
-A Shatter the Shards |QID|13339|
-A The Guardians of Corp'rethar |QID|13338|
-N Broken Shard of Horror |L|44319| |N|(47,78,68.14)|
-N Broken Shard of Despair |L|44320| |N|(49.83,66.71)|
-N Broken Shard of Suffering |L|44321| |N|(45.82,69.52)|
-C The Guardians of Corp'rethar |QID|13338|
-T Shatter the Shards |QID|13339|
-T The Guardians of Corp'rethar |QID|13338|
-
-A Not-So-Honorable Combat |QID|13137|
-C Not-So-Honorable Combat |QID|13137| |N|Get a group of 5...|
-T Not-So-Honorable Combat |QID|13137|
-A Banshee's Revenge |QID|13142|
-C Banshee's Revenge |QID|13142|
-T Banshee's Revenge |QID|13142|
-A Battle at Valhalas |QID|13213|
-T Battle at Valhalas |QID|13213|
-
-A Battle at Valhalas: Fallen Heroes |QID|13214|
-C Battle at Valhalas: Fallen Heroes |QID|13214|
-T Battle at Valhalas: Fallen Heroes |QID|13214|
-
-A Battle at Valhalas: Khit'rix the Dark Master |QID|13215|
-C Battle at Valhalas: Khit'rix the Dark Master |QID|13215|
-T Battle at Valhalas: Khit'rix the Dark Master |QID|13215|
-
-A Battle at Valhalas: The Return of Sigrid Iceborn |QID|13216|
-C Battle at Valhalas: The Return of Sigrid Iceborn |QID|13216|
-T Battle at Valhalas: The Return of Sigrid Iceborn |QID|13216|
-
-A Battle at Valhalas: Carnage! |QID|13217|
-C Battle at Valhalas: Carnage! |QID|13217|
-T Battle at Valhalas: Carnage! |QID|13217|
-
-A Battle at Valhalas: Thane Deathblow |QID|13218|
-C Battle at Valhalas: Thane Deathblow |QID|13218|
-T Battle at Valhalas: Thane Deathblow |QID|13218|
-
-A Battle at Valhalas: Final Challenge |QID|13219|
-C Battle at Valhalas: Final Challenge |QID|13219|
-T Battle at Valhalas: Final Challenge |QID|13219|
-
-A The Rider of Blood |QID|13163|
-A The Rider of Frost |QID|13162|
-A The Rider of the Unholy |QID|13161|
-
-A Basic Chemistry |QID|13295|
-C Basic Chemistry |QID|13295| |U|44010|
-T Basic Chemistry |QID|13295|
-
-C The Rider of Blood |QID|13163|
-C The Rider of Frost |QID|13162|
-C The Rider of the Unholy |QID|13161|
-
-T The Rider of Blood |QID|13163|
-T The Rider of Frost |QID|13162|
-T The Rider of the Unholy |QID|13161|
-
-A The Fate of Bloodbane |QID|13164|
-C The Fate of Bloodbane |QID|13164|
-T The Fate of Bloodbane |QID|13164|
-
-N Just a note
 ]]
 end)
 
---[[
-]]
