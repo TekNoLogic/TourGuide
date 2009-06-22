@@ -4,11 +4,6 @@ return [[
 R Razor Hill |R|Undead|
 A Conscript of the Horde |R|Undead| |QID|840|
 
-R The Barrens
-
-R Camp Taurajo |N|Stay on the road| |R|Tauren|
-A Journey to the Crossroads |R|Tauren| |QID|854|
-
 T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc, Troll, Undead| |QID|840|
 A Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
 T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |QID|809|
@@ -16,20 +11,8 @@ T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |QID|809|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc, Troll, Undead|
 T Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
 
-R The Crossroads |N|Take the road north| |R|Tauren|
 T The Barrens Oases |O| |QID|886|
-T Journey to the Crossroads |R|Tauren| |QID|854|
 T Sergra Darkthorn |O| |QID|860|
-
-A A Bundle of Hides |R|Tauren| |N|At the north edge of Crossroad, in the forge (51.19, 29.11)| |QID|6361|
-T A Bundle of Hides |R|Tauren| |QID|6361|
-A Ride to Thunder Bluff |R|Tauren| |QID|6362|
-F Thunder Bluff |R|Tauren|
-T Ride to Thunder Bluff |R|Tauren| |N|Fly to Thunder Bluff.  At the base of the windrider totem (45.65, 55.90)| |QID|6362|
-A Tal the Wind Rider Master |R|Tauren| |QID|6363|
-T Tal the Wind Rider Master |R|Tauren| |QID|6363|
-A Return to Jahan |R|Tauren| |QID|6364|
-T Return to Jahan |R|Tauren| |N|Fly back to Crossroads!| |QID|6364|
 
 A Meats to Orgrimmar |QID|6365| |R|Orc, Troll|
 T Meats to Orgrimmar |QID|6365| |R|Orc, Troll|
