@@ -11,7 +11,6 @@ T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |QID|809|
 R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc, Troll, Undead|
 T Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
 
-T The Barrens Oases |O| |QID|886|
 T Sergra Darkthorn |O| |QID|860|
 
 A Meats to Orgrimmar |QID|6365| |R|Orc, Troll|
@@ -32,8 +31,9 @@ h The Crossroads
 A Disrupt the Attacks |QID|871|
 
 N Kill crap... |N|Kill any raptors you come across for "Raptor Thieves" and plainstriders for "Plainstrider Menace"|
-C Disrupt the Attacks |N|East of the Crossroads, north of the mountain (54,26)| |QID|871|
-T Disrupt the Attacks |QID|871|
+C Disrupt the Attacks |QID|871| |N|Follow the road north from town, look for razormanes to the east of the road (54,25).|
+
+T Disrupt the Attacks |QID|871| |N|Back at the Crossroads (51.53, 30.84)|
 A The Disruption Ends |QID|872|
 A Supplies for the Crossroads |QID|5041|
 A Wharfmaster Dizzywig |QID|1492|
@@ -41,35 +41,32 @@ C The Disruption Ends |N|East of the Crossroads, north of the mountain (56,26) K
 C Supplies for the Crossroads |QID|5041|
 C Plainstrider Menace |QID|844|
 
-R Ratchet
-A Chen's Empty Keg |U|4926| |O| |QID|822|
-T Chen's Empty Keg |O| |QID|822|
-A WANTED: Baron Longshore |N|From the sign outside the bank| |QID|895|
+A Southsea Freebooters |QID|887| |N|South at Ratchet (62.66, 36.27)|
 A Samophlange (Part 1) |QID|894|
-A Southsea Freebooters |N|From Gazlowe| |QID|887|
+A WANTED: Baron Longshore |QID|895| |N|The Barrens, Ratchet (62.63, 37.48)|
+
+C Southsea Freebooters |QID|887| |N|South along the Merchant Coast.  Keep an eye out for Baron Longshore at the camps.|
+
+T Southsea Freebooters |QID|887| |N|Back at Ratchet (62.67, 36.29)|
+A The Missing Shipment (Part 1) |QID|890|
+T The Missing Shipment (Part 1) |QID|890| |N|down on the dock (63.36, 38.44)|
+A The Missing Shipment (Part 2) |QID|892|
 T Wharfmaster Dizzywig |QID|1492|
 A Miner's Fortune |QID|896|
-
-C WANTED: Baron Longshore |QID|895|
-C Southsea Freebooters |QID|887|
-
-T Southsea Freebooters |QID|887|
-A The Missing Shipment (Part 1) |QID|890|
-T WANTED: Baron Longshore |QID|895|
-T The Missing Shipment (Part 1) |QID|890|
-A The Missing Shipment (Part 2) |QID|892|
-T The Missing Shipment (Part 2) |QID|892|
+T The Missing Shipment (Part 2) |QID|892| |N|Back at the workshop (62.67, 36.27)|
 A Stolen Booty |QID|888|
 A Raptor Horns |QID|865|
-C Stolen Booty |QID|888|
 
-H The Crossroads
+C Stolen Booty |QID|888| |N|Find the items in crates at the two southernmost camps (63.55, 49.22) (62.69, 49.66).|
+C WANTED: Baron Longshore |QID|895| |N|If you haven't found him by now, work your way north checking each camp.|
+
+T The Disruption Ends |QID|872| |U|6948| |N|Back at the Crossroads (51.53, 30.83), hearth if you can.|
 T Supplies for the Crossroads |QID|5041|
-T The Disruption Ends |QID|872|
+A Harpy Raiders |QID|867| |N|Up in the tower (51.64, 30.94)|
 T Plainstrider Menace |QID|844|
 A The Zhevra |QID|845|
+T The Barrens Oases |QID|886| |O|
 A The Forgotten Pools |QID|870|
-A Harpy Raiders |N|Up on the watch tower| |QID|867|
 A Fungal Spores |QID|848|
 
 N Kill Zhevra... |N|Kill any you come across for "The Zhevra"|
@@ -126,6 +123,7 @@ C Verog the Dervish |QID|851|
 
 R Ratchet
 T Stolen Booty |QID|888|
+T WANTED: Baron Longshore |QID|895|
 T The Escape |QID|863|
 T Miner's Fortune |QID|896|
 T Samophlange (Part 4) |QID|902|
@@ -171,6 +169,8 @@ T Free From the Hold |NODEBUG| |QID|898|
 T Raptor Horns |QID|865|
 A Deepmoss Spider Eggs |QID|1069|
 A Ziz Fizziks |QID|1483|
+A Chen's Empty Keg |U|4926| |O| |QID|822|
+T Chen's Empty Keg |O| |QID|822|
 
 F Orgrimmar
 A The Ashenvale Hunt |N|Don't skip this quest, you need it for quests later!| |QID|6383|
@@ -204,3 +204,13 @@ end)
 --~ Hamuul Runetotem
 --~ Nara Wildmane
 --~ Leaders of the Fang
+
+
+--[[
+A Lessons Anew |QID|6126| |N|Thunder Bluff, Elder Rise (76.44, 27.58)|
+T Lessons Anew |QID|6126| |N|Moonglade, Nighthaven (56.19, 30.55)|
+A The Principal Source |QID|6127| |N|Moonglade, Nighthaven (56.19, 30.55)|
+
+T Stolen Booty |QID|888| |N|The Barrens, Ratchet (62.66, 36.28)|
+T WANTED: Baron Longshore |QID|895| |N|The Barrens, Ratchet (62.67, 36.29)|
+]]
