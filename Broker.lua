@@ -84,7 +84,7 @@ function TourGuide:UpdateStatusFrame()
 	-- Mapping
 	if (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
 		lastmappedaction, lastmapped = action, quest
-		self:ParseAndMapCoords(action, quest, self:GetObjectiveTag("Z", nextstep) or self.zonename, note, self:GetObjectiveTag("QID", nextstep))
+		self:ParseAndMapCoords(action, quest, self:GetObjectiveTag("Z", nextstep) or self.zonename, note, self:GetObjectiveTag("QID", nextstep), logi)
 	end
 
 	if self.db.char.showuseitem and action == "COMPLETE" and self.db.char.showuseitemcomplete then

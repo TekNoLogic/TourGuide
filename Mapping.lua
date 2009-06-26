@@ -1,5 +1,6 @@
 
 local L = TourGuide.Locale
+local THREE_TWO = select(4, GetBuildInfo()) >= 30200
 
 local zonei, zonec, zonenames = {}, {}, {}
 for ci,c in pairs{GetMapContinents()} do
@@ -31,8 +32,19 @@ local function MapPoint(zone, x, y, desc, c, z)
 end
 
 
+local elapsed, taction, tquest, tzone, tnote, tqid, tlogi
+local f = CreateFrame("Frame")
+f:Hide()
+f:SetScript("OnShow", function() elapsed = 0 end)
+f:SetScript("OnUpdate", function(self, elap)
+	elapsed = elapsed + elap
+	if elapsed < 1 then return end
+	self:Hide()
+	TourGuide:ParseAndMapCoords(taction, tquest, tzone, tnote, tqid, tlogi)
+end)
 local temp = {}
-function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid)
+function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid, logi)
+	taction, tquest, tzone, tnote, tqid, tlogi = action, quest, zone, note, qid, logi
 	if TomTom and TomTom.RemoveWaypoint then
 		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	elseif Cartographer_Waypoints then
@@ -40,10 +52,20 @@ function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid)
 	end
 
 
-	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded and self:MapLightHeadedNPC(qid, action, quest) and not self.db.alwaysmapnotecoords
-		or not (note and self.db.char.mapnotecoords) then return end
+	if not THREE_TWO and (action == "ACCEPT" or action == "TURNIN") and LightHeaded and self:MapLightHeadedNPC(qid, action, quest) and not self.db.alwaysmapnotecoords then return end
 
-	for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
+	if note and self.db.char.mapnotecoords then for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end end
+	if THREE_TWO and not temp[1] and logi then
+		for i=1,QuestMapUpdateQuest(logi) do
+			local mapid, x, y = QuestMapGetPOIInfoForQuest(logi, i)
+			if x and y then
+				table.insert(temp, y*100) table.insert(temp, x*100)
+			else
+				return f:Show()
+			end
+		end
+	end
+	if THREE_TWO and not temp[1] and (action == "ACCEPT" or action == "TURNIN") and LightHeaded then self:MapLightHeadedNPC(qid, action, quest) end
 	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
 end
 
