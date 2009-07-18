@@ -56,12 +56,21 @@ function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid, logi)
 
 	if note and self.db.char.mapnotecoords then for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end end
 	if THREE_TWO and not temp[1] and logi then
-		for i=1,QuestMapUpdateQuest(logi) do
-			local mapid, x, y = QuestMapGetPOIInfoForQuest(logi, i)
-			if x and y then
-				table.insert(temp, y*100) table.insert(temp, x*100)
-			else
-				return f:Show()
+		local numPOI = QuestMapUpdateAllQuests()
+		print("Mapping", qid, numPOI)
+		for i=1,numPOI do
+			local thisPOIused
+			for j=1,QuestMapGetNumQuestsForPOI(i) do
+				local questName, text, poiID, questID = QuestMapGetQuestInfo(i, j)
+				if questID == qid and not thisPOIused then
+					thisPOIused = true
+					local mapID, x, y, icon = QuestMapGetPOIInfo(i)
+					if x and y then
+						table.insert(temp, y*100) table.insert(temp, x*100)
+					else
+						return f:Show()
+					end
+				end
 			end
 		end
 	end
