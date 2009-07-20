@@ -71,80 +71,83 @@ A Fungal Spores |QID|848|
 
 N Kill Zhevra... |N|Kill any you come across for "The Zhevra"|
 
-A Kolkar Leaders |N|Run west of the Crossroads (45.4,28.4)| |QID|850|
-A Centaur Bracers |QID|855|
+A Centaur Bracers |QID|855| |N|At the bunker to the west of the Crossroads (45.33, 28.45)|
+A Kolkar Leaders |QID|850|
 
-C Kolkar Leaders |N|Barak is at (43,24)| |QID|850|
-C Fungal Spores |QID|848|
-C The Forgotten Pools |QID|870|
-C Harpy Raiders |N|Northwest corner of the Barrens (38,17)| |QID|867|
+C Kolkar Leaders |QID|850| |N|You can find Barak on a platform on the northwest edge of the Forgotten Pools (42.76, 23.70)|
+C The Forgotten Pools |QID|870| |N|Dive down in the center of the oasis (45.10, 22.47)|
+C Fungal Spores |QID|848| |N|All over the oasis.|
+C Harpy Raiders |QID|867| |N|In the northwest corner of the zone at the Dry Hills (40.42, 18.32)|
 
-T Kolkar Leaders |N|West of the Crossroads (45.4, 28.4)| |QID|850|
-A Verog the Dervish |QID|851|
+T Kolkar Leaders |QID|850| |N|Back at the bunker (45.32, 28.44)|
+A Verog the Dervish |QID|851| |N|The Barrens,  (45.32, 28.44)|
 
-C Centaur Bracers |QID|855|
-C The Zhevra |QID|845|
+C The Zhevra |QID|845| |N|Make your way back to Crossroads.|
 
+T Fungal Spores |QID|848| |N|Back at the Crossroads (51.48, 30.15)|
+A Apothecary Zamah |QID|853|
+T Harpy Raiders |QID|867|
+A Harpy Lieutenants |QID|875|
 T The Zhevra |QID|845|
 A Prowlers of the Barrens |QID|903|
 T The Forgotten Pools |QID|870|
-T Fungal Spores |QID|848|
-A Apothecary Zamah |QID|853|
-
-R Camp Taurajo
-A Tribes at War |QID|878|
-
-R Thunder Bluff |N|Take the road west into Mulgore, then north at Bloodhoof Village|
-T Apothecary Zamah |N|Cave below Spirit Rise (22.9, 20.9)| |Z|Thunder Bluff| |QID|853|
-
-F The Crossroads
 A The Stagnant Oasis |QID|877|
-T Harpy Raiders |QID|867|
-A Harpy Lieutenants |QID|875|
 
-C Prowlers of the Barrens |N|(37,20)| |QID|903|
-C Harpy Lieutenants |N|Kill Witchwing Slayer's - Northwest Barrens (38,14)| |QID|875|
-T Samophlange (Part 1) |QID|894|
+T Apothecary Zamah |QID|853| |Z|Thunder Bluff| |N|If you don't have the Thunder Bluff flight point, or a fast way there (portal), just skip this.  The apothecary is in the Pools of Vision below Spirit Rise (23.08, 20.88).|
+A Lessons Anew |QID|6126| |Z|Thunder Bluff| |N|Head to the druid trainer on Elder Rise (76.44, 27.58)| |C|DRUID|
+T Lessons Anew |QID|6126| |Z|Moonglade| |N|Teleport to Moonglade (56.19, 30.55)| |C|DRUID|
+A The Principal Source |QID|6127| |C|DRUID|
+
+C Prowlers of the Barrens |QID|903| |N|Take the road west out of the Crossroads, past the bunker and the oasis (43,33).  Work your way north towards the harpies (40.4, 20.1).|
+C Harpy Lieutenants |QID|875| |N|Back at the Dry Hills (39.78, 16.14), where you did the first harpie quest.  These ones are a bit deeper in.|
+C The Principal Source |QID|6127| |C|DRUID| |U|15842| |N|Use the vial at the top of Dreadmist Peak (48.36, 18.95) to the east.|
+
+T Samophlange (Part 1) |QID|894| |N|East, past the road, near the Sludge Fen (52.42, 11.67)|
 A Samophlange (Part 2) |QID|900|
+C Samophlange (Part 2) |QID|900| |N|Turn off the three valves, each will spawn mobs.|
 T Samophlange (Part 2) |QID|900|
 A Samophlange (Part 3) |QID|901|
-C Samophlange (Part 3) |N|Tinkerer is in the hut on the hill| |QID|901|
-T Samophlange (Part 3) |QID|901|
+C Samophlange (Part 3) |QID|901| |N|Kill Tinkerer Sniggles in the hut just to the east (52.96, 10.75)|
+T Samophlange (Part 3) |QID|901| |N|Back at the console (52.45, 11.62)|
 A Samophlange (Part 4) |QID|902|
-
-A Ignition |QID|858|
-C Ignition |QID|858|
-T Ignition |QID|858|
+A Ignition |QID|858| |N|To the east, in a shredder on the north side of the Sludge Fen (56.48, 7.49)|
+C Ignition |QID|858| |N|Kill Supervisor Lugwizzle up in the rig (56.10, 8.20)|
+T Ignition |QID|858| |N|Back at the shredder (56.50, 7.50)|
 A The Escape |QID|863|
-C The Escape |QID|863|
-C Miner's Fortune |QID|896|
-C The Stagnant Oasis |QID|877|
-C Verog the Dervish |QID|851|
+C The Escape |QID|863| |N|Escort, ugh.|
 
-R Ratchet
-T Stolen Booty |QID|888|
-T WANTED: Baron Longshore |QID|895|
-T The Escape |QID|863|
-T Miner's Fortune |QID|896|
-T Samophlange (Part 4) |QID|902|
-A The Guns of Northwatch |QID|891|
+C Miner's Fortune |QID|896| |N|In the northeast corner of the zone at the Boulder Lode Mine (60.9, 4.5)|
 
-F The Crossroads
-T The Stagnant Oasis |QID|877|
-A Altered Beings |QID|880|
+T Harpy Lieutenants |QID|875| |N|Back at the Crossroads (51.64, 30.92).  Hearth if you can, otherwise run to orgy's west gate and fly.|
+A Serena Bloodfeather |QID|876|
 T Prowlers of the Barrens |QID|903|
 A Echeyakee |QID|881|
-T Harpy Lieutenants |QID|875|
-A Serena Bloodfeather |QID|876|
+T The Principal Source |QID|6127| |C|DRUID|
+A Gathering the Cure |QID|6128| |C|DRUID|
+
+C The Stagnant Oasis |QID|877| |N|Southeast of crossraods at the Stagnant Oasis (55.58, 42.71).  Dive down in the center and use the seeds.|
+C Verog the Dervish |QID|851| |N|Kill centaurs on the northwest side of the oasis until Verog is summoned (52.75, 41.72).|
+C Centaur Bracers |QID|855|
+
+A The Guns of Northwatch |QID|891| |N|East at Ratchet (62.24, 39.01)|
+T Miner's Fortune |QID|896|
+T The Escape |QID|863|
+T Samophlange (Part 4) |QID|902| |N|Don't worry about the follow-up.|
+A Ziz Fizziks |QID|1483|
+T Stolen Booty |QID|888|
+T WANTED: Baron Longshore |QID|895|
+
+T The Stagnant Oasis |QID|877| |N|Back at the Crossroads (52.22, 31.91)|
+A Altered Beings |QID|880|
+
+T Verog the Dervish |QID|851| |N|At the bunker to the west of the Crossroads (45.33, 28.45)|
 T Centaur Bracers |QID|855|
-T Verog the Dervish |QID|851|
 
 C Serena Bloodfeather |N|Serena Bloodfeather - Northwest Barrens (38,11)| |QID|876|
 C Echeyakee |QID|881|
 C Raptor Thieves |QID|869|
 
-H The Crossroads
-T Raptor Thieves |QID|869|
+T Raptor Thieves |QID|869| |N|Back at the Crossroads (51.90, 30.32)|
 A Stolen Silver |QID|3281|
 T Echeyakee |QID|881|
 A The Angry Scytheclaws |QID|905|
@@ -168,7 +171,6 @@ T The Guns of Northwatch |N|Back in Ratchet| |QID|891|
 T Free From the Hold |NODEBUG| |QID|898|
 T Raptor Horns |QID|865|
 A Deepmoss Spider Eggs |QID|1069|
-A Ziz Fizziks |QID|1483|
 A Chen's Empty Keg |U|4926| |O| |QID|822|
 T Chen's Empty Keg |O| |QID|822|
 
@@ -196,21 +198,3 @@ T Altered Beings |QID|880|
 A Egg Hunt |QID|868|
 ]]
 end)
-
---~ The Barrens Oases
---~ The Forgotten Pools
---~ The Stagnant Oasis
---~ Altered Beings
---~ Hamuul Runetotem
---~ Nara Wildmane
---~ Leaders of the Fang
-
-
---[[
-A Lessons Anew |QID|6126| |N|Thunder Bluff, Elder Rise (76.44, 27.58)|
-T Lessons Anew |QID|6126| |N|Moonglade, Nighthaven (56.19, 30.55)|
-A The Principal Source |QID|6127| |N|Moonglade, Nighthaven (56.19, 30.55)|
-
-T Stolen Booty |QID|888| |N|The Barrens, Ratchet (62.66, 36.28)|
-T WANTED: Baron Longshore |QID|895| |N|The Barrens, Ratchet (62.67, 36.29)|
-]]
