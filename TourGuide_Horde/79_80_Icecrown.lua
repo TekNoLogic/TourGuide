@@ -5,12 +5,11 @@ R Dalaran |Z|Dalaran| |N|Go to Dalaran at Krasus' Landing at (69,41)|
 A Preparations for War |QID|13419|
 N Talk to him again and he will transport you to Orgrim's Hammer.
 T Preparations for War |QID|13419|
-A It's All Fun and Games |QID|12887|
+A It's All Fun and Games |QID|12892|
 A Judgment Day Comes! |QID|13226|
 
-C It's All Fun and Games |N|Head north to The Shadow Vault and fly to the top at (44,21) Use the Eyesore Blaster on The Ocular. Try to stay at max. range above it when using the Eyesore Blaster. When The Ocular reaches about 12.6k fly in close and use the final attack.| |QID|12887|
-
-T It's All Fun and Games |N|Now fly to the base of The Shadow Vault at (44,24)| |QID|12887|
+C It's All Fun and Games |QID|12892| |U|41265| |N|To te north, on top of the Shadow Vault (44.56, 22.45).  Use the blaster on the eyeball.|
+T It's All Fun and Games |QID|12892| |N|On the ground in front of the Shadow Vault (44.13, 24.72)|
 A I Have an Idea, But First... |QID|12891|
 C I Have an Idea, But First... |N|Kill a Morbid Carcass, Shadow Cultist, Vault Geist, and some Rabid Cannibals to collect the quest items around the area.| |QID|12891|
 

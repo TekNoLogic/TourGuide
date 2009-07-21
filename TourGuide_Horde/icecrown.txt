@@ -1,0 +1,460 @@
+The Argent Vanguard
+01) Go to the The Argent Vanguard (In Icecrown, at 87.75).
+02) Accept "Honor Above All Else"
+T Honor Above All Else |QID|13036|
+A Scourge Tactics |QID|13008|
+A Curing The Incurable |QID|13040|
+A Defending The Vanguard |QID|13039|
+
+C Defending The Vanguard
+C Curing The Incurable
+C Scourge Tactics
+  These are all done just west of the Argent Vanguard, kill the spiders and attack the white webbed things.
+
+T Defending The Vanguard |QID|13039| |N|Back at the Argent Vanguard (86.02, 75.70)|
+T Scourge Tactics |QID|13008|
+T Curing The Incurable |QID|13040|
+A If There Are Survivors... |QID|13044|
+T If There Are Survivors... |QID|13044|
+A Into The Wild Green Yonder |QID|13045|
+C Into The Wild Green Yonder
+  Mount a skytalon and go northwest to Scourgeholme (around 79.66) and grab a Captured Crusader and then bring him back to the Vanguard (at the Bonfire where all the tents are at), you can only carry one at a time, so you will have to make 3 trips.
+T Into The Wild Green Yonder
+A A Cold Front Approaches
+T A Cold Front Approaches
+A The Last Line Of Defense
+C The Last Line Of Defense
+  Go to one of the 4 cannons on top of the small towers around the Vanguard and shoot the baddies!
+T The Last Line Of Defense
+A Once More Unto The Breach, Hero |QID|13104|
+
+Valley of Echoes
+01) Turn in "Once More Unto The Breach, Hero" (at 82.73)
+A The Purging Of Scourgeholme |QID|13118|
+A The Scourgestone |QID|13122|
+A It Could Kill Us All |QID|13135|
+A The Stone That Started A Revolution |QID|13130|
+A The Restless Dead |QID|13110|
+03) "It Could Kill Us All" along with "The Stone That Started A Revolution"  Both are done in Crystalsong Forest around the Unbound Thicket, 65.61. The Elven Masonry are objects found around the Ruins of Shandaral, 75.63 in Crystalsong Forest, and the Heartwood are objects picked up off the ground around The Unbound Thicket.  The Crystallized Energy objects are dropped from the mobs there.
+04) Once done go back (to 82.73 in icecrown) and turn them both in.
+05) "The Purging Of Scourgeholme" along with "The Restless Dead" and "The Scourgestone" (all these are done at Scourgeholme, all around 77.61).  Remember to use the Holy Water quest item on the Reanimated Crusaders.
+06) Once all 3 of those are done, go back (to 82.73) and turn them all in ... Accept "The Air Stands Still"
+07) "The Air Stands Still" (Keep in mind to use the War Horn of Acherus quest item for each battle).  Here are the locations of the 3 mobs you have to kill:
+08) Salranax - 77.61
+09) Underking - 76.53
+10) High Priest Yath'amon - 79.60
+11) Once done, go back (to 82.73) and turn it in (or you can take a short cut and quickly go through the death gate portal).
+12) Accept "Into The Frozen Heart Of Northrend"
+
+T Into The Frozen Heart Of Northrend |QID|13139| |N|Back at the Argent Vanguard (86.00, 75.71)|
+A The Battle For Crusaders' Pinnacle |QID|13141|
+14) "The Battle For Crusaders' Pinnacle" The Pile of Crusader Skulls is at 79.71, you have to help kill Halof the Deathbringer to complete the quest.
+15) Once done, go back (to 82.73) and turn it in ... Accept "The Crusaders' Pinnacle"
+
+Crusader's Pinnacle
+01) Go to Crusader's Pinnacle (at 79.71)
+02) Turn in "The Crusaders' Pinnacle"
+A A Tale of Valor |QID|13068|
+A Orgrim's Hammer |QID|13224|
+06) "A Tale of Valor" (Crusader Bridenbrad is at 79.30).  Turn it in ... Accept "A Hero Remains"
+07) Go back to Crusader's Pinnacle (at 79.71) and turn in "A Hero Remains" ... Accept "The Keeper's Favor"
+08) "The Keeper's Favor" (Arch Druid Lilliandra is located at 87.76 in The Argent Vanguard camp, See Pic).  Once at Moonglade, turn this in right in front of you ... Accept "Hope Within the Emerald Nightmare"
+09) "Hope Within the Emerald Nightmare" Once in the 'nightmare' find Emerald Acorns on the ground around you (look for the shiny sparkles coming from it).  To leave the 'nightmare' right-click the buff at the top of the screen.
+10) Once done turn it in ... Accept "The Boon of Remulos"
+11) "The Boon of Remulos" Go through the portal and go to Crusader Bridenbrad (at 79.30 in Icecrown) and turn this in ... Accept "Time Yet Remains"
+12) Go turn in "Time Yet Remains" (at Crusader's Pinnacle 79.71) ... Accept "The Touch of an Aspect"
+13) "The Touch of an Aspect" Fly to Wyrmrest Temple in Dragonblight, then go to the top of the temple and turn this in ... Accept "Dahlia's Tears"
+14) Also accept "Mystery of the Infinite, Redux" (From Chromie there). NOTE: You may need to be level 80 to accept this quest, I am not sure at the time of this writing. Can anyone confirm?
+15) "Mystery of the Infinite, Redux" Use the Hourglass of Eternity at the Bronze Dragonshrine, at 72.39 in Dragonblight.
+16) "Dahlia's Tears" What you have to do is go over to where the horde is fighting the undead (at 42.50 in Dragonblight), when each battle is nearly over a Ruby Keeper will fly in and burn the undead, spawning patches of flowers which you can loot to receive the tears.
+17) Once done, go back to the top of Wyrmrest Temple and turn them both in ... Accept "The Boon of Alexstrasza"
+18) Hearth (or fly) back to Crusader's Pinnacle in Icecrown..
+19) Go to Crusader Bridenbrad (at 79.30) and turn in "The Boon of Alexstrasza" ... Accept "Hope Yet Remains"
+20) Go turn in "Hope Yet Remains" (at Crusader's Pinnacle 79.71) ... Accept "The Will of the Naaru"
+21) "The Will of the Naaru" As soon as you accept this quest, an NPC will open up a portal to Shattrath for you, go through it and turn this quest in at A'dal (The NPC smack dab in the middle of the city) ... Accept "The Boon of A'dal"
+22) "The Boon of A'dal" Accepting this quest takes you to Dalaran, once there go to Crusader Bridenbrad (at 79.30 in Icecrown) and turn this in ... Accept "Light Within the Darkness" (from the little chest)
+23) Go turn in "Light Within the Darkness" (at Crusader's Pinnacle 79.71).
+
+Orgrim's Hammer
+01) Go to the flying ship Orgrim's Hammer (flying above Icecrown), you can use your map to help you find it, make sure you go to the horde one and not the alliance one. The horde one has several blimps on it while the alliance one has propellers.
+02) Turn in "Orgrim's Hammer" ... Accept "The Broken Front"
+03) Also accept "It's All Fun and Games" "Blood of the Chosen" "Joining the Assault" "Get to Ymirheim!" and "Slaves to Saronite"
+
+C It's All Fun and Games |QID|12892| |U|41265| |N|To te north, on top of the Shadow Vault (44.56, 22.45).  Use the blaster on the eyeball.|
+T It's All Fun and Games |QID|12892| |N|On the ground in front of the Shadow Vault (44.13, 24.72)|
+A I Have an Idea, But First... |QID|12891|
+06) "I Have an Idea, But First..." The items for this quest are found right in the immediate area, around The Shadow Vault.
+07) Once that is done, turn it in ... accept "Free Your Mind"
+08) "Free Your Mind"  Done right there around the Vault.  See This Pic for the location of these 3 mobs, once you kill them use the Sovereign Rod quest item on their corpses.
+09) Once that is done, turn it in ... accept "If He Cannot Be Turned"
+10) "If He Cannot Be Turned" Go inside the vault, you will see General's Weapon Rack straight inside, click it, kill General Lightsbane.
+
+Ymirheim
+01) NOTE: The Vrykul's through out this zone drop Vrykul Bones, make sure you save these (and not sell them to vendors) as you will need them for a later quest.
+02) Go over Ymirheim (at 51.57) and turn in "Get to Ymirheim!" ... Accept "King of the Mountain" (This is a PVP Daily Quest)
+03) "King of the Mountain" Mount Thunderbomb's Jumpbot right there and jump your way up to the pile of bones (at 54.59), you have to jump in certain spots to keep progressing upwards, once up there plant the horde battle standard (by pressing "1"), See Video.
+04) Once that is done, go back down (to 51.57) and turn it in.
+05) "Joining the Assault" Go turn this in at Ground Commander Xutjja (at The Bombardment, 58.46) ... Accept "Assault by Air" (Daily Quest)
+06) Also accept "Assault by Ground"  Accepting this quest, immediately starts the escort quest event.  Go ahead and follow the orcs to complete the quest.
+07) "Assault by Air" Mount the Kor'kron Troop Transport, (at 59.45) you will then automatically fly over to Ymirheim, you will have to wait about 45 seconds before you come in contact with the Ymirheim Spear Guns that you have to shoot at, just shoot them to disable them from firing at you, once you get all 4 'drops' complete, just leave the vehicle to parachute down, See Video.
+08) Go in to the Saronite Mines (at 56.57), walk straight inside a bit and accept "Mind Tricks" (from Darkspeaker R'Khem who is chained up)
+09) GROUP: "Mind Tricks" The mob you have to kill for the key is just right behind you, Foreman Thaldrin, He can be soloed but it is not easy, try and get some help if you can.  There is no follow up quest to this, so it can be skipped or done later.
+10) "Slaves to Saronite" Simply talk to the Saronite Mine Slaves in the mine, you have a chance that they will run out of the mine and give you quest credit, or turn hostile on you.
+11) "Blood of the Chosen" (Finish this quest up by killing the Vrykul around Ymirheim).
+12) Once done, go back down (to, 58.46) and turn in
+T Assault by Air
+T Assault by Ground"
+
+The Broken Front
+01) "The Broken Front" (The Dying Berserker is at 69.66).  Talk to him, then Accept "Avenge Me!"
+02) "Avenge Me!" Slay Dying Soldiers right around in the immediate area.
+Orgrim's Hammer
+03) Find Orgrim's Hammer's up in the air and turn in all quests and accept the following: Turn in "Blood of the Chosen" "Slaves to Saronite" "If He Cannot Be Turned" "The Broken Front" "Avenge Me!" ... Accept "The Shadow Vault"  "Good For Something?" "Takes One to Know One"
+04) NOTE: "Make Them Pay!" is a PVP Daily Quest, which has you kill other Alliance players in Icecrown.  If you are on a PVE server you will be flagged for PVP as long as it's in your quest list.  It is up to you if you want to do this or not.  If you are on a PVP server I say accept it anyways.
+05) Turn in "Takes One to Know One" (right next to you on Orgrim's Hammer) ... Accept "Poke and Prod"
+06) Go below in Orgrim's Hammer (at the goblin) and turn in "Good For Something?" ... Accept "Volatility"
+The Shadow Vault
+07) "The Shadow Vault" Go turn this in (at 42.24) ... Accept "The Duke" and "Blackwatch"
+08) Get the FP there.
+09) Go inside The Shadow Vault and turn in "The Duke" ... Accept "Honor Challenge"
+10) Go right outside of the Vault and accept "Eliminate the Competition"
+
+Savage Ledge
+01) Go to the Savage Ledge (at 37.22) and do the following 2 quests together [steps 2 - 3]:
+02) "Honor Challenge" Throw the Challenge Flag quest item at the Mjordin Combatants then duel and kill them, you can only throw the flag when you are out of combat, so you will need to do it from a distance.
+03) "Eliminate the Competition" If you have trouble finding the NPCs you have to dual and kill, then See This Pic.
+04) Once done, go back to the The Shadow Vault (at 44.24) and turn in "Eliminate the Competition" ... Accept "The Bone Witch"
+05) Go inside The Shadow Vault and turn in "Honor Challenge" ... Accept "Shadow Vault Decree"
+06) Go inside Ufrang's Hall (at 39.23) and go into it a bit and accept "Get the Key" (from the chained up NPC in the back).
+07) "Shadow Vault Decree" Right there where the chained NPC is in Ufrang, use the Shadow Vault Decree quest item close to Thane Ufrang the Mighty and then Kill him.
+08) "Get the Key" The mob you have to kill for this quest is right outside of Ufrang's Hall called Instructor Hroegar (he roams around in the Savage Ledge), once you get his key go back inside of Urfrang's Hall to turn this in (at the chained up NPC) then Accept "Let the Baron Know"
+09) Once those are done, go back to The Shadow Vault (42.24) and turn in "Let the Baron Know" ... Accept "Leave Our Mark" and "Vaelen Has Returned"
+10) Accept "Crush Dem Vrykuls!" (From the abomination Vile the abomination)
+T Vaelen Has Returned
+A Ebon Blade Prisoners
+12) While inside the Vault, also turn in "Shadow Vault Decree" ... Accept "Vandalizing Jotunheim"
+
+Jotunheim
+01) "The Bone Witch" Turn this in at The Bone Witch, she is in a cave (at 32.42) ... Accept "Reading the Bones" and "Deep in the Bowels of The Underhalls"
+02) "Reading the Bones" By now you should be carrying at least 15 Vrykul Bones (If not, you can turn this quest in later once you do).  Please note that you can keep turning in additional bones for more of these power-ups.
+03) Go to the Underhalls (The entrance is at 32.32), go straight through then make a left, go straight and accept "Revenge for the Vargul" (from Bethod Feigr).  NOTE:  As you kill the mobs within the cave here, use the Ebon Blade Banner quest item on the mob corpses.
+04) "Revenge for the Vargul" Turn around and go straight forward down the steps into The Circle of Suffering room, then use the Bethod's Sword quest item in front of Thane Illskar. Kill the 3 mobs one-by-one to complete the quest.
+05) "Deep in the Bowels of The Underhalls" Leave the room, go down the steps and make a sharp U turn to the left and you will see Apprentice Osterkilgr, kill him!
+06) NOTE: The Apprentice drops an item that starts "The Sum is Greater than the Parts"
+07) "The Sum is Greater than the Parts" You need to go right over in the next room where Nergeld is standing at the end of the hall and mount him to do this quest. You need to kill Dr. Terrible once he comes out. This quest is not easy, but it can easily be done, it may take a few tries. You need to study what his abilities do and you will be needing to use all 4 of them wisely to accomplish this quest. See Pic for what his abilities do. Basically the strategy is this: Keep Roaring the mobs back (this is important) each time the cooldown is up for it. Or in the meantime use a Stomp. Once Dr. Terrible comes out, continuously Punch him (keep pressing 1) while also Roaring the other mobs away. If you Roar Dr. Terrible away as well (which we don't want) quickly use the Chained Grip ability to bring him back to you so you can continue to Punch him. Also note that the Dr can heal himself, if you see him rev up his healing, quickly Stomp him, it will stop it. Hopefully this helps! See Video.
+08) Go all the way back up and turn in "Revenge for the Vargul" (at Bethod Feigr)
+09) Leave The Underhalls and do the following 4 quests together around Jotunheim [steps 10 - 13]:
+10) "Crush Dem Vrykuls!" Kill Jotunheim mobs.
+11) "Ebon Blade Prisoners" The cages are all scattered around Jotunheim and the keys are obtained from the Jotunheim mobs in the area.
+12) "Leave Our Mark" Use the Ebon Blade Banner quest item on the corpses of the Jotunheim mobs.
+13) "Vandalizing Jotunheim" The banners are easy to find, they are big, look for the sparkles coming off of them, simply right-click them to burn them. See Pic.
+14) Once all those are done go back to The Bone Witch in the cave (at 32.42) and turn in "Deep in the Bowels of The Underhalls" and "The Sum is Greater than the Parts" ... Accept "The Art of Being a Water Terror"
+
+ 01) "The Art of Being a Water Terror" Right behind you (out of the cave) is a gate you click on to control a water terror, use it to kill 10 Jotunheim Vrykul.
+02) Once done, go back to the The Bone Witch (in the cave at 32.42) and turn it in ... Accept "Through the Eye"
+03) "Through the Eye" Need to go into Kul'galar Keep (at 25.61) and click on the Eye of the Lich King inside.
+04) Once "Through the Eye" is done, go back to The Bone Witch (in the cave at 32.42) and turn it in ... Accept "Find the Ancient Hero"
+05) "Find the Ancient Hero" This is done in the cave (at 27.47), you need to keep talking to the Slumbering Mjordin (sleeping against the walls) until Iskalder is revealed (you will know when he comes out because he is elite and you will get a message on your screen), once he does appear use The Bone Witch's Amulet quest item on him. Then run him back to The Bone Witch (in the cave at 32.42).
+06) Once you get back to The Bone Witch (in the cave at 32.42) turn in "Find the Ancient Hero" ... Accept "Not-So-Honorable Combat"
+07) "Not-So-Honorable Combat" (This is done up at 28.52). It can be soloed but it is not that easy.  At least give it a try, the graveyard is right next to it, If you can't do it or find a group to help you do it, then skip to the 'The Shadow Vault' section below for now, you can come back to this later.
+08) Once done, go back to the The Bone Witch (in the cave at 32.42) and turn it in ... Accept "Banshee's Revenge"
+09) GROUP: "Banshee's Revenge"  If you have a group you can do this quest, it is done at the top of the fortress (at 18.56), See Video.
+10) Once done, go back to the The Bone Witch (in the cave at 32.42) and turn it in ... Accept "Battle at Valhalas"
+11) turn in "Battle at Valhalas" (at Geirrvif, 30.28).
+
+Valhalas (GROUP QUESTS)
+01) This one has you kill 6 elites with a group. And just like the other ones you can rack up a lot of quick XP, but you will need a group to help you do them all as they are not soloable. You can come back later if you find a group to do them.
+02) The following quests are accepted at Geirrvif (30.28), and turned in at Gjonner the Merciless (31.31). See This Video for the entire event.
+03) GROUP: "Battle at Valhalas: Fallen Heroes"
+04) GROUP: "Battle at Valhalas: Khit'rix the Dark Master"
+05) GROUP: "Battle at Valhalas: The Return of Sigrid Iceborn"
+06) GROUP: "Battle at Valhalas: Carnage!"
+07) GROUP: "Battle at Valhalas: Thane Deathblow"
+08) GROUP: "Battle at Valhalas: Final Challenge"
+
+The Shadow Vault
+01) Go back to The Shadow Vault (at 42.24) and turn in all quests and accept new ones: Turn in "Crush Dem Vrykuls!" "Leave Our Mark" "Ebon Blade Prisoners" "Vandalizing Jotunheim" ... Accept "Vile Like Fire!" (Daily Quest)
+02) Go outside of the Vault and accept "Shoot 'Em Up" (Daily Quest)
+03) And accept "To the Rise with all Due Haste!"
+04) "Shoot 'Em Up" The Harpoons are at 32.23, See Pic.
+05) "Vile Like Fire!" The Proto-Drakes you have to mount are at 27.38, simply mount one and then burn the buildings in the area with it.
+06) Once those 2 quests are done, go back to The Shadow Vault (at 42.24) and turn them in.
+Orgrim's Hammer
+07) Go to Orgrim's Hammer (The ship flying in the air around Icecrown) and accept the quest "Opportunity"
+
+Death's Rise
+01) Go to Death's Rise (down at 20.47)
+02) Get the FP there.
+03) Turn in "To the Rise with all Due Haste!" ... Accept "The Story Thus Far..."
+04) "The Story Thus Far..." (Simply talk through Lord-Commander Arete's story).  Once done, turn it in ... Accept "Blood in the Water"
+05) Also accept the following Daily Quests there: "From Their Corpses, Rise!" and "Intelligence Gathering"
+06) Go north-west down to the Onslaught Harbor (around 8.42) and do the following 3 quests together [steps 7 - 9]:
+07) "Blood in the Water" Kill the Ravenous Jaw sharks in the water around the harbor and then use the Gore Bladder quest item on the corpse.
+08) "From Their Corpses, Rise!" Kill Onslaught members outside (of the buildings there) and then use the Darkmender's Tincture quest item on their corpses.
+09) "Intelligence Gathering" Kill the Onslaught members for the Keys, then open the trunks scattered around the Harbor.
+10) NOTE: While doing these quests you should find an item that starts "The Grand (Admiral's) Plan"
+11) Once all that is done go back up to Death's Rise (20.47) and turn in all quests and accept new ones: Turn in "Blood in the Water" "The Grand (Admiral's) Plan" "From Their Corpses, Rise!" "Intelligence Gathering" ... Accept "You'll Need a Gryphon" and "In Strict Confidence"
+12) "In Strict Confidence" They are on the 2 boats. Captain Welsington is at 5.41, and Captain Hartford is at 7.41, See Pic. Simply kill them.
+13) "You'll Need a Gryphon" All you have to do is kill one Onslaught Gryphon Rider, and it will drop an item called Onslaught Gryphon Reins.  Use that item then fly back to Death's Rise (20.47).
+14) Once the Gryphon is delivered (remember to press "1" to return it), turn in "You'll Need a Gryphon" ... Accept "No Fly Zone"
+15) Also turn in "In Strict Confidence" ... Accept "Second Chances"
+16) Daily Quest: "No Fly Zone" Use the Bone Gryphon quest item in Onslaught Harbor and kill Onslaught Gryphon Riders with your Bone Gryphon.
+17) GROUP: "Second Chances" (See Video)  You will most likely need a full group to help you do this quest, Archbishop Landgren is inside the cathedral at 9.47, once you kill him at least one person has to use the Arete's Gate quest item on his corpse.
+18) Turn this quest in at Arete (once all the dialog is done) ... Accept "The Admiral Revealed"
+19) GROUP: "The Admiral Revealed" (See Video)  You will need a full group again.  Grand Admiral Westwind sits around the bottom of the Hidden Hollow in the Scarlet Onslaught base in far-western Icecrown. The entrance to the cave is at 9.48.
+20) Once that is done, go back to Arete (at Death's Rise) and turn it in, along with "No Fly Zone"
+
+
+
+Blackwatch
+01) Go turn in "Blackwatch" (up at 35.66) ... Accept "Where Are They Coming From?"
+02) "Where Are They Coming From?" (Just right-click one of the four Altars around 37.71)
+03) Once that is done, go back up (to 35.66) and turn in "Where Are They Coming From?" ... Accept "Destroying the Altars" and "Death's Gaze"
+04) "Destroying the Altars" Again all 4 Altars are around 37.71, and Zarod (Who looks like a Lich) is roaming in between them. Kill him and use his staff to destroy the Altars.
+05) "Death's Gaze" Here are the locations of the 3 spots you need to use the Death's Gaze Orb quest item at (Seem Pic):
+06) Abomination Orb (32.70) You will see a lot of abominations in their chains.
+07) Flesh Giant Orb (34.69) You will see flesh giants.
+08) Cauldron Orb (30.65) You will see a green cauldron and mobs in green liquid tanks.
+09) Once those 2 quests are done, go back up (to 35.66) and turn them both in ... Accept "Spill Their Blood"
+10) "Spill Their Blood" Kill Blood Orbs and Embalming Fluids all around The Fleshwerks.
+11) NOTE: While doing these quests you should find an item (that drops from a Spiked Ghoul) that starts "Jagged Shards".  And start killing Ghouls around the Fleshwerks for the Shards.
+12) ESCORT QUEST: "I'm Not Dead Yet!" There is an escort quest that starts at 31.64 from Father Kamaros.  Accept it and do it, it's easy.
+13) "Jagged Shards" Make sure this quest is finished up.
+14) Once those 3 quests are done, go back up (to 35.66) and turn in "Spill Their Blood" and "Jagged Shards" ... Accept "I'm Smelting... Smelting!" and "The Runesmiths of Malykriss"
+
+Icecrown Citadel
+01) NOTE: For this entire quest chain it is important to keep looking at the minimap for the yellow questions marks for where to turn each of them in at.
+02) "Opportunity" Turn this in at Sergeant Kregga, (down at 54.84) through a gap in the wall of Icecrown Citadel ... Accept "Establishing Superiority"
+03) "Establishing Superiority" (Kill Hulking Horrors, right around in the immediate area).
+04) Once done go back (to 54.84) and turn it in ... Accept "Blow it Up!"
+05) "Blow it Up!" Go right over (to 54.86, the little bombs sitting by the edge) and turn this quest in ... Accept "A Short Fuse"
+06) "A Short Fuse" Accepting this quest immediately shoots you in the pit and you land at Naz'anak: The Forgotten Depths, underneath the water there is a 'Pulsing Crystal' where you turn this quest in at ... Accept "A Voice in the Dark"
+07) NOTE: There is a Surface Portal down there that takes you back to the top, don't click on it now, we will use it later.
+08) "A Voice in the Dark" Turn this in at the boy right next to you ... Accept "Time to Hide"
+09) "Time to Hide" (Kill Faceless Lurkers are right in the immediate area for the blood).
+10) Once it is done, go back to the boy and turn it in ... Accept "Return to the Surface"
+11) Go through the Surface Portal behind the boy.
+
+Blackwatch
+01) "I'm Smelting... Smelting!" Done around 58.73, simply use the Bag of Jagged Shards quest item at one of the three fiery tornado looking furnaces with a bunch of black smoke coming out of them.
+02) "The Runesmiths of Malykriss" Kill Skeletal Runesmiths around 58.73 for the metal bars.
+03) Once those 2 are done, go to the Blackwatch (up at 35.66) and turn them in ... Accept "By Fire Be Purged" and "A Visit to the Doctor"
+04) "By Fire Be Purged" along with "A Visit to the Doctor" Go into the Sanctum of Reanimation (the entrance to the cave is at 34.68) and work your way down burning Festering Corpses with the Olakin's Torch quest item. Once you get to "Patches" (he is chained up), click on his Metal Stake to free him and then kill Doctor Sabnok once he comes down.
+05) Once those 2 are done, leave the cave and go back up to the Blackwatch (up at 35.66) and turn them both in ... Accept "Killing Two Scourge With One Skeleton"
+06) "Killing Two Scourge With One Skeleton" The Burning Skeletons are the green bone arms sparkling randomly on the ground.  Click the arms, and you will get a Burning Skeleton companion. Then bring them to the chained abominations around 32.70.
+07) Once that is done go back up and turn it in ... Accept "He's Gone to Pieces"
+08) "He's Gone to Pieces" done all around the fleshworks, kill the abominations (Corpulent Horrors) for the body parts you need.
+09) Once you got all the body parts to finish the quest go back up and turn in "He's Gone to Pieces" ... Accept "Putting Olakin Back Together Again"
+10) "Putting Olakin Back Together Again" This is all done in Sanctum of Reanimation (the entrance to the cave is at 34.68).  The thread is in the small room to the left as you enter. The cleaver is at the end by the lab equipment.  The 'Slab' where you finally use the Crusader Olakin's Remains quest item at is located in the middle of the Sanctum of Reanimation, See Video.
+11) Once that is done go back up and turn it in ... Accept "The Flesh Giant Champion"
+12) "The Flesh Giant Champion" Talk to Margrave Dhakar (at 29.61) to begin the fight to kill Morbidus.
+13) Once that is done go back up and turn it in.
+
+Orgrim's Hammer
+01) Go to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in "Return to the Surface" ... Accept "Field Repairs"
+02) Also turn in "I'm Not Dead Yet!" (in Orgrim's Hammer)
+The Shadow Vault
+03) Go to The Shadow Vault (at 44.24) and accept "Parting Gifts"
+04) "Parting Gifts" Right-Click one of the red 'eye's just outside of the vault (at 44.24), Click the Seize control.. option.  You will then take control of a Eidolon Watcher, get to know the abilities it has, as you will be using it for the next couple of quests.
+05) Once done, turn that in ... Accept "From Whence They Came" "An Undead's Best Friend" and "Honor is for the Weak"
+
+Weeping Quarry
+01) Right-Click one of the red 'eye's just outside of the vault (at 44.24) and then go south-west down the path and you will run into the Weeping Quarry (around 39.33) where the following 3 quests are done together [steps 2 - 5]:  (See Video to see how to get there and start doing these quests)
+02) NOTE: While doing these quests remember to use the 'Dephase' ability to clear away any mobs that are after you!
+03) "From Whence They Came" (Use the 'Banish Scourge Crystal' ability on the crystals there)
+04) "An Undead's Best Friend" (Use the 'Feed Hungering Plaguehound' ability from a distance on the Hungering Plaguehounds)
+05) "Honor is for the Weak" (Use the 'Assassinate Restless Lookout' ability on Restless Lookouts)
+06) Once all 3 are done use the 'leave vehicle' button to return to The Shadow Vault and turn all 3 quests in ... Accept "Seeds of Chaos" and "Amidst the Confusion"
+07) "Seeds of Chaos" Talk to the NPC (that gave you the quest) to fly on a skeletal gryphon and then use the 'Firebomb' ability to kill all the undead.  Once done, parachute down (by using the 'leave vehicle' button), and then do the next quest:
+08) "Amidst the Confusion" Here are the locations of the 4 objects you have to collect:
+09) Ledger: 39.36 (under a tent)
+10) Map: 38.39 (on top of some black boxes and barrels)
+11) Document: 39.33 (under a tent)
+12) Schedule: 37.41 (on a little wagon that is next to a tent)
+13) Once those 2 are done return to The Shadow Vault and turn both of them in ... Accept "Vereth the Cunning"
+
+Rise of Suffering
+01) Go over to the Rise of Suffering and turn in "Vereth the Cunning" (at 53.71) ... Accept "New Recruit"
+02) "New Recruit" Go up over to 57.68 (on the bridges), and attack a Lithe Stalker until it's health gets low enough to use the Sigil of the Ebon Blade quest item on em, then bring him back down to 53.71.
+03) Turn in "New Recruit" ... Accept "The Vile Hold"
+04) "The Vile Hold" Get control of the lithe stalker from the 'eye of dominion' just up the road behind Vereth the Cunning.  Here are the locations of the places you have to explore:
+05) Alat of Sacrifice: 56.79  (go up on the bridge then south a little)
+06) Blood Forge: 58.71
+07) Icy Lookout: 61.68  (go up on the bridge for this)
+08) Runeworks: 59.74
+09) Once done, go back to (53.71) and turn in "The Vile Hold" ... Accept "Generosity Abounds" "Matchmaker" and "Stunning View"
+
+ 01) Make sure you are still in leaper form (if your not go to the 'Eye of Dominion' behind you to get it again) and do the following 3 quests together:  (See Video for a quick demonstration on what you are in for)
+02) "Generosity Abounds" (There are some Scourge Bombs at 57.75)
+03) "Matchmaker" Done around 59.74, throw rocks at the Umbral Brutes.
+04) "Stunning View" The gargs are at the eastern and southern wall in the area there, simply jump up to them and use the 'Heave' ability on them.
+05) Once these 3 quests are done, go back (to 53.71), or click the 'Leave Vehicle' button and turn in all these quests ... Accept "The Rider of the Unholy" "The Rider of Frost" and "The Rider of Blood"
+06) GROUP:  If you have a group you can do the following 3 "Rider" quests [steps 7 - 9]:
+07) GROUP: "The Rider of the Unholy" (Rokir is at 56.79, south on the bridge)
+08) GROUP: "The Rider of Frost" (Sapph is at 62.68, out on the ledge)
+09) GROUP: "The Rider of Blood" (Baelok is at 59.71 on ground level)
+10) Once these 3 quests are done, go back (to 53.71) and turn in all 3 of these quests in ... Accept "The Fate of Bloodbane"
+11) GROUP: "The Fate of Bloodbane" Orbaz Bloodbane is down at 54.86. He has 422k hitpoints and hits hard, so you will need a full group with a healer/tank for this one.
+12) Once done, go back (to 53.71) and turn in "The Fate of Bloodbane"
+
+Valley of Lost Hope
+05) "Field Repairs" Kill Scavenging Geists around 66.54 for the 5 parts, then go turn this quest in at the Wrecked Demolisher (at 68.51) ... Accept "Do Your Worst" (At the little boy that spawns in next to the Demolisher).
+06) "Do Your Worst" Mount the Refurbished Demolisher to do this quest, once it is done, turn this in at 64.43 ... Accept "Army of the Damned"
+07) "Army of the Damned" Accepting this quest will phase out all the surrounding mobs and let's you see into the "past" with a number of Alliance Footmen standing around.  You're in control of the helmetless, Death Knight version of Arthas Menethil. Basically what you need to do is kill the footmen and then raise them as undead with the abilities you have. Here are his abilities and tips on how to do this:
+     Deathstorm: Kills a LOT of footmen in front of you, but costs most of your mana pool
+ Soul Cleave: Use this when you can't use any other mana, you can recover some mana back from this while using it.
+ Gift of the Lich King (Raise Dead): Use this ability to raise the dead to get your quest credit.
+ Consume Minions: Use this to sacrifice a ghoul and replenish mana and health back. Keep using this every time the cooldown is up.
+ This is the strategy:  Basically, first start off with a Deathbolt, then Raise Dead, then Sacrifice, and repeat until completed.
+ See This Video for a cinematic demonstration I put together on YouTube.
+08) Once it is done (Click the 'Leave Vehicle' button), turn it in at the boy there and Accept "Futility"
+09) Go to The Broken Front (around 69.66) and do the following 2 quests together [steps 10 - 11]:
+10) "Poke and Prod"  To find the Adepts, just look for the greenish smokey stuff.
+11) "Volatility" This quest is simple all you have to do is pick up the 3 objects scattered around the area there (the Pile of Bones, Abandoned Helm, and Abandoned Armor), get 3 of each of them and then use the Copperclaw's Volatile Oil quest item 3 times.
+12) Once all that is done go up into Orgrim's Hammer (The flying ship in the air) and turn in "Poke and Prod" and "Futility" ... Accept "Cradle of the Frostbrood" "That's Abominable!" and "Against the Giants"
+
+Sindragosa's Fall
+01) Go to the little boy (at 71.37 in Sindragosa's Fall) and Accept "Where Dragons Fell"
+02) "Where Dragons Fell" along with "Cradle of the Frostbrood" (Both done around in the immediate area, 71.37)
+03) Once done, go back to the little boy (at 71.37) and turn in "Where Dragons Fell" ... Accept "Time for Answers"
+04) GROUP: "Against the Giants" This quest has you kill Pustulant Horrors found all over the top of Mord'rethar around 65.59 and on the Ironwall Dam around 70.72.  Even though this quest is labeled as as a 5 man group quest, I easily soloed this quest.  This quest can be skipped for now if you like.
+05) "That's Abominable!"  This Daily quest is just like the quest in Zul'drak (where you had to blow up trolls with abominations), except for this one you have to blow up Icy Ghouls, Vicious Geists, and Risen Alliance Soldiers all around 68.63.
+06) "Time for Answers" (Turn this in at 49.73) ... Accept "The Hunter and the Prince"
+07) "The Hunter and the Prince" The object you need to pick up is like 30 yards away from the boy.  Once you pick up the rock you control Arthas again and have to kill Illidan, See Video.  Here are the four abilities, and the strategy to beat him:
+      Parry: You need to keep using this continuously to gain mana back. Cooldown is only a second, so keep pressing it!
+ Deathstrike: Don't use this!  It wastes mana and does not do nearly enough damage as the Annihilate ability.  Save all your mana for Annihilate.
+ Stomp: This knocks Illidan back, but also uses a chunk of mana.
+ Annihilate: This is the ability that is going to do all your damage to him (but costs a lot of mana), you can only use this from a distance (to get him at a distance you need to use the 'Stomp' Ability first).
+ The strategy is this:  keep using parry until your mana gets near to full, then quickly use the Stomp ability followed quickly by the Annihilate ability, then repeat.
+08) Once "The Hunter and the Prince" is done, turn it in (at the boy, 49.73) ... Accept "Knowledge is a Terrible Burden"
+09) Go to Orgrim's Hammer's up in the air and go to Koltira Deathweaver and turn in ALL quests and accept ALL new ones: Turn in "That's Abominable!" "Cradle of the Frostbrood" "Knowledge is a Terrible Burden" and ("Against the Giants" if you did it) ... Accept "Sneak Preview"  "Argent Aid"  ("Basic Chemistry" and "Coprous the Defiled" note: these 2 quests requires "Against the Giants" to be turned in to accept this)
+10) Go to the goblin down below in Orgrim's Hammer and turn in "Volatility" ... Accept "Green Technology"
+
+Green Technology
+01) "Sneak Preview" Simply fly around Aldur'thar, 52.34 to get all locations discovered.  The spots seemed kind of vague to me, most of these can be visited around 53.34, and the south one was at 53.46.
+02) "Green Technology" Turn this in at Tezzla, she is up (at 54.36) inside a big green bubble, go inside the bubble and she will appear ... Accept "Fringe Science Benefits"
+03) "Fringe Science Benefits" This quest takes a little bit to get used to.  Basically you have to talk to the NPC next to you to ride a 'bomber' and then kill a bunch of undead out in the field to the east.  Your bomber has 3 different modes, here are tips for each of them:
+      Anti-Air Turret: Fires missiles at the gargoyles in the air. To aim this, simply hold down the right mouse button then fire the missiles (just targeting the mobs won't do anything).
+ Bomber Bay: Simply lobs bombs to the ground. Please note that the abominations on the ground are the Captains.
+ Engineering: This mode allows you to beef up your shield and put out fires (if your bomber is on fire). Your shield amount is listed at the top right of the screen (as a buff), and has a cap of 100, so keep using the 'Charge Shield' ability occasionally to get your shield back up to 100.
+ Playing this for awhile and you can easily master it.
+ See Video for a quick gameplay demonstration for it.
+04) Once this is done, turn it in.
+05) Now this opens up two Daily Quests you can do with the Bomber and they are:  (these are optional to do right now)
+06) "Riding the Wavelength: The Bombardment"
+07) "Total Ohmage: The Valley of Lost Hope!"
+
+Mord'rethar
+ 01) The following 2 quests are group quests done inside Mord'rethar vault (entrance at 63.62).  You need to do "Against the Giants" in order to accept these.
+02) GROUP: "Basic Chemistry" The cauldrons are in the Mord'rethar vault (entrance at 63.62).  One player throws the fluid into the cauldron (by using the Pustulant Spinal Fluid quest item), then periodically the cauldron will put out emotes telling you to add more fluid.  The quest item has a 90 second cooldown on it, so at least two or more players will be needed to alternate their fluids. See Video.
+03) GROUP: "Coprous the Defiled" Coprous the Defiled is right in the same area back in the vault. Simply kill him. It is possible to solo this quest but it is not easy. TIP: Before he spits his acid attack, hide behind a pillar and you wont get hit by it. See Video.
+Crusader's Pinnacle
+04) Go to Crusader's Pinnacle (at 79.71)
+05) Turn in "Argent Aid" ... Accept "Tirion's Gambit"
+06) "Tirion's Gambit" Go kill a Cultist Acolyte (they are patrolling up and down the stairs of the Cathedral of Darkness at 46.76) to obtain a Cultist Acolyte Hood, put it on and then go up the stairs (to 44.76, by a big blue fire) and talk to Highlord Tirion Fordring to start an event that leads you to complete the quest. Once it is over go through the portal which takes you back to the Crusader's Pinnacle.
+07) Turn in "Tirion's Gambit"
+Orgrim's Hammer
+08) Go back to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in all finished quests (if you did them): Turn in "Coprous the Defiled" "Basic Chemistry" and "Sneak Preview" ... Accept "Drag and Drop" "Chain of Command" and "Cannot Reproduce"
+
+Aldur'thar
+01) "Cannot Reproduce" All three cauldrons are right next to each other (at 49.34).  Use the Partitioned Flask quest item at each of the 3 cauldrons there.
+02) "Chain of Command" While doing this quest remember that the named mob is always in the BIGGER tent in the area that they are in.  See the locations of these mobs below:
+03) Overseer Faedris: 54.47 (See Pic)
+04) Overseer Jhaequon: 54.32
+05) Overseer Veraj: 53.29
+06) Overseer Savryn: 49.31 (in the furthest tent in the back)
+07) "Drag and Drop" Done south of the bridge (around 53.46), kill the mobs there for the Orb of Illusion quest item you need, then throw it at the Dark Subjugators from a distance while out of combat.
+08) Once those 3 quests are done, go back up to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in "Drag and Drop" and "Chain of Command"  ... Accept "Not a Bug" and "Need More Info"
+09) Go to the goblin down below in Orgrim's Hammer and turn in "Cannot Reproduce" ... Accept "Retest Now"
+
+ 01) NOTE: Before starting the following quests make sure you drink the Diluted Cult Tonic quest item, you will see a 10 minute buff appear on the top of your screen, you can only loot Tainted Essences (which you will need later) while this buff is active!  So continuously drink that potion to keep the 'buff' active.
+02) "Need More Info" Need to kill Cult Researchers inside Aldur'thar (the entrance is at 51.32) for the 3 pages, then combine them.  This quest is kind of tough, so getting some help would be good for this.
+03) "Not a Bug" Need to kill Enslaved Minions (the voidwalker looking things, around 54.28) then use the Rod of Siphoning quest item on their corpse to obtain 5 Dark Matter.  Then right-click on the purple Summoning Stone (at 53.33, See Pic).
+04) "Retest Now" Need to collect 10 Tainted Essences from any of the Cultist mobs around Aldur'thar (BUT REMEMBER: You must drink the Diluted Cult Tonic quest item, you will see a 10 minute buff appear on the top of your screen, you can only loot the Tainted Essences while this buff is active!).  Once you obtain the 10 Tainted Essences, combine them to make a Writhing Mass, then use the writhing mass at one of the 3 cauldrons (at 49.34). Each cauldron gives you a different 2 hour buff depending on which one you put the writhing mass in. Here is what each cauldron will give you:
+     Blue: +Spell Power
+ Green: +Stamina
+ Cyan/Light-Blue: +Attack Power
+05) Go back up to Orgrim's Hammer (The ship flying in the air around Icecrown) and go to Koltira to turn in "Not a Bug" and "Need More Info" ... Accept "No Rest For The Wicked" and "Raise the Barricades"
+06) Go to the goblin down below in Orgrim's Hammer and turn in "Retest Now"
+07) "Raise the Barricades" This quest is simple.  All you have to do is go over to The Valley of Fallen Heroes (around 50.40) and use the Barricade Construction Kit quest item on the flashing purple orbs around in the area.
+08) GROUP: "No Rest For The Wicked" (Entrance to the vault is at 51.32)  You gather the pieces of his remains from crates around the room, but they all have a 2 minute duration.  Clear the room first, then loot the pieces. They form a quest item that you use on the crystal in the middle of the back of the room there.  Alumeth himself is substantially more difficult than most of the other group quests in Icecrown. Immune to snares and stuns, melees cloth for 4.8k, mind flays for 3k, shadow word pains for over 1k, fears, heals, and mind controls.  Bring a tank and some healing, you'll need it.  You need to get a group for this, if you cant, then you can do it later, but this needs to be done in order to accept a follow up quest.
+09) Once done, go back up to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in "Raise the Barricades" and "No Rest For The Wicked" ... Accept "The Ironwall Rampart" "Bloodspattered Banners" and ("Blinding the Eyes in the Sky" from Sky-Reaver Korm Blackscar)  (NOTE: You need to turn in "No Rest For The Wicked" in order to accept the quest "The Ironwall Rampart")
+
+The Valley of Fallen Heroes
+01) GROUP: "The Ironwall Rampart" Use the Rune of Distortion quest item at Grimkor's Orb (up at 45.46), then kill Grimkor the Wicked. I was able to do this with the help from just one other person, See Video.
+02) "Bloodspattered Banners" along with "Blinding the Eyes in the Sky" (These quests are done around 50.40).  Need to use the SGM-3 quest item to shoot the Skybreaker Recon Fighters (which are flying up in the air) to the ground.  Also the Scourge Converters and Scourge Banner-Bearers are further south-west (around 43.53).
+03) Once those are done, go back up to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in "The Ironwall Rampart" "Bloodspattered Banners" and "Blinding the Eyes in the Sky" ... Accept "Before the Gate of Horror" (In order to accept this, you need to turn all 3 of those quests in).
+04) "Before the Gate of Horror" There is a lot of Skeletal Reavers around 43.65, I was able to easily solo this quest, but you may need to find one other person to help you with it.  Remember to use the Volatile Acid quest item on their corpses.
+05) Once done, go back up to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in "Before the Gate of Horror" ... Accept "The Guardians of Corp'rethar" and "Shatter the Shards"
+06) Travel south-east to Corp'rethar (around 47.68) and do the following 2 quests together:
+07) "Shatter the Shards" Each shard is surrounded by several non-elite watchers (two shards have 4, the shard on the upper level has 7). Kill the watchers, then attack the shard with your weapon, loot the quest item. Pretty easy quest to solo. Here is the locations of the 3 Shards you have to destroy:
+08) Shard of Horror: (47.68, on the upper most bridge)
+09) Shard of Despair: (49.66, on the lower bridge)
+10) Shard of Suffering: (45.69, on the lower bridge)
+11) GROUP: "The Guardians of Corp'rethar" Kill Harbinger of Horrors and Corp'rethar Guardians all around the bridges of Corp'rethar.  This is very hard to solo.  See Video of me and one other hunter doing this.
+12) Once those are done, go back up to Orgrim's Hammer (The ship flying in the air around Icecrown) and turn in "The Guardians of Corp'rethar" and "Shatter the Shards"
+13) That concludes this guide for now.  The beta ended right here (at the previous quest).  Have fun in Northrend and I hope this guide helped you a lot!  Good luck on your quest to kill the Lich King!
+
+Icecrown DAILY QUESTS
+
+Icecrown DAILY QUESTS
+Since there are SO many daily quests in Icecrown, I have included this section as a quick recap on how to do all the Daily Quests in Icecrown.
+Orgrim's Hammer
+Koltira Deathweaver provides:
+ 01) "Drag and Drop" Done south of the bridge (around 53.46), kill the mobs there for the Orb of Illusion quest item you need, then throw it at the Dark Subjugators from a distance while out of combat.
+02) GROUP: "No Rest For The Wicked" (Entrance to the vault is at 51.32) You gather the pieces of his remains from crates around the room, but they all have a 2 minute duration. Clear the room first, then loot the pieces. They form a quest item that you use on the crystal in the middle of the back of the room there. Alumeth himself is substantially more difficult than most of the other group quests in Icecrown. Immune to snares and stuns, melees cloth for 4.8k, mind flays for 3k, shadow word pains for over 1k, fears, heals, and mind controls. Bring a tank and some healing, you'll need it. Try to find a group, if you cant, then you can do it later, but this needs to be done in order to accept a follow up quest.
+03) "Not a Bug" Need to kill Enslaved Minions (the voidwalker looking things) then use the Rod of Siphoning quest item on their corpse to obtain 5 Dark Matter. Then right-click on the purple Summoning Stone (at 53.33, See Pic).
+04) "That's Abominable!" This Daily quest is just like the quest in Zul'drak (where you had to blow up trolls with abominations), except for this one you have to blow up Icy Ghouls, Vicious Geists, and Risen Alliance Soldiers all around 68.63.
+05) "Neutralizing the Plague"
+Sky-Reaver Korm Blackscar provides:
+06) "Make Them Pay!" Need to kill other Alliance players in Icecrown. If you are on a PVE server you will be flagged for PVP as long as it's in your quest list. It is up to you if you want to do this or not.
+07) "Keeping the Alliance Blind"
+Brother Keltan provides:
+08) "Slaves to Saronite" Done in the Saronite Mines (at 56.57), Simply talk to the Saronite Mine Slaves in the mine, you have a chance that they will run out of the mine and give you quest credit, or turn hostile on you.
+Warbringer Davos Rioht provides:
+09) "Blood of the Chosen" Simply kill vrykul at Ymirheim (middle of Icecrown).
+Chief Engineer Copperclaw (the goblin down in the ship's Hold) provides:
+10) "Volatility" (Done at The Broken Front around 69.66)  This quest is simple all you have to do is pick up the 3 objects scattered around the area there (the Pile of Bones, Abandoned Helm, and Abandoned Armor), get 3 of each of them and then use the Copperclaw's Volatile Oil quest item 3 times.
+11) "Retest Now" Need to collect 10 Tainted Essences from any of the Cultist mobs around Aldur'thar (BUT REMEMBER: You must drink the Diluted Cult Tonic quest item, you will see a 10 minute buff appear on the top of your screen, you can only loot the Tainted Essences while this buff is active!).  Once you obtain the 10 Tainted Essences, combine them to make a Writhing Mass, then use that at one of the 3 cauldrons (at 49.34). Each cauldron gives you a different 2 hour buff depending on which one you put the tainted essences in. Here is what each cauldron will give you:
+     Blue: +Spell Power
+Green: +Stamina
+Cyan/Light-Blue: +Attack Power
+
+Flying Bomber Missions (up at 54.36)
+Fringe Engineer Tezzla provides:
+01) "Riding the Wavelength: The Bombardment" and "Total Ohmage: The Valley of Lost Hope!"  These quests take a little bit to get used to.  Basically you have to talk to the NPC next to you to ride a 'bomber' and then kill a bunch of undead out in the field to the east.  Your bomber has 3 different modes, here are tips for each of them:
+     Anti-Air Turret: Fires missiles at the gargoyles in the air. To aim this, simply hold done the right mouse button then fire the missiles (just targeting the mobs won't do anything).
+Bomber Bay: Simply lobs bombs to the ground. Please note that the abominations on the ground are the Captains.
+Engineering: This mode allows you to beef up your shield and put out fires (if your bomber is on fire). Your shield amount is listed at the top right of the screen (as a buff), and has a cap of 100, so keep using the 'Charge Shield' ability occasionally to get your shield back up to 100.
+Playing this for awhile and you can easily master it.
+See Video for a quick gameplay demonstration for it.
+
+The Bombardment (58.46)
+Ground Commander Xutjja provides:
+01) "Assault by Air" Mount the Kor'kron Troop Transport, you will then automatically fly over to Ymirheim, you will have to wait about 45 seconds before you come in contact with the Ymirheim Spear Guns that you have to shoot at, just shoot 4 of them and then leave the vehicle (you will parachute down), See Video.
+Kor'kron Squad Leader provides:
+02) "Assault by Ground" To begin this quest, first talk to the Kor'kron Squad Leader (The same NPC that gave you this quest)
+
+The Shadow Vault (42.24)
+The Leaper provides:
+01) "Shoot 'Em Up" The Harpoons are at 32.23, See Pic.
+Vile Provides:
+02) "Vile Like Fire!" The Proto-Drakes you have to mount are at 27.38, simply mount one and then burn the buildings in the area with it.
+Baron Silver provides:
+03) "Leave Our Mark" Use the Ebon Blade Banner quest item on the corpses of the Jotunheim mobs.
+
+Njorndar Village
+The Bone Witch (in the cave at 32.42) provides:
+01) "Reading the Bones" Allows you to turn in 15 Vrykul Bones for various power-ups, this is technically not a daily quest, you can turn in as many bones you get for the power-ups.
+
+Ymirheim (51.57)
+01) "King of the Mountain" (This is a PVP Daily Quest).  Mount Thunderbomb's Jumpbot right there and jump your way up to the pile of bones (at 54.59), you have to jump in certain spots to keep progressing upwards, See Video.
+
+Death's Rise (20.47)
+NOTE: All these Dailies are done around the Onslaught Harbor, 8.42:
+Aurochs Grimbane provides:
+01) "Intelligence Gathering" Kill the Onslaught members for the Keys, then open the trunks scattered around the Harbor.
+Setaal Darkmender provides:
+02) "From Their Corpses, Rise!" Kill Onslaught members outside (of the buildings there) and then use the Darkmender's Tincture quest item on their corpses.
+Uzo Deathcaller provides:
+03) "No Fly Zone" Use the Bone Gryphon quest item in Onslaught Harbor and kill Onslaught Gryphon Riders with your Bone Gryphon.
