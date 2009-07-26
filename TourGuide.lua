@@ -63,6 +63,11 @@ function TourGuide:Enable()
 	self.Enable = nil -- Dongle likes to call Enable multiple times if we bug LightHeaded... so we need to nil out to ensure we are only called once
 	if TomTom and TomTom.version ~= "SVN" and (tonumber(TomTom.version) or 0) < 120 then self:Print("Your version of TomTom is out of date.  TourGuide waypoints may not work correctly.") end
 
+	if self.db.char.currentguide == "No Guide" and UnitLevel("player") == 1 and UnitXP("player") == 0 then
+		local startguides = {BloodElf = "Eversong Woods (1-13)", Orc = "Durotar (1-12)", Troll = "Durotar (1-12)", Tauren = "Mulgore (1-12)", Undead = "Tirisfal Glades (1-12)"}
+		self.db.char.currentguide = startguides[select(2, UnitRace("player"))] or self.guidelist[1]
+	end
+
 	self.db.char.currentguide = self.db.char.currentguide or self.guidelist[1]
 	if self.guides[self.db.char.currentguide] then
 		self:LoadGuide(self.db.char.currentguide)
