@@ -1,3 +1,6 @@
+3.2.0.54-Beta
+    Fix shitty "pretty" apostrophes in horde IC guide
+
 3.2.0.53-Beta
     Fix issue with 3.0 backcompatability code
     First bit of ally Icecrown guide
