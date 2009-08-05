@@ -22,9 +22,9 @@ C Free Your Mind |N|Find these 3, kill them and use the Sovereign Rod near their
 T Free Your Mind |N|Go back to Baron Sliver at (44,24)| |QID|12893|
 A If He Cannot Be Turned |QID|12897|
 
-C If He Cannot Be Turned |N|Head into the Shadow Vault at (44,19) Right click the General’s Weapon Rack near the Runeforge to summon him. When he appears, Vile, The Leaper, and Lady Nightswood will help you kill the General.| |QID|12897|
+C If He Cannot Be Turned |N|Head into the Shadow Vault at (44,19) Right click the General's Weapon Rack near the Runeforge to summon him. When he appears, Vile, The Leaper, and Lady Nightswood will help you kill the General.| |QID|12897|
 
-T If He Cannot Be Turned |N|Fly back to Orgrim’s Hammer at around (65,48) The blimp will move around.| |QID|12897|
+T If He Cannot Be Turned |N|Fly back to Orgrim's Hammer at around (65,48) The blimp will move around.| |QID|12897|
 A The Shadow Vault |QID|12898|
 
 T The Shadow Vault |N|Now head back to Baron Sliver at (42,24)| |QID|12898|
@@ -37,7 +37,7 @@ A Honor Challenge |QID|12939|
 A Eliminate the Competition |QID|12955|
 
 C Honor Challenge |N|Fly over to (37,23) Challenge the Mjordin Combants in the area and defeat 6.| |QID|12939|
-C Eliminate the Competition |N|In the same area deul and defeat: Sigrid Iceborn: (37,22) Onu’zun: (37,22) Tinky Wickwhistle: (36,23) Efrem the Faithful: (37,25)| |QID|12955|
+C Eliminate the Competition |N|In the same area deul and defeat: Sigrid Iceborn: (37,22) Onu'zun: (37,22) Tinky Wickwhistle: (36,23) Efrem the Faithful: (37,25)| |QID|12955|
 
 T Eliminate the Competition |N|Fly back to The Shadow Vault (44,20) Talk to The Leaper.| |QID|12955|
 A The Bone Witch |QID|12999|
@@ -47,7 +47,7 @@ A Shadow Vault Decree |QID|12943|
 C Shadow Vault Decree |N|Fly back to the Savage Ledge (37,23) Fight your way into the hall read the Shadow Vault Decree in front of Thane Ufrang the Mighty and defeat him.| |QID|12943|
 A Get the Key |N|From Vaelen the Flayed from inside the hall. He will be chained to the wall.| |QID|12949|
 
-C Get the Key |N|Head back outside and kill Instructor Hroegar patting around in a circle (37,23) Pick up the Key to Vaelen’s Chains.| |QID|12949|
+C Get the Key |N|Head back outside and kill Instructor Hroegar patting around in a circle (37,23) Pick up the Key to Vaelen's Chains.| |QID|12949|
 T Get the Key |N|Then go back inside.| |QID|12949|
 A Let the Baron Know |QID|12951|
 
@@ -71,8 +71,8 @@ C Leave Our Mark |N|Also place the Ebon Blade Banner in the corpses. You will ne
 C Ebon Blade Prisoners |N|Loot the bodies for more Vrykul Bones for Reading the Bones AND Jotunheim Cage Key for Ebon Blade Prisoners.| |QID|12982|
 
 A Revenge for the Vargul |N|Inside Underhalls (36,33)| |QID|13059|
-C Revenge for the Vargul |N|Head out of the room, take the stairs down, and go straight into room with Thane Illskar. Throw Bethod’s Sword into the center of the room to start the event. Volgur will engage you, defeat him. Brita will be next kill her. Thane Illskar comes out last just kill him too.| |QID|13059|
-A The Sum is Greater than the Parts |N|Head out the way you came, and continue down the stairs to the bottom. Apprentice Osterkilgr should be at (34,36) Kill him and pick up his book, Dr.Terrible’s Building a Better Flesh Giant.| |QID|13043|
+C Revenge for the Vargul |N|Head out of the room, take the stairs down, and go straight into room with Thane Illskar. Throw Bethod's Sword into the center of the room to start the event. Volgur will engage you, defeat him. Brita will be next kill her. Thane Illskar comes out last just kill him too.| |QID|13059|
+A The Sum is Greater than the Parts |N|Head out the way you came, and continue down the stairs to the bottom. Apprentice Osterkilgr should be at (34,36) Kill him and pick up his book, Dr.Terrible's Building a Better Flesh Giant.| |QID|13043|
 
 C The Sum is Greater than the Parts |N|Go left from the Apprentice Osterkilgr into the Hall of Horrors (33,33) Take control of Nergeld and defend against the waves of mobs that come near you. He has 4 abilities to use. 1. Use his Stomp ability first. 2. Then a punch or 2, then use his Roar as a rotation. Once you have killed enough of the adds, Dr. Terrible will show himself. Continue to kill the rest of the adds then kill Dr. Terrible.| |QID|13043|
 
@@ -101,12 +101,12 @@ C The Art of Being a Water Terror |N|Fly over to (31,41) Unlock the gate, and ta
 T The Art of Being a Water Terror |N|Return to The Bone Witch (32,42)| |QID|13091|
 A Through the Eye |QID|13121|
 
-C Through the Eye |N|Fly over to (24,60) Enter Kul’galar Keep and make your way around to the Eye of the Lich King. Watch the little cut scene.| |QID|13121|
+C Through the Eye |N|Fly over to (24,60) Enter Kul'galar Keep and make your way around to the Eye of the Lich King. Watch the little cut scene.| |QID|13121|
 
 T Through the Eye |N|Go back to The Bone Witch (32,42)| |QID|13121|
 A Find the Ancient Hero |QID|13133|
 
-C Find the Ancient Hero |N|Head southwest to (27,47) Enter the Halls of the Ancestors and wake up the Slumbering Mjordins. It may take a couple to finally awaken Iskaldar. When he does appear, use The Bone Witch’s Amulet.| |QID|13133|
+C Find the Ancient Hero |N|Head southwest to (27,47) Enter the Halls of the Ancestors and wake up the Slumbering Mjordins. It may take a couple to finally awaken Iskaldar. When he does appear, use The Bone Witch's Amulet.| |QID|13133|
 
 T Find the Ancient Hero |N|Return to The Bone Witch at (32,42)| |QID|13133|
 A Not-So-Honorable Combat |QID|13137|
