@@ -1,3 +1,10 @@
+3.2.0.53-Beta
+    Fix issue with 3.0 backcompatability code
+    First bit of ally Icecrown guide
+    Ally Hillsbrad tweaks (spices not needed anymore, make cloak quest dependent on finding the crafted item)
+    Horde Barrens updates
+    Horde Mulgore updates
+
 3.1.0.52-Beta
     Added koKR Localization
     Bring in Spugnort's guide files for horde wrath
@@ -38,13 +45,13 @@
     Ally Zangarmarsh tweaks
     Ally ZD tweak
     Fix various typos and directions
-    Various fixes from Stephen Touset,  Zariel and Ethan Centaurai 
+    Various fixes from Stephen Touset,  Zariel and Ethan Centaurai
     Ignore text in [brackets] at the start of guide titles
 
 3.0.3.45-Beta
     Ally guide level range tweaks
     New guide: Ally Zul'Drak
-    New guide: Horde Borean Tundra (thanks lowlee)    
+    New guide: Horde Borean Tundra (thanks lowlee)
     Lots of little guide tweaks (thanks Ethan Centaurai, Zariel, keymone)
 
 3.0.3.44-Beta
