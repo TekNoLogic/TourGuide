@@ -1,126 +1,123 @@
 TourGuide:RegisterGuide("Eversong Woods (1-13)", "Ghostlands (13-20)", "Horde", function()
 return [[
-A Reclaiming Sunstrider Isle |QID|8325|
-C Reclaiming Sunstrider Isle |QID|8325|
-T Reclaiming Sunstrider Isle |QID|8325|
-A Unfortunate Measures |QID|8326|
+A Reclaiming Sunstrider Isle |QID|8325| |R|Blood Elf|
+C Reclaiming Sunstrider Isle |QID|8325| |R|Blood Elf|
+T Reclaiming Sunstrider Isle |QID|8325| |R|Blood Elf|
+A Unfortunate Measures |QID|8326| |R|Blood Elf|
 
-A Warlock Training |C|Warlock| |QID|8563|
-T Warlock Training |C|Warlock| |QID|8563|
-A Windows to the Source |C|Warlock| |QID|8344|
+A Warlock Training |C|Warlock| |QID|8563| |R|Blood Elf|
+T Warlock Training |C|Warlock| |QID|8563| |R|Blood Elf|
+A Windows to the Source |C|Warlock| |QID|8344| |R|Blood Elf|
 
-A Well Watcher Solanian |QID|10073|
-T Well Watcher Solanian |QID|10073|
-A The Shrine of Dath'Remar |QID|8345|
-A Solanian's Belongings |N|Don't forget to equip the bag he gives you| |QID|8330|
-A A Fistful of Slivers |QID|8336|
-A Thirst Unending |QID|8346|
+A Well Watcher Solanian |QID|10073| |R|Blood Elf|
+T Well Watcher Solanian |QID|10073| |R|Blood Elf|
+A The Shrine of Dath'Remar |QID|8345| |R|Blood Elf|
+A Solanian's Belongings |N|Don't forget to equip the bag he gives you| |QID|8330| |R|Blood Elf|
+A A Fistful of Slivers |QID|8336| |R|Blood Elf|
+A Thirst Unending |QID|8346| |R|Blood Elf|
 
-C Unfortunate Measures |QID|8326|
-T Unfortunate Measures |QID|8326|
-A Report to Lanthan Perilon |QID|8327|
-T Report to Lanthan Perilon |QID|8327|
-A Aggression |QID|8334|
+C Unfortunate Measures |QID|8326| |R|Blood Elf|
+T Unfortunate Measures |QID|8326| |R|Blood Elf|
+A Report to Lanthan Perilon |QID|8327| |R|Blood Elf|
+T Report to Lanthan Perilon |QID|8327| |R|Blood Elf|
+A Aggression |QID|8334| |R|Blood Elf|
 
-C Aggression |QID|8334|
-C The Shrine of Dath'Remar |QID|8345|
-C Thirst Unending |QID|8346|
-C A Fistful of Slivers |QID|8336|
-C Solanian's Belongings |N|South near a crystal, Southwest near a pond, West near treants| |QID|8330|
+C Aggression |QID|8334| |R|Blood Elf|
+C The Shrine of Dath'Remar |QID|8345| |R|Blood Elf|
+C Thirst Unending |QID|8346| |R|Blood Elf|
+C A Fistful of Slivers |QID|8336| |R|Blood Elf|
+C Solanian's Belongings |N|South near a crystal, Southwest near a pond, West near treants| |QID|8330| |R|Blood Elf|
 
-T Thirst Unending |QID|8346|
-T A Fistful of Slivers |QID|8336|
-T The Shrine of Dath'Remar |QID|8345|
-T Solanian's Belongings |QID|8330|
-T Aggression |QID|8334|
+T Thirst Unending |QID|8346| |R|Blood Elf|
+T A Fistful of Slivers |QID|8336| |R|Blood Elf|
+T The Shrine of Dath'Remar |QID|8345| |R|Blood Elf|
+T Solanian's Belongings |QID|8330| |R|Blood Elf|
+T Aggression |QID|8334| |R|Blood Elf|
 
-C Windows to the Source |C|Warlock| |QID|8344|
-A Felendren the Banished |QID|8335|
-C Felendren the Banished |QID|8335|
-T Windows to the Source |C|Warlock| |QID|8344|
-T Felendren the Banished |QID|8335|
+C Windows to the Source |C|Warlock| |QID|8344| |R|Blood Elf|
+A Felendren the Banished |QID|8335| |R|Blood Elf|
+C Felendren the Banished |QID|8335| |R|Blood Elf|
+T Windows to the Source |C|Warlock| |QID|8344| |R|Blood Elf|
+T Felendren the Banished |QID|8335| |R|Blood Elf|
 
-A Aiding the Outrunners |QID|8347|
-A Tainted Arcane Sliver |L|20483| |O| |QID|8338|
-T Tainted Arcane Sliver |O| |QID|8338|
+A Aiding the Outrunners |QID|8347| |R|Blood Elf|
+A Tainted Arcane Sliver |L|20483| |O| |QID|8338| |R|Blood Elf|
+T Tainted Arcane Sliver |O| |QID|8338| |R|Blood Elf|
 
-R Dawning Lane
-T Aiding the Outrunners |QID|8347|
-A Slain by the Wretched |QID|9704|
-T Slain by the Wretched |QID|9704|
+R Dawning Lane |R|Blood Elf|
+T Aiding the Outrunners |QID|8347| |R|Blood Elf|
+A Slain by the Wretched |QID|9704| |N|On the border of Eversong and SunStrider Isle (40.42, 32.18)|
+T Slain by the Wretched |QID|9704| |N|Just to the southeast (42.00, 35.61)|
 A Package Recovery |QID|9705|
-T Package Recovery |QID|9705|
+T Package Recovery |QID|9705| |N|Back at Outrunner Alarion (40.46, 32.26)|
 A Completing the Delivery |QID|8350|
 
-R Falconwing Square
-A Major Malfunction |QID|8472|
-A Unstable Mana Crystals |QID|8463|
-A Wanted: Thaelis the Hungerer |N|On a wanted poster (48,46)| |QID|8468|
-T Completing the Delivery |QID|8350|
+T Completing the Delivery |QID|8350| |N|Run southeast to Falconwing Square (48.10, 47.71)|
 h Falconwing Square
+A Wanted: Thaelis the Hungerer |QID|8468|
+A Unstable Mana Crystals |QID|8463|
+A Major Malfunction |QID|8472|
 
+C Wanted: Thaelis the Hungerer |QID|8468| |N|North of town, inside the Commons Hall (45.25, 37.86)|
 C Major Malfunction |QID|8472|
 C Unstable Mana Crystals |QID|8463|
-C Wanted: Thaelis the Hungerer |QID|8468|
 
-T Major Malfunction |QID|8472|
-T Unstable Mana Crystals |QID|8463|
-T Wanted: Thaelis the Hungerer |QID|8468|
+T Major Malfunction |QID|8472| |N|Back at Falconwing Square (47.23, 46.29)|
 A Delivery to the North Sanctum |QID|8895|
+T Wanted: Thaelis the Hungerer |QID|8468|
+T Unstable Mana Crystals |QID|8463|
 A Darnassian Intrusions |QID|9352|
 
-R North Sanctum
-A Roadside Ambush |N|Down the path (45,56)| |QID|9035|
-T Delivery to the North Sanctum |QID|8895|
+T Delivery to the North Sanctum |QID|8895| |N|Head south through the gate, then west to the North Sanctum (44.69, 53.15)|
 A Malfunction at the West Sanctum |QID|9119|
+A Roadside Ambush |QID|9035| |N|Just to the south along the main road (45.23, 56.33)|
 
-T Malfunction at the West Sanctum |N|To the west (37,57)| |QID|9119|
+T Malfunction at the West Sanctum |QID|9119| |N|Follow the road west to the West Sanctum (36.66, 57.55)|
 A Arcane Instability |QID|8486|
 C Arcane Instability |QID|8486|
-C Darnassian Intrusions |QID|9352|
+C Darnassian Intrusions |QID|9352| |N|Look for shadowmelded nelves on the west side of the sanctum|
+A Incriminating Documents |QID|8482| |U|20765| |N|From the item the stinking elf dropped.|
+T Darnassian Intrusions |QID|9352| |N|Back on the other side of West Sanctum (36.70, 57.48)|
 T Arcane Instability |QID|8486|
-T Darnassian Intrusions |QID|9352|
 
-A Fish Heads, Fish Heads... |N|Follow the path west (30,58)| |QID|8884|
-C Fish Heads, Fish Heads... |QID|8884|
-T Fish Heads, Fish Heads... |QID|8884|
+A Fish Heads, Fish Heads... |QID|8884| |N|Follow the path west to the little camp (30.20, 58.35)|
+C Fish Heads, Fish Heads... |QID|8884| |N|Kill murlocs, ugh.|
+A Captain Kelisendra's Lost Rutters |QID|8887| |U|21776| |N|Keep thwacking murlocks till this drops.|
+T Fish Heads, Fish Heads... |QID|8884| |N|Back at the camp (30.16, 58.30)|
 A The Ring of Mmmrrrggglll |QID|8885|
-A Grimscale Pirates! |N|South of West Sanctum (36,67)| |QID|8886|
-A Captain Kelisendra's Lost Rutters |U|21776| |O| |QID|8887|
-T Captain Kelisendra's Lost Rutters |O| |QID|8887|
+
+T Captain Kelisendra's Lost Rutters |QID|8887| |N|South of West Sanctum on the other side of the creek (36.34, 66.66)|
+A Grimscale Pirates! |QID|8886|
 A Lost Armaments |QID|8480|
 
-R Fairbreeze Village |N|Follow the road East|
-A Pelt Collection |QID|8491|
+A Pelt Collection |QID|8491| |N|Follow the road east to Fairbreeze Village (44.68, 69.67)|
 A The Wayward Apprentice |QID|9254|
 A Situation at Sunsail Anchorage |QID|8892|
 h Fairbreeze Village
 
-T Roadside Ambush |N|To the north| |QID|9035|
+T Roadside Ambush |QID|9035| |N|Follow the road north to the bridge (44.90, 61.03)|
 A Soaked Pages |QID|9062|
-C Soaked Pages |N|The Grimoire is in the water just south west of that bridge| |QID|9062|
+C Soaked Pages |QID|9062| |N|In the water under the bridge|
 T Soaked Pages |QID|9062|
 A Taking the Fall |QID|9064|
 
-R Falconwing Square
-A Incriminating Documents |U|20765| |O| |QID|8482|
-T Incriminating Documents |O| |QID|8482|
+T Incriminating Documents |QID|8482| |N|Back at Falconwing Square (48.08, 46.05)|
 A The Dwarven Spy |QID|8483|
-C The Dwarven Spy |N|Near North Sanctum| |QID|8483|
-T The Dwarven Spy |N|Back at Falconwing Square| |QID|8483|
+C The Dwarven Spy |QID|8483| |N|Head back to North Sanctum (44.13, 53.40).  Talk to the dorf, go inside, kick his beardy ass.|
+T The Dwarven Spy |QID|8483| |N|Back at Falconwing Square (48.10, 46.06)|
 
-A The Dead Scar |N|To the Southeast (50,51)| |QID|8475|
-C The Dead Scar |N|Slightly to the South| |QID|8475|
+A The Dead Scar |QID|8475| |N|East, at the far north end of the Dead Scar (50.26, 50.88)|
+C The Dead Scar |QID|8475|
 T The Dead Scar |QID|8475|
-T Taking the Fall |N|Stillwhisper Pond to the East| |QID|9064|
+
+T Taking the Fall |QID|9064| |N|To the east at Stillwhisper Pond (55.66, 54.46)|
 A Swift Discipline |QID|9066|
 
-R Farstrider Retreat |N|Follow the road East then South|
-A Amani Encroachment |QID|8476|
+A Amani Encroachment |QID|8476| |N|Follow the road east then south to the Farstrider Retreat (60.33, 62.72)|
 A The Spearcrafter's Hammer |QID|8477|
 A The Magister's Apprentice |QID|8888|
 
-T The Wayward Apprentice |N|To the Southwest| |QID|9254|
+T The Wayward Apprentice |QID|9254| |N|To the southwest at the East Sanctum (54.28, 70.98)|
 A Corrupted Soil |QID|8487|
 C Corrupted Soil |QID|8487|
 T Corrupted Soil |QID|8487|
@@ -129,34 +126,33 @@ C Unexpected Results |QID|8488|
 T Unexpected Results |QID|8488|
 A Research Notes |QID|9255|
 
-H Fairbreeze Village
-A The Scorched Grove |QID|9258|
+A The Scorched Grove |QID|9258| |N|Back at Fairbreeze Village (43.64, 71.23)|
 A Ranger Sareyn |QID|9358|
 T Research Notes |QID|9255|
 A Saltheril's Haven |QID|9395|
 
-N Kill any cats you come across for "Pelt Collection"
-R Saltheril's Haven |N|To the west|
-T Saltheril's Haven |QID|9395|
+N I CAN HAS PELTS? |N|Kill any cats you come across for "Pelt Collection"|
+T Saltheril's Haven |QID|9395| |N|Follow the road west (38.18, 73.51)|
 A The Party Never Ends |QID|9067|
 
-C The Ring of Mmmrrrggglll |N|Over on the shore of course.  Use your racial to stop Mmmrrrggglll from healing himself!| |QID|8885|
+C The Ring of Mmmrrrggglll |QID|8885| |N|To the west, patrolling along the shore.  If you're a belf, use Arcane Torrent to stop Mmmrrrggglll from healing himself.|
 C Grimscale Pirates! |QID|8886|
-T The Ring of Mmmrrrggglll |QID|8885|
+T The Ring of Mmmrrrggglll |QID|8885| |N|Back at the camp of the fish hater (30.29, 58.46)|
 
-C Lost Armaments |N|To the South at Sunsail Anchorage| |QID|8480|
-C Situation at Sunsail Anchorage |QID|8892|
+C Lost Armaments |QID|8480| |N|Find the boxes all over the Sunsail Anchorage to the south.|
+T Grimscale Pirates! |QID|8886| |N|East at the camp (36.35, 66.67)|
 T Lost Armaments |QID|8480|
-T Grimscale Pirates! |QID|8886|
 A Wretched Ringleader |QID|9076|
-C Wretched Ringleader |N|The mob is at the very top of building at Sunsail Anchorage.  Focus fire on him, grab his head and run out of there!| |QID|9076|
-T Wretched Ringleader |QID|9076|
+C Wretched Ringleader |N|At the very top of building at Sunsail Anchorage (32.83, 69.71).  Focus fire on him, grab his head and run out of there!| |QID|9076|
+C Situation at Sunsail Anchorage |QID|8892|
+T Wretched Ringleader |QID|9076| |N|Back at the camp (36.33, 66.85)|
+
 C Pelt Collection |QID|8491|
 
-T Pelt Collection |N|Back at Fairbreeze Village| |QID|8491|
-T Situation at Sunsail Anchorage |QID|8892|
+T Situation at Sunsail Anchorage |QID|8892| |N|Back at Fairbreeze Village (43.39, 70.82)|
 A Missing in the Ghostlands |QID|9144|
-T Ranger Sareyn |N|To the East along the road (47,71)| |QID|9358|
+T Pelt Collection |QID|8491|
+T Ranger Sareyn |QID|9358| |N|To the east along the road (46.88, 71.80)|
 A Defending Fairbreeze Village |QID|9252|
 
 T Missing in the Ghostlands |QID|9144|
