@@ -115,16 +115,11 @@ T Where Are They Coming From? |QID|13117| |N|Back at Blackwatch (35.39, 66.42)|
 A Destroying the Altars |QID|13119|
 A Death's Gaze |QID|13120|
 
-K Master Summoner Zarod |L|43159||N|(36.5,71.2)|
-N First Summoning Altar destroyed |Q|Destroying the Altars| |QO|First Summoning Altar destroyed: 1/1| |U|43159| |N|(36.74,70.72)|
-N Second Summoning Altar destroyed |Q|Destroying the Altars| |QO|Second Summoning Altar destroyed: 1/1| |U|43159| |N||
-N Third Summoning Altar destroyed |Q|Destroying the Altars| |QO|Third Summoning Altar destroyed: 1/1| |U|43159| |N||
-C Destroying the Altars |QID|13119| |U|43159|
-N Orb placed in abomination lab |Q|Death's Gaze| |QO|Orb placed in abomination lab: 1/1| |N|(32.6,70.6)| |U|43229| |Z|Icecrown|
-N Orb placed in flesh giant lab |Q|Death's Gaze| |QO|Orb placed in flesh giant lab: 1/1| |N|(34.6,69.6)| |U|43229| |Z|Icecrown|
-C Death's Gaze |QID|13120| |U|43229| |N|(30.5,65.1)| |Z|Icecrown|
+K Master Summoner Zarod |L|43159| |N|Just to the south (36.5, 71.2), you need his staff for "Destroying the Altars".|
+C Destroying the Altars |QID|13119| |U|43159| |N|Use the staff to destroy each of the altars (37.78, 70.84), (37.48, 71.28), (36.60, 71.41), (36.73, 70.83).  The staff can be used when flying (not druid flight) or stealthed.|
+C Death's Gaze |QID|13120| |N|Use the orb stands in the flesh giant lab (34.62, 69.62), abomination lab (32.66, 70.61) and cauldron area (30.60, 65.08).|
 
-T Destroying the Altars |QID|13119|
+T Destroying the Altars |QID|13119| |N|Back at Blackwatch (35.36, 66.36)|
 T Death's Gaze |QID|13120|
 A Spill Their Blood |QID|13134|
 K Spiked Ghouls |L|43242| |N|Kill Spiked Ghouls until a Jagged Shard drops.|
@@ -133,16 +128,19 @@ N Destroy 5 Blood Orbs |Q|Spill Their Blood| |QO|Blood Orbs shattered: 5/5| |N|K
 N Destroy 5 vats of Embalming Fluid |Q|Spill Their Blood| |QO|Vats of Embalming Fluid destroyed: 5/5| |N|The vats are round and green with metal filigree enclosures|
 C Spill Their Blood |QID|13134|
 N Jagged Shards |L|43259 10| |N|Keep killing Ghouls for Jagged Shards|
-T Spill Their Blood |QID|13134|
+T Spill Their Blood |QID|13134| |N|Back at Blackwatch (35.36, 66.40)|
 T Jagged Shards |QID|13136|
 A I'm Smelting... Smelting! |QID|13138|
 A The Runesmiths of Malykriss |QID|13140|
+
 N I'm Smelting... Smelting! |N|Use the Bag of Jagged Shards near one of the Malykriss furnaces.(57.87,74.09)| |U|43289| |L|43288|
 N Loot five Saronite Plates |L|43291 5| |N|These drop from the Skeletal Runesmiths around (58,71)| |Z|Icecrown|
+
 T I'm Smelting... Smelting! |QID|13138|
 T The Runesmiths of Malykriss |QID|13140|
 A By Fire Be Purged |QID|13211|
 A A Visit to the Doctor |QID|13152|
+
 N Burn 7 Festering Corpses |Q|By Fire Be Purged| |QO|Festering Corpse burned: 7/7| |U|43524| |N|Inside the cave at the Fleshwerks|
 N Free Patches |Q|A Visit to the Doctor| |QO|Patches freed: 1/1|
 C A Visit to the Doctor |QID|13152| |N|Help Patches kill Doctor Sabnok|
@@ -441,20 +439,21 @@ T Blood of the Chosen |QID|13336|
 T Slaves to Saronite |QID|13300|
 T Mind Tricks |QID|13308|
 
-T Vile Like Fire!
-A Parting Gifts |QID|13168|
-C Parting Gifts |QID|13168|
+T Vile Like Fire! |QID|13071| |N|Back at the Shadow Vault (43.12, 25.40)|
+A Parting Gifts |QID|13168| |N|Icecrown, The Shadow Vault (44.00, 24.59)|
+C Parting Gifts |QID|13168| |N|Use the eye of dominion right next to the questgiver.|
 T Parting Gifts |QID|13168|
 
-A An Undead's Best Friend |QID|13169|
 A From Whence They Came |QID|13171|
+A An Undead's Best Friend |QID|13169|
 A Honor is for the Weak |QID|13170|
 
 C An Undead's Best Friend |QID|13169|
 C From Whence They Came |QID|13171|
-K Restless Lookouts |Q|Honor is for the Weak| |QO|Restless Lookouts assassinated: 20/20|
+C Honor is for the Weak |QID|13170|
+
+T From Whence They Came |QID|13171| |N|Back at the Shadow Vault (44.07, 24.61)|
 T An Undead's Best Friend |QID|13169|
-T From Whence They Came |QID|13171|
 T Honor is for the Weak |QID|13170|
 
 A Seeds of Chaos |QID|13172|
@@ -466,7 +465,7 @@ N Weeping Quarry Ledger |L|43689| |N|(39.2,36.7)|
 N Weeping Quarry Map |L|43691| |N|(38.7,39.5)|
 N Weeping Quarry Schedule |L|43690| |N|(37.2,41.7)|
 
-T Seeds of Chaos |QID|13172|
+T Seeds of Chaos |QID|13172| |N|Back at the Shadow Vault (44.04, 24.59)|
 T Amidst the Confusion |QID|13174|
 A Vereth the Cunning |QID|13155|
 T Vereth the Cunning |QID|13155|
