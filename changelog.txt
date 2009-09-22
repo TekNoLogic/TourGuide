@@ -1,3 +1,10 @@
+3.2.0.55-Beta
+    Load guides for fresh toons
+    Crossroads updates, whee!
+    Partial rewrite of eversong guide
+    Horde Barrens updates
+    Transmit current objective to party
+
 3.2.0.54-Beta
     Fix shitty "pretty" apostrophes in horde IC guide
 
