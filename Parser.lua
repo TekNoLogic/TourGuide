@@ -65,10 +65,10 @@ local function ParseQuests(...)
 	end
 
 	-- Query |U| items so they're cached when we actually need them
-	for _,vals in pairs(tags) do
-		local useitem = tonumber(vals:match("|U|(%d+)|"))
-		if useitem and not GetItemInfo(useitem) then GameTooltip:SetHyperlink("item:"..useitem) end
-	end
+	-- for _,vals in pairs(tags) do
+	-- 	local useitem = tonumber(vals:match("|U|(%d+)|"))
+	-- 	if useitem and not GetItemInfo(useitem) then GameTooltip:SetHyperlink("item:"..useitem) end
+	-- end
 
 	return actions, quests, tags
 end
