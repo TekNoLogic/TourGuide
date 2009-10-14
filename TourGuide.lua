@@ -75,10 +75,8 @@ function TourGuide:Enable()
 	else
 		local guidenotloaded = self.db.char.currentguide
 
-		local orig = self.Disable
 		function self:Disable(...)
 			if not self.db.char.currentguide then self.db.char.currentguide = guidenotloaded end
-			return orig(...)
 		end
 
 		function self:ADDON_LOADED()
@@ -103,6 +101,8 @@ function TourGuide:Enable()
 	self.TrackEvents = nil
 	self:QuestID_QUEST_LOG_UPDATE()
 	self:UpdateStatusFrame()
+	self:RegisterEvent("QUEST_QUERY_COMPLETE")
+	QueryQuestsCompleted()
 end
 
 
