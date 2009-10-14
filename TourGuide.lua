@@ -182,6 +182,7 @@ function TourGuide:GetObjectiveStatus(i)
 end
 
 
+local qidactions = {ACCEPT = true, COMPLETE = true, TURNIN = true}
 function TourGuide:SetTurnedIn(i, value, noupdate)
 	if not i then
 		i = self.current
@@ -191,8 +192,8 @@ function TourGuide:SetTurnedIn(i, value, noupdate)
 	if value then value = true else value = nil end -- Cleanup to minimize savedvar data
 
 	local qid = self:GetObjectiveTag("QID", i)
-	if qid then self.turnedinquests[qid] = value end
-	self.turnedin[self.quests[i]] = value
+	if qidactions[self:GetObjectiveInfo(i)] and qid then self.turnedinquests[qid] = value
+	else self.turnedin[self.quests[i]] = value end
 	self:DebugF(1, "Set turned in %q = %s", self.quests[i], tostring(value))
 	if not noupdate then self:UpdateStatusFrame()
 	else self.updatedelay = i end
