@@ -50,14 +50,20 @@ function TourGuide:QUEST_LOG_UPDATE(event)
 	if (self.updatedelay and not logi) or action == "ACCEPT" or action == "COMPLETE" and complete then self:UpdateStatusFrame() end
 
 	if action == "KILL" or action == "NOTE" then
+		if complete then self:UpdateStatusFrame() end
+		if self:GetObjectiveTag("QID") then return end
+
 		local quest, questtext = self:GetObjectiveTag("Q"), self:GetObjectiveTag("QO")
 		if not quest or not questtext then return end
 
 		local qi = self:GetQuestLogIndexByName(quest)
-		for i=1,GetNumQuestLeaderBoards(qi) do
-			if GetQuestLogLeaderBoard(i, qi) == questtext then self:SetTurnedIn() end
-		end
+		if qi and questtext and self:IsQuestObjectiveComplete(qi, questtext) then self:SetTurnedIn() end
 	end
+end
+
+
+function TourGuide:IsQuestObjectiveComplete(qi, questtext)
+	for i=1,GetNumQuestLeaderBoards(qi) do if GetQuestLogLeaderBoard(i, qi) == questtext then return true end end
 end
 
 
