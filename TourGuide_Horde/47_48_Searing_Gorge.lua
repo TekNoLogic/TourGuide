@@ -5,8 +5,8 @@ R Searing Gorge |N|West!|
 A Caught! |N|Guy in the outhouse southeast of map (65,62)| |QID|4449|
 T Caught! |QID|4449|
 A Ledger from Tanaris |QID|4450|
-N Loot the ledger |Q|Ledger from Tanaris| |QO|Goodsteel Ledger: 1/1|
-N Kill Glassweb Spiders |Q|Ledger from Tanaris| |QO|Solid Crystal Leg Shaft: 20/20|
+N Loot the ledger |QID|4450| |QO|Goodsteel Ledger: 1/1|
+N Kill Glassweb Spiders |QID|4450| |QO|Solid Crystal Leg Shaft: 20/20|
 A Divine Retribution |N|Talk to Kalaran Windblade at (39,38)| |QID|3441|
 T Divine Retribution |N|Talk to him to complete quest| |QID|3441|
 A The Flawless Flame |QID|3442|

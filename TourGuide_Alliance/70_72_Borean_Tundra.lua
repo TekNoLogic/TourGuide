@@ -321,7 +321,7 @@ A The Gearmaster |QID|11798|
 T Master and Servant |QID|11730|
 A Finding Pilot Tailspin |QID|11725|
 
-N Get Crafty's Tools |Q|Just a Few More Things...| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06).  Skip this if you didn't get the capacitor.|
+N Get Crafty's Tools |QID|11650| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06).  Skip this if you didn't get the capacitor.|
 C The Gearmaster |QID|11798| |N|Head up to the building on the Pumping Station (64.50, 23.39).  Read teh manual, kill the bot-boss.|
 C What's the Matter with the Transmatter? |QID|11710| |N|Get the last few parts you need scattered around the area.|
 

@@ -30,7 +30,7 @@ A Are We There, Yeti? (Part 2) |QID|977|
 C Are We There, Yeti? (Part 2) |N|Back in the yeti cave (67,42)| |QID|977|
 T Are We There, Yeti? (Part 2) |QID|977|
 A Are We There, Yeti? (Part 3) |QID|5163|
-N Scare Legacki |N|East of the inn, use the Yeti| |U|12928| |Q|Are We There, Yeti?| |QO|Scare Legacki: 1/1|
+N Scare Legacki |N|East of the inn, use the Yeti| |U|12928| |QID|5163| |QO|Scare Legacki: 1/1|
 
 C Winterfall Activity |N|East of town (66,34)| |QID|8464|
 T To Winterspring! |N|At Starfall Village (51,30)| |QID|5249|

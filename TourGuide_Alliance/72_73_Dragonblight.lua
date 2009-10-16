@@ -72,8 +72,8 @@ T The Chain Gun And You |QID|12457|
 A Plunderbeard Must Be Found! |QID|12463|
 A Breaking Off A Piece |QID|12462|
 C Breaking Off A Piece |QID|12462| |N|Head down the stairs, kill the named mobs on both sides.|
-K Necrolord X'avius |Q|Breaking Off A Piece| |QO|Necrolord X'avius slain: 1/1| |N|Down the stairs, hang a right (84.68, 51.23)|
-K Necrolord Horus |Q|Breaking Off A Piece| |QO|Necrolord Horus slain: 1/1| |N|On the opposite side of the hall (86.05, 52.54)|
+K Necrolord X'avius |QID|12462| |QO|Necrolord X'avius slain: 1/1| |N|Down the stairs, hang a right (84.68, 51.23)|
+K Necrolord Horus |QID|12462| |QO|Necrolord Horus slain: 1/1| |N|On the opposite side of the hall (86.05, 52.54)|
 
 T Plunderbeard Must Be Found! |QID|12463| |N|Head down the hall and through the lab (84.19, 54.67)|
 A Plunderbeard's Journal |QID|12465|
@@ -260,7 +260,7 @@ T Elder Mana'loa |QID|12030| |N|Follow the road out of town to Indu'le Village, 
 A Freedom for the Lingering |QID|12031|
 T Search Indu'le Village |QID|12098| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
 A The End of the Line |QID|12107| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
-N Focus, again |Q|The End of the Line| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
+N Focus, again |QID|12107| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
 C Freedom for the Lingering |QID|12031|
 T Freedom for the Lingering |QID|12031| |N|Back at the elder (36.81, 65.20)|
 A Conversing With the Depths |QID|12032|
@@ -333,7 +333,7 @@ C Neltharion's Flame |QID|12267| |N|Head back to the magmawyrm resurrection cham
 T Neltharion's Flame |QID|12267|
 A Tales of Destruction |QID|12266|
 
-K Weakened Reanimated Frost Wyrm |Q|That Which Creates Can Also Destroy| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Use the seeds on a frost wyrm and kill it.  You can find a bunch near Galakrond's Rest (54,38).  Note that the seed won't aggro the wyrm, you'll need to hit it with something first.| |U|37887|
+K Weakened Reanimated Frost Wyrm |QID|12459| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Use the seeds on a frost wyrm and kill it.  You can find a bunch near Galakrond's Rest (54,38).  Note that the seed won't aggro the wyrm, you'll need to hit it with something first.| |U|37887|
 C Mystery of the Infinite |QID|12470| |N|Use the Hourglass of Eternity at the Bronze Dragonshrine (71,40), protect it from the dragons.| |U|37923|
 
 C That Which Creates Can Also Destroy |QID|12459| |U|37887| |N|Same as before, use the seeds, kill the mob.  Overseer Deathgaze is at the northeast edge of the zone in Jintha'kalar (89.42, 18.99).  Turgid the Vile is in the broken keep below Naxx (85.98, 47.63).|

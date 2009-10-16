@@ -57,13 +57,13 @@ A A Personal Favor |QID|10112|
 
 N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground).  Also kill Warp Stalkers and Timber Worgs as you run across them.  And lastly, save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
 
-K Urdak |N|Head south out of Shattrath to Veil Skith.  Kill Urdak up in the trees (31.81, 42.33) for "Stymying the Arrakoa"| |Q|Stymying the Arakkoa| |QO|Urdak slain: 1/1|
+K Urdak |N|Head south out of Shattrath to Veil Skith.  Kill Urdak up in the trees (31.81, 42.33) for "Stymying the Arrakoa"| |QID|9986| |QO|Urdak slain: 1/1|
 C A Personal Favor |QID|10112|
 
-K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |Q|Stymying the Arakkoa| |QO|Ashkaz slain: 1/1|
+K Ashkaz |N|Kill Ashkaz at Veil Reskk for "Stymying the Arrakoa" - he's in the tree house near the north altar (49,16)| |QID|9986| |QO|Ashkaz slain: 1/1|
 C Restoring the Light |O| |N|Cleanse the 3 alters: West (48.11, 14.52), North (50.66, 16.55) and East (49.25, 20.32).  Try to end with the North alter.| |QID|10021|
 C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the north altar (49.90, 16.52).  Get the Eye of Veil Shienor from the tree house in Veil Shienor (57.90, 23.12).  Enter by going up the ramp inside the tree to the southeast (59.74, 25.15).| |QID|10847|
-K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |Q|Stymying the Arakkoa| |QO|Ayit slain: 1/1|
+K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |QID|9986| |QO|Ayit slain: 1/1|
 C Thin the Flock |QID|10869|
 
 H Shattrath City

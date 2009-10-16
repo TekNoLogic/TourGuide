@@ -4,15 +4,15 @@ R Kessel's Crossing |N|On Bloodmyst Isle to the north (63.1, 87.6)|
 T Elekks Are Serious Business |QID|9625|
 A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places.| |QID|9663|
 
-N Warn Stillpine Hold |Q|The Kessel Run| |QO|High Chief Stillpine Warned: 1/1|
-N Warn Azure Watch |Q|The Kessel Run| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|
+N Warn Stillpine Hold |QID|9663| |QO|High Chief Stillpine Warned: 1/1|
+N Warn Azure Watch |QID|9663| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|
 T Warn Your People |QID|9622|
 T Call of Fire (Part 4) |C|Shaman| |QID|9468|
 A Call of Fire (Part 5) |C|Shaman| |QID|9461|
 T Strength of One |C|Warrior| |QID|9582|
 A Behomat |C|Warrior| |QID|10350|
 
-N Warn Odesyus' Landing |Q|The Kessel Run| |QO|Admiral Odesyus Warned: 1/1| |N|Admiral Odesyus, in Odesyus' landing.|
+N Warn Odesyus' Landing |QID|9663| |QO|Admiral Odesyus Warned: 1/1| |N|Admiral Odesyus, in Odesyus' landing.|
 
 T The Kessel Run |N|Back up at Kessel's Crossing| |QID|9663|
 A Declaration of Power |QID|9666|

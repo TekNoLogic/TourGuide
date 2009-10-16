@@ -155,7 +155,7 @@ T Elder Mana'loa |QID|12030| |N|Follow the road out of town to Indu'le Village, 
 A Freedom for the Lingering |QID|12031|
 T Search Indu'le Village |QID|12106| |N|Go south to Indu'le Village and jump in the lake at (40,67)|
 A The End of the Line |QID|12110|
-N Focus, again |Q|The End of the Line| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
+N Focus, again |QID|12110| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
 C In Service of Blood |QID|12125| |U|36827| |N|Find a Deranged Indu'le Villager, beat him down to 35% health and use the Blood Gem on him.|
 C Freedom for the Lingering |QID|12031|
 T Freedom for the Lingering |QID|12031| |N|Back at the elder (36.81, 65.20)|
@@ -312,10 +312,10 @@ T Seeds of the Lashers |QID|12458| |N|Back at Wyrmrest Temple (59.61, 54.34)|
 A That Which Creates Can Also Destroy |QID|12459|
 
 C In Service of Frost |QID|12127| |U|36847| |N|East at the Mirror of Dawn (66.88, 54.99).  Beat the Ice Revenant down to 25% and use the frost gem on it.|
-K Reanimated Frost Wyrm |U|37887| |Q|That Which Creates Can Also Destroy| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|To the north, find a Reanimated Frost Wyrm flying around.  Use the seeds on it, then kill it.|
+K Reanimated Frost Wyrm |U|37887| |QID|12459| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|To the north, find a Reanimated Frost Wyrm flying around.  Use the seeds on it, then kill it.|
 C Mystery of the Infinite |QID|12470| |U|37923| |N|East at the Bronze Dragonshrine (71.49, 41.34).  Use the hourglass, then defend it.  Future you is a total dick.|
 A The Cleansing Of Jintha'kalar |QID|12545| |N|To the northeast at Light's Trust (84.02, 26.18)|
-K Overseer Deathgaze |U|37887| |Q|That Which Creates Can Also Destroy| |QO|Weakened Overseer Deathgaze slain: 1/1| |N|Find Overseer Deathgaze to the east (89.51, 19.03).  Use the seeds on him, then kill him.|
+K Overseer Deathgaze |U|37887| |QID|12459| |QO|Weakened Overseer Deathgaze slain: 1/1| |N|Find Overseer Deathgaze to the east (89.51, 19.03).  Use the seeds on him, then kill him.|
 C The Cleansing Of Jintha'kalar |QID|12545|
 T The Cleansing Of Jintha'kalar |QID|12545||N|Back at Light's Trust (84.04, 25.99)|
 

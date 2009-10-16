@@ -64,8 +64,8 @@ C Scourgekabob |QID|12484| |N|Loot a mummy then head down to the bonfire (16.68,
 T Scourgekabob |QID|12484|
 A Seared Scourge |QID|12029|
 A Shimmercap Stew |QID|12483| |N|Back on the north side of camp (15.71, 46.74)|
-N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |Q|Shimmercap Stew| |QO|Shimmering Snowcap: 5/5|
-K Ice Serpents |N|All over the Ruins of Drak'Zin.| |Q|Shimmercap Stew| |QO|Ice Serpent Eye: 5/5|
+N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |QID|12483| |QO|Shimmering Snowcap: 5/5|
+K Ice Serpents |N|All over the Ruins of Drak'Zin.| |QID|12483| |QO|Ice Serpent Eye: 5/5|
 K Trolls |N|Need dat mojo mon!| |L|35799 5|
 T Subject to Interpretation |QID|11991| |N|Use Drakuru's elixir at the brasier in the middle of the Ruins of Drak'Zin (13.31, 60.86)| |U|35797|
 A Sacrifices Must be Made |QID|12007|
@@ -199,7 +199,7 @@ T Uncovering the Tunnels |QID|12003|
 A The Fate of Orlond |QID|12010|
 T The Fate of Orlond |QID|12010| |N|Head into Thor Modan and across the first bridge (67.41, 15.22)|
 A Steady as a Rock? |QID|12014|
-K Threshers |Q|Steady as a Rock?| |QO|Portable Seismograph: 1/1| |N|Hop in the water and kill threshers.|
+K Threshers |QID|12014| |QO|Portable Seismograph: 1/1| |N|Hop in the water and kill threshers.|
 C The Runic Prophecies |QID|11993| |N|Read each of the runic plates.  Third (68.51, 16.20), first (68.99, 14.45), second (70.18, 14.67)|
 C Into the Breach |QID|11985| |N|Kill Iron Thane Argrum at the east end of Thor Modan (70.48, 12.95)|
 C Steady as a Rock? |QID|12014| |N|Use the portable seismograph right across the bridge from where you killed Argrum (70.66, 13.37), then talk to the console to get a reading.| |U|35837|

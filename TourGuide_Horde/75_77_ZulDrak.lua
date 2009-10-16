@@ -24,7 +24,7 @@ A Making Something Out Of Nothing |QID|12901|
 
 A A Great Storm Approaches |QID|12912| |N|To the east in a big cage at Thrym's End (20.03, 56.59)|
 A Light Won't Grant Me Vengeance |QID|12904| |N|Just west of Gymer (17.61, 57.50)|
-N Find Burr |Q|That's What Friends Are For...| |QO|Burr found: 1/1| |N|A bit further to the west (15.57, 59.46)|
+N Find Burr |QID|12903| |QO|Burr found: 1/1| |N|A bit further to the west (15.57, 59.46)|
 C Making Something Out Of Nothing |QID|12901|
 C That's What Friends Are For... |QID|12903| |N|Find Crusader Dargath to the northeast in the ruins at Dargath's Demise (24.73, 51.54)|
 
@@ -100,7 +100,7 @@ T Hazardous Materials |QID|12677| |U|41390| |N|Down on the ground.  This guy get
 A Sabotage |QID|12676|
 A Fuel for the Fire |QID|12690| |U|38699| |N|Back up on Voltarus (27.16, 46.10)|
 C Fuel for the Fire |QID|12690| |U|39238| |N|Northeast at the Frigid Breach (34.20, 37.84).  This one is easy, and fun!  Use the scepter on an abomination.  Send him after trolls, gather up as many as you can... then blow him up!  Repeat as many times as you like.|
-N Blow up scouragewagons |Q|Sabotage| |QO|Scouragewagons destroyed: 5/5| |U|39165| |N|All around, use the explosives on the scourgewagons, then get clear.|
+N Blow up scouragewagons |QID|12676| |QO|Scouragewagons destroyed: 5/5| |U|39165| |N|All around, use the explosives on the scourgewagons, then get clear.|
 T Fuel for the Fire |QID|12690| |U|38699| |N|Back up on Voltarus (27.15, 46.09)|
 A Disclosure |QID|12710| |U|38699|
 C Disclosure |QID|12710| |U|38699| |N|Port up to the upper chamber, take the tour.|

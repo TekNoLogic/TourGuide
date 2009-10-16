@@ -38,8 +38,8 @@ T Safeguarding the Watchers |N|Over the river near the moonwell.| |QID|9894|
 T A Damp, Dark Place |QID|9788|
 T Saving the Sporeloks |QID|10096|
 
-N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
-N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (63.1,64.1)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
+N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |QID|9720| |QO|Umbrafen Lake Controls Disabled: 1/1|
+N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (63.1,64.1)| |U|24355| |QID|9720| |QO|Lagoon Controls Disabled: 1/1|
 
 R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
 A The Dead Mire |QID|9782|
@@ -85,7 +85,7 @@ A Diaphanous Wings |QID|9790|
 A The Orebor Harborage |QID|9776| |N|Requires level 62 to get, if you can't get it just skip it.|
 
 N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
-N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (62,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
+N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (62,40).| |U|24355| |QID|9720| |QO|Serpent Lake Controls Disabled: 1/1|
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).| |QID|9896|
 C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (44.1,68.7).  Just run in and out, don't hang around with the elite.| |QID|9786|
 
@@ -114,7 +114,7 @@ A A Question of Gluttony |QID|9702|
 C A Question of Gluttony |N|East of the watchpost, look for green glowing things on the ground.  Be wary of the giants that wander in from the west, they'll get you good!| |QID|9702|
 T A Question of Gluttony |QID|9702|
 A Familiar Fungi |QID|9708|
-N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
+N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |QID|9720| |QO|Marshlight Lake Controls Disabled: 1/1|
 C Now That We're Friends... |N|These naga are all around the west side of Marshlight Lake.| |QID|9726|
 C A Warm Welcome |N|If you have a significant number of claws to get, turn in "Now That We're Friends..." and get the repeat quest so you can earn Sporeggar rep at the same time.| |QID|9728|
 

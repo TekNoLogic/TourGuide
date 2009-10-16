@@ -116,8 +116,8 @@ A The Traitor's Shadow |QID|9161|
 T The Traitor's Shadow |N|At Dawnstar Spire, the dusty journal in the building at the top of the ramp (80,18)| |QID|9161|
 A Hints of the Past |QID|9162|
 C Attack on Zeb'Tela |N|Due east of Farstrider Enclave| |QID|9276|
-N Axes and Maces |N|Keep killin them trolls!| |Q|Shadowpine Weaponry| |QO|Headhunter Axe: 3/3|
-N Maces |N|Keep killin them trolls!| |Q|Shadowpine Weaponry| |QO|Shadowcaster Mace: 3/3|
+N Axes and Maces |N|Keep killin them trolls!| |QID|9214| |QO|Headhunter Axe: 3/3|
+N Maces |N|Keep killin them trolls!| |QID|9214| |QO|Shadowcaster Mace: 3/3|
 T Attack on Zeb'Tela |QID|9276|
 A Assault on Zeb'Nowa |QID|9277|
 T Hints of the Past |QID|9162|

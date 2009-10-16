@@ -112,9 +112,9 @@ A We Have the Technology |QID|11484|
 
 C The Ransacked Caravan |QID|11465| |N|Find some more grubs, then let the falcon loose on some turkeys to the west (69.26, 64.53)| |U|34111|
 
-K Shoveltusks |N|After a Pristine Hide| |Q|We Have the Technology| |QO|Pristine Shoveltusk Hide: 1/1|
-N Industrial Strength Rope |Q|We Can Rebuild It| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
-N Large Barrel |Q|We Can Rebuild It| |QO|Large Barrel: 1/1| |N|South in Nifflevar (67.70, 54.96)|
+K Shoveltusks |N|After a Pristine Hide| |QID|11484| |QO|Pristine Shoveltusk Hide: 1/1|
+N Industrial Strength Rope |QID|11483| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
+N Large Barrel |QID|11483| |QO|Large Barrel: 1/1| |N|South in Nifflevar (67.70, 54.96)|
 C We Have the Technology |QID|11484| |N|Keep killin' vrykul|
 C We Can Rebuild It |QID|11483| |N|Take the express harpoon down to Valgarde.  Get the ingots from McGoyver (60.75, 61.45), then takes his flight back to the Explorers' League Outpost.|
 
@@ -451,7 +451,7 @@ A Sleeping Giants |QID|11432|
 T Scare the Guano Out of Them! |QID|11154| |N|North at Steel Gate (30.23, 28.79)|
 
 C Sleeping Giants |QID|11432| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
-K Fearsome Horrors |Q|In Service to the Light| |QO|Fearsome Horror slain: 4/4|
+K Fearsome Horrors |QID|11239| |QO|Fearsome Horror slain: 4/4|
 C Necro Overlord Mezhen |QID|11236| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
 A The Slumbering King |QID|11452| |U|34090| |N|From the scroll dropped by Mezhen|
 C The Slumbering King |QID|11452| |N|Kill Queen Angerboda at the far end of Gjalerbron (41.05, 6.32)|
