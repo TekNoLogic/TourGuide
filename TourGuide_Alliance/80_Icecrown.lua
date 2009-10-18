@@ -146,46 +146,40 @@ T The Runesmiths of Malykriss |QID|13140|
 A By Fire Be Purged |QID|13211|
 A A Visit to the Doctor |QID|13152|
 
-N Burn 7 Festering Corpses |Q|By Fire Be Purged| |QO|Festering Corpse burned: 7/7| |U|43524| |N|Inside the cave at the Fleshwerks|
-N Free Patches |Q|A Visit to the Doctor| |QO|Patches freed: 1/1|
-C A Visit to the Doctor |QID|13152| |N|Help Patches kill Doctor Sabnok|
+C By Fire Be Purged |QID|13211| |U|43524| |N|Head down to the Sanctum of Reanimation and burn corpses.|
+C A Visit to the Doctor |QID|13152| |N|Find PatchesHead down in the Sanctum of Reanimation and free him.  Help him kill the doctor.|
 
 T By Fire Be Purged |QID|13211|
 T A Visit to the Doctor |QID|13152|
 A Killing Two Scourge With One Skeleton |QID|13144|
 
-N destroy 3 Chained Abominations |Q|Killing Two Scourge With One Skeleton| |QO|Chained Abominations burned: 3/3|
+C Killing Two Scourge With One Skeleton |QID|13144| |N|Find bone arms to get a pet skeleton, then use the pet on the abominations.|
 
 T Killing Two Scourge With One Skeleton |QID|13144| |N|Back at Blackwatch (35.39, 66.42)|
 A He's Gone to Pieces |QID|13212|
 
-N Loot Olakin's Torso from Corpulent Horrors |L|43526|
-N Loot Olakin's Legs from Corpulent Horrors |L|43527|
-N Loot Olakin's Left Arm from Corpulent Horrors |L|43528|
-N Loot Olakin's Right Arm from Corpulent Horrors |L|43529|
+C He's Gone to Pieces |QID|13212| |N|Kill Corpulent Horrors for the pieces.|
 
 T He's Gone to Pieces |QID|13212| |N|Back at Blackwatch (35.39, 66.42)|
 A Putting Olakin Back Together Again |QID|13220|
 
-N Loot a Spool of Thread|L|43567| |N|(35,66)|
-N Loot The Doctor's Cleaver|L|43568| |N|(37,67)|
-C Putting Olakin Back Together Again |QID|13220| |U|43564| |N|(36,67)|
+C Putting Olakin Back Together Again |QID|13220| |U|43564| |N|Down in the Sanctum of Reanimation, find thread and the cleaver, then use the slab in the middle of the room.|
 
 T Putting Olakin Back Together Again |QID|13220| |N|Back at Blackwatch (35.39, 66.42)|
 A The Flesh Giant Champion |QID|13235|
 
-C The Flesh Giant Champion |QID|13235|
+C The Flesh Giant Champion |QID|13235| |N|Speak to Margrave Dhakar at the west end of the Fleshwerks (29.7, 61.5), then kill Morbius.|
 
-T The Flesh Giant Champion |QID|13235|
+T The Flesh Giant Champion |QID|13235| |N|Back at Blackwatch (35.39, 66.42)|
 A Let's Get Out of Here |QID|13482|
 
 C Let's Get Out of Here |QID|13482|
 
 T Let's Get Out of Here |QID|13482| |N|Back on the airship|
-
 A Judgment Day Comes! |QID|13226|
+
 T Judgment Day Comes! |QID|13226| |T|
-A Honor Above All Else |QID|13036| |T|
+A Honor Above All Else |QID|13036| |T| |N|Fly to the Argent Vanguard (87.42, 75.82)|
 T Honor Above All Else |QID|13036| |T|
 A Scourge Tactics |QID|13008| |T|
 A Curing The Incurable |QID|13040| |T|
@@ -276,9 +270,26 @@ A The Skybreaker |QID|13225|
 
 T The Skybreaker |QID|13225| |N|Aboard the Skybreaker, the ship you landed on at the start of this zone.  You can find it on the map, make sure you don't go to the horde ship, it has blimps on it.|
 A The Broken Front |QID|13231|
+A Blood of the Chosen |QID|13336|
 A Joining the Assault |QID|13341|
 A Get to Ymirheim! |QID|13296|
 T I'm Not Dead Yet! |QID|13221|
+
+T Get to Ymirheim! |QID|13296|
+A King of the Mountain |QID|13280|
+C King of the Mountain |QID|13280| |N|Use the Jumpbot to climb the mountain (54.84, 60.14).|
+T King of the Mountain |QID|13280|
+
+T Joining the Assault |QID|13341| |N|East of Ymirheim (62.59, 51.38)|
+A Assault by Air |QID|13309|
+A Assault by Ground |QID|13284|
+
+C Assault by Ground |QID|13284|
+C Blood of the Chosen |QID|13336|
+C Assault by Air |QID|13309|
+
+T Assault by Ground |QID|13284|
+T Assault by Air |QID|13309|
 
 C The Broken Front |QID|13231| |N|Head down to the Broken Front (67.67, 68.58) and question a dying soldier.|
 A Finish Me! |QID|13232|
@@ -291,14 +302,12 @@ A Your Attention, Please |QID|13290|
 T ...All the Help We Can Get. |QID|13286|
 A Poke and Prod |QID|13287|
 A Exploiting an Opening |QID|13386|
+T Blood of the Chosen |QID|13336|
 T Your Attention, Please |QID|13290|
 A Borrowed Technology |QID|13291|
 
-N Find 3 Pile of Bones |L|43609 3|
-N Find 3 Abandoned Armor |L|43616 3|
-N Find 3 Abandoned Helm |L|43610 3|
 C Poke and Prod |QID|13287| |N|Back down at the Broken Front (69,65)|
-C Borrowed Technology |QID|13291| |U|44048|
+C Borrowed Technology |QID|13291| |U|44048| |N|Find 3 each of Pile of Bones, Abandoned Armor and Abandoned Helm, then use the Smuggled Solution on them.|
 
 T Poke and Prod |QID|13287| |N|Back aboard the Skybreaker|
 A That's Abominable! |QID|13288|
@@ -307,13 +316,9 @@ A The Solution Solution |QID|13292|
 A Killohertz |QID|13383|
 
 C That's Abominable! |QID|13288| |U|43968| |N|Kill a Hulking Abomination, use the kit, use him to gather up a bunch of mobs, then blow him up.|
+C The Solution Solution |QID|13292| |U|44048| |N|Same as "Borrowed Technology", find 3 items then use the Smuggled Solution on them.|
 
-N Find 3 Pile of Bones |L|43609 3|
-N Find 3 Abandoned Armor |L|43616 3|
-N Find 3 Abandoned Helm |L|43610 3|
-K Frostbrood Skytalons Destroyed |Q|The Solution Solution| |QO|Frostbrood Skytalons Destroyed: 3/3| |U|44048|
-
-T The Solution Solution |QID|13292|
+T The Solution Solution |QID|13292| |N|Back aboard the Skybreaker|
 T That's Abominable! |QID|13288|
 A Sneak Preview |QID|13315|
 
@@ -343,22 +348,18 @@ A Raise the Barricades |QID|13332|
 T Retest Now |QID|13321|
 
 C Raise the Barricades |QID|13332| |U|44127|
-T Raise the Barricades |QID|13332|
+T Raise the Barricades |QID|13332| |N|Back aboard the Skybreaker|
 
-A Killohertz |QID|13383|
-T Killohertz |QID|13383|
+T Killohertz |QID|13383| |N|Find the "airport" in one of the towers at Aldur'thar (53.87, 42.93).|
 A Leading the Charge |QID|13380|
-K Bombardment Infantry slain |Q|Leading the Charge| |QO|Bombardment Infantry slain: 40/40|
-K Bombardment Captain slain |Q|Leading the Charge| |QO|Bombardment Captain slain: 8/8|
-K Gargoyle Ambusher slain  |Q|Leading the Charge| |QO|Gargoyle Ambusher slain: 15/15|
+C Leading the Charge |QID|13380|
 T Leading the Charge |QID|13380|
-
-T Joining the Assault |QID|13341|
-
-T Get to Ymirheim! |QID|13296|
-A King of the Mountain |QID|13280| |O|
-C King of the Mountain |QID|13280| |O|
-T King of the Mountain |QID|13280| |O|
+A Static Shock Troops: the Bombardment |QID|13404|
+C Static Shock Troops: the Bombardment |QID|13404|
+T Static Shock Troops: the Bombardment |QID|13404|
+A Putting the Hertz: The Valley of Lost Hope |QID|13382|
+C Putting the Hertz: The Valley of Lost Hope |QID|13382|
+T Putting the Hertz: The Valley of Lost Hope |QID|13382|
 
 T Exploiting an Opening |QID|13386| |N|Find Captain Kendall below the west side of Icecrown Citadel (51.73, 86.74)|
 A Securing the Perimeter |QID|13387|
@@ -377,51 +378,46 @@ A Return to the Surface |QID|13392|
 
 T Return to the Surface |QID|13392| |N|Back aboard the Skybreaker|
 A Field Repairs |QID|13393|
-K Scavenging Geists |L|44529 5|
+C Field Repairs |QID|13393| |N|Kill Scavenging Geists for parts.|
 T Field Repairs |QID|13393|
 A Do Your Worst |QID|13394|
-K Decomposed Ghoul |Q|Do Your Worst| |QO|Decomposed Ghoul slain: 150/150|
-K Frostskull Magus |Q|Do Your Worst| |QO|Frostskull Magus slain: 20/20|
-K Bone Giant |Q|Do Your Worst| |QO|Bone Giant slain: 2/2|
+C Do Your Worst |QID|13394|
 T Do Your Worst |QID|13394|
 A Army of the Damned |QID|13395|
-N Raise 100 Ghoulish Minions |Q|Army of the Damned| |QO|Ghoulish Minion Raised: 100/100|
+C Army of the Damned |QID|13395|
 T Army of the Damned |QID|13395|
 A Futility |QID|13396|
-T Futility |QID|13396|
+
+T Futility |QID|13396| |N|Back aboard the Skybreaker|
 A Sindragosa's Fall |QID|13397|
 A Where Dragons Fell |QID|13398|
-K Wyrm Reanimators |Q|Sindragosa's Fall| |QO|Wyrm Reanimator slain: 5/5|
-K Cultist Corrupters |Q|Sindragosa's Fall| |QO|Cultist Corrupter slain: 8/8|
-K Vrykul Necrolords |Q|Sindragosa's Fall| |QO|Vrykul Necrolord slain: 3/3|
-K Frostbrood Whelps |L|44631 6|
+C Sindragosa's Fall |QID|13397|
+C Where Dragons Fell |QID|13398|
 T Where Dragons Fell |QID|13398|
 A Time for Answers |QID|13399|
 
-T Sindragosa's Fall |QID|13397|
 T Time for Answers |QID|13399|
 A The Hunter and the Prince |QID|13400|
 C The Hunter and the Prince |QID|13400|
 T The Hunter and the Prince |QID|13400|
 A Knowledge is a Terrible Burden |QID|13401|
+
+T Sindragosa's Fall |QID|13397| |N|Back aboard the Skybreaker|
 T Knowledge is a Terrible Burden |QID|13401|
 A Tirion's Help |QID|13402|
+A Slaves to Saronite |QID|13300|
+
 T Tirion's Help |QID|13402|
 A Tirion's Gambit |QID|13403|
-K Cultist Acolytes |L|44784|
-C Tirion's Gambit |QID|13403| |U|44784|
+C Tirion's Gambit |QID|13403| |U|44784| |N|Kill a Cultist Acolyte for his hood, then slip it on.|
 T Tirion's Gambit |QID|13403|
 
-A Blood of the Chosen |QID|13336|
-A Slaves to Saronite |QID|13300|
 A Mind Tricks |QID|13308|
 
-C Blood of the Chosen |QID|13336|
 C Slaves to Saronite |QID|13300|
 C Mind Tricks |QID|13308| |N|This says it's a G3 quest, but you might be able to solo it.  Get help if you can.|
 
-T Blood of the Chosen |QID|13336| |N|Back on the ship.|
-T Slaves to Saronite |QID|13300|
+T Slaves to Saronite |QID|13300| |N|Back aboard the Skybreaker|
 T Mind Tricks |QID|13308|
 
 T Vile Like Fire! |QID|13071| |N|Back at the Shadow Vault (43.12, 25.40)|
@@ -442,48 +438,40 @@ T Honor is for the Weak |QID|13170|
 A Seeds of Chaos |QID|13172|
 A Amidst the Confusion |QID|13174|
 
-K Weeping Quarry Undead |Q|Seeds of Chaos| |QO|Weeping Quarry Undead slaughtered: 80/80|
-N Weeping Quarry Document |L|43688| |N|(39.1,33.7)|
-N Weeping Quarry Ledger |L|43689| |N|(39.2,36.7)|
-N Weeping Quarry Map |L|43691| |N|(38.7,39.5)|
-N Weeping Quarry Schedule |L|43690| |N|(37.2,41.7)|
+C Seeds of Chaos |QID|13172| |N|Talk to Keritose Bloodblade for a ride.  Bomb the undead, then leave the vehicle when you're done.|
+C Amidst the Confusion |QID|13174| |N|Gather up the Ledger (39.17, 36.69), Map (38.71, 39.40), Schedule (37.29, 41.66) and Document (39.11, 33.76).|
 
 T Seeds of Chaos |QID|13172| |N|Back at the Shadow Vault (44.04, 24.59)|
 T Amidst the Confusion |QID|13174|
 A Vereth the Cunning |QID|13155|
+
 T Vereth the Cunning |QID|13155|
 A New Recruit |QID|13143|
-N Subdued Lithe Stalker |Q|New Recruit| |QO|Subdued Lithe Stalker Returned: 1/1| |U|43315| |N|(55.34,70.86)|
+C New Recruit |QID|13143| |U|43315| |N|Beat down a Lithe Stalker (55.34, 70.86) to ~1/3 HP, then use the sigil on it.|
 T New Recruit |QID|13143| |N|Back at Vareth (53.9, 71.5)|
 A The Vile Hold |QID|13145|
-N Altar of Sacrifice explored |Q|The Vile Hold| |QO|Altar of Sacrifice explored: 1/1| |N|(56.3,79.1)|
-N Icy Lookout explored |Q|The Vile Hold| |QO|Icy Lookout explored: 1/1| |N|(60.6,68.7)|
-N Blood Forge explored |Q|The Vile Hold| |QO|Blood Forge explored: 1/1| |N|(58.1,70.9)|
-N Runeworks explored |Q|The Vile Hold| |QO|Runeworks explored: 1/1| |N|(59.1,74.4)|
-T The Vile Hold |QID|13145| |N|Back at Vareth (53.9, 71.5)|
+C The Vile Hold |QID|13145| |N|Use the Eye of Dominion just up the road (53.9, 71.5).  Scout the Altar of Sacrifice (56.3, 79.1), Blood Forge (58.1, 70.9), Icy Lookout (60.6, 68.7) and Runeworks (59.1, 74.4).|
 
+T The Vile Hold |QID|13145| |N|Back at Vareth (53.9, 71.5)|
 A Generosity Abounds |QID|13146|
 A Matchmaker |QID|13147|
 A Stunning View |QID|13160|
 
-K Iceskin Sentry |Q|Stunning View| |QO|Iceskin Sentry destroyed: 12/12|
-N Deliver Scourge Bomb |Q|Generosity Abounds| |QO|Scourge Bomb gift delivered: 4/4|
-N Start Worker Fights |Q|Matchmaker| |QO|Worker fight started: 5/5|
-T Generosity Abounds |QID|13146|
+C Generosity Abounds |QID|13146| |N|Use the Eye of Dominion again, find bombs and drag them to the Lumbering Atrocities.|
+C Matchmaker |QID|13147| |N|Throw rocks at Umbral Brutes to start fights.|
+C Stunning View |QID|13160| |N|Leap up to the sleeping gargoyles, then heave them off to kill them.|
+
+T Generosity Abounds |QID|13146| |N|Back at Vareth (53.9, 71.5)|
 T Matchmaker |QID|13147|
 T Stunning View |QID|13160|
 
-A Bloodspattered Banners |QID|13334| |N|Back at the airship.|
+A Bloodspattered Banners |QID|13334| |N|Back aboard the Skybreaker|
 A Get the Message |QID|13314|
 
-K Scourge Banner-Bearers |Q|Bloodspattered Banners| |QO|Scourge Banner-Bearer slain: 5/5|
-K Converted Heros |Q|Bloodspattered Banners| |QO|Converted Hero slain: 20/20|
-K Scourge Converters |Q|Bloodspattered Banners| |QO|Scourge Converter slain: 5/5|
+C Bloodspattered Banners |QID|13334| |N|Kill a Banner-Bearer first to weaken the heros, then kill heros and converters.|
+C Get the Message |QID|13314| |U|44222| |N|Use the dart gun to capture 6 Orgrim's Hammer Dispatches.|
 
-C Get the Message |QID|13314| |U|44222|
-
-T Get the Message |QID|13314|
+T Get the Message |QID|13314| |N|Back aboard the Skybreaker|
 T Bloodspattered Banners |QID|13334|
 ]]
 end)
-
