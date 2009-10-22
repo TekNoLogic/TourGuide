@@ -100,6 +100,7 @@ function TourGuide:Enable()
 	self:RegisterEvent("QUEST_DETAIL", "UpdateStatusFrame")
 	self.TrackEvents = nil
 	self:QuestID_QUEST_LOG_UPDATE()
+	GetQuestsCompleted(TourGuide.turnedinquests)
 	self:UpdateStatusFrame()
 	self:RegisterEvent("QUEST_QUERY_COMPLETE")
 	if IsLoggedIn() then QueryQuestsCompleted()
