@@ -4,7 +4,7 @@ return [[
 A Preparations for War |QID|13418| |T|
 T Preparations for War |QID|13418| |N|Talk to Officer Van Rossem again to fly to the Skybreaker|
 A It's All Fun and Games |QID|12887|
-C It's All Fun and Games |QID|12892| |U|41265| |N|To the north above the Shadow Vault (44.22, 20.32).  Stay at max range so the eye cannot hit you and use the blaster on it.|
+C It's All Fun and Games |QID|12887| |U|41265| |N|To the north above the Shadow Vault (44.22, 20.32).  Stay at max range so the eye cannot hit you and use the blaster on it.|
 T It's All Fun and Games |QID|12887| |N|At the base of the Shadow Vault (44.10, 24.69)|
 A I Have an Idea, But First... |QID|12891|
 C I Have an Idea, But First... |QID|12891|
