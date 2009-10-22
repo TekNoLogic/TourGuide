@@ -20,9 +20,7 @@ TourGuide.QIDmemo = qids
 
 
 function TourGuide:QUEST_QUERY_COMPLETE()
-	local temp = {}
-	GetQuestsCompleted(temp)
-	for _,val in pairs(temp) do turnedinquests[val] = true end
+	GetQuestsCompleted(TourGuide.turnedinquests)
 	self:UpdateStatusFrame()
 end
 
