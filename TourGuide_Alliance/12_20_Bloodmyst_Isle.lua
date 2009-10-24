@@ -6,11 +6,11 @@ A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places.| |QID|966
 
 N Warn Stillpine Hold |Q|The Kessel Run| |QO|High Chief Stillpine Warned: 1/1|
 N Warn Azure Watch |Q|The Kessel Run| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|
-T Warn Your People |QID|9622|
-T Call of Fire (Part 4) |C|Shaman| |QID|9468|
-A Call of Fire (Part 5) |C|Shaman| |QID|9461|
-T Strength of One |C|Warrior| |QID|9582|
-A Behomat |C|Warrior| |QID|10350|
+T Warn Your People |QID|9622| |R|Draenei|
+T Call of Fire (Part 4) |C|Shaman| |QID|9468| |R|Draenei|
+A Call of Fire (Part 5) |C|Shaman| |QID|9461| |R|Draenei|
+T Strength of One |C|Warrior| |QID|9582| |R|Draenei|
+A Behomat |C|Warrior| |QID|10350| |R|Draenei|
 
 N Warn Odesyus' Landing |Q|The Kessel Run| |QO|Admiral Odesyus Warned: 1/1| |N|Admiral Odesyus, in Odesyus' landing.|
 
@@ -35,7 +35,7 @@ A Report to Exarch Admetius |QID|9668|
 T A Favorite Treat |QID|9624|
 
 R Blood Watch |N|Take the road north|
-A Beds, Bandages, and Beyond |N|In the inn| |T| |QID|9603|
+A Beds, Bandages, and Beyond |N|In the inn| |T| |QID|9603| |R|Draenei|
 h Blood Watch |T|
 A Know Thine Enemy |T| |QID|9567|
 A Catch and Release |T| |QID|9629|
@@ -43,20 +43,20 @@ A Constrictor Vines |T| |QID|9643|
 A The Bear Necessities |T| |QID|9580|
 A Mac'Aree Mushroom Menagerie |T| |QID|9648|
 
-T Beds, Bandages, and Beyond |N|North at the flightmaster| |T| |QID|9603|
-A On the Wings of a Hippogryph |T| |QID|9604|
+T Beds, Bandages, and Beyond |N|North at the flightmaster| |T| |QID|9603| |R|Draenei|
+A On the Wings of a Hippogryph |T| |QID|9604| |R|Draenei|
 F The Exodar
-T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T| |QID|9604|
-A Hippogryph Master Stephanos |T| |QID|9605|
-T Control |C|Mage| |QID|9595|
-T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T| |QID|9461|
-A Call of Fire (Part 6) |C|Shaman| |T| |QID|9555|
-T Call of Fire (Part 6) |C|Shaman| |T| |QID|9555|
-T Behomat |C|Warrior| |T| |QID|10350|
-T Hippogryph Master Stephanos |T| |QID|9605|
-A Return to Topher Loaal |T| |QID|9606|
-F Blood Watch
-T Return to Topher Loaal |T| |QID|9606|
+T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T| |QID|9604| |R|Draenei|
+A Hippogryph Master Stephanos |T| |QID|9605| |R|Draenei|
+T Control |C|Mage| |QID|9595| |R|Draenei|
+T Call of Fire (Part 5) |C|Shaman| |N|In the Exodar| |T| |QID|9461| |R|Draenei|
+A Call of Fire (Part 6) |C|Shaman| |T| |QID|9555| |R|Draenei|
+T Call of Fire (Part 6) |C|Shaman| |T| |QID|9555| |R|Draenei|
+T Behomat |C|Warrior| |T| |QID|10350| |R|Draenei|
+T Hippogryph Master Stephanos |T| |QID|9605| |R|Draenei|
+A Return to Topher Loaal |T| |QID|9606| |R|Draenei|
+F Blood Watch |R|Draenei|
+T Return to Topher Loaal |T| |QID|9606| |R|Draenei|
 
 T Report to Exarch Admetius |T| |QID|9668|
 A What Argus Means to Me |T| |QID|9693|

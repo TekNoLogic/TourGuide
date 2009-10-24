@@ -5,11 +5,11 @@ C The Balance of Nature (Part 1) |QID|456|
 T The Balance of Nature (Part 1) |QID|456|
 A The Balance of Nature (Part 2) |QID|457|
 
-A Encrypted Sigil |C|Rogue| |QID|3118|
-A Etched Sigil |C|Hunter| |QID|3117|
-A Hallowed Sigil |C|Priest| |QID|3119|
-A Simple Sigil |C|Warrior| |QID|3116|
-A Verdant Sigil |C|Druid| |QID|3120|
+A Encrypted Sigil |C|Rogue| |QID|3118| |R|Night Elf|
+A Etched Sigil |C|Hunter| |QID|3117| |R|Night Elf|
+A Hallowed Sigil |C|Priest| |QID|3119| |R|Night Elf|
+A Simple Sigil |C|Warrior| |QID|3116| |R|Night Elf|
+A Verdant Sigil |C|Druid| |QID|3120| |R|Night Elf|
 
 A The Woodland Protector (Part 1) |QID|458|
 A A Good Friend |QID|4495|
@@ -19,11 +19,11 @@ C The Woodland Protector (Part 2) |QID|459|
 T The Woodland Protector (Part 2) |QID|459|
 A Webwood Venom |N|At the base of the ramp (57.79, 41.70)| |QID|916|
 
-T Encrypted Sigil |C|Rogue| |QID|3118|
-T Etched Sigil |C|Hunter| |N|Up the ramp!| |QID|3117|
-T Hallowed Sigil |C|Priest| |QID|3119|
-T Simple Sigil |C|Warrior| |QID|3116|
-T Verdant Sigil |C|Druid| |N|Up the ramp!| |QID|3120|
+T Encrypted Sigil |C|Rogue| |QID|3118| |R|Night Elf|
+T Etched Sigil |C|Hunter| |N|Up the ramp!| |QID|3117| |R|Night Elf|
+T Hallowed Sigil |C|Priest| |QID|3119| |R|Night Elf|
+T Simple Sigil |C|Warrior| |QID|3116| |R|Night Elf|
+T Verdant Sigil |C|Druid| |N|Up the ramp!| |QID|3120| |R|Night Elf|
 
 C The Balance of Nature (Part 2) |N|Mobs are to the northeast (60,35)| |QID|457|
 C Webwood Venom |N|To the northwest at Shadowthread Cave (57,33)| |QID|916|
@@ -117,38 +117,38 @@ T The Relics of Wakening |QID|483|
 A Ursal the Mauler |QID|486|
 T The Road to Darnassus |QID|487|
 
-A Taming the Beast (Part 1) |C|Hunter| |QID|6063|
-C Taming the Beast (Part 1) |C|Hunter| |N|Tame a webwood lurker (58,60)| |QID|6063|
-T Taming the Beast (Part 1) |C|Hunter| |QID|6063|
-A Taming the Beast (Part 2) |C|Hunter| |QID|6101|
-C Taming the Beast (Part 2) |C|Hunter| |N|Tame a nightsaber stalker (55,73)| |QID|6101|
-T Taming the Beast (Part 2) |C|Hunter| |QID|6101|
-A Taming the Beast (Part 3) |C|Hunter| |QID|6102|
-C Taming the Beast (Part 3) |C|Hunter| |N|Tame a strigid screecher (55,73)| |QID|6102|
-T Taming the Beast (Part 3) |C|Hunter| |QID|6102|
+A Taming the Beast (Part 1) |C|Hunter| |QID|6063| |R|Night Elf|
+C Taming the Beast (Part 1) |C|Hunter| |N|Tame a webwood lurker (58,60)| |QID|6063| |R|Night Elf|
+T Taming the Beast (Part 1) |C|Hunter| |QID|6063| |R|Night Elf|
+A Taming the Beast (Part 2) |C|Hunter| |QID|6101| |R|Night Elf|
+C Taming the Beast (Part 2) |C|Hunter| |N|Tame a nightsaber stalker (55,73)| |QID|6101| |R|Night Elf|
+T Taming the Beast (Part 2) |C|Hunter| |QID|6101| |R|Night Elf|
+A Taming the Beast (Part 3) |C|Hunter| |QID|6102| |R|Night Elf|
+C Taming the Beast (Part 3) |C|Hunter| |N|Tame a strigid screecher (55,73)| |QID|6102| |R|Night Elf|
+T Taming the Beast (Part 3) |C|Hunter| |QID|6102| |R|Night Elf|
 
-A Heeding the Call |C|Druid| |QID|5923|
+A Heeding the Call |C|Druid| |QID|5923| |R|Night Elf|
 
 R Darnassus
 T Rellian Greenspyre |N|At Cenarion Enclave (38.17, 21.65)| |Z|Darnassus| |QID|922|
 A Tumors |QID|923|
 
-T Training the Beast |C|Hunter| |N|(40,8)| |QID|6103|
+T Training the Beast |C|Hunter| |N|(40,8)| |QID|6103| |R|Night Elf|
 
-T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)| |Z|Darnassus| |QID|5923|
-A Moonglade |C|Druid| |QID|5921|
-T Moonglade |N|Teleport there, go into the house past the light armor salesmen| |C|Druid| |QID|5921|
-A Great Bear Spirit |C|Druid| |QID|5929|
-C Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39.15, 27.78)| |Z|Moonglade| |QID|5929|
-T Great Bear Spirit |C|Druid| |QID|5929|
-A Back to Darnassus |C|Druid| |QID|5931|
-T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade| |QID|5931|
-A Body and Heart |C|Druid| |QID|6001|
-R Rut'theran Village |N|The portal west of the bank| |C|Druid|
-F Auberdine |C|Druid|
-C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid| |Z|Darkshore| |QID|6001|
-F Darnassus |C|Druid|
-T Body and Heart |C|Druid| |QID|6001|
+T Heeding the Call |C|Druid| |N|Northwest in Cenarion Enclave (33,8)| |Z|Darnassus| |QID|5923| |R|Night Elf|
+A Moonglade |C|Druid| |QID|5921| |R|Night Elf|
+T Moonglade |N|Teleport there, go into the house past the light armor salesmen| |C|Druid| |QID|5921| |R|Night Elf|
+A Great Bear Spirit |C|Druid| |QID|5929| |R|Night Elf|
+C Great Bear Spirit |C|Druid| |N|Northwest corner of Moonglade (39.15, 27.78)| |Z|Moonglade| |QID|5929| |R|Night Elf|
+T Great Bear Spirit |C|Druid| |QID|5929| |R|Night Elf|
+A Back to Darnassus |C|Druid| |QID|5931| |R|Night Elf|
+T Back to Darnassus |C|Druid| |N|Hearthstone back to Teldrassil, return to the guy that sent you to Moonglade| |QID|5931| |R|Night Elf|
+A Body and Heart |C|Druid| |QID|6001| |R|Night Elf|
+R Rut'theran Village |N|The portal west of the bank| |C|Druid| |R|Night Elf|
+F Auberdine |C|Druid| |R|Night Elf|
+C Body and Heart |N|The cave west of Auberdine. You might want to ask someone to help you to complete this! (43.50,45.97)| |C|Druid| |Z|Darkshore| |QID|6001| |R|Night Elf|
+F Darnassus |C|Druid| |R|Night Elf|
+T Body and Heart |C|Druid| |QID|6001| |R|Night Elf|
 
 A The Temple of the Moon |N|Behind the bank, near the portal to Rut'theran Village| |QID|2519|
 T The Temple of the Moon |N|Due south of the bank| |QID|2519|

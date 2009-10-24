@@ -1,7 +1,7 @@
 TourGuide:RegisterGuide("Azuremyst Isle (1-12)", "Bloodmyst Isle (12-20)", "Alliance", function()
 return [[
-A You Survived! |QID|9279|
-T You Survived! |QID|9279|
+A You Survived! |QID|9279| |R|Draenei|
+T You Survived! |QID|9279| |R|Draenei|
 A Replenishing the Healing Crystals |QID|9369|
 A Volatile Mutations |QID|10302|
 
@@ -14,7 +14,7 @@ A Botanical Legwork |QID|9799|
 T Replenishing the Healing Crystals |QID|9369|
 A Urgent Delivery! |QID|9409|
 T Urgent Delivery! |QID|9409|
-A Rescue the Survivors! |QID|9283|
+A Rescue the Survivors! |QID|9283| |R|Draenei|
 
 A Shaman Training |C|Shaman| |QID|9421|
 A Priest Training |C|Priest| |QID|9291|
@@ -29,14 +29,14 @@ T Warrior Training |C|Warrior| |QID|9289|
 A Spare Parts |QID|9305|
 A Inoculation |QID|9303|
 
-C Rescue the Survivors! |N|Find a Draenei Survivor (73.32,50.88) and use your spell "Gift of the Naaru" on him| |QID|9283|
+C Rescue the Survivors! |N|Find a Draenei Survivor (73.32,50.88) and use your spell "Gift of the Naaru" on him| |QID|9283| |R|Draenei|
 C Botanical Legwork |N|Southwest at Ammen Fields (74.00, 52.95)| |QID|9799|
 C What Must Be Done... |QID|9293|
 
 T Botanical Legwork |QID|9799|
 T What Must Be Done... |QID|9293|
 A Healing the Lake |QID|9294|
-T Rescue the Survivors! |QID|9283|
+T Rescue the Survivors! |QID|9283| |R|Draenei|
 
 C Healing the Lake|N|Southwest at the crystal in Silverline Lake (77.30, 58.67)| |QID|9294|
 C Inoculation |N|East of Silverline Lake at Nestlewood Thicket (78,60).  Use the crystal on the non-aggro moonkin.| |U|22962| |QID|9303|
@@ -78,7 +78,7 @@ A Find Acteon! |QID|9453|
 R Azure Watch |N|Follow the road west|
 T Find Acteon! |QID|9453|
 A The Great Moongraze Hunt (Part 1) |QID|9454|
-A Medicinal Purpose |QID|9463|
+A Medicinal Purpose |QID|9463| |R|Draenei|
 T Travel to Azure Watch |QID|9313|
 T Word from Azure Watch |QID|9314|
 h Azure Watch
@@ -97,7 +97,7 @@ A Precious and Fragile Things Need Special Handling |QID|9523|
 
 C I've Got a Plant |N|Look for a hollowed out tree north of Odesyus' Landing (47.4, 63.5), then work your way to the west towards the ruins collecting leaves and killing moongraze and lashers.| |QID|9530|
 C The Great Moongraze Hunt (Part 1) |QID|9454|
-C Medicinal Purpose |QID|9463|
+C Medicinal Purpose |QID|9463| |R|Draenei|
 C Reclaiming the Ruins |N|At Wrathscale Point, the ruins west of Odesyus' Landing| |QID|9513|
 C Precious and Fragile Things Need Special Handling |QID|9523|
 
@@ -110,8 +110,8 @@ A Warlord Sriss'tiz |N|After the NPCs stop talking| |QID|9515|
 T Reclaiming the Ruins |QID|9513|
 T Precious and Fragile Things Need Special Handling |QID|9523|
 
-T Medicinal Purpose |N|Back at Azure Watch| |QID|9463|
-A An Alternative Alternative |QID|9473|
+T Medicinal Purpose |N|Back at Azure Watch| |QID|9463| |R|Draenei|
+A An Alternative Alternative |QID|9473| |R|Draenei|
 T The Great Moongraze Hunt (Part 1) |QID|9454|
 A The Great Moongraze Hunt (Part 2) |QID|10324|
 
@@ -151,9 +151,9 @@ C All That Remains |QID|9527|
 T All That Remains |QID|9527|
 
 H Azure Watch
-C An Alternative Alternative |QID|9473| |N|Around the bases of the trees.  There's a bunch just southeast of town.|
+C An Alternative Alternative |QID|9473| |N|Around the bases of the trees.  There's a bunch just southeast of town.| |R|Draenei|
 T Help Tavara |C|Priest| |QID|9586|
-T An Alternative Alternative |QID|9473|
+T An Alternative Alternative |QID|9473| |R|Draenei|
 T The Prophecy of Akida |QID|9544|
 A Stillpine Hold |QID|9559|
 T The Great Moongraze Hunt (Part 2) |QID|10324|
@@ -210,7 +210,7 @@ C Control |N|Keep killing murlocs until a Quel'dorei Magewraith appears| |C|Mage
 T Murlocs... Why Here? Why Now? |N|Back at Stillpine Hold| |QID|9562|
 A Gurf's Dignity |O| |U|23850| |QID|9564|
 T Gurf's Dignity |O| |QID|9564|
-A Warn Your People |N|From the Chief| |QID|9622|
+A Warn Your People |N|From the Chief| |QID|9622| |R|Draenei|
 
 C Call of Fire (Part 3) |N|Head down to Silvermyst Isle, find the Wickerman Effigy (11,82)| |C|Shaman| |QID|9467|
 U Orb of Returning |C|Shaman| |U|24335|

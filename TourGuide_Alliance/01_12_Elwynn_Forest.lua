@@ -13,29 +13,29 @@ C Wolves Across the Border |QID|33|
 T Wolves Across the Border |QID|33|
 T Kobold Camp Cleanup |QID|7|
 
-A Consecrated Letter |C|Paladin| |QID|3101|
-A Glyphic Letter |C|Mage| |QID|3104|
-A Encrypted Letter |C|Rogue| |QID|3102|
-A Simple Letter |C|Warrior| |QID|3100|
-A Hallowed Letter |C|Priest| |QID|3103|
-A Tainted Letter |C|Warlock| |QID|3105|
+A Consecrated Letter |C|Paladin| |QID|3101| |R|Human|
+A Glyphic Letter |C|Mage| |QID|3104| |R|Human|
+A Encrypted Letter |C|Rogue| |QID|3102| |R|Human|
+A Simple Letter |C|Warrior| |QID|3100| |R|Human|
+A Hallowed Letter |C|Priest| |QID|3103| |R|Human|
+A Tainted Letter |C|Warlock| |QID|3105| |R|Human|
 
 A Investigate Echo Ridge |QID|15|
 A Brotherhood of Thieves |QID|18|
 
-T Consecrated Letter |C|Paladin| |QID|3101|
-T Glyphic Letter |C|Mage| |QID|3104|
-T Encrypted Letter |C|Rogue| |QID|3102|
-T Simple Letter |C|Warrior| |QID|3100|
-T Hallowed Letter |C|Priest| |QID|3103|
-T Tainted Letter |C|Warlock| |QID|3105|
-A The Stolen Tome |C|Warlock| |QID|1598|
+T Consecrated Letter |C|Paladin| |QID|3101| |R|Human|
+T Glyphic Letter |C|Mage| |QID|3104| |R|Human|
+T Encrypted Letter |C|Rogue| |QID|3102| |R|Human|
+T Simple Letter |C|Warrior| |QID|3100| |R|Human|
+T Hallowed Letter |C|Priest| |QID|3103| |R|Human|
+T Tainted Letter |C|Warlock| |QID|3105| |R|Human|
+A The Stolen Tome |C|Warlock| |QID|1598| |R|Human|
 
 C Investigate Echo Ridge |N|Back at the kobold camps| |QID|15|
-C The Stolen Tome |N|The book is on the ground next to the tent (56.7, 44.0)| |C|Warlock| |QID|1598|
+C The Stolen Tome |N|The book is on the ground next to the tent (56.7, 44.0)| |C|Warlock| |QID|1598| |R|Human|
 C Brotherhood of Thieves |N|East of the abbey across bridge| |QID|18|
 
-T The Stolen Tome |C|Warlock| |QID|1598|
+T The Stolen Tome |C|Warlock| |QID|1598| |R|Human|
 T Brotherhood of Thieves |QID|18|
 A Milly Osworth |QID|3903|
 A Bounty on Garrick Padfoot |QID|6|
@@ -53,7 +53,7 @@ A Grape Manifest |QID|3905|
 T Skirmish at Echo Ridge |QID|21|
 A Report to Goldshire |QID|54|
 T Bounty on Garrick Padfoot |QID|6|
-A In Favor of the Light |C|Priest| |QID|5626|
+A In Favor of the Light |C|Priest| |QID|5626| |R|Human|
 T Grape Manifest |N|Upstairs in the abbey| |QID|3905|
 A Rest and Relaxation |N|Along the road south out of the valley| |QID|2158|
 
@@ -63,10 +63,10 @@ A Gold Dust Exchange |QID|47|
 T Rest and Relaxation |QID|2158|
 h Goldshire
 A Kobold Candles |QID|60|
-T In Favor of the Light |C|Priest| |QID|5626|
-A Garments of the Light |C|Priest| |QID|5625|
-C Garments of the Light |N|Southeast shore of Crystal Lake (48.2, 68.0)| |C|Priest| |QID|5625|
-T Garments of the Light |C|Priest| |QID|5625|
+T In Favor of the Light |C|Priest| |QID|5626| |R|Human|
+A Garments of the Light |C|Priest| |QID|5625| |R|Human|
+C Garments of the Light |N|Southeast shore of Crystal Lake (48.2, 68.0)| |C|Priest| |QID|5625| |R|Human|
+T Garments of the Light |C|Priest| |QID|5625| |R|Human|
 
 A Lost Necklace |N|Take the road west out of town, then south to the Stonefield Farm (34.5, 84.3)| |QID|85|
 T Lost Necklace |N|East at the Maclure Vineyard (43.13, 85.73)| |QID|85|
@@ -133,16 +133,16 @@ C Red Linen Goods |QID|83|
 T Red Linen Goods |QID|83|
 
 H Goldshire |SZ|Lion's Pride Inn|
-A Speak with Jennea |C|Mage| |QID|1860|
-A Seek out SI: 7 |C|Rogue| |QID|2205|
-A Gakin's Summons |C|Warlock| |QID|1717|
+A Speak with Jennea |C|Mage| |QID|1860| |R|Human|
+A Seek out SI: 7 |C|Rogue| |QID|2205| |R|Human|
+A Gakin's Summons |C|Warlock| |QID|1717| |R|Human|
 T Collecting Kelp |QID|112|
 A The Escape |QID|114|
 T Deliver Thomas' Report |QID|39|
 T The Jasperlode Mine |QID|76|
 A Westbrook Garrison Needs Help! |QID|239|
 A Elmore's Task |QID|1097|
-A A Warrior's Training |C|Warrior| |QID|1638|
+A A Warrior's Training |C|Warrior| |QID|1638| |R|Human|
 
 T The Escape |N|Back at the Maclure Vineyards| |QID|114|
 T Goldtooth |N|Back at the Stonefield Farm| |QID|87|
@@ -174,39 +174,39 @@ T Harlan Needs a Resupply |N|Also along the Canals, to the north (49.58, 55.64)|
 A Package for Thurman |N|Same person, again she won't have a '!'| |QID|334|
 T Package for Thurman |N|In the Mage Quarter at Larson Clothiers (42.48, 76.28)| |Z|Stormwind City| |QID|334|
 
-T Speak with Jennea |N|In the Mage Quarter| |C|Mage| |QID|1860|
-A Mirror Lake |C|Mage| |QID|1861|
+T Speak with Jennea |N|In the Mage Quarter| |C|Mage| |QID|1860| |R|Human|
+A Mirror Lake |C|Mage| |QID|1861| |R|Human|
 
-T Gakin's Summons |N|In the Mage Quarter| |C|Warlock| |QID|1717|
-A Surena Caledon |C|Warlock| |QID|1688|
+T Gakin's Summons |N|In the Mage Quarter| |C|Warlock| |QID|1717| |R|Human|
+A Surena Caledon |C|Warlock| |QID|1688| |R|Human|
 
 T Continue to Stormwind |N|In Old Town at Limited Immunity (74.2, 47.38)| |Z|Stormwind City| |R|Human| |QID|6281|
 A Dungar Longdrink |R|Human| |QID|6261|
 
-T Seek out SI: 7 |N|In Old Town| |C|Rogue| |QID|2205|
-A Snatch and Grab |C|Rogue| |QID|2206|
+T Seek out SI: 7 |N|In Old Town| |C|Rogue| |QID|2205| |R|Human|
+A Snatch and Grab |C|Rogue| |QID|2206| |R|Human|
 
-T A Warrior's Training |N|In Old Town| |C|Warrior| |QID|1638|
-A Bartleby the Drunk |C|Warrior| |QID|1639|
-T Bartleby the Drunk |C|Warrior| |QID|1639|
-A Beat Bartleby |C|Warrior| |QID|1640|
-T Beat Bartleby |C|Warrior| |QID|1640|
-A Bartleby's Mug |C|Warrior| |QID|1665|
-T Bartleby's Mug |C|Warrior| |QID|1665|
-A Marshal Haggard |C|Warrior| |QID|1666|
+T A Warrior's Training |N|In Old Town| |C|Warrior| |QID|1638| |R|Human|
+A Bartleby the Drunk |C|Warrior| |QID|1639| |R|Human|
+T Bartleby the Drunk |C|Warrior| |QID|1639| |R|Human|
+A Beat Bartleby |C|Warrior| |QID|1640| |R|Human|
+T Beat Bartleby |C|Warrior| |QID|1640| |R|Human|
+A Bartleby's Mug |C|Warrior| |QID|1665| |R|Human|
+T Bartleby's Mug |C|Warrior| |QID|1665| |R|Human|
+A Marshal Haggard |C|Warrior| |QID|1666| |R|Human|
 
-N Get a Tome of Divinity |L|6775| |N|Go see Duthorian Rall in the Cathedral of Light| |C|Paladin|
-A The Tome of Divinity (Part 1) |C|Paladin| |U|6775| |QID|1642|
-T The Tome of Divinity (Part 1) |C|Paladin| |QID|1642|
-A The Tome of Divinity (Part 2) |C|Paladin| |QID|1643|
-T The Tome of Divinity (Part 2) |C|Paladin| |N|In Trade District| |QID|1643|
-A The Tome of Divinity (Part 3) |C|Paladin| |QID|1644|
-T The Tome of Divinity (Part 3) |C|Paladin| |QID|1644|
-A The Tome of Divinity (Part 4) |C|Paladin| |QID|1780|
-T The Tome of Divinity (Part 4) |C|Paladin| |N|In the Cathedral of Light| |QID|1780|
-A The Tome of Divinity (Part 5) |C|Paladin| |QID|1781|
-T The Tome of Divinity (Part 5) |C|Paladin| |QID|1781|
-A The Tome of Divinity (Part 6) |C|Paladin| |QID|1786|
+N Get a Tome of Divinity |L|6775| |N|Go see Duthorian Rall in the Cathedral of Light| |C|Paladin| |R|Human|
+A The Tome of Divinity (Part 1) |C|Paladin| |U|6775| |QID|1642| |R|Human|
+T The Tome of Divinity (Part 1) |C|Paladin| |QID|1642| |R|Human|
+A The Tome of Divinity (Part 2) |C|Paladin| |QID|1643| |R|Human|
+T The Tome of Divinity (Part 2) |C|Paladin| |N|In Trade District| |QID|1643| |R|Human|
+A The Tome of Divinity (Part 3) |C|Paladin| |QID|1644| |R|Human|
+T The Tome of Divinity (Part 3) |C|Paladin| |QID|1644| |R|Human|
+A The Tome of Divinity (Part 4) |C|Paladin| |QID|1780| |R|Human|
+T The Tome of Divinity (Part 4) |C|Paladin| |N|In the Cathedral of Light| |QID|1780| |R|Human|
+A The Tome of Divinity (Part 5) |C|Paladin| |QID|1781| |R|Human|
+T The Tome of Divinity (Part 5) |C|Paladin| |QID|1781| |R|Human|
+A The Tome of Divinity (Part 6) |C|Paladin| |QID|1786| |R|Human|
 
 T Dungar Longdrink |N|Back at the flight point| |R|Human| |QID|6261|
 A Return to Lewis |R|Human| |QID|6285|
@@ -217,29 +217,29 @@ F Stormwind City |R|Human|
 A The Collector |U|1307| |O| |QID|123|
 T The Collector |O| |N|In Goldshire| |QID|123|
 
-C Mirror Lake |N|Directly south of Stormwind at Mirror Lake (28.6, 61.4)| |U|7207| |C|Mage| |QID|1861|
-C Snatch and Grab |N|Sap & Pickpocket the Dockmaster at Jerod's Landing (48,87)| |C|Rogue| |QID|2206|
-C Surena Caledon |N|In the house at the Brackwell Pumpkin Patch (71,80)| |C|Warlock| |QID|1688|
+C Mirror Lake |N|Directly south of Stormwind at Mirror Lake (28.6, 61.4)| |U|7207| |C|Mage| |QID|1861| |R|Human|
+C Snatch and Grab |N|Sap & Pickpocket the Dockmaster at Jerod's Landing (48,87)| |C|Rogue| |QID|2206| |R|Human|
+C Surena Caledon |N|In the house at the Brackwell Pumpkin Patch (71,80)| |C|Warlock| |QID|1688| |R|Human|
 
-T Marshal Haggard |N|At the Eastvale Logging Camp (84.6, 69.4)| |C|Warrior| |QID|1666|
-A Dead-tooth Jack |C|Warrior| |QID|1667|
-C Dead-tooth Jack |N|To the southeast (89.2, 78.7)| |C|Warrior| |QID|1667|
-T Dead-tooth Jack |C|Warrior| |QID|1667|
+T Marshal Haggard |N|At the Eastvale Logging Camp (84.6, 69.4)| |C|Warrior| |QID|1666| |R|Human|
+A Dead-tooth Jack |C|Warrior| |QID|1667| |R|Human|
+C Dead-tooth Jack |N|To the southeast (89.2, 78.7)| |C|Warrior| |QID|1667| |R|Human|
+T Dead-tooth Jack |C|Warrior| |QID|1667| |R|Human|
 
-T The Tome of Divinity (Part 6) |N|West side of the island on Stonecaire Lake in Elwynn Forest (72.6, 51.5)| |U|6866| |C|Paladin| |QID|1786|
-A The Tome of Divinity (Part 7) |C|Paladin| |QID|1787|
-C The Tome of Divinity (Part 7) |N|Center of island in Stonecaire Lake in Elwynn Forest| |C|Paladin| |QID|1787|
+T The Tome of Divinity (Part 6) |N|West side of the island on Stonecaire Lake in Elwynn Forest (72.6, 51.5)| |U|6866| |C|Paladin| |QID|1786| |R|Human|
+A The Tome of Divinity (Part 7) |C|Paladin| |QID|1787| |R|Human|
+C The Tome of Divinity (Part 7) |N|Center of island in Stonecaire Lake in Elwynn Forest| |C|Paladin| |QID|1787| |R|Human|
 
 H Stormwind City
-T Mirror Lake |C|Mage| |QID|1861|
-T Snatch and Grab |C|Rogue| |QID|2206|
-T Surena Caledon |C|Warlock| |QID|1688|
-A The Binding |NODEBUG| |C|Warlock| |QID|1795|
-C The Binding |NODEBUG| |C|Warlock| |N|Summoning circle downstairs| |U|6928| |QID|1795|
-T The Binding |NODEBUG| |C|Warlock| |QID|1795|
-T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin| |QID|1787|
-A The Tome of Divinity (Part 8) |C|Paladin| |QID|1788|
-T The Tome of Divinity (Part 8) |C|Paladin| |QID|1788|
+T Mirror Lake |C|Mage| |QID|1861| |R|Human|
+T Snatch and Grab |C|Rogue| |QID|2206| |R|Human|
+T Surena Caledon |C|Warlock| |QID|1688| |R|Human|
+A The Binding |NODEBUG| |C|Warlock| |QID|1795| |R|Human|
+C The Binding |NODEBUG| |C|Warlock| |N|Summoning circle downstairs| |U|6928| |QID|1795| |R|Human|
+T The Binding |NODEBUG| |C|Warlock| |QID|1795| |R|Human|
+T The Tome of Divinity (Part 7) |N|In the Cathedral of Light| |C|Paladin| |QID|1787| |R|Human|
+A The Tome of Divinity (Part 8) |C|Paladin| |QID|1788| |R|Human|
+T The Tome of Divinity (Part 8) |C|Paladin| |QID|1788| |R|Human|
 ]]
 end)
 
