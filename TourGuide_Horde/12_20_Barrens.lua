@@ -160,6 +160,9 @@ C Altered Beings |N|(55,42)| |QID|880|
 C The Angry Scytheclaws |N|(51,46)| |QID|905|
 C Raptor Horns |QID|865|
 C Lost in Battle |N|South of the bridge, in a hut north of the road (49.3, 50.4)| |QID|4921|
+
+A Tribes at War |T| |QID|878| |N|At Camp Taurajo|
+
 C Consumed by Hatred |N|(51,54)| |QID|899|
 C Tribes at War |QID|878|
 C Stolen Silver |QID|3281|
