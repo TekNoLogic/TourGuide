@@ -3,7 +3,7 @@ TourGuide:RegisterGuide("Tanaris (43)", "Feralas (43-45)", "Alliance", function(
 return [[
 R Gadgetzan |N|Boat to Ratchet, fly down to Dustwallow, run west into the Barrens, then south thru Thousand Needles and Shimmering Flats to Tanaris.|
 A Wastewander Justice |QID|1690|
-A Water Pouch Bounty |QID|1878|
+A Water Pouch Bounty |QID|1707|
 h Gadgetzan
 A WANTED: Andre Firebeard |N|Wanted sign in front of the cage| |QID|2875|
 T Tran'rek |N|Don't accept the follow-up| |QID|2864|
@@ -18,14 +18,14 @@ A Pirate Hats Ahoy! |QID|8365|
 A Screecher Spirits |QID|3520|
 
 C Wastewander Justice |N| At Noonshade Ruins (61,24) or to the southeast (63,30).| |QID|1690|
-C Water Pouch Bounty |QID|1878|
+C Water Pouch Bounty |QID|1707|
 C WANTED: Andre Firebeard |N|Thru the cave on the shore (68,41), Andre is in the center of the port (73,47)| |QID|2875|
 C Stoley's Shipment |N|On the second floor of the house (72,46)| |QID|2873|
 C Southsea Shakedown |QID|8366|
 C Pirate Hats Ahoy! |QID|8365|
 
 H Gadgetzan
-T Water Pouch Bounty |QID|1878|
+T Water Pouch Bounty |QID|1707|
 T Wastewander Justice |QID|1690|
 A More Wastewander Justice |QID|1691|
 

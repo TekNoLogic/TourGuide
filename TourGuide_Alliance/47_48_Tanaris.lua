@@ -46,7 +46,7 @@ A Insect Part Analysis (Part 1) |QID|110|
 T Insect Part Analysis (Part 1) |QID|110|
 A Insect Part Analysis (Part 2) |QID|113|
 T Insect Part Analysis (Part 2) |QID|113|
-A Rise of the Silithid |NODEBUG| |QID|4267|
+A Rise of the Silithid |NODEBUG| |QID|162|
 
 T An Orphan Looking For a Home |NODEBUG| |N|Up at the raceway in Shimmering Flats (78.38, 74.68)| |Z|Thousand Needles| |QID|3841|
 A A Short Incubation |QID|3842|

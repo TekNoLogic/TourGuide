@@ -6,7 +6,7 @@ A WANTED: Andre Firebeard |T| |QID|2875|
 T Tran'rek |T| |QID|2864|
 A Gadgetzan Water Survey |N|Southwest side of town on a hill (50.2,27.5)| |T| |QID|992|
 A Wastewander Justice |N|Between the bank and the inn (52.5,28.5)| |T| |QID|1690|
-A Water Pouch Bounty |T| |QID|1878|
+A Water Pouch Bounty |T| |QID|1707|
 h Gadgetzan
 
 R Mirage Raceway |N|In the Shimmering Flats (77.8,77.3)| |Z|Thousand Needles|
@@ -33,7 +33,7 @@ A Southsea Shakedown |QID|8366|
 T Stoley's Debt |QID|2872|
 A Stoley's Shipment |QID|2873|
 
-C Water Pouch Bounty |QID|1878|
+C Water Pouch Bounty |QID|1707|
 C Wastewander Justice |N|At (64,29)| |QID|1690|
 
 C WANTED: Andre Firebeard |N|At Lost Rigger Cove (73.4,47.1)| |QID|2875|
@@ -42,7 +42,7 @@ C Pirate Hats Ahoy! |QID|8365|
 C Southsea Shakedown |QID|8366|
 
 H Gadgetzan
-T Water Pouch Bounty |QID|1878|
+T Water Pouch Bounty |QID|1707|
 T Wastewander Justice |QID|1690|
 A More Wastewander Justice |QID|1691|
 C Gadgetzan Water Survey |N|Grind mobs along the way, at (38,29)| |QID|992|
