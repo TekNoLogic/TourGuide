@@ -10,11 +10,13 @@ A The Mark of Quality |T| |QID|2822|
 A A Strange Request |T| |QID|3121|
 h Camp Mojache |T|
 
+T A Strange Request |QID|3121| |N|Find Xerash Fireblade at the pavilion north of camp (76.8, 37.5)|
+A Return to Witch Doctor Uzer'i |QID|3122|
+
 C War on the Woodpaw |N|North of Camp Mojache (71,37)| |QID|2862|
 C Gordunni Cobalt |N|North of Camp Mojache, up the path by the waterfall (75,31)| |U|9466| |QID|2987|
 C The Ogres of Feralas (Part 1) |QID|2975|
 A The Gordunni Scroll |N|From the scrolls lying around on the floor| |U|9370| |QID|2978|
-C A New Cloak's Sheen |N|West of Camp Mojache, on the north side of the path (70,47)| |QID|2973|
 
 T War on the Woodpaw |N|Back at Camp Mojache| |T| |QID|2862|
 A Alpha Strike |T| |QID|2863|
@@ -23,8 +25,13 @@ T The Ogres of Feralas (Part 1) |T| |QID|2975|
 A The Ogres of Feralas (Part 2) |T| |QID|2980|
 T The Gordunni Scroll |T| |QID|2978|
 A Dark Ceremony |T| |QID|2979|
-T A New Cloak's Sheen |T| |QID|2973|
-A A Grim Discovery (Part 1) |T| |QID|2974|
+T Return to Witch Doctor Uzer'i |QID|3122| |T|
+A Testing the Vessel |QID|3123| |T|
+A Natural Materials |QID|3128| |T|
+
+N Keep an eye out for Wandering Forest Walkers |N|They drop [Splintered Log] for "Natural Materials".|
+
+C Testing the Vessel |QID|3123| |U|9618| |N|Kill Ironfur Bears or Longtooth Runners and use the vessel on their corpses.|
 
 C Alpha Strike |N|Southwest of Camp Mojache (72,56)| |QID|2863|
 T Alpha Strike |T| |QID|2863|
@@ -33,21 +40,25 @@ C Woodpaw Investigation |N|Southwest of Camp Mojache (71.6,55.9)| |QID|2902|
 T Woodpaw Investigation |QID|2902|
 A The Battle Plans |QID|2903|
 
-C A Grim Discovery (Part 1) |N|West of Camp Mojache (66,46)| |QID|2974|
+C A New Cloak's Sheen |N|West of Camp Mojache, on the north side of the path (70,47)| |QID|2973|
+K Sprite Darters |Q|Natural Materials| |QO|Encrusted Minerals: 6/6| |QID|3128| |N|Need [Encrusted Minerals] for "Natural Materials"|
 
 H Camp Mojache
 T The Battle Plans |T| |QID|2903|
 A Zukk'ash Infestation |T| |QID|7730|
 A Stinglasher |T| |QID|7731|
-T A Grim Discovery (Part 1) |T| |QID|2974|
-A A Grim Discovery (Part 2) |T| |QID|2976|
+T A New Cloak's Sheen |T| |QID|2973|
+A A Grim Discovery (Part 1) |T| |QID|2974|
+T Testing the Vessel |QID|3123|
 
 C Stinglasher |N|Both in the hive area south of Camp Mojache (74,62)| |QID|7731|
 C Zukk'ash Infestation |QID|7730|
+C A Grim Discovery (Part 1) |N|West of Camp Mojache (66,46)| |QID|2974|
 C Screecher Spirits |N|South of Dire Maul (55,56)| |U|10699| |QID|3520|
 C The Ogres of Feralas (Part 2) |N|South of Dire Maul (59,68)| |QID|2980|
 C Dark Ceremony |N|In the ruins to the south (59,68)| |QID|2979|
 N Pick up a Hippograph Egg |N|Around (55,76) in nests| |L|8564|
+C Natural Materials |QID|3128| |N|Kill hippographs for sinew and fragments, and treants for logs.|
 C The Mark of Quality |N|Southwest of Dire Maul (55.4,56.4)| |QID|2822|
 
 T The Mark of Quality |N|Back at Camp Mojache| |T| |QID|2822|
@@ -58,6 +69,9 @@ A Zukk'ash Report |T| |QID|7732|
 T The Ogres of Feralas (Part 2) |T| |QID|2980|
 T Dark Ceremony |T| |QID|2979|
 A The Gordunni Orb |T| |QID|3002|
+T A Grim Discovery (Part 1) |T| |QID|2974|
+A A Grim Discovery (Part 2) |T| |QID|2976|
+T Natural Materials |QID|3128| |T|
 
 F Orgrimmar
 h Orgrimmar |T|
@@ -68,7 +82,6 @@ A Ripple Recovery (Part 2) |QID|650| |T|
 T Parts of the Swarm |N|At Belgrom Rockmaul in the Valley of Honor (75,34)| |Z|Orgrimmar| |QID|1184| |T|
 T A Grim Discovery (Part 2) |T| |QID|2976|
 A Betrayed |QID|3507| |T|
-T A Strange Request |N|In the Cleft of Shadow (49.6,50.6)| |Z|Orgrimmar| |QID|3121| |T|
 T Report to Zor |N|In the Valley of Wisdom (38.9,38.4)| |Z|Orgrimmar| |QID|1262| |T|
 A Service to the Horde |QID|7541| |T|
 T Service to the Horde |QID|7541| |T|
