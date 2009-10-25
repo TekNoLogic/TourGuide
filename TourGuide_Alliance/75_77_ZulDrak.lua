@@ -109,7 +109,7 @@ C Sabotage |QID|12676|
 T Sabotage |QID|12676| |U|41390| |N|Insert "horn blowing" joke here.|
 A Betrayal |QID|12713|
 C Betrayal |QID|12713| |U|39664| |N|Head up and talk to Drakuru to start this.  It's a fairly easy battle, don't worry about your disguise when it fails.  Use the scepter on one of the big trolls and send him after Drakuru.  While he fights, watch for the crystals Drakuru throws and move away from them as fast as you can.  After you're clear, heal or bandage up.  Now as for getting back down afterwards...|
-U Port back down, quickly! |U|43059| |N|Use [Drakuru's Last Wish] to port down.  It only lasts 3 minutes, so be quick about it.|
+U Port back down, quickly! |U|43059| |N|Use [Drakuru's Last Wish] to port down.  It only lasts 3 minutes, so be quick about it.| |QID|12713|
 T Betrayal |QID|12713| |U|41390| |N|Last time you get to blow his horn, you better make it a good one.|
 
 T Taking a Stand |QID|12795| |N|Head up the stairs where you killed the prince earlier, then across the battlefield to the Argent Stand (39.44, 66.90)|

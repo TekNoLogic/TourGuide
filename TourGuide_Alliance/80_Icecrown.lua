@@ -1,10 +1,10 @@
 
-TourGuide:RegisterGuide("Icecrown (80)", nil, "Alliance", function() 
+TourGuide:RegisterGuide("Icecrown (80)", nil, "Alliance", function()
 return [[
 A Preparations for War |QID|13418| |T|
 T Preparations for War |QID|13418| |N|Talk to Officer Van Rossem again to fly to the Skybreaker|
 A It's All Fun and Games |QID|12887|
-C It's All Fun and Games |QID|12892| |U|41265| |N|To the north above the Shadow Vault (44.22, 20.32).  Stay at max range so the eye cannot hit you and use the blaster on it.|
+C It's All Fun and Games |QID|12887| |U|41265| |N|To the north above the Shadow Vault (44.22, 20.32).  Stay at max range so the eye cannot hit you and use the blaster on it.|
 T It's All Fun and Games |QID|12887| |N|At the base of the Shadow Vault (44.10, 24.69)|
 A I Have an Idea, But First... |QID|12891|
 C I Have an Idea, But First... |QID|12891|
@@ -12,7 +12,7 @@ T I Have an Idea, But First... |QID|12891|
 A Free Your Mind |QID|12893|
 C Free Your Mind |QID|12893| |U|41366| |N|Kill each mob and use the rod on their corpse.  You'll find Lady Nightswood (41.69, 24.59) and Vile (44.48, 27.70) on the ledges above, and the Leaper on the ring obove them.|
 T Free Your Mind |QID|12893| |N|Back down in front of the Shadow Vault (44.13, 24.78)|
-A If He Cannot Be Turned |QID|12896| 
+A If He Cannot Be Turned |QID|12896|
 C If He Cannot Be Turned |QID|12896| |N|Head inside, use the equipment rack (44.70, 19.94) and kill General Lightsbane|
 T If He Cannot Be Turned |QID|12896| |N|Back aboard the Skybreaker|
 A The Shadow Vault |QID|12898|

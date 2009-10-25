@@ -1,9 +1,9 @@
 
 TourGuide:RegisterGuide("Borean Tundra (70-72)", "Dragonblight (72-73)", "Alliance", function()
 return [[
-N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!|
+N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!| |QID|11733|
 
-B Overcharged Capacitor |N|Find an engineer or visit the AH| |L|39682|
+B Overcharged Capacitor |N|Find an engineer or visit the AH| |L|39682| |QID|11650|
 
 A Enlistment Day |QID|11672| |N|In the center of town, at the recruitment table (57.84, 67.67)| |T|
 T Enlistment Day |QID|11672| |N|Upstairs in the keep (56.69, 72.57)| |T|

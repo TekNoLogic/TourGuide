@@ -27,7 +27,7 @@ A Not In Our Mine |QID|12269| |T|
 T The Search for Slinkin |QID|12276| |N|Use the bot, mount up and follow him (he's a zippy little one) work your way down into the Wintergarde Mine (81.56, 42.21)| |U|37459|
 A Leave Nothing to Chance |QID|12277|
 
-N Get a bomb |N|Around the corner from Slinkin (80.7, 41.4)| |L|37465|
+N Get a bomb |N|Around the corner from Slinkin (80.7, 41.4)| |L|37465| |QID|12277|
 C The Bleeding Ore |QID|12272|
 C Not In Our Mine |QID|12269|
 C Leave Nothing to Chance |QID|12277| |U|37465| |N|On your way out of the mine, blow up the upper (80.45, 45.28) and lower (80.20, 44.81) entrances.  Stand near the blast for a little fun.|
@@ -170,8 +170,8 @@ A Worm Wrangler |QID|12078|
 C Worm Wrangler |QID|12078| |N|Back up at the cave, head down until you find jormungar spawn.  Use the crates on em and loot em.| |U|36771|
 T Worm Wrangler |QID|12078| |N|Back at the Crystal Vice (59.38, 18.10)|
 
-R Fordragon Hold |N|To the west (38,25)|
-F Wintergarde Keep
+R Fordragon Hold |N|To the west (38,25)| |QID|12467|
+F Wintergarde Keep |QID|12467|
 T Chasing Icestorm: Thel'zan's Phylactery |QID|12467| |T| |N|Down at High Commander Halford Wyrmbane (78.54, 48.19)|
 A Finality |QID|12472| |T|
 T Frostmourne Cavern |QID|12478| |T|
@@ -338,7 +338,7 @@ C Mystery of the Infinite |QID|12470| |N|Use the Hourglass of Eternity at the Br
 
 C That Which Creates Can Also Destroy |QID|12459| |U|37887| |N|Same as before, use the seeds, kill the mob.  Overseer Deathgaze is at the northeast edge of the zone in Jintha'kalar (89.42, 18.99).  Turgid the Vile is in the broken keep below Naxx (85.98, 47.63).|
 
-h Wintergarde Keep |T|
+h Wintergarde Keep |T| |QID|13377|
 T Tales of Destruction |QID|12266| |T| |N|Fly back to Wyrmrest Temple, up top.|
 T Mystery of the Infinite |QID|12470| |T|
 T That Which Creates Can Also Destroy |QID|12459| |T|
@@ -355,7 +355,6 @@ A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate
 C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
 T Reborn From The Ashes |QID|13347| |T| |N|Head to Stormwind, talk to the king (79.91, 38.63)|
 A Fate, Up Against Your Will |QID|13369| |T|
-N Orgy! |T| |N|While you are in Orgrimmar the guards will not attack.  If you want the Ragefire achievement, now's the time to do it.|
 T Fate, Up Against Your Will |QID|13369| |T|
 A A Royal Coup |QID|13370| |T|
 T A Royal Coup |QID|13370| |T| |N|Take the port back to Stormwind|
@@ -365,7 +364,7 @@ A The Battle For The Undercity |QID|13377|
 C The Battle For The Undercity |QID|13377| |N|Talk to the king, then enjoy the fight (once it finally starts).  Man, the king's a dick.|
 T The Battle For The Undercity |QID|13377| |T|
 
-H Wintergarde Keep
+H Wintergarde Keep |QID|12292|
 A The Hills Have Us |QID|12511| |T| |N|Near the flightmaster (77.13, 50.09)|
 ]]
 end)
