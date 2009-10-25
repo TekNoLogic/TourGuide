@@ -1,12 +1,12 @@
 
 TourGuide:RegisterGuide("Blade's Edge Mountains (66-67)", "Netherstorm (67-70)", "Alliance", function()
 return [[
-F Orebor Harborage
+F Orebor Harborage |QID|9794|
 A No Time for Curiosity |T| |QID|9794|
 A Killing the Crawlers |N|Up the stairs outside the cave| |T| |QID|10927|
 C Killing the Crawlers |N|In the cave, of course| |QID|10927|
 
-R Sylvanaar |N|North out of the cave|
+R Sylvanaar |N|North out of the cave| |QID|9794|
 A The Den Mother |N|On a wanted poster| |T| |QID|10690|
 T No Time for Curiosity |N|First building on the left| |T| |QID|9794|
 A The Encroaching Wilderness |N|Outside the building near the stone and benches| |T| |QID|10455|
@@ -15,7 +15,7 @@ A The Bloodmaul Ogres |T| |QID|10502|
 A Malaise |N|North again| |T| |QID|10555|
 A Into the Draenethyst Mine |N|In the 'long' building| |T| |QID|10510|
 A Strange Brew |T| |QID|10511|
-h Sylvanaar |T|
+h Sylvanaar |T| |QID|10506|
 
 C The Encroaching Wilderness |N|South of town| |QID|10455|
 C Malaise |N|West at Veil Lashh (35,73)| |QID|10555|
@@ -40,7 +40,7 @@ T Into the Draenethyst Mine |T| |QID|10510|
 C Marauding Wolves |N|East over the bridge near the Horde outpost (50,65)| |QID|10456|
 C The Den Mother |N|Down in the cave at (52,74)| |QID|10690|
 
-R Toshley's Station |N|Up the hill to the east (60,69)|
+R Toshley's Station |N|Up the hill to the east (60,69)| |QID|10557|
 A Crystal Clear |T| |QID|10608|
 A Picking Up Some Power Converters |T| |QID|10584|
 A Test Flight: The Zephyrium Capacitorium |T| |QID|10557|
@@ -61,7 +61,7 @@ C Ride the Lightning |N|North of where you land, pop on the magneto sphere, gath
 C Ridgespine Menace |N|Stealth spiders near the spikes| |QID|10620|
 C Cutting Your Teeth |N|Most of the daggermaws are North of Death's Door.  If you don't have that uncovered, it's the canyon you just got thrown over.| |QID|10632|
 
-R Singing Ridge |N|Or run to Toshley's and get tossed over|
+R Singing Ridge |N|Or run to Toshley's and get tossed over| |QID|10608|
 C What Came First, the Drake or the Egg? |N|Look for spiky looking eggs, use them, use the phase modulator on them, kill whatever the tiny dragon turns into.  BIG NOTE: you can re-use the modulator many times to get the mob you need.| |U|30742| |QID|10609|
 C Crystal Clear |N|On your way back to Toshley's| |QID|10608|
 
@@ -80,7 +80,7 @@ T Gauging the Resonant Frequency |QID|10594|
 
 A Test Flight: Razaan's Landing |T| |QID|10711|
 C Test Flight: Razaan's Landing |T| |QID|10711| |N|Talk to rally of course|
-N Kill flesh beasts... |N|Kill any Fiendling Flesh Beasts you come across for "More than a Pound of Flesh"|
+N Kill flesh beasts... |N|Kill any Fiendling Flesh Beasts you come across for "More than a Pound of Flesh"| |QID|10671|
 C Trapping the Light Fantastic |N|Lay traps to catch the pink orbs.  If you lay the traps near the pink electric circles on the poles, you can finish this quickly.| |U|30852| |QID|10674|
 T Trapping the Light Fantastic |T| |QID|10674|
 A Show Them Gnome Mercy! |T| |QID|10675|
@@ -92,7 +92,7 @@ C More than a Pound of Flesh |QID|10671|
 T Show Them Gnome Mercy! |T| |N|Back at Toshley's Station| |QID|10675|
 T More than a Pound of Flesh |T| |QID|10671|
 
-F Sylvanaar
+F Sylvanaar |QID|10457|
 T The Den Mother |T| |QID|10690|
 T Marauding Wolves |T| |QID|10456|
 A Protecting Our Own |T| |QID|10457|
@@ -111,7 +111,7 @@ C Getting the Bladespire Tanked |N|Drop a brew, let em drink, kill 'em| |U|30353
 C The Bladespire Ogres |QID|10504|
 T Gorr'Dim, Your Time Has Come... |N|Skip "Planting the Banner"| |QID|10517|
 
-H Sylvanaar
+H Sylvanaar |QID|10506|
 T Getting the Bladespire Tanked |T| |QID|10512|
 T The Bladespire Ogres |T| |QID|10504|
 T A Dire Situation |T| |QID|10506|
@@ -122,7 +122,7 @@ A A Time for Negotiation... |T| |N|Tree Warden at the center moonwell| |QID|1068
 A Creating the Pendant |T| |QID|10567|
 T Test Flight: Ruuan Weald |T| |N|South edge of town| |QID|10712|
 A Culling the Wild |T| |N|North edge of town| |QID|10753|
-h Evergrove
+h Evergrove |QID|10818|
 A A Date with Dorgok |T| |N|West edge of town| |QID|10795|
 A Crush the Bloodmaul Camp! |T| |QID|10796|
 A Little Embers |T| |N|West edge of town| |QID|10770|
@@ -196,7 +196,7 @@ C Gorgrom the Dragon-Eater |N|Collect 3 totems, go to the alter (30,22), use the
 
 C Whelps of the Wyrmcult |N|At Blackwing Coven to the south (31,32).  Use the net on the dragon whelps in the cave.  You can get right next to eggs and they will hatch one for you to capture.| |U|31129| |QID|10747|
 
-H Evergrove
+H Evergrove |QID|10818|
 T Whelps of the Wyrmcult |N|Back at Evergrove| |T| |QID|10747|
 T The Truth Unorbed |T| |QID|10825|
 A Treebole Must Know |T| |QID|10829|

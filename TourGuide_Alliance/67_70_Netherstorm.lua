@@ -1,14 +1,14 @@
 
 TourGuide:RegisterGuide("Netherstorm (67-70)", "Shadowmoon Valley (70)", "Alliance", function()
 return [[
-R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path|
+R Netherstorm |N|From Evergrove take the path east up top, then go north and follow the path| |QID|10183|
 A Off To Area 52 |N|On Gyro-Plank Bridge| |NODEBUG| |QID|10183|
 
-R Area 52 |N|Back down the road (32,62)|
+R Area 52 |N|Back down the road (32,62)| |QID|10183|
 A Securing the Shaleskin Shale |N|You may have to wait for him to respawn| |T| |QID|10342|
 T Off To Area 52 |NODEBUG| |T| |QID|10183|
 A You're Hired! |T| |QID|10186|
-h Area 52 |T|
+h Area 52 |T| |QID|10265|
 N Manaforge B'naar |N|Grab the Aldor or Scryer quest, whichever faction you picked.| |T|
 A The Archmage's Staff |T| |QID|10173|
 
@@ -75,14 +75,14 @@ A The Sigil of Krasus |QID|10188|
 A The Unending Invasion |N|Back down the tower| |QID|10343|
 A A Fate Worse Than Death |QID|10185|
 
-K Abjurist Belmara |N|South of the tower| |L|29234|
+K Abjurist Belmara |N|South of the tower| |L|29234| |QID|10305|
 A Abjurist Belmara |N|From the tome she dropped| |U|29234| |QID|10305|
-K Battle-Mage Dathric |N|Inside the town hall (60.41, 88.00)| |L|29233|
+K Battle-Mage Dathric |N|Inside the town hall (60.41, 88.00)| |L|29233| |QID|10182|
 A Battle-Mage Dathric |N|Again, from the dropped item| |U|29233| |QID|10182|
 C Indispensable Tools |N|Kill the apprentices at the blacksmith house (60,85)| |QID|10331|
-K Conjurer Luminrath |L|29235|
+K Conjurer Luminrath |L|29235| |QID|10306|
 A Conjurer Luminrath |N|Yet another item-started quest| |U|29235| |QID|10306|
-K Cohlien Frostweaver |N|Little gnome, what do we do with gnomes? Oh yes, we KILL THEM!| |L|29236|
+K Cohlien Frostweaver |N|Little gnome, what do we do with gnomes? Oh yes, we KILL THEM!| |L|29236| |QID|10307|
 A Cohlien Frostweaver |N|Do these item-started quests ever end?| |U|29236| |QID|10307|
 
 T Needs More Cowbell |N|Clear the path over the bridge on your way| |QID|10334|
@@ -150,7 +150,7 @@ T Torching Sunfury Hold |N|Back at the town square| |QID|10233|
 T The Sunfury Garrison |QID|10222|
 A Down With Daellis |QID|10223|
 
-H Area 52
+H Area 52 |QID|10265|
 A Pick Your Part |T| |QID|10206|
 T Consortium Crystal Collection |T| |QID|10265|
 A A Heap of Ethereals |T| |QID|10262|
@@ -218,7 +218,7 @@ C Summoner Kanthin's Prize |N|Patrols around the north and west parts of the man
 T Summoner Kanthin's Prize |N|Staff... you know the drill| |U|28455| |QID|10209|
 A Ar'kelos the Guardian |QID|10176|
 
-R Cosmowrench |N|East of Manaforge Duro (65,66)|
+R Cosmowrench |N|East of Manaforge Duro (65,66)| |QID|10924|
 A Bloody Imp-ossible! |QID|10924|
 C Bloody Imp-ossible! |N|Summon the imp and kill warp chasers.  You must be in melee range when they die.| |U|31815| |QID|10924|
 T Bloody Imp-ossible! |QID|10924|
@@ -233,11 +233,11 @@ C Deal With the Saboteurs |N|Crocs at the lake in the Eco-Dome (46,53)| |QID|104
 T Deal With the Saboteurs |T| |QID|10418|
 A To the Stormspire |N|Back at Midrealm Post| |QID|10423|
 
-R The Stormspire |N|Follow the road out to the bigger dome (41,32)|
+R The Stormspire |N|Follow the road out to the bigger dome (41,32)| |QID|10423|
 A Flora of the Eco-Domes |T| |QID|10426|
 T To the Stormspire |T| |QID|10423|
 A Diagnosis: Critical |T| |QID|10424|
-h The Stormspire
+h The Stormspire |QID|10317|
 A Surveying the Ruins |T| |QID|10335|
 A The Minions of Culuthas |T| |QID|10336|
 A Fel Reavers, No Thanks! |T| |QID|10855|
@@ -246,7 +246,7 @@ A Retrieving the Goods |T| |QID|10435|
 T An Audience with the Prince |T| |QID|10268|
 A Triangulation Point One |T| |QID|10269|
 
-F Area 52
+F Area 52 |QID|10237|
 T Warn Area 52! |T| |QID|10237|
 A Doctor Vomisa, Ph.T. |T| |QID|10247|
 T Shutting Down Manaforge Duro |O| |N|Skip the follow-up| |T| |QID|10338|
@@ -258,7 +258,7 @@ T Down With Daellis |N|Back at the tower| |QID|10223|
 C Ar'kelos the Guardian |N|At the tower entrance| |QID|10176|
 T Ar'kelos the Guardian |N|Top of the tower, skip the follow-up| |QID|10176|
 
-H The Stormspire
+H The Stormspire |QID|10317|
 C Flora of the Eco-Domes |U|29818| |N|Use the modulator on the lashers, then kill them| |QID|10426|
 C Diagnosis: Critical |N|At the generator to the northeast (47.64, 26.77)| |U|29803| |QID|10424|
 C Surveying the Ruins |N|At the ruins northeast, just outside the dome.  Markers are at (51,20), (54.55, 22.76), (55.81, 19.96)| |U|29445| |QID|10335|
@@ -302,7 +302,7 @@ A The Ethereum |QID|10339|
 A Recipe for Destruction |QID|10437|
 A Captain Tyralius |QID|10422|
 
-U Drink the concoction |U|29737|
+U Drink the concoction |U|29737| |QID|10411|
 K Void Wastes |QID|10411| |QO|Void Waste Globule slain: 30/30|
 C The Ethereum |N|South (56,38)| |QID|10339|
 T The Ethereum |N|At the transponder (56.80, 38.70)| |QID|10339|
@@ -327,7 +327,7 @@ C A Not-So-Modest Proposal |QID|10270|
 C Arconus the Insatiable |N|Go back out to the entrance, then head in staying right.  Kill Arconus in the big room (60,39)| |QID|10353|
 T The Flesh Lies... |N|Back outside| |QID|10345|
 
-U Drink the concoction |U|29737|
+U Drink the concoction |U|29737| |QID|10411|
 C Electro-Shock Goodness! |QID|10411|
 C Recipe for Destruction |N|Voidshriekers and Voidwraiths around and inside and around the manaforge| |QID|10437|
 C Triangulation Point One |N|Use the device then find the mark (66,33)| |U|28962| |QID|10269|
@@ -357,7 +357,7 @@ T On Nethery Wings |N|Skip the follow-up| |QID|10438|
 
 T Troublesome Distractions |N|Back at Celestial Ridge, skip the follow-up| |QID|10273|
 
-H The Stormspire
+H The Stormspire |QID|10317|
 T Outside Assistance |O| |N|Tuluman's Landing (34,38)| |T| |QID|10431|
 A A Dark Pact |O| |PRE|Distraction at Manaforge B'naar| |T| |QID|10380|
 A Dealing with the Foreman |T| |QID|10317|

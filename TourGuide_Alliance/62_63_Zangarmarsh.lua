@@ -1,17 +1,17 @@
 
 TourGuide:RegisterGuide("Zangarmarsh (62-63)", "Terokkar Forest (64-65)", "Alliance", function()
 return [[
-R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!|
+R Cenarion Refuge |N|Through Thornfang Ravine. Don't let the local fauna bite!| |QID|9747|
 A The Umbrafen Tribe |QID|9747|
 A The Dying Balance |N|Inside the inn.| |QID|9895|
-h Cenarion Refuge
+h Cenarion Refuge |QID|10096|
 T The Cenarion Expedition |N| Back of the inn.| |QID|9912|
 A Disturbance at Umbrafen Lake |QID|9716|
 A Warden Hamoot |QID|9778|
 T Warden Hamoot |N|On top of the tower.| |QID|9778|
 A A Warm Welcome |QID|9728|
 
-N Rep items... |N|Keep any Fertile Spores and Unidentified Plant Parts you find.  Turn the plant parts in to the night elf in the Refuge every chance you get, they only last till honored.  If you get any Uncatalogued Species you should hold on to them until after you reach honored.|
+N Rep items... |N|Keep any Fertile Spores and Unidentified Plant Parts you find.  Turn the plant parts in to the night elf in the Refuge every chance you get, they only last till honored.  If you get any Uncatalogued Species you should hold on to them until after you reach honored.| |QID|9747|
 C The Dying Balance |N|Boglash patrols south-west of Cenarion Refuge (82,72).| |QID|9895|
 C The Umbrafen Tribe |N|Far south of the Refuge toward the road to Terrokar (82,82), Kataru is in the top of the tower (85.28, 90.91).| |QID|9747|
 A Escape from Umbrafen |N|Escort quest - fairly easy, you get jumped by two packs of two or three nonelites. Starts from Kayra Longmane at the east camp (83.37,85.53).| |QID|9752|
@@ -28,7 +28,7 @@ C Safeguarding the Watchers |N|Funggor Cavern is south of Umbrafen Lake (74,91).
 C A Damp, Dark Place |N|Ikeyen's belongings are on a rock at the back of the cave (70.6, 97.9).| |QID|9788|
 C Saving the Sporeloks |QID|10096|
 
-H Cenarion Refuge
+H Cenarion Refuge |QID|10096|
 T Disturbance at Umbrafen Lake |N|Back at Cenarion Refuge, of course.| |QID|9716|
 A As the Crow Flies |QID|9718|
 C As the Crow Flies |N|Use the amulet.| |U|25465| |QID|9718|
@@ -41,16 +41,16 @@ T Saving the Sporeloks |QID|10096|
 N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |QID|9720| |QO|Umbrafen Lake Controls Disabled: 1/1|
 N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (63.1,64.1)| |U|24355| |QID|9720| |QO|Lagoon Controls Disabled: 1/1|
 
-R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.|
+R Telredor |N|Northwest of the Refuge, just follow the road. The elevator up is on the east side.| |QID|9777|
 A The Dead Mire |QID|9782|
 A The Boha'mu Ruins |QID|9786|
 A Unfinished Business |QID|9901|
 A Fulgor Spores |QID|9777|
 A Menacing Marshfangs |QID|9791|
 A Too Many Mouths to Feed |QID|9781|
-h Telredor
+h Telredor |QID|9781|
 
-N Shrooms and Rippers... |N|While near Telredor, keep an eye out for Fulgor Spores, bright green mushrooms. Also, kill any Marshfang Rippers you come across.|
+N Shrooms and Rippers... |N|While near Telredor, keep an eye out for Fulgor Spores, bright green mushrooms. Also, kill any Marshfang Rippers you come across.| |QID|9791|
 C The Dead Mire |N|You're after a pile of dirt in the middle of the Dead Mire (80.7, 43.5)| |QID|9782|
 C Unfinished Business |N|Sporewing is along the south edge of the Mire (76,45)| |QID|9901|
 C Fulgor Spores |N|Bright green mushrooms all around the base of Telredor| |QID|9777|
@@ -73,9 +73,9 @@ C Blessings of the Ancients |QID|9785|
 T Blessings of the Ancients |QID|9785|
 C An Unnatural Drought |N|Kill Withered Giants in the Dead Mire.| |QID|9783|
 A Withered Basidium |U|24483| |N|Kill Withered Giants until you get the item to start this| |QID|9827|
-N Save Bog Lord Tendrils |N|You'll need them later for reputation.|
+N Save Bog Lord Tendrils |N|You'll need them later for reputation.| |QID|9726|
 
-H Telredor
+H Telredor |QID|9781|
 T An Unnatural Drought |QID|9783|
 T Withered Basidium |QID|9827|
 A Withered Flesh |QID|10355|
@@ -84,7 +84,7 @@ T Too Many Mouths to Feed |QID|9781|
 A Diaphanous Wings |QID|9790|
 A The Orebor Harborage |QID|9776| |N|Requires level 62 to get, if you can't get it just skip it.|
 
-N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.|
+N Glowcaps in your ass |N|Loot any Glowcaps you find, you'll need them for quests and reputation rewards.| |QID|9808|
 N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (62,40).| |U|24355| |QID|9720| |QO|Serpent Lake Controls Disabled: 1/1|
 C Blacksting's Bane |N|Blacksting is just north of Feralfen Village (49,59).| |QID|9896|
 C The Boha'mu Ruins |N|Boha'mu is south of Feralfen Village (44.1,68.7).  Just run in and out, don't hang around with the elite.| |QID|9786|
@@ -106,7 +106,7 @@ C Glowcap Mushrooms |QID|9808|
 T Glowcap Mushrooms |QID|9808|
 A Fertile Spores |QID|9806|
 T Fertile Spores |N|If you don't have the spores for this don't worry.  Just mark it off and turn them in any time you have enough, this is a repeatable.| |QID|9806|
-N Friendly - Sporeggar |N|Complete every repeatable you can until you're friendly.  You can turn in Glowcaps, Bog Lord Tendrils and Mature Spore sacs.  All these repeats end once you're friendly, so use them while you can!|
+N Friendly - Sporeggar |N|Complete every repeatable you can until you're friendly.  You can turn in Glowcaps, Bog Lord Tendrils and Mature Spore sacs.  All these repeats end once you're friendly, so use them while you can!| |QID|9726|
 A Now That We're Friends... |QID|9726|
 
 T Observing the Sporelings |N|At the watchpost.| |QID|9701|
@@ -118,7 +118,7 @@ N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshligh
 C Now That We're Friends... |N|These naga are all around the west side of Marshlight Lake.| |QID|9726|
 C A Warm Welcome |N|If you have a significant number of claws to get, turn in "Now That We're Friends..." and get the repeat quest so you can earn Sporeggar rep at the same time.| |QID|9728|
 
-R Orebor Harborage |N|Northwest of Serpent Lake.|
+R Orebor Harborage |N|Northwest of Serpent Lake.| |QID|9776|
 A Secrets of the Daggerfen |QID|9848|
 T The Orebor Harborage |QID|9776|
 A Ango'rosh Encroachment |QID|9835|
@@ -136,7 +136,7 @@ A Overlord Gorefist |QID|9839|
 T Daggerfen Deviance |QID|10115|
 T Wanted: Chieftain Mummaki |QID|10116|
 
-h Orebor Harborage
+h Orebor Harborage |QID|9905|
 A Natural Armor |N|From the armor merchant, Maktu.| |QID|9834|
 A Stinger Venom |N|From Puluu in the hut near the front of town.| |QID|9830|
 A Lines of Communication |QID|9833|
@@ -166,16 +166,15 @@ T The Terror of Marshlight Lake |QID|9902|
 C Maktu's Revenge |N|Mragesh is on the westernmost island in Serpent Lake (41,41)| |QID|9905|
 T Stealing Back the Mushrooms |N|Getting tired of running to the watchpost yet?| |QID|9709|
 
-H Orebor Harborage
+H Orebor Harborage |QID|9905|
 T Maktu's Revenge |QID|9905|
 A Concerns About Tuurem |QID|10104| |N|You can't accept this if you accepted "The Fate of Tuurem"|
 
-F Telredor
+F Telredor |QID|9786|
 T The Boha'mu Ruins |QID|9786|
 A Idols of the Feralfen |QID|9787|
 T Blacksting's Bane |QID|9896|
 T Diaphanous Wings |QID|9790|
-h Telredor
 C Idols of the Feralfen |N|On the ground at Feralfen Village (46,60)| |QID|9787|
 
 T Balance Must Be Preserved |N|Back at Cenarion Refuge| |QID|9720|

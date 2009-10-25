@@ -6,7 +6,7 @@ T A'dal |QID|10210|
 A City of Light |QID|10211|
 A Rather Be Fishin' |N|You can accept this and the next while doing the walk-around for City of Light. Seth is at the ruined infirmary (63.95, 15.50).| |Z|Shattrath City| |QID|10037|
 T City of Light |QID|10211|
-N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  This is a decision YOU MUST MAKE FOR YOURSELF!  Pop open your web browser, go to wowwiki.com, click on "Aldor v Scryer" on the left, and look at the rewards for each faction.  Make sure you check the quest rewards and crafting recipes as well.  Select the appropriate quest from Khadgar once you've decided.|
+N Aldorks or Scrybabies? |N|You need to pick which faction you will gain rep with.  Select the appropriate quest from Khadgar once you've decided.| |QID|9978|
 
 T Allegiance to the Aldor |O| |QID|10551|
 A Ishanah |O| |PRE|Allegiance to the Aldor| |QID|10554|
@@ -17,7 +17,7 @@ T Allegiance to the Scryers |O| |QID|10552|
 A Voren'thal the Seer |O| |PRE|Allegiance to the Scryers| |QID|10553|
 T Voren'thal the Seer |O| |QID|10553|
 
-h Shattrath City |N|Inns are on Aldor and Scryer tiers.|
+h Shattrath City |N|Inns are on Aldor and Scryer tiers.| |QID|10112|
 
 C Rather Be Fishin' |N|Silmyr Lake, northeast of Shattrath.| |QID|10037|
 T What's Wrong at Cenarion Thicket? |QID|9957|
@@ -35,7 +35,7 @@ C By Any Means Necessary |N|Empoor travels the road between Tuurem and Shattrath
 T By Any Means Necessary |QID|9978|
 A Wind Trader Lathrai |QID|9979|
 
-R Allerian Stronghold
+R Allerian Stronghold |QID|10863|
 A Wanted: Bonelashers Dead! |N|Off the wanted poster outside the town hall| |QID|10033|
 A Olemba Seeds |QID|9992|
 A Speak with Private Weeks |QID|10038|
@@ -48,14 +48,14 @@ T Concerns About Tuurem |QID|10104| |O| |N|You should have either this or "The F
 T The Fate of Tuurem |QID|9793| |O| |N|You should have either this or "Concerns About Tuurem"|
 A Magical Disturbances |QID|10026|
 
-F Shattrath City |N|Flight point is just east of the water wheel|
+F Shattrath City |N|Flight point is just east of the water wheel| |QID|9979|
 T Secrets of the Arakkoa |QID|10863|
 A The Eyes of Skettis |QID|10847|
 T Rather Be Fishin' |N|Skip the follow-up| |QID|10037|
 T Wind Trader Lathrai |QID|9979|
 A A Personal Favor |QID|10112|
 
-N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground).  Also kill Warp Stalkers and Timber Worgs as you run across them.  And lastly, save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.|
+N Collection Quests... |N|While you're running around, keep an eye out for Olemba Cones (bright blue things on the ground).  Also kill Warp Stalkers and Timber Worgs as you run across them.  And lastly, save any Arakkoa Feathers you get, you'll need them for a quest later for Lower City rep.| |QID|9992|
 
 K Urdak |N|Head south out of Shattrath to Veil Skith.  Kill Urdak up in the trees (31.81, 42.33) for "Stymying the Arrakoa"| |QID|9986| |QO|Urdak slain: 1/1|
 C A Personal Favor |QID|10112|
@@ -66,15 +66,15 @@ C The Eyes of Skettis |N|Get the Eye of Veil Reskk up in the tree house near the
 K Ayit |N|Kill Ayit at Veil Shienor for "Stymying the Arrakoa" - he's in a purple hut on the ground level (59.40, 23.53).| |QID|9986| |QO|Ayit slain: 1/1|
 C Thin the Flock |QID|10869|
 
-H Shattrath City
+H Shattrath City |QID|10112|
 T Restoring the Light |O| |QID|10021|
 T The Eyes of Skettis |N|Back to Rilak in Lower City| |QID|10847|
 A Seek Out Kirrik |QID|10849|
 T A Personal Favor |QID|10112|
 A Investigate Tuurem |QID|9990|
 
-F Allerian Stronghold
-h Allerian Stronghold
+F Allerian Stronghold |QID|9992|
+h Allerian Stronghold |QID|9992|
 C Unruly Neighbors |N|East of Allerian Stronghold at the Bonechewer Ruins (66,53)| |QID|9998|
 C Magical Disturbances |QID|10026|
 C Timber Worg Tails |QID|10016|
@@ -101,7 +101,7 @@ T Who Are They? |QID|10040|
 A Kill the Shadow Council! |QID|10042|
 C Kill the Shadow Council! |N|Kill Shadowmaster Grieve in main building (40.09, 38.82)| |QID|10042|
 
-H Allerian Stronghold
+H Allerian Stronghold |QID|9992|
 T What Are These Things? |QID|9994|
 A Report to the Allerian Post |QID|10444|
 T Stymying the Arakkoa |QID|9986|
@@ -133,7 +133,7 @@ T Escape from Firewing Point! |QID|10051|
 T Vessels of Power |QID|10028|
 T The Elusive Ironjaw |QID|10022|
 
-F Shattrath City
+F Shattrath City |QID|10005|
 T Letting Earthbinder Tavgren Know |N|Back at Cenarion Thicket| |QID|10005|
 A Before Darkness Falls |N|Follow the road from Shattrath south to the Refugee Caravan (38,50)| |QID|10878|
 C Before Darkness Falls |N|South around the Shadow Stair (39.61, 56.25)| |QID|10878|
@@ -167,7 +167,7 @@ C Wanted: Bonelashers Dead! |N|Mostly south and east of the caravan.  You can sk
 
 T The Tomb of Lights |QID|10840|
 A Recover the Bones |QID|10030|
-N Get boned... |N|Collect any bones you come across for "Recover the Bones"|
+N Get boned... |N|Collect any bones you come across for "Recover the Bones"| |QID|10030|
 
 C Veil Rhaze: Unliving Evil |N|West of the caravan (26,53)| |QID|10848|
 
@@ -176,7 +176,7 @@ A Veil Lithic: Preemptive Strike |QID|10861|
 C Recover the Bones |QID|10030|
 T Recover the Bones |N|(35,66)| |QID|10030|
 A Helping the Lost Find Their Way |QID|10031|
-N Get lost... |N|Kill any skeletons you come across for "Helping the Lost Find Their Way"|
+N Get lost... |N|Kill any skeletons you come across for "Helping the Lost Find Their Way"| |QID|10031|
 
 C Veil Lithic: Preemptive Strike |N|Southwest of the caravan (23,71)| |QID|10861|
 A The Dread Relic |N|Southeast of Veil Lithic at the Sha'tari Base Camp (31,76)| |QID|10877|

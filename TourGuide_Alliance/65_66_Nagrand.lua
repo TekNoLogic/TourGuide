@@ -1,12 +1,12 @@
 
 TourGuide:RegisterGuide("Nagrand (65-66)", "Blade's Edge Mountains (66-67)", "Alliance", function()
 return [[
-R Nesingwary Safari |N|In the northeast corner of the zone (71,40)|
+R Nesingwary Safari |N|In the northeast corner of the zone (71,40)| |QID|9854|
 A Windroc Mastery (Part 1) |QID|9854|
 A Clefthoof Mastery (Part 1) |QID|9789|
 A Talbuk Mastery (Part 1) |QID|9857|
 
-N Rep tokens... |N|If you're not already friendly with Consortium you can collect Elekk tusks and Oshu'gun Crystal Fragments for rep, and xp for the first turnin. Keep any Oshu'gun Crystal Powder you find for rewards later.  Obsidian Warbeads from the ogres in the zone can be turned it for Kurenai or Consortium rep.|
+N Rep tokens... |N|If you're not already friendly with Consortium you can collect Elekk tusks and Oshu'gun Crystal Fragments for rep, and xp for the first turnin. Keep any Oshu'gun Crystal Powder you find for rewards later.  Obsidian Warbeads from the ogres in the zone can be turned it for Kurenai or Consortium rep.| |QID|9882|
 
 C Windroc Mastery (Part 1) |N|There's a camp of these southwest of Nesingwary, as well as northwest.| |QID|9854|
 C Talbuk Mastery (Part 1) |N|Just north of Nesingwary.| |QID|9857|
@@ -33,7 +33,7 @@ C A Rare Bean |QID|9800|
 A The Consortium Needs You! |N|From the ethereal just outside Garadar (51.8, 34.8).  Be careful not to tangle with the guards and patrols.| |QID|9913|
 C Clefthoof Mastery (Part 2) |N|South and west of Garadar| |QID|9850|
 
-R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the horde.  Watch out for the patrols on the main road.|
+R Aeris Landing |N|Due south of Sunspring (31,57).  Follow the road west then south, or run thru Halaa if it isn't owned by the horde.  Watch out for the patrols on the main road.| |QID|9913|
 A Matters of Security |QID|9925|
 T The Consortium Needs You! |QID|9913|
 A Stealing from Thieves |QID|9882|
@@ -45,7 +45,7 @@ T Matters of Security |N|Back at Aeris Landing| |QID|9925|
 T Stealing from Thieves |QID|9882|
 T Gava'xi |QID|9900|
 
-R Telaar |N|Follow the road east from Aeris Landing|
+R Telaar |N|Follow the road east from Aeris Landing| |QID|9917|
 A The Ravaged Caravan |N|Huntress Kima patrols around Telaar.  You have to be 65 to get this.| |QID|9956|
 A Wanted: Giselda the Crone |N|Off a signpost (54.6,70.7)| |QID|9936|
 A Wanted: Zorbo the Advisor |QID|9940|
@@ -53,10 +53,10 @@ A Do My Eyes Deceive Me |QID|9917|
 A The Throne of the Elements |QID|9869|
 A Stopping the Spread |QID|9874|
 A Solving the Problem |QID|9878|
-h Telaar
+h Telaar |QID|9940|
 
 A I Must Have Them! |N|From a goblin east of Telaar (61,67)| |QID|10109|
-N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!" and rock elementals for "The Tortured Earth"|
+N Kill elementals... |N|Kill any air elementals you happen across for "I Must Have Them!" and rock elementals for "The Tortured Earth"| |QID|10109|
 
 C Do My Eyes Deceive Me |N|Kill ogres south of Wazat's camp| |QID|9917|
 
@@ -105,7 +105,7 @@ A The Spirit Polluted |QID|9810|
 C The Spirit Polluted |N|Lake Sunspring is south of Sunspring Post.| |QID|9810|
 C Shattering the Veil |N|These earth elementals are south of Oshu'gun.| |U|24501| |QID|9849|
 
-H Telaar
+H Telaar |QID|9940|
 T Solving the Problem |QID|9878|
 T Stopping the Spread |QID|9874|
 T The Ravaged Caravan |QID|9956|
@@ -150,7 +150,7 @@ C Returning the Favor |U|25555| |QID|9931|
 
 C I Must Have Them! |N|Kill air elementals all over the zone| |QID|10109|
 
-H Telaar
+H Telaar |QID|9940|
 T Wanted: Giselda the Crone |QID|9936|
 T Wanted: Zorbo the Advisor |QID|9940|
 A Fierce Enemies |QID|10476| |O| |L|25433 10|
