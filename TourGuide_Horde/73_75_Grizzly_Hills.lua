@@ -122,7 +122,6 @@ C The Damaged Journal |QID|12026| |U|39739| |N|Gather 8 pages, then use the jour
 
 T The Damaged Journal |QID|12026| |N|Back at Camp Oneqwah (65.25, 47.71)|
 A Deciphering the Journal |QID|12054|
-T The Horse Hollerer |QID|12415|
 
 C The Unexpected 'Guest' |QID|12195| |N|Kill stags just outside of camp.|
 C Deciphering the Journal |QID|12054| |N|Kill Grumbald One-Eye to the south in Heart's Blood Shrine (66.44, 58.72)|
@@ -156,6 +155,7 @@ A The Runic Prophecies |QID|12058|
 A Pounding the Iron |QID|12073|
 T The Unexpected 'Guest' |QID|12195|
 A An Intriguing Plan |QID|12165|
+T The Horse Hollerer |QID|12415|
 
 T A Possible Link |QID|12229| |N|Back at Conquest Hold (22.50, 62.94)|
 T The Bear God's Offspring |QID|12231|
