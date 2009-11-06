@@ -2,8 +2,7 @@ TourGuide:RegisterGuide("Mulgore (1-12)", "The Barrens (12-20)", "Horde", functi
 
 return [[
 A The Hunt Begins |QID|747| |N|Right in front of you! (44.88, 77.18)|
-N Feathers |QID|747| |QO|Plainstrider Feather: 7/7|
-N Meat |QID|747| |QO|Plainstrider Meat: 7/7|
+C The Hunt Begins |QID|747|
 T The Hunt Begins |QID|747| |N|Back at Camp Narache (44.90, 77.04)|
 
 A Etched Note |QID|3092| |C|Hunter|
