@@ -1,6 +1,5 @@
 
 local L = TourGuide.Locale
-local THREE_TWO = select(4, GetBuildInfo()) >= 30200
 
 local zonei, zonec, zonenames = {}, {}, {}
 for ci,c in pairs{GetMapContinents()} do
@@ -51,30 +50,15 @@ function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid, logi)
 		while cache[1] do Cartographer_Waypoints:CancelWaypoint(table.remove(cache)) end
 	end
 
-
-	if not THREE_TWO and (action == "ACCEPT" or action == "TURNIN") and LightHeaded and self:MapLightHeadedNPC(qid, action, quest) and not self.db.alwaysmapnotecoords then return end
-
-	if note and self.db.char.mapnotecoords then for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end end
-	if THREE_TWO and not temp[1] and logi then
-		local numPOI = QuestMapUpdateAllQuests()
-		print("Mapping", qid, numPOI)
-		for i=1,numPOI do
-			local thisPOIused
-			for j=1,QuestMapGetNumQuestsForPOI(i) do
-				local questName, text, poiID, questID = QuestMapGetQuestInfo(i, j)
-				if questID == qid and not thisPOIused then
-					thisPOIused = true
-					local mapID, x, y, icon = QuestMapGetPOIInfo(i)
-					if x and y then
-						table.insert(temp, y*100) table.insert(temp, x*100)
-					else
-						return f:Show()
-					end
-				end
-			end
-		end
+	if logi and (action == "COMPLETE" or action == "TURNIN") then
+		QuestMapUpdateAllQuests()
+		QuestPOIUpdateIcons()
+		local _, x, y, obj = QuestPOIGetIconInfo(qid)
+		if x and y then table.insert(temp, y*100) table.insert(temp, x*100)
+		else return f:Show() end
 	end
-	if THREE_TWO and not temp[1] and (action == "ACCEPT" or action == "TURNIN") and LightHeaded then self:MapLightHeadedNPC(qid, action, quest) end
+	if not temp[1] and (action == "ACCEPT" or action == "TURNIN") and LightHeaded then self:MapLightHeadedNPC(qid, action, quest) end
+	if not temp[1] and note and self.db.char.mapnotecoords then for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end end
 	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
 end
 
