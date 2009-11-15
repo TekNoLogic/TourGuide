@@ -105,7 +105,9 @@ end
 
 function TourGuide:CommCurrentObjective()
 	local action, quest, fullquest = self:GetObjectiveInfo()
+	local qid = self:GetObjectiveTag("QID")
 	SendAddonMessage("TGuide", action.." "..(quest or "???"), "PARTY")
+	if qid then SendAddonMessage("TGuideQID", qid, "PARTY") end
 end
 
 
