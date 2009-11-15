@@ -28,6 +28,8 @@ local function MapPoint(zone, x, y, desc, c, z)
 		Cartographer_Waypoints:AddWaypoint(pt)
 		table.insert(cache, pt.WaypointID)
 	end
+	
+	SendAddonMessage("TGuideWP", string.join(" ", zc, zi, x, y, desc), "PARTY")
 end
 
 
