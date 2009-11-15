@@ -78,7 +78,7 @@ function TourGuide:UpdateStatusFrame()
 	local note, useitem, optional = self:GetObjectiveTag("N", nextstep), self:GetObjectiveTag("U", nextstep), self:GetObjectiveTag("O", nextstep)
 
 	dataobj.text, dataobj.icon = (quest or"???")..(note and " [?]" or ""), self.icons[action]
-	SendAddonMessage("TGuide", action.." "..(quest or "???"), "PARTY")
+	TourGuide:CommCurrentObjective()
 
 	self:DebugF(1, "Progressing to objective \"%s %s\"", action, quest)
 
@@ -100,6 +100,12 @@ function TourGuide:UpdateStatusFrame()
 
 	self:UpdateOHPanel()
 	self:UpdateGuidesPanel()
+end
+
+
+function TourGuide:CommCurrentObjective()
+	local action, quest, fullquest = self:GetObjectiveInfo()
+	SendAddonMessage("TGuide", action.." "..(quest or "???"), "PARTY")
 end
 
 

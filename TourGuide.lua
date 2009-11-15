@@ -100,6 +100,7 @@ function TourGuide:Enable()
 	for _,event in pairs(self.TrackEvents) do self:RegisterEvent(event) end
 	self:RegisterEvent("QUEST_COMPLETE", "UpdateStatusFrame")
 	self:RegisterEvent("QUEST_DETAIL", "UpdateStatusFrame")
+	self:RegisterEvent("PARTY_MEMBERS_CHANGED", "CommCurrentObjective")
 	self.TrackEvents = nil
 	self:QuestID_QUEST_LOG_UPDATE()
 	self:UpdateStatusFrame()
