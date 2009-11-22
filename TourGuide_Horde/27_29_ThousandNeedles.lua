@@ -1,63 +1,57 @@
 TourGuide:RegisterGuide("Thousand Needles (27-29)", "Hillsbrad Foothills (29-30)", "Horde", function()
 return [[
-F Thousand Needles
-T The Sacred Flame (Part 2) |QID|1196|
+T The Sacred Flame (Part 2) |QID|1196| |N|Fly to Freewind Post (46.10, 51.63)|
 A The Sacred Flame (Part 3) |QID|1197|
 A A Different Approach |QID|9431|
 
-C The Sacred Flame (Part 3) |N|Charge the brazier in the cave (44,37)| |QID|1197|
+C The Sacred Flame (Part 3) |QID|1197| |N|Head north from Freewind to Splithoof Hold (44.0, 37.5), find the brazier at the bottom (42.00, 31.53).|
 
-A Hypercapacitor Gizmo |N|At Whitereach Post(21,32)| |QID|5151|
-T Serpent Wild |QID|4865|
+T Serpent Wild |QID|4865| |N|Folow the road west to Whitereach Post (21.53, 32.48)|
 A Sacred Fire |QID|5062|
+A Hypercapacitor Gizmo |QID|5151|
 
-C Sacred Fire |N|At (35,36)| |QID|5062|
-C Wind Rider |N|At (11,36)| |QID|4767|
-A Homeward Bound |N|Escort starts at (16,42) if elite gets in the way, skip it| |QID|4770|
+A Homeward Bound |QID|4770| |N|Head to Highperch, southwest of Whitereach Post (14,33).  Escort starts at the far southeast edge of the area (17.86, 40.63).  Grab any eggs you come across along the way.|
+C Wind Rider |QID|4767|
 C Homeward Bound |QID|4770|
-C Steelsnap |N|Moves around, try (16,25)| |QID|1131|
-C A Different Approach |N|Around (8,14)| |QID|9431|
+C A Different Approach |QID|9431| |N|Elementals at the west edge of the zone (12.35, 18.06).|
+C Steelsnap |QID|1131| |N|Patrols in a circle at the west end of the zone (17,27) (15,31) (12,25) (14,20)|
+C Sacred Fire |QID|5062| |N|In and around the lake southeast of the Great Lift (35,36).|
 
-H Sun Rock Retreat
-F Thunder Bluff
-T Steelsnap |N|Hunter Rise| |QID|1131|
+T Steelsnap |QID|1131| |N|Fly back to Thunder Bluff, Hunter Rise (61.18, 80.38)| |Z|Thunder Bluff|
 A Frostmaw |QID|1136|
-T Sacred Fire |N|Elder Rise| |QID|5062|
+T Sacred Fire |QID|5062| |N|On Elder Rise (70.46, 30.70)|
 A Arikara |QID|5088|
 
-F Freewind Post
-h Freewind Post
+T Wind Rider |QID|4767| |N|Fly back to Freewind Post (44.91, 49.06)|
 T The Sacred Flame (Part 3) |QID|1197|
-T Wind Rider |QID|4767|
+h Freewind Post
 
-C Grimtotem Spying |N|Take the path up onto the needles (31,36).  The notes are in boxes (31,32) (33,39) (39,41)| |QID|5064|
-C Arikara |N|(37,35)| |QID|5088|
-C Wanted - Arnak Grimtotem |N|North, on the edge of the zone (38,27)| |QID|5147|
-A Free at Last |N|Escort Lakota Windsong (38,27)| |QID|4904|
+C Grimtotem Spying |QID|5064| |N|Take the path up onto the needles (31,36).  The notes are in boxes on each needle (31.90, 32.62) (33.80, 39.82) (39.25, 41.50)|
+C Arikara |QID|5088| |N|Light the fire on one of the needles (38.10, 35.42) and kill the summoned mob.|
+C Wanted - Arnak Grimtotem |QID|5147| |N|Take the bridges to the ledge to the north (38.07, 26.79).|
+A Free at Last |QID|4904| |N|Escort Lakota Windsong (38.03, 26.64)|
 C Free at Last |QID|4904|
 
-T Arikara |N|(21,32)Back at Whitereach Post| |QID|5088|
-T Homeward Bound |QID|4770|
+T Homeward Bound |QID|4770| |N|Back at Whitereach Post (21.62, 32.39)|
+T Arikara |QID|5088|
 T A Different Approach |QID|9431|
 A A Dip in the Moonwell |QID|9433|
 
-C A Dip in the Moonwell |N|On the west edge of the zone near Thalanaar (9,18).  If you have a pet you will have to dismiss it before you can control the robot.| |QID|9433|
-C Hypercapacitor Gizmo |N|Find the cage at the wrecked caravan north of Whitereach Post (22,24)| |QID|5151|
-K Galak Messenger |L|12564|
+C A Dip in the Moonwell |QID|9433| |N|On the west edge of the zone near Thalanaar (9,18).  If you have a pet you will have to dismiss it before you can control the robot.|
+C Hypercapacitor Gizmo |QID|5151| |N|Find the cage at the wrecked caravan north of Whitereach Post (23.03, 24.15).|
+K Galak Messenger |L|12564| |N|Spawns at the centaur camp (39.5, 33.4), runs to the road south of the Great Lift (30.6, 32.5), then follows the road west.|
+A Assassination Plot |QID|4881| |U|12564| |N|From the note the mesenger dropped.|
 
-A Assassination Plot |U|12564| |QID|4881|
-T Assassination Plot |N|Back at Whitereach Post| |QID|4881|
-T Hypercapacitor Gizmo |N|Kill mobs around cage (22,24)| |QID|5151|
-T A Dip in the Moonwell |QID|9433|
+T A Dip in the Moonwell |QID|9433| |N|Back at Whitereach Post (21.49, 32.41).|
 A Testing the Tonic |QID|9434|
+T Hypercapacitor Gizmo |QID|5151|
+T Assassination Plot |QID|4881|
 A Protect Kanati Greycloud |QID|4966|
 C Protect Kanati Greycloud |QID|4966|
 T Protect Kanati Greycloud |QID|4966|
 
-H Freewind Post
-T Free at Last |QID|4904|
-T Wanted - Arnak Grimtotem |QID|5147|
+T Testing the Tonic |QID|9434| |N|Back at Freewind Post (46.12, 50.37).  Hearth if you can.|
 T Grimtotem Spying |QID|5064|
-T Testing the Tonic |QID|9434|
-]]
-end)
+T Wanted - Arnak Grimtotem |QID|5147|
+T Free at Last |QID|4904|
+]] end)

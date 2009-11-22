@@ -46,7 +46,7 @@ T Tainted Arcane Sliver |O| |QID|8338| |R|Blood Elf|
 
 R Dawning Lane |R|Blood Elf|
 T Aiding the Outrunners |QID|8347| |R|Blood Elf|
-A Slain by the Wretched |QID|9704| |N|On the border of Eversong and SunStrider Isle (40.42, 32.18)|
+A Slain by the Wretched |QID|9704| |N|On the border of Eversong and Sunstrider Isle (40.42, 32.18)|
 T Slain by the Wretched |QID|9704| |N|Just to the southeast (42.00, 35.61)|
 A Package Recovery |QID|9705|
 T Package Recovery |QID|9705| |N|Back at Outrunner Alarion (40.46, 32.26)|
@@ -126,9 +126,9 @@ C Unexpected Results |QID|8488|
 T Unexpected Results |QID|8488|
 A Research Notes |QID|9255|
 
-A The Scorched Grove |QID|9258| |N|Back at Fairbreeze Village (43.64, 71.23)|
+T Research Notes |QID|9255| |N|Back at Fairbreeze Village (44.07, 70.70)|
 A Ranger Sareyn |QID|9358|
-T Research Notes |QID|9255|
+A The Scorched Grove |QID|9258|
 A Saltheril's Haven |QID|9395|
 
 N I CAN HAS PELTS? |N|Kill any cats you come across for "Pelt Collection"|
