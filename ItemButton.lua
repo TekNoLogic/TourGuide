@@ -54,8 +54,7 @@ frame:SetScript("OnEvent", PLAYER_REGEN_ENABLED)
 
 
 function TourGuide:SetUseItem(useitem)
-	item, texture = useitem, useitem and GetItemIcon(tonumber(useitem))
-	texture, item = tex, use
+	item, texture = useitem, useitem and GetItemIcon(useitem)
 	if InCombatLockdown() then frame:RegisterEvent("PLAYER_REGEN_ENABLED") else PLAYER_REGEN_ENABLED(frame) end
 end
 
