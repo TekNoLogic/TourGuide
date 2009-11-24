@@ -9,37 +9,20 @@ A Alliance Relations (Part 2) |QID|1432|
 
 R Desolace |N|Fly to Stonetalon Mountains and run south|
 
-R Thunder Axe Fortress |N|West of the road (55,24).|
-N Kill mobs |N|Kill mobs till you get Flayed Demon Skin| |L|20310|
-A The Corrupter (Part 1) |N|You get this using Flayed Demon Skin| |U|20310| |QID|1480|
-A Kodo Roundup |N|From Smeed Scrabblescrew (60.8, 61.9)| |QID|5561|
+A Bone Collector |QID|5501| |N|From Bibbly F'utzbuckle at Kormek's Hut (62,38).|
 
-R Ghost Walker Post |N|Follow the road northwest from Scrabblescrew's hut (56,59)|
+R Ghost Walker Post |N|Southwest, you probably want to stick to the road (56,59).|
 T The Kolkar of Desolace |QID|1362|
 A Khan Dez'hepah |QID|1365|
-A Gelkis Alliance |N|Skip Magram Alliance| |QID|1368|
+A Gelkis Alliance |QID|1368| |N|Skip Magram Alliance|
 T Alliance Relations (Part 2) |QID|1432|
 A Alliance Relations (Part 3) |QID|1433|
-A Befouled by Satyr |QID|1434|
-T The Corrupter (Part 1) |QID|1480|
-A The Corrupter (Part 2) |QID|1481|
 T Alliance Relations (Part 3) |QID|1433|
 A The Burning of Spirits |QID|1435|
 
-C Befouled by Satyr |N|(75,22)| |QID|1434|
-C The Corrupter (Part 2) |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker| |QID|1481|
-C Khan Dez'hepah |N|In the Magram village (73,48)| |QID|1365|
-C Gelkis Alliance |N|Kill Magram centaurs until you gain Gelkis (Friendly)| |QID|1368|
-C Kodo Roundup |QID|5561|
-T Kodo Roundup |QID|5561|
-
-T Khan Dez'hepah |N|Back at Ghost Walker Post| |QID|1365|
-A Centaur Bounty |QID|1366|
-T Befouled by Satyr |QID|1434|
-T The Corrupter (Part 2) |QID|1481|
-A The Corrupter (Part 3) |QID|1482|
-T Gelkis Alliance |N|To Uthek the Wise at (36.3, 79.2)| |QID|1368|
-A Stealing Supplies |QID|1370|
+A Kodo Roundup |QID|5561| |N|From Smeed Scrabblescrew (60.8, 61.9)|
+C Kodo Roundup |QID|5561| |N|In the Kodo Graveyard|
+C Bone Collector |QID|5501|
 
 R Shadowprey Village |N|Follow the road west, down on the shore (24,71)|
 A Hunting in Stranglethorn |QID|5763|
@@ -55,6 +38,23 @@ A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1)| |QID|5741|
 C The Burning of Spirits |N|In Thunder Axe Fortress (54,29)| |QID|1435|
 C Sceptre of Light |QID|5741|
 C Hand of Iruxos |QID|5381|
+A The Corrupter (Part 1) |QID|1480| |U|20310| |N|From the [Flayed Demon Skin] that dropped.  If you didn't get one, kill more cultists.|
+
+T Bone Collector |QID|5501| |N|Back at Bibbly F'utzbuckle (62,38).|
+
+T The Corrupter (Part 1) |QID|1480| |N|Back at Ghost Walker Post|
+A The Corrupter (Part 2) |QID|1481|
+A Befouled by Satyr |QID|1434|
+
+C Befouled by Satyr |N|(75,22)| |QID|1434|
+C The Corrupter (Part 2) |QID|1481| |N|Shadowstalker Scalp is obtained from a Hatefury Shadowstalker|
+C Khan Dez'hepah |QID|1365| |N|In the Kolkar village (73,48)|
+
+T Befouled by Satyr |QID|1434| |N|Back at Ghost Walker Post|
+T The Corrupter (Part 2) |QID|1481|
+A The Corrupter (Part 3) |QID|1482|
+T Khan Dez'hepah |QID|1365|
+A Centaur Bounty |QID|1366|
 
 T Sceptre of Light |QID|5741|
 A Book of the Ancients |QID|6027|
@@ -69,20 +69,22 @@ T Claim Rackmore's Treasure! |N|Find the chest behind a tree on Ranazjar Isle (3
 C Book of the Ancients |N|Clear the area around the statue, then talk to it and kill the naga that spawns.| |QID|6027|
 T Book of the Ancients |N|Back on shore at the tower| |QID|6027|
 
-A Bone Collector |N|From Bibbly F'utzbuckle at Kormek's Hut (62,38)| |QID|5501|
-
 T The Burning of Spirits |QID|1435|
 A Alliance Relations (Part 4) |QID|1436|
 T The Corrupter (Part 3) |QID|1482|
 A The Corrupter (Part 4) |QID|1484|
 T The Corrupter (Part 4) |N|Skip last follow-up| |QID|1484|
 
-C Bone Collector |N|In the Kodo Graveyard| |QID|5501|
+C Gelkis Alliance |QID|1368| |N|Kill Magram centaurs until you gain Gelkis (Friendly)|
+
+T Gelkis Alliance |N|To Uthek the Wise at (36.3, 79.2)| |QID|1368|
+
+A Stealing Supplies |QID|1370|
+T Kodo Roundup |QID|5561|
 C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)| |QID|1370|
 C Centaur Bounty |QID|1366|
 
 T Centaur Bounty |QID|1366|
-T Bone Collector |QID|5501|
 
 H Shadowprey Village
 T Hand of Iruxos |QID|5381|
