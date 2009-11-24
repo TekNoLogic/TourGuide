@@ -44,6 +44,10 @@ local function PLAYER_REGEN_ENABLED(self)
 		frame:SetAttribute("item1", "item:"..item)
 		frame:Show()
 		texture = nil
+
+		local macroid = GetMacroIndexByName("TourGuide")
+		if macroid then EditMacro(macroid, name, 1, "#showtooltip\n/use item:"..item, 1) end
+
 	else
 		frame:SetAttribute("item1", nil)
 		frame:Hide()
