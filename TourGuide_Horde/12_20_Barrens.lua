@@ -4,12 +4,11 @@ return [[
 R Razor Hill |R|Undead|
 A Conscript of the Horde |R|Undead| |QID|840|
 
-T Conscript of the Horde |N|Just over the bridge from Durotar to The Barrens| |R|Orc, Troll, Undead| |QID|840|
-A Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
-T Ak'Zeloth |N|Skip the follow-up| |R|Orc, Troll| |QID|809|
+T Conscript of the Horde |QID|840| |N|Just over the bridge from Durotar to The Barrens (62.30, 19.32).| |R|Orc, Troll, Undead|
+A Crossroads Conscription |QID|842| |R|Orc, Troll, Undead|
+T Ak'Zeloth |QID|809| |N|Skip the follow-up| |R|Orc, Troll|
 
-R The Crossroads |N|Follow the road, taking left turn to the Crossroads (52,30)| |R|Orc, Troll, Undead|
-T Crossroads Conscription |R|Orc, Troll, Undead| |NODEBUG| |QID|842|
+T Crossroads Conscription |QID|842| |N|Follow the road, taking left turn to the Crossroads (52.22, 30.97)| |R|Orc, Troll, Undead|
 
 T Sergra Darkthorn |O| |QID|860|
 
@@ -80,7 +79,7 @@ C Fungal Spores |QID|848| |N|All over the oasis.|
 C Harpy Raiders |QID|867| |N|In the northwest corner of the zone at the Dry Hills (40.42, 18.32)|
 
 T Kolkar Leaders |QID|850| |N|Back at the bunker (45.32, 28.44)|
-A Verog the Dervish |QID|851| |N|The Barrens,  (45.32, 28.44)|
+A Verog the Dervish |QID|851|
 
 C The Zhevra |QID|845| |N|Make your way back to Crossroads.|
 
@@ -129,16 +128,16 @@ C The Stagnant Oasis |QID|877| |N|Southeast of crossraods at the Stagnant Oasis 
 C Verog the Dervish |QID|851| |N|Kill centaurs on the northwest side of the oasis until Verog is summoned (52.75, 41.72).|
 C Centaur Bracers |QID|855|
 
-A The Guns of Northwatch |QID|891| |N|East at Ratchet (62.24, 39.01)|
-T Miner's Fortune |QID|896|
-T The Escape |QID|863|
-T Samophlange (Part 4) |QID|902| |N|Don't worry about the follow-up.|
-A Ziz Fizziks |QID|1483|
-T Stolen Booty |QID|888|
-T WANTED: Baron Longshore |QID|895|
+A The Guns of Northwatch |QID|891| |N|East at Ratchet (62.24, 39.01)| |T|
+T Miner's Fortune |QID|896| |T|
+T The Escape |QID|863| |T|
+T Samophlange (Part 4) |QID|902| |N|Don't worry about the follow-up.| |T|
+A Ziz Fizziks |QID|1483| |T|
+T Stolen Booty |QID|888| |T|
+T WANTED: Baron Longshore |QID|895| |T|
 
-T The Stagnant Oasis |QID|877| |N|Back at the Crossroads (52.22, 31.91)|
-A Altered Beings |QID|880|
+T The Stagnant Oasis |QID|877| |N|Back at the Crossroads (52.22, 31.91)| |T|
+A Altered Beings |QID|880| |T|
 
 T Verog the Dervish |QID|851| |N|At the bunker to the west of the Crossroads (45.33, 28.45)|
 T Centaur Bracers |QID|855|
@@ -147,57 +146,52 @@ C Serena Bloodfeather |N|Serena Bloodfeather - Northwest Barrens (38,11)| |QID|8
 C Echeyakee |QID|881|
 C Raptor Thieves |QID|869|
 
-T Raptor Thieves |QID|869| |N|Back at the Crossroads (51.90, 30.32)|
-A Stolen Silver |QID|3281|
-T Echeyakee |QID|881|
-A The Angry Scytheclaws |QID|905|
-T Serena Bloodfeather |QID|876|
-A Letter to Jin'Zil |QID|1060|
-A Consumed by Hatred |QID|899|
-A Lost in Battle |QID|4921|
+T Raptor Thieves |QID|869| |N|Back at the Crossroads (51.90, 30.32)| |T|
+A Stolen Silver |QID|3281| |T|
+T Echeyakee |QID|881| |T|
+A The Angry Scytheclaws |QID|905| |T|
+T Serena Bloodfeather |QID|876| |T|
+A Letter to Jin'Zil |QID|1060| |T|
+A Consumed by Hatred |QID|899| |T|
+A Lost in Battle |QID|4921| |T|
 
-C Altered Beings |N|(55,42)| |QID|880|
-C The Angry Scytheclaws |N|(51,46)| |QID|905|
+C Altered Beings |QID|880| |N|Southeast at the Stagnant Oasis (55.74, 43.05)|
+C The Angry Scytheclaws |QID|905| |N|Kill raptors for feathers, then place a feather at each nest.  Blue (52.58, 46.14), Yellow (52.07, 46.43), Red (52.43, 46.52)|
 C Raptor Horns |QID|865|
-C Lost in Battle |N|South of the bridge, in a hut north of the road (49.3, 50.4)| |QID|4921|
+C Lost in Battle |QID|4921| |N|South of the bridge, in a hut a bit off the road (49.31, 50.34).|
 
-A Tribes at War |T| |QID|878| |N|At Camp Taurajo|
+A Tribes at War |QID|878| |N|Back at Camp Taurajo (44.53, 59.20)| |T|
 
-C Consumed by Hatred |N|(51,54)| |QID|899|
-C Tribes at War |QID|878|
-C Stolen Silver |QID|3281|
-C The Guns of Northwatch |QID|891|
-A Free From the Hold |N|Escort quest| |NODEBUG| |QID|898|
-C Free From the Hold |NODEBUG| |QID|898|
+C Tribes at War |QID|878| |N|All over the area north and northeast of Camp Taurajo.|
+C Consumed by Hatred |QID|899|
+C Stolen Silver |QID|3281| |N|To the east at the Raptor Grounds befor Northwatch Hold... towards the back (58.06, 53.90).  You can sneak around on the mountain and drop in.|
+C The Guns of Northwatch |QID|891| |N|Kill the officers in each tower: Cannoneer Smythe (63.15, 56.73), Cannoneer Whessan (60.51, 54.81), Captain Fairmount (61.90, 55.06)|
+A Free From the Hold |QID|898| |N|In the first tower (61.98, 54.97).  If he's not there, skip this.|
+C Free From the Hold |QID|898|
 
-T The Guns of Northwatch |N|Back in Ratchet| |QID|891|
-T Free From the Hold |NODEBUG| |QID|898|
+T The Guns of Northwatch |QID|891| |N|Back at Ratchet (62.25, 39.02)|
+T Free From the Hold |QID|898|
 T Raptor Horns |QID|865|
 A Deepmoss Spider Eggs |QID|1069|
 A Chen's Empty Keg |U|4926| |O| |QID|822|
 T Chen's Empty Keg |O| |QID|822|
 
-F Orgrimmar
-A The Ashenvale Hunt |N|Don't skip this quest, you need it for quests later!| |QID|6383|
-
 F Camp Taurajo
-T Tribes at War |QID|878|
-A Blood Shards of Agamaggan |QID|5052|
-T Blood Shards of Agamaggan |QID|5052|
-A Betrayal from Within (Part 1) |QID|879|
-A Melor Sends Word |QID|1130|
+T Tribes at War |QID|878| |N|Back at Camp Taurajo (44.56, 59.22)| |T|
+A Blood Shards of Agamaggan |QID|5052| |T|
+T Blood Shards of Agamaggan |QID|5052| |T|
+A Betrayal from Within (Part 1) |QID|879| |T|
+A Melor Sends Word |QID|1130| |T|
 
 F Thunder Bluff
-A The Sacred Flame (Part 1) |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |QID|1195|
+A The Sacred Flame (Part 1) |QID|1195| |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T|
 
-F The Crossroads
-T Stolen Silver |QID|3281|
-A Report to Kadrak |QID|6542|
-T The Angry Scytheclaws |QID|905|
-A Jorn Skyseer |QID|3261|
-T Lost in Battle |QID|4921|
-T Consumed by Hatred |QID|899|
-T Altered Beings |QID|880|
-A Egg Hunt |QID|868|
-]]
-end)
+T Stolen Silver |QID|3281| |N|Back at the Crossroads (51.92, 30.36)| |T|
+T The Angry Scytheclaws |QID|905| |T|
+A Jorn Skyseer |QID|3261| |T|
+A Report to Kadrak |QID|6541| |T|
+T Consumed by Hatred |QID|899| |T|
+T Lost in Battle |QID|4921| |T|
+T Altered Beings |QID|880| |T|
+A Egg Hunt |QID|868| |T|
+]] end)
