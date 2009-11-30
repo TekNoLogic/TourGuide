@@ -1,7 +1,8 @@
 TourGuide:RegisterGuide("Ashenvale (26-27)", "Stonetalon Mountains (27)", "Horde", function()
 return [[
-A The Ashenvale Hunt |QID|742| |N|From Bluff Runner Windstrider, patrolling around town.|
-B Pages |N|Before you leave town, hit the AH and buy Shredder Operating Manual - Pages 1-12.  Once you have them all, use them to create the chapters.  If you can't get them all, skip this.|
+A The Ashenvale Hunt |QID|742| |N|From Bluff Runner Windstrider, patrolling around town.| |T|
+A The Sacred Flame (Part 1) |QID|1195| |N|On the third level of the main rise (55.1, 53.1)| |Z|Thunder Bluff| |T|
+B Pages |N|Before you leave town, hit the AH and buy Shredder Operating Manual - Pages 1-12.  Once you have them all, use them to create the chapters.  If you can't get them all, skip this.| |T|
 
 F The Crossroads
 T Report to Kadrak |QID|6542| |N|Take the road north out of town to the Ashenvale border (48.14, 5.41).|

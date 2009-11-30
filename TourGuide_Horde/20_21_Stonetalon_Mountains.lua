@@ -11,12 +11,12 @@ C Kill Grundig Darkcloud |N|Grimtotem Post (73.6,86.1)| |QID|6629|
 
 A Blood Feeders |N|At Malaka'Jin (71,95)| |QID|6461|
 T Letter to Jin'Zil |O| |QID|1060|
-A Jin'Zil's Forest Magic |QID|1058|
+A Jin'Zil's Forest Magic |QID|1058| |NORAF|
 
 A Arachnophobia |N|From a sign outside Sishir Canyon (59.1, 75.8)| |QID|6284|
 C Arachnophobia |N|In Sishir Canyon (52.20, 73.90)| |QID|6284|
 C Blood Feeders |QID|6461|
-C Deepmoss Spider Eggs |O| |QID|1069|
+C Deepmoss Spider Eggs |O| |QID|1069| |NORAF|
 
 T Ziz Fizziks |N|In a hut at Windshear Crag (60,63)| |QID|1483|
 A Super Reaper 6000 |QID|1093|
