@@ -124,7 +124,7 @@ A Finding the Antidote |QID|813| |N|Down in the Cleft of Shadow (43.01, 50.57)| 
 C Finding the Antidote |QID|813| |N|Back out near the poisoned troll.  Work west towards river.| |NORAF|
 C Lost But Not Forgotten |QID|816| |N|Kill crocs at the river.| |NORAF|
 
-T Finding the Antidote |QID|813| |N|Back at the Cleft of Shadow (43.11, 50.66)| |NORAF|
+T Finding the Antidote |QID|813| |N|Back at the Cleft of Shadow (43.11, 50.66)| |NORAF| |Z|Orgrimmar|
 T Need for a Cure |QID|812| |N|Back to the troll in the rocks outside Orgrimmar (40.95, 16.34).| |NORAF|
 T Lost But Not Forgotten |QID|816| |N|At the Tor'kren Farm northwest of Razor Hill (43.13, 30.34)| |NORAF|
 
@@ -144,13 +144,13 @@ A Burning Shadows |QID|832| |U|4903| |O| |N|From the [Eye of Burning Shadow] tha
 T Skull Rock |QID|827| |N|Back at Margoz near the pond (56.36, 20.08)|
 A Neeru Fireblade |QID|829|
 
-T Hidden Enemies (Part 1) |QID|5726| |N|In Orgrimmar, inside Thrall's chamber (31.80, 37.80)|
-A Hidden Enemies (Part 2) |QID|5727|
-T Neeru Fireblade |QID|829| |N|Find Neeru down in the Cleft of Shadow (49.55, 50.31)|
-A Ak'Zeloth |QID|809|
-C Hidden Enemies (Part 2) |QID|5727| |N|Talk to Neeru|
-T Burning Shadows |QID|832| |O|
-T Hidden Enemies (Part 2) |QID|5727| |N|Back to Thrall (31.98, 37.89).  Skip the follow-up unless you have help for an instance run.|
+T Hidden Enemies (Part 1) |QID|5726| |N|In Orgrimmar, inside Thrall's chamber (31.80, 37.80)| |Z|Orgrimmar| |T|
+A Hidden Enemies (Part 2) |QID|5727| |T|
+T Neeru Fireblade |QID|829| |N|Find Neeru down in the Cleft of Shadow (49.55, 50.31)| |Z|Orgrimmar| |T|
+A Ak'Zeloth |QID|809| |T|
+C Hidden Enemies (Part 2) |QID|5727| |N|Talk to Neeru| |T|
+T Burning Shadows |QID|832| |O| |T|
+T Hidden Enemies (Part 2) |QID|5727| |N|Back to Thrall (31.98, 37.89).  Skip the follow-up unless you have help for an instance run.| |Z|Orgrimmar| |T|
 
 H Razor Hill
 A Conscript of the Horde |QID|840| |N|Just outside the western entrance of Razor Hill (50.88, 43.62)|
