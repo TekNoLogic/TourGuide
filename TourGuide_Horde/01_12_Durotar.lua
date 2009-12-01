@@ -120,6 +120,7 @@ A Need for a Cure |QID|812| |N|Troll north of the west zeplin tower (40.95, 16.3
 T The Admiral's Orders (Part 2) |QID|831| |N|Head to Orgrimmar, near Thrall in Grommash Hold (34.37, 36.64).| |T| |Z|Orgrimmar|
 A Hidden Enemies (Part 1) |QID|5726| |T|
 A Finding the Antidote |QID|813| |N|Down in the Cleft of Shadow (43.01, 50.57)| |T| |Z|Orgrimmar| |NORAF|
+A Creature of the Void |QID|1501| |N|At the warlock trainer (48.31, 45.69)| |C|Warlock| |T| |Z|Orgrimmar|
 
 C Finding the Antidote |QID|813| |N|Back out near the poisoned troll.  Work west towards river.| |NORAF|
 C Lost But Not Forgotten |QID|816| |N|Kill crocs at the river.| |NORAF|
@@ -136,6 +137,7 @@ T Encroachment |QID|837| |T|
 
 T Margoz |QID|828| |N|Near the pond southeast of Orgrimmar  (56.32, 20.09)|
 A Skull Rock |QID|827|
+C Creature of the Void |QID|1501| |N|Down in Skull Rock, the cave to the east of Orgrimmar.  Take the right path at the fork, the tablet is in a box (51.59, 9.68)| |C|Warlock|
 C Skull Rock |QID|827| |N|Down in Skull Rock, the cave to the east of Orgrimmar (55,10).|
 C Hidden Enemies (Part 1) |QID|5726|
 K Gazz'uz |N|Use the "Faintly Glowing Skull" on him to help.  Skip this if you fail.| |U|4945| |L|4903| |NORAF|
@@ -146,9 +148,13 @@ A Neeru Fireblade |QID|829|
 
 T Hidden Enemies (Part 1) |QID|5726| |N|In Orgrimmar, inside Thrall's chamber (31.80, 37.80)| |Z|Orgrimmar| |T|
 A Hidden Enemies (Part 2) |QID|5727| |T|
+T Creature of the Void |QID|1501| |N|Down at the warlock trainer (48.29, 45.54)| |Z|Orgrimmar| |T| |C|Warlock|
+A The Binding |QID|1504| |T| |C|Warlock|
 T Neeru Fireblade |QID|829| |N|Find Neeru down in the Cleft of Shadow (49.55, 50.31)| |Z|Orgrimmar| |T|
 A Ak'Zeloth |QID|809| |T|
 C Hidden Enemies (Part 2) |QID|5727| |N|Talk to Neeru| |T|
+C The Binding |QID|1504| |U|7464| |N|Use the [Glyphs of Summoning] at the summoning circle by Neeru (49.15, 49.95).| |Z|Orgrimmar| |T| |C|Warlock|
+T The Binding |QID|1504| |N|Back at the lockentrainer (48.24, 45.61)| |Z|Orgrimmar| |T| |C|Warlock|
 T Burning Shadows |QID|832| |O| |T|
 T Hidden Enemies (Part 2) |QID|5727| |N|Back to Thrall (31.98, 37.89).  Skip the follow-up unless you have help for an instance run.| |Z|Orgrimmar| |T|
 
