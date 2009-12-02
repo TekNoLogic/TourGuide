@@ -6,14 +6,10 @@ T Boulderslide Ravine |N|Skip the follow-up| |T| |QID|6421|
 A Elemental War |T| |QID|6393| |NORAF|
 A Harpies Threaten |T| |QID|6282|
 h Sun Rock Retreat |T|
-A Cycle of Rebirth |QID|6301|
-C Cycle of Rebirth |N|Pick up seeds around Mirkfallon Lake (48,41)| |QID|6301|
+A Cycle of Rebirth |QID|6301| |NORAF|
+C Cycle of Rebirth |N|Pick up seeds around Mirkfallon Lake (48,41)| |QID|6301| |NORAF|
 C Jin'Zil's Forest Magic |N|Mobs range from the north side of Mirkfallon Lake up to Stonetalon Peak.| |QID|1058| |NORAF|
-C Cenarius' Legacy |N|In the center of Stonetalon Peak.| |QID|1087|
-T Cycle of Rebirth |QID|6301|
-A New Life |QID|6381|
-T Cenarius' Legacy |QID|1087|
-A Ordanus |QID|1088|
+C Cenarius' Legacy |N|In the center of Stonetalon Peak.| |QID|1087| |NORAF|
 
 T Further Instructions (Part 2) |QID|1095|
 A Gerenzo Wrenchwhistle |QID|1096|
@@ -24,12 +20,16 @@ T Jin'Zil's Forest Magic |QID|1058| |NORAF|
 T Shredding Machines |QID|1068|
 
 H Sun Rock Retreat
-C New Life |N|West in the Charred Vale (32,67)| |QID|6381|
+T Cycle of Rebirth |QID|6301| |NORAF|
+A New Life |QID|6381| |NORAF|
+T Cenarius' Legacy |QID|1087| |NORAF|
+A Ordanus |QID|1088| |NORAF|
+C New Life |N|West in the Charred Vale (32,67)| |QID|6381| |NORAF|
 C Elemental War |QID|6393| |NORAF|
 C Harpies Threaten |QID|6282|
-T New Life |T| |QID|6381|
-T Elemental War |T| |QID|6393| |NORAF|
 T Harpies Threaten |T| |QID|6282|
+T New Life |T| |QID|6381| |NORAF|
+T Elemental War |T| |QID|6393| |NORAF|
 A Calling in the Reserves |T| |QID|5881|
 ]]
 end)
