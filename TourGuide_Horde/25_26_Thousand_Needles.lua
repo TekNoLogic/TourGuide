@@ -2,7 +2,7 @@ TourGuide:RegisterGuide("Thousand Needles (25-26)", "Ashenvale (26-27)", "Horde"
 return [[
 T Message to Freewind Post |QID|4542| |N|Follow the road southeast to Freewind Post (45.55, 50.75).|
 A Pacify the Centaur |QID|4841|
-A Wind Rider |QID|4767|
+A Wind Rider |QID|4767| |NORAF|
 A Alien Egg |QID|4821|
 A Wanted - Arnak Grimtotem |QID|5147|
 h Freewind Post |RAF|

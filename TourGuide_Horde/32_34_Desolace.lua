@@ -1,9 +1,7 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
 H Orgrimmar
-T The Swarm Grows (Part 1) |QID|1145| |N|Valley of Honor (75.05, 34.13)| |Z|Orgrimmar|
-A The Swarm Grows (Part 2) |QID|1146|
-A Alliance Relations |QID|1431| |N|From Craven Drok in the Cleft of Shadow (50.37, 47.23)| |Z|Orgrimmar|
+A Alliance Relations (Part 1) |QID|1431| |N|From Craven Drok in the Cleft of Shadow (50.37, 47.23)| |Z|Orgrimmar|
 T Alliance Relations (Part 1) |QID|1431| |N|From Keldran, in a hut near the west gate of Orgimmar (22.32, 53.69)| |Z|Orgrimmar|
 A Alliance Relations (Part 2) |QID|1432|
 
@@ -11,13 +9,13 @@ R Desolace |N|Fly to Stonetalon Mountains and run southwest|
 
 A Bone Collector |QID|5501| |N|From Bibbly F'utzbuckle at Kormek's Hut (62.33, 38.89).|
 
-T The Kolkar of Desolace |QID|1362| |N|Southwest at Ghost Walker Post (56.25, 59.55), you probably want to stick to the road.|
-A Khan Dez'hepah |QID|1365|
-A Gelkis Alliance |QID|1368| |N|Skip "Magram Alliance"|
-T Alliance Relations (Part 2) |QID|1432|
+T Alliance Relations (Part 2) |QID|1432| |N|Southwest at Ghost Walker Post (56.25, 59.55), you probably want to stick to the road.|
 A Alliance Relations (Part 3) |QID|1433|
 T Alliance Relations (Part 3) |QID|1433|
 A The Burning of Spirits |QID|1435|
+T The Kolkar of Desolace |QID|1362| |NORAF|
+A Khan Dez'hepah |QID|1365|
+A Gelkis Alliance |QID|1368| |N|Skip "Magram Alliance"|
 
 A Kodo Roundup |QID|5561| |N|From Smeed Scrabblescrew (60.83, 61.86)|
 C Kodo Roundup |QID|5561| |N|In the Kodo Graveyard|
@@ -89,6 +87,9 @@ T Hand of Iruxos |QID|5381|
 T Other Fish to Fry |QID|6143|
 T Clam Bait |QID|6142|
 T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up| |QID|1370|
+
+F Thunder Bluff |RAF|
+T Steelsnap |QID|1131| |N|Hunter Rise (61.18, 80.38)| |Z|Thunder Bluff| |RAF|
 
 F Camp Taurajo
 R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh|
