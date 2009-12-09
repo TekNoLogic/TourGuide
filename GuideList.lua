@@ -24,7 +24,6 @@ frame:SetScript("OnShow", function()
 		if IsShiftKeyDown() then
 			TourGuide.db.char.completion[self.guide] = nil
 			TourGuide.db.char.turnins[self.guide] = {}
-			for qid in string.gmatch(TourGuide.guides[self.guide](), "|QID|(%d+)|") do TourGuide.turnedinquests[tonumber(qid)] = nil end
 			TourGuide:UpdateGuidesPanel()
 			GameTooltip:Hide()
 		else

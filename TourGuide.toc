@@ -10,7 +10,6 @@
 ## X-Category: Quest
 
 ## SavedVariables: TourGuideAlphaDB
-## SavedVariablesPerCharacter: TourGuideQuestHistoryDB
 
 ## OptionalDeps: Dongle, Optionhouse, TomTom, tekDebug
 

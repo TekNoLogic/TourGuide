@@ -1,9 +1,9 @@
 
 TourGuide:RegisterGuide("Sholazar Basin (77-78)", "The Storm Peaks (78-80)", "Alliance", function()
 return [[
-N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, an instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.  A number of quests will REQUIRE flight to complete.|
+N Flight... |N|At this point, you should either already be 77, or very close.  If you aren't, you might want to do some dailies, an instance, or hit up the starting zone you skipped.  From here forward, the guides will assume you have flight, and give directions accordingly.  A number of quests will REQUIRE flight to complete.| |QID|12521|
 
-F Dalaran
+F Dalaran |QID|12521|
 A Where in the World is Hemet Nesingwary? |QID|12521| |N|On Krasus' Landing (68.70, 42.54)| |Z|Dalaran| |T|
 
 T Where in the World is Hemet Nesingwary? |QID|12521| |N|Talk to Archmage Pentarus for a flight-portal.|
@@ -82,7 +82,7 @@ C Crocolisk Mastery: The Plan |QID|12560| |N|Gather ferns all alond the banks of
 T Crocolisk Mastery: The Plan |QID|12560| |N|Back at the Nesingwary Base Camp (27.19, 59.84)|
 A Crocolisk Mastery: The Ambush |QID|12569|
 
-C The Taste Test |U|38697| |U|38697| |N|Use the Jungle Punch on Hemet (27.07, 58.71) and Hadrius (27.33, 59.38), then fly east to River's Heart lake and get the last taste test from Tamara at the Lakeside Landing (50.47, 62.03).|
+C The Taste Test |QID|12645| |U|38697| |N|Use the Jungle Punch on Hemet (27.07, 58.71) and Hadrius (27.33, 59.38), then fly east to River's Heart lake and get the last taste test from Tamara at the Lakeside Landing (50.47, 62.03).|
 
 T Aerial Surveillance |QID|12696|
 A An Embarassing Incident |QID|12699|
@@ -146,7 +146,7 @@ A In Search of Bigger Game |QID|12595|
 
 T Hoofing It |QID|12539| |N|Back at Frenzyheart Hill (55.00, 69.25)|
 A Just Following Orders |QID|12540|
-N Check the quartermaster |N|You will eventually have to pick a faction, so while you're here check out the rewards the quartermaster has.|
+N Check the quartermaster |N|You will eventually have to pick a faction, so while you're here check out the rewards the quartermaster has.| |QID|12540|
 C Just Following Orders |QID|12540| |N|Find an Oracle to the north near the Frenzyheart River (55.74, 64.99)|
 T Just Following Orders |QID|12540|
 A Fortunate Misunderstandings |QID|12570|
@@ -155,7 +155,7 @@ T Fortunate Misunderstandings |QID|12570|
 
 A Make the Bad Snake Go Away |QID|12571|
 A Gods like Shiny Things |QID|12572|
-N Check the quartermaster |N|Again, you're going to have to pick a side, so check this quartermaster to see if you like their items better.  Note that the egg can spawn minipets or a rare mount, while the tanuki's jar can spawn potions, alcohol, and a drink that turns you into a tanuki for a short time.|
+N Check the quartermaster |N|Again, you're going to have to pick a side, so check this quartermaster to see if you like their items better.  Note that the egg can spawn minipets or a rare mount, while the tanuki's jar can spawn potions, alcohol, and a drink that turns you into a tanuki for a short time.| |QID|12572|
 C Gods like Shiny Things |QID|12572| |U|38622| |N|All around the camp, drag the gorloc over the sparkles and he'll dig them up.|
 C Make the Bad Snake Go Away |QID|12571| |N|Venomtip is east of the camp, just over the Rainspeaker Rapids (58.65, 53.83)|
 T Make the Bad Snake Go Away |QID|12571| |N|Back at the Rainspeaker Canopy (54.52, 56.33)|
@@ -233,7 +233,7 @@ C Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|Loot the shards al
 
 T Lifeblood of the Mosswalker Shrine |QID|12579| |U|38624| |N|Use the stress ball to summon your gorlock if you need to.|
 A A Hero's Burden |QID|12581| |U|38624|
-N A Hero's Burden |N|This is a group quest, but some classes may be able to solo it.  If you choose to do it now, head down into the Sundered Shard and kill the lich (72.21, 56.99).  This is also the quest where you pick a faction mid-fight, so be ready to save the gorlock or the tanuki.  If you want to switch factions, just come do this quest again on another day.|
+N A Hero's Burden |N|This is a group quest, but some classes may be able to solo it.  If you choose to do it now, head down into the Sundered Shard and kill the lich (72.21, 56.99).  This is also the quest where you pick a faction mid-fight, so be ready to save the gorlock or the tanuki.  If you want to switch factions, just come do this quest again on another day.| |QID|12581|
 
 T Cultist Incursion |QID|12608| |N|Back at Rainspeaker Rapids (64.66, 48.64)|
 T Salvaging Life's Strength |QID|12805|

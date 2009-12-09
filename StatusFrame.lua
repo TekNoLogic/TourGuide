@@ -75,7 +75,7 @@ function TourGuide:PositionStatusFrame()
 	if self.db.profile.statusframepoint then
 		f:SetPoint(self.db.profile.statusframepoint, self.db.profile.statusframex, self.db.profile.statusframey)
 	else
-		f:SetPoint("BOTTOMRIGHT", MinimapCluster, -60, -5)
+		f:SetPoint("BOTTOMRIGHT", MinimapCluster, -160, 15)
 	end
 
 	if self.db.char.showstatusframe then f:Show() else f:Hide() end

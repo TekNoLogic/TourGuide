@@ -54,15 +54,22 @@ function TourGuide:UpdateStatusFrame()
 
 			if incomplete then nextstep = i end
 
-			if action == "COMPLETE" and logi and self.db.char.trackquests then
-				local j = i
-				repeat
-					action = self:GetObjectiveInfo(j)
-					turnedin, logi, complete = self:GetObjectiveStatus(j)
-					if action == "COMPLETE" and logi and not complete then AddQuestWatch(logi) -- Watch if we're in a 'COMPLETE' block
-					elseif action == "COMPLETE" and logi then RemoveQuestWatch(logi) end -- or unwatch if done
-					j = j + 1
-				until action ~= "COMPLETE"
+			local thisaction = action
+			if nextstep and self.db.char.trackquests then
+				for j=1,GetNumQuestWatches() do
+					local logj = GetQuestIndexForWatch(i)
+					RemoveQuestWatch(logj)
+				end
+
+				if (action == "COMPLETE" or action == "TURNIN") and logi then
+					local j = i
+					repeat
+						action = self:GetObjectiveInfo(j)
+						turnedin, logi, complete = self:GetObjectiveStatus(j)
+						if action == thisaction and logi then AddQuestWatch(logi) end -- Watch quests when we can
+						j = j + 1
+					until action ~= thisaction
+				end
 			end
 		end
 	end
@@ -85,7 +92,7 @@ function TourGuide:UpdateStatusFrame()
 	-- Mapping
 	if (TomTom or Cartographer_Waypoints) and (lastmapped ~= quest or lastmappedaction ~= action) then
 		lastmappedaction, lastmapped = action, quest
-		self:ParseAndMapCoords(action, quest, self:GetObjectiveTag("Z", nextstep) or self.zonename, note, self:GetObjectiveTag("QID", nextstep))
+		self:ParseAndMapCoords(action, quest, self:GetObjectiveTag("Z", nextstep) or self.zonename, note, self:GetObjectiveTag("QID", nextstep), logi)
 	end
 
 	if self.db.char.showuseitem and action == "COMPLETE" and self.db.char.showuseitemcomplete then

@@ -2,7 +2,7 @@ TourGuide:RegisterGuide("Mulgore (1-12)", "The Barrens (12-20)", "Horde", functi
 
 return [[
 A The Hunt Begins |QID|747| |N|Right in front of you! (44.88, 77.18)|
-C The Hunt Begins |QID|747| |N|All around the camp.|
+C The Hunt Begins |QID|747|
 T The Hunt Begins |QID|747| |N|Back at Camp Narache (44.90, 77.04)|
 
 A Etched Note |QID|3092| |C|Hunter|
@@ -10,7 +10,7 @@ A Simple Note |QID|3091| |C|Warrior|
 A Rune-Inscribed Note |QID|3093| |C|Shaman|
 A Verdant Note |QID|3094| |C|Druid|
 A The Hunt Continues |QID|750|
-T Verdant Note |QID|3094| |C|Druid| |N|INside one of the little tents (45.06, 76.08)|
+T Verdant Note |QID|3094| |C|Druid| |N|Inside one of the little tents (45.06, 76.08)|
 T Etched Note |QID|3092| |C|Hunter|
 T Simple Note |QID|3091| |C|Warrior|
 T Rune-Inscribed Note |QID|3093| |C|Shaman|

@@ -18,6 +18,13 @@ local qids = setmetatable({}, {
 })
 TourGuide.QIDmemo = qids
 
+
+function TourGuide:QUEST_QUERY_COMPLETE()
+	GetQuestsCompleted(TourGuide.turnedinquests)
+	self:UpdateStatusFrame()
+end
+
+
 function TourGuide:QuestID_QUEST_LOG_UPDATE()
 	currentquests, oldquests = oldquests, currentquests
 	for i in pairs(currentquests) do currentquests[i] = nil end
@@ -31,17 +38,7 @@ function TourGuide:QuestID_QUEST_LOG_UPDATE()
 		end
 	end
 
-	if firstscan then
-		local function helper(...)
-			for i=1,select("#", ...) do
-				local val = tonumber((select(i, ...)))
-				if val then turnedinquests[val] = true end
-			end
-		end
-		helper(string.split(",", TourGuideQuestHistoryDB or ""))
-		firstscan = nil
-		return
-	end
+	if firstscan then firstscan = nil; return end
 
 	for qid in pairs(oldquests) do
 		if not currentquests[qid] then
@@ -59,13 +56,6 @@ function TourGuide:QuestID_QUEST_LOG_UPDATE()
 			return self:UpdateStatusFrame()
 		end
 	end
-end
-
-
-function TourGuide:Disable()
-	local temp = {}
-	for i in pairs(turnedinquests) do table.insert(temp, i) end
-	TourGuideQuestHistoryDB = string.join(",", unpack(temp))
 end
 
 

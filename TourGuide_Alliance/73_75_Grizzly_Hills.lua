@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Grizzly Hills (73-75)", "Zul'Drak (75-77)", "Alliance", function()
 return [[
-N Dalaran |N|When you hit 74 you can pick up a quest in the lodge that will give you a free port to Dalaran.  DO NOT TURN IT IN WHEN YOU GET THERE.  As long as you have the quest you can get free ports from mages in most of the major Northrend towns.  This means you can set your hearth in Grizzly Hills, but still have fast access to all the major cities.  When you're ready to set hearth in Dalaran, then you should turn in the quest.|
+N Dalaran |N|When you hit 74 you can pick up a quest in the lodge that will give you a free port to Dalaran.  DO NOT TURN IT IN WHEN YOU GET THERE.  As long as you have the quest you can get free ports from mages in most of the major Northrend towns.  This means you can set your hearth in Grizzly Hills, but still have fast access to all the major cities.  When you're ready to set hearth in Dalaran, then you should turn in the quest.| |QID|12790|
 
 A Mmm... Amberseeds! |QID|12225| |N|Inside Amberpine Lodge (31.80, 59.61)|
 T Mmm... Amberseeds! |QID|12225|
@@ -64,9 +64,9 @@ C Scourgekabob |QID|12484| |N|Loot a mummy then head down to the bonfire (16.68,
 T Scourgekabob |QID|12484|
 A Seared Scourge |QID|12029|
 A Shimmercap Stew |QID|12483| |N|Back on the north side of camp (15.71, 46.74)|
-N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |Q|Shimmercap Stew| |QO|Shimmering Snowcap: 5/5|
-K Ice Serpents |N|All over the Ruins of Drak'Zin.| |Q|Shimmercap Stew| |QO|Ice Serpent Eye: 5/5|
-K Trolls |N|Need dat mojo mon!| |L|35799 5|
+N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |QID|12483| |QO|Shimmering Snowcap: 5/5|
+K Ice Serpents |N|All over the Ruins of Drak'Zin.| |QID|12483| |QO|Ice Serpent Eye: 5/5|
+K Trolls |N|Need dat mojo mon!| |L|35799 5| |QID|11991|
 T Subject to Interpretation |QID|11991| |N|Use Drakuru's elixir at the brasier in the middle of the Ruins of Drak'Zin (13.31, 60.86)| |U|35797|
 A Sacrifices Must be Made |QID|12007|
 C Sacrifices Must be Made |QID|12007| |N|Head north to Zeb'Halak.  Kill Warlord Zim'bo in the big hut (14.6, 37.8), then head up the ziggurat.  Take the eye from the head there (17.93, 36.53).|
@@ -92,7 +92,7 @@ T Shimmercap Stew |QID|12483| |N|Back at Granite Springs (15.69, 46.73)|
 A Say Hello to My Little Friend |QID|12190|
 T Seared Scourge |QID|12029|
 
-N Note about the next quest |N|The next quest will be another vehicle quest.  The NPC will drive for you, you just need to fight off the mobs that attack.  Use each skill on your vehicle bar as often as you can!|
+N Note about the next quest |N|The next quest will be another vehicle quest.  The NPC will drive for you, you just need to fight off the mobs that attack.  Use each skill on your vehicle bar as often as you can!| |QID|12308|
 T Words of Warning |QID|12302| |N|At the north end of Silverbrook, in a tower (26.49, 31.79)|
 A Escape from Silverbrook |QID|12308|
 C Escape from Silverbrook |QID|12308| |N|Poor werewolves, all they wanted was some sweet dorf ass-meat... or human, or whatever race you are.|
@@ -199,7 +199,7 @@ T Uncovering the Tunnels |QID|12003|
 A The Fate of Orlond |QID|12010|
 T The Fate of Orlond |QID|12010| |N|Head into Thor Modan and across the first bridge (67.41, 15.22)|
 A Steady as a Rock? |QID|12014|
-K Threshers |Q|Steady as a Rock?| |QO|Portable Seismograph: 1/1| |N|Hop in the water and kill threshers.|
+K Threshers |QID|12014| |QO|Portable Seismograph: 1/1| |N|Hop in the water and kill threshers.|
 C The Runic Prophecies |QID|11993| |N|Read each of the runic plates.  Third (68.51, 16.20), first (68.99, 14.45), second (70.18, 14.67)|
 C Into the Breach |QID|11985| |N|Kill Iron Thane Argrum at the east end of Thor Modan (70.48, 12.95)|
 C Steady as a Rock? |QID|12014| |N|Use the portable seismograph right across the bridge from where you killed Argrum (70.66, 13.37), then talk to the console to get a reading.| |U|35837|
@@ -241,7 +241,7 @@ A See You on the Other Side |QID|12121|
 
 T Latent Power |QID|12094| |N|Back out in the Ruins of Tethys (79.74, 33.64)|
 A Free at Last |QID|12099|
-N Giants |N|Use Gavrock's Runebreaker on any giants you come across, it will either make them friendly or non-elite.  You probably also want to kill any shoveltusks and worgs you come across now that the giants aren't a threat.|
+N Giants |N|Use Gavrock's Runebreaker on any giants you come across, it will either make them friendly or non-elite.  You probably also want to kill any shoveltusks and worgs you come across now that the giants aren't a threat.| |QID|12099|
 
 C See You on the Other Side |QID|12121| |N|Use the mallet at the gong in front of the entrance to the ruins (71.58, 24.62)| |U|36834|
 T See You on the Other Side |QID|12121| |N|Down inside the ruins, in the second room (69.45, 19.44)|

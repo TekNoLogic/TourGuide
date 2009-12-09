@@ -303,7 +303,7 @@ A Recipe for Destruction |QID|10437|
 A Captain Tyralius |QID|10422|
 
 U Drink the concoction |U|29737|
-K Void Wastes |Q|Electro-Shock Goodness!| |QO|Void Waste Globule slain: 30/30|
+K Void Wastes |QID|10411| |QO|Void Waste Globule slain: 30/30|
 C The Ethereum |N|South (56,38)| |QID|10339|
 T The Ethereum |N|At the transponder (56.80, 38.70)| |QID|10339|
 A Ethereum Data |QID|10384|

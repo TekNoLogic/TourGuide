@@ -10,9 +10,9 @@ C The Princess Trapped |N|In the cave southeast of Hammerfall (78,37)| |QID|642|
 T The Princess Trapped |N|In the back of the cave, up on a ledge (84.3, 30.9)| |QID|642|
 A Stones of Binding |QID|651|
 
-N Get Cresting Key |N|From Stone of East Binding (66,29)| |Q|Stones of Binding| |QO|Cresting Key: 1/1|
+N Get Cresting Key |N|From Stone of East Binding (66,29)| |QID|651| |QO|Cresting Key: 1/1|
 C To Steal From Thieves |N|At Dabyrie Farmstead (54,40)| |NODEBUG| |QID|1164|
-N Get Thundering Key |N|From Stone of Outer Binding (52,50)| |Q|Stones of Binding| |QO|Thundering Key: 1/1|
+N Get Thundering Key |N|From Stone of Outer Binding (52,50)| |QID|651| |QO|Thundering Key: 1/1|
 
 C Guile of the Raptor (Part 1) |QID|701|
 C The Hammer May Fall |N|At (34,45)| |QID|676|
