@@ -109,5 +109,5 @@ F Ratchet
 T Goblin Sponsorship (Part 1) |QID|1178| |NORAF|
 A Goblin Sponsorship (Part 2) |QID|1180| |NORAF|
 T Wharfmaster Dizzywig |QID|1111|
-A Parts for Kravel |QID|1112|
+A Parts for Kravel |QID|1112| |NORAF|
 ]] end)
