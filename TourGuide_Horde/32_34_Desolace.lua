@@ -7,7 +7,7 @@ A Alliance Relations (Part 2) |QID|1432|
 
 R Desolace |N|Fly to Stonetalon Mountains and run southwest|
 
-A Bone Collector |QID|5501| |N|From Bibbly F'utzbuckle at Kormek's Hut (62.33, 38.89).|
+A Bone Collector |QID|5501| |N|From Bibbly F'utzbuckle at Kormek's Hut (62.33, 38.89).| |NORAF|
 
 T Alliance Relations (Part 2) |QID|1432| |N|Southwest at Ghost Walker Post (56.25, 59.55), you probably want to stick to the road.|
 A Alliance Relations (Part 3) |QID|1433|
@@ -15,29 +15,30 @@ T Alliance Relations (Part 3) |QID|1433|
 A The Burning of Spirits |QID|1435|
 T The Kolkar of Desolace |QID|1362| |NORAF|
 A Khan Dez'hepah |QID|1365|
-A Gelkis Alliance |QID|1368| |N|Skip "Magram Alliance"|
+A Gelkis Alliance |QID|1368| |N|Skip "Magram Alliance"| |NORAF|
 
 A Kodo Roundup |QID|5561| |N|From Smeed Scrabblescrew (60.83, 61.86)|
 C Kodo Roundup |QID|5561| |N|In the Kodo Graveyard|
-C Bone Collector |QID|5501|
+C Bone Collector |QID|5501| |NORAF|
+T Kodo Roundup |QID|5561|
 
 R Shadowprey Village |N|Follow the road west, down on the shore (24,71)|
 A Hunting in Stranglethorn |QID|5763|
 A Hand of Iruxos |QID|5381|
 h Shadowprey Village
 A Other Fish to Fry |QID|6143|
-A Clam Bait |QID|6142|
+A Clam Bait |QID|6142| |NORAF|
 f Grab flight point |N|Out on the pier|
 
-N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10|
+N Run north in water |N|Travel north in the water collecting 10 Clam Meat from the clams on the bottom| |L|15924 10| |NORAF|
 A Sceptre of Light |N|From Azore Aldamort on the hill (38.9, 27.1)| |QID|5741|
 
-C The Burning of Spirits |N|In Thunder Axe Fortress (54,29)| |QID|1435|
+C The Burning of Spirits |QID|1435| |N|In Thunder Axe Fortress (54,29).  Use the gem on the cultists as they die.| |U|6436|
 C Sceptre of Light |QID|5741|
 C Hand of Iruxos |QID|5381|
 A The Corrupter (Part 1) |QID|1480| |U|20310| |N|From the [Flayed Demon Skin] that dropped.  If you didn't get one, kill more cultists.|
 
-T Bone Collector |QID|5501| |N|Back at Bibbly F'utzbuckle (62,38).|
+T Bone Collector |QID|5501| |N|Back at Bibbly F'utzbuckle (62,38).| |NORAF|
 
 T The Corrupter (Part 1) |QID|1480| |N|Back at Ghost Walker Post (52.26, 53.57)|
 A The Corrupter (Part 2) |QID|1481|
@@ -51,14 +52,14 @@ T Befouled by Satyr |QID|1434| |N|Back at Ghost Walker Post|
 T The Corrupter (Part 2) |QID|1481|
 A The Corrupter (Part 3) |QID|1482|
 T Khan Dez'hepah |QID|1365|
-A Centaur Bounty |QID|1366|
+A Centaur Bounty |QID|1366| |NORAF|
 
 T Sceptre of Light |QID|5741|
 A Book of the Ancients |QID|6027|
 A Claim Rackmore's Treasure! |N|From the chest/wrecked boat along the shore (36.1, 30.4).| |QID|6161|
 
 C Other Fish to Fry |QID|6143|
-C Clam Bait |QID|6142|
+C Clam Bait |QID|6142| |NORAF|
 C The Corrupter (Part 3) |N|Collect an Oracle Crystal from a Slitherblade Oracle| |QID|1482|
 C Claim Rackmore's Treasure! |N|Kill Drysnap Pincers and Crawlers for the silver key, Slitherblade Naga for the golden key.| |QID|6161|
 
@@ -72,21 +73,20 @@ T The Corrupter (Part 3) |QID|1482|
 A The Corrupter (Part 4) |QID|1484|
 T The Corrupter (Part 4) |N|Skip last follow-up| |QID|1484|
 
-C Gelkis Alliance |QID|1368| |N|Kill Magram centaurs (69.10, 71.10) until you are friendly with the Gelkis centaurs.|
-T Gelkis Alliance |QID|1368| |N|Find Uthek the Wise outside the Gelkis Village (36.29, 79.15).|
-A Stealing Supplies |QID|1370|
+C Gelkis Alliance |QID|1368| |N|Kill Magram centaurs (69.10, 71.10) until you are friendly with the Gelkis centaurs.| |NORAF|
+T Gelkis Alliance |QID|1368| |N|Find Uthek the Wise outside the Gelkis Village (36.29, 79.15).| |NORAF|
+A Stealing Supplies |QID|1370| |NORAF|
 
-T Kodo Roundup |QID|5561|
-C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)| |QID|1370|
-C Centaur Bounty |QID|1366|
+C Stealing Supplies |N|In the Magram village with Centaur Bounty (70,74)| |QID|1370| |NORAF|
+C Centaur Bounty |QID|1366| |NORAF|
 
-T Centaur Bounty |QID|1366|
+T Centaur Bounty |QID|1366| |NORAF|
 
 H Shadowprey Village
 T Hand of Iruxos |QID|5381|
 T Other Fish to Fry |QID|6143|
-T Clam Bait |QID|6142|
-T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up| |QID|1370|
+T Clam Bait |QID|6142| |NORAF|
+T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up| |QID|1370| |NORAF|
 
 F Thunder Bluff |RAF|
 T Steelsnap |QID|1131| |N|Hunter Rise (61.18, 80.38)| |Z|Thunder Bluff| |RAF|
@@ -106,14 +106,8 @@ A The Black Shield (Part 2) |QID|1321|
 T The Black Shield (Part 2) |N|Skip the follow-up| |QID|1321|
 
 F Ratchet
-T Goblin Sponsorship (Part 1) |QID|1178|
-A Goblin Sponsorship (Part 2) |QID|1180|
+T Goblin Sponsorship (Part 1) |QID|1178| |NORAF|
+A Goblin Sponsorship (Part 2) |QID|1180| |NORAF|
 T Wharfmaster Dizzywig |QID|1111|
 A Parts for Kravel |QID|1112|
-]]
-end)
-
-
-
-
-
+]] end)

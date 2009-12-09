@@ -12,7 +12,7 @@ A The Swarm Grows (Part 3) |QID|1147|
 T Parts for Kravel |QID|1112| |N|At the Mirage Raceway (77.8, 77.2)|
 A Delivery to the Gnomes |QID|1114|
 T Delivery to the Gnomes |QID|1114|
-T Goblin Sponsorship (Part 5) |QID|1183|
+T Goblin Sponsorship (Part 5) |QID|1183| |NORAF|
 
 A The Eighteenth Pilot |QID|1186|
 T The Eighteenth Pilot |QID|1186|

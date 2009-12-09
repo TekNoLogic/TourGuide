@@ -1,15 +1,15 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (34-36)", "Arathi Highlands (36-37)", "Horde", function()
 return [[
 b Booty Bay
-T Goblin Sponsorship (Part 2) |N|To Wharfmaster Lozgil (26.3, 73.5)| |QID|1180|
-A Goblin Sponsorship (Part 3) |QID|1181|
+T Goblin Sponsorship (Part 2) |N|To Wharfmaster Lozgil (26.3, 73.5)| |QID|1180| |NORAF|
+A Goblin Sponsorship (Part 3) |QID|1181| |NORAF|
 h Booty Bay
 A Singing Blue Shards |N|From Crank Fizzlebub (27.1, 77.3)| |QID|605|
 A Bloodscalp Ears |QID|189|
 A Hostile Takeover |QID|213|
 A Investigate the Camp |QID|201|
-T Goblin Sponsorship (Part 3) |N|Baron Revilgaz on the boat balcony, 3rd floor of the inn (27.2, 76.9)| |QID|1181|
-A Goblin Sponsorship (Part 4) |QID|1182|
+T Goblin Sponsorship (Part 3) |N|Baron Revilgaz on the boat balcony, 3rd floor of the inn (27.2, 76.9)| |QID|1181| |NORAF|
+A Goblin Sponsorship (Part 4) |QID|1182| |NORAF|
 
 F Grom'gol Base Camp
 A The Defense of Grom'gol (Part 1) |QID|568|
@@ -52,7 +52,7 @@ T Hemet Nesingwary Jr. |QID|5762|
 T Hunting in Stranglethorn |QID|5763|
 
 C Hostile Takeover |N|Venture Co. geologists near Lake Nazferiti (44,19)| |QID|213|
-C Goblin Sponsorship (Part 4) |QID|1182|
+C Goblin Sponsorship (Part 4) |QID|1182| |NORAF|
 C Panther Mastery (Part 3) |N|Shadowmaw Panthers (48,21)| |QID|192|
 C Mok'thardin's Enchantment (Part 1) |QID|570|
 C The Defense of Grom'gol (Part 2) |N|Southeast of Grom'gol at the Mizjah Ruins (36,30)| |QID|569|
@@ -65,8 +65,8 @@ T Singing Blue Shards |QID|605|
 T Hostile Takeover |QID|213|
 T Bloodscalp Ears |QID|189|
 T Investigate the Camp |QID|201|
-T Goblin Sponsorship (Part 4) |QID|1182|
-A Goblin Sponsorship (Part 5) |QID|1183|
+T Goblin Sponsorship (Part 4) |QID|1182| |NORAF|
+A Goblin Sponsorship (Part 5) |QID|1183| |NORAF|
 
 T The Defense of Grom'gol (Part 2) |N|Back at Grom'gol| |QID|569|
 T An Unusual Patron |QID|9457|
