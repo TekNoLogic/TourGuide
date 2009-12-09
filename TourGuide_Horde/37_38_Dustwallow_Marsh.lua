@@ -1,40 +1,50 @@
 TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (39-40)", "Horde", function()
 return [[
-F Thunder Bluff
-T Frostmaw |N|(61,80)| |T| |QID|1136| |Z|Thunder Bluff|
-A Deadmire |QID|1205|
+F Thunder Bluff |QID|1205| |NORAF|
+T Frostmaw |QID|1136| |T| |NORAF|
+A Deadmire |QID|1205| |T| |NORAF|
 
-F Dustwallow Marsh
-h Brackenwall Village
+F Camp Taurajo |QID|1268|
+R Shady Rest Inn |N|South of the road just after you enter Dustwallow Marsh| |QID|1268|
+
+A Suspicious Hoofprints |QID|1268|
+A Lieutenant Paval Reethe |QID|1269|
+A The Black Shield (Part 1) |QID|1251|
+
+A Hungry! |N|From Mudcrush Durtfeet, south of Brackenwall (35,37)| |QID|1177| |NORAF|
+
+T Lieutenant Paval Reethe |QID|1269| |T| |N|Follow the road north to Brackenwall Village (36.38, 31.81).|
+T The Black Shield (Part 1) |QID|1251| |T|
+A The Black Shield (Part 2) |QID|1321| |T|
+T Suspicious Hoofprints |QID|1268| |T|
+T The Black Shield (Part 2) |QID|1321| |T|
+A The Black Shield (Part 3) |QID|1322| |T|
 A Theramore Spies |T| |QID|1201|
 A Check Up on Tabetha |T| |QID|11213|
-A The Black Shield (Part 3) |T| |QID|1322|
 A Twilight of the Dawn Runner |T| |QID|9437|
 A The Hermit of Witch Hill |T| |QID|11225|
-A Hungry! |N|From Mudcrush Durtfeet, south of Brackenwall (35,37)| |QID|1177|
 
-C Twilight of the Dawn Runner |N|The cargo is on the top of the Northpoint Tower (46,23)| |L|23657| |QID|9437|
+C Twilight of the Dawn Runner |QID|9437| |N|Take the road northwest to Northpoint Tower.  The cargo is up top.|
 
-A The Lost Report |N|From a dirt pile near Jarl's hut (55.4, 26.0)| |QID|1238|
-T The Hermit of Witch Hill |QID|11225|
-
+T The Hermit of Witch Hill |QID|11225| |N|Follow the road west.|
 A Marsh Frog Legs |QID|1218|
 A What's Haunting Witch Hill? |QID|11180|
-C Marsh Frog Legs |N|Behind the house| |QID|1218|
-C What's Haunting Witch Hill? |QID|11180|
+A The Lost Report |QID|1238|
 
-T Marsh Frog Legs |N|Back at the house| |QID|1218|
+C Marsh Frog Legs |QID|1218| |N|Kill frogs, big challenge.|
+C What's Haunting Witch Hill? |QID|11180| |N|Kill ghosts around the house.|
+
+T Marsh Frog Legs |QID|1218|
 A Jarl Needs Eyes |QID|1206|
-
 T What's Haunting Witch Hill? |QID|11180|
 A The Witch's Bane |QID|11181|
 
-C The Witch's Bane |N|Around the water, herbalists can track these.| |QID|11181|
-C Hungry! |N|On the peninsula (58,15)| |QID|1177|
+C The Witch's Bane |QID|11181| |N|Around the water, herbalists can track these.|
+C Hungry! |QID|1177| |NORAF| |N|North of the house, along the coast.|
 
-T The Witch's Bane |N|Turn in at (55,26)| |QID|11181|
+T The Witch's Bane |QID|11181|
 A Cleansing Witch Hill |QID|11183|
-C Cleansing Witch Hill |N|Plant the torch at the end of the dock and kill the bat| |U|33113| |QID|11183|
+C Cleansing Witch Hill |QID|11183| |N|Plant the torch at the end of the dock and kill the gargoyle.| |U|33113|
 T Cleansing Witch Hill |QID|11183|
 
 A Stinky's Escape |N|North of the tower (46.78, 17.00).  You may want to clear the area first.| |QID|1270|
@@ -54,17 +64,17 @@ T The Black Shield (Part 4) |T| |QID|1323|
 A Inspecting the Ruins |N|Easy XP and its on the way to Tabetha.| |T| |QID|11124|
 T Twilight of the Dawn Runner |T| |QID|9437|
 
-T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177|
+T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177| |NORAF|
 T Inspecting the Ruins |N|Follow the path south-west from Mudcrush (30,48)| |QID|11124|
 
 T Check Up on Tabetha |N|Follow the road south, then east to Tabetha's Farm (46.04, 57.17).| |QID|11213|
 A The Grimtotem Weapon |QID|11169|
-A The Reagent Thief |QID|11173|
+A The Reagent Thief |QID|11173| |NORAF|
 A Direhorn Raiders |N|Just outside of hut| |QID|11156|
 A The Zeppelin Crash |QID|11172|
 
 C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.  If you have a pet you may not want to use it, you won't get credit if the croc is not targeting you when it dies.| |U|33101| |QID|11169|
-C The Reagent Thief |N|Kill spiders southeast of the farm (48,62)| |QID|11173|
+C The Reagent Thief |N|Kill spiders southeast of the farm (48,62)| |QID|11173| |NORAF|
 
 C Direhorn Raiders |N|Kill Grimtotems north of the farm| |QID|11156|
 K Apothecary Cylla |L|33115|
@@ -72,9 +82,9 @@ A Signs of Treachery? |U|33115| |QID|11186|
 
 T Direhorn Raiders |N|Back at the farm| |QID|11156|
 T The Grimtotem Weapon |QID|11169|
-T The Reagent Thief |QID|11173|
+T The Reagent Thief |QID|11173| |NORAF|
 
-C Deadmire |N|Roams around (47,57)| |QID|1205|
+C Deadmire |N|Roams around (47,57)| |QID|1205| |NORAF|
 
 T The Zeppelin Crash |N|To the east at Beezil's Wreck (54,56).| |QID|11172|
 A Corrosion Prevention |QID|11174|
@@ -106,8 +116,8 @@ T Signs of Treachery? |T| |QID|11186|
 T The Severed Head |T| |QID|1239|
 A The Troll Witchdoctor |T| |QID|1240|
 
-F Thunder Bluff
-T Deadmire |N|Hunter's Rise| |T| |QID|1205|
+F Thunder Bluff |NORAF|
+T Deadmire |N|Hunter's Rise| |T| |QID|1205| |NORAF|
 
 F Ratchet
 T Stinky's Escape |T| |QID|1270|
