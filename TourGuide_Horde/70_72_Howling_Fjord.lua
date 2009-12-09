@@ -32,7 +32,7 @@ C The New Plague |QID|11167|
 T Guide Our Sights |QID|11232| |N|Back at Dark Ranger Lyana (79.14, 36.42)|
 A Landing the Killing Blow |QID|11233|
 
-K Captain Olster |Q|Landing the Killing Blow| |QO|Captain Olster slain: 1/1| |N|UP the hill, towards the southern end (81.45, 43.33)|
+K Captain Olster |QID|11233| |QO|Captain Olster slain: 1/1| |N|UP the hill, towards the southern end (81.45, 43.33)|
 A Trail of Fire |QID|11241| |N|Find Apothecary Hanes near the shore (83.17, 43.13)|
 C Landing the Killing Blow |QID|11233| |N|As you do the escort, kill Lieutenant Celeyne (83.14, 43.12) and Sergeant Lorric (81.99, 40.76).|
 C Trail of Fire |QID|11241|
@@ -348,7 +348,7 @@ T The Cleansing |QID|11317| |N|Back at Steel Gate (31.12, 24.53)|
 A In Worg's Clothing |QID|11323|
 
 C Sleeping Giants |QID|11433| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
-K Fearsome Horrors |Q|The Walking Dead| |QO|Fearsome Horror slain: 4/4|
+K Fearsome Horrors |QID|11268| |QO|Fearsome Horror slain: 4/4|
 C Necro Overlord Mezhen |QID|11264| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
 A The Slumbering King |QID|11453| |U|34091| |N|From the scroll dropped by Mezhen|
 C The Slumbering King |QID|11453| |N|Kill Queen Angerboda at the far end of Gjalerbron (41.05, 6.32)|

@@ -98,10 +98,10 @@ T Twisted Hatred |QID|932|
 A The Road to Darnassus |N|From a mounted patrol on the road west of town| |QID|487|
 C The Road to Darnassus |N|Outside of Ban'ethil Hollow (46,52), south of the road where the NPC partrols.| |QID|487|
 
-N Rune of Nesting |N|Head down into the Ban'ethil Barrow Den (44.41, 57.87).  At the first set of bridges take the left bridge (44.40, 60.67).| |Q|The Relics of Wakening| |QO|Rune of Nesting: 1/1|
-N Black Feather Quill |N|Across the other bridge (43.70, 61.22).| |Q|The Relics of Wakening| |QO|Black Feather Quill: 1/1|
+N Rune of Nesting |N|Head down into the Ban'ethil Barrow Den (44.41, 57.87).  At the first set of bridges take the left bridge (44.40, 60.67).| |QID|483| |QO|Rune of Nesting: 1/1|
+N Black Feather Quill |N|Across the other bridge (43.70, 61.22).| |QID|483| |QO|Black Feather Quill: 1/1|
 A The Sleeping Druid |N|Jump down and take the passage to the west, run across the bridge to Oben Rageclaw (44.94, 61,60).| |QID|2541|
-N Sapphire of Sky |N|Jump down and go south (44.70, 62.44).| |Q|The Relics of Wakening| |QO|Sapphire of Sky: 1/1|
+N Sapphire of Sky |N|Jump down and go south (44.70, 62.44).| |QID|483| |QO|Sapphire of Sky: 1/1|
 C The Relics of Wakening |N|The Raven Claw Talisman is north in the next room (the one with Rageclaw's body).  Run up onto the center pilar, take the bridge to the right and follow the path around to the left (45.65, 57.44).| |QID|483|
 C The Sleeping Druid |N|If the item didn't drop while you are collecting the relics, skip this and "Druid of the Claw"| |QID|2541|
 T The Sleeping Druid |QID|2541|

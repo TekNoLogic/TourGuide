@@ -71,7 +71,7 @@ A On Brann's Trail |QID|12854|
 A Loyal Companions |QID|12865|
 
 C On Brann's Trail |QID|12854| |N|Find the buried note to the north at the Abandoned Camp (36.08, 64.12)|
-K Rhinos |N|All over the Foot Steppes to the north.  You'll need 8 meat to feed to birds for "Loyal Companions"| |L|41340 8|
+K Rhinos |N|All over the Foot Steppes to the north.  You'll need 8 meat to feed to birds for "Loyal Companions"| |L|41340 8| |QID|12865|
 C Missing Scouts |QID|12864| |N|Find the scout to the southeast at the top of the watterfall, south of Sifreldar Village (38.25, 73.19)|
 
 T Leave No Goblin Behind |QID|12846| |N|Back up at Sifreldar, go inside the Forlorn Mine (42.82, 68.92)|
@@ -171,7 +171,7 @@ T Off With Their Black Wings |QID|12942|
 T Yulda's Folly |QID|12968|
 T Aberrations |QID|12925|
 
-K Stormforged Iron Giants |N|To the east, past Nippelem at Fjorn's Anvil (75,64).  You're looking for [Slag Covered Metal].  Use [Thorim's Charm of Earth] for some help| |L|41556| |U|41505|
+K Stormforged Iron Giants |N|To the east, past Nippelem at Fjorn's Anvil (75,64).  You're looking for [Slag Covered Metal].  Use [Thorim's Charm of Earth] for some help| |L|41556| |U|41505| |QID|12922|
 A The Refiner's Fire |QID|12922| |U|41556|
 C The Refiner's Fire |QID|12922| |N|Kill seething revenants for their sparks.  There are more out at Frostfield Lake.|
 C Mending Fences |QID|12915| |N|Use the charm again to summon help.  Try to clear a spot around the anvil so you can turn in "The Refiner's Fire"| |U|41505|

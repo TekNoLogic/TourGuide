@@ -75,10 +75,8 @@ function TourGuide:Enable()
 	else
 		local guidenotloaded = self.db.char.currentguide
 
-		local orig = self.Disable
 		function self:Disable(...)
 			if not self.db.char.currentguide then self.db.char.currentguide = guidenotloaded end
-			return orig(...)
 		end
 
 		function self:ADDON_LOADED()
@@ -103,7 +101,18 @@ function TourGuide:Enable()
 	self:RegisterEvent("PARTY_MEMBERS_CHANGED", "CommCurrentObjective")
 	self.TrackEvents = nil
 	self:QuestID_QUEST_LOG_UPDATE()
+	GetQuestsCompleted(TourGuide.turnedinquests)
 	self:UpdateStatusFrame()
+	self:RegisterEvent("QUEST_QUERY_COMPLETE")
+	if IsLoggedIn() then QueryQuestsCompleted()
+	else
+		self:RegisterEvent("PLAYER_LOGIN")
+		function self:PLAYER_LOGIN()
+			QueryQuestsCompleted()
+			self:UnregisterEvent("PLAYER_LOGIN")
+			self.PLAYER_LOGIN = nil
+		end
+	end
 end
 
 
@@ -146,11 +155,11 @@ function TourGuide:GetQuestLogIndexByQID(qid)
 end
 
 
-function TourGuide:GetQuestDetails(name, qid)
+function TourGuide:GetQuestDetails(name, qid, qo)
 	if not name then return end
 
 	local i = qid and self:GetQuestLogIndexByQID(qid) or self:GetQuestLogIndexByName(name)
-	local complete = i and select(7, GetQuestLogTitle(i)) == 1
+	local complete = i and (qo and self:IsQuestObjectiveComplete(i, qo) or select(7, GetQuestLogTitle(i)) == 1)
 	return i, complete
 end
 
@@ -178,11 +187,14 @@ function TourGuide:GetObjectiveStatus(i)
 	if not self.actions[i] then return end
 
 	local qid = self:GetObjectiveTag("QID", i)
+	local qo = self:GetObjectiveTag("QO", i)
 
-	return qid and self.turnedinquests[qid] or self.turnedin[self.quests[i]], self:GetQuestDetails(self.quests[i], qid) -- turnedin, logi, complete
+	local logi, complete = self:GetQuestDetails(self.quests[i], qid, qo)
+	return qo and complete or qid and self.turnedinquests[qid] or self.turnedin[self.quests[i]], logi, complete
 end
 
 
+local qidactions = {ACCEPT = true, COMPLETE = true, TURNIN = true}
 function TourGuide:SetTurnedIn(i, value, noupdate)
 	if not i then
 		i = self.current
@@ -192,8 +204,8 @@ function TourGuide:SetTurnedIn(i, value, noupdate)
 	if value then value = true else value = nil end -- Cleanup to minimize savedvar data
 
 	local qid = self:GetObjectiveTag("QID", i)
-	if qid then self.turnedinquests[qid] = value end
-	self.turnedin[self.quests[i]] = value
+	if qid and qidactions[self:GetObjectiveInfo(i)] then self.turnedinquests[qid] = value
+	else self.turnedin[self.quests[i]] = value end
 	self:DebugF(1, "Set turned in %q = %s", self.quests[i], tostring(value))
 	if not noupdate then self:UpdateStatusFrame()
 	else self.updatedelay = i end

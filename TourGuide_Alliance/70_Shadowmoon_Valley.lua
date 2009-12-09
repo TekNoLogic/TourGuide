@@ -1,8 +1,8 @@
 
 TourGuide:RegisterGuide("Shadowmoon Valley (70)", nil, "Alliance", function()
 return [[
-F Allerian Stronghold |N|Terokkar Forest|
-R Wildhammer Stronghold |N|East across the bridge, follow the road southeast in Shadowmoon Valley (39,53)|
+F Allerian Stronghold |N|Terokkar Forest| |QID|10562|
+R Wildhammer Stronghold |N|East across the bridge, follow the road southeast in Shadowmoon Valley (39,53)| |QID|10562|
 
 A Besieged! |QID|10562|
 C Besieged! |QID|10562|
@@ -10,12 +10,12 @@ T Besieged! |QID|10562|
 A To Legion Hold |QID|10563|
 A The Sketh'lon Wreckage |T| |QID|10569|
 A A Ghost in the Machine |T| |QID|10642|
-h Wildhammer Stronghold |T|
+h Wildhammer Stronghold |T| |QID|10550|
 A The Hand of Gul'dan |T| |QID|10680|
 A Put On Yer Kneepads... |T| |QID|10703|
 A Spleendid! |T| |QID|10661|
 
-N Kill crap... |N|Kill any Felboars, Vilewing Chimaeras and Scorchshell Pincers you come across for "Put On Yer Kneepads..."  Also loot any [Ever-burning Ash] you see, and kill Diemetradons for "Spleendid!"|
+N Kill crap... |N|Kill any Felboars, Vilewing Chimaeras and Scorchshell Pincers you come across for "Put On Yer Kneepads..."  Also loot any [Ever-burning Ash] you see, and kill Diemetradons for "Spleendid!"| |QID|10703|
 T The Hand of Gul'dan |N|Northeast at the Altar of Damnation (42,45)| |QID|10680|
 A Enraged Spirits of Fire and Earth |QID|10458|
 C Enraged Spirits of Fire and Earth |N|Use the totem, then kill the elementals near it| |U|30094| |QID|10458|
@@ -34,7 +34,7 @@ A Harbingers of Shadowmoon |T| |QID|10643|
 T Spleendid! |T| |QID|10661|
 A The Second Course... |T| |QID|10677|
 
-U Put on your Spectrecles |U|30719| |T|
+U Put on your Spectrecles |U|30719| |T| |QID|10643|
 C Harbingers of Shadowmoon |N|You don't have to leave the stronghold!| |T| |QID|10643|
 T Harbingers of Shadowmoon |T| |QID|10643|
 A Teron Gorefiend - Lore and Legend |T| |QID|10644|
@@ -55,7 +55,7 @@ C Asghar's Totem |N|Kill Asghar at the Sketh'lon Wreckage (40,31)| |QID|10777|
 T Asghar's Totem |QID|10777|
 A The Rod of Lianthe |QID|10778|
 
-K Overseer Ripsaw |N|Back at Legion Hold.  Near the fel reaver (22,35)| |L|30756|
+K Overseer Ripsaw |N|Back at Legion Hold.  Near the fel reaver (22,35)| |L|30756| |QID|10621|
 C Setting Up the Bomb |N|Armor Plating is near the fel reaver (22.21, 35.59), Power Core is underwater at the Fetid Pool (26.29, 41.24).| |QID|10572|
 
 T Setting Up the Bomb |N|Back at Wildhammer Stronghold| |QID|10572|
@@ -83,8 +83,8 @@ A Tablets of Baa'ri |T| |QID|10683|
 A Karabor Training Grounds |T| |QID|10687|
 
 C The Main Course! |N|Kill Felspine the Greater north of the Warden's Cage (56.26, 42.10)| |QID|10678|
-U Put on your Spectrecles |U|30721|
-N Keep an eye out... |N|Watch the main road around the Hand of Gul'dan for Ghostrider of Karabor.  If you see them kill one for "Divination: Gorefiend's Truncheon".  You need your Spectrecles to see them!|
+U Put on your Spectrecles |U|30721| |QID|10635|
+N Keep an eye out... |N|Watch the main road around the Hand of Gul'dan for Ghostrider of Karabor.  If you see them kill one for "Divination: Gorefiend's Truncheon".  You need your Spectrecles to see them!| |QID|10636|
 C Divination: Gorefiend's Cloak |N|Kill Clerics of Karabor in front of the Black Temple| |QID|10635|
 
 C The Ashtongue Tribe |O| |N|At the Ruins of Baa'ri| |QID|10619|
@@ -127,7 +127,7 @@ T Minions of the Shadow Council |QID|10582|
 A The Summoning Chamber |QID|10585|
 A The Fate of Flanis |QID|10583|
 C The Fate of Flanis |N|Take the north entrance (40,38), fight your way to the dead dorf way at the back of the cave (34.65, 39.91)| |QID|10583|
-K Tinkerers and Smiths |N|Looking for an Elemental Displacer| |L|30672|
+K Tinkerers and Smiths |N|Looking for an Elemental Displacer| |L|30672| |QID|10585|
 C The Summoning Chamber |N|From the bridge, jump down to the northwest (carefully), kill Summoner Skartax, use the displacer, and kill Infernal Oversoul.| |U|30672| |QID|10585|
 T The Summoning Chamber |QID|10585|
 T The Fate of Flanis |QID|10583|
@@ -173,11 +173,11 @@ T Borak, Son of Oronok |QID|10546|
 A Of Thistleheads and Eggs... |QID|10547|
 C Of Thistleheads and Eggs... |QID|10547|
 
-F Shattrath City
+F Shattrath City |QID|10547|
 T Of Thistleheads and Eggs... |N|In Lower City| |T| |QID|10547|
 A The Bundle of Bloodthistle |T| |QID|10550|
 
-H Wildhammer Stronghold
+H Wildhammer Stronghold |QID|10550|
 T The Bundle of Bloodthistle |QID|10550|
 A To Catch A Thistlehead |NODEBUG| |QID|10570|
 C To Catch A Thistlehead |NODEBUG| |QID|10570|

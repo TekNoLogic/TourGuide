@@ -21,8 +21,8 @@ T Bloodfen Feathers |T| |QID|11158|
 A Banner of the Stonemaul |T| |QID|11160|
 A The Essence of Enmity |T| |QID|11161|
 
-N Pickup the Grog |N|At the Den of Flame (38.7,65.6). Make sure you use the totem on any dragonkin after you kill them for "The Essence of Enmity".| |Q|Overlord Mok'Morokk's Concern| |QO|Mok'Morokk's Grog: 1/1| |U|33088|
-N Pickup the Strongbox |N|Inside the cave ((36.6,69.5)| |Q|Overlord Mok'Morokk's Concern| |QO|Mok'Morokk's Strongbox: 1/1| |U|33088|
+N Pickup the Grog |N|At the Den of Flame (38.7,65.6). Make sure you use the totem on any dragonkin after you kill them for "The Essence of Enmity".| |QID|1166| |QO|Mok'Morokk's Grog: 1/1| |U|33088|
+N Pickup the Strongbox |N|Inside the cave ((36.6,69.5)| |QID|1166| |QO|Mok'Morokk's Strongbox: 1/1| |U|33088|
 C Banner of the Stonemaul |N|Banner is in the same cave as the Strongbox (38.1,69.5)| |QID|11160| |U|33088|
 C Overlord Mok'Morokk's Concern |N|Snuff is in the Stonemaul Ruins (44.5,66.1)| |QID|1166| |U|33088|
 C Identifying the Brood |N|Off the whelps and hatchlings| |QID|1169|

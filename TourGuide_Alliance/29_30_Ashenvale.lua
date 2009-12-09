@@ -35,7 +35,7 @@ A Destroy the Legion |T| |QID|9516|
 A Reclaiming Felfire Hill |N|From Gnarl the Ancient of War, he paths around the camp.| |T| |QID|9526|
 
 C The Lost Chalice |N|In Satyrnaar (81.61, 48.57)| |QID|9519|
-N Freedom!  Horrible, horrible freedom! |Q|The Tower of Althalaxx (Part 6)| |QO|Free the Highborne soul in Satyrnaar: 1/1| |N|Find the crystal behind the structure where you found the chalice (81.58, 48.58)|
+N Freedom!  Horrible, horrible freedom! |QID|1140| |QO|Free the Highborne soul in Satyrnaar: 1/1| |N|Find the crystal behind the structure where you found the chalice (81.58, 48.58)|
 N Get wood |N|Collect 5 Satyrnaar Fel Wood.| |L|24081 5|
 
 C Agents of Destruction |N|South of Forest Song in Warsong Lumber Camp (88,54).  Overseer Gorthak is in the small building southwest of the big building (88.86, 59.51)| |QID|9518|
