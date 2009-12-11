@@ -5,14 +5,7 @@ A The Swarm Grows (Part 1) |QID|1145| |N|From Korran, west of windrider (51.10, 
 T Regthar Deathgate |QID|1361| |N|West of the Crossroads in the bunker (45.34, 28.37)| |Z|The Barrens| |NORAF|
 A The Kolkar of Desolace |QID|1362| |N|West of the Crossroads in the bunker (45.34, 28.37)| |Z|The Barrens| |NORAF|
 
-F Orgrimmar
-T The Swarm Grows (Part 1) |QID|1145| |N|Valley of Honor (75.05, 34.13)| |Z|Orgrimmar|
-A The Swarm Grows (Part 2) |QID|1146|
-
-T The Swarm Grows (Part 2) |QID|1146| |N|Fly down to Thousand Needles, then follow the road east to the edge of the flats.  There's a little camp to the south (67.6, 64.0).|
-A The Swarm Grows (Part 3) |QID|1147|
-
-R The Shimmering Flats |N|Southeast of the camp.|
+R The Shimmering Flats |N|Run back to Crossroads and fly down to Thousand Needles, then follow the road east.|
 A Hemet Nesingwary Jr. |QID|5762|
 A Wharfmaster Dizzywig |QID|1111|
 A Rocket Car Parts |QID|1110| |NORAF|
@@ -25,7 +18,6 @@ K Saltstone Basilisk |Q|A Bump in the Road| |QO|Saltstone Basilisk slain: 10/10|
 K Saltstone Basilisk |Q|A Bump in the Road| |QO|Saltstone Basilisk slain: 10/10| |N|North at Weazel's Crator (78.5, 63.0).| |RAF|
 C Hardened Shells |QID|1105| |N|All over the northwest quadrant of the flats (73,57).| |NORAF|
 C Salt Flat Venom |QID|1104| |N|All over the northwest quadrant of the flats (73,57).  There is also a nice group due west of the raceway NPCs (72,75).| |NORAF|
-C The Swarm Grows (Part 3) |QID|1147| |N|Southwest part of the flats, at the sillythid hive (67.27, 86.09). Go down inside first and kill invaders, they're a low spawn rate.  Drones should aggro from time to time, no need to attack them directly.|
 C A Bump in the Road |QID|1175| |N|Kill basilisks at Tahonda Ruins, the little lake due south of the raceway (79,88).|
 C Rocket Car Parts |QID|1110| |NORAF|
 C Load Lightening |QID|1176| |N|There's a nice group of vultures around some bones on the southeast edge of the race track (84.52, 81.74).| |NORAF|
@@ -38,8 +30,6 @@ T Salt Flat Venom |QID|1104| |NORAF|
 A Martek the Exiled |QID|1106| |NORAF|
 A Encrusted Tail Fins |QID|1107| |NORAF|
 T Rocket Car Parts |QID|1110| |NORAF|
-
-T The Swarm Grows (Part 3) |QID|1147| |N|Back at the camp on the northwest edge of the flats (67.6, 64.0).|
 
 R Gadgetzan |N|Due south out of the zone.|
 ]] end)

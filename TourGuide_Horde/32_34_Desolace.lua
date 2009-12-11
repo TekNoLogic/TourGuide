@@ -1,6 +1,8 @@
 TourGuide:RegisterGuide("Desolace (32-34)", "Stranglethorn Vale (34-36)", "Horde", function()
 return [[
 H Orgrimmar |QID|1432|
+T The Swarm Grows (Part 1) |QID|1145| |N|Valley of Honor (75.05, 34.13)| |Z|Orgrimmar|
+A The Swarm Grows (Part 2) |QID|1146| |NORAF|
 A Alliance Relations (Part 1) |QID|1431| |N|From Craven Drok in the Cleft of Shadow (50.37, 47.23)| |Z|Orgrimmar|
 T Alliance Relations (Part 1) |QID|1431| |N|From Keldran, in a hut near the west gate of Orgimmar (22.32, 53.69)| |Z|Orgrimmar|
 A Alliance Relations (Part 2) |QID|1432|
