@@ -95,6 +95,9 @@ T Stealing Supplies |N|At the Gelkis village.  Skip the follow-up| |QID|1370| |N
 F Thunder Bluff |RAF|
 T Steelsnap |QID|1131| |N|Hunter Rise (61.18, 80.38)| |Z|Thunder Bluff| |RAF|
 
+F Orgrimmar |RAF|
+T Alliance Relations (Part 4) |N|Keldran in the Valley of Spirits (21,53)| |QID|1436| |Z|Orgrimmar| |RAF|
+
 F Ratchet |QID|1111|
 T Goblin Sponsorship (Part 1) |QID|1178| |NORAF|
 A Goblin Sponsorship (Part 2) |QID|1180| |NORAF|
