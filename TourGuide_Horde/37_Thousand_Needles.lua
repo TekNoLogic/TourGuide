@@ -25,6 +25,6 @@ A Parts of the Swarm (Part 1) |QID|1148| |NORAF| |U|5877| |N|Kill silithid to th
 C Parts of the Swarm (Part 1) |QID|1148| |NORAF|
 
 H The Crossroads |NORAF|
-T Parts of the Swarm (Part 1) |QID|1148| |NORAF|
-A Parts of the Swarm (Part 2) |QID|1184| |NORAF|
+T Parts of the Swarm (Part 1) |QID|1148| |NORAF| |T|
+A Parts of the Swarm (Part 2) |QID|1184| |NORAF| |T|
 ]]end)

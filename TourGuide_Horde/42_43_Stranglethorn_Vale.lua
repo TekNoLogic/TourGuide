@@ -28,7 +28,7 @@ C Venture Company Mining |N|At (41,44)| |QID|600| |NORAF|
 T Raptor Mastery (Part 4) |N|At Nessingwary's Camp| |QID|197| |NORAF|
 A Big Game Hunter |QID|208| |NORAF|
 
-T Mok'thardin's Enchantment (Part 4) |N|Back at Grom'gol Base Camp (32.1,29.2)| |QID|573| |NORAF|
+T Mok'thardin's Enchantment (Part 4) |N|Back at Grom'gol Base Camp (32.1,29.2)| |QID|573| |NORAF| |T|
 C Big Game Hunter |QID|208| |N|On top of a small hill south-east of Grom'gol on the other side of the river.  Clear the tigers nearby first, otherwise they'll join in.  If you fail, skip this.|
 T Big Game Hunter |QID|208| |N|Back at Nessingwary's Camp|
 
