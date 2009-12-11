@@ -1,10 +1,9 @@
 TourGuide:RegisterGuide("Stranglethorn Vale (47)", "Searing Gorge (47-48)", "Horde", function()
 return [[
 F Booty Bay |N|via zeppelin to Grom'gol|
-A The Bloodsail Buccaneers (Part 5) |T| |QID|608|
 A Whiskey Slim's Lost Grog |T| |QID|580|
 h Booty Bay |T|
-T Back to Booty Bay |T| |QID|1118|
+T Back to Booty Bay |T| |QID|1118| |NORAF|
 T Deliver to MacKinley |T| |QID|2874|
 A The Captain's Chest |T| |QID|614|
 

@@ -91,6 +91,8 @@ T More than Coincidence |QID|11200| |T|
 T The Grimtotem Plot |QID|11201| |T|
 A Seek Out Tabetha |QID|11203| |T|
 T The Theramore Docks |T| |QID|1202|
+T The Severed Head |T| |QID|1239|
+A The Troll Witchdoctor |T| |QID|1240|
 
 T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177| |NORAF|
 T Inspecting the Ruins |QID|11124| |N|Back at the burned down inn.|
@@ -133,11 +135,6 @@ A Delivery for Drazzit |QID|11208| |NORAF|
 
 T Help Mudsprocket |QID|11215| |N|Follow the road south to Mudsprocket (42.28, 72.89).| |T|
 T Delivery for Drazzit |QID|11208| |T| |NORAF|
-
-H Brackenwall Village
-T Signs of Treachery? |T| |QID|11186|
-T The Severed Head |T| |QID|1239|
-A The Troll Witchdoctor |T| |QID|1240|
 
 F Thunder Bluff |NORAF|
 T Deadmire |N|Hunter's Rise| |T| |QID|1205| |NORAF|

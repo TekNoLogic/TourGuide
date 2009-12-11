@@ -4,7 +4,7 @@ return [[
 F Tarren Mill
 R The Hinterlands |N|Entrance at (86,30)| |Z|Hillsbrad Foothills|
 T Ripple Recovery |N|Go to (26,48) Skip follow up quest| |QID|650|
-T The Atal'ai Exile |N| Go south to (33,75), skip follow up| |QID|1429|
+T The Atal'ai Exile |N| Go south to (33,75), skip follow up| |QID|1429| |NORAF|
 C Sprinkle's Secret Ingredient |N| At the lake (41,60)| |QID|2641|
 
 R Revantusk Village |N|(77,79)|

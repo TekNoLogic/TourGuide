@@ -1,6 +1,7 @@
 TourGuide:RegisterGuide("Dustwallow Marsh (43-44)", "Tanaris (44-45)", "Horde", function()
 return [[
 F Brackenwall Village |N|Boat to Ratchet and fly down|
+T Signs of Treachery? |T| |QID|11186|
 A Overlord Mok'Morokk's Concern |T| |QID|1166|
 A Identifying the Brood |T| |QID|1169|
 A Army of the Black Dragon |T| |QID|1168|

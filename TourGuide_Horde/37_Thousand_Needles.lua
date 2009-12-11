@@ -17,14 +17,14 @@ T Goblin Sponsorship (Part 5) |QID|1183| |NORAF|
 A The Eighteenth Pilot |QID|1186|
 T The Eighteenth Pilot |QID|1186|
 
-A Razzeric's Tweaking |QID|1187|
-T Encrusted Tail Fins |QID|1107|
-A The Rumormonger |QID|1115|
+A Razzeric's Tweaking |QID|1187| |NORAF|
+T Encrusted Tail Fins |QID|1107| |NORAF|
+A The Rumormonger |QID|1115| |NORAF|
 
-A Parts of the Swarm (Part 1) |U|5877| |N|Kill silithid to the south until the item drops to start this.| |QID|1148|
 C The Swarm Grows (Part 3) |N|You must kill the Drones in order for the Invaders to spawn.| |QID|1147|
-C Parts of the Swarm (Part 1) |QID|1148|
 T The Swarm Grows (Part 3) |QID|1147|
+A Parts of the Swarm (Part 1) |QID|1148| |NORAF| |U|5877| |N|Kill silithid to the south until the item drops to start this.|
+C Parts of the Swarm (Part 1) |QID|1148| |NORAF|
 
 H The Crossroads
 T Parts of the Swarm (Part 1) |QID|1148|

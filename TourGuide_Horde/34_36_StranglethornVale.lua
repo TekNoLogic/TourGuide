@@ -54,6 +54,7 @@ C Hostile Takeover |QID|213| |NORAF|
 C Goblin Sponsorship (Part 4) |QID|1182| |NORAF|
 C Panther Mastery (Part 3) |QID|192| |N|Stealthy panters, southwest of Grom'gol on both sides of the road.|
 C Mok'thardin's Enchantment (Part 1) |QID|570| |NORAF|
+C Raptor Mastery (Part 3) |QID|196| |RAF|
 C The Defense of Grom'gol (Part 2) |QID|569| |N|Just southeast of Grom'gol at the Mizjah Ruins.|
 
 T The Defense of Grom'gol (Part 2) |N|Back at Grom'gol| |QID|569| |T|
@@ -67,6 +68,8 @@ T The Vile Reef |QID|629| |T|
 T Panther Mastery (Part 3) |N|Back at Nessingwary's, of course.| |QID|192|
 A Panther Mastery (Part 4) |QID|193|
 T Tiger Mastery (Part 4) |QID|188|
+T Raptor Mastery (Part 3) |QID|196| |RAF|
+A Raptor Mastery (Part 4) |QID|197| |RAF|
 
 H Booty Bay |SZ|The Salty Sailor Tavern| |QID|201|
 T Singing Blue Shards |QID|605| |NORAF| |T|
