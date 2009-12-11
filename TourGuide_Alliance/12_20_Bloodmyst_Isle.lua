@@ -18,13 +18,13 @@ A Declaration of Power |QID|9666|
 A Alien Predators |QID|9634|
 A A Favorite Treat |QID|9624|
 
-N Sand Pears |N|Grab any Sand Pears you come across for "A Favorite Treat"|
+N Sand Pears |N|Grab any Sand Pears you come across for "A Favorite Treat"| |QID|9624|
 
 C Alien Predators |N|To the southwest| |QID|9634|
 
 T Alien Predators |N|Back at Kessel's Crossing| |QID|9634|
 A Saving Princess Stillpine |N|Find Princess Stillpine (68.1, 81.1) locked in a cage in the Bristlelimb Camp| |QID|9667|
-K Highchief Bristlelimb |N|Go to the northern-most camp (65,75) and kill 8 Bristlelimb Furbolgs to summon Highchief Bristlelimb| |L|24099|
+K Highchief Bristlelimb |N|Go to the northern-most camp (65,75) and kill 8 Bristlelimb Furbolgs to summon Highchief Bristlelimb| |L|24099| |QID|9667|
 C Saving Princess Stillpine |QID|9667|
 C Declaration of Power |N|Head north to the Wrathscale Lair and kill Lord Xiz (68.5, 68.0).  Don't forget to plant the banner!| |U|24084| |QID|9666|
 C A Favorite Treat |QID|9624|
@@ -33,7 +33,7 @@ T Declaration of Power |N|Back at Kessel's Crossing| |QID|9666|
 A Report to Exarch Admetius |QID|9668|
 T A Favorite Treat |QID|9624|
 
-R Blood Watch |N|Take the road north|
+R Blood Watch |N|Take the road north| |QID|9668|
 A Beds, Bandages, and Beyond |N|In the inn| |T| |QID|9603| |R|Draenei|
 h Blood Watch |T|
 A Know Thine Enemy |T| |QID|9567|
@@ -44,7 +44,7 @@ A Mac'Aree Mushroom Menagerie |T| |QID|9648|
 
 T Beds, Bandages, and Beyond |N|North at the flightmaster| |T| |QID|9603| |R|Draenei|
 A On the Wings of a Hippogryph |T| |QID|9604| |R|Draenei|
-F The Exodar
+F The Exodar |QID|9604|
 T On the Wings of a Hippogryph |N|Turn in to Nurguni outside the AH (56.91, 49.97)| |T| |QID|9604| |R|Draenei|
 A Hippogryph Master Stephanos |T| |QID|9605| |R|Draenei|
 T Control |C|Mage| |QID|9595| |R|Draenei|
@@ -54,7 +54,7 @@ T Call of Fire (Part 6) |C|Shaman| |T| |QID|9555| |R|Draenei|
 T Behomat |C|Warrior| |T| |QID|10350| |R|Draenei|
 T Hippogryph Master Stephanos |T| |QID|9605| |R|Draenei|
 A Return to Topher Loaal |T| |QID|9606| |R|Draenei|
-F Blood Watch |R|Draenei|
+F Blood Watch |R|Draenei| |QID|9606|
 T Return to Topher Loaal |T| |QID|9606| |R|Draenei|
 
 T Report to Exarch Admetius |T| |QID|9668|
@@ -69,7 +69,7 @@ C Blood Watch |N|Northwest at Bladewood (46,45)| |QID|9694|
 T Blood Watch |N|Back at Blood Watch| |T| |QID|9694|
 A Intercepting the Message |T| |QID|9779|
 
-N Find an Aquatic Stinkhorn |N|Head southeast to the stream.  The fish drop it also!| |L|24041|
+N Find an Aquatic Stinkhorn |N|Head southeast to the stream.  The fish drop it also!| |L|24041| |QID|9648|
 C Learning from the Crystals |N|Use the pick on the crystal south of the stream at the Impact Site (58.09, 83.51)| |U|23875| |QID|9581|
 C Catch and Release |N|Follow the stream southwest to the waterfall, then further southwest to the Blacksilt Shore (52,90).  Get close and tag the scouts, but don't get into combat.| |U|23995| |QID|9629|
 
@@ -80,14 +80,14 @@ T Cruelfin's Necklace |O| |T| |QID|9576|
 T Learning from the Crystals |T| |QID|9581|
 A The Missing Survey Team |T| |QID|9620|
 
-N Shrooms... |N|Keep an eye out for the mushrooms needed for "Mac'Aree Mushroom Menagerie"|
+N Shrooms... |N|Keep an eye out for the mushrooms needed for "Mac'Aree Mushroom Menagerie"| |QID|9648|
 
-K Tzerak |N|Head to Nazzivian to the southwest and look for a summoning circle (38.43, 82.01).  If he isn't there look to the north, he's resummoned 5 minutes after he's killed, and he'll yell when he is summoned.| |L|23900|
+K Tzerak |N|Head to Nazzivian to the southwest and look for a summoning circle (38.43, 82.01).  If he isn't there look to the north, he's resummoned 5 minutes after he's killed, and he'll yell when he is summoned.| |L|23900| |QID|9594|
 A Signs of the Legion |U|23900| |N|Use Tzerak's Armor Place| |QID|9594|
 C Know Thine Enemy |N|Click on the Nazzivus Monument Glyphs (36.52, 71.50) to create a rubbing| |QID|9567|
 C Signs of the Legion |QID|9594|
 
-N Find a Fel Cone Fungus |N|Around Nazzivian| |L|24043|
+N Find a Fel Cone Fungus |N|Around Nazzivian| |L|24043| |QID|9648|
 
 C Victims of Corruption |N|Northeast at Middenvale (51,73)| |QID|9574|
 
@@ -100,8 +100,8 @@ T The Missing Survey Team |N|Northeast at the Ruins of Loreth'Aran.  Find the Dr
 A Salvaging the Data |QID|9628|
 C Salvaging the Data |QID|9628|
 
-N Find a Ruinous Polyspore |L|24042|
-N Find a Blood Mushroom |N|All over between the Ruins of Loreth'Aran and Nazzivian| |L|24040|
+N Find a Ruinous Polyspore |L|24042| |QID|9648|
+N Find a Blood Mushroom |N|All over between the Ruins of Loreth'Aran and Nazzivian| |L|24040| |QID|9648|
 
 T Salvaging the Data |N|Back at Blood Watch| |T| |QID|9628|
 A The Second Sample |T| |QID|9584|
@@ -115,10 +115,10 @@ T Intercepting the Message |N|Back at Blood Watch| |T| |QID|9779|
 A Translations... |T| |QID|9696|
 T Translations... |T| |QID|9696|
 A Audience with the Prophet |T| |QID|9698|
-F The Exodar
+F The Exodar |QID|9698|
 T Audience with the Prophet |N|In the Vault of Lights (32.84, 54.49)| |Z|The Exodar| |T| |QID|9698|
 A Truth or Fiction |T| |QID|9699|
-F Blood Watch
+F Blood Watch |QID|9699|
 T Truth or Fiction |T| |QID|9699|
 A I Shoot Magic Into the Darkness |T| |QID|9700|
 
@@ -127,11 +127,11 @@ A The Final Sample |T| |QID|9585|
 A WANTED: Deathclaw |T| |QID|9646|
 
 A The Missing Expedition |T| |QID|9669|
-N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  Then check your mail for a quest-starting item.  You cannot get this quest if you did not do Admiral Odesyus' quests in Azuremyst.| |T| |L|24132|
+N Urgent Delivery |N|Talk to Messenger Hermesius, he wanders about Blood Watch.  Then check your mail for a quest-starting item.  You cannot get this quest if you did not do Admiral Odesyus' quests in Azuremyst.| |T| |L|24132| |QID|9672|
 A The Bloodcurse Legacy |U|24132| |N|Read the letter| |T| |O| |QID|9672|
 A Explorers' League, Is That Something for Gnomes? |T| |QID|10063|
 
-N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"|
+N Kill crap... |N|Kill any Elder Brown Bears and Mutated Constrictors you come across for "The Bear Necessities" and "Constrictor Vines"| |QID|9643|
 
 T Explorers' League, Is That Something for Gnomes? |N|Look for a Clopper Wizbang in a turtle shell to the northeast (42.07, 21.19)| |QID|10063|
 A Pilfered Equipment |QID|9548|
@@ -162,7 +162,7 @@ T Constrictor Vines |T| |QID|9643|
 A Culling the Flutterers |T| |QID|9647|
 A Searching for Galaen |T| |QID|9578|
 
-N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling the Flutterers"|
+N Kill flutterbys |N|Kill any Royal Blue Flutterers you come across for "Culling the Flutterers"| |QID|9647|
 
 T Searching for Galaen |N|Find Galaen's corpse inside the Cryo-core to the northwest.  It is usually safer to enter from the west side.| |QID|9578|
 A Galaen's Fate |QID|9579|
@@ -195,7 +195,7 @@ A Cutting a Path |QID|10065|
 A Critters of the Void |QID|9741|
 T Vindicator's Rest |R|Draenei| |N|Skip the follow-up unless you've got help| |QID|9760|
 
-N Kill more crap... |N|Kill any Mutated Tanglers and Enraged Ravagers you come across for "Oh, the Tangled Webs They Weave" and "Cutting a Path"|
+N Kill more crap... |N|Kill any Mutated Tanglers and Enraged Ravagers you come across for "Oh, the Tangled Webs They Weave" and "Cutting a Path"| |QID|10065|
 
 A They're Alive! Maybe... |N|To the northwest, near Amberweb Pass (24.6, 35.2)| |QID|9670|
 C They're Alive! Maybe... |N|Make your way to the top of the pass, destroying the cocoons along the way.  Hit them from range to avoid aggro if it's not a Researcher.| |QID|9670|
@@ -218,7 +218,7 @@ C The Bloodcursed Naga |O| |QID|9674|
 T The Bloodcursed Naga |O| |QID|9674|
 A The Hopeless Ones... |O| |PRE|The Bloodcursed Naga| |QID|9682|
 C The Hopeless Ones... |O| |N|Swim out past the boat then down onto a deeper shelf (87,16).  Kill Bloodcursed Voyagers.| |QID|9682|
-N Refresh The Captain's Kiss |N|Talk to the turnin NPC and have him recast the spell on you, it'll help for traveling to the next part.|
+N Refresh The Captain's Kiss |N|Talk to the turnin NPC and have him recast the spell on you, it'll help for traveling to the next part.| |QID|9683|
 T The Hopeless Ones... |O| |QID|9682|
 A Ending the Bloodcurse |O| |PRE|The Hopeless Ones...| |QID|9683|
 T Into the Dream |N|Skip the follow-up unless you've got help| |QID|9688|
