@@ -51,7 +51,7 @@ T Gadgetzan Water Survey |QID|992|
 T Pirate Hats Ahoy! |N|Back at Steamwheedle Port| |QID|8365| |NORAF|
 T Stoley's Shipment |QID|2873|
 T Southsea Shakedown |QID|8366|
-A Deliver to MacKinley |QID|2874|
+A Deliver to MacKinley |QID|2874| |NORAF|
 T WANTED: Andre Firebeard |QID|2875|
 A Ship Schedules |U|9250| |O| |QID|2876|
 T Ship Schedules |O| |QID|2876|

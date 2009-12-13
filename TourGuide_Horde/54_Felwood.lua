@@ -14,7 +14,7 @@ C Timbermaw Ally |N|Just to the southwest| |QID|8460|
 T Timbermaw Ally |QID|8460|
 A Speak to Nafien |QID|8462|
 
-A Cleansing Felwood |N|On the west side of the road to the north (46.8, 83.1)| |QID|4102|
+A Cleansing Felwood |N|On the west side of the road to the north (46.8, 83.1)| |QID|4102| |NORAF|
 
 R Bloodvenom Post |N|(34,52)|
 A Well of Corruption |QID|4505|
@@ -32,7 +32,7 @@ C A Husband's Last Battle |QID|6162|
 
 C Collection of the Corrupt Water |N|Fill the vial at the corrupted moonwell in Jaedenar (35.25, 59.75)| |U|12922| |QID|5157|
 C Verifying the Corruption |N|North at Shatter Scar Vale (40.52, 41.78).  Watch out for the elite infernals!| |QID|5156|
-C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4102|
+C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4102| |NORAF|
 
 T Speak to Nafien |N|North, at the end of the road (64.8,8.2)| |QID|8462|
 A Deadwood of the North |QID|8461|

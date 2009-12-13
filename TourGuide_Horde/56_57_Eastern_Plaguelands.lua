@@ -4,10 +4,10 @@ return [[
 R Eastern Plaguelands
 A Demon Dogs |N|Follow the river north (7,43)| |QID|5542|
 A Blood Tinged Skies |QID|5543|
-A Carrion Grubbage |QID|5544|
+A Carrion Grubbage |QID|5544| |NORAF|
 
 N Kill crap... |N|Kill any plaguehounds, carrion worms, and plaguebats you encounter in EPL for each respective quest.|
-A To Kill With Purpose |N|At the Marris Stead (26,74)| |QID|6022|
+A To Kill With Purpose |N|At the Marris Stead (26,74)| |QID|6022| |NORAF|
 A Un-Life's Little Annoyances |QID|6042|
 
 T Sister Pamela |N|In a house in Darrowshire (36,90)| |QID|5601|
@@ -30,9 +30,9 @@ N Free Spirits... |N|Kill any cannibal ghouls, gibbering ghouls and diseased fla
 C Demon Dogs |N|Plaguehounds near Light's Hope to the east, Frenzied Plaguehound in the north half of the zone.| |QID|5542|
 C A Plague Upon Thee (Part 1) |N|Find termite mounds all around the northern part of the zone.| |QID|5901|
 
-C To Kill With Purpose |QID|6022|
+C To Kill With Purpose |QID|6022| |NORAF|
 C Defenders of Darrowshire |QID|5211|
-C Carrion Grubbage |QID|5544|
+C Carrion Grubbage |QID|5544| |NORAF|
 C Un-Life's Little Annoyances |QID|6042|
 
 A Augustus' Receipt Book |N|From hut at (13,34)| |QID|6164|
@@ -42,13 +42,13 @@ T Augustus' Receipt Book |QID|6164|
 
 T Demon Dogs |N|On the west edge of the zone| |QID|5542|
 T Blood Tinged Skies |QID|5543|
-T Carrion Grubbage |QID|5544|
+T Carrion Grubbage |QID|5544| |NORAF|
 A Redemption |QID|5742|
 C Redemption |N|Blah blah blah... he talks to much.| |QID|5742|
 T Redemption |QID|5742|
 A Of Forgotten Memories |QID|5781|
 
-T To Kill With Purpose |N|(26,74)| |QID|6022|
+T To Kill With Purpose |N|(26,74)| |QID|6022| |NORAF|
 T Un-Life's Little Annoyances |QID|6042|
 
 C Of Forgotten Memories |N|South at the Undercroft (24.6,80).  Talk to the grave and Mercutio and his adds will walk in (not spawn).  Try to pull him away from the adds, kill and loot him, and get out.  You might need help.| |QID|5781|
