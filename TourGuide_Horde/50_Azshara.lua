@@ -27,8 +27,6 @@ T Delivery to Jes'rimon |N|at (55,34)| |Z|Orgrimmar| |QID|3541| |NORAF|
 A Jes'rimon's Payment to Jediga |QID|3563| |NORAF|
 A Bone-Bladed Weapons |QID|4300| |NORAF|
 
-A A Sample of Slime... |QID|4293|
-A ... and a Batch of Ooze |QID|4294|
 F Undercity |NORAF|
 T Delivery to Andron Gant |N|Apothecarium Quarter| |QID|3542| |NORAF|
 A Andron's Payment to Jediga |QID|3564| |NORAF|

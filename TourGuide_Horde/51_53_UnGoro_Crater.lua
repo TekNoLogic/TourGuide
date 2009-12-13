@@ -115,7 +115,6 @@ T Making Sense of It |QID|4321|
 T Finding the Source |N|Back at the hot springs (30.9, 50.4)| |QID|974| |NORAF|
 A The New Springs |QID|980| |NORAF|
 
-K Oozes |L|12235 30|
 
 R Silithus |N|Take the path up out of the crater in the northwest corner of the zone (29,22)|
 R Cenarion Hold |N|Follow the road|

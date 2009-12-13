@@ -2,8 +2,6 @@ TourGuide:RegisterGuide("Western Plaguelands (56)", "Eastern Plaguelands (56-57)
 return [[
 F Undercity
 A A Call to Arms: The Plaguelands! |N|From Harbinger Balthazad, he patrols around the center and middle rings of the city.| |QID|5094|
-T A Sample of Slime... |QID|4293|
-T ... and a Batch of Ooze |QID|4294|
 h Undercity
 
 R The Bulwark
