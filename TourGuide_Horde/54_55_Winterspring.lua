@@ -43,16 +43,12 @@ T Are We There, Yeti? (Part 2) |QID|977| |NORAF|
 F Bloodvenom Post
 T Wild Guardians |N|Skip the follow-up| |QID|4741|
 
-T A Husband's Last Battle |N|Back at Bloodvenom Post| |QID|6162|
-T Well of Corruption |QID|4505|
-A Corrupted Sabers |QID|4506|
-
 F Emerald Sanctuary
 T Collection of the Corrupt Water |N|Skip the follow-up| |QID|5157|
 T Verifying the Corruption |QID|5156|
 T Cleansing Felwood |N|North along the road| |QID|4102| |NORAF|
 
-C Corrupted Sabers |N|(32,66)| |Z|Felwood| |QID|4506|
+C Corrupted Sabers |QID|4506|
 T Corrupted Sabers |N|First talk to the cat| |QID|4506|
 
 T Falling to Corruption |N|The cauldron at (60,5)| |Z|Felwood| |QID|5084|
