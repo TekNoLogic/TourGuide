@@ -153,13 +153,15 @@ T Beneath Thrallmar |QID|10630|
 
 T A Burden of Souls |N|Back at Thrallmar (52,36)| |QID|10864|
 A The Assassin |QID|9400| |N|This quest requires level 60| |T|
-A Falcon Watch |QID|9499| |N|This quest requires level 60| |T|
+A Falcon Watch |QID|9498| |N|This quest requires level 60| |T| |R|Orc, Troll, Tauren, Undead|
+A Falcon Watch |QID|9499| |N|This quest requires level 60| |T| |R|Blood Elf|
 A The Demoniac Scryer |QID|10838|
 C The Demoniac Scryer |N|Use the Scryer in Hellfire Basin, just to the west of Hellfire Citadel (44,50).  Defend it while it attunes, then talk to it when it is complete| |QID|10838| |U|31606|
 
 R Falcon Watch |N|West to the road, then south (27,60)|
 A Birds of a Feather |QID|9397| |T|
-T Falcon Watch |QID|9499| |T|
+T Falcon Watch |QID|9498| |T| |R|Orc, Troll, Tauren, Undead|
+T Falcon Watch |QID|9499| |T| |R|Blood Elf|
 A The Great Fissure |QID|9340| |T|
 A Magic of the Arakkoa |QID|9396| |T|
 
