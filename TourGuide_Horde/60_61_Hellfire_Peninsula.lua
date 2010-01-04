@@ -1,9 +1,9 @@
 
 TourGuide:RegisterGuide("Hellfire Peninsula (60-61)", "Zangarmarsh (61-63)", "Horde", function()
 return [[
-R The Dark Portal |N|Fly to Swamp of Sorrows then run south to the portal in Blasted Lands (58,56)| |Z|Blasted Lands|
-A Through the Dark Portal |N|Warlord Dar'toon right outside the big portal| |QID|9407|
-T Through the Dark Portal |N|Just down the steps to the right| |QID|9407|
+R The Dark Portal |N|Hit a town and take the portal to the Blasted Lands|
+A Through the Dark Portal |QID|9407|
+T Through the Dark Portal |QID|9407|
 A Arrival in Outland |QID|10120|
 T Arrival in Outland |QID|10120|
 A Journey to Thrallmar |QID|10289|
