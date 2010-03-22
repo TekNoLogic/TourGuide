@@ -22,7 +22,7 @@ There is no way to query what quests you have completed.  If you start using Tou
 
 Level ranges on the guides are general guidelines only, mainly designed to help you find what guide you should start with for your current level.
 
-TourGuide does not provide coords for every single objective.  If you are lost check with "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html or "Wowhead":http://www.wowhead.com and "submit a bug":http://www.tekkub.net/pages/tourguide_bugs so notes can be added to the objective.
+TourGuide does not provide coords for every single objective.  If you are lost check with "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html or "Wowhead":http://www.wowhead.com and "submit a bug":http://github.com/tekkub/TourGuide/blob/master/docs/submitting_bugs.markdown so notes can be added to the objective.
 
 If you wish to use the "use item" frame from a keybind or your actionbar, make a macro: @/click TourGuideItemFrame@
 
@@ -36,11 +36,11 @@ h2. How to create (or edit) guides
 
 TourGuide data files are fairly simple to create.
 The simplest method is to copy an existing file and edit it how you want.
-Please read "How to edit TourGuide guides":http://github.com/tekkub/tourguide/wikis/how-to-edit-tourguide-guides for help on the format and general guidelines.
+Please read "How to edit TourGuide guides":http://github.com/tekkub/TourGuide/blob/master/docs/writing_guides.markdown for help on the format and general guidelines.
 I ask that all submissions follow these guidelines, to present a consistent format to the user.
 I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon other copyrighted guides.
 
-See "this page":http://www.tekkub.net/pages/tourguide_bugs for details on how to fork my github repo to push your changes.
+See "this page":http://github.com/tekkub/TourGuide/blob/master/docs/submitting_bugs.markdown for details on how to fork my github repo to push your changes.
 
 h2. Links
 
