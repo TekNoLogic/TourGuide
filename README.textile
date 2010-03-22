@@ -38,11 +38,9 @@ TourGuide data files are fairly simple to create.
 The simplest method is to copy an existing file and edit it how you want.
 Please read "How to edit TourGuide guides":http://github.com/tekkub/tourguide/wikis/how-to-edit-tourguide-guides for help on the format and general guidelines.
 I ask that all submissions follow these guidelines, to present a consistent format to the user.
-I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon Joana's, Kopp's or any other copyrighted guide.
+I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon other copyrighted guides.
 
 See "this page":http://www.tekkub.net/pages/tourguide_bugs for details on how to fork my github repo to push your changes.
-
-<b><i>If you use Joana's or Kopp's as a source <u>do not</u> infringe on their copyrighted material (the notes and comments), I cannot accept guides that are a direct ripoff of their works.</i></b>
 
 h2. Links
 
