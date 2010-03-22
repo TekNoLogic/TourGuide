@@ -16,7 +16,7 @@ T Pamela's Doll |QID|5149|
 A Auntie Marlene |QID|5152|
 A Uncle Carlin |QID|5241|
 
-K Plaguehound Runts |Q|Demon Dogs| |QO|Plaguehound Runt slain: 20/20| |N|All over the southwestern section of the zone|
+K Plaguehound Runts |QID|5542| |QO|Plaguehound Runt slain: 20/20| |N|All over the southwestern section of the zone|
 C Blood Tinged Skies |QID|5543|
 
 T Uncle Carlin |N|East at Light's Hope Chapel (75.65, 53.84)| |QID|5241|

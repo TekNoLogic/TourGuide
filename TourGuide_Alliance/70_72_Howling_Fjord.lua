@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Howling Fjord (70-72)", "Dragonblight (72-73)", "Alliance", function()
 return [[
-N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!|
+N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!| |QID|11427|
 
 A Hell Has Frozen Over... |QID|11228| |N|On the dock as you get off the ship (61.13, 62.59)| |T|
 T Hell Has Frozen Over... |QID|11228| |N|Just north of the dock (60.45, 61.12)| |T|
@@ -21,7 +21,7 @@ A The Path to Payback |QID|11420| |T|
 A Into the World of Spirits |QID|11333| |T|
 
 A Daggercap Divin' |QID|11443| |N|Dive down into Daggercap Bay (62.84, 59.11)|
-U Put on the Diving Helm |U|34082|
+U Put on the Diving Helm |U|34082| |QID|11443|
 C Into the World of Spirits |QID|11333| |N|On the deck of the northern boat (62.05, 57.69)|
 C Daggercap Divin' |QID|11443|
 T Daggercap Divin' |QID|11443| |N|Howling Fjord, Daggercap Bay (62.17, 57.31)|
@@ -90,7 +90,7 @@ C Let's Go Surfing Now |QID|11436| |N|Pull the lever at the harpoon near the sou
 T Let's Go Surfing Now |QID|11436| |T|
 T Anguish of Nifflevar |QID|11344| |T|
 
-F Explorers' League Outpost |N|Hop a plane ride from McGoyver (60.75, 61.45)| |T|
+F Explorers' League Outpost |N|Hop a plane ride from McGoyver (60.75, 61.45)| |T| |QID|11448|
 T The Explorers' League Outpost |QID|11448|
 A Problems on the High Bluff |QID|11474|
 T Problems on the High Bluff |QID|11474|
@@ -102,7 +102,7 @@ C Tools to Get the Job Done |QID|11475| |N|In a bucket on a platform in the dig 
 C Out of My Element? |QID|11477| |N|Destroyers are around the outside above the dig|
 T Out of My Element? |QID|11477|
 
-N Find a Fjord Grub |N|Under loose rocks all over the place while on your way back to the Outpost| |L|34102|
+N Find a Fjord Grub |N|Under loose rocks all over the place while on your way back to the Outpost| |L|34102| |QID|11460|
 C Trust is Earned |QID|11460| |N|Back at the Explorers' League Outpost (75.27, 64.99).  Feed the grub to the falcon in the cage|
 T Trust is Earned |QID|11460|
 A The Ransacked Caravan |QID|11465|
@@ -112,9 +112,9 @@ A We Have the Technology |QID|11484|
 
 C The Ransacked Caravan |QID|11465| |N|Find some more grubs, then let the falcon loose on some turkeys to the west (69.26, 64.53)| |U|34111|
 
-K Shoveltusks |N|After a Pristine Hide| |Q|We Have the Technology| |QO|Pristine Shoveltusk Hide: 1/1|
-N Industrial Strength Rope |Q|We Can Rebuild It| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
-N Large Barrel |Q|We Can Rebuild It| |QO|Large Barrel: 1/1| |N|South in Nifflevar (67.70, 54.96)|
+K Shoveltusks |N|After a Pristine Hide| |QID|11484| |QO|Pristine Shoveltusk Hide: 1/1|
+N Industrial Strength Rope |QID|11483| |QO|Industrial Strength Rope: 1/1| |N|North in Baleheim (64.77, 40.89)|
+N Large Barrel |QID|11483| |QO|Large Barrel: 1/1| |N|South in Nifflevar (67.70, 54.96)|
 C We Have the Technology |QID|11484| |N|Keep killin' vrykul|
 C We Can Rebuild It |QID|11483| |N|Take the express harpoon down to Valgarde.  Get the ingots from McGoyver (60.75, 61.45), then takes his flight back to the Explorers' League Outpost.|
 
@@ -146,16 +146,16 @@ A There Exists No Honor Among Birds |QID|11470|
 C There Exists No Honor Among Birds |QID|11470| |N|Find the vrykul hawk roost near the Stonewall Lift (76.84, 67.42), use the falcon, collect eggs on the cliffs below.| |U|34124|
 T There Exists No Honor Among Birds |QID|11470| |N|Back at the Explorers' League Outpost (75.28, 65.02)|
 
-F Westguard Keep |N|Talk to Walt and take the... flight... to Westguard Keep|
+F Westguard Keep |N|Talk to Walt and take the... flight... to Westguard Keep| |QID|11157|
 A The Clutches of Evil |QID|11157| |T| |N|Up inside the keep|
 T To Westguard Keep! |QID|11291| |T|
 T News From the East |QID|11501| |T|
 A Shoveltusk Soup Again? |QID|11155| |N|In the inn (31.16, 40.90)| |T|
 A One Size Does Not Fit All |QID|11190| |N|Outside at the cannons (33.95, 43.75)|
-N Meat and balls |N|Kill any shoveltusks you come across for "Shoveltusk Soup Again?" and collect any cannonballs you see for "One Size Does Not Fit All"|
+N Meat and balls |N|Kill any shoveltusks you come across for "Shoveltusk Soup Again?" and collect any cannonballs you see for "One Size Does Not Fit All"|  |QID|11190|
 
 A Root Causes |QID|11182| |N|Find the ancient to the southeast, patrolling around the Ember Clutch|
-C Root Causes |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.30, 53.15)|
+C Root Causes |QID|11182| |N|Kill Skeld Drakeson in the building on the southeast edge of the Clutch (41.30, 53.15)|
 C The Clutches of Evil |QID|11157|
 T Root Causes |QID|11182|
 
@@ -231,7 +231,7 @@ T Mutiny on the Mercy |QID|11527|
 A Sorlof's Booty |QID|11529|
 C Sorlof's Booty |QID|11529| |N|When the ship goes near shore, use the cannon at the other end of the ship, then swim to shore and grab da loots|
 T Sorlof's Booty |QID|11529| |N|Back to the little island (38.00, 74.48) to board the ship|
-A The Shield of the Aesirites
+A The Shield of the Aesirites |QID|11530|
 
 T Swabbin' Soap |QID|11469| |N|Back at Scalawag Point (37.75, 79.55)|
 T The Fragrance of Money |QID|11455|
@@ -318,7 +318,7 @@ T Steel Gate Patrol |QID|11391|
 
 T Where is Explorer Jaren? |QID|11393| |N|Head west to the cliffs, take the path down (27.58, 32.09) to Chillmere Coast (24.25, 32.53)|
 A And You Thought Murlocs Smelled Bad! |QID|11394|
-K Scourge |N|Looking for the "Scourge Device"| |L|33961|
+K Scourge |N|Looking for the "Scourge Device"| |L|33961| |QID|11395|
 A It's a Scourge Device |QID|11395| |U|33961|
 T It's a Scourge Device |QID|11395| |N|Back at Explorer Jaren (24.21, 32.49)|
 A Bring Down Those Shields |QID|11396|
@@ -331,7 +331,7 @@ T Operation: Skornful Wrath |QID|11248| |N|Head east to Skorn (44.30, 26.48), us
 A Towers of Certain Doom |QID|11245|
 A Gruesome, But Necessary |QID|11246|
 A Burn Skorn, Burn! |QID|11247|
-N Use the machete on any vrykul you kill
+N Use the machete on any vrykul you kill |QID|11246|
 
 C Burn Skorn, Burn! |QID|11247| |U|33321| |N|Use the torch to burn the Northeast Longhouse (46.38, 28.13), Barracks (45.94, 30.72), and Northwest Longhouse (43.66, 28.67)|
 C Towers of Certain Doom |QID|11245| |U|33323| |N|Use the flare on the Northwest Tower (44.57, 30.04), East Tower (45.82, 32.14), Southwest Tower (43.67, 34.44) and Southeast (46.29, 36.32)|
@@ -346,7 +346,7 @@ T Gruesome, But Necessary |QID|11246|
 T Burn Skorn, Burn! |QID|11247|
 A All Hail the Conqueror of Skorn! |QID|11250|
 
-R Fort Wildervar |N|Take the road out of town, head north then east past Skorn (60.20, 18.68)|
+R Fort Wildervar |N|Take the road out of town, head north then east past Skorn (60.20, 18.68)| |QID|11329|
 A I'll Try Anything! |QID|11329| |N|Down by the lake (60.20, 18.68)|
 C I'll Try Anything! |QID|11329| |N|Open plants underwater, kill crap|
 T I'll Try Anything! |QID|11329|
@@ -361,7 +361,7 @@ A Down to the Wire |QID|11269| |T|
 A Preying Upon the Weak |QID|11292| |T|
 A The Yeti Next Door |QID|11284| |T|
 
-N Traps, feathers and rams |N|Open any traps you come across for "Preying Upon the Weak", collect feathers you see for "Down to the Wire" and kill rams for "The Yeti Next Door"|
+N Traps, feathers and rams |N|Open any traps you come across for "Preying Upon the Weak", collect feathers you see for "Down to the Wire" and kill rams for "The Yeti Next Door"| |QID|11292|
 
 T The Enigmatic Frost Nymphs |QID|11302| |N|Due south of the lake at the Frozen Glade (61.48, 22.79)|
 A Spirits of the Ice |QID|11313|
@@ -386,7 +386,7 @@ A Keeper Witherleaf |QID|11428|
 T Seeds of the Blacksouled Keepers |QID|11319|
 
 C Keeper Witherleaf |QID|11428| |N|Back at the Twisted Glade (54,17)|
-K Rams |N|Need 4 ram meat for "The Yeti Next Door"| |L|33352 4|
+K Rams |N|Need 4 ram meat for "The Yeti Next Door"| |L|33352 4| |QID|11284|
 C The Cleansing |QID|11322| |N|Head up the mountain path (53.65, 8.07) to the shrine (61.29, 1.61).  Kill "yourself" then slowfall down to the Frozen Glade.|
 
 T Keeper Witherleaf |QID|11428| |N|Back at the Frozen Glade (61.46, 22.80)|
@@ -451,7 +451,7 @@ A Sleeping Giants |QID|11432|
 T Scare the Guano Out of Them! |QID|11154| |N|North at Steel Gate (30.23, 28.79)|
 
 C Sleeping Giants |QID|11432| |N|Down in the Waking Halls beneath Gjalerbron (34,13).  Kill Necrolords for an [Awakening Rod], use it on the Dormant Vrykul.| |U|34083|
-K Fearsome Horrors |Q|In Service to the Light| |QO|Fearsome Horror slain: 4/4|
+K Fearsome Horrors |QID|11239| |QO|Fearsome Horror slain: 4/4|
 C Necro Overlord Mezhen |QID|11236| |N|Head up to the second "level", then up to the platform to the east (38.63, 12.40)|
 A The Slumbering King |QID|11452| |U|34090| |N|From the scroll dropped by Mezhen|
 C The Slumbering King |QID|11452| |N|Kill Queen Angerboda at the far end of Gjalerbron (41.05, 6.32)|

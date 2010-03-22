@@ -27,7 +27,7 @@ A Not In Our Mine |QID|12269| |T|
 T The Search for Slinkin |QID|12276| |N|Use the bot, mount up and follow him (he's a zippy little one) work your way down into the Wintergarde Mine (81.56, 42.21)| |U|37459|
 A Leave Nothing to Chance |QID|12277|
 
-N Get a bomb |N|Around the corner from Slinkin (80.7, 41.4)| |L|37465|
+N Get a bomb |N|Around the corner from Slinkin (80.7, 41.4)| |L|37465| |QID|12277|
 C The Bleeding Ore |QID|12272|
 C Not In Our Mine |QID|12269|
 C Leave Nothing to Chance |QID|12277| |U|37465| |N|On your way out of the mine, blow up the upper (80.45, 45.28) and lower (80.20, 44.81) entrances.  Stand near the blast for a little fun.|
@@ -72,8 +72,8 @@ T The Chain Gun And You |QID|12457|
 A Plunderbeard Must Be Found! |QID|12463|
 A Breaking Off A Piece |QID|12462|
 C Breaking Off A Piece |QID|12462| |N|Head down the stairs, kill the named mobs on both sides.|
-K Necrolord X'avius |Q|Breaking Off A Piece| |QO|Necrolord X'avius slain: 1/1| |N|Down the stairs, hang a right (84.68, 51.23)|
-K Necrolord Horus |Q|Breaking Off A Piece| |QO|Necrolord Horus slain: 1/1| |N|On the opposite side of the hall (86.05, 52.54)|
+K Necrolord X'avius |QID|12462| |QO|Necrolord X'avius slain: 1/1| |N|Down the stairs, hang a right (84.68, 51.23)|
+K Necrolord Horus |QID|12462| |QO|Necrolord Horus slain: 1/1| |N|On the opposite side of the hall (86.05, 52.54)|
 
 T Plunderbeard Must Be Found! |QID|12463| |N|Head down the hall and through the lab (84.19, 54.67)|
 A Plunderbeard's Journal |QID|12465|
@@ -170,8 +170,8 @@ A Worm Wrangler |QID|12078|
 C Worm Wrangler |QID|12078| |N|Back up at the cave, head down until you find jormungar spawn.  Use the crates on em and loot em.| |U|36771|
 T Worm Wrangler |QID|12078| |N|Back at the Crystal Vice (59.38, 18.10)|
 
-R Fordragon Hold |N|To the west (38,25)|
-F Wintergarde Keep
+R Fordragon Hold |N|To the west (38,25)| |QID|12467|
+F Wintergarde Keep |QID|12467|
 T Chasing Icestorm: Thel'zan's Phylactery |QID|12467| |T| |N|Down at High Commander Halford Wyrmbane (78.54, 48.19)|
 A Finality |QID|12472| |T|
 T Frostmourne Cavern |QID|12478| |T|
@@ -260,7 +260,7 @@ T Elder Mana'loa |QID|12030| |N|Follow the road out of town to Indu'le Village, 
 A Freedom for the Lingering |QID|12031|
 T Search Indu'le Village |QID|12098| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
 A The End of the Line |QID|12107| |N|Dragonblight, Lake Indu'le (40.28, 66.81)|
-N Focus, again |Q|The End of the Line| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
+N Focus, again |QID|12107| |QO|Ley Line Focus information retrieved: 1/1| |N|Use the controller on the focus, of course.| |U|36815|
 C Freedom for the Lingering |QID|12031|
 T Freedom for the Lingering |QID|12031| |N|Back at the elder (36.81, 65.20)|
 A Conversing With the Depths |QID|12032|
@@ -333,12 +333,12 @@ C Neltharion's Flame |QID|12267| |N|Head back to the magmawyrm resurrection cham
 T Neltharion's Flame |QID|12267|
 A Tales of Destruction |QID|12266|
 
-K Weakened Reanimated Frost Wyrm |Q|That Which Creates Can Also Destroy| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Use the seeds on a frost wyrm and kill it.  You can find a bunch near Galakrond's Rest (54,38).  Note that the seed won't aggro the wyrm, you'll need to hit it with something first.| |U|37887|
+K Weakened Reanimated Frost Wyrm |QID|12459| |QO|Weakened Reanimated Frost Wyrm slain: 1/1| |N|Use the seeds on a frost wyrm and kill it.  You can find a bunch near Galakrond's Rest (54,38).  Note that the seed won't aggro the wyrm, you'll need to hit it with something first.| |U|37887|
 C Mystery of the Infinite |QID|12470| |N|Use the Hourglass of Eternity at the Bronze Dragonshrine (71,40), protect it from the dragons.| |U|37923|
 
 C That Which Creates Can Also Destroy |QID|12459| |U|37887| |N|Same as before, use the seeds, kill the mob.  Overseer Deathgaze is at the northeast edge of the zone in Jintha'kalar (89.42, 18.99).  Turgid the Vile is in the broken keep below Naxx (85.98, 47.63).|
 
-h Wintergarde Keep |T|
+h Wintergarde Keep |T| |QID|13377|
 T Tales of Destruction |QID|12266| |T| |N|Fly back to Wyrmrest Temple, up top.|
 T Mystery of the Infinite |QID|12470| |T|
 T That Which Creates Can Also Destroy |QID|12459| |T|
@@ -355,7 +355,6 @@ A Reborn From The Ashes |QID|13347| |N|Down in front of Angrathar the Wrath Gate
 C Reborn From The Ashes |QID|13347| |N|Find Fordragon's shield nearby (38.07, 19.60)|
 T Reborn From The Ashes |QID|13347| |T| |N|Head to Stormwind, talk to the king (79.91, 38.63)|
 A Fate, Up Against Your Will |QID|13369| |T|
-N Orgy! |T| |N|While you are in Orgrimmar the guards will not attack.  If you want the Ragefire achievement, now's the time to do it.|
 T Fate, Up Against Your Will |QID|13369| |T|
 A A Royal Coup |QID|13370| |T|
 T A Royal Coup |QID|13370| |T| |N|Take the port back to Stormwind|
@@ -365,7 +364,7 @@ A The Battle For The Undercity |QID|13377|
 C The Battle For The Undercity |QID|13377| |N|Talk to the king, then enjoy the fight (once it finally starts).  Man, the king's a dick.|
 T The Battle For The Undercity |QID|13377| |T|
 
-H Wintergarde Keep
+H Wintergarde Keep |QID|12292|
 A The Hills Have Us |QID|12511| |T| |N|Near the flightmaster (77.13, 50.09)|
 ]]
 end)

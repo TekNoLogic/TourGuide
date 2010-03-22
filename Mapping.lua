@@ -33,19 +33,34 @@ local function MapPoint(zone, x, y, desc, c, z)
 end
 
 
+local elapsed, taction, tquest, tzone, tnote, tqid, tlogi
+local f = CreateFrame("Frame")
+f:Hide()
+f:SetScript("OnShow", function() elapsed = 0 end)
+f:SetScript("OnUpdate", function(self, elap)
+	elapsed = elapsed + elap
+	if elapsed < 1 then return end
+	self:Hide()
+	TourGuide:ParseAndMapCoords(taction, tquest, tzone, tnote, tqid, tlogi)
+end)
 local temp = {}
-function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid)
+function TourGuide:ParseAndMapCoords(action, quest, zone, note, qid, logi)
+	taction, tquest, tzone, tnote, tqid, tlogi = action, quest, zone, note, qid, logi
 	if TomTom and TomTom.RemoveWaypoint then
 		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
 	elseif Cartographer_Waypoints then
 		while cache[1] do Cartographer_Waypoints:CancelWaypoint(table.remove(cache)) end
 	end
 
-
-	if (action == "ACCEPT" or action == "TURNIN") and LightHeaded and self:MapLightHeadedNPC(qid, action, quest) and not self.db.alwaysmapnotecoords
-		or not (note and self.db.char.mapnotecoords) then return end
-
-	for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end
+	if logi and (action == "COMPLETE" or action == "TURNIN") then
+		QuestMapUpdateAllQuests()
+		QuestPOIUpdateIcons()
+		local _, x, y, obj = QuestPOIGetIconInfo(qid)
+		if x and y then table.insert(temp, y*100) table.insert(temp, x*100)
+		else return f:Show() end
+	end
+	if not temp[1] and (action == "ACCEPT" or action == "TURNIN") and LightHeaded then self:MapLightHeadedNPC(qid, action, quest) end
+	if not temp[1] and note and self.db.char.mapnotecoords then for x,y in note:gmatch(L.COORD_MATCH) do table.insert(temp, tonumber(y)); table.insert(temp, tonumber(x)) end end
 	while temp[1] do MapPoint(zone, table.remove(temp), table.remove(temp), "[TG] "..quest) end
 end
 

@@ -53,8 +53,8 @@ C A Damp, Dark Place |N|Funggor Cavern is south of Umbrafen Lake (74,91).  Ikeye
 C Safeguarding the Watchers |N|At the bottom of the cave. It's labeled a group quest, but Klaq is soloable if you clear the adds first.| |QID|9894|
 C Saving the Sporeloks |QID|10096|
 
-N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |Q|Balance Must Be Preserved| |QO|Umbrafen Lake Controls Disabled: 1/1|
-N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |Q|Balance Must Be Preserved| |QO|Lagoon Controls Disabled: 1/1|
+N Disable Umbrafen Pump |N|Use the seeds at the controls to the Umbrafen Lake pump (70,80)| |U|24355| |QID|9720| |QO|Umbrafen Lake Controls Disabled: 1/1|
+N Disable Lagoon Pump |N|Use the seeds at the controls to the Lagoon pump (64,63)| |U|24355| |QID|9720| |QO|Lagoon Controls Disabled: 1/1|
 
 H Cenarion Refuge
 T Saving the Sporeloks |QID|10096|
@@ -79,7 +79,7 @@ C A Job Undone |N|(78,45) Kill Sporewing| |QID|9899|
 T Searching for Scout Jyoba |N|(80,36)| |QID|9771|
 A Jyoba's Report |N|Dropped by Withered Giant| |QID|9772|
 A Withered Basidium |N|starts from item drop Withered Basidium| |QID|9828|
-N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |Q|Balance Must Be Preserved| |QO|Serpent Lake Controls Disabled: 1/1|
+N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |QID|9720| |QO|Serpent Lake Controls Disabled: 1/1|
 C Leader of the Bloodscale |N|(64,41) NEED GROUP or 70 to help| |QID|9817|
 
 R Zabra'jin |N|(31,51)|
@@ -136,7 +136,7 @@ T A Spirit Ally? |N|(31,51)| |QID|9847|
 C The Sharpest Blades |N|Marshfang Slicers are south of Zabra'Jin. You can find more to the west as well.| |QID|9842|
 A The Count of the Marshes |U|25459| |N|Kill "Count" Ungula if you didn't, back south of Zabra'Jin (33,59).| |QID|9911|
 
-N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |Q|Balance Must Be Preserved| |QO|Marshlight Lake Controls Disabled: 1/1|
+N Disable Marshlight Lake Pump |N|Use the seeds at the controls to the Marshlight Lake pump (25,42).| |U|24355| |QID|9720| |QO|Marshlight Lake Controls Disabled: 1/1|
 C Now That We're Friends... |QID|9726|
 C A Warm Welcome |QID|9728|
 C WANTED: Boss Grog'ak |N|(34,34)| |QID|9820|

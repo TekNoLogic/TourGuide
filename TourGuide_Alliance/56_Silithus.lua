@@ -2,10 +2,10 @@
 TourGuide:RegisterGuide("Silithus (56)", "Western Plaguelands (56-57)", "Alliance", function()
 return [[
 F Gadgetzan
-N Scare Sprinkle |N|Northwest side of town, use the Yeti| |U|12928| |Q|Are We There, Yeti?| |QO|Scare Sprinkle: 1/1|
+N Scare Sprinkle |N|Northwest side of town, use the Yeti| |U|12928| |QID|5163| |QO|Scare Sprinkle: 1/1|
 
 F Un'Goro Crater
-N Scare Quixxil |U|12928| |Q|Are We There, Yeti?| |QO|Scare Quixxil: 1/1|
+N Scare Quixxil |U|12928| |QID|5163| |QO|Scare Quixxil: 1/1|
 
 F Silithus
 A The Twilight Mystery |QID|8284|

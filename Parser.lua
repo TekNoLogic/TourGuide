@@ -48,8 +48,10 @@ local function ParseQuests(...)
 		local text = select(j, ...)
 		local _, _, classes = text:find("|C|([^|]+)|")
 		local _, _, races = text:find("|R|([^|]+)|")
+		local noraf = text:match("|NORAF|")
+		local raf = text:match("|RAF|")
 
-		if text ~= "" and (not classes or classes:find(myclass)) and (not races or races:find(myrace)) then
+		if text ~= "" and ((TourGuide.db.char.rafmode and not noraf) or (not TourGuide.db.char.rafmode and not raf)) and (not classes or classes:find(myclass)) and (not races or races:find(myrace)) then
 			local _, _, action, quest, tag = text:find("^(%a) ([^|]*)(.*)")
 			assert(actiontypes[action], "Unknown action: "..text)
 			quest = quest:trim()

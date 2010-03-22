@@ -108,6 +108,17 @@ frame:SetScript("OnShow", function()
 		end
 	end)
 
+	local rafmode = tekcheck.new(frame, nil, L["Recruit-a-friend mode"], "TOPLEFT", mapquestgivernotes, "BOTTOMLEFT", -GAP*2, -GAP)
+	rafmode.tiptext = L["Use recruit-a-friend modifications to guides, if present."]
+	rafmode:SetScript("OnClick", function(self)
+		checksound(self)
+		TourGuide.db.char.rafmode = not TourGuide.db.char.rafmode
+		TourGuide:LoadGuide(TourGuide.db.char.currentguide)
+		TourGuide:UpdateStatusFrame()
+		TourGuide:UpdateGuidesPanel()
+	end)
+	rafmode:SetChecked(TourGuide.db.char.rafmode)
+
 	frame:SetScript("OnShow", nil)
 end)
 

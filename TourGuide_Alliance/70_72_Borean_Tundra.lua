@@ -1,9 +1,9 @@
 
 TourGuide:RegisterGuide("Borean Tundra (70-72)", "Dragonblight (72-73)", "Alliance", function()
 return [[
-N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!|
+N Important note! |N|There are a number of quests in Northrend that will send you to the next quest hub.  These quests usually send you off flying the moment you accept them.  Be wary if you accept quests before TG tells you to, especially if you're near a flightmaster.  Be sure you grab flight points before quests, in case you grab one of these and need to fly back!| |QID|11733|
 
-B Overcharged Capacitor |N|Find an engineer or visit the AH| |L|39682|
+B Overcharged Capacitor |N|Find an engineer or visit the AH| |L|39682| |QID|11650|
 
 A Enlistment Day |QID|11672| |N|In the center of town, at the recruitment table (57.84, 67.67)| |T|
 T Enlistment Day |QID|11672| |N|Upstairs in the keep (56.69, 72.57)| |T|
@@ -168,8 +168,8 @@ T Khu'nok Will Know |QID|11878| |N|At the far north end of the mammoth field (59
 A Kaw the Mammoth Destroyer |QID|11879|
 C Kaw the Mammoth Destroyer |QID|11879| |N|Hop on a bull and go beat up Kaw to the northwest at Kaw's Roost (53.68, 24.37).  He drops an item anyone can loot so you don't have to group up, but you do have to dismount once he's dead.|
 
-R Fizzcrank Airstrip
-f Grab the flight point
+R Fizzcrank Airstrip |QID|11879|
+f Grab the flight point |QID|11879|
 
 T Kaw the Mammoth Destroyer |QID|11879| |N|Back at the D.E.H.T.A. Encampment (57.08, 44.30)|
 A The Assassination of Harold Lane |QID|11892|
@@ -288,8 +288,8 @@ C The Tides Turn |QID|11968| |N|On the other side of the statue|
 T The Tides Turn |QID|11968|
 A Travel to Moa'ki Harbor |QID|12117|
 
-R Unu'pe |N|To the east (78.5, 51.5)|
-F Fizzcrank Airstrip
+R Unu'pe |N|To the east (78.5, 51.5)| |QID|12086|
+F Fizzcrank Airstrip |QID|12086|
 
 T Distress Call |QID|11707| |N|Upstairs in the inn (57.03, 18.71)|
 A The Mechagnomes |QID|11708| |N|Borean Tundra, Fizzcrank Airstrip (57.03, 18.71)|
@@ -312,7 +312,7 @@ A Master and Servant |QID|11730|
 T Re-Cursive |QID|11712|
 A Lefty Loosey, Righty Tighty |QID|11788|
 
-N Botting is bad, mmkay? |N|Use [The Ultrasonic Screwdriver] on any bots you kill for "Master and Servant"|
+N Botting is bad, mmkay? |N|Use [The Ultrasonic Screwdriver] on any bots you kill for "Master and Servant"| |QID|11730|
 C Lefty Loosey, Righty Tighty |QID|11788| |N|Head out to each station (they have spinning lights) and fiddle with controls to summon a bot to kill.  Twonky at West Point Station (60.20, 20.42), ED-210 at North Point Station (65.46, 17.51), Max Blasto at Fizzcrank Pumping Station (63.74, 22.40), The Grinder at South Point Station (65.19, 28.79)|
 C Master and Servant |QID|11730| |U|35116| |N|Use [The Ultrasonic Screwdriver] on bots you've killed|
 
@@ -321,7 +321,7 @@ A The Gearmaster |QID|11798|
 T Master and Servant |QID|11730|
 A Finding Pilot Tailspin |QID|11725|
 
-N Get Crafty's Tools |Q|Just a Few More Things...| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06).  Skip this if you didn't get the capacitor.|
+N Get Crafty's Tools |QID|11650| |QO|Crafty's Tools: 1/1| |N|Below the Fizzcrank Pumping Station (64.37, 23.06).  Skip this if you didn't get the capacitor.|
 C The Gearmaster |QID|11798| |N|Head up to the building on the Pumping Station (64.50, 23.39).  Read teh manual, kill the bot-boss.|
 C What's the Matter with the Transmatter? |QID|11710| |N|Get the last few parts you need scattered around the area.|
 

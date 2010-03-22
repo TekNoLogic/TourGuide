@@ -63,8 +63,8 @@ C Scourgekabob |QID|12484| |N|Loot a mummy then head down to the bonfire (16.68,
 T Scourgekabob |QID|12484|
 A Seared Scourge |QID|12029|
 A Shimmercap Stew |QID|12483| |N|Back on the north side of camp (15.71, 46.74)|
-N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |Q|Shimmercap Stew| |QO|Shimmering Snowcap: 5/5|
-K Ice Serpents |N|All over the Ruins of Drak'Zin.| |Q|Shimmercap Stew| |QO|Ice Serpent Eye: 5/5|
+N Shimmering Snowcap |N|All along the riverbank south at Ruins of Drak'Zin (10.58, 63.91)| |QID|12483| |QO|Shimmering Snowcap: 5/5|
+K Ice Serpents |N|All over the Ruins of Drak'Zin.| |QID|12483| |QO|Ice Serpent Eye: 5/5|
 K Trolls |N|Need dat mojo mon!| |L|35799 5|
 T Subject to Interpretation |QID|11991| |N|Use Drakuru's elixir at the brasier in the middle of the Ruins of Drak'Zin (13.31, 60.86)| |U|35797|
 A Sacrifices Must be Made |QID|12007|
@@ -203,7 +203,7 @@ T Destroy the Sapling |QID|12241| |N|Back at Conquest Hold (22.48, 62.99)|
 T Vordrassil's Seeds |QID|12242|
 
 T A Bear of an Appetite |QID|12279| |N|Back at Redwood Trading Post (69.02, 40.15)|
-N Talk to him |Q|In the Name of Loken| |QO|Hugh Glass Questioned: 1/1| |N|Talk to him for "In the Name of Loken"|
+N Talk to him |QID|12204| |QO|Hugh Glass Questioned: 1/1| |N|Talk to him for "In the Name of Loken"|
 
 C Drak'aguul's Mallet |QID|12120| |N|Kill Drak'aguul, he patrols south of the ruins (72.77, 30.08)|
 

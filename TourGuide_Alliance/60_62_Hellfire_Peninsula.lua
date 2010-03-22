@@ -8,16 +8,16 @@ B [Nethergarde Bitter] |N|From Bernie Heisten (63.52, 16.95)| |L|23848| |Z|Blast
 
 A Through the Dark Portal |N|In front of the Dark Portal (58,55)| |Z|Blasted Lands| |QID|10119|
 
-R Hellfire Peninsula |N|Through the portal you moron!|
+R Hellfire Peninsula |N|Through the portal you moron!| |QID|10119|
 T Through the Dark Portal |QID|10119|
 A Arrival in Outland |QID|10288|
 T Arrival in Outland |QID|10288|
 A Journey to Honor Hold |QID|10140|
 
-F Honor Hold
+F Honor Hold |QID|10140|
 T Journey to Honor Hold |QID|10140|
 A Force Commander Danath |QID|10254|
-h Honor Hold
+h Honor Hold |QID|10093|
 T Force Commander Danath |N|In the keep (56,65)| |QID|10254|
 A The Legion Reborn |QID|10141|
 A Know your Enemy |QID|10160|
@@ -44,7 +44,7 @@ C Mission: The Murketh and Shaadraz Gateways |N|Get a flight from Wing Commander
 T Mission: The Murketh and Shaadraz Gateways |QID|10146|
 A Shatter Point |QID|10340|
 
-F Shatter Point |N|Talk to Wing Commander Dabir'ee again|
+F Shatter Point |N|Talk to Wing Commander Dabir'ee again| |QID|10340|
 T Shatter Point |QID|10340|
 A Wing Commander Gryphongar |QID|10344|
 T Wing Commander Gryphongar |N|In the half-tower| |QID|10344|
@@ -56,7 +56,7 @@ A Go to the Front |QID|10382|
 
 T Go to the Front |N|Fly to honor point to turn this in.  Skip "Forge Base Mageddon" unless you want a group| |QID|10382|
 
-F Honor Hold |N|Fly back to Shatter Point, then HH... or hearth|
+F Honor Hold |N|Fly back to Shatter Point, then HH... or hearth| |QID|10050|
 A An Old Gift |QID|10058|
 A The Path of Glory |N|Up in the keep| |QID|10047|
 T Waste Not, Want Not |N|At the west tower| |QID|10055|
@@ -78,7 +78,7 @@ C A Job for an Intelligent Man |N|Southewest in the canyon (45,63)| |QID|9355|
 A Ravager Egg Roundup |N|South at the crashed zeppelin (49,74)| |QID|9349|
 A In Case of Emergency... |QID|10161|
 
-N Debris... |N|Collect any debris you come across for "In Case of Emergency..."|
+N Debris... |N|Collect any debris you come across for "In Case of Emergency..."| |QID|10161|
 C An Old Gift |N|Oon the step of the abandoned building south of the armory (54.9, 86.8)| |QID|10058|
 C Unyielding Souls |QID|10050|
 C Ill Omens |N|Kill orcs to the southeast at Zeth'gor (67,75)| |QID|10483|
@@ -106,9 +106,9 @@ C Looking to the Leadership |N|Kill Arch Mage Xintor (53,81) and Lieutenant Comm
 C Helboar, the Other White Meat |N|Kill boars to the east between the armory and the orc camp.  Use the mixture to try to purify any tainted meat that drops.| |U|23268| |QID|9361|
 
 A Zeth'Gor Must Burn! |QID|10895| |N|At Expedition Point.  The item will decay, so if you grabbed this earlier you'll have to go get it again.|
-N Northern Tower |Q|Zeth'Gor Must Burn!| |QO|Northern Tower Marked: 1/1| |U|31739| |N|To the southwest in front of Zeth'Gor (68,67)|
-N Forge Tower |Q|Zeth'Gor Must Burn!| |QO|Forge Tower Marked: 1/1| |U|31739| |N|(70,69)|
-N Foothill Tower |Q|Zeth'Gor Must Burn!| |QO|Foothill Tower Marked: 1/1| |N|On the hill above the forge (70.95, 71.12)| |U|31739|
+N Northern Tower |QID|10895| |QO|Northern Tower Marked: 1/1| |U|31739| |N|To the southwest in front of Zeth'Gor (68,67)|
+N Forge Tower |QID|10895| |QO|Forge Tower Marked: 1/1| |U|31739| |N|(70,69)|
+N Foothill Tower |QID|10895| |QO|Foothill Tower Marked: 1/1| |N|On the hill above the forge (70.95, 71.12)| |U|31739|
 
 C Cursed Talismans |N|Kill orcs at Zeth'Gor (64,74)| |QID|10484|
 C In Case of Emergency... |QID|10161|
@@ -130,9 +130,9 @@ C Digging for Prayer Beads |N|Behind the inn (54.16,63.32)| |QID|10916|
 T Digging for Prayer Beads |QID|10916|
 T Looking to the Leadership |N|Back at Honor Hold, at the tower to the west| |QID|10057|
 
-R Temple of Telhamat |N|Follow the road east, then take the fork north (23,40)|
+R Temple of Telhamat |N|Follow the road east, then take the fork north (23,40)| |QID|10161|
 A An Ambitious Plan |QID|9383| |N|This quest requires 61 to get, if you can't get it just skip it.|
-F Honor Hold |N|Flightpoint is east of the inn|
+F Honor Hold |N|Flightpoint is east of the inn| |QID|10161|
 
 T In Case of Emergency... |N|Back at the crashed zeppelin| |QID|10161|
 A Voidwalkers Gone Wild |QID|9351|
@@ -157,7 +157,7 @@ A Cruel Taskmasters |QID|9399|
 A In Search of Sedai |QID|9390|
 T The Temple of Telhamat |QID|10093|
 A The Pools of Aggonar |QID|9426|
-h Temple of Telhamat
+h Temple of Telhamat |QID|9545|
 
 T In Search of Sedai |N|East of the FP (26,37)| |QID|9390|
 A Return to Obadei |QID|9423|
@@ -167,7 +167,7 @@ A Makuru's Vengeance |QID|9424|
 C Makuru's Vengeance |N|Kill orcs north of the corpse at Mag'Har Grounds (29,33).  Only the grunts drop these so focus on them.  You can find them in groups around the huts and bonfires.| |QID|9424|
 C The Pools of Aggonar |N|East at the Pools of Aggonar (38,44)| |QID|9426|
 
-H Temple of Telhamat
+H Temple of Telhamat |QID|10403|
 T Makuru's Vengeance |QID|9424|
 A Atonement |QID|9543|
 T The Pools of Aggonar |QID|9426|
@@ -206,7 +206,7 @@ A The Finest Down |QID|9420|
 C Rampaging Ravagers |N|To the northwest, you only need the green ones.| |QID|9385|
 T Rampaging Ravagers |QID|9385|
 
-K Avruu |L|23580| |N|To the southeast of the Longbeards (25,76).  He patrols around the ledge above the middle of the valley|
+K Avruu |L|23580| |N|To the southeast of the Longbeards (25,76).  He patrols around the ledge above the middle of the valley| |QID|9418|
 A Avruu's Orb |U|23580| |QID|9418|
 C Avruu's Orb |N|Talk to the orb to the south (29,81).| |QID|9418|
 T Avruu's Orb |QID|9418|
@@ -216,7 +216,7 @@ C The Arakkoa Threat |QID|9417|
 T The Finest Down |N|Back at the Longbeards' Camp| |QID|9420|
 T The Arakkoa Threat |QID|9417|
 
-H Temple of Telhamat
+H Temple of Telhamat |QID|9399|
 T Sha'naar Relics |QID|9430|
 A The Seer's Relic |QID|9545|
 T Cruel Taskmasters |QID|9399|
