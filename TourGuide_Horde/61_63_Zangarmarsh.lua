@@ -78,7 +78,7 @@ A News from Zangarmarsh |QID|9796|
 C A Job Undone |N|(78,45) Kill Sporewing| |QID|9899|
 T Searching for Scout Jyoba |N|(80,36)| |QID|9771|
 A Jyoba's Report |N|Dropped by Withered Giant| |QID|9772|
-A Withered Basidium |N|starts from item drop Withered Basidium| |QID|9828|
+A Withered Basidium |N|starts from item drop Withered Basidium| |QID|9828| |O| |U|24483|
 N Disable Serpent Lake Pump |N|Use the seeds at the controls to the Serpent Lake pump (61,40).| |U|24355| |QID|9720| |QO|Serpent Lake Controls Disabled: 1/1|
 C Leader of the Bloodscale |N|(64,41) NEED GROUP or 70 to help| |QID|9817|
 
@@ -166,7 +166,7 @@ T Arelion's Mistress |QID|9472|
 
 F Swamprat Post
 T A Job Undone |QID|9899|
-T Withered Basidium |QID|9828|
+T Withered Basidium |QID|9828| |O|
 T Nothin' Says Lovin' Like a Big Stinger |QID|9898|
 T Jyoba's Report |QID|9772|
 
