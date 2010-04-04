@@ -2,12 +2,6 @@ TourGuide is an interactive leveling guide addon.
 It is designed to provide the user with a streamlined order of quest completion with smart detection.
 It is also designed for easy creation of "guides" for users with little-to-no programming knowledge.
 
-h2. Where are the Wrath guides?
-
-Wrath guides are in progress and will be released as they are completed.  Note that I do not (yet) have a hordie to test guides on, so Ally guides are coming first.
-
-If you would like to help, install "TourGuide Recorder":http://www.wowinterface.com/downloads/info10499-TourGuideRecorder.html and email me the savedvariables it creates.
-
 h2. Features
 
 * Automatic detection of objective completion
@@ -28,7 +22,7 @@ There is no way to query what quests you have completed.  If you start using Tou
 
 Level ranges on the guides are general guidelines only, mainly designed to help you find what guide you should start with for your current level.
 
-TourGuide does not provide coords for every single objective.  If you are lost check with "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html or "Wowhead":http://www.wowhead.com and "submit a bug":http://www.tekkub.net/pages/tourguide_bugs so notes can be added to the objective.
+TourGuide does not provide coords for every single objective.  If you are lost check with "LightHeaded":http://www.wowinterface.com/downloads/info7017-LightHeaded.html or "Wowhead":http://www.wowhead.com and "submit a bug":http://github.com/tekkub/TourGuide/blob/master/docs/submitting_bugs.markdown so notes can be added to the objective.
 
 If you wish to use the "use item" frame from a keybind or your actionbar, make a macro: @/click TourGuideItemFrame@
 
@@ -42,16 +36,16 @@ h2. How to create (or edit) guides
 
 TourGuide data files are fairly simple to create.
 The simplest method is to copy an existing file and edit it how you want.
-Please read "How to edit TourGuide guides":http://github.com/tekkub/tourguide/wikis/how-to-edit-tourguide-guides for help on the format and general guidelines.
+Please read "How to edit TourGuide guides":http://github.com/tekkub/TourGuide/blob/master/docs/writing_guides.markdown for help on the format and general guidelines.
 I ask that all submissions follow these guidelines, to present a consistent format to the user.
-I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon Joana's, Kopp's or any other copyrighted guide.
+I welcome all submissions, but reserve the right to edit them as I see fit, or reject ones that infringe upon other copyrighted guides.
 
-See "this page":http://www.tekkub.net/pages/tourguide_bugs for details on how to fork my github repo to push your changes.
-
-<b><i>If you use Joana's or Kopp's as a source <u>do not</u> infringe on their copyrighted material (the notes and comments), I cannot accept guides that are a direct ripoff of their works.</i></b>
+See "this page":http://github.com/tekkub/TourGuide/blob/master/docs/submitting_bugs.markdown for details on how to fork my github repo to push your changes.
 
 h2. Links
 
 <b>Visit "my site":http://tekkub.net/ for more great addons<br>
 Please report all bugs and feature requests to my "Github tracker":http://github.com/tekkub/TourGuide/issues<br>
 Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist</b>
+
+This addon is brought to you by "ZygorGuides.com":ZygorGuides.com.  No unauthorized distribution of this addon is permitted.
