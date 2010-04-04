@@ -48,4 +48,4 @@ h2. Links
 Please report all bugs and feature requests to my "Github tracker":http://github.com/tekkub/TourGuide/issues<br>
 Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist</b>
 
-This addon is brought to you by "ZygorGuides.com":ZygorGuides.com.  No unauthorized distribution of this addon is permitted.
+This addon is brought to you by "ZygorGuides.com":http://ZygorGuides.com.  No unauthorized distribution of this addon is permitted.
