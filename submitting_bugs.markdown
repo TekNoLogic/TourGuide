@@ -38,4 +38,4 @@ If you know how to use git, then I really shouldn't need to tell you how to get 
 Simply fork [my repo on GitHub](http://github.com/tekkub/tourguide) and push to your new fork.
 You don't even have to contact me, I'll just pull the changes in as I see them come in!
 
-***Please read [How to edit TourGuide guides](http://github.com/tekkub/TourGuide/tree/master/docs/writing_guides.markdown) before you submit files!***
+***Please read [How to edit TourGuide guides](http://github.com/tekkub/TourGuide/tree/docs/writing_guides.markdown) before you submit files!***
