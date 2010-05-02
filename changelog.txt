@@ -1,3 +1,28 @@
+3.3.0.56-Beta
+    Completed quests
+    - We now have access to a list of all quests the player has completed
+    - Many guides have been updated so that non-quest objectives (run, fly, etc)
+      will be marked complete if the quests around it have been completed
+    - |QID| tags now work with other object types, not just A/C/T
+    Quest map coords
+    - We now have access to quest coords for "complete" and "turnin" objectives
+    - The current objective is automatically mapped, if available
+    - If multiple locations are available, the nearest is used
+    Recruit-a-friend mode
+    - Special guide mode added that allows skipping quests when leveling
+      with RAF bonus
+    - Guides can now use |RAF| and |NORAF| tags to mark objectives that should
+      only appear, or never appear, when RAF mode is active
+    - Many of the horde guides have been updated to work with RAF mode
+    - Ally guides have *not* been updated (sorry guys, I ran out of RAF playtime)
+    Various guide updates on ally and horde
+    Alliance Icecrown guide improvements
+    Edit "TourGuide" macro if it's present, ala Buffet
+    Make that item button thing work again
+    Remove forced item caching, may have caused client timeouts after a patch
+    Give status frame better default anchor, since the quest tracker got moved
+    Add simple addon comms, so a listener addon could be made for powerleveling partners
+
 3.2.0.55-Beta
     Load guides for fresh toons
     Crossroads updates, whee!
