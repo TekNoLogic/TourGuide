@@ -1,4 +1,4 @@
-## Interface: 30200
+## Interface: 30300
 
 ## Title: Tour Guide (Horde Data)
 ## Notes: Powerleveling guide framework
