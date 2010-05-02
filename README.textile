@@ -9,7 +9,7 @@ h2. Features
 ** Detect travel (by foot, flight, boat and stone)
 ** Detection of flight point discovery
 ** Detection of Hearth point change
-** Conditionals based on class, level and item possession (only tell the player to accept the quest if they have the item that starts the quest)
+** Conditionals based on player's class and item possession (only tell the player to accept the quest if they have the item that starts the quest)
 * Small "lego block" style frame shows current objective, detailed tooltips on hover
 * "Use item" frame, for those annoying quests where you have to use an item on a mob before you kill it, or you have to equip something, or you have to use an item to start a quest
 * Pop out frame for detailed view of quest sequence
@@ -43,5 +43,3 @@ h2. Links
 <b>Visit "my site":http://tekkub.net/ for more great addons<br>
 Please report all bugs and feature requests to my "Github tracker":http://github.com/tekkub/TourGuide/issues<br>
 Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist</b>
-
-This addon is brought to you by "ZygorGuides.com":http://ZygorGuides.com.  No unauthorized distribution of this addon is permitted.
