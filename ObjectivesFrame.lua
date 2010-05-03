@@ -34,14 +34,17 @@ frame:SetScript("OnShow", function() TourGuide:CreateObjectivePanel() end)
 table.insert(UISpecialFrames, "TourGuideObjectives")
 
 
-local function OnShow(self)
+local function ResetScrollbar()
 	local newval = math.max(0, (TourGuide.current or 0) - NUMROWS/2 - 1)
 
 	scrollbar:SetMinMaxValues(0, math.max(#TourGuide.actions - NUMROWS, 1))
 	scrollbar:SetValue(newval)
 
 	TourGuide:UpdateOHPanel()
+end
 
+local function OnShow(self)
+	ResetScrollbar()
 	self:SetAlpha(0)
 	self:SetScript("OnUpdate", ww.FadeIn)
 end
@@ -186,7 +189,11 @@ function TourGuide:UpdateOHPanel(value)
 	local r,g,b = self.ColorGradient((self.current-1)/#self.actions)
 	completed:SetText(string.format(L["|cff%02x%02x%02x%d%% complete"], r*255, g*255, b*255, (self.current-1)/#self.actions*100))
 
-	self.guidechanged = nil
+	if self.guidechanged then
+		self.guidechanged = nil
+		return ResetScrollbar()
+	end
+
 	if value then offset = math.floor(value) end
 	if (offset + NUMROWS) > #self.actions then offset = #self.actions - NUMROWS end
 	if offset < 0 then offset = 0 end
