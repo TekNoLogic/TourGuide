@@ -1,8 +1,8 @@
 
 TourGuide:RegisterGuide("Feralas (47)", "Tanaris (47-48)", "Alliance", function()
 return [[
-F Feathermoon Stronghold
-h Feathermoon Stronghold
+F Feathermoon Stronghold |QID|2879|
+h Feathermoon Stronghold |QID|2942|
 T Return to Troyas |QID|2943|
 A The Stave of Equinex |QID|2879|
 A The Sunken Temple |QID|3445|
@@ -25,7 +25,7 @@ A Wandering Shay |QID|2845|
 C Wandering Shay |N|Grab the bell from the chest, use it if she wanders away| |U|9189| |QID|2845|
 T Wandering Shay |QID|2845|
 
-H Feathermoon Stronghold
+H Feathermoon Stronghold |QID|2942|
 T Improved Quality |QID|7733|
 A Pristine Yeti Hide |O| |U|18969| |QID|7735|
 T Pristine Yeti Hide |O| |QID|7735|
@@ -33,8 +33,8 @@ T The Morrow Stone |QID|2942|
 A The Sunken Temple |QID|3445|
 
 A An Orphan Looking For a Home |N|East at the grimtotem camp (65.9, 45.6)| |NODEBUG| |QID|3841|
-R Thalanaar |N|Follow the road east to the border of Thousand Needles.  Watch out for the horde town!|
-A Thalanaar Delivery |N|You should have recieved a quest starting item when you raided the leather backpacks in an earlier guide. If not, skip this| |U|11463| |QID|4281|
+R Thalanaar |QID|4281| |N|Follow the road east to the border of Thousand Needles.  Watch out for the horde town!|
+A Thalanaar Delivery |QID|4281| |U|11463| |N|You should have recieved a quest starting item when you raided the leather backpacks in an earlier guide. If not, skip this|
 T Thalanaar Delivery |QID|4281|
 ]]
 

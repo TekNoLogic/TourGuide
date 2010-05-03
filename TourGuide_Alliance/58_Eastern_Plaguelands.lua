@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Eastern Plaguelands (58)", "Western Plaguelands (58-59)", "Alliance", function()
 return [[
-T Demon Dogs |N|On the northwest edge of the zone (4.70, 38.40)| |QID|5542|
+T Demon Dogs |QID|5542| |N|Fly to the border of WPL/EPL, of course.|
 T Blood Tinged Skies |QID|5543|
 T Carrion Grubbage |QID|5544|
 A Redemption |QID|5742|
@@ -28,7 +28,7 @@ C Defenders of Darrowshire |N|Kill cannibal ghouls, gibbering ghouls and disease
 T Defenders of Darrowshire |N|Back at Light's Hope Chapel| |QID|5211|
 T Villains of Darrowshire |QID|5181|
 
-H Stormwind City
+H Stormwind City |QID|6186|
 T The Blightcaller Cometh |N|In Stormwind Keep.  Skip the follow-up| |QID|6186|
 ]]
 end)

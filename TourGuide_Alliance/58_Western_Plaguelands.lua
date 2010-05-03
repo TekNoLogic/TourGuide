@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Western Plaguelands (58)", "Eastern Plaguelands (58)", "Alliance", function()
 return [[
-F Western Plaguelands
+F Western Plaguelands |QID|6186|
 T The Eastern Plagues |QID|6185|
 A The Blightcaller Cometh |QID|6186|
 

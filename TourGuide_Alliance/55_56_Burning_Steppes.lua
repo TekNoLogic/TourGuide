@@ -1,17 +1,16 @@
 
 TourGuide:RegisterGuide("Burning Steppes (55-56)", "Silithus (56)", "Alliance", function()
 return [[
-F City of Ironforge |N|Fly to Auberdine, boat to Stormwind, tram to Ironforge|
-h Ironforge
+F City of Ironforge |N|Fly to Auberdine, boat to Stormwind, tram to Ironforge| |QID|8275|
+h Ironforge |QID|3701|
 T A Little Slime Goes a Long Way |N|In the Hall of Explorers, skip the follow-up.| |QID|4512|
 A The Smoldering Ruins of Thaurissan (Part 1) |N|In the throne room| |QID|3702|
 T The Smoldering Ruins of Thaurissan (Part 1) |QID|3702|
 A The Smoldering Ruins of Thaurissan (Part 2) |QID|3701|
 A Taking Back Silithus |N|Near the flight master| |QID|8275|
 
-F Lakeshire
-R Burning Steppes |N|Follow the road north (46,6)|
-f Grab flight point |N|Up in Morgan's Vigil (83,63)|
+R Burning Steppes |N|Fly to Lakeshire then follow the road north (46,6)| |QID|3823|
+f Grab flight point |N|Up in Morgan's Vigil (83,63)| |QID|3823|
 A Extinguish the Firegut |QID|3823|
 A FIFTY! YEP! |QID|4283|
 
@@ -43,7 +42,7 @@ T Ogre Head On A Stick = Party |NODEBUG| |QID|3825|
 T Tablet of the Seven |N|Back at Flame Crest to the north (65,23)| |QID|4296|
 T Broodling Essence |QID|4726|
 
-H City of Ironforge
+H City of Ironforge |QID|3701|
 T The Smoldering Ruins of Thaurissan (Part 2) |N|In the throne room| |QID|3701|
 ]]
 end)

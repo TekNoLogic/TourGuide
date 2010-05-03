@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Stranglethorn Vale (38-40)", "Badlands (40-41)", "Alliance", function()
 return [[
-b Booty Bay
+b Booty Bay |QID|578|
 A Singing Blue Shards |N|In the inn, lower level| |T| |QID|605|
 A Bloodscalp Ears |N|Upstairs in the inn| |T| |QID|189|
 
@@ -9,7 +9,7 @@ A The Haunted Isle |T| |QID|616|
 T The Haunted Isle |T| |QID|616|
 A The Stone of the Tides |T| |QID|578|
 
-F Rebel Camp
+F Rebel Camp |QID|574|
 A Special Forces |QID|574|
 A Kurzen's Mystery |QID|207|
 

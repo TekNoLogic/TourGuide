@@ -1,7 +1,7 @@
 
 TourGuide:RegisterGuide("Dustwallow Marsh (37-38)", "Stranglethorn Vale (38-40)", "Alliance", function()
 return [[
-F Theramore Isle |N|Boat to Ratchet, fly down|
+F Theramore Isle |N|Boat to Ratchet, fly down| |QID|11191|
 A This Old Lighthouse |T| |QID|11191|
 T This Old Lighthouse |N|On the lighthouse island northeast of Theramore (72.06, 47.02)| |QID|11191|
 A Thresher Oil |QID|11192|
@@ -24,7 +24,7 @@ A The End of the Deserters |T| |QID|11134|
 C The End of the Deserters |N|Out on boat to the southeast (76.58, 56.86).  Downstairs in the captain's quarters.| |QID|11134|
 T The End of the Deserters |N|Back in Theremore, of course.| |T| |QID|11134|
 
-h Theramore Isle |T|
+h Theramore Isle |T| |QID|11142|
 A They Call Him Smiling Jim |N|From Guard Byron| |T| |QID|1282|
 A Tabetha's Farm |T| |QID|11212|
 T They Call Him Smiling Jim |N|Inside the keep| |T| |QID|1282|
@@ -98,7 +98,7 @@ C The Grimtotem Weapon |N|Place the totem near crocs to the north and kill them.
 C The Reagent Thief |N|Kill spiders southeast of the farm (48,62)| |QID|11173|
 
 C Direhorn Raiders |N|Kill Grimtotems north of the farm| |QID|11156|
-K Apothecary Cylla |L|33114|
+K Apothecary Cylla |L|33114| |QID|11185|
 A The Apothecary's Letter |U|33114| |QID|11185|
 
 T Direhorn Raiders |N|Back at the farm| |QID|11156|
@@ -123,7 +123,7 @@ C Nat's Bargain |N|Head to the ship wreckage to the southwest (57,63), use the f
 T Nat's Bargain |QID|11209|
 A Oh, It's Real |QID|11210|
 
-R Mudsprocket |N|Back on the mainland, follow the road southwest (42.31, 72.94)|
+R Mudsprocket |N|Back on the mainland, follow the road southwest (42.31, 72.94)| |QID|11217|
 T Delivery for Drazzit |T| |QID|11208|
 A WANTED: Goreclaw the Ravenous |T| |QID|11184|
 A Catch a Dragon by the Tail |T| |QID|11217|
@@ -188,8 +188,8 @@ A Secondhand Diving Gear |QID|11139|
 C Secondhand Diving Gear |QID|11139|
 T Secondhand Diving Gear |QID|11139|
 A Recover the Cargo! |QID|11140|
-U Open the supplies |U|33045|
-U Put on the Diving Gear |U|33040|
+U Open the supplies |U|33045| |QID|11140|
+U Put on the Diving Gear |U|33040| |QID|11140|
 C Recover the Cargo! |N|Find burning wreckage on the water's surface, dive down below it and use the Salvage Kit on the debris.| |U|33044| |QID|11140|
 T Recover the Cargo! |QID|11140|
 A Jaina Must Know |QID|11141|
@@ -199,7 +199,7 @@ T Hungry! |N|Southwest at Mudcrush Durtfeet (35,38)| |QID|1177|
 T The Deserters (Part 1) |N|Beat down Balos Jacken at Lost Point Tower to the south (35,53) until he'll talk to you| |QID|1286|
 A The Deserters (Part 2) |QID|1287|
 
-H Theramore Isle
+H Theramore Isle |QID|11142|
 T Jaina Must Know |N|Up in the tower| |T| |QID|11141|
 A Survey Alcaz Island |T| |QID|11142|
 T The Deserters (Part 2) |N|In the keep| |T| |QID|1287|

@@ -1,14 +1,14 @@
 
 TourGuide:RegisterGuide("Western Plaguelands (58-59)", "Hellfire Peninsula (60-62)", "Alliance", function()
 return [[
-F Western Plaguelands
+F Western Plaguelands |QID|5904|
 T A Plague Upon Thee (Part 1) |QID|5903|
 A A Plague Upon Thee (Part 2) |QID|5904|
 T Skeletal Fragments |QID|5537|
 
 A Unfinished Business (Part 1) |N|Northeast of the Northridge Lumber Camp| |QID|6004|
 
-C A Plague Upon Thee (Part 2) |N|Talk  to the box in center of mill (48.28, 32.02)| |QID|5904|
+C A Plague Upon Thee (Part 2) |N|Talk to the box in center of mill (48.28, 32.02)| |QID|5904|
 T A Plague Upon Thee (Part 2) |QID|5904|
 A A Plague Upon Thee (Part 3) |QID|6389|
 C Unfinished Business (Part 1) |N|Two camps to the southeast of the lumber mill (49,42), (52,43)| |QID|6004|
@@ -33,7 +33,7 @@ A Tomb of the Lightbringer |QID|9446|
 C Tomb of the Lightbringer |N|Escort quest!| |QID|9446|
 T Tomb of the Lightbringer |N|Back at Chillwind Camp| |QID|9446|
 
-F Everlook |N|Fly to Menethil, boat to Theramore, fly to Everlook|
+F Everlook |N|Hearth to Stormwind, boat to Auberdine, fly to Everlook| |QID|5163|
 T Are We There, Yeti? (Part 3) |QID|5163|
 ]]
 end)

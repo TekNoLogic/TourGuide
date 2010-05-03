@@ -1,15 +1,14 @@
 
 TourGuide:RegisterGuide("Desolace (33-34)", "Stranglethorn Vale (36-37)", "Alliance", function()
 return [[
-b Theramore Isle |N|Fly to Menethil Harbor and take the boat on the southern pier|
-F Astranaar
-R Nijel's Point |N|From Astranaar run south thru the Talondeep Path, southwest thru Windshear Crag to the road, northwest along the road to Mirkfallon Lake, then southwest thru the Charred Veil into Desolace.  Nijel's Point is along the northern edge of Desolace (64,10).  |
+F Astranaar |N|Take the boat to Theramore Isle and fly up| |QID|1453|
+R Nijel's Point |N|From Astranaar run south thru the Talondeep Path, southwest thru Windshear Crag to the road, northwest along the road to Mirkfallon Lake, then southwest thru the Charred Veil into Desolace.  Nijel's Point is along the northern edge of Desolace (64,10).| |QID|1453|
 A Vahlarriel's Search (Part 1) |T| |QID|1437|
 A Centaur Bounty |T| |QID|1387|
 T Reclaimers' Business in Desolace |T| |QID|1453|
 A Reagents for Reclaimers Inc. (Part 1) |T| |QID|1458|
 A The Karnitol Shipwreck (Part 1) |T| |QID|1454|
-h Nijel's Point |T|
+h Nijel's Point |T| |QID|1440|
 T Brother Anton |T| |O| |QID|6141|
 
 T Vahlarriel's Search (Part 1) |N|Find the chest in the broken down caravan to the west (56,17)| |QID|1437|
@@ -21,7 +20,7 @@ A Vahlarriel's Search (Part 3) |T| |QID|1438|
 T Reagents for Reclaimers Inc. (Part 1) |T| |QID|1458|
 A Reagents for Reclaimers Inc. (Part 2) |T| |QID|1459|
 
-N Kill crap... |N|Kill any Scorpashi and Aged Kodo you come across|
+N Kill crap... |N|Kill any Scorpashi and Aged Kodo you come across| |QID|1459|
 A Bone Collector |N|To the south along the road at Kormek's Hut (62,38)| |QID|5501|
 C Centaur Bounty |N|To the east at the Kolkar Village (72,45)| |QID|1387|
 A Kodo Roundup |N|Grind your way to Scrabblescrew's Camp (60,61)| |QID|5561|
@@ -52,7 +51,7 @@ T Book of the Ancients |N|Back on shore at the tower| |QID|6027|
 
 C Reagents for Reclaimers Inc. (Part 2) |N|Get the last few reagents you need, you should have most by now.| |QID|1459|
 
-H Nijel's Point
+H Nijel's Point |QID|1440|
 T Reagents for Reclaimers Inc. (Part 2) |N|Skip the follow-up| |T| |QID|1459|
 T The Karnitol Shipwreck (Part 2) |N|Skip the follow-up| |T| |QID|1455|
 T Centaur Bounty |T| |QID|1387|

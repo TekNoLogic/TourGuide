@@ -1,10 +1,10 @@
 
 TourGuide:RegisterGuide("Darkshore (20-21 Draenei)", "Ashenvale (22-24)", "Alliance", function()
 return [[
-b Darkshore
+b Darkshore |QID|9633|
 A Journey to Astranaar |QID|1133|
 
-h Auberdine
+h Auberdine |QID|4723|
 A Washed Ashore (Part 1) |QID|3524|
 A Fruit of the Sea |QID|1138|
 A Cave Mushrooms |QID|947|
@@ -30,7 +30,7 @@ C Fruit of the Sea |N|Kill Encrusted Tide Crawlers between here and the river to
 A Beached Sea Turtle (Part 2) |N|Continue down the coast towards Auberdine (44.17, 20.65)| |QID|4725|
 A Beached Sea Creature |N|Continue down the coast towards Auberdine (42,32)| |QID|4723|
 
-H Auberdine
+H Auberdine |QID|4723|
 T Fruit of the Sea |QID|1138|
 T Cave Mushrooms |QID|947|
 T Beached Sea Creature |QID|4723|
@@ -58,7 +58,7 @@ C WANTED: Murkdeep! |N|Follow the shore north to the murloc camp (36.56, 76.65).
 
 T Return to Onu |N|Back at Grove of the Ancients| |QID|950|
 A The Sleeper Has Awakened |N|Escort quest| |QID|5321|
-N Get his horn |N|In the box near where he was sleeping| |L|13536|
+N Get his horn |N|In the box near where he was sleeping| |L|13536| |QID|5321|
 C The Sleeper Has Awakened |N|Escort him south.  Use the [Horn of Awakening] when he falls asleep.| |U|13536| |QID|5321|
 ]]
 end)

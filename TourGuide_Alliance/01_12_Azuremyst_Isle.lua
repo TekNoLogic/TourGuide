@@ -42,7 +42,7 @@ C Healing the Lake|N|Southwest at the crystal in Silverline Lake (77.30, 58.67)|
 C Inoculation |N|East of Silverline Lake at Nestlewood Thicket (78,60).  Use the crystal on the non-aggro moonkin.| |U|22962| |QID|9303|
 C Spare Parts |QID|9305| |N|Up the hill|
 
-H Ammen Vale
+H Ammen Vale |QID|9313|
 T Healing the Lake |QID|9294|
 A Call of Earth (Part 1) |C|Shaman| |QID|9449|
 T Spare Parts |QID|9305|
@@ -75,15 +75,14 @@ C Red Snapper - Very Tasty! |QID|9452| |U|23654| |N|Toss the net at the schools 
 T Red Snapper - Very Tasty! |QID|9452|
 A Find Acteon! |QID|9453|
 
-R Azure Watch |N|Follow the road west|
-T Find Acteon! |QID|9453|
+T Find Acteon! |QID|9453| |N|Follow the road west|
 A The Great Moongraze Hunt (Part 1) |QID|9454|
 A Medicinal Purpose |QID|9463| |R|Draenei|
 T Travel to Azure Watch |QID|9313|
 T Word from Azure Watch |QID|9314|
-h Azure Watch
+h Azure Watch |QID|9623|
 
-R Odesyus' Landing |N|Take the road south out of Azure Watch to the shore|
+R Odesyus' Landing |N|Take the road south out of Azure Watch to the shore| |QID|9512|
 A Cookie's Jumbo Gumbo |QID|9512|
 A A Small Start |QID|9506|
 C Cookie's Jumbo Gumbo |QID|9512|
@@ -115,7 +114,7 @@ A An Alternative Alternative |QID|9473| |R|Draenei|
 T The Great Moongraze Hunt (Part 1) |QID|9454|
 A The Great Moongraze Hunt (Part 2) |QID|10324|
 
-K Infected Nightstalker Runts |N|Northwest of Azure Watch, looking for "Faintly Glowing Crystal"| |L|23678|
+K Infected Nightstalker Runts |N|Northwest of Azure Watch, looking for "Faintly Glowing Crystal"| |L|23678| |QID|9455|
 A Strange Findings |U|23678| |QID|9455|
 
 A The Missing Fisherman |N|Back at Azure Watch| |QID|10428|
@@ -150,7 +149,7 @@ A All That Remains |QID|9527|
 C All That Remains |QID|9527|
 T All That Remains |QID|9527|
 
-H Azure Watch
+H Azure Watch |QID|9623|
 C An Alternative Alternative |QID|9473| |N|Around the bases of the trees.  There's a bunch just southeast of town.| |R|Draenei|
 T Help Tavara |C|Priest| |QID|9586|
 T An Alternative Alternative |QID|9473| |R|Draenei|
@@ -176,7 +175,7 @@ R The Exodar |N|Follow the road west|
 T Coming of Age |QID|9623|
 A Elekks Are Serious Business |QID|9625|
 
-R Stillpine Hold |N|Follow the road north of Azure Watch (45.81, 24.83)|
+R Stillpine Hold |N|Follow the road north of Azure Watch (45.81, 24.83)| |QID|9559|
 A Beasts of the Apocalypse! |QID|9560|
 A Murlocs... Why Here? Why Now? |QID|9562|
 T Stillpine Hold |QID|9559|

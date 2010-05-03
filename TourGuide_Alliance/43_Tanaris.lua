@@ -1,15 +1,15 @@
 
 TourGuide:RegisterGuide("Tanaris (43)", "Feralas (43-45)", "Alliance", function()
 return [[
-R Gadgetzan |N|Boat to Ratchet, fly down to Dustwallow, run west into the Barrens, then south thru Thousand Needles and Shimmering Flats to Tanaris.|
+R Gadgetzan |QID|1690| |N|Boat to Ratchet, fly down to Dustwallow, run west into the Barrens, then south thru Thousand Needles and Shimmering Flats to Tanaris.|
 A Wastewander Justice |QID|1690|
 A Water Pouch Bounty |QID|1707|
-h Gadgetzan
+h Gadgetzan |QID|2781|
 A WANTED: Andre Firebeard |N|Wanted sign in front of the cage| |QID|2875|
 T Tran'rek |N|Don't accept the follow-up| |QID|2864|
 A Gadgetzan Water Survey |N|Southwest side of town on a hill| |QID|992|
 
-R Steamwheedle Port
+R Steamwheedle Port |QID|8365|
 A WANTED: Caliph Scorpidsting |QID|2781|
 T Stoley's Debt |QID|2872|
 A Stoley's Shipment |QID|2873|
@@ -24,7 +24,7 @@ C Stoley's Shipment |N|On the second floor of the house (72,46)| |QID|2873|
 C Southsea Shakedown |QID|8366|
 C Pirate Hats Ahoy! |QID|8365|
 
-H Gadgetzan
+H Gadgetzan |QID|1690|
 T Water Pouch Bounty |QID|1707|
 T Wastewander Justice |QID|1690|
 A More Wastewander Justice |QID|1691|
@@ -43,7 +43,7 @@ T WANTED: Andre Firebeard |QID|2875|
 T Southsea Shakedown |QID|8366|
 T Pirate Hats Ahoy! |QID|8365|
 
-H Gadgetzan
+H Gadgetzan |QID|2781|
 T More Wastewander Justice |QID|1691|
 T WANTED: Caliph Scorpidsting |QID|2781|
 A Handle With Care |QID|3022|

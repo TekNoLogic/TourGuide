@@ -1,7 +1,6 @@
 TourGuide:RegisterGuide("Bloodmyst Isle (12-20)", "Darkshore (20-21 Draenei)", "Alliance", function()
 return [[
-R Kessel's Crossing |N|On Bloodmyst Isle to the north (63.1, 87.6)|
-T Elekks Are Serious Business |QID|9625|
+T Elekks Are Serious Business |QID|9625| |N|Head north to Bloodmyst Isle at Kessel's Crossing (63.1, 87.6)|
 A The Kessel Run |N|Timed quest, 15 minutes. Deliver word to 3 places.| |QID|9663|
 
 N Warn Azure Watch |QID|9663| |QO|Exarch Menelaous Warned: 1/1| |N|Exarch Menelaous is on the hill at the west edge of the watch|
@@ -35,7 +34,7 @@ T A Favorite Treat |QID|9624|
 
 R Blood Watch |N|Take the road north| |QID|9668|
 A Beds, Bandages, and Beyond |N|In the inn| |T| |QID|9603| |R|Draenei|
-h Blood Watch |T|
+h Blood Watch |T| |QID|9649|
 A Know Thine Enemy |T| |QID|9567|
 A Catch and Release |T| |QID|9629|
 A Constrictor Vines |T| |QID|9643|
@@ -210,7 +209,7 @@ T Nolkai's Words |N|Back at Ruins of Loreth'Aran.  Look for a mound of dirt (61.
 
 T Restoring Sanctity |N|Back on Wyrmscar Island| |QID|9687|
 A Into the Dream |QID|9688|
-N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears|
+N More shrooms... |N|Keep an eye out on Wyrmscar Island for Ysera's Tears| |QID|9649|
 C Into the Dream |QID|9688|
 T The Bloodcurse Legacy |N|Find Captain Edward Hanes (79.1, 22.7), a ghost on the eastern shore of the island.| |O| |QID|9672|
 A The Bloodcursed Naga |O| |PRE|The Bloodcurse Legacy| |QID|9674|
@@ -227,7 +226,7 @@ T Ending the Bloodcurse |O| |QID|9683|
 
 C Ysera's Tears |QID|9649|
 
-H Blood Watch
+H Blood Watch |QID|9649|
 T Containing the Threat |T| |QID|9569|
 T The Missing Expedition |T| |QID|9669|
 T WANTED: Deathclaw |T| |QID|9646|
@@ -252,7 +251,7 @@ T Oh, the Tangled Webs They Weave |N|Back at Vindicator's Rest| |QID|10066|
 T Cutting a Path |QID|10065|
 T Fouled Water Spirits |QID|10067|
 
-N Try to "End their world"... |N|It's worth trying this quest once, if you fail just abandon it.  Make sure you grab "Clearing the Way" first, as you'll likely complete it along the way.  If you're a healing class try to let him tank mobs and heal him if needed.|
+N Try to "End their world"... |QID|9759| |N|It's worth trying this quest once, if you fail just abandon it.  Make sure you grab "Clearing the Way" first, as you'll likely complete it along the way.  If you're a healing class try to let him tank mobs and heal him if needed.|
 
 C Culling the Flutterers |QID|9647|
 

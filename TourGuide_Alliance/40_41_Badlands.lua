@@ -1,25 +1,25 @@
 
 TourGuide:RegisterGuide("Badlands (40-41)", "Stranglethorn Vale (41-42)", "Alliance", function()
 return [[
-F City of Ironforge
-B [Frost Oil] |N|From AH|
-B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil|
-B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
-B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom|
+F City of Ironforge |QID|738|
+B [Frost Oil] |N|From AH| |QID|715|
+B [Gyrochronatom] |N|Don't buy if you didn't find a Frost Oil| |QID|715|
+B [Healing Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom| |QID|715|
+B [Lesser Invisibility Potion] |N|Don't buy if you didn't find a Frost Oil and Gyrochronatom| |QID|715|
 A Ironband Wants You! |N|From Prospector Stormpike in the Hall of Explorers (74,12)| |Z|Ironforge| |QID|707|
 
-F Loch Modan
+F Loch Modan |QID|738|
 A Badlands Reagent Run |N|In the house behind the Inn (37,49)| |Z|Loch Modan| |QID|2500|
 T Ironband Wants You! |N|Down at Ironband's Excavation Site (65,65)| |Z|Loch Modan| |QID|707|
 A Find Agmond |QID|738|
 
-R Badlands |N|Southwest of Ironband's (46,76)| |Z|Loch Modan|
+R Badlands |QID|718| |N|Southwest of Ironband's (46,76)| |Z|Loch Modan|
 A Fiery Blaze Enchantments |N|To the south, up a hill after the dark iron dig (54,43)| |QID|706|
 A Mirages |QID|718|
 A A Dwarf and His Tools |QID|719|
 A Barbecued Buzzard Wings |N|West, in the center of the zone (42,52)| |QID|703|
 
-N Kill any buzzards you see |N|For "Barbecued Buzzard Wings" and "Badlands Reagent Run"|
+N Kill any buzzards you see |N|For "Barbecued Buzzard Wings" and "Badlands Reagent Run"| |QID|2500|
 
 C Mirages |N|Grind your way to the crate in the northwest at Camp Kosh (66,21)| |QID|718|
 A A Sign of Hope (Part 1) |N|At Hammertoe's Digsite.  Note is on the right side of the dig (53,33)| |QID|720|
@@ -31,7 +31,7 @@ T A Dwarf and His Tools |QID|719|
 T A Sign of Hope (Part 1) |QID|720|
 
 A Tremors of the Earth (Part 1) |N|From a blood elf to the southeast (61,54).| |QID|732|
-N Keep an eye out for the ogre pack |N|They spawn to the south of the questgiver (62,70).  They patrol down to the southwest side of the zone and back in a circle.  You should be able to pick Boss Tho'grun off the back of the pack easily.|
+N Keep an eye out for the ogre pack |QID|732| |N|They spawn to the south of the questgiver (62,70).  They patrol down to the southwest side of the zone and back in a circle.  You should be able to pick Boss Tho'grun off the back of the pack easily.|
 
 T Find Agmond |N|Dead dorf to the southwest at Agmond's End (50,62)| |QID|738|
 A Murdaloc |QID|739|

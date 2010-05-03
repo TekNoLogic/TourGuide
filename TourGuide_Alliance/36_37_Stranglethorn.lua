@@ -1,13 +1,13 @@
 
 TourGuide:RegisterGuide("Stranglethorn Vale (36-37)", "Dustwallow Marsh (37-38)", "Alliance", function()
 return [[
-b Booty Bay |N|Fly to Theramore and run up the coast to Ratchet.  Watch out for the murloc camp along the way.  I know it's annoying, but it's certainly a nicer run than the one from the north end of STV.|
+b Booty Bay |QID|213| |N|Fly to Theramore and run up the coast to Ratchet.  Watch out for the murloc camp along the way.  I know it's annoying, but it's certainly a nicer run than the one from the north end of STV.|
 A Supplies to Private Thorsen |N|Upper level of the inn| |QID|198|
 A Investigate the Camp |N|Upper level of the inn| |QID|201|
 A Hostile Takeover |N|Upper level of the inn| |QID|213|
 A Supply and Demand |N|On same level as the flight path.  He may not have a ! over his head (28.3, 77.5)| |QID|575|
 
-F Rebel Camp
+F Rebel Camp |QID|204|
 T Supplies to Private Thorsen |QID|198|
 A The Second Rebellion |QID|203|
 A Bad Medicine |QID|204|
@@ -51,7 +51,7 @@ T The Second Rebellion |N|Back at the Rebel Camp| |QID|203|
 T Bad Medicine |QID|204|
 A Krazek's Cookery |QID|210|
 
-F Booty Bay
+F Booty Bay |QID|577|
 T Hostile Takeover |QID|213|
 T Investigate the Camp |QID|201|
 T Krazek's Cookery |QID|210|

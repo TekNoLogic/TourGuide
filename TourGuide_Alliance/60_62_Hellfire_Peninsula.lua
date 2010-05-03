@@ -2,11 +2,9 @@
 
 TourGuide:RegisterGuide("Hellfire Peninsula (60-62)", "Zangarmarsh (62-63)", "Alliance", function()
 return [[
-H Stormwind City |N|Or fly to Ratchet and boat to Booty Bay if it's on cooldown|
-F Nethergarde Keep
-B [Nethergarde Bitter] |N|From Bernie Heisten (63.52, 16.95)| |L|23848| |Z|Blasted Lands|
+H Stormwind City |N|Or fly to Darnassus if it's on cooldown.| |QID|10119|
 
-A Through the Dark Portal |N|In front of the Dark Portal (58,55)| |Z|Blasted Lands| |QID|10119|
+A Through the Dark Portal |N|Take the portal to Blasted Lands.  You can find one near the portal trainer in each city.| |QID|10119|
 
 R Hellfire Peninsula |N|Through the portal you moron!| |QID|10119|
 T Through the Dark Portal |QID|10119|
@@ -199,9 +197,6 @@ C Deadly Predators |N|To the southeast in the Great Fissure| |QID|9398|
 T The Longbeards |N|To the southeast between the ravagers and the arakkoa (23,72)| |QID|9558|
 A The Arakkoa Threat |QID|9417|
 A Rampaging Ravagers |QID|9385|
-A Gaining Mirren's Trust |QID|9563|
-T Gaining Mirren's Trust |QID|9563|
-A The Finest Down |QID|9420|
 
 C Rampaging Ravagers |N|To the northwest, you only need the green ones.| |QID|9385|
 T Rampaging Ravagers |QID|9385|
@@ -210,10 +205,8 @@ K Avruu |L|23580| |N|To the southeast of the Longbeards (25,76).  He patrols aro
 A Avruu's Orb |U|23580| |QID|9418|
 C Avruu's Orb |N|Talk to the orb to the south (29,81).| |QID|9418|
 T Avruu's Orb |QID|9418|
-C The Finest Down |N|Loot the nests, kill the hatchling.| |QID|9420|
 C The Arakkoa Threat |QID|9417|
 
-T The Finest Down |N|Back at the Longbeards' Camp| |QID|9420|
 T The Arakkoa Threat |QID|9417|
 
 H Temple of Telhamat |QID|9399|

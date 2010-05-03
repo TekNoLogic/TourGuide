@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("Duskwood (28-29)", "Ashenvale (29-30)", "Alliance", function()
 return [[
-F Stormwind City
+F Stormwind City |QID|1243|
 A The Missing Diplomat (Part 1) |T| |N|From altar boy Thomas in the Cathedral| |QID|1274|
 T The Missing Diplomat (Part 1) |T| |N|In Stormwind Keep (77.7, 23.5)| |Z|Stormwind City| |QID|1274|
 A The Missing Diplomat (Part 2) |T| |QID|1241|
@@ -9,14 +9,14 @@ A The Missing Diplomat (Part 3) |T| |QID|1242|
 T The Missing Diplomat (Part 3) |T| |N|In the cheese shop in the Trade District (60.09, 64.45)| |Z|Stormwind City| |QID|1242|
 A The Missing Diplomat (Part 4) |T| |QID|1243|
 
-B [Bronze Tube] |N|Engineering vendor sells this sometimes, but auction or an engineer are your best bets.| |L|4371|
+B [Bronze Tube] |N|Engineering vendor sells this sometimes, but auction or an engineer are your best bets.  Needed for "Look To The Stars".| |L|4371| |QID|174|
 
-R Darkshire |N|Usually faster to fly to Redridge and take the road southwest|
+R Darkshire |N|Usually faster to fly to Redridge and take the road southwest| |QID|66|
 T The Missing Diplomat (Part 4) |N|North of Darkshire walking along the road| |QID|1243|
 A The Missing Diplomat (Part 5) |QID|1244|
 A The Legend of Stalvan (Part 1) |T| |QID|66|
 A The Totem of Infliction |T| |QID|101|
-h Darkshire |T|
+h Darkshire |T| |QID|158|
 A The Night Watch (Part 1) |T| |QID|56|
 T The Legend of Stalvan (Part 1) |T| |N|Skip the follow-up| |QID|66|
 A Worgen in the Woods (Part 1) |T| |QID|173|
@@ -44,7 +44,7 @@ C Look To The Stars (Part 3) |N|Southwest, up the hill from the farm in the Tran
 C The Night Watch (Part 1) |QID|56|
 C Worgen in the Woods (Part 3) |N|Southwest of Tranquil Gardens Cemetery (72.85, 73.37)| |QID|222|
 
-H Darkshire
+H Darkshire |QID|158|
 T The Night Watch (Part 1) |T| |QID|56|
 A The Night Watch (Part 2) |T| |QID|57|
 T Worgen in the Woods (Part 3) |T| |QID|222|
@@ -65,7 +65,7 @@ A The Weathered Grave |N|Grave to the west on the Darkened Bank (17.67, 29.03)| 
 T Deliveries to Sven |N|Further west at the Hushed Bank (8,34)| |QID|164|
 A Sven's Revenge |QID|95|
 
-H Darkshire |SZ|Scarlet Raven Tavern|
+H Darkshire |SZ|Scarlet Raven Tavern| |QID|158|
 T The Night Watch (Part 2) |T| |QID|57|
 A The Night Watch (Part 3) |T| |QID|58|
 T The Weathered Grave |T| |QID|225|
@@ -95,7 +95,7 @@ C The Totem of Infliction |N|Ghoul fangs only seem to drop in the catacombs.  If
 T Sven's Camp |N|Camp to the west (8,34)| |QID|230|
 A The Shadowy Figure |QID|262|
 
-R Stranglethorn Vale |N|Take the road east towards Darkshire, but head south at the fork in the center of the zone.|
+R Stranglethorn Vale |N|Take the road east towards Darkshire, but head south at the fork in the center of the zone.| |QID|158|
 F Darkshire |N|There is a flight point at the Rebel Camp along the north edge of STV (38.1, 3.8)| |Z|Stranglethorn Vale|
 T The Totem of Infliction |T| |QID|101|
 T The Shadowy Figure |T| |QID|262|
@@ -106,7 +106,7 @@ A Inquire at the Inn |T| |QID|266|
 T Inquire at the Inn |T| |QID|266|
 T Zombie Juice |T| |QID|158|
 
-F Stormwind City
+F Stormwind City |QID|1248|
 T The Missing Diplomat (Part 6) |T| |N|Back at the cheese shop| |Z|Stormwind City| |QID|1245|
 A The Missing Diplomat (Part 7) |T| |QID|1246|
 T The Missing Diplomat (Part 7) |T| |N|In an alley in Old Town| |QID|1246|

@@ -1,10 +1,10 @@
 
 TourGuide:RegisterGuide("Stranglethorn Vale (41-42)", "Tanaris (43)", "Alliance", function()
 return [[
-F Booty Bay
+F Booty Bay |QID|595|
 A Tran'rek |N|From Krazek in the Inn (2nd Floor)| |QID|2864|
 A Zanzil's Secret |N|From Crank Fizzlebub in the Inn.| |QID|621|
-h Booty Bay
+h Booty Bay |QID|576|
 A Akiris by the Bundle (Part 1) |N|From Privateer Bloads next to the Bank.| |QID|617|
 A Stranglethorn Fever |N|At the half-boat| |QID|348|
 A Scaring Shaky |N|In the house opposite the upside-down half-boat.| |QID|606|
@@ -37,7 +37,7 @@ C Up to Snuff |N| Kill Bloodsails| |QID|587|
 C Voodoo Dues |N|Run north to Ruins of Jubuwal (33,51), kill Jon-Jon the Crow and Maury "Club Foot" Wilkins.  Run south a tad (33,53) and then east to Ruins of Aboraz (40,57), kill Chucky "Ten Thumbs"| |QID|609|
 C Zanzil's Secret |N|Kill the trolls, but avoid Zanzil| |QID|621|
 
-H Booty Bay |SZ|The Salty Sailor Tavern|
+H Booty Bay |SZ|The Salty Sailor Tavern| |QID|576|
 T Zanzil's Secret |N|In the inn.| |QID|621|
 A Whiskey Slim's Lost Grog |QID|580|
 T Up to Snuff |N|Upstairs in the inn.| |QID|587|

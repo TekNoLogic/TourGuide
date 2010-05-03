@@ -1,20 +1,19 @@
 
 TourGuide:RegisterGuide("Western Plaguelands (56-57)", "Eastern Plaguelands (57-58)", "Alliance", function()
 return [[
-F Stormwind City
-h Stormwind City
+F Stormwind City |QID|5066|
+h Stormwind City |QID|5163|
 A A Call to Arms: The Plaguelands! |N|From Crier Goodman, he patrols all over the city.| |QID|5066|
 
 T Return to Tymor |QID|3461| |O| |N|In Ironforge, of course|
 
-F Southshore
-R Western Plaguelands |N|Follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp|
+R Western Plaguelands |N|Fly to Southshore then follow the road north out of the zone, east thru Alterac until you come to Chillwind Camp.| |QID|5066|
 A A Plague Upon Thee (Part 1) |QID|5903|
 A The Mark of the Lightbringer |N|From Anchorite Truuen.  He may not be in the camp if he's out doing the escort quest.| |QID|9474|
 T A Call to Arms: The Plaguelands! |QID|5066|
 A Clear the Way |QID|5092|
 T The Everlook Report |QID|6028|
-N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |L|12846|
+N Get a Commission |N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands.  Turn in any scourgestones you get when you are in town if you have a full stack.| |L|12846| |QID|5092|
 
 C Clear the Way |N|To the northeast at Sorrow Hill| |QID|5092|
 T Clear the Way |QID|5092|
@@ -43,15 +42,15 @@ C Target: Dalson's Tears |N|To the north at Dalson's Tears (46,52).  Kill Cauldr
 T Target: Dalson's Tears |N|Talk to the cauldren| |QID|5219|
 A Return to Chillwind Camp (Part 2) |QID|5220|
 
-N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.|
-K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |L|12738|
-K Farmer Dalson |N|Open the outhouse, get his key| |L|12739|
-N Open cabinet |N|Locked cabinet upstairs in the house.| |L|13475|
+N Read Mrs. Dalson's Diary |N|On the floor in the barn (47.8, 50.7).  Nothing to accept, just read the book.| |QID|5060|
+K Wandering Skeleton |N|Patrols around the house and barn, you are looking for the outhouse key.  Scarlets might kill this mob.| |L|12738| |QID|5060|
+K Farmer Dalson |N|Open the outhouse, get his key| |L|12739| |QID|5060|
+N Open cabinet |N|Locked cabinet upstairs in the house.| |L|13475| |QID|5060|
 
 T Return to Chillwind Camp (Part 2) |QID|5220|
 A Target: Writhing Haunt |QID|5222|
 
-H Stormwind City
+H Stormwind City |QID|6184|
 T Better Late Than Never (Part 2) |N|On the northeast side of Cathedral Square (57.26, 48.16)| |Z|Stormwind City| |QID|5022|
 A Good Natured Emma |QID|5048|
 T Good Natured Emma |N|She patrols between the cathedral and trade district| |QID|5048|
@@ -62,7 +61,7 @@ A Honor the Dead |QID|6183|
 T Honor the Dead |QID|6183|
 A Flint Shadowmore |QID|6184|
 
-F Western Plaguelands
+F Western Plaguelands |QID|6185|
 T Flint Shadowmore |QID|6184|
 A The Eastern Plagues |QID|6185|
 
@@ -92,6 +91,6 @@ A Return to Chillwind Camp (Part 4) |QID|5226|
 T The Wildlife Suffers Too (Part 2) |QID|4985|
 
 T Return to Chillwind Camp (Part 4) |N|Back at Chillwind Camp, of course.| |QID|5226|
-N Mission Accomplished! |N|Talk to Commander Ashlam Valorfist|
+N Mission Accomplished! |N|Talk to Commander Ashlam Valorfist| |QID|5238|
 ]]
 end)

@@ -1,13 +1,13 @@
 
 TourGuide:RegisterGuide("Winterspring (54-55)", "Burning Steppes (55-56)", "Alliance", function()
 return [[
-R Moonglade |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave| |C|Death Knight, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior|
-f Get Fight Point |N|(48.1,67.3)| |C|Death Knight, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior| |Z|Moonglade|
+R Moonglade |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave| |C|Death Knight, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior| |QID|8465|
+f Get Fight Point |N|(48.1,67.3)| |C|Death Knight, Hunter, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Warrior| |Z|Moonglade| |QID|8465|
 
-R Winterspring |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave|
+R Winterspring |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave| |QID|8465|
 T Speak to Salfa |QID|8465|
 A Winterfall Activity |QID|8464|
-N Grab feathers you see |N|For "Moontouched Wildkin"|
+N Grab feathers you see |N|For "Moontouched Wildkin"| |QID|978|
 T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
 A Strange Sources |QID|4842|
 T It's a Secret to Everybody (Part 3) |QID|3908| |N|Skip the follow-up.|
@@ -15,7 +15,7 @@ A Threat of the Winterfall |QID|5082|
 
 R Everlook |N|Follow the road east|
 A Enraged Wildkin (Part 1) |QID|6604|
-h Everlook
+h Everlook |QID|977|
 A The Everlook Report |QID|6028|
 A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
@@ -23,7 +23,7 @@ A Are We There, Yeti? (Part 1) |QID|3783|
 
 C Strange Sources |N|Follow the road far to the south (60.12,73.44)| |QID|4842|
 
-H Everlook
+H Everlook |QID|977|
 C Are We There, Yeti? (Part 1) |N|Just southeast of town.  Kill yeti outside the cave.| |QID|3783|
 T Are We There, Yeti? (Part 1) |N|Back in Everlook| |QID|3783|
 A Are We There, Yeti? (Part 2) |QID|977|
@@ -49,12 +49,12 @@ T Winterfall Firewater |QID|5083|
 A Falling to Corruption |QID|5084|
 T Winterfall Activity |N|Back up at the entrance to Timbermaw Hold| |QID|8464|
 
-R Felwood
+R Felwood |QID|5085|
 T Falling to Corruption |N|Talk to the cauldron in the Deadwood furbolg camp (60.2, 5.9)| |Z|Felwood| |QID|5084|
 A Mystery Goo |QID|5085|
 T Mystery Goo |N|Back in Winterspring. Skip the follow-up.| |QID|5085|
 
-F Rut'theran Village
+F Rut'theran Village |QID|6762|
 T Moontouched Wildkin |N|Skip the follow-up| |QID|978|
 
 A The New Frontier (Part 1) |N|From Herald Moonstalker in Darnassus, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!| |QID|1047|
@@ -63,7 +63,7 @@ A The New Frontier (Part 2) |QID|6761|
 T The New Frontier (Part 2) |QID|6761|
 A Rabine Saturna |QID|6762|
 
-F Moonglade |N|Teleport there if you are a Druid, or fly to Talonbranch Glade and run there if you didn't get the flight path earlier|
+F Moonglade |QID|1124| |N|Teleport there if you are a Druid, or fly to Talonbranch Glade and run there if you didn't get the flight path earlier|
 T Rabine Saturna |N|In Nighthaven (51.69, 45)| |Z|Moonglade| |QID|6762|
 A Wasteland |QID|1124|
 ]]

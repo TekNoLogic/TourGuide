@@ -15,12 +15,11 @@ T Bathran's Hair |QID|1010|
 A Orendil's Cure |QID|1020|
 T Therylune's Escape |N|South from Maestra's Post at the Shrine of Aessina (22.67, 51.92)| |QID|945|
 
-R Astranaar |N|Follow the road east|
-T Journey to Astranaar |T| |QID|1133|
+T Journey to Astranaar |T| |QID|1133| |N|Follow the road east to Astranaar|
 A The Zoram Strand |T| |QID|1008|
 T Onward to Ashenvale |N|Inside the Inn| |T| |QID|10752|
 A Raene's Cleansing (Part 1) |T| |QID|991|
-h Astranaar |T|
+h Astranaar |T| |QID|1054|
 T Orendil's Cure |T| |QID|1020|
 A Elune's Tear |T| |QID|1033|
 
@@ -36,7 +35,7 @@ T Raene's Cleansing (Part 1) |N|Southeast of Zoram Strand at Lake Falathim, on t
 A Raene's Cleansing (Part 2) |QID|1023|
 C Raene's Cleansing (Part 2) |N|Kill murlocs, huzzah!| |QID|1023|
 
-H Astranaar
+H Astranaar |QID|1054|
 T Raene's Cleansing (Part 2) |T| |QID|1023|
 A Raene's Cleansing (Part 3) |T| |QID|1024|
 A An Aggressive Defense |T| |QID|1025|
@@ -48,7 +47,7 @@ A Raene's Cleansing (Part 4) |QID|1026|
 C An Aggressive Defense |N|Camp northeast of Silverwind Refuge| |QID|1025|
 
 A Elemental Bracers |N|At Silverwind Refuge| |QID|1016|
-K Befouled Water Elemental |N|In the lake south of Silverwind Refuge.  Need [Intact Elemental Bracers] x5 for "Elemental Bracers"| |L|12220 5|
+K Befouled Water Elemental |N|In the lake south of Silverwind Refuge.  Need [Intact Elemental Bracers] x5 for "Elemental Bracers"| |L|12220 5| |QID|1016|
 C Elemental Bracers |U|5456| |QID|1016|
 T Elemental Bracers |QID|1016|
 
