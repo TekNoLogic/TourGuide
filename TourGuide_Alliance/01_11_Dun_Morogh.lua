@@ -64,11 +64,11 @@ A Senir's Observations (Part 2) |QID|420|
 A Supplies to Tannok |QID|2160|
 A In Favor of the Light |C|Priest| |QID|5626|
 
-R Kharanos |N|You should be able to just run thru the tunnel.|
+R Kharanos |N|You should be able to just run thru the tunnel.| |QID|420|
 T Senir's Observations (Part 2) |QID|420|
 A Beer Basted Boar Ribs |QID|384|
 T Supplies to Tannok |QID|2160|
-h Thunderbrew Distillery
+h Thunderbrew Distillery |QID|320|
 A Tools for Steelgrill |QID|400|
 
 T In Favor of the Light |C|Priest| |QID|5626|
@@ -85,20 +85,20 @@ C Ammo for Rumbleshot |N|Open the crate (44.1, 56.9)| |QID|5541|
 C The Grizzled Den |N|Southwest of Kharanos (42.5, 54.4)| |QID|313|
 T Ammo for Rumbleshot |N|South of Kharanos (40.7, 65.1)| |QID|5541|
 
-R Brewnall Village |N|Go northwest, near the frozen lake (30.3, 46.3)|
+R Brewnall Village |N|Go northwest, near the frozen lake (30.3, 46.3)| |QID|310|
 A The Perfect Stout |QID|315|
 A Bitter Rivals |QID|310|
 C The Perfect Stout |N|Northeast across the lake (38,36)| |QID|315|
 
 C Stocking Jetsteam |N|Go southeast towards Kharanos to find more mobs.| |QID|317|
-K Boars |N|For [Crag Boar Rib] x6.| |L|2886 6|
+K Boars |N|For [Crag Boar Rib] x6.| |L|2886 6| |QID|384|
 
 T The Grizzled Den |N|At Steelgrill's Depot, east of Kharanos.| |QID|313|
 T Stocking Jetsteam |QID|317|
 A Evershine |QID|318|
 
-B [Rhapsody Malt] |N|From innkeeper or general supplier in Kharanos's inn.| |L|2894|
-B [Thunder Ale] |L|2686|
+B [Rhapsody Malt] |N|From innkeeper or general supplier in Kharanos's inn.| |L|2894| |QID|384|
+B [Thunder Ale] |L|2686| |QID|310|
 T Bitter Rivals |N|Give the Thunder Ale to Jarven downstairs, then talk to the barrel.| |QID|310|
 A Return to Marleth |QID|311|
 T Beer Basted Boar Ribs |QID|384|
@@ -121,7 +121,7 @@ A Tundra MacGrann's Stolen Stash |N|South of Brewnall, reach him from the southe
 C Tundra MacGrann's Stolen Stash |N|Wait until Old Icebeard leaves his cave and then run in to loot the chest.| |QID|312|
 T Tundra MacGrann's Stolen Stash |QID|312|
 
-H Kharanos
+H Kharanos |QID|320|
 T Frostmane Hold |QID|287|
 A The Reports |QID|291|
 T Operation Recombobulation |QID|412|
@@ -142,7 +142,7 @@ A Speak with Bink |C|Mage| |QID|1879|
 A Road to Salvation |C|Rogue| |QID|2218|
 A Muren Stormpike |C|Warrior| |QID|1679|
 
-R City of Ironforge
+R City of Ironforge |QID|291|
 T The Reports |Z|Ironforge| |N|The High Seat (39.6, 57.1)| |QID|291|
 
 T Training the Beast |C|Hunter| |QID|6103|
