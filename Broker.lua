@@ -57,7 +57,7 @@ function TourGuide:UpdateStatusFrame()
 			local thisaction = action
 			if nextstep and self.db.char.trackquests then
 				for j=1,GetNumQuestWatches() do
-					local logj = GetQuestIndexForWatch(i)
+					local logj = GetQuestIndexForWatch(j)
 					RemoveQuestWatch(logj)
 				end
 
