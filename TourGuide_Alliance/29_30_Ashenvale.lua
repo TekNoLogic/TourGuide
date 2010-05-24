@@ -46,7 +46,7 @@ K Demons... |QID|9520| |L|23777| |T| |N|Kill infernals, lashers and felguards un
 C Forsaken Diseases |N|Go southwest across the river (75,71)| |QID|1011|
 C Fallen Sky Lake |N|Kill the Shadethicket Oracle at Fallen Sky Lake to the southwest past the road (66.65, 82.16)| |QID|1035|
 
-C The Tower of Althalaxx (Part 6) |N|Follow the road northwest from Fallen Sky Lake past Raynewood Retreat (64.80, 43.80), then double back along the ridge east of the road to the crystal in Night Run (67,54).| |QID|1140|
+C The Tower of Althalaxx (Part 6) |N|Follow the road northwest from Fallen Sky Lake past Raynewood Retreat (64.80, 43.80), then double back along the ridge east of the road to the crystal in Night Run (67,54).| |QID|1140| |NORAF|
 C Satyr Slaying! |QID|1032|
 C Raene's Cleansing (Part 4) |N|To the northeast, just before entering felwood.  Kill treants for the key and open the box (54,35)| |QID|1026|
 C The Howling Vale |N|Path starts just north of the box for "Raene's Cleansing" (54.0, 32.5).  Head thru the cave, find the tome on a table near the shrine (50.54, 39.07)| |QID|1022|
@@ -54,7 +54,7 @@ C The Howling Vale |N|Path starts just north of the box for "Raene's Cleansing" 
 H Astranaar |QID|1035|
 T Fallen Sky Lake |T| |QID|1035|
 
-T The Tower of Althalaxx (Part 6) |N|Back at Maestra's Post, skip the follow-up.| |QID|1140|
+T The Tower of Althalaxx (Part 6) |N|Back at Maestra's Post, skip the follow-up.| |QID|1140| |NORAF|
 T Raene's Cleansing (Part 4) |N|Back at the Moonwell (53,46).  Skip the follow-up.| |QID|1026|
 
 F Forest Song |N|Run to Astranaar then fly| |QID|9522|
