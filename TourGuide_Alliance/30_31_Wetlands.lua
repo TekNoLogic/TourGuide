@@ -22,26 +22,25 @@ A Fall of Dun Modr |N|In front of the keep| |T| |QID|472|
 C Lifting the Curse |N|Kill the Captain for the key, walk up the rudder to reach him (15.5, 23.5)| |QID|290|
 T Lifting the Curse |N|Open the box on bottom floor of the boat, it's underwater.| |QID|290|
 A The Eye of Paleth |QID|292|
-T Nek'rosh's Gambit |N|Talk to the catapault (47.5, 46.9).  Skip the follow-up.| |QID|465|
+T Nek'rosh's Gambit |N|Talk to the catapault (47.5, 46.9).  Skip the follow-up.| |QID|465| |NORAF|
 
-T Fall of Dun Modr |N|At Dun Modr (51,21)| |QID|472|
+T Fall of Dun Modr |QID|472|
 A The Dark Iron War |QID|303|
 A A Grim Task |QID|304|
 
 A The Thandol Span (Part 1) |QID|631|
-T The Thandol Span (Part 1) |N|Head out to the middle of Thandol Span, head down the stairs to the right (51.2, 8.0).| |QID|631|
+T The Thandol Span (Part 1) |QID|631| |N|Head out to the middle of Thandol Span, head down the stairs to the right (51.2, 8.0).|
 A The Thandol Span (Part 2) |QID|632|
-T The Thandol Span (Part 2) |N|Back at Dun Modr| |QID|632|
+T The Thandol Span (Part 2) |QID|632|
 A The Thandol Span (Part 3) |QID|633|
 
-C A Grim Task |N|Look for a dorf with a voidwalker.  If he isn't in the area near the questgiver check at the camp to the east (60, 27).  If you don't find him, abandon this.| |QID|304|
+C A Grim Task |QID|304| |N|Look for a dorf with a voidwalker.  If he isn't in the area near the questgiver check at the camp to the east (60, 27).  If you don't find him, abandon this.|
 C The Dark Iron War |QID|303|
 
 T A Grim Task |QID|304|
 T The Dark Iron War |QID|303|
 
-C The Thandol Span (Part 3) |Z|Arathi Highlands| |N|Across Thandol Span, then across the small bridge to the east (48,88)| |QID|633|
-T The Thandol Span (Part 3) |N|Back at Dun Modr| |QID|633|
+C The Thandol Span (Part 3) |QID|633| |Z|Arathi Highlands| |N|Across Thandol Span, then across the small bridge to the east (48,88)|
+T The Thandol Span (Part 3) |QID|633|
 A Plea To The Alliance |NODEBUG| |QID|634|
-]]
-end)
+]] end)
