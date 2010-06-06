@@ -8,7 +8,8 @@ F Darnassus |QID|741|
 T The Absent Minded Prospector (Part 3) |T| |QID|741| |N|Outside the Temple of the Moon, Darnassus (31.41, 84.18)| |Z|Darnassus|
 A The Absent Minded Prospector (Part 4) |T| |QID|942|
 
-F Loch Modan |N|Boat to Stormwind, then fly to Loch Modan.| |QID|455|
+F Loch Modan |QID|455| |NORAF| |N|Boat to Stormwind, then fly to Loch Modan.|
+R Loch Modan |QID|455| |RAF| |N|Boat to Stormwind, take the tram to Ironforge, then run to Loch Modan.  Don't forget to grab flight points in the cities.|
 A The Alagaz Gauntlet |QID|455| |N|North at North Gate Pass (25.35, 10.43)|
 C The Alagaz Gauntlet |QID|455|
 
@@ -41,12 +42,12 @@ T Ormer's Revenge (Part 1) |QID|294|
 A Ormer's Revenge (Part 2) |QID|295|
 A Uncovering the Past |QID|299|
 N Keep an eye out for relics |QID|299|
+C Uncovering the Past |QID|299| |N|If you can't find the Neru Fragment (loose dirt), check the tree near the ramp up to the questgiver.  If you can't find the Modr Fragment (tall vase), check up on the ledge to the west-southwest side of the dig.|
 C Ormer's Revenge (Part 2) |QID|295|
 T Ormer's Revenge (Part 2) |QID|295|
 A Ormer's Revenge (Part 3) |QID|296|
-T Uncovering the Past |QID|299|
 C Ormer's Revenge (Part 3) |QID|296|
-C Uncovering the Past |QID|299|
+T Uncovering the Past |QID|299|
 T Ormer's Revenge (Part 3) |QID|296|
 
 C The Absent Minded Prospector (Part 5) |N|Keep killing raptors| |QID|943|
