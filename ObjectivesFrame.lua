@@ -191,7 +191,7 @@ function TourGuide:UpdateOHPanel(value)
 
 	if self.guidechanged then
 		self.guidechanged = nil
-		return ResetScrollbar()
+		ResetScrollbar()
 	end
 
 	if value then offset = math.floor(value) end
