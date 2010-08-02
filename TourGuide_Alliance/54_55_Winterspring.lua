@@ -7,7 +7,7 @@ f Get Fight Point |N|(48.1,67.3)| |C|Death Knight, Hunter, Mage, Paladin, Priest
 R Winterspring |N|You need to be Unfriendly or higher and not At War with the Timbermaw Hold to go through the cave| |QID|8465|
 T Speak to Salfa |QID|8465|
 A Winterfall Activity |QID|8464|
-N Grab feathers you see |N|For "Moontouched Wildkin"| |QID|978|
+N Grab feathers you see |N|For "Moontouched Wildkin"| |QID|978| |NORAF|
 T The New Springs |N|To the south near the hot springs (31.27, 45.20)| |Z|Winterspring| |QID|980|
 A Strange Sources |QID|4842|
 T It's a Secret to Everybody (Part 3) |QID|3908| |N|Skip the follow-up.|
@@ -42,7 +42,7 @@ A Troubled Spirits of Kel'Theril |QID|5245|
 
 C Troubled Spirits of Kel'Theril |N|Find the relics scattered around Ruins of Kel'Theril (55.15, 42.93), (53.34, 43.41), (52.43, 41.52) (50.89, 41.73)| |QID|5245|
 C Threat of the Winterfall |N|Kill furblogs near the hot springs (30,37) or south of the road east of the springs (39,43)| |QID|5082|
-C Moontouched Wildkin |QID|978|
+C Moontouched Wildkin |QID|978| |NORAF|
 A Winterfall Firewater |U|12771| |N|Kill furblogs until you get an Empty Firewater Flask| |QID|5083|
 T Strange Sources |N|Back at the camp near the south spring| |QID|4842|
 T Threat of the Winterfall |QID|5082|
@@ -56,10 +56,10 @@ A Mystery Goo |QID|5085|
 T Mystery Goo |N|Back in Winterspring. Skip the follow-up.| |QID|5085|
 
 F Rut'theran Village |QID|6762|
-T Moontouched Wildkin |N|Skip the follow-up| |QID|978|
+T Moontouched Wildkin |N|Skip the follow-up| |QID|978| |NORAF|
 
-A The New Frontier (Part 1) |N|From Herald Moonstalker in Darnassus, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!| |QID|1047|
-T The New Frontier (Part 1) |N|In the tree house in Cenarion Enclave (34,8)| |Z|Darnassus| |QID|1047|
+A The New Frontier (Part 1) |QID|1047| |N|From Herald Moonstalker in Darnassus, she wanders in a figure eight around town and across the bridge.  From the bank run north and around coming back across the bridge, then south and around until you find her.  She also walks behind the bank!|
+T The New Frontier (Part 1) |QID|1047|
 A The New Frontier (Part 2) |QID|6761|
 T The New Frontier (Part 2) |QID|6761|
 A Rabine Saturna |QID|6762|

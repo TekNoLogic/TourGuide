@@ -7,7 +7,7 @@ A Morrowgrain Research (Part 1) |N|Upstairs!| |QID|3781|
 T Morrowgrain Research (Part 1) |N|Downstairs!| |QID|3781|
 A Morrowgrain Research (Part 2) |QID|3785| |NODEBUG|
 N Morrowgrain... |N|Use the Evergreen Pouch whenever it's cooldown is up until you get all your Morrowgrain.| |QID|3785|
-A Moontouched Wildkin |N|Down in Rut'theran Village| |QID|978|
+A Moontouched Wildkin |N|Down in Rut'theran Village| |QID|978| |NORAF|
 
 R Felwood |N|Fly to Astranaar then head east out of town.  At the fork near the retreat head north out of the zone (55.75, 29.50)| |Z|Ashenvale| |QID|4101| |NORAF|
 R Felwood |N|Fly to Astranaar then head east out of town.  At the fork near the retreat head north out of the zone (55.75, 29.50)| |Z|Ashenvale| |QID|8460| |RAF|
