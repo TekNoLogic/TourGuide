@@ -19,21 +19,22 @@ h Everlook |QID|977|
 A The Everlook Report |QID|6028|
 A Duke Nicholas Zverenhoff |QID|6030|
 A Sister Pamela |QID|5601|
-A Are We There, Yeti? (Part 1) |QID|3783|
+A Are We There, Yeti? (Part 1) |QID|3783| |NORAF|
 
 C Strange Sources |N|Follow the road far to the south (60.12,73.44)| |QID|4842|
 
 H Everlook |QID|977|
-C Are We There, Yeti? (Part 1) |N|Just southeast of town.  Kill yeti outside the cave.| |QID|3783|
-T Are We There, Yeti? (Part 1) |N|Back in Everlook| |QID|3783|
-A Are We There, Yeti? (Part 2) |QID|977|
-C Are We There, Yeti? (Part 2) |N|Back in the yeti cave (67,42)| |QID|977|
-T Are We There, Yeti? (Part 2) |QID|977|
-A Are We There, Yeti? (Part 3) |QID|5163|
-N Scare Legacki |N|East of the inn, use the Yeti| |U|12928| |QID|5163| |QO|Scare Legacki: 1/1|
+C Are We There, Yeti? (Part 1) |N|Just southeast of town.  Kill yeti outside the cave.| |QID|3783| |NORAF|
+T Are We There, Yeti? (Part 1) |N|Back in Everlook| |QID|3783| |NORAF|
+A Are We There, Yeti? (Part 2) |QID|977| |NORAF|
+C Are We There, Yeti? (Part 2) |N|Back in the yeti cave (67,42)| |QID|977| |NORAF|
+T Are We There, Yeti? (Part 2) |QID|977| |NORAF|
+A Are We There, Yeti? (Part 3) |QID|5163| |NORAF|
+N Scare Legacki |N|East of the inn, use the Yeti| |U|12928| |QID|5163| |QO|Scare Legacki: 1/1| |NORAF|
 
 C Winterfall Activity |N|East of town (66,34)| |QID|8464|
-T To Winterspring! |N|At Starfall Village (51,30)| |QID|5249|
+T To Winterspring! |QID|5249| |O|
+T Starfall |QID|5250| |O|
 A The Ruins of Kel'Theril |QID|5244|
 T Enraged Wildkin (Part 1) |N|Skip the follow-up| |QID|6604|
 T The Ruins of Kel'Theril |QID|5244|
