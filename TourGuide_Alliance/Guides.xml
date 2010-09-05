@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="01_11_Dun_Morogh_Dwarf.lua"/>
 	<Script file="01_11_Dun_Morogh.lua"/>
 	<Script file="01_12_Elwynn_Forest.lua"/>
 
