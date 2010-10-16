@@ -4,7 +4,7 @@
 ## Notes: Powerleveling guide framework
 ## Notes-koKR: 파워레벨링 가이드 프레임워크
 ## Author: Tekkub Stoutwrithe
-## Version: Alpha
+## Version: 4.0.0.57
 ## X-Website: http://www.tekkub.net/
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Quest
