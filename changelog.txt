@@ -1,3 +1,10 @@
+4.0.0.57-Beta
+    Reset obj frame when guide changes if it's open
+    Scrolly scrolly
+    Ally RAF
+    i, j, whatever
+    Ally QIDs
+
 3.3.0.56-Beta
     Completed quests
     - We now have access to a list of all quests the player has completed
