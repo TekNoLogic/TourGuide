@@ -118,13 +118,12 @@ A Pollen from the Source |QID|11717|
 
 T Vermin Extermination |QID|11714|
 
-A Massive Moth Omelet? |QID|11724| |N|Head south-west and up onto the plateau (48.53, 59.00)|
-
+A Massive Moth Omelet? |QID|11724| |N|Head south-west and up onto the plateau (48.61, 59.15)|
 C Pollen from the Source |QID|11717|
 
-T Massive Moth Omelet? |QID|11724|
 T Pollen from the Source |QID|11717|
 A A Suitable Test Subject |QID|11719|
+T Massive Moth Omelet? |QID|11724|
 C A Suitable Test Subject |QID|11719| |U|34978|
 T A Suitable Test Subject |QID|11719|
 A The Invasion of Gammoth |QID|11720|
@@ -139,23 +138,23 @@ A Trophies of Gammoth |QID|11722|
 T Trophies of Gammoth |QID|11722| |T|
 A Hellscream's Champion |QID|11916| |T|
 
-T Seek out Karuk |N|Go to the road and follow it directly south to the tiny Tuskarr camp (47,75)| |QID|11662|
+T Seek Out Karuk! |QID|11662|
 A Karuk's Oath |QID|11613|
 A Cruelty of the Kvaldir |QID|12471| |N|Find the tuskarr down on the beach (44.24, 77.84).  If he's not there don't worry, just skip this.|
-C Karuk's Oath |QID|11613| |N|Down on the beach, it's not as empty as it appears!|
+C Karuk's Oath |QID|11613|
 T Karuk's Oath |QID|11613|
-T Cruelty of the Kvaldir |QID|12471|
 A Gamel the Cruel |QID|11619|
-C Gamel the Cruel |QID|11619| |N|In a cave down on the beach (46.26, 78.83).  If he's camped heavily, just skip ahead to "Ears of Our Enemies"|
+T Cruelty of the Kvaldir |QID|12471|
+C Gamel the Cruel |QID|11619|
 T Gamel the Cruel |QID|11619|
 A A Father's Words |QID|11620|
-T A Father's Words |QID|11620| |N|Out on the cost in the Shrine of Scales (43.63, 80.52)|
+T A Father's Words |QID|11620|
 A The Trident of Naz'jan |QID|11625|
-C The Trident of Naz'jan |QID|11625| |N|Swim southeast to Riplash Ruins, work your way up to the northeast building (54.67, 89.05)|
-T The Trident of Naz'jan |QID|11625| |N|Back at the Shrine of Scales (43.63, 80.62)|
+C The Trident of Naz'jan |QID|11625|
+T The Trident of Naz'jan |QID|11625|
 A The Emissary |QID|11626|
 C The Emissary |QID|11626| |U|35850| |N|Swim back to the large iceberg at Riplash Ruins (51.40, 88.19).  Dive down, use the [Trident of Naz'jan] on Leviroth and kill him.|
-T The Emissary |QID|11626| |N|Back at Karuk (47.15, 75.39)|
+T The Emissary |QID|11626|
 
 A Ears of Our Enemies |QID|11866| |N|Head east from town to the D.E.H.T.A. Encampment (57.06, 44.27)|
 A Help Those That Cannot Help Themselves |QID|11876|
@@ -188,7 +187,7 @@ T The Nefarious Clam Master... |QID|11872|
 
 A The Honored Ancestors |QID|11605| |N|North at the Coldrock Quarry (54.69, 35.69)|
 A Reclaiming the Quarry |QID|11612|
-C The Honored Ancestors |QID|11605| |N|Find the three elders: Elder Takret (52.32, 31.19), Elder Sagani (52.84, 34.05) and Elder Kesuk (50.81, 32.38)|
+C The Honored Ancestors |QID|11605|
 C Reclaiming the Quarry |QID|11612|
 T The Honored Ancestors |QID|11605|
 A The Lost Spirits |QID|11607|
@@ -200,7 +199,7 @@ T The Lost Spirits |QID|11607|
 A Picking Up the Pieces |QID|11609|
 T Hampering Their Escape |QID|11617|
 A A Visit to the Curator |QID|11623|
-C A Visit to the Curator |QID|11623| |N|Kill Curator Insivius on the non-floatey platform (50.08, 32.73)|
+C A Visit to the Curator |QID|11623|
 C Picking Up the Pieces |QID|11609|
 T Picking Up the Pieces |QID|11609|
 A Leading the Ancestors Home |QID|11610|
@@ -221,7 +220,7 @@ T Kaw the Mammoth Destroyer |QID|11879| |N|Back at the D.E.H.T.A. Encampment (57
 A The Assassination of Harold Lane |QID|11892|
 C The Assassination of Harold Lane |QID|11892| |N|To the west by the lake (49.26, 40.52).  Use the horn to call in a stampede that should take care of roughly half his health.  If you fail, skip this.| |U|35293|
 
-T Too Close For Comfort |QID|11574| |N|West up the hill at the Amber Ledge (45.23, 33.48)|
+T Too Close For Comfort |QID|11574|
 A Prison Break |QID|11587|
 A Monitoring the Rift: Cleftcliff Anomaly |QID|11576|
 
