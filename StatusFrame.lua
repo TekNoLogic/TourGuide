@@ -98,8 +98,8 @@ ldb.RegisterCallback(TourGuide, "LibDataBroker_AttributeChanged_TourGuide_text",
 	check:SetChecked(false)
 	check:SetButtonState("NORMAL")
 	if TourGuide.db.char.currentguide == "No Guide" then check:Disable() else check:Enable() end
-	if i == 1 then f:SetWidth(FIXEDWIDTH + text:GetWidth()) end
-	newsize = FIXEDWIDTH + text:GetWidth()
+	if i == 1 then f:SetWidth(FIXEDWIDTH + text:GetStringWidth()) end
+	newsize = FIXEDWIDTH + text:GetStringWidth()
 
 	f2:Show()
 end)
@@ -123,7 +123,7 @@ check:SetScript("OnClick", function(self, btn) TourGuide:SetTurnedIn() end)
 
 local function OnUpdate(self)
 	local oldnewsize = newsize
-	newsize = FIXEDWIDTH + text:GetWidth()
+	newsize = FIXEDWIDTH + text:GetStringWidth()
 	if oldnewsize ~= newsize and not f2:IsVisible() then
 		oldsize = newsize
 		self:SetWidth(newsize)
