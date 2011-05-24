@@ -1,3 +1,6 @@
+4.1.0.58-Beta
+    Statusframe resize fix for 4.1
+
 4.0.0.57-Beta
     Reset obj frame when guide changes if it's open
     Scrolly scrolly
