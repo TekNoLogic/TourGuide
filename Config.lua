@@ -2,7 +2,8 @@
 
 local TourGuide = TourGuide
 local L = TourGuide.Locale
-local GAP = 8
+local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 18, 17, 8, 16
+local offset, rows = 0, {}
 local tekcheck = LibStub("tekKonfig-Checkbox")
 local tekbutton = LibStub("tekKonfig-Button")
 
@@ -12,7 +13,7 @@ TourGuide.configpanel = frame
 frame.name = "Tour Guide"
 frame:Hide()
 frame:SetScript("OnShow", function()
-	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide", L["These settings are saved on a per-char basis."])
+	local title, subtitle = LibStub("tekKonfig-Heading").new(frame, "Tour Guide", L["These settings are saved on a per-char basis. Upon completion of a guide the next guide will load automatically.  Completed guides can be reset by shift-clicking."])
 
 	local qtrack = tekcheck.new(frame, nil, L["Automatically track quests"], "TOPLEFT", subtitle, "BOTTOMLEFT", -2, -GAP)
 	qtrack.tiptext = L["Automatically toggle the default quest tracker for current 'complete quest' objectives."]
@@ -27,7 +28,7 @@ frame:SetScript("OnShow", function()
 	showstatusframe:SetChecked(TourGuide.db.char.showstatusframe)
 
 	local resetpos = tekbutton.new_small(frame, "TOP", showstatusframe, "CENTER", 0, 11)
-	resetpos:SetPoint("RIGHT", -16, 0)
+	resetpos:SetPoint("RIGHT", frame, "CENTER", -8, 0)
 	resetpos:SetText(L["Reset"])
 	resetpos.tiptext = L["Reset the status frame to the default position"]
 	resetpos:SetScript("OnClick", function(self)
@@ -41,7 +42,7 @@ frame:SetScript("OnShow", function()
 	showuseitem:SetChecked(TourGuide.db.char.showuseitem)
 
 	local resetpos2 = tekbutton.new_small(frame, "TOP", showuseitem, "CENTER", 0, 11)
-	resetpos2:SetPoint("RIGHT", -16, 0)
+	resetpos2:SetPoint("RIGHT", frame, "CENTER", -8, 0)
 	resetpos2:SetText(L["Reset"])
 	resetpos2.tiptext = L["Reset the item button to the default position"]
 	resetpos2:SetScript("OnClick", function(self)
@@ -119,10 +120,93 @@ frame:SetScript("OnShow", function()
 	end)
 	rafmode:SetChecked(TourGuide.db.char.rafmode)
 
-	frame:SetScript("OnShow", nil)
+
+	local group = LibStub("tekKonfig-Group").new(frame, "Guide", "TOP", subtitle, "BOTTOM", 0, -EDGEGAP-GAP)
+	group:SetPoint("LEFT", frame, "CENTER", EDGEGAP/2, 0)
+	group:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
+
+	local scrollbar = LibStub("tekKonfig-Scroll").new(group, 6, NUMROWS/3)
+
+	local function OnClick(self)
+		if IsShiftKeyDown() then
+			TourGuide.db.char.completion[self.guide] = nil
+			TourGuide.db.char.turnins[self.guide] = {}
+			TourGuide:UpdateGuidesPanel()
+			GameTooltip:Hide()
+		else
+			local text = self.guide
+			if not text then self:SetChecked(false)
+			else
+				TourGuide:LoadGuide(text)
+				TourGuide:UpdateStatusFrame()
+				TourGuide:UpdateGuidesPanel()
+			end
+		end
+	end
+	for i=1,NUMROWS do
+		local row = CreateFrame("CheckButton", nil, group)
+		if i == 1 then row:SetPoint("TOP", 0, -4)
+		else row:SetPoint("TOP", rows[i-1], "BOTTOM") end
+		row:SetPoint("LEFT", 4, 0)
+		row:SetPoint("RIGHT", scrollbar, "LEFT", -4, 0)
+		row:SetHeight(ROWHEIGHT)
+
+		local highlight = row:CreateTexture()
+		highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
+		highlight:SetTexCoord(0, 1, 0, 0.578125)
+		highlight:SetAllPoints()
+		row:SetHighlightTexture(highlight)
+		row:SetCheckedTexture(highlight)
+
+		local text = row:CreateFontString(nil, nil, "GameFontWhite")
+		text:SetPoint("LEFT", GAP, 0)
+		local complete = row:CreateFontString(nil, nil, "GameFontWhite")
+		complete:SetPoint("RIGHT", -GAP, 0)
+
+		row:SetScript("OnClick", OnClick)
+
+		row.text = text
+		row.complete = complete
+		rows[i] = row
+	end
+
+
+	local f = scrollbar:GetScript("OnValueChanged")
+	scrollbar:SetMinMaxValues(0, math.max(0, #TourGuide.guidelist - NUMROWS - 1))
+	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
+		offset = math.floor(value)
+		TourGuide:UpdateGuidesPanel()
+		return f(self, value, ...)
+	end)
+
+	frame:EnableMouseWheel()
+	frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*NUMROWS/3) end)
+
+	local function newoffset() for i,name in ipairs(TourGuide.guidelist) do if name == TourGuide.db.char.currentguide then return i - (NUMROWS/2) - 1 end end end
+	local function OnShow(self) scrollbar:SetValue(newoffset() or 0) end
+	frame:SetScript("OnShow", OnShow)
+	OnShow(frame)
 end)
 
 InterfaceOptions_AddCategory(frame)
+
+
+function TourGuide:UpdateGuidesPanel()
+	if not frame:IsVisible() then return end
+	for i,row in ipairs(rows) do
+		row.i = i + offset + 1
+
+		local name = self.guidelist[i + offset + 1]
+		row.text:SetText(name)
+		row.guide = name
+		row:SetChecked(self.db.char.currentguide == name)
+
+		local complete = self.db.char.currentguide == name and (self.current-1)/#self.actions or self.db.char.completion[name]
+		local r,g,b = self.ColorGradient(complete or 0)
+		local completetext = complete and complete ~= 0 and string.format(L["|cff%02x%02x%02x%d%% complete"], r*255, g*255, b*255, complete*100)
+		row.complete:SetText(completetext)
+	end
+end
 
 
 ----------------------------
