@@ -94,11 +94,7 @@ end
 
 
 function TourGuide:CreateObjectivePanel()
-	local guidebutton = CreateButton(frame, "BOTTOMRIGHT", -6, 6)
-	guidebutton:SetText(L["Guides"])
-	guidebutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToCategory(TourGuide.configpanel) end)
-
-	local configbutton = CreateButton(frame, "RIGHT", guidebutton, "LEFT")
+	local configbutton = CreateButton(frame, "BOTTOMRIGHT", -6, 6)
 	configbutton:SetText(L["Config"])
 	configbutton:SetScript("OnClick", function() HideUIPanel(frame); InterfaceOptionsFrame_OpenToCategory(TourGuide.configpanel) end)
 
