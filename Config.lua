@@ -2,7 +2,7 @@
 
 local TourGuide = TourGuide
 local L = TourGuide.Locale
-local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 18, 17, 8, 16
+local NUMROWS, ROWHEIGHT, GAP, EDGEGAP, CENTEROFFSET = 26, 17, 8, 16, 28
 local offset, rows = 0, {}
 local tekcheck = LibStub("tekKonfig-Checkbox")
 local tekbutton = LibStub("tekKonfig-Button")
@@ -28,7 +28,7 @@ frame:SetScript("OnShow", function()
 	showstatusframe:SetChecked(TourGuide.db.char.showstatusframe)
 
 	local resetpos = tekbutton.new_small(frame, "TOP", showstatusframe, "CENTER", 0, 11)
-	resetpos:SetPoint("RIGHT", frame, "CENTER", -8, 0)
+	resetpos:SetPoint("RIGHT", frame, "CENTER", -EDGEGAP/2 - CENTEROFFSET, 0)
 	resetpos:SetText(L["Reset"])
 	resetpos.tiptext = L["Reset the status frame to the default position"]
 	resetpos:SetScript("OnClick", function(self)
@@ -42,7 +42,7 @@ frame:SetScript("OnShow", function()
 	showuseitem:SetChecked(TourGuide.db.char.showuseitem)
 
 	local resetpos2 = tekbutton.new_small(frame, "TOP", showuseitem, "CENTER", 0, 11)
-	resetpos2:SetPoint("RIGHT", frame, "CENTER", -8, 0)
+	resetpos2:SetPoint("RIGHT", frame, "CENTER", -EDGEGAP/2 - CENTEROFFSET, 0)
 	resetpos2:SetText(L["Reset"])
 	resetpos2.tiptext = L["Reset the item button to the default position"]
 	resetpos2:SetScript("OnClick", function(self)
@@ -122,7 +122,7 @@ frame:SetScript("OnShow", function()
 
 
 	local group = LibStub("tekKonfig-Group").new(frame, "Guide", "TOP", subtitle, "BOTTOM", 0, -EDGEGAP-GAP)
-	group:SetPoint("LEFT", frame, "CENTER", EDGEGAP/2, 0)
+	group:SetPoint("LEFT", frame, "CENTER", EDGEGAP/2 - CENTEROFFSET, 0)
 	group:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
 
 	local scrollbar = LibStub("tekKonfig-Scroll").new(group, 6, NUMROWS/3)
