@@ -3,9 +3,11 @@
 local TourGuide = TourGuide
 local L = TourGuide.Locale
 local NUMROWS, ROWHEIGHT, GAP, EDGEGAP, CENTEROFFSET = 26, 17, 8, 16, 28
+local HELPROWHEIGHT, ROWOFFSET = 24, 3
 local offset, rows = 0, {}
 local tekcheck = LibStub("tekKonfig-Checkbox")
 local tekbutton = LibStub("tekKonfig-Button")
+local ww = WidgetWarlock
 
 
 local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
@@ -121,6 +123,60 @@ frame:SetScript("OnShow", function()
 	rafmode:SetChecked(TourGuide.db.char.rafmode)
 
 
+	-- Help box
+	local descriptions = {
+		ACCEPT = L["Accept quest"],
+		COMPLETE = L["Complete quest"],
+		TURNIN = L["Turn in quest"],
+		KILL = L["Kill mob"],
+		RUN = L["Run to"],
+		FLY = L["Fly to"],
+		SETHEARTH = L["Set hearth"],
+		HEARTH = L["Use hearth"],
+		NOTE = L["Note"],
+		USE = L["Use item"],
+		BUY = L["Buy item"],
+		BOAT = L["Boat to"],
+		GETFLIGHTPOINT = L["Get flight point"],
+	}
+	local order = {
+		"ACCEPT",   "SETHEARTH",
+		"COMPLETE", "HEARTH",
+		"TURNIN",   "GETFLIGHTPOINT",
+		"KILL",     "FLY",
+		"BUY",      "RUN",
+		"USE",      "BOAT",
+		"NOTE",
+	}
+
+
+	-- Help box
+	local anchor
+	local helpbox = LibStub("tekKonfig-Group").new(frame, "Help", "TOP", rafmode, "BOTTOM", 0, -EDGEGAP)
+	helpbox:SetPoint("LEFT", frame, EDGEGAP, 0)
+	helpbox:SetPoint("BOTTOMRIGHT", frame, "BOTTOM", -EDGEGAP/2 - CENTEROFFSET, EDGEGAP)
+	for i,icontype in ipairs(order) do
+		local f = CreateFrame("Frame", nil, frame)
+		if not anchor then
+			f:SetPoint("TOPLEFT", helpbox, 16, -12)
+			anchor = f
+		elseif i % 2 == 0 then
+			f:SetPoint("TOP", anchor, "TOP")
+			f:SetPoint("LEFT", helpbox, "CENTER", 8, 0)
+		else
+			f:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT")
+			anchor = f
+		end
+		f:SetPoint("RIGHT", -16, 0)
+		f:SetHeight(HELPROWHEIGHT)
+
+		local icon = ww.SummonTexture(f, nil, HELPROWHEIGHT-ROWOFFSET, HELPROWHEIGHT-ROWOFFSET, TourGuide.icons[icontype], "LEFT")
+		if icontype ~= "ACCEPT" and icontype ~= "TURNIN" then icon:SetTexCoord(4/48, 44/48, 4/48, 44/48) end
+
+		local text = ww.SummonFontString(f, nil, "GameFontHighlight", descriptions[icontype], "LEFT", icon, "RIGHT", ROWOFFSET, 0)
+	end
+
+	-- Guide list
 	local group = LibStub("tekKonfig-Group").new(frame, "Guide", "TOP", subtitle, "BOTTOM", 0, -EDGEGAP-GAP)
 	group:SetPoint("LEFT", frame, "CENTER", EDGEGAP/2 - CENTEROFFSET, 0)
 	group:SetPoint("BOTTOMRIGHT", -EDGEGAP, EDGEGAP)
@@ -189,6 +245,9 @@ frame:SetScript("OnShow", function()
 end)
 
 InterfaceOptions_AddCategory(frame)
+
+
+LibStub("tekKonfig-AboutPanel").new("Tour Guide", "TourGuide")
 
 
 function TourGuide:UpdateGuidesPanel()

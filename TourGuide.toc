@@ -32,7 +32,6 @@ StatusFrame.lua
 ItemButton.lua
 Config.lua
 ObjectivesFrame.lua
-Help.lua
 UnlistedQuest.lua
 QuestTracking.lua
 QuestIDTracking.lua
