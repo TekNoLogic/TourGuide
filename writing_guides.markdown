@@ -20,13 +20,13 @@ The file simply registers a guide with the core addon by passing 4 things...
  | |
 -|-|
 
-Title | A string describing the zone and level range
+`Title` | A string describing the zone and level range
 
-Next Guide | An optional string, the next guide to load when this guide is completed
+`Next Guide` | An optional string, the next guide to load when this guide is completed
 
-Faction | _Required_  Alliance or Horde, of course.  Guides that aren't for the player's faction are dropped to save memory
+`Faction` | _Required_  Alliance or Horde, of course.  Guides that aren't for the player's faction are dropped to save memory
 
-Data function | A function that returns a string block containing the actual guide data.  Note that blank lines are allowed to make this more readable, just make sure those lines don't contain any stray whitespace (spaces, tabs, etc)
+`Data function` | A function that returns a string block containing the actual guide data.  Note that blank lines are allowed to make this more readable, just make sure those lines don't contain any stray whitespace (spaces, tabs, etc)
 
 ### Example
 
@@ -50,7 +50,7 @@ A single objective in a guide will look something like this:
 -|-|-
 `A |` The objective type.  Accept, Complete, Turnin, Buy, etc...
 Quest Name | The objective title.  This is displayed to the user and in many cases, used for auto-detection of completion.
-`|N|...| |` A note tag, there are a number of different tags.  There are all *optional*
+`|N|...|` | A note tag, there are a number of different tags.  There are all *optional*
 
 ### Quest chains
 
@@ -66,25 +66,25 @@ Objective types
  | | |
 -|-|-|
 
-`A | Accept quest |` Tells the user to accept a quest.  Displays a "!" icon.  Autocompletes when the objective name (minus "(Part 1)") is found in the quest log.
+`A |` Accept quest | Tells the user to accept a quest.  Displays a "!" icon.  Autocompletes when the objective name (minus "(Part 1)") is found in the quest log.
 
-`C | Complete |` Complete a quest's objectives.  Kill something, loot something, whatever.  Note that some quests do not need this step, mainly delivery-type quests.  Auto-completes when the title is found in the quest log and is marked "Complete" there.
+`C |` Complete | Complete a quest's objectives.  Kill something, loot something, whatever.  Note that some quests do not need this step, mainly delivery-type quests.  Auto-completes when the title is found in the quest log and is marked "Complete" there.
 
-`T | Turn-in |` Turn in the quest.  Like A and C, uses the tile to complete when the quest is turned in.
+`T |` Turn-in | Turn in the quest.  Like A and C, uses the tile to complete when the quest is turned in.
 
-`R/F/b/H | Run/Fly/Boat/Hearth |` Run/fly/boat/hearth to a destination.  Only difference is the icon shown.  Completes on (sub-)zone change when the title matches the new zone or subzone name.  Run objectives should only be used if the player is relocating, not for "run back to town and turn in quests".  For quest turnins just note where to go in the tooltip: `|N|Back at Refugee Point|` Note that guides should generally *start* with a travel objective, and not end with them.  The player may load any guide they want and the first thing you want them to do is travel to the quest hub.  There's no reason to send them to the next area at the very end of a guide, instead let the next guide send the player where he needs to be.
+`R/F/b/H |` Run/Fly/Boat/Hearth | Run/fly/boat/hearth to a destination.  Only difference is the icon shown.  Completes on (sub-)zone change when the title matches the new zone or subzone name.  Run objectives should only be used if the player is relocating, not for "run back to town and turn in quests".  For quest turnins just note where to go in the tooltip: `|N|Back at Refugee Point|` Note that guides should generally *start* with a travel objective, and not end with them.  The player may load any guide they want and the first thing you want them to do is travel to the quest hub.  There's no reason to send them to the next area at the very end of a guide, instead let the next guide send the player where he needs to be.
 
-`B | Buy |` Buy an item.  If a 'loot' tag is provided, completes when the loot is received, otherwise completes when an item that matches the title is received.  For title match use the format "[Item Name]"
+`B |` Buy | Buy an item.  If a 'loot' tag is provided, completes when the loot is received, otherwise completes when an item that matches the title is received.  For title match use the format "[Item Name]"
 
-`U | Use |` Use an item in your inventory, like a potion that allows you to see the quest mob.  Completes when you use the item.  Requires a `|U|...|` tag to function.
+`U |` Use | Use an item in your inventory, like a potion that allows you to see the quest mob.  Completes when you use the item.  Requires a `|U|...|` tag to function.
 
-`h | Set hearth |` Set your hearth to a new location.  Auto-completes when it detects the text "&lt;title&gt; is now your home."
+`h |` Set hearth | Set your hearth to a new location.  Auto-completes when it detects the text "&lt;title&gt; is now your home."
 
-`f | Get flight point |` Remind the user to grab the flight point.  Completes on the popup text "Discovered flight point".  These should only be used if the flight point is out of the way and might not be seen on the minimap tracking.
+`f |` Get flight point | Remind the user to grab the flight point.  Completes on the popup text "Discovered flight point".  These should only be used if the flight point is out of the way and might not be seen on the minimap tracking.
 
-`N | Note |` Give the user a general note.  Note objectives can auto-complete with a loot tag or quest-objective tag pair, otherwise no auto-completion.  ***Do not rely heavily on these, they should only be used when no other type works.***
+`N |` Note | Give the user a general note.  Note objectives can auto-complete with a loot tag or quest-objective tag pair, otherwise no auto-completion.  ***Do not rely heavily on these, they should only be used when no other type works.***
 
-`K | Kill |` Kill a specific mob (usually many times).  Can auto-complete with a loot tag or quest-objective tag pair
+`K |` Kill | Kill a specific mob (usually many times).  Can auto-complete with a loot tag or quest-objective tag pair
 
 Tags
 ----
@@ -94,29 +94,29 @@ Tags are appended onto an objective line.  They are optional, and any number can
  | | |
 -|-|-|
 
-`|N|...| | Note |` The primary tag.  This text is displayed in the tooltip and in the objective frame.  It is also parsed for coords in the format "(12,56)" or "(12.34, 56.78)", and these are mapped with [TomTom](http://www.wowinterface.com/downloads/info7032-TomTom.html) if available.
+`|N|...|` | Note | The primary tag.  This text is displayed in the tooltip and in the objective frame.  It is also parsed for coords in the format "(12,56)" or "(12.34, 56.78)", and these are mapped with [TomTom](http://www.wowinterface.com/downloads/info7032-TomTom.html) if available.
 
 `|QID|1234|` | Quest ID | **Every** ACCEPT, COMPLETE and TURNIN objective must have one of these.  You can find these IDs easily by looking at the URL for the quest on Wowhead.
 
-`|O| | Optional |` Objective is not shown if the quest is not in the user's log.  For ACCEPT objectives, if a loot or item tag are also provided the objective is not displayed if the player does not have the items needed.
+`|O|` | Optional | Objective is not shown if the quest is not in the user's log.  For ACCEPT objectives, if a loot or item tag are also provided the objective is not displayed if the player does not have the items needed.
 
-`|L|1234|`  |L|1234 2| | Loot | Objective auto-completes or is shown (if optional) when the user has the items.  Takes an ItemID and optional quantity.  If used with `|O|` on an ACCEPT objective, the objective will be skipped if the user does not have the item (and quantity) needed.
+`|L|1234|`  `|L|1234 2|` | Loot | Objective auto-completes or is shown (if optional) when the user has the items.  Takes an ItemID and optional quantity.  If used with `|O|` on an ACCEPT objective, the objective will be skipped if the user does not have the item (and quantity) needed.
 
 `|U|1234|` | Use | An item to be used.  Gives the user a button to click.  Useful for quests where you must use an item on a mob, equip something, drink something, etc.  Should not be used if the player must have an item to be able to interact with a node, only if the player is FORCED to open their bags and use the item.  If used along with `|O|` on an ACCEPT objective, the objective will only appear if the user has the item to use.
 
-`|PRE|Quest Name| | Prerequsite |` Used with the optional tag to only show a quest if another quest has been completed in the same guide.  Note that the prerequisite quest must be optional as well, normal quests will appear to be complete if the user drops the quest and manually checks it off of the list.
+`|PRE|Quest Name|` | Prerequsite | Used with the optional tag to only show a quest if another quest has been completed in the same guide.  Note that the prerequisite quest must be optional as well, normal quests will appear to be complete if the user drops the quest and manually checks it off of the list.
 
-`|C|Priest, ...| | Class |` Only displays the objective if the player is of one of the classes listed herein.  Useful for class-specific quests.  Accepts multiple classes, and uses the localized name.
+`|C|Priest, ...|` | Class | Only displays the objective if the player is of one of the classes listed herein.  Useful for class-specific quests.  Accepts multiple classes, and uses the localized name.
 
-`|R|Night Elf, ...| | Race | Only displayed if the player's race matches.  Like `|C|``, multiple races are supported per objective, and it takes a localized value.
+`|R|Night Elf, ...|` | Race | Only displayed if the player's race matches.  Like `|C|`, multiple races are supported per objective, and it takes a localized value.
 
 `|Z|Darnassus|` | Zone | Overrides the mapping zone for the objective.  If not defined the objective's waypoints will use the guide title for the zone.  If the title isn't a valid zone name, the player's current zone is used.  These should not be used heavily, if the player is changing locations to another zone and doing more than turnins, accepts and maybe one or two completes, a new guide should be started.  Remember, relocation to a new quest hub usually means you should start a new guide!
 
 `|NODEBUG|` | No debug | Supresses debug warnings for an objective.  Use for quests that don't follow correct title case, for example [A Little Help From My Friends](http://www.wowhead.com/?quest=4491)
 
-`|Q|Quest Name| |QO|Some Mob slain: 10/10| | Sub-objective |` Completes when a sub-objective of the quest matches the QO tag.  *Both values must be specified.*  Works with Note and Kill objectives.  Like quest titles, this is case-sensitive and must match the quest log text EXACTLY.
+`|Q|Quest Name|` `|QO|Some Mob slain: 10/10|` | Sub-objective | Completes when a sub-objective of the quest matches the QO tag.  *Both values must be specified.*  Works with Note and Kill objectives.  Like quest titles, this is case-sensitive and must match the quest log text EXACTLY.
 
-`|T| | Town |`  Signifies that an objective takes place in a "town".  Generally a "town" has a flight point and an inn, but that's not always the case (WPL for example).  Usually used for accept/turnin blocks.  No functional effect beyond changing the objective list's background color to provide a visual queue to the player.
+`|T|` | Town |  Signifies that an objective takes place in a "town".  Generally a "town" has a flight point and an inn, but that's not always the case (WPL for example).  Usually used for accept/turnin blocks.  No functional effect beyond changing the objective list's background color to provide a visual queue to the player.
 
 Guide design guidelines
 -----------------------
